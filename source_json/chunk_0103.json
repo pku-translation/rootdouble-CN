@@ -2,7 +2,6 @@
   "000001": {
     "context": "000001",
     "code": "0x55",
-    "developer_comment": "",
     "string": "√After Chapter1"
   },
   "000005": {
@@ -20,19 +19,19 @@
   "000060": {
     "context": "000060",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "――そして渡瀬たちは、各部屋の捜索を開始した。"
   },
   "000106": {
     "context": "000106",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "外周棟の端にある部屋の前で――風見が消火ホースを構え、扉に向ける。"
   },
   "000150": {
     "context": "000150",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は言われた通り、ＰＤＡのサーモグラフィを起動し、扉の熱を確認した。"
   },
   "000161": {
@@ -50,13 +49,13 @@
   "000196": {
     "context": "000196",
     "code": "0x45",
-    "developer_comment": "洵",
+    "developer_comment": "",
     "string": "その声と共に、洵は扉を開けた。"
   },
   "000263": {
     "context": "000263",
     "code": "0x45",
-    "developer_comment": "洵",
+    "developer_comment": "",
     "string": "扉の向こうは、雑然とした研究室だった。"
   },
   "000274": {
@@ -80,7 +79,7 @@
   "000429": {
     "context": "000429",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "するとすぐに、鉄製の箱が見つかった。"
   },
   "000479": {
@@ -92,7 +91,7 @@
   "000488": {
     "context": "000488",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "しかし――中身は空。すでに誰かが持ち去った後のようだった。"
   },
   "000499": {
@@ -116,19 +115,19 @@
   "000608": {
     "context": "000608",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬たちはその後も次々と、部屋の捜索を行なった。"
   },
   "000613": {
     "context": "000613",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "だがＡＤや要救助者はおろか、煙の出所さえわからぬまま捜索は進み――"
   },
   "000618": {
     "context": "000618",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬はいつしか、炎の脅威を忘れていた。"
   },
   "000670": {
@@ -146,37 +145,37 @@
   "000704": {
     "context": "000704",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見の警告が耳に届く。"
   },
   "000738": {
     "context": "000738",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "だがその時には、渡瀬は扉の開閉ボタンに触れ――"
   },
   "000812": {
     "context": "000812",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "かすかな駆動音を上げ、扉が開く。"
   },
   "000817": {
     "context": "000817",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "――その直後。"
   },
   "000894": {
     "context": "000894",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "ひどく奇妙な音がした。"
   },
   "000899": {
     "context": "000899",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "同時に、空気が吸い込まれるような感触があった。"
   },
   "000905": {
@@ -188,19 +187,19 @@
   "000910": {
     "context": "000910",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は室内に視線を向けた。"
   },
   "000915": {
     "context": "000915",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そして渡瀬が見たものは――"
   },
   "001058": {
     "context": "001058",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "――噴き出して来た炎の渦だった。"
   },
   "001069": {
@@ -212,7 +211,7 @@
   "001074": {
     "context": "001074",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "刹那、脳内に記憶が瞬く。"
   },
   "001174": {
@@ -248,43 +247,40 @@
   "001349": {
     "context": "001349",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そう思った一瞬後、渡瀬は灼熱に包まれていた。"
   },
   "001500": {
     "context": "001500",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　%N　%N　%N"
   },
   "001503": {
     "context": "001503",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "√A バッドエンド2【注意力なき者】"
   },
   "001506": {
     "context": "001506",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001509": {
     "context": "001509",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見と洵の説明を、渡瀬が真剣に聞いていなかった場合の結末。"
   },
   "001512": {
     "context": "001512",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001515": {
     "context": "001515",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "このエンディング直前に入力できるセンシズで、風見と洵と渡瀬をとても高く設定したら、この結末は回避できたかもしれない。"
   }
 }

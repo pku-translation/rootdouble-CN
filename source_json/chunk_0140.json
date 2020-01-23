@@ -2,7 +2,6 @@
   "000076": {
     "context": "000076",
     "code": "0x55",
-    "developer_comment": "",
     "string": "√Before Chapter1"
   },
   "000084": {
@@ -26,37 +25,31 @@
   "000117": {
     "context": "000117",
     "code": "0x85",
-    "developer_comment": "",
     "string": "「――ひこりん」"
   },
   "000126": {
     "context": "000126",
     "code": "0x86",
-    "developer_comment": "",
     "string": "悠里"
   },
   "000127": {
     "context": "000127",
     "code": "0x86",
-    "developer_comment": "",
     "string": "「――ひこりん」"
   },
   "000137": {
     "context": "000137",
     "code": "0x85",
-    "developer_comment": "",
     "string": "「聞こえる、ひこりん？」"
   },
   "000146": {
     "context": "000146",
     "code": "0x86",
-    "developer_comment": "",
     "string": "悠里"
   },
   "000147": {
     "context": "000147",
     "code": "0x86",
-    "developer_comment": "",
     "string": "「聞こえる、ひこりん？」"
   },
   "000410": {
@@ -68,7 +61,7 @@
   "000415": {
     "context": "000415",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "悠里の声を聞いて、夏彦は目を開けた。"
   },
   "000636": {
@@ -86,19 +79,19 @@
   "000760": {
     "context": "000760",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "朦朧とする意識を奮い、夏彦は立ち上がる。"
   },
   "000765": {
     "context": "000765",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "わずかな時間、意識を失い、夢を見ていたらしい。"
   },
   "000843": {
     "context": "000843",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "あたりに煙が立ち込める中、ましろたちが駆け寄ってきた。"
   },
   "000898": {
@@ -128,19 +121,19 @@
   "001162": {
     "context": "001162",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "反射的に腕時計を見ると、それは壊れていた。"
   },
   "001173": {
     "context": "001173",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "それを見た瞬間、思いだした。"
   },
   "001178": {
     "context": "001178",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "今日が９月１６日だという事を。"
   },
   "001232": {
@@ -152,13 +145,13 @@
   "001320": {
     "context": "001320",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "だが途中で、家で待っているはずの悠里と遭遇し――その直後、爆発に巻き込まれたのだ。"
   },
   "001325": {
     "context": "001325",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "見れば爆発の影響か、周囲にちらちらと火が瞬いている。"
   },
   "001336": {
@@ -170,7 +163,7 @@
   "001439": {
     "context": "001439",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "思わず上げたその声に、ましろたちが目を丸くした。"
   },
   "001468": {
@@ -194,13 +187,13 @@
   "001596": {
     "context": "001596",
     "code": "0x45",
-    "developer_comment": "サリュ",
+    "developer_comment": "",
     "string": "はっとしてましろたちが視線を彷徨わせる。"
   },
   "001683": {
     "context": "001683",
     "code": "0x45",
-    "developer_comment": "サリュ",
+    "developer_comment": "",
     "string": "悠里は煙の中に立っていた。"
   },
   "001843": {
@@ -218,25 +211,22 @@
   "002025": {
     "context": "002025",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "そう言いかけた時、放送の声が響いた。"
   },
   "002148": {
     "context": "002148",
     "code": "0x85",
-    "developer_comment": "「爆発は主に、各非常階段付近で発生！」",
     "string": "「今のところ第２エリア以降の非常階段は一部無事ですが、"
   },
   "002150": {
     "context": "002150",
     "code": "0x85",
-    "developer_comment": "「爆発は主に、各非常階段付近で発生！」",
     "string": "それらも随時崩壊している模様です！」"
   },
   "002159": {
     "context": "002159",
     "code": "0x86",
-    "developer_comment": "「爆発は主に、各非常階段付近で発生！」",
     "string": "「今のところ第２エリア以降の非常階段は一部無事ですが、それらも随時崩壊している模様です！」"
   },
   "002202": {
@@ -248,13 +238,13 @@
   "002207": {
     "context": "002207",
     "code": "0x45",
-    "developer_comment": "「危険です！　職員の皆様は、早急に地上に避難して下さい！」",
+    "developer_comment": "",
     "string": "事態は逼迫している。"
   },
   "002308": {
     "context": "002308",
     "code": "0x45",
-    "developer_comment": "「危険です！　職員の皆様は、早急に地上に避難して下さい！」",
+    "developer_comment": "",
     "string": "悠里がなぜここにいるのかはわからないが、問いただしている時間などない。"
   },
   "002416": {
@@ -278,7 +268,7 @@
   "002476": {
     "context": "002476",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "その言葉に、ましろの傍らにいた少女が答える。"
   },
   "002505": {
@@ -302,13 +292,13 @@
   "002644": {
     "context": "002644",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "夏彦の言葉に皆うなずき、そして同時に駆け出した。"
   },
   "002726": {
     "context": "002726",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "走りながら夏彦は、おもむろに言い放つ。"
   },
   "002737": {
@@ -362,13 +352,13 @@
   "002911": {
     "context": "002911",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "悠里は何も答えない。"
   },
   "003012": {
     "context": "003012",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "その時、通路の突き当たりに、閉ざされたゲートが見えてきた。"
   },
   "003023": {
@@ -386,7 +376,7 @@
   "003232": {
     "context": "003232",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "どうやら爆発か火災の影響で、ゲートがわずかに歪み、開かなくなってしまっているらしい。"
   },
   "003370": {
@@ -404,13 +394,13 @@
   "003465": {
     "context": "003465",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "振り返ると通路は、炎に塞がれていた。"
   },
   "003470": {
     "context": "003470",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "今さら引き返す事など出来ない。"
   },
   "003526": {
@@ -428,19 +418,19 @@
   "003801": {
     "context": "003801",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "夏彦たちはゲートに飛びつき、力を込めた。"
   },
   "003881": {
     "context": "003881",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "ゲートが軋む音を立てながら、少しずつ開いていく。"
   },
   "003886": {
     "context": "003886",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "しかし――"
   },
   "003950": {
@@ -464,7 +454,7 @@
   "004090": {
     "context": "004090",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "見れば少しだけ爪がめくれ、血が滲んでいる。"
   },
   "004118": {
@@ -482,19 +472,19 @@
   "004243": {
     "context": "004243",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "ましろを退がらせ、夏彦たちは再びゲートに挑んだ。"
   },
   "004313": {
     "context": "004313",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "背後から火が迫ってくる。急がなければここで焼け死んでしまう。"
   },
   "004318": {
     "context": "004318",
     "code": "0x45",
-    "developer_comment": "ましろ",
+    "developer_comment": "",
     "string": "そうしながらも、ある思いが胸をよぎった。"
   },
   "004370": {
@@ -506,43 +496,40 @@
   "004375": {
     "context": "004375",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "あれはいつの事だったろうか。"
   },
   "004380": {
     "context": "004380",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "そう、悠里にあの妙な予言をされた翌朝だ。"
   },
   "004396": {
     "context": "004396",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "夏彦がそう思った時――"
   },
   "004509": {
     "context": "004509",
     "code": "0x85",
-    "developer_comment": "夏彦",
     "string": "「……予言したのは、それだけじゃないはずだよ」"
   },
   "004525": {
     "context": "004525",
     "code": "0x86",
-    "developer_comment": "夏彦",
     "string": "悠里"
   },
   "004526": {
     "context": "004526",
     "code": "0x86",
-    "developer_comment": "夏彦",
     "string": "「……予言したのは、それだけじゃないはずだよ」"
   },
   "004540": {
     "context": "004540",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "悠里が、すぐ傍で囁いた。"
   },
   "004611": {
@@ -554,7 +541,7 @@
   "004684": {
     "context": "004684",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "喧騒が遠くなり、悠里の声だけが耳に響く。"
   },
   "004695": {
@@ -590,13 +577,13 @@
   "004734": {
     "context": "004734",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "そのとき浮かんだ２つの問いは、どちらも言葉にならなかった。"
   },
   "004739": {
     "context": "004739",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "ただ悠里だけが静かに語る。"
   },
   "004769": {
@@ -614,7 +601,7 @@
   "004803": {
     "context": "004803",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "一言悠里が喋るたび、夏彦の心はざわついた。"
   },
   "004832": {
@@ -638,19 +625,19 @@
   "004877": {
     "context": "004877",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "そして悠里は口をつぐむ。"
   },
   "004882": {
     "context": "004882",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "周囲は静寂に満ち、何の音も聞こえなかった。"
   },
   "004893": {
     "context": "004893",
     "code": "0x45",
-    "developer_comment": "悠里",
+    "developer_comment": "",
     "string": "いや――時計の音だけがかすかに聞こえる。"
   },
   "004899": {
@@ -662,13 +649,13 @@
   "004904": {
     "context": "004904",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "夏彦ははっとして、腕時計を見た。"
   },
   "005123": {
     "context": "005123",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "壊れていたはずの時計が、またいつの間にか時を刻んでいる。"
   },
   "005135": {

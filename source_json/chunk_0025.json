@@ -2,7 +2,6 @@
   "000046": {
     "context": "000046",
     "code": "0x55",
-    "developer_comment": "",
     "string": "√After Chapter2"
   },
   "000061": {
@@ -32,7 +31,7 @@
   "000131": {
     "context": "000131",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬が声をかけると、宇喜多たちははっとして振り返った。"
   },
   "000212": {
@@ -56,7 +55,7 @@
   "000257": {
     "context": "000257",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見の体調悪化については、伏せておく事にした。"
   },
   "000268": {
@@ -104,13 +103,13 @@
   "000441": {
     "context": "000441",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "宇喜多の答えに、一同の表情が沈む。"
   },
   "000446": {
     "context": "000446",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なまじ希望が見えただけに、落胆は大きかった。"
   },
   "000475": {
@@ -128,13 +127,13 @@
   "000491": {
     "context": "000491",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "そう言って宇喜多が、コントロールパネルを操作すると――"
   },
   "000536": {
     "context": "000536",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "モニターに地図らしきものが表示された。"
   },
   "000547": {
@@ -188,13 +187,13 @@
   "000669": {
     "context": "000669",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "およそわかっていた事だが、それでも落胆した。"
   },
   "000674": {
     "context": "000674",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見は地図の下の方を指差して、尋ねる。"
   },
   "000685": {
@@ -212,13 +211,13 @@
   "000701": {
     "context": "000701",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "そこは確かに、真っ赤に塗りつぶされている。"
   },
   "000706": {
     "context": "000706",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "そしてその横に表示されている文字は、『第４エリア』『Ｂ２』――先ほど渡瀬たちが、火災に遭遇した場所だった。"
   },
   "000717": {
@@ -230,13 +229,13 @@
   "000722": {
     "context": "000722",
     "code": "0x45",
-    "developer_comment": "洵",
+    "developer_comment": "",
     "string": "赤くなっているエリアは、第４エリア地下２階だけではない。"
   },
   "000727": {
     "context": "000727",
     "code": "0x45",
-    "developer_comment": "洵",
+    "developer_comment": "",
     "string": "第５エリアにも点在し、第６エリア外周棟に至っては、ほぼ全域が赤く染まっていた。"
   },
   "000738": {
@@ -278,13 +277,13 @@
   "000864": {
     "context": "000864",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "早く風見にＡＤを投与してやらなければならないのに、下の階は完全に通行不能だ。"
   },
   "000869": {
     "context": "000869",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "さらにその先のエリアでも火災が起きているとなると、要救助者の安否も気になる。"
   },
   "000898": {
@@ -296,7 +295,7 @@
   "000903": {
     "context": "000903",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見の言葉に、渡瀬たちは神妙にうなずいた。"
   },
   "000914": {
@@ -326,7 +325,7 @@
   "000988": {
     "context": "000988",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "宇喜多がそう言った時、それまで黙っていたユウリが声を上げた。"
   },
   "001017": {
@@ -344,7 +343,7 @@
   "001033": {
     "context": "001033",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "見ればユウリは、何か小さな冊子のようなものを持っていた。"
   },
   "001062": {
@@ -362,91 +361,87 @@
   "001078": {
     "context": "001078",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "ユウリがページを広げて見せる。"
   },
   "001083": {
     "context": "001083",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "渡瀬たちは頭を寄せて、それを覗き込んだ。"
   },
   "001121": {
     "context": "001121",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "『防災マニュアル（２０３０年版）』"
   },
   "001124": {
     "context": "001124",
     "code": "0x85",
-    "developer_comment": "ユウリ",
     "string": "　"
   },
   "001127": {
     "context": "001127",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "＜ケースＮが発生する前に＞"
   },
   "001130": {
     "context": "001130",
     "code": "0x85",
-    "developer_comment": "ユウリ",
     "string": "　"
   },
   "001133": {
     "context": "001133",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "施設内で、火災や事故など、突発的な事態が発生した場合は、%NケースＮ等の発生も憂慮して下さい。"
   },
   "001136": {
     "context": "001136",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "本マニュアルに従い、施設内のＡＤをまず確保するべきです。"
   },
   "001139": {
     "context": "001139",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "そして万が一、ケースＮ等が発生した場合の対処法は、以下の通りです。"
   },
   "001143": {
     "context": "001143",
     "code": "0x85",
-    "developer_comment": "ユウリ",
     "string": "　%N"
   },
   "001146": {
     "context": "001146",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "＜ケースＮ発生時の対処＞"
   },
   "001149": {
     "context": "001149",
     "code": "0x85",
-    "developer_comment": "ユウリ",
     "string": "　"
   },
   "001152": {
     "context": "001152",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "ケースＮ等発生時にまずやるべき事は、%NただちにＡＤを投与する事です。"
   },
   "001155": {
     "context": "001155",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "地上へ続く隔壁が閉鎖されても、決して慌てないで下さい。"
   },
   "001158": {
     "context": "001158",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "落ち着いて、最寄の部屋に入り、救助が来るのをお待ち下さい。"
   },
   "001208": {
@@ -470,55 +465,53 @@
   "001268": {
     "context": "001268",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　%N"
   },
   "001271": {
     "context": "001271",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜ＡＤについて＞"
   },
   "001274": {
     "context": "001274",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001277": {
     "context": "001277",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "ＡＤは全エリアに常備されています。"
   },
   "001280": {
     "context": "001280",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "職員の皆様は、ご自分の担当エリアのどこにＡＤが配備されているか、点検・確認しておくことを勧めます。"
   },
   "001283": {
     "context": "001283",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "万が一、有事の際にＡＤが破損等したり、足りなくなった場合は、第１・第３・第５エリアに、予備のＡＤを多数配備してあります。"
   },
   "001286": {
     "context": "001286",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "速やかにそれを入手の上、投与をお願いします。"
   },
   "001358": {
     "context": "001358",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "――他にも様々な項目があったが、現在の状況に関係のありそうなものはそれだけだった。"
   },
   "001363": {
     "context": "001363",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "得た情報に、渡瀬はにやりとする。"
   },
   "001374": {
@@ -542,7 +535,7 @@
   "001427": {
     "context": "001427",
     "code": "0x45",
-    "developer_comment": "ユウリ",
+    "developer_comment": "",
     "string": "ユウリはかすかに嬉しそうに笑った。"
   },
   "001481": {
@@ -602,7 +595,7 @@
   "001710": {
     "context": "001710",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見はモニターを見て言った。"
   },
   "001761": {
@@ -620,19 +613,19 @@
   "001777": {
     "context": "001777",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "地図を見ても、３つある道のうち、１つは火災でふさがっている。"
   },
   "001782": {
     "context": "001782",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見曰く、もう１つは『セキュリティスロットそのものが焼失』。"
   },
   "001787": {
     "context": "001787",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "残った道は渡瀬も確認したとおり、カードスロットが壊れていた。"
   },
   "001816": {
@@ -644,7 +637,7 @@
   "001821": {
     "context": "001821",
     "code": "0x45",
-    "developer_comment": "洵",
+    "developer_comment": "",
     "string": "洵がそう言った時、宇喜多が声を上げた。"
   },
   "001850": {
@@ -674,19 +667,19 @@
   "001924": {
     "context": "001924",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "そう言って、宇喜多がまたコントロールパネルを操作した。"
   },
   "001968": {
     "context": "001968",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "それは奇妙な地図だった。地下１階でも地下２階でもないらしい。"
   },
   "001973": {
     "context": "001973",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "そもそも、第３エリアを除いては、設備らしき記述がない。"
   },
   "001984": {
@@ -722,7 +715,7 @@
   "002073": {
     "context": "002073",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "その言葉を聞き、渡瀬は以前施設内で発見した、メモの事を思い出した。"
   },
   "002084": {
@@ -794,7 +787,7 @@
   "002324": {
     "context": "002324",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "その言葉に、渡瀬たちは色めきだった。"
   },
   "002335": {
@@ -818,7 +811,7 @@
   "002380": {
     "context": "002380",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "宇喜多は照れたように、頭をかいた。"
   },
   "002409": {
@@ -854,7 +847,7 @@
   "002535": {
     "context": "002535",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は一瞬考え、すぐに答えを出した。"
   },
   "002554": {
@@ -872,13 +865,13 @@
   "002634": {
     "context": "002634",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見はずいぶん不安そうだった。"
   },
   "002646": {
     "context": "002646",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "だがそれでも渡瀬は、そのまま主張を押し通した。"
   },
   "002657": {
@@ -890,7 +883,7 @@
   "002662": {
     "context": "002662",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬はそう思い直し、言った。"
   },
   "002673": {
@@ -956,13 +949,13 @@
   "002907": {
     "context": "002907",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬と宇喜多は、顔を見合わせて苦笑した。"
   },
   "002930": {
     "context": "002930",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "宇喜多はその一瞬後、真剣な顔に戻って言う。"
   },
   "002941": {
@@ -986,7 +979,7 @@
   "002968": {
     "context": "002968",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見の言葉に従い、全員ＰＤＡを取り出した。――ユウリを除いては。"
   },
   "002979": {
@@ -1016,7 +1009,7 @@
   "003072": {
     "context": "003072",
     "code": "0x45",
-    "developer_comment": "恵那",
+    "developer_comment": "",
     "string": "――ともかくユウリ以外のＰＤＡに、その地図をダウンロードした。"
   },
   "003101": {
@@ -1040,7 +1033,7 @@
   "003146": {
     "context": "003146",
     "code": "0x45",
-    "developer_comment": "宇喜多",
+    "developer_comment": "",
     "string": "それを受け取る宇喜多の肩を、渡瀬はぽんと叩いて言う。"
   },
   "003157": {
@@ -1052,7 +1045,7 @@
   "003162": {
     "context": "003162",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬たちは制御室を後にした。"
   }
 }

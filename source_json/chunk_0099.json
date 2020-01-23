@@ -2,7 +2,6 @@
   "000068": {
     "context": "000068",
     "code": "0x55",
-    "developer_comment": "",
     "string": "√After Chapter6"
   },
   "000083": {
@@ -14,7 +13,7 @@
   "000088": {
     "context": "000088",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "第３エリアに入った渡瀬は、風見にそう告げた。"
   },
   "000099": {
@@ -62,19 +61,19 @@
   "000201": {
     "context": "000201",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "搬出リフトからの脱出が叶わなかったあの時、渡瀬も他の脱出手段を探った。"
   },
   "000206": {
     "context": "000206",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "だがそれを見つけられずにいる内に、他の問題が頻出するようになった。"
   },
   "000211": {
     "context": "000211",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そして今に至るわけだが――"
   },
   "000222": {
@@ -86,7 +85,7 @@
   "000227": {
     "context": "000227",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "その時、渡瀬はある事を思い出した。"
   },
   "000238": {
@@ -104,7 +103,7 @@
   "000272": {
     "context": "000272",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬はうなずき、風見を見据えた。"
   },
   "000283": {
@@ -188,13 +187,13 @@
   "000571": {
     "context": "000571",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "その言葉を聞いた時――"
   },
   "000576": {
     "context": "000576",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬は目を見開いた。"
   },
   "000587": {
@@ -260,19 +259,19 @@
   "000763": {
     "context": "000763",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬はうなずき、エンジンルームに向かった。"
   },
   "000861": {
     "context": "000861",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "――久しぶりに戻ってきた、エンジンルーム――"
   },
   "000866": {
     "context": "000866",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "夏彦とサリュを床に横たえた渡瀬たちは、例の端末に駆け寄り、それを操作した。"
   },
   "000916": {
@@ -284,259 +283,244 @@
   "000921": {
     "context": "000921",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は風見と頭を寄せ合い、そのモニターに目を走らせた。"
   },
   "000959": {
     "context": "000959",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "『ＷＸ粒子増幅器　運用マニュアル』"
   },
   "000962": {
     "context": "000962",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "000965": {
     "context": "000965",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜はじめに＞"
   },
   "000968": {
     "context": "000968",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "000971": {
     "context": "000971",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "本書はＷＸ粒子増幅器の運用マニュアルである。"
   },
   "000974": {
     "context": "000974",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "運用には極めて危険が伴うため、当マニュアルを熟読の末、%N作業に従事して頂きたい。"
   },
   "000977": {
     "context": "000977",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "000980": {
     "context": "000980",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なおＷＸ粒子はその性質上、人体に多大な悪影響を与える。"
   },
   "000983": {
     "context": "000983",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "感覚異常・脳機能障害・遺伝子障害等がその例である。"
   },
   "000986": {
     "context": "000986",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なお粒子エネルギー量と、症状の関係は以下の通り。"
   },
   "000990": {
     "context": "000990",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜ＡＤ未投与時＞"
   },
   "000993": {
     "context": "000993",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "000996": {
     "context": "000996",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　０ｍＳｖ～２０００ｍＳｖ　：　身体への影響なし"
   },
   "000999": {
     "context": "000999",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001002": {
     "context": "001002",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "２０００ｍＳｖ～４０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
   },
   "001005": {
     "context": "001005",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
   },
   "001008": {
     "context": "001008",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001011": {
     "context": "001011",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "４０００ｍＳｖ～８０００ｍＳｖ　：　脳機能障害・"
   },
   "001014": {
     "context": "001014",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
   },
   "001017": {
     "context": "001017",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001020": {
     "context": "001020",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "８０００ｍＳｖ～　　　　　　　　：　意識断絶"
   },
   "001023": {
     "context": "001023",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001026": {
     "context": "001026",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "（以上、エネルギー量に比例して、症状の強度・発生確率は増加）"
   },
   "001030": {
     "context": "001030",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜ＡＤ投与時＞"
   },
   "001033": {
     "context": "001033",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001036": {
     "context": "001036",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　０ｍＳｖ～６０００ｍＳｖ　：　身体への影響なし"
   },
   "001039": {
     "context": "001039",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001042": {
     "context": "001042",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "６０００ｍＳｖ～８０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
   },
   "001045": {
     "context": "001045",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
   },
   "001048": {
     "context": "001048",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001051": {
     "context": "001051",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "８０００ｍＳｖ～１２０００ｍＳｖ：　脳機能障害・"
   },
   "001054": {
     "context": "001054",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
   },
   "001057": {
     "context": "001057",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001060": {
     "context": "001060",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "１２０００ｍＳｖ～　　　　　　　：　意識断絶"
   },
   "001063": {
     "context": "001063",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001066": {
     "context": "001066",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "（※ＡＤ投与時は、未投与時の値より、４０００ｍＳｖ程度加算）"
   },
   "001070": {
     "context": "001070",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　%N　%N　%N　%N"
   },
   "001073": {
     "context": "001073",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "通常の運用時は、"
   },
   "001076": {
     "context": "001076",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "粒子エネルギー量を２０００ｍＳｖ以上にしてはならない。"
   },
   "001079": {
     "context": "001079",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001082": {
     "context": "001082",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "また各種高度実験時に際しては、"
   },
   "001085": {
     "context": "001085",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "粒子エネルギー量を４０００ｍＳｖ以上にしてはならない。"
   },
   "001117": {
@@ -560,7 +544,7 @@
   "001165": {
     "context": "001165",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬も同感だった。だが今はそれより、もっと重要な事がある。"
   },
   "001176": {
@@ -572,115 +556,112 @@
   "001181": {
     "context": "001181",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "マニュアルを読み進めていくうち、やがてある項目が眼に止まった。"
   },
   "001258": {
     "context": "001258",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜水冷式冷却システムについて＞"
   },
   "001261": {
     "context": "001261",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001264": {
     "context": "001264",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "増幅器の稼動時は、大量の熱が発生する。"
   },
   "001267": {
     "context": "001267",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "その熱を冷却するため、鹿鳴湖の自然水を使用した水冷システムが、エンジンルームに設置されている。"
   },
   "001270": {
     "context": "001270",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "冷却水は『取水パイプ』によって取水され、%N『排水パイプ』によって排水される。"
   },
   "001273": {
     "context": "001273",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "各パイプの直径は１ｍ。厚みは２．４ｃｍ。%N水量は毎分約１２００リットル。"
   },
   "001276": {
     "context": "001276",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "取水パイプから取水された冷却水は、水温が約２５℃上昇した後、排出される。"
   },
   "001279": {
     "context": "001279",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001282": {
     "context": "001282",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "（８月の鹿鳴湖の水温を２８℃とした場合、排出時は５３℃）"
   },
   "001287": {
     "context": "001287",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001290": {
     "context": "001290",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "水流の制御は、排水パイプ内に設置された『強制循環ポンプ』によって行われる。"
   },
   "001293": {
     "context": "001293",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "また取水パイプ内には、パイプ内に異物が混入する事を避けるための『濾過機構』が存在する。"
   },
   "001296": {
     "context": "001296",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "濾過機構によって高速で蒸留・濾過された水のみが、%N冷却水として使用される。"
   },
   "001299": {
     "context": "001299",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "藻などの異物は、濾過機構内に存在する異物排出口から、%N自動で排出される。"
   },
   "001302": {
     "context": "001302",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "濾過機構が故障した場合、増幅器内に異物混入水が流入してしまい、深刻な故障が発生する危険性がある。"
   },
   "001305": {
     "context": "001305",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "故に濾過機構の故障時は、自動で取水パイプ内の『水門』が閉まり、異物混入水の流入を避ける。"
   },
   "001308": {
     "context": "001308",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "同時に強制循環ポンプ及び増幅器の運転も停止し、水流は停止する。"
   },
   "001311": {
     "context": "001311",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なお、各設備の位置関係は、以下の図の通り。"
   },
   "001343": {
@@ -692,7 +673,7 @@
   "001348": {
     "context": "001348",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬はそれを見ながら、低い声で呟いた。"
   },
   "001359": {
@@ -704,25 +685,25 @@
   "001368": {
     "context": "001368",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "見上げると天井付近には、『取水パイプ』と『排水パイプ』が、並んで走っている。"
   },
   "001373": {
     "context": "001373",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そこまで登るためのハシゴも、パイプのそばにあった。"
   },
   "001378": {
     "context": "001378",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "耳を澄ませば、パイプ内を水が流れる音も聞こえる。"
   },
   "001383": {
     "context": "001383",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そして取水パイプの下には、大きな機械が見える。どうやらあれが『濾過機構』らしい。"
   },
   "001394": {
@@ -872,7 +853,7 @@
   "001746": {
     "context": "001746",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬たちは向き合い、そして考え始めた。"
   },
   "001775": {
@@ -926,7 +907,7 @@
   "001911": {
     "context": "001911",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "強がりを言う渡瀬に、風見はにやりと笑った。"
   },
   "001922": {
@@ -998,19 +979,19 @@
   "002109": {
     "context": "002109",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "不安定な作戦だが、それに賭けるしかなかった。"
   },
   "002114": {
     "context": "002114",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "１つ１つ問題を潰し、計画の実現性を高めていく。"
   },
   "002119": {
     "context": "002119",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "だが、それでもなお――真の問題がまだ残っていた。"
   },
   "002130": {
@@ -1028,7 +1009,7 @@
   "002146": {
     "context": "002146",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見がうなずき、そして考え込む。"
   },
   "002175": {
@@ -1124,13 +1105,13 @@
   "002446": {
     "context": "002446",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は考えた。今までのどの局面より真剣に。"
   },
   "002451": {
     "context": "002451",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "この５時間あまりの間に得た、全ての知識を総動員して。"
   },
   "002457": {
@@ -1142,13 +1123,13 @@
   "002462": {
     "context": "002462",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬たちが着ている防火服。これは火に対して耐性はあるが、熱水に対しては役に立たないだろう。"
   },
   "002467": {
     "context": "002467",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "袖や襟などあらゆるところに隙間があり、そこから熱水が入ってくるからだ。"
   },
   "002473": {
@@ -1160,7 +1141,7 @@
   "002478": {
     "context": "002478",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "だがそれでも顔は露出している。そもそも完全な密閉をする事など不可能だろう。"
   },
   "002484": {
@@ -1172,25 +1153,25 @@
   "002489": {
     "context": "002489",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "今まで見てきたものを思い出す。"
   },
   "002494": {
     "context": "002494",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "簡易基地にあった装備。空気ボンベ、空気ジャッキ、ＡＤ、プロキオン、エンジンカッター。"
   },
   "002499": {
     "context": "002499",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬が持っていたもの。ＰＤＡ、セキュリティカード――どれも役に立ちそうにない。"
   },
   "002504": {
     "context": "002504",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "施設内で見つけたもの。輸血用血液、輸血キット、酸素ボンベ、カイローン、蒸留水、拳銃――どれも役に立ちそうにない！"
   },
   "002510": {
@@ -1202,25 +1183,25 @@
   "002515": {
     "context": "002515",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "自分の辿ってきた道を振り返る。"
   },
   "002520": {
     "context": "002520",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "目覚めて、風見と洵に出会い、ユウリを救助した。"
   },
   "002525": {
     "context": "002525",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "簡易基地で装備を整え、恵那や宇喜多と出会い、夏彦たちの映像を見て捜索を開始した。"
   },
   "002530": {
     "context": "002530",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "仲間の死体を発見し、それでも捜索を続行し、消火システムを起動して火を消して――"
   },
   "002545": {
@@ -1232,19 +1213,19 @@
   "002550": {
     "context": "002550",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬の口から、声が漏れた。"
   },
   "002555": {
     "context": "002555",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "あの時、風見が言っていた事を思い出す。"
   },
   "002669": {
     "context": "002669",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "――捜索開始当初、簡易基地に行った時――"
   },
   "002698": {
@@ -1268,13 +1249,13 @@
   "002743": {
     "context": "002743",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "あの時、風見は防護服の残骸を指差して言った。"
   },
   "002748": {
     "context": "002748",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "それは面体の部分がヒビ割れてしまっていた。"
   },
   "002803": {
@@ -1286,25 +1267,25 @@
   "002850": {
     "context": "002850",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "さらにあの時、見たものを思い出す。"
   },
   "002855": {
     "context": "002855",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "下半身が焼けただれた死体を――！"
   },
   "002941": {
     "context": "002941",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬の目が見開かれた。"
   },
   "002946": {
     "context": "002946",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "その２つの記憶こそが、渡瀬の求める答えだった。"
   },
   "002957": {
@@ -1340,19 +1321,19 @@
   "003042": {
     "context": "003042",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見が言うには、あの防護服は気密性と耐水性が高い。"
   },
   "003047": {
     "context": "003047",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "ならばそれを着れば、熱水が染みてくる事もない。"
   },
   "003052": {
     "context": "003052",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "『５３℃の水温』は、『５３℃の気温』に変わる――耐えられる温度になるのだ！"
   },
   "003081": {
@@ -1394,13 +1375,13 @@
   "003177": {
     "context": "003177",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "風見の目に、逡巡の色が浮かぶ。"
   },
   "003182": {
     "context": "003182",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "宇喜多や洵が徘徊しているこの施設内を、単独で移動するのは危険だろう。しかし――"
   },
   "003193": {
@@ -1412,7 +1393,7 @@
   "003198": {
     "context": "003198",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬はそう言って、ハシゴに足をかけた。"
   },
   "003209": {
@@ -1430,19 +1411,19 @@
   "003243": {
     "context": "003243",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "渡瀬はうなずき、そしてハシゴを駆け降りた。"
   },
   "003292": {
     "context": "003292",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "――渡瀬はそのまま、第２エリアの簡易基地に向かった。"
   },
   "003341": {
     "context": "003341",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "そこで空気ボンベと、防護服の残骸を手に入れる。"
   },
   "003347": {
@@ -1454,19 +1435,19 @@
   "003352": {
     "context": "003352",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は割れた面体を外し、それを放り捨て、簡易基地を飛び出した。"
   },
   "003439": {
     "context": "003439",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "――Ｎエリアを経由し、そこで斧を拾い、"
   },
   "003526": {
     "context": "003526",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "今度は第４エリアに向かう。"
   },
   "003532": {
@@ -1490,13 +1471,13 @@
   "003549": {
     "context": "003549",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そう思いながら走り、エレベーターホールに辿り着いた。"
   },
   "003595": {
     "context": "003595",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そこには今もなお、桧山の死体があった。"
   },
   "003606": {
@@ -1508,13 +1489,13 @@
   "003611": {
     "context": "003611",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬は桧山に謝り、そしてその死体から――"
   },
   "003660": {
     "context": "003660",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "面体をはぎとった。"
   },
   "003706": {
@@ -1526,19 +1507,19 @@
   "003711": {
     "context": "003711",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "斧、空気ボンベ、割れてない面体と、破損してない防護服。"
   },
   "003765": {
     "context": "003765",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "渡瀬はそれらを手に抱え、再び駆け出した。"
   },
   "003770": {
     "context": "003770",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "風見たちの待つ、エンジンルームに向けて。"
   }
 }

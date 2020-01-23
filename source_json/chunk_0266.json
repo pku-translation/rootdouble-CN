@@ -2,7 +2,6 @@
   "000049": {
     "context": "000049",
     "code": "0x55",
-    "developer_comment": "",
     "string": "√Current Chapter3"
   },
   "000060": {
@@ -128,7 +127,7 @@
   "000868": {
     "context": "000868",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "そしてあてもなく駆け出した渡瀬たちが、第１エリアへ繋がる連絡通路で遭遇したのは――"
   },
   "000992": {
@@ -170,7 +169,7 @@
   "001099": {
     "context": "001099",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "――洵から逃れて通路を走りながら、風見が呆然と呟いた。"
   },
   "001186": {
@@ -188,7 +187,7 @@
   "001202": {
     "context": "001202",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "それを聞いて、夏彦も思う。"
   },
   "001208": {
@@ -218,7 +217,7 @@
   "001231": {
     "context": "001231",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "だが、そのとき渡瀬が言った。"
   },
   "001264": {
@@ -242,13 +241,13 @@
   "001291": {
     "context": "001291",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "それは夏彦の意識をも、奮い立たせる言葉だった。"
   },
   "001338": {
     "context": "001338",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "やがて一縷の希望を求めて向かったエンジンルームで、渡瀬たちが発見したものは――"
   },
   "001409": {
@@ -260,253 +259,238 @@
   "001447": {
     "context": "001447",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "『ＷＸ粒子増幅器　運用マニュアル』"
   },
   "001450": {
     "context": "001450",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001453": {
     "context": "001453",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜はじめに＞"
   },
   "001456": {
     "context": "001456",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001459": {
     "context": "001459",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "本書はＷＸ粒子増幅器の運用マニュアルである。"
   },
   "001462": {
     "context": "001462",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "運用には極めて危険が伴うため、当マニュアルを熟読の末、%N作業に従事して頂きたい。"
   },
   "001465": {
     "context": "001465",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001468": {
     "context": "001468",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なおＷＸ粒子はその性質上、人体に多大な悪影響を与える。"
   },
   "001471": {
     "context": "001471",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "感覚異常・脳機能障害・遺伝子障害等がその例である。"
   },
   "001474": {
     "context": "001474",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "なお粒子エネルギー量と、症状の関係は以下の通り。"
   },
   "001478": {
     "context": "001478",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜ＡＤ未投与時＞"
   },
   "001481": {
     "context": "001481",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001484": {
     "context": "001484",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　０ｍＳｖ～２０００ｍＳｖ　：　身体への影響なし"
   },
   "001487": {
     "context": "001487",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001490": {
     "context": "001490",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "２０００ｍＳｖ～４０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
   },
   "001493": {
     "context": "001493",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
   },
   "001496": {
     "context": "001496",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001499": {
     "context": "001499",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "４０００ｍＳｖ～８０００ｍＳｖ　：　脳機能障害・"
   },
   "001502": {
     "context": "001502",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
   },
   "001505": {
     "context": "001505",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001508": {
     "context": "001508",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "８０００ｍＳｖ～　　　　　　　　：　意識断絶"
   },
   "001511": {
     "context": "001511",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001514": {
     "context": "001514",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "（以上、エネルギー量に比例して、症状の強度・発生確率は増加）"
   },
   "001518": {
     "context": "001518",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "＜ＡＤ投与時＞"
   },
   "001521": {
     "context": "001521",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001524": {
     "context": "001524",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　０ｍＳｖ～６０００ｍＳｖ　：　身体への影響なし"
   },
   "001527": {
     "context": "001527",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001530": {
     "context": "001530",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "６０００ｍＳｖ～８０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
   },
   "001533": {
     "context": "001533",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
   },
   "001536": {
     "context": "001536",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001539": {
     "context": "001539",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "８０００ｍＳｖ～１２０００ｍＳｖ：　脳機能障害・"
   },
   "001542": {
     "context": "001542",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
   },
   "001545": {
     "context": "001545",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001548": {
     "context": "001548",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "１２０００ｍＳｖ～　　　　　　　：　意識断絶"
   },
   "001551": {
     "context": "001551",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001554": {
     "context": "001554",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "（※ＡＤ投与時は、未投与時の値より、４０００ｍＳｖ程度加算）"
   },
   "001558": {
     "context": "001558",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　%N　%N　%N　%N"
   },
   "001561": {
     "context": "001561",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "通常の運用時は、"
   },
   "001564": {
     "context": "001564",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "粒子エネルギー量を２０００ｍＳｖ以上にしてはならない。"
   },
   "001567": {
     "context": "001567",
     "code": "0x85",
-    "developer_comment": "渡瀬",
     "string": "　"
   },
   "001570": {
     "context": "001570",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "また各種高度実験時に際しては、"
   },
   "001573": {
     "context": "001573",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "粒子エネルギー量を４０００ｍＳｖ以上にしてはならない。"
   },
   "001640": {
@@ -524,7 +508,7 @@
   "001651": {
     "context": "001651",
     "code": "0x45",
-    "developer_comment": "夏彦",
+    "developer_comment": "",
     "string": "――夏彦の意識に様々な疑問がよぎったが、渡瀬が求めるものは別にあった。"
   },
   "001662": {
@@ -548,25 +532,25 @@
   "001848": {
     "context": "001848",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "冷却装置を停止させ、排水パイプを通って外と連絡を取り、救助隊を中へ誘導する。"
   },
   "001853": {
     "context": "001853",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "それが渡瀬の考えた、全員が生き残るための方法だった。"
   },
   "001858": {
     "context": "001858",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そして渡瀬は必要な道具をかき集め、救援を求めて１人パイプの中を泳いでいった。"
   },
   "001863": {
     "context": "001863",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "だが――"
   },
   "002010": {
@@ -608,7 +592,7 @@
   "002163": {
     "context": "002163",
     "code": "0x45",
-    "developer_comment": "風見",
+    "developer_comment": "",
     "string": "――その方法は、結局失敗に終わってしまった。"
   },
   "002169": {
@@ -632,13 +616,13 @@
   "002354": {
     "context": "002354",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "そしてたどり着いた隔壁の前で、ラボ全体が主電源から非常用電源に切り替わった時――"
   },
   "002409": {
     "context": "002409",
     "code": "0x45",
-    "developer_comment": "渡瀬",
+    "developer_comment": "",
     "string": "サリュが目覚め、風見に牙を剥いた。"
   }
 }
