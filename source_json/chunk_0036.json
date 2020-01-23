@@ -1,0 +1,842 @@
+[
+  {
+    "index": 8,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter3"
+  },
+  {
+    "index": 22,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうして渡瀬を先頭に、６人は第５エリアに向かった。"
+  },
+  {
+    "index": 28,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "地下２階のセキュリティゲートは、カードスロットが焼失していたので、地下１階に戻り――"
+  },
+  {
+    "index": 33,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして今まで閉ざされていた扉を開けた。"
+  },
+  {
+    "index": 114,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その扉が開くなり、渡瀬はプロキオンを見た。"
+  },
+  {
+    "index": 218,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「頼むぞ……！」"
+  },
+  {
+    "index": 223,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "汚染区域だったら、せっかく開いた道が閉ざされてしまう。"
+  },
+  {
+    "index": 228,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが――数値は『３４５１ｍＳｖ』と、安全基準値以内だった。"
+  },
+  {
+    "index": 255,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、いける！　みんな急ごう！」"
+  },
+  {
+    "index": 322,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね！　監視カメラの映像でも、天川くんたちはこっち方面に逃げてたし！」"
+  },
+  {
+    "index": 327,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "要救助者の名を聞き、黙りこくっていた風見の眉が、ぴくりと動いた。"
+  },
+  {
+    "index": 357,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに、この先に要救助者がいる可能性は高いですね……」"
+  },
+  {
+    "index": 388,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だね。もう火に悩まされる心配もないし、ここからは要救助者とＡＤの事を第一に考えよう」"
+  },
+  {
+    "index": 393,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵もかすかに明るい声で言う。"
+  },
+  {
+    "index": 398,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "まだショックは残っているようだが、少しずついつもの２人に戻ってきているようだ。"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（よかった……）"
+  },
+  {
+    "index": 409,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はかすかに微笑んで、連絡通路を歩き出し――"
+  },
+  {
+    "index": 484,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして第５エリアに、足を踏み入れた。"
+  },
+  {
+    "index": 533,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――第５エリア外周棟・地下１階――"
+  },
+  {
+    "index": 539,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこは壁も天井も白で統一された、明るく清潔なフロアだった。"
+  },
+  {
+    "index": 550,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ここはまた、今までとずいぶん雰囲気が違うな……」"
+  },
+  {
+    "index": 615,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんか、病院みたいな場所ね？」"
+  },
+  {
+    "index": 620,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "確かに清潔過ぎて、薄ら寒くなるようなこの雰囲気は、病院とよく似ている。"
+  },
+  {
+    "index": 672,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさん、このエリアはなんだ？」"
+  },
+  {
+    "index": 683,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここは『シニアフェロー』――上級研究員たちの実験棟さ」"
+  },
+  {
+    "index": 712,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕ら『ジュニアフェロー』、つまり通常研究員が出入りする実験室より、遥かに高度な設備が整っている区画だ」"
+  },
+  {
+    "index": 803,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「部屋数も多いし、みんなで手分けしたほうが良さそうだね」"
+  },
+  {
+    "index": 814,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ではチーム分けは？」"
+  },
+  {
+    "index": 825,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第４エリアを捜索した時とほぼ同じでいいか？」"
+  },
+  {
+    "index": 836,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレと守部と先生。そして橘とおっさんとユウリで……」"
+  },
+  {
+    "index": 865,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、それで結構です」"
+  },
+  {
+    "index": 923,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だがそう提案しつつも渡瀬は、風見と離れるのが少々気がかりだった。"
+  },
+  {
+    "index": 928,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "彼女に歩み寄り、小声で問う。"
+  },
+  {
+    "index": 939,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘……ホントに大丈夫か？」"
+  },
+  {
+    "index": 968,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ご心配なく。それより守部をお願いします」"
+  },
+  {
+    "index": 979,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……わかった。それじゃオレたちは内周棟を捜索しよう」"
+  },
+  {
+    "index": 1025,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「了解しました。我々は外周棟を」"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあオレたちは、内周棟の捜索をする」"
+  },
+  {
+    "index": 1068,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ん、了解！」"
+  },
+  {
+    "index": 1097,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それじゃ行きましょうか」"
+  },
+  {
+    "index": 1102,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう言うと渡瀬たちは、さっそく内周棟に向かった。"
+  },
+  {
+    "index": 1221,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――第５エリア内周棟・地下１階――"
+  },
+  {
+    "index": 1299,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そこを歩きながら、恵那が独り言のように呟いた。"
+  },
+  {
+    "index": 1356,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……火はもう消えて、捜索はしやすくなったけど……」"
+  },
+  {
+    "index": 1367,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？」"
+  },
+  {
+    "index": 1396,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くんたち、大丈夫かしら」"
+  },
+  {
+    "index": 1401,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう言う彼女の声には、若干の焦りが滲んでいた。"
+  },
+  {
+    "index": 1406,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "先ほど新たな死体を見たことで、また心配の虫がうずいたのだろう。"
+  },
+  {
+    "index": 1438,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……先生、やっぱり生徒のことが心配か？」"
+  },
+  {
+    "index": 1467,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そりゃあね。教師だからという事もあるけど……天川くんや鳥羽さんとは、特に親しかったから」"
+  },
+  {
+    "index": 1478,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「個人的にも、仲が良かったってわけか」"
+  },
+  {
+    "index": 1507,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね、教師は平等でなくてはならないとは思うけど――」"
+  },
+  {
+    "index": 1518,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あの２人は端から見ていて、なんとも微笑ましい子たちなのよ。いいカップルというか」"
+  },
+  {
+    "index": 1523,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そこへ洵が口を挟んでくる。"
+  },
+  {
+    "index": 1559,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「わかるよ……いい子だもんね、夏彦くんもましろちゃんも」"
+  },
+  {
+    "index": 1568,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（それにしても、もう犠牲者が４人も出ちまったのか……）"
+  },
+  {
+    "index": 1573,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "次々と発見される死体――恵那が生徒たちを心配するのも当然だろう。"
+  },
+  {
+    "index": 1578,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "すると洵が、そんな恵那を気遣った。"
+  },
+  {
+    "index": 1614,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「椿山さんが心配するのもわかるよ……いい子だもんね、夏彦くんもましろちゃんも」"
+  },
+  {
+    "index": 1643,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ……」"
+  },
+  {
+    "index": 1654,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば、守部もあの映像の高校生たちとは面識があると言っていたな？」"
+  },
+  {
+    "index": 1683,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうなんだよ。知り合ったのは、つい何日か前なんだけど……あたしを慕ってくれてさ」"
+  },
+  {
+    "index": 1688,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "だがその口ぶりに、気になるところがあった。"
+  },
+  {
+    "index": 1699,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁ、もう１人はどうなんだ？」"
+  },
+  {
+    "index": 1752,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの、さっき会った……三ノ宮という子は」"
+  },
+  {
+    "index": 1763,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「彼女？　彼女については、私もちょっとわからない部分が多いのよ」"
+  },
+  {
+    "index": 1774,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わからない？」"
+  },
+  {
+    "index": 1785,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「実は彼女はね、１週間前にうちの学校に転校してきたばかりなの」"
+  },
+  {
+    "index": 1796,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くんたちとは、すぐに友達になってたみたいだけど」"
+  },
+  {
+    "index": 1807,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……」"
+  },
+  {
+    "index": 1812,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "しかしなぜ彼女は、レスキュー隊を見るなり逃げたのか。"
+  },
+  {
+    "index": 1817,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "傍に恵那がいたというのに。"
+  },
+  {
+    "index": 1823,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（理由は先生でも、わからないのか……）"
+  },
+  {
+    "index": 1847,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……だったら会って、直接聞きたいな。彼女がどんな子なのか」"
+  },
+  {
+    "index": 1876,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね……これからも一緒に、学校に通いたいもの」"
+  },
+  {
+    "index": 1905,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「よし、じゃあテキパキ捜索しよっか」"
+  },
+  {
+    "index": 1916,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だな」"
+  },
+  {
+    "index": 1921,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちはそう言って、足を速めた。"
+  },
+  {
+    "index": 1928,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思った時、ふとある考えが思い浮かんだ。"
+  },
+  {
+    "index": 1939,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……そう言えば、あの子。ＡＤについて質問した途端、逃げ出したな」"
+  },
+  {
+    "index": 1968,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  {
+    "index": 1979,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、『ここは汚染区域だ！　ＡＤは投与したのか！？』ってオレが質問しただろ」"
+  },
+  {
+    "index": 2008,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうだったかしら……でもそれがどうかしたの？」"
+  },
+  {
+    "index": 2019,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、ひょっとして、あの子……自分の持っているＡＤを、オレたちに奪われると誤解したんじゃないのか？」"
+  },
+  {
+    "index": 2048,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え！？　……そんな事ってあると思う？」"
+  },
+  {
+    "index": 2077,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「担任教師とレスキュー隊員に対して、そこまで不信感を抱くかしら」"
+  },
+  {
+    "index": 2088,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、わからんぞ。誰にとってもＡＤは貴重だし……閉じ込められているこの状況じゃ、疑心暗鬼にもなりかねん」"
+  },
+  {
+    "index": 2117,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……っ」"
+  },
+  {
+    "index": 2122,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "嫌な感じの沈黙が訪れた。すぐに洵が笑って言う。"
+  },
+  {
+    "index": 2151,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なにバカなこと言ってんの、隊長？　そんな事あるわけないじゃん」"
+  },
+  {
+    "index": 2180,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そんな事より捜索だよ、時間ないんだからテキパキいこ」"
+  },
+  {
+    "index": 2191,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……まぁ、そうだな」"
+  },
+  {
+    "index": 2196,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は疑惑を振り切り、足を速めた。"
+  },
+  {
+    "index": 2294,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "内周棟の各部屋を回る。"
+  },
+  {
+    "index": 2343,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "上級研究員の実験棟と言っても、部屋の中は今まで見た研究室と、そう代わり映えはしなかった。"
+  },
+  {
+    "index": 2392,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "要救助者もＡＤも見つからない。"
+  },
+  {
+    "index": 2441,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、最後に辿り着いた部屋は――他の部屋とは、様相が違っていた。"
+  },
+  {
+    "index": 2492,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？　ここは……医務室か」"
+  },
+  {
+    "index": 2557,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ここならＡＤがあるかもしれないわね？」"
+  },
+  {
+    "index": 2587,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それ以外にも、役立つものがあるかもしれないよ。探そう」"
+  },
+  {
+    "index": 2598,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう！」"
+  },
+  {
+    "index": 2657,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちは色めきだって、その部屋を調べ始めた。"
+  },
+  {
+    "index": 2716,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "さすがに医務室というだけあって、そこには様々な医療設備が置かれていた。"
+  },
+  {
+    "index": 2721,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "診療用のベッド、小型の酸素ボンベと吸入器、輸血キット。"
+  },
+  {
+    "index": 2726,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして大きな戸棚らしきものもあった。"
+  },
+  {
+    "index": 2739,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ん、さてはここに……？）"
+  },
+  {
+    "index": 2744,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は戸棚に手を伸ばし、それを開けた。"
+  },
+  {
+    "index": 2755,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "途端にひやりとした冷気が漏れ出してきた。"
+  },
+  {
+    "index": 2760,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それは戸棚ではなく、冷蔵庫のようだった。"
+  },
+  {
+    "index": 2765,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこに赤い液体が入った、『Ａ』『Ｂ』『Ｏ』『ＡＢ』などと書かれたパックが並んでいる。"
+  },
+  {
+    "index": 2771,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（血液……？）"
+  },
+  {
+    "index": 2776,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "どうやら輸血用血液までが常備されているらしい。"
+  },
+  {
+    "index": 2782,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（本格的な医務室……っていうか、それこそ病院みたいだな）"
+  },
+  {
+    "index": 2787,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、入っているのはそれだけだった。ＡＤは１本も見つからない。"
+  },
+  {
+    "index": 2792,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は諦めて冷蔵庫を閉めた。"
+  },
+  {
+    "index": 2824,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長、何かあった？」"
+  },
+  {
+    "index": 2835,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、こっちは駄目だな」"
+  },
+  {
+    "index": 2846,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「酸素吸入器や輸血キットは使い道がありそうだが、とりあえず今は必要なさそうだ」"
+  },
+  {
+    "index": 2875,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「こっちもだよ。ＡＤの空アンプルは結構あったんだけど……中身の入っているものは、１本もないよ」"
+  },
+  {
+    "index": 2880,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は空のアンプルや、メディカルボックスを差し出して言った。"
+  },
+  {
+    "index": 2885,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "恐らく避難しようとした研究員や職員達が、みんな持ち去ってしまったのだろう。"
+  },
+  {
+    "index": 2896,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「くそ、当て外れか！」"
+  },
+  {
+    "index": 2925,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まぁ夏彦くんたちがここでＡＤを見つけて、持っていったのかもしれないけど。だったらむしろいい事かな」"
+  },
+  {
+    "index": 2936,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、楽観はできないだろ。数が足りるとは限らないし」"
+  },
+  {
+    "index": 2941,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう呟いた時、恵那が声を上げた。"
+  },
+  {
+    "index": 2971,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あ、でも。ＡＤの代わりにいいものがあったわ」"
+  },
+  {
+    "index": 2982,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？」"
+  },
+  {
+    "index": 3012,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ほら、カイローン」"
+  },
+  {
+    "index": 3110,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう言って恵那は、チューブに入った薬品を見せた。"
+  },
+  {
+    "index": 3115,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "『止血剤　カイローン』と書かれている。"
+  },
+  {
+    "index": 3120,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "その下には『ベテルギウス新薬株式会社』というメーカーの名前も。"
+  },
+  {
+    "index": 3147,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「えっと、なんなんだこれ？」"
+  },
+  {
+    "index": 3180,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「万能の傷薬ってところかな。まるでボンドでくっつけるみたいに、小さな傷だったら塞いじゃうの」"
+  },
+  {
+    "index": 3191,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「へぇ、役立ちそうだな」"
+  },
+  {
+    "index": 3220,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ええ。１人１本ずつ持っていきましょう」"
+  },
+  {
+    "index": 3225,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那はそう言って、カイローンを３人に配った。"
+  },
+  {
+    "index": 3236,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかしここでの成果は、これだけか……」"
+  },
+  {
+    "index": 3265,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「仕方ないよ、いったん外周棟に戻ろう」"
+  },
+  {
+    "index": 3294,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ」"
+  },
+  {
+    "index": 3299,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬たちはそう言って、医務室を後にした。"
+  }
+]

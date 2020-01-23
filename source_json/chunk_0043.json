@@ -1,0 +1,830 @@
+[
+  {
+    "index": 46,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter3"
+  },
+  {
+    "index": 60,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と恵那は、まず内周棟地下２階に足を踏み入れた。"
+  },
+  {
+    "index": 163,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「このエリアに、あの子たちがいるのね……」"
+  },
+  {
+    "index": 174,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、きっとな」"
+  },
+  {
+    "index": 224,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちはそう言葉を交わしつつ、駆け足で、各部屋を回る。"
+  },
+  {
+    "index": 267,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "どこかに要救助者がいると信じながら。"
+  },
+  {
+    "index": 334,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが――"
+  },
+  {
+    "index": 439,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "全ての部屋の捜索を終えても、どこにも要救助者の姿は無かった。"
+  },
+  {
+    "index": 504,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いないわね……」"
+  },
+  {
+    "index": 515,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……地下１階を探してみよう」"
+  },
+  {
+    "index": 520,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう言いながら、階段室に向かったが――"
+  },
+  {
+    "index": 565,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "内周棟の非常階段は、使用不能だった。"
+  },
+  {
+    "index": 570,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "地下１階部分は無事のようだが、そこまでの部分が完全に崩れ、登れそうにない。"
+  },
+  {
+    "index": 581,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちっ、またかよ」"
+  },
+  {
+    "index": 617,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「参ったわね。ファクトリーは吹き抜け状になってるから、階段はここしかないのに……」"
+  },
+  {
+    "index": 628,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや待て、どうにか行けないものか……」"
+  },
+  {
+    "index": 633,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう言ってから渡瀬は、自分が持っている物に気づいた。"
+  },
+  {
+    "index": 693,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "いつも持ち歩いている、１０ｍロープに。"
+  },
+  {
+    "index": 754,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これでなんとか登れないもんかな」"
+  },
+  {
+    "index": 789,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は落ちていた瓦礫を拾い、ロープの端に縛り付けた。"
+  },
+  {
+    "index": 800,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そしてそれを投げ、地下１階の階段の部分に引っ掛ける。"
+  },
+  {
+    "index": 863,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "さらに何度か引っ張って、しっかりと固定された事を確認した。"
+  },
+  {
+    "index": 881,
+    "code": "0x55",
+    "developer_comment": "渡瀬",
+    "string": "√After Chapter3"
+  },
+  {
+    "index": 900,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、登れるか？」"
+  },
+  {
+    "index": 929,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え……ちょっと待ってよ、ロープ登りなんてやった事ないんだけど」"
+  },
+  {
+    "index": 940,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあどうする？　エレベーターシャフトから登るか？」"
+  },
+  {
+    "index": 969,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「エレベーターシャフト？」"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さっき地下１階から地下２階に降りたときに使ったんだ」"
+  },
+  {
+    "index": 991,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁさっきは上から下へだったから楽だったけど、下から上へ上がるのは難しいかもよ」"
+  },
+  {
+    "index": 1002,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ハシゴに掴まりながら、エレベーターの扉を開けるのはなぁ」"
+  },
+  {
+    "index": 1031,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どちらにしても面倒そうね……わかったわよ、このロープでいいわよ」"
+  },
+  {
+    "index": 1036,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那は渋々うなずいた。"
+  },
+  {
+    "index": 1047,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、それじゃ行くか」"
+  },
+  {
+    "index": 1076,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はいはい。民間人にこんな曲芸じみた事やらせるなんて、大したレスキュー隊長ね」"
+  },
+  {
+    "index": 1081,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の憎まれ口に苦笑しながら、渡瀬たちはそのロープを登り始めた。"
+  },
+  {
+    "index": 1124,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬はすいすいと、苦もなく登り終えた。"
+  },
+  {
+    "index": 1129,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そして恵那も、かなり苦労したようだが……何とか２人揃って、地下１階に辿り着いた。"
+  },
+  {
+    "index": 1173,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――そして階上に上った渡瀬たちは、ロープをそこに放置した。"
+  },
+  {
+    "index": 1178,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "帰りにも使うだろうし、またここに来るかもしれないからだ。"
+  },
+  {
+    "index": 1228,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、それじゃ捜索を続けよう。ここが最後の未捜索フロアだからな」"
+  },
+  {
+    "index": 1293,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ！」"
+  },
+  {
+    "index": 1307,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬たちは勇んで、地下１階の捜索を始めた。"
+  },
+  {
+    "index": 1351,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "最初に入った部屋は、火災の影響を全く受けていなかった。"
+  },
+  {
+    "index": 1356,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そこに足を踏み入れた途端、渡瀬は声を上げた。"
+  },
+  {
+    "index": 1406,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ！　プロキオン！？」"
+  },
+  {
+    "index": 1435,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えっ？」"
+  },
+  {
+    "index": 1533,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "部屋の隅に、見慣れた機械が置いてあったのだ。"
+  },
+  {
+    "index": 1564,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんでこれが、こんなところに？」"
+  },
+  {
+    "index": 1575,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、プロキオンはラボから支給されたものだと橘が言っていた。施設内にあってもおかしくないさ」"
+  },
+  {
+    "index": 1604,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いずれにしろ、いいものを見つけたわね」"
+  },
+  {
+    "index": 1615,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、これでこれからは３チームに分かれられるな」"
+  },
+  {
+    "index": 1620,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そんな事態が今後あるかはわからないが、渡瀬たちは一応プロキオンを持っていく事にした。"
+  },
+  {
+    "index": 1625,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "他にも何か、使えそうなものがないかを探る。"
+  },
+  {
+    "index": 1630,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ＡＤなどは見つからなかったが――机の上に読み捨てられた冊子を、恵那が拾って言った。"
+  },
+  {
+    "index": 1659,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……あら？　『防災マニュアル』？」"
+  },
+  {
+    "index": 1670,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「防災マニュアルって、前にユウリの見つけた？」"
+  },
+  {
+    "index": 1699,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いえ、微妙に違うみたいよ。『第５・第６エリア職員用』と書いてあるわ」"
+  },
+  {
+    "index": 1710,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どれどれ？」"
+  },
+  {
+    "index": 1715,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬と恵那は、頭を寄せてそれを読む。"
+  },
+  {
+    "index": 1720,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ほとんどの項目は、以前見たマニュアルと同じだったが、最後の方に新たなページが追加されていた。"
+  },
+  {
+    "index": 1758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『防災マニュアル（２０３０年版／第５・第６エリア職員用）』"
+  },
+  {
+    "index": 1761,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1764,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜有事の際の避難経路について＞"
+  },
+  {
+    "index": 1767,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1770,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "火災・地震等の有事の際には、自動的にエレベーターは、地上階に上がってそのまま止まります。"
+  },
+  {
+    "index": 1773,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "仮に運転すると、予期せぬ衝撃等によってエレベーターが停止し、乗員が閉じ込められる危険性があるためです。"
+  },
+  {
+    "index": 1776,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "避難に際しては、各棟の非常階段をお使い下さい。"
+  },
+  {
+    "index": 1779,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ただし第６エリア外周棟には、セキュリティの関係及び建物の構造上、非常階段がありません。"
+  },
+  {
+    "index": 1782,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "故に内周棟から避難するべきですが、それも困難な状況であれば、避難には『搬出リフト』を使用して下さい。"
+  },
+  {
+    "index": 1786,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　%N"
+  },
+  {
+    "index": 1789,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜避難時の搬出リフトの使用について＞"
+  },
+  {
+    "index": 1792,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1795,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "搬出リフトは通常のエレベーターとは違い、構造が極めて強固です。"
+  },
+  {
+    "index": 1798,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "震度７の地震にも耐えられると試算されており、%N停止等の危険は低いと思われます。"
+  },
+  {
+    "index": 1801,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "従って有事の際には、臨時に避難用エレベーターとしての使用を%N許可します。"
+  },
+  {
+    "index": 1804,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それを使用し、速やかに地上に避難して下さい。"
+  },
+  {
+    "index": 1807,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ケースＮ発生時も同様です。"
+  },
+  {
+    "index": 1810,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "隔壁閉鎖後は施設外への脱出は不可能となりますが、搬出リフトを使う事で、地上フロアの安全区域まで避難する事ができます。"
+  },
+  {
+    "index": 1842,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『搬出リフト』……！？」"
+  },
+  {
+    "index": 1847,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その記述を見て、渡瀬たちは身が震えるのを感じた。"
+  },
+  {
+    "index": 1876,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「『安全区域まで避難する事ができる』って、もしかして……！」"
+  },
+  {
+    "index": 1887,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この状況下でも――そこからは地上に脱出できるって事か！？」"
+  },
+  {
+    "index": 1892,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬と恵那は顔を見合わせた。頬にひりつくような笑みが浮かぶ。"
+  },
+  {
+    "index": 1897,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "全てが閉ざされたこの地下に、唯一存在する脱出口――その手がかりが見つかったのだ！"
+  },
+  {
+    "index": 1926,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「やったわ！　これはかなり有力な情報よ！」"
+  },
+  {
+    "index": 1937,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よく見つけたな先生、お手柄だ！」"
+  },
+  {
+    "index": 1966,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ね、隊長さん、私もあんがい役に立つでしょ？」"
+  },
+  {
+    "index": 1977,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だな！　でもこのリフトとやらはどこにあるんだろう？」"
+  },
+  {
+    "index": 2006,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「さっきは気づかなかったけど……あの焼け爛れたファクトリーのどこかにあるんじゃないかしら？」"
+  },
+  {
+    "index": 2017,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よーし！　じゃあそこに行く前に、要救助者の捜索だ！」"
+  },
+  {
+    "index": 2046,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね！　脱出口が見つかっても、要救助者を確保してなきゃ無意味だもんね！」"
+  },
+  {
+    "index": 2051,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬はマニュアルをポケットに捻じ込んで、その部屋を飛び出した。"
+  },
+  {
+    "index": 2094,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが――それから全ての部屋を回ってみたが、要救助者やＡＤは見つからなかった。"
+  },
+  {
+    "index": 2160,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「連絡通路も確認しよう。隅々まで探すんだ」"
+  },
+  {
+    "index": 2203,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちは、ファクトリーに続く連絡通路に向かう。"
+  },
+  {
+    "index": 2248,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが通路は奥の方で崩れ、先には進めなかった。"
+  },
+  {
+    "index": 2253,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "この先にはファクトリーがあるだけだ。内周棟の捜索は完全に終了した事になる。"
+  },
+  {
+    "index": 2312,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "通路を引き返しながら、恵那は首を傾げた。"
+  },
+  {
+    "index": 2323,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「おかしいわね……天川君たち、どこにもいないわ」"
+  },
+  {
+    "index": 2334,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「確かに妙だな。だが、ファクトリーにいるのかもしれない」"
+  },
+  {
+    "index": 2363,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「じゃあ私たちも戻って、向こうの捜索を手伝いましょうか」"
+  },
+  {
+    "index": 2374,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだな。あるいはひょっとして、彼らは――」"
+  },
+  {
+    "index": 2379,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がそう言いかけた時、"
+  },
+  {
+    "index": 2406,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "不意に、足元で音がした。"
+  },
+  {
+    "index": 2412,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（何だ！？）"
+  },
+  {
+    "index": 2452,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "はっとして下を見ると、恵那の足元の床にヒビが入っていた。"
+  },
+  {
+    "index": 2458,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（床が！）"
+  },
+  {
+    "index": 2483,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思った瞬間――渡瀬の時間は引き延ばされた。"
+  },
+  {
+    "index": 2508,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "全てがスローモーションに見える。"
+  },
+  {
+    "index": 2541,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  {
+    "index": 2546,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那は何が起きてるのか、まだ理解してない。"
+  },
+  {
+    "index": 2551,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬が恵那に駆け寄った時、"
+  },
+  {
+    "index": 2556,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の足元の床が崩れた。"
+  },
+  {
+    "index": 2680,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「きゃあっ！」"
+  },
+  {
+    "index": 2703,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生っ！」"
+  },
+  {
+    "index": 2708,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "とっさに手を伸ばし、恵那の腕を掴んだ。"
+  },
+  {
+    "index": 2720,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "瞬間、ヒビの入った肋骨に激痛が走る。"
+  },
+  {
+    "index": 2726,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（がっ！！）"
+  },
+  {
+    "index": 2731,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそれに耐え、恵那の腕を握り締める。"
+  },
+  {
+    "index": 2736,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "崩れた床が粉塵を巻き上げたが、やがてそれも晴れ――"
+  },
+  {
+    "index": 2810,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "恵那の顔が、その向こうに見えた。"
+  },
+  {
+    "index": 2821,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ふぅ……」"
+  },
+  {
+    "index": 2832,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「危ないところだったな、先生？」"
+  },
+  {
+    "index": 2837,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう言うと、恵那は呆然と呟いた。"
+  },
+  {
+    "index": 2848,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「っていうか……すごい反応速度だったわね……！」"
+  },
+  {
+    "index": 2859,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ヒビが入ってから床が崩れるまで、ほんの１秒くらいよ？」"
+  },
+  {
+    "index": 2870,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや……なんかヤバイと思ってさ」"
+  },
+  {
+    "index": 2881,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そ、それもレスキュー隊の勘ってヤツかしら？」"
+  },
+  {
+    "index": 2892,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、多分……」"
+  },
+  {
+    "index": 2903,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁ感心するのは後だ。引き上げるから、そっちの手も貸してくれ」"
+  },
+  {
+    "index": 2914,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ええ」"
+  },
+  {
+    "index": 2919,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬は恵那の両手を掴み、そのまま一気に引き上げた。"
+  },
+  {
+    "index": 2984,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……ふぅ。ありがとう隊長さん、助かったわ」"
+  },
+  {
+    "index": 2995,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「怪我が無くて何よりだ」"
+  },
+  {
+    "index": 3006,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし、それにしても床が崩れるなんて……第６エリアは、よほど火災によるダメージがひどかったんだな」"
+  },
+  {
+    "index": 3035,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね……他のみんなは大丈夫かしら」"
+  },
+  {
+    "index": 3046,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「早く戻って、みんなの無事を確認しよう」"
+  },
+  {
+    "index": 3051,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちはそう言って、ファクトリーに向かった。"
+  }
+]

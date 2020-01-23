@@ -1,0 +1,782 @@
+[
+  {
+    "index": 71,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Double Chapter2"
+  },
+  {
+    "index": 83,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦は銃を握り締め、渡瀬を見据えた。"
+  },
+  {
+    "index": 88,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その表情と言葉には、偽りは一切なさそうに見える。"
+  },
+  {
+    "index": 94,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（やっぱりこいつは、善性の塊みたいな奴なんだ……ちょっと不器用だとは思うけど）"
+  },
+  {
+    "index": 99,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦と心が繋がった事くらいで、これほど高潔な人格が生まれるとは思えなかった。"
+  },
+  {
+    "index": 104,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "殺人鬼が、記憶を失った事により別人のように生まれ変わったものの、それはあくまでかりそめの性格。"
+  },
+  {
+    "index": 109,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の本性はあくまでも悪人なのだと、ずっと思っていたが――"
+  },
+  {
+    "index": 199,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（逆、なんじゃないのか……？）"
+  },
+  {
+    "index": 231,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬の本性が善人で、あの記憶を失う前の渡瀬こそが、かりそめの性格だったとしたら？）"
+  },
+  {
+    "index": 286,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あの時の渡瀬は『何らかの理由で』、凶暴な人物になっていたとしたら……？）"
+  },
+  {
+    "index": 291,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう考えると、腑に落ちる点が多いのだ。"
+  },
+  {
+    "index": 306,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、渡瀬だけじゃない……）"
+  },
+  {
+    "index": 399,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（考えてみれば、洵さんや橘さんやおじさんがおかしくなっているのも、渡瀬の人格変貌に似ている気がする）"
+  },
+  {
+    "index": 405,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（何か外部的な要因で、皆が凶暴化させられているのだとしたら……）"
+  },
+  {
+    "index": 411,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬もその被害者の１人に過ぎないんじゃないか！？）"
+  },
+  {
+    "index": 419,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "今まで信じ込んできた『本来の渡瀬＝凶悪なテロリスト』という構図が、急に怪しく思えてきた。"
+  },
+  {
+    "index": 475,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかし、では渡瀬はなぜ銃を持っていたのか。"
+  },
+  {
+    "index": 480,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "テロリストでもなければ、銃をこの施設に持ち込むわけがない。"
+  },
+  {
+    "index": 530,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の正体は何者で、いつから凶暴化したのか？"
+  },
+  {
+    "index": 535,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そもそも何の目的で、この施設にやってきたのか？"
+  },
+  {
+    "index": 551,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――その疑問の答えは全て、彼の記憶の中にある予感がした。"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかりました、隊長さん。あなたの記憶を戻しましょう」"
+  },
+  {
+    "index": 609,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……頼めるか？」"
+  },
+  {
+    "index": 620,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えぇ。消したのはぼくです、戻すのもぼくがやります」"
+  },
+  {
+    "index": 653,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう言った時、悠里がはっとして声を上げた。"
+  },
+  {
+    "index": 689,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「待ってひこりん！　わたしがやるよ！」"
+  },
+  {
+    "index": 700,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里が？」"
+  },
+  {
+    "index": 711,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だってひこりん、消した記憶の修復なんてした事ないでしょう？」"
+  },
+  {
+    "index": 722,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「記憶改竄なら、ちょっとだけ経験がある。なんとかやってやるよ」"
+  },
+  {
+    "index": 751,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「でも不安だよ。だったらわたしが代わりに……」"
+  },
+  {
+    "index": 762,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「駄目だ悠里、それは危険だ」"
+  },
+  {
+    "index": 767,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は頑強に抵抗した。"
+  },
+  {
+    "index": 834,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……前に隊長さんの記憶に潜った時、ぼくはあの人の心に存在する膨大な『悪意』にさらされた」"
+  },
+  {
+    "index": 845,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼく自身、心を侵食されてしまいそうなほどの……」"
+  },
+  {
+    "index": 856,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの悪意に、君をさらすわけにはいかない」"
+  },
+  {
+    "index": 892,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そんな……だったらひこりんも危険じゃない！」"
+  },
+  {
+    "index": 903,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……いや、大丈夫だよ悠里。ぼくは君よりは、悪意に耐性があると思うから」"
+  },
+  {
+    "index": 908,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里はわずかに黙り込んだが、やがて決意するように言った。"
+  },
+  {
+    "index": 937,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……それじゃせめて、記憶修復のやりかたについて、詳しく説明させて」"
+  },
+  {
+    "index": 948,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「色々と注意しておかなければならない事があるから」"
+  },
+  {
+    "index": 959,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ああ、頼む」"
+  },
+  {
+    "index": 964,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦が答えると、悠里は話し始めた。"
+  },
+  {
+    "index": 1031,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「まずひこりんが隊長さんの脳内に入ったら、そこに無数の記憶の断片が浮かんでいるのが見えると思う」"
+  },
+  {
+    "index": 1042,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あれは人の脳内に満ちている『情報』が、視覚化された状態なんだよ」"
+  },
+  {
+    "index": 1047,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦もそう推察していた。"
+  },
+  {
+    "index": 1052,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦がうなずくと、悠里は続ける。"
+  },
+  {
+    "index": 1063,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「普通は視覚化させるのにも、ずいぶん訓練が必要なんだけど……ひこりんはもう、視覚化できてるみたいだから」"
+  },
+  {
+    "index": 1128,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ。悠里やましろの脳内に入った時も、ちゃんと視覚化できていた」"
+  },
+  {
+    "index": 1139,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうでしょ？」"
+  },
+  {
+    "index": 1150,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「でね、視覚化された脳内には、隊長さんが本来持っている全ての記憶が詰まっているの」"
+  },
+  {
+    "index": 1161,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんが消した記憶も、断片化して思い出せなくなってるけど、ちゃんとどこかに存在してる」"
+  },
+  {
+    "index": 1172,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう言えば悠里の記憶の中で、母さんもそんなこと言ってたな……」"
+  },
+  {
+    "index": 1208,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「でもその記憶をひこりんが見れば、同時に隊長さんもその記憶を思いだすの」"
+  },
+  {
+    "index": 1237,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だから隊長さんの記憶を元に戻したければ――」"
+  },
+  {
+    "index": 1248,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「『ひこりんが消してしまった全ての記憶』という条件で、『記憶検索』をすればいいんだよ」"
+  },
+  {
+    "index": 1259,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「記憶検索？」"
+  },
+  {
+    "index": 1270,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「その人の記憶の中で、ひこりんが『見たい』と思う記憶の内容を、強く念じるの」"
+  },
+  {
+    "index": 1281,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうすれば断片化した記憶は再構成されて、元に戻るから」"
+  },
+  {
+    "index": 1310,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……っていうと難しそうだけど、単に自分の記憶を思い返す時と同じく、見たい記憶を『思い出そうと』すればいいだけ」"
+  },
+  {
+    "index": 1321,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ちなみにわたしやましろんの記憶を見た時もね、ひこりんは記憶検索を行ってたよ」"
+  },
+  {
+    "index": 1332,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、そうなのか？」"
+  },
+  {
+    "index": 1390,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ましろんの時は、『ましろんがどうしてひこりんに嘘をついていたのか』って条件で検索してた」"
+  },
+  {
+    "index": 1446,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしのときは多分、『９年前に何が起きたか、そしてわたしが今日までどう過ごしてきたか』って条件だったと思う」"
+  },
+  {
+    "index": 1457,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど……そういう事だったのか」"
+  },
+  {
+    "index": 1468,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「つまり、あくまでぼくは隊長さんの脳を借りて、あの人自身の記憶を『思い出して』いくんだな」"
+  },
+  {
+    "index": 1504,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そう。センシズシンパシーを使えば、ひこりんと隊長さんの脳は繋がるからね」"
+  },
+  {
+    "index": 1509,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――という事は、渡瀬の記憶を元に戻すためには――"
+  },
+  {
+    "index": 1514,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦が渡瀬の全記憶を消去したあの時と、逆の事をやればいい。"
+  },
+  {
+    "index": 1519,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦は『渡瀬の人格を構成する全ての記憶』という条件で、記憶消去を行った。"
+  },
+  {
+    "index": 1524,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "だから今度は同じ条件で記憶検索を行い、それらを見ていけばいいのだ。"
+  },
+  {
+    "index": 1535,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「わかったよ……他に注意点は？」"
+  },
+  {
+    "index": 1546,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「記憶を読む時、できるだけ古い記憶から読み始める事かな」"
+  },
+  {
+    "index": 1575,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「時系列を順に追っていった方が、その人の過去が理解しやすくなるから」"
+  },
+  {
+    "index": 1604,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それと、もう１つ重要な事が――」"
+  },
+  {
+    "index": 1633,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんがその記憶を見てどう思うかって事は、その人の記憶に影響を及ぼすんだよ」"
+  },
+  {
+    "index": 1644,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それ次第で、微妙に記憶の内容は変わるから気をつけて」"
+  },
+  {
+    "index": 1655,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「記憶の内容が変わる？　記憶操作が行われるって事か？」"
+  },
+  {
+    "index": 1684,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「操作というほどではないけど――それに近い事が起こるんだよ」"
+  },
+  {
+    "index": 1713,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「例えばひこりんが、隊長さんの記憶の中で、副隊長さんに会ったとするよね？」"
+  },
+  {
+    "index": 1724,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ」"
+  },
+  {
+    "index": 1735,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「その時にひこりんが、副隊長さんの事を『好き』だと思えば、隊長さんも副隊長さんに好印象を持つし、その逆もありうるの」"
+  },
+  {
+    "index": 1746,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「事実は変わらないけど、印象が変わるって事かい？」"
+  },
+  {
+    "index": 1775,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そう。頭の中のイメージなんて、曖昧なものだからね……」"
+  },
+  {
+    "index": 1804,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんの感じた想いが、その人にとっての『真実』になる。それを忘れないで」"
+  },
+  {
+    "index": 1809,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "それを聞いた夏彦は、数日前に聞いた言葉を思い出した。"
+  },
+  {
+    "index": 1893,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「『人は自分の記憶を、自覚しないまま、色々と書き換える性質がある』」"
+  },
+  {
+    "index": 1904,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「『事実が変わらなくとも、想いは移ろう』『絶対の真実なんかない』『あらゆる過去は、曖昧な霧の中にある』」"
+  },
+  {
+    "index": 1909,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――『幻影の悠里』は、そう言っていた。"
+  },
+  {
+    "index": 1914,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "それは他人の記憶を読む時においても、言える事なのだろう。"
+  },
+  {
+    "index": 1936,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だったら事実を、ありのままに知るためには――」"
+  },
+  {
+    "index": 1947,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるべく意識をフラットな状態に保って、記憶を見ていくべきか？」"
+  },
+  {
+    "index": 1976,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうだね。わたしもたいていはそうしてきたよ」"
+  },
+  {
+    "index": 2005,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「これで注意点は全部だけど……大丈夫？」"
+  },
+  {
+    "index": 2010,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "そう言われて、夏彦は整理する。"
+  },
+  {
+    "index": 2015,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "覚えておくべき事は３つ。"
+  },
+  {
+    "index": 2020,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "『渡瀬の記憶を元に戻すには、夏彦が渡瀬の過去の記憶を検索し、それを見れば良い』"
+  },
+  {
+    "index": 2025,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "『その人物を理解するためには、過去の記憶から順に読んでいくべき』"
+  },
+  {
+    "index": 2030,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "『センシズシンパシー中に夏彦が思った事は、渡瀬の記憶にも影響を与える。故になるべくフラットな意識を保つべき』"
+  },
+  {
+    "index": 2041,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……うん、問題なさそうだ」"
+  },
+  {
+    "index": 2070,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そう、それじゃ最後に……」"
+  },
+  {
+    "index": 2204,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "悠里はそう言って、夏彦の手を握った。"
+  },
+  {
+    "index": 2217,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、もし隊長さんの心の中の悪意に負けそうになっても……」"
+  },
+  {
+    "index": 2228,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんには、わたしがついてる」"
+  },
+  {
+    "index": 2279,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「センシズシンパシー中に危険を感じたら、わたしの事を思い出して」"
+  },
+  {
+    "index": 2290,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんの心が壊れそうになった時は、それが救いになるはずだから」"
+  },
+  {
+    "index": 2295,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "悠里は夏彦を見つめ、心配げに言う。"
+  },
+  {
+    "index": 2300,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "その言葉が、何よりも勇気を与えてくれた。"
+  },
+  {
+    "index": 2311,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ……心強いよ、悠里」"
+  },
+  {
+    "index": 2316,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそう答え、悠里に笑みを返した。"
+  },
+  {
+    "index": 2339,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それから左手に銃を握り、渡瀬の方に向き直る。"
+  },
+  {
+    "index": 2350,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お待たせしました、隊長さん……それじゃ始めましょう、あなたの記憶を戻す作業を」"
+  },
+  {
+    "index": 2379,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああ、こっちはいつでもＯＫだ」"
+  },
+  {
+    "index": 2384,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬も緊張しているように見えた。"
+  },
+  {
+    "index": 2437,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "夏彦は渡瀬に歩み寄り――"
+  },
+  {
+    "index": 2448,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――いきます」"
+  },
+  {
+    "index": 2508,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてセンシズシンパシーを発動した。"
+  },
+  {
+    "index": 2730,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――その瞬間。"
+  },
+  {
+    "index": 2735,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦と渡瀬の脳が連結した。"
+  },
+  {
+    "index": 2740,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里やましろの記憶を見た時と同様、闇の中に無数の情景が瞬いている。"
+  },
+  {
+    "index": 2745,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "この全てが、渡瀬の記憶なのだろう。"
+  },
+  {
+    "index": 2751,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まずは『記憶検索』だ）"
+  },
+  {
+    "index": 2757,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬本来の人格を構成する記憶を……とりわけ今回の事件に関わる記憶を、検索しよう）"
+  },
+  {
+    "index": 2762,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は『思い出す』。"
+  },
+  {
+    "index": 2767,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の失った過去を、再び蘇らせるために。"
+  },
+  {
+    "index": 2773,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（思い出せ、笠鷺渡瀬の過去を）"
+  },
+  {
+    "index": 2779,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（その人格を形作る原因となった記憶を！）"
+  },
+  {
+    "index": 2784,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう念じていると――"
+  },
+  {
+    "index": 2789,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "やがて闇の中に、いくつかの記憶が浮かび上がってきた。"
+  },
+  {
+    "index": 2795,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これをひとつひとつ見ていけば……）"
+  },
+  {
+    "index": 2800,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそう思いつつ、その中の最も古い記憶を覗き込んだ。"
+  }
+]

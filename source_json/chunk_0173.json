@@ -1,0 +1,2336 @@
+[
+  {
+    "index": 39,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Before Chapter4"
+  },
+  {
+    "index": 59,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしていつも通りのホームルームも終わり――"
+  },
+  {
+    "index": 122,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "放課後になった。"
+  },
+  {
+    "index": 133,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ましろ、サリュ、帰ろうか」"
+  },
+  {
+    "index": 166,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ＯＫ、行こうサリュ」"
+  },
+  {
+    "index": 210,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん」"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "夏彦たちはそう言いながら、教室を出る。"
+  },
+  {
+    "index": 340,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "肉声とテレパシーの入り混じったざわめきを、聞き流しながら。"
+  },
+  {
+    "index": 394,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《さぁて放課後だよシン。"
+  },
+  {
+    "index": 396,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　さっそく屋上に　　　　"
+  },
+  {
+    "index": 398,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　いきますか》"
+  },
+  {
+    "index": 409,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 410,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《さぁて放課後だよシン。さっそく屋上にいきますか》"
+  },
+  {
+    "index": 415,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《わかったから紅崎、　　"
+  },
+  {
+    "index": 417,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　そのくらいテレパシー　"
+  },
+  {
+    "index": 419,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　使わず普通に話せ》　　"
+  },
+  {
+    "index": 430,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 431,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《わかったから紅崎、そのくらいテレパシー使わず普通に話せ》"
+  },
+  {
+    "index": 440,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《いーじゃねーか、　　　"
+  },
+  {
+    "index": 442,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　たぶん俺らの会話　　　"
+  },
+  {
+    "index": 444,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　楽しんで聞いてる　　　"
+  },
+  {
+    "index": 446,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　奴もいるよ》　　　　　"
+  },
+  {
+    "index": 457,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 458,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《いーじゃねーか、たぶん俺らの会話楽しんで聞いてる奴もいるよ》"
+  },
+  {
+    "index": 467,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《そうかねぇ？》　　　　"
+  },
+  {
+    "index": 478,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 479,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《そうかねぇ？》"
+  },
+  {
+    "index": 498,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《いや、いるいる。例えば俺とか》"
+  },
+  {
+    "index": 514,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 515,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《いや、いるいる。例えば俺とか》"
+  },
+  {
+    "index": 520,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《え、あんた誰？》　　　"
+  },
+  {
+    "index": 531,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 532,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《え、あんた誰？》"
+  },
+  {
+    "index": 540,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《ホラよくグラウンドで野球やってる男だよ。　　　　　　　　　"
+  },
+  {
+    "index": 542,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　　　　　　　　　　　人呼んでピッチャー田中》　"
+  },
+  {
+    "index": 553,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 554,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ホラよくグラウンドで野球やってる男だよ。人呼んでピッチャー田中》"
+  },
+  {
+    "index": 568,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《だから誰？》　　　　　"
+  },
+  {
+    "index": 579,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 580,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《だから誰？》"
+  },
+  {
+    "index": 591,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《そんな事いいから、はよ屋上いくべーよ》"
+  },
+  {
+    "index": 607,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "キャッチャー"
+  },
+  {
+    "index": 608,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《そんな事いいから、はよ屋上いくべーよ》"
+  },
+  {
+    "index": 649,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《わかった……　　　　　"
+  },
+  {
+    "index": 651,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　っておい、なんかすごい"
+  },
+  {
+    "index": 653,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　人だかりだな！？》　　"
+  },
+  {
+    "index": 664,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 665,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《わかった……っておい、なんかすごい人だかりだな！？》"
+  },
+  {
+    "index": 676,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《野次馬だよ全部！　みんなヒマだな～》"
+  },
+  {
+    "index": 687,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バッター"
+  },
+  {
+    "index": 688,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《野次馬だよ全部！　みんなヒマだな～》"
+  },
+  {
+    "index": 699,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ナナシ君は　　　　　　"
+  },
+  {
+    "index": 701,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　来てるのか！？　　　　"
+  },
+  {
+    "index": 703,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　屋上の様子は！？》　　"
+  },
+  {
+    "index": 714,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 715,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ナナシ君は来てるのか！？　屋上の様子は！？》"
+  },
+  {
+    "index": 731,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ここからじゃ見えねー！"
+  },
+  {
+    "index": 733,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　誰か確認しろ！》　　　"
+  },
+  {
+    "index": 749,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 750,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ここからじゃ見えねー！　誰か確認しろ！》"
+  },
+  {
+    "index": 755,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《ハイこちらピッチャー田中。屋上には女子が１名。　　　　"
+  },
+  {
+    "index": 757,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　　　　　　　　　　　　男子は……いないな》"
+  },
+  {
+    "index": 768,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 769,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ハイこちらピッチャー田中。屋上には女子が１名。男子は……いないな》"
+  },
+  {
+    "index": 777,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《女子は宗像ちゃんだねアレ。ナナシ君は来てないって事か？》"
+  },
+  {
+    "index": 788,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バッター"
+  },
+  {
+    "index": 789,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《女子は宗像ちゃんだねアレ。ナナシ君は来てないって事か？》"
+  },
+  {
+    "index": 801,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《この人だかりじゃ　　　"
+  },
+  {
+    "index": 803,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　顔も出せまい……　　　"
+  },
+  {
+    "index": 805,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　彼はホラ、　　　　　　"
+  },
+  {
+    "index": 807,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　シャイだから》　　　　"
+  },
+  {
+    "index": 818,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 819,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《この人だかりじゃ顔も出せまい……彼はホラ、シャイだから》"
+  },
+  {
+    "index": 831,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《おいおいやばいぞ、それじゃ台無しじゃねぇの！》"
+  },
+  {
+    "index": 847,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "キャッチャー"
+  },
+  {
+    "index": 848,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《おいおいやばいぞ、それじゃ台無しじゃねぇの！》"
+  },
+  {
+    "index": 853,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《オラァ野次馬ども散れ！"
+  },
+  {
+    "index": 855,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　人の恋路を　　　　　　"
+  },
+  {
+    "index": 857,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　邪魔する奴は、　　　　"
+  },
+  {
+    "index": 859,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　馬に蹴られて　　　　　"
+  },
+  {
+    "index": 861,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　死んじまえ！》　　　　"
+  },
+  {
+    "index": 872,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 873,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《オラァ野次馬ども散れ！　人の恋路を邪魔する奴は、馬に蹴られて死んじまえ！》"
+  },
+  {
+    "index": 884,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……ダメだ、全然散りやしねー！　宗像ちゃん超居心地悪そう！》"
+  },
+  {
+    "index": 895,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バッター"
+  },
+  {
+    "index": 896,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……ダメだ、全然散りやしねー！　宗像ちゃん超居心地悪そう！》"
+  },
+  {
+    "index": 904,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　　《ここは俺の出番だな！　　　　　　　　　　　"
+  },
+  {
+    "index": 906,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　ハローエヴリバディ！　『エンジェル神谷と以下略』です！》　"
+  },
+  {
+    "index": 922,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 923,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ここは俺の出番だな！　ハローエヴリバディ！　『エンジェル神谷と以下略』です！》"
+  },
+  {
+    "index": 928,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ってちょっと待て、　　"
+  },
+  {
+    "index": 930,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　なんで　　　　　　　　"
+  },
+  {
+    "index": 932,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　このタイミングで？》　"
+  },
+  {
+    "index": 943,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス１"
+  },
+  {
+    "index": 944,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ってちょっと待て、なんでこのタイミングで？》"
+  },
+  {
+    "index": 956,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《お前の出番じゃねーよ　"
+  },
+  {
+    "index": 958,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　別に！　　　　　　　　"
+  },
+  {
+    "index": 960,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　ひっこんでろ！》　　　"
+  },
+  {
+    "index": 971,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス２"
+  },
+  {
+    "index": 972,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《お前の出番じゃねーよ別に！　ひっこんでろ！》"
+  },
+  {
+    "index": 983,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《いいや言わせろ！　ナナシ君に伝えたい事があるんだ！》"
+  },
+  {
+    "index": 994,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 995,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《いいや言わせろ！　ナナシ君に伝えたい事があるんだ！》"
+  },
+  {
+    "index": 1011,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《よし、俺が認める！　　"
+  },
+  {
+    "index": 1013,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　言ってみろ　　　　　　"
+  },
+  {
+    "index": 1015,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　エンジェル神谷！》　　"
+  },
+  {
+    "index": 1031,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 1032,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《よし、俺が認める！　言ってみろエンジェル神谷！》"
+  },
+  {
+    "index": 1037,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ありがとう見知らぬバカ！　さていいかナナシ君！？》"
+  },
+  {
+    "index": 1048,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1049,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ありがとう見知らぬバカ！　さていいかナナシ君！？》"
+  },
+  {
+    "index": 1055,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《俺はへっぽこ軽音部のボーカルとして、　　　　　　　　　"
+  },
+  {
+    "index": 1057,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　全校生徒の嘲笑を浴びながら、それでも歌ってきた！》　"
+  },
+  {
+    "index": 1068,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1069,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《俺はへっぽこ軽音部のボーカルとして、全校生徒の嘲笑を浴びながら、それでも歌ってきた！》"
+  },
+  {
+    "index": 1075,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　　　《それはなぜか！？　　　　　　　　　　"
+  },
+  {
+    "index": 1077,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　どれだけ笑われても、伝えたい事があったからさ！》　　"
+  },
+  {
+    "index": 1088,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1089,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《それはなぜか！？　どれだけ笑われても、伝えたい事があったからさ！》"
+  },
+  {
+    "index": 1095,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　《君だって宗像ちゃんに、伝えたい事があるはずだ！　　　"
+  },
+  {
+    "index": 1097,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　どれだけ好奇の目で見られても！》　　　　　　　"
+  },
+  {
+    "index": 1108,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1109,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《君だって宗像ちゃんに、伝えたい事があるはずだ！　どれだけ好奇の目で見られても！》"
+  },
+  {
+    "index": 1115,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《恥ずかしがってる場合じゃない！"
+  },
+  {
+    "index": 1117,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "行かなければ後悔するぞ！》"
+  },
+  {
+    "index": 1133,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1134,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《恥ずかしがってる場合じゃない！　行かなければ後悔するぞ！》"
+  },
+  {
+    "index": 1139,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《むぅ、珍しく　　　　　"
+  },
+  {
+    "index": 1141,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　まっとうな事を……》　"
+  },
+  {
+    "index": 1152,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス２"
+  },
+  {
+    "index": 1153,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《むぅ、珍しくまっとうな事を……》"
+  },
+  {
+    "index": 1162,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《と言いつつあいつ、　　"
+  },
+  {
+    "index": 1164,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　まともに歌った　　　　"
+  },
+  {
+    "index": 1166,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　ためしないけどな》　　"
+  },
+  {
+    "index": 1177,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス３"
+  },
+  {
+    "index": 1178,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《と言いつつあいつ、まともに歌ったためしないけどな》"
+  },
+  {
+    "index": 1183,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《だが神谷の言う通りだ　"
+  },
+  {
+    "index": 1185,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　ナナシ君！　　　　　　"
+  },
+  {
+    "index": 1187,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　君が出て行かないと、　"
+  },
+  {
+    "index": 1189,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　宗像さん１人が　　　　"
+  },
+  {
+    "index": 1191,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　好奇の目に　　　　　　"
+  },
+  {
+    "index": 1193,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　さらされっぱなしに　　"
+  },
+  {
+    "index": 1195,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　なるぞ！》　　　　　　"
+  },
+  {
+    "index": 1206,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 1207,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《だが神谷の言う通りだナナシ君！　君が出て行かないと、宗像さん１人が好奇の目にさらされっぱなしになるぞ！》"
+  },
+  {
+    "index": 1215,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《宗像さんを救うため、　"
+  },
+  {
+    "index": 1217,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　出て来るんだ！》　　　"
+  },
+  {
+    "index": 1233,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 1234,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《宗像さんを救うため、出て来るんだ！》"
+  },
+  {
+    "index": 1239,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《おー、さすがいいこと言う》"
+  },
+  {
+    "index": 1250,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 1251,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《おー、さすがいいこと言う》"
+  },
+  {
+    "index": 1258,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《そのせいか野次馬も静かになってきたな……》"
+  },
+  {
+    "index": 1269,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バッター"
+  },
+  {
+    "index": 1270,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《そのせいか野次馬も静かになってきたな……》"
+  },
+  {
+    "index": 1282,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《チャンスだナナシ！　　"
+  },
+  {
+    "index": 1284,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　頑張れ！　　　　　　　"
+  },
+  {
+    "index": 1286,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　男を見せろーッ！》　　"
+  },
+  {
+    "index": 1297,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 1298,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《チャンスだナナシ！　頑張れ！　男を見せろーッ！》"
+  },
+  {
+    "index": 1312,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……》"
+  },
+  {
+    "index": 1328,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "キャッチャー"
+  },
+  {
+    "index": 1329,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……》"
+  },
+  {
+    "index": 1334,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……あ、野次馬の中から誰かが……！》"
+  },
+  {
+    "index": 1345,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "キャッチャー"
+  },
+  {
+    "index": 1346,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……あ、野次馬の中から誰かが……！》"
+  },
+  {
+    "index": 1355,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《なにっ！！　　　　　　"
+  },
+  {
+    "index": 1357,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　あれがナナシ君か！》　"
+  },
+  {
+    "index": 1368,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 1369,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《なにっ！！　あれがナナシ君か！》"
+  },
+  {
+    "index": 1381,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《全員静かにーッ！》"
+  },
+  {
+    "index": 1397,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 1398,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《全員静かにーッ！》"
+  },
+  {
+    "index": 1408,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　《……》　　　　"
+  },
+  {
+    "index": 1419,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1420,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……》"
+  },
+  {
+    "index": 1430,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　《……》　　　　"
+  },
+  {
+    "index": 1446,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1447,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……》"
+  },
+  {
+    "index": 1452,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……ずいぶん待たせる　"
+  },
+  {
+    "index": 1454,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　じゃない？》　　　　　"
+  },
+  {
+    "index": 1465,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1466,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……ずいぶん待たせるじゃない？》"
+  },
+  {
+    "index": 1471,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《す、すみません……！》"
+  },
+  {
+    "index": 1482,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1483,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《す、すみません……！》"
+  },
+  {
+    "index": 1492,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《まぁいいわ、それより　"
+  },
+  {
+    "index": 1494,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　……あなた、　　　　　"
+  },
+  {
+    "index": 1496,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　そんな顔してたのね？》"
+  },
+  {
+    "index": 1507,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1508,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《まぁいいわ、それより……あなた、そんな顔してたのね？》"
+  },
+  {
+    "index": 1518,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……よく、女の子みたい"
+  },
+  {
+    "index": 1520,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　だってからかわれます》"
+  },
+  {
+    "index": 1531,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1532,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……よく、女の子みたいだってからかわれます》"
+  },
+  {
+    "index": 1539,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ふふっ、わかるわ》　　"
+  },
+  {
+    "index": 1555,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1556,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ふふっ、わかるわ》"
+  },
+  {
+    "index": 1561,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……あの、　　　　　　"
+  },
+  {
+    "index": 1563,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　それより宗像さん、　　"
+  },
+  {
+    "index": 1565,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　テレパシーは……》　　"
+  },
+  {
+    "index": 1576,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1577,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……あの、それより宗像さん、テレパシーは……》"
+  },
+  {
+    "index": 1582,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　《え？》　　　　"
+  },
+  {
+    "index": 1593,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1594,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《え？》"
+  },
+  {
+    "index": 1604,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《みんなに聞かれて、　　"
+  },
+  {
+    "index": 1606,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　恥ずかしいんじゃ……》"
+  },
+  {
+    "index": 1617,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1618,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《みんなに聞かれて、恥ずかしいんじゃ……》"
+  },
+  {
+    "index": 1627,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《何を今さら。　　　　　"
+  },
+  {
+    "index": 1629,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　でも、そうね……》　　"
+  },
+  {
+    "index": 1640,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1641,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《何を今さら。でも、そうね……》"
+  },
+  {
+    "index": 1649,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《ここからは、　　　　　"
+  },
+  {
+    "index": 1651,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　自分の声で話しましょ》"
+  },
+  {
+    "index": 1662,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1663,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ここからは、自分の声で話しましょ》"
+  },
+  {
+    "index": 1671,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　《――はい》　　　"
+  },
+  {
+    "index": 1687,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1688,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《――はい》"
+  },
+  {
+    "index": 1698,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《……………………》　"
+  },
+  {
+    "index": 1709,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "宗像さん"
+  },
+  {
+    "index": 1710,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……………………》"
+  },
+  {
+    "index": 1720,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《……………………》　"
+  },
+  {
+    "index": 1736,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "青春男子"
+  },
+  {
+    "index": 1737,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……………………》"
+  },
+  {
+    "index": 1744,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《……あ、みんな聞こえた？　今の会話》"
+  },
+  {
+    "index": 1755,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ピッチャー"
+  },
+  {
+    "index": 1756,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《……あ、みんな聞こえた？　今の会話》"
+  },
+  {
+    "index": 1764,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《おぅ……青春だなぁ》"
+  },
+  {
+    "index": 1775,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バッター"
+  },
+  {
+    "index": 1776,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《おぅ……青春だなぁ》"
+  },
+  {
+    "index": 1784,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《うむ、青春だ》"
+  },
+  {
+    "index": 1800,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "キャッチャー"
+  },
+  {
+    "index": 1801,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《うむ、青春だ》"
+  },
+  {
+    "index": 1806,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《え、俺聞こえなかった。"
+  },
+  {
+    "index": 1808,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　誰か実況してくれる？》"
+  },
+  {
+    "index": 1819,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス１"
+  },
+  {
+    "index": 1820,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《え、俺聞こえなかった。誰か実況してくれる？》"
+  },
+  {
+    "index": 1828,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《そんな事するほど　　　"
+  },
+  {
+    "index": 1830,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　ヤボじゃないさ》　　　"
+  },
+  {
+    "index": 1841,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "冷静男子"
+  },
+  {
+    "index": 1842,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《そんな事するほどヤボじゃないさ》"
+  },
+  {
+    "index": 1847,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《うぅむ、　　　　　　　"
+  },
+  {
+    "index": 1849,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　俺ァ感動しちまったよ！"
+  },
+  {
+    "index": 1851,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　エンジェル神谷、　　　"
+  },
+  {
+    "index": 1853,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　いいシーンだ　　　　　"
+  },
+  {
+    "index": 1855,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　盛り上げろ！》　　　　"
+  },
+  {
+    "index": 1866,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "バカ男子"
+  },
+  {
+    "index": 1867,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《うぅむ、俺ァ感動しちまったよ！　エンジェル神谷、いいシーンだ盛り上げろ！》"
+  },
+  {
+    "index": 1881,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　《ＯＫエヴリバディ！　それではいきます、　　　　　　　　　　"
+  },
+  {
+    "index": 1883,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　　　　　　　　　　　　　　軽音部が２人に捧げるナンバー！》　"
+  },
+  {
+    "index": 1899,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1900,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《ＯＫエヴリバディ！　それではいきます、軽音部が２人に捧げるナンバー！》"
+  },
+  {
+    "index": 1912,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《『ＭｙＳｅｌｆ；ＹｏｕｒＳｅｌｆ』！》"
+  },
+  {
+    "index": 1923,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "ボーカル"
+  },
+  {
+    "index": 1924,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《『ＭｙＳｅｌｆ；ＹｏｕｒＳｅｌｆ』！》"
+  },
+  {
+    "index": 1931,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《だからたまには　　　　"
+  },
+  {
+    "index": 1933,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　オリジナル演れって》　"
+  },
+  {
+    "index": 1944,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス２"
+  },
+  {
+    "index": 1945,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《だからたまにはオリジナル演れって》"
+  },
+  {
+    "index": 1958,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "《まぁ今日くらいは　　　"
+  },
+  {
+    "index": 1960,
+    "code": "0x85",
+    "developer_comment": "サリュ",
+    "string": "　いいとしよう……》　　"
+  },
+  {
+    "index": 1977,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "オーディエンス３"
+  },
+  {
+    "index": 1978,
+    "code": "0x86",
+    "developer_comment": "サリュ",
+    "string": "《まぁ今日くらいはいいとしよう……》"
+  },
+  {
+    "index": 2041,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "――廊下を歩きながら、ましろが夏彦たちに問う。"
+  },
+  {
+    "index": 2086,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ね、帰りどっか寄ってく？」"
+  },
+  {
+    "index": 2097,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、今日はまっすぐ帰ろう」"
+  },
+  {
+    "index": 2150,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私もそれがいい。食事をしながら、みんなで話などしたい」"
+  },
+  {
+    "index": 2179,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あら、可愛い事を言いなさる」"
+  },
+  {
+    "index": 2190,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁ連日出かけるのもなんだし、今日は家でのんびりしよう」"
+  },
+  {
+    "index": 2219,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うんっ」"
+  },
+  {
+    "index": 2224,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "昨日の下校間際とは、打って変わった和やかな雰囲気だった。"
+  },
+  {
+    "index": 2229,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "宇喜多から聞いた話も、忘れそうになるほどに。"
+  },
+  {
+    "index": 2329,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "学校を出ると、外は薄暗かった。"
+  },
+  {
+    "index": 2373,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なーんか雨降りそうだねぇ」"
+  },
+  {
+    "index": 2378,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そう言われて空を見上げると、"
+  },
+  {
+    "index": 2482,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "確かに今にも崩れそうな天気だった。"
+  },
+  {
+    "index": 2488,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（やだな、帰るまでもてばいいけど……）"
+  },
+  {
+    "index": 2493,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう思った瞬間――"
+  },
+  {
+    "index": 2553,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ぽつり、ぽつりと、雨が降り始めた。"
+  },
+  {
+    "index": 2570,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ありゃやばい、本当に降ってきたよ！」"
+  },
+  {
+    "index": 2581,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「参ったな、カサ持ってきてないぞ」"
+  },
+  {
+    "index": 2592,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「バスに乗ろう。そろそろ来る時間のはず」"
+  },
+  {
+    "index": 2677,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "学校前のバス停を見ると、ちょうどそこにバスが滑り込んでくるところだった。"
+  },
+  {
+    "index": 2688,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お、グッドタイミング」"
+  },
+  {
+    "index": 2717,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「助かったぁ！」"
+  },
+  {
+    "index": 2722,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そんな事を言い合いながら、夏彦たちはバスに乗り込んだ。"
+  },
+  {
+    "index": 2891,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "車内は少し混んでいた。"
+  },
+  {
+    "index": 2896,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "雨が降り始めたから、慌てて乗り込んだ人が他にもいるのだろう。"
+  },
+  {
+    "index": 2901,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "夏彦はサリュとましろを椅子に座らせ、自分はその傍らに立った。"
+  },
+  {
+    "index": 2958,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「天気が悪くなければ、このままおでかけしたいんだけどなぁ」"
+  },
+  {
+    "index": 2969,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　また買い物か？」"
+  },
+  {
+    "index": 3020,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だってサリュ、まだこの街のこと全然知らないんじゃない？」"
+  },
+  {
+    "index": 3031,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「初日に少し見て回ったけど、確かにあまりよく知らない」"
+  },
+  {
+    "index": 3042,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうか、そうだよな……」"
+  },
+  {
+    "index": 3055,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は少し考え、そして言った。"
+  },
+  {
+    "index": 3066,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……それじゃあさ、明後日の日曜日にでも、街を一巡りしてみようか？」"
+  },
+  {
+    "index": 3117,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、いいねそれ！」"
+  },
+  {
+    "index": 3122,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "夏彦の提案に、ましろが目を輝かせる。"
+  },
+  {
+    "index": 3127,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "――いつもなら夏彦は、日曜日は悠里と過ごす事にしている。"
+  },
+  {
+    "index": 3132,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "だが今回くらいは構わないだろう。"
+  },
+  {
+    "index": 3143,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁ観光名所みたいなものは特にないけど、ちょっと変わった街ではあるしな」"
+  },
+  {
+    "index": 3154,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……妙案」"
+  },
+  {
+    "index": 3205,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあどこか見学できる研究施設でも探してみようか」"
+  },
+  {
+    "index": 3216,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あと、できればもう少し買い物もしたい」"
+  },
+  {
+    "index": 3227,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれ？　何か買いたいものでも思いついたのか？」"
+  },
+  {
+    "index": 3238,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「本。故郷から１冊だけ本を持ってきたのだけど、他にも欲しいから」"
+  },
+  {
+    "index": 3249,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、本１冊だけ？　他に持ってきたものはないのか？」"
+  },
+  {
+    "index": 3260,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「他にって？　身の回りの品とか？」"
+  },
+  {
+    "index": 3271,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、そういうのじゃなくて。例えばこう、故郷をしのばせる思い出の品とか……」"
+  },
+  {
+    "index": 3282,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「皆無」"
+  },
+  {
+    "index": 3293,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「えー、そういうもんなの？」"
+  },
+  {
+    "index": 3298,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "その言葉に、夏彦も少々驚いた。"
+  },
+  {
+    "index": 3309,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……１３歳で家族と離れて、遠い異国に来たら、結構ホームシックになりそうだけど」"
+  },
+  {
+    "index": 3320,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そういう感情は持ち合わせていない。故郷にも特に思い入れはない」"
+  },
+  {
+    "index": 3331,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そうか……」"
+  },
+  {
+    "index": 3342,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあさじゃあさ、この街はどう？　思い入れ持てそう？」"
+  },
+  {
+    "index": 3353,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……はかりかねる。好きか嫌いかもよくわからない」"
+  },
+  {
+    "index": 3364,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ありゃ、そっけない……」"
+  },
+  {
+    "index": 3375,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁ日本に来たばかりなんだから、好きも嫌いも判断できないだろ」"
+  },
+  {
+    "index": 3386,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、それもそっか」"
+  },
+  {
+    "index": 3397,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあまぁ、この質問の答えは保留するとしましょう」"
+  },
+  {
+    "index": 3408,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも、それはそれとして買い物には行きたい。ましろと、夏彦と」"
+  },
+  {
+    "index": 3416,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "そう呟く夏彦の横で、ましろが言う。"
+  },
+  {
+    "index": 3427,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……それじゃあさ、明後日の日曜日にでも、街を一巡りしてみようか？」"
+  },
+  {
+    "index": 3438,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、いいかもなそれ」"
+  },
+  {
+    "index": 3443,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――いつもなら夏彦は、日曜日は悠里と過ごす事にしている。"
+  },
+  {
+    "index": 3448,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが今回くらいは構わないだろう。"
+  },
+  {
+    "index": 3499,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まぁ観光名所みたいなものは特にないけど、ちょっと変わった街ではあるしね」"
+  },
+  {
+    "index": 3510,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……妙案」"
+  },
+  {
+    "index": 3521,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあどこか見学できる研究施設でも探してみようか」"
+  },
+  {
+    "index": 3532,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あと、できればもう少し買い物もしたい」"
+  },
+  {
+    "index": 3543,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれ？　何か買いたいものでも思いついたのか？」"
+  },
+  {
+    "index": 3554,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「本。故郷から１冊だけ本を持ってきたのだけど、もう読んでしまったから」"
+  },
+  {
+    "index": 3605,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そーかそーか。では僭越ながら私が、黄金の９０年代ＳＦを見繕ってあげよう！」"
+  },
+  {
+    "index": 3616,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「伝説的名作が色々あるんだよー。『神兵機ヴァンゲイル』とか『戦核騎兵隊』とか」"
+  },
+  {
+    "index": 3627,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「初めて聞く題名……興味深い」"
+  },
+  {
+    "index": 3632,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "それは本ではなくアニメだろう――そう思ったが、あえて夏彦は言わない。"
+  },
+  {
+    "index": 3683,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦は、買いたいものはないの？」"
+  },
+  {
+    "index": 3694,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、ぼくは特に……」"
+  },
+  {
+    "index": 3705,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なんだ張り合いないなぁ」"
+  },
+  {
+    "index": 3756,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……そうだ！　今度は夏彦も服を買おう！」"
+  },
+  {
+    "index": 3767,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、いいよ別に」"
+  },
+  {
+    "index": 3778,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いいじゃん。夏彦は素材は割といいんだから、たまにはオシャレしないとね」"
+  },
+  {
+    "index": 3789,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おいおい……今度はぼくを着せ替え人形にするのか？」"
+  },
+  {
+    "index": 3800,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「くふふ、そういう見方もあるかもね」"
+  },
+  {
+    "index": 3805,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "楽しげなましろに、夏彦は苦笑した。"
+  },
+  {
+    "index": 3810,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "だが連れ立って買い物にいくのは、確かに楽しそうではある。"
+  },
+  {
+    "index": 3821,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ま、いいさ……たまにはそういうのもいいかもしれない」"
+  },
+  {
+    "index": 3832,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それじゃ明後日は、市内を巡りつつショッピング三昧だね？」"
+  },
+  {
+    "index": 3843,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「きっと楽しいよー？　あぁ、早く明後日にならないかな……」"
+  },
+  {
+    "index": 3848,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言いかけ、"
+  },
+  {
+    "index": 3900,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ん？」"
+  },
+  {
+    "index": 3905,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そこで何かに気づいたように、目を見開いた。"
+  },
+  {
+    "index": 3916,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……？」"
+  },
+  {
+    "index": 3927,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうした？」"
+  },
+  {
+    "index": 3932,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は怪訝に思い、呼びかけた。"
+  },
+  {
+    "index": 3937,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがましろは答えない。"
+  },
+  {
+    "index": 3982,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それどころか、じっと黙ったまま前を見据え――"
+  },
+  {
+    "index": 3993,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「っ！」"
+  },
+  {
+    "index": 3998,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "突然凍りついたように、表情を強張らせた。"
+  },
+  {
+    "index": 4003,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "明らかに様子がおかしかった。夏彦は心配になり、彼女にささやく。"
+  },
+  {
+    "index": 4014,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ましろ……おいって」"
+  },
+  {
+    "index": 4065,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ッ！」"
+  },
+  {
+    "index": 4070,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そこでましろは我に返ったように、ゆっくりと夏彦の方を見た。"
+  },
+  {
+    "index": 4081,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、夏彦……」"
+  },
+  {
+    "index": 4092,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうした？　何かあったのか？」"
+  },
+  {
+    "index": 4103,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あの……あのね……」"
+  },
+  {
+    "index": 4108,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言いながら、車内をそっと見回す。"
+  },
+  {
+    "index": 4114,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんだ？）"
+  },
+  {
+    "index": 4119,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦も見回してみたが、車内では何も起こっていない。"
+  },
+  {
+    "index": 4124,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "みんなおとなしく座っているか、立っているだけだ。"
+  },
+  {
+    "index": 4135,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……どうしたんだよ、本当に」"
+  },
+  {
+    "index": 4141,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……」"
+  },
+  {
+    "index": 4146,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはしばらく答えなかったが、やがて笑って言った。"
+  },
+  {
+    "index": 4203,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ごめん、なんでもないよ」"
+  },
+  {
+    "index": 4214,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんでもないってお前……」"
+  },
+  {
+    "index": 4225,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いや、実はさ。誰かが私たちに対して、『うるさいなぁ』って言ったような気がしたんだよ」"
+  },
+  {
+    "index": 4236,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　そうか、ちょっと騒ぎすぎたか……」"
+  },
+  {
+    "index": 4247,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いけない。私も反省する」"
+  },
+  {
+    "index": 4258,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな、少し静かにしよう」"
+  },
+  {
+    "index": 4263,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう言いつつも、夏彦はましろの答えにむしろほっとしていた。"
+  },
+  {
+    "index": 4268,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それから夏彦たちは、静かに目的地に着くのを待った。"
+  },
+  {
+    "index": 4273,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦たちが黙ると、車内には静寂が満ちた。"
+  },
+  {
+    "index": 4278,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "時折――"
+  },
+  {
+    "index": 4286,
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "「くるるる……」"
+  },
+  {
+    "index": 4291,
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "アリスの唸り声が、かすかに響くだけだった。"
+  }
+]

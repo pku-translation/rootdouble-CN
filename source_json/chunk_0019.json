@@ -1,0 +1,614 @@
+[
+  {
+    "index": 75,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter2"
+  },
+  {
+    "index": 83,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "セキュリティゲートのロックを解除し、渡瀬たちは連絡通路に歩み入った。"
+  },
+  {
+    "index": 89,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――手持ちのＡＤはさっそく尽きた。"
+  },
+  {
+    "index": 94,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "依然、予断を許さない状況が続く。"
+  },
+  {
+    "index": 148,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（橘の事だけじゃない……すぐにでも次の１時間の事を考える必要がある）"
+  },
+  {
+    "index": 155,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（オレの事だけじゃない……すぐにでも次の１時間の事を考える必要がある）"
+  },
+  {
+    "index": 160,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "さきほどＡＤを投与したのが『１０時１６分』。"
+  },
+  {
+    "index": 165,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "次に投与する『１１時１６分』までに、また６本以上のＡＤを探さなければならないのだ。"
+  },
+  {
+    "index": 170,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "同僚の死の直後であろうと、悲しんでいるヒマはない。"
+  },
+  {
+    "index": 175,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だからこそ風見も、あんなにも気丈な態度を取っているのだろう。"
+  },
+  {
+    "index": 244,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそっと風見に歩み寄り、囁いた。"
+  },
+  {
+    "index": 255,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘、お前本当に大丈夫なのか？」"
+  },
+  {
+    "index": 284,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長、私への気遣いは無用です。それよりご自分の心配を」"
+  },
+  {
+    "index": 290,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  {
+    "index": 301,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……わかった、先を急ごう」"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「急ごう、みんな」"
+  },
+  {
+    "index": 400,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ」"
+  },
+  {
+    "index": 405,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬たちはそう言って、連絡通路を駆け出した。"
+  },
+  {
+    "index": 448,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だが、曲がり角を曲がったところで――"
+  },
+  {
+    "index": 453,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "すぐに彼らの足は止まった。"
+  },
+  {
+    "index": 509,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これは……！」"
+  },
+  {
+    "index": 575,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこの通路は、水浸しになっていた。"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "近くの床には、放水用のホースが打ち捨てられている。"
+  },
+  {
+    "index": 585,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこから水が溢れ続け、通路に水溜りを作っているのだ。"
+  },
+  {
+    "index": 652,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どうしたのよ、水溜りくらい。さっさと先に進みましょうよ」"
+  },
+  {
+    "index": 663,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、よく見ろよ先生……」"
+  },
+  {
+    "index": 668,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は壁を指差した。"
+  },
+  {
+    "index": 673,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "爆発でも起きたのか、壁が一部崩れている。"
+  },
+  {
+    "index": 678,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこから断線したケーブルらしきものが飛び出し、水溜りに触れて火花を上げていた。"
+  },
+  {
+    "index": 713,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「高圧電線……！？」"
+  },
+  {
+    "index": 758,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「なんだこれは、なぜこんな事に？」"
+  },
+  {
+    "index": 802,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「誰かが消火でもしようとして、偶然こうなったのでしょうか」"
+  },
+  {
+    "index": 846,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……偶然？　自然とこんな風になるものか？）"
+  },
+  {
+    "index": 851,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "一瞬そう思ったが、口にはしない事にした。"
+  },
+  {
+    "index": 862,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁ原因はどうあれ、進む方法をまず考えよう」"
+  },
+  {
+    "index": 867,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、水溜りを見据えた。"
+  },
+  {
+    "index": 872,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "水溜りの幅は、５ｍほど。"
+  },
+  {
+    "index": 877,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それを越えて、ケーブルを水溜りから出してしまえば通れるようになる。"
+  },
+  {
+    "index": 882,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが問題は、曲がり角のすぐ先にあるため、助走のスペースがないという事だった。"
+  },
+  {
+    "index": 887,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "試しにポケットの中にあった糸くずを、水溜りに放り込んでみる。"
+  },
+  {
+    "index": 961,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――それだけで激しく火花が瞬いた。"
+  },
+  {
+    "index": 973,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「こりゃ、足でも突っ込んだら死んじまうな……！」"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「他に、第４エリアへ行く道はないのかしら？」"
+  },
+  {
+    "index": 1069,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あるはずです。遠回りになりますが、迂回しましょう」"
+  },
+  {
+    "index": 1074,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見がそう言った時、渡瀬の口から、ひとりでに声が溢れた。"
+  },
+  {
+    "index": 1085,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「待て、時間が惜しい」"
+  },
+  {
+    "index": 1114,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？　どういうおつもりで？」"
+  },
+  {
+    "index": 1125,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁに、助走無しで５ｍなら……『俺ならまるで問題ない距離』だ」"
+  },
+  {
+    "index": 1130,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ある種の確信を持って、渡瀬はその言葉を口にしていた。"
+  },
+  {
+    "index": 1136,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（時間がない上に、今は橘も守部も同僚を失ったばかりで、気弱になっているはずだ……）"
+  },
+  {
+    "index": 1142,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だったらせめて、身を以て、元気付けてやらなきゃな）"
+  },
+  {
+    "index": 1147,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "多少の危険を冒してでも、この暗い雰囲気を吹き飛ばしたい。渡瀬はそう思っていた。"
+  },
+  {
+    "index": 1158,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「全員、ちょっと通路を空けてくれ。ほら宇喜多さんも先生もだ」"
+  },
+  {
+    "index": 1201,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は皆を通路の端に押し付け、スペースを空けた。"
+  },
+  {
+    "index": 1212,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「って隊長、まさか――！？」"
+  },
+  {
+    "index": 1217,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬の思惑に気づいたらしい洵が、そう声を上げた時――"
+  },
+  {
+    "index": 1267,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（守部、見とけよ！）"
+  },
+  {
+    "index": 1287,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "３歩の助走で勢いをつけた渡瀬は、水溜りの直前で踏み切り、そして跳んだ。"
+  },
+  {
+    "index": 1307,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ハッ！」"
+  },
+  {
+    "index": 1458,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "着地と同時に、足元で青白い火花が上がる。"
+  },
+  {
+    "index": 1469,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「っっ！」"
+  },
+  {
+    "index": 1474,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は一瞬身をすくめたが、電撃を受けた感覚はなかった。"
+  },
+  {
+    "index": 1479,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "靴底にへばりついていたゴミか何かが、水溜りに落ちたのだろう。"
+  },
+  {
+    "index": 1484,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "背後で風見の声が聞こえる。"
+  },
+  {
+    "index": 1517,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長っ！　大丈夫ですか！？」"
+  },
+  {
+    "index": 1528,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああ、大丈夫だ！　今、放電を止めてやる！」"
+  },
+  {
+    "index": 1590,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそれだけ答え、ケーブルを水溜りから引き抜いた。"
+  },
+  {
+    "index": 1607,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さ、みんなもう大丈夫だ」"
+  },
+  {
+    "index": 1651,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いや、ちょっと待ってみんな！　まずあたしから入るから！」"
+  },
+  {
+    "index": 1701,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬の言葉に従い、洵がそーっと水溜りに足を踏み入れる。"
+  },
+  {
+    "index": 1706,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "――が、何も起こらなかった。"
+  },
+  {
+    "index": 1735,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……や、大丈夫！　平気みたいだよ！」"
+  },
+  {
+    "index": 1764,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ほら、みんなどうぞ！」"
+  },
+  {
+    "index": 1797,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵に促され、皆が水溜りを越えて、渡瀬に駆け寄ってくる。"
+  },
+  {
+    "index": 1838,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「隊長さん、危ないことするわねぇ……見てるこっちが怖かったわよ」"
+  },
+  {
+    "index": 1882,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「もっと冷静なタイプかと思ってたが、そういう一面もあるんだな」"
+  },
+  {
+    "index": 1926,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「びっくりしたでしょ？　うちの隊長は身体能力がとにかく高くてねぇ」"
+  },
+  {
+    "index": 1955,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「記憶がアレしてても、自分の力は体が覚えてたんだね？　さすが隊長」"
+  },
+  {
+    "index": 1960,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "そう言う洵の顔からは、さきほどまでの暗い影が薄れていた。"
+  },
+  {
+    "index": 1965,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬もほっとしつつ、内心で思う。"
+  },
+  {
+    "index": 1971,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（さっきの『できる』という確信は、そこから来ていたのか……）"
+  },
+  {
+    "index": 1976,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ならば渡瀬が行動できるか否かを決めるのは、勇気や気合の問題らしい。"
+  },
+  {
+    "index": 1981,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがその時、風見が冷たい声で言った。"
+  },
+  {
+    "index": 2052,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「褒めるんじゃありません、守部。隊長もなにを嬉しそうにしてるんですか」"
+  },
+  {
+    "index": 2063,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え……え？」"
+  },
+  {
+    "index": 2092,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「災害の現場は、身体能力を披露する場じゃありませんよ。安全策を取れるなら、そちらを必ず選ぶべきです」"
+  },
+  {
+    "index": 2121,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さきほどあんな……あんな事があったというのに……！」"
+  },
+  {
+    "index": 2126,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の口調は冷静だったが、声には怒りが滲んでいた。"
+  },
+  {
+    "index": 2137,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「す、すまない！　また焦っちまった！」"
+  },
+  {
+    "index": 2161,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  {
+    "index": 2166,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見は何も言わず、渡瀬を睨んでいた。"
+  },
+  {
+    "index": 2171,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "他の４人も、遠巻きに事のなりゆきを見ている。"
+  },
+  {
+    "index": 2176,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "やがて風見は、ぼそりと言った。"
+  },
+  {
+    "index": 2205,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「…………わかればよいのです」"
+  },
+  {
+    "index": 2234,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「とは言えせっかく隊長が稼いでくれた時間、浪費するのは惜しいです。行きましょう皆さん」"
+  },
+  {
+    "index": 2248,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見はぷいと目を逸らし、そして歩き出した。"
+  },
+  {
+    "index": 2277,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……せっかく頑張ったのに、また怒られちゃったね？」"
+  },
+  {
+    "index": 2288,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁしかたないさ。橘の言う事ももっともだ」"
+  },
+  {
+    "index": 2293,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "身体能力と勇気があっても、判断力がなければ、自分の身を危険にさらすだけだ。"
+  },
+  {
+    "index": 2298,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見はその事を言いたかったのだろう。"
+  },
+  {
+    "index": 2304,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ま、色々言われたが……橘も守部も、前までの感じに戻ったようでよかった）"
+  },
+  {
+    "index": 2309,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思いつつ、渡瀬たちは風見の背を追った。"
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "index": 46,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter1"
+  },
+  {
+    "index": 60,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第３エリア内周棟・地下１階。"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには火災の兆候はなかった。"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "プロキオンの表示は『１７９２ｍＳｖ』と、さほど問題はない。"
+  },
+  {
+    "index": 81,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうやら……いまのところ、このフロアは安全のようだな」"
+  },
+  {
+    "index": 146,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「では引き続き２手に別れて、捜索を行うかね」"
+  },
+  {
+    "index": 176,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いちいちチームを決めなおすのも時間が惜しいわ。早く捜索に入りましょ」"
+  },
+  {
+    "index": 207,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだね、相変わらずＡＤも見つかってないし」"
+  },
+  {
+    "index": 324,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……」"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では、我々が外周棟を、守部たちは内周棟をお願いします」"
+  },
+  {
+    "index": 340,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "異論を唱えるものはいなかった。"
+  },
+  {
+    "index": 345,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "６人は再び、『渡瀬＋風見＋ユウリ』の組と、『洵＋宇喜多＋恵那』の組に分かれ、第３エリア地下１階の捜索を開始した。"
+  },
+  {
+    "index": 388,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "――まずは風見とユウリと共に、外周棟に向かう。"
+  },
+  {
+    "index": 432,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だが、外周棟に続く通路の奥で、セキュリティゲートを開けようとすると――"
+  },
+  {
+    "index": 449,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あれ？」"
+  },
+  {
+    "index": 454,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "カードが認識されなかった。"
+  },
+  {
+    "index": 459,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "セキュリティレベルの表示は『３』だから、Ｌｖ４のカードで開けられるはずなのに。"
+  },
+  {
+    "index": 464,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "もう一度スロットに通してみても、"
+  },
+  {
+    "index": 475,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "やはり扉は開かなかった。"
+  },
+  {
+    "index": 486,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「くそ、壊れてるみたいだ！　他の通路から入れるか？」"
+  },
+  {
+    "index": 517,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確認します！」"
+  },
+  {
+    "index": 522,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見はそう答え、懐から例の手書きの地図を取り出した。"
+  },
+  {
+    "index": 643,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――現在位置がここ。そしてここの扉が開かない、と」"
+  },
+  {
+    "index": 709,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「で……この第２エリア側からの通路も、セキュリティスロットが焼失していて入れませんでした」"
+  },
+  {
+    "index": 720,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えばここの階段も崩れてたから、別の階から行く事はできないな」"
+  },
+  {
+    "index": 749,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「となると遠回りになりますが、第４エリア側から入るしかないようですね」"
+  },
+  {
+    "index": 771,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ますますまずいな……ＡＤが足りないってのに」"
+  },
+  {
+    "index": 776,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "もうＡＤの投与時間まで、１０分ほどしかない。"
+  },
+  {
+    "index": 787,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「せめてあと１本でもあればな……」"
+  },
+  {
+    "index": 792,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がそう呟くと、遠慮がちな声があがった。"
+  },
+  {
+    "index": 838,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あ、あの……」"
+  },
+  {
+    "index": 849,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？　どうした？」"
+  },
+  {
+    "index": 860,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「いよいよになったら……わたしが投与を諦めれば、いいんじゃないかって……」"
+  },
+  {
+    "index": 889,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「なに言ってるんですか、ユウリさん！　あなたにそんな事はさせられません！」"
+  },
+  {
+    "index": 953,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「っ！」"
+  },
+  {
+    "index": 958,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "ユウリがびくっと身を震わせる。"
+  },
+  {
+    "index": 969,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだぞユウリ！　その時はむしろオレが――」"
+  },
+  {
+    "index": 998,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いえ、そういうことを考えるのはタイムリミットが来てからです」"
+  },
+  {
+    "index": 1009,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうか……」"
+  },
+  {
+    "index": 1020,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それよりいったん内周棟に戻りましょう。時間が惜しいです」"
+  },
+  {
+    "index": 1049,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は、はい……」"
+  },
+  {
+    "index": 1054,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "さっさと歩き出す風見の後を、渡瀬とユウリはついていった。"
+  },
+  {
+    "index": 1059,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "だが傍らを歩くユウリに、渡瀬は訝しいものを感じていた。"
+  },
+  {
+    "index": 1065,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（どうも妙だな……？）"
+  },
+  {
+    "index": 1070,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "彼女は決して、捜索に非協力的なわけではない。"
+  },
+  {
+    "index": 1075,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ひどく怯えてはいるが、ああして自分より他人の事を優先しようとする優しさもある。"
+  },
+  {
+    "index": 1081,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（なのにどうして……さっきは１人で逃げようとしたんだ？）"
+  },
+  {
+    "index": 1152,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "最初に顔を合わせた時、ユウリが見せた表情が、脳裏をよぎる。"
+  },
+  {
+    "index": 1157,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬を見た瞬間、彼女は確かに怯えていた。"
+  },
+  {
+    "index": 1163,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ひょっとして今も、オレに対して怯えているのか？　だとしたらなぜ……？）"
+  },
+  {
+    "index": 1198,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がそう思った時――"
+  },
+  {
+    "index": 1206,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「きゃあああああ！！」"
+  },
+  {
+    "index": 1250,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "耳をつんざくような絶叫が聞こえてきた。"
+  },
+  {
+    "index": 1261,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「今のは！？」"
+  },
+  {
+    "index": 1272,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「じゅ……洵さんたちの声！？」"
+  },
+  {
+    "index": 1277,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "珍しくユウリが、大きな声を上げた。"
+  },
+  {
+    "index": 1306,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――行きましょう！」"
+  },
+  {
+    "index": 1326,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "一瞬の逡巡もなく、風見が駆け出した。"
+  },
+  {
+    "index": 1331,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬もユウリの手を引き、それを追う。"
+  },
+  {
+    "index": 1379,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "曲がり角を曲がると、ちょうど洵たちがとある部屋から出てくるところだった。"
+  },
+  {
+    "index": 1444,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「た……隊長ッ！」"
+  },
+  {
+    "index": 1455,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ど、どうした！？　なにがあったんだ！？」"
+  },
+  {
+    "index": 1512,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あ！？　あ、あ……」"
+  },
+  {
+    "index": 1517,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多はよほど動転しているのか、渡瀬たちを見て意味をなさない声を上げた。"
+  },
+  {
+    "index": 1547,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「皆さん落ち着いて下さい！　一体何事ですか！」"
+  },
+  {
+    "index": 1552,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "すると恵那が青ざめた顔で、呆然と呟く。"
+  },
+  {
+    "index": 1581,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……死体……」"
+  },
+  {
+    "index": 1592,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  {
+    "index": 1621,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「死体が、たくさん……！」"
+  },
+  {
+    "index": 1626,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――その瞬間、その場の空気が凝結した。"
+  },
+  {
+    "index": 1637,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「せ、先生……死体って……？」"
+  },
+  {
+    "index": 1666,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あの部屋の中に……」"
+  },
+  {
+    "index": 1695,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「焼死体……でしょうか？」"
+  },
+  {
+    "index": 1706,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  {
+    "index": 1711,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は一瞬、夏彦たちが焼け死んでいる姿を思い浮かべた。"
+  },
+  {
+    "index": 1716,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが洵は首を振る。"
+  },
+  {
+    "index": 1745,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「違うんだよ……それならまだわかるんだけど……！」"
+  },
+  {
+    "index": 1756,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、それってどういう……？」"
+  },
+  {
+    "index": 1785,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……あの部屋に入ればわかるよ……」"
+  },
+  {
+    "index": 1790,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は忌々しげに、その部屋の扉を見る。"
+  },
+  {
+    "index": 1850,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "扉はもう閉まっていたが――"
+  },
+  {
+    "index": 1855,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "そこから鉄さびにも似た臭いが漂ってきた。"
+  },
+  {
+    "index": 1861,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（何の臭いだ……？）"
+  },
+  {
+    "index": 1866,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思うや否や、得体の知れない恐怖が湧き上がってきた。"
+  },
+  {
+    "index": 1871,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はごくりと唾を飲み込み、それから覚悟を決める。"
+  },
+  {
+    "index": 1882,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ユウリは、さがってた方がいい」"
+  },
+  {
+    "index": 1918,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は、はい……！」"
+  },
+  {
+    "index": 1932,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "引きつった顔でユウリがうなずく。"
+  },
+  {
+    "index": 1992,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長、副隊長、いい……？」"
+  },
+  {
+    "index": 2003,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え、ええ」"
+  },
+  {
+    "index": 2014,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああ……」"
+  },
+  {
+    "index": 2019,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "洵はその部屋に歩み寄り――"
+  },
+  {
+    "index": 2024,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "扉を、開けた。"
+  },
+  {
+    "index": 2220,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ッ！？」"
+  },
+  {
+    "index": 2225,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "真っ先に眼に飛び込んで来たのは、赤い色。"
+  },
+  {
+    "index": 2230,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "室内を染める血の色だった。"
+  },
+  {
+    "index": 2235,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その血だまりの中、渡瀬のすぐ足元に、ぼろくずのようになった死体が２つ倒れている。"
+  },
+  {
+    "index": 2240,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして――部屋の奥にも１つ死体があった。"
+  },
+  {
+    "index": 2245,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見たちの所持していたものと同じ、放射線防護服を着た死体が。"
+  },
+  {
+    "index": 2250,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それを見た瞬間――風見が声を上げた。"
+  },
+  {
+    "index": 2261,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そ、そんな……！？」"
+  },
+  {
+    "index": 2272,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あれは、あの死体は……！！」"
+  },
+  {
+    "index": 2277,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "洵が悲痛な顔でうなずき、そして答える。"
+  },
+  {
+    "index": 2288,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「堂島先輩……だよ」"
+  },
+  {
+    "index": 2293,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "その言葉に渡瀬は息を呑んだ。"
+  },
+  {
+    "index": 2298,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "記憶にはないが、洵が名を知っているという事は――"
+  },
+  {
+    "index": 2309,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まさか、あの人は、オレたちの……！？」"
+  },
+  {
+    "index": 2320,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ……彼は、我々と同じＡチームのメンバーです……！」"
+  },
+  {
+    "index": 2331,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうして……どうして、こんなことに……」"
+  },
+  {
+    "index": 2336,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "風見と洵が、その場に崩れ落ちる。"
+  },
+  {
+    "index": 2342,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ど、どういう事だ……！）"
+  },
+  {
+    "index": 2347,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はこの施設の中で『死体』を見るとしたら、恐らく焼け死んだものだろうと思っていた。"
+  },
+  {
+    "index": 2352,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがここにあるのは違う。"
+  },
+  {
+    "index": 2357,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "何者かの手によって、命を奪われた死体――"
+  },
+  {
+    "index": 2362,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "明らかに、他殺体だった。"
+  },
+  {
+    "index": 2373,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、一体……」"
+  },
+  {
+    "index": 2384,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ここで、何が……！？」"
+  },
+  {
+    "index": 2389,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その問いに答える声はない。"
+  },
+  {
+    "index": 2394,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は血臭の漂うその部屋で、ただ呆然と立ち尽くしていた。"
+  },
+  {
+    "index": 2440,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――原子炉メルトダウン事故が発生した施設に、人が閉じ込められた――"
+  },
+  {
+    "index": 2445,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それだけでもここは、最悪の現場だと思っていた。"
+  },
+  {
+    "index": 2450,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "少しでも気を抜けば、命を落とすような地獄だと……。"
+  },
+  {
+    "index": 2495,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが渡瀬たちの命を脅かすのは、火や放射線のみではないのかもしれない。"
+  },
+  {
+    "index": 2500,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "隔壁開放まで、あと約８時間。"
+  },
+  {
+    "index": 2505,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "彼らの命がけの脱出劇は、まだ始まったばかりだった……。"
+  }
+]

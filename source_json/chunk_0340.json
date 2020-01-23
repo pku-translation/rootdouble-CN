@@ -1,0 +1,848 @@
+[
+  {
+    "index": 59,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦は、洵の記憶を読み進めた。"
+  },
+  {
+    "index": 109,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "汚染区域でＡＤを手に入れ、"
+  },
+  {
+    "index": 162,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ファクトリーで天井の崩落に遭遇し、皆で悠里を助け――"
+  },
+  {
+    "index": 169,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして搬出リフトのゲートを、クレーンを使ってこじ開けるまで。"
+  },
+  {
+    "index": 175,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そう、ここだ……この先に、例の記憶が……！）"
+  },
+  {
+    "index": 212,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ぃよーし、じゃああたしが先に入って安全を確かめよう」"
+  },
+  {
+    "index": 241,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだな、頼む」"
+  },
+  {
+    "index": 252,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「はーい、まかせてー」"
+  },
+  {
+    "index": 300,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は上機嫌で、その隙間にもぐりこむ。"
+  },
+  {
+    "index": 307,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "だが、そのゲートの向こうにあったのは――"
+  },
+  {
+    "index": 467,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「きゃああああああっ！」"
+  },
+  {
+    "index": 472,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "見知らぬ少女の、死体だった。"
+  },
+  {
+    "index": 512,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "――夏彦は洵の目を通じ、その光景を見ていた。"
+  },
+  {
+    "index": 518,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここで洵さんは悪意に感染した……）"
+  },
+  {
+    "index": 524,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったら、そろそろ現れるんじゃないか！？）"
+  },
+  {
+    "index": 530,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体Ｎの魂の跡は、ここに残ってるんじゃないか！？）"
+  },
+  {
+    "index": 563,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なぁそうだろ……被験体Ｎ」"
+  },
+  {
+    "index": 568,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は死体に語りかける。"
+  },
+  {
+    "index": 579,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さぁ、出てきてくれ……洵さんの中から、お前の悪意を消してやる」"
+  },
+  {
+    "index": 584,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう叫ぶと――"
+  },
+  {
+    "index": 597,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「――あたしを、殺すのかい？」"
+  },
+  {
+    "index": 602,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "被験体Ｎが、そう答えた。"
+  },
+  {
+    "index": 623,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……！）"
+  },
+  {
+    "index": 692,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "彼女はゆっくりと立ち上がり、夏彦を睨みつける。"
+  },
+  {
+    "index": 697,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はその目を見返して、答えた。"
+  },
+  {
+    "index": 708,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……殺すんじゃない。記憶を元の形に、修復するだけだ」"
+  },
+  {
+    "index": 737,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「違うね。あんたがやってることは修復じゃない」"
+  },
+  {
+    "index": 748,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「だいたい『元の形』って何さ？　あんたがそう思いこんでるだけでしょ？」"
+  },
+  {
+    "index": 777,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「それを歪めて、自分の都合のいいように作り変える……それを修復だなんて、ちゃんちゃらおかしいね」"
+  },
+  {
+    "index": 788,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……確かにお前の言う通りかもしれない」"
+  },
+  {
+    "index": 799,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だけどお前を放置していたら、本当に死人が出るんだ」"
+  },
+  {
+    "index": 810,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「精神世界の話じゃない。現実の世界でだ」"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それを見過ごすわけにはいかないんだよ」"
+  },
+  {
+    "index": 850,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「正義の名のもとに殺すか。いいね、実にヒーロー的だ」"
+  },
+  {
+    "index": 861,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「あたしの肉体は、もう死んでいる。洵の記憶の中に残したあたしの名残も、あんたが消した」"
+  },
+  {
+    "index": 890,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「あんたがあたしを消滅させるんだ。いくらでも言い繕う事はできるけど、それはやっぱり殺人さ」"
+  },
+  {
+    "index": 919,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「それを躊躇しないあんたには、人殺しの素養があるよ」"
+  },
+  {
+    "index": 930,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……洵と、同じにね」"
+  },
+  {
+    "index": 935,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "その言葉が、夏彦の心に引っかかった。"
+  },
+  {
+    "index": 946,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さんと同じ……！？」"
+  },
+  {
+    "index": 957,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前、ぼくだけじゃなくて……洵さんに、人殺しの素養があるって言うのか！」"
+  },
+  {
+    "index": 968,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「当然じゃん？　今さら何を？」"
+  },
+  {
+    "index": 973,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "被験体Ｎは、鼻で笑って言う。"
+  },
+  {
+    "index": 1002,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ねぇ、『一殺多生』って言葉を知ってるかい？　洵が嫌いな言葉なんだけどさ」"
+  },
+  {
+    "index": 1013,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いきなり何の話だ」"
+  },
+  {
+    "index": 1042,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「『一人を殺す代わりに大勢を助けられるなら、そうすべき』っていう考え方だよ」"
+  },
+  {
+    "index": 1053,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「嫌いなくせに、洵が選んだ事さ。あんただって、さっきの洵の言葉を聞いたでしょ？」"
+  },
+  {
+    "index": 1058,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "その瞬間、被験体Ｎの声が洵の声に変わった。"
+  },
+  {
+    "index": 1087,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「――そんな事、どうして言える！？　一度人を殺そうとした人間が、どうして改心したと言えるのさ！？」"
+  },
+  {
+    "index": 1098,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いいかい！？　人が殺されてからじゃ遅いんだ！　死んだ人は絶対に戻ってこないんだ！」"
+  },
+  {
+    "index": 1109,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしだってこんな事したくないよ！　でも、万が一の犠牲者が出てから、後悔するくらいなら――」"
+  },
+  {
+    "index": 1120,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしはシリウスを辞めてでも、こいつに手を下す！」"
+  },
+  {
+    "index": 1131,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……！」"
+  },
+  {
+    "index": 1160,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……この子の心の中には、『人の命を救う』って事しかない。そのためには人を傷つけてもいいと考えてる」"
+  },
+  {
+    "index": 1171,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「矛盾しているようで、一貫しているよ」"
+  },
+  {
+    "index": 1182,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ここまでこの子の心を見てきたなら、わかるだろ？」"
+  },
+  {
+    "index": 1211,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「洵は弱い女だ。コンプレックスの塊だし、だから闇雲に自分を鍛えてきた」"
+  },
+  {
+    "index": 1222,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「他者への依存性も高い。凪沙だお姉ちゃんだ隊長だって、いつも誰かを求めている」"
+  },
+  {
+    "index": 1233,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「頼り頼られる事でしか、自分の価値を確認できないんだよ」"
+  },
+  {
+    "index": 1262,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「そしてそんな弱っちい自分を憎んでいる。それが他人への攻撃性に転化するのさ」"
+  },
+  {
+    "index": 1273,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「『人命を守る』っていう大義名分があると、よけいにあっさりとね」"
+  },
+  {
+    "index": 1279,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  {
+    "index": 1308,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「あたしが記憶を改竄した後、洵がどうなったかわかるかな？」"
+  },
+  {
+    "index": 1337,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「皆の命を救おうと思うあまり、怪しい奴はぶっ殺そうと思ったんだよ」"
+  },
+  {
+    "index": 1342,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "被験体Ｎがそう言った瞬間、目の前の光景が変わった。"
+  },
+  {
+    "index": 1509,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "――それはほんの数時間ほど前の、洵の記憶だ。"
+  },
+  {
+    "index": 1514,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "彼女は連絡通路を歩きながら、呪詛の言葉を吐いている。"
+  },
+  {
+    "index": 1526,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あいつ……いったいどこに……？」"
+  },
+  {
+    "index": 1532,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……あたしを後ろから殴るなんて……！）"
+  },
+  {
+    "index": 1544,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだ……やっぱり、そうなんだよ……」"
+  },
+  {
+    "index": 1550,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（隊長じゃなくて、宇喜多さんが犯人だったんだ……）"
+  },
+  {
+    "index": 1562,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だったら……もう、仕方ない……」"
+  },
+  {
+    "index": 1568,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（あいつがＡＤを奪ったんなら――あたしが何とかしなきゃ）"
+  },
+  {
+    "index": 1580,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうしなきゃみんなを護れない……あたしが、あいつを殺さなきゃ……」"
+  },
+  {
+    "index": 1586,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（皆の命を救うために……）"
+  },
+  {
+    "index": 1598,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「辛くても、頑張らなきゃ……！」"
+  },
+  {
+    "index": 1753,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「あはははは！　『辛くても頑張らなきゃ』だってさ！」"
+  },
+  {
+    "index": 1782,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「わかったろ？　洵は自分を殴った宇喜多さんを、『殺そう』と思ったんだよ」"
+  },
+  {
+    "index": 1793,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「黙れ……！」"
+  },
+  {
+    "index": 1804,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「これはあたしが改竄した記憶じゃないよ。洵が実際に発言した『事実』さ」"
+  },
+  {
+    "index": 1833,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ＡＤが無くなって、皆の命が危機にさらされたと思って……それでテンパってたにしても、ちょっと酷すぎるね」"
+  },
+  {
+    "index": 1844,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「隊長の事も疑ってたじゃん？　あげくの果てにはあんたたちの事さえ疑って、本末転倒もいいとこだ」"
+  },
+  {
+    "index": 1855,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「宇喜多さんに『弱い人間』って言ってたけど、洵こそが間違いなく――」"
+  },
+  {
+    "index": 1884,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「黙れって言ってるんだ！」"
+  },
+  {
+    "index": 1907,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は被験体Ｎの言葉を、遮って叫んだ。"
+  },
+  {
+    "index": 1918,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前は洵さんの事を、何もわかっちゃいない……！」"
+  },
+  {
+    "index": 1929,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さんは、ヒーローになりたかったんだ！」"
+  },
+  {
+    "index": 1940,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悪い奴をやっつけるんじゃない、人を救うヒーローに！」"
+  },
+  {
+    "index": 1951,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……洵さんがどれだけ自分を責めてきたか、お前にはわからないのか？」"
+  },
+  {
+    "index": 1962,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「友達を救えなかった事が、どれだけ洵さんの心の傷になってきたか」"
+  },
+  {
+    "index": 1973,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「その傷に耐えて、自分の弱さと向き合って、それを乗り越えて……」"
+  },
+  {
+    "index": 1984,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そして洵さんは、強くなったんだ！」"
+  },
+  {
+    "index": 1989,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その言葉に、彼女の表情がわずかに歪む。"
+  },
+  {
+    "index": 2018,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……わかってるさ、そのくらい」"
+  },
+  {
+    "index": 2029,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「あたしは洵だから。洵はあたしだから」"
+  },
+  {
+    "index": 2040,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だったらどうして、洵さんの傷を抉るような事を言う！？」"
+  },
+  {
+    "index": 2051,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さんの心が、まともじゃなくなっていた事くらいわかるだろ！？」"
+  },
+  {
+    "index": 2062,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そして、それが――お前のせいだっていう事も！」"
+  },
+  {
+    "index": 2126,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……っ！」"
+  },
+  {
+    "index": 2155,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「へぇ……記憶改竄のせいだけじゃなくて、洵にあたしが取り憑いていたとでも？」"
+  },
+  {
+    "index": 2166,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「取り憑いていたってのとは、少し違う……」"
+  },
+  {
+    "index": 2177,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だけどお前は洵さんに、ＢＣを使った」"
+  },
+  {
+    "index": 2188,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ＢＣは、言葉や記憶だけじゃなくて、『想い』を人に伝える」"
+  },
+  {
+    "index": 2199,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「言葉にならない事も、思い描けないような記憶も――そしてお前の、膨大な悪意も」"
+  },
+  {
+    "index": 2210,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それは情報エネルギーとして、洵さんの頭の中に残ってしまった……」"
+  },
+  {
+    "index": 2221,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それを受け取った洵さんは、普通の洵さんじゃなくなってたんだ」"
+  },
+  {
+    "index": 2250,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……ふん、ロマンチックなオハナシだね」"
+  },
+  {
+    "index": 2261,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「『死者の想いが生者に残る』って？」"
+  },
+  {
+    "index": 2272,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ……ここにお前がこうして存在している事が、ぼくと会話できているという事がその証拠だ」"
+  },
+  {
+    "index": 2283,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの凪沙って子が、洵さんの心に残り続けているように……」"
+  },
+  {
+    "index": 2312,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……その名前を出すんじゃない」"
+  },
+  {
+    "index": 2317,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "被験体Ｎが、夏彦を鋭く睨みつける。"
+  },
+  {
+    "index": 2346,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ムカつくんだよ、あいつ」"
+  },
+  {
+    "index": 2357,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「死んで９年も経つのに、洵の心にずっと残りやがってさ……！」"
+  },
+  {
+    "index": 2368,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……お前も、洵さんの心に残りたかったのか？」"
+  },
+  {
+    "index": 2397,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「当たり前だろ？」"
+  },
+  {
+    "index": 2408,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「誰かと心を繋いで、その人の中に想いを残したい……それがあたしら、コミュニケーターなんだから」"
+  },
+  {
+    "index": 2419,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……そうか。そうだよな、でも……」"
+  },
+  {
+    "index": 2430,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前が洵さんの心に残っている限り、洵さんは洵さんじゃなくなっちゃうんだ」"
+  },
+  {
+    "index": 2441,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……お前は、消えなきゃならないんだよ」"
+  },
+  {
+    "index": 2446,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦が言うと、被験体Ｎは諦めたように笑った。"
+  },
+  {
+    "index": 2475,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「……はっ、結局はあたしを消すわけだ。一殺多生の精神でもって」"
+  },
+  {
+    "index": 2486,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そんなかっこいいもんじゃない……個人的な動機だ」"
+  },
+  {
+    "index": 2515,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「そりゃなお、タチが悪いね。快楽殺人者と一緒だよ」"
+  },
+  {
+    "index": 2526,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「いや、ヒーローってのは案外そんなものなのかもね？」"
+  },
+  {
+    "index": 2531,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "夏彦はもう、彼女の言葉を聞くのが辛かった。"
+  },
+  {
+    "index": 2536,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "頭の片隅で、悠里の声が響く。"
+  },
+  {
+    "index": 2607,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《……ひこりん、もう……》"
+  },
+  {
+    "index": 2615,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《この子を、消してあげて》"
+  },
+  {
+    "index": 2623,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《この子が洵さんの移し身なら、こんな言葉を望んで言ってるわけじゃない……》"
+  },
+  {
+    "index": 2629,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ああ……わかってる）"
+  },
+  {
+    "index": 2634,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "被験体Ｎは、自分のやった事を後悔して、消えるのを望んでいるのだろう。"
+  },
+  {
+    "index": 2639,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それで夏彦に憎まれ口を叩き、自分を消すことを促しているのだ。"
+  },
+  {
+    "index": 2702,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そうだとでも思わなければ、やりきれなかった。"
+  },
+  {
+    "index": 2713,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……お前を殺すよ、被験体Ｎ」"
+  },
+  {
+    "index": 2718,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その言葉に、彼女が微笑む。"
+  },
+  {
+    "index": 2747,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「やるなら早くやりなよ、ヒーロー」"
+  },
+  {
+    "index": 2776,
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「そんでせいぜい長生きして、罪の意識に苦しみな」"
+  },
+  {
+    "index": 2787,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ……生きている限り、ずっとな」"
+  },
+  {
+    "index": 2874,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "最後まで彼女の憎まれ口を聞きながら、夏彦は――"
+  },
+  {
+    "index": 2879,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "洵の心から、被験体Ｎを消した。"
+  }
+]

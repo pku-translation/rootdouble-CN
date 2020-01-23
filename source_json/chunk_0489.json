@@ -1,0 +1,866 @@
+[
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それは約１週間前の事――"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見はいつものように、仕事に精を出していた。"
+  },
+  {
+    "index": 75,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ここのところ出場はなく、平和な日々が続いている。"
+  },
+  {
+    "index": 80,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそういう仕事の谷間には、風見は己のスキルアップを計る事にしていた。"
+  },
+  {
+    "index": 85,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "訓練はもちろんの事、仕事のために必要な知識などを蓄えるのだ。"
+  },
+  {
+    "index": 90,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "各種の資格取得のための知識。"
+  },
+  {
+    "index": 95,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "毒物・劇物・爆発物などの知識。"
+  },
+  {
+    "index": 100,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして防災のために欠かせない――過去に発生した事故や、災害の知識を。"
+  },
+  {
+    "index": 135,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "過去の事故・災害の調査記録について調べるのは、風見の趣味のようなものだ。"
+  },
+  {
+    "index": 141,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "後輩である火災調査員から資料を送ってもらい、それを訓練の合間に眺める。"
+  },
+  {
+    "index": 147,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（危機的状況に対したとき、頼れるのはやはりこういう知識なのよ……）"
+  },
+  {
+    "index": 152,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "洵には『暗い趣味だなぁ』と言われたが、何しろ命がけの仕事をしているのだ。暗いもへったくれもない。"
+  },
+  {
+    "index": 157,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だが、仕事に活かせるか否かは別として、風見がずっと調べ続けている事があった。"
+  },
+  {
+    "index": 162,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "――『鹿鳴市営団地ガス爆発事故』の記録。"
+  },
+  {
+    "index": 167,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "凪沙の命を奪い、洵の背に傷を負わせた、あの忌わしい事故……風見はそれにこだわっていた。"
+  },
+  {
+    "index": 178,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "と、その時、風見のＰＤＡに着信が入った。"
+  },
+  {
+    "index": 183,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "ディスプレイを見ると、件の火災調査員の名前と、『メール着信』のアイコンが表示されている。"
+  },
+  {
+    "index": 189,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（過去の事故の資料かしら……）"
+  },
+  {
+    "index": 201,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう思いながら、風見はメールを開いた。"
+  },
+  {
+    "index": 285,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "件名：鹿鳴市営団地ガス爆発事故について（７）"
+  },
+  {
+    "index": 289,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 292,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "送信者：飛鳥井玲菜"
+  },
+  {
+    "index": 296,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 299,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "本文："
+  },
+  {
+    "index": 303,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 306,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "橘風見様"
+  },
+  {
+    "index": 310,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 313,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "お疲れ様です。鹿鳴市東消防署火災調査員、飛鳥井です。"
+  },
+  {
+    "index": 317,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "先日に引き続き、例の事故調査についてご報告致します。"
+  },
+  {
+    "index": 321,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 324,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "現状で判明した事は、以下の通りです。"
+  },
+  {
+    "index": 328,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 331,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "①団地東棟の１階から６階部分までが半壊した原因について"
+  },
+  {
+    "index": 335,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 338,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "これについては、恐らく原因はいくつもあります。"
+  },
+  {
+    "index": 342,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 345,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "まず考えられるのは、建物自体の老朽化、および剛性不足です。"
+  },
+  {
+    "index": 349,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 352,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "鹿鳴市営団地は、鹿鳴市が政令指定機密都市になる前に建てられた、"
+  },
+  {
+    "index": 355,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "古い建物です。"
+  },
+  {
+    "index": 359,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "事故当時、築４４年。法定耐用年数としてはギリギリです。"
+  },
+  {
+    "index": 363,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 367,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "さらには鉄筋の中抜き、シャブコンの使用など、"
+  },
+  {
+    "index": 371,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "明らかな手抜き工事の痕跡が見られました。"
+  },
+  {
+    "index": 375,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 378,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そのため建物の強度が不足し、"
+  },
+  {
+    "index": 381,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "ガス爆発によって発生した衝撃に耐えられず、"
+  },
+  {
+    "index": 384,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "半ば自重崩壊したものと考えられます。"
+  },
+  {
+    "index": 388,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 391,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "②団地東棟全域に衝撃を与えるほどの"
+  },
+  {
+    "index": 394,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "　ガス爆発が起きた原因について"
+  },
+  {
+    "index": 398,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 401,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "これについては当時の資料が不十分で、"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "調査に時間がかかっております。"
+  },
+  {
+    "index": 408,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 411,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "しかしまず言えるのは、『爆発は１度ではなかった』という事です。"
+  },
+  {
+    "index": 415,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 418,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "最初の爆発が起きたのは、恐らく東棟１階の住戸。"
+  },
+  {
+    "index": 422,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そこで発生した爆炎は、壁を突き破り、両隣の住戸に達しました。"
+  },
+  {
+    "index": 426,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 429,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "また同時に天井を突き破り、上階の住戸にも達しました。"
+  },
+  {
+    "index": 433,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "以上、計４つの住戸が爆炎に飲まれた事になります。"
+  },
+  {
+    "index": 437,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 440,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そのどれかで２度目のガス爆発が発生。"
+  },
+  {
+    "index": 443,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 446,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "続いて連鎖反応的に、いくつかの小爆発が起き――"
+  },
+  {
+    "index": 450,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "最終的には、"
+  },
+  {
+    "index": 453,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "あれほどの大規模な爆発をもたらしたものと思われます。"
+  },
+  {
+    "index": 456,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（当時、団地近隣に住んでいた住人も、"
+  },
+  {
+    "index": 459,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "『複数の爆発音を聞いた』と証言しております）"
+  },
+  {
+    "index": 463,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 466,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "③当時の資料が不足している理由について"
+  },
+  {
+    "index": 470,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 473,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "申し訳ございません。これについては私にもわかりません。"
+  },
+  {
+    "index": 477,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 480,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "当時すでに、"
+  },
+  {
+    "index": 483,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "鹿鳴市には火災調査員が複数名いたはずなのですが……"
+  },
+  {
+    "index": 487,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "信頼できる資料が非常に少ないです。"
+  },
+  {
+    "index": 491,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 494,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "当時の調査員たちの職務怠慢が原因と思われます。"
+  },
+  {
+    "index": 498,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "まことに面目ないです……。"
+  },
+  {
+    "index": 502,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　%N"
+  },
+  {
+    "index": 505,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "今回の調査報告は以上になります。"
+  },
+  {
+    "index": 509,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 512,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "それと……残念な報告が１つ。"
+  },
+  {
+    "index": 516,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "どうも私、救急に異動になりそうです。"
+  },
+  {
+    "index": 520,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 523,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "いきなり司令から、そんなようなことを言われました。"
+  },
+  {
+    "index": 527,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 530,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "異動になったら、"
+  },
+  {
+    "index": 533,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "火災調査員としての職務は続行できなくなりますが……"
+  },
+  {
+    "index": 537,
+    "code": "0x85",
+    "developer_comment": "風見",
+    "string": "　"
+  },
+  {
+    "index": 540,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "先輩から頼まれたこの調査だけは、独自に続けていこうと思います。"
+  },
+  {
+    "index": 544,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "というわけで、引き続きよろしくお願いします。"
+  },
+  {
+    "index": 623,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  {
+    "index": 628,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "メールを読み終えた風見は、顔をしかめた。"
+  },
+  {
+    "index": 633,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "ひとまずお礼の返信をして、それから考える。"
+  },
+  {
+    "index": 639,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（複数の爆発……？　そんなことって、そうそう起こるかしら）"
+  },
+  {
+    "index": 644,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "もし本当に連鎖爆発が起きたとしたら、国内の災害史上最大規模の集合住宅ガス爆発事故という事になる。"
+  },
+  {
+    "index": 649,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "防災研究のためには、重要な研究対象になるはずだ。"
+  },
+  {
+    "index": 654,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "なのにこの事故については、全国の消防組織から、半ば無視されているのだ。"
+  },
+  {
+    "index": 659,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "まるで腫れ物に触るように――。"
+  },
+  {
+    "index": 665,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（……それに、当時の資料が不足しているというのも気になるわ）"
+  },
+  {
+    "index": 671,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（もしかしてこれって本当は、資料が不足してるんじゃなくて――）"
+  },
+  {
+    "index": 677,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（資料が隠されているんじゃ？）"
+  },
+  {
+    "index": 682,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "なぜそんな事が起こるのか――そう考えると、ふと想起された記憶があった。"
+  },
+  {
+    "index": 688,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（そう言えば昔、凪沙が言っていたわ……）"
+  },
+  {
+    "index": 776,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「――お姉ちゃん、この団地ってさ……」"
+  },
+  {
+    "index": 787,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「コミュニケーターが集められた、特別な団地なのかもしれないね」"
+  },
+  {
+    "index": 795,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あら、どうしてそう思うの？」"
+  },
+  {
+    "index": 824,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「おとなりのおばさんが、言ってたの。『うちの子がコミュニケーターだから、この団地に入れた』って」"
+  },
+  {
+    "index": 835,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「『コミュニケーターがいるお家は、ちゅうせんがゆうりになる』って」"
+  },
+  {
+    "index": 843,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……なるほど」"
+  },
+  {
+    "index": 848,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう聞いて、風見もその意味を理解した。"
+  },
+  {
+    "index": 853,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "この団地は建物こそ古いが、部屋数は多い上、家賃はタダ同然だ。"
+  },
+  {
+    "index": 858,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そんな人気物件に、風見たちは抽選なしで入居できた。"
+  },
+  {
+    "index": 863,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見たちに両親がいないため、優遇されたのだと思っていたのだが――"
+  },
+  {
+    "index": 868,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "どうやらコミュニケーターであるが故に、優遇されたという事らしい。"
+  },
+  {
+    "index": 873,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "鹿鳴市ならではの話だった。"
+  },
+  {
+    "index": 964,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "――つまりあの団地には、コミュニケーターが多数入居していた可能性が高い。"
+  },
+  {
+    "index": 969,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そんな重要物件で起きた事故。仮にその原因が、団地管理者の過失などによるものだとしたら――"
+  },
+  {
+    "index": 975,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（事故原因を隠蔽する事も、あり得る……？）"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "やや突飛な想像にも思えたが、その可能性は０ではないだろう。"
+  },
+  {
+    "index": 988,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「鹿鳴市営団地……私も自ら、あの事故について調べるべきかしら……」"
+  },
+  {
+    "index": 993,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう呟いた時、風見に声がかけられた。"
+  },
+  {
+    "index": 1022,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おい橘、なにぼさっとしてる」"
+  },
+  {
+    "index": 1051,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「昨日頼んだ書類、できてるのか？」"
+  },
+  {
+    "index": 1059,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……は、はい。できてます」"
+  },
+  {
+    "index": 1088,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか。じゃあ俺の机に置いとけ」"
+  },
+  {
+    "index": 1093,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、踵を返す。"
+  },
+  {
+    "index": 1101,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、隊長、どこへ？」"
+  },
+  {
+    "index": 1130,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「定時だ。帰る」"
+  },
+  {
+    "index": 1181,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ぶっきらぼうな言葉を残し、彼は署内に入って行った。"
+  },
+  {
+    "index": 1187,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  {
+    "index": 1192,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見は彼の背を、暗い気持ちで見つめていた。"
+  },
+  {
+    "index": 1197,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬は１年ほど前から、人が変わったように冷たくなった。"
+  },
+  {
+    "index": 1202,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "さらにここ数日は、張り詰めたような雰囲気を漂わせている。"
+  },
+  {
+    "index": 1207,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "何か悩みでもあるのだと思い、風見は何度も相談に乗ろうとしたが――"
+  },
+  {
+    "index": 1212,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そのたびに、拒絶された。"
+  },
+  {
+    "index": 1218,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（……どうして渡瀬は、何も言ってくれないのかしら）"
+  },
+  {
+    "index": 1223,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見にはわからない事ばかりだ。"
+  },
+  {
+    "index": 1228,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬の考えも、９年前の事故の原因も。"
+  },
+  {
+    "index": 1233,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "自分がどうしたいのかも、なぜこんなにも過去の事故にこだわってしまうのかも。"
+  },
+  {
+    "index": 1238,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だがそのどれにも、どことなく不吉な暗雲が立ち込めている気がした……。"
+  }
+]

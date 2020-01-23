@@ -1,0 +1,824 @@
+[
+  {
+    "index": 61,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それから数時間。悠里は病室でおとなしくしていた。"
+  },
+  {
+    "index": 110,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが天川博士はなかなか戻って来ず、夏彦がどうなったかもわからない。"
+  },
+  {
+    "index": 115,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "静寂の中、待ち続けていると――"
+  },
+  {
+    "index": 120,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて不意に、病室の外が騒がしくなった。"
+  },
+  {
+    "index": 194,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それは大勢の人の足音らしかった。"
+  },
+  {
+    "index": 199,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "廊下を足早に歩き、この病室に近づいてきているようだ。"
+  },
+  {
+    "index": 205,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "（え……な、なに？）"
+  },
+  {
+    "index": 210,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "足音は乱暴で荒々しく、悠里は少し怖くなった。"
+  },
+  {
+    "index": 220,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「この病室の患者ですか？」"
+  },
+  {
+    "index": 228,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「あぁ」"
+  },
+  {
+    "index": 236,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「院長と話はついている。この病棟にも他に患者はいない。心おきなく搬出してくれ」"
+  },
+  {
+    "index": 241,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "部屋の前で何か囁くような声が聞こえる。"
+  },
+  {
+    "index": 256,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "そこにドタドタと駆け寄ってくる足音が混じり、さらにわめき声が響いた。"
+  },
+  {
+    "index": 267,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ちょっとあなたがた、何をしているの！」"
+  },
+  {
+    "index": 272,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "天川博士の声だった。"
+  },
+  {
+    "index": 279,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "悠里は少し安堵したが、やはり怖くて、部屋の外の様子を確かめようという気は起きなかった。"
+  },
+  {
+    "index": 290,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「江里口さん、保安六課まで動員してなんのつもり？」"
+  },
+  {
+    "index": 298,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「上の指示ですよ」"
+  },
+  {
+    "index": 306,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「本日を以って、琴乃悠里は、当ラボの第４号被験体に登録されました」"
+  },
+  {
+    "index": 317,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「なんですって……！」"
+  },
+  {
+    "index": 328,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「冗談でしょう、この娘は息子の友達なのよ！」"
+  },
+  {
+    "index": 336,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「ラボの頭脳たる、天川美夜子上級研究員とも思えない発言ですな」"
+  },
+  {
+    "index": 344,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「世界中見渡しても極めて稀な、Ｓ級コミュニケーター……」"
+  },
+  {
+    "index": 352,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「それがどれほどの危険性を持つか、わからないあなたではないでしょう？」"
+  },
+  {
+    "index": 363,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私の息子も被験体にするつもりね！？」"
+  },
+  {
+    "index": 371,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「もちろんです」"
+  },
+  {
+    "index": 379,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「個人的感情を優先し、それを野放しにするなど、そんな身勝手が許されるわけがない」"
+  },
+  {
+    "index": 390,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ふざけないで！」"
+  },
+  {
+    "index": 401,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「先日の一件といい、近頃のラボは倫理が欠落しているわ！」"
+  },
+  {
+    "index": 412,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「これ以上それが続くようなら、超科局に告発するわよ！？」"
+  },
+  {
+    "index": 420,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「それができない事は、わかってますよね？　ご子息の身の安全を考えると……」"
+  },
+  {
+    "index": 431,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……っ」"
+  },
+  {
+    "index": 436,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "重い沈黙が訪れる。"
+  },
+  {
+    "index": 441,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "やがて押し殺した声で、天川博士が呟いた。"
+  },
+  {
+    "index": 452,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……悠里ちゃんは、まだ火災の後遺症で、動ける状態じゃないわ」"
+  },
+  {
+    "index": 463,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ラボへの輸送は、彼女の体に大きな負担を強いる事になる……」"
+  },
+  {
+    "index": 474,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「江里口さん。保安六課の方々を連れて、今日は帰りなさい」"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「……まぁいいでしょう。今日のところは天川博士の顔を立てます」"
+  },
+  {
+    "index": 490,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "「また来ますよ」"
+  },
+  {
+    "index": 507,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "その言葉と共に、大勢の足音が遠ざかっていった。"
+  },
+  {
+    "index": 512,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "それが聞こえなくなった頃、"
+  },
+  {
+    "index": 569,
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "病室の扉が開き、天川博士が入ってきた。"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あ……博士……」"
+  },
+  {
+    "index": 609,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「悠里ちゃん……」"
+  },
+  {
+    "index": 614,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は力なく笑い、悠里の傍に歩み寄って来た。"
+  },
+  {
+    "index": 643,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……聞こえた？　今の会話」"
+  },
+  {
+    "index": 654,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「は、はい……よくわからないところがおおかったですけど……」"
+  },
+  {
+    "index": 665,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……こまったことに、なったんでしょうか」"
+  },
+  {
+    "index": 694,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そうね……」"
+  },
+  {
+    "index": 699,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は深々とため息をついた。"
+  },
+  {
+    "index": 710,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの……おしえてください」"
+  },
+  {
+    "index": 721,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしたちに、なにがおきたんですか？」"
+  },
+  {
+    "index": 726,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "博士はしばらく黙り込んだ後、観念したように語りだした。"
+  },
+  {
+    "index": 755,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……悠里ちゃん。あなたと夏彦は、今回の事故の影響で、遺伝子が変異してしまったの」"
+  },
+  {
+    "index": 766,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「いでんし？」"
+  },
+  {
+    "index": 795,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたの体を構成する――そう、設計図のようなもの」"
+  },
+  {
+    "index": 806,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その中のＩＧＦ２Ｒ遺伝子という、ＢＣの使用に関する遺伝子が、施設内に蔓延した粒子により破壊・再構築されて――」"
+  },
+  {
+    "index": 817,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ＢＣの『適性度』が、ＣからＳまで上がったのよ」"
+  },
+  {
+    "index": 846,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「通常なら生涯変わる事のないはずの適性度が」"
+  },
+  {
+    "index": 857,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……？」"
+  },
+  {
+    "index": 862,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "博士の言っている事は、あまり理解できなかった。"
+  },
+  {
+    "index": 867,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "きょとんとしている悠里に、博士が続ける。"
+  },
+  {
+    "index": 896,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「昼間、ＢＣが使えるかどうかのテストをしたでしょう？」"
+  },
+  {
+    "index": 907,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「は、はい」"
+  },
+  {
+    "index": 936,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「訓練を要さず、テレパシーとエンパシーを使えるようになった……あの結果に全てが現れていたわ」"
+  },
+  {
+    "index": 947,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたは世界でもトップクラスのコミュニケーターになってしまったのよ」"
+  },
+  {
+    "index": 958,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え……！？」"
+  },
+  {
+    "index": 987,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「これは前例のない出来事なの」"
+  },
+  {
+    "index": 998,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「なのにあなただけではなく、夏彦も同様に、適性度Ｓに変異してしまった」"
+  },
+  {
+    "index": 1009,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「能力もそれにともない、急上昇してる」"
+  },
+  {
+    "index": 1038,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「今のところ、私しか認識していないようだけど……夏彦もあの火災の時、テレパシーを使っていたものね」"
+  },
+  {
+    "index": 1049,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「は、はい……」"
+  },
+  {
+    "index": 1078,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「でもその結果……あなたたちは、ラボに目をつけられてしまった」"
+  },
+  {
+    "index": 1107,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「悠里ちゃんも、夏彦も、ラボ内に幽閉される……」"
+  },
+  {
+    "index": 1118,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ゆうへい？」"
+  },
+  {
+    "index": 1147,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「閉じ込められて、ＢＣ研究の被験体にさせられるのよ」"
+  },
+  {
+    "index": 1158,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ラボは原子力研究所ではなくて、本当はＢＣの研究所なの」"
+  },
+  {
+    "index": 1169,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私もそこで原子力の研究ではなく、ＢＣの研究をずっとやってきたのよ。組織の中心人物の１人として……」"
+  },
+  {
+    "index": 1198,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「なのに、まさか……息子と息子の友達を、幽閉させる事になるなんて……！」"
+  },
+  {
+    "index": 1209,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……！」"
+  },
+  {
+    "index": 1214,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "博士が語った言葉を、悠里は全て理解したわけではない。"
+  },
+  {
+    "index": 1219,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "だがそれでもわかる事がある。"
+  },
+  {
+    "index": 1288,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "ラボ内で炎に追い詰められた時、夏彦のテレパシーを聞いたような気がしたが――あれは気のせいではなかった。"
+  },
+  {
+    "index": 1304,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦も悠里と同様、優れたコミュニケーターとして生まれ変わったのだ。"
+  },
+  {
+    "index": 1309,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "そしてそのせいで、これからずっと閉じ込められて暮らすのだという事も。"
+  },
+  {
+    "index": 1320,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「やめてもらうことは、できないんですか……？」"
+  },
+  {
+    "index": 1349,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……ごめんなさい」"
+  },
+  {
+    "index": 1360,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「きっと理解できないとは思うけど、そうせざるを得ない理由もあるの」"
+  },
+  {
+    "index": 1371,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたたちが得てしまった能力が、危険なのは確かだから……！」"
+  },
+  {
+    "index": 1376,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "天川博士が辛そうに答える。"
+  },
+  {
+    "index": 1381,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "もしそれが避けられないというのなら――"
+  },
+  {
+    "index": 1392,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの……はかせ」"
+  },
+  {
+    "index": 1421,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「え？」"
+  },
+  {
+    "index": 1432,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「とじこめられるのって、２人もひつようなんでしょうか？」"
+  },
+  {
+    "index": 1461,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……どういう意味？」"
+  },
+  {
+    "index": 1468,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "怪訝な顔をする博士に、悠里は自分の考えを述べた。"
+  },
+  {
+    "index": 1479,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしが、おとなしくラボにいくかわりに……」"
+  },
+  {
+    "index": 1490,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんだけでも、自由にしてもらうっていうのは……？」"
+  },
+  {
+    "index": 1560,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「！！」"
+  },
+  {
+    "index": 1571,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……可能かもしれない」"
+  },
+  {
+    "index": 1600,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「幸い夏彦は、まだ目を覚ましていない。事情を知らないうちなら、なんとか……」"
+  },
+  {
+    "index": 1629,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「だけど、悠里ちゃんはそれでいいの？」"
+  },
+  {
+    "index": 1640,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「いいんです」"
+  },
+  {
+    "index": 1651,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんは、わたしをたすけてくれたから」"
+  },
+  {
+    "index": 1662,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だからこんどは、わたしのばんです」"
+  },
+  {
+    "index": 1667,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "それは悠里が、己の運命を決めた瞬間だった。"
+  },
+  {
+    "index": 1720,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――２日後、ラボに移送された悠里は、そこで天川博士に告げられた。"
+  },
+  {
+    "index": 1798,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……夏彦には、あなたがあの火災で死んだと伝えたわ」"
+  },
+  {
+    "index": 1809,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうですか……」"
+  },
+  {
+    "index": 1838,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「以後、夏彦は特別監視対象として、ラボ及び政府機関の監視下に置かれる事になったわ」"
+  },
+  {
+    "index": 1849,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ラボ内に幽閉されたあなたと、社会の中で生きる夏彦――」"
+  },
+  {
+    "index": 1860,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その２人のコミュニケーターの、比較データを取る名目で、なんとかそれを認めさせる事ができたの」"
+  },
+  {
+    "index": 1889,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「もっとも夏彦が、一定以上の能力レベルに達したら、ただちにここに移送されるけれど……」"
+  },
+  {
+    "index": 1894,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "それは悠里にとって、望ましい事だったが――"
+  },
+  {
+    "index": 1900,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "（でも、ひこりんは……おそとがすきだから）"
+  },
+  {
+    "index": 1906,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "（ともだちもたくさんいるから……とじこめられたら、かわいそうだよ）"
+  },
+  {
+    "index": 1911,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "そう思う悠里に、博士が言う。"
+  },
+  {
+    "index": 1940,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……悠里ちゃん、あなたがもし望むのなら、やっぱり夏彦も一緒に……」"
+  },
+  {
+    "index": 1951,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「いいえ、いいんです」"
+  },
+  {
+    "index": 1956,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "悠里は博士に微笑みかける。"
+  },
+  {
+    "index": 1967,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……でも、そのかわり、ひとつだけおねがいが……」"
+  },
+  {
+    "index": 1996,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……なに？」"
+  },
+  {
+    "index": 2007,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ほんのたまにでいいから……いちねんにいちどとかでもいいから、ひこりんにあわせてください」"
+  },
+  {
+    "index": 2018,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それだけでわたしは、じゅうぶんです」"
+  },
+  {
+    "index": 2042,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「…………」"
+  },
+  {
+    "index": 2071,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……約束するわ」"
+  },
+  {
+    "index": 2076,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士の言葉が、周囲の空気を静かに震わせた。"
+  },
+  {
+    "index": 2106,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "――その記憶に、夏彦は言葉を失っていた。"
+  },
+  {
+    "index": 2112,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（お、おい……なんなんだよこれは……！）"
+  },
+  {
+    "index": 2117,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは彼が考えもしなかった事実だった。"
+  },
+  {
+    "index": 2123,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ラボはぼくらを被験体として、幽閉しようとしていたのか！？）"
+  },
+  {
+    "index": 2129,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（悠里だけじゃなくて、ぼくも！）"
+  },
+  {
+    "index": 2135,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そして悠里は、ぼくの身代わりになって……！）"
+  },
+  {
+    "index": 2140,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "自身の感覚は消えているはずなのに、心臓が早鐘のように鳴っている錯覚がする。"
+  },
+  {
+    "index": 2146,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そ、それじゃ……）"
+  },
+  {
+    "index": 2152,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（悠里はこのあと、どうなったんだ！？）"
+  },
+  {
+    "index": 2157,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思う夏彦の眼前に、以後の日々の情景が浮かんできた。"
+  }
+]

@@ -1,0 +1,656 @@
+[
+  {
+    "index": 46,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter5"
+  },
+  {
+    "index": 61,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と恵那はサリュを追い、第２エリア外周棟・地下２階フロアに足を踏み入れた。"
+  },
+  {
+    "index": 66,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしそこにもサリュの姿はない。"
+  },
+  {
+    "index": 97,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あの子、どこへ……！？」"
+  },
+  {
+    "index": 108,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「探そう、どこか近くの部屋に隠れている可能性が高い」"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ」"
+  },
+  {
+    "index": 142,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬と恵那はうなずき合い、近くの部屋を探った。"
+  },
+  {
+    "index": 234,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "部屋の扉を手当たり次第に開けながら、渡瀬は呟く。"
+  },
+  {
+    "index": 299,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかしあの子……オレが『危険』って、どういうことなんだ？」"
+  },
+  {
+    "index": 328,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そんなこと言ってたわね……隊長さん、さっきの話に心当たりは？」"
+  },
+  {
+    "index": 339,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……残念ながら、ない」"
+  },
+  {
+    "index": 350,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう……」"
+  },
+  {
+    "index": 364,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが先生こそ……さっきサリュに何か言われていたな？」"
+  },
+  {
+    "index": 375,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『昨日は情報に耳を貸さなかった』とか『心を開いていない』とか……」"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？　ええと、それは――」"
+  },
+  {
+    "index": 433,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「昨日、三ノ宮さんたちに言われたの。『ラボには何か秘密がある。調べたいから同行してくれ』って……」"
+  },
+  {
+    "index": 444,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なに？」"
+  },
+  {
+    "index": 455,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「事情がまるでわからないし、そもそも私が同行したところで調べようがないと思って、取り合わなかったの」"
+  },
+  {
+    "index": 484,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そのせいで三ノ宮さんは、私を信用してくれてないみたいだけど……」"
+  },
+  {
+    "index": 495,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう、なのか……？」"
+  },
+  {
+    "index": 500,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "色々とよくわからない話だった。"
+  },
+  {
+    "index": 511,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの娘たちは、何か知っているのか？　オレたちの知らないことを……？」"
+  },
+  {
+    "index": 540,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……そんな疑うほどの事じゃないと思うけど……」"
+  },
+  {
+    "index": 551,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でも考えてみれば、高校生がこんな原子力研究施設にいるっておかしいだろう？」"
+  },
+  {
+    "index": 562,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかもこんな大事故が起きた日に、たまたまなんて」"
+  },
+  {
+    "index": 573,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もっと何か聞いてないか？　あの高校生たちがラボに来ようと思った理由について」"
+  },
+  {
+    "index": 602,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……わからないわ。本当にそれしか聞いてないの」"
+  },
+  {
+    "index": 607,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬は恵那の受け答えに、かすかな疑念を感じた。"
+  },
+  {
+    "index": 618,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生……本当か？」"
+  },
+  {
+    "index": 647,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「本当かって、嘘をつくわけないじゃない」"
+  },
+  {
+    "index": 658,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし、これはオレの受けた単なる印象だが――」"
+  },
+  {
+    "index": 669,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さっきの先生とサリュの会話は、なんというか……」"
+  },
+  {
+    "index": 680,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『先生と生徒』と言うより、もっと別の関係の者たちの会話のように聞こえた」"
+  },
+  {
+    "index": 709,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  {
+    "index": 720,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あんたら、本当に先生と生徒なのか？」"
+  },
+  {
+    "index": 749,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「当たり前よ。なにバカなこと言ってるの」"
+  },
+  {
+    "index": 778,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「名前見ればわかる通り、あの子はハーフなの。敬語の使い方とかに慣れていないだけよ」"
+  },
+  {
+    "index": 789,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし、他にも気になる点がある。『ここから先は大人の仕事』ってのはどういう意味だ？」"
+  },
+  {
+    "index": 800,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あれは、天川くんたちの救助についての話よ」"
+  },
+  {
+    "index": 811,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「三ノ宮さんには安全なところで待機してもらって、彼らを救助するのは私たち大人に任せるように言ったの」"
+  },
+  {
+    "index": 816,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の言葉によどみはなく、嘘をついている風でもない。"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが引っかかる点もないわけではない。"
+  },
+  {
+    "index": 832,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし教師のあんたがどうして、生徒にあんなに警戒されているんだ……？」"
+  },
+  {
+    "index": 861,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……色々と難しいところのある子だからね。他人に対し、壁を作るというか……」"
+  },
+  {
+    "index": 872,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……そうなのか」"
+  },
+  {
+    "index": 877,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はしばらく黙り込み、恵那を見据えていたが――"
+  },
+  {
+    "index": 882,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "やがて気付いた。こんな問答で、時間を浪費している場合ではないという事に。"
+  },
+  {
+    "index": 887,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "恵那もそう思ったのか、話を切るように言う。"
+  },
+  {
+    "index": 916,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だけど確かに、私は彼女に警戒されているけど――」"
+  },
+  {
+    "index": 927,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「三ノ宮さんと隊長さんの間にも、何かがあったのは確かなはずよ。恐らく隊長さんが記憶喪失になる前に」"
+  },
+  {
+    "index": 938,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……あぁ、それも気になるところだ」"
+  },
+  {
+    "index": 974,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも、三ノ宮さんと隊長さんの間に、何かがあったのは確かなはずよ。恐らく隊長さんが記憶喪失になる前に」"
+  },
+  {
+    "index": 985,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、オレも同じことを考えていた」"
+  },
+  {
+    "index": 997,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だがオレはレスキュー隊員なんだぞ？　それなのに、彼女に何をしたって言うんだ？」"
+  },
+  {
+    "index": 1026,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私に聞かれてもわかるわけないでしょ。もしかすると三ノ宮さんが、何か誤解をしているのかもしれないけど……」"
+  },
+  {
+    "index": 1127,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それを聞いた渡瀬は、サリュの腕の傷のことを思い出した。"
+  },
+  {
+    "index": 1133,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（まさか、オレがあの傷を負わせたのか……？）"
+  },
+  {
+    "index": 1138,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそうしなければならない理由など、何一つ思いつかない。"
+  },
+  {
+    "index": 1183,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――そうこうしている内に、そのフロアの捜索は終わった。"
+  },
+  {
+    "index": 1227,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "依然、サリュは見つからないままだ。"
+  },
+  {
+    "index": 1292,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「他のエリアに逃げたのかしら……？」"
+  },
+  {
+    "index": 1303,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、彼女を追いかけよう！　彼女を見つけられれば、直接色々話も聞ける！」"
+  },
+  {
+    "index": 1335,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「待って、その前に！」"
+  },
+  {
+    "index": 1346,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！？」"
+  },
+  {
+    "index": 1357,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「隊長さんは、どうして単独行動をしているの？　危険だから極力避けようって話だったわよね」"
+  },
+  {
+    "index": 1368,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、それは橘が――」"
+  },
+  {
+    "index": 1373,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は恵那に、風見が負傷した経緯を説明した。"
+  },
+  {
+    "index": 1378,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ついでに探索成果の情報を共有するために、渡瀬は恵那とＰＤＡのマップデータを同期させた。"
+  },
+  {
+    "index": 1407,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう、そっちではそんなことがあったのね……」"
+  },
+  {
+    "index": 1418,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『そっちでは』ってことは？」"
+  },
+  {
+    "index": 1447,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こっちも守部さんが、第６エリアの捜索中、高所から落下して負傷したわ……」"
+  },
+  {
+    "index": 1458,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだって！？　それで守部は大丈夫なのか！？」"
+  },
+  {
+    "index": 1487,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「安心して。今は第６エリアの一室で休んでいるけど、すぐに復帰できると思うわ」"
+  },
+  {
+    "index": 1498,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……」"
+  },
+  {
+    "index": 1503,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "安堵の息をつく渡瀬に、恵那は顔をしかめて言う。"
+  },
+  {
+    "index": 1532,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも……ねぇ隊長さん。こんなことが連続するなんて、やっぱりこのラボで何かが起こっていると思わない？」"
+  },
+  {
+    "index": 1543,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「確かに……」"
+  },
+  {
+    "index": 1548,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――風見と洵が、立て続けに負傷した。そこに何らかの悪意を感じる。"
+  },
+  {
+    "index": 1554,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（姿を現さない『見えない敵』がいるような気が……！）"
+  },
+  {
+    "index": 1559,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、いたずらに不安を煽ってもしょうがない。渡瀬は急務の方を優先する事にした。"
+  },
+  {
+    "index": 1570,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でもそれより先生、まずはサリュを追おう。まだ近くにいるかもしれない」"
+  },
+  {
+    "index": 1599,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……えぇ」"
+  },
+  {
+    "index": 1604,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那も不安げにうなずき、そして渡瀬と共に駆け出した。"
+  },
+  {
+    "index": 1634,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「待って、その前に！」"
+  },
+  {
+    "index": 1645,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！？」"
+  },
+  {
+    "index": 1656,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「隊長さんは、どうして単独行動をしているの？　危険だから極力避けようって話だったわよね」"
+  },
+  {
+    "index": 1667,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、それは守部が――」"
+  },
+  {
+    "index": 1672,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は恵那に、洵が負傷した経緯を説明した。"
+  },
+  {
+    "index": 1678,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ついでに探索成果の情報を共有するために、渡瀬は恵那とＰＤＡのマップデータを同期させた。"
+  },
+  {
+    "index": 1707,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう、そっちではそんなことがあったのね……」"
+  },
+  {
+    "index": 1718,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『そっちでは』ってことは？」"
+  },
+  {
+    "index": 1747,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こっちでも橘さんが、第３エリアの捜索中、爆発に巻き込まれて脚を負傷したわ……」"
+  },
+  {
+    "index": 1758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「爆発！？」"
+  },
+  {
+    "index": 1769,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ……原因がわからないんだけど……」"
+  },
+  {
+    "index": 1780,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それで橘は大丈夫なのか！？」"
+  },
+  {
+    "index": 1809,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「今は監視ルームで、カメラをチェックしながら休んでいるわ……」"
+  },
+  {
+    "index": 1820,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「恐らくすぐに復帰できるはず」"
+  },
+  {
+    "index": 1831,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……」"
+  },
+  {
+    "index": 1836,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "安堵の息をつく渡瀬に、恵那は顔をしかめて言う。"
+  },
+  {
+    "index": 1865,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも……ねぇ隊長さん。こんなことが連続するなんて、やっぱりこのラボで何かが起こっていると思わない？」"
+  },
+  {
+    "index": 1876,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「確かに……」"
+  },
+  {
+    "index": 1881,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――風見と洵が、立て続けに負傷した。そこに何らかの悪意を感じる。"
+  },
+  {
+    "index": 1887,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（姿を現さない『見えない敵』がいるような気が……！）"
+  },
+  {
+    "index": 1892,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、いたずらに不安を煽ってもしょうがない。渡瀬は急務の方を優先する事にした。"
+  },
+  {
+    "index": 1903,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でもそれより先生、まずはサリュを追おう。ひょっとしたらまだ近くにいるかもしれない」"
+  },
+  {
+    "index": 1932,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……えぇ」"
+  },
+  {
+    "index": 1937,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那も不安げにうなずき、そして渡瀬と共に駆け出した。"
+  },
+  {
+    "index": 1967,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え、ええ！」"
+  },
+  {
+    "index": 1972,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬と恵那は、同時に駆け出した。"
+  }
+]

@@ -1,0 +1,938 @@
+[
+  {
+    "index": 366,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Before Chapter0"
+  },
+  {
+    "index": 374,
+    "code": "0x86",
+    "developer_comment": "",
+    "string": "You have taken my friends from me."
+  },
+  {
+    "index": 375,
+    "code": "0x86",
+    "developer_comment": "",
+    "string": "You have made me an abomination to them."
+  },
+  {
+    "index": 376,
+    "code": "0x86",
+    "developer_comment": "",
+    "string": "Ⅰ am confined, and Ⅰ can't escape."
+  },
+  {
+    "index": 377,
+    "code": "0x86",
+    "developer_comment": "",
+    "string": "(The Old Testament / Psalms 88:8)"
+  },
+  {
+    "index": 379,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その轟音は、終末を報せる鐘のように――"
+  },
+  {
+    "index": 384,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夜明けの研究所に響き渡った。"
+  },
+  {
+    "index": 504,
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "「なッ！？」"
+  },
+  {
+    "index": 509,
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "少年が驚愕に息を呑む。"
+  },
+  {
+    "index": 602,
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "「きゃあッ！」"
+  },
+  {
+    "index": 607,
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "傍らの少女たちが悲鳴を上げる。"
+  },
+  {
+    "index": 651,
+    "code": "0x45",
+    "developer_comment": "少女２",
+    "string": "「くッ……！」"
+  },
+  {
+    "index": 656,
+    "code": "0x45",
+    "developer_comment": "少女２",
+    "string": "床から振動が伝わるのを感じた。"
+  },
+  {
+    "index": 845,
+    "code": "0x45",
+    "developer_comment": "少女２",
+    "string": "「……爆弾、それも複数……！？」"
+  },
+  {
+    "index": 856,
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "「な、夏彦、これって……！」"
+  },
+  {
+    "index": 933,
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "傍らの少女たちの言葉に、『夏彦』と呼ばれた少年が歯噛みする。"
+  },
+  {
+    "index": 962,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、わかってる……」"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ぼくらは、間に合わなかったんだ」"
+  },
+  {
+    "index": 985,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがその言葉は、けたたましく響く警報にかき消された。"
+  },
+  {
+    "index": 2220,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "自動放送が冷徹に、警告を叫ぶ。"
+  },
+  {
+    "index": 2228,
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「施設内のセキュリティを、『避難モード』に移行。Ｎエリアを除く全ゲートを開放します」"
+  },
+  {
+    "index": 2236,
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「職員の皆様は、落ち着いて地上へ避難して下さい」"
+  },
+  {
+    "index": 2357,
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "断片的な情報に、誰もが戸惑いの声を上げる。"
+  },
+  {
+    "index": 2365,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「な、何が起きたんだ！」"
+  },
+  {
+    "index": 2373,
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「わかりません！　爆発のようですが……？」"
+  },
+  {
+    "index": 2381,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「爆発だと！？　この施設でか！？」"
+  },
+  {
+    "index": 2386,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "その問いに答えるように、放送が続く。"
+  },
+  {
+    "index": 2486,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「き、緊急放送です！」"
+  },
+  {
+    "index": 2497,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「ただいま施設内で、原因不明の爆発が発生しました！」"
+  },
+  {
+    "index": 2508,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「現状判明している限り、施設内の１０数か所で同時に爆発が起き、それに伴い火災も発生しています！」"
+  },
+  {
+    "index": 2519,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「江里口研究員、柏木研究員！　至急第２エリアに来てください！」"
+  },
+  {
+    "index": 2612,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「１０数か所で爆発だと……！？」"
+  },
+  {
+    "index": 2620,
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「原因不明！？　どういう事だ！？」"
+  },
+  {
+    "index": 2625,
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "戦慄する男たちの横で、女科学者が呟いた。"
+  },
+  {
+    "index": 2714,
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「大丈夫よ……！　この施設には二重三重の防災システムが配備されているんだから」"
+  },
+  {
+    "index": 2725,
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「何が起こっても、大規模な災害になったりはしないはず」"
+  },
+  {
+    "index": 2754,
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「安全は確保されているの……安心して」"
+  },
+  {
+    "index": 2759,
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "その声はあくまで穏やかだった。怯える者を勇気づけるように。"
+  },
+  {
+    "index": 2877,
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "――だが、その希望は踏みにじられる。"
+  },
+  {
+    "index": 2966,
+    "code": "0x45",
+    "developer_comment": "警備員１",
+    "string": "「消火システムが作動しない！？」"
+  },
+  {
+    "index": 2974,
+    "code": "0x45",
+    "developer_comment": "警備員２",
+    "string": "「なぜだ……くそッ！　所員の避難を急がせろ！」"
+  },
+  {
+    "index": 2979,
+    "code": "0x45",
+    "developer_comment": "警備員２",
+    "string": "頼みの綱のシステムは、まるで役に立たなかった。"
+  },
+  {
+    "index": 3062,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「ファクトリーでも出火を確認！　開発中の機材が炎上してます！」"
+  },
+  {
+    "index": 3070,
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「ふざけるな！　開発にいくらかかってると思ってる！」"
+  },
+  {
+    "index": 3078,
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「燃えましたで済ませられるか、人力で消火しろ！」"
+  },
+  {
+    "index": 3086,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「４箇所で同時出火してるんですよ！？　誰が消火できるっていうんですか！」"
+  },
+  {
+    "index": 3202,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "混乱と狂騒が、施設内を支配する。"
+  },
+  {
+    "index": 3207,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "不安が膨らみ、張り詰めていく。"
+  },
+  {
+    "index": 3212,
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "それにとどめを刺すかのように、新たな宣告がなされた。"
+  },
+  {
+    "index": 3311,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「Ｎエリアの数値増幅を確認……！　緊急停止システムを始動しました！」"
+  },
+  {
+    "index": 3322,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「Ｎエリア及び制御室の職員も、全員ただちに地上へ避難してください！」"
+  },
+  {
+    "index": 3400,
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "――放送が終わった瞬間、静寂はパニックに変わった。"
+  },
+  {
+    "index": 3408,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「す……数値増幅！？」"
+  },
+  {
+    "index": 3416,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「と、とにかく地上へ！　遠隔制御室へ！」"
+  },
+  {
+    "index": 3424,
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「エレベーターは駄目です！　階段ッ！　階段です！」"
+  },
+  {
+    "index": 3429,
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "誰もが口々に喚き散らす。"
+  },
+  {
+    "index": 3510,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「ＡＤを投与しろ！　備蓄してあるはずだろう！」"
+  },
+  {
+    "index": 3518,
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「まさかこれを使う事になるとは……！」"
+  },
+  {
+    "index": 3526,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「迷うな！　マニュアル通りに行動しろ！」"
+  },
+  {
+    "index": 3531,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "可能な限り、しかるべき対応をしようとする。"
+  },
+  {
+    "index": 3536,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "だがその時には、全てが遅かった。"
+  },
+  {
+    "index": 3617,
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「非常階段が崩れ落ちただと！？」"
+  },
+  {
+    "index": 3625,
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「エレベーターも全て停止しています！　避難の術がありません！」"
+  },
+  {
+    "index": 3633,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「バカな……なんでそんな事に！」"
+  },
+  {
+    "index": 3679,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "脱出口は絶たれていた。"
+  },
+  {
+    "index": 3684,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "なぜそんな事になったのか、知る由はない。"
+  },
+  {
+    "index": 3689,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "ここで何が起きているのか、理解している者はいない。"
+  },
+  {
+    "index": 3700,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "――ごく一部の者を除いては。"
+  },
+  {
+    "index": 3799,
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "崩れ落ちた階段を睨み、夏彦たちは声を上げた。"
+  },
+  {
+    "index": 3810,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――ちくしょう！　全部、奴らの仕業だ！」"
+  },
+  {
+    "index": 3821,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「まさかここまでの状況になるなんて……」"
+  },
+  {
+    "index": 3941,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「どうするの、夏彦！？」"
+  },
+  {
+    "index": 3946,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "傍らの少女が悲痛な声を上げる。"
+  },
+  {
+    "index": 3969,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "自分たちに残された時間は、どのくらいあるのだろうか。"
+  },
+  {
+    "index": 3974,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そう思って腕時計を見たが――"
+  },
+  {
+    "index": 4210,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ……」"
+  },
+  {
+    "index": 4215,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "先ほどの爆発が起きた時に、時計は壊れてしまっていた。"
+  },
+  {
+    "index": 4220,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "日付表示は『９月１６日』、針は『６時１９分』で止まっている。"
+  },
+  {
+    "index": 4225,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは生涯忘れられない時刻になりそうだった。"
+  },
+  {
+    "index": 4294,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あとほんの少し、早く来ていれば……！）"
+  },
+  {
+    "index": 4317,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがそれでも、ここに来た事は意味がある。"
+  },
+  {
+    "index": 4430,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦が歩き出そうとすると、少女が手を掴んだ。"
+  },
+  {
+    "index": 4441,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「待ってよ夏彦！　そんな状態でどこに行くつもり！？」"
+  },
+  {
+    "index": 4452,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「奴らを、探しに……！」"
+  },
+  {
+    "index": 4481,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「――って、まさか夏彦！？」"
+  },
+  {
+    "index": 4492,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……奴らの計画を阻止するんだ。今からでも、ぼくにできる事を――」"
+  },
+  {
+    "index": 4536,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それはダメ！　夏彦、頭を冷やして！」"
+  },
+  {
+    "index": 4547,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうして！？　ましろだってぼくがここに来ることには、同意してくれたじゃないか！」"
+  },
+  {
+    "index": 4576,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「さっきまでとは状況が違うじゃない！　もう遅いんだよ！」"
+  },
+  {
+    "index": 4587,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「遅くない！　きっとまだ間に合う！」"
+  },
+  {
+    "index": 4616,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにどこに逃げても同じだ！　だったら――」"
+  },
+  {
+    "index": 4735,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう叫んだ瞬間、頬に痛みが走った。"
+  },
+  {
+    "index": 4740,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "目の前の少女が、夏彦の頬を張ったのだ。"
+  },
+  {
+    "index": 4769,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……！」"
+  },
+  {
+    "index": 4780,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「また、失いたいの……！？」"
+  },
+  {
+    "index": 4803,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "その言葉が、彼の胸をえぐる。"
+  },
+  {
+    "index": 4907,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "――その時、またも轟音が響いた。"
+  },
+  {
+    "index": 4936,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ッ！？」"
+  },
+  {
+    "index": 4965,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「爆発……今度はどこで……」"
+  },
+  {
+    "index": 4994,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「お願い夏彦、早く逃げよう！」"
+  },
+  {
+    "index": 5017,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "懇願する少女の声が、夏彦の心を揺らす。"
+  },
+  {
+    "index": 5023,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「…………」"
+  },
+  {
+    "index": 5047,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「………」"
+  },
+  {
+    "index": 5053,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  {
+    "index": 5082,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかった。まずは出口を探そう……！」"
+  },
+  {
+    "index": 5282,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そして彼らは、出口を目指して駆け出した。"
+  },
+  {
+    "index": 5287,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その先に、何が待ち受けているかも知らずに。"
+  },
+  {
+    "index": 5292,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "後に幾度となく振り返る、彼らの長い１日は――"
+  },
+  {
+    "index": 5297,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "こうして幕を開けた。"
+  },
+  {
+    "index": 5425,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「別の階段を探そう！　どこかに無事な階段があるはずだ！」"
+  },
+  {
+    "index": 5454,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「施設内の構造はわかる！？」"
+  },
+  {
+    "index": 5483,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「先に調べるべき。闇雲に逃げるのは危険」"
+  },
+  {
+    "index": 5871,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ、何をしてるんだ！？」"
+  },
+  {
+    "index": 5967,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「今、この施設内の地図を検索する」"
+  },
+  {
+    "index": 6185,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「先ほど崩れたのは、外周棟の非常階段だと思う」"
+  },
+  {
+    "index": 6239,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「隣の『内周棟』にも、非常階段があるみたいだね……」"
+  },
+  {
+    "index": 6377,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、じゃあまずはそこに行こう！」"
+  },
+  {
+    "index": 6704,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「火！？　なんでこんなに早く火災が！？」"
+  },
+  {
+    "index": 6715,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まさか、施設内の人たちを逃がさないようにしているの……？」"
+  },
+  {
+    "index": 6744,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「くっ……ここは危険だ！　別の道を探そう！」"
+  },
+  {
+    "index": 6879,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくは隣の『第２エリア』に続く道が無事か、確認してくる！」"
+  },
+  {
+    "index": 6908,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「了解、気をつけて！」"
+  },
+  {
+    "index": 7043,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "――彼らは勇気を奮い、走った。"
+  },
+  {
+    "index": 7112,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "この施設を脱出し、生き延びるために。"
+  },
+  {
+    "index": 7187,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "そして、その道のさなかで――"
+  },
+  {
+    "index": 7279,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えっ……！」"
+  },
+  {
+    "index": 7363,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――彼は、彼女に遭遇した。"
+  },
+  {
+    "index": 7587,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――悠里！？」"
+  },
+  {
+    "index": 7592,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこにいたのは、『悠里』だった。"
+  },
+  {
+    "index": 7695,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "家で帰りを待っているはずの、夏彦の同居人。"
+  },
+  {
+    "index": 7790,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ここにいるはずのない彼女――"
+  },
+  {
+    "index": 7875,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうして、悠里が……！？）"
+  },
+  {
+    "index": 7880,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "驚愕とともに夏彦は、彼女の姿を見据える。"
+  },
+  {
+    "index": 7964,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里は――"
+  },
+  {
+    "index": 7993,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「どうして来てしまったの……！？」"
+  },
+  {
+    "index": 7998,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "悲しげに、そう呟いた。"
+  },
+  {
+    "index": 8088,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里こそ、どうしてここに！？」"
+  },
+  {
+    "index": 8099,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「家から出られたのか！？」"
+  },
+  {
+    "index": 8104,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう問いを返しながらも、夏彦は思い返していた。"
+  },
+  {
+    "index": 8127,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ここに至るまでの道程を。"
+  },
+  {
+    "index": 8211,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "やがて悠里が、寂しげに言う。"
+  },
+  {
+    "index": 8240,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……そういう事だったの……」"
+  },
+  {
+    "index": 8245,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "吹っ切れたような微笑を浮かべて。"
+  },
+  {
+    "index": 8250,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――その時。"
+  },
+  {
+    "index": 8329,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "２人のすぐ傍で、閃光が瞬いた。"
+  },
+  {
+    "index": 8454,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ッ！　悠里！」"
+  },
+  {
+    "index": 8750,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "とっさに夏彦は悠里に飛びつく。同時に爆風が２人を襲った。"
+  },
+  {
+    "index": 8761,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ！！」"
+  },
+  {
+    "index": 8766,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は悠里と共に、吹き飛ばされた。"
+  },
+  {
+    "index": 8812,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "地面に叩きつけられるまでのほんの刹那――"
+  },
+  {
+    "index": 8817,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の眼前に、今日まで見聞きしたものがよぎった。"
+  },
+  {
+    "index": 8892,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうしてこんな事に――）"
+  },
+  {
+    "index": 9296,
+    "code": "0x45",
+    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "string": "――やがて、茫漠とした意識の奥で――"
+  },
+  {
+    "index": 9365,
+    "code": "0x45",
+    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "string": "目覚めよ、と呼ぶ声が聞こえた。"
+  },
+  {
+    "index": 9370,
+    "code": "0x45",
+    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "string": "あるいはそんな記憶があった。"
+  },
+  {
+    "index": 9375,
+    "code": "0x45",
+    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "string": "白く塗られた墓の下で、彼はその声を聞き……"
+  }
+]

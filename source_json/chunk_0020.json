@@ -1,0 +1,782 @@
+[
+  {
+    "index": 46,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter2"
+  },
+  {
+    "index": 54,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第４エリア内周棟・地下１階に、渡瀬たちは足を踏み入れた。"
+  },
+  {
+    "index": 59,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは見た目は第３エリアと、そう代わり映えしない場所だった。"
+  },
+  {
+    "index": 64,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がプロキオンを見て呟く。"
+  },
+  {
+    "index": 129,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「汚染レベル、『２１６４ｍＳｖ』か……やっぱり徐々に上がってるね」"
+  },
+  {
+    "index": 140,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だったら急がなきゃ――」"
+  },
+  {
+    "index": 145,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がそう言いかけた時、"
+  },
+  {
+    "index": 156,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "不意に渡瀬のＰＤＡから声が流れ出した。"
+  },
+  {
+    "index": 170,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…ちらシリウス司令長村上。笠鷺、感ある―…鷺、感あるか？」"
+  },
+  {
+    "index": 181,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「む、無線！？」"
+  },
+  {
+    "index": 205,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "驚く渡瀬に、風見が言う。"
+  },
+  {
+    "index": 216,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さきほど隊長の無事を報告したので、私ではなくそちらに連絡してきたのでしょう」"
+  },
+  {
+    "index": 227,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「応答してください」"
+  },
+  {
+    "index": 238,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、ああ！」"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は慌ててＰＤＡを取り出し、応答した。"
+  },
+  {
+    "index": 346,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、あー、こちら笠鷺、感あり」"
+  },
+  {
+    "index": 354,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―笠さ―…ずっと連絡し…―……ようやく繋がっ…」"
+  },
+  {
+    "index": 359,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "先ほどの通信より、電波の状況は明らかに悪かった。"
+  },
+  {
+    "index": 364,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "途切れ途切れの声で、司令長が指示を出す。"
+  },
+  {
+    "index": 372,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…現況を報告せよ」"
+  },
+  {
+    "index": 383,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、ああ！　実はその、人が死んで……」"
+  },
+  {
+    "index": 391,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…がどうした！？　よく聞こえ――…」"
+  },
+  {
+    "index": 402,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設内で、３名の死者を発見したんだ！」"
+  },
+  {
+    "index": 413,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかも他殺体だ！　その中には、堂島隊員も……！」"
+  },
+  {
+    "index": 421,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「何！？」"
+  },
+  {
+    "index": 432,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「聞こえるか！？　堂島隊員と、研究員２名の他殺体を発見したんだ！」"
+  },
+  {
+    "index": 440,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…殺体！？…――」"
+  },
+  {
+    "index": 451,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「死体には銃創があった！　殺人者は外に逃げているかもしれない」"
+  },
+  {
+    "index": 462,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設から出てきた人間の中に、銃を持っている奴がいないか調べてくれ！」"
+  },
+  {
+    "index": 470,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「銃―…―した――……―」"
+  },
+  {
+    "index": 481,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「聞こえてるか！？　繰り返すぞ！」"
+  },
+  {
+    "index": 492,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設から出てきた人間の中に、銃を持っている奴がいないか調べてくれ！」"
+  },
+  {
+    "index": 500,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…銃を―…―…調べるんだな！？　―った、任せ――…」"
+  },
+  {
+    "index": 505,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "なんとか司令長にも、この異常事態は伝わったらしい。"
+  },
+  {
+    "index": 513,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―…信状況が悪――……―…ちらからの伝言を伝える」"
+  },
+  {
+    "index": 518,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "彼は方針を切り替え、一方的に話し出した。"
+  },
+  {
+    "index": 526,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「ラボ関係者―…要請…―…」"
+  },
+  {
+    "index": 534,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―助者の中に―……―…―…保護―…くれ」"
+  },
+  {
+    "index": 545,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なに！？」"
+  },
+  {
+    "index": 553,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「少―…―の保護を―……―…優先的に……―…――」"
+  },
+  {
+    "index": 564,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「司令長、聞こえん！　繰り返してくれ！」"
+  },
+  {
+    "index": 572,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―う女だ…―！…」"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…―…少女を保護しろ…―…」"
+  },
+  {
+    "index": 591,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「少女を保護！？　ユウリの事だな！？」"
+  },
+  {
+    "index": 599,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「頼む笠―……―橘や守部と協力……―…――……―…」"
+  },
+  {
+    "index": 610,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「協力して要救助者を助けろってんだな！」"
+  },
+  {
+    "index": 615,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はちらりと、風見と洵を見た。２人とも力強くうなずく。"
+  },
+  {
+    "index": 626,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わかった、まかせろ！」"
+  },
+  {
+    "index": 634,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―むぞ―……―…―……―…」"
+  },
+  {
+    "index": 642,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―――…――」"
+  },
+  {
+    "index": 647,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "通信はそこで切れた。"
+  },
+  {
+    "index": 652,
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "渡瀬はＰＤＡをしまい、皆に言う。"
+  },
+  {
+    "index": 684,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……みんな、聞いたか今の通信？」"
+  },
+  {
+    "index": 713,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「言うまでもない事です。さっそく第４エリアの捜索を行いましょう」"
+  },
+  {
+    "index": 785,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ宇喜多さん、ここはどんなエリアなの？」"
+  },
+  {
+    "index": 814,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ああ、ここは『電子計算機棟』と呼ばれているエリアだ」"
+  },
+  {
+    "index": 826,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「情報処理を主に扱っている部署で、『ＢｒａｉｎＣｅｌｌ』というスーパーコンピューターがある」"
+  },
+  {
+    "index": 837,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「スーパーコンピューター？　それはどこに？」"
+  },
+  {
+    "index": 866,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「筐体そのものは外周棟にあるが、制御はこの内周棟から行う」"
+  },
+  {
+    "index": 877,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「こっちだ、ついてきてくれ」"
+  },
+  {
+    "index": 882,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "そう言って歩き出す宇喜多に、渡瀬たちは従った。"
+  },
+  {
+    "index": 926,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多はすぐ近くにあった、『システム制御室』という部屋に、渡瀬たちを連れて行った。"
+  },
+  {
+    "index": 983,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "扉が開いた途端、眼に飛び込んできたのは、壁一面を埋めるほどの大きなディスプレイだった。"
+  },
+  {
+    "index": 988,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "そこでは膨大なデータらしきものが、目まぐるしく明滅している。"
+  },
+  {
+    "index": 1017,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ひゃー、なんか作戦司令本部って感じだねぇ」"
+  },
+  {
+    "index": 1089,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「これはどういうキカイなの？」"
+  },
+  {
+    "index": 1100,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ、ＢｒａｉｎＣｅｌｌはこのラボで扱っている全情報を、一括処理しているんだ」"
+  },
+  {
+    "index": 1111,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「全情報っていうと、どこからどこまでのことを言うんだ？」"
+  },
+  {
+    "index": 1140,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「実験データの解析・演算から、電力・照明・空調・上下水道などのインフラシステムの処理まで、全てだよ」"
+  },
+  {
+    "index": 1151,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ケースＮ中でも然りだ。こちらの数字を見てくれ」"
+  },
+  {
+    "index": 1156,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多はモニターの隅の数値を指差した。"
+  },
+  {
+    "index": 1161,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "そこには『１８：１６』という時刻と、『１４５８１ｍＳｖ』という数字が並んでいる。"
+  },
+  {
+    "index": 1172,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「『１８：１６』というのが、隔壁が開放される予想時刻だ」"
+  },
+  {
+    "index": 1183,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あとざっと８時間か……！」"
+  },
+  {
+    "index": 1214,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「司令長の説明と、大体一致するみたいだね」"
+  },
+  {
+    "index": 1243,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ。現在うちの技術者たちが、地上からシステム復旧作業を行っているという話だが――」"
+  },
+  {
+    "index": 1254,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そのデータを分析し、『復旧作業が終わって隔壁が開放されるであろう時刻』を算出しているんだ」"
+  },
+  {
+    "index": 1283,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「予想時刻より早く、隔壁が開放される可能性はあるの？」"
+  },
+  {
+    "index": 1312,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、む……難しいだろう。復旧に必要な処理の大半は、ＢｒａｉｎＣｅｌｌが自ら行っている」"
+  },
+  {
+    "index": 1323,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そのＢｒａｉｎＣｅｌｌ自身が予想した時刻だ。人為的ミスなどで遅くなる事はあっても、早くなるとは思えん」"
+  },
+  {
+    "index": 1334,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……じゃあ、こっちの『１４５８１ｍＳｖ』っていう数字は？」"
+  },
+  {
+    "index": 1363,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　それは――」"
+  },
+  {
+    "index": 1368,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多は一瞬、ためらってから言った。"
+  },
+  {
+    "index": 1397,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……Ｎエリアの、放射線量だ」"
+  },
+  {
+    "index": 1408,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なに！？　Ｎエリアはここまで汚染が進んで――！？」"
+  },
+  {
+    "index": 1413,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は戦慄した。"
+  },
+  {
+    "index": 1418,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "１５０００ｍＳｖ近い放射線が、Ｎエリアには渦巻いているという。"
+  },
+  {
+    "index": 1423,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "恐らく足を踏み入れれば、確実に命を奪われる、死の空間……！"
+  },
+  {
+    "index": 1452,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「Ｎエリアの線量計は、どうやらまだ生きているみたいだね……むしろ知らない方がよかったかもしれないが」"
+  },
+  {
+    "index": 1463,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや、知っておくに越した事はないだろう。Ｎエリアのヤバさを認識しとくのは必要だ」"
+  },
+  {
+    "index": 1493,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうか……そこがこのラボの、『象の足』だね」"
+  },
+  {
+    "index": 1504,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「象の足？」"
+  },
+  {
+    "index": 1533,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「チェルノブイリ原発事故の時に、最も放射線量が高かった場所だよ」"
+  },
+  {
+    "index": 1544,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「最大線量が約８００００ｍＳｖ。そこに近づいた人間は、ほんの数秒で死んだって言われている」"
+  },
+  {
+    "index": 1573,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それに比べれば、今回のはまだマシだけど……」"
+  },
+  {
+    "index": 1584,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「Ｎエリアに入ったらただじゃすまないってのは、間違いないだろうな……！」"
+  },
+  {
+    "index": 1589,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "１５０００ｍＳｖと８００００ｍＳｖのどちらが大きい小さいという比較は、さほど意味をなさない。"
+  },
+  {
+    "index": 1594,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "どちらにしても、命を奪うには充分すぎる線量だ。"
+  },
+  {
+    "index": 1599,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "チェルノブイリにしても、このラボにしても、異常な放射線が飛び交う狂った世界なのだ。"
+  },
+  {
+    "index": 1628,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……ともかく、こんな最悪の状況下でも、ＢｒａｉｎＣｅｌｌが生きててくれたのはよかった」"
+  },
+  {
+    "index": 1639,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「セキュリティゲートの開閉もここで行っている。これが壊れると捜索もままならないからな」"
+  },
+  {
+    "index": 1668,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ゲートの開放も？　と言う事は――」"
+  },
+  {
+    "index": 1697,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隔壁の開閉については、ここから操作できませんか！？」"
+  },
+  {
+    "index": 1726,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ッ！」"
+  },
+  {
+    "index": 1731,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "風見の言葉に、全員が目を見開いた。"
+  },
+  {
+    "index": 1742,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「う、宇喜多さん、できそうか！？」"
+  },
+  {
+    "index": 1753,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「わからん！　わからんが……賭けてみる価値はありそうだ！」"
+  },
+  {
+    "index": 1838,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多は制御ブースに歩み寄り、言った。"
+  },
+  {
+    "index": 1874,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここは僕に任せ、君らは捜索を続けてくれ。全員でここにいる意味はないからな」"
+  },
+  {
+    "index": 1885,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし！　それじゃオレたちはその間に、第４エリアの捜索をしておこう！」"
+  },
+  {
+    "index": 1921,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ！」"
+  },
+  {
+    "index": 1965,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「お願いするわよ、宇喜多さん！」"
+  },
+  {
+    "index": 1979,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬たちは宇喜多を残し、システム制御室から退出した。"
+  },
+  {
+    "index": 2034,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "出るなり風見が、渡瀬・洵・恵那、そしてユウリに言った。"
+  },
+  {
+    "index": 2099,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ではまた２手に分かれましょう！」"
+  },
+  {
+    "index": 2110,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「メンバー分けは！？」"
+  },
+  {
+    "index": 2121,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まず、ユウリさんは私と一緒に行動しましょう。責任を持ってお預かりします」"
+  },
+  {
+    "index": 2151,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「え……」"
+  },
+  {
+    "index": 2180,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「とはいえ、ほとんど何もしなくていいですからね。安全確実な状況でのみ、捜索を手伝って下されば結構です」"
+  },
+  {
+    "index": 2209,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は……はい」"
+  },
+  {
+    "index": 2214,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "ユウリは素直に、風見に従った。"
+  },
+  {
+    "index": 2296,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃあ残りは、あたしのチームだね？」"
+  },
+  {
+    "index": 2307,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ！」"
+  },
+  {
+    "index": 2337,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かにこれならバランスがよさそうね」"
+  },
+  {
+    "index": 2419,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では我々がここ地下１階を捜索するので、そちらのチームは地下２階をお願いします」"
+  },
+  {
+    "index": 2432,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう！　きっとすぐＡＤを見つけて、お前に渡してやるからな！」"
+  },
+  {
+    "index": 2461,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――お願いします」"
+  },
+  {
+    "index": 2473,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ……早いとこＡＤを見つけなきゃ、オレ自身がやばいからな」"
+  },
+  {
+    "index": 2502,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ、急ぎましょう！」"
+  },
+  {
+    "index": 2507,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "その声を合図に、渡瀬たちは動き出した。"
+  }
+]

@@ -1,0 +1,1418 @@
+[
+  {
+    "index": 51,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter1"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階段室を出るなり、風見が近くにあった部屋に歩み寄って言う。"
+  },
+  {
+    "index": 130,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ここが我々が設けた簡易基地です」"
+  },
+  {
+    "index": 159,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「各部屋の扉を開けるときは、こちらのボタンを押すだけで結構ですので」"
+  },
+  {
+    "index": 170,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見が扉の脇のボタンを押すと、それが開いた。"
+  },
+  {
+    "index": 219,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そこは６畳ほどの、小さな研究室だった。"
+  },
+  {
+    "index": 224,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "部屋の一角に、様々な機材が置かれている。それらは風見たちが持ち込んだ装備品らしかった。"
+  },
+  {
+    "index": 290,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では隊長、このラボの構造を説明します。こちらにおいで下さい」"
+  },
+  {
+    "index": 301,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、頼む」"
+  },
+  {
+    "index": 306,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見は机にあったペンを取り、書類の裏に簡単な図面を引いた。"
+  },
+  {
+    "index": 410,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「中心にある円形状のエリアが、メルトダウンを起こしたと思しき原子炉がある、特別高度実験棟――通称『Ｎエリア』です」"
+  },
+  {
+    "index": 421,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「このＮエリアを、他の６つのエリアが取り囲んでいます」"
+  },
+  {
+    "index": 432,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「各エリアには内周棟と外周棟があり、内周棟は外周棟より少し小さいようです」"
+  },
+  {
+    "index": 461,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さらに各エリアは、地上２階、地下２階の４階層になってますが――」"
+  },
+  {
+    "index": 472,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「先ほど申し上げたとおり、地上に繋がる全ての出入口には、隔壁が降りています」"
+  },
+  {
+    "index": 483,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なるほど……オレたちは地下１階と地下２階でしか行動できないって事だな」"
+  },
+  {
+    "index": 494,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「で、いまオレたちはどこにいるんだ？」"
+  },
+  {
+    "index": 523,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それはこちらの――」"
+  },
+  {
+    "index": 589,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第２エリアの内周棟、地下２階です」"
+  },
+  {
+    "index": 600,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長が倒れていたのは、第１エリア内周棟のこのあたりです」"
+  },
+  {
+    "index": 684,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隔壁が降りてから現在に至るまでの約２時間、私と守部で第１・第２エリアの捜索を行いましたが……」"
+  },
+  {
+    "index": 695,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長とユウリさんの他に、要救助者は発見できませんでした。むろん脱出経路もです」"
+  },
+  {
+    "index": 779,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「地上に続く非常階段は各棟にありますが、全て隔壁が降りている事を確認済み」"
+  },
+  {
+    "index": 790,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかも第２エリア内周棟の１箇所を除き、階段そのものが爆発で崩れてしまっています」"
+  },
+  {
+    "index": 856,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……って事は、他の要救助者を探すにしても、脱出の手掛かりを探すにしても、次は第３エリアに行かなきゃいけないのか」"
+  },
+  {
+    "index": 885,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いえ、それもそうはいかないのです」"
+  },
+  {
+    "index": 896,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぜ？」"
+  },
+  {
+    "index": 907,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「各エリアをつなぐ通路には、『セキュリティゲート』が設けられているのです」"
+  },
+  {
+    "index": 918,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さきほど隊長も、連絡通路を塞ぐゲートを見たでしょう？」"
+  },
+  {
+    "index": 1007,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば、そんなのあったな……」"
+  },
+  {
+    "index": 1018,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あのゲートにはロックがかかってまして、開けるためにはこの『セキュリティカード』が必要になります」"
+  },
+  {
+    "index": 1029,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう言って風見は、懐からカードを取り出した。"
+  },
+  {
+    "index": 1058,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「これは捜索開始当初、たまたま通路に落ちていたものです」"
+  },
+  {
+    "index": 1063,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "首から提げるためのストラップが着いた、プラスチック素材の小さなカード。"
+  },
+  {
+    "index": 1068,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "その表面には、施設の職員らしき男の顔写真と名前と、『Ｌｖ．２』という文字が記されている。"
+  },
+  {
+    "index": 1079,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「レベル２……？」"
+  },
+  {
+    "index": 1090,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「このラボは各エリアの機密性に応じて、セキュリティレベルを設定しているようです」"
+  },
+  {
+    "index": 1194,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ゲートは、内周棟と外周棟を繋ぐ通路と、各エリア間を繋ぐ通路に２枚ずつあります」"
+  },
+  {
+    "index": 1260,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「レベル２のカードがあれば、第２エリアまでのゲートを開ける事ができるのですが――」"
+  },
+  {
+    "index": 1271,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第３エリアに行くにはレベル３、第４エリアに行くにはレベル４と、適宜そのエリアに応じたレベルのカードが必要なのです」"
+  },
+  {
+    "index": 1282,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし我々は現在、レベル２のセキュリティカードしか持っておりません」"
+  },
+  {
+    "index": 1331,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあ、先に進めないのか？」"
+  },
+  {
+    "index": 1360,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「もちろんカードさえ見つかれば、他のエリアへ行くことも可能なのですが……」"
+  },
+  {
+    "index": 1389,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「さんざん探したんだけど、見つかったのってさっきの１枚だけなんだよね」"
+  },
+  {
+    "index": 1418,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あと探してないのは、隊長のポッケくらいかな？」"
+  },
+  {
+    "index": 1429,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレのポケットね……」"
+  },
+  {
+    "index": 1434,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこにレベル３のカードがあるなんて、都合のいい話はないだろう。"
+  },
+  {
+    "index": 1439,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思いつつ、渡瀬が自分のポケットを探ってみると――"
+  },
+  {
+    "index": 1450,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……っ！？」"
+  },
+  {
+    "index": 1461,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ……あった」"
+  },
+  {
+    "index": 1505,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え！？」"
+  },
+  {
+    "index": 1516,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嘘！？」"
+  },
+  {
+    "index": 1527,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嘘なもんか。ほら」"
+  },
+  {
+    "index": 1613,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬の胸ポケットから出て来たカードは、合計２枚。"
+  },
+  {
+    "index": 1618,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それぞれ『宇喜多　佳司』『筧　善秀』と記されている。"
+  },
+  {
+    "index": 1623,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "しかも、そこには『Ｌｖ．４』という表示があった。"
+  },
+  {
+    "index": 1654,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「レベル４！？　凄いじゃん、これがあれば第４エリアまで行けるよ！」"
+  },
+  {
+    "index": 1683,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかしなぜ隊長が、レベル４のカードを？　それも２枚も」"
+  },
+  {
+    "index": 1694,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さあ、オレにもさっぱり……」"
+  },
+  {
+    "index": 1699,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "何か手がかりがあればと思い、他のポケットもチェックしてみると――"
+  },
+  {
+    "index": 1704,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "もう１つの胸ポケットから、また妙な物が現れた。"
+  },
+  {
+    "index": 1796,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これは……なんだ？」"
+  },
+  {
+    "index": 1826,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「シリウス制式のＰＤＡです。我々も持っています」"
+  },
+  {
+    "index": 1837,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＰＤＡ？」"
+  },
+  {
+    "index": 1866,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「携帯端末ね。レスキュー隊じゃなくても、いまどき持ってない人の方が珍しいよ」"
+  },
+  {
+    "index": 1932,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「機能はまず、電話と無線。それと、熱源を感知する『サーモグラフィ』」"
+  },
+  {
+    "index": 1968,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうやって使うんだ？」"
+  },
+  {
+    "index": 1997,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「使用法は、このタッチパネルを……」"
+  },
+  {
+    "index": 2002,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見に教えられつつ、渡瀬はＰＤＡを操作してみた。"
+  },
+  {
+    "index": 2047,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "すると画面に、赤・青・黄色の原色が浮かび上がった。"
+  },
+  {
+    "index": 2058,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「赤いところが、熱を持っているって事か？」"
+  },
+  {
+    "index": 2087,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「簡易なものですが、状況によっては便利です」"
+  },
+  {
+    "index": 2098,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なるほど……」"
+  },
+  {
+    "index": 2205,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「で、もちろんデータの持ち運びなんかもできるんだけど……なんかデータ入ってない？」"
+  },
+  {
+    "index": 2216,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうだろう？」"
+  },
+  {
+    "index": 2221,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は適当に、そのＰＤＡを操作してみた。"
+  },
+  {
+    "index": 2226,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが――データフォルダにはパスワードがかかっていて、中のデータは見られないようだった。"
+  },
+  {
+    "index": 2262,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「パスワードだってよ……誰か知らないか？」"
+  },
+  {
+    "index": 2291,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「当然ながら、存じません」"
+  },
+  {
+    "index": 2320,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちなみに電話機能は地下では使えないよ。無線も現在、すごく精度が落ちてるし」"
+  },
+  {
+    "index": 2331,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さっきも言ってたな……」"
+  },
+  {
+    "index": 2336,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言いつつ、電話機能を使ってみる。"
+  },
+  {
+    "index": 2341,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "まずさきほど話に出ていた同僚『堂島隊員』に、電話をかけてみたが――"
+  },
+  {
+    "index": 2346,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――ツー、ツーという不通音が鳴るだけだった。"
+  },
+  {
+    "index": 2351,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "次に無線機能を使い、『桧山隊員』に通信してみる。"
+  },
+  {
+    "index": 2356,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがこちらもサンドノイズが鳴るだけで、つながらない。"
+  },
+  {
+    "index": 2361,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "他の番号も周波数も、全て同様だった。"
+  },
+  {
+    "index": 2372,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……くそっ、ほとんど役立たずじゃねぇか」"
+  },
+  {
+    "index": 2383,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「せめてパスワードがわかれば、なにか手がかりになるかもしれないのにな……」"
+  },
+  {
+    "index": 2412,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「適当に思いついた単語でも、入力してみれば？」"
+  },
+  {
+    "index": 2435,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵がそう言った時、ユウリがおずおずと声を上げた。"
+  },
+  {
+    "index": 2446,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あの……やめた方がいいと思います……」"
+  },
+  {
+    "index": 2457,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  {
+    "index": 2486,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうしてそう思うの？」"
+  },
+  {
+    "index": 2515,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「え、えっと……」"
+  },
+  {
+    "index": 2544,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「大事なＰＤＡだから……万が一壊れたら大変だし……」"
+  },
+  {
+    "index": 2555,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうだな……」"
+  },
+  {
+    "index": 2560,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう言われて渡瀬は、ＰＤＡをしまった。"
+  },
+  {
+    "index": 2571,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ところで橘たちが持ち込んだ備品は、どんなものがあるんだ？」"
+  },
+  {
+    "index": 2600,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、それも覚えてないんだよね。じゃあ時間ないから手短に説明するよ」"
+  },
+  {
+    "index": 2611,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「すまない、頼む」"
+  },
+  {
+    "index": 2686,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "洵はうなずいて、持ち込まれた装備を指し示した。"
+  },
+  {
+    "index": 2790,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まずこれが、さっき投与した『ＡＤ』」"
+  },
+  {
+    "index": 2801,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「６０分の間、放射線被曝を予防する薬だよ」"
+  },
+  {
+    "index": 2812,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「今のオレたちの生命線か……」"
+  },
+  {
+    "index": 2841,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そういう事。支給されたものプラス、施設内にあったものをかき集めて、やっと７本」"
+  },
+  {
+    "index": 2852,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？　施設内にも、ＡＤがあるって事か？」"
+  },
+  {
+    "index": 2881,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「有事の際に備えて、箱に入ったＡＤがいくつか保管されてるらしいんだよ」"
+  },
+  {
+    "index": 2910,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも第１・第２エリアのＡＤは、ほとんど焼失しちゃったみたい」"
+  },
+  {
+    "index": 2921,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「４人に対し、残り７本という事は……このままじゃ２時間も持たないって事か」"
+  },
+  {
+    "index": 2950,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「もっと数があった方が安心だね。それも今後探して行こう」"
+  },
+  {
+    "index": 3016,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「次にこれ、放射線計測器『プロキオン』」"
+  },
+  {
+    "index": 3027,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いわゆるガイガーカウンターの最新版。この小さな機体で、１５０００ｍＳｖまでの放射線量を計測・数値化できるんだ」"
+  },
+  {
+    "index": 3038,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「これとＡＤは、ラボの関係者から支給されたもの。これがあったから助かってるようなものだよ」"
+  },
+  {
+    "index": 3044,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（確かに便利だな……まるでこの事態を見越して支給されたみたいだ）"
+  },
+  {
+    "index": 3073,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なにボケっと考え込んでんの？　さっさと次に行くよ」"
+  },
+  {
+    "index": 3158,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「これは我が隊の基本装備ね。『空気ボンベ』」"
+  },
+  {
+    "index": 3187,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも面体が破損しちゃって、今はほとんど役に立たないんだよ」"
+  },
+  {
+    "index": 3198,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……重要そうなのに、残念だな」"
+  },
+  {
+    "index": 3283,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「こいつは『エアジャッキ』」"
+  },
+  {
+    "index": 3294,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「空気ボンベと組み合わせて、圧縮空気の力で重いものを動かす、強力なジャッキさ」"
+  },
+  {
+    "index": 3305,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「空気ボンベを使うのか。使用回数は有限ってわけだな」"
+  },
+  {
+    "index": 3316,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「面体が壊れた以上、それが空気ボンベの唯一の用途だね」"
+  },
+  {
+    "index": 3402,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「さて次は『エンジンカッター』！」"
+  },
+  {
+    "index": 3413,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「強力な内蔵バッテリーで、電動エンジンを駆動！　人造ダイヤの刃を回し、鉄でもなんでもスパスパ切っちゃうニクいヤツ！」"
+  },
+  {
+    "index": 3424,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……興奮するなよ、目が怖いぞ」"
+  },
+  {
+    "index": 3453,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「てへっ、よく言われるよ」"
+  },
+  {
+    "index": 3537,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それと『１０ｍロープ』が１本で……装備は全部かな。覚えられた、隊長？」"
+  },
+  {
+    "index": 3559,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、問題ない」"
+  },
+  {
+    "index": 3606,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ちなみに、他にも『放射線防護服』が２つあったんですが……」"
+  },
+  {
+    "index": 3617,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「防護服は消火活動中に破損して、もう使い物にならないのです」"
+  },
+  {
+    "index": 3622,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見はそれらしき残骸を指差して言った。"
+  },
+  {
+    "index": 3627,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "２着の防護服はどちらも、頭の部分がヒビ割れてしまっている。"
+  },
+  {
+    "index": 3656,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「気密性・耐火性・耐水性に優れ、面体部分にボンベを直接装着できる事が強みだったのですが――」"
+  },
+  {
+    "index": 3667,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そこが破損してしまったせいで、空気ボンベも役に立たなくなってしまいました」"
+  },
+  {
+    "index": 3678,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それは痛いな……！」"
+  },
+  {
+    "index": 3707,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でもそう言えば、隊長も防護服を着ていたはずだよね？　どうして今は着てないんだろ？」"
+  },
+  {
+    "index": 3718,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？　うぅむ……動きにくそうだから、脱いじまったとか？」"
+  },
+  {
+    "index": 3747,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まさか！　本来この施設での救助活動には、防護服の着用が義務付けられているんですよ？」"
+  },
+  {
+    "index": 3758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうか……でもわからんな。それも例によって覚えてないんだよ」"
+  },
+  {
+    "index": 3763,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "セキュリティカードの件にしても、防護服の件にしても――記憶を失う前の渡瀬には、不可解な点が多過ぎた。"
+  },
+  {
+    "index": 3769,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（本当に……オレは地下で、いったい何をやってたんだ？）"
+  },
+  {
+    "index": 3774,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その疑問に答えられる者は、恐らく誰もいない。渡瀬はため息混じりに言った。"
+  },
+  {
+    "index": 3785,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ところで……この後、君らはどうするんだ？」"
+  },
+  {
+    "index": 3814,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、レベル４のカードも手に入りましたし、捜索範囲を拡大するべきだと思いますが」"
+  },
+  {
+    "index": 3843,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長はどうする？　休んでたほうがいいかな？」"
+  },
+  {
+    "index": 3872,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうですね、まだ記憶もあいまいなご様子ですし」"
+  },
+  {
+    "index": 3883,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、確かに……」"
+  },
+  {
+    "index": 3888,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がその言葉に甘えようとした時――"
+  },
+  {
+    "index": 3965,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ユウリと、眼が合った。"
+  },
+  {
+    "index": 3976,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「っ！」"
+  },
+  {
+    "index": 4005,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……？」"
+  },
+  {
+    "index": 4010,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "ユウリは今も怯えたような目をしている。"
+  },
+  {
+    "index": 4015,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "彼女を救助した時に聞いた声が、耳に蘇った。"
+  },
+  {
+    "index": 4118,
+    "code": "0x85",
+    "developer_comment": "ユウリ",
+    "string": "《止まるな！　彼女を助けろ！》"
+  },
+  {
+    "index": 4119,
+    "code": "0x86",
+    "developer_comment": "ユウリ",
+    "string": "幻聴"
+  },
+  {
+    "index": 4120,
+    "code": "0x86",
+    "developer_comment": "ユウリ",
+    "string": "《止まるな！　彼女を助けろ！》"
+  },
+  {
+    "index": 4157,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "――不意に、ここに留まっていていいのだろうかという考えが浮かぶ。"
+  },
+  {
+    "index": 4163,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ユウリを助けて、それで終わりでいいのか？）"
+  },
+  {
+    "index": 4169,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや……！）"
+  },
+  {
+    "index": 4174,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は意を決し、風見たちに言った。"
+  },
+  {
+    "index": 4242,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ま、待ってくれ……！　オレにも要救助者の捜索を手伝わせてくれ！」"
+  },
+  {
+    "index": 4271,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？　しかし――」"
+  },
+  {
+    "index": 4300,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「大丈夫なの隊長？」"
+  },
+  {
+    "index": 4311,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「確かに記憶はあいまいだし、お前らから見たら足手まといかもしれないけど……」"
+  },
+  {
+    "index": 4322,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「腐ってもオレは、レスキュー隊なんだろ？　だったら１人だけ休んでいるなんて、耐えられないんだよ」"
+  },
+  {
+    "index": 4327,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "衝動にも似た使命感が、渡瀬を焚きつけていた。"
+  },
+  {
+    "index": 4332,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見が目を見開き、それから苦笑する。"
+  },
+  {
+    "index": 4361,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……全く、らしいと言うか……」"
+  },
+  {
+    "index": 4372,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……？」"
+  },
+  {
+    "index": 4377,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "彼女はそこで、不意に真顔に戻って続けた。"
+  },
+  {
+    "index": 4406,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……隊長。本来であれば、記憶喪失の原因も不明ですし、同行は推奨できません」"
+  },
+  {
+    "index": 4417,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ですが火災の恐れもありますし、ＡＤも投与し続けなければならない……」"
+  },
+  {
+    "index": 4428,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ならば我々と共に行動するのが、一番安全かもしれません」"
+  },
+  {
+    "index": 4439,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか！　だったら――」"
+  },
+  {
+    "index": 4514,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ただし！」"
+  },
+  {
+    "index": 4525,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「これは通常の現場ではありません。隊員として同行するならば、それ相応の覚悟をして頂きます」"
+  },
+  {
+    "index": 4536,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  {
+    "index": 4565,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「記憶が戻るまでは、隊長を新人隊員として扱います。隊長は守部と同様、私の指揮下に入ってください」"
+  },
+  {
+    "index": 4576,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「非礼は重々承知ですが、そうでもしなければ命に関わります……どうかご容赦を」"
+  },
+  {
+    "index": 4591,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の言葉に渡瀬は、気圧されかけたが――"
+  },
+  {
+    "index": 4602,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ……ああ、了解だ！」"
+  },
+  {
+    "index": 4607,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう声を上げ、自分を奮い立たせた。"
+  },
+  {
+    "index": 4612,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "すると洵が、肩をすくめて言う。"
+  },
+  {
+    "index": 4641,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いやー隊長、なんか面白い展開になってきたね？」"
+  },
+  {
+    "index": 4652,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ一時の事とは言え、しばらく同輩としてよろしく頼むよ」"
+  },
+  {
+    "index": 4663,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうだな。こちらこそよろしくな」"
+  },
+  {
+    "index": 4692,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それではしばらくご辛抱を……記憶さえ戻れば、誰より有能な隊長に戻れるはずですので」"
+  },
+  {
+    "index": 4721,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ん、それを期待したいところだね」"
+  },
+  {
+    "index": 4736,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「っ……！」"
+  },
+  {
+    "index": 4741,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "命に関わるという、その言葉に気圧される。"
+  },
+  {
+    "index": 4746,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "思わず風見から視線をそらすと、洵と目があった。"
+  },
+  {
+    "index": 4775,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……隊長、ビビってんなら止めといた方がいいよ？」"
+  },
+  {
+    "index": 4786,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「今回の現場はマトモじゃない。体調万全でも命の保障はない」"
+  },
+  {
+    "index": 4815,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だからここで休んでいたって、別に恥にはならないんだ」"
+  },
+  {
+    "index": 4820,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "気遣うような洵の言葉――それはむしろ、渡瀬の心に活を入れた。"
+  },
+  {
+    "index": 4831,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、大丈夫だ！」"
+  },
+  {
+    "index": 4860,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……うん、その意気があれば大丈夫そうだね？」"
+  },
+  {
+    "index": 4889,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ一時の事とは言え、しばらく同輩としてよろしく頼むよ」"
+  },
+  {
+    "index": 4900,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうだな。なんとか２人に食らいついてってみるよ」"
+  },
+  {
+    "index": 4929,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まぁそんな肩肘張らないで！　記憶さえ復活したら、誰より有能な隊長にきっと戻れるって！」"
+  },
+  {
+    "index": 4958,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうですね。それを期待するという部分もあります」"
+  },
+  {
+    "index": 4967,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の言葉に渡瀬は、気圧されかけたが――"
+  },
+  {
+    "index": 4978,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わ……わかった」"
+  },
+  {
+    "index": 4983,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "なんとかその答えを搾り出した。"
+  },
+  {
+    "index": 5012,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょっと頼りない感じだけど……なんとか大丈夫そうだね」"
+  },
+  {
+    "index": 5041,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ一時の事とは言え、しばらく同輩としてよろしく頼むよ」"
+  },
+  {
+    "index": 5052,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうだな。こちらこそよろしく」"
+  },
+  {
+    "index": 5081,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まーそう肩肘張らないで。記憶さえ復活したら、誰より有能な隊長に戻れるからさ」"
+  },
+  {
+    "index": 5110,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうですね。それを期待するという部分もあります」"
+  },
+  {
+    "index": 5121,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「む、そうなのか……」"
+  },
+  {
+    "index": 5126,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "どうやら記憶を失う前の渡瀬は、２人に相当頼りにされていたらしい。"
+  },
+  {
+    "index": 5132,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（できるだけ早く、その期待に応えられるようになろう……！）"
+  },
+  {
+    "index": 5137,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう思い、それからユウリに尋ねた。"
+  },
+  {
+    "index": 5148,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリはどうする？　ここで休んでいるか？」"
+  },
+  {
+    "index": 5153,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が尋ねると、ユウリは一瞬ためらったような表情を見せたが――すぐに答えた。"
+  },
+  {
+    "index": 5182,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「い、え……わたしも、一緒にいきます……」"
+  },
+  {
+    "index": 5187,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "さきほどのやりとりを聞いて、今の状況の恐ろしさを思い知ったのだろう。"
+  },
+  {
+    "index": 5193,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（オレとしても、その方が安心だ……）"
+  },
+  {
+    "index": 5198,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思う渡瀬の横で、風見が声を上げた。"
+  },
+  {
+    "index": 5227,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では４人全員で第３エリアへ向かうことにしましょう」"
+  },
+  {
+    "index": 5256,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ携行する装備を選ぼう！　隊長も手伝って！」"
+  },
+  {
+    "index": 5267,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、おう！」"
+  },
+  {
+    "index": 5310,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――渡瀬たちはさっそく装備を選んだ。"
+  },
+  {
+    "index": 5315,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "まずＡＤは残り７本の全てを、渡瀬・風見・洵で分けて持った。"
+  },
+  {
+    "index": 5320,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "プロキオンは、渡瀬と洵が１台ずつ。"
+  },
+  {
+    "index": 5325,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そしてレベル４のカードは、渡瀬と風見が１枚ずつ持つ。"
+  },
+  {
+    "index": 5330,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "さらに１０ｍロープを１本。これはタスキ掛けにして、渡瀬が持つ。"
+  },
+  {
+    "index": 5335,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "軽装に過ぎるかもしれないが――機動力を優先する事にした。"
+  },
+  {
+    "index": 5400,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――皆さん、準備はできましたか？」"
+  },
+  {
+    "index": 5411,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いつでも行けるぜ」"
+  },
+  {
+    "index": 5468,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……はい」"
+  },
+  {
+    "index": 5525,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ行くよ！　隊長、足引っ張んないでね！」"
+  },
+  {
+    "index": 5536,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう！　せいいっぱい頑張るよ！」"
+  },
+  {
+    "index": 5579,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "今の自分に何ができるかはわからないが、それでも最善を尽くす――。"
+  },
+  {
+    "index": 5584,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は自分にそう誓い、風見たちと共に簡易基地を後にした。"
+  }
+]

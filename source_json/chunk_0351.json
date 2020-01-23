@@ -1,0 +1,980 @@
+[
+  {
+    "index": 44,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Double Chapter4"
+  },
+  {
+    "index": 56,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――――"
+  },
+  {
+    "index": 61,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  {
+    "index": 66,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――"
+  },
+  {
+    "index": 117,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦と悠里は、現実に帰ってきた。"
+  },
+  {
+    "index": 122,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今回は例の頭痛と、脳を揺さぶられるような不快感はなかった。"
+  },
+  {
+    "index": 127,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が悪意に感染していなかったからだろう。"
+  },
+  {
+    "index": 132,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "センシズシンパシーで心を繋ぐだけなら、被験体Ｎと対決した時とは違い、脳や精神への負担はさほどかからないらしい。"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて恵那が夏彦を見て、穏やかな声で言う。"
+  },
+  {
+    "index": 166,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……終った？」"
+  },
+  {
+    "index": 177,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「は、はい」"
+  },
+  {
+    "index": 206,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「悪意は？」"
+  },
+  {
+    "index": 217,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ありませんでした。搬出リフトの前で被験体Ｎに会った時、先生はＡＤをすぐ投与していたから……」"
+  },
+  {
+    "index": 246,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう、よかった」"
+  },
+  {
+    "index": 251,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那はそう言ってから、少し照れ臭そうに笑った。"
+  },
+  {
+    "index": 280,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私の正体、わかったのよね」"
+  },
+  {
+    "index": 291,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……はい」"
+  },
+  {
+    "index": 320,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「びっくりしたでしょう？　ずっと騙していてごめんなさいね」"
+  },
+  {
+    "index": 325,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "今日は何度この台詞を言われただろう。そう思いながら夏彦は答える。"
+  },
+  {
+    "index": 336,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの、ぼくに知られて、大丈夫なんですか？」"
+  },
+  {
+    "index": 365,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「清廉潔白を証明するためだもの、仕方ないわ。でも秘密にしておいてね、悠里さんも」"
+  },
+  {
+    "index": 395,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「はい……」"
+  },
+  {
+    "index": 426,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "恵那はそう言ってから、少し黙った。"
+  },
+  {
+    "index": 431,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "その表情は少し悲しげに見える。"
+  },
+  {
+    "index": 486,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうか、先生はぼくが記憶を読んだせいで……）"
+  },
+  {
+    "index": 491,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "たくさんの辛い記憶を、思い出す事になったのだ。"
+  },
+  {
+    "index": 496,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦が覗いた記憶は、恵那も思い出す。それがセンシズシンパシーのルールだ。"
+  },
+  {
+    "index": 517,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「先生……大丈夫ですか？」"
+  },
+  {
+    "index": 546,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「バカね、心配しなくてもいいわよ。そういう仕事なんだから」"
+  },
+  {
+    "index": 551,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう言った恵那は、いつもの表情に戻っていた。"
+  },
+  {
+    "index": 581,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "悠里がそう言うと、恵那は気を取り直したように声を上げた。"
+  },
+  {
+    "index": 639,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それよりみんな聞いて。いま、隊長さんが三ノ宮さんの攻撃を受けているの」"
+  },
+  {
+    "index": 650,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え！？」"
+  },
+  {
+    "index": 686,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょ、ちょっと待ってよ。ルイーズちゃんの攻撃を受けているって、なんで――」"
+  },
+  {
+    "index": 715,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、そうか！　ルイーズちゃんもそのＢＣのせいで、おかしくなってんだね！？」"
+  },
+  {
+    "index": 726,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――多分そうです」"
+  },
+  {
+    "index": 731,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それについては確証がないが、夏彦はひとまずうなずいた。"
+  },
+  {
+    "index": 736,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の正体について、説明しているヒマはない。"
+  },
+  {
+    "index": 765,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くんから三ノ宮さんに、テレパシーを送る事はできないの？」"
+  },
+  {
+    "index": 776,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やってみたんですが、通じないんです！」"
+  },
+  {
+    "index": 787,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにサリュは渡瀬の言葉には、一切耳を貸さないだろうし……」"
+  },
+  {
+    "index": 816,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃあ夏彦くんが、直接行ってルイーズちゃんを説得すれば？」"
+  },
+  {
+    "index": 873,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、待て！　彼は重傷を負ってるんだぞ？　そんな危険なことをさせられるかね？」"
+  },
+  {
+    "index": 902,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃあ……じゃあ、あたしが行く！」"
+  },
+  {
+    "index": 959,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え！？　い、行ってどうするんですか！？」"
+  },
+  {
+    "index": 988,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「決まってる、隊長を助けるんだよ！」"
+  },
+  {
+    "index": 1015,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそう言って、止める間もなく、部屋を飛び出した。"
+  },
+  {
+    "index": 1054,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「全く……本当に短慮な人ね……！」"
+  },
+  {
+    "index": 1065,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那はため息をつき、銃を握って言った。"
+  },
+  {
+    "index": 1094,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私も行くわ。あの娘だけじゃなんの戦力にもならないし」"
+  },
+  {
+    "index": 1105,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃ、じゃあぼくも――」"
+  },
+  {
+    "index": 1134,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ダメよ。危険だからここにいなさい」"
+  },
+  {
+    "index": 1145,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「先生は、大丈夫なんですか……？」"
+  },
+  {
+    "index": 1174,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「心配ないわ。先生はこう見えて、社会を陰から護るスーパー公務員だからね」"
+  },
+  {
+    "index": 1200,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう言って恵那もまた、シェルターを出て行ってしまった。"
+  },
+  {
+    "index": 1211,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――後には夏彦と悠里、そして宇喜多と気絶中のましろが残された。"
+  },
+  {
+    "index": 1217,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（大丈夫か、あの２人で……？）"
+  },
+  {
+    "index": 1223,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（サリュは先生を少し敵視している。洵さんについてはわからないけど――）"
+  },
+  {
+    "index": 1229,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（同じレスキュー隊である以上、渡瀬の仲間だと思われているかもしれない）"
+  },
+  {
+    "index": 1234,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それでも渡瀬・恵那・洵の３人がかりなら、サリュを捕まえる事はできるだろう。"
+  },
+  {
+    "index": 1239,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかしその過程で、誰かが怪我をするかもしれない。"
+  },
+  {
+    "index": 1247,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ……とりあえず渡瀬の状況を確認しよう！）"
+  },
+  {
+    "index": 1297,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は渡瀬に、センシズシンパシーを試みた。"
+  },
+  {
+    "index": 1444,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そう思うと同時に、視界が彼のものに切り替わった。"
+  },
+  {
+    "index": 1455,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「はぁっ、はぁっ……！」"
+  },
+  {
+    "index": 1466,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬の荒い息遣いが聞こえる。ずるずると足を引きずる音がする。"
+  },
+  {
+    "index": 1471,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "どこかの連絡通路を、必死で走っているらしい。"
+  },
+  {
+    "index": 1477,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（足を怪我したのか！？）"
+  },
+  {
+    "index": 1502,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《どうした渡瀬、大丈夫か！？》"
+  },
+  {
+    "index": 1513,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、夏彦か！？」"
+  },
+  {
+    "index": 1518,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "久しぶりに『幻聴』を聞いて、渡瀬は驚いたらしい。"
+  },
+  {
+    "index": 1529,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「驚かすなよ、これテレパシーか？」"
+  },
+  {
+    "index": 1541,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬、どうした！？》"
+  },
+  {
+    "index": 1552,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、夏彦か！？」"
+  },
+  {
+    "index": 1557,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "久しぶりに『幻聴』を聞いて、渡瀬は驚いたらしい。"
+  },
+  {
+    "index": 1568,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「脅かすんじゃねぇよ、これテレパシーか？」"
+  },
+  {
+    "index": 1579,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《まぁそうだ。だけど声を出す必要はない。頭で考えてくれれば会話できる》"
+  },
+  {
+    "index": 1590,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうかよ、そりゃ助かる」"
+  },
+  {
+    "index": 1659,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《で、今どういう状況だ！？》"
+  },
+  {
+    "index": 1714,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その問いに、渡瀬は思考によって答えた。"
+  },
+  {
+    "index": 1725,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《どうもこうもねぇよ……！　サリュに襲われ、逃げてるところだ》"
+  },
+  {
+    "index": 1736,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《場所は！？》"
+  },
+  {
+    "index": 1747,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《地下２階、第３エリア外周棟から、第２エリア外周棟に続く連絡通路だ》"
+  },
+  {
+    "index": 1758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《第３エリアでサリュに足首を捻られ、足が利かなくなっちまった》"
+  },
+  {
+    "index": 1769,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《それでここまで、命からがら――》"
+  },
+  {
+    "index": 1780,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "と、その時、背後で音がした。"
+  },
+  {
+    "index": 1791,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！？」"
+  },
+  {
+    "index": 1867,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が振り向くと、セキュリティゲートを開けて、サリュが姿を現した。"
+  },
+  {
+    "index": 1878,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《くそ、見つかった……》"
+  },
+  {
+    "index": 1889,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《夏彦、サリュにテレパシー送ってくれ！　お前なら当然できるんだろう？》"
+  },
+  {
+    "index": 1900,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《無理だと思うけど――！》"
+  },
+  {
+    "index": 2033,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は渡瀬とのセンシズシンパシーをいったん絶ち、そして素早くサリュにテレパシーを送った。"
+  },
+  {
+    "index": 2097,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《サリュ、ぼくだ、聞こえるか！？》"
+  },
+  {
+    "index": 2108,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬は味方だ。戦う必要はない！》"
+  },
+  {
+    "index": 2113,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "何度も送信した内容を、繰り返し送る。"
+  },
+  {
+    "index": 2118,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして再び渡瀬と、感覚を同調させると――"
+  },
+  {
+    "index": 2283,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬に向けて近づいてくるサリュが見えた。"
+  },
+  {
+    "index": 2288,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "何の反応も見られない。明らかにテレパシーが届いてない。"
+  },
+  {
+    "index": 2299,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ダメだ、反応がない！　やっぱりＡＤを投与してるみたいだ！》"
+  },
+  {
+    "index": 2310,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《参ったな……結局、力づくでやるしかないのか》"
+  },
+  {
+    "index": 2321,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はサリュに対し、構えを取る。"
+  },
+  {
+    "index": 2326,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "足首の痛みが夏彦にも伝わってきた。"
+  },
+  {
+    "index": 2337,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《多少の怪我はさせる事になるかもしれん……悪いが、それは目を瞑ってくれ》"
+  },
+  {
+    "index": 2397,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《なりは小さいが、あの娘は猛獣だ》"
+  },
+  {
+    "index": 2418,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ま、待ってくれ渡瀬！　サリュをここにおびき寄せる事はできないか！？》"
+  },
+  {
+    "index": 2429,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《さっきからそうしようとしてるんだが、これが案外難しくてな……》"
+  },
+  {
+    "index": 2434,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は、サリュに向けて言った。"
+  },
+  {
+    "index": 2445,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おいサリュ、いま夏彦からテレパシーが届いたぞ！」"
+  },
+  {
+    "index": 2509,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「！？」"
+  },
+  {
+    "index": 2520,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺の事は無視して、第５エリアに行け！　あそこに奴がいるんだよ！」"
+  },
+  {
+    "index": 2549,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ふん……あなたの言う事は、何一つ信じられない」"
+  },
+  {
+    "index": 2554,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュは全く信じてない様子だ。"
+  },
+  {
+    "index": 2559,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "彼女は他人の気持ちを想像できない。ならば誰も信じず、全てを疑った方が安全なのだろう。"
+  },
+  {
+    "index": 2570,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬、お前は逃げろ！　第２エリア方面から回って、Ｎエリア経由でシェルターに戻って来るんだ！》"
+  },
+  {
+    "index": 2581,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "《いいのか？　サリュはお前の――》"
+  },
+  {
+    "index": 2592,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《いいからとにかく退避を優先してくれ！　いま洵さんと先生に、お前を迎えに行かせるから！》"
+  },
+  {
+    "index": 2644,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそう答え、センシズシンパシーを終えた。"
+  },
+  {
+    "index": 2693,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――自分の五感が戻ってくると同時に、悠里の声が聞こえた。"
+  },
+  {
+    "index": 2722,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん！　いまなんか苦しそうにしてたけど……」"
+  },
+  {
+    "index": 2733,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「センシズシンパシーを使ったの！？」"
+  },
+  {
+    "index": 2744,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ……それで渡瀬が、相当ピンチだって事もわかった」"
+  },
+  {
+    "index": 2801,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はひとまず、恵那と洵にテレパシーを送った。"
+  },
+  {
+    "index": 2812,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《先生、洵さん、聞こえますか！？》"
+  },
+  {
+    "index": 2823,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬は今、第２エリア方面に移動しています！》"
+  },
+  {
+    "index": 2834,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《あいつは足を怪我してます！　迎えに行ってあげて下さい！》"
+  },
+  {
+    "index": 2839,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてエンパシーを使うと、恵那の返答がきた。"
+  },
+  {
+    "index": 2866,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "《わかったわ！　第２エリアね！》"
+  },
+  {
+    "index": 2871,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "彼女はもう、心を閉ざしてはいなかった。"
+  },
+  {
+    "index": 2886,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "送信を確認した夏彦は、さらに考える。"
+  },
+  {
+    "index": 2892,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もう渡瀬も、いい加減ボロボロだ……！）"
+  },
+  {
+    "index": 2898,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そりゃそうだよな、８時間近くもみんなを助けるため、走り回ってたんだから）"
+  },
+  {
+    "index": 2904,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったら……だったら、ぼくも……！）"
+  },
+  {
+    "index": 2927,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は覚悟を決め、悠里に言った。"
+  },
+  {
+    "index": 2952,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……悠里。ぼくも行くよ、サリュのところに」"
+  },
+  {
+    "index": 2981,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え？　隊長さんに止められてるのに……」"
+  },
+  {
+    "index": 2992,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「今はもう危険な人物は、橘さんしかいないし……それにこのままじゃ、渡瀬の身が危険だ」"
+  },
+  {
+    "index": 3003,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さすがに静観を決め込んではいられないよ。奴が身を削って頑張ってるなら、ぼくも……！」"
+  },
+  {
+    "index": 3015,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……悠里。ぼくも行くよ、渡瀬のところに……」"
+  },
+  {
+    "index": 3044,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「えっ……？」"
+  },
+  {
+    "index": 3073,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、まさか隊長さんが心配になったの？」"
+  },
+  {
+    "index": 3084,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「違う、サリュが心配なだけだ」"
+  },
+  {
+    "index": 3089,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ましろが起きていたら『このツンデレめ！』と言われるだろうと思いつつ、夏彦は答える。"
+  },
+  {
+    "index": 3100,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくが行けば一発で収まるんだ……さすがにいつまでも、ここに引きこもってはいられないよ」"
+  },
+  {
+    "index": 3123,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の言葉に、悠里は一瞬黙り込み――それから意を決したように言った。"
+  },
+  {
+    "index": 3152,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だ、だったら……わたしも一緒に行く」"
+  },
+  {
+    "index": 3163,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里も？」"
+  },
+  {
+    "index": 3192,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん１人じゃ、歩くのも辛いだろうし……」"
+  },
+  {
+    "index": 3221,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「もし途中で副隊長さんに遭ったら、その場で記憶修復をしなきゃならなくなるかもでしょ？」"
+  },
+  {
+    "index": 3227,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  {
+    "index": 3232,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里を連れて行くのは心配だったが、確かにその通りだった。"
+  },
+  {
+    "index": 3243,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかった。一緒に行こう」"
+  },
+  {
+    "index": 3302,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おじさんはここで、ましろを見ていて下さい」"
+  },
+  {
+    "index": 3331,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そ、それはいいが、だったら――」"
+  },
+  {
+    "index": 3403,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多は懐から拳銃を取り出し、言った。"
+  },
+  {
+    "index": 3432,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「行くなら、この拳銃を持っていきたまえ。途中で橘さんに遭遇するかもしれん」"
+  },
+  {
+    "index": 3443,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「弾はもう２発しかないが、威嚇には使えるだろう」"
+  },
+  {
+    "index": 3448,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多が固い声で言う。"
+  },
+  {
+    "index": 3453,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "風見の目的は、今一つよくわからない。用心するに越した事はないだろう。"
+  },
+  {
+    "index": 3464,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかりました」"
+  },
+  {
+    "index": 3484,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はその拳銃を受け取り、ズボンのベルトに差した。"
+  },
+  {
+    "index": 3539,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ、悠里……悪いけど肩を貸してくれるか？」"
+  },
+  {
+    "index": 3597,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「う、うん」"
+  },
+  {
+    "index": 3602,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "夏彦は悠里に肩を借りながら、よろよろとシェルターを出て行った。"
+  }
+]

@@ -1,0 +1,692 @@
+[
+  {
+    "index": 1,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "Tutorial"
+  },
+  {
+    "index": 50,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "初めにお断りしておきますが、この世界にはいわゆる『選択肢』が存在しません。"
+  },
+  {
+    "index": 55,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしこの世界を未来へ繋げるためには、あなたの力が必要です。"
+  },
+  {
+    "index": 60,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこであなたの意思をこの世界に反映できるように、Senses Sympathy System（センシズ・シンパシィ・システム）を用意しました。"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これからSenses Sympathy Systemの解説を行いますが――"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その前に『センシズ』について説明させていただきます。"
+  },
+  {
+    "index": 75,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "センシズとは『印象、感情、感覚』のこと。簡単に言うと、あなたが他者を『どう思っているか』という評価です。"
+  },
+  {
+    "index": 80,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "つまりセンシズが高ければ、あなたはその人物に『好い印象』を抱いており――"
+  },
+  {
+    "index": 85,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "逆にセンシズが低ければ、その人物に『悪い印象』を抱いている事になります。"
+  },
+  {
+    "index": 90,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてSenses Sympathy Systemとは、そうしたあなたのセンシズを数値化し、この世界に反映させるために存在します。"
+  },
+  {
+    "index": 95,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さて、そのセンシズの数値をどのように操作するのかについてご説明します。"
+  },
+  {
+    "index": 139,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "特定の場面になると、画面の右上に魔方陣のような図形が表示されます。これは『エニアグラム』という図形です。"
+  },
+  {
+    "index": 144,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エニアグラムとは人間の性格を９種類に分類する性格診断の一種。"
+  },
+  {
+    "index": 149,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本作の主要人物の９名は、その９種類の性格のどれかに分類されています。"
+  },
+  {
+    "index": 193,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "このように、エニアグラムの各点に９名が割り当てられるわけです。"
+  },
+  {
+    "index": 198,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エニアグラムの上には、レーダーチャートのようなグラフが表示されています。"
+  },
+  {
+    "index": 203,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "このグラフがセンシズを示すシンボルです。"
+  },
+  {
+    "index": 247,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "グラフの形は９名のセンシズと対応していて、センシズを上げ下げすることでグラフの形が変化します。"
+  },
+  {
+    "index": 252,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "センシズは主人公含めて９人分入力できますから、センシズの評価対象には自分自身も含まれます。"
+  },
+  {
+    "index": 257,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この場合、自分の直感や意見に自信を持つか持たないか……"
+  },
+  {
+    "index": 262,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あるいは、自分自身をどれだけ大切にするか、という扱いになります。"
+  },
+  {
+    "index": 267,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses Sympathy System（感覚同調システム）。"
+  },
+  {
+    "index": 272,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まさに主人公の様々な感覚＝センシズを、その都度、あなたに決めてもらうシステムです。"
+  },
+  {
+    "index": 277,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "決めてもらったセンシズは、所定の『分岐ポイント』でシナリオ分岐の判定に使われます。"
+  },
+  {
+    "index": 282,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "分岐ポイントでは、センシズの大きさによって、シナリオが何パターンかに自動で分岐するということです。"
+  },
+  {
+    "index": 326,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "センシズはいつも入力できるわけではありません。"
+  },
+  {
+    "index": 331,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ブランチ』と呼ばれる区間内だけ、センシズの入力ができます。"
+  },
+  {
+    "index": 336,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ブランチに入ると、画面の右上にエニアグラムが表示されます。"
+  },
+  {
+    "index": 341,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エニアグラムが表示されているかどうかで、センシズが入力できるかどうか判断してください。"
+  },
+  {
+    "index": 346,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "詳しくは、実際に操作してもらいながらご説明します。"
+  },
+  {
+    "index": 389,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでは実際に操作しながら、シナリオの分岐を体験してみましょう。"
+  },
+  {
+    "index": 394,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まずは次の場面をご覧ください。まだセンシズの入力はできませんので、普通にメッセージを読み進めてください。"
+  },
+  {
+    "index": 533,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは、とある少年の家――。"
+  },
+  {
+    "index": 538,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "綺麗に清掃されたリビングに、テレビと家庭用ゲーム機が置かれている。"
+  },
+  {
+    "index": 543,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると少女が廊下から現れ、不思議そうに尋ねてきた。"
+  },
+  {
+    "index": 554,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「ねえねえ、なにしているの？」"
+  },
+  {
+    "index": 565,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「……え？　ゲームのれんしゅう？」"
+  },
+  {
+    "index": 576,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「とてもたいせつなことなの……？」"
+  },
+  {
+    "index": 587,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「そっかぁ、じゃあいそがしいんだね……」"
+  },
+  {
+    "index": 598,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「あのね、ちょっとお話ししたいことがあるんだけど……いまは、だめだよね？」"
+  },
+  {
+    "index": 603,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "そう言いつつも、少女は期待のこもった眼差しで、あなたを見つめている。"
+  },
+  {
+    "index": 614,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「あっ……ごめんなさい。じゃまみたいだから、またこんどにするね」"
+  },
+  {
+    "index": 625,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「――ううん、きにしないで。そんな、たいしたことじゃなかったから」"
+  },
+  {
+    "index": 636,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「それじゃ、ゲームのれんしゅうがんばってね……」"
+  },
+  {
+    "index": 641,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "少女はがっくりと肩を落とし――"
+  },
+  {
+    "index": 646,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "――さびしそうに、リビングから去って行った。"
+  },
+  {
+    "index": 749,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "今のは少女に対するセンシズが低かった場合の例になります。"
+  },
+  {
+    "index": 754,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "では、もう１度同じ場面を繰り返しますので、今度は少女を『喜ばせて』あげましょう。"
+  },
+  {
+    "index": 759,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "次はブランチが存在しますので、センシズが入力できるようになります。"
+  },
+  {
+    "index": 764,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "ブランチに入ると、画面の右上にエニアグラムが表示されます。"
+  },
+  {
+    "index": 769,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "エニアグラムが消える前に、少女に対するあなたのセンシズを上げてください。"
+  },
+  {
+    "index": 774,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "センシズが光ったら、SELECTボタンを押してセンシズ入力画面を呼び出してください。"
+  },
+  {
+    "index": 818,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "SELECTボタンを押すと、この画面になります。これがセンシズ入力画面です。"
+  },
+  {
+    "index": 823,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "方向キーの上下でセンシズを入力したい人物を選び、方向キーの左右でセンシズを上下させます。"
+  },
+  {
+    "index": 828,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "『決定』を選択するか、○ボタンを押すと値が決定され、センシズの入力終了となります。"
+  },
+  {
+    "index": 833,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "１回のブランチにつき、センシズが入力できるのは１度だけです。"
+  },
+  {
+    "index": 838,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "１度決定したら、センシズの入力はやりなおせませんのでご注意ください。"
+  },
+  {
+    "index": 1028,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「ねえねえ、なにしているの？」"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「……え？　ゲームのれんしゅう？」"
+  },
+  {
+    "index": 1096,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「とてもたいせつなことなの……？」"
+  },
+  {
+    "index": 1107,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「そっかぁ、じゃあいそがしいんだね……」"
+  },
+  {
+    "index": 1118,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「あのね、ちょっとお話ししたいことがあるんだけど……いまは、だめだよね？」"
+  },
+  {
+    "index": 1123,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "そう言いつつも、少女は期待のこもった眼差しで、あなたを見つめている。"
+  },
+  {
+    "index": 1128,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "あなたは────"
+  },
+  {
+    "index": 1147,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「え？　お話してくれる？　いいの？　ほんとに？」"
+  },
+  {
+    "index": 1158,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「わぁーい、ありがとう！」"
+  },
+  {
+    "index": 1169,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「あのねあのね、きょうは『たなばた』っていう日なんだって！」"
+  },
+  {
+    "index": 1180,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「それでね、『たんざく』にねがいごとをかくと、それはかなうんだって！」"
+  },
+  {
+    "index": 1191,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「だから、いまからじゅんびしなきゃっておもうの！」"
+  },
+  {
+    "index": 1196,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "そして少女は楽しそうに、七夕の笹飾りについて話し始めた――。"
+  },
+  {
+    "index": 1210,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「あっ……ごめんなさい。じゃまみたいだから、またこんどにするね」"
+  },
+  {
+    "index": 1221,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「――ううん、きにしないで。そんな、たいしたことじゃなかったから」"
+  },
+  {
+    "index": 1232,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「それじゃ、ゲームのれんしゅうがんばってね……」"
+  },
+  {
+    "index": 1237,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "少女はがっくりと肩を落とし――"
+  },
+  {
+    "index": 1242,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "――さびしそうに、リビングから出て行った。"
+  },
+  {
+    "index": 1345,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "残念ですが、彼女の反応に変化がありませんでした。"
+  },
+  {
+    "index": 1350,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "もう１度、今の場面を繰り返しますのでSenses Sympathy Systemの操作を行ってください。"
+  },
+  {
+    "index": 1355,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "画面からセンシズが消える前に、少女へのセンシズを最大まで上げましょう。"
+  },
+  {
+    "index": 1466,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "成功です。これで少女の好感度も上がったことでしょう。"
+  },
+  {
+    "index": 1471,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "今の例では少女の反応は２通りでしたが、場合によってはそれ以上の複数の変化がありえます。"
+  },
+  {
+    "index": 1476,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "またセンシズの対象者は、いつも１人とは限りません。"
+  },
+  {
+    "index": 1481,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "もし複数の対象者が考えられる場合は、それぞれ個別にあなたのセンシズを見直さなければなりません。"
+  },
+  {
+    "index": 1486,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "その場合、入力できる人物が複数に増えます。"
+  },
+  {
+    "index": 1491,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "センシズが入力できるのは、次の分岐に関係する人物だけです。分岐に関係しない人物のセンシズは操作できません。"
+  },
+  {
+    "index": 1496,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "時にはセンシズに、優劣をつける必要もあるでしょう。"
+  },
+  {
+    "index": 1501,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "そしてセンシズの色は、近づいた分岐の重要度に応じて、全部で３種類あります。"
+  },
+  {
+    "index": 1545,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "青――これは『対象者の好感度に影響を与えそうな出来事』を察知した色です。"
+  },
+  {
+    "index": 1550,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "『ブルー分岐』といい、分岐の重要性はそれほど高くありません。"
+  },
+  {
+    "index": 1555,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "この場合、毎回センシズを操作する必要はありません。"
+  },
+  {
+    "index": 1560,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "対象者へ抱くあなたの印象が変わった際に、センシズを変更すると良いでしょう。"
+  },
+  {
+    "index": 1565,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "しかしあまり疎かにしすぎると、よからぬ結果を招くかもしれません。"
+  },
+  {
+    "index": 1609,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "黄――主に『行動内容に影響がありそうな出来事』を察知した色です。"
+  },
+  {
+    "index": 1614,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "『イエロー分岐』といい、分岐の重要性はやや高いです。"
+  },
+  {
+    "index": 1619,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "共に行動する者が変わる、あるいは行き先が変わる、といった大きな変化が予想されます。"
+  },
+  {
+    "index": 1624,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "危険はありませんが、よりあなたの意思を反映できるように、センシズを変更すると良いでしょう。"
+  },
+  {
+    "index": 1629,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "希に、間近に『重大な危険』が迫っている分岐でもイエロー分岐になりますので、ご注意ください。"
+  },
+  {
+    "index": 1673,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "赤――これは『重大な危険』を察知した色です。"
+  },
+  {
+    "index": 1678,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "『レッド分岐』といい、分岐の重要性は極めて高いです。"
+  },
+  {
+    "index": 1683,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "あなたが判断を誤まると、そこには死が待ち構えています。"
+  },
+  {
+    "index": 1688,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "危険を回避すべく状況を見極め、ただちにセンシズに問題がないか確認してください。"
+  },
+  {
+    "index": 1693,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "また、物語の『結末』に直接関わる分岐も、レッド分岐になります。"
+  },
+  {
+    "index": 1698,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "同じように、慎重に判断することをお勧めします。"
+  },
+  {
+    "index": 1741,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "以上がSenses Sympathy Systemの説明になります。"
+  },
+  {
+    "index": 1746,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "あなたのセンシズによって、状況は様々に変化していくことでしょう。"
+  },
+  {
+    "index": 1751,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "それでは、再び世界を動かし始めます。"
+  },
+  {
+    "index": 1756,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "世界が動き始めると、さっそくセンシズを入力できるブランチが１つ訪れます。"
+  },
+  {
+    "index": 1802,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "エニアグラムに灯る光は、黄――。"
+  },
+  {
+    "index": 1807,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "ここでは、間近に『重大な危険』が迫っている分岐でもあります。"
+  },
+  {
+    "index": 1812,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "あなたが判断を誤れば、男に死が訪れることでしょう。"
+  },
+  {
+    "index": 1817,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "冷静に状況を見極め、ただちにセンシズを操作してください。"
+  },
+  {
+    "index": 1862,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "エニアグラムに灯る光は、青――。"
+  },
+  {
+    "index": 1867,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "ですが少年にとって、少女らの好感度は重要な意味を持っています。"
+  },
+  {
+    "index": 1872,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "最悪の場合、悲劇的な結末を迎える可能性もあるでしょう。"
+  },
+  {
+    "index": 1877,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "冷静に状況を見極め、適切なセンシズに設定して下さい。"
+  },
+  {
+    "index": 1883,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "あなたの想いが、この世界に良い影響をもたらすことを期待しています。"
+  }
+]

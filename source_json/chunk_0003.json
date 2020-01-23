@@ -1,0 +1,980 @@
+[
+  {
+    "index": 47,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter1"
+  },
+  {
+    "index": 58,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――"
+  },
+  {
+    "index": 63,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  {
+    "index": 68,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――――意識は、果てのない闇の中にあった。"
+  },
+  {
+    "index": 73,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは何もかもが閉じた世界だった。"
+  },
+  {
+    "index": 78,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "視覚も、聴覚も、触覚も、嗅覚も、味覚も……あらゆる感覚が途切れている。"
+  },
+  {
+    "index": 83,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "世界に触れている実感がまるで無い。"
+  },
+  {
+    "index": 89,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（ここは……？）"
+  },
+  {
+    "index": 94,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "わからない。"
+  },
+  {
+    "index": 99,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "脳裏にはただ虚無だけがある。"
+  },
+  {
+    "index": 105,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（何だ……？）"
+  },
+  {
+    "index": 110,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "感じ取れるのは喪失感のみ。"
+  },
+  {
+    "index": 116,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（一体……どうなってるんだ……？）"
+  },
+  {
+    "index": 121,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "何か決定的なものが、欠落している気がした。"
+  },
+  {
+    "index": 127,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（どうしてこんな事に――）"
+  },
+  {
+    "index": 132,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "必死でその原因を探る。"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "やがて断片的な映像が、意識の片隅で瞬いた。"
+  },
+  {
+    "index": 221,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（…………！）"
+  },
+  {
+    "index": 227,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（そうか……）"
+  },
+  {
+    "index": 233,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（あの時、あれに襲われて――）"
+  },
+  {
+    "index": 316,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "死んだのか！？"
+  },
+  {
+    "index": 399,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "いや……！"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "心臓の鼓動――内から響く音。"
+  },
+  {
+    "index": 487,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "それが確かに感じられる。"
+  },
+  {
+    "index": 499,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "こいつは――"
+  },
+  {
+    "index": 504,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "待て、そうじゃない……！"
+  },
+  {
+    "index": 510,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（オレは……！）"
+  },
+  {
+    "index": 570,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "……生きている……！"
+  },
+  {
+    "index": 575,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "感覚がある……！"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "視覚が聴覚が嗅覚が味覚が触覚が――痛覚が。"
+  },
+  {
+    "index": 585,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "肉体が、意識が、ここにある……。"
+  },
+  {
+    "index": 591,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（オレは、ここにいるんだ……！！）"
+  },
+  {
+    "index": 597,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "……………………"
+  },
+  {
+    "index": 602,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "――――――――"
+  },
+  {
+    "index": 716,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「――……長！」"
+  },
+  {
+    "index": 727,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「……隊長、しっかりして下さい！　隊長！」"
+  },
+  {
+    "index": 738,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「起きなよ隊長！　隊長ってば！」"
+  },
+  {
+    "index": 743,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "不意にそんな声が聞こえ――"
+  },
+  {
+    "index": 748,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "男は眼を開けた。"
+  },
+  {
+    "index": 951,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「あ……！　気がついたのですね！」"
+  },
+  {
+    "index": 1001,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「よ、よかったぁ！　死んでるかと思ったよ！」"
+  },
+  {
+    "index": 1012,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「……？」"
+  },
+  {
+    "index": 1017,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "何も言えないでいる男に、目の前の女たちが声をかけてくる。"
+  },
+  {
+    "index": 1067,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「っていうか隊長、なんでこんな所にいるのさ！？　指揮所にいるはずじゃ！？」"
+  },
+  {
+    "index": 1078,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「それよりご自分の名前を言えますか？　今日が何月何日かは？」"
+  },
+  {
+    "index": 1089,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「……え……あ？」"
+  },
+  {
+    "index": 1094,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "突然巻き込まれた質問の嵐に、すでに男は混乱していた。"
+  },
+  {
+    "index": 1099,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "まず男は現状を把握しようとした。"
+  },
+  {
+    "index": 1104,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "２人の女性は、オレンジ色の制服らしきものを着ている。"
+  },
+  {
+    "index": 1110,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（消防隊員……いや、レスキュー隊？）"
+  },
+  {
+    "index": 1115,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "彼女たちの制服は、煤にまみれていた。"
+  },
+  {
+    "index": 1120,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "災害、事故、救助――取り留めのないイメージが、男の脳内に渦巻く。"
+  },
+  {
+    "index": 1131,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「君らは……いや、ここは……？」"
+  },
+  {
+    "index": 1181,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「あ、まだ起き上がらない方が！」"
+  },
+  {
+    "index": 1234,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "そう言われながらも男は起き上がり、辺りを見回した。"
+  },
+  {
+    "index": 1239,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "どこか見知らぬ建物――その廊下に倒れていたようだ。"
+  },
+  {
+    "index": 1244,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "廊下には無機質な扉が並び、消火栓なども見える。"
+  },
+  {
+    "index": 1249,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "天井を見上げると、エアダクトやスプリンクラーなどが――"
+  },
+  {
+    "index": 1413,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「うっ！」"
+  },
+  {
+    "index": 1418,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そのとき鋭い頭痛が走りぬけ、男は再び倒れこんだ。"
+  },
+  {
+    "index": 1429,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「大丈夫！？　痛むの！？」"
+  },
+  {
+    "index": 1440,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「い、いや……大丈夫だ……」"
+  },
+  {
+    "index": 1485,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そのとき男は、自分が女たちと同じ服装をしていることに気づいた。"
+  },
+  {
+    "index": 1491,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（……？　どうして、オレがこんなものを……）"
+  },
+  {
+    "index": 1496,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "奇妙な違和感が襲って来る。"
+  },
+  {
+    "index": 1501,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "まるで身に覚えがない。なぜこんな服装をしているのか――"
+  },
+  {
+    "index": 1512,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「オレは……いったい……？」"
+  },
+  {
+    "index": 1517,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男は朦朧とする頭を振りながら、立ち上がった。"
+  },
+  {
+    "index": 1565,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "身体の感触もどうも妙だ。"
+  },
+  {
+    "index": 1570,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "肉体と精神が、正しく接続されていない感じがする。"
+  },
+  {
+    "index": 1576,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（なんだか、身体が自分のものじゃないような……）"
+  },
+  {
+    "index": 1581,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男がそう思った、その瞬間――"
+  },
+  {
+    "index": 1604,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "不意に空気が、ビリビリと震えた。"
+  },
+  {
+    "index": 1621,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「な、なんだ！？」"
+  },
+  {
+    "index": 1626,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "戸惑う男をよそに、女たちが顔を見合わせる。"
+  },
+  {
+    "index": 1691,
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「また爆発……！？」"
+  },
+  {
+    "index": 1721,
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「火が出てるかも！　行こう副隊長！」"
+  },
+  {
+    "index": 1750,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「えぇ！　隊長はそこで休んでいてください、私たちだけで行ってきます！」"
+  },
+  {
+    "index": 1814,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "『副隊長』と呼ばれた女が、部下と思しき女隊員と駆け出す。"
+  },
+  {
+    "index": 1825,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「……え？　ちょ、ちょっと！」"
+  },
+  {
+    "index": 1830,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男は取り残されるのが怖くなり、わけもわからず彼女たちを追った。"
+  },
+  {
+    "index": 1909,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "彼女たちを追いながら、男は声を上げる。"
+  },
+  {
+    "index": 1920,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「ま、待ってくれ君たち！」"
+  },
+  {
+    "index": 2000,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「隊長！？　休んでいてと申し上げましたのに！」"
+  },
+  {
+    "index": 2029,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「いや、大丈夫そうだよ？　だったら手伝ってもらおうよ！」"
+  },
+  {
+    "index": 2040,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「そ、そうじゃない！　教えてもらいたいだけなんだ！」"
+  },
+  {
+    "index": 2051,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「さっきの音はなんだ！？　何が起きてるんだ！？」"
+  },
+  {
+    "index": 2080,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「え！？」"
+  },
+  {
+    "index": 2109,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「な、なに言ってんの隊長！？　どういう状況かわかってないの！？」"
+  },
+  {
+    "index": 2120,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「あ、あぁ……」"
+  },
+  {
+    "index": 2125,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男が言うと、女たちが一瞬顔を見合わせた。"
+  },
+  {
+    "index": 2154,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「――来ればわかります！　我々について来て下さい！」"
+  },
+  {
+    "index": 2218,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "そう言い捨てて走り出す副隊長を、男は慌てて追う。"
+  },
+  {
+    "index": 2270,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "通路の突き当たりの扉を、副隊長が開けると――"
+  },
+  {
+    "index": 2359,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "壮絶な熱気が押し寄せてきた。"
+  },
+  {
+    "index": 2365,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（なんだ、この熱気は……！？）"
+  },
+  {
+    "index": 2370,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "周囲にかげろうが立ち、目の前の光景を歪めている。"
+  },
+  {
+    "index": 2406,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「くっ……早く消火せねば！」"
+  },
+  {
+    "index": 2450,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「また爆発が起こる前にね！」"
+  },
+  {
+    "index": 2465,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "女たちが扉の奥へと進む。"
+  },
+  {
+    "index": 2470,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "男も続き、その通路を抜けると――"
+  },
+  {
+    "index": 2562,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "そこは炎に包まれていた。"
+  },
+  {
+    "index": 2680,
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "「っ！？」"
+  },
+  {
+    "index": 2685,
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "あまりの光景に男は硬直した。"
+  },
+  {
+    "index": 2690,
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "だが女たちは一時たりとも止まらず、迅速に動く。"
+  },
+  {
+    "index": 2719,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「消火ホースの用意を！」"
+  },
+  {
+    "index": 2748,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「了解っ！」"
+  },
+  {
+    "index": 2838,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「とっ――ちょっと隊長、どいて！」"
+  },
+  {
+    "index": 2906,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「うぉ！？」"
+  },
+  {
+    "index": 2911,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "女隊員が男を押し退け、壁に備え付けられた消火栓からホースを引き出す。"
+  },
+  {
+    "index": 2916,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "副隊長がそれを受け取り、放水ノズルを炎へ向けた。"
+  },
+  {
+    "index": 3032,
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「放水開始！」"
+  },
+  {
+    "index": 3043,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "「了解！　放水行きますッ！！」"
+  },
+  {
+    "index": 3134,
+    "code": "0x45",
+    "developer_comment": "女隊員",
+    "string": "放水が炎とぶつかり、凄まじい水蒸気が上がった。"
+  },
+  {
+    "index": 3140,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（凄ぇ……見る見るうちに、炎が消えていく……！）"
+  },
+  {
+    "index": 3145,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "たちまち沈静化していく炎を、男は呆然と見つめる。"
+  },
+  {
+    "index": 3150,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そのとき、蒸発音に混じって――かすかな音が聞こえた。"
+  },
+  {
+    "index": 3207,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「…、…か……」"
+  },
+  {
+    "index": 3213,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（声……？）"
+  },
+  {
+    "index": 3218,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "一瞬、気のせいかとも思った。"
+  },
+  {
+    "index": 3223,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "だが耳を澄ませば確かに――"
+  },
+  {
+    "index": 3234,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「た……助けて……！」"
+  },
+  {
+    "index": 3338,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "少女のものと思しき声が、前方の部屋から聞こえて来る。"
+  },
+  {
+    "index": 3366,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「あの部屋……誰かいる！？」"
+  },
+  {
+    "index": 3423,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そう思った時には、男の身体は炎の合間を縫って、駆け出していた。"
+  },
+  {
+    "index": 3428,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "その部屋の扉は、爆発の影響か、内側にひしゃげている。"
+  },
+  {
+    "index": 3433,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "壊れた扉の陰から、部屋の中を覗くと――"
+  },
+  {
+    "index": 3493,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "――そこは炎と黒煙の世界だった。"
+  },
+  {
+    "index": 3525,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（どこだ！？　どこから声が……）"
+  },
+  {
+    "index": 3530,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "火の粉を浴びて髪が焦げ、嫌な臭いが漂う。眼には煙が染み、涙があふれてくる。"
+  },
+  {
+    "index": 3535,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "それに耐えて視線を巡らせると――"
+  },
+  {
+    "index": 3568,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「誰か……た……助けて……」"
+  },
+  {
+    "index": 3573,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "――いた！"
+  },
+  {
+    "index": 3687,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "燃え盛る炎の向こう、部屋の奥の机の下に、少女がうずくまっていた。"
+  },
+  {
+    "index": 3698,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「大丈夫か！！」"
+  },
+  {
+    "index": 3703,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男の声に気づき、少女がすがるような眼をこちらへ向ける。"
+  },
+  {
+    "index": 3708,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "だが男と眼が合った瞬間、"
+  },
+  {
+    "index": 3760,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「――っ！？」"
+  },
+  {
+    "index": 3765,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "少女の表情が強張った。"
+  },
+  {
+    "index": 3771,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（な……なぜそんな顔を！？）"
+  },
+  {
+    "index": 3776,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男は戸惑い、足を止める。"
+  },
+  {
+    "index": 3781,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "しかしその時――"
+  },
+  {
+    "index": 3839,
+    "code": "0x85",
+    "developer_comment": "男",
+    "string": "《止まるな！》"
+  },
+  {
+    "index": 3840,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "幻聴"
+  },
+  {
+    "index": 3841,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "《止まるな！》"
+  },
+  {
+    "index": 3856,
+    "code": "0x85",
+    "developer_comment": "男",
+    "string": "《彼女を助けろ！》"
+  },
+  {
+    "index": 3857,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "幻聴"
+  },
+  {
+    "index": 3858,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "《彼女を助けろ！》"
+  },
+  {
+    "index": 3886,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "不意にそんな声が聞こえた。"
+  },
+  {
+    "index": 3897,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "「！？」"
+  },
+  {
+    "index": 3902,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "誰の声かはわからない。男の内側から響いた声のように思えた。"
+  },
+  {
+    "index": 3907,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そしてそれを聞いた時、男は瞬時に理解した。"
+  },
+  {
+    "index": 3912,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "なぜ自分がここにいるのかという事を。"
+  },
+  {
+    "index": 3918,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（そうだ──）"
+  },
+  {
+    "index": 3924,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "（オレは彼女を救うために、ここに来たんだ！）"
+  },
+  {
+    "index": 3929,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "そう悟った瞬間、分断されていた身体と神経が、１つに繋がった気がした。"
+  },
+  {
+    "index": 3934,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "炎が少女へ迫っている。"
+  },
+  {
+    "index": 3939,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "頭の中で、再び声が響く。"
+  },
+  {
+    "index": 3997,
+    "code": "0x85",
+    "developer_comment": "男",
+    "string": "《──行け、彼女を助けろ！！》"
+  },
+  {
+    "index": 3998,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "幻聴"
+  },
+  {
+    "index": 3999,
+    "code": "0x86",
+    "developer_comment": "男",
+    "string": "《──行け、彼女を助けろ！！》"
+  },
+  {
+    "index": 4027,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "その声に弾かれるように――"
+  },
+  {
+    "index": 4032,
+    "code": "0x45",
+    "developer_comment": "男",
+    "string": "男は、燃え盛る炎の中へ飛び込んだ。"
+  }
+]

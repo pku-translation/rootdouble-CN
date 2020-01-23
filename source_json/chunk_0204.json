@@ -1,0 +1,716 @@
+[
+  {
+    "index": 7,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Before Chapter6"
+  },
+  {
+    "index": 19,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（しまった……！）"
+  },
+  {
+    "index": 24,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思う夏彦に、博士がつかつかと歩み寄ってくる。"
+  },
+  {
+    "index": 35,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「昨夜、保安課から連絡を受けたわ。超心研の警備員に、怪我を負わせたんですって？」"
+  },
+  {
+    "index": 46,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんだ……それで戻ってきたのか？」"
+  },
+  {
+    "index": 75,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「当たり前でしょう！　息子がそんな事をしたなんて、予想もしなかったもの！」"
+  },
+  {
+    "index": 104,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「優衣、あなたがついていながら、いったい何をやっているの！」"
+  },
+  {
+    "index": 140,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……ご、ごめんなさい」"
+  },
+  {
+    "index": 169,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ましろちゃんもよ！　あなたも一緒にいたんですって！？」"
+  },
+  {
+    "index": 205,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「す、すみません、でも……」"
+  },
+  {
+    "index": 210,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "会うなり３人を叱り飛ばす博士を、夏彦はにらみ返した。"
+  },
+  {
+    "index": 221,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちょっと待てよ母さん、２人は関係ないだろ！？」"
+  },
+  {
+    "index": 232,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「というかこれはぼくらの問題だ、母さんはそもそも関係ない――」"
+  },
+  {
+    "index": 261,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「関係ない！？　大アリよ！　この忙しい時に、引っ張り出されるなんて……」"
+  },
+  {
+    "index": 266,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そう言って博士は、大きくため息をついた。"
+  },
+  {
+    "index": 295,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……お願いだから、余計な問題を増やさないで。いま仕事が、過去最大に忙しいの」"
+  },
+  {
+    "index": 306,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……！」"
+  },
+  {
+    "index": 311,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はさすがにカチンと来た。"
+  },
+  {
+    "index": 316,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "息子たちが無実の罪で追われているというのに、話を聞こうともしない。"
+  },
+  {
+    "index": 321,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかもこの期に及んで、仕事の事を気にしているとは。"
+  },
+  {
+    "index": 332,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかったよ母さん。迷惑かけて悪かった。すぐラボに戻って仕事したらいいよ」"
+  },
+  {
+    "index": 361,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そんな事、できるわけないでしょう？」"
+  },
+  {
+    "index": 372,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「できるわけない？　やればいいだろ、こんな時にまで仕事仕事って言うくらいなら」"
+  },
+  {
+    "index": 377,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう言いながら、胸の奥にざわざわしたものを感じた。"
+  },
+  {
+    "index": 382,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "これではまるで聞き分けのない子供だと思ったが、それでも言葉が口をついて出る。"
+  },
+  {
+    "index": 393,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくらが追われているのは、無実の罪を着せられたからだ」"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「こっちにも非はあるけど、警備員が嘘の通報をしたんだよ」"
+  },
+  {
+    "index": 433,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「え？」"
+  },
+  {
+    "index": 444,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにぼくらは悪い事をしているわけじゃない。この街にいるテロリストを探しているだけだ」"
+  },
+  {
+    "index": 473,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「テロリスト……？　なんの話をしているの！？」"
+  },
+  {
+    "index": 484,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そういう可能性があるんだよ。だからぼくらなりに、テロを阻止しようと思って――」"
+  },
+  {
+    "index": 513,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「阻止！？　バカなことを言わないで！」"
+  },
+  {
+    "index": 518,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は鋭い声を上げた。"
+  },
+  {
+    "index": 529,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「わけのわからない事を言ってないで、家でおとなしくしていなさい！」"
+  },
+  {
+    "index": 540,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、これはぼくの意思だ！　おとなしくなんてしていられない！」"
+  },
+  {
+    "index": 551,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「何か不満な事でもあるの！？　生活に不自由はさせてないはずでしょう！？」"
+  },
+  {
+    "index": 562,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そりゃ母さんには金銭的に世話になってるけど、ぼくの行動についてまであれこれ言われたくない！」"
+  },
+  {
+    "index": 573,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だいたい家に帰ってもこない親の言う事なんて、ハイハイ聞けるわけないだろ！」"
+  },
+  {
+    "index": 602,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「！」"
+  },
+  {
+    "index": 607,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "その言葉に、博士の表情が凍りついた。"
+  },
+  {
+    "index": 636,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、夏彦やめなよ！」"
+  },
+  {
+    "index": 665,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それは言いすぎ……」"
+  },
+  {
+    "index": 670,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "ましろたちが慌てて口を挟む。"
+  },
+  {
+    "index": 675,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "だが夏彦は、ずっとこんな事を母に言いたかったのだ。"
+  },
+  {
+    "index": 680,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "ずっと押し込めてきた言葉は、もう止まらなかった。"
+  },
+  {
+    "index": 691,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「両親を亡くした悠里を、母さんは引き取ったな？　それはすごく立派だと思うよ」"
+  },
+  {
+    "index": 702,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だけど母さんは、ちゃんと悠里の親代わりになったかい？」"
+  },
+  {
+    "index": 731,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……！」"
+  },
+  {
+    "index": 742,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いまさら昔の事は言いたくないけど、母さんは仕事ばかりで、家の事を顧みなかったじゃないか」"
+  },
+  {
+    "index": 771,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それは……」"
+  },
+  {
+    "index": 782,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「小さい頃のぼくと悠里が、誰も帰ってこないあの家で、どれだけ寂しい思いをしたと思う？」"
+  },
+  {
+    "index": 793,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「心に傷を負った悠里を、ぼくがどんな想いで見続けてきたと思うんだよ！？」"
+  },
+  {
+    "index": 799,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「…………」"
+  },
+  {
+    "index": 810,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「もちろん悠里に、まったく非はないよ」"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「母さんにも女手一つで家計を支えてくれた事には、本当に感謝してる」"
+  },
+  {
+    "index": 832,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だから今まで言わなかったんだ。でも、今回ばかりは――」"
+  },
+  {
+    "index": 946,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その時、ぺちんと夏彦の頬が鳴った。"
+  },
+  {
+    "index": 957,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「！？」"
+  },
+  {
+    "index": 962,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "弱々しい、母の平手打ちが飛んできたのだ。"
+  },
+  {
+    "index": 973,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……初めて殴られたよ。そういうところは、案外親らしい……ッ！？」"
+  },
+  {
+    "index": 978,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこまで言って、夏彦は息を呑んだ。"
+  },
+  {
+    "index": 1016,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦を見る博士の目に、涙が滲んでいたからだ。"
+  },
+  {
+    "index": 1027,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……私は、あなたのためを思って……」"
+  },
+  {
+    "index": 1038,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……あなたのために、頑張ってるのに……！」"
+  },
+  {
+    "index": 1049,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え……！？」"
+  },
+  {
+    "index": 1078,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦、博士を泣かした。ひどい」"
+  },
+  {
+    "index": 1107,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、謝ったほうが……」"
+  },
+  {
+    "index": 1112,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そう言われて心中に、苦い後悔が浮かぶ。"
+  },
+  {
+    "index": 1117,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "だがそれ以上に、夏彦は混乱していた。"
+  },
+  {
+    "index": 1123,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『あなたのためを思って』！？）"
+  },
+  {
+    "index": 1129,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくはそんな事、望んでないぞ！）"
+  },
+  {
+    "index": 1135,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なのに……なんで泣くんだ！？　しかもこのタイミングで！）"
+  },
+  {
+    "index": 1140,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "母の気持ちがわからなかった。"
+  },
+  {
+    "index": 1145,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "天川博士は、続けて呟く。"
+  },
+  {
+    "index": 1174,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦、お願いだから、今はおとなしくしていて……」"
+  },
+  {
+    "index": 1185,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私はすぐ、ラボに戻らなければならないのだけど……後で話は、ゆっくり聞くから」"
+  },
+  {
+    "index": 1196,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「今は……？」"
+  },
+  {
+    "index": 1207,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どういう意味だよ、母さん？　何か言いたいことがあるのか！？」"
+  },
+  {
+    "index": 1236,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……いいえ」"
+  },
+  {
+    "index": 1247,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「今回の一件と、何か関係があるのか！？」"
+  },
+  {
+    "index": 1258,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「何もないわ。いつか話せる時がくればとは思うけど……」"
+  },
+  {
+    "index": 1263,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士がどこか、思わせぶりな事を言う。"
+  },
+  {
+    "index": 1268,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "夏彦は母の心が知りたかった。"
+  },
+  {
+    "index": 1273,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "母に対して、初めて心の底からそう思った。"
+  },
+  {
+    "index": 1279,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（母さん……何を言いたいんだ！？）"
+  },
+  {
+    "index": 1285,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思った瞬間――"
+  },
+  {
+    "index": 1394,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "五感が、不意に遠ざかった。"
+  },
+  {
+    "index": 1399,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "視覚がぼやけ、聴覚が減退する。"
+  },
+  {
+    "index": 1410,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてその代わりに――"
+  },
+  {
+    "index": 1415,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の『脳』に、声が響いた。"
+  },
+  {
+    "index": 1608,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《やはり私は、この子に嫌われている……》"
+  },
+  {
+    "index": 1609,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "美夜子"
+  },
+  {
+    "index": 1610,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《やはり私は、この子に嫌われている……》"
+  },
+  {
+    "index": 1625,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《仕事が全て終わるまで、いっそ会わない方が……》"
+  },
+  {
+    "index": 1626,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "美夜子"
+  },
+  {
+    "index": 1627,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《仕事が全て終わるまで、いっそ会わない方が……》"
+  },
+  {
+    "index": 1661,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「！！」"
+  },
+  {
+    "index": 1666,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は驚愕した。"
+  },
+  {
+    "index": 1671,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それはテレパシーを受信した時によく似た感覚だった。"
+  },
+  {
+    "index": 1676,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが違う。同じく脳に直接響いた声だったが――"
+  },
+  {
+    "index": 1681,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『夏彦が、天川博士の心の声を聞いた』のだ！"
+  },
+  {
+    "index": 1687,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（エンパシー！？）"
+  },
+  {
+    "index": 1849,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう思った瞬間、五感が戻ってきた。"
+  },
+  {
+    "index": 1897,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「――夏彦！」"
+  },
+  {
+    "index": 1902,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろの声が耳元で響き、我に返る。"
+  },
+  {
+    "index": 1913,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「っ！？　ど、どうした！？」"
+  },
+  {
+    "index": 1930,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「誰かこっちにくる！」"
+  },
+  {
+    "index": 1941,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「！」"
+  },
+  {
+    "index": 2043,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "はっとして振り返ると、道の向こう側から、男が２人こちらに走ってくるのが見えた。"
+  },
+  {
+    "index": 2048,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "昨日、ましろの家の前にいた保安課員だった。"
+  },
+  {
+    "index": 2054,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ、もう見つかったのか！？）"
+  },
+  {
+    "index": 2059,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "母の涙の意味も、エンパシーの事も気になった。しかし――"
+  },
+  {
+    "index": 2103,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――逃げよう！」"
+  },
+  {
+    "index": 2108,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はとっさに、そう声を上げていた。"
+  },
+  {
+    "index": 2180,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "一瞬の逡巡の後、ましろとサリュがうなずく。"
+  },
+  {
+    "index": 2209,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ごめんなさい、博士！　私たち行きます！」"
+  },
+  {
+    "index": 2238,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士、夏彦は私が護る！　心配は無用！」"
+  },
+  {
+    "index": 2292,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "そう言って３人は駆け出した。"
+  },
+  {
+    "index": 2297,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "俯いたままの、天川博士をそこに残して……。"
+  }
+]

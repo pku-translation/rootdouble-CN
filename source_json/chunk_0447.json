@@ -1,0 +1,980 @@
+[
+  {
+    "index": 64,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦たちと触れ合う事で、コミュニケーターへの親愛の情を取り戻した恵那は――"
+  },
+  {
+    "index": 69,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "管理官としての本業に、力を入れる事にした。"
+  },
+  {
+    "index": 74,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "担任している生徒はもちろん、初等部から高等部までの全校生徒のデータを分析する。"
+  },
+  {
+    "index": 79,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "過去のデータも洗い、Ｎ化等の兆候のある生徒がいないか探ったのだ。"
+  },
+  {
+    "index": 141,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそうしていくうち、恵那はある事実に気付いた。"
+  },
+  {
+    "index": 147,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（９年前、この学園の女生徒が、１人死亡している……？）"
+  },
+  {
+    "index": 153,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（それも、ラボで発生した火災に遭遇して……？）"
+  },
+  {
+    "index": 158,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "女生徒の名前は、『琴乃悠里』と言った。"
+  },
+  {
+    "index": 163,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それがなぜか恵那の心に留まった。"
+  },
+  {
+    "index": 168,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "完璧な防災システム・警備システムに護られているはずのラボで、なぜ火災などが起きたのか？"
+  },
+  {
+    "index": 174,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……少し、調べてみましょう）"
+  },
+  {
+    "index": 219,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那はこの事について、独自に調査を開始した。"
+  },
+  {
+    "index": 288,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "土日を潰して、９年前の火災について調べる。"
+  },
+  {
+    "index": 293,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "資料を探り、あちこちで聞き込みをしていくうち、妙な点が次々と浮かび上がってきた。"
+  },
+  {
+    "index": 299,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……琴乃悠里の死の際、天川くんも一緒にいたですって？）"
+  },
+  {
+    "index": 305,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（しかもその直後、天川くんの適性度が上昇している……）"
+  },
+  {
+    "index": 310,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "さらにその時期を境に、ラボの業績は上がっている。"
+  },
+  {
+    "index": 315,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "この日本に存在するＢＣ研究施設の中で、トップの成果を上げているのだ。"
+  },
+  {
+    "index": 320,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ＢＣ抑制剤『ＡＤ』の開発。"
+  },
+  {
+    "index": 325,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ＢＣ粒子エネルギー測定器『プロキオン』の開発。"
+  },
+  {
+    "index": 330,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "対ＢＣスーツの開発。"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ＢＣ絶縁体の改良。"
+  },
+  {
+    "index": 340,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ＷＸ粒子増幅器の出力増強。"
+  },
+  {
+    "index": 345,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "情報力場仮説の検証と理論化。"
+  },
+  {
+    "index": 350,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "他にもまだまだある。"
+  },
+  {
+    "index": 355,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――なぜラボは、こんなにも様々な成果を挙げる事ができるのか？"
+  },
+  {
+    "index": 360,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それらの事実に繋がりは見えないが、どことなく偶然だとは思えなかった。"
+  },
+  {
+    "index": 366,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（ラボがこんなにも業績を上げた時期は、以前にも一度ある……）"
+  },
+  {
+    "index": 372,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（ラボが設立された２０１６年から、その後の１年間）"
+  },
+  {
+    "index": 378,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（コミュニケーターＡが存命中で、ラボ内に被験体として幽閉されていた時期……）"
+  },
+  {
+    "index": 383,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "あの時期にＡＤのプロトタイプが作られ、ＷＸ粒子増幅器の出力も大幅強化された。"
+  },
+  {
+    "index": 388,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが２０１７年にコミュニケーターＡがラボ内で病死してから、２０２０年までは目立った成果は挙げていない。"
+  },
+  {
+    "index": 394,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（なのに２０２１年を境に、また業績が上昇――それが今日まで続いている）"
+  },
+  {
+    "index": 400,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（『偶然』の一言で、片付けてもいいけど……）"
+  },
+  {
+    "index": 405,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが、もう一つ気になる事があった。"
+  },
+  {
+    "index": 410,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ラボはＡの死後、１３年間に渡り、『ただの１人も』被験体を幽閉していないのだ。"
+  },
+  {
+    "index": 415,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それ自体は喜ばしい事かも知れないが、むしろ不自然な気がする。"
+  },
+  {
+    "index": 420,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "センシズシンパシーを発現したコミュニケーターは、各地のラボに幽閉される。"
+  },
+  {
+    "index": 425,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そして各ラボの運営者は、幽閉した事実を超科局に報告する。それがこの国の裏の法律だ。"
+  },
+  {
+    "index": 430,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが３５０名のコミュニケーターを擁するこの鹿鳴市で――"
+  },
+  {
+    "index": 435,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "センシズシンパシーを発現するコミュニケーターが１人も現れないなんて、おかしくはないだろうか？"
+  },
+  {
+    "index": 441,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（本当に能力レベル６のコミュニケーターは、現れてないのかしら……）"
+  },
+  {
+    "index": 447,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……いや、実は現れていて、ラボはすでにそのコミュニケーターを幽閉していたとしたら？）"
+  },
+  {
+    "index": 453,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（そして私たち超科局への報告義務を、ラボが怠っていたとしたら……？）"
+  },
+  {
+    "index": 458,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "報告義務を怠る理由。それは１つしかない。"
+  },
+  {
+    "index": 464,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（私たちに知られたら、まずい事をやっているから……）"
+  },
+  {
+    "index": 469,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そう思った瞬間、恵那の肌が粟立った。"
+  },
+  {
+    "index": 474,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――人体実験。そんな単語が頭に浮かぶ。"
+  },
+  {
+    "index": 480,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（まさか、そんな事って……？）"
+  },
+  {
+    "index": 485,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "しかし恵那は以前、管理官として全国を飛び回っていた時期に、似た事件に遭遇した。"
+  },
+  {
+    "index": 490,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "コミュニケーターを拉致監禁して、違法な実験を行っていた研究者を逮捕したのだ。"
+  },
+  {
+    "index": 496,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（政令指定機密都市で、同様の事件が！？）"
+  },
+  {
+    "index": 501,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それは何の確証もない、ただの推察に過ぎない。"
+  },
+  {
+    "index": 506,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが、その疑心を抱いた瞬間――"
+  },
+  {
+    "index": 511,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の目は、教師のそれから、管理官の目に変わっていた。"
+  },
+  {
+    "index": 555,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――それからも恵那は、さらなる調査を進めた。"
+  },
+  {
+    "index": 560,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そして３ヶ月目に、その調査結果を携え、超科局の本部に向かった。"
+  },
+  {
+    "index": 641,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……ラボが不当に、コミュニケーターを拉致・幽閉している可能性があると？」"
+  },
+  {
+    "index": 649,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はい」"
+  },
+  {
+    "index": 654,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "訝しげな声を上げる黒田に、恵那ははっきりと答えた。"
+  },
+  {
+    "index": 662,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「まず９年前にラボで発生した火災の被害者、『琴乃悠里』についてですが――」"
+  },
+  {
+    "index": 670,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「彼女の葬儀を行った業者を締め上げたところ、実に興味深い事がわかりました」"
+  },
+  {
+    "index": 678,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「興味深いこととは？」"
+  },
+  {
+    "index": 686,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「琴乃悠里の葬儀は、全くの茶番だったのです」"
+  },
+  {
+    "index": 694,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「棺に納められた彼女は、死んでいませんでした」"
+  },
+  {
+    "index": 702,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「睡眠薬を投与され、死化粧を施され、遺体に見せかけられた、琴乃悠里本人だったのですよ」"
+  },
+  {
+    "index": 710,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「なんだと！？」"
+  },
+  {
+    "index": 718,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そして遺体を炉に入れる直前に、サルの死骸と入れ替え、焼却」"
+  },
+  {
+    "index": 726,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「遺族はそれを琴乃悠里の遺骨だと信じ、納骨したのです」"
+  },
+  {
+    "index": 734,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「これで彼女は、世間的には死んだ事になりました」"
+  },
+  {
+    "index": 742,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「バカな……手際が良すぎないか？　琴乃悠里の死は、突発的な事故死だったんだろう？」"
+  },
+  {
+    "index": 750,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どうもその葬儀業者は、こうした機会に備え、あらかじめ準備をしていたようです。何者かに依頼されて」"
+  },
+  {
+    "index": 758,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「依頼者については口を割りませんでしたが……恐らく鹿鳴市、あるいはラボの人間でしょう」"
+  },
+  {
+    "index": 766,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「じゃあ連中は、琴乃悠里を死んだと見せかけて、そのままラボに幽閉したっていうのか？」"
+  },
+  {
+    "index": 774,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「その可能性が、極めて高いかと」"
+  },
+  {
+    "index": 784,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の報告を聞き終えた黒田は、大きく息をついた。"
+  },
+  {
+    "index": 792,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「椿山……お前、１人でここまで調べたのか」"
+  },
+  {
+    "index": 800,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「教師生活の片手間ですが」"
+  },
+  {
+    "index": 808,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「参ったな……親父さんとはタイプが違うが、お前はお前で相当有能らしいな」"
+  },
+  {
+    "index": 813,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "苦笑する黒田に、恵那は言葉を重ねた。"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……それより黒田室長、この件についてはどう処理しますか？」"
+  },
+  {
+    "index": 829,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「我々の責務は、あくまでコミュニケーターの保護……人体実験などが行われているのであれば、それは摘発せねばなりません」"
+  },
+  {
+    "index": 837,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……あぁ、もちろんだ」"
+  },
+  {
+    "index": 845,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ではただちに、ラボへの立入検査を」"
+  },
+  {
+    "index": 853,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「超科局の権限があれば、むろんその程度の事は――」"
+  },
+  {
+    "index": 861,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「できないんだよ、椿山」"
+  },
+  {
+    "index": 866,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "黒田の言葉に、恵那は目を丸くした。"
+  },
+  {
+    "index": 879,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「ラボや鹿鳴市がキナ臭いことをやっている事は、俺も比嘉もすでに掴んでいた」"
+  },
+  {
+    "index": 887,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「だが強制捜査を上に進言しても、許可が下りないのさ」"
+  },
+  {
+    "index": 895,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なぜ！？　我々は政府機関でしょう！？」"
+  },
+  {
+    "index": 903,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なぜ地方自治体の運営する施設ごときの捜査ができないんですか！？」"
+  },
+  {
+    "index": 911,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「本来ならできて当然だ。我々は各政令指定機密都市と、研究機関を監査する立場だからな」"
+  },
+  {
+    "index": 919,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「だが、どういうわけか鹿鳴市のラボにだけは、捜査の許可が下りない」"
+  },
+  {
+    "index": 927,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「理由は『証拠不十分』、そして『ラボの機密を保持するため』だそうだ」"
+  },
+  {
+    "index": 935,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「バカな……ただ検査するだけですよ？　後ろめたい事がなければ、何も問題はないはず……」"
+  },
+  {
+    "index": 943,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「あぁ。だから恐らく……我が超科局の上層部も、ラボ側に転んでいるんだろうな」"
+  },
+  {
+    "index": 951,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「理由は金か、あるいは弱みでも握られているか」"
+  },
+  {
+    "index": 959,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……っ！」"
+  },
+  {
+    "index": 964,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "絶句する恵那に、黒田は続けて言う。"
+  },
+  {
+    "index": 972,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……ラボは独立行政法人でな。厳密には我々政府機関の統治下にあるわけじゃない」"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「設立当初はむろん国の指導を受け、国策に従って造られたんだが、徐々に我々のコントロールを離れた」"
+  },
+  {
+    "index": 988,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「現在ラボの運営は鹿鳴市によって行われているが、その研究成果はベテルギウス新薬という企業に売り渡されている」"
+  },
+  {
+    "index": 996,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「要するにラボは、行政法人の皮をかぶった営利団体だよ」"
+  },
+  {
+    "index": 1004,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「しかも市によって護られているため、様々なムチャが効く、極めてタチの悪い秘密研究所さ」"
+  },
+  {
+    "index": 1012,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「では……父がコミュニケーターを護る為に、設立を望んだ施設は……」"
+  },
+  {
+    "index": 1021,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「今は営利のために人体実験を行う、禍々しい研究所に成り果てたと……？」"
+  },
+  {
+    "index": 1029,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「状況証拠だけだが、恐らくな」"
+  },
+  {
+    "index": 1034,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "恵那はその言葉に、奥歯を噛んだ。"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "――父が生きていた頃、父と共に過ごしたＢＣの研究者たちは、みな誠意をもってコミュニケーターに接していたはずだ。"
+  },
+  {
+    "index": 1044,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "あれから１６年の間に、研究者たちの倫理は崩壊したのだろうか。"
+  },
+  {
+    "index": 1049,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "施設の性質上、その気になればラボ内では、誰にも知られず非人道的な研究ができる。"
+  },
+  {
+    "index": 1054,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "それを実行してしまうほど、彼らは腐ってしまったのか……！"
+  },
+  {
+    "index": 1062,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……そして上の連中が、強制捜査に及び腰なのは、もう１つ理由がある」"
+  },
+  {
+    "index": 1070,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  {
+    "index": 1078,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「国益だ。ラボの内部で何が行われていたとしても、ラボは確かな成果を上げている」"
+  },
+  {
+    "index": 1086,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「ＢＣ絶縁体やＡＤの開発によって、得られた外貨がいくらか知ってるか？　ざっと８０００億円だ」"
+  },
+  {
+    "index": 1094,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「１人や２人コミュニケーターが拉致されても、それを補ってあまりあるほど日本は潤う」"
+  },
+  {
+    "index": 1102,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「仮に幽閉されたコミュニケーターがＮ化したとしてもだ、最初から閉じ込めているから大丈夫。公共の治安は揺るがない」"
+  },
+  {
+    "index": 1110,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「誰も悲しむ奴ぁいない。みんなハッピー、メデタシメデタシで――」"
+  },
+  {
+    "index": 1123,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ふざけないで下さい！」"
+  },
+  {
+    "index": 1128,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の怒声が、黒田の嘲笑を遮った。"
+  },
+  {
+    "index": 1136,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「拉致されたコミュニケーターはどうなるのですか……！？」"
+  },
+  {
+    "index": 1144,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かにＮ化の危険性があるコミュニケーターは、幽閉するべきです。１６年前の悲劇を繰り返すわけにはいかないから」"
+  },
+  {
+    "index": 1152,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だけど琴乃悠里は、適性度Ｃだったんですよ！？　幽閉の憂き目に遭う必要はどこにもなかった！」"
+  },
+  {
+    "index": 1160,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そんな事を放置していたら、私の生徒たちだって、いつラボに拉致されるかわからないんです！」"
+  },
+  {
+    "index": 1168,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だから……私は誰がなんと言おうと、ラボの悪事を見過ごせません！」"
+  },
+  {
+    "index": 1178,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "一息に叫んだ恵那を、黒田はじっと見つめた。"
+  },
+  {
+    "index": 1186,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……すっかり『先生』になっちまったな、椿山管理官？」"
+  },
+  {
+    "index": 1194,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？　あっ……」"
+  },
+  {
+    "index": 1202,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「じゃあお前は、国の方針よりも、幽閉されたコミュニケーター個人の尊厳を優先するというわけだな」"
+  },
+  {
+    "index": 1210,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……はい。いけませんか？」"
+  },
+  {
+    "index": 1223,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「黒田室長はどうなんですか。比嘉管理官は？　心が痛まないのですか？」"
+  },
+  {
+    "index": 1231,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私たちの仕事は、コミュニケーターを護る事でしょう？」"
+  },
+  {
+    "index": 1236,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の言葉に、黒田は答えた。"
+  },
+  {
+    "index": 1244,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……その通りだ」"
+  },
+  {
+    "index": 1249,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "そしてそれまで黙っていた比嘉も、うなずいて言う。"
+  },
+  {
+    "index": 1262,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「椿山。お前が正しい」"
+  },
+  {
+    "index": 1270,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え……」"
+  },
+  {
+    "index": 1278,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「私はお前の父上を知らないが、彼の日記は何度も読んだ」"
+  },
+  {
+    "index": 1286,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「あの日記に書かれていたコミュニケーターＡは、紛れもなく『護るべき対象』だったよ。どれほど危険な存在だとしてもな」"
+  },
+  {
+    "index": 1292,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……」"
+  },
+  {
+    "index": 1300,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「私は公安から出向して来た身だ。立場上、国の方針が絶対だし、公共の安全を何よりも優先すべきだと思っている」"
+  },
+  {
+    "index": 1308,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「だが公共の安全に悪影響がないならば、個人の尊厳も極力護らねばならん」"
+  },
+  {
+    "index": 1316,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「この国には２種類の人間が住んでいる。真実を知らない大多数の者たちと、我々真実を知る者」"
+  },
+  {
+    "index": 1324,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「真実を知らぬものは、そのまま何も知らず、正義も悪も意識せず、安寧の中に暮らせばいい」"
+  },
+  {
+    "index": 1332,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「だが我々は違う。真実を知る者の中で、正義を実行できるのは、我々だけだ」"
+  },
+  {
+    "index": 1340,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「我々が正義を忘れたら、倫理は崩壊する。そうだろう椿山」"
+  },
+  {
+    "index": 1353,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「は……はい！」"
+  },
+  {
+    "index": 1358,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の返事に、黒田がにやりと笑った。"
+  },
+  {
+    "index": 1366,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「ふっ、決まりだな……許可などもういらん。強制捜査に踏み切ろう」"
+  },
+  {
+    "index": 1374,
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「人員は？」"
+  },
+  {
+    "index": 1382,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「どこに鹿鳴市の息がかかってる奴がいるかわからんからな。この３人で行こう」"
+  },
+  {
+    "index": 1390,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「危険な仕事だし、もちろんお嬢さんは同行しなくてもいいが……？」"
+  },
+  {
+    "index": 1398,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いえ。私も行きます」"
+  },
+  {
+    "index": 1403,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那は即座にそう答えた。"
+  },
+  {
+    "index": 1408,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "父だってそれを望むはずだと思いながら……。"
+  },
+  {
+    "index": 1465,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――数日後、強制捜査の日付が決まった。"
+  },
+  {
+    "index": 1470,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "９月１６日、早朝。"
+  },
+  {
+    "index": 1475,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那たちにとって因縁の日、父の命日だった。"
+  },
+  {
+    "index": 1481,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "所持品は、偽造した捜査令状と、そして恵那のみ――護身用の拳銃も。"
+  },
+  {
+    "index": 1489,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「ラボは伏魔殿だ。何が起きるかわからん」"
+  },
+  {
+    "index": 1497,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「いよいよになったら、これを使う事を覚悟しておけ」"
+  },
+  {
+    "index": 1502,
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "黒田のその言葉が、恵那の心に鋼を入れた。"
+  }
+]

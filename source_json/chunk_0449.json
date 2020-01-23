@@ -1,0 +1,584 @@
+[
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それは恵那が、鹿鳴学園に赴任してから、しばらく経った頃――"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "天川美夜子博士と、密会した時の記憶だった。"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「――初めまして。天川美夜子です」"
+  },
+  {
+    "index": 145,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「初めまして。超科局コミュニケーター管理官、椿山恵那と申します」"
+  },
+  {
+    "index": 150,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "初対面の２人は、挨拶を交わす。"
+  },
+  {
+    "index": 155,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那は今日、夏彦への対処の仕方について話し合おうと思い、博士を学校に呼び出したのだ。"
+  },
+  {
+    "index": 160,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "このＢＣルームには監視カメラがない。ＢＣ絶縁体で囲まれているため、見知らぬ誰かにエンパシーで心を読まれることもない。"
+  },
+  {
+    "index": 165,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "壁も分厚く、声も外に漏れないため、密談には最適の場所だった。"
+  },
+  {
+    "index": 173,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ご多忙でしょうから、さっそく本題に入ります」"
+  },
+  {
+    "index": 181,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「今年から鹿鳴学園内でのコミュニケーター管理任務は、私が担当することになりました」"
+  },
+  {
+    "index": 189,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「無論それに伴い、ご子息の監視任務も」"
+  },
+  {
+    "index": 200,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「はい、よろしくお願いします」"
+  },
+  {
+    "index": 208,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ではご子息の監視体制についてなのですが、今後も超科局基準に照らし合わせ――」"
+  },
+  {
+    "index": 216,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「『エンパシーを発現した時点で、ラボへの幽閉処置を検討する』という事でよろしいでしょうか？」"
+  },
+  {
+    "index": 221,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "それは適性度Ｓのコミュニケーターにのみ与えられる、特別な処置だった。"
+  },
+  {
+    "index": 226,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "天川博士も納得済みらしく、素直にうなずく。"
+  },
+  {
+    "index": 237,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「問題ありません。センシズシンパシーを発現してしまってからでは、遅いので」"
+  },
+  {
+    "index": 245,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「では教育ガイドラインに従い、エンパシー発現を目指した指導を行います」"
+  },
+  {
+    "index": 253,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「卒業までにエンパシーを発現した場合、幽閉処置」"
+  },
+  {
+    "index": 261,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「卒業まで発現しなかった場合は、超科局による監視を続行するという事で」"
+  },
+  {
+    "index": 272,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「はい、それでお願いします」"
+  },
+  {
+    "index": 277,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "――天川博士は、恵那の言葉に、淡々と答えるばかりだった。"
+  },
+  {
+    "index": 282,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "息子の人生を左右する、重要な相談をしているというのに。"
+  },
+  {
+    "index": 288,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……こういうものなのかしら、適性度Ｓコミュニケーターの親というものは）"
+  },
+  {
+    "index": 293,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "天川博士はラボの幹部だ。適性度Ｓコミュニケーターの危険性についても、当然熟知しているだろう。"
+  },
+  {
+    "index": 298,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "彼女は自分の息子が、いつか突然怪物化するかも知れないという事実を知っているのだ。"
+  },
+  {
+    "index": 303,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そんな母親が、息子に対しどういう感情を抱くのか、恵那には予想もできなかった。"
+  },
+  {
+    "index": 309,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（少しそのあたりを、聞き出してみようかしら）"
+  },
+  {
+    "index": 314,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那はそう思い、そっと切り出してみる。"
+  },
+  {
+    "index": 342,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……それにしても大変ですね、ご子息が監視対象となると」"
+  },
+  {
+    "index": 353,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「いえ、もう慣れました」"
+  },
+  {
+    "index": 361,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「しかし、もしご子息がエンパシーを発現してしまった場合――あなたの職場に、幽閉されるのでしょう？」"
+  },
+  {
+    "index": 369,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんというか……あなたはそれで、平気なのですか？」"
+  },
+  {
+    "index": 380,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「平気も何も、それが決まりですから」"
+  },
+  {
+    "index": 385,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "彼女はやはり、表情１つ変えずに答える。"
+  },
+  {
+    "index": 390,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "恵那は目の前の女に、氷のような冷たさを感じ始めていた。"
+  },
+  {
+    "index": 396,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（我々超科局としては、彼女の物分りがいいのは助かるけど……何かちょっと、普通じゃない気がするわ）"
+  },
+  {
+    "index": 402,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（普通、自分の子が幽閉されるなんて、とても認められないんじゃないかしら）"
+  },
+  {
+    "index": 407,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那がそう思っていると、天川博士はため息をついた。"
+  },
+  {
+    "index": 436,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……『冷たい母親だ』とお思いでしょうね」"
+  },
+  {
+    "index": 444,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「っ！　いえ、そんな事は――」"
+  },
+  {
+    "index": 455,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「隠さずとも結構です。前任の方も、同様の反応をしていました」"
+  },
+  {
+    "index": 461,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……」"
+  },
+  {
+    "index": 490,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「まぁ無理もありませんよ。確かに実の息子について、監視や幽閉の算段を語る母親など、普通ではありませんから」"
+  },
+  {
+    "index": 519,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「しかし――あなたも超科局の方なら、ご存知でしょう。１６年前の悲劇が起こった経緯を」"
+  },
+  {
+    "index": 527,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え、ええ……」"
+  },
+  {
+    "index": 556,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私は息子が、アリスのようになる事を望みません。たとえ幽閉の憂き目に遭おうと、Ｎ化するよりはずっとマシです」"
+  },
+  {
+    "index": 567,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それこそ母が子に対して抱く、当然の心理ではないでしょうか」"
+  },
+  {
+    "index": 572,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "その言葉を聞いて、恵那は思い出した。"
+  },
+  {
+    "index": 578,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（そう言えばお父さんの日記にも、書いてあったわ……）"
+  },
+  {
+    "index": 583,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "天川博士はかつて、超心研の研究員だった。"
+  },
+  {
+    "index": 588,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "アリスが周囲の人々に愛され、しかし結局はＮ化し、鹿鳴市同時多発火災を引き起こした過程を、間近で見ていたのだ。"
+  },
+  {
+    "index": 593,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "ならば実の息子であろうと私情を挟まず、適性度Ｓのコミュニケーターは、厳しく監視すべきという考えに至ったのかもしれない。"
+  },
+  {
+    "index": 598,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "しかし理解はできても、共感はできなかった。だから思わず言ってしまったのだ。"
+  },
+  {
+    "index": 606,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「――博士、それではもう一つだけお尋ねします」"
+  },
+  {
+    "index": 614,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あなたはご子息の幸福を、心から祈っていますか？」"
+  },
+  {
+    "index": 643,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「はい。それだけは間違いなく」"
+  },
+  {
+    "index": 648,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "彼女はその問いに、即座に答えた。"
+  },
+  {
+    "index": 653,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そして目を伏せて続ける。"
+  },
+  {
+    "index": 682,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……私は立場上、普通の母親と同じように、息子を愛する事ができません」"
+  },
+  {
+    "index": 693,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「母としての想いの一片も、夏彦に伝えられません」"
+  },
+  {
+    "index": 704,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その結果、息子とは心がすれ違い、年々疎遠になっていく……正直辛いですが、それも甘んじて受け入れます」"
+  },
+  {
+    "index": 715,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私は己の職務を隠し、世間を偽り、我が子すらも欺いて、ＢＣの研究を続けているのですから」"
+  },
+  {
+    "index": 726,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦が知ったら、決して許してはくれないような嘘も、たくさんついてきました」"
+  },
+  {
+    "index": 755,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「しかし虚飾に満ちた私の人生の中に、たった１つだけ真実があるとしたら――」"
+  },
+  {
+    "index": 766,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「我が子の幸せを祈る、この気持ちです」"
+  },
+  {
+    "index": 774,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「っ……どうして、そこまで……」"
+  },
+  {
+    "index": 785,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「理由などありませんよ。私があの子の母親だからです」"
+  },
+  {
+    "index": 814,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦が生まれるまで、私はこの世の事象の全てを、ロジックで解析できると思っていました」"
+  },
+  {
+    "index": 825,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「人の感情も分析対象に過ぎないと考えていた、馬鹿な小娘でした」"
+  },
+  {
+    "index": 836,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「しかし、あの子の産声を聞いた時――そんな賢しい考えは、一瞬で消えてなくなったのです」"
+  },
+  {
+    "index": 865,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「この世には理屈では決して説明できない、無条件の愛情が存在するのですね？」"
+  },
+  {
+    "index": 876,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あの子がいてくれるだけで、私の心は幸福に満たされました」"
+  },
+  {
+    "index": 887,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それからは些細な日常の記憶でさえ、かけがえのない想い出になりました」"
+  },
+  {
+    "index": 898,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あの子が初めて私を『お母さん』と呼んでくれた時の事。手をつないで、一緒に公園に遊びに行った事」"
+  },
+  {
+    "index": 909,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「自転車を買ってあげた日の事。私の下手な料理を、あの子が美味しいと言ってくれた事……」"
+  },
+  {
+    "index": 920,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「全て昨日の事のように、鮮やかに思い出せます」"
+  },
+  {
+    "index": 949,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……そしてそれから数年が経ち、夫を病で亡くした時……あの子は私に、慰めの言葉をかけてくれました」"
+  },
+  {
+    "index": 960,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「自分だって父親を失い、悲しんでいるはずなのに」"
+  },
+  {
+    "index": 989,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私はあの時、誓ったのです。これからどんな事があろうと、夏彦を護り続けようと」"
+  },
+  {
+    "index": 1000,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「たとえ世を欺こうと、どんな罪を重ねようと、あの子だけは護りたいと」"
+  },
+  {
+    "index": 1006,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「…………」"
+  },
+  {
+    "index": 1035,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……椿山管理官。私が彼の監視を認める理由を、ご理解頂けましたか？」"
+  },
+  {
+    "index": 1046,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「Ｎ化するという事は、精神的に死亡する事と同義です。私は息子を怪物にはしたくない」"
+  },
+  {
+    "index": 1057,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「たとえ見えない檻に囲まれていようと……夏彦が夏彦のままでいてくれれば、私はそれでいいのです」"
+  },
+  {
+    "index": 1082,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士の長い独白を聞いて、恵那は静かにうなずいた。"
+  },
+  {
+    "index": 1090,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……申し訳ありません、博士。失礼な質問をして」"
+  },
+  {
+    "index": 1119,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「いいのですよ。むしろそういう質問をする方こそ、人間的に信頼できますので」"
+  },
+  {
+    "index": 1124,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そう言って博士は、かすかに微笑んだ。"
+  },
+  {
+    "index": 1231,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "――それから約２ヶ月後。"
+  },
+  {
+    "index": 1236,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "恵那はラボが、密かに人体実験を行っているのではないかという疑惑を抱いた。"
+  },
+  {
+    "index": 1241,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "その時、真っ先に天川博士を問いただそうと思ったが……"
+  },
+  {
+    "index": 1246,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "皮肉なことにその直後、博士の言葉を思い出した。"
+  },
+  {
+    "index": 1251,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "『どんな罪を重ねようと、あの子だけは護りたい』"
+  },
+  {
+    "index": 1256,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "――その真意が、息子のために、周囲の全てを犠牲にするという意味だとしたら――"
+  },
+  {
+    "index": 1261,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そう思うと恵那は、天川博士に問いただす事ができなくなった。"
+  },
+  {
+    "index": 1266,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "彼女の限りない愛情を、知ってしまったが故に……。"
+  }
+]

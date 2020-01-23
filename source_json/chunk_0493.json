@@ -1,0 +1,980 @@
+[
+  {
+    "index": 136,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦が、鹿鳴学園高等部に進学したばかりの頃。"
+  },
+  {
+    "index": 141,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "天川家に通っていた家政婦が辞職し、日々の食事に困っていた夏彦の元に、ましろが通ってくる事になった。"
+  },
+  {
+    "index": 146,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これはその時期に起きた、ほんの小さな騒動の記憶……。"
+  },
+  {
+    "index": 181,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――新しいクラスにも慣れてきた、ある日の放課後。"
+  },
+  {
+    "index": 186,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "授業が終わるなり、ましろが夏彦に声をかけてきた。"
+  },
+  {
+    "index": 215,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よーし、授業終わり！　そんじゃ夏彦、行くよ！」"
+  },
+  {
+    "index": 226,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、行くってどこに？」"
+  },
+  {
+    "index": 255,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なーに言ってんの、今日からご飯作りに行く約束でしょ？」"
+  },
+  {
+    "index": 284,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「買い物もしなきゃなんないしさ、準備に時間かかるかもしれないから、早く行くよ！」"
+  },
+  {
+    "index": 303,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言って、さっさと歩き出してしまった。"
+  },
+  {
+    "index": 308,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろが教室を出たところで、周りのクラスメートたちがざわめき出す。"
+  },
+  {
+    "index": 326,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "「……え？　ちょっと待て天川、なんだ今のは！？　『今日からご飯作りに行く』って……」"
+  },
+  {
+    "index": 334,
+    "code": "0x45",
+    "developer_comment": "男子生徒２",
+    "string": "「まさか天川と鳥羽さんって、つきあってんのか！？」"
+  },
+  {
+    "index": 345,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いやいや、そんなんじゃないよ」"
+  },
+  {
+    "index": 356,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくん家、母さんが超忙しいんだよ。去年までは家政婦さんが食事を作ってくれてたんだけど、辞めちゃったから……」"
+  },
+  {
+    "index": 367,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それでましろが代わりに、食事を作りに来てくれる事になったんだ。ただそれだけだよ」"
+  },
+  {
+    "index": 375,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "「なにー！？　何が『ただそれだけだよ』だ！」"
+  },
+  {
+    "index": 383,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "「鳥羽の手料理を食えるんだろ！？　もっと感動しろよ、この幸せ者が！」"
+  },
+  {
+    "index": 394,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、なんだ幸せ者って？」"
+  },
+  {
+    "index": 402,
+    "code": "0x45",
+    "developer_comment": "男子生徒２",
+    "string": "「お前知らないのか！？　鳥羽さんって結構ファン多いんだぞ！？」"
+  },
+  {
+    "index": 410,
+    "code": "0x45",
+    "developer_comment": "男子生徒３",
+    "string": "「しかも難攻不落なんだよな。去年Ｂ組の紅崎がフラれてたし、２年の神谷さんとか野球部の田中も」"
+  },
+  {
+    "index": 421,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、まぁ、それは知ってるけど……でもホント違うんだって。あいつとはただの幼馴染だし」"
+  },
+  {
+    "index": 432,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それに今回の件については、母さんから謝礼も出てるんだ。ましろにとっちゃ、単なるアルバイトみたいなもんだよ」"
+  },
+  {
+    "index": 447,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "すると近くで聞き耳を立てていた女子が、口を挟んできた。"
+  },
+  {
+    "index": 455,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「そーかなー？　いくら幼馴染でも、ふつーアルバイト気分で男子の家に、ご飯作りに行ったりしないと思うけど？」"
+  },
+  {
+    "index": 466,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、そういうもん？」"
+  },
+  {
+    "index": 474,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「そういうもんだよ。だって女の子にとってはさ、男子にお料理作ったげるって、特別な事なんだよ？」"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「『美味しくない』とか言われたらどうしようとか、どうしても不安になるしさ。けっこー勇気いる事なんだよね」"
+  },
+  {
+    "index": 490,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「でもましろはこれから、それを毎日やるんでしょ？　しかも天川くんと２人っきりで」"
+  },
+  {
+    "index": 498,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「やっぱそれって天川くんに、それなりの感情があるからなんじゃないかな～？」"
+  },
+  {
+    "index": 509,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「っ……」"
+  },
+  {
+    "index": 514,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その言葉に夏彦は黙り込んだ。"
+  },
+  {
+    "index": 519,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『２人きり』というのは間違いだったが、それを言うとさらに話がややこしくなるので、あえて言葉を飲み込む。"
+  },
+  {
+    "index": 524,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ちょうどその時、先ほど教室を出て行ったましろが、戻ってきて声を上げた。"
+  },
+  {
+    "index": 566,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ちょっと夏彦、何してんの？　行こうって言ってんじゃん！」"
+  },
+  {
+    "index": 609,
+    "code": "0x45",
+    "developer_comment": "女子生徒１",
+    "string": "「ほらほら、はりきってるよ。早く行ってあげなきゃ」"
+  },
+  {
+    "index": 620,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、ああ」"
+  },
+  {
+    "index": 671,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は慌てて立ち上がり、ましろと共に教室を出て行った。"
+  },
+  {
+    "index": 679,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "「くっ……それにしても羨ましい……！」"
+  },
+  {
+    "index": 684,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "という怨嗟の声を、背に聞きながら。"
+  },
+  {
+    "index": 746,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "――それから夏彦たちは、まず街で食材を買い込んだ。"
+  },
+  {
+    "index": 751,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "それから連れ立って、家に向かう。"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "男子生徒１",
+    "string": "家に着くとましろは、腕まくりして言う。"
+  },
+  {
+    "index": 850,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よーし！　じゃあ今日はましろさんが、腕によりをかけてお料理しますよ～！」"
+  },
+  {
+    "index": 879,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今日は記念すべき第１回って事で、夏彦の好きなクリームシチューとサラダを作ります！」"
+  },
+  {
+    "index": 908,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あと悠里の好きな、ふわふわトロトロのオムレツなんかも作りましょうか！」"
+  },
+  {
+    "index": 919,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おー、嬉しいね。でもいきなり３品も、いっぺんに作れるか？」"
+  },
+  {
+    "index": 948,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「心配ご無用！　昔からお料理は好きだったし、いつもお母さんの手伝いしてるしさ。慣れたもんよ」"
+  },
+  {
+    "index": 977,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「さーて、まずは食材を切って、お鍋を火にかけて――」"
+  },
+  {
+    "index": 1010,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言って、キッチンの方に目をやり――そしてコンロを見て、愕然とした。"
+  },
+  {
+    "index": 1074,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「わ、私の知ってるコンロと形が違う！？　ガスコンロじゃないのコレ！？」"
+  },
+  {
+    "index": 1085,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ああ、なんか最新式の、電磁調理器らしい」"
+  },
+  {
+    "index": 1096,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「母さんもぼくも全く料理しないから、よくわからないんだけど……まずかったかな？」"
+  },
+  {
+    "index": 1125,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「っ……！　だ、大丈夫だよ！　ノープロブレム！」"
+  },
+  {
+    "index": 1154,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「基本は一緒でしょ！　シチューくらい、どうやったって作れるって！」"
+  },
+  {
+    "index": 1165,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「て、手伝おうか？」"
+  },
+  {
+    "index": 1194,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「気持ちだけで充分だよ、夏彦はおとなしく見てて！」"
+  },
+  {
+    "index": 1199,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言って、おもむろに料理に取り掛かった。顔に不安そうな色を滲ませながら。"
+  },
+  {
+    "index": 1283,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "――だが実際料理を始めてみると、様々な困難が彼女を襲った。"
+  },
+  {
+    "index": 1373,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よーし、お鍋あったまってきた。それじゃそろそろ油を引いて――」"
+  },
+  {
+    "index": 1384,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ってあれ！？　あ、油はどこ！？」"
+  },
+  {
+    "index": 1395,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、あ、どこだろ？　キッチンの事は、家政婦さん任せだったから……」"
+  },
+  {
+    "index": 1412,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ここかな？　いや、ここ？」"
+  },
+  {
+    "index": 1423,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言いながら、キッチンの戸棚を探る。"
+  },
+  {
+    "index": 1433,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "だがそうしているうちに、鍋が煙を上げ始めた。"
+  },
+  {
+    "index": 1444,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ま、ましろ！　鍋から煙が！」"
+  },
+  {
+    "index": 1455,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え、あ、あわわわ！　温度下げなきゃ！」"
+  },
+  {
+    "index": 1484,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ってあれ！？　温度どうやって下げんのこれ！？」"
+  },
+  {
+    "index": 1495,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ど、どうだろう！？　そのボタンじゃないか！？」"
+  },
+  {
+    "index": 1524,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「了解！　それじゃぽちっとな！」"
+  },
+  {
+    "index": 1642,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……うぉおおお！？　煙がどんどん強くなっていく！？」"
+  },
+  {
+    "index": 1653,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それは温度アップか！　じゃあそっちのボタンだ！」"
+  },
+  {
+    "index": 1710,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そのようにして、騒動は続く。"
+  },
+  {
+    "index": 1791,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ふぅ、なんだかんだでシチューはできたよ。あとはじっくりコトコト煮込むだけ」"
+  },
+  {
+    "index": 1802,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「一時はどうなる事かと思ったな……でも美味そうな、いい匂いだ」"
+  },
+  {
+    "index": 1831,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でっしょー？　さぁて、お次はサラダです」"
+  },
+  {
+    "index": 1842,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「これは簡単だね、失敗しようがないよ」"
+  },
+  {
+    "index": 1875,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろは手際よく、野菜を切っていく。"
+  },
+  {
+    "index": 1880,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "いつも母親の手伝いをしているというだけあって、包丁さばきは確かだ。"
+  },
+  {
+    "index": 1885,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "数分後には、３人分の色鮮やかなサラダが、皿の上に出来上がっていた。"
+  },
+  {
+    "index": 1914,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よっし、ＯＫ！　夏彦に悠里、どうよこれ！？」"
+  },
+  {
+    "index": 1925,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おお、見事なもんだ。なぁ悠里？」"
+  },
+  {
+    "index": 1930,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――。"
+  },
+  {
+    "index": 1959,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふふふ、褒めすぎだよ悠里」"
+  },
+  {
+    "index": 1988,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「さて、あとはドレッシングをかけるだけだね。ドレッシングは何があるのかな？」"
+  },
+  {
+    "index": 2021,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろがそう言って、冷蔵庫を開けた時――彼女の顔が、ふと凍りついた。"
+  },
+  {
+    "index": 2085,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、何もない！？　ドレッシング使わないのこの家！？」"
+  },
+  {
+    "index": 2096,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え！？　あ、違う、切らしてたんだ……ごめん、気づかなかった」"
+  },
+  {
+    "index": 2125,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「どどどどどうしよう！　それは予想だにしてなかったよ！」"
+  },
+  {
+    "index": 2136,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「落ち着けましろ、焦りすぎだ！　ぼくがコンビニで買ってくるから待ってろ！」"
+  },
+  {
+    "index": 2165,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「お、お願い！」"
+  },
+  {
+    "index": 2234,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "夏彦はコンビニにダッシュした。"
+  },
+  {
+    "index": 2239,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ドレッシングを買い込み、素早く家に戻る。"
+  },
+  {
+    "index": 2308,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ましろ、ドレッシング買って来たぞ！　そっちの首尾はどうだ！？」"
+  },
+  {
+    "index": 2337,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「オムレツに取り掛かり中、もう２人分出来ました！」"
+  },
+  {
+    "index": 2342,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そう答えるましろの傍らには、美しい紡錘型のオムレツが２皿並んでいた。"
+  },
+  {
+    "index": 2353,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おー、凄いな！　これも見事なもんだ！」"
+  },
+  {
+    "index": 2382,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「オムレツには自信あるんだよね～。目ーつぶったって作れるよ」"
+  },
+  {
+    "index": 2411,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いま３枚目が出来るから、待ってて」"
+  },
+  {
+    "index": 2444,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはフライパンを手にウィンクする。"
+  },
+  {
+    "index": 2449,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そして手首をとんとんと叩き、フライパンの端に卵を寄せた。"
+  },
+  {
+    "index": 2478,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「さぁオムレツ作りのハイライト、フライパン返しですよ～」"
+  },
+  {
+    "index": 2489,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それって、卵を空中に放って裏返すやつか！？　できるのかましろ！？」"
+  },
+  {
+    "index": 2518,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「慣れればそんなに難しくないんだよ。ま、見てなって」"
+  },
+  {
+    "index": 2541,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言って、フライパンを握り締める。"
+  },
+  {
+    "index": 2563,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そしてひょいっと卵を、空中に放り投げ――"
+  },
+  {
+    "index": 2627,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「へっきし！」"
+  },
+  {
+    "index": 2632,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "放り投げたところで、思い切りくしゃみをした。"
+  },
+  {
+    "index": 2643,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お約束か！」"
+  },
+  {
+    "index": 2672,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「い、いやその、さっきの煙が鼻に……！」"
+  },
+  {
+    "index": 2718,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「って、あ！」"
+  },
+  {
+    "index": 2723,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "３枚目のオムレツは、フライパンから投げ出され、電磁調理器の上に落ちていた。"
+  },
+  {
+    "index": 2746,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "せっかくの綺麗な紡錘型も、完全に潰れてしまっている。"
+  },
+  {
+    "index": 2757,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ましろ、卵って、まだ残ってたっけ……？」"
+  },
+  {
+    "index": 2768,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うぅん……これで最後……」"
+  },
+  {
+    "index": 2779,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……そうか」"
+  },
+  {
+    "index": 2784,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ましろががっくりと肩を落とす。"
+  },
+  {
+    "index": 2789,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その姿を見ていると、先ほどクラスメートの女子に言われた言葉が脳裏をよぎった。"
+  },
+  {
+    "index": 2794,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は彼女に歩み寄り、その肩を優しく叩く。"
+  },
+  {
+    "index": 2824,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ましろ、そんな気を落とすなよ。ぼくは潰れてても平気だよ」"
+  },
+  {
+    "index": 2853,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え！？　こんな調理器の上に落ちたやつ、汚いよ！？」"
+  },
+  {
+    "index": 2864,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いつも綺麗に掃除してたし、大丈夫だよ」"
+  },
+  {
+    "index": 2875,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにせっかくましろが、初めて作ってくれた手料理だ。全部ちゃんと平らげたいしさ」"
+  },
+  {
+    "index": 2904,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「っ……！」"
+  },
+  {
+    "index": 2933,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……その気持ちは嬉しいけど……潰れた料理を人に出すのは、私としてはちょっと……」"
+  },
+  {
+    "index": 2944,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、そういうもんか？」"
+  },
+  {
+    "index": 2973,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そういうもんだよ。だから潰れたのは捨てとくね」"
+  },
+  {
+    "index": 3002,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でも……ありがと、夏彦」"
+  },
+  {
+    "index": 3007,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろはそう言って、潰れたオムレツを片付けた。"
+  },
+  {
+    "index": 3059,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "――その後夏彦たちは、すでに出来ていた２皿分のオムレツを、３人分に切り分けた。"
+  },
+  {
+    "index": 3064,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そしてシチューやサラダと共にテーブルに並べ、それぞれの席に着く。"
+  },
+  {
+    "index": 3137,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よし！　紆余曲折ありましたけど、ようやく完成しました！」"
+  },
+  {
+    "index": 3148,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おー、美味そうじゃないか！」"
+  },
+  {
+    "index": 3177,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それじゃ皆さん、手を合わせて――」"
+  },
+  {
+    "index": 3188,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いただきます」"
+  },
+  {
+    "index": 3221,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそう言って、食事に手をつけた。"
+  },
+  {
+    "index": 3226,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "まず、シチューを一口食べる。"
+  },
+  {
+    "index": 3231,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "いつも家政婦が作ってくれた料理とは、風味が若干違っていたが、それでもなかなかの美味だった。"
+  },
+  {
+    "index": 3236,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかしましろは一口食べるなり、見る間に顔を曇らせる。"
+  },
+  {
+    "index": 3265,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、あれ……？　なんかどことなく、焦げっぽい味が……」"
+  },
+  {
+    "index": 3276,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、そうか？」"
+  },
+  {
+    "index": 3287,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「火にかけすぎて、焦がしちゃったのかな！？　じゃあオムレツは……！？」"
+  },
+  {
+    "index": 3320,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろは慌ててオムレツに口をつける。夏彦も同じく、オムレツを食べる。"
+  },
+  {
+    "index": 3325,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "すると彼女はさらに、顔を曇らせた。"
+  },
+  {
+    "index": 3354,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あああ……中、ちょっと固まっちゃってる……！　ふわふわトロトロじゃない……！」"
+  },
+  {
+    "index": 3365,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ガスコンロと電磁調理器で、火の通り方が違ったんだ……！」"
+  },
+  {
+    "index": 3370,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろは泣きそうな顔をしていた。"
+  },
+  {
+    "index": 3375,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "夏彦はそこに、優しく声をかける。"
+  },
+  {
+    "index": 3386,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「安心してくれましろ、どっちも美味しいよ」"
+  },
+  {
+    "index": 3415,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ほ、ホントに……？」"
+  },
+  {
+    "index": 3426,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ホントホント。あの家政婦さんより料理上手いと思うよ」"
+  },
+  {
+    "index": 3437,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、そう……なら、よかったけど……」"
+  },
+  {
+    "index": 3448,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ありがとうな、ましろ。いい夕食だよ」"
+  },
+  {
+    "index": 3459,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「これから毎日こんな料理が食べられるなんて、楽しみになってきたな」"
+  },
+  {
+    "index": 3488,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「っ……」"
+  },
+  {
+    "index": 3517,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そだね、私も楽しみになってきたよ。明日からもっと頑張るね！」"
+  },
+  {
+    "index": 3528,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おー、期待させてもらうよ」"
+  },
+  {
+    "index": 3551,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "２人はそう言って、笑みを交わす。"
+  },
+  {
+    "index": 3556,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "穏やかで親密な時間が、ゆっくりと流れていた……。"
+  },
+  {
+    "index": 3796,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――彼の記憶を遡るうちに――"
+  },
+  {
+    "index": 3801,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "やがて夏彦の脳の片隅から、ある情報エネルギーの塊が立ち上ってきた。"
+  },
+  {
+    "index": 3806,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてそのエネルギーは、形となり……"
+  },
+  {
+    "index": 3811,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦も自覚していない、無意識下の情報として、そこに顕現した。"
+  }
+]

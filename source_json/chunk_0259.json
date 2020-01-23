@@ -1,0 +1,704 @@
+[
+  {
+    "index": 49,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Current Chapter2"
+  },
+  {
+    "index": 60,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦の意識がようやく恵那から離れたのは、渡瀬が第６エリア内周棟で、１人になってからだった。"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がサリュの姿を求め、次々と部屋を調べて行く。"
+  },
+  {
+    "index": 202,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて渡瀬の眼が、あるＰＣモニターに止まった。"
+  },
+  {
+    "index": 208,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……？）"
+  },
+  {
+    "index": 252,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "＜被験体とＩＧＦ２Ｒ遺伝子タイプ＞"
+  },
+  {
+    "index": 255,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 258,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "被験体Ａ　：先天性ＩＧＦ２Ｒ遺伝子異常　タイプＳ（死亡）"
+  },
+  {
+    "index": 261,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "被験体Ｎ　：先天性ＩＧＦ２Ｒ遺伝子異常　タイプＳ"
+  },
+  {
+    "index": 264,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "被験体Ｙ　：ＩＧＦ２Ｒ遺伝子　タイプ４"
+  },
+  {
+    "index": 267,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "　　　　　　（ＷＸ粒子による遺伝子変異は見られず／破棄）"
+  },
+  {
+    "index": 270,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "被験体ＹⅡ：後天性ＩＧＦ２Ｒ遺伝子異常　タイプＳ"
+  },
+  {
+    "index": 273,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "　　　　　　（生来のＩＧＦ２Ｒ遺伝子異常タイプはＣ）"
+  },
+  {
+    "index": 276,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 279,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "Ｙの破棄→解放については前例無し　予想しうる問題：記憶復帰等"
+  },
+  {
+    "index": 283,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "＜監視対象とＩＧＦ２Ｒ遺伝子タイプ＞"
+  },
+  {
+    "index": 286,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 289,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "特別監視対象ナ号　：先天性ＩＧＦ２Ｒ遺伝子異常　タイプＳ"
+  },
+  {
+    "index": 292,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "特別監視対象ナ２号：後天性ＩＧＦ２Ｒ遺伝子異常　タイプＳ"
+  },
+  {
+    "index": 295,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "　　　　　　　　　　（生来のＩＧＦ２Ｒ遺伝子異常タイプはＣ）"
+  },
+  {
+    "index": 298,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "特別監視対象ユ号　：ＩＧＦ２Ｒ遺伝子　タイプ４"
+  },
+  {
+    "index": 301,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "監視対象カ号　　　：先天性ＩＧＦ２Ｒ遺伝子異常　タイプＤ"
+  },
+  {
+    "index": 304,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "監視対象マ号　　　：先天性ＩＧＦ２Ｒ遺伝子異常　タイプＢ"
+  },
+  {
+    "index": 307,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 310,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "※マ号はレベル５相当　→　照射実験を検討"
+  },
+  {
+    "index": 313,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "※ナ号　→　被験体Ｎ（２０２１／０４／０７）"
+  },
+  {
+    "index": 316,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "※被験体Ｙ　→　ユ号（２０３０／０９／１０）"
+  },
+  {
+    "index": 350,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……なんだこれ？）"
+  },
+  {
+    "index": 356,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体？　ＩＧＦ２Ｒ遺伝子？　監視対象？）"
+  },
+  {
+    "index": 362,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、そんな事より――）"
+  },
+  {
+    "index": 367,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『　被験体Ｙ　→　ユ号（２０３０／０９／１０）　』"
+  },
+  {
+    "index": 373,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――９月１０日って言ったら、ぼくの日常が変わり始めた日じゃないか！？）"
+  },
+  {
+    "index": 379,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（何だよこのファイル？　いったい何を意味してるんだ？）"
+  },
+  {
+    "index": 384,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "どこかこの記述に、薄気味悪さを感じた時、"
+  },
+  {
+    "index": 432,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "不意に渡瀬の脳裏に、奇妙な情景が明滅した。"
+  },
+  {
+    "index": 486,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "？？"
+  },
+  {
+    "index": 487,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "「要はあの人たち、怖いんだと思うよ」"
+  },
+  {
+    "index": 550,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "？？"
+  },
+  {
+    "index": 551,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "「件の事件の前からも、彼女はその能力ゆえに人々に疎まれ続けてきた」"
+  },
+  {
+    "index": 614,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "？？"
+  },
+  {
+    "index": 615,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "「これは……いったい何なんだ！？」"
+  },
+  {
+    "index": 678,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "？？"
+  },
+  {
+    "index": 679,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "「ぇけけけけけけ」"
+  },
+  {
+    "index": 770,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なっ――また記憶が！？）"
+  },
+  {
+    "index": 776,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、どうして！？　何をきっかけに、渡瀬は記憶を甦らせたんだ！？）"
+  },
+  {
+    "index": 781,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その出来事に、夏彦が驚愕した一瞬後――渡瀬は逃げ出すように、その部屋を後にした。"
+  },
+  {
+    "index": 831,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なっ！？　ど、どうしたんだこいつ！？）"
+  },
+  {
+    "index": 836,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "なぜか彼は激しく狼狽していた。心には不快感と怒りが渦巻いている。"
+  },
+  {
+    "index": 841,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして脳裏に、再び過去の記憶が――"
+  },
+  {
+    "index": 924,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「どうして、あの時、あんなひどい事をしたんですか……！？」"
+  },
+  {
+    "index": 984,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ！　今のは、ぼくが消した記憶のはずじゃ……！）"
+  },
+  {
+    "index": 989,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが堰を切ったように、その時の記憶が甦ってくる。"
+  },
+  {
+    "index": 1074,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「だから……お願いです、隊長さん」"
+  },
+  {
+    "index": 1085,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「教えてください、あなたの心を……！」"
+  },
+  {
+    "index": 1197,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「があああああっ！」"
+  },
+  {
+    "index": 1269,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、あ……」"
+  },
+  {
+    "index": 1280,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「う、うわああああっ！」"
+  },
+  {
+    "index": 1345,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え……え……！？」"
+  },
+  {
+    "index": 1356,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なんでオレは……！？」"
+  },
+  {
+    "index": 1361,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が戸惑いつつ、ふらふらと階段室の外に出る。"
+  },
+  {
+    "index": 1405,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――その直後。"
+  },
+  {
+    "index": 1443,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　%N　%N　%N　%N　%N"
+  },
+  {
+    "index": 1524,
+    "code": "0x85",
+    "developer_comment": "――被＊＊＊＊＊＊＊だ――",
+    "string": "　%N　%N　%N　%N　%N"
+  },
+  {
+    "index": 1605,
+    "code": "0x85",
+    "developer_comment": "――被＊体＊＊は＊＊だ――",
+    "string": "　%N　%N　%N　%N　%N"
+  },
+  {
+    "index": 1686,
+    "code": "0x85",
+    "developer_comment": "――被験体＊＊は危＊だ――",
+    "string": "　%N　%N　%N　%N　%N"
+  },
+  {
+    "index": 1797,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ！？）"
+  },
+  {
+    "index": 1803,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『被験体たちは危険だ』って……こいつ、急に何のことを……！？）"
+  },
+  {
+    "index": 1808,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の中に浮かび上がってきたその思念に、夏彦は困惑したが――"
+  },
+  {
+    "index": 1814,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかして――！）"
+  },
+  {
+    "index": 1881,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『被験体』っていうのは、彼女の事なのか！？）"
+  },
+  {
+    "index": 1887,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だからさっきの資料を見た時、渡瀬の記憶が触発されて――！？）"
+  },
+  {
+    "index": 1892,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は慌てて、渡瀬の心の中に潜りこんだ。"
+  },
+  {
+    "index": 1994,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《被験体たちは危険だ……！"
+  },
+  {
+    "index": 1996,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　被験体たちは危険だ……！"
+  },
+  {
+    "index": 1998,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　　被験体たちは危険だ……！》"
+  },
+  {
+    "index": 1999,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 2000,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《被験体たちは危険だ……！　被験体たちは危険だ……！　被験体たちは危険だ……！》"
+  },
+  {
+    "index": 2017,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《な……なんの事だ！？　なんなんだこの言葉は！？》"
+  },
+  {
+    "index": 2018,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 2019,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《な……なんの事だ！？　なんなんだこの言葉は！？》"
+  },
+  {
+    "index": 2034,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《オレは知らん！　そんな言葉は知らねぇ！！》"
+  },
+  {
+    "index": 2035,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 2036,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《オレは知らん！　そんな言葉は知らねぇ！！》"
+  },
+  {
+    "index": 2065,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これは……！）"
+  },
+  {
+    "index": 2070,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "心の奥からわき上がる憎悪に対し、渡瀬が激しく抵抗しているのがわかる。"
+  },
+  {
+    "index": 2075,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが恐怖は徐々に変質し、ドス黒い憎悪に塗り替えられて行く。"
+  },
+  {
+    "index": 2080,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "憎悪はさらに変容し、殺意にさえ変わっていく。"
+  },
+  {
+    "index": 2086,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（このままだと、またあの時の渡瀬に逆戻りだ！　早く渡瀬の記憶を何とかしないと！）"
+  },
+  {
+    "index": 2092,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、でも……！）"
+  },
+  {
+    "index": 2097,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "記憶消去が渡瀬に与えるダメージを考えれば、これ以上の記憶消去は、おそらく渡瀬の生命に関わるだろう。"
+  },
+  {
+    "index": 2102,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして渡瀬の死は、すなわち夏彦の消滅をも意味するのだ。"
+  },
+  {
+    "index": 2108,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあどうする！？　どうすれば渡瀬の憎悪を、封じこめる事ができるんだ！？）"
+  },
+  {
+    "index": 2114,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（考えろ！　きっと何か方法があるはずだ！）"
+  },
+  {
+    "index": 2119,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――渡瀬はユウリを、なぜか恐怖している。憎悪と殺意を抱いている。"
+  },
+  {
+    "index": 2124,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "普段は彼女を心配し、常に護ろうとしていたのに。"
+  },
+  {
+    "index": 2129,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "記憶を取り戻しかけるたび、その恐怖・憎悪・殺意が蘇るのだ。"
+  },
+  {
+    "index": 2135,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったら、いっその事……）"
+  },
+  {
+    "index": 2141,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬に『彼女が死んだ』と誤認させればいいんじゃないか？）"
+  },
+  {
+    "index": 2147,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうすれば彼女への恐怖は消えるだろうし、必然的に憎悪や殺意だって……！）"
+  },
+  {
+    "index": 2152,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "うまくいくかどうかはわからない。"
+  },
+  {
+    "index": 2157,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがこのままでは本当に、渡瀬が記憶を取り戻しかねない。"
+  },
+  {
+    "index": 2162,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "止むなく夏彦は、その方法に賭けてみることにした。"
+  },
+  {
+    "index": 2173,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬の記憶の中に、『ユウリの死』のイメージを――！》"
+  },
+  {
+    "index": 2294,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そうして夏彦は、渡瀬の記憶をまた改竄した。"
+  },
+  {
+    "index": 2405,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それから時間にして５分――。"
+  },
+  {
+    "index": 2410,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬はまるで死んだかのように、その場で放心し続けた。"
+  },
+  {
+    "index": 2416,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おい……まさか、ずっとこのままなんじゃないだろうな……！）"
+  },
+  {
+    "index": 2421,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "不安感に駆られ、夏彦は渡瀬に呼びかけた。"
+  },
+  {
+    "index": 2432,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《――おいお前、しっかりしろ！》"
+  },
+  {
+    "index": 2443,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《いつまで呆然としてるんだ！　早くみんなのところに行け！》"
+  },
+  {
+    "index": 2463,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  {
+    "index": 2468,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "夏彦の声に揺り動かされ、渡瀬が意識を取り戻す。"
+  },
+  {
+    "index": 2473,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そしておぼつかない足取りで、他の皆がいるファクトリーへと向かった。"
+  },
+  {
+    "index": 2479,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……渡瀬の記憶をいじるのは、これ以上はやめた方が良さそうだな）"
+  },
+  {
+    "index": 2485,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（頼むから、もう記憶を取り戻したりしないでくれよ……！）"
+  },
+  {
+    "index": 2490,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそう祈る。"
+  },
+  {
+    "index": 2533,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――だが夏彦の行為が生んだひずみは、すぐに露呈した。"
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "index": 8,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter2"
+  },
+  {
+    "index": 23,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは第４エリアから、第３エリアの内周棟へ向かった。"
+  },
+  {
+    "index": 28,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほど手に入れた地図を見ながら。"
+  },
+  {
+    "index": 78,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やっぱ地図があると、現在地がわかりやすいな！」"
+  },
+  {
+    "index": 89,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「今までは正直、自分がどこにいるのかもわかりにくかったからねぇ」"
+  },
+  {
+    "index": 94,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "そう言いつつ、第３エリアへの道を急ぐ。"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "第３エリア内周棟から外周棟へ向かう通路――件の、開かない扉の前に着いた。"
+  },
+  {
+    "index": 537,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬は試しにセキュリティカードを通してみる。"
+  },
+  {
+    "index": 542,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "が、反応はまったく無い。"
+  },
+  {
+    "index": 588,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……やっぱり、故障してるみたいだな」"
+  },
+  {
+    "index": 599,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ではお願いします、宇喜多さん」"
+  },
+  {
+    "index": 610,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ。できるかどうかはわからないが、修理してみよう」"
+  },
+  {
+    "index": 615,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多はアーミーナイフを出し、それを使ってカードスロットをいじり始めた。"
+  },
+  {
+    "index": 677,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……どうだ、宇喜多さん、なんとかなりそうか」"
+  },
+  {
+    "index": 706,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、む……難しいな。できるとしても、時間がかかるかもしれない……」"
+  },
+  {
+    "index": 711,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "ならば一応、他の道も試してみるべきだろうか。"
+  },
+  {
+    "index": 737,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "そう思って風見を見ると――彼女は腕をさすっていた。"
+  },
+  {
+    "index": 748,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……橘、どうした？」"
+  },
+  {
+    "index": 786,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、いえ……なんだか、肌がピリピリと痛むような感覚が……」"
+  },
+  {
+    "index": 797,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なに！？」"
+  },
+  {
+    "index": 802,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう言われて、渡瀬は焦った。"
+  },
+  {
+    "index": 807,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "気づけば前回の投与から、４５分ほどが経過している。"
+  },
+  {
+    "index": 813,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（橘の累積被曝量はいくらくらいだ……？）"
+  },
+  {
+    "index": 819,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もしＡＤの効果がちゃんと発揮されてなかったら、２０００ｍＳｖは超えてるんじゃないか？）"
+  },
+  {
+    "index": 825,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（しかも相変わらず、ＡＤは１本も入手できてない。このままじゃ全員……！）"
+  },
+  {
+    "index": 893,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「う、宇喜多さん……修理、代わろうか？」"
+  },
+  {
+    "index": 922,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「守部、焦らせてはいけません。どうか宇喜多さん、ご自分のペースで――」"
+  },
+  {
+    "index": 927,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう風見が言いかけた時。"
+  },
+  {
+    "index": 932,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "不意に背後で、ユウリが声を上げた。"
+  },
+  {
+    "index": 1001,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あ、煙……」"
+  },
+  {
+    "index": 1012,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え……？」"
+  },
+  {
+    "index": 1017,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それを聞き、渡瀬は振り向いた。"
+  },
+  {
+    "index": 1028,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「煙？　どこだ？」"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あそこ……」"
+  },
+  {
+    "index": 1044,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "そう言ってユウリが、通路の中央を指差した瞬間――"
+  },
+  {
+    "index": 1280,
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "「！？」"
+  },
+  {
+    "index": 1285,
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "床板が吹き飛び、そこから炎が噴出した。"
+  },
+  {
+    "index": 1342,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なっ！　どうして、あんなところから炎が！？」"
+  },
+  {
+    "index": 1425,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「守部！　消火ホースの用意を！」"
+  },
+  {
+    "index": 1477,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「了解っ！」"
+  },
+  {
+    "index": 1482,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "消火栓はゲートのすぐ脇にあった。"
+  },
+  {
+    "index": 1487,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵が素早く消火ホースを引き出し、風見がそのノズルを受け取る。"
+  },
+  {
+    "index": 1543,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「皆さんは後ろへ下がっていて下さい！」"
+  },
+  {
+    "index": 1554,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「副隊長！　放水行くよ！」"
+  },
+  {
+    "index": 1559,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "迫り来る炎に向けて、風見が放水を開始した。"
+  },
+  {
+    "index": 1616,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "だが――"
+  },
+  {
+    "index": 1844,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "また床板が吹き飛んだ。"
+  },
+  {
+    "index": 1849,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "そこからも炎が次々に噴き出して来る。"
+  },
+  {
+    "index": 1919,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「くっ、退路が……！」"
+  },
+  {
+    "index": 1924,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の腕を以てしても、炎の進行を遅らせるので精一杯のようだった。"
+  },
+  {
+    "index": 1955,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「ごほッ……」"
+  },
+  {
+    "index": 2001,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ユウリちゃん、身体を低くして！　みんなも煙を吸わないように！」"
+  },
+  {
+    "index": 2093,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "その言葉に従うように、恵那がユウリを抱き寄せた。"
+  },
+  {
+    "index": 2098,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "そのまま身を低くし、叫ぶ。"
+  },
+  {
+    "index": 2169,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「宇喜多さん、まだかかりそう！？」"
+  },
+  {
+    "index": 2180,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「今やってる！　が――」"
+  },
+  {
+    "index": 2209,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「す、すまない！　正直できるかどうか……！」"
+  },
+  {
+    "index": 2238,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そんな……！」"
+  },
+  {
+    "index": 2243,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那だけではなく、その場の全員が絶句した。"
+  },
+  {
+    "index": 2272,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ファック！　こんなゲートさえ無ければ！」"
+  },
+  {
+    "index": 2283,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵がゲートを蹴りつける。"
+  },
+  {
+    "index": 2448,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "その拍子に、上から塵が降ってきた。"
+  },
+  {
+    "index": 2460,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん！？」"
+  },
+  {
+    "index": 2465,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は上を見上げ――そして、そこにあったものに目を止めた。"
+  },
+  {
+    "index": 2496,
+    "code": "0x45",
+    "developer_comment": "渡瀬・洵",
+    "string": "「エアダクト！」"
+  },
+  {
+    "index": 2507,
+    "code": "0x45",
+    "developer_comment": "渡瀬・洵",
+    "string": "渡瀬はすぐに、それが向かう先を眼で追った。"
+  },
+  {
+    "index": 2512,
+    "code": "0x45",
+    "developer_comment": "渡瀬・洵",
+    "string": "エアダクトはゲートの上を通り、外周棟側へ抜けているようだ。"
+  },
+  {
+    "index": 2517,
+    "code": "0x45",
+    "developer_comment": "渡瀬・洵",
+    "string": "以前宇喜多から聞いた説明が、耳に蘇る。"
+  },
+  {
+    "index": 2522,
+    "code": "0x45",
+    "developer_comment": "渡瀬・洵",
+    "string": "『エアダクト内の各所には、放射性物質濾過装置が設置されている。地上や各エリアを隔てるところにね』"
+  },
+  {
+    "index": 2528,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だったら、外周棟と内周棟を繋ぐこの通路には、濾過装置がないかもしれない！）"
+  },
+  {
+    "index": 2539,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部！　このエアダクト通れるか！？」"
+  },
+  {
+    "index": 2568,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「試してみよう！　もしかしたら向こう側から開けられるかも！」"
+  },
+  {
+    "index": 2573,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "しかしエアダクトには、網がはめられていた。"
+  },
+  {
+    "index": 2649,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「宇喜多さん、アーミーナイフ返して！」"
+  },
+  {
+    "index": 2678,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　あ、ああ！」"
+  },
+  {
+    "index": 2683,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "洵が宇喜多から、アーミーナイフを取り上げて言う。"
+  },
+  {
+    "index": 2712,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしがあの網を外して、向こう側に行く！」"
+  },
+  {
+    "index": 2723,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「体のでかい隊長より、あたしの方が適役だよ！」"
+  },
+  {
+    "index": 2742,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし行け！　オレが肩車してやる！」"
+  },
+  {
+    "index": 2771,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「押忍！」"
+  },
+  {
+    "index": 2785,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、ここはオレが――」"
+  },
+  {
+    "index": 2814,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長の体格じゃ無理だって！　それよりホラ、肩貸して！」"
+  },
+  {
+    "index": 2825,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、ああ！」"
+  },
+  {
+    "index": 2945,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が肩車をして持ち上げると、洵はエアダクトの網の解体を始めた。"
+  },
+  {
+    "index": 2995,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "すぐにネジがぽろぽろと落ちてくる。１本２本３本４本。そして網そのものも落ちてきた。"
+  },
+  {
+    "index": 3000,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――所要時間わずか３０秒。"
+  },
+  {
+    "index": 3011,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「早いな、おい！」"
+  },
+  {
+    "index": 3027,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「器用なのが取り得でね！」"
+  },
+  {
+    "index": 3083,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそう言い残し、瞬く間にエアダクトの中へ消えた。"
+  },
+  {
+    "index": 3094,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「頼むぞ、守部……！」"
+  },
+  {
+    "index": 3168,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそうしている間にも、背後の炎は一段と火勢を強めていた。"
+  },
+  {
+    "index": 3197,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「くっ……！」"
+  },
+  {
+    "index": 3202,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見が苦しげにうめく。その向こうから熱波が押し寄せてくる。"
+  },
+  {
+    "index": 3231,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「守部さん……！　お願い、急いで！」"
+  },
+  {
+    "index": 3236,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那がユウリを抱きしめて呟く。"
+  },
+  {
+    "index": 3241,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬も強くそう願った時――"
+  },
+  {
+    "index": 3320,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "セキュリティゲートが開放された。"
+  },
+  {
+    "index": 3365,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やった！」"
+  },
+  {
+    "index": 3370,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "一瞬、全員が喜色を浮かべた。"
+  },
+  {
+    "index": 3421,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、おかしい。"
+  },
+  {
+    "index": 3426,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "扉の向こうは煙に満ち、そして洵の姿がどこにも無いのだ。"
+  },
+  {
+    "index": 3493,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！？」"
+  },
+  {
+    "index": 3498,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "嫌な予感を覚え、視線を巡らせると――"
+  },
+  {
+    "index": 3509,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部っ！！」"
+  },
+  {
+    "index": 3514,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "床に倒れている、洵の姿を発見した。"
+  }
+]

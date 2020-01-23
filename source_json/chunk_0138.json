@@ -1,0 +1,902 @@
+[
+  {
+    "index": 77,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Before Chapter1"
+  },
+  {
+    "index": 85,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその夜――"
+  },
+  {
+    "index": 142,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "食卓を囲みながら、夏彦たちは悠里に事件の概要を話した。"
+  },
+  {
+    "index": 292,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……そうなの、そんな事が……」"
+  },
+  {
+    "index": 321,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いや～、ほんっとビックリしたよね！」"
+  },
+  {
+    "index": 344,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "事故の直後は緊張気味だったましろも、今は元気に、かつ興奮気味に事故の様子を語った。"
+  },
+  {
+    "index": 373,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「事故現場に遭遇したと思ったら、夏彦がいきなりテレパシー使うんだもん」"
+  },
+  {
+    "index": 384,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いっぺんに２つもビッグイベントが起きてさ、さすがの私もおろおろしちゃったよ」"
+  },
+  {
+    "index": 413,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「テレパシー？　え、ひこりんが？」"
+  },
+  {
+    "index": 424,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ……なんかあの時は、使えちゃったんだよ」"
+  },
+  {
+    "index": 453,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「その時だけ？　もう使えないの？」"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうみたい。火事場の馬鹿力ってヤツだったのかな」"
+  },
+  {
+    "index": 505,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "テレパシーが使えるようになったと思った夏彦は、あれからましろを相手に試してみた。"
+  },
+  {
+    "index": 510,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "だがあんなに強力なテレパシーはもちろんの事、微弱なメッセージさえも伝える事はできなかったのだ。"
+  },
+  {
+    "index": 521,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁ別にいいさ。伝えたい事があったら、声で伝えればいいんだし」"
+  },
+  {
+    "index": 550,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ありゃ、ほんとＢＣに興味ないんだねぇ」"
+  },
+  {
+    "index": 579,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「普段の態度は、ＢＣ使えない事に対する負け惜しみじゃなかったんだ～」"
+  },
+  {
+    "index": 608,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うーん……でも、それでいいと思うよ。お喋りの方が楽しいよ」"
+  },
+  {
+    "index": 619,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな」"
+  },
+  {
+    "index": 648,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あら？　ＢＣ使えない者同士、気が合うんだねぇ……なんかちょっと疎外感だわ」"
+  },
+  {
+    "index": 845,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろの言う通り、悠里もＢＣを全く使えない。"
+  },
+  {
+    "index": 850,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "適性度は『Ｃ』とそれなりのはずだが、ほとんど訓練を受けた事がないのだ。"
+  },
+  {
+    "index": 855,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "悠里もあまりＢＣが好きではないらしいので、夏彦は早々に話を変える。"
+  },
+  {
+    "index": 918,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……しかしおかしな１日だったな。この街で自動車事故なんて、まず起きないのに」"
+  },
+  {
+    "index": 963,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だねぇ。それにしても、どうしておじさん、事故なんか……」"
+  },
+  {
+    "index": 975,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さぁね。『ＡＤＳ』がシステムエラーでも起こしたんじゃないか？」"
+  },
+  {
+    "index": 1078,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "鹿鳴市は全国に先駆けて、ＡＤＳ――即ち自動運転システムが試験採用された街だ。"
+  },
+  {
+    "index": 1083,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "市内を走る車には、全てそのシステムが搭載されており、場所を入力するだけで安全に目的地まで運んでくれる。"
+  },
+  {
+    "index": 1146,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でもＡＤＳの故障なんてめったに起きないでしょ？　事故率は、人が運転する時のわずか４％だって話じゃん」"
+  },
+  {
+    "index": 1157,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「とはいえ０％じゃないだろ。やっぱり全てコンピューター任せってのも、完璧ではないんだろな」"
+  },
+  {
+    "index": 1162,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "理論上は人間の操縦より、自動操縦の方がはるかに安全だというデータがあっても、どこか信頼し切れない。"
+  },
+  {
+    "index": 1167,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして、その話を聞いた悠里は――震える声で呟いた。"
+  },
+  {
+    "index": 1196,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「お外、やっぱり怖いね……」"
+  },
+  {
+    "index": 1229,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（！）"
+  },
+  {
+    "index": 1237,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はその言葉に、びくっとした。"
+  },
+  {
+    "index": 1242,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがそれをおくびにも出さず、悠里に微笑みかけて言う。"
+  },
+  {
+    "index": 1253,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「大丈夫だよ、悠里が気にする事じゃないって」"
+  },
+  {
+    "index": 1264,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「家でのんびりしてれば、危険な目に遭うことなんかないから」"
+  },
+  {
+    "index": 1339,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ん……」"
+  },
+  {
+    "index": 1368,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うん、そうだよね」"
+  },
+  {
+    "index": 1379,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうそう、それでいいよ。誰かみたいに、危険な所に飛び込まれたら困るからな」"
+  },
+  {
+    "index": 1408,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「おやぁ？　それはもしかして私への批判かな？」"
+  },
+  {
+    "index": 1453,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「批判と言ったら言い過ぎだけどさ……」"
+  },
+  {
+    "index": 1464,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「自分の身も顧みず行動するっていうのは、あまりよくないとぼくは思うよ」"
+  },
+  {
+    "index": 1469,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "親切なのはいい事だが、思慮が浅いのがましろの弱点なのだ。"
+  },
+  {
+    "index": 1480,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふっ、夏彦には雄度が足りないね」"
+  },
+  {
+    "index": 1491,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「雄度って、お前は女の子だろ？」"
+  },
+  {
+    "index": 1502,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「女の子が危険なところに飛び込むのを見て、心配しないわけないだろ」"
+  },
+  {
+    "index": 1531,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……心配ですと？」"
+  },
+  {
+    "index": 1542,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そりゃそうだ。つい忘れがちだけど、お前は生物学上は女性なんだぞ？」"
+  },
+  {
+    "index": 1571,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、そう言えばそうでしたな……」"
+  },
+  {
+    "index": 1600,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まぁ心配かけたのは謝るよ」"
+  },
+  {
+    "index": 1629,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でもさ、そういう夏彦だって昔は、どんどん危険に飛び込んでいったじゃん？」"
+  },
+  {
+    "index": 1640,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　まぁ、ね……」"
+  },
+  {
+    "index": 1645,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "痛いところをつかれて、夏彦は言葉に詰まった。"
+  },
+  {
+    "index": 1708,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「というかあまり、悠里を心配させるような事をしちゃダメだろ」"
+  },
+  {
+    "index": 1737,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「む……」"
+  },
+  {
+    "index": 1748,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なぁ悠里、ましろが危ない目にあったりしたら嫌だろ？」"
+  },
+  {
+    "index": 1777,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うん……ましろんを咎めたくはないけど……」"
+  },
+  {
+    "index": 1806,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「待つ身としては、気が気じゃないよぅ」"
+  },
+  {
+    "index": 1835,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うーん、そんなに悠里が言うんだったら……」"
+  },
+  {
+    "index": 1858,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろは素直に引き下がった。彼女は悠里の言う事なら聞くのだ。"
+  },
+  {
+    "index": 1869,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まぁ心配かけたのは謝るよ」"
+  },
+  {
+    "index": 1898,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でもさ、そういう夏彦だって昔は、どんどん危険に飛び込んでいったじゃん？」"
+  },
+  {
+    "index": 1909,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　まぁ、ね……」"
+  },
+  {
+    "index": 1914,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "痛いところをつかれて、夏彦は言葉に詰まった。"
+  },
+  {
+    "index": 1952,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「批判ってほどじゃないけど、危ないだろ」"
+  },
+  {
+    "index": 1963,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「周囲に心配かけるようなこと、するんじゃないよ」"
+  },
+  {
+    "index": 1992,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ほー、大人な意見ですな」"
+  },
+  {
+    "index": 2021,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でもそういう夏彦だって、昔は周囲をハラハラさせる子だったじゃん？」"
+  },
+  {
+    "index": 2032,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　まぁ、ね……」"
+  },
+  {
+    "index": 2037,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "痛いところをつかれて、夏彦は言葉に詰まった。"
+  },
+  {
+    "index": 2076,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「その通りだ。ガソリン漏れにも気づかないなんて、危ないったらないね」"
+  },
+  {
+    "index": 2105,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「おっとそいつは聞き捨てならないねぇ」"
+  },
+  {
+    "index": 2134,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「私はおじさんを助けようと、一生懸命にだね……」"
+  },
+  {
+    "index": 2145,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でもそれで爆発でも起こしたら、お前もおじさんも大変な事になってただろ？」"
+  },
+  {
+    "index": 2156,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まったく、考えなしなんだから」"
+  },
+  {
+    "index": 2185,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「むっ……！」"
+  },
+  {
+    "index": 2214,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なにさ夏彦、偉そうに。私は悪い事はしてないからね！」"
+  },
+  {
+    "index": 2219,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "頬を膨らませるましろに、夏彦は閉口した。"
+  },
+  {
+    "index": 2224,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "親切なのはいい事だが、思慮が浅いのがましろの弱点なのだ。"
+  },
+  {
+    "index": 2235,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「自分の身も顧みず行動するっていうのは、あまりよくないとぼくは思うよ」"
+  },
+  {
+    "index": 2264,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふんっ、夏彦だって昔はそういう少年だったくせに！」"
+  },
+  {
+    "index": 2275,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　まぁ、ね……」"
+  },
+  {
+    "index": 2280,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "痛いところをつかれて、夏彦は言葉に詰まった。"
+  },
+  {
+    "index": 2327,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里も微笑んで、言葉を継ぐ。"
+  },
+  {
+    "index": 2338,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうだね～。ひこりんもやんちゃだったよね」"
+  },
+  {
+    "index": 2367,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「危険な所があったら、むしろ楽しげに飛び込んでいくようなさ～」"
+  },
+  {
+    "index": 2378,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「確かにぼくも昔は、そういうところあったけど……」"
+  },
+  {
+    "index": 2383,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう答える夏彦の脳裏に、子供の頃の情景がよぎった。"
+  },
+  {
+    "index": 2502,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――１０年ほども昔の話だ。"
+  },
+  {
+    "index": 2513,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "当時の夏彦は、子供たちのリーダー的存在だった。"
+  },
+  {
+    "index": 2556,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "面白そうな事があったら、危険を顧みず飛び込んでいく。"
+  },
+  {
+    "index": 2561,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "いじめられている子がいたら、それを助けるため、体の大きないじめっ子にも挑んでいく。"
+  },
+  {
+    "index": 2566,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてその年頃の少年としては珍しく――男友達に冷やかされる危険も冒して、女の子とも遊ぶ子供だったのだ。"
+  },
+  {
+    "index": 2671,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おーい、悠里にましろー。あそびにいこうぜー！」"
+  },
+  {
+    "index": 2676,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "幼少時の夏彦の声に、幼い２人が答える。"
+  },
+  {
+    "index": 2705,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うん、どこいく？」"
+  },
+  {
+    "index": 2734,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「公園いこうよ～。このあいだあそこで、かわいいワンちゃんに会ったんだ～」"
+  },
+  {
+    "index": 2745,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、それじゃきょうはその犬さがしだ。２人ともついてこーい！」"
+  },
+  {
+    "index": 2888,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「犬どこだ～？　犬～、いたらへんじしろー！」"
+  },
+  {
+    "index": 2955,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、おへんじできるわけないよぅ」"
+  },
+  {
+    "index": 3000,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よーし、それじゃ夏彦。どっちがさきに見つけられるか、しょうぶしない？」"
+  },
+  {
+    "index": 3011,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おー、それじゃまけたほうが、かったほうの言うこときくのな」"
+  },
+  {
+    "index": 3040,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「もう、すぐにそうやってしょうぶするんだから……」"
+  },
+  {
+    "index": 3161,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "ガキ大将の夏彦と、男勝りのましろは、男の子同士のような仲だった。"
+  },
+  {
+    "index": 3166,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "２人とも元々鹿鳴市に住んでいて、家も近所だったため、物心つく頃にはすでに顔見知りだった。"
+  },
+  {
+    "index": 3225,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "そこに悠里が引っ越してきて、すぐに３人とも仲良しになったのだ。"
+  },
+  {
+    "index": 3230,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――友達はたくさんいたが、３人で遊ぶのが一番楽しかった。"
+  },
+  {
+    "index": 3336,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "遠くまで肝試しに出かけたり。"
+  },
+  {
+    "index": 3416,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うぅぅ、こわいよう……」"
+  },
+  {
+    "index": 3462,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だだだだいじょうぶだよ悠里、私がついてるから！」"
+  },
+  {
+    "index": 3473,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ましろ、声ふるえてるぞー」"
+  },
+  {
+    "index": 3580,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――みんなでＢＣの練習をしたり。"
+  },
+  {
+    "index": 3624,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うーん、うーん……」"
+  },
+  {
+    "index": 3653,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……はぁっ！　だめだよ夏彦、テレパシーなんてできないよ」"
+  },
+  {
+    "index": 3664,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あきらめるなよ、できるまでがんばろー！」"
+  },
+  {
+    "index": 3770,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――外で遊ぶだけじゃなく、互いの家を行き来したりもした。"
+  },
+  {
+    "index": 3799,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「おっじゃましまーす！」"
+  },
+  {
+    "index": 3828,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「わっ、夏彦のうちひろ～い！」"
+  },
+  {
+    "index": 3900,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ねーねー、なにして遊ぼうか？」"
+  },
+  {
+    "index": 3911,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「メンコ！　それかベーゴマ！」"
+  },
+  {
+    "index": 3941,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふるいよ夏彦！　アニメみようよ、『ビヨンド☆びよんど』はいしん中だしさ」"
+  },
+  {
+    "index": 3970,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「んー、みんなでご本よまない？　はかせならいっぱいもってるでしょ」"
+  },
+  {
+    "index": 3999,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあベーゴマやりながらアニメみて、本よんで……」"
+  },
+  {
+    "index": 4028,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そんなにいっぺんにできないって！」"
+  },
+  {
+    "index": 4057,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんよくばりすぎだよ～」"
+  },
+  {
+    "index": 4080,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "悠里だけが２学年上だったが、年齢の違いなど関係なかった。"
+  },
+  {
+    "index": 4126,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "趣味も性格もバラバラだったが、いつだって３人は一緒にいた。"
+  },
+  {
+    "index": 4137,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "３人が揃いさえすれば、どんな遊びをしていても楽しかったのだ。"
+  },
+  {
+    "index": 4375,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "――そしてその関係は、今でも続いている。"
+  },
+  {
+    "index": 4381,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（当時の男友達の冷やかしは、ハンパじゃなかったな……）"
+  },
+  {
+    "index": 4386,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがそれに耐えたおかげで、今のこの人間関係が築けたのだ。"
+  },
+  {
+    "index": 4391,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "子供の頃から続く家族同然の関係は、何にも代え難い。"
+  },
+  {
+    "index": 4396,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だからこそ互いに批判もするし、心配もしたくなるのだ。"
+  },
+  {
+    "index": 4424,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁいま考えると、皆を振り回してばっかりだったよ」"
+  },
+  {
+    "index": 4453,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そう？　私はけっこう楽しかったけどなぁ」"
+  },
+  {
+    "index": 4464,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、やっぱり平穏が１番だよ。自分から危険に踏み込む事はないって」"
+  },
+  {
+    "index": 4475,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「身の回りが平和であってこそ、こうして美味しい夕食も食べられるんだからさ」"
+  },
+  {
+    "index": 4504,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「んー……ま、そだね」"
+  },
+  {
+    "index": 4509,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "うまく料理を褒めることで、ましろの機嫌も多少直ったらしい。"
+  },
+  {
+    "index": 4514,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "すかさず悠里もそれに乗る。"
+  },
+  {
+    "index": 4543,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ねぇましろん、このお魚すごく美味しいよ」"
+  },
+  {
+    "index": 4554,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな。これなんて魚？」"
+  },
+  {
+    "index": 4583,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、そりゃタチウオっていうの。崩れやすい身を、丁寧にムニエルにしてみました」"
+  },
+  {
+    "index": 4612,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「すごいなぁましろん、日に日にお料理の腕が上達していくよぅ」"
+  },
+  {
+    "index": 4623,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな。もはやプロ顔負けだ」"
+  },
+  {
+    "index": 4652,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そりゃ褒めすぎ……でも、悪い気はしない！　もっと褒めて！」"
+  },
+  {
+    "index": 4691,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "話題が変わり、食卓に笑いがもどってくる。"
+  },
+  {
+    "index": 4696,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "そんな平穏な時間を、夏彦はとても心地よく感じていた……。"
+  }
+]

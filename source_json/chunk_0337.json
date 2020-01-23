@@ -1,0 +1,974 @@
+[
+  {
+    "index": 56,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――施設内にはやはり、放射線・炎・突発的な爆発など、無数の危機が満ちていた。"
+  },
+  {
+    "index": 62,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（できるだけ早く、堂島先輩たちと合流したいけど……）"
+  },
+  {
+    "index": 67,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵たちと同様、施設内に閉じ込められた『堂島』『桧山』と合流できれば、かなり心強いと思っていた。"
+  },
+  {
+    "index": 72,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "だが、堂島と合流したときには――"
+  },
+  {
+    "index": 125,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "彼は変わり果てた姿になっていた。"
+  },
+  {
+    "index": 130,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "……その部屋の凄惨な光景は、渡瀬にも風見にも、精神的なダメージを与えたようだ。"
+  },
+  {
+    "index": 190,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "だがＡＤは相変わらず足りず、時間は刻一刻と消耗していく。"
+  },
+  {
+    "index": 195,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "仲間の死を乗り越え、捜索はなおも続いた。"
+  },
+  {
+    "index": 200,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "ガスの蔓延する区画を乗り越え、消火システムを起動する。"
+  },
+  {
+    "index": 205,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "消火が終了し、ガスの換気が終わるまでのわずかな時間、洵たちは休憩する事にした……。"
+  },
+  {
+    "index": 335,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……守部に先生、体の調子はどうだ？」"
+  },
+  {
+    "index": 346,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょっと指先が痺れるけど……平気だよ」"
+  },
+  {
+    "index": 377,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私も、もう少し休んだら問題なさそうだわ」"
+  },
+  {
+    "index": 503,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私も問題ありません……例の、肌が痺れるような感覚等も、ＡＤを投与したら消えました」"
+  },
+  {
+    "index": 532,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……でも、安心はできないぞ」"
+  },
+  {
+    "index": 537,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はプロキオンをちらりと見て言った。"
+  },
+  {
+    "index": 566,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「見ろ、現在『３０９０ｍＳｖ』……遠からず、第１危険基準値の『４０００ｍＳｖ』を超えそうだ」"
+  },
+  {
+    "index": 597,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くんたち、ＡＤを持っていればいいけど……！」"
+  },
+  {
+    "index": 883,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、そう焦るなよ」"
+  },
+  {
+    "index": 899,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「空のメディカルケースや使用済みのＡＤがあったって事は、彼らは彼らでＡＤを入手している可能性が高いって事さ」"
+  },
+  {
+    "index": 930,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……気遣ってくれてるの？」"
+  },
+  {
+    "index": 986,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「優しいのね、隊長さん」"
+  },
+  {
+    "index": 1017,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なに言ってんだ。レスキュー隊として当たり前の事だ」"
+  },
+  {
+    "index": 1084,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――その偽りの記憶を、夏彦は修正した。"
+  },
+  {
+    "index": 1394,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだね……今は自分の事より、あの子たちが心配だよ」"
+  },
+  {
+    "index": 1425,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば守部は、あの高校生たちと知り合いだったな」"
+  },
+  {
+    "index": 1466,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん、２回くらい話しただけだけど……」"
+  },
+  {
+    "index": 1497,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあほとんど他人じゃないか」"
+  },
+  {
+    "index": 1513,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それでも心配なものは心配なんだよ」"
+  },
+  {
+    "index": 1569,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……お前もあの高校生たちと、そう年も変わらないだろうに」"
+  },
+  {
+    "index": 1600,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「優しいんだな、守部は」"
+  },
+  {
+    "index": 1667,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――その偽りの記憶を、夏彦は修正した。"
+  },
+  {
+    "index": 1798,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――その言葉に、洵は目を見開いた。"
+  },
+  {
+    "index": 1804,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（自分の身がヤバいのに、まず生徒の事を案じるなんて……）"
+  },
+  {
+    "index": 1810,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（性格はキツいけど、キツ過ぎだけど……確かに、『先生』なんだね）"
+  },
+  {
+    "index": 1815,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "恵那が心から夏彦たちを心配している事が、洵にもわかった気がした。"
+  },
+  {
+    "index": 1821,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（で、でも、なんかさんざん衝突したから……そこ認めるの、なんかシャクだな……）"
+  },
+  {
+    "index": 1859,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵がまごまごしていると、渡瀬が先に声を上げる。"
+  },
+  {
+    "index": 1888,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、そう焦るなよ」"
+  },
+  {
+    "index": 1899,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「空のメディカルケースや使用済みのＡＤがあったって事は、彼らは彼らでＡＤを入手している可能性が高いって事さ」"
+  },
+  {
+    "index": 1905,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（隊長ナイスフォロー！）"
+  },
+  {
+    "index": 1910,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は素早く、渡瀬の尻馬に乗る事にした。"
+  },
+  {
+    "index": 1921,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そ、そうだよ椿山さん……急ぎすぎても危険なだけだよ。今はまず体を休めよう」"
+  },
+  {
+    "index": 1952,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……そうよね」"
+  },
+  {
+    "index": 1983,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「椿山さん……本当は、かなり辛いのではありませんか？」"
+  },
+  {
+    "index": 2014,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「正直、それなりにね。走り詰めで疲れが溜まってきてるし……」"
+  },
+  {
+    "index": 2045,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……あぁもう、どうしてこんな事に……！」"
+  },
+  {
+    "index": 2076,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「昨日までは平穏の中にいたのに、人生一寸先は闇ね……」"
+  },
+  {
+    "index": 2081,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那が泣きそうな声で言う。洵の中に同情の念が湧いてきた。"
+  },
+  {
+    "index": 2087,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（よし、ここは１つ、レスキュー隊らしいところを見せとこう）"
+  },
+  {
+    "index": 2098,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ椿山さん、暗い話はやめようよ。あたしたちが必ず、椿山さんも生徒たちも助けるからさ」"
+  },
+  {
+    "index": 2129,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あっ……ごめんなさい、ちょっと弱気になっていたみたい……」"
+  },
+  {
+    "index": 2140,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「もしこんなところで、死んでしまったらなんて思うと――」"
+  },
+  {
+    "index": 2169,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「や、やめろよ縁起でもない！」"
+  },
+  {
+    "index": 2200,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そんな事を言ってはダメですよ。弱気は危険を倍加させます」"
+  },
+  {
+    "index": 2211,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「全くだよ。ここで誰かを死なせるつもりなんて、あたしにはさらさらないからね」"
+  },
+  {
+    "index": 2242,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……強いのね、３人とも」"
+  },
+  {
+    "index": 2273,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……ごめんなさい、今まで色々失礼な事を言って」"
+  },
+  {
+    "index": 2304,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あなたたち、さすがはレスキュー隊だわ……私は何の役にも立たないくせに、口ばかり達者で……」"
+  },
+  {
+    "index": 2315,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「えっ？　いやその……いいんだよ、気にしないで」"
+  },
+  {
+    "index": 2346,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも……これからは皆さんの言う事を聞くようにするわ」"
+  },
+  {
+    "index": 2351,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那が申し訳なさそうに微笑む。"
+  },
+  {
+    "index": 2356,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "その笑顔だけで、それまでの全てがチャラになる気がした。"
+  },
+  {
+    "index": 2362,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……そうだよね、椿山さんは偉そうだけど、あくまで『一般人』なんだから……）"
+  },
+  {
+    "index": 2368,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（多少のワガママは、スルーしてあげよう）"
+  },
+  {
+    "index": 2375,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそう思いなおした。"
+  },
+  {
+    "index": 2380,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は細かい事は気にしない主義だし、従順な相手には優しく接するのがモットーなのだ。"
+  },
+  {
+    "index": 2479,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、そう焦るなよ」"
+  },
+  {
+    "index": 2490,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「空のメディカルケースや使用済みのＡＤがあったって事は、彼らは彼らでＡＤを入手している可能性が高いって事さ」"
+  },
+  {
+    "index": 2519,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……気遣ってくれてるの？」"
+  },
+  {
+    "index": 2548,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「優しいのね、隊長さん」"
+  },
+  {
+    "index": 2553,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "恵那の言葉に、渡瀬が顔を赤くした。"
+  },
+  {
+    "index": 2582,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なに言ってんだ。レスキュー隊として当たり前の事だ」"
+  },
+  {
+    "index": 2587,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その言葉に、洵は密かに鼻白んだ。"
+  },
+  {
+    "index": 2593,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（なにが『レスキュー隊として当たり前』だよ……記憶ソーシツのくせに）"
+  },
+  {
+    "index": 2598,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "なんだか非常に面白くなかった。"
+  },
+  {
+    "index": 2660,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵は目の前の女を見据える。"
+  },
+  {
+    "index": 2665,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "やや薄汚れてはいるが、それを差し引いても、美人の範疇に入るだろう。"
+  },
+  {
+    "index": 2671,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（ムカつくけど、綺麗な人だな……）"
+  },
+  {
+    "index": 2677,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（こんな人にはきっと、あたしの気持ちなんてわかんないんだろうな）"
+  },
+  {
+    "index": 2760,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はその人生で、男とちゃんと付き合った事がない。"
+  },
+  {
+    "index": 2765,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "背中の火傷跡を見せた事も、風見以外にはなかった。"
+  },
+  {
+    "index": 2771,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……あんな酷い姿見たら、男は引くもんね……）"
+  },
+  {
+    "index": 2776,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "学生時代に言い寄ってくる男はいたし、洵も人を好きになった事はあったが、いつも背中の傷が気持ちにブレーキをかけた。"
+  },
+  {
+    "index": 2782,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……イヤになってくるな……）"
+  },
+  {
+    "index": 2788,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（仕事中に、しかも命のかかっている現場で、こんなくだらないこと考えてるなんて）"
+  },
+  {
+    "index": 2794,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（やめよう……浮ついた気持ちじゃ、本当に命落とすから……）"
+  },
+  {
+    "index": 2801,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそう考え、思考を打ち切った。"
+  },
+  {
+    "index": 2868,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだね……今は自分の事より、あの子たちが心配だよ」"
+  },
+  {
+    "index": 2897,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば守部は、あの高校生たちと知り合いだったな」"
+  },
+  {
+    "index": 2908,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん、２回くらい話しただけだけど……」"
+  },
+  {
+    "index": 2937,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあほとんど他人じゃないか」"
+  },
+  {
+    "index": 2948,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それでも心配なものは心配なんだよ」"
+  },
+  {
+    "index": 2977,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……お前もあの高校生たちと、そう年も変わらないだろうに」"
+  },
+  {
+    "index": 3006,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「優しいんだな、守部は」"
+  },
+  {
+    "index": 3017,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「えっ……？」"
+  },
+  {
+    "index": 3028,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「な、なに言ってんの。レスキュー隊員として当たり前の事だよ」"
+  },
+  {
+    "index": 3039,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それでもなかなかできる事じゃないさ。お前は凄いよ、俺より有能だし」"
+  },
+  {
+    "index": 3050,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そ、そうかな……？」"
+  },
+  {
+    "index": 3061,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだよ。こんな事を上司が言うもんじゃないとは思うが――」"
+  },
+  {
+    "index": 3135,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺はお前みたいな奴、好きだぜ」"
+  },
+  {
+    "index": 3161,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「すっ……！？」"
+  },
+  {
+    "index": 3172,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ごめん隊長！　今なんて言ったの？」"
+  },
+  {
+    "index": 3209,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？　いやだからお前みたいな奴が好きって……」"
+  },
+  {
+    "index": 3220,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「寿司？」"
+  },
+  {
+    "index": 3251,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好きだって言ったんだよ！　何度も言わせんな！」"
+  },
+  {
+    "index": 3256,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その言葉に、洵の心は躍った。"
+  },
+  {
+    "index": 3261,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それを隠しつつ、渡瀬に言う。"
+  },
+  {
+    "index": 3272,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「は、ははっ、隊長もたまには冗談言うんだね」"
+  },
+  {
+    "index": 3303,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「冗談じゃねぇよ。本気さ」"
+  },
+  {
+    "index": 3314,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え……？」"
+  },
+  {
+    "index": 3345,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「性格や能力だけじゃない。お前の顔も好きだ」"
+  },
+  {
+    "index": 3356,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「口が悪いところも好きだ。その小さな胸が好きだ」"
+  },
+  {
+    "index": 3367,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんかもう全体的に好きだ、お前の事」"
+  },
+  {
+    "index": 3378,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「な……なに言ってんの、隊長！？」"
+  },
+  {
+    "index": 3409,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん、なにかおかしなこと言ってるか？」"
+  },
+  {
+    "index": 3440,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前は可愛いよ。こんな状況じゃなきゃ、もっと落ち着いて言えたのにな」"
+  },
+  {
+    "index": 3451,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょ、ちょっとやめて！」"
+  },
+  {
+    "index": 3456,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はなんだか怖くなってきた。"
+  },
+  {
+    "index": 3494,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "助けを求めて風見を見るが、彼女はいつのまにか、石のように固まっていた。"
+  },
+  {
+    "index": 3532,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "恵那も石になっている。ユウリは死んでいる。宇喜多は消えてなくなった。"
+  },
+  {
+    "index": 3537,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "周囲の景色も、どこか歪んでいる気がした。"
+  },
+  {
+    "index": 3575,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬は洵を見つめ、微笑みながら言う。"
+  },
+  {
+    "index": 3606,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう怯えるなよ、洵。こうして真正面から迫られるのは苦手か？」"
+  },
+  {
+    "index": 3617,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でも俺には壁を作ったって無駄だ。お前の性格はお見通しだよ」"
+  },
+  {
+    "index": 3648,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ガサツな態度も、内心のコンプレックスを隠すためだろう？」"
+  },
+  {
+    "index": 3659,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、あ……」"
+  },
+  {
+    "index": 3690,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そういうところが可愛いのさ。お前を素直にしてやりたいな」"
+  },
+  {
+    "index": 3721,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんなら今すぐ、お前の制服をむしりとって――」"
+  },
+  {
+    "index": 3782,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「やめて！　ホントにやめて！」"
+  },
+  {
+    "index": 3787,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵がそう叫んだ時――"
+  },
+  {
+    "index": 3792,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "歪んでいた景色が、元に戻った。"
+  },
+  {
+    "index": 3912,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……え？」"
+  },
+  {
+    "index": 3938,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「！？」"
+  },
+  {
+    "index": 3943,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "気付くと周りの皆が、洵を呆然と見つめていた。"
+  },
+  {
+    "index": 3978,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なんだ、いきなり『やめて』って？」"
+  },
+  {
+    "index": 4009,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「誰か何かおかしな事を言いましたか？」"
+  },
+  {
+    "index": 4020,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、い、いや……なんでもない」"
+  },
+  {
+    "index": 4031,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ごめん、なんの話してたっけ？」"
+  },
+  {
+    "index": 4062,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ＡＤの話よ、ＡＤの」"
+  },
+  {
+    "index": 4093,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こんな大事な時に、ぼーっとしてるなんて……大丈夫なの、あなた？」"
+  },
+  {
+    "index": 4104,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、あはは、ごめんごめん。なんでもないよ」"
+  },
+  {
+    "index": 4187,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそう取り繕ったが――"
+  },
+  {
+    "index": 4192,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "心臓はバクバクと鳴っていた。"
+  },
+  {
+    "index": 4198,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（な、なんだったんだろ、今の……）"
+  },
+  {
+    "index": 4304,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（白昼夢……？　疲労で頭がぼーっとしてたの……？）"
+  },
+  {
+    "index": 4310,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（いや夢にしても、隊長にあんな風に迫られるなんて……）"
+  },
+  {
+    "index": 4316,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……まさか、あれ……あたしの願望……！？）"
+  },
+  {
+    "index": 4321,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵はそこまで考え、思考を切り替えた。"
+  },
+  {
+    "index": 4327,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（違う違う！　そんなわけない！）"
+  },
+  {
+    "index": 4469,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（あんなわけわかんない夢に、気を取られてちゃダメだ！）"
+  },
+  {
+    "index": 4475,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（あたしの役目は人命救助なんだから）"
+  },
+  {
+    "index": 4481,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（今はそれだけ考えてればいいんだから……！）"
+  },
+  {
+    "index": 4534,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "――その記憶を見終えた夏彦は、思った。"
+  },
+  {
+    "index": 4540,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（洵さんに、こんなコンプレックスが……！？）"
+  },
+  {
+    "index": 4546,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、これはあくまで捏造された記憶だ。もっと自信が持てるよう、感情を調整しよう）"
+  },
+  {
+    "index": 4552,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それと、先生や渡瀬に対する感情も調整しなきゃまずいか……）"
+  },
+  {
+    "index": 4583,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――その記憶を見終えた夏彦は、思った。"
+  },
+  {
+    "index": 4589,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……こ、これはコメントしにくい……）"
+  },
+  {
+    "index": 4595,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（というか改竄ぶりがひどすぎて、どこから手をつければいいのかわからないぞ）"
+  },
+  {
+    "index": 4601,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（えぇと、たしかこの時、現実では……渡瀬に感謝したり、先生と仲直りしたりしてたから――）"
+  },
+  {
+    "index": 4607,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それを考慮して、感情を調整すればいいのかな……？）"
+  }
+]

@@ -1,0 +1,836 @@
+[
+  {
+    "index": 46,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Current Chapter2"
+  },
+  {
+    "index": 59,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが何一つ成果を得られぬまま、渡瀬の捜索は続き――"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして宇喜多と合流することも、有益な成果も得られぬまま、渡瀬たちの捜索は続き――"
+  },
+  {
+    "index": 122,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて『資料室』という部屋に着いた。"
+  },
+  {
+    "index": 127,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が本棚の１つに眼を向けると、そこにぎっしりと書籍や論文が並んでいる。"
+  },
+  {
+    "index": 132,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『情報力場仮説入門／著：天川美夜子』"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『素粒子・情報・意識／著：天川美夜子』"
+  },
+  {
+    "index": 142,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『超感覚知覚同期仮説／著：アントワーヌ・クールベ　訳：天川美夜子』"
+  },
+  {
+    "index": 147,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『大脳　～迷宮の生理学～／著：柏木鍄兼』"
+  },
+  {
+    "index": 152,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『擬似科学からの脱却　～超心理学の未来と展望～／著：隅田高貴』"
+  },
+  {
+    "index": 157,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『Ｂｅｆｏｒｅ　Ｃｒｉｍｅ　＊　Ａｆｔｅｒ Ｄａｙｓ／著：苑村千薗』"
+  },
+  {
+    "index": 162,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『粒子と心、そして脳／著：江里口秀也』"
+  },
+  {
+    "index": 168,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ずいぶん母さんの書籍があるみたいだけど――）"
+  },
+  {
+    "index": 174,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『情報力場』とか『超感覚知覚同期』とか、母さんは何の研究をしてるんだ？）"
+  },
+  {
+    "index": 180,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これも原子力研究の一貫なのか……？）"
+  },
+  {
+    "index": 185,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "すると夏彦の意識が影響を与えたのか、渡瀬が『情報力場仮説入門／著：天川美夜子』を手に取った。"
+  },
+  {
+    "index": 229,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『情報力場仮説入門』"
+  },
+  {
+    "index": 232,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 235,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "＜序文＞"
+  },
+  {
+    "index": 238,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "現代物理学においては、自然を形作っている現象を、４種類の力で全て説明できる。"
+  },
+  {
+    "index": 241,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかし、宇宙の加速膨張など、４つの力だけでは説明のつかない現象がある。"
+  },
+  {
+    "index": 244,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "近年の高精度の観測により、膨張速度が時間とともに加速していることは明白であった。"
+  },
+  {
+    "index": 247,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこで、ダークエネルギーという未知のエネルギー（重力に対する斥力）を仮定する考え方がある。"
+  },
+  {
+    "index": 250,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "仮にダークエネルギーが存在するとしたら、それは何なのか？"
+  },
+  {
+    "index": 253,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "様々な説が考え出されたが、それらは全て推測の域を出ていなかった。"
+  },
+  {
+    "index": 257,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　%N"
+  },
+  {
+    "index": 260,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこで私は素粒子物理学者としての観点から、その力を探り続け、そして１つの仮説を立てた。"
+  },
+  {
+    "index": 263,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは『情報』であると。"
+  },
+  {
+    "index": 266,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "第５の力が存在するとしたら、それは『情報』である可能性が高い。"
+  },
+  {
+    "index": 269,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "情報量がエネルギーと等価であることを数式で表し、%Nそこから値を導き出した結果、"
+  },
+  {
+    "index": 272,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは宇宙の膨張速度の数値と見事に一致したのである。"
+  },
+  {
+    "index": 275,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "即ち――"
+  },
+  {
+    "index": 302,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ダークエネルギー……？）"
+  },
+  {
+    "index": 308,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（よくわからないけど、母さんはその正体が『情報』だって考えてるみたいだな）"
+  },
+  {
+    "index": 314,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そういや椿山先生も授業の中で、『情報もエネルギーの一種』だって言ってたっけ）"
+  },
+  {
+    "index": 320,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でもこの論文って、結局何のことを言ってるんだ……？）"
+  },
+  {
+    "index": 364,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――この理論に基づくと、以下の推察が成り立つ。"
+  },
+  {
+    "index": 367,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 370,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "・情報はそれ自体でも独立して存在でき、%N　他の力を介さずに相互作用（伝達）が可能である。"
+  },
+  {
+    "index": 373,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "・例えば人間の思考も一種の『情報』であるため、%N　他の媒体（電気信号など）に変換せずとも、"
+  },
+  {
+    "index": 376,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "　他者とコミュニケーションできる。"
+  },
+  {
+    "index": 379,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 382,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "若干極端な表現を用いてはいるが、これが『情報力場仮説』の骨子である。"
+  },
+  {
+    "index": 385,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "情報力場とは、（第５の力・エネルギーとしての）『情報』が働いている場の事である。"
+  },
+  {
+    "index": 388,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "人間の脳を例にとって考えれば、思考情報によって生じる『情報力場』とは、即ち『意識』の事なのかもしれない。"
+  },
+  {
+    "index": 398,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『意識』の発生過程については、未だ明確な答えが出ていない。"
+  },
+  {
+    "index": 401,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ただ、『無数の記憶』＝『情報の断片』と、%N『シナプスを走る電気信号』が相互に作用し、"
+  },
+  {
+    "index": 404,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "脳内に意識を生じさせるのだという事しかわからない。"
+  },
+  {
+    "index": 407,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかしこの仮説に基づいて考えれば、それについても１つの推察が成り立つ。"
+  },
+  {
+    "index": 410,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "情報が独立して存在しうるのであれば、意識は必ずしも脳の中に発生するとは限らない。"
+  },
+  {
+    "index": 413,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "一定の情報量が場に集積し、相互作用を起こせば、意識はそこに生まれ得る。"
+  },
+  {
+    "index": 416,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "さらに言うと、情報をコントロールする事ができるならば――"
+  },
+  {
+    "index": 419,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "人工的に『意識を作る』事も、可能なのである。"
+  },
+  {
+    "index": 446,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（人工的に『意識を作る』だって……！？）"
+  },
+  {
+    "index": 452,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そんな研究、原子力科学と関係があるようには思えない……）"
+  },
+  {
+    "index": 458,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、違うのか？）"
+  },
+  {
+    "index": 464,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（確かこのラボの正式名称は、『原子力生物学機構第６研究所』だ）"
+  },
+  {
+    "index": 470,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（母さんは『原子力』じゃなくて、『生物学』の方の研究をしていたのか……？）"
+  },
+  {
+    "index": 514,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "……以上、『情報力場仮説』の中で展開した様々な説は、未だ証明はできていない。"
+  },
+  {
+    "index": 517,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかしその仮説は、私自身が全く予想もしなかった形で、再評価される事となった。"
+  },
+  {
+    "index": 520,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "近年、急速に起きた社会の大変革によって。"
+  },
+  {
+    "index": 523,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "即ち、『ＢＣ』の発現である。"
+  },
+  {
+    "index": 527,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ここ数年の間に、『ＢＣ』という能力は、社会に広く認知された。"
+  },
+  {
+    "index": 530,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それにより『情報』のありかたとその伝達法に対する考え方は、%N大きな変容を遂げたといえる。"
+  },
+  {
+    "index": 533,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして我々は、それ以前では考えられないような能力を持つ者を、数え切れないほど見てきた。"
+  },
+  {
+    "index": 536,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『ＢＣ』に分類される能力は、大きく分けて２つである。"
+  },
+  {
+    "index": 539,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 542,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "１つは、他者の心に直接声を投げかける『テレパシー』。"
+  },
+  {
+    "index": 545,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "もう１つは、他者の心の声を聞く『エンパシー』。"
+  },
+  {
+    "index": 548,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　"
+  },
+  {
+    "index": 551,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "極めてわかりやすい言い方をするならば、%Nこの２つの能力はそれぞれそのように説明できる。"
+  },
+  {
+    "index": 561,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ＢＣの使用時、使用者は『思考情報』を、他の媒体に変換する事はない。"
+  },
+  {
+    "index": 564,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "素粒子を媒介に、直接対象者の脳に送り込み、コミュニケーションする。"
+  },
+  {
+    "index": 567,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "これは『情報力場仮説』内で、私が提唱した事と一致する。"
+  },
+  {
+    "index": 570,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ＢＣ＝超心理学と、素粒子物理学という、全く無関係な２つの学問が、ここで繋がったのである。"
+  },
+  {
+    "index": 580,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "なおテレパシーの使用者はまだ少なく、エンパシーの使用者はさらに稀だ。"
+  },
+  {
+    "index": 583,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "しかし実数の多寡は、事の重要性を左右しない。"
+  },
+  {
+    "index": 586,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "エンパシーと言う能力が、実在する事。"
+  },
+  {
+    "index": 589,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『心の声』という、それまで本人しか知りえなかった『情報』を、観測できる存在が現れた事。"
+  },
+  {
+    "index": 592,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それこそが２１世紀に起きた最初の、そして最大のパラダイムシフトなのである。"
+  },
+  {
+    "index": 620,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここで急に、ＢＣの話が出てきた……）"
+  },
+  {
+    "index": 626,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『意識を作る』『原子力』『生物学』『ＢＣ』……この４つに、なんの接点が……？）"
+  },
+  {
+    "index": 631,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそんな疑問を抱いた時――渡瀬が声を上げた。"
+  },
+  {
+    "index": 688,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『人の心を読む能力』だと……！？」"
+  },
+  {
+    "index": 718,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「せ、先生……ここに書いてある事は、本当か？」"
+  },
+  {
+    "index": 747,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  {
+    "index": 758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この、エンパシーって能力は……本当にあるのか？」"
+  },
+  {
+    "index": 787,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え、ええ。言っていなかったかしら」"
+  },
+  {
+    "index": 798,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「『ＢＣは離れたところにいる人と、意思を伝え合う能力』と言ったわよね」"
+  },
+  {
+    "index": 827,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「相手に心の声を伝えるだけではなくて、読み取る事もできるの」"
+  },
+  {
+    "index": 838,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  {
+    "index": 887,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "とたんに渡瀬の心の中に、様々な疑問が沸き上がってくる。"
+  },
+  {
+    "index": 917,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『なぜユウリは姿を消したのか？』"
+  },
+  {
+    "index": 955,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『なぜサリュは逃げたのか？』"
+  },
+  {
+    "index": 1041,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『なぜ３名の要救助者は、未だに見つかっていないのか？』"
+  },
+  {
+    "index": 1046,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして渡瀬が最も強く思ったのは――"
+  },
+  {
+    "index": 1315,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "《もしあの子どもたちに、人の心を読む力があるんだとしたら……》"
+  },
+  {
+    "index": 1316,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬"
+  },
+  {
+    "index": 1317,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "《もしあの子どもたちに、人の心を読む力があるんだとしたら……》"
+  },
+  {
+    "index": 1334,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "《子どもたちが逃げるのは……"
+  },
+  {
+    "index": 1336,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "オレたちの中に、彼らへの悪意を持った"
+  },
+  {
+    "index": 1338,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "人間がいるからなんじゃないのか……！》"
+  },
+  {
+    "index": 1339,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬"
+  },
+  {
+    "index": 1340,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "《子どもたちが逃げるのは……オレたちの中に、彼らへの悪意を持った人間がいるからなんじゃないのか……！》"
+  },
+  {
+    "index": 1369,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ――！）"
+  },
+  {
+    "index": 1374,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬がたどり着きつつある結論に、夏彦は驚愕した。"
+  },
+  {
+    "index": 1379,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ユウリと名乗ったあの少女が、コミュニケーターである可能性は非常に高い。"
+  },
+  {
+    "index": 1384,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてユウリとサリュが、『悪意を持った人間』から逃げているというのも、おそらく正解だ。"
+  },
+  {
+    "index": 1389,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "あと足りないのは、渡瀬自身が『悪意を持った人間』であるという自覚だけだった。"
+  },
+  {
+    "index": 1395,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まずい！　もし渡瀬がその事を自覚してしまったら――！）"
+  },
+  {
+    "index": 1511,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《コミュニケーターは人間じゃない、"
+  },
+  {
+    "index": 1513,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "心を侵食する怪物だ》"
+  },
+  {
+    "index": 1514,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 1515,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《コミュニケーターは人間じゃない、心を侵食する怪物だ》"
+  },
+  {
+    "index": 1530,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《これは怪物退治だ……！"
+  },
+  {
+    "index": 1532,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　やらなければやられるぞ……！》"
+  },
+  {
+    "index": 1533,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 1534,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《これは怪物退治だ……！　やらなければやられるぞ……！》"
+  },
+  {
+    "index": 1549,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "《殺せ、殺せ、殺せ、殺せ、殺せ、"
+  },
+  {
+    "index": 1551,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "殺せ、殺せ、殺せ、殺せ…………》"
+  },
+  {
+    "index": 1552,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "渡瀬"
+  },
+  {
+    "index": 1553,
+    "code": "0x86",
+    "developer_comment": "夏彦",
+    "string": "《殺せ、殺せ、殺せ、殺せ、殺せ、殺せ、殺せ、殺せ、殺せ…………》"
+  },
+  {
+    "index": 1581,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "あのとき渡瀬の中で見た憎悪と殺意の光景が、まざまざと夏彦の意識に甦る。"
+  },
+  {
+    "index": 1650,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ！　今すぐ渡瀬の記憶を何とかしないと！）"
+  },
+  {
+    "index": 1655,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが、夏彦が渡瀬の記憶に干渉しようとした瞬間、"
+  },
+  {
+    "index": 1742,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ぐっ……うぅ……！」"
+  },
+  {
+    "index": 1747,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "強烈な頭痛が渡瀬を襲った。"
+  },
+  {
+    "index": 1838,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、なんで！？　ぼくはまだ何も――！？）"
+  },
+  {
+    "index": 1856,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "思わぬ事態に、夏彦が慌てて意識の集中を解くと――"
+  },
+  {
+    "index": 1910,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬は資料室から飛び出して、近くのトイレに駆け込んでいた。"
+  },
+  {
+    "index": 1936,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そのとき恵那が、渡瀬の異変に気付く。"
+  },
+  {
+    "index": 1947,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どうしたの、隊長さん！？」"
+  },
+  {
+    "index": 1958,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや……急に気分が……！」"
+  },
+  {
+    "index": 1987,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え！？　大丈夫！？」"
+  },
+  {
+    "index": 1998,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わ、悪い……トイレに行って来る……！」"
+  },
+  {
+    "index": 2009,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生は、ここで待っててくれ……！」"
+  },
+  {
+    "index": 2038,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ちょ、ちょっと隊長さん！？」"
+  },
+  {
+    "index": 2093,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "だが渡瀬は恵那の声を振り切って、資料室から飛び出し――"
+  },
+  {
+    "index": 2098,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "――そのまま近くのトイレに駆け込んでいた。"
+  }
+]

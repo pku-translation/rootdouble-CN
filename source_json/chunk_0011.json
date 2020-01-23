@@ -1,0 +1,470 @@
+[
+  {
+    "index": 51,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter1"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と風見、そしてユウリは、さっそく第３エリア内周棟の捜索を開始した。"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――まずは手近な部屋へ駆け込む。"
+  },
+  {
+    "index": 129,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは大きめの研究室だった。"
+  },
+  {
+    "index": 134,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "奥の方には、休憩所か詰め所、あるいは会議室のようなスペースもある。"
+  },
+  {
+    "index": 163,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では捜索開始！　時間は１分でお願いします！」"
+  },
+  {
+    "index": 174,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ！」"
+  },
+  {
+    "index": 204,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は、はい！」"
+  },
+  {
+    "index": 263,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "渡瀬たちは手分けして、その部屋を探した。"
+  },
+  {
+    "index": 268,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "要救助者とメディカルボックスはそこにはなかったが――代わりに気になるものを見つけた。"
+  },
+  {
+    "index": 280,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ん？）"
+  },
+  {
+    "index": 285,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "それは部屋に落ちていたメモパッドだった。"
+  },
+  {
+    "index": 290,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこにはこう走り書きされている。"
+  },
+  {
+    "index": 328,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　%N　%N　%N　%N"
+  },
+  {
+    "index": 331,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『９月１８日　消火システム点検』"
+  },
+  {
+    "index": 334,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 337,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "点検担当者（竹下・浦辺・美園）は、%N１３：００にエンジンルームに集合。"
+  },
+  {
+    "index": 340,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "※点検前は、必ずシステムを手動で停止の事"
+  },
+  {
+    "index": 372,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……消火システム？　点検って、まさかこれのせいで停止してるのか？」"
+  },
+  {
+    "index": 377,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見が駆け寄ってきて、メモを覗き込む。"
+  },
+  {
+    "index": 442,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いや、日付が違います。今日は９月１６日ですが――」"
+  },
+  {
+    "index": 471,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかしこの『エンジンルーム』というところに行けば、消火システム停止の原因もわかるかもしれません」"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「場所はわかるか？」"
+  },
+  {
+    "index": 493,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「存じません。今後の捜索で見つかればよいのですが」"
+  },
+  {
+    "index": 498,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "しかしその情報を得た事は、わずかながら前進のように思えた。"
+  },
+  {
+    "index": 509,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、次に行こう！」"
+  },
+  {
+    "index": 514,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちはきっかり１分でその部屋の捜索を切り上げ、次に向かった。"
+  },
+  {
+    "index": 562,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "通路に出て、またすぐ傍の部屋へ。"
+  },
+  {
+    "index": 621,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそこは普通の部屋ではなく、エレベーターホールのようだった。"
+  },
+  {
+    "index": 626,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "要救助者などの姿はない。そしてエレベーターのランプは全て消えていた。"
+  },
+  {
+    "index": 691,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第１・第２エリアもそうでしたから、このラボのエレベーターは全機止まっているようですね」"
+  },
+  {
+    "index": 721,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あの、エレベーターシャフトを通って、地上に出る事は……？」"
+  },
+  {
+    "index": 750,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「残念ながらシャフト内にも、地上に続く部位には隔壁があります」"
+  },
+  {
+    "index": 761,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それも放射能漏洩防止システムの一環か……！」"
+  },
+  {
+    "index": 766,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちは動かないエレベーターを諦め、そこを後にした。"
+  },
+  {
+    "index": 809,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "次に、第４エリアへ続く連絡通路へ。"
+  },
+  {
+    "index": 857,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがその通路は、瓦礫の山で埋まっていた。"
+  },
+  {
+    "index": 868,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この瓦礫……メルトダウン前に起きてたっていう、爆発の影響か？」"
+  },
+  {
+    "index": 933,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「恐らくそうです」"
+  },
+  {
+    "index": 963,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……通れそうにないですね」"
+  },
+  {
+    "index": 968,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "せっかくレベル４のカードがあっても、これでは意味がない。"
+  },
+  {
+    "index": 973,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "第４エリアへ行くには、別の通路を見つける必要がありそうだ。"
+  },
+  {
+    "index": 1002,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ここにいても無意味です、次に行きましょう！」"
+  },
+  {
+    "index": 1045,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬たちは第３エリアに戻り、次はＮエリア方面に向かった。"
+  },
+  {
+    "index": 1088,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "Ｎエリアに通じる通路――。"
+  },
+  {
+    "index": 1093,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "扉のすぐ横にセキュリティ端末が付いている。"
+  },
+  {
+    "index": 1098,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "端末に表示されている文字は――『Ｌｖ．Ｎ』と書かれていた。"
+  },
+  {
+    "index": 1109,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「レベルエヌ……？」"
+  },
+  {
+    "index": 1174,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「どうやらＮエリアに入るためには、特別なカードが必要らしいですね」"
+  },
+  {
+    "index": 1179,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "Ｎエリアはこのラボで、最もセキュリティレベルの高い場所なのかもしれない。"
+  },
+  {
+    "index": 1184,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "だがこの向こうで起きている火災のせいで、隔壁の開放が遅れているという。"
+  },
+  {
+    "index": 1195,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……何とかＮエリアに入って、火災を止められないかな？」"
+  },
+  {
+    "index": 1224,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「なに言ってるんですか！　それは危険過ぎます！」"
+  },
+  {
+    "index": 1253,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「たとえ鎮火することが出来たとしても、致死的被曝はまぬがれないでしょう」"
+  },
+  {
+    "index": 1264,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか、クソっ……！」"
+  },
+  {
+    "index": 1300,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が試しに、プロキオンをゲートに近づけてみると――"
+  },
+  {
+    "index": 1317,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なっ！？」"
+  },
+  {
+    "index": 1322,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ディスプレイに表示された数値が、一気に上昇し始めた。"
+  },
+  {
+    "index": 1333,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「に、『２４０６ｍＳｖ』だと！？」"
+  },
+  {
+    "index": 1369,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「一気に１０００近くも――！」"
+  },
+  {
+    "index": 1405,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「危険です、お下がり下さい！！」"
+  },
+  {
+    "index": 1416,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、ああ！」"
+  },
+  {
+    "index": 1481,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちは慌てて飛び下がる。"
+  },
+  {
+    "index": 1486,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "するとプロキオンの数値は元に戻った。"
+  },
+  {
+    "index": 1497,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ゲート越しでも、こんな有様かよ……！」"
+  },
+  {
+    "index": 1526,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……鉛などでできたゲートであれば、放射線は完全に遮断できるはずなのですが……」"
+  },
+  {
+    "index": 1537,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「周囲の壁や天井などに、破損部があるのかもしれませんね」"
+  },
+  {
+    "index": 1542,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "ゲートがいくら頑丈でも、他の場所に隙間がある可能性はある。"
+  },
+  {
+    "index": 1547,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "肉眼ではわからないが、そこから死の灰や放射線が漏れて――"
+  },
+  {
+    "index": 1558,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なるほど、徐々に数値が上昇していくわけだ」"
+  },
+  {
+    "index": 1587,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いずれにせよこのゲートの向こうに、溶融した原子炉があるのは間違いないですね」"
+  },
+  {
+    "index": 1592,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "猛火と放射線の渦巻く、死のエリア。"
+  },
+  {
+    "index": 1597,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "ゲートが閉まっていてもこうなのだから、これを開ければどれほどの放射線に襲われるのか見当もつかない。"
+  },
+  {
+    "index": 1603,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（確かにここに入るなど、自殺行為だな……）"
+  },
+  {
+    "index": 1608,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "固唾を呑む渡瀬に、風見が言う。"
+  },
+  {
+    "index": 1619,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長、ともかくこれで内周棟の捜索は終わりです。外周棟を手伝いましょう」"
+  },
+  {
+    "index": 1630,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……あぁ」"
+  },
+  {
+    "index": 1635,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちはうなずき合い、外周棟に向けて駆け出した。"
+  }
+]

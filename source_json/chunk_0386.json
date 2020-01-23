@@ -1,0 +1,956 @@
+[
+  {
+    "index": 53,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Double Chapter6"
+  },
+  {
+    "index": 65,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――――"
+  },
+  {
+    "index": 70,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  {
+    "index": 75,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――"
+  },
+  {
+    "index": 80,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――やがて、白い闇の中に……"
+  },
+  {
+    "index": 111,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幻影が浮かび上がった。"
+  },
+  {
+    "index": 116,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幼い凪沙の後姿が、遠くに見える。"
+  },
+  {
+    "index": 121,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どこかで風見の声が響いた。"
+  },
+  {
+    "index": 137,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "《凪沙！　待って、行っちゃだめ！》"
+  },
+  {
+    "index": 148,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "《そっちはダメなの！　戻ってこられなくなるのよ！》"
+  },
+  {
+    "index": 154,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これは……橘さんの夢……？）"
+  },
+  {
+    "index": 159,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は風見の五感を通じ、同じ夢を見ていた。"
+  },
+  {
+    "index": 184,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "やがて凪沙は振り返り――"
+  },
+  {
+    "index": 245,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "風見に、微笑みかけた。"
+  },
+  {
+    "index": 353,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――凪沙！」"
+  },
+  {
+    "index": 358,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そこで風見は、目を覚ました。"
+  },
+  {
+    "index": 408,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「なぁに、お姉ちゃん？」"
+  },
+  {
+    "index": 463,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "凪沙が風見を見下ろしていた。"
+  },
+  {
+    "index": 474,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……凪沙……」"
+  },
+  {
+    "index": 479,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見は安堵し、そう呟く。"
+  },
+  {
+    "index": 490,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「大丈夫？　少し、うなされてたみたいだったけど……」"
+  },
+  {
+    "index": 501,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……夢を見ていたわ」"
+  },
+  {
+    "index": 512,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「夢？」"
+  },
+  {
+    "index": 523,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そう、あなたがどこか遠くに行ってしまう夢……」"
+  },
+  {
+    "index": 534,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「とても悲しい夢だった」"
+  },
+  {
+    "index": 545,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「そう……」"
+  },
+  {
+    "index": 556,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「でもね、お姉ちゃん？　安心して」"
+  },
+  {
+    "index": 567,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「私は、ここにいるよ」"
+  },
+  {
+    "index": 578,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうね……」"
+  },
+  {
+    "index": 583,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見は凪沙に微笑みかけた。"
+  },
+  {
+    "index": 594,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたはいつも私と、一緒にいてくれたわね」"
+  },
+  {
+    "index": 605,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私たちは、ずっと一緒だった……」"
+  },
+  {
+    "index": 610,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の目の端に、涙が浮かぶ。"
+  },
+  {
+    "index": 621,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「たとえ、あなたが――」"
+  },
+  {
+    "index": 632,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「もう、死んでしまっていたとしても……！」"
+  },
+  {
+    "index": 658,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「っ……」"
+  },
+  {
+    "index": 663,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "その言葉に、凪沙は微笑を返した。"
+  },
+  {
+    "index": 810,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「なぁんだ、気付いてたの？」"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……えぇ」"
+  },
+  {
+    "index": 832,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いま見ているのが、夢だって事……」"
+  },
+  {
+    "index": 843,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「現実には、凪沙がいないという事……」"
+  },
+  {
+    "index": 872,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「……そうだね」"
+  },
+  {
+    "index": 877,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "風見は凪沙を見つめて言う。"
+  },
+  {
+    "index": 888,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それでも会えて、嬉しかったわ」"
+  },
+  {
+    "index": 917,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「私もだよ、お姉ちゃん」"
+  },
+  {
+    "index": 928,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「ずっとずっと会いたかったから……」"
+  },
+  {
+    "index": 951,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "凪沙はそこで、少し黙り――"
+  },
+  {
+    "index": 956,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "それから静かに呟いた。"
+  },
+  {
+    "index": 985,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「閉じ込められたばかりの頃ね、私一度だけ、お姉ちゃんに会おうと思って……」"
+  },
+  {
+    "index": 996,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「ラボを脱走しようとしたんだ」"
+  },
+  {
+    "index": 1007,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え……？」"
+  },
+  {
+    "index": 1037,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「でも、すぐにケースＮが発令されて、脱走に失敗しちゃって……」"
+  },
+  {
+    "index": 1048,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「しかも２人の子供が巻き込まれて、その子たちも……遺伝子変異を起こしちゃったの」"
+  },
+  {
+    "index": 1059,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……それって……」"
+  },
+  {
+    "index": 1070,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「天川くんと、悠里さんの……！」"
+  },
+  {
+    "index": 1099,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「……だからね、お姉ちゃん」"
+  },
+  {
+    "index": 1110,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「あの２人を憎まないで」"
+  },
+  {
+    "index": 1121,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「渡瀬さんの事も、誰の事も」"
+  },
+  {
+    "index": 1132,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「悪いのは、あの人たちじゃないんだから……」"
+  },
+  {
+    "index": 1138,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  {
+    "index": 1149,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……そうね……そうよね……」"
+  },
+  {
+    "index": 1154,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見が言うと、凪沙は寂しげに微笑んだ。"
+  },
+  {
+    "index": 1255,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「……それじゃそろそろ、お別れの時間だよ」"
+  },
+  {
+    "index": 1266,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……凪沙」"
+  },
+  {
+    "index": 1277,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「そんなに悲しい顔をしないで？」"
+  },
+  {
+    "index": 1288,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「私はいなくなったけど、お姉ちゃんの記憶の中に生きているよ」"
+  },
+  {
+    "index": 1299,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「だから思い出せば、いつでも会える……」"
+  },
+  {
+    "index": 1310,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「お姉ちゃんが覚えていてくれる限り、私はずっとお姉ちゃんと一緒だよ」"
+  },
+  {
+    "index": 1321,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ……わかってる」"
+  },
+  {
+    "index": 1332,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「忘れないわ。あなたが私と一緒にいてくれた事……ずっとずっと、忘れないわ」"
+  },
+  {
+    "index": 1343,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「うん……」"
+  },
+  {
+    "index": 1349,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "凪沙はそう言って、風見の頬に触れた。"
+  },
+  {
+    "index": 1360,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「ありがとう、お姉ちゃん」"
+  },
+  {
+    "index": 1430,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "――――――"
+  },
+  {
+    "index": 1435,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "――――"
+  },
+  {
+    "index": 1440,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "――そして、夢は覚めた。"
+  },
+  {
+    "index": 1524,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "……例の頭痛と、脳を揺さぶられるような不快感は、今回は不思議となかった。"
+  },
+  {
+    "index": 1529,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "やがて五感も、静かに回復していく。"
+  },
+  {
+    "index": 1534,
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "戻ってきた聴覚に聞こえたのは、悠里のすすり泣く声……。"
+  },
+  {
+    "index": 1545,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん……！」"
+  },
+  {
+    "index": 1556,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、あの子が消えちゃった……」"
+  },
+  {
+    "index": 1591,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "そして戻ってきた視覚がとらえたのは――"
+  },
+  {
+    "index": 1616,
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "気絶し、ゆっくりと倒れていく、風見の姿だった。"
+  },
+  {
+    "index": 1678,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――風見！」"
+  },
+  {
+    "index": 1683,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が風見に駆け寄った。"
+  },
+  {
+    "index": 1747,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "床に倒れる直前で、しっかりと抱きとめる。"
+  },
+  {
+    "index": 1758,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「風見！　風見！」"
+  },
+  {
+    "index": 1763,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が何度も彼女の名を呼ぶ。"
+  },
+  {
+    "index": 1794,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦……？」"
+  },
+  {
+    "index": 1799,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "戸惑いの声を上げるましろに、夏彦は答えた。"
+  },
+  {
+    "index": 1810,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……終わったんだよ」"
+  },
+  {
+    "index": 1821,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悪意は、消えた……」"
+  },
+  {
+    "index": 1856,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がそう言った時、風見が目を開けた。"
+  },
+  {
+    "index": 1867,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「渡瀬……」"
+  },
+  {
+    "index": 1903,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「お、お姉ちゃん……？」"
+  },
+  {
+    "index": 1908,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "不安そうに洵が尋ねると、風見は優しい声で言った。"
+  },
+  {
+    "index": 1945,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「洵……心配をかけたわね」"
+  },
+  {
+    "index": 1974,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「お姉ちゃん！！」"
+  },
+  {
+    "index": 2047,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵が泣きながら、風見に抱きつく。"
+  },
+  {
+    "index": 2052,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "風見は洵の頭を、そっと撫でた。"
+  },
+  {
+    "index": 2063,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「良かったぁ！　良かったぁ……！」"
+  },
+  {
+    "index": 2074,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ごめんね……本当に、心配かけて……」"
+  },
+  {
+    "index": 2079,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見は洵に囁き、それから渡瀬に続けた。"
+  },
+  {
+    "index": 2109,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ごめんなさい、渡瀬……あなたを何度も傷つけてしまったわ」"
+  },
+  {
+    "index": 2138,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや……あれは受けるべき痛みだ」"
+  },
+  {
+    "index": 2167,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もちろんあの程度で、俺の罪が償えるとは思えないが……」"
+  },
+  {
+    "index": 2196,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いいのよ……本当に、もういいの」"
+  },
+  {
+    "index": 2207,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたは、このラボに幽閉されていた被験体たちを、助けようとしてくれた」"
+  },
+  {
+    "index": 2236,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「凪沙を救い出そうとしてくれた……」"
+  },
+  {
+    "index": 2247,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それが叶わなかったとしても……私はあなたを責める事なんかできない」"
+  },
+  {
+    "index": 2271,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  {
+    "index": 2282,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私はあなたと、似た人生をたどって来たんだから」"
+  },
+  {
+    "index": 2293,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたの気持ちは、誰よりもわかるから……」"
+  },
+  {
+    "index": 2366,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そう呟く風見を、渡瀬は無言で抱きしめた。"
+  },
+  {
+    "index": 2371,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "２人とも、それ以上、何も言わなかった……。"
+  },
+  {
+    "index": 2428,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そして、全てが終わった後に――"
+  },
+  {
+    "index": 2433,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬は夏彦に、歩み寄って言った。"
+  },
+  {
+    "index": 2512,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ありがとうな、夏彦。風見の記憶を消さないでくれて」"
+  },
+  {
+    "index": 2523,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、当然だよ……ぼくも橘さんの記憶を消さずに良かったと思ってる」"
+  },
+  {
+    "index": 2534,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……そうだよな」"
+  },
+  {
+    "index": 2563,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……正直なところ、俺は今までお前を恐れていた。他人の記憶を自在に操作できる、怪物のような存在だって……」"
+  },
+  {
+    "index": 2574,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……無理もないさ」"
+  },
+  {
+    "index": 2603,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だけどお前は、その能力を濫用する事はなかった。痛みに耐えながらも、人を救うためだけに使っていた……」"
+  },
+  {
+    "index": 2614,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それでようやく、俺も理解できたよ。お前は怪物なんかじゃない」"
+  },
+  {
+    "index": 2643,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前は……俺たちと変わらない、『人間』だ」"
+  },
+  {
+    "index": 2648,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その言葉は、夏彦の心を揺らした。"
+  },
+  {
+    "index": 2653,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "前に夏彦は、渡瀬の中の被験体Ｎに言われた。"
+  },
+  {
+    "index": 2720,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『人外の能力を行使し、他者を踏みにじる存在を、なんていうか知ってるか？　怪物って言うんだよ』と。"
+  },
+  {
+    "index": 2725,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "あれがずっと引っかかっていた。"
+  },
+  {
+    "index": 2789,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だけど渡瀬の言葉を聞き、夏彦の心にかかっていた暗い雲が、ようやく晴れた気がした。"
+  },
+  {
+    "index": 2794,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "顔をほころばせる夏彦の前で、しかし渡瀬が表情を曇らせる。"
+  },
+  {
+    "index": 2823,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……それに比べ、俺は馬鹿野郎だ」"
+  },
+  {
+    "index": 2834,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  {
+    "index": 2900,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「夏彦……風見の記憶を消さないでくれて、ありがとう」"
+  },
+  {
+    "index": 2911,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや……当然だよ」"
+  },
+  {
+    "index": 2922,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ぼくも、橘さんの記憶を消さずに良かったと思ってる」"
+  },
+  {
+    "index": 2933,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さっきの言葉を聞けたから」"
+  },
+  {
+    "index": 2962,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……？」"
+  },
+  {
+    "index": 2973,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「橘さんの言葉を聞いて、思い出したんだ」"
+  },
+  {
+    "index": 2984,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前は、テロリストだけど――被験体を助けるために、今回の計画を実行したんだもんな？」"
+  },
+  {
+    "index": 3013,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、まぁな……」"
+  },
+  {
+    "index": 3024,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくが悠里に会えたのは、お前のおかげなんだ……」"
+  },
+  {
+    "index": 3035,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だから、だからさ……」"
+  },
+  {
+    "index": 3046,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「礼を、言わせてもらうよ！　ありがとうって！」"
+  },
+  {
+    "index": 3070,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は渡瀬に、手を差し伸べた。"
+  },
+  {
+    "index": 3094,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬が苦笑して、その手を握る。"
+  },
+  {
+    "index": 3105,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「礼を言われる資格はないさ。お前のためにやったわけでもない」"
+  },
+  {
+    "index": 3116,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……そうだろうな」"
+  },
+  {
+    "index": 3121,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬の手は熱かった。"
+  },
+  {
+    "index": 3126,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その手に触れたとき、ようやく夏彦を縛り付けていた、渡瀬への敵意が解けた気がした。"
+  },
+  {
+    "index": 3131,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが――やがて渡瀬が、重い声で言う。"
+  },
+  {
+    "index": 3162,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁ、夏彦……お前に言わなきゃならない事がある」"
+  },
+  {
+    "index": 3191,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「Ｚｅｒｏエリアに降りてわかったんだ。俺たちは取り返しのつかない事をしたんだって」"
+  },
+  {
+    "index": 3202,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……？　なんの話だ？」"
+  },
+  {
+    "index": 3237,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「例の爆弾の事だ」"
+  },
+  {
+    "index": 3248,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あれは解体不可能で、しかも――」"
+  },
+  {
+    "index": 3277,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「隔壁開放の前に、爆発する」"
+  },
+  {
+    "index": 3309,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ッ！？」"
+  },
+  {
+    "index": 3314,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その言葉に、夏彦たちは目を見開いた。"
+  }
+]

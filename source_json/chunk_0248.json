@@ -1,0 +1,572 @@
+[
+  {
+    "index": 102,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Current Chapter2"
+  },
+  {
+    "index": 114,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――"
+  },
+  {
+    "index": 119,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  {
+    "index": 124,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――――５回目の覚醒は、ゆるやかに始まった。"
+  },
+  {
+    "index": 288,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「――……テロリストが危険――……」"
+  },
+  {
+    "index": 299,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「――……９人の中に、テロリストが――……」"
+  },
+  {
+    "index": 310,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「――……そんな事、誰も言ってないでしょう！」"
+  },
+  {
+    "index": 330,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「ではこの６人の中にテロリストがいると？　それはますますありえません」"
+  },
+  {
+    "index": 417,
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "男の周囲で複数の人間が、口々に何かを言い争っている。"
+  },
+  {
+    "index": 423,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……今度はどういう状況だ……？）"
+  },
+  {
+    "index": 429,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（テロリストがどうのって……まさか男の正体がばれたのか！？）"
+  },
+  {
+    "index": 435,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、ちゃんと記憶を消したはずなのに――！？）"
+  },
+  {
+    "index": 456,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……わかった！　ちょっと落ち着こうみんな！」"
+  },
+  {
+    "index": 539,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なによ隊長さん！　あなただけ、何も意見を言ってないじゃない！」"
+  },
+  {
+    "index": 544,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "戻ってきた夏彦の視覚に、まず恵那の顔が映った。"
+  },
+  {
+    "index": 598,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "その周囲に、洵と副隊長と、あの少女と――"
+  },
+  {
+    "index": 697,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "そして宇喜多がいる。"
+  },
+  {
+    "index": 703,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ！　なんで、おじさんまでこのラボに！？）"
+  },
+  {
+    "index": 709,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だっておじさんは、あの授業の時――）"
+  },
+  {
+    "index": 840,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「万が一の事態が発生した際には、自動的に放射能漏洩防止システムが作動」"
+  },
+  {
+    "index": 909,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「無数に設置された『隔壁』や『ゲート』が閉鎖され、放射性物質の拡散を完全にシャットアウトします」"
+  },
+  {
+    "index": 1001,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（メルトダウンが起きたら地下に閉じ込められるって事は、おじさんも知ってたはずなのに……！）"
+  },
+  {
+    "index": 1007,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そのおじさんが、どうして逃げずに残ってるんだ？）"
+  },
+  {
+    "index": 1013,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（やっぱり、おじさんは内通者だったのか……！？）"
+  },
+  {
+    "index": 1018,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "一瞬、宇喜多への疑惑が深くなったが――"
+  },
+  {
+    "index": 1024,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、待てよ？　よく考えたら、それって変じゃないか？）"
+  },
+  {
+    "index": 1030,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさんがテロリストの仲間なら、メルトダウンを起こした時点で、さっさと逃げてるはずだ……）"
+  },
+  {
+    "index": 1036,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……でもどのみち、おじさんが地下に残ってる理由がわからないな）"
+  },
+  {
+    "index": 1136,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それに先生がいるのだっておかしい……高校教師が、なんでこんなところにいるんだ？）"
+  },
+  {
+    "index": 1141,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "疑問はそれだけにとどまらない。"
+  },
+  {
+    "index": 1195,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里そっくりの少女が何者で、なぜここにいるのかも、夏彦には謎のままなのだ。"
+  },
+  {
+    "index": 1201,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ダメだ！　わからないことが多すぎる！）"
+  },
+  {
+    "index": 1207,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（仕方ない、こうなったら――！）"
+  },
+  {
+    "index": 1212,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はましろの記憶に潜った時の事を思い出しながら、"
+  },
+  {
+    "index": 1217,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『知りたい！』"
+  },
+  {
+    "index": 1222,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "全身全霊を集中させ、強くそう願った。"
+  },
+  {
+    "index": 1606,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――その瞬間、男が目覚めてからの記憶が、次々と眼前に浮かんだ。"
+  },
+  {
+    "index": 1611,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは絶望的な状況下での、壮絶な戦いの記憶だった。"
+  },
+  {
+    "index": 1952,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ケースＮの発令にともなう、隔壁の完全閉鎖。"
+  },
+  {
+    "index": 1957,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "取り残されていた恵那や、宇喜多との遭遇。"
+  },
+  {
+    "index": 2204,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "迫りくる炎。広がり続ける放射線汚染。不足するＡＤ。難航する要救助者の捜索。"
+  },
+  {
+    "index": 2497,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして脱出不可能なラボ内で起きていた、凄惨な殺人事件――！"
+  },
+  {
+    "index": 2790,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "無数の苦難を乗り越えるため、男は自ら危険に身を投じ、傷つき、それでも前に進み続けた。"
+  },
+  {
+    "index": 2945,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "やがてたどりついた脱出口。第６エリアの、資材搬出用リフト。"
+  },
+  {
+    "index": 3101,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこで彼らを待ち受けていたのは、夏彦が破壊したコントロールパネルと――"
+  },
+  {
+    "index": 3256,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――見知らぬ少女の死体だった。"
+  },
+  {
+    "index": 3405,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――――――"
+  },
+  {
+    "index": 3410,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――……"
+  },
+  {
+    "index": 3415,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "……男の記憶に潜っていた夏彦の感覚が、再び現実とリンクする。"
+  },
+  {
+    "index": 3420,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "気づけば皆が、男の顔を見つめていた。"
+  },
+  {
+    "index": 3437,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「な、なによ急に黙って」"
+  },
+  {
+    "index": 3494,
+    "code": "0x85",
+    "developer_comment": "恵那",
+    "string": "《……なんだ、今のは……！？》"
+  },
+  {
+    "index": 3495,
+    "code": "0x86",
+    "developer_comment": "恵那",
+    "string": "渡瀬"
+  },
+  {
+    "index": 3496,
+    "code": "0x86",
+    "developer_comment": "恵那",
+    "string": "《……なんだ、今のは……！？》"
+  },
+  {
+    "index": 3524,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "男自身も、強い戸惑いを感じているようだった。"
+  },
+  {
+    "index": 3646,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "その様子に、夏彦ははっとした。"
+  },
+  {
+    "index": 3652,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかして……こいつもぼくと一緒に、記憶を思い出していたのか？）"
+  },
+  {
+    "index": 3657,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だとすると今の数秒間で、男も約３時間の記憶を追体験したことになる。"
+  },
+  {
+    "index": 3662,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "テロリストなどではなく、『笠鷺渡瀬』という名の、レスキュー隊員としての記憶を。"
+  },
+  {
+    "index": 3667,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "現在の『渡瀬』は、あの殺人鬼のような男とは、まるで別人だった。"
+  },
+  {
+    "index": 3673,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（人は記憶を失っただけで、こうも変わるものなのか？）"
+  },
+  {
+    "index": 3679,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（記憶を失う前のあの男が本物だとしたら、今の『渡瀬』の人格はいったいどこから……？）"
+  },
+  {
+    "index": 3684,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが夏彦には、他にも考えなければならないことがあった。"
+  },
+  {
+    "index": 3690,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それにしても――殺人事件なんて、このラボで何が起こってるんだ！？）"
+  },
+  {
+    "index": 3696,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（死んでいた２人のレスキュー隊員は、たぶん、あの時のテロリストだと思うけど――）"
+  },
+  {
+    "index": 3702,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ラボの研究員やあんな少女まで殺すなんて、誰が何の目的で……？）"
+  },
+  {
+    "index": 3708,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もし全ての事件が、隔壁が降りた後に起こったんだとしたら、もしかして犯人はこの中に……？）"
+  },
+  {
+    "index": 3713,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その疑問に呼応するかのように、渡瀬が皆を見回した。"
+  },
+  {
+    "index": 3743,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――まず、宇喜多。"
+  },
+  {
+    "index": 3749,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさんは内通者なのか？　それとも単に巻き込まれただけなのか……？）"
+  },
+  {
+    "index": 3755,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしおじさんが内通者で、何かの理由があってテロリストたちを裏切ったんだとしたら――）"
+  },
+  {
+    "index": 3761,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（少なくともテロリストの２人を殺した可能性が出てくるぞ……！）"
+  },
+  {
+    "index": 3799,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――次に恵那。"
+  },
+  {
+    "index": 3805,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（先生が人殺しだなんて考えたくないけど……でも本当に、どうしてこんな所にいるんだろう？）"
+  },
+  {
+    "index": 3811,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくらが助けを求めに行ったあの時は、何も協力してくれなかったのに……）"
+  },
+  {
+    "index": 3817,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（みんなには『ここの職員に呼ばれて来た』って説明してたみたいだけど、それもよくわからないし……）"
+  },
+  {
+    "index": 3879,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――さらにレスキュー隊員の２人。"
+  },
+  {
+    "index": 3885,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（洵さんと副隊長さんは、こいつと同じレスキュー隊員だけど……）"
+  },
+  {
+    "index": 3891,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（今までの行動を見る限り、信用してもよさそうだよな。特に洵さんなんて、ぜったい人殺しには見えないし）"
+  },
+  {
+    "index": 3995,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして渡瀬が最後に、『ユウリ』と名乗るあの少女を見ようとした時――"
+  },
+  {
+    "index": 4002,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（っ！？）"
+  },
+  {
+    "index": 4019,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――ユウリが、いない！」"
+  },
+  {
+    "index": 4093,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ほ、ホントだ！　どうして！？」"
+  },
+  {
+    "index": 4136,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬が慌てて周囲を見回すと、彼女の背中がちらりと見えた。"
+  },
+  {
+    "index": 4234,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いた！　第５エリアに行った！」"
+  },
+  {
+    "index": 4428,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――第５エリアに逃げて行ったユウリを、渡瀬たちは散り散りになって捜索した。"
+  },
+  {
+    "index": 4485,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "《ユウリは内周棟が汚染区域だと言う事を知らない！》"
+  },
+  {
+    "index": 4486,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬"
+  },
+  {
+    "index": 4487,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "《ユウリは内周棟が汚染区域だと言う事を知らない！》"
+  },
+  {
+    "index": 4502,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "《もし、そこに逃げていたとしたら――！》"
+  },
+  {
+    "index": 4503,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬"
+  },
+  {
+    "index": 4504,
+    "code": "0x86",
+    "developer_comment": "渡瀬",
+    "string": "《もし、そこに逃げていたとしたら――！》"
+  },
+  {
+    "index": 4532,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこには『人を救いたい』という、当たり前の正義があった。"
+  },
+  {
+    "index": 4543,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《行け！　彼女を助けろ！》"
+  },
+  {
+    "index": 4548,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は彼の意思に同調し、共に汚染区域へと駆け込んだ。"
+  }
+]

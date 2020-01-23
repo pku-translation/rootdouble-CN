@@ -1,0 +1,578 @@
+[
+  {
+    "index": 8,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter3"
+  },
+  {
+    "index": 16,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階段室からロープを伝い、地下２階へ――"
+  },
+  {
+    "index": 66,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてファクトリーに戻ると、すぐに皆が飛んで来た。"
+  },
+  {
+    "index": 149,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長！　何かあったの！？」"
+  },
+  {
+    "index": 160,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんかどすんって音が鳴ったけど……」"
+  },
+  {
+    "index": 171,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、大したことないさ。連絡通路が崩れただけだ」"
+  },
+  {
+    "index": 202,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それより皆さん、要救助者等は見つかりましたか？」"
+  },
+  {
+    "index": 231,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それが……いないんだよ」"
+  },
+  {
+    "index": 312,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長！　何かあったのですか！？」"
+  },
+  {
+    "index": 323,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんかどすんって音が鳴ったけど……」"
+  },
+  {
+    "index": 334,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、大したことないさ。連絡通路が崩れただけだ」"
+  },
+  {
+    "index": 365,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それよりみんな、要救助者とかいた？」"
+  },
+  {
+    "index": 394,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それが……いないのよ」"
+  },
+  {
+    "index": 475,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長！　何かあったのですか？」"
+  },
+  {
+    "index": 486,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なんかどすんって音が鳴ったけど！」"
+  },
+  {
+    "index": 497,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、大したことないさ。連絡通路が崩れただけだ」"
+  },
+  {
+    "index": 528,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それより皆さん、あの子たちは見つかった？」"
+  },
+  {
+    "index": 557,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それが……いないんだよ」"
+  },
+  {
+    "index": 679,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「隅々まで捜索したのだがね、要救助者の姿はどこにもない」"
+  },
+  {
+    "index": 690,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あの、内周棟にもいなかったんですか……？」"
+  },
+  {
+    "index": 701,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、こっちでも誰も見つからなかった」"
+  },
+  {
+    "index": 706,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちは、すでにラボ内の全エリアの捜索をすでに終えてしまっている。"
+  },
+  {
+    "index": 711,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、要救助者はどこにもいない。死体すらも見つからない。"
+  },
+  {
+    "index": 722,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあ……いよいよ、間違いないな」"
+  },
+  {
+    "index": 753,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  {
+    "index": 764,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの子たちはすでに、搬出リフトから脱出したんだ！」"
+  },
+  {
+    "index": 796,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そう考えるのが自然ですね……！」"
+  },
+  {
+    "index": 801,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬の言葉に、洵たちが訝しげな顔をする。"
+  },
+  {
+    "index": 830,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「搬出リフト？　なにそれ？」"
+  },
+  {
+    "index": 859,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ファクトリーのどこかに、地上に脱出できるリフトがあるらしいのです」"
+  },
+  {
+    "index": 870,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、これ見てくれ！」"
+  },
+  {
+    "index": 875,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、さきほど入手した防災マニュアルを皆に見せた。"
+  },
+  {
+    "index": 904,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうか……こんな手があったのか！」"
+  },
+  {
+    "index": 933,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かに、これなら行けそうね……！」"
+  },
+  {
+    "index": 944,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だろ？　なぁみんな、ファクトリーの中に、それっぽいリフトはなかったか？」"
+  },
+  {
+    "index": 973,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「見つからなかったけど……もしかしたら、あれかも！」"
+  },
+  {
+    "index": 1058,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵が振り返り、ファクトリーの隅を見る。"
+  },
+  {
+    "index": 1063,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "その視線の先――ファクトリー最奥の壁際に、なぜかセキュリティゲートがあった。"
+  },
+  {
+    "index": 1079,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なんであんなところに、セキュリティゲートが？」"
+  },
+  {
+    "index": 1108,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「不自然なところにあったから、あたしらも気にはなってたんだけどさ……」"
+  },
+  {
+    "index": 1119,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「セキュリティスロットが完全に焼失してて、中に入れなかったんだ」"
+  },
+  {
+    "index": 1149,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも、ファクトリー内で未捜索の場所はあのゲートの向こうだけ」"
+  },
+  {
+    "index": 1178,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「搬出リフトってのがあるとしたら、あの向こうにある事は間違いないわ！」"
+  },
+  {
+    "index": 1208,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、そうか！　そう考えるのが自然だよね！」"
+  },
+  {
+    "index": 1213,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "渡瀬の言葉に、風見たちが訝しげな顔をする。"
+  },
+  {
+    "index": 1242,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「搬出リフト？　なんですかそれは？」"
+  },
+  {
+    "index": 1271,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ファクトリーのどこかに、地上に脱出できるリフトがあるらしいんだよ！」"
+  },
+  {
+    "index": 1282,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、これ見てくれ！」"
+  },
+  {
+    "index": 1287,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、さきほど入手した防災マニュアルを皆に見せた。"
+  },
+  {
+    "index": 1316,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうか……こんな手があったのか！」"
+  },
+  {
+    "index": 1345,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに、これならあるいは……！」"
+  },
+  {
+    "index": 1356,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だろ！？　なぁみんな、ファクトリーの中に、それっぽいリフトはなかったか？」"
+  },
+  {
+    "index": 1385,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「見つかりませんでしたが……もしかしたら、あれかもしれません」"
+  },
+  {
+    "index": 1470,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見が振り返り、ファクトリーの隅を見る。"
+  },
+  {
+    "index": 1475,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "その視線の先――ファクトリー最奥の壁際に、なぜかセキュリティゲートがあった。"
+  },
+  {
+    "index": 1491,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なんであんなところに、セキュリティゲートが？」"
+  },
+  {
+    "index": 1520,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不自然なところにあったので、我々も気にはなっていたのですが……」"
+  },
+  {
+    "index": 1531,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「セキュリティスロットが完全に焼失し、中に入れず、捜索を諦めていたのです」"
+  },
+  {
+    "index": 1561,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも、ファクトリー内で未捜索の場所はあのゲートの向こうだけ」"
+  },
+  {
+    "index": 1590,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「搬出リフトってのがあるとしたら、あの向こうにある事は間違いないわ！」"
+  },
+  {
+    "index": 1620,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あ！　そ、そう考えるのが自然よね！」"
+  },
+  {
+    "index": 1625,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "渡瀬の言葉に、洵たちが訝しげな顔をする。"
+  },
+  {
+    "index": 1654,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「搬出リフト？　なにそれ？」"
+  },
+  {
+    "index": 1665,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ファクトリーのどこかに、地上に脱出できるリフトがあるらしいんだよ！」"
+  },
+  {
+    "index": 1676,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、これ見てくれ！」"
+  },
+  {
+    "index": 1681,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、さきほど入手した防災マニュアルを皆に見せた。"
+  },
+  {
+    "index": 1710,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうか……こんな手があったのか！」"
+  },
+  {
+    "index": 1739,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに、これならあるいは……！」"
+  },
+  {
+    "index": 1750,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だろ！？　なぁみんな、ファクトリーの中に、それっぽいリフトはなかったか？」"
+  },
+  {
+    "index": 1779,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「見つからなかったけど……もしかしたら、あれかも！」"
+  },
+  {
+    "index": 1864,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "洵が振り返り、ファクトリーの隅を見る。"
+  },
+  {
+    "index": 1869,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "その視線の先――ファクトリー最奥の壁際に、なぜかセキュリティゲートがあった。"
+  },
+  {
+    "index": 1885,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なんであんなところに、セキュリティゲートが？」"
+  },
+  {
+    "index": 1914,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不自然なところにあったので、我々も気にはなっていたのですが……」"
+  },
+  {
+    "index": 1925,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「セキュリティスロットが完全に焼失し、中に入れず、捜索を諦めていたのです」"
+  },
+  {
+    "index": 1955,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも、ファクトリー内で未捜索の場所はあのゲートの向こうだけ」"
+  },
+  {
+    "index": 1984,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「搬出リフトってのがあるとしたら、あの向こうにある事は間違いないよ！」"
+  },
+  {
+    "index": 2033,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  {
+    "index": 2039,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちの顔に、笑みが浮かぶ。"
+  },
+  {
+    "index": 2044,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ＡＤは残り６本しかない。だが外に脱出してしまえば、ＡＤなど必要なくなる。"
+  },
+  {
+    "index": 2049,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "この苦難に満ちた道程も、ひとまず終了するのだ！"
+  },
+  {
+    "index": 2060,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし！　どうにかしてあのゲートを開けよう！」"
+  },
+  {
+    "index": 2125,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「例によってエアダクトから、向こう側に行く事はできないの？」"
+  },
+  {
+    "index": 2155,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「残念ながら天井が高すぎて、エアダクトに入る事はできません」"
+  },
+  {
+    "index": 2166,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあゲートをエンジンカッターとかで壊す事は？」"
+  },
+  {
+    "index": 2197,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「すでに試してみました。簡易基地からカッターを取って来て」"
+  },
+  {
+    "index": 2226,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし少々切れ目が入ったくらいで、とても開きそうにありません」"
+  },
+  {
+    "index": 2256,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「もう試してみたよ。簡易基地からカッター取って来てね」"
+  },
+  {
+    "index": 2285,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも、ちょっと切れ目が入ったくらいで、とても開きそうにない」"
+  },
+  {
+    "index": 2296,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「くそ、そうかよ！」"
+  },
+  {
+    "index": 2325,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……どうすれば、開けられるんでしょう……？」"
+  },
+  {
+    "index": 2330,
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "ユウリがそう言って、渡瀬を見つめる。"
+  },
+  {
+    "index": 2336,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もう、出口は目の前なんだ……！）"
+  },
+  {
+    "index": 2342,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この子を助けるためにも……あのゲートを、なんとかして開けなければ！）"
+  },
+  {
+    "index": 2347,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬がそう思った時――"
+  },
+  {
+    "index": 2373,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――不意に、奇妙な音がした。"
+  }
+]

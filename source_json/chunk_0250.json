@@ -1,0 +1,830 @@
+[
+  {
+    "index": 49,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Current Chapter2"
+  },
+  {
+    "index": 60,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その後渡瀬たちは、ユウリの捜索をいったん切り上げ、第５エリアの『脳科学実験室』に集った。"
+  },
+  {
+    "index": 176,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「――私は地下２階を探していたんだけど、どこにもいなかったわ」"
+  },
+  {
+    "index": 187,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕もだ、が……」"
+  },
+  {
+    "index": 198,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……やはり、見失ってしまいましたか……」"
+  },
+  {
+    "index": 285,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "沈んだ顔で報告し合う皆を見ながら、夏彦は思う。"
+  },
+  {
+    "index": 291,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（結果的に彼女の逃走を手助けしちゃったけど……本当にあれで良かったのか？）"
+  },
+  {
+    "index": 297,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも……あの時は、他にやりようがなかったわけだし）"
+  },
+  {
+    "index": 302,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はそうして自分を納得させながら、実験室内に意識を向けた。"
+  },
+  {
+    "index": 307,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そこに並ぶ設備を見ているうち、ふとある疑問が浮かび上がってくる。"
+  },
+  {
+    "index": 313,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……妙だな……）"
+  },
+  {
+    "index": 319,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こういう研究所の実験って、普通マウスとか使うもんじゃないか？）"
+  },
+  {
+    "index": 325,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なのにどうしてここには、人間用の設備ばかりがそろってるんだ……？）"
+  },
+  {
+    "index": 340,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そんな事を考えている夏彦をよそに――宇喜多が急に、渡瀬を追及し始めた。"
+  },
+  {
+    "index": 369,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「――だいたい君は、どうして地下に降りてきたんだね？　なぜ記憶を失った？」"
+  },
+  {
+    "index": 380,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、それは……」"
+  },
+  {
+    "index": 409,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「外傷による記憶喪失は、時間とともに回復するのが常だ。なのにいつまで経っても回復しない……妙ではないかね？」"
+  },
+  {
+    "index": 438,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……宇喜多さん……何か言いたい事があるの？」"
+  },
+  {
+    "index": 468,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あるとも。それは――隊長さんの記憶喪失は、嘘なのではないかという事だよ」"
+  },
+  {
+    "index": 533,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そ、そんな！　なぜそんな嘘をつく必要があるんですか！？」"
+  },
+  {
+    "index": 562,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「何か隠したい事があるから……そう思ったのさ」"
+  },
+  {
+    "index": 591,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、実を言ってしまえば、僕は最初からそう睨んでいたんだ」"
+  },
+  {
+    "index": 597,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさん、急にどうしたんだ！？　ユウリがいなくなったとたん、渡瀬を糾弾し始めるなんて！？）"
+  },
+  {
+    "index": 603,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさんは渡瀬の仲間じゃないって事か！？）"
+  },
+  {
+    "index": 608,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そんな事を考えていると、渡瀬が宇喜多に反論した。"
+  },
+  {
+    "index": 619,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、オレは何も悪い事はしていない！　たとえ記憶がなかろうと――」"
+  },
+  {
+    "index": 648,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ならばその潔白を、証明してくれたまえ！」"
+  },
+  {
+    "index": 653,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "全員の疑惑の眼が、渡瀬へと突き刺さる。"
+  },
+  {
+    "index": 658,
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "宇喜多の主張には、それだけ説得力があった。"
+  },
+  {
+    "index": 664,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも……このまま疑いが強まれば、渡瀬はどうなってしまうんだ？）"
+  },
+  {
+    "index": 670,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしみんなに縛られでもしたら、ぼくの行動も制限されることになるんだぞ？）"
+  },
+  {
+    "index": 676,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それに――）"
+  },
+  {
+    "index": 969,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――万が一にもおじさんが、全員を殺した殺人犯だったとしたら……！）"
+  },
+  {
+    "index": 975,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（テロリスト同士の仲間割れが、この施設の中で起こってるとしたら！）"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だとすれば、渡瀬はいずれ宇喜多に殺されるかもしれない。"
+  },
+  {
+    "index": 985,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そうなれば恐らく、夏彦の魂も消滅する事になるだろう。"
+  },
+  {
+    "index": 991,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ど、どうする……？　今の渡瀬じゃ、おじさんの疑惑をかわせそうにないぞ）"
+  },
+  {
+    "index": 997,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いったんこいつの記憶を復活させてみるか？）"
+  },
+  {
+    "index": 1003,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、ダメだ！　そんなことしたら、それこそ殺人鬼の復活じゃないか！）"
+  },
+  {
+    "index": 1009,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあ、いったいどうすれば……！？）"
+  },
+  {
+    "index": 1015,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（今のぼくにできること……今のぼくにできることは……）"
+  },
+  {
+    "index": 1020,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思った時、ふと数日前の授業を思い出した。"
+  },
+  {
+    "index": 1111,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……つまるところＢＣってのは、脳と脳の直接的コミュニケーションなの」"
+  },
+  {
+    "index": 1122,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「例えばテレパシーは、脳の聴覚を司る場所に、『実際に音を聞いた時と同じ反応』を与えるのね」"
+  },
+  {
+    "index": 1211,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「つまり、一種の錯覚なんですよね？」"
+  },
+  {
+    "index": 1266,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね。でも脳が『認識』するという事は、そもそも錯覚的なのかもしれないわよ」"
+  },
+  {
+    "index": 1295,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「という事は理論上、働きかけられるのは聴覚だけじゃない……ＢＣの可能性は無限なのよ」"
+  },
+  {
+    "index": 1438,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうか……！）"
+  },
+  {
+    "index": 1444,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もし聴覚以外にも、脳に錯覚を起こさせることができるとしたら……！）"
+  },
+  {
+    "index": 1449,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "聴覚だけではなく、視覚も、触覚も、時間の感覚も――ひいては認識そのものも。"
+  },
+  {
+    "index": 1454,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それはつまり、記憶の改竄。脳の中に虚構を１つ作り上げるという事だ。"
+  },
+  {
+    "index": 1478,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（や、やれるか……！？）"
+  },
+  {
+    "index": 1484,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、やるしかない！）"
+  },
+  {
+    "index": 1489,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は瞬時に精神を集中し、渡瀬の意識に潜り込んだ。"
+  },
+  {
+    "index": 1649,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "時間が現実世界よりも、ゆるやかに流れているのがわかる。"
+  },
+  {
+    "index": 1655,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（えぇと……要は、渡瀬がレスキュー隊員として活動していた事を証明できればいいんだから……）"
+  },
+  {
+    "index": 1660,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は手始めに、そこに自分の記憶を投影してみた。"
+  },
+  {
+    "index": 1778,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あなたたちは……？」"
+  },
+  {
+    "index": 1786,
+    "code": "0x45",
+    "developer_comment": "テロリスト１",
+    "string": "「我々はラボから要請を受け、救助活動に来たレスキュー隊だ」"
+  },
+  {
+    "index": 1797,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「レスキュー隊！？」"
+  },
+  {
+    "index": 1805,
+    "code": "0x45",
+    "developer_comment": "テロリスト１",
+    "string": "「君たちは要救助者だね？」"
+  },
+  {
+    "index": 1986,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、ええ……偶然ここにいて、巻き込まれてしまったんです」"
+  },
+  {
+    "index": 2099,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――そのイメージを、夏彦は強く念じた。"
+  },
+  {
+    "index": 2104,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それが渡瀬の脳内にも植え付けられるように、テレパシーを送るとき以上に集中して。"
+  },
+  {
+    "index": 2110,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……届いたか……！？）"
+  },
+  {
+    "index": 2233,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思った瞬間、渡瀬の記憶群の中に、新たな情景が浮かび上がった。"
+  },
+  {
+    "index": 2239,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（できるぞ！　ＢＣで記憶を作り上げる事は可能なんだ！）"
+  },
+  {
+    "index": 2245,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬の視点はもう充分体験してきたんだから、その記憶を応用すれば、新しい記憶を作れるはずだ！）"
+  },
+  {
+    "index": 2251,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あとは渡瀬の仲間も、ちゃんとしたレスキュー隊員としてイメージできればいいんだけど――）"
+  },
+  {
+    "index": 2256,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――夏彦は、再び意識を集中させた。"
+  },
+  {
+    "index": 2407,
+    "code": "0x45",
+    "developer_comment": "テロリスト１",
+    "string": "「我々はラボから要請を受け、救助活動に来たレスキュー隊だ」"
+  },
+  {
+    "index": 2515,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（１人はこの感じでいいとして。もう１人の方は……）"
+  },
+  {
+    "index": 2606,
+    "code": "0x45",
+    "developer_comment": "テロリスト２",
+    "string": "「……気づかなきゃいいものを……！」"
+  },
+  {
+    "index": 2614,
+    "code": "0x45",
+    "developer_comment": "テロリスト２",
+    "string": "「あの時、もう少し痛めつけておけばよかった……仏心を出したのがまずかったな」"
+  },
+  {
+    "index": 2722,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（よし……でもぼくの記憶のままじゃ、まんまテロリストの口調だから……）"
+  },
+  {
+    "index": 2727,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は自分の聞いた声を元に、イメージの中で２人に別の台詞を喋らせた。"
+  },
+  {
+    "index": 2878,
+    "code": "0x45",
+    "developer_comment": "テロリスト２",
+    "string": "「――隊長、地下に要救助者が――」"
+  },
+  {
+    "index": 2886,
+    "code": "0x45",
+    "developer_comment": "テロリスト１",
+    "string": "「すぐに来てくれ！」"
+  },
+  {
+    "index": 2994,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（違う……）"
+  },
+  {
+    "index": 3145,
+    "code": "0x45",
+    "developer_comment": "――――――",
+    "string": "「――隊長、地下に要救助者が――」"
+  },
+  {
+    "index": 3153,
+    "code": "0x45",
+    "developer_comment": "――――――",
+    "string": "「すぐに来てくれ！」"
+  },
+  {
+    "index": 3261,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もう少し……！）"
+  },
+  {
+    "index": 3412,
+    "code": "0x45",
+    "developer_comment": "隊員２",
+    "string": "「――隊長、地下に要救助者が――」"
+  },
+  {
+    "index": 3420,
+    "code": "0x45",
+    "developer_comment": "隊員１",
+    "string": "「すぐに来てくれ！」"
+  },
+  {
+    "index": 3528,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（よし！　このイメージなら――！）"
+  },
+  {
+    "index": 3533,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして夏彦は一気に、レスキュー活動をする彼らの姿を想像した。"
+  },
+  {
+    "index": 3619,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――６時４２分。渡瀬は部下からの無線を受け、地下に降りた。"
+  },
+  {
+    "index": 3624,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その数分後にはすでに、２人の部下と共に、ラボの地下を走っていた。"
+  },
+  {
+    "index": 3629,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬は防護服を着込んでいる。部下たちも同じく防護服を着ている。"
+  },
+  {
+    "index": 3710,
+    "code": "0x45",
+    "developer_comment": "隊員２",
+    "string": "「隊長、こっちだ！」"
+  },
+  {
+    "index": 3718,
+    "code": "0x45",
+    "developer_comment": "隊員１",
+    "string": "「こっちで足音が聞こえたんだ！」"
+  },
+  {
+    "index": 3765,
+    "code": "0x45",
+    "developer_comment": "隊員１",
+    "string": "そして彼らはやがて――少年たちに遭遇した。"
+  },
+  {
+    "index": 3878,
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "「通報を受けて救助に来たんだよ、きっと！」"
+  },
+  {
+    "index": 3907,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「た……助かったぁ！」"
+  },
+  {
+    "index": 3955,
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「おーいおーい、助けて下さーい！」"
+  },
+  {
+    "index": 3966,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「要救助者だ！」"
+  },
+  {
+    "index": 4079,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そんな情景が、渡瀬の記憶群の中に浮かび上がる。"
+  },
+  {
+    "index": 4085,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（よし！　今度のはいけそうだ！）"
+  },
+  {
+    "index": 4091,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、このままじゃ信憑性が薄いから――）"
+  },
+  {
+    "index": 4221,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「名前は？」"
+  },
+  {
+    "index": 4250,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦とましろ、それからこっちはサリュです」"
+  },
+  {
+    "index": 4261,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「サリュ？」"
+  },
+  {
+    "index": 4290,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それはあだ名。三ノ宮・ルイーズ・優衣を縮めた」"
+  },
+  {
+    "index": 4301,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……」"
+  },
+  {
+    "index": 4353,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って腕時計に目をやる。針は『６時５２分』を指していた。"
+  },
+  {
+    "index": 4459,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "するとその記憶も、渡瀬の中に追加され――"
+  },
+  {
+    "index": 4465,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『サリュ』の由来は先生も知らないはずだから、これでどうにか信じてもらえればいいんだけど……）"
+  },
+  {
+    "index": 4471,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――って、あれ？）"
+  },
+  {
+    "index": 4476,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そのとき夏彦は、自分の作り上げた記憶に奇妙な点がある事に気付いた。"
+  },
+  {
+    "index": 4482,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬がしている時計が、ぼくの時計に変わってる？）"
+  },
+  {
+    "index": 4488,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、何でそんなことに……？）"
+  },
+  {
+    "index": 4494,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（他人の記憶を変えると、ぼく自身の記憶の影響も、出てしまうものなのか……？）"
+  },
+  {
+    "index": 4499,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "考えてはみたものの、その理由がよくわからない。"
+  },
+  {
+    "index": 4505,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（気になるけど……仕方ない、先に進めよう）"
+  },
+  {
+    "index": 4511,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかすると、サリュのあだ名だけじゃ証明として弱いかもな。先生に気付かれなかったら終わりだし）"
+  },
+  {
+    "index": 4517,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（みんなに間違いなく信用してもらえるような、記憶をもう１つ加えないと……）"
+  },
+  {
+    "index": 4522,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう考えた時――"
+  },
+  {
+    "index": 4527,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は、ちょうどいい『証明材料』がある事に気付いた。"
+  },
+  {
+    "index": 4597,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そう言えば、数時間前……）"
+  },
+  {
+    "index": 4602,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――ましろと一緒に、第５エリアに閉じ込められた夏彦は――"
+  },
+  {
+    "index": 4607,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "セキュリティカードを探して、天川美夜子研究室に入った。"
+  },
+  {
+    "index": 4651,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして母の机の引き出しの中に、『薬品のアンプル剤が入った鉄製の箱』を大量に発見したのだった。"
+  },
+  {
+    "index": 4657,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あの時は気付かなかったけど、あれはＡＤだったんじゃないか？）"
+  },
+  {
+    "index": 4666,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬たちもその後に、天川美夜子研究室でＡＤを５本発見したが、机の引き出しに入っているものまでは見つけていなかった。"
+  },
+  {
+    "index": 4736,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったらあのＡＤの記憶を、渡瀬に与えてやれば――！）"
+  },
+  {
+    "index": 4860,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これは……こんなところに、ＡＤが？」"
+  },
+  {
+    "index": 4910,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設内にも、こんな大量に保管されていたのか……」"
+  },
+  {
+    "index": 4915,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その記憶を与え、夏彦は現実に帰った。"
+  },
+  {
+    "index": 5095,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "現実に帰った途端、渡瀬の絶叫が聞こえた。"
+  },
+  {
+    "index": 5106,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――ぁああああっ！」"
+  },
+  {
+    "index": 5117,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長！　落ち着いてください、隊長！」"
+  },
+  {
+    "index": 5128,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だ、大丈夫！？」"
+  },
+  {
+    "index": 5139,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……あ、ああ……大丈夫だ」"
+  },
+  {
+    "index": 5150,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、それより……思い出した」"
+  },
+  {
+    "index": 5179,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……え？」"
+  },
+  {
+    "index": 5208,
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「思い出したって、まさか！？」"
+  },
+  {
+    "index": 5219,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……記憶が、戻ったんだ」"
+  },
+  {
+    "index": 5262,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――そして夏彦が与えた記憶によって、渡瀬は疑惑をかわすことに成功した。"
+  }
+]

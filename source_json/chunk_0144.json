@@ -1,0 +1,608 @@
+[
+  {
+    "index": 14,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Before Chapter2"
+  },
+  {
+    "index": 18,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そして昼食を済ませ――"
+  },
+  {
+    "index": 29,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "午後は課外授業。"
+  },
+  {
+    "index": 34,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "バスに乗って、学校外の施設へ社会見学にいくのだ。"
+  },
+  {
+    "index": 108,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは恵那に引率され、学校を出た。"
+  },
+  {
+    "index": 207,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "校門前のバス停でバスを待つ間も、ましろはサリュと話していた。"
+  },
+  {
+    "index": 218,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「サリュ、学食美味しかった？」"
+  },
+  {
+    "index": 247,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「普通」"
+  },
+  {
+    "index": 252,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "先ほど一緒に食べた昼食について話しているらしい。"
+  },
+  {
+    "index": 258,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『普通』って……クールにも程がある）"
+  },
+  {
+    "index": 287,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ただ、少し驚いた」"
+  },
+  {
+    "index": 316,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え、何に？」"
+  },
+  {
+    "index": 345,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「食事を自ら買うというシステムに」"
+  },
+  {
+    "index": 356,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「食事は全て、運ばれてくるものだと思っていたから」"
+  },
+  {
+    "index": 367,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「んっ？」"
+  },
+  {
+    "index": 372,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "彼女の突飛な発言に、夏彦は思わず口を挟んだ。"
+  },
+  {
+    "index": 383,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「食事が運ばれてくるだって……？　お嬢様学校みたいなところだとそうなのか？」"
+  },
+  {
+    "index": 412,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『お嬢様学校』とやらの定義がよくわからないけど、自分で食事を買い求めたのは初めて」"
+  },
+  {
+    "index": 423,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そういうものか……？」"
+  },
+  {
+    "index": 428,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦は少々驚いたが、ましろは平然と言う。"
+  },
+  {
+    "index": 457,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「はー、さすがおフランスの学校ってのは、ハイソなんだねぇ」"
+  },
+  {
+    "index": 486,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まぁ他にもよくわからない事があったら、なんでも質問してよ」"
+  },
+  {
+    "index": 515,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「わからないこと……」"
+  },
+  {
+    "index": 520,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "ましろに言われたサリュは、少し考えた後――"
+  },
+  {
+    "index": 549,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……あれは、何？」"
+  },
+  {
+    "index": 587,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "校門の外を指差して、言った。"
+  },
+  {
+    "index": 799,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュの指の先には、街頭にさりげなく設置されたカメラがあった。"
+  },
+  {
+    "index": 810,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あぁ、監視カメラだよ」"
+  },
+  {
+    "index": 821,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「監視カメラ……？　生徒を監視するための？」"
+  },
+  {
+    "index": 832,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あはっ、違うよ。不審者が学校に入ってこないように見張ってるだけ」"
+  },
+  {
+    "index": 920,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう言えば、昨日街の中でもあれを見かけた。どこにでもあるの？」"
+  },
+  {
+    "index": 949,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ。監視カメラは鹿鳴市の至るところにあって、犯罪者に睨みを利かせているのさ」"
+  },
+  {
+    "index": 954,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろが自慢げに説明する。"
+  },
+  {
+    "index": 959,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "これのおかげで、市内の治安の良さが実現できているのだ。"
+  },
+  {
+    "index": 988,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「おかしな街。何か奇妙な感じがする」"
+  },
+  {
+    "index": 1018,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「確かにちょっと特殊かもね。この街はホラ、『政令指定機密都市』だからさ」"
+  },
+  {
+    "index": 1047,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……それは何？」"
+  },
+  {
+    "index": 1076,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「んーっと、たぶんこの国独特の制度なんだけど……」"
+  },
+  {
+    "index": 1105,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そだ夏彦、政経とか得意でしょ？　説明してあげてよ」"
+  },
+  {
+    "index": 1116,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、ぼくが？」"
+  },
+  {
+    "index": 1139,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "どうやらましろは、夏彦とサリュを会話させたいらしい。"
+  },
+  {
+    "index": 1144,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦はため息混じりに説明を始めた。"
+  },
+  {
+    "index": 1155,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……つまりさ、この市は政府による科学特区指定がなされていて、治安第一の条例が敷かれているんだよ」"
+  },
+  {
+    "index": 1184,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そのために、色々と特殊な制度や街頭設備があるんだ。監視カメラはその一環さ」"
+  },
+  {
+    "index": 1195,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「他にどういう特異点が？」"
+  },
+  {
+    "index": 1206,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えっとまず、転居するにも複雑な手続きが必要な事とか……」"
+  },
+  {
+    "index": 1217,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「街に出入りするだけでも、市役所に届けを出さなければならないとかかな」"
+  },
+  {
+    "index": 1246,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……どうしてそこまで？」"
+  },
+  {
+    "index": 1257,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「研究施設が多い以上、産業スパイとかに狙われる可能性を憂慮して、セキュリティには万全が期されているって事らしい」"
+  },
+  {
+    "index": 1268,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「国策に関わる重要な研究も数多く行われてるから、研究成果の流出を警戒してるんだ」"
+  },
+  {
+    "index": 1297,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうそう。噂じゃ電話とかメールもフィルタリングされているってハナシだよ」"
+  },
+  {
+    "index": 1326,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「どう、サリュ？　そういうの聞くと、街全体が秘密研究所って感じしない？　ＳＦっぽくてカッコイイでしょ？」"
+  },
+  {
+    "index": 1355,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「っ」"
+  },
+  {
+    "index": 1360,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "ましろに詰め寄られ、サリュは目を丸くした。"
+  },
+  {
+    "index": 1371,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「またましろの妄想が始まったか。生まれた時から住んでると、普通の光景だろ？」"
+  },
+  {
+    "index": 1382,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「監視カメラだって、『警官パトロール中』の張り紙みたいなもんだ。心にやましいところがなければ気にもならない」"
+  },
+  {
+    "index": 1411,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも少々、過剰な警備のように思える」"
+  },
+  {
+    "index": 1440,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いやいや、ちょっと過剰なくらい警備した方が安心できるんだよ」"
+  },
+  {
+    "index": 1469,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なにしろこの街には、あれがあるからさ」"
+  },
+  {
+    "index": 1492,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろがそう言って、バス停に備え付けられている、街の地図を指差す。"
+  },
+  {
+    "index": 1662,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "その地図の端の方――街外れには、巨大な六角形の建物が描かれていた。"
+  },
+  {
+    "index": 1673,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あれは……」"
+  },
+  {
+    "index": 1685,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「『ラボ』だよ。鹿鳴市最大の研究施設で――」"
+  },
+  {
+    "index": 1696,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「日本を代表する、原子力研究所だよ」"
+  },
+  {
+    "index": 1702,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "その言葉を聞いた夏彦が、ぎくりと身を硬くする。"
+  },
+  {
+    "index": 1707,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "それこそが昨日、夏彦がましろに言いかけた『この街で１点だけ、気にかかる場所』だった。"
+  },
+  {
+    "index": 1831,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ラボ――正式名称"
+  },
+  {
+    "index": 1834,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "『原子力生物学機構・第６研究所』"
+  },
+  {
+    "index": 1838,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "原子力と、原子力が生物に及ぼす影響を研究し、技術開発を行う独立行政法人だ。"
+  },
+  {
+    "index": 1843,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "国有の施設だが、運営と管理は鹿鳴市に一任されている。"
+  },
+  {
+    "index": 1847,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "この施設が特別なのは――施設内に研究用の『小型原子炉』を保有している事だ。"
+  },
+  {
+    "index": 1852,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "それを用いて原子核分裂実験から、原子核融合炉の開発研究まで、莫大な利益を生む研究を行っている。"
+  },
+  {
+    "index": 1857,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "しかも危険を伴う研究を担っている分、国から補助金も支払われている。"
+  },
+  {
+    "index": 1861,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "これが誘致されたおかげで、それまで平凡な地方都市だった鹿鳴市は、科学研究都市に生まれ変わったのだ。"
+  },
+  {
+    "index": 1866,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "経済・産業・科学の全面から見て、ラボはこの街の中核的存在と言えた。"
+  },
+  {
+    "index": 1956,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「産業スパイが狙うとしたらあそこだよ。世界でも最先端の設備や研究者がそろってるって話だし」"
+  },
+  {
+    "index": 1985,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そして夏彦のお母さんは、その代表なんだよねー」"
+  },
+  {
+    "index": 1990,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "ましろがにこやかに話を振ってくる。"
+  },
+  {
+    "index": 2001,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……まぁね」"
+  },
+  {
+    "index": 2006,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが夏彦は少々鼻白んだ。"
+  },
+  {
+    "index": 2154,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の母である『天川美夜子博士』は、ラボに勤めている研究者だ。"
+  },
+  {
+    "index": 2159,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その実力や実績について詳しくは知らないが、世界有数の物理学者らしい。"
+  },
+  {
+    "index": 2163,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが冷徹な科学者である母を、夏彦は苦手としていた。"
+  },
+  {
+    "index": 2279,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そりゃ母さんたちの研究がもたらす成果は、この街に多大な利益をもたらす）"
+  },
+  {
+    "index": 2285,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この街が潤うのも、ぼくたちの生活が豊かなのも、そのおかげではあるけど……）"
+  },
+  {
+    "index": 2290,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "実際、夏彦の母もかなりの高給取りだ。"
+  },
+  {
+    "index": 2341,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だがそれを踏まえた上でも、夏彦はラボという施設そのものが好きになれなかった。"
+  },
+  {
+    "index": 2346,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "母との折り合いが悪いからというだけではない。"
+  },
+  {
+    "index": 2351,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "その理由は、夏彦自身の過去に関わっていた。"
+  },
+  {
+    "index": 2429,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……あの日、ラボに行きさえなんかしなければ……）"
+  },
+  {
+    "index": 2434,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "苦い後悔が、胸中に広がる。"
+  },
+  {
+    "index": 2549,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……なに夏彦、急に黙りこんで？」"
+  },
+  {
+    "index": 2566,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　あ、あぁ……」"
+  },
+  {
+    "index": 2577,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんでもないよ。それよりバスはまだかな？」"
+  },
+  {
+    "index": 2643,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう言った時、ちょうどバスがやってきた。"
+  },
+  {
+    "index": 2672,
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はーいみなさん、席順は決まってないから適当に乗り込んでねー」"
+  },
+  {
+    "index": 2742,
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それじゃ２人とも、近くの席に座ろうよ」"
+  },
+  {
+    "index": 2753,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁいいよ。なんか他の男子に睨まれそうだけど」"
+  },
+  {
+    "index": 2777,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  {
+    "index": 2782,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュは何か言いたげだったが――"
+  },
+  {
+    "index": 2805,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "やがてましろの言葉にうなずき、そしてバスに乗り込んだ。"
+  }
+]

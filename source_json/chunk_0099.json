@@ -1,0 +1,1544 @@
+[
+  {
+    "index": 68,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√After Chapter6"
+  },
+  {
+    "index": 83,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――脱出の術を探るんだ」"
+  },
+  {
+    "index": 88,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "第３エリアに入った渡瀬は、風見にそう告げた。"
+  },
+  {
+    "index": 99,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設内のどこにも安全な場所がないなら、外に逃げるしかない」"
+  },
+  {
+    "index": 110,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが『Ｎエリアの消火によって隔壁を開く』と言う手段は使えなかった。他に脱出方法を探さなきゃならん」"
+  },
+  {
+    "index": 139,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ……！　しかし、どこかにそれがあるんでしょうか？」"
+  },
+  {
+    "index": 145,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  {
+    "index": 174,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我々も隊長が目覚める前から、ずっとそれを探していました。恐らくは外にいる司令長たちも」"
+  },
+  {
+    "index": 185,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし司令長たちが突入してこないところを見ると……厳しいように思います」"
+  },
+  {
+    "index": 196,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……確かにな」"
+  },
+  {
+    "index": 201,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "搬出リフトからの脱出が叶わなかったあの時、渡瀬も他の脱出手段を探った。"
+  },
+  {
+    "index": 206,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそれを見つけられずにいる内に、他の問題が頻出するようになった。"
+  },
+  {
+    "index": 211,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして今に至るわけだが――"
+  },
+  {
+    "index": 222,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！？」"
+  },
+  {
+    "index": 227,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その時、渡瀬はある事を思い出した。"
+  },
+  {
+    "index": 238,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「待てよ、そう言えば……！」"
+  },
+  {
+    "index": 267,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「！？　何か思い出したのですか！？」"
+  },
+  {
+    "index": 272,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬はうなずき、風見を見据えた。"
+  },
+  {
+    "index": 283,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「パイプだよ」"
+  },
+  {
+    "index": 294,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「エンジンルームに行った時、天井近くを太いパイプが走っていたのに気づいたか？」"
+  },
+  {
+    "index": 323,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え、ええ……」"
+  },
+  {
+    "index": 373,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あれはこの施設の近くにある湖から、原子炉の冷却水を取っているパイプだと、おっさんが説明していたんだ」"
+  },
+  {
+    "index": 384,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あのパイプの中には常に水が流れていて、パイプに穴を開けると水が漏れて、ラボが水没するとの事だが――」"
+  },
+  {
+    "index": 399,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「原子炉がなかったのなら、あのパイプの正体も怪しくなってくるんじゃないのか？」"
+  },
+  {
+    "index": 428,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……！」"
+  },
+  {
+    "index": 439,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もしあれがダミーで、あそこから脱出できるなら……！」"
+  },
+  {
+    "index": 468,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに……しかし、全くのダミーとも思えません」"
+  },
+  {
+    "index": 497,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あの巨大な機械の冷却を行っているのではないでしょうか？」"
+  },
+  {
+    "index": 526,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「だとしたらやはり、パイプに穴を開けると、ラボが水没する危険性があります」"
+  },
+  {
+    "index": 537,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……水流を止める方法があればいいんだが」"
+  },
+  {
+    "index": 566,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あの機械の正体がわかれば、方策も立てられるかもしれませんが……！」"
+  },
+  {
+    "index": 571,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "その言葉を聞いた時――"
+  },
+  {
+    "index": 576,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬は目を見開いた。"
+  },
+  {
+    "index": 587,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちょっと待て……あの機械の正体って……！？」"
+  },
+  {
+    "index": 616,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  {
+    "index": 627,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、思い出したぞ！　あの機械をどこで見たのかを！」"
+  },
+  {
+    "index": 656,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「どこでですか！？」"
+  },
+  {
+    "index": 667,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「エンジンルームだ！」"
+  },
+  {
+    "index": 678,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「エンジンルームの端末に入っていた、なんとかっていう機械の電子マニュアル――」"
+  },
+  {
+    "index": 689,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「その最初のページに、例の巨大な機械の画像があった！」"
+  },
+  {
+    "index": 718,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「！！　そう言えば！」"
+  },
+  {
+    "index": 729,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ひょっとしたらあのマニュアルに、水流を止める方法が書いてあるかもしれん！」"
+  },
+  {
+    "index": 758,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「た、隊長！　すぐに確認しましょう！」"
+  },
+  {
+    "index": 763,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬はうなずき、エンジンルームに向かった。"
+  },
+  {
+    "index": 861,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "――久しぶりに戻ってきた、エンジンルーム――"
+  },
+  {
+    "index": 866,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "夏彦とサリュを床に横たえた渡瀬たちは、例の端末に駆け寄り、それを操作した。"
+  },
+  {
+    "index": 916,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『ＷＸ粒子増幅器　運用マニュアル』……これだ！」"
+  },
+  {
+    "index": 921,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は風見と頭を寄せ合い、そのモニターに目を走らせた。"
+  },
+  {
+    "index": 959,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『ＷＸ粒子増幅器　運用マニュアル』"
+  },
+  {
+    "index": 962,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 965,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜はじめに＞"
+  },
+  {
+    "index": 968,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 971,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "本書はＷＸ粒子増幅器の運用マニュアルである。"
+  },
+  {
+    "index": 974,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "運用には極めて危険が伴うため、当マニュアルを熟読の末、%N作業に従事して頂きたい。"
+  },
+  {
+    "index": 977,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "なおＷＸ粒子はその性質上、人体に多大な悪影響を与える。"
+  },
+  {
+    "index": 983,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "感覚異常・脳機能障害・遺伝子障害等がその例である。"
+  },
+  {
+    "index": 986,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "なお粒子エネルギー量と、症状の関係は以下の通り。"
+  },
+  {
+    "index": 990,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜ＡＤ未投与時＞"
+  },
+  {
+    "index": 993,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 996,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　０ｍＳｖ～２０００ｍＳｖ　：　身体への影響なし"
+  },
+  {
+    "index": 999,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1002,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "２０００ｍＳｖ～４０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
+  },
+  {
+    "index": 1005,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
+  },
+  {
+    "index": 1008,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1011,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "４０００ｍＳｖ～８０００ｍＳｖ　：　脳機能障害・"
+  },
+  {
+    "index": 1014,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
+  },
+  {
+    "index": 1017,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1020,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "８０００ｍＳｖ～　　　　　　　　：　意識断絶"
+  },
+  {
+    "index": 1023,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1026,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（以上、エネルギー量に比例して、症状の強度・発生確率は増加）"
+  },
+  {
+    "index": 1030,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜ＡＤ投与時＞"
+  },
+  {
+    "index": 1033,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1036,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　０ｍＳｖ～６０００ｍＳｖ　：　身体への影響なし"
+  },
+  {
+    "index": 1039,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1042,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "６０００ｍＳｖ～８０００ｍＳｖ　：　感覚異常・嘔吐感・頭痛・"
+  },
+  {
+    "index": 1045,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　　　　　　　　　　　　　　　　遺伝子障害"
+  },
+  {
+    "index": 1048,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1051,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "８０００ｍＳｖ～１２０００ｍＳｖ：　脳機能障害・"
+  },
+  {
+    "index": 1054,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "　　　　　　　　　　　　　　　　　　意識レベル低下"
+  },
+  {
+    "index": 1057,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1060,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "１２０００ｍＳｖ～　　　　　　　：　意識断絶"
+  },
+  {
+    "index": 1063,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1066,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（※ＡＤ投与時は、未投与時の値より、４０００ｍＳｖ程度加算）"
+  },
+  {
+    "index": 1070,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　%N　%N　%N　%N"
+  },
+  {
+    "index": 1073,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "通常の運用時は、"
+  },
+  {
+    "index": 1076,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "粒子エネルギー量を２０００ｍＳｖ以上にしてはならない。"
+  },
+  {
+    "index": 1079,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1082,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "また各種高度実験時に際しては、"
+  },
+  {
+    "index": 1085,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "粒子エネルギー量を４０００ｍＳｖ以上にしてはならない。"
+  },
+  {
+    "index": 1117,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘、書いてある事の意味がわかるか？」"
+  },
+  {
+    "index": 1149,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いえ……ＷＸ粒子というものは、聞いた事がありません」"
+  },
+  {
+    "index": 1160,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「人体への悪影響の内容を見るに、放射線に類似したものなのではと推察できますが……」"
+  },
+  {
+    "index": 1165,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬も同感だった。だが今はそれより、もっと重要な事がある。"
+  },
+  {
+    "index": 1176,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「冷却水に関する記述はないか……」"
+  },
+  {
+    "index": 1181,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "マニュアルを読み進めていくうち、やがてある項目が眼に止まった。"
+  },
+  {
+    "index": 1258,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "＜水冷式冷却システムについて＞"
+  },
+  {
+    "index": 1261,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1264,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "増幅器の稼動時は、大量の熱が発生する。"
+  },
+  {
+    "index": 1267,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その熱を冷却するため、鹿鳴湖の自然水を使用した水冷システムが、エンジンルームに設置されている。"
+  },
+  {
+    "index": 1270,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "冷却水は『取水パイプ』によって取水され、%N『排水パイプ』によって排水される。"
+  },
+  {
+    "index": 1273,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "各パイプの直径は１ｍ。厚みは２．４ｃｍ。%N水量は毎分約１２００リットル。"
+  },
+  {
+    "index": 1276,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "取水パイプから取水された冷却水は、水温が約２５℃上昇した後、排出される。"
+  },
+  {
+    "index": 1279,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1282,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（８月の鹿鳴湖の水温を２８℃とした場合、排出時は５３℃）"
+  },
+  {
+    "index": 1287,
+    "code": "0x85",
+    "developer_comment": "渡瀬",
+    "string": "　"
+  },
+  {
+    "index": 1290,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "水流の制御は、排水パイプ内に設置された『強制循環ポンプ』によって行われる。"
+  },
+  {
+    "index": 1293,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "また取水パイプ内には、パイプ内に異物が混入する事を避けるための『濾過機構』が存在する。"
+  },
+  {
+    "index": 1296,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "濾過機構によって高速で蒸留・濾過された水のみが、%N冷却水として使用される。"
+  },
+  {
+    "index": 1299,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "藻などの異物は、濾過機構内に存在する異物排出口から、%N自動で排出される。"
+  },
+  {
+    "index": 1302,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "濾過機構が故障した場合、増幅器内に異物混入水が流入してしまい、深刻な故障が発生する危険性がある。"
+  },
+  {
+    "index": 1305,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "故に濾過機構の故障時は、自動で取水パイプ内の『水門』が閉まり、異物混入水の流入を避ける。"
+  },
+  {
+    "index": 1308,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "同時に強制循環ポンプ及び増幅器の運転も停止し、水流は停止する。"
+  },
+  {
+    "index": 1311,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "なお、各設備の位置関係は、以下の図の通り。"
+  },
+  {
+    "index": 1343,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……これだ……！」"
+  },
+  {
+    "index": 1348,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそれを見ながら、低い声で呟いた。"
+  },
+  {
+    "index": 1359,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やはり脱出口はここしかない！」"
+  },
+  {
+    "index": 1368,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "見上げると天井付近には、『取水パイプ』と『排水パイプ』が、並んで走っている。"
+  },
+  {
+    "index": 1373,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこまで登るためのハシゴも、パイプのそばにあった。"
+  },
+  {
+    "index": 1378,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "耳を澄ませば、パイプ内を水が流れる音も聞こえる。"
+  },
+  {
+    "index": 1383,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そして取水パイプの下には、大きな機械が見える。どうやらあれが『濾過機構』らしい。"
+  },
+  {
+    "index": 1394,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの『濾過機構』が故障すれば――いや、破壊してしまえば、水流は止まる」"
+  },
+  {
+    "index": 1405,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうすればこのパイプから、鹿鳴湖に脱出できるぞ！」"
+  },
+  {
+    "index": 1434,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに……！」"
+  },
+  {
+    "index": 1463,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし水流を止めた上で、どうすればいいのでしょうか？」"
+  },
+  {
+    "index": 1474,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  {
+    "index": 1524,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「この図を見ると『取水パイプ』は、鹿鳴湖の水位より下に位置しています」"
+  },
+  {
+    "index": 1535,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「もし取水パイプに穴を開けてしまったら、水流が止まっていても、ラボは水没してしまいます」"
+  },
+  {
+    "index": 1546,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「となると、排水パイプに穴を開けるしかないだろうな……」"
+  },
+  {
+    "index": 1557,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「水流を止めた上で、パイプの上部に穴を開ければ、さほど水は溢れないはずだ」"
+  },
+  {
+    "index": 1568,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし排水パイプの中に満たされているのは、増幅器とやらによって熱された水です」"
+  },
+  {
+    "index": 1579,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「仮に水温が５３℃だとしたら、熱くて耐えられません」"
+  },
+  {
+    "index": 1590,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  {
+    "index": 1601,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「排水パイプの下部に穴を開けて、パイプ内の水を全て抜いてしまうという手もありますが……」"
+  },
+  {
+    "index": 1612,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……それは危険だ。どのくらいの水が漏れ出てくるかわからない」"
+  },
+  {
+    "index": 1623,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「万が一、とんでもない量の熱水が溢れてきたら……この施設に残っている人間が、溺れ死ぬ可能性もある」"
+  },
+  {
+    "index": 1634,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリや、守部や、おっさんや……他の要救助者たちも」"
+  },
+  {
+    "index": 1645,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……イチかバチかでやってみるわけにはいきませんね」"
+  },
+  {
+    "index": 1656,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だからやっぱり、穴を開ける場所は排水パイプの上部だ」"
+  },
+  {
+    "index": 1667,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では、クリアしなければならない問題は３つ――」"
+  },
+  {
+    "index": 1678,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「１、どうやってパイプに穴を開けるか」"
+  },
+  {
+    "index": 1689,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「２、どうやって水で満たされたパイプ内で、呼吸を確保するか」"
+  },
+  {
+    "index": 1700,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「３、どうやって５３℃の熱水に耐え、５００ｍ離れた鹿鳴湖まで到達するか……！」"
+  },
+  {
+    "index": 1730,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「考えよう橘、その方法を。その３つさえクリアできれば、ここから脱出できる！」"
+  },
+  {
+    "index": 1741,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ！」"
+  },
+  {
+    "index": 1746,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬たちは向き合い、そして考え始めた。"
+  },
+  {
+    "index": 1775,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まず『１、どうやってパイプに穴を開けるか』」"
+  },
+  {
+    "index": 1786,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「これはなんとか守部から、エンジンカッターを奪えば……」"
+  },
+  {
+    "index": 1797,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、それは危険すぎる。そうしなくてもいいものがある」"
+  },
+  {
+    "index": 1826,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  {
+    "index": 1837,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「桧山の斧だ。例の斧は、今はＮエリアに落ちている」"
+  },
+  {
+    "index": 1848,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「厚み２．４ｃｍのパイプなら、人力でもきっと穴を開けられるさ」"
+  },
+  {
+    "index": 1877,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……可能ですか？」"
+  },
+  {
+    "index": 1888,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレを誰だと思ってる？」"
+  },
+  {
+    "index": 1911,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "強がりを言う渡瀬に、風見はにやりと笑った。"
+  },
+  {
+    "index": 1922,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……信じますよ！」"
+  },
+  {
+    "index": 1933,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、じゃあ次だ！　『水で満たされたパイプ内で、呼吸を確保する方法』！」"
+  },
+  {
+    "index": 1962,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それについては、私に考えがあります」"
+  },
+  {
+    "index": 1973,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだ？」"
+  },
+  {
+    "index": 1984,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「簡易基地に１つ残った、空気ボンベです。あのボンベの容量は約２０分」"
+  },
+  {
+    "index": 2013,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「水中を５００ｍ歩くのに、充分とは言い切れませんが……あれしかないでしょう」"
+  },
+  {
+    "index": 2024,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし空気ボンベは、面体が壊れたから使えないんじゃなかったか？」"
+  },
+  {
+    "index": 2053,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「大丈夫。ボンベから伸びているホースを手で保持し、直接口にくわえればいいのです」"
+  },
+  {
+    "index": 2064,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「これは片手がふさがってしまう上、会話もできなくなるので、消火時には使えない方法です」"
+  },
+  {
+    "index": 2093,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「だから今まで提案しなかったのですが――」"
+  },
+  {
+    "index": 2104,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「水の中を歩くだけなら、なんとかなるか……」"
+  },
+  {
+    "index": 2109,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "不安定な作戦だが、それに賭けるしかなかった。"
+  },
+  {
+    "index": 2114,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "１つ１つ問題を潰し、計画の実現性を高めていく。"
+  },
+  {
+    "index": 2119,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、それでもなお――真の問題がまだ残っていた。"
+  },
+  {
+    "index": 2130,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……じゃあ最後の問題だ」"
+  },
+  {
+    "index": 2141,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『３、どうやって５３℃の熱水に耐えるか』……！」"
+  },
+  {
+    "index": 2146,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見がうなずき、そして考え込む。"
+  },
+  {
+    "index": 2175,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まず『気温の５３℃』と『水温の５３℃』は全く別物です」"
+  },
+  {
+    "index": 2186,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「液体が肌に接すると気化冷却作用が起きなくなるため、熱気よりも熱水の方が、遥かに人体にダメージを与えます」"
+  },
+  {
+    "index": 2215,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「５３℃のお風呂に入った事はないでしょう？　人はその温度のお湯に耐えられるようにできてません」"
+  },
+  {
+    "index": 2226,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「むぅ……」"
+  },
+  {
+    "index": 2255,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「だから……水流を止めた上で、水が冷えるのを待ちましょうか？」"
+  },
+  {
+    "index": 2266,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「良さそうだが、時間がかかりそうだな……」"
+  },
+  {
+    "index": 2277,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「厚み２．４ｃｍのパイプって、ほとんど魔法瓶みたいなもんだろ？」"
+  },
+  {
+    "index": 2306,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに……」"
+  },
+  {
+    "index": 2317,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……多少水温が下がったのが確認できたら、火傷覚悟で突入してみるか？」"
+  },
+  {
+    "index": 2328,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我々は仮に耐えられたとしても、要救助者――特に天川くんはこの重傷です。耐えられるとは思えません」"
+  },
+  {
+    "index": 2339,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……そもそも、夏彦を連れて脱出する事自体、かなり難しいのか」"
+  },
+  {
+    "index": 2368,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし１人だけでも脱出できたら、司令長たちを呼んでくる事ができるのですが……」"
+  },
+  {
+    "index": 2379,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「警察を呼ぶ事だってできます。そうすれば錯乱している宇喜多さんたちも、取り押さえる事ができるでしょう」"
+  },
+  {
+    "index": 2390,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……じゃあ、せめて１人……」"
+  },
+  {
+    "index": 2401,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「１人だけでも、熱水に耐えて、脱出する術が見つかればいいんだな……？」"
+  },
+  {
+    "index": 2446,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は考えた。今までのどの局面より真剣に。"
+  },
+  {
+    "index": 2451,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "この５時間あまりの間に得た、全ての知識を総動員して。"
+  },
+  {
+    "index": 2457,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（考えろ……今、この施設の中にあるもので、熱に耐えられるものはないか？）"
+  },
+  {
+    "index": 2462,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬たちが着ている防火服。これは火に対して耐性はあるが、熱水に対しては役に立たないだろう。"
+  },
+  {
+    "index": 2467,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "袖や襟などあらゆるところに隙間があり、そこから熱水が入ってくるからだ。"
+  },
+  {
+    "index": 2473,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（じゃあ、袖や襟を密閉してしまえばいいのか……？）"
+  },
+  {
+    "index": 2478,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だがそれでも顔は露出している。そもそも完全な密閉をする事など不可能だろう。"
+  },
+  {
+    "index": 2484,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（諦めるな、考えろ！　必ず何かあるはずだ！）"
+  },
+  {
+    "index": 2489,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "今まで見てきたものを思い出す。"
+  },
+  {
+    "index": 2494,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "簡易基地にあった装備。空気ボンベ、空気ジャッキ、ＡＤ、プロキオン、エンジンカッター。"
+  },
+  {
+    "index": 2499,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が持っていたもの。ＰＤＡ、セキュリティカード――どれも役に立ちそうにない。"
+  },
+  {
+    "index": 2504,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "施設内で見つけたもの。輸血用血液、輸血キット、酸素ボンベ、カイローン、蒸留水、拳銃――どれも役に立ちそうにない！"
+  },
+  {
+    "index": 2510,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（他に見たものはないか！？　きっと答えはあるはずだ！）"
+  },
+  {
+    "index": 2515,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "自分の辿ってきた道を振り返る。"
+  },
+  {
+    "index": 2520,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "目覚めて、風見と洵に出会い、ユウリを救助した。"
+  },
+  {
+    "index": 2525,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "簡易基地で装備を整え、恵那や宇喜多と出会い、夏彦たちの映像を見て捜索を開始した。"
+  },
+  {
+    "index": 2530,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "仲間の死体を発見し、それでも捜索を続行し、消火システムを起動して火を消して――"
+  },
+  {
+    "index": 2545,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あっ……」"
+  },
+  {
+    "index": 2550,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬の口から、声が漏れた。"
+  },
+  {
+    "index": 2555,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "あの時、風見が言っていた事を思い出す。"
+  },
+  {
+    "index": 2669,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――捜索開始当初、簡易基地に行った時――"
+  },
+  {
+    "index": 2698,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ちなみに、他にも『放射線防護服』が２つあったんですが……」"
+  },
+  {
+    "index": 2709,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「防護服は消火活動中に破損して、もう使い物にならないのです」"
+  },
+  {
+    "index": 2738,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「気密性・耐火性・耐水性に優れ、面体部分にボンベを直接装着できる事が強みだったのですが――」"
+  },
+  {
+    "index": 2743,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "あの時、風見は防護服の残骸を指差して言った。"
+  },
+  {
+    "index": 2748,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "それは面体の部分がヒビ割れてしまっていた。"
+  },
+  {
+    "index": 2803,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  {
+    "index": 2850,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "さらにあの時、見たものを思い出す。"
+  },
+  {
+    "index": 2855,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "下半身が焼けただれた死体を――！"
+  },
+  {
+    "index": 2941,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬の目が見開かれた。"
+  },
+  {
+    "index": 2946,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "その２つの記憶こそが、渡瀬の求める答えだった。"
+  },
+  {
+    "index": 2957,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ……あった」"
+  },
+  {
+    "index": 2986,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  {
+    "index": 2997,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「見つかったんだ、熱水に耐える方法が！」"
+  },
+  {
+    "index": 3026,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そ、それは！？」"
+  },
+  {
+    "index": 3037,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「防護服だよ、橘……最後の最後で役に立ってくれたぜ」"
+  },
+  {
+    "index": 3042,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見が言うには、あの防護服は気密性と耐水性が高い。"
+  },
+  {
+    "index": 3047,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ならばそれを着れば、熱水が染みてくる事もない。"
+  },
+  {
+    "index": 3052,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "『５３℃の水温』は、『５３℃の気温』に変わる――耐えられる温度になるのだ！"
+  },
+  {
+    "index": 3081,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし、我々の防護服はすでに破損して……！」"
+  },
+  {
+    "index": 3092,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「大丈夫だ。オレに算段がある」"
+  },
+  {
+    "index": 3121,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「算段、ですか？」"
+  },
+  {
+    "index": 3132,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「今、脱出に必要なものを集めてくる」"
+  },
+  {
+    "index": 3143,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘は子供たちと一緒に、ここで待っていてくれるか？」"
+  },
+  {
+    "index": 3172,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……！」"
+  },
+  {
+    "index": 3177,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の目に、逡巡の色が浮かぶ。"
+  },
+  {
+    "index": 3182,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "宇喜多や洵が徘徊しているこの施設内を、単独で移動するのは危険だろう。しかし――"
+  },
+  {
+    "index": 3193,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「心配なのはわかるが、２人で行動するより１人の方が目立たない。こらえてくれ」"
+  },
+  {
+    "index": 3198,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそう言って、ハシゴに足をかけた。"
+  },
+  {
+    "index": 3209,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「装備を揃えたら、すぐに戻ってくる」"
+  },
+  {
+    "index": 3238,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「は……はい、お気をつけて！」"
+  },
+  {
+    "index": 3243,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "渡瀬はうなずき、そしてハシゴを駆け降りた。"
+  },
+  {
+    "index": 3292,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "――渡瀬はそのまま、第２エリアの簡易基地に向かった。"
+  },
+  {
+    "index": 3341,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "そこで空気ボンベと、防護服の残骸を手に入れる。"
+  },
+  {
+    "index": 3347,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（これだけじゃ、防護服は役に立たない……）"
+  },
+  {
+    "index": 3352,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は割れた面体を外し、それを放り捨て、簡易基地を飛び出した。"
+  },
+  {
+    "index": 3439,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "――Ｎエリアを経由し、そこで斧を拾い、"
+  },
+  {
+    "index": 3526,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "今度は第４エリアに向かう。"
+  },
+  {
+    "index": 3532,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……今まで見てきた防護服は、どれもどこかが破損していた）"
+  },
+  {
+    "index": 3538,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（橘と守部の防護服は面体部分が壊れ、堂島の防護服はボロボロ。桧山の防護服は下半身部分が焼失……）"
+  },
+  {
+    "index": 3544,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だが――それらを繋ぎ合わせれば！）"
+  },
+  {
+    "index": 3549,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そう思いながら走り、エレベーターホールに辿り着いた。"
+  },
+  {
+    "index": 3595,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "そこには今もなお、桧山の死体があった。"
+  },
+  {
+    "index": 3606,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「すまん、桧山……」"
+  },
+  {
+    "index": 3611,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬は桧山に謝り、そしてその死体から――"
+  },
+  {
+    "index": 3660,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "面体をはぎとった。"
+  },
+  {
+    "index": 3706,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（これで、必要なものは全て揃った……！）"
+  },
+  {
+    "index": 3711,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "斧、空気ボンベ、割れてない面体と、破損してない防護服。"
+  },
+  {
+    "index": 3765,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬はそれらを手に抱え、再び駆け出した。"
+  },
+  {
+    "index": 3770,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見たちの待つ、エンジンルームに向けて。"
+  }
+]

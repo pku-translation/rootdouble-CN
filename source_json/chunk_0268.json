@@ -1,0 +1,650 @@
+[
+  {
+    "index": 84,
+    "code": "0x55",
+    "developer_comment": "",
+    "string": "√Current Chapter3"
+  },
+  {
+    "index": 101,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――Ｎエリアにたどり着いた時、渡瀬はすでにボロボロだった。"
+  },
+  {
+    "index": 163,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見に消火器で腕を殴られ、"
+  },
+  {
+    "index": 223,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "途中で遭遇した洵から逃れ、"
+  },
+  {
+    "index": 283,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の銃撃を脇腹に受け、"
+  },
+  {
+    "index": 342,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして何とか駆け込んだＮエリアで、渡瀬を待ち構えていたのは――"
+  },
+  {
+    "index": 422,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「っ……！」"
+  },
+  {
+    "index": 427,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "肌の違和感・頭痛・指先の痙攣という、様々な体の異常だった。"
+  },
+  {
+    "index": 433,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ダメだ、渡瀬！　この場所は危険すぎる！）"
+  },
+  {
+    "index": 438,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "エンジンルームで見たマニュアルにも、こう書いてあった。"
+  },
+  {
+    "index": 443,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『　８０００ｍＳｖ～　　　：意識断絶　』"
+  },
+  {
+    "index": 448,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "Ｎエリアの汚染レベルは、その数値を遥かに越えている。"
+  },
+  {
+    "index": 454,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ――これだけ汚染レベルが高いってことは、やっぱりここにある機械がＷＸ粒子増幅器！）"
+  },
+  {
+    "index": 460,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この機械のせいで、施設内の『ｍＳｖ』の数値が上昇していたのか！？）"
+  },
+  {
+    "index": 465,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう確信した瞬間、夏彦の意識に閃光が走った。"
+  },
+  {
+    "index": 472,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（っ！！！）"
+  },
+  {
+    "index": 477,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『ＡＤ』『プロキオン』『汚染区域』『ＷＸ粒子増幅器』『ＷＸ粒子』『ＢＣの第３の能力』。"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の中でバラバラに存在していたパズルのピースが、急速に１つに繋がる。"
+  },
+  {
+    "index": 488,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あ、あ、あぁぁ……！）"
+  },
+  {
+    "index": 494,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（わ……わかったぞ！　１つだけ、謎が解けた！）"
+  },
+  {
+    "index": 499,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ようやく見つけた答え――それはこの施設の正体だった。"
+  },
+  {
+    "index": 511,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ぼくはこの６時間、渡瀬と『ＢＣの第３の能力』で繋がったままだった）"
+  },
+  {
+    "index": 517,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なのに『ＡＤ』を投与するたびにそれは閉ざされ、渡瀬が『汚染区域』に入る度にそれは復活した）"
+  },
+  {
+    "index": 523,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（つまりこのラボで作られた『ＡＤ』は、ぼくのＢＣ能力を阻害する薬で――）"
+  },
+  {
+    "index": 529,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いまラボに蔓延している『ＷＸ粒子』は、ＡＤとは逆に、ぼくのＢＣ能力を有効にするものだったんだ！）"
+  },
+  {
+    "index": 534,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして最もセキュリティレベルが高いラボの中枢に、『ＷＸ粒子増幅器』がある。"
+  },
+  {
+    "index": 539,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それにＷＸ粒子を計測する『プロキオン』も、このラボで作られた物。"
+  },
+  {
+    "index": 544,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ＡＤもＷＸ粒子もプロキオンも全て、ＢＣに関する物――！"
+  },
+  {
+    "index": 550,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ということは……という事は、このラボは！！）"
+  },
+  {
+    "index": 635,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　%N　%N"
+  },
+  {
+    "index": 671,
+    "code": "0x85",
+    "developer_comment": "――もっと国家的な危険な研究を行っている――",
+    "string": "　%N　%N　%N"
+  },
+  {
+    "index": 753,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――このラボは、やっぱり原子力研究所なんかじゃない！）"
+  },
+  {
+    "index": 759,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『ＷＸ粒子』と、『ＢＣ能力』を研究するための施設だったんだ！！）"
+  },
+  {
+    "index": 764,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦がついにその真実にたどり着いた――まさにその時。"
+  },
+  {
+    "index": 931,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "まだ開いたままのゲートの向こうに、消火器を手にした風見が現れた。"
+  },
+  {
+    "index": 942,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  {
+    "index": 978,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "渡瀬が慌てて、端末を操作する。"
+  },
+  {
+    "index": 1032,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "ゲートがすぐに閉じ始める。"
+  },
+  {
+    "index": 1039,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが、風見はそれよりも早くゲートを潜り抜け――"
+  },
+  {
+    "index": 1134,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「がっ！！」"
+  },
+  {
+    "index": 1158,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見が振り下ろした消火器が、渡瀬の頭部を殴打した。"
+  },
+  {
+    "index": 1163,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "視界に火花が散り、渡瀬の体がぐらりと傾ぐ。"
+  },
+  {
+    "index": 1208,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "だが渡瀬は最後の力を振り絞り、"
+  },
+  {
+    "index": 1228,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああああぁっ！」"
+  },
+  {
+    "index": 1254,
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "風見を、Ｎエリアの外に突き飛ばした。"
+  },
+  {
+    "index": 1357,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「渡瀬ッ！　渡瀬ぇええッ！」"
+  },
+  {
+    "index": 1368,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「開けなさい渡瀬ぇえええッ！！」"
+  },
+  {
+    "index": 1373,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "風見の声が、ゲートの向こうに消える。"
+  },
+  {
+    "index": 1452,
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "同時に渡瀬が崩れ落ち、夏彦の体も投げ出された。"
+  },
+  {
+    "index": 1524,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ……）"
+  },
+  {
+    "index": 1619,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "薄れ行く渡瀬の意識に、様々な疑問が明滅する。"
+  },
+  {
+    "index": 1636,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『渡瀬が記憶を失った理由』。『この９人が施設内に閉じ込められた理由』。『要救助者に何度も逃げられた理由』。"
+  },
+  {
+    "index": 1641,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "『Ｎエリアに火災も原子炉もなく、代わりに夏彦が倒れてた理由』。『ユウリの死体が消えた理由』――。"
+  },
+  {
+    "index": 1658,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――疑問のうちいくつかの答えは、夏彦の中にあった。"
+  },
+  {
+    "index": 1663,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "記憶喪失やつじつまの合わない記憶は、夏彦の能力によってもたらされたものだ。"
+  },
+  {
+    "index": 1680,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "サリュが渡瀬から逃げたのは、彼がテロリストだからに他ならない。"
+  },
+  {
+    "index": 1685,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "おそらく『ユウリ』が逃げた理由も同じだろう。"
+  },
+  {
+    "index": 1734,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そしてＮエリアに火災も原子炉もなかったのは、ここがＷＸ粒子とＢＣ能力を研究するための施設だったからだ。"
+  },
+  {
+    "index": 1739,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが夏彦の中にも、解けない６つの疑問が残された。"
+  },
+  {
+    "index": 1791,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ラボ内で起きている殺人事件の犯人は誰なのか？"
+  },
+  {
+    "index": 1841,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "貨物搬出用リフトの前で殺されていた少女は、何者だったのか？"
+  },
+  {
+    "index": 1891,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "悠里と同じ顔をした、あの『ユウリ』という少女は何者だったのか？"
+  },
+  {
+    "index": 1939,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "保管しておいたＡＤは誰が持ち去ったのか？"
+  },
+  {
+    "index": 1987,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "恵那はどこに行ってしまったのか？"
+  },
+  {
+    "index": 2030,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そして何よりわからないのは――"
+  },
+  {
+    "index": 2179,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "どうして３人の人間が、次々と狂ってしまったのか、という事だった。"
+  },
+  {
+    "index": 2225,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――『思い出せ』と誰かが囁いた気がした。"
+  },
+  {
+    "index": 2272,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それは夏彦の心の奥から、沸き上がってくる声に思えた。"
+  },
+  {
+    "index": 2284,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ、思いだせ……！　いままで見聞きしたものの中に、答えがあるはずだ）"
+  },
+  {
+    "index": 2296,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（解けていない謎の答えが……！）"
+  },
+  {
+    "index": 2307,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "そう思う夏彦の意識に、あの『鹿鳴市の七不思議』が甦る。"
+  },
+  {
+    "index": 2392,
+    "code": "0x85",
+    "developer_comment": "夏彦",
+    "string": "　%N　%N"
+  },
+  {
+    "index": 2428,
+    "code": "0x85",
+    "developer_comment": "心が壊れた怪物になってしまう――",
+    "string": "　%N　%N"
+  },
+  {
+    "index": 2464,
+    "code": "0x85",
+    "developer_comment": "――地下に幽閉される――",
+    "string": "　%N　%N"
+  },
+  {
+    "index": 2595,
+    "code": "0x45",
+    "developer_comment": "――その対象となった者の心も、壊れてしまう――",
+    "string": "なぜ急に、そんな事を思い出したのかはわからない。"
+  },
+  {
+    "index": 2605,
+    "code": "0x45",
+    "developer_comment": "――その対象となった者の心も、壊れてしまう――",
+    "string": "だが――"
+  },
+  {
+    "index": 2639,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もし、今のが全部本当の事だったんだとしたら……！）"
+  },
+  {
+    "index": 2671,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（みんなの心を狂わせた怪物が、この地下に閉じ込められてたんだとしたら――！）"
+  },
+  {
+    "index": 2702,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――それはとても推察とは言えない。単なる思い付きに過ぎない。"
+  },
+  {
+    "index": 2733,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが夏彦は考える。"
+  },
+  {
+    "index": 2765,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（怪物が実在するかは、わからない……）"
+  },
+  {
+    "index": 2797,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（誰が悪いのかもわからない……）"
+  },
+  {
+    "index": 2829,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここで何が起こっているのか、ぼくにはわからない……！）"
+  },
+  {
+    "index": 2860,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――このままでは終われない。"
+  },
+  {
+    "index": 2890,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "何もわからないまま、引き下がるわけにはいかなかった。"
+  },
+  {
+    "index": 2902,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だから、調べるんだ！　ここで何が起きているのかを！）"
+  },
+  {
+    "index": 2908,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もう渡瀬だけに任せるんじゃなく、傍観しているだけじゃなくて――）"
+  },
+  {
+    "index": 2914,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――ぼくも、やるんだ！）"
+  },
+  {
+    "index": 2920,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こいつと２人で、力を合わせて――！！）"
+  },
+  {
+    "index": 2968,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "彼がそう決意した瞬間――"
+  },
+  {
+    "index": 2973,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の意識は、肉体に帰った。"
+  },
+  {
+    "index": 3060,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "自身の五感が戻ってくる。"
+  },
+  {
+    "index": 3065,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "視覚と聴覚と触覚と嗅覚と味覚と痛覚が、夏彦の体内で覚醒する。"
+  },
+  {
+    "index": 3076,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ッ！！」"
+  },
+  {
+    "index": 3081,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "とたんに全身の銃創から、焼けるような痛みが伝わってきた。"
+  },
+  {
+    "index": 3086,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "歯を食いしばらなければ耐えられない程の、本物の激痛。"
+  },
+  {
+    "index": 3097,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――……っ！！」"
+  },
+  {
+    "index": 3102,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "だが夏彦はぎりぎりと奥歯を噛み締め、重い手足に力をこめ――"
+  },
+  {
+    "index": 3137,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "――ゆっくりと、立ち上がった。"
+  },
+  {
+    "index": 3142,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "輸血の針が外れたが、それでも構わず……"
+  },
+  {
+    "index": 3147,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "渡瀬のもとへ、歩み寄る。"
+  },
+  {
+    "index": 3265,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "夏彦の足音を聞きつけ、渡瀬がうっすらと眼を開ける。"
+  },
+  {
+    "index": 3276,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――立て」"
+  },
+  {
+    "index": 3287,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まだ、何も終わってない……！」"
+  },
+  {
+    "index": 3333,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "広大なＮエリアにそびえ立つ、６つの巨大な装置。"
+  },
+  {
+    "index": 3338,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "それらが微かな駆動音を響かせる中――"
+  },
+  {
+    "index": 3343,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "強い意思に満ちた声が、凛と空気を震わせた。"
+  },
+  {
+    "index": 3354,
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前とぼくで、みんなをこの悪夢から救うんだ……！」"
+  }
+]

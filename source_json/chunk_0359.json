@@ -1,0 +1,968 @@
+[
+  {
+    "index": 69,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ゆりかごに揺られているような感覚があった。"
+  },
+  {
+    "index": 74,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "耳には車のエンジン音が聞こえる。"
+  },
+  {
+    "index": 129,
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてそれに混じり、博士の声が聞こえてきた。"
+  },
+  {
+    "index": 153,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「――優衣。優衣」"
+  },
+  {
+    "index": 161,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……ん……」"
+  },
+  {
+    "index": 169,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「着いたわよ」"
+  },
+  {
+    "index": 177,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……そう」"
+  },
+  {
+    "index": 188,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュがそう答えた時、車が止まった。"
+  },
+  {
+    "index": 196,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「さ、降りなさい」"
+  },
+  {
+    "index": 327,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "車を降りると、目の前に初めて見る景色が広がっていた。"
+  },
+  {
+    "index": 332,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "柔らかな風が吹き抜け、サリュの頬を撫でる。"
+  },
+  {
+    "index": 337,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "傍らに立つ博士が、サリュを見て言った。"
+  },
+  {
+    "index": 366,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「よく眠っていたわね」"
+  },
+  {
+    "index": 374,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……夢を見ていた」"
+  },
+  {
+    "index": 403,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夢？」"
+  },
+  {
+    "index": 411,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、夢。フランスの生家にいた頃の……何もない、灰色の日々の」"
+  },
+  {
+    "index": 419,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……何も起こらなかったはずなのに、とても悲しい夢だった気がする」"
+  },
+  {
+    "index": 448,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「心配しないでいいのよ、優衣。もうあの屋敷には戻らなくてもいいの」"
+  },
+  {
+    "index": 477,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「今日からあなたは、この鹿鳴市で暮らすんだから」"
+  },
+  {
+    "index": 482,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そういう話が、サリュの両親と博士の間で交わされたと聞いていた。"
+  },
+  {
+    "index": 487,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "サリュは一時的に博士に引き取られ、博士の住む街で暮らすのだと。"
+  },
+  {
+    "index": 516,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「慣れない土地で不便もあるけれど、不自由する事はないと思うわ」"
+  },
+  {
+    "index": 524,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも、やるべき事があるでしょう？」"
+  },
+  {
+    "index": 553,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「偉いわ、よく覚えていたわね」"
+  },
+  {
+    "index": 561,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「当然。それよりやるべき事の内容を確認したい」"
+  },
+  {
+    "index": 590,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたのここでの役目は、私の息子、天川夏彦を護る事よ」"
+  },
+  {
+    "index": 598,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「何から？」"
+  },
+  {
+    "index": 627,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「諸々の悪意からよ。近頃はこの街も、治安が悪くなってるから……」"
+  },
+  {
+    "index": 638,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「もっともずっと昔に比べれば、マシなのかもしれないけど」"
+  },
+  {
+    "index": 646,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「昔はどうだったの」"
+  },
+  {
+    "index": 675,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「かつてはこの街でも、反ＢＣデモやコミュニケーターへの迫害があったし」"
+  },
+  {
+    "index": 686,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その後にもコミュニケーターの住居が、直接破壊活動の標的となったの」"
+  },
+  {
+    "index": 697,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その時、標的となった建物は……半壊し、死者も出たわ」"
+  },
+  {
+    "index": 705,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう。見た感じ、平和そうな街なのに」"
+  },
+  {
+    "index": 734,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ここまで来るのに、１６年の歳月を要したのよ」"
+  },
+  {
+    "index": 745,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「でもどれだけ強固な砦を築いても、完全な平穏は保証されない。この街にも多くの穴がある」"
+  },
+  {
+    "index": 774,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「適性度Ｓの夏彦は、他のコミュニケーターより危険な目に遭う確率が高い」"
+  },
+  {
+    "index": 803,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「でも私は一緒にいてあげられない……だから優衣、あなたが夏彦を護ってあげて」"
+  },
+  {
+    "index": 811,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「承知」"
+  },
+  {
+    "index": 840,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ありがとう。それじゃ注意点が１つ」"
+  },
+  {
+    "index": 869,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦は幼少時の心的外傷がきっかけで、死んだ幼馴染の幻影を見続けているの」"
+  },
+  {
+    "index": 880,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「幼馴染の名前は『琴乃悠里』」"
+  },
+  {
+    "index": 888,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「琴乃、悠里……」"
+  },
+  {
+    "index": 893,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "その名を聞くと、どことなく懐かしい感じがした。"
+  },
+  {
+    "index": 898,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "そう、前に博士から聞いた事があったのだ。"
+  },
+  {
+    "index": 927,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦と会話する時は、この子の名前が突然出てきたりするけど――」"
+  },
+  {
+    "index": 938,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それについては触れずに、そっとしておいてあげて」"
+  },
+  {
+    "index": 946,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「琴乃悠里についての情報は、すでに把握してある。なるべくうまくやるつもり」"
+  },
+  {
+    "index": 975,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そう、期待しているわ」"
+  },
+  {
+    "index": 980,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は穏やかな声で言った。"
+  },
+  {
+    "index": 985,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "だが本当に期待しているのかどうか、サリュにはわからない。"
+  },
+  {
+    "index": 990,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "人の心中を、表情や声の調子などから推察する事を、サリュは極度に苦手としている。"
+  },
+  {
+    "index": 998,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……やはり、不安」"
+  },
+  {
+    "index": 1006,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私は他人の心が理解できないし、世の常識もわからない」"
+  },
+  {
+    "index": 1014,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そんな私が博士の息子を、正しく気遣えるかどうか」"
+  },
+  {
+    "index": 1043,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そう言うと思ってね。プレゼントを用意したの」"
+  },
+  {
+    "index": 1050,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士はそう言って、車のトランクから、何かを取り出した。"
+  },
+  {
+    "index": 1115,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "それはフェレットか何かのぬいぐるみのように見えた。"
+  },
+  {
+    "index": 1123,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……ぬいぐるみ？」"
+  },
+  {
+    "index": 1134,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ただのぬいぐるみじゃないわ」"
+  },
+  {
+    "index": 1145,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「これはＡｉｒ　Ｒｅａｄｉｎｇ　Ｍａｓｓｃｏｔ　Ｓｙｓｔｅｍ、通称『ＡＲＭＳ』と言ってね」"
+  },
+  {
+    "index": 1156,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「他人の感情を、表情や言動から推測し、あなたに伝える機能を持っているのよ」"
+  },
+  {
+    "index": 1188,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたが外の世界で生きていくための、大切な指針となるはずだわ」"
+  },
+  {
+    "index": 1202,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士はそう言って、ＡＲＭＳと呼ばれた機械をサリュに手渡した。"
+  },
+  {
+    "index": 1207,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "それをまじまじと見てサリュは思う。"
+  },
+  {
+    "index": 1213,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（可愛い……）"
+  },
+  {
+    "index": 1218,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "柔らかな毛皮の手触りも心地よい。"
+  },
+  {
+    "index": 1223,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "こういうものに今まで興味はなかったが、なんだかすっかり気にいってしまった。"
+  },
+  {
+    "index": 1258,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「人の顔にＡＲＭＳの目を向けると、その表情を自動的にスキャンするわ」"
+  },
+  {
+    "index": 1269,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それでＡＲＭＳが楽しげに鳴いたら、その人も楽しいと思っているの」"
+  },
+  {
+    "index": 1280,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「表情の他にも、声やしぐさなどを分析して、判断を下す優れものよ」"
+  },
+  {
+    "index": 1285,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士がそう言った時、ＡＲＭＳが鳴いた。"
+  },
+  {
+    "index": 1293,
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "「きゅぅっ！」"
+  },
+  {
+    "index": 1301,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「楽しそうな鳴き声……という事は、博士はいま喜んでる？」"
+  },
+  {
+    "index": 1330,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ええ、優衣が喜んでいるみたいだからね」"
+  },
+  {
+    "index": 1338,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……便利」"
+  },
+  {
+    "index": 1367,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「よかった、気にいったみたいね」"
+  },
+  {
+    "index": 1372,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は微笑み、それから話を替えた。"
+  },
+  {
+    "index": 1401,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「さて、近くにホテルを取ってあるの。今日はそこで、私と寝泊りしましょう」"
+  },
+  {
+    "index": 1409,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士の家に行くのではないの？」"
+  },
+  {
+    "index": 1420,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「いきなりだと、環境の変化に戸惑うと思うから……段階的に、慣らしていきましょう」"
+  },
+  {
+    "index": 1425,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士はそう言って、サリュの手を引いて歩き出した。"
+  },
+  {
+    "index": 1488,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士と共に、街中を歩く。"
+  },
+  {
+    "index": 1493,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "故郷では見た事もないほど人がいて、サリュは身を震わせた。"
+  },
+  {
+    "index": 1499,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（なんだか……怖い……）"
+  },
+  {
+    "index": 1507,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……あの、博士、ホテルにはまだ着かないの？」"
+  },
+  {
+    "index": 1543,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「いえ、先にこのショッピングエリアで、生活必需品を買おうと思ったのだけど――」"
+  },
+  {
+    "index": 1548,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士がそう言った時。"
+  },
+  {
+    "index": 1553,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "サリュの頭の中で、声が響いた。"
+  },
+  {
+    "index": 1618,
+    "code": "0x85",
+    "developer_comment": "美夜子",
+    "string": "《離れろましろ！！　ガソリンだッ！！》"
+  },
+  {
+    "index": 1619,
+    "code": "0x86",
+    "developer_comment": "美夜子",
+    "string": "？？"
+  },
+  {
+    "index": 1620,
+    "code": "0x86",
+    "developer_comment": "美夜子",
+    "string": "《離れろましろ！！　ガソリンだッ！！》"
+  },
+  {
+    "index": 1684,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ッ！？」"
+  },
+  {
+    "index": 1695,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "突然の大声に、サリュは息を呑んだ。"
+  },
+  {
+    "index": 1703,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士、今のは？」"
+  },
+  {
+    "index": 1708,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "博士にそう尋ねると――彼女の表情は、凍り付いていた。"
+  },
+  {
+    "index": 1719,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「い……今のは……！」"
+  },
+  {
+    "index": 1730,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「まさか、夏彦の！？」"
+  },
+  {
+    "index": 1735,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は慌てた様子で、あたりを見回した。"
+  },
+  {
+    "index": 1764,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「とうとう能力が……！？　いや、それよりどこで……！」"
+  },
+  {
+    "index": 1772,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あの、博士？」"
+  },
+  {
+    "index": 1801,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「まずいわ……この事が上に知られたら……」"
+  },
+  {
+    "index": 1806,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士がぶつぶつと呟く。かなり動転しているらしく、サリュの言葉も耳に入ってないようだ。"
+  },
+  {
+    "index": 1817,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "やがて博士のＰＤＡが鳴った。"
+  },
+  {
+    "index": 1840,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士ははっとして、電話に出る。"
+  },
+  {
+    "index": 1876,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「はい、天川です……」"
+  },
+  {
+    "index": 1905,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……えぇ、さきほど私も知覚しました。恐らく特監ナ２号のテレパシーです……」"
+  },
+  {
+    "index": 1934,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……処置を？　そんな、早計過ぎます！」"
+  },
+  {
+    "index": 1963,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「まだテレパシーだけですよ！？　超科局基準に照らせば――」"
+  },
+  {
+    "index": 1968,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士は電話相手と、何事か議論を始めた。"
+  },
+  {
+    "index": 2011,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "サリュはしばらくそこで待っていたが、１０分経っても２０分経っても終わらない。"
+  },
+  {
+    "index": 2017,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（何か問題でも起きたの……？）"
+  },
+  {
+    "index": 2022,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュにはまるでわからない。"
+  },
+  {
+    "index": 2065,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "退屈しながら待っていると、やがて通りの向こうで人々のざわめきが聞こえた。"
+  },
+  {
+    "index": 2071,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（……なんだろう）"
+  },
+  {
+    "index": 2076,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュは博士からあまり離れないように気をつけながら、ざわめきの方に向けて歩き出した。"
+  },
+  {
+    "index": 2210,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "通りを抜けた所には、街灯にぶつかって壊れている車があった。"
+  },
+  {
+    "index": 2215,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "どうやら自動車事故があったらしい。消防車が走り去っていくのが遠くに見える。"
+  },
+  {
+    "index": 2301,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "そして、野次馬の群れの中の１人に――サリュは目を止めた。"
+  },
+  {
+    "index": 2307,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（あの少年は、天川博士の息子……？）"
+  },
+  {
+    "index": 2312,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "初めて見るはずの彼に、なぜか見覚えがあったのだ。"
+  },
+  {
+    "index": 2317,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "いつか博士から、写真でも見せられたのだろうか。"
+  },
+  {
+    "index": 2340,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "その時、彼もサリュの方を振り返った。"
+  },
+  {
+    "index": 2402,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "目が合い、じっと睨まれる。"
+  },
+  {
+    "index": 2410,
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "「きゅうきゅう！　きゅうきゅう！」"
+  },
+  {
+    "index": 2415,
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "すぐにＡＲＭＳが激しく鳴き出した。警報に近いような声だった。"
+  },
+  {
+    "index": 2421,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（いけない、敵視されてる……？）"
+  },
+  {
+    "index": 2469,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュはまた怖くなり、その場を素早く離れた。"
+  },
+  {
+    "index": 2538,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "博士のところに戻ると、ちょうど彼女が電話を終えるところだった。"
+  },
+  {
+    "index": 2549,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……ええ、ええ。わかりました、それではそのように……」"
+  },
+  {
+    "index": 2554,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士がため息をつき、電話を切る。"
+  },
+  {
+    "index": 2559,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "そしてサリュに気付き、言った。"
+  },
+  {
+    "index": 2594,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……ごめんなさい、待たせたわね」"
+  },
+  {
+    "index": 2602,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「電話はもういいの？」"
+  },
+  {
+    "index": 2631,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……ちょっと忙しくなりそうだけど……大丈夫よ、心配ないわ」"
+  },
+  {
+    "index": 2660,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「今の電話の件については、今後夏彦に会った時も、話さないでちょうだい」"
+  },
+  {
+    "index": 2668,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「？　……わからないけど、わかった」"
+  },
+  {
+    "index": 2697,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ありがとう。とにかく一度、ホテルに行きましょう。買い物はあとで私がするから」"
+  },
+  {
+    "index": 2702,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士はサリュの手を握り、また歩き始めた。"
+  },
+  {
+    "index": 2707,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "歩きながら、サリュは博士に問う。"
+  },
+  {
+    "index": 2715,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ところで博士、先ほどの話だけど」"
+  },
+  {
+    "index": 2744,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「え？」"
+  },
+  {
+    "index": 2752,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士の息子を護るという件について。なぜ私にそんな役目を？」"
+  },
+  {
+    "index": 2760,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士ほどの地位や財産があれば、いくらでも有能なボディーガードを雇えるはず。なのになぜ、この私に？」"
+  },
+  {
+    "index": 2765,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "サリュがそう尋ねると、博士は静かに答えた。"
+  },
+  {
+    "index": 2794,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたに、役目を与えたいのよ」"
+  },
+  {
+    "index": 2802,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……役目？」"
+  },
+  {
+    "index": 2813,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そう、役目」"
+  },
+  {
+    "index": 2842,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「この役目は息子のためだけじゃない。あなたのためでもあるの」"
+  },
+  {
+    "index": 2853,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたも夏彦も、心に欠けた部分がある。でもだからこそ、共に補完しあえるはず」"
+  },
+  {
+    "index": 2882,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私は期待しているの。私が夏彦に与えられないものを、優衣が与えてくれる事を」"
+  },
+  {
+    "index": 2893,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私が優衣に与えられないものを、夏彦が与えてくれる事を」"
+  },
+  {
+    "index": 2901,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……？　よくわからない」"
+  },
+  {
+    "index": 2930,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そうよね……でも、いずれきっとわかるはずよ」"
+  },
+  {
+    "index": 2959,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「この役目を果たした時、あなたの空洞は埋まるんだって」"
+  },
+  {
+    "index": 2964,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士はそう言って、微笑んだ。"
+  },
+  {
+    "index": 3048,
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "博士の真意はわからなかったが――その言葉には、心が強く惹きつけられた。"
+  },
+  {
+    "index": 3054,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（役目か……）"
+  },
+  {
+    "index": 3059,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "警護などというつまらなそうな事に、なぜそんなにも惹きつけられるかはわからない。"
+  },
+  {
+    "index": 3064,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "だがサリュは自覚した。自分がそれを渇望していた事を。"
+  },
+  {
+    "index": 3070,
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（自信はないけれど……一生懸命、がんばってみよう）"
+  }
+]
