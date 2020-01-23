@@ -1,896 +1,896 @@
-[
-  {
-    "index": 65,
+{
+  "000065": {
+    "context": "000065",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「――ただいま、『ケースＮ』が発生しました」"
   },
-  {
-    "index": 73,
+  "000073": {
+    "context": "000073",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「緊急事態につき、セキュリティを『封鎖モード』に移行」"
   },
-  {
-    "index": 81,
+  "000081": {
+    "context": "000081",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「施設内の全ゲートを閉鎖・ロックすると共に、隔壁を封鎖します」"
   },
-  {
-    "index": 160,
+  "000160": {
+    "context": "000160",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「ひっく……ひぐ……」"
   },
-  {
-    "index": 171,
+  "000171": {
+    "context": "000171",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「ど、どうしようひこりん……こわいよぅ……！」"
   },
-  {
-    "index": 207,
+  "000207": {
+    "context": "000207",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「泣くなって、悠里！　ぼくがなんとかするから！」"
   },
-  {
-    "index": 212,
+  "000212": {
+    "context": "000212",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "――その日、悠里は夏彦と共に、ラボに来ていた。"
   },
-  {
-    "index": 217,
+  "000217": {
+    "context": "000217",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そしてそこで発生した火災に、巻き込まれてしまっていた……。"
   },
-  {
-    "index": 311,
+  "000311": {
+    "context": "000311",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "――火に追われるままに、２人は近くの部屋に逃げ込む。"
   },
-  {
-    "index": 316,
+  "000316": {
+    "context": "000316",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "だが煙にいぶされ熱波に焼かれ、悠里の体からは力が失われていた。"
   },
-  {
-    "index": 335,
+  "000335": {
+    "context": "000335",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦が目に涙を浮かべ、悠里を見つめる。"
   },
-  {
-    "index": 364,
+  "000364": {
+    "context": "000364",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ごめん、悠里……ぼくが悠里をつれてきたせいで……」"
   },
-  {
-    "index": 375,
+  "000375": {
+    "context": "000375",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「母さんをたすけるなんて、かっこいいこと言っておいて……」"
   },
-  {
-    "index": 386,
+  "000386": {
+    "context": "000386",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「だけどできなくて、それどころか悠里をこんなめに……」"
   },
-  {
-    "index": 415,
+  "000415": {
+    "context": "000415",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ごめん、ほんとにごめん……！」"
   },
-  {
-    "index": 420,
+  "000420": {
+    "context": "000420",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "その言葉を聞いた悠里の胸が、しんしんと痛む。"
   },
-  {
-    "index": 425,
+  "000425": {
+    "context": "000425",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "だから悠里は、そっと彼の涙を拭った。"
   },
-  {
-    "index": 436,
+  "000436": {
+    "context": "000436",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「……いいんだよ、ひこりん……」"
   },
-  {
-    "index": 447,
+  "000447": {
+    "context": "000447",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「いつでもだれかのために、いっしょうけんめいなのが、ひこりんだから……」"
   },
-  {
-    "index": 458,
+  "000458": {
+    "context": "000458",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「わたしはそんなひこりんが、だいすきだったから……」"
   },
-  {
-    "index": 469,
+  "000469": {
+    "context": "000469",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「さいごまでいっしょにいられて……うれしかったよ」"
   },
-  {
-    "index": 524,
+  "000524": {
+    "context": "000524",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「悠里……！」"
   },
-  {
-    "index": 529,
+  "000529": {
+    "context": "000529",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦が悠里を抱きしめる。"
   },
-  {
-    "index": 591,
+  "000591": {
+    "context": "000591",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "その感触さえも、体が痺れ、感じられなくなってきた。"
   },
-  {
-    "index": 596,
+  "000596": {
+    "context": "000596",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "薄れ行く意識の中、悠里が思う事はただ１つ。"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（……かみさま……）"
   },
-  {
-    "index": 608,
+  "000608": {
+    "context": "000608",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（わたしは……いいですから……）"
   },
-  {
-    "index": 614,
+  "000614": {
+    "context": "000614",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（ひこりんは……せめてひこりんだけは……）"
   },
-  {
-    "index": 620,
+  "000620": {
+    "context": "000620",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（……たすけてあげて、ください……！）"
   },
-  {
-    "index": 625,
+  "000625": {
+    "context": "000625",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "その願いに呼応するかのように――"
   },
-  {
-    "index": 630,
+  "000630": {
+    "context": "000630",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "悠里の耳に、声が聞こえた。"
   },
-  {
-    "index": 705,
+  "000705": {
+    "context": "000705",
     "code": "0x85",
     "developer_comment": "悠里",
     "string": "《だれかたすけにきて！》"
   },
-  {
-    "index": 706,
+  "000706": {
+    "context": "000706",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "夏彦"
   },
-  {
-    "index": 707,
+  "000707": {
+    "context": "000707",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "《だれかたすけにきて！》"
   },
-  {
-    "index": 722,
+  "000722": {
+    "context": "000722",
     "code": "0x85",
     "developer_comment": "悠里",
     "string": "《ぼくらは天川はかせのへやにいる！》"
   },
-  {
-    "index": 723,
+  "000723": {
+    "context": "000723",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "夏彦"
   },
-  {
-    "index": 724,
+  "000724": {
+    "context": "000724",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "《ぼくらは天川はかせのへやにいる！》"
   },
-  {
-    "index": 752,
+  "000752": {
+    "context": "000752",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "――いや、それは耳で聞いた声ではなかった。"
   },
-  {
-    "index": 757,
+  "000757": {
+    "context": "000757",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "頭に直接響いたような――"
   },
-  {
-    "index": 763,
+  "000763": {
+    "context": "000763",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（て……テレパシー？）"
   },
-  {
-    "index": 769,
+  "000769": {
+    "context": "000769",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（ひこりんが、テレパシーを……？）"
   },
-  {
-    "index": 937,
+  "000937": {
+    "context": "000937",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "だがその思考も消えて行く。"
   },
-  {
-    "index": 942,
+  "000942": {
+    "context": "000942",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "視覚も聴覚も薄れ行く中――悠里は再び声を聞いた。"
   },
-  {
-    "index": 953,
+  "000953": {
+    "context": "000953",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「――彦！　夏彦！」"
   },
-  {
-    "index": 1017,
+  "001017": {
+    "context": "001017",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あぁ、悠里ちゃんも……！」"
   },
-  {
-    "index": 1046,
+  "001046": {
+    "context": "001046",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「か、母さん……！」"
   },
-  {
-    "index": 1075,
+  "001075": {
+    "context": "001075",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「よかった、無事みたいね！」"
   },
-  {
-    "index": 1104,
+  "001104": {
+    "context": "001104",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「助けに来たわ！　悠里ちゃんを連れて、すぐに逃げましょう！」"
   },
-  {
-    "index": 1109,
+  "001109": {
+    "context": "001109",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "博士がそう叫ぶのを、かろうじて聞き取ったその刹那――"
   },
-  {
-    "index": 1215,
+  "001215": {
+    "context": "001215",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "悠里は気を失った。"
   },
-  {
-    "index": 1274,
+  "001274": {
+    "context": "001274",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "――――――"
   },
-  {
-    "index": 1279,
+  "001279": {
+    "context": "001279",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "――――"
   },
-  {
-    "index": 1284,
+  "001284": {
+    "context": "001284",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "――それからどれくらいの時が過ぎたのだろうか――"
   },
-  {
-    "index": 1295,
+  "001295": {
+    "context": "001295",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……ちゃん……！」"
   },
-  {
-    "index": 1306,
+  "001306": {
+    "context": "001306",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「悠里ちゃん……！」"
   },
-  {
-    "index": 1311,
+  "001311": {
+    "context": "001311",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "自分を呼ぶ声を聞き、悠里は目を覚ました。"
   },
-  {
-    "index": 1401,
+  "001401": {
+    "context": "001401",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「う……ん……」"
   },
-  {
-    "index": 1406,
+  "001406": {
+    "context": "001406",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "悠里が目を開けると、目の前に天川博士がいた。"
   },
-  {
-    "index": 1435,
+  "001435": {
+    "context": "001435",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「よかった、目を覚ましたのね」"
   },
-  {
-    "index": 1446,
+  "001446": {
+    "context": "001446",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「え……あれ……？」"
   },
-  {
-    "index": 1457,
+  "001457": {
+    "context": "001457",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「わたし、どうしたんですか……？」"
   },
-  {
-    "index": 1486,
+  "001486": {
+    "context": "001486",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「覚えてないわよね？」"
   },
-  {
-    "index": 1497,
+  "001497": {
+    "context": "001497",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ラボで火事に遭ってから、丸一日眠っていたのよ」"
   },
-  {
-    "index": 1502,
+  "001502": {
+    "context": "001502",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "悠里は辺りを見回す。"
   },
-  {
-    "index": 1507,
+  "001507": {
+    "context": "001507",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "そこは病院の一室のようだが、夏彦の姿はなかった。"
   },
-  {
-    "index": 1518,
+  "001518": {
+    "context": "001518",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「あの……ひこりんは？」"
   },
-  {
-    "index": 1541,
+  "001541": {
+    "context": "001541",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "だが博士はその質問には答えずに、悠里に問いかける。"
   },
-  {
-    "index": 1552,
+  "001552": {
+    "context": "001552",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ところで、悠里ちゃん」"
   },
-  {
-    "index": 1563,
+  "001563": {
+    "context": "001563",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「目覚めて早々、申し訳ないんだけど……簡単な検査に、付き合ってもらえるかしら？」"
   },
-  {
-    "index": 1574,
+  "001574": {
+    "context": "001574",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「けんさ？」"
   },
-  {
-    "index": 1603,
+  "001603": {
+    "context": "001603",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「今回の一件で、悠里ちゃんの体に問題が生じてないか、調べなくちゃいけないの」"
   },
-  {
-    "index": 1632,
+  "001632": {
+    "context": "001632",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「悠里ちゃんたちは、危険な粒子を浴びてしまったから」"
   },
-  {
-    "index": 1637,
+  "001637": {
+    "context": "001637",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "『きけんなりゅうし』というのがなんだかわからないし、まだ少し頭がぐらぐらしたが――悠里は素直に答えた。"
   },
-  {
-    "index": 1648,
+  "001648": {
+    "context": "001648",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「わかりました」"
   },
-  {
-    "index": 1710,
+  "001710": {
+    "context": "001710",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "――その後、悠里は様々な検査を受けた。"
   },
-  {
-    "index": 1715,
+  "001715": {
+    "context": "001715",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "採血や採尿をされたり、大きな機械の中に入って頭の中の写真を撮ったり。"
   },
-  {
-    "index": 1720,
+  "001720": {
+    "context": "001720",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "天川博士は、最初はいつもと変わらない様子だったが――検査が進むにつれ、表情が強張っていった。"
   },
-  {
-    "index": 1793,
+  "001793": {
+    "context": "001793",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「――悠里ちゃんの『ＩＧＦ２Ｒ遺伝子』が、タイプＳ……！？」"
   },
-  {
-    "index": 1798,
+  "001798": {
+    "context": "001798",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "検査結果が表示されたＰＤＡを見ながら、天川博士と助手らしき人が話している。"
   },
-  {
-    "index": 1809,
+  "001809": {
+    "context": "001809",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「そんなわけはないわ。間違いではないの？」"
   },
-  {
-    "index": 1827,
+  "001827": {
+    "context": "001827",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「し、しかし……何度検査しても同じ結果で、タイプＳと出るのです」"
   },
-  {
-    "index": 1838,
+  "001838": {
+    "context": "001838",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「まさか、そんな……！」"
   },
-  {
-    "index": 1882,
+  "001882": {
+    "context": "001882",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "博士は悠里の方に向き直り、真顔で尋ねた。"
   },
-  {
-    "index": 1893,
+  "001893": {
+    "context": "001893",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「悠里ちゃん、あなたＢＣの適性度っていくつだった？　学校とかで計った事あるでしょう？」"
   },
-  {
-    "index": 1904,
+  "001904": {
+    "context": "001904",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「え……『Ｃ』、ですけど」"
   },
-  {
-    "index": 1915,
+  "001915": {
+    "context": "001915",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……っ」"
   },
-  {
-    "index": 1920,
+  "001920": {
+    "context": "001920",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "黙り込む博士に、助手が耳打ちする。"
   },
-  {
-    "index": 1967,
+  "001967": {
+    "context": "001967",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「彼女の言う事に、間違いはありません……」"
   },
-  {
-    "index": 1975,
+  "001975": {
+    "context": "001975",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「過去の検査記録にも、彼女のＩＧＦ２Ｒ遺伝子は、タイプＣと記録されていました」"
   },
-  {
-    "index": 2025,
+  "002025": {
+    "context": "002025",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ちょ、ちょっと待ちなさい。と言う事は――」"
   },
-  {
-    "index": 2036,
+  "002036": {
+    "context": "002036",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「遺伝子が変異したっていう事！？」"
   },
-  {
-    "index": 2041,
+  "002041": {
+    "context": "002041",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "その言葉に、助手の人の表情までもが変わった。"
   },
-  {
-    "index": 2091,
+  "002091": {
+    "context": "002091",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ゆ、悠里ちゃん！　テレパシー使ってみてくれる！？」"
   },
-  {
-    "index": 2102,
+  "002102": {
+    "context": "002102",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「え、でも、わたしテレパシーはまだ――」"
   },
-  {
-    "index": 2113,
+  "002113": {
+    "context": "002113",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「そうだと思うけど、やってみてほしいの！」"
   },
-  {
-    "index": 2124,
+  "002124": {
+    "context": "002124",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「おばさんに伝えたい事を、何でもいいから強く念じて！」"
   },
-  {
-    "index": 2129,
+  "002129": {
+    "context": "002129",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "急に言われてもよくわからなかったが――ひとまず悠里は言う通りにした。"
   },
-  {
-    "index": 2135,
+  "002135": {
+    "context": "002135",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（テレパシーがつかえたこと、いちどもないんだけどな……）"
   },
-  {
-    "index": 2141,
+  "002141": {
+    "context": "002141",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（えーと、それじゃ……）"
   },
-  {
-    "index": 2216,
+  "002216": {
+    "context": "002216",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《ひこりんは、だいじょうぶそうですか？》"
   },
-  {
-    "index": 2298,
+  "002298": {
+    "context": "002298",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「！！」"
   },
-  {
-    "index": 2303,
+  "002303": {
+    "context": "002303",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "博士が息を呑むのがわかった。"
   },
-  {
-    "index": 2308,
+  "002308": {
+    "context": "002308",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "同時に悠里も奇妙に感じた。"
   },
-  {
-    "index": 2313,
+  "002313": {
+    "context": "002313",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "今のはいつもの、テレパシーを使おうとして失敗した時の感じと違う。"
   },
-  {
-    "index": 2318,
+  "002318": {
+    "context": "002318",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "――まるで、頭の中に思い浮かべた事が、外に吐き出されたような――"
   },
-  {
-    "index": 2370,
+  "002370": {
+    "context": "002370",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……悠里ちゃん、夏彦が心配なのね……」"
   },
-  {
-    "index": 2381,
+  "002381": {
+    "context": "002381",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「あ……は、はい」"
   },
-  {
-    "index": 2386,
+  "002386": {
+    "context": "002386",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "そして博士は、悠里の質問に答えた。"
   },
-  {
-    "index": 2391,
+  "002391": {
+    "context": "002391",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "『頭の中に思い浮かべただけの』質問に。"
   },
-  {
-    "index": 2402,
+  "002402": {
+    "context": "002402",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……では今から、その質問の答えを、私が頭に思い浮かべるわ」"
   },
-  {
-    "index": 2413,
+  "002413": {
+    "context": "002413",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「それをＢＣで読み取ってみて」"
   },
-  {
-    "index": 2424,
+  "002424": {
+    "context": "002424",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「えっ？　それってエンパシー……」"
   },
-  {
-    "index": 2435,
+  "002435": {
+    "context": "002435",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「いいからお願い」"
   },
-  {
-    "index": 2441,
+  "002441": {
+    "context": "002441",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（で、できるわけないのに……）"
   },
-  {
-    "index": 2447,
+  "002447": {
+    "context": "002447",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（エンパシーがつかえるこどもはほとんどいないって、ましろんがいってたのに……）"
   },
-  {
-    "index": 2505,
+  "002505": {
+    "context": "002505",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "それでも悠里は、博士の心を読もうと念じる。"
   },
-  {
-    "index": 2510,
+  "002510": {
+    "context": "002510",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "するとやがて――悠里の脳内に、声が響いた。"
   },
-  {
-    "index": 2799,
+  "002799": {
+    "context": "002799",
     "code": "0x85",
     "developer_comment": "悠里",
     "string": "《夏彦は別室で眠ってる。何も心配することはないわ》"
   },
-  {
-    "index": 2800,
+  "002800": {
+    "context": "002800",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "美夜子"
   },
-  {
-    "index": 2801,
+  "002801": {
+    "context": "002801",
     "code": "0x86",
     "developer_comment": "悠里",
     "string": "《夏彦は別室で眠ってる。何も心配することはないわ》"
   },
-  {
-    "index": 2954,
+  "002954": {
+    "context": "002954",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「！！」"
   },
-  {
-    "index": 2959,
+  "002959": {
+    "context": "002959",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "今度こそ悠里は本当に驚いた。"
   },
-  {
-    "index": 2964,
+  "002964": {
+    "context": "002964",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "今、博士は口を動かしていなかった。ならばいま聞こえた声は――！！"
   },
-  {
-    "index": 2970,
+  "002970": {
+    "context": "002970",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（こころのこえ……！）"
   },
-  {
-    "index": 2975,
+  "002975": {
+    "context": "002975",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "その声を悠里は、博士に伝える。"
   },
-  {
-    "index": 2986,
+  "002986": {
+    "context": "002986",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「ひ……ひこりんは、おやすみちゅう、なんですか？」"
   },
-  {
-    "index": 3037,
+  "003037": {
+    "context": "003037",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ッ……！！」"
   },
-  {
-    "index": 3048,
+  "003048": {
+    "context": "003048",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……そうよ、その通りよ」"
   },
-  {
-    "index": 3053,
+  "003053": {
+    "context": "003053",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "搾り出すように言う博士に、助手が尋ねる。"
   },
-  {
-    "index": 3100,
+  "003100": {
+    "context": "003100",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「博士、これは……」"
   },
-  {
-    "index": 3111,
+  "003111": {
+    "context": "003111",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「信じがたいけど……早くもテレパシーとエンパシーが発現しているようだわ」"
   },
-  {
-    "index": 3122,
+  "003122": {
+    "context": "003122",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「もう疑う余地はない……後天性の、適性度Ｓコミュニケーターよ」"
   },
-  {
-    "index": 3130,
+  "003130": {
+    "context": "003130",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「し、しかしなぜこんな事が！？」"
   },
-  {
-    "index": 3180,
+  "003180": {
+    "context": "003180",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「事故発生当時、第５エリアのＷＸ粒子エネルギー量は、最大９５００ｍＳｖ――」"
   },
-  {
-    "index": 3191,
+  "003191": {
+    "context": "003191",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「それによって破壊された遺伝子が、当該環境下に適合するように再構築されたのよ」"
   },
-  {
-    "index": 3202,
+  "003202": {
+    "context": "003202",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「理論上起こりうるとされていた現象が、まさかこのような形で実現するとはね」"
   },
-  {
-    "index": 3210,
+  "003210": {
+    "context": "003210",
     "code": "0x45",
     "developer_comment": "助手",
     "string": "「ならば、まさか―― 一緒にいた少年も！？」"
   },
-  {
-    "index": 3221,
+  "003221": {
+    "context": "003221",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「その可能性も否めないわ……！」"
   },
-  {
-    "index": 3226,
+  "003226": {
+    "context": "003226",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "博士は悠里を見て、低い声で言った。"
   },
-  {
-    "index": 3276,
+  "003276": {
+    "context": "003276",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「悠里ちゃん、悪いけどこのお部屋でちょっと待っててね」"
   },
-  {
-    "index": 3287,
+  "003287": {
+    "context": "003287",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「おばさん、夏彦の検査もしてくるから」"
   },
-  {
-    "index": 3298,
+  "003298": {
+    "context": "003298",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「あの……なんか、よくなかったんでしょうか？」"
   },
-  {
-    "index": 3309,
+  "003309": {
+    "context": "003309",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……本来なら、いい結果なのだとは思うけど……」"
   },
-  {
-    "index": 3320,
+  "003320": {
+    "context": "003320",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「とにかく、また後でね」"
   },
-  {
-    "index": 3325,
+  "003325": {
+    "context": "003325",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "そう言って、天川博士は助手と一緒に、部屋を出ていった。"
   },
-  {
-    "index": 3398,
+  "003398": {
+    "context": "003398",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "（……）"
   },
-  {
-    "index": 3403,
+  "003403": {
+    "context": "003403",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "取り残された悠里は、不意に怖くなってきた。"
   },
-  {
-    "index": 3408,
+  "003408": {
+    "context": "003408",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "のんびり屋の彼女にもわかる。"
   },
-  {
-    "index": 3413,
+  "003413": {
+    "context": "003413",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "何か途方もない事が、進行しつつあるのだと……。"
   }
-]
+}

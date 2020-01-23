@@ -1,638 +1,638 @@
-[
-  {
-    "index": 50,
+{
+  "000050": {
+    "context": "000050",
     "code": "0x55",
     "developer_comment": "",
     "string": "√Double Chapter7"
   },
-  {
-    "index": 86,
+  "000086": {
+    "context": "000086",
     "code": "0x85",
     "developer_comment": "",
     "string": "　%N　%N　%N　%N　%N"
   },
-  {
-    "index": 171,
+  "000171": {
+    "context": "000171",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "――ラボでの事件から、ちょうど１年経ったある日の事――"
   },
-  {
-    "index": 176,
+  "000176": {
+    "context": "000176",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "渡瀬は風見と共に、鹿鳴市を訪れていた。"
   },
-  {
-    "index": 181,
+  "000181": {
+    "context": "000181",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "大切な用事を果たすために。"
   },
-  {
-    "index": 186,
+  "000186": {
+    "context": "000186",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "だが、その用事に前に寄るところがある。"
   },
-  {
-    "index": 252,
+  "000252": {
+    "context": "000252",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "それは、鹿鳴市中央消防署――"
   },
-  {
-    "index": 257,
+  "000257": {
+    "context": "000257",
     "code": "0x45",
     "developer_comment": "【――守部洵との記憶――】",
     "string": "渡瀬たちの古巣だった。"
   },
-  {
-    "index": 282,
+  "000282": {
+    "context": "000282",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あの子、遅いわねぇ……１２時に出てくるっていったのに」"
   },
-  {
-    "index": 311,
+  "000311": {
+    "context": "000311",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「まさか、出場でもかかったのかしら」"
   },
-  {
-    "index": 336,
+  "000336": {
+    "context": "000336",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見が署の玄関を見ながら、心配そうに呟く。"
   },
-  {
-    "index": 341,
+  "000341": {
+    "context": "000341",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬は苦笑して答えた。"
   },
-  {
-    "index": 354,
+  "000354": {
+    "context": "000354",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そんな事ないだろ。おおかた司令長に捕まってるんじゃないか？」"
   },
-  {
-    "index": 387,
+  "000387": {
+    "context": "000387",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは今日、ここで洵と待ち合わせしていたのだ。"
   },
-  {
-    "index": 392,
+  "000392": {
+    "context": "000392",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "例の用事には、洵も同行する。"
   },
-  {
-    "index": 397,
+  "000397": {
+    "context": "000397",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "とはいえ今日は洵は仕事があるので、昼休みだけ抜けてくるという話だった。"
   },
-  {
-    "index": 404,
+  "000404": {
+    "context": "000404",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "と、ちょうどその時――"
   },
-  {
-    "index": 453,
+  "000453": {
+    "context": "000453",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ごめんごめん、遅くなった！」"
   },
-  {
-    "index": 458,
+  "000458": {
+    "context": "000458",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "署の中から、洵が飛び出してくるのが見えた。"
   },
-  {
-    "index": 469,
+  "000469": {
+    "context": "000469",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おぉ、守部！」"
   },
-  {
-    "index": 527,
+  "000527": {
+    "context": "000527",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「いやぁ久しぶり、２人とも！」"
   },
-  {
-    "index": 532,
+  "000532": {
+    "context": "000532",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵は渡瀬たちに駆け寄り、にこにこと言った。"
   },
-  {
-    "index": 568,
+  "000568": {
+    "context": "000568",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「元気そうね、洵」"
   },
-  {
-    "index": 597,
+  "000597": {
+    "context": "000597",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「元気元気、っていうかもー大変だよぉ」"
   },
-  {
-    "index": 626,
+  "000626": {
+    "context": "000626",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「なにしろシリウスも２人殉職して、２人辞めちゃったから、人材不足でねぇ」"
   },
-  {
-    "index": 637,
+  "000637": {
+    "context": "000637",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……そうか」"
   },
-  {
-    "index": 642,
+  "000642": {
+    "context": "000642",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その言葉を聞き、渡瀬の胸に痛みが走る。"
   },
-  {
-    "index": 671,
+  "000671": {
+    "context": "000671",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「あー、そうやってしょげないの」"
   },
-  {
-    "index": 700,
+  "000700": {
+    "context": "000700",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「司令長たちも最初は、悲しんだり混乱したりしてたけど……」"
   },
-  {
-    "index": 729,
+  "000729": {
+    "context": "000729",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「今はもうすっかり立ち直って、シリウス再建のために頑張ってるから」"
   },
-  {
-    "index": 759,
+  "000759": {
+    "context": "000759",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「あたしも『シリウスの長い１日』を生き残った女として、隊を引っ張ってるよ」"
   },
-  {
-    "index": 770,
+  "000770": {
+    "context": "000770",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「へぇ、頼もしいじゃないか」"
   },
-  {
-    "index": 824,
+  "000824": {
+    "context": "000824",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "あの日のラボへの出場は、消防関係者の中で『シリウスの長い１日』と呼ばれ、半ば伝説的に扱われているそうだ。"
   },
-  {
-    "index": 829,
+  "000829": {
+    "context": "000829",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それを経験した事は、洵のキャリアに大きな星をつけたのだろう。"
   },
-  {
-    "index": 868,
+  "000868": {
+    "context": "000868",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "当の洵はそれをおごる事なく、にやりと笑って言う。"
   },
-  {
-    "index": 897,
+  "000897": {
+    "context": "000897",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「それより聞いたよ隊長～、いよいよお姉ちゃんと結婚だって？」"
   },
-  {
-    "index": 908,
+  "000908": {
+    "context": "000908",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「む……お前、知ってたのか」"
   },
-  {
-    "index": 937,
+  "000937": {
+    "context": "000937",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「当たり前じゃない、一番に報告したわよ」"
   },
-  {
-    "index": 948,
+  "000948": {
+    "context": "000948",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「プロポーズの言葉はなんだったのかな？　ねぇどうなの、隊長――」"
   },
-  {
-    "index": 977,
+  "000977": {
+    "context": "000977",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「っと、もう『隊長』じゃないんだよね。なんて呼べばいい？」"
   },
-  {
-    "index": 988,
+  "000988": {
+    "context": "000988",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なんでもいいさ。『笠鷺さん』とかでいいんじゃないか」"
   },
-  {
-    "index": 1017,
+  "001017": {
+    "context": "001017",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「それだと、お姉ちゃんとかぶっちゃうじゃん？　お姉ちゃんも今じゃ『笠鷺風見』なんだから」"
   },
-  {
-    "index": 1028,
+  "001028": {
+    "context": "001028",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「じゃあどうするってんだよ」"
   },
-  {
-    "index": 1057,
+  "001057": {
+    "context": "001057",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そうだなぁ。うん、やっぱここは――」"
   },
-  {
-    "index": 1086,
+  "001086": {
+    "context": "001086",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「『お兄ちゃん』だね！」"
   },
-  {
-    "index": 1097,
+  "001097": {
+    "context": "001097",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お、お兄ちゃん！？」"
   },
-  {
-    "index": 1126,
+  "001126": {
+    "context": "001126",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そりゃそうだよ、お姉ちゃんのダンナはお兄ちゃんでしょ？」"
   },
-  {
-    "index": 1137,
+  "001137": {
+    "context": "001137",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お兄ちゃんねぇ……なんか呼ばれ慣れないっていうか、急にこんなでかい妹ができると戸惑うっていうか……」"
   },
-  {
-    "index": 1166,
+  "001166": {
+    "context": "001166",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「いいじゃないの、あなた」"
   },
-  {
-    "index": 1177,
+  "001177": {
+    "context": "001177",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私と縁を結ぶという事は、洵とも縁を結ぶという事よ？」"
   },
-  {
-    "index": 1206,
+  "001206": {
+    "context": "001206",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そうだよお兄ちゃん、納得しなさい」"
   },
-  {
-    "index": 1211,
+  "001211": {
+    "context": "001211",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "女２人に詰め寄られ、渡瀬は思わずたじろいだ。"
   },
-  {
-    "index": 1222,
+  "001222": {
+    "context": "001222",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……あぁもう、わかったよ！　好きに呼べ好きに！」"
   },
-  {
-    "index": 1251,
+  "001251": {
+    "context": "001251",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「了解！　じゃああたしは妹なんだから、守部じゃなくて『洵』と呼びなさい」"
   },
-  {
-    "index": 1262,
+  "001262": {
+    "context": "001262",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「偉そうな妹だな！　もうなんでもいいよ！」"
   },
-  {
-    "index": 1267,
+  "001267": {
+    "context": "001267",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬の言葉に、洵と風見が笑った。"
   },
-  {
-    "index": 1272,
+  "001272": {
+    "context": "001272",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "やれやれと首を振る彼に、洵が問いを重ねる。"
   },
-  {
-    "index": 1301,
+  "001301": {
+    "context": "001301",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ところでお兄ちゃん、これからどうやってお姉ちゃん養うつもりなの？　仕事は？」"
   },
-  {
-    "index": 1312,
+  "001312": {
+    "context": "001312",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ、あんな大事件の中心人物になった以上、もうマトモな職には就きづらいからな」"
   },
-  {
-    "index": 1323,
+  "001323": {
+    "context": "001323",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生の手引きで、超科局に入る事にした」"
   },
-  {
-    "index": 1352,
+  "001352": {
+    "context": "001352",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「超科局？　まさかコミュニケーター管理官になるの？」"
   },
-  {
-    "index": 1363,
+  "001363": {
+    "context": "001363",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうさ。なにしろ俺の妻は、レベル６コミュニケーターだからな」"
   },
-  {
-    "index": 1374,
+  "001374": {
+    "context": "001374",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「夫が管理官なら、色々と安心だろ？」"
   },
-  {
-    "index": 1403,
+  "001403": {
+    "context": "001403",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そう。私は今後、この人の監視と保護を受けるのよ」"
   },
-  {
-    "index": 1414,
+  "001414": {
+    "context": "001414",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「一生、一番そばでな」"
   },
-  {
-    "index": 1443,
+  "001443": {
+    "context": "001443",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そうなんだ……」"
   },
-  {
-    "index": 1472,
+  "001472": {
+    "context": "001472",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「……じゃあ、シリウスにはもう戻ってこないんだね？」"
   },
-  {
-    "index": 1498,
+  "001498": {
+    "context": "001498",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「っ……」"
   },
-  {
-    "index": 1503,
+  "001503": {
+    "context": "001503",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その言葉が渡瀬の心を打った。"
   },
-  {
-    "index": 1508,
+  "001508": {
+    "context": "001508",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "寂しげな顔をする洵に、渡瀬は静かな声で答える。"
   },
-  {
-    "index": 1519,
+  "001519": {
+    "context": "001519",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……戻れないさ」"
   },
-  {
-    "index": 1524,
+  "001524": {
+    "context": "001524",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "鹿鳴市の公務員になるなど不可能だ。"
   },
-  {
-    "index": 1529,
+  "001529": {
+    "context": "001529",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "あの事件を境に、渡瀬の立場ははっきりと変わってしまった。"
   },
-  {
-    "index": 1534,
+  "001534": {
+    "context": "001534",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "かつての職場に、自分の過去に、どれだけ愛着があったとしても戻る事はできない。"
   },
-  {
-    "index": 1545,
+  "001545": {
+    "context": "001545",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……今でも時々、ここで過ごした日々を、懐かしく思う事はあるけどな」"
   },
-  {
-    "index": 1574,
+  "001574": {
+    "context": "001574",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そうね……」"
   },
-  {
-    "index": 1579,
+  "001579": {
+    "context": "001579",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見も署の方に目をやって言った。"
   },
-  {
-    "index": 1584,
+  "001584": {
+    "context": "001584",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "亘の遺志を継いで、消防官になってから、ずっとここに勤めてきた。"
   },
-  {
-    "index": 1589,
+  "001589": {
+    "context": "001589",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "人命を救うため、誰かの未来を護るため、何度も死地に飛び込んだ。"
   },
-  {
-    "index": 1594,
+  "001594": {
+    "context": "001594",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その意思は消えていない。"
   },
-  {
-    "index": 1599,
+  "001599": {
+    "context": "001599",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "立場や仕事が変わっても、決して――"
   },
-  {
-    "index": 1610,
+  "001610": {
+    "context": "001610",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……なぁ、洵。俺はもうレスキュー隊員じゃないが……」"
   },
-  {
-    "index": 1621,
+  "001621": {
+    "context": "001621",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「これからも誰かを護るために、働き続けるつもりだよ」"
   },
-  {
-    "index": 1632,
+  "001632": {
+    "context": "001632",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お前と一緒には働けないが、それでも気持ちは一緒だ」"
   },
-  {
-    "index": 1637,
+  "001637": {
+    "context": "001637",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬がそう言うと、洵は微笑んで――"
   },
-  {
-    "index": 1666,
+  "001666": {
+    "context": "001666",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「……うん、わかってる」"
   },
-  {
-    "index": 1671,
+  "001671": {
+    "context": "001671",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "渡瀬の胸に顔を埋めた。"
   },
-  {
-    "index": 1799,
+  "001799": {
+    "context": "001799",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……洵？」"
   },
-  {
-    "index": 1804,
+  "001804": {
+    "context": "001804",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "名を呼ぶと、洵は囁くように言った。"
   },
-  {
-    "index": 1815,
+  "001815": {
+    "context": "001815",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「……ねぇ、隊長、副隊長」"
   },
-  {
-    "index": 1826,
+  "001826": {
+    "context": "001826",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「２人がシリウスを辞めても、離れて暮らす事になっても――」"
   },
-  {
-    "index": 1837,
+  "001837": {
+    "context": "001837",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「あたしたちは、仲間だよ」"
   },
-  {
-    "index": 1848,
+  "001848": {
+    "context": "001848",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「同じ釜のゴハン食べて、何度も助けて助けられて、一緒に死線をくぐってきた……」"
   },
-  {
-    "index": 1853,
+  "001853": {
+    "context": "001853",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "――それは仲間という言葉だけでは言い尽くせない。"
   },
-  {
-    "index": 1858,
+  "001858": {
+    "context": "001858",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "バディという言葉でさえ足りない。"
   },
-  {
-    "index": 1863,
+  "001863": {
+    "context": "001863",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "互いに誰より大切な――"
   },
-  {
-    "index": 1874,
+  "001874": {
+    "context": "001874",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……家族だな」"
   },
-  {
-    "index": 1885,
+  "001885": {
+    "context": "001885",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そう、そういう事！」"
   },
-  {
-    "index": 1930,
+  "001930": {
+    "context": "001930",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "そう言って洵は、涙を拭った。"
   },
-  {
-    "index": 1935,
+  "001935": {
+    "context": "001935",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "その顔には吹っ切れたような笑みが浮かんでいる。"
   },
-  {
-    "index": 1946,
+  "001946": {
+    "context": "001946",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「これからよろしくね、お兄ちゃん！」"
   },
-  {
-    "index": 1957,
+  "001957": {
+    "context": "001957",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「２人が帰る場所は、ここにもあるからさ。何かあったら寄ってってね」"
   },
-  {
-    "index": 1968,
+  "001968": {
+    "context": "001968",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ、もちろんだ」"
   },
-  {
-    "index": 1979,
+  "001979": {
+    "context": "001979",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「可愛い妹の顔見に、ちょくちょく寄らせてもらうよ」"
   },
-  {
-    "index": 1989,
+  "001989": {
+    "context": "001989",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はそう言って、洵の頭をくしゃくしゃと撫でる。"
   },
-  {
-    "index": 1994,
+  "001994": {
+    "context": "001994",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "彼女は撫でられるに任せ、幸福そうに微笑んだ……。"
   }
-]
+}

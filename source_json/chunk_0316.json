@@ -1,1232 +1,1232 @@
-[
-  {
-    "index": 57,
+{
+  "000057": {
+    "context": "000057",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして、運命の日がやってきた。"
   },
-  {
-    "index": 109,
+  "000109": {
+    "context": "000109",
     "code": "0x45",
     "developer_comment": "",
     "string": "９月１６日、５時３０分――"
   },
-  {
-    "index": 114,
+  "000114": {
+    "context": "000114",
     "code": "0x45",
     "developer_comment": "",
     "string": "通路に人気がないのを見計らって、宇喜多は行動を開始した。"
   },
-  {
-    "index": 199,
+  "000199": {
+    "context": "000199",
     "code": "0x45",
     "developer_comment": "",
     "string": "扉を開けると、監視ルームに待機していた警備員たちは――"
   },
-  {
-    "index": 207,
+  "000207": {
+    "context": "000207",
     "code": "0x45",
     "developer_comment": "警備員１",
     "string": "「んがー、んごー、んがー、んごー」"
   },
-  {
-    "index": 215,
+  "000215": {
+    "context": "000215",
     "code": "0x45",
     "developer_comment": "警備員２",
     "string": "「がーぷひゅるるる、がーぷしゅるるる」"
   },
-  {
-    "index": 220,
+  "000220": {
+    "context": "000220",
     "code": "0x45",
     "developer_comment": "警備員２",
     "string": "――全員が深い眠りに落ちていた。"
   },
-  {
-    "index": 225,
+  "000225": {
+    "context": "000225",
     "code": "0x45",
     "developer_comment": "警備員２",
     "string": "３０分前に差し入れたコーヒーに、強力な睡眠薬を混ぜておいたのだ。"
   },
-  {
-    "index": 231,
+  "000231": {
+    "context": "000231",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（どうやら、チェスで負け続けた甲斐はあったようだな……）"
   },
-  {
-    "index": 236,
+  "000236": {
+    "context": "000236",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多はそうほくそ笑むと、消火システムを停止させるため、エンジンルームへと向かった。"
   },
-  {
-    "index": 286,
+  "000286": {
+    "context": "000286",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そして、６時１９分――"
   },
-  {
-    "index": 340,
+  "000340": {
+    "context": "000340",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "エンジンルームから戻った宇喜多は、すぐに監視モニターで、第１エリア内周棟に人がいない事を確認した。"
   },
-  {
-    "index": 351,
+  "000351": {
+    "context": "000351",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……よし、それでは始めよう」"
   },
-  {
-    "index": 362,
+  "000362": {
+    "context": "000362",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "自分に言い聞かせるように呟き、第１エリア内周棟の館内放送をＯＮにする。"
   },
-  {
-    "index": 367,
+  "000367": {
+    "context": "000367",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そしてＰＤＡを取り出すと、宇喜多は即時起爆用の音楽データを再生した。"
   },
-  {
-    "index": 372,
+  "000372": {
+    "context": "000372",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "すると超音波が、館内放送を伝い――"
   },
-  {
-    "index": 398,
+  "000398": {
+    "context": "000398",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "第１エリア内周棟で起こった爆発と振動が、監視ルームにもかすかに届く。"
   },
-  {
-    "index": 404,
+  "000404": {
+    "context": "000404",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（さらに第２、第３エリアも……）"
   },
-  {
-    "index": 410,
+  "000410": {
+    "context": "000410",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（周りに人がいないことを確認して――今だ！）"
   },
-  {
-    "index": 451,
+  "000451": {
+    "context": "000451",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そうして次々に爆破を起こしていると、ラボ内に自動放送が鳴り響いた。"
   },
-  {
-    "index": 465,
+  "000465": {
+    "context": "000465",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「――ただいま地下１階第２エリアで、火災が発生しました」"
   },
-  {
-    "index": 494,
+  "000494": {
+    "context": "000494",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「――ただいま地下２階第３エリアで、火災が発生しました」"
   },
-  {
-    "index": 523,
+  "000523": {
+    "context": "000523",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「――ただいま地下１階第５エリアで、火災が発生しました」"
   },
-  {
-    "index": 552,
+  "000552": {
+    "context": "000552",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「施設内のセキュリティを、『避難モード』に移行。Ｎエリアを除く全ゲートを開放します」"
   },
-  {
-    "index": 581,
+  "000581": {
+    "context": "000581",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「職員の皆様は、落ち着いて地上へ避難して下さい」"
   },
-  {
-    "index": 608,
+  "000608": {
+    "context": "000608",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（いいぞ！　警報装置が作動した！　これでシリウスにも出動要請がかかったはずだ！）"
   },
-  {
-    "index": 614,
+  "000614": {
+    "context": "000614",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（――彼らが到着するまでに、ラボ内の人間を外に出さなければ！）"
   },
-  {
-    "index": 619,
+  "000619": {
+    "context": "000619",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は必死を装いつつ、館内放送で呼びかけた。"
   },
-  {
-    "index": 630,
+  "000630": {
+    "context": "000630",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「き、緊急放送です！」"
   },
-  {
-    "index": 641,
+  "000641": {
+    "context": "000641",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ただいま施設内で、原因不明の爆発が発生しました！」"
   },
-  {
-    "index": 652,
+  "000652": {
+    "context": "000652",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「現状判明している限り、施設内の１０数か所で同時に爆発が起き、それに伴い火災も発生しています！」"
   },
-  {
-    "index": 663,
+  "000663": {
+    "context": "000663",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「江里口研究員、柏木研究員！　至急第２エリアに来てください！」"
   },
-  {
-    "index": 674,
+  "000674": {
+    "context": "000674",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「機密資料の持ち出しについて、ただちに相談したい事があります！」"
   },
-  {
-    "index": 679,
+  "000679": {
+    "context": "000679",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――そうして計画の布石を打ちつつ、ひとまず放送を停止する。"
   },
-  {
-    "index": 684,
+  "000684": {
+    "context": "000684",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "その頃には監視ルームの外でも、逃げ惑う人々の喧騒が始まっていた。"
   },
-  {
-    "index": 742,
+  "000742": {
+    "context": "000742",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は監視ルームの扉を開けると、周辺にいた人々を呼び止めた。"
   },
-  {
-    "index": 753,
+  "000753": {
+    "context": "000753",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「君たち頼む！　中で警備員たちが倒れているんだ！　外に連れ出してやってくれ！」"
   },
-  {
-    "index": 761,
+  "000761": {
+    "context": "000761",
     "code": "0x45",
     "developer_comment": "職員１",
     "string": "「わ、わかった。でもあんたはどうするんだ？」"
   },
-  {
-    "index": 772,
+  "000772": {
+    "context": "000772",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「僕は残って避難誘導をする！　君たちは先に逃げろ！」"
   },
-  {
-    "index": 777,
+  "000777": {
+    "context": "000777",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多はそう告げて、制御室に走った。"
   },
-  {
-    "index": 834,
+  "000834": {
+    "context": "000834",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そこにはまだ多数の研究員が残っていた。"
   },
-  {
-    "index": 839,
+  "000839": {
+    "context": "000839",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多が調べたところによると、今朝はＷＸ粒子増幅器を使って、何らかの実験を行っていたという。"
   },
-  {
-    "index": 844,
+  "000844": {
+    "context": "000844",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "律儀に持ち場を護る彼らに、宇喜多は叫んだ。"
   },
-  {
-    "index": 855,
+  "000855": {
+    "context": "000855",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「君たち、何をやっているんだ！　早く逃げないか！」"
   },
-  {
-    "index": 863,
+  "000863": {
+    "context": "000863",
     "code": "0x45",
     "developer_comment": "研究員１",
     "string": "「しかし、増幅器が稼働中で――」"
   },
-  {
-    "index": 874,
+  "000874": {
+    "context": "000874",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「放置しておけば、ＢｒａｉｎＣｅｌｌが自動停止処理を行うだろう！」"
   },
-  {
-    "index": 885,
+  "000885": {
+    "context": "000885",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「万が一それが上手くいかなくても、地上の遠隔制御室からも停止処理はできる！」"
   },
-  {
-    "index": 896,
+  "000896": {
+    "context": "000896",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いいから早く逃げろ！　死んだら元も子もない！」"
   },
-  {
-    "index": 904,
+  "000904": {
+    "context": "000904",
     "code": "0x45",
     "developer_comment": "研究員２",
     "string": "「――あ、ああ！」"
   },
-  {
-    "index": 910,
+  "000910": {
+    "context": "000910",
     "code": "0x45",
     "developer_comment": "研究員２",
     "string": "誰かがそう叫んだのを皮切りに、研究員たちは我先にと部屋を出て行った。"
   },
-  {
-    "index": 916,
+  "000916": {
+    "context": "000916",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（よし、今のうちに――！）"
   },
-  {
-    "index": 922,
+  "000922": {
+    "context": "000922",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "誰もいなくなった制御室で、宇喜多はＢｒａｉｎＣｅｌｌのコンパネに歩み寄った。"
   },
-  {
-    "index": 927,
+  "000927": {
+    "context": "000927",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "モニターを確認すると、現在ＷＸ粒子増幅器は、『５００ｍＳｖ』の出力を保っているようだ。"
   },
-  {
-    "index": 932,
+  "000932": {
+    "context": "000932",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "このまま放置していたら、自動的にこの数値は減衰していく。"
   },
-  {
-    "index": 943,
+  "000943": {
+    "context": "000943",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが宇喜多はあえてコンパネを操作し、その出力を最大にまで上げた。"
   },
-  {
-    "index": 949,
+  "000949": {
+    "context": "000949",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――すると、徐々にその数値が上昇しはじめる。"
   },
-  {
-    "index": 954,
+  "000954": {
+    "context": "000954",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "『５０１ｍＳｖ』、『５０２ｍＳｖ』、『５０４ｍＳｖ』……！"
   },
-  {
-    "index": 960,
+  "000960": {
+    "context": "000960",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（……よし、これでじきに増幅器は制御不能になる！）"
   },
-  {
-    "index": 965,
+  "000965": {
+    "context": "000965",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "もともと運用に細心の注意が必要な装置だ。出力をわざと最大にすれば、容易に暴走状態は起こる。"
   },
-  {
-    "index": 971,
+  "000971": {
+    "context": "000971",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（ここからが正念場だ！）"
   },
-  {
-    "index": 976,
+  "000976": {
+    "context": "000976",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は制御室を飛び出した。"
   },
-  {
-    "index": 1029,
+  "001029": {
+    "context": "001029",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そして監視ルームに戻ると、警備員たちの姿は消えていた。"
   },
-  {
-    "index": 1034,
+  "001034": {
+    "context": "001034",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "誰かが落としていったらしいセキュリティカードが、１枚残されているだけだった。"
   },
-  {
-    "index": 1039,
+  "001039": {
+    "context": "001039",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "それを拾い、再び爆破活動と放送を続ける。"
   },
-  {
-    "index": 1091,
+  "001091": {
+    "context": "001091",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "やがて喧騒が遠ざかり、監視モニターに映る人影も見当たらなくなった頃。"
   },
-  {
-    "index": 1102,
+  "001102": {
+    "context": "001102",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "鳴り響いた内線電話の受話器を、宇喜多はすぐに取った。"
   },
-  {
-    "index": 1119,
+  "001119": {
+    "context": "001119",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「はい。こちら監視ルーム」"
   },
-  {
-    "index": 1127,
+  "001127": {
+    "context": "001127",
     "code": "0x45",
     "developer_comment": "警備員",
     "string": "「あ……まだ残っていた者がいたのか！」"
   },
-  {
-    "index": 1135,
+  "001135": {
+    "context": "001135",
     "code": "0x45",
     "developer_comment": "警備員",
     "string": "「こちらは地上フロアの監視ルームだ。さっそくで悪いが、君は誰だ？」"
   },
-  {
-    "index": 1143,
+  "001143": {
+    "context": "001143",
     "code": "0x45",
     "developer_comment": "警備員",
     "string": "「こちらで行った点呼では、まだ地下に残っている職員は江里口、柏木、宇喜多の３名となっているが――」"
   },
-  {
-    "index": 1154,
+  "001154": {
+    "context": "001154",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「了解！　すぐにその２人を探し、脱出する！」"
   },
-  {
-    "index": 1159,
+  "001159": {
+    "context": "001159",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多はそう叫び、受話器を置いた。"
   },
-  {
-    "index": 1170,
+  "001170": {
+    "context": "001170",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "『江里口』と『柏木』とは、さきほど宇喜多が放送で呼び出した２名の研究員。"
   },
-  {
-    "index": 1175,
+  "001175": {
+    "context": "001175",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "事前にリストアップしておいた、Ｚｅｒｏエリアに入る権限を持つ者の名前だった。"
   },
-  {
-    "index": 1180,
+  "001180": {
+    "context": "001180",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "恐らくすでに到着しているはずの渡瀬たちが、彼らを上手く捕らえたのだろう。"
   },
-  {
-    "index": 1185,
+  "001185": {
+    "context": "001185",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多はそう判断し、館内放送のマイクに向かって言った。"
   },
-  {
-    "index": 1196,
+  "001196": {
+    "context": "001196",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「地上フロアで行った点呼により、施設内の全職員の避難が確認できました！」"
   },
-  {
-    "index": 1207,
+  "001207": {
+    "context": "001207",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「万が一職員以外の方が残っていたら、ただちに第５・第６エリア方面から脱出してください！」"
   },
-  {
-    "index": 1212,
+  "001212": {
+    "context": "001212",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "それは念のための放送であり、渡瀬たちへの合図だった。"
   },
-  {
-    "index": 1260,
+  "001260": {
+    "context": "001260",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが渡瀬たちを待つ間も、時間は無駄にしない。"
   },
-  {
-    "index": 1317,
+  "001317": {
+    "context": "001317",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "いったん制御室に行き、増幅器の稼動状態を確認する。"
   },
-  {
-    "index": 1322,
+  "001322": {
+    "context": "001322",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "Ｎエリアの数値は『２３１５ｍＳｖ』。順調に上昇していた。"
   },
-  {
-    "index": 1327,
+  "001327": {
+    "context": "001327",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "ＢｒａｉｎＣｅｌｌはすでに増幅器の緊急停止処理を始めていたが、もう遅い。"
   },
-  {
-    "index": 1332,
+  "001332": {
+    "context": "001332",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "停止処理と減衰が終了するのは、『１８：１６』と表示されていた。"
   },
-  {
-    "index": 1338,
+  "001338": {
+    "context": "001338",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（今から約１１時間後か！　よし、ここまでは完璧だ！）"
   },
-  {
-    "index": 1343,
+  "001343": {
+    "context": "001343",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そしてまた監視ルームに戻ると――"
   },
-  {
-    "index": 1403,
+  "001403": {
+    "context": "001403",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "すぐに渡瀬らレスキュー隊員の３人が、気絶した幹部研究員２名を抱えて現れた。"
   },
-  {
-    "index": 1439,
+  "001439": {
+    "context": "001439",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「じゃあ俺たちはＺｅｒｏエリアに降り、被験体を救出してくる」"
   },
-  {
-    "index": 1450,
+  "001450": {
+    "context": "001450",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「僕はここに留まり、不測の事態が起きないかどうか見張っておこう」"
   },
-  {
-    "index": 1455,
+  "001455": {
+    "context": "001455",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そう言う宇喜多に渡瀬はうなずき、堂島たちと共に部屋を飛び出していった。"
   },
-  {
-    "index": 1529,
+  "001529": {
+    "context": "001529",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが、それから渡瀬たちは、なかなか戻ってこなかった。"
   },
-  {
-    "index": 1534,
+  "001534": {
+    "context": "001534",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "ケースＮも発令されない。"
   },
-  {
-    "index": 1540,
+  "001540": {
+    "context": "001540",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（遅い……！　何をやってるんだ！？）"
   },
-  {
-    "index": 1546,
+  "001546": {
+    "context": "001546",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（４０００ｍＳｖを超えてしまったら、本当に危険だと言うのに！）"
   },
-  {
-    "index": 1551,
+  "001551": {
+    "context": "001551",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そう思った時、突如けたたましいサイレンが響いた。"
   },
-  {
-    "index": 1576,
+  "001576": {
+    "context": "001576",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「――ただいま、『ケースＮ』が発生しました」"
   },
-  {
-    "index": 1584,
+  "001584": {
+    "context": "001584",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「緊急事態につき、セキュリティを『封鎖モード』に移行」"
   },
-  {
-    "index": 1592,
+  "001592": {
+    "context": "001592",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "「施設内の全ゲートを閉鎖・ロックすると共に、隔壁を封鎖します」"
   },
-  {
-    "index": 1597,
+  "001597": {
+    "context": "001597",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "はっとして時計を見ると、渡瀬たちが出て行ってから、約２０分が過ぎていた。"
   },
-  {
-    "index": 1603,
+  "001603": {
+    "context": "001603",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（ま……間に合ったか？）"
   },
-  {
-    "index": 1608,
+  "001608": {
+    "context": "001608",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "後ほど渡瀬たちが無事か確認しようと思いつつ、残りの爆弾を全て爆破する。"
   },
-  {
-    "index": 1675,
+  "001675": {
+    "context": "001675",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "中には不発だったものもあるようだが、それは仕方ない。"
   },
-  {
-    "index": 1680,
+  "001680": {
+    "context": "001680",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そしてあらかじめ用意しておいたＡＤを投与した時、渡瀬たちがやってきた。"
   },
-  {
-    "index": 1722,
+  "001722": {
+    "context": "001722",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「遅かったじゃないか！　３人ともなんともないか！？」"
   },
-  {
-    "index": 1733,
+  "001733": {
+    "context": "001733",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ、ああ……とりあえず、大丈夫そうだが……」"
   },
-  {
-    "index": 1744,
+  "001744": {
+    "context": "001744",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「本当か……？」"
   },
-  {
-    "index": 1749,
+  "001749": {
+    "context": "001749",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多が心配の声をかけると、渡瀬は不愉快そうに答えた。"
   },
-  {
-    "index": 1780,
+  "001780": {
+    "context": "001780",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「大丈夫だと言っているだろう。それより――」"
   },
-  {
-    "index": 1809,
+  "001809": {
+    "context": "001809",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「大変だ宇喜多さん！　Ｚｅｒｏエリアには、被験体が１人しかいなかった！」"
   },
-  {
-    "index": 1820,
+  "001820": {
+    "context": "001820",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なに！？」"
   },
-  {
-    "index": 1831,
+  "001831": {
+    "context": "001831",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そう尋ねると、渡瀬は事情を説明した。"
   },
-  {
-    "index": 1836,
+  "001836": {
+    "context": "001836",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "被験体ＹⅡの姿は、どこにもなかったという。"
   },
-  {
-    "index": 1841,
+  "001841": {
+    "context": "001841",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "さらに２名の上級研究員の姿も見えない事に気付き、それに対して問いを重ねると――信じ難い答えが返ってきた。"
   },
-  {
-    "index": 1847,
+  "001847": {
+    "context": "001847",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（『２人とも、Ｚｅｒｏエリアで殺してしまった』だと！？）"
   },
-  {
-    "index": 1854,
+  "001854": {
+    "context": "001854",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "思わず宇喜多は、渡瀬に食ってかかった。"
   },
-  {
-    "index": 1917,
+  "001917": {
+    "context": "001917",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「隊長さん、話が違うじゃないか！」"
   },
-  {
-    "index": 1928,
+  "001928": {
+    "context": "001928",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「人的被害は出さないんじゃなかったのか！？」"
   },
-  {
-    "index": 1957,
+  "001957": {
+    "context": "001957",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ま、待て！　落ち着け宇喜多さん！」"
   },
-  {
-    "index": 1968,
+  "001968": {
+    "context": "001968",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「誰も傷つけないという話だったじゃないか！　騙していたのか！？」"
   },
-  {
-    "index": 1979,
+  "001979": {
+    "context": "001979",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「もしそうだと言うなら、僕は君たちを――」"
   },
-  {
-    "index": 2002,
+  "002002": {
+    "context": "002002",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "思わず宇喜多が渡瀬に掴み掛ろうとした、そのとたん――"
   },
-  {
-    "index": 2063,
+  "002063": {
+    "context": "002063",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「っ！」"
   },
-  {
-    "index": 2068,
+  "002068": {
+    "context": "002068",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "後頭部を痛打された。"
   },
-  {
-    "index": 2086,
+  "002086": {
+    "context": "002086",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「な、ぜ……」"
   },
-  {
-    "index": 2091,
+  "002091": {
+    "context": "002091",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "薄れゆく意識の中、渡瀬の声が聞こえる。"
   },
-  {
-    "index": 2163,
+  "002163": {
+    "context": "002163",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……すまない、宇喜多さん」"
   },
-  {
-    "index": 2174,
+  "002174": {
+    "context": "002174",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「俺たちは……もう引き返すことができないんだ」"
   },
-  {
-    "index": 2179,
+  "002179": {
+    "context": "002179",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "『俺たち』と渡瀬は言った。"
   },
-  {
-    "index": 2186,
+  "002186": {
+    "context": "002186",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "どうやらそこに宇喜多は含まれていないらしい。"
   },
-  {
-    "index": 2192,
+  "002192": {
+    "context": "002192",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（僕は……裏切られたのか……？）"
   },
-  {
-    "index": 2197,
+  "002197": {
+    "context": "002197",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "失望感に溺れるように、宇喜多は意識を失った。"
   },
-  {
-    "index": 2212,
+  "002212": {
+    "context": "002212",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――――――"
   },
-  {
-    "index": 2217,
+  "002217": {
+    "context": "002217",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "………………"
   },
-  {
-    "index": 2222,
+  "002222": {
+    "context": "002222",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "………それからどれくらい、時間が過ぎたのだろう。"
   },
-  {
-    "index": 2233,
+  "002233": {
+    "context": "002233",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「う……む……」"
   },
-  {
-    "index": 2262,
+  "002262": {
+    "context": "002262",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「僕は、いったい…………？」"
   },
-  {
-    "index": 2273,
+  "002273": {
+    "context": "002273",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「そ、そうだ……僕は、隊長さんに殴られて……」"
   },
-  {
-    "index": 2327,
+  "002327": {
+    "context": "002327",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "気付けば首から下げていたセキュリティカードと、ポケットにあったカードが、どちらも消えていた。"
   },
-  {
-    "index": 2343,
+  "002343": {
+    "context": "002343",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（彼らはどこへ……！？）"
   },
-  {
-    "index": 2349,
+  "002349": {
+    "context": "002349",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は現状を確認するために、監視モニターをチェックした。"
   },
-  {
-    "index": 2354,
+  "002354": {
+    "context": "002354",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが爆破の影響で大半のカメラが破損しており、とても役立ちそうにない。"
   },
-  {
-    "index": 2360,
+  "002360": {
+    "context": "002360",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（くそ、隊長さんたちはどこに行ったんだ！　僕を置き去りにして！）"
   },
-  {
-    "index": 2366,
+  "002366": {
+    "context": "002366",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（まさか……初めから僕を、スケープゴートにするつもりだったのか！？）"
   },
-  {
-    "index": 2371,
+  "002371": {
+    "context": "002371",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多の中には、まだ渡瀬を『信じたい』という思いが残っている。"
   },
-  {
-    "index": 2376,
+  "002376": {
+    "context": "002376",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが彼らが殺人を犯した事と、宇喜多を気絶させた事――その２つの事実が、宇喜多の心に波紋を起こす。"
   },
-  {
-    "index": 2387,
+  "002387": {
+    "context": "002387",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……い、いや……今はまず、できる事をしなければ……！」"
   },
-  {
-    "index": 2392,
+  "002392": {
+    "context": "002392",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "とにかく万が一に備え、自分がこの事件に関与した証拠を抹消しなければならない。"
   },
-  {
-    "index": 2403,
+  "002403": {
+    "context": "002403",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そう思い、まずは監視カメラの映像記録を消し始めたのだが――"
   },
-  {
-    "index": 2453,
+  "002453": {
+    "context": "002453",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――しばらくして、信じ難い映像を発見してしまった。"
   },
-  {
-    "index": 2518,
+  "002518": {
+    "context": "002518",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「こ、これは……！」"
   },
-  {
-    "index": 2523,
+  "002523": {
+    "context": "002523",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は慌てて、映像を停止した。"
   },
-  {
-    "index": 2544,
+  "002544": {
+    "context": "002544",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なんだ、この映像は……！？　なんで彼らがここにいるんだ？」"
   },
-  {
-    "index": 2549,
+  "002549": {
+    "context": "002549",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "いるはずのない夏彦たちが、ここにいる！"
   },
-  {
-    "index": 2554,
+  "002554": {
+    "context": "002554",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "爆破の影響で映像に乱れはあるが、そこに映っていたのは、間違いなくあの３人の子供だった。"
   },
-  {
-    "index": 2559,
+  "002559": {
+    "context": "002559",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "それは宇喜多を激しく動揺させた。"
   },
-  {
-    "index": 2565,
+  "002565": {
+    "context": "002565",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（ま、まさか……あの後、ラボに直接やってきたのか！？）"
   },
-  {
-    "index": 2571,
+  "002571": {
+    "context": "002571",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（そして僕らのテロに巻き込まれて――！）"
   },
-  {
-    "index": 2578,
+  "002578": {
+    "context": "002578",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "数時間前、宇喜多は『人がいない場所』を狙って爆破を行った。"
   },
-  {
-    "index": 2583,
+  "002583": {
+    "context": "002583",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが忙しすぎて、モニターに映りこむのが誰かまでは確認しきれなかった。"
   },
-  {
-    "index": 2588,
+  "002588": {
+    "context": "002588",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そのせいで夏彦たちがいるのに、気付かなかったのだ。"
   },
-  {
-    "index": 2594,
+  "002594": {
+    "context": "002594",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（まずい……まずい、まずいぞ！）"
   },
-  {
-    "index": 2600,
+  "002600": {
+    "context": "002600",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（もし彼らが脱出できていなかったとしたら、それは紛れもなく僕の責任だ！）"
   },
-  {
-    "index": 2605,
+  "002605": {
+    "context": "002605",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――宇喜多がそう思った時。"
   },
-  {
-    "index": 2610,
+  "002610": {
+    "context": "002610",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "部屋の外から声が聞こえた。"
   },
-  {
-    "index": 2668,
+  "002668": {
+    "context": "002668",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「おーい！　ここにいるのか！？」"
   },
-  {
-    "index": 2681,
+  "002681": {
+    "context": "002681",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なっ！？」"
   },
-  {
-    "index": 2692,
+  "002692": {
+    "context": "002692",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「その声は――隊長さんか！？」"
   },
-  {
-    "index": 2703,
+  "002703": {
+    "context": "002703",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なに！？　あ、あんたオレを知ってるのか！？」"
   },
-  {
-    "index": 2714,
+  "002714": {
+    "context": "002714",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「し、知ってるも何も……」"
   },
-  {
-    "index": 2752,
+  "002752": {
+    "context": "002752",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "扉を開けると、そこには渡瀬がいた。"
   },
-  {
-    "index": 2757,
+  "002757": {
+    "context": "002757",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが渡瀬以外にも、２人のレスキュー隊員と――全く見知らぬ女が、２人いた。"
   },
-  {
-    "index": 2786,
+  "002786": {
+    "context": "002786",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私は椿山恵那。この施設に呼ばれてやってきた、高校教師よ」"
   },
-  {
-    "index": 2815,
+  "002815": {
+    "context": "002815",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「わたし、ユウリ……ラボの研究員の、家族です」"
   },
-  {
-    "index": 2820,
+  "002820": {
+    "context": "002820",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "その２人の存在を、宇喜多は訝しく思った。"
   },
-  {
-    "index": 2826,
+  "002826": {
+    "context": "002826",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（……おかしい。どんな事情があるにせよ、職員以外がラボに立ち入る事は禁止されているはずなのに）"
   },
-  {
-    "index": 2832,
+  "002832": {
+    "context": "002832",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（いや、それより『ユウリ』という少女……もしや、彼女が被験体ＹⅡなのではないか！？）"
   },
-  {
-    "index": 2931,
+  "002931": {
+    "context": "002931",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが現れた５人の中で宇喜多を最も慌てさせたのは、渡瀬だった。"
   },
-  {
-    "index": 2936,
+  "002936": {
+    "context": "002936",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "彼は何らかの記憶障害を起こしたらしく、宇喜多の事も覚えていないらしいのだ。"
   },
-  {
-    "index": 2942,
+  "002942": {
+    "context": "002942",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（いったい、どういう事なんだ！？　いるはずのない部下に遭遇して、とっさに嘘をついたのか！？）"
   },
-  {
-    "index": 2948,
+  "002948": {
+    "context": "002948",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（だがそうだとしても、堂島と桧山はどうなったんだ！？　被験体Ｎは！？　彼らはどこに行ったのだ！？）"
   },
-  {
-    "index": 2953,
+  "002953": {
+    "context": "002953",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "予想外の出来事の連続に、宇喜多は混乱したが――"
   },
-  {
-    "index": 3007,
+  "003007": {
+    "context": "003007",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが眼の前にいる被験体ＹⅡの存在が、"
   },
-  {
-    "index": 3057,
+  "003057": {
+    "context": "003057",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "地下に取り残されているかもしれない夏彦たちの存在が、"
   },
-  {
-    "index": 3096,
+  "003096": {
+    "context": "003096",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――宇喜多を冷静に立ち返らせた。"
   },
-  {
-    "index": 3102,
+  "003102": {
+    "context": "003102",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（そうだ、落ち着け。そして思い出すんだ。僕がなぜ今日の行動を起こしたかを）"
   },
-  {
-    "index": 3107,
+  "003107": {
+    "context": "003107",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "何が起きてるのかはわからない。渡瀬たちに裏切られたのかもしれない。"
   },
-  {
-    "index": 3112,
+  "003112": {
+    "context": "003112",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが宇喜多は被験体を救うために、夏彦を守るために、今日の行動を起こしたのだった。"
   },
-  {
-    "index": 3118,
+  "003118": {
+    "context": "003118",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（だから僕さえ、僕の信念さえ揺るがなければ――きっと彼らをラボから救い出す事が出来るはずだ）"
   },
-  {
-    "index": 3123,
+  "003123": {
+    "context": "003123",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多はあの雨の夜と同じように、心に熱い火を入れる。"
   },
-  {
-    "index": 3177,
+  "003177": {
+    "context": "003177",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そうして、宇喜多たちは歩き出した。"
   },
-  {
-    "index": 3228,
+  "003228": {
+    "context": "003228",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "要救助者とＡＤと、そして脱出口を求めて……。"
   },
-  {
-    "index": 3260,
+  "003260": {
+    "context": "003260",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――その時、どこからか花の香りが漂ってきた。"
   },
-  {
-    "index": 3281,
+  "003281": {
+    "context": "003281",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ッ！　この香りは……！）"
   },
-  {
-    "index": 3287,
+  "003287": {
+    "context": "003287",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ここからだ！　ここからおじさんの記憶は歪められているんだ！）"
   },
-  {
-    "index": 3292,
+  "003292": {
+    "context": "003292",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "その瞬間、夏彦の意識は引き締まった。"
   },
-  {
-    "index": 3297,
+  "003297": {
+    "context": "003297",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "頭の中で、悠里の声が響く。"
   },
-  {
-    "index": 3368,
+  "003368": {
+    "context": "003368",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《ひこりん！　この先の記憶を、『花の香りがした記憶』で検索しよう！》"
   },
-  {
-    "index": 3374,
+  "003374": {
+    "context": "003374",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（あぁ！）"
   },
-  {
-    "index": 3382,
+  "003382": {
+    "context": "003382",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《そして思い出して。ここから先、何が起きたのかを》"
   },
-  {
-    "index": 3409,
+  "003409": {
+    "context": "003409",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《宇喜多さんがどういう気持ちでいたのかを……》"
   },
-  {
-    "index": 3436,
+  "003436": {
+    "context": "003436",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《ひこりんの想い次第で、その記憶は正しい形に修復されていくはず》"
   },
-  {
-    "index": 3444,
+  "003444": {
+    "context": "003444",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "《そうして宇喜多さんを、元に戻してあげて》"
   },
-  {
-    "index": 3507,
+  "003507": {
+    "context": "003507",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "夏彦はその決意を胸に、再び記憶検索を行った。"
   },
-  {
-    "index": 3561,
+  "003561": {
+    "context": "003561",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "追加する条件は――"
   },
-  {
-    "index": 3566,
+  "003566": {
+    "context": "003566",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "『花の香りのする記憶』"
   }
-]
+}

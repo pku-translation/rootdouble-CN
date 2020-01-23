@@ -1,572 +1,572 @@
-[
-  {
-    "index": 81,
+{
+  "000081": {
+    "context": "000081",
     "code": "0x55",
     "developer_comment": "",
     "string": "√Current Chapter3"
   },
-  {
-    "index": 143,
+  "000143": {
+    "context": "000143",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「か、はっ……」"
   },
-  {
-    "index": 154,
+  "000154": {
+    "context": "000154",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「夏彦を解放して。でないとこの女の息の根を止める」"
   },
-  {
-    "index": 160,
+  "000160": {
+    "context": "000160",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（さ、サリュ！？）"
   },
-  {
-    "index": 171,
+  "000171": {
+    "context": "000171",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「やめろ、サリュ！」"
   },
-  {
-    "index": 182,
+  "000182": {
+    "context": "000182",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「オレたちは君たちを救いたいだけなんだ！　どうしてそれをわかろうとしない！」"
   },
-  {
-    "index": 187,
+  "000187": {
+    "context": "000187",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "殺気を放つサリュに、渡瀬が必死に言い聞かせる。"
   },
-  {
-    "index": 192,
+  "000192": {
+    "context": "000192",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だがサリュは、渡瀬を鋭く睨みつけ――"
   },
-  {
-    "index": 203,
+  "000203": {
+    "context": "000203",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「だから、見え透いた嘘はやめろと言っている」"
   },
-  {
-    "index": 214,
+  "000214": {
+    "context": "000214",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「あなたが夏彦を、撃ったくせに」"
   },
-  {
-    "index": 265,
+  "000265": {
+    "context": "000265",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「な……今、なにを……！」"
   },
-  {
-    "index": 276,
+  "000276": {
+    "context": "000276",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「女、あなたは知らなかったの？」"
   },
-  {
-    "index": 287,
+  "000287": {
+    "context": "000287",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「嘘、ですよね……？　隊長が、そんな事するはずないですよね……？」"
   },
-  {
-    "index": 298,
+  "000298": {
+    "context": "000298",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「…………っ」"
   },
-  {
-    "index": 303,
+  "000303": {
+    "context": "000303",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見の言葉に、渡瀬がはっと息を呑む。"
   },
-  {
-    "index": 308,
+  "000308": {
+    "context": "000308",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "すると、その時――"
   },
-  {
-    "index": 510,
+  "000510": {
+    "context": "000510",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬の中に、またあの時の記憶が明滅した。"
   },
-  {
-    "index": 516,
+  "000516": {
+    "context": "000516",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（まずい！　このままだと、渡瀬が記憶を取り戻してしまう可能性が――ッ！）"
   },
-  {
-    "index": 522,
+  "000522": {
+    "context": "000522",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（どうする！？　ぼくが自分の体に戻って、サリュを説得してみるか！？）"
   },
-  {
-    "index": 528,
+  "000528": {
+    "context": "000528",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（いや、でも……ッ）"
   },
-  {
-    "index": 534,
+  "000534": {
+    "context": "000534",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ついさっきまで瀕死の重体だった体に、いきなり戻って平気なのか！？）"
   },
-  {
-    "index": 540,
+  "000540": {
+    "context": "000540",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もし冬眠状態が解けたとたんに、体の容態が悪化したら――！）"
   },
-  {
-    "index": 545,
+  "000545": {
+    "context": "000545",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦がためらっている内に、サリュが風見に向けて言う。"
   },
-  {
-    "index": 556,
+  "000556": {
+    "context": "000556",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「よく見て。あの男の懐にあるものを」"
   },
-  {
-    "index": 653,
+  "000653": {
+    "context": "000653",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "渡瀬の懐にあるもの――それはＮエリアで手に入れた、拳銃だった。"
   },
-  {
-    "index": 680,
+  "000680": {
+    "context": "000680",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「あれは恐らく、この男の持ち物」"
   },
-  {
-    "index": 691,
+  "000691": {
+    "context": "000691",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「夏彦はあの銃で撃たれて――」"
   },
-  {
-    "index": 696,
+  "000696": {
+    "context": "000696",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュがそう言いかけた時、風見が乱暴にサリュを振り払った。"
   },
-  {
-    "index": 758,
+  "000758": {
+    "context": "000758",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「――もう、やめて！」"
   },
-  {
-    "index": 839,
+  "000839": {
+    "context": "000839",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「！」"
   },
-  {
-    "index": 844,
+  "000844": {
+    "context": "000844",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュの体が宙を舞う。"
   },
-  {
-    "index": 850,
+  "000850": {
+    "context": "000850",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（っ！？）"
   },
-  {
-    "index": 855,
+  "000855": {
+    "context": "000855",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦はその一部始終を、見ている事しかできなかった。"
   },
-  {
-    "index": 867,
+  "000867": {
+    "context": "000867",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "サリュはそのまま階段を転がり落ち――"
   },
-  {
-    "index": 874,
+  "000874": {
+    "context": "000874",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "地下１階の踊り場で、ぐったりと動かなくなった。"
   },
-  {
-    "index": 880,
+  "000880": {
+    "context": "000880",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（――サリュ！）"
   },
-  {
-    "index": 990,
+  "000990": {
+    "context": "000990",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "渡瀬が慌ててサリュに駆け寄り、容態を確認する。"
   },
-  {
-    "index": 995,
+  "000995": {
+    "context": "000995",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "命に別状はなさそうだが、完全に失神しているようだった。"
   },
-  {
-    "index": 1001,
+  "001001": {
+    "context": "001001",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（くそ！　ぼくがさっさと体に戻っていれば！）"
   },
-  {
-    "index": 1006,
+  "001006": {
+    "context": "001006",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦が、サリュの説得を急がなかった事を後悔していると――"
   },
-  {
-    "index": 1011,
+  "001011": {
+    "context": "001011",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "風見が頼りない足取りで、階段を降りてきた。"
   },
-  {
-    "index": 1040,
+  "001040": {
+    "context": "001040",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長……三ノ宮さんは……？」"
   },
-  {
-    "index": 1051,
+  "001051": {
+    "context": "001051",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「大丈夫、気を失っているだけだ」"
   },
-  {
-    "index": 1080,
+  "001080": {
+    "context": "001080",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そ、そうですか……」"
   },
-  {
-    "index": 1085,
+  "001085": {
+    "context": "001085",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "そう言う風見の体は震えていて、どこか様子が変だった。"
   },
-  {
-    "index": 1090,
+  "001090": {
+    "context": "001090",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見は渡瀬を見つめて言う。"
   },
-  {
-    "index": 1119,
+  "001119": {
+    "context": "001119",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……隊長。もう１度だけ質問しても、よろしいでしょうか」"
   },
-  {
-    "index": 1130,
+  "001130": {
+    "context": "001130",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……なんだ」"
   },
-  {
-    "index": 1141,
+  "001141": {
+    "context": "001141",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「解けていなかった疑問があるんです……」"
   },
-  {
-    "index": 1170,
+  "001170": {
+    "context": "001170",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長は、この事故が起きた直後の、６時４２分頃。どうして地下に降りてきたんですか……？」"
   },
-  {
-    "index": 1181,
+  "001181": {
+    "context": "001181",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「それは――だから、堂島と桧山に無線で呼ばれて……」"
   },
-  {
-    "index": 1192,
+  "001192": {
+    "context": "001192",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「だったら無線は、通じていたということですよね？」"
   },
-  {
-    "index": 1221,
+  "001221": {
+    "context": "001221",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「だけど……だけど、隊長」"
   },
-  {
-    "index": 1232,
+  "001232": {
+    "context": "001232",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私はね、その少し前に、隊長に無線通信を試みていたんですよ……！」"
   },
-  {
-    "index": 1237,
+  "001237": {
+    "context": "001237",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "『６時４２分』――。"
   },
-  {
-    "index": 1242,
+  "001242": {
+    "context": "001242",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "それは夏彦が渡瀬の記憶を改竄した時、渡瀬に何気なく与えた記憶の１つだった。"
   },
-  {
-    "index": 1248,
+  "001248": {
+    "context": "001248",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もしかして橘さん、あの時からずっと渡瀬のことを疑って……？）"
   },
-  {
-    "index": 1253,
+  "001253": {
+    "context": "001253",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "それも無理のない事だった。"
   },
-  {
-    "index": 1258,
+  "001258": {
+    "context": "001258",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "記憶喪失と、不完全な回復。幻覚、虚言、拳銃。そして多くの問いに答える事ができない渡瀬――。"
   },
-  {
-    "index": 1263,
+  "001263": {
+    "context": "001263",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "ここまで疑わしい渡瀬に、風見が着いて来られたのは、それだけ渡瀬を信頼していたからだろう。"
   },
-  {
-    "index": 1269,
+  "001269": {
+    "context": "001269",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（それが、さっきのサリュの一言で……！）"
   },
-  {
-    "index": 1337,
+  "001337": {
+    "context": "001337",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「あなたが夏彦を、撃ったくせに」"
   },
-  {
-    "index": 1362,
+  "001362": {
+    "context": "001362",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "それは風見の信頼を打ち砕くに、充分な言葉だった。"
   },
-  {
-    "index": 1391,
+  "001391": {
+    "context": "001391",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私……必死に隊長を信じようとしていたんです」"
   },
-  {
-    "index": 1402,
+  "001402": {
+    "context": "001402",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ずっとずっと昔から、あなたを信じ続けていたんです」"
   },
-  {
-    "index": 1431,
+  "001431": {
+    "context": "001431",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「だけど…………」"
   },
-  {
-    "index": 1442,
+  "001442": {
+    "context": "001442",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「た、橘……？」"
   },
-  {
-    "index": 1471,
+  "001471": {
+    "context": "001471",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……できないのよ、渡瀬」"
   },
-  {
-    "index": 1482,
+  "001482": {
+    "context": "001482",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「さっきの三ノ宮さんの話が本当だとしたら、何もかも辻褄が合ってしまうの」"
   },
-  {
-    "index": 1493,
+  "001493": {
+    "context": "001493",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「この施設の正体、以前のあなた……それを考えると、答えは１つなのよ」"
   },
-  {
-    "index": 1499,
+  "001499": {
+    "context": "001499",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（な、なんだ……？）"
   },
-  {
-    "index": 1504,
+  "001504": {
+    "context": "001504",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そのとき夏彦は、強烈な不安を覚えていた。"
   },
-  {
-    "index": 1509,
+  "001509": {
+    "context": "001509",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "風見が渡瀬を疑うのはわかるが、その態度が明らかにおかしい。"
   },
-  {
-    "index": 1538,
+  "001538": {
+    "context": "001538",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……あなたが殺したのなら……」"
   },
-  {
-    "index": 1549,
+  "001549": {
+    "context": "001549",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「せめて、あなたの名誉のために……！」"
   },
-  {
-    "index": 1584,
+  "001584": {
+    "context": "001584",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "そして何事か呟きながら、風見がそばにあった消火器へ手を伸ばす。"
   },
-  {
-    "index": 1613,
+  "001613": {
+    "context": "001613",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「渡瀬、あなたは道を違えてしまった……」"
   },
-  {
-    "index": 1624,
+  "001624": {
+    "context": "001624",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……その報いを、受ける時が来たの」"
   },
-  {
-    "index": 1630,
+  "001630": {
+    "context": "001630",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "――次の瞬間。"
   },
-  {
-    "index": 1770,
+  "001770": {
+    "context": "001770",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ぐあっ！！」"
   },
-  {
-    "index": 1799,
+  "001799": {
+    "context": "001799",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見が横凪に振るった消火器を、渡瀬はとっさに腕でガードした。"
   },
-  {
-    "index": 1880,
+  "001880": {
+    "context": "001880",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よ、よせ橘！　なぜこんな事を！？」"
   },
-  {
-    "index": 1909,
+  "001909": {
+    "context": "001909",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「渡瀬……ごめんなさい、渡瀬……」"
   },
-  {
-    "index": 1938,
+  "001938": {
+    "context": "001938",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私にはもう、こうするしか……できる事がないの……」"
   },
-  {
-    "index": 2005,
+  "002005": {
+    "context": "002005",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "そして彼女の眼を見たとたん、夏彦は刹那に確信した。"
   },
-  {
-    "index": 2154,
+  "002154": {
+    "context": "002154",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（お、同じだ！　おじさんや、洵さんと！）"
   },
-  {
-    "index": 2159,
+  "002159": {
+    "context": "002159",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そのとき渡瀬が、風見をとっさに突き飛ばした。"
   },
-  {
-    "index": 2253,
+  "002253": {
+    "context": "002253",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「きゃっ！」"
   },
-  {
-    "index": 2258,
+  "002258": {
+    "context": "002258",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "消火器を持ったまま、風見が階段に倒れ込む。"
   },
-  {
-    "index": 2312,
+  "002312": {
+    "context": "002312",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬はその隙に、夏彦の体を背負ったまま地下２階まで駆け降り、階段室から飛び出した。"
   },
-  {
-    "index": 2368,
+  "002368": {
+    "context": "002368",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「くそっ！　どうなってやがるんだ！」"
   },
-  {
-    "index": 2373,
+  "002373": {
+    "context": "002373",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう叫ぶ渡瀬と共に、夏彦も思う。"
   },
-  {
-    "index": 2379,
+  "002379": {
+    "context": "002379",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（いったい何が起きてるんだ！？）"
   },
-  {
-    "index": 2385,
+  "002385": {
+    "context": "002385",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（――どうして副隊長さんまで、急におかしくなったんだ！？）"
   },
-  {
-    "index": 2390,
+  "002390": {
+    "context": "002390",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "何か得体の知れない事が起こっている。ただそれだけしか判らなかった。"
   }
-]
+}

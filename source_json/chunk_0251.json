@@ -1,458 +1,458 @@
-[
-  {
-    "index": 101,
+{
+  "000101": {
+    "context": "000101",
     "code": "0x55",
     "developer_comment": "",
     "string": "√Current Chapter2"
   },
-  {
-    "index": 112,
+  "000112": {
+    "context": "000112",
     "code": "0x45",
     "developer_comment": "",
     "string": "――そして天川研究室でＡＤを発見した後、渡瀬たちは今後の方針について話し合った。"
   },
-  {
-    "index": 123,
+  "000123": {
+    "context": "000123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……さて、話がまとまったところで。それより大事な話をしよう」"
   },
-  {
-    "index": 152,
+  "000152": {
+    "context": "000152",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ユウリさんの事ですね？」"
   },
-  {
-    "index": 163,
+  "000163": {
+    "context": "000163",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ。この広い施設ではぐれちまったのは、非常にまずい」"
   },
-  {
-    "index": 192,
+  "000192": {
+    "context": "000192",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「それに、夏彦くんたちの事も気になるよ」"
   },
-  {
-    "index": 221,
+  "000221": {
+    "context": "000221",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ラボ内を全域捜索したのに、見つからなかった……」"
   },
-  {
-    "index": 250,
+  "000250": {
+    "context": "000250",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「やはり彼らも、移動しているんでしょう。もしくは見落としているか」"
   },
-  {
-    "index": 372,
+  "000372": {
+    "context": "000372",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その話を聞きつつ、夏彦も考える。"
   },
-  {
-    "index": 433,
+  "000433": {
+    "context": "000433",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ましろは地上へ逃がしたからいいとして――）"
   },
-  {
-    "index": 509,
+  "000509": {
+    "context": "000509",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（問題は、『ユウリ』とサリュが今も無事かどうかだよな？）"
   },
-  {
-    "index": 595,
+  "000595": {
+    "context": "000595",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（それと……ぼくの居場所か）"
   },
-  {
-    "index": 600,
+  "000600": {
+    "context": "000600",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "それについて考えると、絶望的な気持ちになった。"
   },
-  {
-    "index": 605,
+  "000605": {
+    "context": "000605",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "渡瀬たちがすでにラボ全域の捜索を終えている以上、夏彦の体がありそうな場所は、もはや一箇所だけなのだ。"
   },
-  {
-    "index": 610,
+  "000610": {
+    "context": "000610",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "――Ｎエリア。そこ以外にはありえない。"
   },
-  {
-    "index": 616,
+  "000616": {
+    "context": "000616",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ひどい火災が起きてるって話だし……奇跡的に焼け残っていたとしても、かなりの放射線にさらされた事だろうし……）"
   },
-  {
-    "index": 687,
+  "000687": {
+    "context": "000687",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（やっぱり……ぼくが生きてる可能性は、ゼロってわけか……）"
   },
-  {
-    "index": 692,
+  "000692": {
+    "context": "000692",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "すでに予想していた事とは言え、わずかな希望すらないと知って、夏彦はやはり落ち込んだ。"
   },
-  {
-    "index": 698,
+  "000698": {
+    "context": "000698",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（意識がここに残っているだけでも、良しとすべきなのかもしれないけど……）"
   },
-  {
-    "index": 703,
+  "000703": {
+    "context": "000703",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "だがそれもいつまで続くかはわからない。"
   },
-  {
-    "index": 708,
+  "000708": {
+    "context": "000708",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "もしかすると次の瞬間には、渡瀬の脳内に滞留するＢＣエネルギーが尽きて、消滅してしまうかもしれないのだ。"
   },
-  {
-    "index": 813,
+  "000813": {
+    "context": "000813",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（でも――それにしても今回は、ずいぶん長く覚醒が続いているな？）"
   },
-  {
-    "index": 819,
+  "000819": {
+    "context": "000819",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ちょっと前まで、途切れたり繋がったりひどかったのに）"
   },
-  {
-    "index": 824,
+  "000824": {
+    "context": "000824",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦がそんな疑問を抱いていると、渡瀬がプロキオンに眼をやった。"
   },
-  {
-    "index": 829,
+  "000829": {
+    "context": "000829",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "数値は『４５３１ｍＳｖ』を示している。"
   },
-  {
-    "index": 835,
+  "000835": {
+    "context": "000835",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（数値が上がってる……？）"
   },
-  {
-    "index": 841,
+  "000841": {
+    "context": "000841",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（確かに今までも、汚染区域の中じゃぼくの意識は覚醒してたけど……）"
   },
-  {
-    "index": 847,
+  "000847": {
+    "context": "000847",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（あれ？　そう言えばＡＤの許容範囲って――）"
   },
-  {
-    "index": 954,
+  "000954": {
+    "context": "000954",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「安全基準値が『４０００ｍＳｖ以内』。これは『ＡＤ投与の上なら、被曝の危険は皆無』という値です」"
   },
-  {
-    "index": 959,
+  "000959": {
+    "context": "000959",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "それは渡瀬の記憶の中にあった、風見との会話だった。"
   },
-  {
-    "index": 1096,
+  "001096": {
+    "context": "001096",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もしかして……放射線レベルがＡＤの許容範囲を超えたから、ぼくの覚醒は途切れなくなったのか？）"
   },
-  {
-    "index": 1102,
+  "001102": {
+    "context": "001102",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（でも、それってどういう理屈なんだ……？？？）"
   },
-  {
-    "index": 1107,
+  "001107": {
+    "context": "001107",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "――考えうる理由としては、放射線が強くなるにつれ、渡瀬の肉体がダメージを受け、意識レベルも若干低下し――"
   },
-  {
-    "index": 1112,
+  "001112": {
+    "context": "001112",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "それに反比例するように、夏彦の意識と感覚が戻ってくるという事だ。"
   },
-  {
-    "index": 1118,
+  "001118": {
+    "context": "001118",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……意識というものが一種のエネルギーだとしたら、そんな推察も成り立つ……か？）"
   },
-  {
-    "index": 1123,
+  "001123": {
+    "context": "001123",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦が考えを巡らせていると、緊迫した声で渡瀬が言う。"
   },
-  {
-    "index": 1134,
+  "001134": {
+    "context": "001134",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……このペースで汚染が進めば、いずれ施設内の全域が『８０００ｍＳｖ』を超えるかもしれないな」"
   },
-  {
-    "index": 1163,
+  "001163": {
+    "context": "001163",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そうなれば、ＡＤがあってもなくても一緒か……」"
   },
-  {
-    "index": 1169,
+  "001169": {
+    "context": "001169",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（くっ……そんな事になったら、サリュやあの子だって……！）"
   },
-  {
-    "index": 1225,
+  "001225": {
+    "context": "001225",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "決して無事ではすまないだろう。"
   },
-  {
-    "index": 1230,
+  "001230": {
+    "context": "001230",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "――それから皆は議論を重ね、ほどなく行動方針が決定した。"
   },
-  {
-    "index": 1235,
+  "001235": {
+    "context": "001235",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "チームを２つに分け、要救助者とすれ違わないように、捜索するのだ。"
   },
-  {
-    "index": 1241,
+  "001241": {
+    "context": "001241",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（よし、ぼくもできるだけ協力しよう！）"
   },
-  {
-    "index": 1259,
+  "001259": {
+    "context": "001259",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そして渡瀬は風見・宇喜多とチームを組み、脳科学実験室を後にした。"
   },
-  {
-    "index": 1313,
+  "001313": {
+    "context": "001313",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そして渡瀬は洵・宇喜多とチームを組み、脳科学実験室を後にした。"
   },
-  {
-    "index": 1367,
+  "001367": {
+    "context": "001367",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そして渡瀬は恵那・宇喜多とチームを組み、脳科学実験室を後にした。"
   },
-  {
-    "index": 1421,
+  "001421": {
+    "context": "001421",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（でも、渡瀬が記憶を取り戻すようなリスクは避けたいし……ここは誰と組むべきだろう？）"
   },
-  {
-    "index": 1439,
+  "001439": {
+    "context": "001439",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（うーん……やっぱり副隊長さんと一緒がいいかな？　何があっても対処できそうだし）"
   },
-  {
-    "index": 1444,
+  "001444": {
+    "context": "001444",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "するとその意思が、渡瀬に少なからず影響を与えたのか――"
   },
-  {
-    "index": 1539,
+  "001539": {
+    "context": "001539",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘、おっさん……オレと組まないか？」"
   },
-  {
-    "index": 1544,
+  "001544": {
+    "context": "001544",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬がそう提案すると、"
   },
-  {
-    "index": 1549,
+  "001549": {
+    "context": "001549",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――その申し入れは、すぐに受け入れられていた。"
   },
-  {
-    "index": 1690,
+  "001690": {
+    "context": "001690",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（うーん……やっぱり洵さんと一緒がいいかな？　一番信用できそうだし）"
   },
-  {
-    "index": 1695,
+  "001695": {
+    "context": "001695",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "するとその意思が、渡瀬に少なからず影響を与えたのか――"
   },
-  {
-    "index": 1706,
+  "001706": {
+    "context": "001706",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「守部、おっさん……オレと組まないか？」"
   },
-  {
-    "index": 1711,
+  "001711": {
+    "context": "001711",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬がそう提案すると、"
   },
-  {
-    "index": 1716,
+  "001716": {
+    "context": "001716",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――その申し入れは、すぐに受け入れられていた。"
   },
-  {
-    "index": 1867,
+  "001867": {
+    "context": "001867",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（うーん……やっぱり先生と一緒がいいかな？　どうしてこのラボにいるのか、ちゃんと理由も知りたいし）"
   },
-  {
-    "index": 1872,
+  "001872": {
+    "context": "001872",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "するとその意思が、渡瀬に少なからず影響を与えたのか――"
   },
-  {
-    "index": 1883,
+  "001883": {
+    "context": "001883",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生、オレと組もうか」"
   },
-  {
-    "index": 1906,
+  "001906": {
+    "context": "001906",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬がそう提案すると、"
   },
-  {
-    "index": 1911,
+  "001911": {
+    "context": "001911",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――その申し入れは、すぐに受け入れられていた。"
   },
-  {
-    "index": 1954,
+  "001954": {
+    "context": "001954",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして渡瀬たちのチームに宇喜多も加わり――"
   },
-  {
-    "index": 1959,
+  "001959": {
+    "context": "001959",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "３人は第５エリアをもう１度見回した後で、ファクトリーへと向かった。"
   },
-  {
-    "index": 2063,
+  "002063": {
+    "context": "002063",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（うーん……誰と組むのが正解なんだ？）"
   },
-  {
-    "index": 2069,
+  "002069": {
+    "context": "002069",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「…………」"
   },
-  {
-    "index": 2113,
+  "002113": {
+    "context": "002113",
     "code": "0x45",
     "developer_comment": "風見・洵",
     "string": "「…………」"
   },
-  {
-    "index": 2157,
+  "002157": {
+    "context": "002157",
     "code": "0x45",
     "developer_comment": "恵那・宇喜多",
     "string": "「………」"
   },
-  {
-    "index": 2238,
+  "002238": {
+    "context": "002238",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……隊長、いつまで黙り込んでるおつもりですか？」"
   },
-  {
-    "index": 2249,
+  "002249": {
+    "context": "002249",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ、すまん……どうしたもんかと思ってな」"
   },
-  {
-    "index": 2279,
+  "002279": {
+    "context": "002279",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「優柔不断だね、すぐにでも行動しなきゃいけないのに……！」"
   },
-  {
-    "index": 2308,
+  "002308": {
+    "context": "002308",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「即決できないのであれば、隊長は私と組みましょう」"
   },
-  {
-    "index": 2319,
+  "002319": {
+    "context": "002319",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「宇喜多さんも、我々と同じチームということでどうでしょうか？」"
   },
-  {
-    "index": 2348,
+  "002348": {
+    "context": "002348",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あぁ……別に構わないよ」"
   },
-  {
-    "index": 2354,
+  "002354": {
+    "context": "002354",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（一緒に組むのは、副隊長さんと宇喜多のおじさんか……まあ、大丈夫かな？）"
   },
-  {
-    "index": 2359,
+  "002359": {
+    "context": "002359",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "ともかくそれで、チーム分けは決定された。"
   }
-]
+}

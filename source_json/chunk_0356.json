@@ -1,938 +1,938 @@
-[
-  {
-    "index": 77,
+{
+  "000077": {
+    "context": "000077",
     "code": "0x45",
     "developer_comment": "",
     "string": "――それから、３週間が過ぎた。"
   },
-  {
-    "index": 82,
+  "000082": {
+    "context": "000082",
     "code": "0x45",
     "developer_comment": "",
     "string": "天川博士が言った通り、確かにその間、１度も実験はなかった。"
   },
-  {
-    "index": 87,
+  "000087": {
+    "context": "000087",
     "code": "0x45",
     "developer_comment": "",
     "string": "その間ずっと、サリュはこの部屋で独り、本を読んで過ごしていた。"
   },
-  {
-    "index": 108,
+  "000108": {
+    "context": "000108",
     "code": "0x45",
     "developer_comment": "",
     "string": "彼女が読んでいたのは、『自我』と『記憶』というものをテーマに扱ったＳＦ小説だ。"
   },
-  {
-    "index": 113,
+  "000113": {
+    "context": "000113",
     "code": "0x45",
     "developer_comment": "",
     "string": "自我を持つ電子頭脳を作ろうとする、科学者の物語――その中に、こんな文章が出てきた。"
   },
-  {
-    "index": 204,
+  "000204": {
+    "context": "000204",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 207,
+  "000207": {
+    "context": "000207",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 210,
+  "000210": {
+    "context": "000210",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 213,
+  "000213": {
+    "context": "000213",
     "code": "0x45",
     "developer_comment": "",
     "string": "――『自我』は、『記憶』によって形作られる。"
   },
-  {
-    "index": 217,
+  "000217": {
+    "context": "000217",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 220,
+  "000220": {
+    "context": "000220",
     "code": "0x45",
     "developer_comment": "",
     "string": "人間は自らの過去の記憶に基づき、行動や意思を決定する。"
   },
-  {
-    "index": 224,
+  "000224": {
+    "context": "000224",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 227,
+  "000227": {
+    "context": "000227",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが『自我』の生成過程が、いまひとつ僕には理解できない。"
   },
-  {
-    "index": 237,
+  "000237": {
+    "context": "000237",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 240,
+  "000240": {
+    "context": "000240",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 243,
+  "000243": {
+    "context": "000243",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 246,
+  "000246": {
+    "context": "000246",
     "code": "0x45",
     "developer_comment": "",
     "string": "記憶が集まれば、そこには必ず自我が生まれるのだろうか。"
   },
-  {
-    "index": 250,
+  "000250": {
+    "context": "000250",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 253,
+  "000253": {
+    "context": "000253",
     "code": "0x45",
     "developer_comment": "",
     "string": "確かに記憶が集積していくにつれ、"
   },
-  {
-    "index": 256,
+  "000256": {
+    "context": "000256",
     "code": "0x45",
     "developer_comment": "",
     "string": "自我はよりはっきりしていくだろう。"
   },
-  {
-    "index": 260,
+  "000260": {
+    "context": "000260",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 263,
+  "000263": {
+    "context": "000263",
     "code": "0x45",
     "developer_comment": "",
     "string": "例えば、赤子が喋り始めるまでの過程がそうだ。"
   },
-  {
-    "index": 274,
+  "000274": {
+    "context": "000274",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 277,
+  "000277": {
+    "context": "000277",
     "code": "0x45",
     "developer_comment": "",
     "string": "赤子は生まれた直後から、親が喋っている言葉を耳にすると、"
   },
-  {
-    "index": 280,
+  "000280": {
+    "context": "000280",
     "code": "0x45",
     "developer_comment": "",
     "string": "それをどんどん覚えていくらしい。"
   },
-  {
-    "index": 284,
+  "000284": {
+    "context": "000284",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 287,
+  "000287": {
+    "context": "000287",
     "code": "0x45",
     "developer_comment": "",
     "string": "赤子は最初、その記憶の活用方法を知らない。"
   },
-  {
-    "index": 291,
+  "000291": {
+    "context": "000291",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 294,
+  "000294": {
+    "context": "000294",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがある日、まるでパズルのピースが一瞬で組み合わされるように、"
   },
-  {
-    "index": 297,
+  "000297": {
+    "context": "000297",
     "code": "0x45",
     "developer_comment": "",
     "string": "赤子の脳内で無数の記憶がひとつに繋がるのだ。"
   },
-  {
-    "index": 301,
+  "000301": {
+    "context": "000301",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 304,
+  "000304": {
+    "context": "000304",
     "code": "0x45",
     "developer_comment": "",
     "string": "『そうか、わかったぞ！"
   },
-  {
-    "index": 307,
+  "000307": {
+    "context": "000307",
     "code": "0x45",
     "developer_comment": "",
     "string": "　この音のつながりは、他人に意思を伝えるための手段なんだ！』"
   },
-  {
-    "index": 311,
+  "000311": {
+    "context": "000311",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 314,
+  "000314": {
+    "context": "000314",
     "code": "0x45",
     "developer_comment": "",
     "string": "そうして赤子は言葉を喋り始め、"
   },
-  {
-    "index": 317,
+  "000317": {
+    "context": "000317",
     "code": "0x45",
     "developer_comment": "",
     "string": "それまで孤独だった自我は、世界と繋がるのだ。"
   },
-  {
-    "index": 327,
+  "000327": {
+    "context": "000327",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 330,
+  "000330": {
+    "context": "000330",
     "code": "0x45",
     "developer_comment": "",
     "string": "これが『自我』発生の過程の、１プロセスだ。"
   },
-  {
-    "index": 334,
+  "000334": {
+    "context": "000334",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 337,
+  "000337": {
+    "context": "000337",
     "code": "0x45",
     "developer_comment": "",
     "string": "かくして赤子は集積した記憶を組み合わせ、"
   },
-  {
-    "index": 340,
+  "000340": {
+    "context": "000340",
     "code": "0x45",
     "developer_comment": "",
     "string": "それをさらに活用し、己の自我を育てていく。"
   },
-  {
-    "index": 344,
+  "000344": {
+    "context": "000344",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 347,
+  "000347": {
+    "context": "000347",
     "code": "0x45",
     "developer_comment": "",
     "string": "しかしなぜ生物の脳内でのみ、こうした作用が起こるのか？"
   },
-  {
-    "index": 351,
+  "000351": {
+    "context": "000351",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 354,
+  "000354": {
+    "context": "000354",
     "code": "0x45",
     "developer_comment": "",
     "string": "言うまでもなく、大容量の記憶ディスクに"
   },
-  {
-    "index": 357,
+  "000357": {
+    "context": "000357",
     "code": "0x45",
     "developer_comment": "",
     "string": "データを大量に書き込んでも、そこに自我は発生しない。"
   },
-  {
-    "index": 361,
+  "000361": {
+    "context": "000361",
     "code": "0x85",
     "developer_comment": "",
     "string": "　"
   },
-  {
-    "index": 364,
+  "000364": {
+    "context": "000364",
     "code": "0x45",
     "developer_comment": "",
     "string": "自然界の中では当たり前に起こっている事が、"
   },
-  {
-    "index": 367,
+  "000367": {
+    "context": "000367",
     "code": "0x45",
     "developer_comment": "",
     "string": "なぜ人の手では再現できないのだろうか……。"
   },
-  {
-    "index": 445,
+  "000445": {
+    "context": "000445",
     "code": "0x45",
     "developer_comment": "",
     "string": "その小説は哲学的な内容で、冒険モノを好むサリュの好みとは離れていた。"
   },
-  {
-    "index": 450,
+  "000450": {
+    "context": "000450",
     "code": "0x45",
     "developer_comment": "",
     "string": "しかしそれでも、感想を覚える部分はある。"
   },
-  {
-    "index": 456,
+  "000456": {
+    "context": "000456",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "（私はこの主人公の言う、『大容量の記憶ディスク』に近いのかもしれない……）"
   },
-  {
-    "index": 462,
+  "000462": {
+    "context": "000462",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "（己が得る知識を、自分で選べないところなど、特に似ている）"
   },
-  {
-    "index": 467,
+  "000467": {
+    "context": "000467",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "だがそう思ったところで、何かが変わるわけでもない。"
   },
-  {
-    "index": 472,
+  "000472": {
+    "context": "000472",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "彼女は自分についても、他者についても、己をとりまくあらゆる事象についても、ただ『そういうものだ』と悟るだけだ。"
   },
-  {
-    "index": 483,
+  "000483": {
+    "context": "000483",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "その時、久しぶりに部屋の扉が開いて、博士が入ってきた。"
   },
-  {
-    "index": 519,
+  "000519": {
+    "context": "000519",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「優衣、出なさい」"
   },
-  {
-    "index": 527,
+  "000527": {
+    "context": "000527",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「実験？」"
   },
-  {
-    "index": 538,
+  "000538": {
+    "context": "000538",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「いえ、今日は健康診断よ。第５エリアに行きましょう」"
   },
-  {
-    "index": 543,
+  "000543": {
+    "context": "000543",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "という事は、珍しくこのＺｅｒｏエリアを出る事になる。"
   },
-  {
-    "index": 563,
+  "000563": {
+    "context": "000563",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "少々退屈していたサリュは、博士の言葉に喜んでうなずいた。"
   },
-  {
-    "index": 679,
+  "000679": {
+    "context": "000679",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "脳科学実験室へ続く廊下を、サリュは博士と共に歩く。"
   },
-  {
-    "index": 684,
+  "000684": {
+    "context": "000684",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "その道すがら、サリュは博士に尋ねた。"
   },
-  {
-    "index": 692,
+  "000692": {
+    "context": "000692",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「博士、私は孤児だと聞いていたのだけれど」"
   },
-  {
-    "index": 703,
+  "000703": {
+    "context": "000703",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「そうよ」"
   },
-  {
-    "index": 714,
+  "000714": {
+    "context": "000714",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あなたが赤子だった頃にいたフランスの孤児院が潰れてしまい、行く宛てのなくなったあなたを私が引き取ったの」"
   },
-  {
-    "index": 719,
+  "000719": {
+    "context": "000719",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "博士は表情を変えず、そう答えた。"
   },
-  {
-    "index": 724,
+  "000724": {
+    "context": "000724",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "だがサリュは首を振る。"
   },
-  {
-    "index": 732,
+  "000732": {
+    "context": "000732",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「嘘」"
   },
-  {
-    "index": 761,
+  "000761": {
+    "context": "000761",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「え？」"
   },
-  {
-    "index": 769,
+  "000769": {
+    "context": "000769",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「私はラボの中で生まれたはず。かつてラボにいた被験体から生まれた子なのでは？」"
   },
-  {
-    "index": 775,
+  "000775": {
+    "context": "000775",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "その言葉に、博士が足を止めた。"
   },
-  {
-    "index": 806,
+  "000806": {
+    "context": "000806",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「――誰から聞いたの」"
   },
-  {
-    "index": 814,
+  "000814": {
+    "context": "000814",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「先日記憶を転送された男が、そんな知識を持っていた」"
   },
-  {
-    "index": 843,
+  "000843": {
+    "context": "000843",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……！」"
   },
-  {
-    "index": 851,
+  "000851": {
+    "context": "000851",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「事実？」"
   },
-  {
-    "index": 880,
+  "000880": {
+    "context": "000880",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……事実よ」"
   },
-  {
-    "index": 885,
+  "000885": {
+    "context": "000885",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "苦々しい声で、博士は言った。"
   },
-  {
-    "index": 890,
+  "000890": {
+    "context": "000890",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "それから慰めるような口調で続ける。"
   },
-  {
-    "index": 925,
+  "000925": {
+    "context": "000925",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「優衣、ショックかもしれないけど……」"
   },
-  {
-    "index": 933,
+  "000933": {
+    "context": "000933",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「別に」"
   },
-  {
-    "index": 938,
+  "000938": {
+    "context": "000938",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "そうなのか、と思っただけだ。"
   },
-  {
-    "index": 943,
+  "000943": {
+    "context": "000943",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "生い立ちを知った所で、何が変わるわけでもない。"
   },
-  {
-    "index": 948,
+  "000948": {
+    "context": "000948",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "だけどそれでも、気になる事があった。"
   },
-  {
-    "index": 956,
+  "000956": {
+    "context": "000956",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「私の父親と母親は誰？」"
   },
-  {
-    "index": 980,
+  "000980": {
+    "context": "000980",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「…………」"
   },
-  {
-    "index": 1009,
+  "001009": {
+    "context": "001009",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……教えたら、この事についてはもう触れないでくれる？」"
   },
-  {
-    "index": 1017,
+  "001017": {
+    "context": "001017",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「触れない」"
   },
-  {
-    "index": 1042,
+  "001042": {
+    "context": "001042",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュがそう答えると、天川博士は息をついて答えた。"
   },
-  {
-    "index": 1072,
+  "001072": {
+    "context": "001072",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……あなたの母親は、アリス・アンフラメというフランス人女性」"
   },
-  {
-    "index": 1083,
+  "001083": {
+    "context": "001083",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「１３年前、ＢＣが世界中で確認され始めた時代に発見された、世界で最初の適性度Ｓコミュニケーター」"
   },
-  {
-    "index": 1094,
+  "001094": {
+    "context": "001094",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……コミュニケーターＡと呼ばれ、ラボ設立のきっかけとなった人よ」"
   },
-  {
-    "index": 1102,
+  "001102": {
+    "context": "001102",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「母は今どこに？」"
   },
-  {
-    "index": 1132,
+  "001132": {
+    "context": "001132",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あなたの出産時に……産褥死で亡くなってしまったわ」"
   },
-  {
-    "index": 1140,
+  "001140": {
+    "context": "001140",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「では父は？」"
   },
-  {
-    "index": 1170,
+  "001170": {
+    "context": "001170",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あなたの父親は、安曇衛士という、ラボの研究員。当時のアリスの担当管理者」"
   },
-  {
-    "index": 1181,
+  "001181": {
+    "context": "001181",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「彼は幽閉中のアリスに、恋をしてしまったの……」"
   },
-  {
-    "index": 1189,
+  "001189": {
+    "context": "001189",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「恋……？」"
   },
-  {
-    "index": 1218,
+  "001218": {
+    "context": "001218",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……アリスはラボに幽閉された時、すでに心にひどい疾患を抱えていたのよ」"
   },
-  {
-    "index": 1229,
+  "001229": {
+    "context": "001229",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「だけど時々、正気に戻る事があった。彼女は繰り返し私たちに『もうころしてください』と訴えたわ」"
   },
-  {
-    "index": 1240,
+  "001240": {
+    "context": "001240",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「私も耐えがたかったけど……担当研究員の安曇さんは、なお辛かったのでしょうね」"
   },
-  {
-    "index": 1269,
+  "001269": {
+    "context": "001269",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「やがて同情と憐憫は、彼女への想いに変わった。人目を忍んで２人は、個人的に密会した」"
   },
-  {
-    "index": 1280,
+  "001280": {
+    "context": "001280",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「アリスも断続的な意識の中、彼と心を通わせ、そして……あなたが宿ったの」"
   },
-  {
-    "index": 1288,
+  "001288": {
+    "context": "001288",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「そう。父はその後は？」"
   },
-  {
-    "index": 1317,
+  "001317": {
+    "context": "001317",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「………………」"
   },
-  {
-    "index": 1328,
+  "001328": {
+    "context": "001328",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……あなたの誕生を待たずして、実験中に事故死したわ」"
   },
-  {
-    "index": 1333,
+  "001333": {
+    "context": "001333",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "それらの情報を、サリュは頭の中でまとめる。"
   },
-  {
-    "index": 1338,
+  "001338": {
+    "context": "001338",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "すぐに自分の出自に関する結論が出た。"
   },
-  {
-    "index": 1346,
+  "001346": {
+    "context": "001346",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「つまり、こういう事？」"
   },
-  {
-    "index": 1354,
+  "001354": {
+    "context": "001354",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「研究員が幽閉中の被験体を妊娠させた。ラボは研究員の起こしたその不祥事を、隠そうとした」"
   },
-  {
-    "index": 1362,
+  "001362": {
+    "context": "001362",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「しかしその被験体は、優れたコミュニケーターだった。ならば生まれてくる子供も、コミュニケーターかもしれない」"
   },
-  {
-    "index": 1370,
+  "001370": {
+    "context": "001370",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「ラボは生まれながらの被験体が欲しくて、堕胎させるより、出産させる事を選んだ」"
   },
-  {
-    "index": 1378,
+  "001378": {
+    "context": "001378",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「それでできたのが私。そういうこと？」"
   },
-  {
-    "index": 1409,
+  "001409": {
+    "context": "001409",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「ち、違うわ……！　当時のラボは、そこまで倫理が壊れていなかった」"
   },
-  {
-    "index": 1438,
+  "001438": {
+    "context": "001438",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「アリスの妊娠が発覚したのは、６ヶ月を過ぎてからだったの」"
   },
-  {
-    "index": 1449,
+  "001449": {
+    "context": "001449",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「そこまでおなかが大きくなってしまっては、堕胎は不可能だから……」"
   },
-  {
-    "index": 1457,
+  "001457": {
+    "context": "001457",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「なるほど、理解した」"
   },
-  {
-    "index": 1486,
+  "001486": {
+    "context": "001486",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……安曇さんの死から、この施設はおかしくなりはじめたのよ」"
   },
-  {
-    "index": 1515,
+  "001515": {
+    "context": "001515",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あの人はラボの良心だったから……」"
   },
-  {
-    "index": 1523,
+  "001523": {
+    "context": "001523",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「だけどその後も、私はこうして被験体として幽閉されている。その理由は？」"
   },
-  {
-    "index": 1534,
+  "001534": {
+    "context": "001534",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……あなたが天涯孤独で……外で独りで生きていくのは、難しいと思われたから……」"
   },
-  {
-    "index": 1545,
+  "001545": {
+    "context": "001545",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「それと……上層部が、あなたが外で暮らすことを望まなかったから……」"
   },
-  {
-    "index": 1576,
+  "001576": {
+    "context": "001576",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……ごめんなさい。全て言い訳ね」"
   },
-  {
-    "index": 1581,
+  "001581": {
+    "context": "001581",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "天川博士が苦しげに呟く。"
   },
-  {
-    "index": 1586,
+  "001586": {
+    "context": "001586",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "サリュはため息をついて、問いを重ねた。"
   },
-  {
-    "index": 1594,
+  "001594": {
+    "context": "001594",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……私は適性を一切持たなかった。ラボとしては持て余したでしょう」"
   },
-  {
-    "index": 1623,
+  "001623": {
+    "context": "001623",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「そうならないように、あなたに役目を与えたの」"
   },
-  {
-    "index": 1634,
+  "001634": {
+    "context": "001634",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「例えばＷＸ粒子照射実験がそう。あれはあなたの体に致命的な悪影響が起きないよう、エネルギー量を調整して行ってた」"
   },
-  {
-    "index": 1645,
+  "001645": {
+    "context": "001645",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「建前でもそういう実験をしておけば、あなたの存在意義が保てると思ったの」"
   },
-  {
-    "index": 1650,
+  "001650": {
+    "context": "001650",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "ならば『記憶伝達実験』も同様だろう。"
   },
-  {
-    "index": 1655,
+  "001655": {
+    "context": "001655",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "サリュは以前から、あれはさほど意義のある実験だとは思っていなかった。"
   },
-  {
-    "index": 1660,
+  "001660": {
+    "context": "001660",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "ラボから出られない被験体が、天才になったところで無意味だ。"
   },
-  {
-    "index": 1665,
+  "001665": {
+    "context": "001665",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "しかし存在意義がなくなった被験体がどうなるのかなど、サリュもさすがに考えたくない。"
   },
-  {
-    "index": 1670,
+  "001670": {
+    "context": "001670",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "思考を停止するサリュに、博士が言う。"
   },
-  {
-    "index": 1701,
+  "001701": {
+    "context": "001701",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……ねぇ、優衣。これだけは信じて」"
   },
-  {
-    "index": 1712,
+  "001712": {
+    "context": "001712",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「あなたは望まれない子ではなかった。ご両親が愛し合って生まれた子なの」"
   },
-  {
-    "index": 1720,
+  "001720": {
+    "context": "001720",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「それはどちらでもいいけど――両親がいないのなら、名前は誰が？」"
   },
-  {
-    "index": 1749,
+  "001749": {
+    "context": "001749",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「え？」"
   },
-  {
-    "index": 1757,
+  "001757": {
+    "context": "001757",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「私の名前『優衣』。この名前は誰がつけたの？」"
   },
-  {
-    "index": 1762,
+  "001762": {
+    "context": "001762",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュの識別名は、『被験体Ｙ』である。"
   },
-  {
-    "index": 1767,
+  "001767": {
+    "context": "001767",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "だが天川博士だけは彼女の事を、２人きりでいる時に限り、『優衣』と呼んだ。"
   },
-  {
-    "index": 1798,
+  "001798": {
+    "context": "001798",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……私よ。ご両親はあなたに名をつける前に、亡くなってしまったから」"
   },
-  {
-    "index": 1806,
+  "001806": {
+    "context": "001806",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「由来は？」"
   },
-  {
-    "index": 1835,
+  "001835": {
+    "context": "001835",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「もし私に娘が生まれたら、そんな名前をつけようと思っていたの」"
   },
-  {
-    "index": 1846,
+  "001846": {
+    "context": "001846",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「優しく包み込むような、そんな女の子に育って欲しいと」"
   },
-  {
-    "index": 1875,
+  "001875": {
+    "context": "001875",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……嫌だったかしら」"
   },
-  {
-    "index": 1883,
+  "001883": {
+    "context": "001883",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「嫌じゃない」"
   },
-  {
-    "index": 1891,
+  "001891": {
+    "context": "001891",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「ここの居心地も、別に悪くない。博士も優しいし」"
   },
-  {
-    "index": 1899,
+  "001899": {
+    "context": "001899",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「何より、名前をくれた。私はこの名前を気にいっている」"
   },
-  {
-    "index": 1922,
+  "001922": {
+    "context": "001922",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "そう言うと、博士は目を見開いた。"
   },
-  {
-    "index": 1945,
+  "001945": {
+    "context": "001945",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "それから何も言わず、俯く。"
   },
-  {
-    "index": 1953,
+  "001953": {
+    "context": "001953",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……？」"
   },
-  {
-    "index": 1978,
+  "001978": {
+    "context": "001978",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュは博士の顔を覗きこんだ。"
   },
-  {
-    "index": 1986,
+  "001986": {
+    "context": "001986",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「博士、どうして泣くの？」"
   },
-  {
-    "index": 1991,
+  "001991": {
+    "context": "001991",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "博士は何も答えない。"
   },
-  {
-    "index": 1996,
+  "001996": {
+    "context": "001996",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "静寂の中、涙の落ちる音だけが、かすかに響いた。"
   }
-]
+}

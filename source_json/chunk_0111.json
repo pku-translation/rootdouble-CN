@@ -1,932 +1,932 @@
-[
-  {
-    "index": 1,
+{
+  "000001": {
+    "context": "000001",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter5"
   },
-  {
-    "index": 9,
+  "000009": {
+    "context": "000009",
     "code": "0x45",
     "developer_comment": "",
     "string": "その時、それまでずっと黙っていた恵那が口を挟んでくる。"
   },
-  {
-    "index": 92,
+  "000092": {
+    "context": "000092",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「隊長さん、どうして黙り込んだままでいるの？」"
   },
-  {
-    "index": 103,
+  "000103": {
+    "context": "000103",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「このままだと、２人の言うことを肯定する事になってしまうのよ？」"
   },
-  {
-    "index": 114,
+  "000114": {
+    "context": "000114",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生まで……オレのことを疑うのか？」"
   },
-  {
-    "index": 119,
+  "000119": {
+    "context": "000119",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だとすれば渡瀬は、メンバー全員の信用を失った事になる。"
   },
-  {
-    "index": 148,
+  "000148": {
+    "context": "000148",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「それは……」"
   },
-  {
-    "index": 177,
+  "000177": {
+    "context": "000177",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……でもこのままだと、あなたのことを信じる事はできないわ」"
   },
-  {
-    "index": 188,
+  "000188": {
+    "context": "000188",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「信じてもらいたければ、何か証拠を示すべきよ」"
   },
-  {
-    "index": 199,
+  "000199": {
+    "context": "000199",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あの『空白の６分』に何をしていたのか、あなたはみんなに答えるべきだわ」"
   },
-  {
-    "index": 204,
+  "000204": {
+    "context": "000204",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "空白の６分――。"
   },
-  {
-    "index": 209,
+  "000209": {
+    "context": "000209",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "確かにそれが、メンバーに疑心を抱かせる事になった原因だった。"
   },
-  {
-    "index": 220,
+  "000220": {
+    "context": "000220",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だ、だが……」"
   },
-  {
-    "index": 225,
+  "000225": {
+    "context": "000225",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "どんなに思い出そうとしても、記憶の中にその６分は存在しないのだ。"
   },
-  {
-    "index": 230,
+  "000230": {
+    "context": "000230",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "すると恵那が、切実な声で渡瀬に言う。"
   },
-  {
-    "index": 259,
+  "000259": {
+    "context": "000259",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「お願いよ、隊長さん……私はあなたを信じたい。でも、今のままじゃダメなのよ」"
   },
-  {
-    "index": 270,
+  "000270": {
+    "context": "000270",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私には、あなたを救うための理由が必要なのよ」"
   },
-  {
-    "index": 281,
+  "000281": {
+    "context": "000281",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「せ、先生……」"
   },
-  {
-    "index": 287,
+  "000287": {
+    "context": "000287",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（もしかして、オレにチャンスを与えてくれているのか？）"
   },
-  {
-    "index": 292,
+  "000292": {
+    "context": "000292",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は必死に考えた。恵那の思いに応えるために。"
   },
-  {
-    "index": 297,
+  "000297": {
+    "context": "000297",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――だが、やはりダメだった。"
   },
-  {
-    "index": 302,
+  "000302": {
+    "context": "000302",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "全員を納得させられる言葉を、渡瀬はどうしても見つける事ができなかった。"
   },
-  {
-    "index": 372,
+  "000372": {
+    "context": "000372",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「もういいじゃないか？　椿山さん」"
   },
-  {
-    "index": 383,
+  "000383": {
+    "context": "000383",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「隊長さんが怪しい人物であることは、もう充分証明されたんだ。これ以上の議論は無駄だ」"
   },
-  {
-    "index": 428,
+  "000428": {
+    "context": "000428",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なあ？　守部さんも、そう思わないかね？」"
   },
-  {
-    "index": 457,
+  "000457": {
+    "context": "000457",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「うん……あたしも、もう隊長のこと信じることはできないかな……」"
   },
-  {
-    "index": 486,
+  "000486": {
+    "context": "000486",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「待って２人とも！　もう少し隊長さんの話を聞いてあげても――」"
   },
-  {
-    "index": 515,
+  "000515": {
+    "context": "000515",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いいや、弁明の時間はもう終わりだ」"
   },
-  {
-    "index": 544,
+  "000544": {
+    "context": "000544",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「それとも何かね？　君には隊長さんを、どうしても庇いたい理由でもあるというのかね？」"
   },
-  {
-    "index": 573,
+  "000573": {
+    "context": "000573",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そ、それは……」"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ないんでしょ？　だったらもう黙っててよ」"
   },
-  {
-    "index": 613,
+  "000613": {
+    "context": "000613",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「じゃないと――椿山さんが拳銃を隠し持ってた事、また蒸し返すことになっちゃうかもよ？」"
   },
-  {
-    "index": 642,
+  "000642": {
+    "context": "000642",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「っ……」"
   },
-  {
-    "index": 647,
+  "000647": {
+    "context": "000647",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "２人の厳しい視線にさらされて、恵那がついに口を閉ざす。"
   },
-  {
-    "index": 652,
+  "000652": {
+    "context": "000652",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "そして宇喜多が、ぎろりと渡瀬を見つめて言う。"
   },
-  {
-    "index": 725,
+  "000725": {
+    "context": "000725",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「さて……それじゃあ、どうしてくれようか？」"
   },
-  {
-    "index": 736,
+  "000736": {
+    "context": "000736",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ふんじばって、どこかに監禁するのがいいんじゃない？」"
   },
-  {
-    "index": 747,
+  "000747": {
+    "context": "000747",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「よし。そうと決まれば、さっそく縛るものを用意して――」"
   },
-  {
-    "index": 758,
+  "000758": {
+    "context": "000758",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「あ、このケーブルなんてどうかな？」"
   },
-  {
-    "index": 769,
+  "000769": {
+    "context": "000769",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「うむ。１本ぐらい引っこ抜いたところで、さして支障はないだろう」"
   },
-  {
-    "index": 774,
+  "000774": {
+    "context": "000774",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "コントロールパネルの下からケーブルを引っ張り出しながら、２人が陰湿に笑い合う。"
   },
-  {
-    "index": 779,
+  "000779": {
+    "context": "000779",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "渡瀬はそこで、ようやく気づいた。"
   },
-  {
-    "index": 863,
+  "000863": {
+    "context": "000863",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "２人の眼に、狂気が宿っているという事に。"
   },
-  {
-    "index": 928,
+  "000928": {
+    "context": "000928",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（ま、まずい……こいつら、まともじゃない……！）"
   },
-  {
-    "index": 933,
+  "000933": {
+    "context": "000933",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は恐怖におののきながら、ちらりと扉の方へ眼をやった。"
   },
-  {
-    "index": 938,
+  "000938": {
+    "context": "000938",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――その瞬間。"
   },
-  {
-    "index": 997,
+  "000997": {
+    "context": "000997",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「あっ！　もしかして逃げるつもり！？」"
   },
-  {
-    "index": 1008,
+  "001008": {
+    "context": "001008",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いかん！　すぐに取り押さえるんだ！」"
   },
-  {
-    "index": 1113,
+  "001113": {
+    "context": "001113",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "２人がいきなり、渡瀬に飛びかかってくる。"
   },
-  {
-    "index": 1126,
+  "001126": {
+    "context": "001126",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ッ――！」"
   },
-  {
-    "index": 1145,
+  "001145": {
+    "context": "001145",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「は、離せっ！」"
   },
-  {
-    "index": 1152,
+  "001152": {
+    "context": "001152",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "恐怖に駆られ、渡瀬が２人を振り払う。"
   },
-  {
-    "index": 1157,
+  "001157": {
+    "context": "001157",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そのとき肘が、洵の顔を殴打した。"
   },
-  {
-    "index": 1236,
+  "001236": {
+    "context": "001236",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「きゃっ」"
   },
-  {
-    "index": 1241,
+  "001241": {
+    "context": "001241",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "悲鳴。そして――"
   },
-  {
-    "index": 1292,
+  "001292": {
+    "context": "001292",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "背後で、ひどく鈍い音がした。"
   },
-  {
-    "index": 1347,
+  "001347": {
+    "context": "001347",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "振り向けば、洵が機材の角に後頭部をぶつけている。"
   },
-  {
-    "index": 1358,
+  "001358": {
+    "context": "001358",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ぅ…………」"
   },
-  {
-    "index": 1363,
+  "001363": {
+    "context": "001363",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵は苦しげに呻き――眼を開けたまま、それきり動かなくなった。"
   },
-  {
-    "index": 1431,
+  "001431": {
+    "context": "001431",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「も、守部っ！？」"
   },
-  {
-    "index": 1436,
+  "001436": {
+    "context": "001436",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見が悲鳴じみた声を上げ、洵の身体を抱き起こす。"
   },
-  {
-    "index": 1447,
+  "001447": {
+    "context": "001447",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「守部！　しっかりしなさい！　守部！」"
   },
-  {
-    "index": 1452,
+  "001452": {
+    "context": "001452",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "だが洵は答えない。"
   },
-  {
-    "index": 1481,
+  "001481": {
+    "context": "001481",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そ、そんな……」"
   },
-  {
-    "index": 1486,
+  "001486": {
+    "context": "001486",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見が取り乱しながら、洵のバイタルチェッカーを確認する。"
   },
-  {
-    "index": 1583,
+  "001583": {
+    "context": "001583",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "――オールレッド。生存反応なし。"
   },
-  {
-    "index": 1588,
+  "001588": {
+    "context": "001588",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "それが渡瀬の眼にも見える。"
   },
-  {
-    "index": 1615,
+  "001615": {
+    "context": "001615",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「う、嘘だろ……？」"
   },
-  {
-    "index": 1620,
+  "001620": {
+    "context": "001620",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "人間がそんなに簡単に死ぬはずはない。"
   },
-  {
-    "index": 1625,
+  "001625": {
+    "context": "001625",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "頭の中を、そんな思いが明滅する。"
   },
-  {
-    "index": 1630,
+  "001630": {
+    "context": "001630",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが現実に洵は動かず、呼吸もしていない。"
   },
-  {
-    "index": 1663,
+  "001663": {
+    "context": "001663",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あぁ、あああああっ！」"
   },
-  {
-    "index": 1674,
+  "001674": {
+    "context": "001674",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「洵！　お願い、返事をして！　洵！　洵！」"
   },
-  {
-    "index": 1703,
+  "001703": {
+    "context": "001703",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どうして……どうして、こんな……！」"
   },
-  {
-    "index": 1747,
+  "001747": {
+    "context": "001747",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見の悲痛な叫び声が、室内に響き渡る。"
   },
-  {
-    "index": 1812,
+  "001812": {
+    "context": "001812",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「隊長さん……君は、ついにやってしまったな……！」"
   },
-  {
-    "index": 1817,
+  "001817": {
+    "context": "001817",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "見ると宇喜多の眼の中で、暗い炎が揺れている。"
   },
-  {
-    "index": 1828,
+  "001828": {
+    "context": "001828",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ち、違う……違うんだ！」"
   },
-  {
-    "index": 1887,
+  "001887": {
+    "context": "001887",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はパニックに陥り、気づけば扉を目指していた。"
   },
-  {
-    "index": 1917,
+  "001917": {
+    "context": "001917",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこへ恵那が立ちはだかる。"
   },
-  {
-    "index": 1922,
+  "001922": {
+    "context": "001922",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はとっさに叫んでいた。"
   },
-  {
-    "index": 1933,
+  "001933": {
+    "context": "001933",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生！　頼むからそこをどいてくれ！」"
   },
-  {
-    "index": 1944,
+  "001944": {
+    "context": "001944",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「いいえ……それはできないわ、隊長さん……」"
   },
-  {
-    "index": 1973,
+  "001973": {
+    "context": "001973",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「残念だけど……あなたは過ちを犯してしまったのよ……」"
   },
-  {
-    "index": 1984,
+  "001984": {
+    "context": "001984",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あなたは１人の大人として、男として、それを認めなければいけないわ」"
   },
-  {
-    "index": 2013,
+  "002013": {
+    "context": "002013",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「だから隊長さん――お願いだから、今この現実から逃げたりしないで！」"
   },
-  {
-    "index": 2018,
+  "002018": {
+    "context": "002018",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "恵那が渡瀬を真っ直ぐ見つめ、真剣に訴えかけてくる。"
   },
-  {
-    "index": 2023,
+  "002023": {
+    "context": "002023",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "彼女の眼に狂気の色はない。"
   },
-  {
-    "index": 2034,
+  "002034": {
+    "context": "002034",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生……」"
   },
-  {
-    "index": 2039,
+  "002039": {
+    "context": "002039",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は確かに過ちを犯した。"
   },
-  {
-    "index": 2044,
+  "002044": {
+    "context": "002044",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "故意ではなかったにせよ、その手で仲間の命を奪ってしまったのだ。"
   },
-  {
-    "index": 2049,
+  "002049": {
+    "context": "002049",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして、それは決して許される事ではない。"
   },
-  {
-    "index": 2055,
+  "002055": {
+    "context": "002055",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（オレは……くそ…………）"
   },
-  {
-    "index": 2060,
+  "002060": {
+    "context": "002060",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は逃げ出そうとしていた身体から、ゆっくりと力を抜いた。"
   },
-  {
-    "index": 2065,
+  "002065": {
+    "context": "002065",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして恵那を見つめて言う。"
   },
-  {
-    "index": 2076,
+  "002076": {
+    "context": "002076",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「すまなかった、先生……あんたの言う通りにするよ」"
   },
-  {
-    "index": 2081,
+  "002081": {
+    "context": "002081",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬が力なくそう答えた――その時。"
   },
-  {
-    "index": 2113,
+  "002113": {
+    "context": "002113",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「っ！！」"
   },
-  {
-    "index": 2118,
+  "002118": {
+    "context": "002118",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "背後から、思い切り誰かに体当たりをされていた。"
   },
-  {
-    "index": 2123,
+  "002123": {
+    "context": "002123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は大きく前につんのめり――"
   },
-  {
-    "index": 2167,
+  "002167": {
+    "context": "002167",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「きゃっ」"
   },
-  {
-    "index": 2172,
+  "002172": {
+    "context": "002172",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "――恵那を巻き込んで倒れ込む。"
   },
-  {
-    "index": 2226,
+  "002226": {
+    "context": "002226",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "気づけば背中に誰かがのしかかっている。"
   },
-  {
-    "index": 2232,
+  "002232": {
+    "context": "002232",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（――誰だ！？）"
   },
-  {
-    "index": 2237,
+  "002237": {
+    "context": "002237",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "宇喜多か？　風見か？"
   },
-  {
-    "index": 2242,
+  "002242": {
+    "context": "002242",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが、渡瀬が振り向こうとしたその瞬間――"
   },
-  {
-    "index": 2253,
+  "002253": {
+    "context": "002253",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ッ――！？」"
   },
-  {
-    "index": 2258,
+  "002258": {
+    "context": "002258",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "全身が電撃を受けたように痺れていた。"
   },
-  {
-    "index": 2263,
+  "002263": {
+    "context": "002263",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "背中を覆う骨と骨の間に、何かが入っている。"
   },
-  {
-    "index": 2268,
+  "002268": {
+    "context": "002268",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――冷たいモノ？"
   },
-  {
-    "index": 2273,
+  "002273": {
+    "context": "002273",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は一瞬そう思ったが、"
   },
-  {
-    "index": 2279,
+  "002279": {
+    "context": "002279",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（熱ッ！）"
   },
-  {
-    "index": 2284,
+  "002284": {
+    "context": "002284",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "いや、それも違う。それは脳の誤認だった。"
   },
-  {
-    "index": 2289,
+  "002289": {
+    "context": "002289",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして瞬時に気づく。"
   },
-  {
-    "index": 2295,
+  "002295": {
+    "context": "002295",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（オレは――刺されたのか！？）"
   },
-  {
-    "index": 2300,
+  "002300": {
+    "context": "002300",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "誰に？　ナニで？　なぜ？"
   },
-  {
-    "index": 2305,
+  "002305": {
+    "context": "002305",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "疑問が脳内に明滅する。"
   },
-  {
-    "index": 2378,
+  "002378": {
+    "context": "002378",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「はぁ……はぁ……はぁ……」"
   },
-  {
-    "index": 2383,
+  "002383": {
+    "context": "002383",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "耳元に、その誰かの荒々しい吐息がかかる。"
   },
-  {
-    "index": 2394,
+  "002394": {
+    "context": "002394",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「なっ……どうして、あなたが！？」"
   },
-  {
-    "index": 2400,
+  "002400": {
+    "context": "002400",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（――誰なんだ！？）"
   },
-  {
-    "index": 2406,
+  "002406": {
+    "context": "002406",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（誰がオレを刺したんだ！？）"
   },
-  {
-    "index": 2411,
+  "002411": {
+    "context": "002411",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが、それもわからぬまま――"
   },
-  {
-    "index": 2546,
+  "002546": {
+    "context": "002546",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「がッ――がはっ！」"
   },
-  {
-    "index": 2551,
+  "002551": {
+    "context": "002551",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は恵那の胸に血を吐いた。"
   },
-  {
-    "index": 2556,
+  "002556": {
+    "context": "002556",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして続けざまに――"
   },
-  {
-    "index": 2567,
+  "002567": {
+    "context": "002567",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ごほっ！　ごほごほっ！」"
   },
-  {
-    "index": 2572,
+  "002572": {
+    "context": "002572",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "咳き込む度に、口から大量の血が溢れ出す。"
   },
-  {
-    "index": 2577,
+  "002577": {
+    "context": "002577",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "すでに肺は、血で満たされていた。"
   },
-  {
-    "index": 2582,
+  "002582": {
+    "context": "002582",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "呼吸ができない。"
   },
-  {
-    "index": 2587,
+  "002587": {
+    "context": "002587",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "苦しい。苦しくて堪らない。"
   },
-  {
-    "index": 2598,
+  "002598": {
+    "context": "002598",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ごほごほっ！　ごほっ、ごほごほごほっ！」"
   },
-  {
-    "index": 2603,
+  "002603": {
+    "context": "002603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "視界が血で真っ赤に染まる。"
   },
-  {
-    "index": 2608,
+  "002608": {
+    "context": "002608",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして――"
   },
-  {
-    "index": 2656,
+  "002656": {
+    "context": "002656",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "視界からふっと光が消えた。"
   },
-  {
-    "index": 2661,
+  "002661": {
+    "context": "002661",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "音も世界から消えている。"
   },
-  {
-    "index": 2666,
+  "002666": {
+    "context": "002666",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それでも苦しみはなくならない。"
   },
-  {
-    "index": 2671,
+  "002671": {
+    "context": "002671",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "肺を満たす血で溺れる。"
   },
-  {
-    "index": 2676,
+  "002676": {
+    "context": "002676",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "苦しい。"
   },
-  {
-    "index": 2681,
+  "002681": {
+    "context": "002681",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "苦しい。"
   },
-  {
-    "index": 2686,
+  "002686": {
+    "context": "002686",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "苦しい。"
   },
-  {
-    "index": 2691,
+  "002691": {
+    "context": "002691",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "叫んだ。"
   },
-  {
-    "index": 2702,
+  "002702": {
+    "context": "002702",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「　」"
   },
-  {
-    "index": 2707,
+  "002707": {
+    "context": "002707",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "声が出ない！"
   },
-  {
-    "index": 2712,
+  "002712": {
+    "context": "002712",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "苦しい。苦しい。苦しい。"
   },
-  {
-    "index": 2718,
+  "002718": {
+    "context": "002718",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（これが洵の命を奪った、オレへの裁きだってのか！？）"
   },
-  {
-    "index": 2724,
+  "002724": {
+    "context": "002724",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（だとしたら――頼む、早く終わってくれッ！）"
   },
-  {
-    "index": 2729,
+  "002729": {
+    "context": "002729",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして渡瀬の意識は、苦しみに塗り潰されていた。"
   },
-  {
-    "index": 2817,
+  "002817": {
+    "context": "002817",
     "code": "0x85",
     "developer_comment": "渡瀬",
     "string": "　%N　%N　%N"
   },
-  {
-    "index": 2820,
+  "002820": {
+    "context": "002820",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "√A バッドエンド10【人を殺めし者】"
   },
-  {
-    "index": 2823,
+  "002823": {
+    "context": "002823",
     "code": "0x85",
     "developer_comment": "渡瀬",
     "string": "　"
   },
-  {
-    "index": 2826,
+  "002826": {
+    "context": "002826",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "恵那からの信頼が低く、渡瀬を庇ってもらえなかった場合の結末。"
   },
-  {
-    "index": 2829,
+  "002829": {
+    "context": "002829",
     "code": "0x85",
     "developer_comment": "渡瀬",
     "string": "　"
   },
-  {
-    "index": 2832,
+  "002832": {
+    "context": "002832",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "ここまでの過程で、恵那の好感度を高めておくか、"
   },
-  {
-    "index": 2835,
+  "002835": {
+    "context": "002835",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "このエンディング直前に入力できるセンシズで、渡瀬よりも風見と洵を高く設定したら、この結末は回避できたかもしれない。"
   }
-]
+}

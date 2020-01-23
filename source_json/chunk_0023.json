@@ -1,374 +1,374 @@
-[
-  {
-    "index": 1,
+{
+  "000001": {
+    "context": "000001",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter2"
   },
-  {
-    "index": 5,
+  "000005": {
+    "context": "000005",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はため息をついて、恵那に言った。"
   },
-  {
-    "index": 16,
+  "000016": {
+    "context": "000016",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……先生……」"
   },
-  {
-    "index": 27,
+  "000027": {
+    "context": "000027",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「ん？」"
   },
-  {
-    "index": 38,
+  "000038": {
+    "context": "000038",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ごめんな……あんたの生徒、救助できなかったよ……」"
   },
-  {
-    "index": 49,
+  "000049": {
+    "context": "000049",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……っ」"
   },
-  {
-    "index": 54,
+  "000054": {
+    "context": "000054",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "恵那は息を呑み、それから微笑んだ。"
   },
-  {
-    "index": 65,
+  "000065": {
+    "context": "000065",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「いいのよ……身を挺して、ここまでやってくれたんだし」"
   },
-  {
-    "index": 76,
+  "000076": {
+    "context": "000076",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「それに三ノ宮さんが地下にいるって確証が取れただけでも、一歩前進よ」"
   },
-  {
-    "index": 87,
+  "000087": {
+    "context": "000087",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「しかし、彼女は汚染区域に逃げ込んだ……被曝している可能性がある」"
   },
-  {
-    "index": 98,
+  "000098": {
+    "context": "000098",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「待って、それについても希望があるかもしれないわ」"
   },
-  {
-    "index": 103,
+  "000103": {
+    "context": "000103",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "恵那はそう言って、懐から何かを取り出した。"
   },
-  {
-    "index": 148,
+  "000148": {
+    "context": "000148",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "それは使用済みの、ＡＤのアンプルだった。"
   },
-  {
-    "index": 163,
+  "000163": {
+    "context": "000163",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「それは？」"
   },
-  {
-    "index": 174,
+  "000174": {
+    "context": "000174",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「階段のあたりに落ちてたの」"
   },
-  {
-    "index": 185,
+  "000185": {
+    "context": "000185",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「これを使ったのが三ノ宮さんだとしたら、彼女の安全はある程度保証されているわ」"
   },
-  {
-    "index": 196,
+  "000196": {
+    "context": "000196",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「汚染区域に居続けなければ、大丈夫か……」"
   },
-  {
-    "index": 201,
+  "000201": {
+    "context": "000201",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが楽観はできない。恐らく彼女は、プロキオンを持ってないはずだ。"
   },
-  {
-    "index": 206,
+  "000206": {
+    "context": "000206",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう思っていると、恵那が言葉を継いだ。"
   },
-  {
-    "index": 217,
+  "000217": {
+    "context": "000217",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……大丈夫よ、隊長さん。実はあの娘はね、あらゆる事に秀でた天才児なの」"
   },
-  {
-    "index": 228,
+  "000228": {
+    "context": "000228",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「天才児？」"
   },
-  {
-    "index": 239,
+  "000239": {
+    "context": "000239",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そうよ。彼女ならきっと生き残る手段を、自ら模索できるはずだわ」"
   },
-  {
-    "index": 250,
+  "000250": {
+    "context": "000250",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか……それは確かに、希望だな」"
   },
-  {
-    "index": 255,
+  "000255": {
+    "context": "000255",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "かすかな希望にすぎなくても――そう信じるべきだと渡瀬は思った。"
   },
-  {
-    "index": 260,
+  "000260": {
+    "context": "000260",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして恵那を安心させるためにも、言葉を続ける。"
   },
-  {
-    "index": 271,
+  "000271": {
+    "context": "000271",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……それにしても先生、あんたは立派な人だな」"
   },
-  {
-    "index": 282,
+  "000282": {
+    "context": "000282",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「どうしたの急に？　おだてたって何も出ないわよ？」"
   },
-  {
-    "index": 293,
+  "000293": {
+    "context": "000293",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いや、本心さ」"
   },
-  {
-    "index": 304,
+  "000304": {
+    "context": "000304",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「さっき下の階で、あの生徒を見た時、『私も行くわ』って言ってただろう」"
   },
-  {
-    "index": 315,
+  "000315": {
+    "context": "000315",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あんな炎の中に、生徒のために飛び込もうとする教師……立派じゃないか」"
   },
-  {
-    "index": 326,
+  "000326": {
+    "context": "000326",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あんなの三ノ宮さんの顔を見た瞬間、とっさに『助けなきゃ』って思っただけよ」"
   },
-  {
-    "index": 337,
+  "000337": {
+    "context": "000337",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「実際助けに行っていたら、私も倒れてたかもしれないし……立派なんてことないわ。後先考えていないだけ」"
   },
-  {
-    "index": 348,
+  "000348": {
+    "context": "000348",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか……でもその点は、オレと同じだな」"
   },
-  {
-    "index": 359,
+  "000359": {
+    "context": "000359",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「え？」"
   },
-  {
-    "index": 364,
+  "000364": {
+    "context": "000364",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "訝しげな様子の恵那に、渡瀬は自分の経験を語った。"
   },
-  {
-    "index": 375,
+  "000375": {
+    "context": "000375",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ユウリに初めて会った時、彼女は火に巻かれかけていたんだ」"
   },
-  {
-    "index": 386,
+  "000386": {
+    "context": "000386",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「それを見た時、オレもとっさに『助けなきゃ』って思って、火の中に――」"
   },
-  {
-    "index": 397,
+  "000397": {
+    "context": "000397",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「飛び込んだの？」"
   },
-  {
-    "index": 408,
+  "000408": {
+    "context": "000408",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いや、直前で守部に止められた」"
   },
-  {
-    "index": 419,
+  "000419": {
+    "context": "000419",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あら……締まらないわねぇ」"
   },
-  {
-    "index": 430,
+  "000430": {
+    "context": "000430",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうだな、ちょっとマヌケだった」"
   },
-  {
-    "index": 441,
+  "000441": {
+    "context": "000441",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「もしかするとユウリは、あの時のオレの姿を見て、頼りないと思ってるのかもな」"
   },
-  {
-    "index": 452,
+  "000452": {
+    "context": "000452",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「嫌われているというより、信頼されてないというか……おまけに記憶喪失だしなぁ」"
   },
-  {
-    "index": 457,
+  "000457": {
+    "context": "000457",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬が言うと、恵那は苦笑した。"
   },
-  {
-    "index": 468,
+  "000468": {
+    "context": "000468",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あんまり気にし過ぎない方がいいわよ。あの年頃の女の子は、大人の男性ってだけで怖がる子もいるんだから」"
   },
-  {
-    "index": 479,
+  "000479": {
+    "context": "000479",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ならいいんだが……いや、よくはないか……」"
   },
-  {
-    "index": 490,
+  "000490": {
+    "context": "000490",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「まぁシャキッとしてなさいよ」"
   },
-  {
-    "index": 501,
+  "000501": {
+    "context": "000501",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あなたは記憶なくすわ倒れるわ、確かにちょっと頼りないけど、一生懸命なのは認めるから」"
   },
-  {
-    "index": 512,
+  "000512": {
+    "context": "000512",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そのうちユウリさんも皆も、認めてくれるはずだわ」"
   },
-  {
-    "index": 523,
+  "000523": {
+    "context": "000523",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そ、そうだな。グジグジ言ってちゃそれこそ情けないよな」"
   },
-  {
-    "index": 528,
+  "000528": {
+    "context": "000528",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "恵那のやや厳しい激励を受け、渡瀬は気合を入れなおした。"
   },
-  {
-    "index": 533,
+  "000533": {
+    "context": "000533",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこで恵那が、不敵な笑みを浮かべて言う。"
   },
-  {
-    "index": 544,
+  "000544": {
+    "context": "000544",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そう、その意気よ……というところで、隊長さん？」"
   },
-  {
-    "index": 555,
+  "000555": {
+    "context": "000555",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ん？」"
   },
-  {
-    "index": 566,
+  "000566": {
+    "context": "000566",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私、いつまでこうしていればいいのかしら？」"
   },
-  {
-    "index": 577,
+  "000577": {
+    "context": "000577",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ……す、すまん！」"
   },
-  {
-    "index": 582,
+  "000582": {
+    "context": "000582",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "肩を借りっぱなしの自分に気づき、渡瀬は慌てて恵那から離れた。"
   },
-  {
-    "index": 647,
+  "000647": {
+    "context": "000647",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……まぁでも、色々ありがとう先生。元気が出たよ」"
   },
-  {
-    "index": 676,
+  "000676": {
+    "context": "000676",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あの程度ならいつでもどうぞ。それじゃ制御室に急ぎましょうか」"
   },
-  {
-    "index": 687,
+  "000687": {
+    "context": "000687",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ」"
   },
-  {
-    "index": 692,
+  "000692": {
+    "context": "000692",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちはうなずき合い、そして駆け出した。"
   },
-  {
-    "index": 784,
+  "000784": {
+    "context": "000784",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――制御室の前に着くと、そこにはユウリが待っていた。"
   }
-]
+}

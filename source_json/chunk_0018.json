@@ -1,752 +1,752 @@
-[
-  {
-    "index": 8,
+{
+  "000008": {
+    "context": "000008",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter2"
   },
-  {
-    "index": 18,
+  "000018": {
+    "context": "000018",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「な、何の音だ！？」"
   },
-  {
-    "index": 54,
+  "000054": {
+    "context": "000054",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あぁ、私の腕時計のアラームです。ＡＤの投与時間に鳴るようセットしておきました」"
   },
-  {
-    "index": 59,
+  "000059": {
+    "context": "000059",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬ははっとして腕時計を見た。"
   },
-  {
-    "index": 64,
+  "000064": {
+    "context": "000064",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "デジタルの表示板は、『１０：１６』を示している。"
   },
-  {
-    "index": 75,
+  "000075": {
+    "context": "000075",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「前回のＡＤが切れていない方もいるかと思いますが、安全を期し、一緒に投与することにしましょう」"
   },
-  {
-    "index": 104,
+  "000104": {
+    "context": "000104",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「そ、そうか……議論は置いておいて、とりあえずみんな投与しよう」"
   },
-  {
-    "index": 133,
+  "000133": {
+    "context": "000133",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「うん……命がかかってるもんね」"
   },
-  {
-    "index": 216,
+  "000216": {
+    "context": "000216",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "黙り込んでいた洵が、我に返ったように、恵那・宇喜多・ユウリにＡＤを配る。"
   },
-  {
-    "index": 221,
+  "000221": {
+    "context": "000221",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "恵那と宇喜多は、すぐにそれを打った。"
   },
-  {
-    "index": 257,
+  "000257": {
+    "context": "000257",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……これでまた１時間は大丈夫なのよね」"
   },
-  {
-    "index": 287,
+  "000287": {
+    "context": "000287",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……あぁ」"
   },
-  {
-    "index": 292,
+  "000292": {
+    "context": "000292",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "恵那と宇喜多がぽつりと呟く。"
   },
-  {
-    "index": 368,
+  "000368": {
+    "context": "000368",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だが――なぜかユウリだけは、まだＡＤを投与していなかった。"
   },
-  {
-    "index": 398,
+  "000398": {
+    "context": "000398",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ユウリさん、どうしたのですか？」"
   },
-  {
-    "index": 427,
+  "000427": {
+    "context": "000427",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「いや……わたし、やっぱり打ちたくない……」"
   },
-  {
-    "index": 456,
+  "000456": {
+    "context": "000456",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「またそんな事をおっしゃっているのですか！？」"
   },
-  {
-    "index": 467,
+  "000467": {
+    "context": "000467",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「わかりました、ならば私が打ちましょう」"
   },
-  {
-    "index": 496,
+  "000496": {
+    "context": "000496",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「い、いやです……」"
   },
-  {
-    "index": 525,
+  "000525": {
+    "context": "000525",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「いけません！」"
   },
-  {
-    "index": 561,
+  "000561": {
+    "context": "000561",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「あぁ……」"
   },
-  {
-    "index": 566,
+  "000566": {
+    "context": "000566",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "風見はまたも問答無用で、ユウリにＡＤを打った。"
   },
-  {
-    "index": 624,
+  "000624": {
+    "context": "000624",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "――だが、ＡＤは残り２本しかない。"
   },
-  {
-    "index": 629,
+  "000629": {
+    "context": "000629",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "渡瀬と風見、そして洵は、互いに顔を見合わせた。"
   },
-  {
-    "index": 658,
+  "000658": {
+    "context": "000658",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「さっそく足りなくなっちゃったね……！」"
   },
-  {
-    "index": 669,
+  "000669": {
+    "context": "000669",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……どうする？」"
   },
-  {
-    "index": 699,
+  "000699": {
+    "context": "000699",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どうするって？　決まっています」"
   },
-  {
-    "index": 710,
+  "000710": {
+    "context": "000710",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長と守部が投与して下さい」"
   },
-  {
-    "index": 739,
+  "000739": {
+    "context": "000739",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「何、なんでオレたちが！？」"
   },
-  {
-    "index": 750,
+  "000750": {
+    "context": "000750",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長のお身体は、まだ万全ではないでしょう。無理をさせるわけにはいきません」"
   },
-  {
-    "index": 779,
+  "000779": {
+    "context": "000779",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そして守部は我々の中で、一番体が小さいです。放射線への耐性も低いと考えるべきでしょう」"
   },
-  {
-    "index": 808,
+  "000808": {
+    "context": "000808",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「で、でも、副隊長はどうするの！？」"
   },
-  {
-    "index": 813,
+  "000813": {
+    "context": "000813",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵が尋ねると、風見は渡瀬たちに手に握っていたものを突きつけた。"
   },
-  {
-    "index": 842,
+  "000842": {
+    "context": "000842",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「これを使います」"
   },
-  {
-    "index": 847,
+  "000847": {
+    "context": "000847",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "――それは先ほど堂島の遺体のそばに落ちていた、容器が破損したＡＤだった。"
   },
-  {
-    "index": 852,
+  "000852": {
+    "context": "000852",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "しかし中身の液体は漏れ出し、半分ほどしか残っていない。"
   },
-  {
-    "index": 863,
+  "000863": {
+    "context": "000863",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ば、バカな……そんな中途半端な量で、体を保護しきれるのか！？」"
   },
-  {
-    "index": 874,
+  "000874": {
+    "context": "000874",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どうでしょう、宇喜多さん？」"
   },
-  {
-    "index": 905,
+  "000905": {
+    "context": "000905",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ど、どうだろうか……薬剤の量が半減すれば、効果も半減しそうなものだが……」"
   },
-  {
-    "index": 934,
+  "000934": {
+    "context": "000934",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あるいは有効時間が半分になるのか……正直、僕にもわからない」"
   },
-  {
-    "index": 963,
+  "000963": {
+    "context": "000963",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「しかしこの量でも、使わないより使ったほうがいいのですね？」"
   },
-  {
-    "index": 992,
+  "000992": {
+    "context": "000992",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あぁ、それはそうだが――」"
   },
-  {
-    "index": 1021,
+  "001021": {
+    "context": "001021",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ちょ、ちょっと待ってよ！　いくらなんでも危険過ぎるよ！」"
   },
-  {
-    "index": 1026,
+  "001026": {
+    "context": "001026",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵はプロキオンを、風見に見せて言う。"
   },
-  {
-    "index": 1055,
+  "001055": {
+    "context": "001055",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「プロキオンの数値は現在『２０３５ｍＳｖ』！　今でも命に関わる線量の上、さらに上昇してるんだよ！？」"
   },
-  {
-    "index": 1066,
+  "001066": {
+    "context": "001066",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうだ！　もしそのＡＤの効果がちゃんと発揮されなかったら、お前は被曝して――」"
   },
-  {
-    "index": 1095,
+  "001095": {
+    "context": "001095",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ではどうすればいいのですか？　事実としてＡＤは足りないのです」"
   },
-  {
-    "index": 1106,
+  "001106": {
+    "context": "001106",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あなた方がどう言おうと、私はこの破損したＡＤを投与します」"
   },
-  {
-    "index": 1135,
+  "001135": {
+    "context": "001135",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「でも……」"
   },
-  {
-    "index": 1164,
+  "001164": {
+    "context": "001164",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「口答えするな、守部！」"
   },
-  {
-    "index": 1274,
+  "001274": {
+    "context": "001274",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「っ！」"
   },
-  {
-    "index": 1279,
+  "001279": {
+    "context": "001279",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵の声を遮るように、風見の怒声が響き渡った。"
   },
-  {
-    "index": 1290,
+  "001290": {
+    "context": "001290",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「これは命令です！　つべこべ言ってる時間が惜しい！」"
   },
-  {
-    "index": 1301,
+  "001301": {
+    "context": "001301",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「今この瞬間にも、我々は被曝しているのです！」"
   },
-  {
-    "index": 1312,
+  "001312": {
+    "context": "001312",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私を心配するのなら、ただちにＡＤを投与し、捜索を続行して下さい！」"
   },
-  {
-    "index": 1332,
+  "001332": {
+    "context": "001332",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「っ……！」"
   },
-  {
-    "index": 1337,
+  "001337": {
+    "context": "001337",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見の表情には、決意が滲んでいる。"
   },
-  {
-    "index": 1342,
+  "001342": {
+    "context": "001342",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それを見た渡瀬たちは、説得が不可能だと悟った。"
   },
-  {
-    "index": 1353,
+  "001353": {
+    "context": "001353",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「守部……橘の言う通りにしよう」"
   },
-  {
-    "index": 1382,
+  "001382": {
+    "context": "001382",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「う、うん……！」"
   },
-  {
-    "index": 1472,
+  "001472": {
+    "context": "001472",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "渡瀬たちは慌てて、それぞれＡＤを投与した。"
   },
-  {
-    "index": 1483,
+  "001483": {
+    "context": "001483",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "さらに風見も、破損したＡＤを投与し――"
   },
-  {
-    "index": 1488,
+  "001488": {
+    "context": "001488",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "それから宇喜多たちに言う。"
   },
-  {
-    "index": 1496,
+  "001496": {
+    "context": "001496",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "その剣幕に気おされかけたが――渡瀬はそれでも反論した。"
   },
-  {
-    "index": 1507,
+  "001507": {
+    "context": "001507",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いや待て、そのハンパなＡＤはオレが投与する！」"
   },
-  {
-    "index": 1518,
+  "001518": {
+    "context": "001518",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「女にそんな無茶をさせられるか！」"
   },
-  {
-    "index": 1593,
+  "001593": {
+    "context": "001593",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「女！？　私を女と呼びましたか！？　だから気遣っているとでも！？」"
   },
-  {
-    "index": 1604,
+  "001604": {
+    "context": "001604",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「生意気言わないで下さい！　あなたは出発するとき、私の指揮下に入ると言ったはずでしょう！？」"
   },
-  {
-    "index": 1615,
+  "001615": {
+    "context": "001615",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ならば粛々と命令に従いなさい！」"
   },
-  {
-    "index": 1620,
+  "001620": {
+    "context": "001620",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見が渡瀬を睨みつける。"
   },
-  {
-    "index": 1632,
+  "001632": {
+    "context": "001632",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "だが渡瀬はなおも引き下がらない。"
   },
-  {
-    "index": 1713,
+  "001713": {
+    "context": "001713",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いいからよこせ！」"
   },
-  {
-    "index": 1742,
+  "001742": {
+    "context": "001742",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あっ！」"
   },
-  {
-    "index": 1753,
+  "001753": {
+    "context": "001753",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬は風見の手から、破損したＡＤを奪い、自分に投与した。"
   },
-  {
-    "index": 1782,
+  "001782": {
+    "context": "001782",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「な……何をするんですか！」"
   },
-  {
-    "index": 1793,
+  "001793": {
+    "context": "001793",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「これ以上話し合っていても、ラチが明かないからだ」"
   },
-  {
-    "index": 1798,
+  "001798": {
+    "context": "001798",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は破損していないＡＤを風見に渡し、言う。"
   },
-  {
-    "index": 1809,
+  "001809": {
+    "context": "001809",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ほら、早くこれを投与しろ。時間が惜しいと言ったのはお前だぞ」"
   },
-  {
-    "index": 1838,
+  "001838": {
+    "context": "001838",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……っ！」"
   },
-  {
-    "index": 1867,
+  "001867": {
+    "context": "001867",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「わかりましたよ！」"
   },
-  {
-    "index": 1879,
+  "001879": {
+    "context": "001879",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見は諦めたように、ＡＤを投与した。"
   },
-  {
-    "index": 1926,
+  "001926": {
+    "context": "001926",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "洵もすぐにそれに続く。"
   },
-  {
-    "index": 1984,
+  "001984": {
+    "context": "001984",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見はため息をつき、それから宇喜多たちに言った。"
   },
-  {
-    "index": 1994,
+  "001994": {
+    "context": "001994",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（くっ……説得は無理か！？）"
   },
-  {
-    "index": 1999,
+  "001999": {
+    "context": "001999",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう思う渡瀬に、洵が囁く。"
   },
-  {
-    "index": 2028,
+  "002028": {
+    "context": "002028",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「隊長……副隊長の言う通りにしよう。指揮系統を覆しちゃダメだよ」"
   },
-  {
-    "index": 2039,
+  "002039": {
+    "context": "002039",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ、ああ……！」"
   },
-  {
-    "index": 2044,
+  "002044": {
+    "context": "002044",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは止むを得ず、それぞれＡＤを投与した。"
   },
-  {
-    "index": 2134,
+  "002134": {
+    "context": "002134",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見は安心したように息をつき、宇喜多たちに言う。"
   },
-  {
-    "index": 2163,
+  "002163": {
+    "context": "002163",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……お騒がせしました。これでＡＤの投与が済みましたね」"
   },
-  {
-    "index": 2250,
+  "002250": {
+    "context": "002250",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あ、あぁ……！」"
   },
-  {
-    "index": 2261,
+  "002261": {
+    "context": "002261",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そ、そうね」"
   },
-  {
-    "index": 2267,
+  "002267": {
+    "context": "002267",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「……」"
   },
-  {
-    "index": 2272,
+  "002272": {
+    "context": "002272",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "渡瀬たちのやり取りを目の当たりにし、毒気を抜かれたのだろう。"
   },
-  {
-    "index": 2277,
+  "002277": {
+    "context": "002277",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "さきほどまでの口論が嘘のように、宇喜多たちは大人しくなっていた。"
   },
-  {
-    "index": 2384,
+  "002384": {
+    "context": "002384",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「では、大きなトラブルがありましたが……今後の事を話しましょう」"
   },
-  {
-    "index": 2389,
+  "002389": {
+    "context": "002389",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "同僚の死も、ＡＤ不足も、それにより生まれた不安も一切表に出さず、風見は静かな声で言った。"
   },
-  {
-    "index": 2418,
+  "002418": {
+    "context": "002418",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「まず、第３エリアはおよそ捜索が終了しましたが、Ｂ１の外周棟だけは未捜索です」"
   },
-  {
-    "index": 2429,
+  "002429": {
+    "context": "002429",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「しかしセキュリティスロットが壊れていて入れません」"
   },
-  {
-    "index": 2458,
+  "002458": {
+    "context": "002458",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そこで、第４エリアに進もうと思うのですが……要救助者の方々、大丈夫でしょうか？」"
   },
-  {
-    "index": 2488,
+  "002488": {
+    "context": "002488",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「だ、大丈夫とは何がだね？」"
   },
-  {
-    "index": 2517,
+  "002517": {
+    "context": "002517",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「遺体を見た直後で、捜索を続行するという事について……精神的に、大丈夫かという事です」"
   },
-  {
-    "index": 2562,
+  "002562": {
+    "context": "002562",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「……！」"
   },
-  {
-    "index": 2567,
+  "002567": {
+    "context": "002567",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "宇喜多とユウリはその言葉に、息を呑んだが――代わりに恵那が、押し殺した声で答えた。"
   },
-  {
-    "index": 2596,
+  "002596": {
+    "context": "002596",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「決まってるわよ、続行するわ」"
   },
-  {
-    "index": 2607,
+  "002607": {
+    "context": "002607",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか、だったら一緒に行こう」"
   },
-  {
-    "index": 2636,
+  "002636": {
+    "context": "002636",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「し、しかし……やはり、犯人がうろついてる可能性が……！」"
   },
-  {
-    "index": 2665,
+  "002665": {
+    "context": "002665",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「まだ言っているの、宇喜多さん！？」"
   },
-  {
-    "index": 2694,
+  "002694": {
+    "context": "002694",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「『動くのは危険』だというのはわかるし、ここでのんびりしているのは勝手よ」"
   },
-  {
-    "index": 2723,
+  "002723": {
+    "context": "002723",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「でも動かなければ、死を待つだけかもしれないわよ？」"
   },
-  {
-    "index": 2752,
+  "002752": {
+    "context": "002752",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「っ……」"
   },
-  {
-    "index": 2763,
+  "002763": {
+    "context": "002763",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そう、それにＡＤも現状０本だ……正直、捜索の手は１人でも多い方がいい」"
   },
-  {
-    "index": 2794,
+  "002794": {
+    "context": "002794",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……副隊長さんの身の事もあるしね。自分たちのＡＤを確保するためにも、捜索を手伝うべきじゃないかしら」"
   },
-  {
-    "index": 2806,
+  "002806": {
+    "context": "002806",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……隊長さんの身の事もあるしね。自分たちのＡＤを確保するためにも、捜索を手伝うべきじゃないかしら」"
   },
-  {
-    "index": 2835,
+  "002835": {
+    "context": "002835",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「た、確かにな……」"
   },
-  {
-    "index": 2840,
+  "002840": {
+    "context": "002840",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "頑迷だった宇喜多も、状況の厳しさを悟ったらしく、渋々うなずいた。"
   },
-  {
-    "index": 2962,
+  "002962": {
+    "context": "002962",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ユウリちゃんは、どうする……？」"
   },
-  {
-    "index": 2968,
+  "002968": {
+    "context": "002968",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「……」"
   },
-  {
-    "index": 2997,
+  "002997": {
+    "context": "002997",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「……わ、わたしも一緒に行きます……」"
   },
-  {
-    "index": 3028,
+  "003028": {
+    "context": "003028",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「確かに、その方が何かと安全でしょう。我々の目の届くところに、全員いた方がいいです」"
   },
-  {
-    "index": 3033,
+  "003033": {
+    "context": "003033",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見はそう言って、視線を移した。"
   },
-  {
-    "index": 3038,
+  "003038": {
+    "context": "003038",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その視線の先には、第４エリアに続く連絡通路がある。"
   },
-  {
-    "index": 3049,
+  "003049": {
+    "context": "003049",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「では次のエリアに進みましょう。幸い、あちらのセキュリティ端末は無事なようですので」"
   },
-  {
-    "index": 3060,
+  "003060": {
+    "context": "003060",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……あぁ」"
   },
-  {
-    "index": 3065,
+  "003065": {
+    "context": "003065",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その低い声と共に、渡瀬たちはまた歩き出した。"
   }
-]
+}

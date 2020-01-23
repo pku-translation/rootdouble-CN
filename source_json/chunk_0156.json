@@ -1,980 +1,980 @@
-[
-  {
-    "index": 77,
+{
+  "000077": {
+    "context": "000077",
     "code": "0x55",
     "developer_comment": "",
     "string": "√Before Chapter3"
   },
-  {
-    "index": 85,
+  "000085": {
+    "context": "000085",
     "code": "0x45",
     "developer_comment": "",
     "string": "授業を終えて廊下に出ると、例によって奇妙なざわめきが聞こえた。"
   },
-  {
-    "index": 145,
+  "000145": {
+    "context": "000145",
     "code": "0x85",
     "developer_comment": "",
     "string": "《あのー、宗像さん、　　"
   },
-  {
-    "index": 147,
+  "000147": {
+    "context": "000147",
     "code": "0x85",
     "developer_comment": "",
     "string": "　お返事して　　　　　　"
   },
-  {
-    "index": 149,
+  "000149": {
+    "context": "000149",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　くれませんか……？》"
   },
-  {
-    "index": 160,
+  "000160": {
+    "context": "000160",
     "code": "0x86",
     "developer_comment": "",
     "string": "青春男子"
   },
-  {
-    "index": 161,
+  "000161": {
+    "context": "000161",
     "code": "0x86",
     "developer_comment": "",
     "string": "《あのー、宗像さん、お返事してくれませんか……？》"
   },
-  {
-    "index": 169,
+  "000169": {
+    "context": "000169",
     "code": "0x85",
     "developer_comment": "",
     "string": "《……フン》　　　　　　"
   },
-  {
-    "index": 171,
+  "000171": {
+    "context": "000171",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　　　　　　　　　"
   },
-  {
-    "index": 182,
+  "000182": {
+    "context": "000182",
     "code": "0x86",
     "developer_comment": "",
     "string": "宗像さん"
   },
-  {
-    "index": 183,
+  "000183": {
+    "context": "000183",
     "code": "0x86",
     "developer_comment": "",
     "string": "《……フン》"
   },
-  {
-    "index": 189,
+  "000189": {
+    "context": "000189",
     "code": "0x85",
     "developer_comment": "",
     "string": "《すみません、　　　　　"
   },
-  {
-    "index": 191,
+  "000191": {
+    "context": "000191",
     "code": "0x85",
     "developer_comment": "",
     "string": "　困らせるつもりじゃ　　"
   },
-  {
-    "index": 193,
+  "000193": {
+    "context": "000193",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　なかったんです……》"
   },
-  {
-    "index": 204,
+  "000204": {
+    "context": "000204",
     "code": "0x86",
     "developer_comment": "",
     "string": "青春男子"
   },
-  {
-    "index": 205,
+  "000205": {
+    "context": "000205",
     "code": "0x86",
     "developer_comment": "",
     "string": "《すみません、困らせるつもりじゃなかったんです……》"
   },
-  {
-    "index": 212,
+  "000212": {
+    "context": "000212",
     "code": "0x85",
     "developer_comment": "",
     "string": "《……だから何度も　　　"
   },
-  {
-    "index": 214,
+  "000214": {
+    "context": "000214",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　言ってるでしょ、"
   },
-  {
-    "index": 216,
+  "000216": {
+    "context": "000216",
     "code": "0x85",
     "developer_comment": "",
     "string": "　テレパシー送られても　"
   },
-  {
-    "index": 218,
+  "000218": {
+    "context": "000218",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　困るだけだって》"
   },
-  {
-    "index": 234,
+  "000234": {
+    "context": "000234",
     "code": "0x86",
     "developer_comment": "",
     "string": "宗像さん"
   },
-  {
-    "index": 235,
+  "000235": {
+    "context": "000235",
     "code": "0x86",
     "developer_comment": "",
     "string": "《……だから何度も言ってるでしょ、テレパシー送られても困るだけだって》"
   },
-  {
-    "index": 240,
+  "000240": {
+    "context": "000240",
     "code": "0x85",
     "developer_comment": "",
     "string": "《直接会いに来たら、　　"
   },
-  {
-    "index": 242,
+  "000242": {
+    "context": "000242",
     "code": "0x85",
     "developer_comment": "",
     "string": "　お話くらい　　　　　　"
   },
-  {
-    "index": 244,
+  "000244": {
+    "context": "000244",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　聞いてあげるわよ》"
   },
-  {
-    "index": 255,
+  "000255": {
+    "context": "000255",
     "code": "0x86",
     "developer_comment": "",
     "string": "宗像さん"
   },
-  {
-    "index": 256,
+  "000256": {
+    "context": "000256",
     "code": "0x86",
     "developer_comment": "",
     "string": "《直接会いに来たら、お話くらい聞いてあげるわよ》"
   },
-  {
-    "index": 264,
+  "000264": {
+    "context": "000264",
     "code": "0x85",
     "developer_comment": "",
     "string": "《そ、それは俺には　　　"
   },
-  {
-    "index": 266,
+  "000266": {
+    "context": "000266",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　ハードルが高い……　"
   },
-  {
-    "index": 268,
+  "000268": {
+    "context": "000268",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　　恥ずかしい！》"
   },
-  {
-    "index": 279,
+  "000279": {
+    "context": "000279",
     "code": "0x86",
     "developer_comment": "",
     "string": "青春男子"
   },
-  {
-    "index": 280,
+  "000280": {
+    "context": "000280",
     "code": "0x86",
     "developer_comment": "",
     "string": "《そ、それは俺にはハードルが高い……恥ずかしい！》"
   },
-  {
-    "index": 288,
+  "000288": {
+    "context": "000288",
     "code": "0x85",
     "developer_comment": "",
     "string": "《全校生徒に告白聞かせ　"
   },
-  {
-    "index": 290,
+  "000290": {
+    "context": "000290",
     "code": "0x85",
     "developer_comment": "",
     "string": "　といて、今さら何を恥　"
   },
-  {
-    "index": 292,
+  "000292": {
+    "context": "000292",
     "code": "0x85",
     "developer_comment": "",
     "string": "　ずかしがる事があるの　"
   },
-  {
-    "index": 294,
+  "000294": {
+    "context": "000294",
     "code": "0x85",
     "developer_comment": "",
     "string": "　よ！　　　　　　　　　"
   },
-  {
-    "index": 296,
+  "000296": {
+    "context": "000296",
     "code": "0x85",
     "developer_comment": "",
     "string": "　ほんっと変な人ね　　　"
   },
-  {
-    "index": 298,
+  "000298": {
+    "context": "000298",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　　　　アンタ！》"
   },
-  {
-    "index": 314,
+  "000314": {
+    "context": "000314",
     "code": "0x86",
     "developer_comment": "",
     "string": "宗像さん"
   },
-  {
-    "index": 315,
+  "000315": {
+    "context": "000315",
     "code": "0x86",
     "developer_comment": "",
     "string": "《全校生徒に告白聞かせといて、今さら何を恥ずかしがる事があるのよ！　ほんっと変な人ねアンタ！》"
   },
-  {
-    "index": 320,
+  "000320": {
+    "context": "000320",
     "code": "0x85",
     "developer_comment": "",
     "string": "《さて、始めるぞシン……"
   },
-  {
-    "index": 322,
+  "000322": {
+    "context": "000322",
     "code": "0x85",
     "developer_comment": "",
     "string": "　指向性テレパシーの　　"
   },
-  {
-    "index": 324,
+  "000324": {
+    "context": "000324",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　　　秘密特訓だ》"
   },
-  {
-    "index": 335,
+  "000335": {
+    "context": "000335",
     "code": "0x86",
     "developer_comment": "",
     "string": "バカ男子"
   },
-  {
-    "index": 336,
+  "000336": {
+    "context": "000336",
     "code": "0x86",
     "developer_comment": "",
     "string": "《さて、始めるぞシン……指向性テレパシーの秘密特訓だ》"
   },
-  {
-    "index": 344,
+  "000344": {
+    "context": "000344",
     "code": "0x85",
     "developer_comment": "",
     "string": "《よし、やってみろ紅崎》"
   },
-  {
-    "index": 355,
+  "000355": {
+    "context": "000355",
     "code": "0x86",
     "developer_comment": "",
     "string": "冷静男子"
   },
-  {
-    "index": 356,
+  "000356": {
+    "context": "000356",
     "code": "0x86",
     "developer_comment": "",
     "string": "《よし、やってみろ紅崎》"
   },
-  {
-    "index": 362,
+  "000362": {
+    "context": "000362",
     "code": "0x85",
     "developer_comment": "",
     "string": "《いくぞ！　　　　　　　"
   },
-  {
-    "index": 364,
+  "000364": {
+    "context": "000364",
     "code": "0x85",
     "developer_comment": "",
     "string": "『恵那先生のバストは　　"
   },
-  {
-    "index": 366,
+  "000366": {
+    "context": "000366",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　推定９１センチ』"
   },
-  {
-    "index": 368,
+  "000368": {
+    "context": "000368",
     "code": "0x85",
     "developer_comment": "",
     "string": "　どうだ聞こえたか！？》"
   },
-  {
-    "index": 379,
+  "000379": {
+    "context": "000379",
     "code": "0x86",
     "developer_comment": "",
     "string": "バカ男子"
   },
-  {
-    "index": 380,
+  "000380": {
+    "context": "000380",
     "code": "0x86",
     "developer_comment": "",
     "string": "《いくぞ！　『恵那先生のバストは推定９１センチ』。どうだ聞こえたか！？》"
   },
-  {
-    "index": 389,
+  "000389": {
+    "context": "000389",
     "code": "0x85",
     "developer_comment": "",
     "string": "《聞こえた。　　　　　　"
   },
-  {
-    "index": 391,
+  "000391": {
+    "context": "000391",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　が……いかん！　"
   },
-  {
-    "index": 393,
+  "000393": {
+    "context": "000393",
     "code": "0x85",
     "developer_comment": "",
     "string": "　よく考えたら２人で　　"
   },
-  {
-    "index": 395,
+  "000395": {
+    "context": "000395",
     "code": "0x85",
     "developer_comment": "",
     "string": "　　　　　　特訓しても、"
   },
-  {
-    "index": 397,
+  "000397": {
+    "context": "000397",
     "code": "0x85",
     "developer_comment": "",
     "string": "　指向性があるか　　　　"
   },
-  {
-    "index": 399,
+  "000399": {
+    "context": "000399",
     "code": "0x85",
     "developer_comment": "",
     "string": "　どうかは判断できん！》"
   },
-  {
-    "index": 410,
+  "000410": {
+    "context": "000410",
     "code": "0x86",
     "developer_comment": "",
     "string": "冷静男子"
   },
-  {
-    "index": 411,
+  "000411": {
+    "context": "000411",
     "code": "0x86",
     "developer_comment": "",
     "string": "《聞こえた。が……いかん！　よく考えたら２人で特訓しても、指向性があるかどうかは判断できん！》"
   },
-  {
-    "index": 422,
+  "000422": {
+    "context": "000422",
     "code": "0x85",
     "developer_comment": "",
     "string": "《な、なにィ！》　　　　"
   },
-  {
-    "index": 439,
+  "000439": {
+    "context": "000439",
     "code": "0x86",
     "developer_comment": "",
     "string": "バカ男子"
   },
-  {
-    "index": 440,
+  "000440": {
+    "context": "000440",
     "code": "0x86",
     "developer_comment": "",
     "string": "《な、なにィ！》"
   },
-  {
-    "index": 455,
+  "000455": {
+    "context": "000455",
     "code": "0x45",
     "developer_comment": "",
     "string": "それを努めて無視していると、ましろが声をかけてきた。"
   },
-  {
-    "index": 551,
+  "000551": {
+    "context": "000551",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「ねー夏彦、面白い授業だったね！」"
   },
-  {
-    "index": 562,
+  "000562": {
+    "context": "000562",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「あぁ、超心理学としては珍しくな」"
   },
-  {
-    "index": 591,
+  "000591": {
+    "context": "000591",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「でも変な感じだよね～？」"
   },
-  {
-    "index": 620,
+  "000620": {
+    "context": "000620",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「私の見ている世界と、夏彦の見ている世界が、実は全然違うかもしれないって事じゃない？」"
   },
-  {
-    "index": 631,
+  "000631": {
+    "context": "000631",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ん、そうなるのか？」"
   },
-  {
-    "index": 660,
+  "000660": {
+    "context": "000660",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「幻覚とか幻聴とかは、『他の人と認識が違う』状態の、顕著な例だよね」"
   },
-  {
-    "index": 671,
+  "000671": {
+    "context": "000671",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「ありもしないものが見えたり、聞こえない音が聞こえるんだもん」"
   },
-  {
-    "index": 682,
+  "000682": {
+    "context": "000682",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そうか、確かに……」"
   },
-  {
-    "index": 734,
+  "000734": {
+    "context": "000734",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "視覚も聴覚も、脳の活動の範疇内に存在する。"
   },
-  {
-    "index": 739,
+  "000739": {
+    "context": "000739",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "ならばその機能が人それぞれで違えば、認識されるものも違うのだ。"
   },
-  {
-    "index": 744,
+  "000744": {
+    "context": "000744",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "８０億の人間がいれば、８０億の脳がある。そしてその全てが別々に、世界を認識している。"
   },
-  {
-    "index": 749,
+  "000749": {
+    "context": "000749",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "その認識の総体が自分にとっての『世界』だが、それは時に歪むものなのかもしれない。"
   },
-  {
-    "index": 755,
+  "000755": {
+    "context": "000755",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……なんか、怖いな）"
   },
-  {
-    "index": 760,
+  "000760": {
+    "context": "000760",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "どことなく夏彦は、薄ら寒いものを感じた。"
   },
-  {
-    "index": 782,
+  "000782": {
+    "context": "000782",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「テレパシーってのはある意味、『意図的に起こしている幻聴』ってわけか」"
   },
-  {
-    "index": 811,
+  "000811": {
+    "context": "000811",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「まぁ聞こえ方が独特だから、テレパシーだってわかるけどね」"
   },
-  {
-    "index": 840,
+  "000840": {
+    "context": "000840",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そうじゃなかったらややこしいな。どれが本当の声だかテレパシーだか幻聴だか、さっぱりわからなくなる」"
   },
-  {
-    "index": 869,
+  "000869": {
+    "context": "000869",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「そうなったら何を基準に、『これが本当の声だ』って調べるのかなぁ？」"
   },
-  {
-    "index": 874,
+  "000874": {
+    "context": "000874",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "ましろが何気なく、そんな事を言った時――不意に背後で声がした。"
   },
-  {
-    "index": 886,
+  "000886": {
+    "context": "000886",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「調べようがない」"
   },
-  {
-    "index": 915,
+  "000915": {
+    "context": "000915",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「！？」"
   },
-  {
-    "index": 979,
+  "000979": {
+    "context": "000979",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "はっとして振り返ると、いつの間にかサリュが、すぐ後ろに立っていた。"
   },
-  {
-    "index": 1046,
+  "001046": {
+    "context": "001046",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「ん、サリュでもわからない？」"
   },
-  {
-    "index": 1075,
+  "001075": {
+    "context": "001075",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「わかるわけもない。もともと幻聴と真実の声を区別する事だって難しいのだから」"
   },
-  {
-    "index": 1104,
+  "001104": {
+    "context": "001104",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「え、そうなの？」"
   },
-  {
-    "index": 1133,
+  "001133": {
+    "context": "001133",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「幻覚も幻聴も、『脳が真実と信じてしまう』事がある」"
   },
-  {
-    "index": 1144,
+  "001144": {
+    "context": "001144",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「そうなったら、どうなると思う？」"
   },
-  {
-    "index": 1167,
+  "001167": {
+    "context": "001167",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "そこでサリュはましろから、夏彦に視線を移した。"
   },
-  {
-    "index": 1178,
+  "001178": {
+    "context": "001178",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「え……？」"
   },
-  {
-    "index": 1208,
+  "001208": {
+    "context": "001208",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（幻覚や幻聴を、真実だと思ったら？）"
   },
-  {
-    "index": 1219,
+  "001219": {
+    "context": "001219",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「どうなるんだろう……？　まったく解らないな」"
   },
-  {
-    "index": 1254,
+  "001254": {
+    "context": "001254",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「それでも幻は、幻なんじゃないのか？　変なものが見えたり聞こえたりとかして、怖がったり……」"
   },
-  {
-    "index": 1283,
+  "001283": {
+    "context": "001283",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「違う」"
   },
-  {
-    "index": 1312,
+  "001312": {
+    "context": "001312",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュがそう言った瞬間、空気が軋んだ気がした。"
   },
-  {
-    "index": 1341,
+  "001341": {
+    "context": "001341",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「脳がそう信じた時から、幻は見ている本人にとっては、れっきとした真実になる」"
   },
-  {
-    "index": 1352,
+  "001352": {
+    "context": "001352",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「その幻は、その人にとって『存在する』ものだから、怖がりも疑いもしない」"
   },
-  {
-    "index": 1363,
+  "001363": {
+    "context": "001363",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「幻なのに……？」"
   },
-  {
-    "index": 1392,
+  "001392": {
+    "context": "001392",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「幻なのに」"
   },
-  {
-    "index": 1397,
+  "001397": {
+    "context": "001397",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "そう言い切るサリュに、ましろが戸惑うように口を挟む。"
   },
-  {
-    "index": 1426,
+  "001426": {
+    "context": "001426",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「ちょ、ちょっとサリュ……なんで急にそんな話を？」"
   },
-  {
-    "index": 1455,
+  "001455": {
+    "context": "001455",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「ましろはこんな話をしたかったんじゃないの？」"
   },
-  {
-    "index": 1460,
+  "001460": {
+    "context": "001460",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュは不明瞭な答えを返し、それから続けた。"
   },
-  {
-    "index": 1489,
+  "001489": {
+    "context": "001489",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「こんな事例がある――」"
   },
-  {
-    "index": 1518,
+  "001518": {
+    "context": "001518",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「１８５７年、フランスのウィサンブールの村で、電話機を作ろうとした発明家がいた」"
   },
-  {
-    "index": 1547,
+  "001547": {
+    "context": "001547",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「技術的には当時、それは不可能とも言えた。でも彼はその偉業に挑んだ」"
   },
-  {
-    "index": 1576,
+  "001576": {
+    "context": "001576",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「幾多の苦難の果て、１２年の歳月をかけ、それは完成した――少なくともその発明家にとっては」"
   },
-  {
-    "index": 1605,
+  "001605": {
+    "context": "001605",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「その発明家にとっては……？」"
   },
-  {
-    "index": 1634,
+  "001634": {
+    "context": "001634",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「華々しい完成式に、村中の人が集まった。そこで電話機のお披露目がなされた」"
   },
-  {
-    "index": 1663,
+  "001663": {
+    "context": "001663",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「隣人の家に電話機が置かれ、隣人は受話器を通して発明家に語りかけた。『どうだい、ちゃんと聞こえるかい？』」"
   },
-  {
-    "index": 1692,
+  "001692": {
+    "context": "001692",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「自宅で受話器を耳に当てた発明家は、こんな声を聞いた。『おめでとう！　あなたは大発明家だ！』」"
   },
-  {
-    "index": 1721,
+  "001721": {
+    "context": "001721",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「――電話機は、全く通話不能だった」"
   },
-  {
-    "index": 1726,
+  "001726": {
+    "context": "001726",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "その瞬間、夏彦の背筋は凍りついた。"
   },
-  {
-    "index": 1755,
+  "001755": {
+    "context": "001755",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……ぞっとする話だな」"
   },
-  {
-    "index": 1784,
+  "001784": {
+    "context": "001784",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「要するに受話器を通じて聞こえた声は、一種の幻聴だったのだと思う。恐らく発明家は、脳に異常をきたしていた」"
   },
-  {
-    "index": 1813,
+  "001813": {
+    "context": "001813",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「そしてその発明家は結局、死ぬまで電話機の完成を信じて疑わなかった」"
   },
-  {
-    "index": 1843,
+  "001843": {
+    "context": "001843",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「１８７６年にグラハム・ベルが電話機の特許を取った時は、発明を盗まれたとして訴訟を起こしている」"
   },
-  {
-    "index": 1854,
+  "001854": {
+    "context": "001854",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そんな……そこまで強固に、信じられるものなのか？」"
   },
-  {
-    "index": 1877,
+  "001877": {
+    "context": "001877",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "昨夜悠里が話してくれた『記憶』についての話とは、似ているようで違う気がした。"
   },
-  {
-    "index": 1900,
+  "001900": {
+    "context": "001900",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "だがサリュはうなずいて答える。"
   },
-  {
-    "index": 1911,
+  "001911": {
+    "context": "001911",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……脳はしばしば、自分の都合のいいように、認識のつじつまを合わせる。その顕著な例という事」"
   },
-  {
-    "index": 1955,
+  "001955": {
+    "context": "001955",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「場合によっては、現実すらも捻じ曲げかねない」"
   },
-  {
-    "index": 1984,
+  "001984": {
+    "context": "001984",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「その発明家にとっては、幻聴が真実であり音声は虚構」"
   },
-  {
-    "index": 1995,
+  "001995": {
+    "context": "001995",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「周囲の人が何を言っても、己にとっての真実を疑う事はなく――」"
   },
-  {
-    "index": 2018,
+  "002018": {
+    "context": "002018",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュがそう言いかけた時、ましろが声を上げた。"
   },
-  {
-    "index": 2048,
+  "002048": {
+    "context": "002048",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「サリュ！」"
   },
-  {
-    "index": 2071,
+  "002071": {
+    "context": "002071",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "夏彦ははっと息を呑む。ましろの声は震えていた。"
   },
-  {
-    "index": 2100,
+  "002100": {
+    "context": "002100",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「あの、サリュ、もうやめて……その話、なんか怖いよ」"
   },
-  {
-    "index": 2124,
+  "002124": {
+    "context": "002124",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……」"
   },
-  {
-    "index": 2153,
+  "002153": {
+    "context": "002153",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……怖がらせるつもりじゃなかった」"
   },
-  {
-    "index": 2188,
+  "002188": {
+    "context": "002188",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「あ……ごめんねこっちこそ。気にしないで」"
   },
-  {
-    "index": 2199,
+  "002199": {
+    "context": "002199",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「なんだよましろ、お前怖い話とか苦手だっけ？」"
   },
-  {
-    "index": 2228,
+  "002228": {
+    "context": "002228",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「うー、そうだねぇ。今みたいな話は苦手かな？」"
   },
-  {
-    "index": 2233,
+  "002233": {
+    "context": "002233",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "ましろはコメカミに指を当て、苦笑しつつ言った。"
   },
-  {
-    "index": 2262,
+  "002262": {
+    "context": "002262",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「サリュ、なかなかいいホラー話だったけどさ。あんまり怖がらせると、お姉さん泣いちゃうよ？」"
   },
-  {
-    "index": 2291,
+  "002291": {
+    "context": "002291",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「またこういう話したら、天川博士に言いつけるからね」"
   },
-  {
-    "index": 2366,
+  "002366": {
+    "context": "002366",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「！」"
   },
-  {
-    "index": 2371,
+  "002371": {
+    "context": "002371",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "サリュはそう言われて、表情を強張らせた。"
   },
-  {
-    "index": 2400,
+  "002400": {
+    "context": "002400",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……承知した。気をつける」"
   },
-  {
-    "index": 2429,
+  "002429": {
+    "context": "002429",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「お、お願いだよホントにもう」"
   },
-  {
-    "index": 2452,
+  "002452": {
+    "context": "002452",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "ましろは情けなさそうな表情で、ちらりと夏彦を見る。"
   },
-  {
-    "index": 2489,
+  "002489": {
+    "context": "002489",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「なんだ、そんな怖がって……お前も案外、女の子らしいところあるな？」"
   },
-  {
-    "index": 2518,
+  "002518": {
+    "context": "002518",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「……うるさいな。幽霊とかはＯＫなんだけど、サイコホラーみたいのはニガテなんだよ」"
   },
-  {
-    "index": 2529,
+  "002529": {
+    "context": "002529",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そりゃいいこと知った。じゃあこんな話は知ってるか？」"
   },
-  {
-    "index": 2573,
+  "002573": {
+    "context": "002573",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「え……なに？」"
   },
-  {
-    "index": 2585,
+  "002585": {
+    "context": "002585",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「これは第２次世界大戦後のアメリカで、人間の狂気の境界を知るため行われた実験なんだけど――」"
   },
-  {
-    "index": 2614,
+  "002614": {
+    "context": "002614",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「な、なんだか知らないけどやめて！　嫌な予感がする！」"
   },
-  {
-    "index": 2625,
+  "002625": {
+    "context": "002625",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「まず被験体に電極をつないで、ある部屋に閉じ込めて――」"
   },
-  {
-    "index": 2654,
+  "002654": {
+    "context": "002654",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「それ以上聞きたくない！」"
   },
-  {
-    "index": 2665,
+  "002665": {
+    "context": "002665",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そして別の部屋に、押せば電流が流れるボタンを――」"
   },
-  {
-    "index": 2694,
+  "002694": {
+    "context": "002694",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「わーわーわー！　聞こえませーん！」"
   },
-  {
-    "index": 2699,
+  "002699": {
+    "context": "002699",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "耳を塞いでいやいやをするましろを見て、夏彦はくすりと笑った。"
   },
-  {
-    "index": 2723,
+  "002723": {
+    "context": "002723",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（意外な弱点だな……長い付き合いでも、知らない事ってあるな）"
   },
-  {
-    "index": 2746,
+  "002746": {
+    "context": "002746",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そんなやりとりをする夏彦たちを、サリュは不思議そうに見つめていた。"
   },
-  {
-    "index": 2760,
+  "002760": {
+    "context": "002760",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「なんだましろ、怖がりだなんて知らなかったよ」"
   },
-  {
-    "index": 2789,
+  "002789": {
+    "context": "002789",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「……幽霊とかはＯＫなんだけど、サイコホラーみたいのはニガテなんだよ」"
   },
-  {
-    "index": 2800,
+  "002800": {
+    "context": "002800",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そうなんだ、意外だな」"
   },
-  {
-    "index": 2805,
+  "002805": {
+    "context": "002805",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦は苦笑し、ましろの肩をぽんと叩いた。"
   }
-]
+}

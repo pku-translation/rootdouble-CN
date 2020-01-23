@@ -1,284 +1,284 @@
-[
-  {
-    "index": 1,
+{
+  "000001": {
+    "context": "000001",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter3"
   },
-  {
-    "index": 11,
+  "000011": {
+    "context": "000011",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……どうした先生。やっぱり生徒が心配か？」"
   },
-  {
-    "index": 46,
+  "000046": {
+    "context": "000046",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「え……」"
   },
-  {
-    "index": 57,
+  "000057": {
+    "context": "000057",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「大丈夫だよ。監視カメラの映像によれば、彼らは第５エリア以降にいる可能性が高い」"
   },
-  {
-    "index": 68,
+  "000068": {
+    "context": "000068",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「このエリアの火災に巻き込まれたりはしてないはずだ」"
   },
-  {
-    "index": 73,
+  "000073": {
+    "context": "000073",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "自分に言い聞かせるように、渡瀬は言う。"
   },
-  {
-    "index": 78,
+  "000078": {
+    "context": "000078",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "つい１時間ほど前、ここで恵那の生徒と遭遇した事実については、あえて話題に出さなかった。"
   },
-  {
-    "index": 83,
+  "000083": {
+    "context": "000083",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが恵那は沈んだ表情で言う。"
   },
-  {
-    "index": 112,
+  "000112": {
+    "context": "000112",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……火も心配だけど、それだけじゃないわ」"
   },
-  {
-    "index": 123,
+  "000123": {
+    "context": "000123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「え？」"
   },
-  {
-    "index": 134,
+  "000134": {
+    "context": "000134",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「やっぱり放射線の事が気にかかるの……」"
   },
-  {
-    "index": 163,
+  "000163": {
+    "context": "000163",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「だってさっきプロキオンの数値は、５０００ｍＳｖを超えていたじゃない？」"
   },
-  {
-    "index": 174,
+  "000174": {
+    "context": "000174",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ、ああ」"
   },
-  {
-    "index": 203,
+  "000203": {
+    "context": "000203",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「なんだか実感が湧かないけど……これって本来なら、とんでもなく異常な数値でしょう」"
   },
-  {
-    "index": 214,
+  "000214": {
+    "context": "000214",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「ＡＤでも被曝を防ぎきれるかわからないんだし……」"
   },
-  {
-    "index": 220,
+  "000220": {
+    "context": "000220",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……」"
   },
-  {
-    "index": 225,
+  "000225": {
+    "context": "000225",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "４０００ｍＳｖ～８０００ｍＳｖの『第１危険基準値』は、『ＡＤ投与の上でも、長時間の被曝は望ましくない』とされている。"
   },
-  {
-    "index": 236,
+  "000236": {
+    "context": "000236",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……要救助者だけじゃなく、オレたちもあまり長居はしない方がいいか」"
   },
-  {
-    "index": 265,
+  "000265": {
+    "context": "000265",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そうね。特に私と橘さんは……」"
   },
-  {
-    "index": 276,
+  "000276": {
+    "context": "000276",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「え？　橘はわかるが、どうして先生も――」"
   },
-  {
-    "index": 305,
+  "000305": {
+    "context": "000305",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「忘れたの、隊長さん？」"
   },
-  {
-    "index": 316,
+  "000316": {
+    "context": "000316",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私は隊長さんたちに会うまで、ＡＤなしで過ごしてたのよ」"
   },
-  {
-    "index": 327,
+  "000327": {
+    "context": "000327",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「！！」"
   },
-  {
-    "index": 332,
+  "000332": {
+    "context": "000332",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう言われて愕然とした。"
   },
-  {
-    "index": 337,
+  "000337": {
+    "context": "000337",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "考えてみればそうだった。恵那は渡瀬たちに会うまで、メルトダウンが起きている事さえ知らなかったのだ。"
   },
-  {
-    "index": 366,
+  "000366": {
+    "context": "000366",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「プロキオンの数値がまだ低い頃だから、累計被曝量は大した事ないと思うけど……」"
   },
-  {
-    "index": 377,
+  "000377": {
+    "context": "000377",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「い、いや待て先生！　そうは言うが、用心するに越した事はないんじゃないか！？」"
   },
-  {
-    "index": 388,
+  "000388": {
+    "context": "000388",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘に言って、このエリアの捜索から外れてもらうとか――」"
   },
-  {
-    "index": 417,
+  "000417": {
+    "context": "000417",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「あら、冗談じゃないわよ。みんなが頑張ってるのに、私だけ休んでられないわ」"
   },
-  {
-    "index": 428,
+  "000428": {
+    "context": "000428",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……っ」"
   },
-  {
-    "index": 433,
+  "000433": {
+    "context": "000433",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は恵那の顔をまじまじと見た。"
   },
-  {
-    "index": 438,
+  "000438": {
+    "context": "000438",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "ただの口うるさい女だと思っていたが――"
   },
-  {
-    "index": 449,
+  "000449": {
+    "context": "000449",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……先生。あんた、凄いな……」"
   },
-  {
-    "index": 478,
+  "000478": {
+    "context": "000478",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「え、何が？」"
   },
-  {
-    "index": 489,
+  "000489": {
+    "context": "000489",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なんていうか、芯が強いって言うか……とにかく凄い女だ」"
   },
-  {
-    "index": 518,
+  "000518": {
+    "context": "000518",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「ふっ、もしかして惚れそう？」"
   },
-  {
-    "index": 529,
+  "000529": {
+    "context": "000529",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ちょっとな」"
   },
-  {
-    "index": 558,
+  "000558": {
+    "context": "000558",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「っ……」"
   },
-  {
-    "index": 563,
+  "000563": {
+    "context": "000563",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "恵那は一瞬、黙りこくった。"
   },
-  {
-    "index": 592,
+  "000592": {
+    "context": "000592",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……って隊長さん、冗談言ってる場合じゃないでしょ。今どういう状況かわかってる？」"
   },
-  {
-    "index": 603,
+  "000603": {
+    "context": "000603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なに？　先に冗談言ったのは先生だろ」"
   },
-  {
-    "index": 632,
+  "000632": {
+    "context": "000632",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「え、あ、そうね……わかったわよ、自重するわよ」"
   },
-  {
-    "index": 637,
+  "000637": {
+    "context": "000637",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "恵那はそう言って目を逸らした。"
   },
-  {
-    "index": 666,
+  "000666": {
+    "context": "000666",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「下らない話はヤメにして、捜索に邁進しましょ」"
   },
-  {
-    "index": 677,
+  "000677": {
+    "context": "000677",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あ、ああ」"
   },
-  {
-    "index": 682,
+  "000682": {
+    "context": "000682",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬も少し反省し、そして捜索に集中した。"
   },
-  {
-    "index": 727,
+  "000727": {
+    "context": "000727",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――そうこうしているうちに通路の捜索は終わり、エレベーターホールが見えてきた。"
   }
-]
+}

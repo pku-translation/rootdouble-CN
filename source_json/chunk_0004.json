@@ -1,1262 +1,1262 @@
-[
-  {
-    "index": 166,
+{
+  "000166": {
+    "context": "000166",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter1"
   },
-  {
-    "index": 183,
+  "000183": {
+    "context": "000183",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「待ってろ！　今、助けてやる！」"
   },
-  {
-    "index": 234,
+  "000234": {
+    "context": "000234",
     "code": "0x45",
     "developer_comment": "男",
     "string": "男がそう叫んで、火の中に躍り込んだ瞬間――彼の襟を誰かが掴んだ。"
   },
-  {
-    "index": 295,
+  "000295": {
+    "context": "000295",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「隊長！　ダメだよ闇雲に飛び込んじゃ！」"
   },
-  {
-    "index": 306,
+  "000306": {
+    "context": "000306",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「しかし、このままではあの子が――」"
   },
-  {
-    "index": 335,
+  "000335": {
+    "context": "000335",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「ここはあたしが行く！」"
   },
-  {
-    "index": 340,
+  "000340": {
+    "context": "000340",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "女隊員にそう言われて、男は――"
   },
-  {
-    "index": 358,
+  "000358": {
+    "context": "000358",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ッッッ……わかった、頼む！」"
   },
-  {
-    "index": 363,
+  "000363": {
+    "context": "000363",
     "code": "0x45",
     "developer_comment": "男",
     "string": "思わずそう答えていた。彼女に任せれば安心だという気がしたのだ。"
   },
-  {
-    "index": 392,
+  "000392": {
+    "context": "000392",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「うし、任せて！」"
   },
-  {
-    "index": 397,
+  "000397": {
+    "context": "000397",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "すぐに女隊員が、男を押しのけるように室内へ飛び込む。"
   },
-  {
-    "index": 411,
+  "000411": {
+    "context": "000411",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「いや、オレに任せろ！」"
   },
-  {
-    "index": 492,
+  "000492": {
+    "context": "000492",
     "code": "0x45",
     "developer_comment": "男",
     "string": "とっさにそう答えていた。"
   },
-  {
-    "index": 551,
+  "000551": {
+    "context": "000551",
     "code": "0x45",
     "developer_comment": "男",
     "string": "だが男が再び駆け出そうとした時、眼前の炎が大きくうねった。"
   },
-  {
-    "index": 557,
+  "000557": {
+    "context": "000557",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（ッ……！！）"
   },
-  {
-    "index": 589,
+  "000589": {
+    "context": "000589",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「あぁもう、だから休んでてって言ったのに！」"
   },
-  {
-    "index": 618,
+  "000618": {
+    "context": "000618",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「そんな危うい足取りじゃ邪魔になるだけだよ！」"
   },
-  {
-    "index": 636,
+  "000636": {
+    "context": "000636",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「す、すまん！　やっぱ頼む！」"
   },
-  {
-    "index": 665,
+  "000665": {
+    "context": "000665",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「あいよ！」"
   },
-  {
-    "index": 670,
+  "000670": {
+    "context": "000670",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "すぐに女隊員が、男を押しのけるように室内へ飛び込む。"
   },
-  {
-    "index": 687,
+  "000687": {
+    "context": "000687",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「副隊長、放水援護よろしく！」"
   },
-  {
-    "index": 716,
+  "000716": {
+    "context": "000716",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「了解！」"
   },
-  {
-    "index": 824,
+  "000824": {
+    "context": "000824",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長はホースを天井に向けた。"
   },
-  {
-    "index": 829,
+  "000829": {
+    "context": "000829",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "放水が天井にぶつかって砕け、霧状に散る。"
   },
-  {
-    "index": 953,
+  "000953": {
+    "context": "000953",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "それをまとうように、女隊員は部屋の中を駆けた。"
   },
-  {
-    "index": 959,
+  "000959": {
+    "context": "000959",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（こんな技術が――！？）"
   },
-  {
-    "index": 964,
+  "000964": {
+    "context": "000964",
     "code": "0x45",
     "developer_comment": "男",
     "string": "それは完璧なコンビネーションだった。"
   },
-  {
-    "index": 969,
+  "000969": {
+    "context": "000969",
     "code": "0x45",
     "developer_comment": "男",
     "string": "女隊員は霧と蒸気の中、少女に駆け寄り――"
   },
-  {
-    "index": 1134,
+  "001134": {
+    "context": "001134",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「っしゃああ！　要救助者確保ぉっ！」"
   },
-  {
-    "index": 1139,
+  "001139": {
+    "context": "001139",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "そう叫んだ。"
   },
-  {
-    "index": 1144,
+  "001144": {
+    "context": "001144",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "それは瞬く間の救出劇だった。"
   },
-  {
-    "index": 1242,
+  "001242": {
+    "context": "001242",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "――やがて、あの激しい火も鎮火した後――"
   },
-  {
-    "index": 1322,
+  "001322": {
+    "context": "001322",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "隊員たちは、助け出した少女を介抱していた。"
   },
-  {
-    "index": 1351,
+  "001351": {
+    "context": "001351",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「さぁお嬢ちゃん、もう大丈夫だよ」"
   },
-  {
-    "index": 1380,
+  "001380": {
+    "context": "001380",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「おケガはありませんか？」"
   },
-  {
-    "index": 1411,
+  "001411": {
+    "context": "001411",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「……は、はい」"
   },
-  {
-    "index": 1416,
+  "001416": {
+    "context": "001416",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "男は、やや離れた所から見ていた。"
   },
-  {
-    "index": 1422,
+  "001422": {
+    "context": "001422",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……」"
   },
-  {
-    "index": 1427,
+  "001427": {
+    "context": "001427",
     "code": "0x45",
     "developer_comment": "男",
     "string": "結局、男は消火にも救助にも、まるで役に立てなかった。"
   },
-  {
-    "index": 1432,
+  "001432": {
+    "context": "001432",
     "code": "0x45",
     "developer_comment": "男",
     "string": "せめてもと思い、男が少女に話しかける。"
   },
-  {
-    "index": 1443,
+  "001443": {
+    "context": "001443",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「えっと……そのなんだ、無事でよかったな？」"
   },
-  {
-    "index": 1507,
+  "001507": {
+    "context": "001507",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「っ！？」"
   },
-  {
-    "index": 1530,
+  "001530": {
+    "context": "001530",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "その途端、少女がまた怯えたような表情を浮かべた。"
   },
-  {
-    "index": 1559,
+  "001559": {
+    "context": "001559",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「……？　隊長がどうしましたか？」"
   },
-  {
-    "index": 1570,
+  "001570": {
+    "context": "001570",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「え？　オレは別に、何も……」"
   },
-  {
-    "index": 1599,
+  "001599": {
+    "context": "001599",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「怖がらせないでよ。隊長、眼つきが怖いんだよ」"
   },
-  {
-    "index": 1610,
+  "001610": {
+    "context": "001610",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「あぁ、いや……すまなかった、驚かせちまったみたいだな」"
   },
-  {
-    "index": 1621,
+  "001621": {
+    "context": "001621",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「だが安心してくれ。オレたちは味方だ。君を助けに来たんだ」"
   },
-  {
-    "index": 1632,
+  "001632": {
+    "context": "001632",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「………たぶん」"
   },
-  {
-    "index": 1690,
+  "001690": {
+    "context": "001690",
     "code": "0x45",
     "developer_comment": "男",
     "string": "その言葉に、少女がビクッと身を震わせる。"
   },
-  {
-    "index": 1719,
+  "001719": {
+    "context": "001719",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「隊長！　どうして『たぶん』なんておっしゃるんですか？」"
   },
-  {
-    "index": 1748,
+  "001748": {
+    "context": "001748",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「そうだよ隊長、さっきから何か変だよ？」"
   },
-  {
-    "index": 1777,
+  "001777": {
+    "context": "001777",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「状況がわからないとか言うし、なんか全然使い物にならないし」"
   },
-  {
-    "index": 1788,
+  "001788": {
+    "context": "001788",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「す、すまん……」"
   },
-  {
-    "index": 1793,
+  "001793": {
+    "context": "001793",
     "code": "0x45",
     "developer_comment": "男",
     "string": "ひとまず謝ってから、男は問いを返した。"
   },
-  {
-    "index": 1804,
+  "001804": {
+    "context": "001804",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ところで、２人に聞きたいことがあるんだが……」"
   },
-  {
-    "index": 1815,
+  "001815": {
+    "context": "001815",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「オレが『隊長』って呼ばれてるってことは、つまり……オレはレスキュー隊かなんかの隊長なんだよな？」"
   },
-  {
-    "index": 1844,
+  "001844": {
+    "context": "001844",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「はぁ？　隊長、なに言ってんの？」"
   },
-  {
-    "index": 1873,
+  "001873": {
+    "context": "001873",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「それは……どういう意味でしょう？」"
   },
-  {
-    "index": 1878,
+  "001878": {
+    "context": "001878",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "そう言われて、男は考える。"
   },
-  {
-    "index": 1883,
+  "001883": {
+    "context": "001883",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "だがやはり自分についての情報は、頭の中には皆無だった。"
   },
-  {
-    "index": 1894,
+  "001894": {
+    "context": "001894",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「その、実は……わからないんだよ」"
   },
-  {
-    "index": 1905,
+  "001905": {
+    "context": "001905",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「自分が誰で、ここがどこなのか……」"
   },
-  {
-    "index": 1965,
+  "001965": {
+    "context": "001965",
     "code": "0x45",
     "developer_comment": "３人",
     "string": "「え！？」"
   },
-  {
-    "index": 1970,
+  "001970": {
+    "context": "001970",
     "code": "0x45",
     "developer_comment": "３人",
     "string": "その言葉に、彼女たちの表情がひきつった。"
   },
-  {
-    "index": 1999,
+  "001999": {
+    "context": "001999",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「そ、それは、まさか……」"
   },
-  {
-    "index": 2028,
+  "002028": {
+    "context": "002028",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「記憶喪失……？」"
   },
-  {
-    "index": 2080,
+  "002080": {
+    "context": "002080",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "――記憶喪失。"
   },
-  {
-    "index": 2085,
+  "002085": {
+    "context": "002085",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "男は頭の中で、その言葉を反芻した。"
   },
-  {
-    "index": 2091,
+  "002091": {
+    "context": "002091",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（つまり、そういう事なのか……？）"
   },
-  {
-    "index": 2096,
+  "002096": {
+    "context": "002096",
     "code": "0x45",
     "developer_comment": "男",
     "string": "だが不意に『違う』という、根拠のない答えが頭に浮かぶ。"
   },
-  {
-    "index": 2102,
+  "002102": {
+    "context": "002102",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（頭が……自分について考えるのを拒否しているような……）"
   },
-  {
-    "index": 2107,
+  "002107": {
+    "context": "002107",
     "code": "0x45",
     "developer_comment": "男",
     "string": "それは奇妙な感覚だった。"
   },
-  {
-    "index": 2112,
+  "002112": {
+    "context": "002112",
     "code": "0x45",
     "developer_comment": "男",
     "string": "だが何が自分に起きたのか、うまく説明できそうにない。止む無くそれで納得する事にした。"
   },
-  {
-    "index": 2133,
+  "002133": {
+    "context": "002133",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……そ、そう……いわゆる記憶喪失らしい……」"
   },
-  {
-    "index": 2162,
+  "002162": {
+    "context": "002162",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「ま、またまたぁ。冗談止めてよ、隊長ぉー？」"
   },
-  {
-    "index": 2173,
+  "002173": {
+    "context": "002173",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「いや、これが冗談なら良いんだが……！」"
   },
-  {
-    "index": 2202,
+  "002202": {
+    "context": "002202",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「って……もしかして、マジなの！？」"
   },
-  {
-    "index": 2231,
+  "002231": {
+    "context": "002231",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「お、お待ち下さい隊長！　頭にケガなどはされてませんか！？」"
   },
-  {
-    "index": 2242,
+  "002242": {
+    "context": "002242",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ケガ……？　そう言えば、さっき頭がズキンと痛んだが……」"
   },
-  {
-    "index": 2271,
+  "002271": {
+    "context": "002271",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「やはり……！　どこかに頭を打ちつけた可能性があります」"
   },
-  {
-    "index": 2300,
+  "002300": {
+    "context": "002300",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「意識や記憶の混濁は、恐らくそのせいでしょう。ならば記憶は、時間が経てば戻ってくるはずです」"
   },
-  {
-    "index": 2311,
+  "002311": {
+    "context": "002311",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「そ、そういうものなのか？」"
   },
-  {
-    "index": 2341,
+  "002341": {
+    "context": "002341",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「えぇ。外傷による逆行性健忘症は、ほとんどの場合は特に治療をしなくても、やがて自然に症状が消えるそうです」"
   },
-  {
-    "index": 2346,
+  "002346": {
+    "context": "002346",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長は専門用語らしきものを交えて、そう説明してくれた。"
   },
-  {
-    "index": 2357,
+  "002357": {
+    "context": "002357",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……じゃあ、これは一時的なものか」"
   },
-  {
-    "index": 2386,
+  "002386": {
+    "context": "002386",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「はい。ただ脳が損傷していた場合、健忘症は恒久的になる恐れがあります」"
   },
-  {
-    "index": 2415,
+  "002415": {
+    "context": "002415",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「さらにそのまま放置すると、脳に障害が残ったり、死亡してしまうケースも考えられます」"
   },
-  {
-    "index": 2426,
+  "002426": {
+    "context": "002426",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……！」"
   },
-  {
-    "index": 2431,
+  "002431": {
+    "context": "002431",
     "code": "0x45",
     "developer_comment": "男",
     "string": "その言葉に、男はかすかな戦慄を覚えた。"
   },
-  {
-    "index": 2460,
+  "002460": {
+    "context": "002460",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「なにそれヤバそうじゃん……！」"
   },
-  {
-    "index": 2489,
+  "002489": {
+    "context": "002489",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「隊長、頭痛の程度はどうなの？　吐き気とかは？」"
   },
-  {
-    "index": 2500,
+  "002500": {
+    "context": "002500",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ああ……今は全く痛まない。吐き気も特に感じない」"
   },
-  {
-    "index": 2529,
+  "002529": {
+    "context": "002529",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「な、なら安心かな？」"
   },
-  {
-    "index": 2558,
+  "002558": {
+    "context": "002558",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「いやまだです。隊長、ちょっと失礼します」"
   },
-  {
-    "index": 2668,
+  "002668": {
+    "context": "002668",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "女は男の腕を掴み、袖をまくって手首を見た。"
   },
-  {
-    "index": 2673,
+  "002673": {
+    "context": "002673",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "今まで気づかなかったが、そこにはリストバンドのようなものがはめられている。"
   },
-  {
-    "index": 2684,
+  "002684": {
+    "context": "002684",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「これは？」"
   },
-  {
-    "index": 2788,
+  "002788": {
+    "context": "002788",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「『バイタルチェッカー』といいます。装着者の健康状態を、自動診断するものです」"
   },
-  {
-    "index": 2793,
+  "002793": {
+    "context": "002793",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "見ればそこには幾つかの数値と、緑色の光が５つ灯っていた。"
   },
-  {
-    "index": 2838,
+  "002838": {
+    "context": "002838",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「――コンディション・オールグリーン。脈拍・血圧等に問題なし……完全に健康体ですね」"
   },
-  {
-    "index": 2888,
+  "002888": {
+    "context": "002888",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「じゃあとりあえず、死んじゃうような心配はないかな……？」"
   },
-  {
-    "index": 2917,
+  "002917": {
+    "context": "002917",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「ただ確実な診断ではないので楽観視はできません。後ほど精密検査と治療を受けて下さい」"
   },
-  {
-    "index": 2923,
+  "002923": {
+    "context": "002923",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長がそう答えた時、女隊員が目を見開いた。"
   },
-  {
-    "index": 2958,
+  "002958": {
+    "context": "002958",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「……あ、ヤバい！　それよりもまず副隊長！」"
   },
-  {
-    "index": 2987,
+  "002987": {
+    "context": "002987",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「お嬢ちゃんに『ＡＤ』を投与しないと！」"
   },
-  {
-    "index": 2992,
+  "002992": {
+    "context": "002992",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "その言葉に、副隊長の顔が強張る。"
   },
-  {
-    "index": 3021,
+  "003021": {
+    "context": "003021",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「いけない、私としたことが……！」"
   },
-  {
-    "index": 3026,
+  "003026": {
+    "context": "003026",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "そう言って副隊長は、ポケットから何かを取り出した。"
   },
-  {
-    "index": 3112,
+  "003112": {
+    "context": "003112",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "それは透明な容器に入ったアンプル剤だった。"
   },
-  {
-    "index": 3157,
+  "003157": {
+    "context": "003157",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長はそれを、少女に向けて言う。"
   },
-  {
-    "index": 3168,
+  "003168": {
+    "context": "003168",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「腕を出して下さい」"
   },
-  {
-    "index": 3197,
+  "003197": {
+    "context": "003197",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「い、いや……打ちたくない……」"
   },
-  {
-    "index": 3226,
+  "003226": {
+    "context": "003226",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「ダメです！　投与しなければ危険なんですよ！」"
   },
-  {
-    "index": 3231,
+  "003231": {
+    "context": "003231",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "身をよじって逃げようとした少女の腕を、副隊長が掴む。"
   },
-  {
-    "index": 3236,
+  "003236": {
+    "context": "003236",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "そして問答無用で袖をまくり、アンプル剤の先端を少女に押し当てて――投与した。"
   },
-  {
-    "index": 3271,
+  "003271": {
+    "context": "003271",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「あっ……」"
   },
-  {
-    "index": 3276,
+  "003276": {
+    "context": "003276",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "少女が目を見開き、身を震わせる。"
   },
-  {
-    "index": 3281,
+  "003281": {
+    "context": "003281",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "その反応に空恐ろしさを覚えつつ、男は尋ねる。"
   },
-  {
-    "index": 3337,
+  "003337": {
+    "context": "003337",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……何だ、その薬？」"
   },
-  {
-    "index": 3366,
+  "003366": {
+    "context": "003366",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「ＡＤ、と言います。簡単に説明すると――」"
   },
-  {
-    "index": 3377,
+  "003377": {
+    "context": "003377",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「『放射線被曝』を防ぐ薬です」"
   },
-  {
-    "index": 3389,
+  "003389": {
+    "context": "003389",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "その言葉に、男は不吉な響きを感じた。"
   },
-  {
-    "index": 3400,
+  "003400": {
+    "context": "003400",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……被曝を防ぐ薬だって……？」"
   },
-  {
-    "index": 3429,
+  "003429": {
+    "context": "003429",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「ええ。今回の任務にあたって、この施設の関係者から支給された物です」"
   },
-  {
-    "index": 3458,
+  "003458": {
+    "context": "003458",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「我々が生き延びるには、この薬品の投与が不可欠なのです」"
   },
-  {
-    "index": 3463,
+  "003463": {
+    "context": "003463",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長は周囲を見回し、苦々しい声で続けた。"
   },
-  {
-    "index": 3492,
+  "003492": {
+    "context": "003492",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「――現在この施設内は、くまなく放射線に汚染されていますので」"
   },
-  {
-    "index": 3503,
+  "003503": {
+    "context": "003503",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「なに！？」"
   },
-  {
-    "index": 3515,
+  "003515": {
+    "context": "003515",
     "code": "0x45",
     "developer_comment": "男",
     "string": "そう言われ、さらに不吉な予感が強くなる。"
   },
-  {
-    "index": 3526,
+  "003526": {
+    "context": "003526",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ちょ、ちょっと待ってくれ……放射線とか汚染とか……いったいどういう事なんだ！？」"
   },
-  {
-    "index": 3537,
+  "003537": {
+    "context": "003537",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「ここって、なんの施設なんだ！？」"
   },
-  {
-    "index": 3542,
+  "003542": {
+    "context": "003542",
     "code": "0x45",
     "developer_comment": "男",
     "string": "戸惑いの声を上げる男を、副隊長は見据え――"
   },
-  {
-    "index": 3547,
+  "003547": {
+    "context": "003547",
     "code": "0x45",
     "developer_comment": "男",
     "string": "はっきりと、答えた。"
   },
-  {
-    "index": 3583,
+  "003583": {
+    "context": "003583",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「研究用の小型原子炉を擁する、原子力科学研究所です」"
   },
-  {
-    "index": 3594,
+  "003594": {
+    "context": "003594",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「その原子炉が、つい２時間ほど前――」"
   },
-  {
-    "index": 3606,
+  "003606": {
+    "context": "003606",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「『メルトダウン』したのです」"
   },
-  {
-    "index": 3618,
+  "003618": {
+    "context": "003618",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "初めて聞くはずのその言葉に、なぜか男の背筋は凍りついた。"
   },
-  {
-    "index": 3629,
+  "003629": {
+    "context": "003629",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「め、メルトダウンって……！？」"
   },
-  {
-    "index": 3658,
+  "003658": {
+    "context": "003658",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「簡潔にご説明しますと、何らかの原因で原子炉が融解し、炉内の核燃料が外に漏れ出す事です」"
   },
-  {
-    "index": 3669,
+  "003669": {
+    "context": "003669",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「しばしば爆発や出火などを伴う、極めて重篤な事故――」"
   },
-  {
-    "index": 3699,
+  "003699": {
+    "context": "003699",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「それにより人体に悪影響の強い『放射線』が拡散し、施設全域を汚染しつつあるのです」"
   },
-  {
-    "index": 3710,
+  "003710": {
+    "context": "003710",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「馬鹿な！？　汚染っていったって、そんな兆しはどこにも……」"
   },
-  {
-    "index": 3721,
+  "003721": {
+    "context": "003721",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「放射線は目には見えません。臭いもありません。しかしそれでも確かに、人体を蝕みます」"
   },
-  {
-    "index": 3726,
+  "003726": {
+    "context": "003726",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "そう言って副隊長は、ポケットから何か機械のようなものを取り出した。"
   },
-  {
-    "index": 3866,
+  "003866": {
+    "context": "003866",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「放射線計測器『プロキオン』――ここに表示されている数値は、現在毎時『１１０８ｍＳｖ』」"
   },
-  {
-    "index": 3877,
+  "003877": {
+    "context": "003877",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「これは自然界における放射線量の、約２０００万倍にあたります」"
   },
-  {
-    "index": 3888,
+  "003888": {
+    "context": "003888",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「２０００万っ……！？」"
   },
-  {
-    "index": 3933,
+  "003933": {
+    "context": "003933",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「放射線は通常の環境下でも、宇宙や地表などからわずかに照射されていますが、線量が弱いため人体に影響はほぼありません」"
   },
-  {
-    "index": 3944,
+  "003944": {
+    "context": "003944",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「しかしこの１１０８ｍＳｖという、異常に強い線量にさらされた場合――」"
   },
-  {
-    "index": 3956,
+  "003956": {
+    "context": "003956",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「つまり『被曝』した場合、人体に深刻な悪影響が現れます」"
   },
-  {
-    "index": 3967,
+  "003967": {
+    "context": "003967",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「皮膚のただれ、嘔吐感、臓器不全、脳細胞損傷。視力障害、神経障害、遺伝子障害、そして癌」"
   },
-  {
-    "index": 3978,
+  "003978": {
+    "context": "003978",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……！」"
   },
-  {
-    "index": 3983,
+  "003983": {
+    "context": "003983",
     "code": "0x45",
     "developer_comment": "男",
     "string": "副隊長の淡々とした説明に、男は全身の毛が逆立つような恐怖を覚えていた。"
   },
-  {
-    "index": 3994,
+  "003994": {
+    "context": "003994",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「――１００ｍＳｖも被曝すれば、これらの健康被害が発生し得ます。そう考えると現在の線量は、余りにも強すぎる」"
   },
-  {
-    "index": 4027,
+  "004027": {
+    "context": "004027",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「本来であれば、わずかに立ち入ることすら絶対に許されないような環境なのです」"
   },
-  {
-    "index": 4056,
+  "004056": {
+    "context": "004056",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「そして線量は場所によって多少上下しますが、どこにいても被曝は避けられません」"
   },
-  {
-    "index": 4067,
+  "004067": {
+    "context": "004067",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「さ、避けられないって……！」"
   },
-  {
-    "index": 4078,
+  "004078": {
+    "context": "004078",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「冗談だろ！？　なんでそんな状況で、落ち着いてられるんだよ！？」"
   },
-  {
-    "index": 4107,
+  "004107": {
+    "context": "004107",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「お待ちください！　説明を最後まで聞いてください！」"
   },
-  {
-    "index": 4112,
+  "004112": {
+    "context": "004112",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "副隊長に強く言われ、男は思わず黙った。"
   },
-  {
-    "index": 4117,
+  "004117": {
+    "context": "004117",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "彼女はさきほどの薬を手に、説明を続ける。"
   },
-  {
-    "index": 4285,
+  "004285": {
+    "context": "004285",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「しかしこのＡＤという薬を投与しておけば、汚染レベルの低い所なら、ほぼ１００％被曝を予防してくれるのです」"
   },
-  {
-    "index": 4296,
+  "004296": {
+    "context": "004296",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「１００％！？」"
   },
-  {
-    "index": 4307,
+  "004307": {
+    "context": "004307",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「これは通常の薬剤ではなく、医療用ナノマシンを構成体に含んでいて、人体が受ける放射線を無害化・排出してくれます」"
   },
-  {
-    "index": 4318,
+  "004318": {
+    "context": "004318",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「有効時間はわずか６０分ですし、本数もあまりありませんが」"
   },
-  {
-    "index": 4339,
+  "004339": {
+    "context": "004339",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "その説明を、男は――"
   },
-  {
-    "index": 4351,
+  "004351": {
+    "context": "004351",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "信じる事にした。"
   },
-  {
-    "index": 4362,
+  "004362": {
+    "context": "004362",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「そ、そうなのか……」"
   },
-  {
-    "index": 4367,
+  "004367": {
+    "context": "004367",
     "code": "0x45",
     "developer_comment": "男",
     "string": "どこか現実離れした薬のような気がしたが……彼女の落ち着きぶりを見る限り、本当なのだろう。"
   },
-  {
-    "index": 4421,
+  "004421": {
+    "context": "004421",
     "code": "0x45",
     "developer_comment": "男",
     "string": "信じていいか迷った。"
   },
-  {
-    "index": 4432,
+  "004432": {
+    "context": "004432",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「１００％放射線被曝を防ぐ薬だと……？　そんなものあるのか！？」"
   },
-  {
-    "index": 4465,
+  "004465": {
+    "context": "004465",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「そう仰るのもわかります」"
   },
-  {
-    "index": 4494,
+  "004494": {
+    "context": "004494",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「しかしお願いです、信じてください。あなたの命に関わる事なのです」"
   },
-  {
-    "index": 4512,
+  "004512": {
+    "context": "004512",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「そ……そうか」"
   },
-  {
-    "index": 4517,
+  "004517": {
+    "context": "004517",
     "code": "0x45",
     "developer_comment": "男",
     "string": "やはりどこか現実離れした薬のような気がしたが……そこまで言うのなら、信じる他ない。"
   },
-  {
-    "index": 4536,
+  "004536": {
+    "context": "004536",
     "code": "0x45",
     "developer_comment": "男",
     "string": "だがそこで、不意にぞくりと悪寒が走りぬけた。"
   },
-  {
-    "index": 4547,
+  "004547": {
+    "context": "004547",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「なぁそれ、オレたちは打たなくて大丈夫なのか！？」"
   },
-  {
-    "index": 4576,
+  "004576": {
+    "context": "004576",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「え？　我々はさきほど投与したばかりですが――」"
   },
-  {
-    "index": 4605,
+  "004605": {
+    "context": "004605",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「……っ！？」"
   },
-  {
-    "index": 4610,
+  "004610": {
+    "context": "004610",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "その瞬間、副隊長たちが息を呑んだ。"
   },
-  {
-    "index": 4656,
+  "004656": {
+    "context": "004656",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「そう言えば隊長……！　隊長が最後にＡＤを投与したのっていつ！？」"
   },
-  {
-    "index": 4667,
+  "004667": {
+    "context": "004667",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「わ、わからん……」"
   },
-  {
-    "index": 4696,
+  "004696": {
+    "context": "004696",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「やばいよ、念のため投与しておきなよ！　隊長もきっと持ってるはずだからさ！」"
   },
-  {
-    "index": 4702,
+  "004702": {
+    "context": "004702",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "慌ててポケットを探ると、確かにアンプル剤が１本だけ入っていた。"
   },
-  {
-    "index": 4752,
+  "004752": {
+    "context": "004752",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「あったぞ！」"
   },
-  {
-    "index": 4763,
+  "004763": {
+    "context": "004763",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「使い方は簡単だよ！　専用のカートリッジが付属してるから、それを装着して――」"
   },
-  {
-    "index": 4813,
+  "004813": {
+    "context": "004813",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「あとは先端を折って静脈に密着させて、ノック部分を押すだけでいいから！」"
   },
-  {
-    "index": 4824,
+  "004824": {
+    "context": "004824",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「こ、こうか！？」"
   },
-  {
-    "index": 4829,
+  "004829": {
+    "context": "004829",
     "code": "0x45",
     "developer_comment": "男",
     "string": "急かされるまま、男はアンプル剤をカートリッジに装着した。"
   },
-  {
-    "index": 4860,
+  "004860": {
+    "context": "004860",
     "code": "0x45",
     "developer_comment": "男",
     "string": "ちくりとした痛みと共に、容器の中の液体が、体内へ入ってくる。"
   },
-  {
-    "index": 4865,
+  "004865": {
+    "context": "004865",
     "code": "0x45",
     "developer_comment": "男",
     "string": "すると――頭から何かが抜ける感じがあった。"
   },
-  {
-    "index": 4871,
+  "004871": {
+    "context": "004871",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（なんだ、この感じは……薬の副作用か？）"
   },
-  {
-    "index": 4900,
+  "004900": {
+    "context": "004900",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「どうしたの隊長？　これで一安心なのに」"
   },
-  {
-    "index": 4911,
+  "004911": {
+    "context": "004911",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「一安心……！？」"
   },
-  {
-    "index": 4916,
+  "004916": {
+    "context": "004916",
     "code": "0x45",
     "developer_comment": "男",
     "string": "そう言われても、とうてい素直には受け入れられなかった。"
   },
-  {
-    "index": 4922,
+  "004922": {
+    "context": "004922",
     "code": "0x45",
     "developer_comment": "男",
     "string": "（こんな異常な状況を、簡単に受け入れられるはずもない……）"
   },
-  {
-    "index": 4927,
+  "004927": {
+    "context": "004927",
     "code": "0x45",
     "developer_comment": "男",
     "string": "不安を紛らわすように、男は問いを重ねる。"
   },
-  {
-    "index": 4938,
+  "004938": {
+    "context": "004938",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……な、なあ、教えてくれないか？」"
   },
-  {
-    "index": 4949,
+  "004949": {
+    "context": "004949",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「オレは何者で、今はどういう状況なんだ？」"
   },
-  {
-    "index": 4960,
+  "004960": {
+    "context": "004960",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「それと、そう――出口だ。この施設の出口はどこにあるんだ！？」"
   },
-  {
-    "index": 4965,
+  "004965": {
+    "context": "004965",
     "code": "0x45",
     "developer_comment": "男",
     "string": "男がまくし立てると、副隊長たちが顔を見合わせた。"
   },
-  {
-    "index": 4994,
+  "004994": {
+    "context": "004994",
     "code": "0x45",
     "developer_comment": "女隊員",
     "string": "「『出口』か……」"
   },
-  {
-    "index": 5023,
+  "005023": {
+    "context": "005023",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「……ではこれからそこにお連れしましょう。歩きながら現況をご説明します」"
   },
-  {
-    "index": 5028,
+  "005028": {
+    "context": "005028",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "彼女たちの言葉には、どこか重い響きがあった。"
   },
-  {
-    "index": 5039,
+  "005039": {
+    "context": "005039",
     "code": "0x45",
     "developer_comment": "男",
     "string": "「……？　あぁ、よろしく頼む」"
   },
-  {
-    "index": 5068,
+  "005068": {
+    "context": "005068",
     "code": "0x45",
     "developer_comment": "副隊長",
     "string": "「了解しました。隊長もお嬢さんも、こちらへどうぞ」"
   },
-  {
-    "index": 5112,
+  "005112": {
+    "context": "005112",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「は、はい……」"
   },
-  {
-    "index": 5117,
+  "005117": {
+    "context": "005117",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "副隊長が歩き出す。"
   },
-  {
-    "index": 5122,
+  "005122": {
+    "context": "005122",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "男たちはその後を追った。"
   }
-]
+}

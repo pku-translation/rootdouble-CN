@@ -1,662 +1,662 @@
-[
-  {
-    "index": 58,
+{
+  "000058": {
+    "context": "000058",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter6"
   },
-  {
-    "index": 74,
+  "000074": {
+    "context": "000074",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「――すまん、遅くなった」"
   },
-  {
-    "index": 79,
+  "000079": {
+    "context": "000079",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "エンジンルームに戻るなり、風見が駆け寄ってきた。"
   },
-  {
-    "index": 147,
+  "000147": {
+    "context": "000147",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長！　どうしたのですか、その防護服は！？」"
   },
-  {
-    "index": 158,
+  "000158": {
+    "context": "000158",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「複数の防護服の、無事な部分を繋ぎ合わせた」"
   },
-  {
-    "index": 187,
+  "000187": {
+    "context": "000187",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「っ！　そんな方法が……！」"
   },
-  {
-    "index": 192,
+  "000192": {
+    "context": "000192",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "感心したように言う風見に、渡瀬はうなずく。"
   },
-  {
-    "index": 203,
+  "000203": {
+    "context": "000203",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……橘、これでようやく脱出できるぞ」"
   },
-  {
-    "index": 232,
+  "000232": {
+    "context": "000232",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「えぇ……！」"
   },
-  {
-    "index": 237,
+  "000237": {
+    "context": "000237",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見はうなずき、天井付近のパイプを指差した。"
   },
-  {
-    "index": 266,
+  "000266": {
+    "context": "000266",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……図面を見るに、奥側のパイプが排水パイプらしいです」"
   },
-  {
-    "index": 295,
+  "000295": {
+    "context": "000295",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「間違って取水パイプを破壊したら、このラボ自体が水没してしまいます。どうかご注意を」"
   },
-  {
-    "index": 306,
+  "000306": {
+    "context": "000306",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「わかってる……ここまで来て、そんなヘマはしないさ」"
   },
-  {
-    "index": 317,
+  "000317": {
+    "context": "000317",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「まずは濾過機構を破壊してくる。ちょっと待っていてくれ」"
   },
-  {
-    "index": 354,
+  "000354": {
+    "context": "000354",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は斧を握り、濾過機構に歩み寄った。"
   },
-  {
-    "index": 359,
+  "000359": {
+    "context": "000359",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それを思い切り、制御板に振り下ろす。"
   },
-  {
-    "index": 518,
+  "000518": {
+    "context": "000518",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "何度か殴っているうち、静かに聞こえていた水流の音が止まった。"
   },
-  {
-    "index": 530,
+  "000530": {
+    "context": "000530",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「止まったぞ！」"
   },
-  {
-    "index": 564,
+  "000564": {
+    "context": "000564",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「これでパイプ内に入れますね……！」"
   },
-  {
-    "index": 569,
+  "000569": {
+    "context": "000569",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬はうなずき、風見と向き合った。"
   },
-  {
-    "index": 580,
+  "000580": {
+    "context": "000580",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「さて……最後の選択だ」"
   },
-  {
-    "index": 591,
+  "000591": {
+    "context": "000591",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「防護服は１着しかない」"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「オレとお前の、どっちが行くべきだと思う？」"
   },
-  {
-    "index": 613,
+  "000613": {
+    "context": "000613",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ここに残っても、ＷＸ粒子とやらに脅かされるだろうが……」"
   },
-  {
-    "index": 618,
+  "000618": {
+    "context": "000618",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その問いに、風見はわずかな迷いもなく答えた。"
   },
-  {
-    "index": 647,
+  "000647": {
+    "context": "000647",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私が行くべきだと思います」"
   },
-  {
-    "index": 658,
+  "000658": {
+    "context": "000658",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なぜ？」"
   },
-  {
-    "index": 669,
+  "000669": {
+    "context": "000669",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ここに残るより、パイプ内に入る方が、確実に危険だからです」"
   },
-  {
-    "index": 698,
+  "000698": {
+    "context": "000698",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「熱水が満ちる中を、５００ｍも歩くなんて……！」"
   },
-  {
-    "index": 709,
+  "000709": {
+    "context": "000709",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ボンベの空気が持つかどうかも、本当に微妙だし……」"
   },
-  {
-    "index": 738,
+  "000738": {
+    "context": "000738",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そんなところに、あなたを行かせられません」"
   },
-  {
-    "index": 743,
+  "000743": {
+    "context": "000743",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見がじっと見つめてくる。"
   },
-  {
-    "index": 748,
+  "000748": {
+    "context": "000748",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬はかすかに笑って言った。"
   },
-  {
-    "index": 759,
+  "000759": {
+    "context": "000759",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……そう答えると思ったよ」"
   },
-  {
-    "index": 770,
+  "000770": {
+    "context": "000770",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「でもな、橘。それはダメだ」"
   },
-  {
-    "index": 799,
+  "000799": {
+    "context": "000799",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「え？」"
   },
-  {
-    "index": 810,
+  "000810": {
+    "context": "000810",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お前、脚を怪我してるだろう」"
   },
-  {
-    "index": 821,
+  "000821": {
+    "context": "000821",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「その脚で、狭いパイプ内を５００ｍも歩けるのか？」"
   },
-  {
-    "index": 850,
+  "000850": {
+    "context": "000850",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「いいえ、これしきの傷……ここまで天川くんたちを連れてこられたんですから」"
   },
-  {
-    "index": 861,
+  "000861": {
+    "context": "000861",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だけど、少しはスピードは落ちるはずだ。そうなるとやはり、生存率が下がる」"
   },
-  {
-    "index": 890,
+  "000890": {
+    "context": "000890",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……！」"
   },
-  {
-    "index": 901,
+  "000901": {
+    "context": "000901",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「パイプに突入する奴の背には、この施設内の全員の命がのしかかってるんだ」"
   },
-  {
-    "index": 912,
+  "000912": {
+    "context": "000912",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だったら、少しでも成功率を高くするべきだろ？」"
   },
-  {
-    "index": 923,
+  "000923": {
+    "context": "000923",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だから、橘――」"
   },
-  {
-    "index": 934,
+  "000934": {
+    "context": "000934",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「パイプには、オレが突入する」"
   },
-  {
-    "index": 939,
+  "000939": {
+    "context": "000939",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬ははっきりとそう言った。"
   },
-  {
-    "index": 950,
+  "000950": {
+    "context": "000950",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……これは命令だ。逆らう事は許さん」"
   },
-  {
-    "index": 979,
+  "000979": {
+    "context": "000979",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長……」"
   },
-  {
-    "index": 1003,
+  "001003": {
+    "context": "001003",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……」"
   },
-  {
-    "index": 1032,
+  "001032": {
+    "context": "001032",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……逆らいます」"
   },
-  {
-    "index": 1043,
+  "001043": {
+    "context": "001043",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おいおい、何言ってんだよ？　橘らしくもない」"
   },
-  {
-    "index": 1072,
+  "001072": {
+    "context": "001072",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「でも……」"
   },
-  {
-    "index": 1083,
+  "001083": {
+    "context": "001083",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「オレは最初の頃、どうしようもなく無力で、お前に助けられてばかりだった」"
   },
-  {
-    "index": 1094,
+  "001094": {
+    "context": "001094",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お前に認めてもらえればって、ずっと思ってたんだ」"
   },
-  {
-    "index": 1105,
+  "001105": {
+    "context": "001105",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だから最後くらい、格好つけさせてくれよ」"
   },
-  {
-    "index": 1129,
+  "001129": {
+    "context": "001129",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……」"
   },
-  {
-    "index": 1134,
+  "001134": {
+    "context": "001134",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見は俯き、黙っていたが――"
   },
-  {
-    "index": 1163,
+  "001163": {
+    "context": "001163",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……はい」"
   },
-  {
-    "index": 1168,
+  "001168": {
+    "context": "001168",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "やがて諦めたように、うなずいた。"
   },
-  {
-    "index": 1173,
+  "001173": {
+    "context": "001173",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬はそれで安堵し、そして言う。"
   },
-  {
-    "index": 1184,
+  "001184": {
+    "context": "001184",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よし、それじゃ次は突入の準備だ！　防護服を着るのを手伝ってくれ」"
   },
-  {
-    "index": 1213,
+  "001213": {
+    "context": "001213",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「えぇ！」"
   },
-  {
-    "index": 1253,
+  "001253": {
+    "context": "001253",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬が防護服を着込む。"
   },
-  {
-    "index": 1258,
+  "001258": {
+    "context": "001258",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見が面体に、空気ボンベをセットする。"
   },
-  {
-    "index": 1263,
+  "001263": {
+    "context": "001263",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "そして面体とボンベを右脇に抱え、左手には斧を持ち、渡瀬は風見に言った。"
   },
-  {
-    "index": 1344,
+  "001344": {
+    "context": "001344",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……よし、準備万端だな」"
   },
-  {
-    "index": 1355,
+  "001355": {
+    "context": "001355",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「オレはここから脱出して、助けを呼んでくる」"
   },
-  {
-    "index": 1366,
+  "001366": {
+    "context": "001366",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お前たちを置いていくのは、やっぱ怖いが……待っていてくれ」"
   },
-  {
-    "index": 1385,
+  "001385": {
+    "context": "001385",
     "code": "0x55",
     "developer_comment": "渡瀬",
     "string": "√After Chapter6"
   },
-  {
-    "index": 1393,
+  "001393": {
+    "context": "001393",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見の眼が、渡瀬を見つめる。"
   },
-  {
-    "index": 1422,
+  "001422": {
+    "context": "001422",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……お待ちしております」"
   },
-  {
-    "index": 1427,
+  "001427": {
+    "context": "001427",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その眼には、どこか寂しげな色が滲んでいた。"
   },
-  {
-    "index": 1432,
+  "001432": {
+    "context": "001432",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "渡瀬は笑みを返し、面体をかぶる。"
   },
-  {
-    "index": 1449,
+  "001449": {
+    "context": "001449",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……行くぞ！」"
   },
-  {
-    "index": 1460,
+  "001460": {
+    "context": "001460",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして一声上げると、ハシゴを登り始めた。"
   },
-  {
-    "index": 1598,
+  "001598": {
+    "context": "001598",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――排水パイプの上によじ登り、そして斧を構える。"
   },
-  {
-    "index": 1603,
+  "001603": {
+    "context": "001603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それを思い切り、パイプに振り下ろした。"
   },
-  {
-    "index": 1675,
+  "001675": {
+    "context": "001675",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "火花が瞬き、パイプに小さな穴が開く。"
   },
-  {
-    "index": 1680,
+  "001680": {
+    "context": "001680",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "パイプは硬く分厚く、一撃ではとても、人が入れる穴は開かない。"
   },
-  {
-    "index": 1691,
+  "001691": {
+    "context": "001691",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「――ぅおおおおおっ！」"
   },
-  {
-    "index": 1717,
+  "001717": {
+    "context": "001717",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は雄たけびを上げ、何度も斧を振り下ろした。"
   },
-  {
-    "index": 1743,
+  "001743": {
+    "context": "001743",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "一撃一撃に、渾身の力を込めて。"
   },
-  {
-    "index": 1769,
+  "001769": {
+    "context": "001769",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "必ず脱出するという意思を込めて。"
   },
-  {
-    "index": 1795,
+  "001795": {
+    "context": "001795",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "少しずつ穴が大きくなっていく。"
   },
-  {
-    "index": 1806,
+  "001806": {
+    "context": "001806",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "パイプから蒸気が噴出し、わずかに熱水が溢れる。"
   },
-  {
-    "index": 1817,
+  "001817": {
+    "context": "001817",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だがそれはわずかなものだ。確かに水流は止まっている。"
   },
-  {
-    "index": 1922,
+  "001922": {
+    "context": "001922",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そうして何度も何度も斧を振り下ろし――そしてついに、刃の部分が潰れてしまった。"
   },
-  {
-    "index": 1933,
+  "001933": {
+    "context": "001933",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「くっ！」"
   },
-  {
-    "index": 1938,
+  "001938": {
+    "context": "001938",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だがもう充分だった。"
   },
-  {
-    "index": 1943,
+  "001943": {
+    "context": "001943",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬が潜り込める大きさの穴が、そこに開いていた。"
   },
-  {
-    "index": 1954,
+  "001954": {
+    "context": "001954",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……よし！」"
   },
-  {
-    "index": 2064,
+  "002064": {
+    "context": "002064",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はパイプから下を見下ろす。"
   },
-  {
-    "index": 2069,
+  "002069": {
+    "context": "002069",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見が心配そうにこちらを見上げているのが見えた。"
   },
-  {
-    "index": 2080,
+  "002080": {
+    "context": "002080",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘、パイプに穴が開いた！」"
   },
-  {
-    "index": 2091,
+  "002091": {
+    "context": "002091",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「オレは行く！　子供たちの事を頼むぞ！」"
   },
-  {
-    "index": 2096,
+  "002096": {
+    "context": "002096",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう言うと、下から声が返ってきた。"
   },
-  {
-    "index": 2107,
+  "002107": {
+    "context": "002107",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「――隊長！」"
   },
-  {
-    "index": 2118,
+  "002118": {
+    "context": "002118",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「必ず、戻ってきてくださいね！」"
   },
-  {
-    "index": 2171,
+  "002171": {
+    "context": "002171",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「さっきの約束、きっと果たしてくださいね！」"
   },
-  {
-    "index": 2182,
+  "002182": {
+    "context": "002182",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ！」"
   },
-  {
-    "index": 2194,
+  "002194": {
+    "context": "002194",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……あぁ！」"
   },
-  {
-    "index": 2248,
+  "002248": {
+    "context": "002248",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はうなずき、そして穴にもぐりこんだ。"
   },
-  {
-    "index": 2253,
+  "002253": {
+    "context": "002253",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "この施設の中に残された、最後の脱出口。"
   },
-  {
-    "index": 2258,
+  "002258": {
+    "context": "002258",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "熱水に満たされたパイプの中に。"
   },
-  {
-    "index": 2324,
+  "002324": {
+    "context": "002324",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "パイプの中は、闇に沈んでいた。"
   },
-  {
-    "index": 2329,
+  "002329": {
+    "context": "002329",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "熱が防護服越しに伝わってくる。"
   },
-  {
-    "index": 2334,
+  "002334": {
+    "context": "002334",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "この中を５００ｍ歩けば、鹿鳴湖に辿り着けるのだ。"
   },
-  {
-    "index": 2340,
+  "002340": {
+    "context": "002340",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……行くか）"
   },
-  {
-    "index": 2389,
+  "002389": {
+    "context": "002389",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――渡瀬は意を決し、歩き出した。"
   },
-  {
-    "index": 2394,
+  "002394": {
+    "context": "002394",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "皆を救うために、独り闇の中を――。"
   }
-]
+}

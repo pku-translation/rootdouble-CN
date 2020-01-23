@@ -1,296 +1,296 @@
-[
-  {
-    "index": 66,
+{
+  "000066": {
+    "context": "000066",
     "code": "0x45",
     "developer_comment": "",
     "string": "――それは宇喜多が、Ｑの人間に声をかけられた時の事――"
   },
-  {
-    "index": 90,
+  "000090": {
+    "context": "000090",
     "code": "0x45",
     "developer_comment": "Ｑ",
     "string": "「Ｑはかつて、テロ組織ではなかった。単なる善意の市民団体だったのだ」"
   },
-  {
-    "index": 98,
+  "000098": {
+    "context": "000098",
     "code": "0x45",
     "developer_comment": "Ｑ",
     "string": "「その頃我々は、世に訴えかけた。『人に心を読まれたくない、そう思うのは当然の権利のはずだ』と」"
   },
-  {
-    "index": 103,
+  "000103": {
+    "context": "000103",
     "code": "0x45",
     "developer_comment": "Ｑ",
     "string": "彼は宇喜多に、そう言った。"
   },
-  {
-    "index": 108,
+  "000108": {
+    "context": "000108",
     "code": "0x45",
     "developer_comment": "Ｑ",
     "string": "その話を聞いた時は、特に気にも留めなかったが――後に宇喜多は、彼の発言の中に、気になる点を見つけた。"
   },
-  {
-    "index": 114,
+  "000114": {
+    "context": "000114",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（当時からＱは、市民団体として活動していたらしい……という事は当時から、Ｑという名を世に出していたのか？）"
   },
-  {
-    "index": 120,
+  "000120": {
+    "context": "000120",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（鹿鳴市同時多発火災が起きた時、すでにＱという組織は存在していたのか……？）"
   },
-  {
-    "index": 125,
+  "000125": {
+    "context": "000125",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は当時１９歳だったが、そんな団体・組織の名前は聞いた事がなかった。"
   },
-  {
-    "index": 185,
+  "000185": {
+    "context": "000185",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "後日その事について、Ｑの人間に確かめてみると――"
   },
-  {
-    "index": 236,
+  "000236": {
+    "context": "000236",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「ふむ……存在していたと言えるし、存在していなかったとも言えるな」"
   },
-  {
-    "index": 241,
+  "000241": {
+    "context": "000241",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "電話の向こうで彼は、そう答えた。"
   },
-  {
-    "index": 252,
+  "000252": {
+    "context": "000252",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「と言うと……？」"
   },
-  {
-    "index": 260,
+  "000260": {
+    "context": "000260",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「その頃、我々は別の組織名を名乗っていた。Ｑと名乗り始めたのは、鹿鳴市同時多発火災からかなり経った後だ」"
   },
-  {
-    "index": 268,
+  "000268": {
+    "context": "000268",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「以前話したように、我々は鹿鳴市同時多発火災の後、無実の罪で逮捕された」"
   },
-  {
-    "index": 276,
+  "000276": {
+    "context": "000276",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「異様なまでのスピード裁判。そして３年間の獄中生活」"
   },
-  {
-    "index": 284,
+  "000284": {
+    "context": "000284",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「塀の外に出てきた時には、社会はすっかり様変わりしていた……」"
   },
-  {
-    "index": 341,
+  "000341": {
+    "context": "000341",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「生まれ育った故郷には都市ゲートが築かれ、前科持ちの我々は、鹿鳴市に入る事さえ許されなくなっていた」"
   },
-  {
-    "index": 349,
+  "000349": {
+    "context": "000349",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「我々はただ、『言うべきことを主張した』だけなのにな」"
   },
-  {
-    "index": 370,
+  "000370": {
+    "context": "000370",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……その時点では……君たちに、非はないな」"
   },
-  {
-    "index": 378,
+  "000378": {
+    "context": "000378",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「そうだろう。故に我らは無実を訴えるため、再び組織を結成した」"
   },
-  {
-    "index": 386,
+  "000386": {
+    "context": "000386",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「……しかし鹿鳴市の為政者たちは、我々の想像以上に狡猾だった」"
   },
-  {
-    "index": 394,
+  "000394": {
+    "context": "000394",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「我々の団体が再結成されたのを知るや、それをも治安維持のために利用しようとしたんだよ」"
   },
-  {
-    "index": 451,
+  "000451": {
+    "context": "000451",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「国内で起こる様々なＢＣ絡みの事件――それらは全て、我々のせいにされた」"
   },
-  {
-    "index": 462,
+  "000462": {
+    "context": "000462",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なに！？　なぜそんな事を！？」"
   },
-  {
-    "index": 480,
+  "000480": {
+    "context": "000480",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「その方が治安維持のために、都合がいいからさ」"
   },
-  {
-    "index": 488,
+  "000488": {
+    "context": "000488",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「為政者は我々に『Ｑ』即ち『不明の者』などという名前をつけ、ありもしないテロ組織をでっち上げ――」"
   },
-  {
-    "index": 496,
+  "000496": {
+    "context": "000496",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「捏造した常識を、社会に定着させたんだ」"
   },
-  {
-    "index": 504,
+  "000504": {
+    "context": "000504",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「曰く、『コミュニケーターを憎む悪の組織が、日本には存在します』」"
   },
-  {
-    "index": 512,
+  "000512": {
+    "context": "000512",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「『彼らは鹿鳴市同時多発火災を起こした、最悪のテロリストたちです』」"
   },
-  {
-    "index": 520,
+  "000520": {
+    "context": "000520",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「『コミュニケーターはかわいそうな被害者。でも政令指定機密都市に来れば、安全に暮らせますよ』」"
   },
-  {
-    "index": 528,
+  "000528": {
+    "context": "000528",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「……そんな耳当たりのいい言葉を、誰もが受け入れた」"
   },
-  {
-    "index": 536,
+  "000536": {
+    "context": "000536",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「つまり我々は、公共の治安のための生贄にされたのさ」"
   },
-  {
-    "index": 562,
+  "000562": {
+    "context": "000562",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……！」"
   },
-  {
-    "index": 570,
+  "000570": {
+    "context": "000570",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「わかるかね？　これが我らが組織の誕生の経緯だ」"
   },
-  {
-    "index": 578,
+  "000578": {
+    "context": "000578",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "「敵が我々をテロ組織だというのなら、その嘘を真実に変えてやる……それが我々の、復讐心の源なんだよ」"
   },
-  {
-    "index": 585,
+  "000585": {
+    "context": "000585",
     "code": "0x45",
     "developer_comment": "曽根崎",
     "string": "宇喜多は彼の言葉に、戦慄を覚えていた。"
   },
-  {
-    "index": 597,
+  "000597": {
+    "context": "000597",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（彼らの気持ちもわかるが、しかし……！）"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "Ｑや宇喜多のとった手段は、どれだけ理由があろうと、結局はテロ行為だ。"
   },
-  {
-    "index": 607,
+  "000607": {
+    "context": "000607",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "主張が受け入れられなかったからと言って、破壊活動に走るのは、社会のルールから外れている。"
   },
-  {
-    "index": 612,
+  "000612": {
+    "context": "000612",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "しかしＱが敵対する『社会』、即ち『鹿鳴市』もまた、ルールを逸脱した事をやっているのだ。"
   },
-  {
-    "index": 618,
+  "000618": {
+    "context": "000618",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（この悪意の連鎖は……どこまで続くんだ？）"
   },
-  {
-    "index": 623,
+  "000623": {
+    "context": "000623",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "Ｑの主張は、何かが間違っている気がした。"
   },
-  {
-    "index": 628,
+  "000628": {
+    "context": "000628",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "だからと言って、誰が正しいのかはわからない。"
   },
-  {
-    "index": 634,
+  "000634": {
+    "context": "000634",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（いや……ここには正しい人間など、存在しないのかもしれない……！）"
   },
-  {
-    "index": 639,
+  "000639": {
+    "context": "000639",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "――ふと、若い頃に読んだ本の一節を思い出した。"
   },
-  {
-    "index": 644,
+  "000644": {
+    "context": "000644",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "『人々に怪物と目された者は、やがて本当に怪物になる』"
   },
-  {
-    "index": 650,
+  "000650": {
+    "context": "000650",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（怪物は……誰なんだ）"
   },
-  {
-    "index": 656,
+  "000656": {
+    "context": "000656",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（Ａか、Ｑか、鹿鳴市の連中か……）"
   },
-  {
-    "index": 662,
+  "000662": {
+    "context": "000662",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "（それとも……！）"
   }
-]
+}

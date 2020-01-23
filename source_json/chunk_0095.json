@@ -1,332 +1,332 @@
-[
-  {
-    "index": 121,
+{
+  "000121": {
+    "context": "000121",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter6"
   },
-  {
-    "index": 137,
+  "000137": {
+    "context": "000137",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬と風見はそれぞれ夏彦とサリュを背負い、第４エリア方面の連絡通路へ出た。"
   },
-  {
-    "index": 142,
+  "000142": {
+    "context": "000142",
     "code": "0x45",
     "developer_comment": "",
     "string": "第５エリアの非常階段は全て壊れているため、第４エリア経由で医務室に向かうことにしたのだ。"
   },
-  {
-    "index": 208,
+  "000208": {
+    "context": "000208",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……隊長、道中は気をつけて行きましょう」"
   },
-  {
-    "index": 219,
+  "000219": {
+    "context": "000219",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「何かあったのか？」"
   },
-  {
-    "index": 248,
+  "000248": {
+    "context": "000248",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「実はＮエリアに来る前、守部と宇喜多さんが監視ルームを飛び出していったのですが――」"
   },
-  {
-    "index": 277,
+  "000277": {
+    "context": "000277",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あの２人、かなりおかしくなっているようなんです」"
   },
-  {
-    "index": 288,
+  "000288": {
+    "context": "000288",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おかしくなってるって……」"
   },
-  {
-    "index": 317,
+  "000317": {
+    "context": "000317",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どう説明すればいいのかわかりませんが……とにかく、いま隊長が彼らと会うのは危険です」"
   },
-  {
-    "index": 322,
+  "000322": {
+    "context": "000322",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "詳しい事はわからないが、その声色と表情には、充分すぎるほど説得力があった。"
   },
-  {
-    "index": 333,
+  "000333": {
+    "context": "000333",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……わかった。ここからは慎重に行こう」"
   },
-  {
-    "index": 338,
+  "000338": {
+    "context": "000338",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは警戒しながら、連絡通路を進んだ。"
   },
-  {
-    "index": 429,
+  "000429": {
+    "context": "000429",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "幸い誰に遭遇することもなく、医務室にたどり着く事ができた。"
   },
-  {
-    "index": 479,
+  "000479": {
+    "context": "000479",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは背負っていた２人をベッドに降ろし、さっそく夏彦の治療を開始した。"
   },
-  {
-    "index": 484,
+  "000484": {
+    "context": "000484",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "風見が検査機を使い、夏彦の血液型を調べる。"
   },
-  {
-    "index": 513,
+  "000513": {
+    "context": "000513",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……出ました、ＲＨプラスＯ型です。急性反応もなし」"
   },
-  {
-    "index": 518,
+  "000518": {
+    "context": "000518",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見はＯ型の血液パックを冷蔵庫から出し、手早くそれを輸血キットにセットした。"
   },
-  {
-    "index": 523,
+  "000523": {
+    "context": "000523",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "そうして夏彦の腕に針を刺し、輸血を開始する。"
   },
-  {
-    "index": 528,
+  "000528": {
+    "context": "000528",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その間に渡瀬は、カイローンをあるだけ使って、夏彦の傷を可能な限り塞いだ。"
   },
-  {
-    "index": 539,
+  "000539": {
+    "context": "000539",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……夏彦の容態はどうなんだ？　助かりそうか？」"
   },
-  {
-    "index": 568,
+  "000568": {
+    "context": "000568",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「呼吸・脈拍ともに極めて微弱。しかしバイタルサインはかろうじて安定――」"
   },
-  {
-    "index": 597,
+  "000597": {
+    "context": "000597",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「予断を許さない状況ではありますが、このまま輸血を続ければなんとかなりそうです」"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "その言葉に、渡瀬は心から安堵した。"
   },
-  {
-    "index": 613,
+  "000613": {
+    "context": "000613",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よかった……」"
   },
-  {
-    "index": 642,
+  "000642": {
+    "context": "000642",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「しかしあくまで応急処置です。一刻も早く病院に連れて行きたいところです」"
   },
-  {
-    "index": 671,
+  "000671": {
+    "context": "000671",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ですが、その前に教えて下さい。監視ルームを出た後、いったい何があったのですか？」"
   },
-  {
-    "index": 682,
+  "000682": {
+    "context": "000682",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「実は……」"
   },
-  {
-    "index": 687,
+  "000687": {
+    "context": "000687",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "厳しい表情でこちらを見据える風見に、渡瀬はこれまでの顛末を話した。"
   },
-  {
-    "index": 692,
+  "000692": {
+    "context": "000692",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "隔壁を開けるため、火災を止めようと１人でＮエリアに向ったこと。"
   },
-  {
-    "index": 697,
+  "000697": {
+    "context": "000697",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが、そこには火災はおろか、メルトダウンを起こした原子炉もなかったこと。"
   },
-  {
-    "index": 702,
+  "000702": {
+    "context": "000702",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこで夏彦を発見し、直後に襲いかかってきたサリュを、止むを得ず気絶させたことも――。"
   },
-  {
-    "index": 731,
+  "000731": {
+    "context": "000731",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そう、だったのですか……」"
   },
-  {
-    "index": 736,
+  "000736": {
+    "context": "000736",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "それを聞き終えた風見は、考え込むようにうつむいた。"
   },
-  {
-    "index": 765,
+  "000765": {
+    "context": "000765",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……おかしな事が多すぎて、何から質問すればいいのか計りかねますが……」"
   },
-  {
-    "index": 794,
+  "000794": {
+    "context": "000794",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「まず、１つ質問が……」"
   },
-  {
-    "index": 805,
+  "000805": {
+    "context": "000805",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「隊長は、このラボについてどう思われますか？」"
   },
-  {
-    "index": 816,
+  "000816": {
+    "context": "000816",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「どう思う、とは？」"
   },
-  {
-    "index": 845,
+  "000845": {
+    "context": "000845",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「Ｎエリアには原子炉も火災もありませんでした。なのに隔壁は閉ざされたまま……」"
   },
-  {
-    "index": 874,
+  "000874": {
+    "context": "000874",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「何か理由があるとは思いませんか？」"
   },
-  {
-    "index": 885,
+  "000885": {
+    "context": "000885",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「確かにな……理由となると、オレにも見当もつかないが……」"
   },
-  {
-    "index": 896,
+  "000896": {
+    "context": "000896",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ただ原子炉がなかったという事は、ここはそもそも『原子力研究所』じゃないのかもしれない。そんな気がして仕方ない……」"
   },
-  {
-    "index": 925,
+  "000925": {
+    "context": "000925",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私もそう思います」"
   },
-  {
-    "index": 954,
+  "000954": {
+    "context": "000954",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「しかしそうなると、放射線も無いということになりますが……」"
   },
-  {
-    "index": 983,
+  "000983": {
+    "context": "000983",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私がＡＤの投与をしなかった時は、肌の痺れや頭痛などの症状が出ました」"
   },
-  {
-    "index": 994,
+  "000994": {
+    "context": "000994",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ。オレも汚染区域に入ると、頭痛や気絶、果ては吐血まで色んな症状が出た」"
   },
-  {
-    "index": 1005,
+  "001005": {
+    "context": "001005",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……だったらやっぱり、ここには何かヤバイものが蔓延してるんだよ」"
   },
-  {
-    "index": 1034,
+  "001034": {
+    "context": "001034",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「では、Ｎエリアにあったあの機械は……原子炉じゃなくて、一体なんなんでしょう？」"
   },
-  {
-    "index": 1039,
+  "001039": {
+    "context": "001039",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "風見がそう言った時――渡瀬の脳裏に、記憶のかけらが瞬いた。"
   },
-  {
-    "index": 1050,
+  "001050": {
+    "context": "001050",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……？」"
   },
-  {
-    "index": 1061,
+  "001061": {
+    "context": "001061",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そう言えば……なんかあの機械、どこかで見た気が……！」"
   },
-  {
-    "index": 1090,
+  "001090": {
+    "context": "001090",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「なんですって？　記憶を失う前ですか？」"
   },
-  {
-    "index": 1101,
+  "001101": {
+    "context": "001101",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「違う……もっと最近の、つい数時間ほど前の話だ」"
   },
-  {
-    "index": 1112,
+  "001112": {
+    "context": "001112",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あれは、確か――」"
   },
-  {
-    "index": 1117,
+  "001117": {
+    "context": "001117",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬が記憶を思い起こそうとした時、"
   },
-  {
-    "index": 1221,
+  "001221": {
+    "context": "001221",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "突如、部屋のドアが開いた。"
   }
-]
+}

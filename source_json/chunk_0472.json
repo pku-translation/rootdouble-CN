@@ -1,1916 +1,1916 @@
-[
-  {
-    "index": 60,
+{
+  "000060": {
+    "context": "000060",
     "code": "0x45",
     "developer_comment": "",
     "string": "――そして、運命の日がやってきた。"
   },
-  {
-    "index": 65,
+  "000065": {
+    "context": "000065",
     "code": "0x45",
     "developer_comment": "",
     "string": "２０３０年９月１６日、６時１９分。"
   },
-  {
-    "index": 70,
+  "000070": {
+    "context": "000070",
     "code": "0x45",
     "developer_comment": "",
     "string": "ラボの自動化された防災システムが、シリウスに救命要請を発信した。"
   },
-  {
-    "index": 75,
+  "000075": {
+    "context": "000075",
     "code": "0x45",
     "developer_comment": "",
     "string": "『施設内で、原因不明の爆発事故発生。ただちに出場を願う』"
   },
-  {
-    "index": 80,
+  "000080": {
+    "context": "000080",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはその要請を受け、ラボに急行した――。"
   },
-  {
-    "index": 150,
+  "000150": {
+    "context": "000150",
     "code": "0x45",
     "developer_comment": "",
     "string": "防護服を着て並ぶ隊員たちに、渡瀬は言う。"
   },
-  {
-    "index": 161,
+  "000161": {
+    "context": "000161",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よし、全員そのまま聞け！」"
   },
-  {
-    "index": 172,
+  "000172": {
+    "context": "000172",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「現在このラボの中には、無数の人が取り残されている！」"
   },
-  {
-    "index": 183,
+  "000183": {
+    "context": "000183",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そして施設の性質上、これは通常の出場では――」"
   },
-  {
-    "index": 188,
+  "000188": {
+    "context": "000188",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――計画は予定通りに動いていた。"
   },
-  {
-    "index": 193,
+  "000193": {
+    "context": "000193",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "宇喜多が施設内で爆弾騒ぎを起こし、渡瀬たちはラボへの侵入に成功したのだ。"
   },
-  {
-    "index": 204,
+  "000204": {
+    "context": "000204",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「――橘は守部と！　堂島は桧山とツーマンセルだ！」"
   },
-  {
-    "index": 215,
+  "000215": {
+    "context": "000215",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「Ｂチームとの連絡を欠かすな！　連携を常に取り続けろ！」"
   },
-  {
-    "index": 278,
+  "000278": {
+    "context": "000278",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう指示を出し、施設内に４名の部下を送り込む。"
   },
-  {
-    "index": 283,
+  "000283": {
+    "context": "000283",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それからしばらく地上フロアに留まり、他の隊員が計画の妨げにならないよう、現場の指揮を行なった。"
   },
-  {
-    "index": 339,
+  "000339": {
+    "context": "000339",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "なお渡瀬たちはすでに、ラボから支給されたＡＤを投与していた。"
   },
-  {
-    "index": 344,
+  "000344": {
+    "context": "000344",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "これが被曝防止剤ではなく、対ＢＣ防護剤である事は、すでに宇喜多から聞いている。"
   },
-  {
-    "index": 349,
+  "000349": {
+    "context": "000349",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "放射線被曝の恐れはなくとも、これからコミュニケーターを救出するのであれば、ＡＤを投与しておく必要はある。"
   },
-  {
-    "index": 355,
+  "000355": {
+    "context": "000355",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（万が一の事を考えとかなきゃまずい）"
   },
-  {
-    "index": 408,
+  "000408": {
+    "context": "000408",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（閉じ込められてる被験体たちが、『Ａ』と同等の力を持っているとしたら、ＢＣによって精神を汚染される可能性がある）"
   },
-  {
-    "index": 413,
+  "000413": {
+    "context": "000413",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はそう思っていた。"
   },
-  {
-    "index": 464,
+  "000464": {
+    "context": "000464",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――そして６時３４分、堂島と桧山から無線通信が入った。"
   },
-  {
-    "index": 472,
+  "000472": {
+    "context": "000472",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「笠鷺、すぐに地下に来てくれ！」"
   },
-  {
-    "index": 480,
+  "000480": {
+    "context": "000480",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「時間がありません、急いで！」"
   },
-  {
-    "index": 485,
+  "000485": {
+    "context": "000485",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "彼らは渡瀬を、隊長とは呼ばなかった。"
   },
-  {
-    "index": 490,
+  "000490": {
+    "context": "000490",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "それも当然だ。今日は仕事ではない。"
   },
-  {
-    "index": 495,
+  "000495": {
+    "context": "000495",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "この２人とは長年の付き合いであり、仕事を離れれば上下関係なく、互いに同等の口調で話す友なのだ。"
   },
-  {
-    "index": 506,
+  "000506": {
+    "context": "000506",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「わかった、そこで待ってろ！」"
   },
-  {
-    "index": 517,
+  "000517": {
+    "context": "000517",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "これも手はず通り。"
   },
-  {
-    "index": 522,
+  "000522": {
+    "context": "000522",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "司令長がこの無線を傍受していても、怪しまれはしないはずだ。"
   },
-  {
-    "index": 573,
+  "000573": {
+    "context": "000573",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "第２エリアで、堂島・桧山と合流する。"
   },
-  {
-    "index": 578,
+  "000578": {
+    "context": "000578",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "途中、昨日さんざん脅して縛り上げておいたはずの学生たちと、なぜかまたしても遭遇するなどのアクシデントがあったが――"
   },
-  {
-    "index": 583,
+  "000583": {
+    "context": "000583",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "それも退け、渡瀬たちは歩みを進めた。"
   },
-  {
-    "index": 588,
+  "000588": {
+    "context": "000588",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして気絶させた幹部研究員２名を抱え、今度は第３エリアに向かう。"
   },
-  {
-    "index": 657,
+  "000657": {
+    "context": "000657",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "監視ルームに着くと、宇喜多が待っていた。"
   },
-  {
-    "index": 662,
+  "000662": {
+    "context": "000662",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "彼は監視ルームで施設内の様子を見ながら、職員たちの避難誘導放送をしていたのだ。"
   },
-  {
-    "index": 673,
+  "000673": {
+    "context": "000673",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「おお、ちょうどいいところに来てくれた！」"
   },
-  {
-    "index": 684,
+  "000684": {
+    "context": "000684",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「さっき地上と有線電話で話し、職員たちが全員避難したことを確認したよ。その２名を除いてね」"
   },
-  {
-    "index": 690,
+  "000690": {
+    "context": "000690",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "『その２名』とは、渡瀬たちが抱えている、幹部研究員たちの事だ。"
   },
-  {
-    "index": 701,
+  "000701": {
+    "context": "000701",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「さらにさきほどＢｒａｉｎＣｅｌｌを操作し、ＷＸ粒子増幅器を暴走させた」"
   },
-  {
-    "index": 712,
+  "000712": {
+    "context": "000712",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「これでケースＮを発生させれば、隔壁は長時間閉まりっぱなしになる」"
   },
-  {
-    "index": 723,
+  "000723": {
+    "context": "000723",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ＢｒａｉｎＣｅｌｌの計算によれば、『１８時１６分』までな」"
   },
-  {
-    "index": 734,
+  "000734": {
+    "context": "000734",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よし……万事予定通りだな」"
   },
-  {
-    "index": 742,
+  "000742": {
+    "context": "000742",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは、装備を確認した。"
   },
-  {
-    "index": 747,
+  "000747": {
+    "context": "000747",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "Ｎエリアに侵入するためのセキュリティカードは、幹部研究員が持っていたものを奪った。"
   },
-  {
-    "index": 752,
+  "000752": {
+    "context": "000752",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "拳銃は、渡瀬と堂島と桧山が１丁ずつ持っている。"
   },
-  {
-    "index": 757,
+  "000757": {
+    "context": "000757",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そしてパイプから脱出する際に使う削岩機。バックアップとしての防火斧。"
   },
-  {
-    "index": 762,
+  "000762": {
+    "context": "000762",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "最後に、『テトリル爆弾』―― 一撃でラボ全体を破壊する威力を秘めた、Ｑが用意した時限爆弾だ。"
   },
-  {
-    "index": 919,
+  "000919": {
+    "context": "000919",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……悪いが爆破時刻を、ここでセットしてくれないか。間違いがあったら困る」"
   },
-  {
-    "index": 930,
+  "000930": {
+    "context": "000930",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いいだろう。１８時１７分だな」"
   },
-  {
-    "index": 935,
+  "000935": {
+    "context": "000935",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そう言われた渡瀬は、ＰＤＡを取り出した。"
   },
-  {
-    "index": 980,
+  "000980": {
+    "context": "000980",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "このＰＤＡのデータフォルダには、テトリル爆弾の起動用プログラムが仕込まれている。"
   },
-  {
-    "index": 1040,
+  "001040": {
+    "context": "001040",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "パスワードを入力し、そのプログラムを立ち上げると、ディスプレイに爆破時刻セット画面が表示された。"
   },
-  {
-    "index": 1290,
+  "001290": {
+    "context": "001290",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……あとはこれを、Ｚｅｒｏエリアに仕掛けるだけだ」"
   },
-  {
-    "index": 1301,
+  "001301": {
+    "context": "001301",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いよいよ後戻りはできないな」"
   },
-  {
-    "index": 1306,
+  "001306": {
+    "context": "001306",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多の言葉に、渡瀬は神妙にうなずいた。"
   },
-  {
-    "index": 1311,
+  "001311": {
+    "context": "001311",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "プログラムは爆弾起動用のものだけで、停止用のものは存在しない。"
   },
-  {
-    "index": 1316,
+  "001316": {
+    "context": "001316",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "８時１７分からは解体防止用のセンサーも起動し、誰にも止められなくなるのだ。"
   },
-  {
-    "index": 1366,
+  "001366": {
+    "context": "001366",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「じゃあ俺たちはＺｅｒｏエリアに降り、被験体を救出してくる」"
   },
-  {
-    "index": 1377,
+  "001377": {
+    "context": "001377",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「僕はここに留まり、不測の事態が起きないかどうか見張っておこう」"
   },
-  {
-    "index": 1388,
+  "001388": {
+    "context": "001388",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なおＮエリアのＷＸ粒子は、今から２０分もすれば『４０００ｍＳｖ』を超えるはずだ」"
   },
-  {
-    "index": 1399,
+  "001399": {
+    "context": "001399",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「その数値を超えると、ＡＤの効果は消える……時間がないぞ、急げ！」"
   },
-  {
-    "index": 1410,
+  "001410": {
+    "context": "001410",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ああ！」"
   },
-  {
-    "index": 1415,
+  "001415": {
+    "context": "001415",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは宇喜多に削岩機を預け、監視ルームを飛び出した。"
   },
-  {
-    "index": 1473,
+  "001473": {
+    "context": "001473",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は爆弾を抱え、堂島と桧山は幹部研究員を抱え、Ｎエリアを目指す。"
   },
-  {
-    "index": 1478,
+  "001478": {
+    "context": "001478",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "やがて分厚いセキュリティゲートが見えてきた。"
   },
-  {
-    "index": 1511,
+  "001511": {
+    "context": "001511",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「ここが『Ｎエリア』か……」"
   },
-  {
-    "index": 1544,
+  "001544": {
+    "context": "001544",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「この先に、例の２人が閉じ込められてるっていうんですか？」"
   },
-  {
-    "index": 1555,
+  "001555": {
+    "context": "001555",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうさ……だから行こう」"
   },
-  {
-    "index": 1560,
+  "001560": {
+    "context": "001560",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は同志たちに、そう告げた。"
   },
-  {
-    "index": 1565,
+  "001565": {
+    "context": "001565",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "堂島も桧山も、１６年前の火災で、大事な者を失った。"
   },
-  {
-    "index": 1570,
+  "001570": {
+    "context": "001570",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "この計画が成功したところで、死んだ者たちが戻ってくるわけではないが――"
   },
-  {
-    "index": 1581,
+  "001581": {
+    "context": "001581",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あの時、俺たちは誰も救えなかった……」"
   },
-  {
-    "index": 1592,
+  "001592": {
+    "context": "001592",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「その贖罪をする時が、ようやく来たんだよ」"
   },
-  {
-    "index": 1597,
+  "001597": {
+    "context": "001597",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その決意を胸に、渡瀬たちはＮエリアに足を踏み入れた。"
   },
-  {
-    "index": 1700,
+  "001700": {
+    "context": "001700",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "Ｎエリアに足を踏み入れても、プロキオンの警告音は鳴らなかった。"
   },
-  {
-    "index": 1705,
+  "001705": {
+    "context": "001705",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "まだＷＸ粒子とやらのエネルギー量は、人体に影響を与えるほどにはなっていないのだろう。"
   },
-  {
-    "index": 1710,
+  "001710": {
+    "context": "001710",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そしてＮエリアの中央には、透明な筒状のエレベーターがあった。"
   },
-  {
-    "index": 1715,
+  "001715": {
+    "context": "001715",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこに備え付けられた端末に『レベルＮ』のカードを通し、幹部研究員２名の網膜を認証させれば――"
   },
-  {
-    "index": 1720,
+  "001720": {
+    "context": "001720",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "地下３階『Ｚｅｒｏエリア』への道が開くのだという。"
   },
-  {
-    "index": 1726,
+  "001726": {
+    "context": "001726",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（急ごう、幹部研究員たちが目を覚ます前に！）"
   },
-  {
-    "index": 1732,
+  "001732": {
+    "context": "001732",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちはエレベーターに近づき、端末を操作した。"
   },
-  {
-    "index": 1743,
+  "001743": {
+    "context": "001743",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "セキュリティカードをスロットに通すと、自動音声が流れた。"
   },
-  {
-    "index": 1751,
+  "001751": {
+    "context": "001751",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "「登録者の網膜を確認します。センサーに目を近づけてください」"
   },
-  {
-    "index": 1756,
+  "001756": {
+    "context": "001756",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "言われるままに、気絶中の幹部研究員の目を開かせ、センサーに近づける。"
   },
-  {
-    "index": 1770,
+  "001770": {
+    "context": "001770",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "「――Ｚｅｒｏエリア担当管理官・江里口修也の網膜を確認しました」"
   },
-  {
-    "index": 1790,
+  "001790": {
+    "context": "001790",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "「Ｚｅｒｏエリア担当管理官・柏木諒謙の網膜を確認しました」"
   },
-  {
-    "index": 1795,
+  "001795": {
+    "context": "001795",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "認証を済ませると、渡瀬たちはエレベーターの中に乗り込む。"
   },
-  {
-    "index": 1809,
+  "001809": {
+    "context": "001809",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "「エレベーターが降下します。ＡＤの投与がお済みでない場合、直ちに投与してください」"
   },
-  {
-    "index": 1836,
+  "001836": {
+    "context": "001836",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "その声と共に、がくんと床が揺れ、エレベーターが降下し始めた。"
   },
-  {
-    "index": 1850,
+  "001850": {
+    "context": "001850",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "そしてそのエレベーターが下りた先に、待ち受けていたものは――"
   },
-  {
-    "index": 1855,
+  "001855": {
+    "context": "001855",
     "code": "0x45",
     "developer_comment": "自動音声",
     "string": "渡瀬たちの、予想もしない光景だった。"
   },
-  {
-    "index": 2006,
+  "002006": {
+    "context": "002006",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「な……なんだこれは！？」"
   },
-  {
-    "index": 2079,
+  "002079": {
+    "context": "002079",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「ラボの地下に、こんなものが……？」"
   },
-  {
-    "index": 2112,
+  "002112": {
+    "context": "002112",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "それは巨大な地下庭園だった。"
   },
-  {
-    "index": 2130,
+  "002130": {
+    "context": "002130",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "施設外から採光されたと思しき陽光が、辺りを照らしている。"
   },
-  {
-    "index": 2135,
+  "002135": {
+    "context": "002135",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "そして天井と壁は、青空――いや、空の映像を投影した、巨大なスクリーンになっていた。"
   },
-  {
-    "index": 2141,
+  "002141": {
+    "context": "002141",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（なんのために、こんなものを……）"
   },
-  {
-    "index": 2149,
+  "002149": {
+    "context": "002149",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……いや、そんなことより、早く被験体を救出せねば！）"
   },
-  {
-    "index": 2154,
+  "002154": {
+    "context": "002154",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "地下庭園の周囲を見回すと、壁面に６つの扉があった。"
   },
-  {
-    "index": 2159,
+  "002159": {
+    "context": "002159",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "扉の１つには『Ｒｅｌａｘ　Ｒｏｏｍ』。"
   },
-  {
-    "index": 2164,
+  "002164": {
+    "context": "002164",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その隣の扉には『Ｐｌａｙ　Ｒｏｏｍ』と書いてある。これらは被験体の慰安用だろうか。"
   },
-  {
-    "index": 2169,
+  "002169": {
+    "context": "002169",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その脇の２つは、何も書いてない扉だった。空室らしい。"
   },
-  {
-    "index": 2174,
+  "002174": {
+    "context": "002174",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そして残る２つの扉に、それぞれ――"
   },
-  {
-    "index": 2179,
+  "002179": {
+    "context": "002179",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "『Ｓｕｂｊｅｃｔ　ＹⅡ』『Ｓｕｂｊｅｃｔ　Ｎ』と書かれていた。"
   },
-  {
-    "index": 2190,
+  "002190": {
+    "context": "002190",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「『Ｓｕｂｊｅｃｔ　ＹⅡ』……被験体ＹⅡか！」"
   },
-  {
-    "index": 2195,
+  "002195": {
+    "context": "002195",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちはその扉に駆け寄った。"
   },
-  {
-    "index": 2200,
+  "002200": {
+    "context": "002200",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "扉にはまたもセキュリティスロットがある。"
   },
-  {
-    "index": 2211,
+  "002211": {
+    "context": "002211",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "試しにレベルＮのカードを通してみると、それは開いた。"
   },
-  {
-    "index": 2269,
+  "002269": {
+    "context": "002269",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――扉の向こうにも、分厚そうな扉があった。"
   },
-  {
-    "index": 2274,
+  "002274": {
+    "context": "002274",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこにもまた網膜認証機があったので、研究員２名の網膜を認証させると――"
   },
-  {
-    "index": 2337,
+  "002337": {
+    "context": "002337",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "重々しい音と共に、扉が開いた。"
   },
-  {
-    "index": 2407,
+  "002407": {
+    "context": "002407",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なっ……これが被験体ＹⅡの部屋か？」"
   },
-  {
-    "index": 2412,
+  "002412": {
+    "context": "002412",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "そこはまるで、普通の女の子の部屋のようだった。"
   },
-  {
-    "index": 2418,
+  "002418": {
+    "context": "002418",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "本棚、"
   },
-  {
-    "index": 2434,
+  "002434": {
+    "context": "002434",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "シングルベッド、"
   },
-  {
-    "index": 2447,
+  "002447": {
+    "context": "002447",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "編み物の道具、"
   },
-  {
-    "index": 2460,
+  "002460": {
+    "context": "002460",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "ドレッサー……。"
   },
-  {
-    "index": 2466,
+  "002466": {
+    "context": "002466",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "座敷牢のようなものを想像していたが、それなりにいい居室を与えられているらしい。"
   },
-  {
-    "index": 2471,
+  "002471": {
+    "context": "002471",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "内装品を見る限り、被験体ＹⅡは、どうやら年頃の少女のようだ。"
   },
-  {
-    "index": 2476,
+  "002476": {
+    "context": "002476",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが肝心の、被験体ＹⅡの姿が――どこにも、無い。"
   },
-  {
-    "index": 2487,
+  "002487": {
+    "context": "002487",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「バカな……誰もいないだって！？」"
   },
-  {
-    "index": 2492,
+  "002492": {
+    "context": "002492",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "見れば部屋の扉の内側にも、セキュリティスロットがある。"
   },
-  {
-    "index": 2497,
+  "002497": {
+    "context": "002497",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "被験体にセキュリティカードを渡すとは思えないし、自力で脱出する事は不可能だろう。"
   },
-  {
-    "index": 2536,
+  "002536": {
+    "context": "002536",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「騙されたのか、俺たちは！？」"
   },
-  {
-    "index": 2569,
+  "002569": {
+    "context": "002569",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「なぜ……誰に！？」"
   },
-  {
-    "index": 2595,
+  "002595": {
+    "context": "002595",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「まさか宇喜多さんの情報が、ガセで――」"
   },
-  {
-    "index": 2606,
+  "002606": {
+    "context": "002606",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いや待て！　そんなワケはない！」"
   },
-  {
-    "index": 2611,
+  "002611": {
+    "context": "002611",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は幹部研究員たちを見た。"
   },
-  {
-    "index": 2622,
+  "002622": {
+    "context": "002622",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「異変を察したこいつらが、すでに被験体たちを逃がすか隠すかしたんじゃないか……！？」"
   },
-  {
-    "index": 2648,
+  "002648": {
+    "context": "002648",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「だとしたらまずいぞ！　ここまで来たのが無駄になる！　探そう！」"
   },
-  {
-    "index": 2653,
+  "002653": {
+    "context": "002653",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "渡瀬たちは慌てて、その部屋を出た。"
   },
-  {
-    "index": 2704,
+  "002704": {
+    "context": "002704",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "しかし『Ｐｌａｙ　Ｒｏｏｍ』や『Ｒｅｌａｘ　Ｒｏｏｍ』、それから空室の中も確認したが、被験体らしき者の姿はなかった。"
   },
-  {
-    "index": 2758,
+  "002758": {
+    "context": "002758",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「これは……ひょっとして、被験体Ｎも！？」"
   },
-  {
-    "index": 2763,
+  "002763": {
+    "context": "002763",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "被験体２名がどちらも見つからなければ、計画は大きく狂ってしまう。"
   },
-  {
-    "index": 2768,
+  "002768": {
+    "context": "002768",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは被験体Ｎの部屋に向かった。"
   },
-  {
-    "index": 2826,
+  "002826": {
+    "context": "002826",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――だが、その扉の前に来たとき――"
   },
-  {
-    "index": 2834,
+  "002834": {
+    "context": "002834",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「……ぅ……くっ……！」"
   },
-  {
-    "index": 2842,
+  "002842": {
+    "context": "002842",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「こ……ここは！？」"
   },
-  {
-    "index": 2847,
+  "002847": {
+    "context": "002847",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "堂島と桧山が抱えていた研究員たちが、目を覚ました。"
   },
-  {
-    "index": 2873,
+  "002873": {
+    "context": "002873",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「！！」"
   },
-  {
-    "index": 2878,
+  "002878": {
+    "context": "002878",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "息を呑む渡瀬たちに、研究員たちが問う。"
   },
-  {
-    "index": 2886,
+  "002886": {
+    "context": "002886",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「き、君たちは……なんだ、何者だ！？」"
   },
-  {
-    "index": 2897,
+  "002897": {
+    "context": "002897",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……レスキュー隊だ」"
   },
-  {
-    "index": 2905,
+  "002905": {
+    "context": "002905",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「レスキュー隊だと……？」"
   },
-  {
-    "index": 2913,
+  "002913": {
+    "context": "002913",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「い、いや、それよりここは――Ｚｅｒｏエリアじゃないか！」"
   },
-  {
-    "index": 2921,
+  "002921": {
+    "context": "002921",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「なんだこれは！　どうなってる！？」"
   },
-  {
-    "index": 2929,
+  "002929": {
+    "context": "002929",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「なぜレスキュー隊が、こんな最深部まで降りてくるんだ！？」"
   },
-  {
-    "index": 2934,
+  "002934": {
+    "context": "002934",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "２人に詰め寄られた渡瀬は、一瞬で覚悟を決めた。"
   },
-  {
-    "index": 2940,
+  "002940": {
+    "context": "002940",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（仕方ない……こんな真似はしたくなかったが！）"
   },
-  {
-    "index": 3047,
+  "003047": {
+    "context": "003047",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は懐に隠していた銃を抜き、研究員たちに突きつけた。"
   },
-  {
-    "index": 3058,
+  "003058": {
+    "context": "003058",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「騒ぐな！　騒ぐと撃つ！」"
   },
-  {
-    "index": 3066,
+  "003066": {
+    "context": "003066",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「なっ！？」"
   },
-  {
-    "index": 3077,
+  "003077": {
+    "context": "003077",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「俺たちはレスキュー隊員であると同時に、ある組織のメンバーでもあるんだ」"
   },
-  {
-    "index": 3088,
+  "003088": {
+    "context": "003088",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「『Ｑ』――この名前を聞いて、ピンとこないか？」"
   },
-  {
-    "index": 3093,
+  "003093": {
+    "context": "003093",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その名を聞いて、研究員たちの表情が強張った。"
   },
-  {
-    "index": 3101,
+  "003101": {
+    "context": "003101",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「ま……まさか！」"
   },
-  {
-    "index": 3109,
+  "003109": {
+    "context": "003109",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「この爆弾騒ぎは、お前らが起こしたものか！？」"
   },
-  {
-    "index": 3120,
+  "003120": {
+    "context": "003120",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「その通りだ」"
   },
-  {
-    "index": 3131,
+  "003131": {
+    "context": "003131",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「俺たちの目的は、被験体を連れ去る事だ。邪魔しなければ、お前たちに危害は加えない」"
   },
-  {
-    "index": 3139,
+  "003139": {
+    "context": "003139",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「つ……連れ去るだと！？」"
   },
-  {
-    "index": 3147,
+  "003147": {
+    "context": "003147",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「バカな！　この中にいるコミュニケーターを、外に連れ出そうというのか！？」"
   },
-  {
-    "index": 3158,
+  "003158": {
+    "context": "003158",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そのまさかだ。お前たちのやってきた事を、世間様に知ってもらうためにもな」"
   },
-  {
-    "index": 3166,
+  "003166": {
+    "context": "003166",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「やめろ！　お前たちは自分が何をしようとしてるか、わかってるのか！？」"
   },
-  {
-    "index": 3174,
+  "003174": {
+    "context": "003174",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「この中にいるのは、ただのコミュニケーターなんかじゃない！　正真正銘の怪物なんだぞ！」"
   },
-  {
-    "index": 3185,
+  "003185": {
+    "context": "003185",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なんだそれは？　そんなことを言って、俺たちがビビるとでも？」"
   },
-  {
-    "index": 3193,
+  "003193": {
+    "context": "003193",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「悪意を増幅されて――」"
   },
-  {
-    "index": 3204,
+  "003204": {
+    "context": "003204",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「馬鹿が、俺たちはＡＤを投与してるんだよ」"
   },
-  {
-    "index": 3215,
+  "003215": {
+    "context": "003215",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「時間稼ぎのつもりなら無駄だ！　いいから早く扉を開けろ！」"
   },
-  {
-    "index": 3223,
+  "003223": {
+    "context": "003223",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「しかし――！」"
   },
-  {
-    "index": 3284,
+  "003284": {
+    "context": "003284",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "研究員の言葉は、銃声に遮られた。"
   },
-  {
-    "index": 3293,
+  "003293": {
+    "context": "003293",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "渡瀬が威嚇のために、天井を撃ったのだ。"
   },
-  {
-    "index": 3304,
+  "003304": {
+    "context": "003304",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「悠長に話している時間はないんだ。あまり手こずらせると、次は当てる」"
   },
-  {
-    "index": 3312,
+  "003312": {
+    "context": "003312",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「……っ」"
   },
-  {
-    "index": 3317,
+  "003317": {
+    "context": "003317",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "怯えた表情を浮かべる研究員をよそに、堂島と桧山に言う。"
   },
-  {
-    "index": 3328,
+  "003328": {
+    "context": "003328",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「堂島、桧山、こいつらの目を使って、網膜認証を済ませてくれ」"
   },
-  {
-    "index": 3339,
+  "003339": {
+    "context": "003339",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「またゴネたら、そいつの目を……な？」"
   },
-  {
-    "index": 3344,
+  "003344": {
+    "context": "003344",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "脅しの言葉を言うと、堂島たちがそれに乗った。"
   },
-  {
-    "index": 3387,
+  "003387": {
+    "context": "003387",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「おう。それでも多分、扉は開くだろうしな」"
   },
-  {
-    "index": 3395,
+  "003395": {
+    "context": "003395",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「ホラお前ら、こっちに来い！」"
   },
-  {
-    "index": 3403,
+  "003403": {
+    "context": "003403",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「よ、よせ！　何をする！」"
   },
-  {
-    "index": 3411,
+  "003411": {
+    "context": "003411",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「せめてＡＤを！　ＡＤを投与させてくれ！　そうしなければ我々は――」"
   },
-  {
-    "index": 3438,
+  "003438": {
+    "context": "003438",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「時間稼ぎもいい加減にしろ！　本当に撃たれたいのか！」"
   },
-  {
-    "index": 3443,
+  "003443": {
+    "context": "003443",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "暴れる研究員たちを、堂島たちが捕まえ、無理やり網膜を認証させる。"
   },
-  {
-    "index": 3510,
+  "003510": {
+    "context": "003510",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「やめろぉおおお！！」"
   },
-  {
-    "index": 3515,
+  "003515": {
+    "context": "003515",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "研究員の悲痛な声と共に――"
   },
-  {
-    "index": 3563,
+  "003563": {
+    "context": "003563",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "被験体Ｎの部屋の扉は開いた。"
   },
-  {
-    "index": 3615,
+  "003615": {
+    "context": "003615",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "その瞬間、胸を洗うような、清々しい『花の香り』が漂った。"
   },
-  {
-    "index": 3620,
+  "003620": {
+    "context": "003620",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "まるで花畑にでも来たかのように――"
   },
-  {
-    "index": 3626,
+  "003626": {
+    "context": "003626",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（なんだ……！？）"
   },
-  {
-    "index": 3631,
+  "003631": {
+    "context": "003631",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが、扉の向こうの光景は――"
   },
-  {
-    "index": 3636,
+  "003636": {
+    "context": "003636",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "無論、花畑などではなかった。"
   },
-  {
-    "index": 3753,
+  "003753": {
+    "context": "003753",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「…………なっ……」"
   },
-  {
-    "index": 3758,
+  "003758": {
+    "context": "003758",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はまたしても、言葉を失った。"
   },
-  {
-    "index": 3766,
+  "003766": {
+    "context": "003766",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「なん、だ、これは……！？」"
   },
-  {
-    "index": 3771,
+  "003771": {
+    "context": "003771",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "それはあまりにも、異様な光景だった。"
   },
-  {
-    "index": 3776,
+  "003776": {
+    "context": "003776",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "花の香りに満ち、たくさんのぬいぐるみが飾られたその部屋の中央に……"
   },
-  {
-    "index": 3781,
+  "003781": {
+    "context": "003781",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "少女が吊り下げられていたのだ。"
   },
-  {
-    "index": 3786,
+  "003786": {
+    "context": "003786",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "まるで獰猛な猛獣であるかのように、少女は拘束具でがんじがらめにされている。"
   },
-  {
-    "index": 3791,
+  "003791": {
+    "context": "003791",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "部屋の隅には芳香剤が置かれており、そこから香りが漂っているようだ。"
   },
-  {
-    "index": 3796,
+  "003796": {
+    "context": "003796",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "それに包まれて、彼女は虚空を見つめている。"
   },
-  {
-    "index": 3808,
+  "003808": {
+    "context": "003808",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「この娘が……被験体Ｎ……！？」"
   },
-  {
-    "index": 3813,
+  "003813": {
+    "context": "003813",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――渡瀬はもう１度、彼女に声をかけた。"
   },
-  {
-    "index": 3824,
+  "003824": {
+    "context": "003824",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お、おい……？」"
   },
-  {
-    "index": 3869,
+  "003869": {
+    "context": "003869",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その声に反応したのか、少女が渡瀬を見た。"
   },
-  {
-    "index": 3889,
+  "003889": {
+    "context": "003889",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが彼女の虚ろな眼を覗いた途端、渡瀬は体温が２、３度下がった気がした。"
   },
-  {
-    "index": 3894,
+  "003894": {
+    "context": "003894",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "あらゆる感情を喪失したような、光無き双眸。"
   },
-  {
-    "index": 3899,
+  "003899": {
+    "context": "003899",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "覗いてはいけない深淵を、過って覗いてしまったかのような恐怖が――"
   },
-  {
-    "index": 3911,
+  "003911": {
+    "context": "003911",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「これは……いったい何なんだ！？」"
   },
-  {
-    "index": 3919,
+  "003919": {
+    "context": "003919",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「お前ら、この子に何をした！？」"
   },
-  {
-    "index": 3925,
+  "003925": {
+    "context": "003925",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「……」"
   },
-  {
-    "index": 3936,
+  "003936": {
+    "context": "003936",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だんまりか……クソ、いいだろう！」"
   },
-  {
-    "index": 3947,
+  "003947": {
+    "context": "003947",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「堂島、こいつらを見張っといてくれ！　桧山は拘束を解くのを手伝ってくれ！」"
   },
-  {
-    "index": 3955,
+  "003955": {
+    "context": "003955",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "「あ、ああ！」"
   },
-  {
-    "index": 3960,
+  "003960": {
+    "context": "003960",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "堂島と桧山は、我に返ったように動き出した。"
   },
-  {
-    "index": 3978,
+  "003978": {
+    "context": "003978",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "堂島が研究員たちを、室外の壁に押し付ける。"
   },
-  {
-    "index": 3983,
+  "003983": {
+    "context": "003983",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "そして扉が再び閉まらないように、開口部を固定した。"
   },
-  {
-    "index": 4041,
+  "004041": {
+    "context": "004041",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "その間に渡瀬たちは、拘束具から少女の解放を試みる。"
   },
-  {
-    "index": 4047,
+  "004047": {
+    "context": "004047",
     "code": "0x45",
     "developer_comment": "堂島・桧山",
     "string": "多少苦労したが、彼女の戒めを解く事に成功した。"
   },
-  {
-    "index": 4120,
+  "004120": {
+    "context": "004120",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……大丈夫か？」"
   },
-  {
-    "index": 4126,
+  "004126": {
+    "context": "004126",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "「……」"
   },
-  {
-    "index": 4131,
+  "004131": {
+    "context": "004131",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "渡瀬たちはその部屋から、被験体Ｎを連れ出した。"
   },
-  {
-    "index": 4136,
+  "004136": {
+    "context": "004136",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "だが彼女は何も反応しない。"
   },
-  {
-    "index": 4141,
+  "004141": {
+    "context": "004141",
     "code": "0x45",
     "developer_comment": "少女",
     "string": "むしろ声をかけられた事にさえ、気付いていないかのようだ。"
   },
-  {
-    "index": 4147,
+  "004147": {
+    "context": "004147",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（精神が……崩壊してるのか？）"
   },
-  {
-    "index": 4153,
+  "004153": {
+    "context": "004153",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（まさか、人体実験の影響で！？）"
   },
-  {
-    "index": 4158,
+  "004158": {
+    "context": "004158",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬の心の中に、強烈な怒りの念が湧く。"
   },
-  {
-    "index": 4163,
+  "004163": {
+    "context": "004163",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "いくらなんでもか弱い女の子に、こんな仕打ちをするとは――！"
   },
-  {
-    "index": 4202,
+  "004202": {
+    "context": "004202",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おい、お前ら！　この子は俺たちが連れていく！」"
   },
-  {
-    "index": 4213,
+  "004213": {
+    "context": "004213",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「この子の事が世に知れれば、お前たちは破滅だ！　法の裁きを受けて、自分らの罪を思い知れ！」"
   },
-  {
-    "index": 4219,
+  "004219": {
+    "context": "004219",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「……」"
   },
-  {
-    "index": 4224,
+  "004224": {
+    "context": "004224",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "だが、研究員たちは反応しなかった。"
   },
-  {
-    "index": 4229,
+  "004229": {
+    "context": "004229",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "かすかな声で、ぶつぶつと何か呟いている。"
   },
-  {
-    "index": 4237,
+  "004237": {
+    "context": "004237",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「破滅……破滅か……お前たちのせいで、なにもかも……」"
   },
-  {
-    "index": 4245,
+  "004245": {
+    "context": "004245",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「もうだめだ……ＡＤがないから、私たちは……」"
   },
-  {
-    "index": 4253,
+  "004253": {
+    "context": "004253",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「救出など……なにも知らないくせに、救出などと……」"
   },
-  {
-    "index": 4259,
+  "004259": {
+    "context": "004259",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……なんだ？）"
   },
-  {
-    "index": 4266,
+  "004266": {
+    "context": "004266",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は何か訝しいものを感じた。研究員たちの様子がおかしい。"
   },
-  {
-    "index": 4299,
+  "004299": {
+    "context": "004299",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「……おい？　聞いてるのか！？」"
   },
-  {
-    "index": 4304,
+  "004304": {
+    "context": "004304",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "堂島が銃を手に、研究員に歩み寄った時――"
   },
-  {
-    "index": 4312,
+  "004312": {
+    "context": "004312",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「――Ｎの恐ろしさも知らない馬鹿どもがァ！！」"
   },
-  {
-    "index": 4382,
+  "004382": {
+    "context": "004382",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "研究員の１人が激昂し、堂島に飛び掛った。"
   },
-  {
-    "index": 4390,
+  "004390": {
+    "context": "004390",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「なっ！？」"
   },
-  {
-    "index": 4430,
+  "004430": {
+    "context": "004430",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "堂島は慌てて応戦しようとした。"
   },
-  {
-    "index": 4476,
+  "004476": {
+    "context": "004476",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "だが腕を掴まれ、銃を奪われかける。"
   },
-  {
-    "index": 4487,
+  "004487": {
+    "context": "004487",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「やめろ、何をしてる！」"
   },
-  {
-    "index": 4495,
+  "004495": {
+    "context": "004495",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「お前らこそ何が救出だ！　正義気取りの偽善者が！！」"
   },
-  {
-    "index": 4503,
+  "004503": {
+    "context": "004503",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「銃をよこせ、こいつを外に逃がすくらいなら今ここで――！！」"
   },
-  {
-    "index": 4511,
+  "004511": {
+    "context": "004511",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「よ、よせ、危ないッ！！」"
   },
-  {
-    "index": 4516,
+  "004516": {
+    "context": "004516",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "堂島がそう叫んだ時――"
   },
-  {
-    "index": 4593,
+  "004593": {
+    "context": "004593",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "銃声が、鳴り響いた。"
   },
-  {
-    "index": 4601,
+  "004601": {
+    "context": "004601",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "「かっ……」"
   },
-  {
-    "index": 4612,
+  "004612": {
+    "context": "004612",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "研究員の片割れが、胸から血を噴いて、前のめりに崩れ落ちる。"
   },
-  {
-    "index": 4673,
+  "004673": {
+    "context": "004673",
     "code": "0x45",
     "developer_comment": "江里口",
     "string": "飛び散った返り血が、堂島の服にかかった。"
   },
-  {
-    "index": 4684,
+  "004684": {
+    "context": "004684",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……あ……」"
   },
-  {
-    "index": 4689,
+  "004689": {
+    "context": "004689",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬たちは凍りついたように、その場に立ち尽くした。"
   },
-  {
-    "index": 4694,
+  "004694": {
+    "context": "004694",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "やがてもう１人の研究員が、割れた声を上げる。"
   },
-  {
-    "index": 4702,
+  "004702": {
+    "context": "004702",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「あああああ死んだ殺した！　ひッ人殺し！！　人殺しィ！！」"
   },
-  {
-    "index": 4729,
+  "004729": {
+    "context": "004729",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「ち、違う！　今のは事故――！」"
   },
-  {
-    "index": 4737,
+  "004737": {
+    "context": "004737",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「何がレスキュー隊だ人を殺しておいて！　江里口の仇だお前も死ねェッ！」"
   },
-  {
-    "index": 4786,
+  "004786": {
+    "context": "004786",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「やめろ――ぐっ！」"
   },
-  {
-    "index": 4797,
+  "004797": {
+    "context": "004797",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "研究員が堂島に飛びつき、立ったまま両手で首を締めた。"
   },
-  {
-    "index": 4802,
+  "004802": {
+    "context": "004802",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "渡瀬は呆然と、その光景を見ていた。"
   },
-  {
-    "index": 4855,
+  "004855": {
+    "context": "004855",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（な、なんだこれ……なんなんだこいつら……！？）"
   },
-  {
-    "index": 4861,
+  "004861": {
+    "context": "004861",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（どうして急に、こんな風に！？）"
   },
-  {
-    "index": 4867,
+  "004867": {
+    "context": "004867",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（まさか例の『悪意』の影響か！？　こんなに早く――！？）"
   },
-  {
-    "index": 4872,
+  "004872": {
+    "context": "004872",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "混乱する思考は、堂島の苦しげな声で中断した。"
   },
-  {
-    "index": 4880,
+  "004880": {
+    "context": "004880",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「かっ、はっ……笠鷺、桧山……助、け……」"
   },
-  {
-    "index": 4888,
+  "004888": {
+    "context": "004888",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「！！」"
   },
-  {
-    "index": 4927,
+  "004927": {
+    "context": "004927",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "桧山がはっとして、銃を抜いた。"
   },
-  {
-    "index": 4960,
+  "004960": {
+    "context": "004960",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「堂島さんを放せ！！」"
   },
-  {
-    "index": 4965,
+  "004965": {
+    "context": "004965",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "そう脅しをかけた時――"
   },
-  {
-    "index": 4970,
+  "004970": {
+    "context": "004970",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "研究員がぐるりと桧山の方を振り向き、飛び掛ってきた。"
   },
-  {
-    "index": 5013,
+  "005013": {
+    "context": "005013",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「！！」"
   },
-  {
-    "index": 5018,
+  "005018": {
+    "context": "005018",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "その拍子に桧山の体がびくんと震え、"
   },
-  {
-    "index": 5095,
+  "005095": {
+    "context": "005095",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "再び銃声が響いた。"
   },
-  {
-    "index": 5103,
+  "005103": {
+    "context": "005103",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「っ」"
   },
-  {
-    "index": 5111,
+  "005111": {
+    "context": "005111",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「あ……」"
   },
-  {
-    "index": 5211,
+  "005211": {
+    "context": "005211",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "――研究員の喉の辺りに、小さな穴が開いていた。"
   },
-  {
-    "index": 5219,
+  "005219": {
+    "context": "005219",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「お、お前らは……」"
   },
-  {
-    "index": 5227,
+  "005227": {
+    "context": "005227",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「……ごぶっ」"
   },
-  {
-    "index": 5333,
+  "005333": {
+    "context": "005333",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "研究員は何か言いかけ、その直後大量の血を吐いた。"
   },
-  {
-    "index": 5360,
+  "005360": {
+    "context": "005360",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "そのままどさりと、床に倒れこむ。"
   },
-  {
-    "index": 5459,
+  "005459": {
+    "context": "005459",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "そして天井を虚ろな目で仰ぎ見て、かすかな声で呟いた。"
   },
-  {
-    "index": 5467,
+  "005467": {
+    "context": "005467",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「……我々の……崇高な目的……」"
   },
-  {
-    "index": 5475,
+  "005475": {
+    "context": "005475",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「……怪物は……この檻に……」"
   },
-  {
-    "index": 5481,
+  "005481": {
+    "context": "005481",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "「………………」"
   },
-  {
-    "index": 5486,
+  "005486": {
+    "context": "005486",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "研究員は何かわけのわからない事を言い、そしてがくりとうなだれた。"
   },
-  {
-    "index": 5491,
+  "005491": {
+    "context": "005491",
     "code": "0x45",
     "developer_comment": "柏木",
     "string": "桧山が呆然と呟く。"
   },
-  {
-    "index": 5530,
+  "005530": {
+    "context": "005530",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「え……え？　オレ……オレが、殺したのか……？」"
   },
-  {
-    "index": 5541,
+  "005541": {
+    "context": "005541",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お……落ち着け桧山……！」"
   },
-  {
-    "index": 5552,
+  "005552": {
+    "context": "005552",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「まだ死んだと決まったわけじゃ……！」"
   },
-  {
-    "index": 5585,
+  "005585": {
+    "context": "005585",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は研究員２名に駆け寄り、心肺蘇生を行った。"
   },
-  {
-    "index": 5590,
+  "005590": {
+    "context": "005590",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だが見る間に生命反応が低下していく。"
   },
-  {
-    "index": 5595,
+  "005595": {
+    "context": "005595",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "救急の資格も持っている渡瀬には、すぐにわかった――これはもはや、手遅れだと。"
   },
-  {
-    "index": 5606,
+  "005606": {
+    "context": "005606",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……ダメだ……２人とも、もう……」"
   },
-  {
-    "index": 5611,
+  "005611": {
+    "context": "005611",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬は肩を落とし、そう呟いた。"
   },
-  {
-    "index": 5668,
+  "005668": {
+    "context": "005668",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「そんな……」"
   },
-  {
-    "index": 5676,
+  "005676": {
+    "context": "005676",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "「畜生……どうしてこんな事に……！」"
   },
-  {
-    "index": 5681,
+  "005681": {
+    "context": "005681",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "桧山が泣きそうな声で言う。"
   },
-  {
-    "index": 5686,
+  "005686": {
+    "context": "005686",
     "code": "0x45",
     "developer_comment": "桧山",
     "string": "渡瀬も罪の意識に、崩れ落ちそうになったが――"
   },
-  {
-    "index": 5707,
+  "005707": {
+    "context": "005707",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「悔やむなお前ら、今は後悔する時じゃない」"
   },
-  {
-    "index": 5718,
+  "005718": {
+    "context": "005718",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「まだ任務は……続いているんだ」"
   },
-  {
-    "index": 5723,
+  "005723": {
+    "context": "005723",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "足を止めるわけにはいかない。"
   },
-  {
-    "index": 5728,
+  "005728": {
+    "context": "005728",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "この瞬間にもＮエリアのＷＸ粒子エネルギー量は増加しているだろう。もう本当に時間はない。"
   },
-  {
-    "index": 5733,
+  "005733": {
+    "context": "005733",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬がそう思って被験体Ｎを見ると、"
   },
-  {
-    "index": 5744,
+  "005744": {
+    "context": "005744",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……！」"
   },
-  {
-    "index": 5767,
+  "005767": {
+    "context": "005767",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "彼女は研究員の死体を見て、薄笑いを浮かべていた。"
   },
-  {
-    "index": 5772,
+  "005772": {
+    "context": "005772",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――よほどこの研究員たちを恨んでいたのか――"
   },
-  {
-    "index": 5811,
+  "005811": {
+    "context": "005811",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「い、いや、それより……この子を連れて、早く脱出しよう」"
   },
-  {
-    "index": 5822,
+  "005822": {
+    "context": "005822",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「それと、そう……爆弾を仕掛けるのを忘れるな」"
   },
-  {
-    "index": 5830,
+  "005830": {
+    "context": "005830",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「あ……ああ」"
   },
-  {
-    "index": 5897,
+  "005897": {
+    "context": "005897",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "渡瀬たちはテトリル爆弾をその部屋に仕掛け、被験体Ｎを連れて部屋を出た。"
   },
-  {
-    "index": 5951,
+  "005951": {
+    "context": "005951",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "血塗れの研究員たちをエレベーターまで運び、網膜認証を行う。"
   },
-  {
-    "index": 5956,
+  "005956": {
+    "context": "005956",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "半死人の網膜で認証ができるかどうか不安だったが、エレベーターはちゃんと動いてくれた。"
   },
-  {
-    "index": 5967,
+  "005967": {
+    "context": "005967",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「この２人を……上に連れて行くか？」"
   },
-  {
-    "index": 5975,
+  "005975": {
+    "context": "005975",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "「……よそう。２人とも、もう助からない……」"
   },
-  {
-    "index": 5980,
+  "005980": {
+    "context": "005980",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "そう言われ、渡瀬は沈んだ気持ちでうなずく。"
   },
-  {
-    "index": 5985,
+  "005985": {
+    "context": "005985",
     "code": "0x45",
     "developer_comment": "堂島",
     "string": "完璧だったはずの計画は、もはや何もかも狂い始めていた――。"
   }
-]
+}

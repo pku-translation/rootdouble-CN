@@ -1,218 +1,218 @@
-[
-  {
-    "index": 40,
+{
+  "000040": {
+    "context": "000040",
     "code": "0x55",
     "developer_comment": "",
     "string": "√Before Chapter5"
   },
-  {
-    "index": 106,
+  "000106": {
+    "context": "000106",
     "code": "0x45",
     "developer_comment": "",
     "string": "――始業のチャイムが響くと同時に、夏彦とサリュは教室に入った。"
   },
-  {
-    "index": 117,
+  "000117": {
+    "context": "000117",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ふぅ、間に合ったか……」"
   },
-  {
-    "index": 146,
+  "000146": {
+    "context": "000146",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「ん……？　ましろがいない」"
   },
-  {
-    "index": 157,
+  "000157": {
+    "context": "000157",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「あ、本当だ……」"
   },
-  {
-    "index": 162,
+  "000162": {
+    "context": "000162",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "見れば彼女の席は空席で、鞄なども見えなかった。"
   },
-  {
-    "index": 173,
+  "000173": {
+    "context": "000173",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……休みか。風邪でも引いたのかな……」"
   },
-  {
-    "index": 206,
+  "000206": {
+    "context": "000206",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "夏彦はそう言いつつ、自分の席に座る。"
   },
-  {
-    "index": 211,
+  "000211": {
+    "context": "000211",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "やがて恵那が教室に入ってきた。"
   },
-  {
-    "index": 295,
+  "000295": {
+    "context": "000295",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「はーい、みなさんおはよう。それじゃ出席取るわよー」"
   },
-  {
-    "index": 324,
+  "000324": {
+    "context": "000324",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「赤川くん」"
   },
-  {
-    "index": 332,
+  "000332": {
+    "context": "000332",
     "code": "0x45",
     "developer_comment": "男子生徒１",
     "string": "「はい」"
   },
-  {
-    "index": 343,
+  "000343": {
+    "context": "000343",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「伊野さん」"
   },
-  {
-    "index": 351,
+  "000351": {
+    "context": "000351",
     "code": "0x45",
     "developer_comment": "女子生徒１",
     "string": "「はーい」"
   },
-  {
-    "index": 362,
+  "000362": {
+    "context": "000362",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「小田くん――」"
   },
-  {
-    "index": 367,
+  "000367": {
+    "context": "000367",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "そうして出席が進んでいく。"
   },
-  {
-    "index": 500,
+  "000500": {
+    "context": "000500",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "だがやがて、夏彦たちの名に差し掛かった時――"
   },
-  {
-    "index": 511,
+  "000511": {
+    "context": "000511",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「――天川くん」"
   },
-  {
-    "index": 522,
+  "000522": {
+    "context": "000522",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「はい」"
   },
-  {
-    "index": 533,
+  "000533": {
+    "context": "000533",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「鳥羽さん」"
   },
-  {
-    "index": 562,
+  "000562": {
+    "context": "000562",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……鳥羽さん？　あれ、鳥羽さんは休み？」"
   },
-  {
-    "index": 591,
+  "000591": {
+    "context": "000591",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「おかしいわね……休みの連絡、もらっていないのに」"
   },
-  {
-    "index": 602,
+  "000602": {
+    "context": "000602",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「え？」"
   },
-  {
-    "index": 607,
+  "000607": {
+    "context": "000607",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "と言う事は、ましろは急遽、無断で学校を休んだことになる。"
   },
-  {
-    "index": 612,
+  "000612": {
+    "context": "000612",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "学校をサボったりする子ではないのにも関わらず。"
   },
-  {
-    "index": 618,
+  "000618": {
+    "context": "000618",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……まさか……？）"
   },
-  {
-    "index": 748,
+  "000748": {
+    "context": "000748",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「ね、ねぇ……きっとこの事に気付いてるのは、私たちだけだよ」"
   },
-  {
-    "index": 777,
+  "000777": {
+    "context": "000777",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「だったらなんとしても、テロを阻止しなきゃ！」"
   },
-  {
-    "index": 884,
+  "000884": {
+    "context": "000884",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（あのバカ、本当にテロを阻止しようとしてるんじゃないだろうな……！）"
   },
-  {
-    "index": 889,
+  "000889": {
+    "context": "000889",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "だが昨日のましろの様子を考えると、充分ありえる気がした。"
   },
-  {
-    "index": 895,
+  "000895": {
+    "context": "000895",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……何を根拠にテロの話を信じてるのか知らないけど、そんなの高校生にどうこうできる問題じゃないだろ）"
   },
-  {
-    "index": 900,
+  "000900": {
+    "context": "000900",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "むしろましろの行動が、何かまずい事態を引き起こす。漠然とそんな予感がした。"
   },
-  {
-    "index": 906,
+  "000906": {
+    "context": "000906",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（学校が終わったら探しに行くか……）"
   },
-  {
-    "index": 951,
+  "000951": {
+    "context": "000951",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "その後、夏彦はどことなく上の空のまま、授業を受けた。"
   },
-  {
-    "index": 956,
+  "000956": {
+    "context": "000956",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "そしてましろも登校しないまま――"
   },
-  {
-    "index": 961,
+  "000961": {
+    "context": "000961",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "昼休みを迎えた。"
   }
-]
+}

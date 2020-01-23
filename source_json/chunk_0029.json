@@ -1,686 +1,686 @@
-[
-  {
-    "index": 52,
+{
+  "000052": {
+    "context": "000052",
     "code": "0x55",
     "developer_comment": "",
     "string": "√After Chapter3"
   },
-  {
-    "index": 60,
+  "000060": {
+    "context": "000060",
     "code": "0x45",
     "developer_comment": "",
     "string": "パイプの隙間を縫って歩く宇喜多を、渡瀬は支えるようにして同行した。"
   },
-  {
-    "index": 65,
+  "000065": {
+    "context": "000065",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多が行く手に見えるものを指差して答える。"
   },
-  {
-    "index": 130,
+  "000130": {
+    "context": "000130",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……確かあの大きなタンクが、消火剤の詰まっているタンクだ。水や窒素ガスなども詰まっている」"
   },
-  {
-    "index": 141,
+  "000141": {
+    "context": "000141",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「窒素ガス？」"
   },
-  {
-    "index": 170,
+  "000170": {
+    "context": "000170",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「消火作用があるんだよ。例えば『ＢｒａｉｎＣｅｌｌ』があるような場所では、水を使用出来ないだろう？」"
   },
-  {
-    "index": 181,
+  "000181": {
+    "context": "000181",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なるほどな……じゃあ、あのやたら太いパイプはなんなんだ？」"
   },
-  {
-    "index": 186,
+  "000186": {
+    "context": "000186",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "タンクのそばには、エンジンルームの天井付近を横切るように、太いパイプがあった。"
   },
-  {
-    "index": 236,
+  "000236": {
+    "context": "000236",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あれは……確か原子炉の、冷却水用のパイプだったかな。近くにある湖から水を取っているんだ」"
   },
-  {
-    "index": 247,
+  "000247": {
+    "context": "000247",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「湖か……」"
   },
-  {
-    "index": 252,
+  "000252": {
+    "context": "000252",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その時、渡瀬の頭に、１つのアイディアが閃いた。"
   },
-  {
-    "index": 282,
+  "000282": {
+    "context": "000282",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうだ宇喜多さん！　あのパイプの中を伝って、湖まで脱出できないかな！？」"
   },
-  {
-    "index": 311,
+  "000311": {
+    "context": "000311",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「不可能だ」"
   },
-  {
-    "index": 322,
+  "000322": {
+    "context": "000322",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「え、なぜ？」"
   },
-  {
-    "index": 351,
+  "000351": {
+    "context": "000351",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「冷却水用のパイプだと言ったろう。あのパイプの中には、水が高速で循環している」"
   },
-  {
-    "index": 362,
+  "000362": {
+    "context": "000362",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「パイプ内に入るために穴を開けたりしたら、凄まじい勢いで水が溢れ、この地下部分が丸ごと水没してしまう。全員死ぬぞ」"
   },
-  {
-    "index": 373,
+  "000373": {
+    "context": "000373",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そ、そうか……水の流れを止める方法は？」"
   },
-  {
-    "index": 402,
+  "000402": {
+    "context": "000402",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「わからんが、仮にあったとしても、どのみち脱出は不可能だ」"
   },
-  {
-    "index": 431,
+  "000431": {
+    "context": "000431",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「湖までの距離は約５００ｍ。息を止めたまま、そこまでいくつもりかね？」"
   },
-  {
-    "index": 442,
+  "000442": {
+    "context": "000442",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「じゃあ、空気ボンベを使えば――」"
   },
-  {
-    "index": 471,
+  "000471": {
+    "context": "000471",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「それは実にいい考えだ。全員分のボンベとマスクが、どこかにあるならね」"
   },
-  {
-    "index": 477,
+  "000477": {
+    "context": "000477",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……」"
   },
-  {
-    "index": 506,
+  "000506": {
+    "context": "000506",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「まぁそれがあったとしても、冷却に使われた水は、原子炉の熱で熱されている」"
   },
-  {
-    "index": 517,
+  "000517": {
+    "context": "000517",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「たしか５０℃以上だったかな。耐えられる熱さではないよ」"
   },
-  {
-    "index": 522,
+  "000522": {
+    "context": "000522",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "あらゆる意味で、パイプからの脱出は不可能のようだった。"
   },
-  {
-    "index": 527,
+  "000527": {
+    "context": "000527",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "渡瀬はがっくりと肩を落とす。"
   },
-  {
-    "index": 538,
+  "000538": {
+    "context": "000538",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか……いいアイディアだと思ったんだが」"
   },
-  {
-    "index": 567,
+  "000567": {
+    "context": "000567",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「残念ながらパイプからの脱出なんて案は、僕だって真っ先に考えたさ」"
   },
-  {
-    "index": 596,
+  "000596": {
+    "context": "000596",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「だが今までそれを口にしなかったのは、そもそも不可能だからだ」"
   },
-  {
-    "index": 607,
+  "000607": {
+    "context": "000607",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「だいたいこのあたりの話は、隊長さんには、記憶を失う前にも説明したはずだがね？」"
   },
-  {
-    "index": 612,
+  "000612": {
+    "context": "000612",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "皮肉たっぷりの言葉を聞き、渡瀬は耳が痛かった。"
   },
-  {
-    "index": 623,
+  "000623": {
+    "context": "000623",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうなのか……悪いが、その事も全く覚えていない……」"
   },
-  {
-    "index": 698,
+  "000698": {
+    "context": "000698",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「だとしたら『記憶の混濁』なんてレベルではないな」"
   },
-  {
-    "index": 709,
+  "000709": {
+    "context": "000709",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「何も覚えていないのかね？　君が地下に降りてきた理由も、救助すべき人の名も」"
   },
-  {
-    "index": 720,
+  "000720": {
+    "context": "000720",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ……橘が言うには、時間と共に記憶が戻ってくるらしいが、なかなかな……」"
   },
-  {
-    "index": 726,
+  "000726": {
+    "context": "000726",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……」"
   },
-  {
-    "index": 731,
+  "000731": {
+    "context": "000731",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "宇喜多は黙り込んだ。まだどこか疑っているようなまなざしだ。"
   },
-  {
-    "index": 743,
+  "000743": {
+    "context": "000743",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "無理もないよなと思いつつ、渡瀬は続ける。"
   },
-  {
-    "index": 754,
+  "000754": {
+    "context": "000754",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「残念ながらこれ、本当の事なんだ。頼りないレスキュー隊長ですまない」"
   },
-  {
-    "index": 783,
+  "000783": {
+    "context": "000783",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「じゃあ君はさっき、そんな状態だというのに……危険を冒してまで、みんなの分のＡＤを取りに行ったわけか」"
   },
-  {
-    "index": 794,
+  "000794": {
+    "context": "000794",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ……今のオレにできる事は、そう多くないからな」"
   },
-  {
-    "index": 805,
+  "000805": {
+    "context": "000805",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「記憶がなくても体力はある。知識が無い分、体動かさなきゃと思ってさ」"
   },
-  {
-    "index": 816,
+  "000816": {
+    "context": "000816",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ガスよりも、放射線が怖いと言うわけかね？」"
   },
-  {
-    "index": 827,
+  "000827": {
+    "context": "000827",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そりゃあな。ＡＤが足りなくなるのが一番怖いだろ」"
   },
-  {
-    "index": 838,
+  "000838": {
+    "context": "000838",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「だけどガスの中駆けずり回ったおかげで、どうにかまた１時間生き長らえたぞ」"
   },
-  {
-    "index": 843,
+  "000843": {
+    "context": "000843",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "宇喜多は渡瀬をしばらく見つめていたが――やがて鼻を鳴らして言った。"
   },
-  {
-    "index": 872,
+  "000872": {
+    "context": "000872",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……それは確かに、大したものだな」"
   },
-  {
-    "index": 901,
+  "000901": {
+    "context": "000901",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「礼を言っておくよ、ありがとう」"
   },
-  {
-    "index": 915,
+  "000915": {
+    "context": "000915",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なんだよ、宇喜多さん……まさかオレの事を疑ってるのか？」"
   },
-  {
-    "index": 944,
+  "000944": {
+    "context": "000944",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「あ、いや――しかし君は、そんな状態だというのに、ＡＤを取りに行ったというのかね？」"
   },
-  {
-    "index": 955,
+  "000955": {
+    "context": "000955",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ……今のオレにできる事は、そう多くないからな」"
   },
-  {
-    "index": 966,
+  "000966": {
+    "context": "000966",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「記憶がなくても体力はある。知識が無い分、体動かさなきゃと思ってさ」"
   },
-  {
-    "index": 977,
+  "000977": {
+    "context": "000977",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ガスよりも、放射線が怖いと言うわけかね？　そのためにあんな危険をおかしたと？」"
   },
-  {
-    "index": 988,
+  "000988": {
+    "context": "000988",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……なぁ宇喜多さん、あんた何が言いたいんだ？」"
   },
-  {
-    "index": 999,
+  "000999": {
+    "context": "000999",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「まさかＡＤが手に入らない方が、良かったとでも言うのか？」"
   },
-  {
-    "index": 1028,
+  "001028": {
+    "context": "001028",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「な、何を馬鹿な……！」"
   },
-  {
-    "index": 1057,
+  "001057": {
+    "context": "001057",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「僕はただ、その……記憶がないのに『大したものだ』と、そう言いたかったのだよ」"
   },
-  {
-    "index": 1068,
+  "001068": {
+    "context": "001068",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「な、なんだよ急に……おっさんに褒められても、そんなに嬉しくはないぞ」"
   },
-  {
-    "index": 1097,
+  "001097": {
+    "context": "001097",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「おっさんって、僕はまだ３５だぞ。君とそう年も変わらないじゃないか」"
   },
-  {
-    "index": 1108,
+  "001108": {
+    "context": "001108",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そう言えばそうか……まぁおっさん同士、力を合わせて、女の子たちを助けていこうぜ」"
   },
-  {
-    "index": 1113,
+  "001113": {
+    "context": "001113",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "多少失礼かと思ったが――宇喜多を『おっさん』と呼んでみると、彼に対して親近感が湧いた気がした。"
   },
-  {
-    "index": 1118,
+  "001118": {
+    "context": "001118",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "その風貌や白みがかった髪を見ると、彼の方がずっと年上で、むしろそう言うのが自然なようにも感じる。"
   },
-  {
-    "index": 1123,
+  "001123": {
+    "context": "001123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "宇喜多も特に文句は言わない。代わりにふと、立ち止まって言う。"
   },
-  {
-    "index": 1152,
+  "001152": {
+    "context": "001152",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「おっと……着いたぞ、これだ」"
   },
-  {
-    "index": 1187,
+  "001187": {
+    "context": "001187",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "見れば例のタンクのすぐ側に、無数のバルブがあった。"
   },
-  {
-    "index": 1216,
+  "001216": {
+    "context": "001216",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「何かの理由で、これらのバルブが閉ざされてたらしいな」"
   },
-  {
-    "index": 1227,
+  "001227": {
+    "context": "001227",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「やっぱ点検でもしてたのか……？」"
   },
-  {
-    "index": 1256,
+  "001256": {
+    "context": "001256",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「今となってはわからんね。ともかくこれを開放すれば、消火システムは復帰するはずだ」"
   },
-  {
-    "index": 1267,
+  "001267": {
+    "context": "001267",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よし！　おっさん手伝ってくれ！」"
   },
-  {
-    "index": 1278,
+  "001278": {
+    "context": "001278",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「うむ」"
   },
-  {
-    "index": 1311,
+  "001311": {
+    "context": "001311",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "そう言葉を交わし、渡瀬たちはそこにあるバルブを次々に回した。"
   },
-  {
-    "index": 1351,
+  "001351": {
+    "context": "001351",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "タンクが唸り声を上げ、そこら中のパイプが一斉に振動し始める。"
   },
-  {
-    "index": 1380,
+  "001380": {
+    "context": "001380",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……よし、これで問題はなさそうだな」"
   },
-  {
-    "index": 1391,
+  "001391": {
+    "context": "001391",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「これでＮエリアの火災も収まってくれればいいんだが……」"
   },
-  {
-    "index": 1420,
+  "001420": {
+    "context": "001420",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いや、残念ながらあの場所の消火システムは、こことは別系統のようなんだ」"
   },
-  {
-    "index": 1431,
+  "001431": {
+    "context": "001431",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか……」"
   },
-  {
-    "index": 1436,
+  "001436": {
+    "context": "001436",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "だがそれ以外のエリアの火災が収まるだけで、かなりありがたい。"
   },
-  {
-    "index": 1447,
+  "001447": {
+    "context": "001447",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「とりあえずこの事を、みんなに報告するか」"
   },
-  {
-    "index": 1458,
+  "001458": {
+    "context": "001458",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「いや、僕はしばらくここに留まって、正常に運転してるか確認しておこう」"
   },
-  {
-    "index": 1469,
+  "001469": {
+    "context": "001469",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「すまないな、頼むよ」"
   },
-  {
-    "index": 1474,
+  "001474": {
+    "context": "001474",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬はそう言って、風見らのところに戻った。"
   },
-  {
-    "index": 1568,
+  "001568": {
+    "context": "001568",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "――ハシゴ付近まで戻ると、風見が声をかけてきた。"
   },
-  {
-    "index": 1679,
+  "001679": {
+    "context": "001679",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あ、お帰りなさい隊長」"
   },
-  {
-    "index": 1684,
+  "001684": {
+    "context": "001684",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "ユウリはまだ床に横たわっていたが、洵と恵那はもう起き上がっていた。"
   },
-  {
-    "index": 1764,
+  "001764": {
+    "context": "001764",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おぉ、２人とも復活したのか」"
   },
-  {
-    "index": 1793,
+  "001793": {
+    "context": "001793",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「えぇ……世話かけたわね……」"
   },
-  {
-    "index": 1822,
+  "001822": {
+    "context": "001822",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「た、隊長、面目ない……勇ましく出て行った直後に倒れるなんて、とんだ恥っさらしだよ……」"
   },
-  {
-    "index": 1841,
+  "001841": {
+    "context": "001841",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「何いってんだ、お前のおかげでゲートを開けられたんだぜ。面目ないなんて事ねぇよ」"
   },
-  {
-    "index": 1870,
+  "001870": {
+    "context": "001870",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そ、そう……？」"
   },
-  {
-    "index": 1881,
+  "001881": {
+    "context": "001881",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうさ、胸を張れよ」"
   },
-  {
-    "index": 1910,
+  "001910": {
+    "context": "001910",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「へへ……今日の隊長、なんか優しいな～……」"
   },
-  {
-    "index": 1915,
+  "001915": {
+    "context": "001915",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "洵は青ざめた顔で微笑んだ。"
   },
-  {
-    "index": 1920,
+  "001920": {
+    "context": "001920",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "風見も安堵したように言う。"
   },
-  {
-    "index": 1951,
+  "001951": {
+    "context": "001951",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そう。おかげさまで、ＡＤも手に入れることができましたしね」"
   },
-  {
-    "index": 1965,
+  "001965": {
+    "context": "001965",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「いいって守部。そんなこと気にするな」"
   },
-  {
-    "index": 1994,
+  "001994": {
+    "context": "001994",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「うーん、でも……」"
   },
-  {
-    "index": 1999,
+  "001999": {
+    "context": "001999",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "浮かない表情の洵に、風見が優しく言う。"
   },
-  {
-    "index": 2030,
+  "002030": {
+    "context": "002030",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「守部、落ち込む必要はありません」"
   },
-  {
-    "index": 2041,
+  "002041": {
+    "context": "002041",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あなたがゲートを開けてくれたからこそ、ＡＤを手に入れることができたのですから」"
   },
-  {
-    "index": 2070,
+  "002070": {
+    "context": "002070",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「えっ……ＡＤ見つかったの？」"
   },
-  {
-    "index": 2081,
+  "002081": {
+    "context": "002081",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ、お前たちが気絶しているうちに投与もしておいたよ」"
   },
-  {
-    "index": 2110,
+  "002110": {
+    "context": "002110",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「よかった、これでひとまず安心だね」"
   },
-  {
-    "index": 2139,
+  "002139": {
+    "context": "002139",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そうね……消火システムも、どうやら再起動できたようだし」"
   },
-  {
-    "index": 2150,
+  "002150": {
+    "context": "002150",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「あぁ、これで火にやられる危険性は激減するぞ」"
   },
-  {
-    "index": 2161,
+  "002161": {
+    "context": "002161",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「それに下階の火元が鎮火されれば、やがて普通に歩けるようになるでしょう」"
   },
-  {
-    "index": 2190,
+  "002190": {
+    "context": "002190",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「ねえ、消火と換気が終るまでどのくらいかかるのかしら？」"
   },
-  {
-    "index": 2219,
+  "002219": {
+    "context": "002219",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どうでしょう、１０分くらいはかかると思いますが」"
   },
-  {
-    "index": 2224,
+  "002224": {
+    "context": "002224",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "足止めを食ってしまう事は、少々困るが――"
   },
-  {
-    "index": 2230,
+  "002230": {
+    "context": "002230",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（しかし考えてみりゃ、疲れも溜まってきてるしな……）"
   },
-  {
-    "index": 2235,
+  "002235": {
+    "context": "002235",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "渡瀬でもそうなのだから、女性たちはもっと辛いだろう。"
   },
-  {
-    "index": 2246,
+  "002246": {
+    "context": "002246",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……じゃあユウリの意識も回復してない事だし、それまで休憩にしないか？」"
   },
-  {
-    "index": 2275,
+  "002275": {
+    "context": "002275",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「そうですね。どうせ身動き取れませんし」"
   },
-  {
-    "index": 2304,
+  "002304": {
+    "context": "002304",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「さ～んせ～い」"
   },
-  {
-    "index": 2387,
+  "002387": {
+    "context": "002387",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "渡瀬たちはラボ内の消火が完了するまでの間、休息を取ることにした。"
   }
-]
+}
