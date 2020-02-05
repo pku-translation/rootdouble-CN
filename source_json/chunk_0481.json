@@ -840,81 +840,80 @@
     "context": "002120",
     "code": "0x45",
     "developer_comment": "",
-    "string": "凪沙様が救助された時、手に握り締めていたものを、"
+    "string": "凪沙様が救助された時、手に握り締めていたものを、お送りさせて頂きます。"
   },
   "002124": {
     "context": "002124",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "お送りさせて頂きます。"
-  },
-  "002128": {
-    "context": "002128",
     "code": "0x85",
     "string": "　%N"
   },
+  "002127": {
+    "context": "002127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "救急車にお乗り頂く前に、私たちが凪沙様から預かっていたものです。"
+  },
   "002131": {
     "context": "002131",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "救急車にお乗り頂く前に、"
-  },
-  "002135": {
-    "context": "002135",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "私たちが凪沙様から預かっていたものです。"
-  },
-  "002139": {
-    "context": "002139",
     "code": "0x85",
     "string": "　"
   },
-  "002142": {
-    "context": "002142",
+  "002134": {
+    "context": "002134",
     "code": "0x45",
     "developer_comment": "",
     "string": "中身は見ておりません。"
   },
-  "002146": {
-    "context": "002146",
+  "002138": {
+    "context": "002138",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見様にお渡しするようにのみ、頼まれておりました。"
   },
-  "002150": {
-    "context": "002150",
+  "002142": {
+    "context": "002142",
     "code": "0x85",
     "string": "　"
   },
-  "002153": {
-    "context": "002153",
+  "002145": {
+    "context": "002145",
     "code": "0x45",
     "developer_comment": "",
-    "string": "どうかお気を落とさず、今後の日々を、"
+    "string": "どうかお気を落とさず、今後の日々を、心安らかにお過ごし願えればと思います。"
+  },
+  "002149": {
+    "context": "002149",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "002152": {
+    "context": "002152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最後に、何度も申し上げましたが――"
   },
   "002156": {
     "context": "002156",
     "code": "0x45",
     "developer_comment": "",
-    "string": "心安らかにお過ごし願えればと思います。"
+    "string": "大切な妹様を救えず、まことに申し訳ございませんでした。"
   },
   "002160": {
     "context": "002160",
     "code": "0x85",
-    "string": "　%N"
+    "string": "　"
   },
   "002163": {
     "context": "002163",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最後に、何度も申し上げましたが――"
+    "string": "ですが私たちは、これからも、この仕事を続けていきます。"
   },
   "002167": {
     "context": "002167",
     "code": "0x45",
     "developer_comment": "",
-    "string": "大切な妹様を救えず、まことに申し訳ございませんでした。"
+    "string": "それが凪沙様のために、私たちができる唯一の事だからです。"
   },
   "002171": {
     "context": "002171",
@@ -925,132 +924,132 @@
     "context": "002174",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ですが私たちは、これからも、この仕事を続けていきます。"
-  },
-  "002178": {
-    "context": "002178",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "それが凪沙様のために、私たちができる唯一の事だからです。"
-  },
-  "002182": {
-    "context": "002182",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002185": {
-    "context": "002185",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "――鹿鳴市消防局　特別高度救助隊　隊員　笠鷺渡瀬・堂島誠二"
   },
-  "002214": {
-    "context": "002214",
+  "002203": {
+    "context": "002203",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「え？　え……？」"
   },
-  "002219": {
-    "context": "002219",
+  "002208": {
+    "context": "002208",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見はその名前に、見覚えがなかった。"
+  },
+  "002216": {
+    "context": "002216",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「何度も訪ねてきたって……？　どういう事なの？」"
+  },
+  "002221": {
+    "context": "002221",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えば曖昧な日々を過ごしていた間、誰かが何度も家を訪ね、謝っていた気がした。"
   },
   "002227": {
     "context": "002227",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「何度も訪ねてきたって……？　どういう事なの？」"
+    "string": "（あれは……この消防士さんたちだったの？）"
   },
-  "002232": {
-    "context": "002232",
+  "002233": {
+    "context": "002233",
     "code": "0x45",
-    "developer_comment": "",
-    "string": "そう言えば曖昧な日々を過ごしていた間、誰かが何度も家を訪ね、謝っていた気がした。"
+    "developer_comment": "風見",
+    "string": "（私、この人たちを、追い返してしまったの……！？）"
   },
   "002238": {
     "context": "002238",
     "code": "0x45",
-    "developer_comment": "風見",
-    "string": "（あれは……この消防士さんたちだったの？）"
+    "developer_comment": "",
+    "string": "その時の記憶が飛んでいる。"
   },
   "002244": {
     "context": "002244",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（私、この人たちを、追い返してしまったの……！？）"
+    "string": "（『凪沙が救助された時、手に握り締めていたもの』って……！）"
   },
   "002249": {
     "context": "002249",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その時の記憶が飛んでいる。"
-  },
-  "002255": {
-    "context": "002255",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "（『凪沙が救助された時、手に握り締めていたもの』って……！）"
-  },
-  "002260": {
-    "context": "002260",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "混乱しながらも風見は、封筒の中に入っていた箱を見た。"
   },
-  "002265": {
-    "context": "002265",
+  "002254": {
+    "context": "002254",
     "code": "0x45",
     "developer_comment": "",
     "string": "リボンのかけられた小さな箱。"
+  },
+  "002259": {
+    "context": "002259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "贈り物を入れる箱のように見えた。"
   },
   "002270": {
     "context": "002270",
     "code": "0x45",
     "developer_comment": "",
-    "string": "贈り物を入れる箱のように見えた。"
-  },
-  "002281": {
-    "context": "002281",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "そっとリボンを取り、箱を開けると――"
   },
-  "002398": {
-    "context": "002398",
+  "002387": {
+    "context": "002387",
     "code": "0x45",
     "developer_comment": "",
     "string": "中には、小さな首飾りが入っていた。"
   },
-  "002406": {
-    "context": "002406",
+  "002395": {
+    "context": "002395",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……！？」"
   },
-  "002417": {
-    "context": "002417",
+  "002406": {
+    "context": "002406",
     "code": "0x45",
     "developer_comment": "",
     "string": "首飾りは、中に写真を入れられる、ロケットのようだった。"
   },
-  "002422": {
-    "context": "002422",
+  "002411": {
+    "context": "002411",
     "code": "0x45",
     "developer_comment": "",
     "string": "それにも小さな手紙が添えてある。"
   },
-  "002427": {
-    "context": "002427",
+  "002416": {
+    "context": "002416",
     "code": "0x45",
     "developer_comment": "",
     "string": "手紙には、凪沙の字でこう書いてあった。"
+  },
+  "002460": {
+    "context": "002460",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おねえちゃんへ"
+  },
+  "002464": {
+    "context": "002464",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002467": {
+    "context": "002467",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつもおいしいおりょうりをつくってくれて、ありがとう。"
   },
   "002471": {
     "context": "002471",
     "code": "0x45",
     "developer_comment": "",
-    "string": "おねえちゃんへ"
+    "string": "おれいに、わたしとじゅんちゃんからプレゼントです。"
   },
   "002475": {
     "context": "002475",
@@ -1061,13 +1060,13 @@
     "context": "002478",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いつもおいしいおりょうりをつくってくれて、ありがとう。"
+    "string": "これからもいつもいっしょだよ。"
   },
   "002482": {
     "context": "002482",
     "code": "0x45",
     "developer_comment": "",
-    "string": "おれいに、わたしとじゅんちゃんからプレゼントです。"
+    "string": "だいすきだよ、おねえちゃん。"
   },
   "002486": {
     "context": "002486",
@@ -1078,303 +1077,286 @@
     "context": "002489",
     "code": "0x45",
     "developer_comment": "",
-    "string": "これからもいつもいっしょだよ。"
-  },
-  "002493": {
-    "context": "002493",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "だいすきだよ、おねえちゃん。"
-  },
-  "002497": {
-    "context": "002497",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002500": {
-    "context": "002500",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "なぎさ"
   },
-  "002529": {
-    "context": "002529",
+  "002518": {
+    "context": "002518",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「…………あ」"
   },
-  "002537": {
-    "context": "002537",
+  "002526": {
+    "context": "002526",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あ、あ、ああああ……」"
   },
-  "002542": {
-    "context": "002542",
+  "002531": {
+    "context": "002531",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見はその手紙を見た瞬間、嗚咽を漏らした。"
   },
-  "002547": {
-    "context": "002547",
+  "002536": {
+    "context": "002536",
     "code": "0x45",
     "developer_comment": "",
     "string": "凪沙の死から、ずっと流れなかった涙が、そのとき不意に溢れ出した。"
   },
-  "002560": {
-    "context": "002560",
+  "002549": {
+    "context": "002549",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あああああっ！　わぁああああっ！」"
   },
-  "002565": {
-    "context": "002565",
+  "002554": {
+    "context": "002554",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見は人目もはばからず、大声で泣いた。"
   },
-  "002573": {
-    "context": "002573",
+  "002562": {
+    "context": "002562",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「凪沙……凪沙ぁあああ！」"
   },
-  "002578": {
-    "context": "002578",
+  "002567": {
+    "context": "002567",
     "code": "0x45",
     "developer_comment": "",
     "string": "声を枯らして叫ぶにつれ、凪沙の言葉が心に染み入ってくる。"
   },
-  "002583": {
-    "context": "002583",
+  "002572": {
+    "context": "002572",
     "code": "0x45",
     "developer_comment": "",
     "string": "妹と過ごした日々が、脳裏に浮かんでは消える。"
   },
-  "002588": {
-    "context": "002588",
+  "002577": {
+    "context": "002577",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見は凪沙の贈り物を握り締め、いつまでもそこで泣き続けた。"
   },
-  "002632": {
-    "context": "002632",
+  "002621": {
+    "context": "002621",
     "code": "0x45",
     "developer_comment": "",
     "string": "やがて、その涙も枯れた頃――"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は、決意した。"
+  },
+  "002632": {
+    "context": "002632",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（……生きよう……凪沙の分まで……）"
   },
   "002637": {
     "context": "002637",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は、決意した。"
-  },
-  "002643": {
-    "context": "002643",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "（……生きよう……凪沙の分まで……）"
-  },
-  "002648": {
-    "context": "002648",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "それが彼女のためにできる、ただ一つの事だ。"
   },
-  "002653": {
-    "context": "002653",
+  "002642": {
+    "context": "002642",
     "code": "0x45",
     "developer_comment": "",
     "string": "その決意は風見の心に、希望をもたらした。"
   },
-  "002714": {
-    "context": "002714",
+  "002703": {
+    "context": "002703",
     "code": "0x45",
     "developer_comment": "",
     "string": "――だが同時に、風見は後悔に縛られていた。"
   },
-  "002719": {
-    "context": "002719",
+  "002708": {
+    "context": "002708",
     "code": "0x45",
     "developer_comment": "",
     "string": "もしあのとき、自分がもっと早く家に帰っていたら、凪沙を救えたかもしれない。"
   },
-  "002724": {
-    "context": "002724",
+  "002713": {
+    "context": "002713",
     "code": "0x45",
     "developer_comment": "",
     "string": "いつしか風見は、そのことばかりを考えるようになっていた。"
   },
-  "002730": {
-    "context": "002730",
+  "002719": {
+    "context": "002719",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（……ただ生きるだけでは、ダメだわ……）"
   },
-  "002736": {
-    "context": "002736",
+  "002725": {
+    "context": "002725",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（この命を使って、何かできる事を）"
   },
-  "002742": {
-    "context": "002742",
+  "002731": {
+    "context": "002731",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（救えなかった凪沙の代わりに、誰かを……！）"
   },
-  "002747": {
-    "context": "002747",
+  "002736": {
+    "context": "002736",
     "code": "0x45",
     "developer_comment": "",
     "string": "やがて風見は考えた末に、己の生きる道を決めた。"
   },
-  "002838": {
-    "context": "002838",
+  "002827": {
+    "context": "002827",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「――お姉ちゃんが、消防士に！？」"
   },
-  "002843": {
-    "context": "002843",
+  "002832": {
+    "context": "002832",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵と会った時、風見は彼女にその意思を告げてみた。"
   },
-  "002872": {
-    "context": "002872",
+  "002861": {
+    "context": "002861",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「なんで急に、そんな事……」"
   },
-  "002880": {
-    "context": "002880",
+  "002869": {
+    "context": "002869",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「急にじゃないわ。考え抜いた結果よ」"
   },
-  "002909": {
-    "context": "002909",
+  "002898": {
+    "context": "002898",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「花屋の仕事は？」"
   },
-  "002917": {
-    "context": "002917",
+  "002906": {
+    "context": "002906",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あの仕事も好きだったけど……辞めて、消防学校に入るわ」"
   },
-  "002922": {
-    "context": "002922",
+  "002911": {
+    "context": "002911",
     "code": "0x45",
     "developer_comment": "",
     "string": "団地の管理組合から、多額の賠償金が支払われたため、当座の生活費については問題なかった。"
   },
-  "002927": {
-    "context": "002927",
+  "002916": {
+    "context": "002916",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが洵はわずかな沈黙の後、風見をじっと見て言う。"
+  },
+  "002945": {
+    "context": "002945",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ、お姉ちゃん……」"
   },
   "002956": {
     "context": "002956",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ねぇ、お姉ちゃん……」"
-  },
-  "002967": {
-    "context": "002967",
-    "code": "0x45",
-    "developer_comment": "洵",
     "string": "「もしかして、それって――凪沙のことが関係してる？」"
   },
-  "002975": {
-    "context": "002975",
+  "002964": {
+    "context": "002964",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「それは……」"
   },
-  "003004": {
-    "context": "003004",
+  "002993": {
+    "context": "002993",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「もしそうだとしたら、あたしはお姉ちゃんが消防士になるのは反対だな」"
   },
-  "003012": {
-    "context": "003012",
+  "003001": {
+    "context": "003001",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「どうして？」"
   },
-  "003041": {
-    "context": "003041",
+  "003030": {
+    "context": "003030",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「だってお姉ちゃん、とんでもなく無茶しそうなんだもん」"
   },
-  "003049": {
-    "context": "003049",
+  "003038": {
+    "context": "003038",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……！」"
   },
-  "003054": {
-    "context": "003054",
+  "003043": {
+    "context": "003043",
     "code": "0x45",
     "developer_comment": "",
     "string": "確かに洵の言葉には一理ある。"
   },
-  "003059": {
-    "context": "003059",
+  "003048": {
+    "context": "003048",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見はあのとき、凪沙を助けることができなかった。"
   },
-  "003064": {
-    "context": "003064",
+  "003053": {
+    "context": "003053",
     "code": "0x45",
     "developer_comment": "",
     "string": "自分がいれば救えたかもしれないなどと言う事は、恐らくおこがましい考えだろう。"
   },
-  "003069": {
-    "context": "003069",
+  "003058": {
+    "context": "003058",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが、それでも風見は――これから多くの人の命を救うことで、その贖罪をしたいと考えていた。"
   },
-  "003077": {
-    "context": "003077",
+  "003066": {
+    "context": "003066",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あなたの心配はわかったわ」"
   },
-  "003085": {
-    "context": "003085",
+  "003074": {
+    "context": "003074",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「でも駄目。この意思は変えません」"
   },
-  "003114": {
-    "context": "003114",
+  "003103": {
+    "context": "003103",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ど、どうしてさ？」"
   },
-  "003122": {
-    "context": "003122",
+  "003111": {
+    "context": "003111",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「さぁ、どうしてかしらね……？」"
   },
-  "003127": {
-    "context": "003127",
+  "003116": {
+    "context": "003116",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見は静かに微笑んだ。"
   },
-  "003132": {
-    "context": "003132",
+  "003121": {
+    "context": "003121",
     "code": "0x45",
     "developer_comment": "",
     "string": "凪沙ならきっと、応援してくれると思いながら――"

@@ -31,6 +31,9 @@ namespace CSYetiTools
 
             [Option("outputdir")]
             public string OutputDir { get; set; } = "";
+
+            [Option("modifier-file")]
+            public string ModifierFile { get; set; } = "string_list_modifiers.sexpr";
         }
 
         [Verb("encode-sn", HelpText = "Encode sn.bin with files in specified folder")]
@@ -103,11 +106,14 @@ namespace CSYetiTools
             [Option("input", Default = "sn.bin")]
             public string Input { get; set; } = "";
 
+            [Option("input-ref")]
+            public string InputRef { get; set; } = "";
+
             [Option("outputdir", Default = "./")]
             public string OutputDir { get; set; } = "";
 
-            [Option("steam")]
-            public bool IsSteam { get; set; }
+            [Option("modifier-file")]
+            public string ModifiersFile { get; set; } = "string_list_modifiers.sexpr";
         }
 
         static void Main(string[] args)
@@ -196,7 +202,7 @@ namespace CSYetiTools
             var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
 
             //var raplaceExcepts = ScriptReplaceExceptions.Load("replace_exceptions.toml");
-            var modifierTable = StringListModifier.Load("string_list_modifiers.sexpr");
+            var modifierTable = StringListModifier.Load(options.ModifierFile);
 
             var dumpDir = new DirectoryInfo(options.OutputDir);
             if (dumpDir.Exists)
@@ -244,12 +250,12 @@ namespace CSYetiTools
             writer.WriteLine($"{n} different files");
         }
 
-        private static void ReplaceStringList(ReplaceStringListOptions options)
+        private static SnPackage GenerateStringReplacedPackage(string input, string inputRef, string modifiersFile)
         {
-            var package = new SnPackage(options.InputSteam, isSteam: true);
-            var refPackage = new SnPackage(options.InputRef, isSteam: false);
+            var package = new SnPackage(input, isSteam: true);
+            var refPackage = new SnPackage(inputRef, isSteam: false);
 
-            var modifierDict = StringListModifier.Load(options.ModifiersFile);
+            var modifierDict = StringListModifier.Load(modifiersFile);
 
             foreach (var (i, (script, refScript)) in package.Scripts.ZipTuple(refPackage.Scripts).WithIndex())
             {
@@ -259,6 +265,13 @@ namespace CSYetiTools
 
                 script.ReplaceStringTable(refList);
             }
+
+            return package;
+        }
+
+        private static void ReplaceStringList(ReplaceStringListOptions options)
+        {
+            var package = GenerateStringReplacedPackage(options.InputSteam, options.InputRef, options.ModifiersFile);
 
             package.WriteTo(options.Output);
 
@@ -273,8 +286,7 @@ namespace CSYetiTools
 
         private static void DumpTranslateSource(DumpTranslateSourceOptions options)
         {
-            Console.WriteLine($"DumpTranslateSource {options.Input} --> {options.OutputDir} ...");
-            var package = new SnPackage(options.Input, options.IsSteam);
+            var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
 
             package.DumpTranslateSource(options.OutputDir);
         }

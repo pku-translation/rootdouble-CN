@@ -239,220 +239,214 @@
     "context": "000572",
     "code": "0x45",
     "developer_comment": "",
-    "string": "様々な建物に無差別に火が放たれ、"
+    "string": "様々な建物に無差別に火が放たれ、一夜のうちにそれらは焼け落ちた。"
   },
-  "000575": {
-    "context": "000575",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "一夜のうちにそれらは焼け落ちた。"
-  },
-  "000579": {
-    "context": "000579",
+  "000576": {
+    "context": "000576",
     "code": "0x85",
     "string": "　%N"
   },
-  "000582": {
-    "context": "000582",
+  "000579": {
+    "context": "000579",
     "code": "0x45",
     "developer_comment": "",
     "string": "死者１１８名。"
   },
-  "000586": {
-    "context": "000586",
+  "000583": {
+    "context": "000583",
     "code": "0x85",
     "string": "　"
+  },
+  "000586": {
+    "context": "000586",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その内訳は一酸化炭素等による中毒死が６７名、焼死が３４名。"
   },
   "000589": {
     "context": "000589",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その内訳は一酸化炭素等による中毒死が６７名、焼死が３４名。"
+    "string": "高所からの転落死が１１名、"
   },
   "000592": {
     "context": "000592",
     "code": "0x45",
     "developer_comment": "",
-    "string": "高所からの転落死が１１名、"
+    "string": "ショック死が３名、"
   },
   "000595": {
     "context": "000595",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ショック死が３名、"
-  },
-  "000598": {
-    "context": "000598",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "苦痛による自殺が２名。"
+  },
+  "000599": {
+    "context": "000599",
+    "code": "0x85",
+    "string": "　"
   },
   "000602": {
     "context": "000602",
-    "code": "0x85",
-    "string": "　"
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして――"
   },
   "000605": {
     "context": "000605",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして――"
-  },
-  "000608": {
-    "context": "000608",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "放火犯に遭遇して、刺殺された者が１名。"
   },
-  "000651": {
-    "context": "000651",
+  "000648": {
+    "context": "000648",
     "code": "0x85",
     "string": "　%N"
   },
-  "000654": {
-    "context": "000654",
+  "000651": {
+    "context": "000651",
     "code": "0x45",
     "developer_comment": "",
     "string": "――刺殺されたのは、平凡な公務員だった。"
   },
-  "000658": {
-    "context": "000658",
+  "000655": {
+    "context": "000655",
     "code": "0x85",
     "string": "　%N"
+  },
+  "000658": {
+    "context": "000658",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼を知らぬ者たちにとっては、"
   },
   "000661": {
     "context": "000661",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼を知らぬ者たちにとっては、"
-  },
-  "000664": {
-    "context": "000664",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "その夜に命を落とした１１８名のうちの１人に過ぎない。"
+  },
+  "000665": {
+    "context": "000665",
+    "code": "0x85",
+    "string": "　%N"
   },
   "000668": {
     "context": "000668",
-    "code": "0x85",
-    "string": "　%N"
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが恵那にとっては違う。"
   },
   "000671": {
     "context": "000671",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが恵那にとっては違う。"
-  },
-  "000674": {
-    "context": "000674",
-    "code": "0x45",
-    "developer_comment": "",
     "string": "彼女にとって、彼は――かけがえのない、最愛の父だった。"
   },
-  "000794": {
-    "context": "000794",
+  "000791": {
+    "context": "000791",
     "code": "0x45",
     "developer_comment": "",
     "string": "火災から数日後。"
   },
-  "000799": {
-    "context": "000799",
+  "000796": {
+    "context": "000796",
     "code": "0x45",
     "developer_comment": "",
     "string": "恵那は父の職場を、１人で訪れていた。"
   },
-  "000807": {
-    "context": "000807",
+  "000804": {
+    "context": "000804",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「お父さん……」"
   },
-  "000812": {
-    "context": "000812",
+  "000809": {
+    "context": "000809",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう呼びかけても、答えはない。"
   },
-  "000817": {
-    "context": "000817",
+  "000814": {
+    "context": "000814",
     "code": "0x45",
     "developer_comment": "",
     "string": "あの優しい声を聞く事は、もう２度とないのだ。"
   },
-  "000822": {
-    "context": "000822",
+  "000819": {
+    "context": "000819",
     "code": "0x45",
     "developer_comment": "",
     "string": "葬儀の日からたびたび流れていた涙が、またも頬を伝った。"
   },
-  "000865": {
-    "context": "000865",
+  "000862": {
+    "context": "000862",
     "code": "0x45",
     "developer_comment": "",
     "string": "父はあの日、放火犯から誰かを庇って殺されたのだという。"
   },
-  "000870": {
-    "context": "000870",
+  "000867": {
+    "context": "000867",
     "code": "0x45",
     "developer_comment": "",
     "string": "その誰かが誰なのかは、恵那には知らされていない。"
   },
-  "000875": {
-    "context": "000875",
+  "000872": {
+    "context": "000872",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが知らされずとも、彼女にはわかった。"
   },
-  "000881": {
-    "context": "000881",
+  "000878": {
+    "context": "000878",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "（お父さんはきっと、ちょうのうりょくしゃをまもろうとして……）"
   },
-  "000887": {
-    "context": "000887",
+  "000884": {
+    "context": "000884",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "（わるいひとたちに……！）"
   },
-  "000931": {
-    "context": "000931",
+  "000928": {
+    "context": "000928",
     "code": "0x45",
     "developer_comment": "",
     "string": "恵那は空を見上げて想う。"
   },
-  "000936": {
-    "context": "000936",
+  "000933": {
+    "context": "000933",
     "code": "0x45",
     "developer_comment": "",
     "string": "父が護ろうとしたものを、自分が護ってみせようと。"
   },
-  "000941": {
-    "context": "000941",
+  "000938": {
+    "context": "000938",
     "code": "0x45",
     "developer_comment": "",
     "string": "いつか父と同じ仕事に就こうと――。"
   },
-  "000949": {
-    "context": "000949",
+  "000946": {
+    "context": "000946",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「お父さん……やくそくまもるからね」"
   },
-  "000957": {
-    "context": "000957",
+  "000954": {
+    "context": "000954",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「それまでてんごくから、えなをみててね」"
   },
-  "000962": {
-    "context": "000962",
+  "000959": {
+    "context": "000959",
     "code": "0x45",
     "developer_comment": "",
     "string": "幼い彼女には、まだ大きすぎる望み。"
   },
-  "000967": {
-    "context": "000967",
+  "000964": {
+    "context": "000964",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが確かにそれを胸に留め、恵那は涙を拭った。"
