@@ -1,0 +1,933 @@
+{
+  "000366": {
+    "context": "000366",
+    "code": "0x55",
+    "string": "√Before Chapter0"
+  },
+  "000374": {
+    "context": "000374",
+    "code": "0x86",
+    "string": "You have taken my friends from me."
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x86",
+    "string": "You have made me an abomination to them."
+  },
+  "000376": {
+    "context": "000376",
+    "code": "0x86",
+    "string": "Ⅰ am confined, and Ⅰ can't escape."
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x86",
+    "string": "(The Old Testament / Psalms 88:8)"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――那声巨响，犹如宣告终结的钟声一般――"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在拂晓的研究所中回响。"
+  },
+  "000504": {
+    "context": "000504",
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "「！」"
+  },
+  "000509": {
+    "context": "000509",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少年因惊讶而屏住气。"
+  },
+  "000602": {
+    "context": "000602",
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "「呀啊——！」"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "旁边的少女惊叫起来。"
+  },
+  "000651": {
+    "context": "000651",
+    "code": "0x45",
+    "developer_comment": "少女２",
+    "string": "「咕……！」"
+  },
+  "000656": {
+    "context": "000656",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "地面传来震动感。"
+  },
+  "000845": {
+    "context": "000845",
+    "code": "0x45",
+    "developer_comment": "少女２",
+    "string": "「……炸弹，还是好几枚……！？」"
+  },
+  "000856": {
+    "context": "000856",
+    "code": "0x45",
+    "developer_comment": "少女１",
+    "string": "「夏、夏彦，该不会是……！」"
+  },
+  "000933": {
+    "context": "000933",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听着旁边少女们的话，名为『夏彦』的少年牙关紧咬。"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊，我知道……」"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……我们，没能赶上」"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "只是那句话，被尖锐的警报声盖过。"
+  },
+  "002220": {
+    "context": "002220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自动播放的冷静通透的警告声响起。"
+  },
+  "002228": {
+    "context": "002228",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「设施内的安全系统已转为『避难模式』。除了N区域外所有区域大门均已开放」"
+  },
+  "002236": {
+    "context": "002236",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「各位员工，请冷静前往地上避难」"
+  },
+  "002357": {
+    "context": "002357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "零碎的信息让每个人都不知所措。"
+  },
+  "002365": {
+    "context": "002365",
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「发、发生什么了！？」"
+  },
+  "002373": {
+    "context": "002373",
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「我也不知道！好像什么爆炸了的样子……？」"
+  },
+  "002381": {
+    "context": "002381",
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「是说爆炸吗！？　这个设施里！？」"
+  },
+  "002386": {
+    "context": "002386",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就像是回答这些疑问一般，播报持续着。"
+  },
+  "002486": {
+    "context": "002486",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「紧，紧急广播！」"
+  },
+  "002497": {
+    "context": "002497",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「现在设施内，发生了不明原因的爆炸」"
+  },
+  "002508": {
+    "context": "002508",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「已知情况是、设施内十个地点同时发生了爆炸、并因此导致起火！」"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「江里口研究员、柏木研究员！请紧急赶来第 2 区域！」"
+  },
+  "002612": {
+    "context": "002612",
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「是说十个地方爆炸吗……！？」"
+  },
+  "002620": {
+    "context": "002620",
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「原因不明！？到底怎么回事！？」"
+  },
+  "002625": {
+    "context": "002625",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在发抖的男人旁边，女科学家嘟哝说，"
+  },
+  "002714": {
+    "context": "002714",
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「没事的……！因为这个设施配备有双重、三重的防灾系统」"
+  },
+  "002725": {
+    "context": "002725",
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「无论发生什么，按道理都不会发展成为大规模灾害」"
+  },
+  "002754": {
+    "context": "002754",
+    "code": "0x45",
+    "developer_comment": "女科学者",
+    "string": "「安全是有保障的……放心吧」"
+  },
+  "002759": {
+    "context": "002759",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那声音如此平稳，仿佛要给予害怕的人们勇气一般。"
+  },
+  "002877": {
+    "context": "002877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——但是，那份希望很快就破灭了。"
+  },
+  "002966": {
+    "context": "002966",
+    "code": "0x45",
+    "developer_comment": "警備員１",
+    "string": "「灭火系统没有工作！？」"
+  },
+  "002974": {
+    "context": "002974",
+    "code": "0x45",
+    "developer_comment": "警備員２",
+    "string": "「为什么……可恶！快疏散员工！」"
+  },
+  "002979": {
+    "context": "002979",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "视作救命稻草的系统，完全没有发挥作用。"
+  },
+  "003062": {
+    "context": "003062",
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「确认工厂也起火了！　开发中的器材都烧起来了！」"
+  },
+  "003070": {
+    "context": "003070",
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「开什么玩笑！开发成本多贵你不知道吗！」"
+  },
+  "003078": {
+    "context": "003078",
+    "code": "0x45",
+    "developer_comment": "職員２",
+    "string": "「怎么能就这么烧完了！靠人力灭火！」"
+  },
+  "003086": {
+    "context": "003086",
+    "code": "0x45",
+    "developer_comment": "職員１",
+    "string": "「四个地方同时着火了！怎么可能扑灭得了！」"
+  },
+  "003202": {
+    "context": "003202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "混乱与骚动支配了设施的内部。"
+  },
+  "003207": {
+    "context": "003207",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "扩散开的不安充满了空气。"
+  },
+  "003212": {
+    "context": "003212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "像是要给予致命一击般，新的宣告开始了。"
+  },
+  "003311": {
+    "context": "003311",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「确认 N 区域的数值增幅……！紧急停止系统启动了！」"
+  },
+  "003322": {
+    "context": "003322",
+    "code": "0x45",
+    "developer_comment": "男職員",
+    "string": "「包括 N 区域和控制室的员工在内，所有人请立即前往地上避难！」"
+  },
+  "003400": {
+    "context": "003400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——播报停止的一瞬间，寂静演变成了大慌乱。"
+  },
+  "003408": {
+    "context": "003408",
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「数……数值增幅！？」"
+  },
+  "003416": {
+    "context": "003416",
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「总、总之先去地上！朝着远程控制室跑！」"
+  },
+  "003424": {
+    "context": "003424",
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「不能坐电梯！楼梯、走楼梯！」"
+  },
+  "003429": {
+    "context": "003429",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人群喧闹着。"
+  },
+  "003510": {
+    "context": "003510",
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「吃 AD ！应该还有储备的吧！」"
+  },
+  "003518": {
+    "context": "003518",
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「没想到居然是要吃 AD 的事态了……！」"
+  },
+  "003526": {
+    "context": "003526",
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「不要犹豫！按照说明书来！」"
+  },
+  "003531": {
+    "context": "003531",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人们竭尽所能应对着紧急事态。"
+  },
+  "003536": {
+    "context": "003536",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "只不过全都为时已晚。"
+  },
+  "003617": {
+    "context": "003617",
+    "code": "0x45",
+    "developer_comment": "研究員１",
+    "string": "「安全楼梯居然崩塌了！？」"
+  },
+  "003625": {
+    "context": "003625",
+    "code": "0x45",
+    "developer_comment": "研究員２",
+    "string": "「电梯全部停止运行！已经没有办法避难了！」"
+  },
+  "003633": {
+    "context": "003633",
+    "code": "0x45",
+    "developer_comment": "研究員３",
+    "string": "「混账……怎么会发生这样的事情！」"
+  },
+  "003679": {
+    "context": "003679",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "逃生通道被断绝了。"
+  },
+  "003684": {
+    "context": "003684",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为什么事态会变成这样已经无从而知。"
+  },
+  "003689": {
+    "context": "003689",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就连这里究竟发生了什么，也无人知晓。"
+  },
+  "003700": {
+    "context": "003700",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——没有人，除了一个例外。"
+  },
+  "003799": {
+    "context": "003799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "盯着崩塌的楼梯，夏彦等人大声喊着。"
+  },
+  "003810": {
+    "context": "003810",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――可恶！全部都是，那家伙干的好事！」"
+  },
+  "003821": {
+    "context": "003821",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「情况怎么会变得这么糟糕……」"
+  },
+  "003941": {
+    "context": "003941",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「怎么办啊，夏彦！？」"
+  },
+  "003946": {
+    "context": "003946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "旁边的少女发出悲鸣。"
+  },
+  "003969": {
+    "context": "003969",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自己剩下的时间，究竟还有多少呢。"
+  },
+  "003974": {
+    "context": "003974",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男子这样想着看了看表，不过——"
+  },
+  "004210": {
+    "context": "004210",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊……」"
+  },
+  "004215": {
+    "context": "004215",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先前爆炸发生的时候，表就坏掉了。"
+  },
+  "004220": {
+    "context": "004220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "日期显示着『 9 月 16 日』、表针停留在『 6 时 19 分』。"
+  },
+  "004225": {
+    "context": "004225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那是他终生难忘的时刻。"
+  },
+  "004294": {
+    "context": "004294",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（如果能再稍微早那么一点点的话……！）"
+  },
+  "004317": {
+    "context": "004317",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但即便如此，到这里来也是有意义的。"
+  },
+  "004430": {
+    "context": "004430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦正要迈出一步的时候，少女拉住了他的手。"
+  },
+  "004441": {
+    "context": "004441",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「等一下、夏彦！这种状况下你要去哪儿？！」"
+  },
+  "004452": {
+    "context": "004452",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「去把那些家伙、找出来……！」"
+  },
+  "004481": {
+    "context": "004481",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「喂，夏彦，你在想什么啊？！」"
+  },
+  "004492": {
+    "context": "004492",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……我要去阻止那些家伙的计划。即使现在，也有我能做到的事情——」"
+  },
+  "004536": {
+    "context": "004536",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那是不行的！　夏彦、冷静一点！」"
+  },
+  "004547": {
+    "context": "004547",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「为什么？！我们来这里，不就是真白你同意的吗！」"
+  },
+  "004576": {
+    "context": "004576",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「现在状况已经截然不同了吧！已经为时已晚了！」"
+  },
+  "004587": {
+    "context": "004587",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「没有为时已晚！一定是来得及的！」"
+  },
+  "004616": {
+    "context": "004616",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「再说了无论逃到哪里结果都一样吧！那还不如——」"
+  },
+  "004735": {
+    "context": "004735",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "喊出这些话的瞬间，脸颊传来剧烈的疼痛。"
+  },
+  "004740": {
+    "context": "004740",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "眼前的少女，用力扇了夏彦一巴掌。"
+  },
+  "004769": {
+    "context": "004769",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……！」"
+  },
+  "004780": {
+    "context": "004780",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「难道，还想要失去更多东西吗……？！」"
+  },
+  "004803": {
+    "context": "004803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那句话像是在他的心里挖了个洞。"
+  },
+  "004907": {
+    "context": "004907",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——就在这时，又响起一声轰鸣。"
+  },
+  "004936": {
+    "context": "004936",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「…？！」"
+  },
+  "004965": {
+    "context": "004965",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「爆炸……这次是在哪里……」"
+  },
+  "004994": {
+    "context": "004994",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「求求你了，夏彦，赶紧逃吧！」"
+  },
+  "005017": {
+    "context": "005017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少女恳求的声音，动摇了夏彦的心。"
+  },
+  "005023": {
+    "context": "005023",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「…………」"
+  },
+  "005047": {
+    "context": "005047",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「………」"
+  },
+  "005053": {
+    "context": "005053",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  "005082": {
+    "context": "005082",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……我明白了。首先寻找出口吧……！」"
+  },
+  "005282": {
+    "context": "005282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——然后他们跑了起来，寻找出口。"
+  },
+  "005287": {
+    "context": "005287",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他们还不知道，前方迎接他们的会是什么。"
+  },
+  "005292": {
+    "context": "005292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "之后他们还将反复回想起的，漫长的一天——"
+  },
+  "005297": {
+    "context": "005297",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就此拉开帷幕。"
+  },
+  "005425": {
+    "context": "005425",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「去找找其它的楼梯！一定有哪处楼梯还能用！」"
+  },
+  "005454": {
+    "context": "005454",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「你了解设施内部的构造吗？！」"
+  },
+  "005483": {
+    "context": "005483",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「应该先对此进行调查。盲目逃跑太危险了」"
+  },
+  "005871": {
+    "context": "005871",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「纱瑠，你在干什么？！」"
+  },
+  "005967": {
+    "context": "005967",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「现在，正在查找这座设施的内部地图」"
+  },
+  "006185": {
+    "context": "006185",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「我想，先前崩塌的是外环楼的安全梯」"
+  },
+  "006239": {
+    "context": "006239",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「旁边的『内环楼』、好像也有安全梯的样子……」"
+  },
+  "006377": {
+    "context": "006377",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「好，那就先去那里吧！」"
+  },
+  "006704": {
+    "context": "006704",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「火？！为什么火势发展得这么快？！」"
+  },
+  "006715": {
+    "context": "006715",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「难不成，是为了让设施里的人无处可逃……？」"
+  },
+  "006744": {
+    "context": "006744",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「咳……这里太危险了！再去找其它的出口！」"
+  },
+  "006879": {
+    "context": "006879",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我去确认连接『第 2 区域』的通道是否完好！」"
+  },
+  "006908": {
+    "context": "006908",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「了解，注意安全！」"
+  },
+  "007043": {
+    "context": "007043",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——他们鼓起勇气，奔跑起来。"
+  },
+  "007112": {
+    "context": "007112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为了从这座设施逃出去、存活下来。"
+  },
+  "007187": {
+    "context": "007187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "而在道路的正中间——"
+  },
+  "007279": {
+    "context": "007279",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸……！」"
+  },
+  "007363": {
+    "context": "007363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——他，遇到了她。"
+  },
+  "007587": {
+    "context": "007587",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――悠里！？」"
+  },
+  "007592": {
+    "context": "007592",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在那里的是，叫做『悠里』的人。"
+  },
+  "007695": {
+    "context": "007695",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "和夏彦住在一起，本应在家里等他回来的人。"
+  },
+  "007790": {
+    "context": "007790",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本不应出现在这里的女孩——"
+  },
+  "007875": {
+    "context": "007875",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（为什么，悠里会……？！）"
+  },
+  "007880": {
+    "context": "007880",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "出于惊讶，夏彦目不转睛地看着她。"
+  },
+  "007964": {
+    "context": "007964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里——"
+  },
+  "007993": {
+    "context": "007993",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「为什么到这里来了……？！」"
+  },
+  "007998": {
+    "context": "007998",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悲伤地，小声说着。"
+  },
+  "008088": {
+    "context": "008088",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里才是，为什么会在这里？！」"
+  },
+  "008099": {
+    "context": "008099",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「离家出走了吗？！」"
+  },
+  "008104": {
+    "context": "008104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边反问着，一边回忆起来。"
+  },
+  "008127": {
+    "context": "008127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "至今为止的旅程。"
+  },
+  "008211": {
+    "context": "008211",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最后悠里，寂寞地说。"
+  },
+  "008240": {
+    "context": "008240",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……就是这样……」"
+  },
+  "008245": {
+    "context": "008245",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后如释重负般微笑了。"
+  },
+  "008250": {
+    "context": "008250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——这时。"
+  },
+  "008329": {
+    "context": "008329",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一道闪光，就在两人旁边绽放。"
+  },
+  "008454": {
+    "context": "008454",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「呜！悠里！」"
+  },
+  "008750": {
+    "context": "008750",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一瞬朝着悠里扑过去。与此同时，爆炸的气浪扑面而来。"
+  },
+  "008761": {
+    "context": "008761",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊！！」"
+  },
+  "008766": {
+    "context": "008766",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和悠里一起，被吹飞了。"
+  },
+  "008812": {
+    "context": "008812",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "即将撞到地面的那一刹那——"
+  },
+  "008817": {
+    "context": "008817",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "迄今为止的经历像走马灯一样经过夏彦的眼前。"
+  },
+  "008892": {
+    "context": "008892",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（为什么会这样——）"
+  },
+  "009296": {
+    "context": "009296",
+    "code": "0x45",
+    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "string": "——同时，已经模糊的意识深处——"
+  },
+  "009365": {
+    "context": "009365",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "传来一道声音，呼唤他醒来。"
+  },
+  "009370": {
+    "context": "009370",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "或者说，有这样的记忆。"
+  },
+  "009375": {
+    "context": "009375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在白色的坟墓下，他听到了那声音……"
+  }
+}
