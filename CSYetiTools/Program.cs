@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using CommandLine;
+using Newtonsoft.Json.Linq;
+using Flurl;
+using Flurl.Util;
+using Flurl.Http;
 
 namespace CSYetiTools
 {
@@ -116,25 +121,51 @@ namespace CSYetiTools
             public string ModifiersFile { get; set; } = "string_list_modifiers.sexpr";
         }
 
-        static void Main(string[] args)
+        [Verb("fill-fx-dups", HelpText = "FillTransifexDuplicatedStrings")]
+        class FillTransifexDuplicatedStringsOptions
         {
-            Parser.Default.ParseArguments<
+
+            [Option("input", Default = "sn.bin")]
+            public string Input { get; set; } = "";
+
+            [Option("input-ref")]
+            public string InputRef { get; set; } = "";
+
+            [Option("modifier-file")]
+            public string ModifiersFile { get; set; } = "string_list_modifiers.sexpr";
+
+            [Option("url")]
+            public string Url { get; set; } = "";
+
+            [Option("token", Default = "")]
+            public string Token { get; set; } = "";
+
+            [Option("pattern", Default = ".*")]
+            public string Pattern { get; set; } = ".*";
+        }
+
+        static async Task Main(string[] args)
+        {
+            await Parser.Default.ParseArguments<
                 TestBedOptions,
                 EncodeSnOptions,
                 DecodeSnOptions,
                 DecodeScriptOptions,
                 GenStringCompareOptions,
                 ReplaceStringListOptions,
-                DumpTranslateSourceOptions
-            >(args)
-                .WithParsed<TestBedOptions>(TestBed)
-                .WithParsed<EncodeSnOptions>(EncodeSn)
-                .WithParsed<DecodeSnOptions>(DecodeSn)
-                .WithParsed<DecodeScriptOptions>(DecodeScript)
-                .WithParsed<GenStringCompareOptions>(GenStringCompare)
-                .WithParsed<ReplaceStringListOptions>(ReplaceStringList)
-                .WithParsed<DumpTranslateSourceOptions>(DumpTranslateSource)
-                .WithNotParsed(errs => errs.ForEach(HandleError));
+                DumpTranslateSourceOptions,
+                FillTransifexDuplicatedStringsOptions
+            >(args).MapResult(
+                (TestBedOptions o) => Task.Run(() => TestBed(o)),
+                (EncodeSnOptions o) => Task.Run(() => EncodeSn(o)),
+                (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
+                (DecodeScriptOptions o) => Task.Run(() => DecodeScript(o)),
+                (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
+                (ReplaceStringListOptions o) => Task.Run(() => ReplaceStringList(o)),
+                (DumpTranslateSourceOptions o) => Task.Run(() => DumpTranslateSource(o)),
+                (FillTransifexDuplicatedStringsOptions o) => FillTransifexDuplicatedStrings(o),
+                errs => Task.Run(() => errs.ForEach(HandleError))
+            );
 
             Console.WriteLine("Done.");
         }
@@ -194,7 +225,7 @@ namespace CSYetiTools
                 foreach (var (i, entry) in entries.WithIndex())
                 {
                     //writer.WriteLine($"{i, 3}: {entry.Index, 3}| [{entry.Code:X02}] [{entry.Content}]");
-                    writer.WriteLine($"{i, 3}: {entry.Index, 4}| [{entry.Code:X02}] [{entry.Content}]");
+                    writer.WriteLine($"{i,3}: {entry.Index,4}| [{entry.Code:X02}] [{entry.Content}]");
                 }
             }
 
@@ -289,6 +320,110 @@ namespace CSYetiTools
             var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
 
             package.DumpTranslateSource(options.OutputDir);
+        }
+
+        class DupEntry
+        {
+            public int Chunk { get; set; }
+            public int Index { get; set; }
+            public int DupCounter { get; set; }
+        }
+
+        private static async Task FillTransifexDuplicatedStrings(FillTransifexDuplicatedStringsOptions options)
+        {
+            string? token = options.Token;
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                token = Environment.GetEnvironmentVariable("TX_TOKEN");
+            }
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                Console.WriteLine("No API token found, please use env TX_TOKEN or args --token to specify API token.");
+                return;
+            }
+
+            var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
+
+            var regex = new Regex(options.Pattern, RegexOptions.Compiled | RegexOptions.Singleline);
+
+            var md5 = System.Security.Cryptography.MD5.Create();
+            string GetMd5Hash(string input)
+            {
+                var data = md5.ComputeHash(Encoding.UTF8.GetBytes(input));
+                var sBuilder = new StringBuilder();
+                for (int i = 0; i < data.Length; i++)
+                {
+                    sBuilder.Append(data[i].ToString("x2"));
+                }
+                return sBuilder.ToString();
+            }
+
+            var dict = new Dictionary<string, DupEntry>();
+
+            foreach (var (chunkIndex, script) in package.Scripts.WithIndex())
+            {
+                if (chunkIndex == 0) continue;
+
+                var list = new JArray();
+                foreach (var code in script.Codes.OfType<OpCodes.StringCode>())
+                {
+                    if (code is OpCodes.CharacterCode) continue;
+
+                    var content = code.Content;
+                    if (regex.IsMatch(code.Content))
+                    {
+                        if (dict.TryGetValue(content, out var entry))
+                        {
+                            ++entry.DupCounter;
+                            list.Add(JObject.FromObject(new {
+                                source_entity_hash = GetMd5Hash($"{code.Index:000000}:{code.Index:000000}"),
+                                translation = $"@import {entry.Chunk:0000} {entry.Index:000000}"
+                            }));
+                        }
+                        else
+                        {
+                            dict.Add(content, new DupEntry{ Chunk = chunkIndex, Index = code.Index, DupCounter = 1 });
+                        }
+                    }
+                }
+                if (list.Count > 0)
+                {
+                    //GET "https://www.transifex.com/api/2/project/rootdouble_steam_cn/resource/source-json-chunk-0521-json--master/translation/zh_CN/strings/?key=1028"
+
+                    //PUT  "https://www.transifex.com/api/2/project/rootdouble_steam_cn/resource/source-json-chunk-0521-json--master/translation/zh_CN/strings/"
+                    //    Content-Type: application/json
+                    //    [{"source_entity_hash": "52eb48c64d136a9356bd2fcf03ab4bc2", "translation": "@import 0521 000554"}]
+
+                    var url = Regex.Replace(options.Url, "<chunk>", $"{chunkIndex:0000}");
+
+                    try
+                    {
+                        Console.Write($"Filling chunk_{chunkIndex:0000} ({list.Count} imports)...");
+                        Console.Out.Flush();
+
+                        var result = await url
+                            .WithBasicAuth("api", token)
+                            .WithTimeout(30)
+                            .WithHeader("Content-Type", "application/json")
+                            .PutStringAsync(list.ToString())
+                            .ReceiveString();
+                        
+                        Console.WriteLine(result);
+                    }
+                    catch (FlurlHttpException exc)
+                    {
+                        Console.WriteLine(exc.Message);
+                        return;
+                    }
+                }
+            }
+            dict = dict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
+            Console.WriteLine($"{dict.Sum(entry => entry.Value.DupCounter)} dups of {dict.Count} strings");
+            
+            // foreach (var (k, v) in dict.OrderByDescending(e => e.Value.DupCounter).Take(100))
+            // {
+            //     Console.WriteLine($"    {k:10}: {v.DupCounter}");
+            // }
         }
 
         private static void HandleError(Error error)
