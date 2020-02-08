@@ -1,0 +1,655 @@
+{
+  "000077": {
+    "context": "000077",
+    "code": "0x55",
+    "string": "@import 0131 000221"
+  },
+  "000085": {
+    "context": "000085",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "离开学校，夏彦二人乘上公交前往市中心。"
+  },
+  "000140": {
+    "context": "000140",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "商场所在的建筑紧邻着公交站。"
+  },
+  "000145": {
+    "context": "000145",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "里面已是人山人海。"
+  },
+  "000235": {
+    "context": "000235",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哎呀，这可真是人挤人呢」"
+  },
+  "000262": {
+    "context": "000262",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「但是好不容易都到这来了，走吧」"
+  },
+  "000291": {
+    "context": "000291",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「嗯，不入虎穴然后什么来的」"
+  },
+  "000324": {
+    "context": "000324",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和真白一起，奋力挤进商场。"
+  },
+  "000347": {
+    "context": "000347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——约 1 小时后——"
+  },
+  "000407": {
+    "context": "000407",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "走出商场，真白马上伸了个懒腰说。"
+  },
+  "000436": {
+    "context": "000436",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哎呀，一不小心稍微买多了呢」"
+  },
+  "000447": {
+    "context": "000447",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「哪里是稍微买多了啊。连没什么用的东西都买超量了吧？」"
+  },
+  "000452": {
+    "context": "000452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两手提满了购物袋的夏彦抱怨着。"
+  },
+  "000457": {
+    "context": "000457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "除了采购食材，真白还顺带惠顾了商场里的中古玩具店。"
+  },
+  "000462": {
+    "context": "000462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "老动画的手办小人，杂志和光盘什么的，净是些夏彦摸不着头脑的东西。"
+  },
+  "000473": {
+    "context": "000473",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真是的，你就是想着让我来当提包工具人吧……」"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那是因为！里面可是有不少贵重物品的哦？」"
+  },
+  "000531": {
+    "context": "000531",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「就比方说这本“动画导视 2020 年 4 月刊”！」"
+  },
+  "000542": {
+    "context": "000542",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「他可是登载着，现在登上神坛的某动画监督的专栏报道啊～」"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白开始谈论起刚才买的，10 年前的动画杂志的话题来了。"
+  },
+  "000577": {
+    "context": "000577",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「全国放送的动画，“超能力少女 Beyond☆BEYOND”就是这位监督的代表作啊……」"
+  },
+  "000606": {
+    "context": "000606",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「超稀有的广播剧版本，在附赠的光盘里有完整收录！」"
+  },
+  "000617": {
+    "context": "000617",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「再就是这位监督的珍贵的访谈材料和设定资料什么的，足足登载了 30 页！」"
+  },
+  "000646": {
+    "context": "000646",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「甚至还是按照当时的标价来卖的，这不买还是人吗！」"
+  },
+  "000657": {
+    "context": "000657",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯……虽然不太明白，但是听起来好像很厉害的样子」"
+  },
+  "000686": {
+    "context": "000686",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「不行啊夏彦。你可真是“有眼不识金镶玉，无情难奏凤求凰”啊」"
+  },
+  "000697": {
+    "context": "000697",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「那是什么？」"
+  },
+  "000726": {
+    "context": "000726",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「“BeyoBEYO”的名语录。在动画版第 13 话」"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊，原——来如此。怎么都无所谓吧」"
+  },
+  "000788": {
+    "context": "000788",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白就是有这样的，老是引用些动画和漫画的台词的坏习惯。"
+  },
+  "000793": {
+    "context": "000793",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是不结合起场景和上下文，就完全没有感染力了。所谓的“名语录”什么的，大部分都是这样的东西。"
+  },
+  "000804": {
+    "context": "000804",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真是的……谁能想到好好的一个高中女生，竟然这么宅」"
+  },
+  "000833": {
+    "context": "000833",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哼哼。这段台词曾经也是妇孺皆知的，只是现在没有人用了呢」"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嘛，有这样那样的兴趣，我稍微有点羡慕你了」"
+  },
+  "000881": {
+    "context": "000881",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦真是没有生活情趣啊。怎么样，以此为契机推开新世界的大门如何？」"
+  },
+  "000910": {
+    "context": "000910",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「漫画、电影、游戏、动画，把这些灌输给夏彦应该是很有趣的事情呢……嘻嘻嘻……」"
+  },
+  "000921": {
+    "context": "000921",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「也不用什么都特地教给我啦。我自己多少还是知道一点的说。小时候也看过动画的缘故」"
+  },
+  "000933": {
+    "context": "000933",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「“超感官战士 Beyonder”啦，还有……“Beyonder”啦……」"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「这不是除了 Beyonder 以外什么都不知道嘛！哎呀夏彦，你小时候真的很喜欢那部动画呢」"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「但现在果然也不会再看它了呢。终归是儿童向动画」"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「啊——真可怜呢，夏彦已经丢掉童心了呢」"
+  },
+  "001017": {
+    "context": "001017",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「什么啊，那可以管你叫“爱好者”吗？」"
+  },
+  "001046": {
+    "context": "001046",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「是啊是啊，爱好使人生丰富多彩喔？」"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「怎么样，夏彦也以此为契机推开新世界的大门如何？」"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0136 000910"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不要像这样子把爱好强加给别人。这只是你的一厢情愿吧」"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「嘁，真是顽固呢」"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看着似乎是真心感到遗憾的真白，夏彦露出苦笑。"
+  },
+  "001200": {
+    "context": "001200",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——真白的直爽和幼稚感，与夏彦还挺合得来的。"
+  },
+  "001205": {
+    "context": "001205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "知心姐姐一般的她，也给了夏彦不少帮助。"
+  },
+  "001211": {
+    "context": "001211",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（明明是个不错的家伙……只有喜欢宅这点真让人困扰）"
+  },
+  "001216": {
+    "context": "001216",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然而这天生的幼稚感，随着年龄增长，好像往奇怪的方向发展过去了。"
+  },
+  "001238": {
+    "context": "001238",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……嘛怎么都好啦。比起那些差不多该回家了。这么多东西」"
+  },
+  "001267": {
+    "context": "001267",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「啊，是这样呢抱歉w」"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两人朝着附近的公交站走去。"
+  },
+  "001474": {
+    "context": "001474",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「下一趟公交，是什么时候？」"
+  },
+  "001503": {
+    "context": "001503",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「我看看……大约 10 分钟后的样子」"
+  },
+  "001514": {
+    "context": "001514",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「好，看起来不用等很久」"
+  },
+  "001566": {
+    "context": "001566",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "于是两人就站着等起公交来。"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "眺望着街道，真白小声嘀咕。"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「不管怎么说，工作日而言人也太多了吧」"
+  },
+  "001611": {
+    "context": "001611",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「最近，城里的人口本身增长了很多的缘故啊」"
+  },
+  "001616": {
+    "context": "001616",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦朝着周围的街道放眼望去。"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——这座“鹿鸣市”，是小规模的地级城市。"
+  },
+  "001808": {
+    "context": "001808",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但城里坐落着超过 300 所研究机构，总计超过 1 万名研究人员居住。"
+  },
+  "001813": {
+    "context": "001813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这座城是领衔日本尖端科学的，研究型学园都市。"
+  },
+  "001818": {
+    "context": "001818",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "研究领域分布广泛，代表的有——"
+  },
+  "002047": {
+    "context": "002047",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·核能科学"
+  },
+  "002051": {
+    "context": "002051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·生物学"
+  },
+  "002055": {
+    "context": "002055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·物理学"
+  },
+  "002068": {
+    "context": "002068",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·医学"
+  },
+  "002072": {
+    "context": "002072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·生命科学"
+  },
+  "002076": {
+    "context": "002076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·地球环境科学技术"
+  },
+  "002126": {
+    "context": "002126",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·宇宙研究开发"
+  },
+  "002130": {
+    "context": "002130",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·地震与防灾研究"
+  },
+  "002180": {
+    "context": "002180",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·信息科学"
+  },
+  "002184": {
+    "context": "002184",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·材料工程学"
+  },
+  "002234": {
+    "context": "002234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·激光工程学"
+  },
+  "002238": {
+    "context": "002238",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·清洁能源"
+  },
+  "002242": {
+    "context": "002242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "·纳米技术"
+  },
+  "002292": {
+    "context": "002292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "再就是——BC。"
+  },
+  "002448": {
+    "context": "002448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "尤其核能科学和 BC 的研究，更是受到国家巨额科研补助的支持。"
+  },
+  "002453": {
+    "context": "002453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "尽管能源不足已经发展成为全球问题，但目前各国都无法确保安全优质的能源供应。"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "过去直到 21 世纪初还在世界推行的，核能发电已经不够用了。"
+  },
+  "002462": {
+    "context": "002462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "因此人们期盼着尽快有诸如核聚变等的创新成果出现。"
+  },
+  "002467": {
+    "context": "002467",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "也因此政府和研究者们，现在仍然着力于核能科学的研究。"
+  },
+  "002575": {
+    "context": "002575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——另一方面，BC 完全出于不同的原因而备受关注。"
+  },
+  "002580": {
+    "context": "002580",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "BC 的研究目前还只是冰山一角，原理等不明朗的地方还相当之多。"
+  },
+  "002584": {
+    "context": "002584",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然而未知的事物不能就这样视而不见。"
+  },
+  "002589": {
+    "context": "002589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这之后究竟会取得何种程度的进展尚不清楚，但可以说可能性是无限的。"
+  },
+  "002594": {
+    "context": "002594",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "因此必须尽快地，从科学层面上，揭晓 BC 的秘密。"
+  },
+  "002709": {
+    "context": "002709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——为此，在这座城市里，BC 研究人员自不用说，Communicator 等人都享受着包括减免纳税等等方面的各种优待。"
+  },
+  "002714": {
+    "context": "002714",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦也好真白也好，都享受着这些优惠待遇。"
+  },
+  "002813": {
+    "context": "002813",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「果然还是，Communicator 的人数增加了吗？」"
+  },
+  "002824": {
+    "context": "002824",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「像是这样呢。对我们来说也是宜居城市的缘故吧」"
+  },
+  "002829": {
+    "context": "002829",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "话虽如此，与在学校时不同，在城里完全听不到无差别的传心术来往。"
+  },
+  "002835": {
+    "context": "002835",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "滥用 BC 能力为城市法规所禁止，只有诸如鹿鸣学园等一部分设施是例外。"
+  },
+  "002840": {
+    "context": "002840",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一次两次还可以睁一只眼闭一只眼，但如果滥用到不能容忍的地步，就会马上被拘留成为训诫对象。"
+  },
+  "002851": {
+    "context": "002851",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嘛热闹一点也是好事儿，至少比起冷冷清清来说的话」"
+  },
+  "002880": {
+    "context": "002880",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「是的呢，我也喜欢这座城市喔。科学与超能力之城，这种科幻感不是很酷炫嘛？」"
+  },
+  "002909": {
+    "context": "002909",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「物资充沛，治安良好，挑不出毛病了吧」"
+  },
+  "002920": {
+    "context": "002920",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「是啊……除了一点之外呢」"
+  },
+  "002925": {
+    "context": "002925",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边说着，一边看向公交站旁设置的地图。"
+  },
+  "003095": {
+    "context": "003095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在地图的一角，画着一个巨大的六边形建筑物。"
+  },
+  "003106": {
+    "context": "003106",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「除了哪一点？」"
+  },
+  "003117": {
+    "context": "003117",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊啊……除了“LABO”以外」"
+  },
+  "003225": {
+    "context": "003225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦话音刚落——"
+  },
+  "003252": {
+    "context": "003252",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0026 003493"
+  },
+  "003257": {
+    "context": "003257",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就注意到地图以外的某样东西，而倒抽了一口凉气。"
+  }
+}

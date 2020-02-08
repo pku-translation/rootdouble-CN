@@ -1,0 +1,1414 @@
+{
+  "000051": {
+    "context": "000051",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "走出楼梯间，风见走进了一个附近的房间，说道。"
+  },
+  "000130": {
+    "context": "000130",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这里就是我们建立的简易基地」"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「你想进入任何一个房间的时候，只需要按这边的按钮就可以了」"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见按下门边上的一个按钮，门打开了。"
+  },
+  "000219": {
+    "context": "000219",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这是个大概 9 平方米的小研究室。"
+  },
+  "000224": {
+    "context": "000224",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在房间的一角放着各种各样的机器。看上去是风见她们带来的。"
+  },
+  "000290": {
+    "context": "000290",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那么队长，我来给你介绍 LABO 的构造。请跟我来」"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯，麻烦你了」"
+  },
+  "000306": {
+    "context": "000306",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见拿起桌子上的笔，在文件背面画了简单的地图。"
+  },
+  "000410": {
+    "context": "000410",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「中间的圆形区域是核心实验楼，有发生堆芯熔毁的核反应堆，简称为“N 区域”」"
+  },
+  "000421": {
+    "context": "000421",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「N 区域被其他的 6 个区域围在中间」"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「每个区域都有内环楼和外环楼，内环楼比外环楼稍微小一点」"
+  },
+  "000461": {
+    "context": "000461",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「然后每个区域都有地上两层和地下两层，一共四层楼——」"
+  },
+  "000472": {
+    "context": "000472",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我刚刚跟你说过的，这里面所有的通往地面的出口，都被隔离墙挡住了」"
+  },
+  "000483": {
+    "context": "000483",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「原来如此……我们只能在地下 1 层和地下 2 层活动」"
+  },
+  "000494": {
+    "context": "000494",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那，我们现在是在哪里？」"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「就在这里——」"
+  },
+  "000589": {
+    "context": "000589",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第 2 区域的内环楼，地下 2 层」"
+  },
+  "000600": {
+    "context": "000600",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「队长是在第 1 区域内环楼倒下的」"
+  },
+  "000684": {
+    "context": "000684",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隔离墙封锁以后到现在的两个小时，我和守部搜索了第 1、第 2 区域……」"
+  },
+  "000695": {
+    "context": "000695",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「也没找到除了你和悠里以外的被困人员，更不要说逃生路线了」"
+  },
+  "000779": {
+    "context": "000779",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「每个区域都有通往地面的安全梯，而且我们也确认了，所有的隔离墙都封锁住了」"
+  },
+  "000790": {
+    "context": "000790",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「除了第 2 区域内环楼的一处地方以外，所有楼梯都因为爆炸而崩塌了」"
+  },
+  "000856": {
+    "context": "000856",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……所以说，为了寻找其他的被困人员，也是为了找逃生的方法，接下来应该搜索第 3 区域是吗」"
+  },
+  "000885": {
+    "context": "000885",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不，我们也不能这么做」"
+  },
+  "000896": {
+    "context": "000896",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「为什么？」"
+  },
+  "000907": {
+    "context": "000907",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「各个区域之间的通道中都设置了“门禁”」"
+  },
+  "000918": {
+    "context": "000918",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「队长，刚刚联络通道中间的门看到了吗？」"
+  },
+  "001007": {
+    "context": "001007",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这么说的话，好像是有……」"
+  },
+  "001018": {
+    "context": "001018",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那个门是锁上的，要打开的话需要“门禁卡”才行」"
+  },
+  "001029": {
+    "context": "001029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么说着，风见从怀里拿出一张卡。"
+  },
+  "001058": {
+    "context": "001058",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「在搜索开始的时候，偶然在通道的地上捡到的」"
+  },
+  "001063": {
+    "context": "001063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这是一张塑料制成的卡。卡的上面穿了根绳子，所以可以挂在脖子上。"
+  },
+  "001068": {
+    "context": "001068",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "卡上面有这个设施的一位男员工的名字和照片，还写着“Lv. 2”。"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第 2 级……？」"
+  },
+  "001090": {
+    "context": "001090",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这个 LABO 为了保证各个区域的机密性，设置了安全等级」"
+  },
+  "001194": {
+    "context": "001194",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「连接内环楼和外环楼之间的通道，和各个区域之间连接的通道上，各有两道门禁」"
+  },
+  "001260": {
+    "context": "001260",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「等级 2 的卡，可以打开第 2 区域及其之前的门——」"
+  },
+  "001271": {
+    "context": "001271",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「前往第 3 区域需要等级 3 ，前往第 4 区域需要等级 4，要前往对应的区域就需要对应等级的卡」"
+  },
+  "001282": {
+    "context": "001282",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是我们现在，只有等级 2 的卡」"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那，我们不是没法继续前进了？」"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「当然如果找到了卡，我们就可以前往别的区域……」"
+  },
+  "001389": {
+    "context": "001389",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但是我们到处都找遍了，也只找到这一张卡」"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我们没找过的，大概只剩下队长你的口袋了吧？」"
+  },
+  "001429": {
+    "context": "001429",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「我的口袋里啊……」"
+  },
+  "001434": {
+    "context": "001434",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后正好找到一张等级 3 的卡，不会这么巧吧。"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么想着，渡濑开始找自己的口袋——"
+  },
+  "001450": {
+    "context": "001450",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 004605"
+  },
+  "001461": {
+    "context": "001461",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「有……有了」"
+  },
+  "001505": {
+    "context": "001505",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0002 003339"
+  },
+  "001516": {
+    "context": "001516",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不是吧！？」"
+  },
+  "001527": {
+    "context": "001527",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「真的，看」"
+  },
+  "001613": {
+    "context": "001613",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑从胸前口袋里掏出来两张卡。"
+  },
+  "001618": {
+    "context": "001618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "上面写着“宇喜多 佳司” “笕 善秀”。"
+  },
+  "001623": {
+    "context": "001623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后，上面都写着“Lv. 4”。"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「等级 4 ！？太好了，那我们就可以前往第 4 区域了！」"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是队长，为什么会有等级 4 的卡？还是两张」"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「额，我也完全不明白……」"
+  },
+  "001699": {
+    "context": "001699",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "想着可能会有什么线索，他开始找其他的口袋——"
+  },
+  "001704": {
+    "context": "001704",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在他的胸前口袋里，又找到了一个奇怪的东西。"
+  },
+  "001796": {
+    "context": "001796",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这是……什么？」"
+  },
+  "001826": {
+    "context": "001826",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「Sirius 标配的 PDA 。我们也有这个」"
+  },
+  "001837": {
+    "context": "001837",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「PDA ？」"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「便携式终端。即使不是救援队的队员，一般市民大部分也有这个」"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「功能首先有电话和无线电。然后，还有能感知热源的“热像仪”」"
+  },
+  "001968": {
+    "context": "001968",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这个怎么用？」"
+  },
+  "001997": {
+    "context": "001997",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「用法，首先是这个触摸屏……」"
+  },
+  "002002": {
+    "context": "002002",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听着风见的讲解，渡濑开始操作 PDA。"
+  },
+  "002047": {
+    "context": "002047",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后，画面被红黄蓝三原色填满了。"
+  },
+  "002058": {
+    "context": "002058",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「所以红色的就是热的东西？」"
+  },
+  "002087": {
+    "context": "002087",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「虽然看起来很简单，但是有的时候会很有用」"
+  },
+  "002098": {
+    "context": "002098",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「原来如此……」"
+  },
+  "002205": {
+    "context": "002205",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「还有，你可以用他来存储信息……你有存什么东西吗？」"
+  },
+  "002216": {
+    "context": "002216",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「有还是没有呢？」"
+  },
+  "002221": {
+    "context": "002221",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑尝试着操作这个 PDA 。"
+  },
+  "002226": {
+    "context": "002226",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是——文件夹都被锁住了，没有密码就没办法看到里面的内容。"
+  },
+  "002262": {
+    "context": "002262",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「需要密码啊……有人知道密码吗？」"
+  },
+  "002291": {
+    "context": "002291",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「当然没有」"
+  },
+  "002320": {
+    "context": "002320",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「顺带一提电话功能在地下用不了。无线电现在也派不上用场」"
+  },
+  "002331": {
+    "context": "002331",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「你又说了一次……」"
+  },
+  "002336": {
+    "context": "002336",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然这么说着，渡濑还是试了一下电话功能。"
+  },
+  "002341": {
+    "context": "002341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先是给刚刚提到的“堂岛队员”打个电话——"
+  },
+  "002346": {
+    "context": "002346",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——传来了嘟，嘟的忙音。"
+  },
+  "002351": {
+    "context": "002351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "接下来是用无线电功能，跟“桧山队员”通信。"
+  },
+  "002356": {
+    "context": "002356",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是也只传来杂音，联系不上。"
+  },
+  "002361": {
+    "context": "002361",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "其他的号码和频率也都是一样。"
+  },
+  "002372": {
+    "context": "002372",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……可恶，真的是一点用场也帮不上」"
+  },
+  "002383": {
+    "context": "002383",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「至少要试试密码，也许会有什么线索……」"
+  },
+  "002412": {
+    "context": "002412",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「不如想到什么就先试试什么？」"
+  },
+  "002435": {
+    "context": "002435",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵正说话的时候，悠里也提心吊胆地开口说道。"
+  },
+  "002446": {
+    "context": "002446",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「那个……最好不要试比较好……」"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶？」"
+  },
+  "002486": {
+    "context": "002486",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「为什么会这样觉得呢？」"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「那，那个……」"
+  },
+  "002544": {
+    "context": "002544",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「这是很重要的 PDA ……如果弄坏了就麻烦了……」"
+  },
+  "002555": {
+    "context": "002555",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这，这样啊……」"
+  },
+  "002560": {
+    "context": "002560",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑这样说着，把 PDA 收起来了。"
+  },
+  "002571": {
+    "context": "002571",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「话说回来，橘你们拿着的备品都有哪些啊？」"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「哦，你连这个都忘了啊。那时间宝贵我简要说说」"
+  },
+  "002611": {
+    "context": "002611",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「不好意思，麻烦你了」"
+  },
+  "002686": {
+    "context": "002686",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵点点头，用手指着带来的装备。"
+  },
+  "002790": {
+    "context": "002790",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「首先这个是刚刚你注射过的“AD”」"
+  },
+  "002801": {
+    "context": "002801",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是 60 分钟之内能防辐射的药」"
+  },
+  "002812": {
+    "context": "002812",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「现在是我们的生命线了……」"
+  },
+  "002841": {
+    "context": "002841",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「真是如此。我们带进来的，和设施里找到的，加起来才有 7 支」"
+  },
+  "002852": {
+    "context": "002852",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶？这个设施里也有 AD 吗？」"
+  },
+  "002881": {
+    "context": "002881",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「以防万一，这里有放进箱子里保管起来的 AD」"
+  },
+  "002910": {
+    "context": "002910",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但是第 1、第 2 区域的 AD，基本上都烧掉了」"
+  },
+  "002921": {
+    "context": "002921",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「我们有 4 个人，剩下 7 支……按照这个速度，我们撑不到两个小时了」"
+  },
+  "002950": {
+    "context": "002950",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「再多一点就安心了。所以我们需要去找到更多」"
+  },
+  "003016": {
+    "context": "003016",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「然后，这是辐射测量仪“Procyon”」"
+  },
+  "003027": {
+    "context": "003027",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「所谓的盖革计数器的最新版。用这个小机器，能测量最高 15000 mSv 的辐射量，并显示出数值」"
+  },
+  "003038": {
+    "context": "003038",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这个和 AD 都是 LABO 的有关人士给我们的。这两个对我们来说都很有帮助」"
+  },
+  "003044": {
+    "context": "003044",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（确实是很方便……就像是知道会发生这样的事情一样）"
+  },
+  "003073": {
+    "context": "003073",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「你在发什么呆？快点看下一个了」"
+  },
+  "003158": {
+    "context": "003158",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这是我们队的基本装备。“空气罐”」"
+  },
+  "003187": {
+    "context": "003187",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但是面罩破损了，现在已经派不上什么用场了」"
+  },
+  "003198": {
+    "context": "003198",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这样……虽然看起来很有用，但是很可惜」"
+  },
+  "003283": {
+    "context": "003283",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这是“充气千斤顶”」"
+  },
+  "003294": {
+    "context": "003294",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这是个力量很大的千斤顶。如果跟空气罐组合的话，利用压缩空气的力量可以顶起很重的东西」"
+  },
+  "003305": {
+    "context": "003305",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「需要用空气罐吗？那能用的次数就有限了啊」"
+  },
+  "003316": {
+    "context": "003316",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「因为面罩坏了，这也是空气罐唯一的用处了」"
+  },
+  "003402": {
+    "context": "003402",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「然后下一个是“动力切割机”！」"
+  },
+  "003413": {
+    "context": "003413",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「通过强大的内置电池驱动发动机！人造金刚石的刀刃削铁如泥！」"
+  },
+  "003424": {
+    "context": "003424",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……别那么兴奋，眼神很恐怖哦」"
+  },
+  "003453": {
+    "context": "003453",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「欸嘿，常有人这么说我」"
+  },
+  "003537": {
+    "context": "003537",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「还有根“10 m 长的绳子”……这就是所有装备了。记住了吗，队长？」"
+  },
+  "003559": {
+    "context": "003559",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，没问题」"
+  },
+  "003606": {
+    "context": "003606",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「顺带一提，我们还有 2 件“防辐射服”……」"
+  },
+  "003617": {
+    "context": "003617",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「它们在之前灭火的时候损坏了，已经不能再用了」"
+  },
+  "003622": {
+    "context": "003622",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见指着两个防护服的残骸。"
+  },
+  "003627": {
+    "context": "003627",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这两件防护服头部都损坏了。"
+  },
+  "003656": {
+    "context": "003656",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「气密、耐火、耐水性能都很优秀，面罩可以直接跟空气罐连接，是非常强大的装备——」"
+  },
+  "003667": {
+    "context": "003667",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是因为破损了，所以空气罐也派不上用场了」"
+  },
+  "003678": {
+    "context": "003678",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这真是太糟糕了……！」"
+  },
+  "003707": {
+    "context": "003707",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这么说来的话，队长你之前也穿着防护服的吧？怎么现在没穿呢？」"
+  },
+  "003718": {
+    "context": "003718",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶？唔姆……可能因为不好活动，就脱掉了吧？」"
+  },
+  "003747": {
+    "context": "003747",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「怎么会！本来在这个设施里进行救援行动，穿着防护服就是最基本的要求了哦！」"
+  },
+  "003758": {
+    "context": "003758",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这，这样啊……但还是想不起来。也是因为失忆了吧」"
+  },
+  "003763": {
+    "context": "003763",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不仅带着门禁卡，还没穿防护服——失忆前的渡濑身上发生了什么，疑点实在是太多了。"
+  },
+  "003769": {
+    "context": "003769",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（真的是……我在地下，究竟遇到了什么事情？）"
+  },
+  "003774": {
+    "context": "003774",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "没有人能回答这个问题。渡濑叹了口气，说道。"
+  },
+  "003785": {
+    "context": "003785",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「话说回来……后面你们准备做什么？」"
+  },
+  "003814": {
+    "context": "003814",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「额，有了等级 4 的卡，我觉得应该扩大搜索范围」"
+  },
+  "003843": {
+    "context": "003843",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队长怎么样？是不是还是休息一下？」"
+  },
+  "003872": {
+    "context": "003872",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「是啊，看起来记忆还是很暧昧的样子」"
+  },
+  "003883": {
+    "context": "003883",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，那确实……」"
+  },
+  "003888": {
+    "context": "003888",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在渡濑准备接受她们的好意的时候——"
+  },
+  "003965": {
+    "context": "003965",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "眼睛看到了悠里。"
+  },
+  "003976": {
+    "context": "003976",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！」"
+  },
+  "004005": {
+    "context": "004005",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0003 001012"
+  },
+  "004010": {
+    "context": "004010",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里现在眼中还满是惊恐。"
+  },
+  "004015": {
+    "context": "004015",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "救她的时候听到的声音，在耳边响起。"
+  },
+  "004118": {
+    "context": "004118",
+    "code": "0x85",
+    "string": "『不要停下来！去救她！』"
+  },
+  "004119": {
+    "context": "004119",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "004120": {
+    "context": "004120",
+    "code": "0x86",
+    "string": "@import 0006 004118"
+  },
+  "004157": {
+    "context": "004157",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——不知道为什么，他开始思考留在这里是不是不太好。"
+  },
+  "004163": {
+    "context": "004163",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（救下悠里，然后就可以了吗？）"
+  },
+  "004169": {
+    "context": "004169",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（不……！）"
+  },
+  "004174": {
+    "context": "004174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "决定下来以后，渡濑对风见她们说。"
+  },
+  "004242": {
+    "context": "004242",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「等，等一下……！我也要一起帮忙搜索被困人员！」"
+  },
+  "004271": {
+    "context": "004271",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「诶？但是——」"
+  },
+  "004300": {
+    "context": "004300",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「没关系吗队长？」"
+  },
+  "004311": {
+    "context": "004311",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「确实我记忆还是很暧昧，在你们看来可能是累赘……」"
+  },
+  "004322": {
+    "context": "004322",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「即使这样，我也是救援队的一员对吧？所以我没有办法一个人呆着等你们」"
+  },
+  "004327": {
+    "context": "004327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑浑身被冲动一般的使命感点燃了。"
+  },
+  "004332": {
+    "context": "004332",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见睁大了眼睛，然后苦笑了起来。"
+  },
+  "004361": {
+    "context": "004361",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……真是像你的发言……」"
+  },
+  "004372": {
+    "context": "004372",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0003 001012"
+  },
+  "004377": {
+    "context": "004377",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她的表情突然又认真了起来。"
+  },
+  "004406": {
+    "context": "004406",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……队长。一般来说，你失忆的原因还不清楚，我是不推荐你跟我们一起的」"
+  },
+  "004417": {
+    "context": "004417",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是考虑到火灾还没有结束，你也还需要继续打 AD……」"
+  },
+  "004428": {
+    "context": "004428",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那么跟我们一起行动是最为安全的选择」"
+  },
+  "004439": {
+    "context": "004439",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好！那么——」"
+  },
+  "004514": {
+    "context": "004514",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是！」"
+  },
+  "004525": {
+    "context": "004525",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这不是一般的现场。想要作为队员跟我们同行，就要有相应的觉悟」"
+  },
+  "004536": {
+    "context": "004536",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "004565": {
+    "context": "004565",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「记忆恢复之前，队长就是新队员了。队长跟守部一样，要听从我的指挥」"
+  },
+  "004576": {
+    "context": "004576",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「虽然很失礼，但是这是生死攸关的事情……请原谅」"
+  },
+  "004591": {
+    "context": "004591",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见的话给了渡濑很大的压力——"
+  },
+  "004602": {
+    "context": "004602",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好……好的，明白了！」"
+  },
+  "004607": {
+    "context": "004607",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他振奋精神回答道。"
+  },
+  "004612": {
+    "context": "004612",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵缩了缩肩，说道。"
+  },
+  "004641": {
+    "context": "004641",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「呀，队长，这个发展还真是有意思呢。」"
+  },
+  "004652": {
+    "context": "004652",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「虽然只是暂时的，姑且先以同辈的身份请你多指教了」"
+  },
+  "004663": {
+    "context": "004663",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「是，是的。也请你多指教」"
+  },
+  "004692": {
+    "context": "004692",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那暂且先这样将就吧……一旦取回记忆，比谁都优秀的队长就会回来了」"
+  },
+  "004721": {
+    "context": "004721",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「嗯，我也很期待呢」"
+  },
+  "004736": {
+    "context": "004736",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 004861"
+  },
+  "004741": {
+    "context": "004741",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "生死攸关，这个词给了他很多压力。"
+  },
+  "004746": {
+    "context": "004746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这样想着，他把视线从风见转向了洵。"
+  },
+  "004775": {
+    "context": "004775",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……队长，如果害怕的话现在回去还来得及哦？」"
+  },
+  "004786": {
+    "context": "004786",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「这次的现场很不一般。就算身体一切正常，也有生命危险」"
+  },
+  "004815": {
+    "context": "004815",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「所以就算留在这里休息，也没什么不好意思的」"
+  },
+  "004820": {
+    "context": "004820",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵关心的话语——反而激励了渡濑。"
+  },
+  "004831": {
+    "context": "004831",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「不，没关系的！」"
+  },
+  "004860": {
+    "context": "004860",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……嗯，有这份精神的话大概没问题吧？」"
+  },
+  "004889": {
+    "context": "004889",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0006 004652"
+  },
+  "004900": {
+    "context": "004900",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「谢谢。我希望能追上你们的脚步」"
+  },
+  "004929": {
+    "context": "004929",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「别这么谦虚嘛！一旦取回记忆，比谁都优秀的队长就会回来了！」"
+  },
+  "004958": {
+    "context": "004958",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「她说的对。我也是这么期待的」"
+  },
+  "004967": {
+    "context": "004967",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0006 004591"
+  },
+  "004978": {
+    "context": "004978",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「知……知道了」"
+  },
+  "004983": {
+    "context": "004983",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "努力从嘴里挤出几个字。"
+  },
+  "005012": {
+    "context": "005012",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「好像感觉有点靠不住……但是应该没什么关系」"
+  },
+  "005041": {
+    "context": "005041",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0006 004652"
+  },
+  "005052": {
+    "context": "005052",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0006 004663"
+  },
+  "005081": {
+    "context": "005081",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「别这么拘谨啦。一旦取回记忆，比谁都优秀的队长就会回来了」"
+  },
+  "005110": {
+    "context": "005110",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0006 004958"
+  },
+  "005121": {
+    "context": "005121",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「唔，会的吧……」"
+  },
+  "005126": {
+    "context": "005126",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看来记忆消失之前的渡濑深受两人信赖啊。"
+  },
+  "005132": {
+    "context": "005132",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（要尽快变得足以回应她们的期待才行……！）"
+  },
+  "005137": {
+    "context": "005137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么想着，渡濑向悠里问道。"
+  },
+  "005148": {
+    "context": "005148",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「悠里呢？就呆在这里休息怎么样？」"
+  },
+  "005153": {
+    "context": "005153",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里的脸上闪过一丝犹豫——然后马上回答道。"
+  },
+  "005182": {
+    "context": "005182",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「不……我也要跟你们一起去……」"
+  },
+  "005187": {
+    "context": "005187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到他们刚刚的讨论，她大概也理解了现在的情况有多么危险。"
+  },
+  "005193": {
+    "context": "005193",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（跟我们一起，这样反而比较放心……）"
+  },
+  "005198": {
+    "context": "005198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "正这么想着，风见开口了。"
+  },
+  "005227": {
+    "context": "005227",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那我们 4 个人一起往第 3 区域前进吧」"
+  },
+  "005256": {
+    "context": "005256",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「那就开始选要带的装备吧！队长也来帮忙！」"
+  },
+  "005267": {
+    "context": "005267",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好，来了！」"
+  },
+  "005310": {
+    "context": "005310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——然后渡濑他们很快选好了装备。"
+  },
+  "005315": {
+    "context": "005315",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先剩下的 7 支 AD，分给渡濑、风见、洵。"
+  },
+  "005320": {
+    "context": "005320",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑和洵一人携带一台 Procyon 。"
+  },
+  "005325": {
+    "context": "005325",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后渡濑和风见一人拿一张等级 4 的卡片。"
+  },
+  "005330": {
+    "context": "005330",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚刚的一根 10 m 长绳 X 型缠在渡濑身上。"
+  },
+  "005335": {
+    "context": "005335",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然可能带的东西有点少——因为考虑到机动性更加重要。"
+  },
+  "005400": {
+    "context": "005400",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「——大家，都准备好了吗？」"
+  },
+  "005411": {
+    "context": "005411",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「随时准备出发」"
+  },
+  "005468": {
+    "context": "005468",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……嗯」"
+  },
+  "005525": {
+    "context": "005525",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「那出发！队长，不要拖我们后腿哦！」"
+  },
+  "005536": {
+    "context": "005536",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯！我会尽力赶上的！」"
+  },
+  "005579": {
+    "context": "005579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然不知道现在自己能做到什么，但是我会竭尽全力——"
+  },
+  "005584": {
+    "context": "005584",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑在心里暗暗发誓，跟着风见她们一起离开了简易基地。"
+  }
+}

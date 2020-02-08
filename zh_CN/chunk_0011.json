@@ -2,7 +2,7 @@
   "000051": {
     "context": "000051",
     "code": "0x55",
-    "string": "√After Chapter1"
+    "string": "@import 0003 000047"
   },
   "000065": {
     "context": "000065",
@@ -38,7 +38,7 @@
     "context": "000174",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「哦！」"
+    "string": "@import 0008 000330"
   },
   "000204": {
     "context": "000204",
@@ -348,7 +348,7 @@
     "context": "001333",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「“2406mSv”！？」"
+    "string": "「『2406mSV』！？」"
   },
   "001369": {
     "context": "001369",

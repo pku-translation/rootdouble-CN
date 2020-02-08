@@ -28,19 +28,19 @@
     "context": "000379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――那声巨响，犹如宣告终结的钟声一般――"
+    "string": "@import 0002 000376"
   },
   "000384": {
     "context": "000384",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在拂晓的研究所中回响。"
+    "string": "@import 0002 000381"
   },
   "000504": {
     "context": "000504",
     "code": "0x45",
     "developer_comment": "少年",
-    "string": "「！」"
+    "string": "@import 0027 000995"
   },
   "000509": {
     "context": "000509",
@@ -118,7 +118,7 @@
     "context": "002228",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「设施内的安全系统已转为『避难模式』。除了N区域外所有区域大门均已开放」"
+    "string": "@import 0002 001283"
   },
   "002236": {
     "context": "002236",
@@ -160,13 +160,13 @@
     "context": "002486",
     "code": "0x45",
     "developer_comment": "男職員",
-    "string": "「紧，紧急广播！」"
+    "string": "@import 0002 001309"
   },
   "002497": {
     "context": "002497",
     "code": "0x45",
     "developer_comment": "男職員",
-    "string": "「现在设施内，发生了不明原因的爆炸」"
+    "string": "@import 0002 001317"
   },
   "002508": {
     "context": "002508",
@@ -232,13 +232,13 @@
     "context": "002966",
     "code": "0x45",
     "developer_comment": "警備員１",
-    "string": "「灭火系统没有工作！？」"
+    "string": "@import 0002 001982"
   },
   "002974": {
     "context": "002974",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "「为什么……可恶！快疏散员工！」"
+    "string": "@import 0002 001990"
   },
   "002979": {
     "context": "002979",
@@ -334,13 +334,13 @@
     "context": "003510",
     "code": "0x45",
     "developer_comment": "研究員１",
-    "string": "「吃 AD ！应该还有储备的吧！」"
+    "string": "「用 AD ！应该还有储备的吧！」"
   },
   "003518": {
     "context": "003518",
     "code": "0x45",
     "developer_comment": "研究員２",
-    "string": "「没想到居然是要吃 AD 的事态了……！」"
+    "string": "「没想到居然是要用 AD 的事态了……！」"
   },
   "003526": {
     "context": "003526",
@@ -364,19 +364,19 @@
     "context": "003617",
     "code": "0x45",
     "developer_comment": "研究員１",
-    "string": "「安全楼梯居然崩塌了！？」"
+    "string": "@import 0002 002060"
   },
   "003625": {
     "context": "003625",
     "code": "0x45",
     "developer_comment": "研究員２",
-    "string": "「电梯全部停止运行！已经没有办法避难了！」"
+    "string": "@import 0002 002068"
   },
   "003633": {
     "context": "003633",
     "code": "0x45",
     "developer_comment": "研究員３",
-    "string": "「混账……怎么会发生这样的事情！」"
+    "string": "@import 0002 002076"
   },
   "003679": {
     "context": "003679",
@@ -400,7 +400,7 @@
     "context": "003700",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——没有人，除了一个例外。"
+    "string": "——没有人，除了极少数的例外。"
   },
   "003799": {
     "context": "003799",
@@ -448,7 +448,7 @@
     "context": "004210",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「啊……」"
+    "string": "@import 0015 001533"
   },
   "004215": {
     "context": "004215",
@@ -460,7 +460,7 @@
     "context": "004220",
     "code": "0x45",
     "developer_comment": "",
-    "string": "日期显示着『 9 月 16 日』、表针停留在『 6 时 19 分』。"
+    "string": "日期显示着『9 月 16 日』、表针停留在『6 时 19 分』。"
   },
   "004225": {
     "context": "004225",
@@ -496,7 +496,7 @@
     "context": "004452",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「去把那些家伙、找出来……！」"
+    "string": "「去把那些家伙，找出来……！」"
   },
   "004481": {
     "context": "004481",
@@ -526,7 +526,7 @@
     "context": "004576",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「现在状况已经截然不同了吧！已经为时已晚了！」"
+    "string": "「现在状况已经截然不同了吧！为时已晚了！」"
   },
   "004587": {
     "context": "004587",
@@ -556,7 +556,7 @@
     "context": "004769",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……！」"
+    "string": "@import 0004 002426"
   },
   "004780": {
     "context": "004780",
@@ -580,7 +580,7 @@
     "context": "004936",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「…？！」"
+    "string": "@import 0012 004043"
   },
   "004965": {
     "context": "004965",
@@ -604,13 +604,13 @@
     "context": "005023",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「…………」"
+    "string": "@import 0014 001994"
   },
   "005047": {
     "context": "005047",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「………」"
+    "string": "@import 0058 003670"
   },
   "005053": {
     "context": "005053",
@@ -646,7 +646,7 @@
     "context": "005297",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就此拉开帷幕。"
+    "string": "@import 0002 002871"
   },
   "005425": {
     "context": "005425",
@@ -688,7 +688,7 @@
     "context": "006239",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「旁边的『内环楼』、好像也有安全梯的样子……」"
+    "string": "「旁边的『内环楼』好像也有安全梯的样子……」"
   },
   "006377": {
     "context": "006377",
@@ -802,7 +802,7 @@
     "context": "007993",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「为什么到这里来了……？！」"
+    "string": "「你为什么到这里来了……？！」"
   },
   "007998": {
     "context": "007998",
@@ -820,7 +820,7 @@
     "context": "008099",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「离家出走了吗？！」"
+    "string": "「你能出家门了吗？！」"
   },
   "008104": {
     "context": "008104",
@@ -904,7 +904,7 @@
     "context": "008892",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（为什么会这样——）"
+    "string": "@import 0003 000127"
   },
   "009296": {
     "context": "009296",
@@ -916,18 +916,18 @@
     "context": "009365",
     "code": "0x45",
     "developer_comment": "",
-    "string": "传来一道声音，呼唤他醒来。"
+    "string": "@import 0002 005838"
   },
   "009370": {
     "context": "009370",
     "code": "0x45",
     "developer_comment": "",
-    "string": "或者说，有这样的记忆。"
+    "string": "@import 0002 005843"
   },
   "009375": {
     "context": "009375",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在白色的坟墓下，他听到了那声音……"
+    "string": "@import 0002 005848"
   }
 }

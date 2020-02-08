@@ -1,0 +1,646 @@
+{
+  "000123": {
+    "context": "000123",
+    "code": "0x55",
+    "string": "@import 0131 000221"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——不知何时坏掉的手表，和说着奇怪的话的悠里——"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边对此感到疑惑，一边还是姑且先回答了。"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……悠里还是太爱操心啦」"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「欸？」"
+  },
+  "000193": {
+    "context": "000193",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「没事的啦，恐怖的事情什么的不会发生的」"
+  },
+  "000204": {
+    "context": "000204",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我已经不是以前的我了，不会一头扎进危险当中去」"
+  },
+  "000228": {
+    "context": "000228",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……」"
+  },
+  "000257": {
+    "context": "000257",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……说得也是」"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「抱歉啦。因为听到了沉重的新闻，不知怎么的就不安了起来」"
+  },
+  "000297": {
+    "context": "000297",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「说什么呢，这种事情不用在意」"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一边这么说着，一边瞥了眼手表——然后大吃一惊。"
+  },
+  "000519": {
+    "context": "000519",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（什么……？）"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚才，明明看到手表坏掉了才对的。"
+  },
+  "000529": {
+    "context": "000529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但定睛一看，表盘安然无恙，表针也一如既往地滴答滴答走着。"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "9 月 10 日，6 时 49 分——显示着的时间，没有任何奇怪的地方。"
+  },
+  "000620": {
+    "context": "000620",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……是看错了吧）"
+  },
+  "000625": {
+    "context": "000625",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "多少感觉有些奇怪，但也没有比这更合理的解释了。"
+  },
+  "000815": {
+    "context": "000815",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和悠里相视一笑的时候，真白有些傻眼地说。"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「你们俩，悄咪咪说些什么呢？」"
+  },
+  "000855": {
+    "context": "000855",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「大清早的，说点开心的事情吧——」"
+  },
+  "000860": {
+    "context": "000860",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白这么说着，夏彦——"
+  },
+  "000891": {
+    "context": "000891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同意了这个提议。"
+  },
+  "000902": {
+    "context": "000902",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「说得是呢，有什么开心的话题吗？」"
+  },
+  "000931": {
+    "context": "000931",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「我想想…比方说这一季的早间动画？」"
+  },
+  "000960": {
+    "context": "000960",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「正好是我推荐的一部的放送时间呢，大家一起看吧～」"
+  },
+  "000971": {
+    "context": "000971",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「哎呀，又是动画的话题吗……」"
+  },
+  "001000": {
+    "context": "001000",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「真白白，是真的喜欢动画呢」"
+  },
+  "001029": {
+    "context": "001029",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「什么啊，你们俩的反应都好无情呐！」"
+  },
+  "001058": {
+    "context": "001058",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「一边吃着美味的早饭，一边和知心伙伴看早间动画，再没有比这更幸福的事情了吧！」"
+  },
+  "001069": {
+    "context": "001069",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「感觉像是废柴的早晨一样呢」"
+  },
+  "001098": {
+    "context": "001098",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「但好像确实很开心的样子呢~」"
+  },
+  "001103": {
+    "context": "001103",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里微笑着说，仿佛她的担心已经烟消云散。"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我知道了啦真白。那，推荐的动画是？」"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「这个啦这个」"
+  },
+  "001217": {
+    "context": "001217",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "随着真白切换频道，儿童动画的片头曲响起。"
+  },
+  "001222": {
+    "context": "001222",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦他们就这样一边看着动画，一边轻松愉快地吃完了早饭。"
+  },
+  "001249": {
+    "context": "001249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "拒绝了这个提议。"
+  },
+  "001260": {
+    "context": "001260",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嘛嘛，偶尔度过一个严肃的早晨不也挺好的嘛」"
+  },
+  "001289": {
+    "context": "001289",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「欸～，总觉得有些扫兴呢……」"
+  },
+  "001294": {
+    "context": "001294",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然真白稍微有些不满——"
+  },
+  "001318": {
+    "context": "001318",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（没办法，悠里心情不是很好）"
+  },
+  "001323": {
+    "context": "001323",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦这样想着，把真白晾着不管了。"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就这样夏彦他们，静静地吃完了早饭。"
+  },
+  "001442": {
+    "context": "001442",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——早饭后，夏彦迅速整理好着装。"
+  },
+  "001447": {
+    "context": "001447",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "带好书包，关上电灯，然后与留在家里的悠里道别。"
+  },
+  "001546": {
+    "context": "001546",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「那么再见啦悠里，我们去学校了」"
+  },
+  "001575": {
+    "context": "001575",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「悠里，拜托你看家啦」"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「路上小心～」"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "伴着那声道别，夏彦和真白踏出家门。"
+  },
+  "001791": {
+    "context": "001791",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚走到外面，就感到凉风轻拂过两人的脸颊。"
+  },
+  "001890": {
+    "context": "001890",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哎呀——，气候开始变得舒服起来了呢～」"
+  },
+  "001901": {
+    "context": "001901",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊啊，有秋天的感觉了呢」"
+  },
+  "001906": {
+    "context": "001906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本想就这样吹着风，悠闲地走向学校——"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦看了眼手表，离校车发车的时间已经只剩下 5 分钟了。"
+  },
+  "001922": {
+    "context": "001922",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……不妙，这样下去真的会迟到的哦？」"
+  },
+  "001951": {
+    "context": "001951",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「不会吧！跑、跑过去吧，夏彦」"
+  },
+  "001962": {
+    "context": "001962",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯嗯！」"
+  },
+  "001987": {
+    "context": "001987",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和真白慌慌张张地跑了起来。"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "朝着离家最近的公交站。"
+  },
+  "002150": {
+    "context": "002150",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "远远地就能看见，校车早已经停靠在那里了。"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真白，再快点！校车马上要开走了」"
+  },
+  "002174": {
+    "context": "002174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然而夏彦话音刚落——"
+  },
+  "002259": {
+    "context": "002259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "要赶的校车发动了。"
+  },
+  "002264": {
+    "context": "002264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "乘不上这趟车，迟到已经是板上钉钉的了。"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「喂，喂，等一等啊司机先生！」"
+  },
+  "002280": {
+    "context": "002280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "完全不顾夏彦的叫喊，校车渐行渐远。"
+  },
+  "002291": {
+    "context": "002291",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「好吧，想来也不可能听得见就是了」"
+  },
+  "002309": {
+    "context": "002309",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「怎么办呢，真白——」"
+  },
+  "002314": {
+    "context": "002314",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦朝着真白的方向回头，一瞬目瞪口呆。"
+  },
+  "002368": {
+    "context": "002368",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……」"
+  },
+  "002373": {
+    "context": "002373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本应在后面跟着跑的真白，闭着眼睛一动不动站在那里——"
+  },
+  "002378": {
+    "context": "002378",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "手指着太阳穴。"
+  },
+  "002389": {
+    "context": "002389",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「喂，真白……该不会？！」"
+  },
+  "002400": {
+    "context": "002400",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「稍等一下，我正在集中注意力……」"
+  },
+  "002405": {
+    "context": "002405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白这样回答。下一瞬间——"
+  },
+  "002500": {
+    "context": "002500",
+    "code": "0x85",
+    "string": "『请等一下！』"
+  },
+  "002533": {
+    "context": "002533",
+    "code": "0x86",
+    "string": "真白"
+  },
+  "002534": {
+    "context": "002534",
+    "code": "0x86",
+    "string": "@import 0132 002500"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "仿佛能动摇人心一般的声音，在周围回响。"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "树上的鸟一齐飞走了。"
+  },
+  "002637": {
+    "context": "002637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "路边懒洋洋晒着太阳的狗也吓跑了。"
+  },
+  "002648": {
+    "context": "002648",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后远远抛下夏彦二人的校车，急刹车停了下来。"
+  },
+  "002713": {
+    "context": "002713",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……呼，好像听到了呢？」"
+  },
+  "002724": {
+    "context": "002724",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「是、是呢……」"
+  },
+  "002729": {
+    "context": "002729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边说，一边捂着耳朵。"
+  },
+  "002734": {
+    "context": "002734",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚才那一声大喊的缘故，感觉鼓膜好像还在震动一样——"
+  },
+  "002740": {
+    "context": "002740",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（啊啊，好像和耳朵并没有关系就是了……）"
+  },
+  "002745": {
+    "context": "002745",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "因为那声叫喊，是“直接在夏彦的脑中响起”的。"
+  },
+  "002756": {
+    "context": "002756",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真白，你用了“BC”对吧……？」"
+  },
+  "002761": {
+    "context": "002761",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "“BC”是一种能直接将话语传进他人脑中的能力。"
+  },
+  "002766": {
+    "context": "002766",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一种不应当随意使用的能力——"
+  },
+  "002771": {
+    "context": "002771",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "因为滥用能力受到夏彦责备，真白不以为然地答道。"
+  },
+  "002800": {
+    "context": "002800",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哼～哼～哼，既然声音传达不到，为什么不直接对着心说话呢」"
+  },
+  "002811": {
+    "context": "002811",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不，话是这么说没错……也不能不指定对象无差别喊话吧」"
+  },
+  "002840": {
+    "context": "002840",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「没办法嘛。已经是迟到在即的紧要关头了」"
+  },
+  "002851": {
+    "context": "002851",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊——……违反条例被抓了的话我可不管啊」"
+  },
+  "002880": {
+    "context": "002880",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「没事的没事的，这种程度才不会深究呢」"
+  },
+  "002920": {
+    "context": "002920",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两人一边说着，一边跑向停下来的校车。"
+  },
+  "002976": {
+    "context": "002976",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——总算乘上校车，又颠簸了大约 20 分钟后——"
+  },
+  "003069": {
+    "context": "003069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和真白，抵达了就读的学校“鹿鸣学园”。"
+  },
+  "003074": {
+    "context": "003074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "小初高一体的，规模宏大的学校。"
+  },
+  "003079": {
+    "context": "003079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "经过校门的时候，真白问了夏彦一个问题。"
+  },
+  "003178": {
+    "context": "003178",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「第 1 节课，是什么来着？」"
+  },
+  "003189": {
+    "context": "003189",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「“超心理学”喔」"
+  },
+  "003218": {
+    "context": "003218",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「呜欸，一大早就要换教室啊」"
+  },
+  "003229": {
+    "context": "003229",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不挺好嘛，是你喜欢的 BC 的课程吧」"
+  },
+  "003234": {
+    "context": "003234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "进行着这样的对话，两人走进教学楼。"
+  }
+}
