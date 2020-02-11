@@ -41,6 +41,22 @@ namespace CSYetiTools
             public string ModifierFile { get; set; } = "string_list_modifiers.sexpr";
         }
 
+        [Verb("gen-code-compare", HelpText = "Generate code compare file")]
+        class GenCodeCompareOptions
+        {
+            [Option("input")]
+            public string Input { get; set; } = "";
+
+            [Option("input-steam")]
+            public string InputSteam { get; set; } = "";
+
+            [Option("outputdir")]
+            public string OutputDir { get; set; } = "";
+
+            [Option("modifier-file")]
+            public string ModifierFile { get; set; } = "string_list_modifiers.sexpr";
+        }
+
         [Verb("encode-sn", HelpText = "Encode sn.bin with files in specified folder")]
         class EncodeSnOptions
         {
@@ -152,6 +168,7 @@ namespace CSYetiTools
                 DecodeSnOptions,
                 DecodeScriptOptions,
                 GenStringCompareOptions,
+                GenCodeCompareOptions,
                 ReplaceStringListOptions,
                 DumpTranslateSourceOptions,
                 FillTransifexDuplicatedStringsOptions
@@ -161,6 +178,7 @@ namespace CSYetiTools
                 (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
                 (DecodeScriptOptions o) => Task.Run(() => DecodeScript(o)),
                 (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
+                (GenCodeCompareOptions o) => Task.Run(() => GenCodeCompare(o)),
                 (ReplaceStringListOptions o) => Task.Run(() => ReplaceStringList(o)),
                 (DumpTranslateSourceOptions o) => Task.Run(() => DumpTranslateSource(o)),
                 (FillTransifexDuplicatedStringsOptions o) => FillTransifexDuplicatedStrings(o),
@@ -219,6 +237,8 @@ namespace CSYetiTools
 
         private static void GenStringCompare(GenStringCompareOptions options)
         {
+            Console.WriteLine($"Gen string compare --> {options.OutputDir}");
+
             void DumpText(string path, IEnumerable<CodeScript.StringReferenceEntry> entries)
             {
                 using var writer = new StreamWriter(path);
@@ -232,7 +252,6 @@ namespace CSYetiTools
             var package = new SnPackage(options.Input, isSteam: false);
             var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
 
-            //var raplaceExcepts = ScriptReplaceExceptions.Load("replace_exceptions.toml");
             var modifierTable = StringListModifier.Load(options.ModifierFile);
 
             var dumpDir = new DirectoryInfo(options.OutputDir);
@@ -279,6 +298,29 @@ namespace CSYetiTools
                 DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_steam.txt"), c2s);
             }
             writer.WriteLine($"{n} different files");
+        }
+
+        private static void GenCodeCompare(GenCodeCompareOptions options)
+        {
+            Console.WriteLine($"Gen code compare --> {options.OutputDir}");
+
+            var package = new SnPackage(options.Input, isSteam: false);
+            var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
+
+            var dumpDir = new DirectoryInfo(options.OutputDir);
+            if (dumpDir.Exists)
+            {
+                foreach (var file in dumpDir.EnumerateFiles()) file.Delete();
+            }
+            else
+            {
+                dumpDir.Create();
+            }
+            foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
+            {
+                s1.DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_ref.txt"), "{code}");
+                s2.DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_steam.txt"), "{code}");
+            }
         }
 
         private static SnPackage GenerateStringReplacedPackage(string input, string inputRef, string modifiersFile)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CSYetiTools
 {
@@ -338,16 +339,34 @@ namespace CSYetiTools
             return result;
         }
 
-        public void DumpText(TextWriter writer)
+        /// <summary>
+        /// Dump all content text.
+        /// </summary>
+        /// <remarks>
+        /// {s}
+        /// </remarks>
+        /// <param name="writer"></param>
+        /// <param name="codeFormat"></param>
+        public void DumpText(TextWriter writer, string codeFormat = "{index,4} | 0x{offset:X08}: {code}")
         {
             writer.WriteLine("* * * Header * * *");
             Utils.BytesToTextLines(_header, HeaderStart).ForEach(writer.WriteLine);
             writer.WriteLine();
 
             writer.WriteLine("* * * Scripts * * *");
+
+            var formatter = new RuntimeFormatter(codeFormat);
+
             foreach (var (i, code) in _codes.WithIndex())
             {
-                writer.WriteLine($"{i,4} | 0x{code.Offset:X08}: {code}");
+                
+                writer.WriteLine(formatter.Format(key => key switch {
+                    "index" => i,
+                    "offset" => code.Offset,
+                    "code" => code,
+                    _ => throw new ArgumentException($"Invalid key {key} for code dump"),
+                }));
+                //writer.WriteLine($"{i,4} | 0x{code.Offset:X08}: {code}");
                 if (code.Code == OpCode.EndBlock)
                 {
                     writer.WriteLine("-----------------------------------------------------");
@@ -360,11 +379,11 @@ namespace CSYetiTools
             writer.WriteLine();
         }
 
-        public void DumpText(string path, Encoding? encoding = null)
+        public void DumpText(string path, string codeFormat = "{index,4} | 0x{offset:X08}: {code}", Encoding? encoding = null)
         {
             if (encoding == null) encoding = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false);
             using var writer = new StreamWriter(path, false, encoding);
-            DumpText(writer);
+            DumpText(writer, codeFormat);
         }
     }
 }

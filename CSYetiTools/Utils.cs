@@ -47,7 +47,10 @@ namespace CSYetiTools
                 input = input.Substring(2);
             }
 
-            if (input.Length != 2) throw new ArgumentException($"{input} is not a valid byte.");
+            if (input.Length != 2)
+            {
+                throw new ArgumentException($"{input} is not a valid byte."); 
+            }
             return byte.Parse(input, System.Globalization.NumberStyles.HexNumber);
         }
 
