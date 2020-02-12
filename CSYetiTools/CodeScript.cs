@@ -23,6 +23,8 @@ namespace CSYetiTools
 
         private readonly List<OpCode> _codes = new List<OpCode>();
 
+        private readonly SortedDictionary<int, OpCode> _codeTable = new SortedDictionary<int, OpCode>();
+
         private int _stringStart;
 
         private List<(int offset, string content)> _stringList = new List<(int, string)>();
@@ -108,6 +110,11 @@ namespace CSYetiTools
                 {
                     _stringList.Add((offset: 0, content: strCode.Content));
                 }
+                _codeTable.Add(code.Offset, code);
+            }
+            foreach (var code in _codes.OfType<OpCodes.IHasAddress>())
+            {
+                code.SetCodeIndices(_codeTable);
             }
 
             FooterStart = (int)reader.BaseStream.Position;
@@ -207,6 +214,16 @@ namespace CSYetiTools
                 //reader.BaseStream.Position = stringTableEnd;
             }
 #endif
+
+            foreach (var code in _codes)
+            {
+                _codeTable.Add(code.Offset, code);
+            }
+            foreach (var code in _codes.OfType<OpCodes.IHasAddress>())
+            {
+                code.SetCodeIndices(_codeTable);
+            }
+
             FooterStart = (int)reader.BaseStream.Position;
             _footer = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
         }
@@ -223,7 +240,7 @@ namespace CSYetiTools
 
         public int FooterStart { get; private set; }
 
-        public OpCode[] Codes
+        public IEnumerable<OpCode> Codes
             => _codes.ToArray();
 
         public IReadOnlyList<(int offset, string content)> StringList
@@ -347,11 +364,15 @@ namespace CSYetiTools
         /// </remarks>
         /// <param name="writer"></param>
         /// <param name="codeFormat"></param>
-        public void DumpText(TextWriter writer, string codeFormat = "{index,4} | 0x{offset:X08}: {code}")
+        public void DumpText(TextWriter writer, string codeFormat = "{index,4} | 0x{offset:X08}: {code}", bool header = true, bool footer = true)
         {
-            writer.WriteLine("* * * Header * * *");
-            Utils.BytesToTextLines(_header, HeaderStart).ForEach(writer.WriteLine);
-            writer.WriteLine();
+            
+            if (header)
+            {
+                writer.WriteLine("* * * Header * * *");
+                Utils.BytesToTextLines(_header, HeaderStart).ForEach(writer.WriteLine);
+                writer.WriteLine();
+            }
 
             writer.WriteLine("* * * Scripts * * *");
 
@@ -364,6 +385,7 @@ namespace CSYetiTools
                     "index" => i,
                     "offset" => code.Offset,
                     "code" => code,
+                    "nostrcode" => code.ToString(noString: true),
                     _ => throw new ArgumentException($"Invalid key {key} for code dump"),
                 }));
                 //writer.WriteLine($"{i,4} | 0x{code.Offset:X08}: {code}");
@@ -374,16 +396,20 @@ namespace CSYetiTools
             }
             writer.WriteLine();
 
-            writer.WriteLine("* * * Footer * * *");
-            Utils.BytesToTextLines(_footer, FooterStart).ForEach(writer.WriteLine);
-            writer.WriteLine();
+            
+            if (footer)
+            {
+                writer.WriteLine("* * * Footer * * *");
+                Utils.BytesToTextLines(_footer, FooterStart).ForEach(writer.WriteLine);
+                writer.WriteLine();
+            }
         }
 
-        public void DumpText(string path, string codeFormat = "{index,4} | 0x{offset:X08}: {code}", Encoding? encoding = null)
+        public void DumpText(string path, string codeFormat = "{index,4} | 0x{offset:X08}: {code}", Encoding? encoding = null, bool header = true, bool footer = true)
         {
             if (encoding == null) encoding = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false);
             using var writer = new StreamWriter(path, false, encoding);
-            DumpText(writer, codeFormat);
+            DumpText(writer, codeFormat, header, footer);
         }
     }
 }

@@ -5,8 +5,8 @@ namespace CSYetiTools.OpCodes
 {
     public class FixedLengthCode : OpCode
     {
-        private int _argLength;
-        private byte[] _args = System.Array.Empty<byte>();
+        protected int _argLength;
+        protected byte[] _args = System.Array.Empty<byte>();
 
         public FixedLengthCode(byte code, int length) : base(code)
         {

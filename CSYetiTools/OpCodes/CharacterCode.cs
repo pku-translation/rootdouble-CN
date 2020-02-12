@@ -4,7 +4,7 @@ namespace CSYetiTools.OpCodes
     {
         public CharacterCode() : base(0x47) { }
 
-        protected override string ArgsToString()
-            => "<Character> " + base.ArgsToString();
+        protected override string ArgsToString(bool noString)
+            => "<Character> " + base.ArgsToString(noString);
     }
 }

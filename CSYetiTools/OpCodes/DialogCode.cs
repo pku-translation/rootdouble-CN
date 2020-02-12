@@ -4,7 +4,10 @@ namespace CSYetiTools.OpCodes
     {
         public DialogCode() : base(0x45) { }
 
-        protected override string ArgsToString()
-            => "<Dialog> " + base.ArgsToString();
+        protected override string ArgsToString(bool noString)
+        {
+            if (noString) return "<Dialog>";
+            else return "<Dialog> " + base.ArgsToString(noString);
+        }
     }
 }

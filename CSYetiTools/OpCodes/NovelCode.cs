@@ -4,7 +4,7 @@ namespace CSYetiTools.OpCodes
     {
         public NovelCode() : base(0x86) { }
 
-        protected override string ArgsToString()
-            => "<Novel> " + base.ArgsToString();
+        protected override string ArgsToString(bool noString)
+            => "<Novel> " + base.ArgsToString(noString);
     }
 }

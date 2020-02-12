@@ -318,8 +318,18 @@ namespace CSYetiTools
             }
             foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
             {
-                s1.DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_ref.txt"), "{code}");
-                s2.DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_steam.txt"), "{code}");
+                var writer1 = new StringWriter();
+                var writer2 = new StringWriter();
+                s1.DumpText(writer1, "{nostrcode}", footer: false);
+                s2.DumpText(writer2, "{nostrcode}", footer: false);
+
+                var str1 = writer1.ToString();
+                var str2 = writer2.ToString();
+                if (str1 != str2)
+                {
+                    File.WriteAllText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_ref.txt"), str1, Encoding.UTF8);
+                    File.WriteAllText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_steam.txt"), str2, Encoding.UTF8);
+                }
             }
         }
 

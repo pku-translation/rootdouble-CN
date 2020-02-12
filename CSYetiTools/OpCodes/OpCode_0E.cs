@@ -1,11 +1,12 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
 namespace CSYetiTools.OpCodes
 {
-    public class OpCode_0E : OpCode
+    public class OpCode_0E : OpCode, IHasAddress
     {
         // if _count == InvalidCount then the size of _remain will be determined by previous 0C/0D?
         private const short InvalidCount = unchecked((short)0x80CB);
@@ -14,9 +15,9 @@ namespace CSYetiTools.OpCodes
 
         private short _count;
 
-        private (short prefix, int offset)[] _branches = Array.Empty<(short prefix, int offset)>();
+        private (short prefix, CodeAddressData offset)[] _branches = Array.Empty<(short prefix, CodeAddressData offset)>();
 
-        public int TargetEndOffset { get ; set; }
+        public int TargetEndOffset { get; set; }
 
         public OpCode_0E() : base(0x0E) { }
 
@@ -57,7 +58,7 @@ namespace CSYetiTools.OpCodes
                     .Append(": ")
                     .Append(_branches[i].prefix.ToString("X04"))
                     .Append(": ")
-                    .Append(_branches[i].offset.ToString("X08"));
+                    .Append(_branches[i].offset.ToString());
             }
             builder.Append(" ]");
             return builder.ToString();
@@ -72,16 +73,28 @@ namespace CSYetiTools.OpCodes
                 int size = TargetEndOffset - (int)reader.BaseStream.Position;
                 if (size < 0 || size % 6 != 0)
                     throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.BaseStream.Position:X08}, {TargetEndOffset:X08}) (size={size})");
-                _branches = new (short prefix, int offset)[size / 6];
+                _branches = new (short prefix, CodeAddressData offset)[size / 6];
             }
             else
             {
-                _branches = new (short prefix, int offset)[_count];
+                _branches = new (short prefix, CodeAddressData offset)[_count];
             }
             for (int i = 0; i < _branches.Length; ++i)
             {
                 _branches[i].prefix = reader.ReadInt16();
-                _branches[i].offset = reader.ReadInt32();
+                _branches[i].offset = new CodeAddressData(_offset, reader.ReadInt32());
+            }
+        }
+
+        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        {
+            foreach (var (prefix, offset) in _branches)
+            {
+                if (codeTable.TryGetValue(offset.AbsoluteOffset, out var code))
+                {
+                    offset.TargetCodeIndex = code.Index;
+                    offset.TargetCodeRelativeIndex = code.Index - _index;
+                }
             }
         }
     }

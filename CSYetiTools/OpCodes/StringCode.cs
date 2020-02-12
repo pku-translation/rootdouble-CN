@@ -34,6 +34,7 @@ namespace CSYetiTools.OpCodes
             => IsOffset ? GetBytes(ContentOffset) : Utils.GetStringZBytes(Content).ToArray();
 
         protected string ContentToString()
-            => IsOffset ? $"0x{ContentOffset:X08} \"{Content}\"" : ("\"" + Content + "\"");
+            => "\"" + Content.Replace("\"", "\\\"").Replace("\n", "\\n") + "\"";
+            //=> IsOffset ? $"0x{ContentOffset:X08} \"{Content}\"" : ("\"" + Content + "\"");
     }
 }

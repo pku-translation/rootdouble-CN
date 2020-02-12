@@ -5,6 +5,20 @@ using System.Text;
 
 namespace CSYetiTools
 {
+    /// <summary>
+    /// A simple runtime string formatter.
+    /// </summary>
+    /// <example>
+    /// <code>
+    /// var format = "key = {Key,3}, value = {Value:X2}";
+    /// RuntimeFormatter.Format(format, new { Key = "x", Value = 42 }) // "key =   x, value = 2A"
+    /// 
+    /// var formatter = new RuntimeFormatter(format);
+    /// formatter.Format(new { Key = "y", Value = 31 })                // "key =   y, value = 1F"
+    /// 
+    /// format.RuntimeFormat(new { Key = "z", Value = 62 })            // "key =   z, value = 3E"
+    /// </code>
+    /// </example>
     public class RuntimeFormatter
     {
         private abstract class Segment

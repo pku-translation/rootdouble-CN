@@ -1,19 +1,20 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
 namespace CSYetiTools.OpCodes
 {
-    public class OpCode_0C_0D : OpCode
+    public class OpCode_0C_0D : OpCode, IHasAddress
     {
         private short _unknown1;
 
-        private int _targetOffset;
+        private CodeAddressData _targetOffset = new CodeAddressData();
 
         public OpCode_0C_0D(byte code) : base(code) { }
 
         public int TargetOffset
-            => _targetOffset;
+            => _targetOffset.AbsoluteOffset;
 
         public override int ArgLength
             => 6;
@@ -26,12 +27,22 @@ namespace CSYetiTools.OpCodes
         }
 
         protected override string ArgsToString()
-            => Utils.BytesToHex(GetBytes(_unknown1)) + " 0x" + _targetOffset.ToString("X08");
+            => Utils.BytesToHex(GetBytes(_unknown1)) + " 0x" + _targetOffset.ToString();
 
         protected override void Read(BinaryReader reader)
         {
             _unknown1 = reader.ReadInt16();
-            _targetOffset = reader.ReadInt32();
+            _targetOffset.BaseOffset = _offset;
+            _targetOffset.AbsoluteOffset = reader.ReadInt32();
+        }
+        
+        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        {
+            if (codeTable.TryGetValue(_targetOffset.AbsoluteOffset, out var code))
+            {
+                _targetOffset.TargetCodeIndex = code.Index;
+                _targetOffset.TargetCodeRelativeIndex = code.Index - _index;
+            }
         }
     }
 }

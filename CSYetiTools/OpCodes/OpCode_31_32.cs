@@ -1,23 +1,37 @@
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
 namespace CSYetiTools.OpCodes
 {
-    public class OpCode_31_32 : OpCode
+    public class OpCode_31_32 : OpCode, IHasAddress
     {
-        private const int PrefixLength = 10;
+        private class Choice
+        {
+            public const int PrefixLength = 6;
+
+            public byte[] Prefix = new byte[PrefixLength];
+
+            public CodeAddressData Offset = new CodeAddressData();
+
+            public string Title = "";
+
+            public int Length
+                => PrefixLength + 4 + Utils.GetStringZByteCount(Title);
+        }
+
         
         private short _arg1;
 
         private short _arg2;
 
-        private (byte[] prefix, string title)[] _choices = System.Array.Empty<(byte[] prefix, string title)>();
+        private Choice[] _choices = System.Array.Empty<Choice>();
 
         public OpCode_31_32(byte code) : base(code) { }
 
         public override int ArgLength
-            => 2 + 1 + 2 + _choices.Sum(c => PrefixLength + Utils.GetStringZByteCount(c.title));
+            => 2 + 1 + 2 + _choices.Sum(c => c.Length);
 
         public override byte[] ArgsToBytes()
         {
@@ -25,10 +39,11 @@ namespace CSYetiTools.OpCodes
             ms.Write(GetBytes(_arg1));
             ms.Write(GetBytes((short)_choices.Length));
             ms.Write(GetBytes(_arg2));
-            foreach (var (prefix, title) in _choices)
+            foreach (var choice in _choices)
             {
-                ms.Write(prefix);
-                ms.Write(Utils.GetStringZBytes(title).ToArray());
+                ms.Write(choice.Prefix);
+                ms.Write(GetBytes(choice.Offset));
+                ms.Write(Utils.GetStringZBytes(choice.Title).ToArray());
             }
             return ms.ToArray();
         }
@@ -43,15 +58,17 @@ namespace CSYetiTools.OpCodes
                 .Append(Utils.BytesToHex(GetBytes(_arg2)))
                 .Append(" [");
             int index = 0;
-            foreach (var (prefix, title) in _choices)
+            foreach (var choice in _choices)
             {
                 builder.AppendLine()
                     .Append("                ")
                     .Append(index++.ToString().PadLeft(3))
                     .Append(": ")
-                    .Append(Utils.BytesToHex(prefix))
+                    .Append(Utils.BytesToHex(choice.Prefix))
+                    .Append(" ")
+                    .Append(choice.Offset.ToString())
                     .Append(" \"")
-                    .Append(title)
+                    .Append(choice.Title)
                     .Append("\"");
                 
             }
@@ -64,11 +81,28 @@ namespace CSYetiTools.OpCodes
             _arg1 = reader.ReadInt16();
             int count = reader.ReadInt16();
             _arg2 = reader.ReadInt16();
-            _choices = new (byte[], string)[count];
+            _choices = new Choice[count];
             for (int i = 0; i < count; ++i)
             {
-                _choices[i].prefix = reader.ReadBytes(PrefixLength);
-                _choices[i].title = Utils.ReadStringZ(reader);
+                var choice = new Choice();
+                choice.Prefix = reader.ReadBytes(Choice.PrefixLength);
+                choice.Offset.BaseOffset = _offset;
+                choice.Offset.AbsoluteOffset = reader.ReadInt32();
+                choice.Title = Utils.ReadStringZ(reader);
+
+                _choices[i] = choice;
+            }
+        }
+
+        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        {
+            foreach (var choice in _choices)
+            {
+                if (codeTable.TryGetValue(choice.Offset.AbsoluteOffset, out var code))
+                {
+                    choice.Offset.TargetCodeIndex = code.Index;
+                    choice.Offset.TargetCodeRelativeIndex = code.Index - _index;
+                }
             }
         }
     }

@@ -16,7 +16,13 @@ namespace CSYetiTools.OpCodes
             => _extra.Concat(ContentToBytes()).ToArray();
 
         protected override string ArgsToString()
-            => Utils.BytesToHex(_extra) + " " + ContentToString();
+            => ArgsToString(false);
+
+        protected override string ArgsToString(bool noString)
+        {
+            if (noString) return Utils.BytesToHex(_extra);
+            else return Utils.BytesToHex(_extra) + " " + ContentToString();
+        }
 
         protected override void Read(BinaryReader reader)
         {
