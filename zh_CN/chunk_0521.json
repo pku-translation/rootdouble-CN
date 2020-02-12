@@ -1,0 +1,691 @@
+{
+  "000001": {
+    "context": "000001",
+    "code": "0x55",
+    "string": "Tutorial"
+  },
+  "000050": {
+    "context": "000050",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先要说明的是，这个世界不存在所谓的“选项”。"
+  },
+  "000055": {
+    "context": "000055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然而，需要你的力量，才能将这个世界引导向未来。"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为了能把你的意志反映到世界里，我们准备了 Senses Sympathy System。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "我们接下来会解说 Senses Sympathy System——"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在此之前，请允许我先解释“Senses”。"
+  },
+  "000075": {
+    "context": "000075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses，即“印象、感情、感觉”，简单来说，这是你对他人的评价：“对对方怎么想”。"
+  },
+  "000080": {
+    "context": "000080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses 高，表示你对对方“印象好”——"
+  },
+  "000085": {
+    "context": "000085",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "反之若 Senses 低，就表示你对对方“印象差”。"
+  },
+  "000090": {
+    "context": "000090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses Sympathy System 则是量化了你的 Senses，将之反映在世界上。"
+  },
+  "000095": {
+    "context": "000095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那么，接下来为你解说要如何操作 Senses 的数值。"
+  },
+  "000139": {
+    "context": "000139",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "进入特定场景，画面右上角就会显示魔法阵一样的图形，是代表九型人格的“九型图”。"
+  },
+  "000144": {
+    "context": "000144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "九型人格是一种性格诊断，将人类的性格分为 9 种。"
+  },
+  "000149": {
+    "context": "000149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本作 9 名主要人物分别属于 9 种性格之一。"
+  },
+  "000193": {
+    "context": "000193",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "如图所示，9 人可以对应到九型图的顶点。"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "九型图上显示着雷达图状的图表。"
+  },
+  "000203": {
+    "context": "000203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "该图表即象征 Senses。"
+  },
+  "000247": {
+    "context": "000247",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "图标的形状对应 9 人的 Senses，提升或下降 Senses 会改变图表的形状。"
+  },
+  "000252": {
+    "context": "000252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "包括主角共有 9 人，都可以输入 Senses。Senses 的评价对象包括自身。"
+  },
+  "000257": {
+    "context": "000257",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此时，该评价就表示是否相信自己的直觉、意见……"
+  },
+  "000262": {
+    "context": "000262",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "或者是有多么珍惜自己。"
+  },
+  "000267": {
+    "context": "000267",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses Sympathy System（感觉同调系统）"
+  },
+  "000272": {
+    "context": "000272",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在该系统中，可以由你来一一决定主角的各种感觉（Senses）。"
+  },
+  "000277": {
+    "context": "000277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在指定的“分歧点”，决定后的 Senses 会用于判定剧情分支。"
+  },
+  "000282": {
+    "context": "000282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "换句话说，分歧点处会根据 Senses 的大小，自动从几种可能的剧本中选择一种分支。"
+  },
+  "000326": {
+    "context": "000326",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses 并不能随时输入。"
+  },
+  "000331": {
+    "context": "000331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "只有在“分支”区间内才可以输入。"
+  },
+  "000336": {
+    "context": "000336",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "进入分支后，画面右上角会显示九型图。"
+  },
+  "000341": {
+    "context": "000341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "请根据九型图显示与否，来判断能否输入 Senses。"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "具体怎么做，我会配合实际操作进行讲解。"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那么，请一边实际操作，一边体验剧情的分支。"
+  },
+  "000394": {
+    "context": "000394",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先请看接下来的场景。现在还不能输入 Senses，请正常往后阅读文本。"
+  },
+  "000533": {
+    "context": "000533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这是某个少年的家里——"
+  },
+  "000538": {
+    "context": "000538",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "客厅打扫得干干净净，配有电视和家用游戏机。"
+  },
+  "000543": {
+    "context": "000543",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "走廊里走出一个少女，好奇地问道。"
+  },
+  "000554": {
+    "context": "000554",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「我说我说，你在干什么呀？」"
+  },
+  "000565": {
+    "context": "000565",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「……嗯？练习玩游戏？」"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「这很重要吗……？」"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「这样啊，那你没空吧……」"
+  },
+  "000598": {
+    "context": "000598",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「那个，我有点话想跟你说……现在不行是吗？」"
+  },
+  "000603": {
+    "context": "000603",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "尽管嘴上这么说，少女却以饱含期待的眼神凝视着你。"
+  },
+  "000614": {
+    "context": "000614",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「啊……对不起，我不想打扰你，还是下次再说吧」"
+  },
+  "000625": {
+    "context": "000625",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「——不要紧的，不是什么重要的事情」"
+  },
+  "000636": {
+    "context": "000636",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「那你加油练游戏吧……」"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少女沮丧地垂下肩膀——"
+  },
+  "000646": {
+    "context": "000646",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——然后寂寞地离开了客厅。"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚才演示的是对少女 Senses 低的情况。"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那么，我们重复一次刚才的场景，这次让我们来“取悦”少女。"
+  },
+  "000759": {
+    "context": "000759",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这一次会有分支，可以输入 Senses。"
+  },
+  "000764": {
+    "context": "000764",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0521 000336"
+  },
+  "000769": {
+    "context": "000769",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "请在九型图消失前，提升你对少女的 Senses。"
+  },
+  "000774": {
+    "context": "000774",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看到 Senses 发光时，请单击相应位置打开 Senses 输入界面。该界面也可以按 V 键打开。"
+  },
+  "000818": {
+    "context": "000818",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "单击后会进入本画面，也就是 Senses 输入画面。"
+  },
+  "000823": {
+    "context": "000823",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "移动光标，选择要输入 Senses 的人物，拖动下方的滑条进行更改。"
+  },
+  "000828": {
+    "context": "000828",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "按下“Decide”按钮后即可应用并完成输出。"
+  },
+  "000833": {
+    "context": "000833",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "每次分支只有一次输入 Senses 的机会。"
+  },
+  "000838": {
+    "context": "000838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一旦确定就无法重设，请注意这一点。"
+  },
+  "001028": {
+    "context": "001028",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000554"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000565"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000576"
+  },
+  "001107": {
+    "context": "001107",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000587"
+  },
+  "001118": {
+    "context": "001118",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000598"
+  },
+  "001123": {
+    "context": "001123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0521 000603"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "你——"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「嗯？愿意跟我聊吗？可以吗？真的？」"
+  },
+  "001158": {
+    "context": "001158",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「哇哦，谢谢！」"
+  },
+  "001169": {
+    "context": "001169",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「你知道吗，今天是个叫“七夕”的节日！」"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「然后啊，把愿望写在“许愿条”上，就能成真！」"
+  },
+  "001191": {
+    "context": "001191",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "「我觉得，现在就应该准备起来了！」"
+  },
+  "001196": {
+    "context": "001196",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "于是，少女开心地讲起了七夕节装饰竹子的习俗——"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000614"
+  },
+  "001221": {
+    "context": "001221",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000625"
+  },
+  "001232": {
+    "context": "001232",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0521 000636"
+  },
+  "001237": {
+    "context": "001237",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0521 000641"
+  },
+  "001242": {
+    "context": "001242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——然后寂寞地离开了客厅。"
+  },
+  "001345": {
+    "context": "001345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "很可惜，她的反应没有变化。"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "我们再重复一遍刚刚的场景，请执行 Senses Sympathy System 的操作。"
+  },
+  "001355": {
+    "context": "001355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在 Senses 从屏幕上消失前，把对少女的 Senses 调到最大吧。"
+  },
+  "001466": {
+    "context": "001466",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "成功了，这样一来少女的好感度也上升了吧。"
+  },
+  "001471": {
+    "context": "001471",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚刚的例子中，少女有两种反应，实际使用时视情况可能变化更多。"
+  },
+  "001476": {
+    "context": "001476",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "另外，Senses 的对象也并不总是一人。"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "需要考虑多名对象时，必须分别处理你对所有人的 Senses。"
+  },
+  "001486": {
+    "context": "001486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在这种情况下，会有多个可以输入的人物。"
+  },
+  "001491": {
+    "context": "001491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "可以输入 Senses 的，只有与下一次分支相关的人物；不能操作与分支无关的人物的 Senses。"
+  },
+  "001496": {
+    "context": "001496",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "有时也会需要给 Senses 分个高下。"
+  },
+  "001501": {
+    "context": "001501",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此外，根据下一步分支的重要性，Senses 共有三种颜色。"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "蓝色——这种颜色表示察觉到“一件事情可能影响到对象的好感度”。"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这种分支称为“蓝分支”，不算特别重要。"
+  },
+  "001555": {
+    "context": "001555",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此时不需要每次都操作 Senses。"
+  },
+  "001560": {
+    "context": "001560",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "当你对对象的印象发生改变时操作即可。"
+  },
+  "001565": {
+    "context": "001565",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不过，太过疏远也可能招致不好的结果。"
+  },
+  "001609": {
+    "context": "001609",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "黄色——这种颜色主要表示“一件事情可能影响行动的内容”。"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这种分支称为“黄分支”，重要程度稍高。"
+  },
+  "001619": {
+    "context": "001619",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此时，可能会发生较大的变化，例如一起行动的人选、目的地等。"
+  },
+  "001624": {
+    "context": "001624",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这类分支没有危险，但最好在更改 Senses 时反映出你的想法。"
+  },
+  "001629": {
+    "context": "001629",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "偶尔也会有“重大危险”在即的黄色分支，请留意。"
+  },
+  "001673": {
+    "context": "001673",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "红色——这种颜色主要表示“重大危险”。"
+  },
+  "001678": {
+    "context": "001678",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这种分支称为“红分支”，极为重要。"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "判断失误即意味着死亡。"
+  },
+  "001688": {
+    "context": "001688",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "请分析情况，避开危险，立刻确认 Senses 是否存在问题。"
+  },
+  "001693": {
+    "context": "001693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此外，直接与故事“结局”相关的分支也是红分支。"
+  },
+  "001698": {
+    "context": "001698",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同样建议慎重判断。"
+  },
+  "001741": {
+    "context": "001741",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Senses Sympathy System 的讲解到此结束。"
+  },
+  "001746": {
+    "context": "001746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "根据你的 Senses，状况会产生各种不同的变化。"
+  },
+  "001751": {
+    "context": "001751",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那么，世界将会再次启动。"
+  },
+  "001756": {
+    "context": "001756",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "世界启动后，很快就会有能输入 Senses 的分支。"
+  },
+  "001802": {
+    "context": "001802",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "九型图上亮着黄灯——"
+  },
+  "001807": {
+    "context": "001807",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "此处也是“重大危险”在即的分支。"
+  },
+  "001812": {
+    "context": "001812",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "如果你判断失误，男性就将迎来死亡。"
+  },
+  "001817": {
+    "context": "001817",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "请冷静分析情况，立刻操作 Senses。"
+  },
+  "001862": {
+    "context": "001862",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "九型图上亮着蓝灯——"
+  },
+  "001867": {
+    "context": "001867",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但对少年而言，各个少女的好感度具有重要的意义。"
+  },
+  "001872": {
+    "context": "001872",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最坏情况下可能迎来悲剧的结局。"
+  },
+  "001877": {
+    "context": "001877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "请冷静分析状况，设定合适的 Senses。"
+  },
+  "001883": {
+    "context": "001883",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "期待你的感情对这个世界带来好的影响。"
+  }
+}

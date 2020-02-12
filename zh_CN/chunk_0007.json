@@ -1,0 +1,901 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——渡濑他们快速朝第 3 区域前进。"
+  },
+  "000103": {
+    "context": "000103",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他们走到连接通道，看见了“门禁”。"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见指着门禁边上的终端说道。"
+  },
+  "000197": {
+    "context": "000197",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这是卡槽，刷一下卡门就会打开」"
+  },
+  "000208": {
+    "context": "000208",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「就算打开过一次的门，以后每次通过也都需要用卡」"
+  },
+  "000219": {
+    "context": "000219",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「明白，交给我吧」"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这句话，他看向洵，洵正在看 Procyon 。"
+  },
+  "000254": {
+    "context": "000254",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……你是在做什么？」"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「进入没有探索过的地方之前，都要用 Procyon 检查一下辐射量」"
+  },
+  "000312": {
+    "context": "000312",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这扇门后面，对我们来说就是未知领域了……」"
+  },
+  "000317": {
+    "context": "000317",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见她们露出了认真的表情。"
+  },
+  "000322": {
+    "context": "000322",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑感到有些紧张，他从怀里掏出卡片——"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "划过卡槽。"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门发出了巨响，打开了。"
+  },
+  "000408": {
+    "context": "000408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑和洵一起看着 Procyon 的数字显示器。"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "数值比之前第 1 区域里看到的要高一点——“1285 mSv”。"
+  },
+  "000442": {
+    "context": "000442",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「好的，在安全范围内！」"
+  },
+  "000453": {
+    "context": "000453",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「安全范围内？」"
+  },
+  "000482": {
+    "context": "000482",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「虽然被污染了，但是还是安全的」"
+  },
+  "000511": {
+    "context": "000511",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「安全范围是“4000 mSv 之内”。这是“打了 AD 以后没有受辐射风险”的范围」"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第 1 级危险范围是“4000 mSv～8000 mSv”。这表示“即使注射了 AD ，也不建议长时间被辐射”」"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「第 2 级危险范围“8000 mSv 以上”，表示“即使注射了 AD ，也没有生命保障”」"
+  },
+  "000562": {
+    "context": "000562",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……总而言之在 4000 mSv 以内的话、有 AD 就没问题了吧」"
+  },
+  "000573": {
+    "context": "000573",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「超过了 4000 mSv 的话，就算是有 AD 也有点麻烦了」"
+  },
+  "000584": {
+    "context": "000584",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「超过了 8000 mSv 的话，即使是有 AD 也可能死亡……这样吧」"
+  },
+  "000613": {
+    "context": "000613",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「对。在辐射超出危险范围的“污染区域”，Procyon 会发出警报声」"
+  },
+  "000642": {
+    "context": "000642",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「万一警报声响起，请迅速离开现场」"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，好的……明白了」"
+  },
+  "000658": {
+    "context": "000658",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说着话，他们钻过了门。"
+  },
+  "000750": {
+    "context": "000750",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "连接第 3 区域的联络通道越是深入，越是一片狼藉。"
+  },
+  "000755": {
+    "context": "000755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "墙壁被烧毁，天花板也受到了损坏。"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「真夸张啊……」"
+  },
+  "000841": {
+    "context": "000841",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这里似乎也发生了爆炸啊」"
+  },
+  "000884": {
+    "context": "000884",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后，随着他们在拐角处转弯——"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑他们屏住了呼吸。"
+  },
+  "000976": {
+    "context": "000976",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「？！」"
+  },
+  "000981": {
+    "context": "000981",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "前方的天花板上，有一位女子倒挂着。"
+  },
+  "000992": {
+    "context": "000992",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「唔，嗯……！」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看起来下半身卡在空气导管里了。"
+  },
+  "001008": {
+    "context": "001008",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这，这到底是……？！」"
+  },
+  "001019": {
+    "context": "001019",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「真是超现实的光景……」"
+  },
+  "001024": {
+    "context": "001024",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听见风见们的自语，女人一下瞪大了眼睛。"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「是，是谁？！」"
+  },
+  "001086": {
+    "context": "001086",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，我们是救援队的……」"
+  },
+  "001097": {
+    "context": "001097",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「救援队？！来的正好！」"
+  },
+  "001108": {
+    "context": "001108",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「我被卡住出不来了！快拉我出来！」"
+  },
+  "001119": {
+    "context": "001119",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好，好的！」"
+  },
+  "001130": {
+    "context": "001130",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「守部，在导管下面等着！防止她头朝下掉下来！」"
+  },
+  "001141": {
+    "context": "001141",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「了解！那么，一，二——三！」"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑们赶紧拉住她的身体——"
+  },
+  "001194": {
+    "context": "001194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "把她救了出来。"
+  },
+  "001276": {
+    "context": "001276",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「呼……得救了」"
+  },
+  "001281": {
+    "context": "001281",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "落地的女人略有尴尬地自语道。"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看起来她也是被困人员。"
+  },
+  "001297": {
+    "context": "001297",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「不过……你，到底在做什么？」"
+  },
+  "001326": {
+    "context": "001326",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「啊？那个啊，那个」"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她指着天花板上的空气导管说道。"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「不知道为什么突然门被关起来，就被困在这个通道里了……所以就试试能不能从空气导管里逃出来了啊」"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「虽然用天花板上垂下来的电缆，勉强爬到了那边」"
+  },
+  "001400": {
+    "context": "001400",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「但在空气导管里到处走动，很容易滑倒，就搞成那样了」"
+  },
+  "001430": {
+    "context": "001430",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那还真是有够好受的啊……不过，通过这个空气导管是无法逃生的」"
+  },
+  "001459": {
+    "context": "001459",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「这样吗？」"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「是。我们调查过，导管内设置了某种机械一样的东西。连接地上的部分是完全不能通过的」"
+  },
+  "001499": {
+    "context": "001499",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「哎呀可惜。嘛虽然我也没打算从这里逃到地上。我只是想从这个通道里出来啊」"
+  },
+  "001575": {
+    "context": "001575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "女人平淡地这么说道。"
+  },
+  "001581": {
+    "context": "001581",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（不是吧……这人，还不知道现在什么状况吗？）"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么想着，渡濑向她询问。"
+  },
+  "001650": {
+    "context": "001650",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「你，是这个研究所的职员吗？」"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「不，我是“鹿鸣学园”高中部的教师」"
+  },
+  "001690": {
+    "context": "001690",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「鹿，鸣，学，园？」"
+  },
+  "001719": {
+    "context": "001719",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「诶，不知道吗？那是市内的特科学校啊」"
+  },
+  "001724": {
+    "context": "001724",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "仔细看的话，确实她穿着教师模样的整齐服装。"
+  },
+  "001729": {
+    "context": "001729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不过这身衣服也跟渡濑们的一样，沾满了灰尘。确实受了好大的罪吧。"
+  },
+  "001758": {
+    "context": "001758",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「比起这些，你们是来救援的吧？总之先带我出去吧」"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她用期待的眼神看向渡濑。"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但渡濑怀着抱歉的心情回答了她。"
+  },
+  "001779": {
+    "context": "001779",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「事实上——」"
+  },
+  "001784": {
+    "context": "001784",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "随着现状的解说，她的脸色肉眼可见地难看起来。"
+  },
+  "001789": {
+    "context": "001789",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "电话和无线电不通，还有电梯等的罢工。"
+  },
+  "001794": {
+    "context": "001794",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后告知了她“连接地上的出口已经没有了”之后，她绝望地叫喊起来。"
+  },
+  "001823": {
+    "context": "001823",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「怎么会……隔离墙关上了，怎么会这样？！」"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我们也没有找到原因……！」"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「那只要破坏了就好了吧！用比如什么，特殊装备之类的东西！」"
+  },
+  "001912": {
+    "context": "001912",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我们也试了各种方法啊！但是就算是动力切割机， 也完全没有用！」"
+  },
+  "001941": {
+    "context": "001941",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「以我们的装备，是不可能破坏那个隔离墙的」"
+  },
+  "001970": {
+    "context": "001970",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「呵！这救援队，意外地没用啊！」"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 002426"
+  },
+  "002025": {
+    "context": "002025",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「确实，我们的装备是不能做到的——但地上的队员的装备中，应该是包含了炸药的」"
+  },
+  "002036": {
+    "context": "002036",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「迟早他们会破坏那个隔离墙，来增援我们的吧。所以目前请您原谅」"
+  },
+  "002065": {
+    "context": "002065",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「……这样，也没办法呢」"
+  },
+  "002070": {
+    "context": "002070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她无奈地叹了口气。"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「喂，我说你啊……！」"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见用手制止了气愤说着的洵，说道。"
+  },
+  "002133": {
+    "context": "002133",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「比起这件事，首先还是给你注射 AD 吧」"
+  },
+  "002144": {
+    "context": "002144",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，对啊！不注射就糟了！」"
+  },
+  "002173": {
+    "context": "002173",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「AD ？什么东西？」"
+  },
+  "002184": {
+    "context": "002184",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「所谓 AD，也就是——」"
+  },
+  "002189": {
+    "context": "002189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见对她说明了 AD 的事情。"
+  },
+  "002194": {
+    "context": "002194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "以及充满设施的辐射，安全范围和 Procyon 的事情。"
+  },
+  "002199": {
+    "context": "002199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听完这些，她一改态度。"
+  },
+  "002228": {
+    "context": "002228",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「辐，辐射……？！」"
+  },
+  "002239": {
+    "context": "002239",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「对。另外，辐射危害的主观症状，容易在内脏、皮肤、眼处表现出来」"
+  },
+  "002250": {
+    "context": "002250",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「有没有恶心呕吐，皮肤痛，视野模糊之类的感觉？」"
+  },
+  "002279": {
+    "context": "002279",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「现在感觉好像没有问题……」"
+  },
+  "002290": {
+    "context": "002290",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「太好了。现在打 AD 的话肯定就没问题了」"
+  },
+  "002319": {
+    "context": "002319",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但还是早点打好一点哟？不打的话，你那讨厌的嘴就不能再说话了」"
+  },
+  "002348": {
+    "context": "002348",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「知……知道了。打这个就好了是吧？」"
+  },
+  "002377": {
+    "context": "002377",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是——是，感谢你的配合」"
+  },
+  "002382": {
+    "context": "002382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵把 AD 递了出来，她立即给自己注射了 AD 。"
+  },
+  "002418": {
+    "context": "002418",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「这样就……不会有事了吧？」"
+  },
+  "002423": {
+    "context": "002423",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她一转刚刚的奇妙态度。"
+  },
+  "002428": {
+    "context": "002428",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看上去她终于理解了自己所处的状况。"
+  },
+  "002439": {
+    "context": "002439",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「呼……话说回来，你叫什么？」"
+  },
+  "002468": {
+    "context": "002468",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……“椿山 惠那”。你们呢？」"
+  },
+  "002473": {
+    "context": "002473",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见她们立即回答了惠那的问题。"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我是橘副队长，这是守部队员」"
+  },
+  "002513": {
+    "context": "002513",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「然后，这是刚刚救援的一般市民悠里」"
+  },
+  "002591": {
+    "context": "002591",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「一般市民？除了我以外，还有被卷入这次事件的人吗？」"
+  },
+  "002620": {
+    "context": "002620",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0004 005112"
+  },
+  "002625": {
+    "context": "002625",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里胆怯地回答道，接着她问了个问题。"
+  },
+  "002654": {
+    "context": "002654",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「老师，你为什么在这里……？」"
+  },
+  "002659": {
+    "context": "002659",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里称呼惠那叫“老师”。"
+  },
+  "002664": {
+    "context": "002664",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那似乎习惯了这样的称呼，理所应当的回答道。"
+  },
+  "002693": {
+    "context": "002693",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「我？我是被这里的职员喊过来的」"
+  },
+  "002722": {
+    "context": "002722",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「然后突然就发生了爆炸，大家都陷入了恐慌……我也不知道怎么回事，就被困在这里了」"
+  },
+  "002733": {
+    "context": "002733",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……这真是灾难啊」"
+  },
+  "002762": {
+    "context": "002762",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「为什么好像在说别人的事一样。作为救援队的一员，不该对被救的人好一点吗？」"
+  },
+  "002819": {
+    "context": "002819",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「是，是吗？」"
+  },
+  "002824": {
+    "context": "002824",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那盯着渡濑。"
+  },
+  "002853": {
+    "context": "002853",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……这么说来的话，只有你的名字我还不知道了。你是谁？」"
+  },
+  "002864": {
+    "context": "002864",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，我是笠鹭渡濑——姑且，是这个队伍的队长」"
+  },
+  "002893": {
+    "context": "002893",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「队长？“姑且”，好像不太靠得住的样子」"
+  },
+  "002912": {
+    "context": "002912",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「请别这么说……不管怎样，老师，请多关照」"
+  },
+  "002941": {
+    "context": "002941",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「嗯，队长」"
+  },
+  "002946": {
+    "context": "002946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那戏谑地回答。"
+  },
+  "002952": {
+    "context": "002952",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（但是……被一个人关在这里这么久，她一定也很不安）"
+  },
+  "002957": {
+    "context": "002957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑正这么想的时候，风见开口了。"
+  },
+  "002972": {
+    "context": "002972",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「请别这么不紧不慢的了。现在的情况已经很紧急了」"
+  },
+  "003001": {
+    "context": "003001",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「什么啊，果然这是别人的事情吗」"
+  },
+  "003006": {
+    "context": "003006",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑闪躲着惠那的凝视，一声不吭。"
+  },
+  "003012": {
+    "context": "003012",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（但是……高中老师出现在这种地方，是不是有点奇怪？）"
+  },
+  "003017": {
+    "context": "003017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑偷偷地看着惠那的脸。"
+  },
+  "003046": {
+    "context": "003046",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「怎么了，队长？我的脸上有什么吗？」"
+  },
+  "003057": {
+    "context": "003057",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊，没有，不是这样的……」"
+  },
+  "003062": {
+    "context": "003062",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑正在掩饰的时候，风见开口了。"
+  },
+  "003194": {
+    "context": "003194",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我们一起继续前进吧。还有别的被困人员也说不定」"
+  },
+  "003199": {
+    "context": "003199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑他们听从了风见的建议，继续前进。"
+  },
+  "003243": {
+    "context": "003243",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他们用卡打开了道路尽头的门禁。"
+  },
+  "003400": {
+    "context": "003400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后 5 人一起，朝第 3 区域前进。"
+  }
+}
