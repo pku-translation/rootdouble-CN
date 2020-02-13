@@ -1,0 +1,739 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——第 3 区域内环楼地下 2 层——"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这里和之前去过的楼层都不一样。"
+  },
+  "000071": {
+    "context": "000071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "墙壁是混凝土直接浇筑的，屋顶上钢架和电线裸露在外。"
+  },
+  "000076": {
+    "context": "000076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑查看了 Procyon ，上面显示“ 1381 mSv ”。"
+  },
+  "000087": {
+    "context": "000087",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好，这里看起来也是安全的」"
+  },
+  "000152": {
+    "context": "000152",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「“安全”啊……本来应该是危险的辐射量才对」"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我们有 AD 的时间内都没问题。而且很幸运，这片区域看起来没有火——」"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后正在洵说话的时候，"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「——这个画面是……！？他们为什么……」"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不知哪里传来了这样的声音。"
+  },
+  "000319": {
+    "context": "000319",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这里好像有人！」"
+  },
+  "000330": {
+    "context": "000330",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊！」"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "声音像是从前面的房子里传来的。"
+  },
+  "000418": {
+    "context": "000418",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "房门上写着“监控室”。"
+  },
+  "000429": {
+    "context": "000429",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「喂！这里有人吗！？」"
+  },
+  "000434": {
+    "context": "000434",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑无意一喊，对面却传回了惊讶的声音。"
+  },
+  "000445": {
+    "context": "000445",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「什么！？」"
+  },
+  "000456": {
+    "context": "000456",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「这声音——是“队长”吗！？」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什么！？你，你为什么认识我！？」"
+  },
+  "000478": {
+    "context": "000478",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「我为什么不认识你……」"
+  },
+  "000483": {
+    "context": "000483",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门里面有人在说话，但是渡濑听不出是谁。"
+  },
+  "000489": {
+    "context": "000489",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（是谁……！？）"
+  },
+  "000494": {
+    "context": "000494",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑战战兢兢地打开门。"
+  },
+  "000543": {
+    "context": "000543",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门里面是一位身着白衣的男子。"
+  },
+  "000609": {
+    "context": "000609",
+    "code": "0x45",
+    "developer_comment": "研究員",
+    "string": "「队长……你回来了吗」"
+  },
+  "000614": {
+    "context": "000614",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他这么说的时候，风见和洵一起睁大了眼睛。"
+  },
+  "000644": {
+    "context": "000644",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「诶……是宇喜多！？」"
+  },
+  "000673": {
+    "context": "000673",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「为什么大叔也在这里！？」"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「你，你们都在这里……？」"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这个叫做宇喜多的人，困惑地说到。"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先等等……你们都认识这个人吗？」"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯。上周他遇到了车祸，是我们救了他」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「难道说大叔你连续两周，都遭遇了事故？」"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「啊，是的……会发生这样的事情我真是做梦也没想到」"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说着，他露出了苦涩的表情。"
+  },
+  "000888": {
+    "context": "000888",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（虽然不知道前因后果——但是连续遇到这样的事故，也难怪他会露出这样的表情）"
+  },
+  "000893": {
+    "context": "000893",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后风见他们曾经救过这个人，所以他也就认识我。"
+  },
+  "000957": {
+    "context": "000957",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「我知道了……所以说你们，也没能及时疏散出去？」"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「什……开什么玩笑啊你？！」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「不就是你，把我关在这个区域的吗！」"
+  },
+  "001008": {
+    "context": "001008",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶，诶……？」"
+  },
+  "001013": {
+    "context": "001013",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "面对他突然的激烈情绪，渡濑不明所以地愣在当场。"
+  },
+  "001024": {
+    "context": "001024",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「等，等一下。能告诉我具体的经过吗？」"
+  },
+  "001053": {
+    "context": "001053",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「你自己不是最清楚了吗？！」"
+  },
+  "001064": {
+    "context": "001064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这个、这个呢……」"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「其实不久之前，好像脑子受到强烈冲击……记忆混乱了……」"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「记忆混乱……啥？！」"
+  },
+  "001109": {
+    "context": "001109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "连惠那也对渡濑的话产生了反应。"
+  },
+  "001140": {
+    "context": "001140",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「停一下，我可不知道这事。记忆丧失是怎么回事？又不是电影，真有这种事情？」"
+  },
+  "001151": {
+    "context": "001151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「哎……你们难以相信我也能理解……」"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「电影之类中出现的长期记忆丧失是非常少见的，但短期的记忆混乱的话，也不是不可能发生的」"
+  },
+  "001185": {
+    "context": "001185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见这么帮腔道。"
+  },
+  "001190": {
+    "context": "001190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他怀疑地盯着渡濑看了一会儿——然后仿佛终于下定了决心，说道。"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……行吧。暂时就先相信你吧」"
+  },
+  "001245": {
+    "context": "001245",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「谢谢。呃……你叫？」"
+  },
+  "001274": {
+    "context": "001274",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「啊，我叫“宇喜多佳司”。如你所见，是这个 LABO 的研究员」"
+  },
+  "001280": {
+    "context": "001280",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（宇喜多佳司……！）"
+  },
+  "001285": {
+    "context": "001285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑对这个名字感到了耳熟。"
+  },
+  "001290": {
+    "context": "001290",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬，他还以为是记忆在恢复——但并不是。"
+  },
+  "001295": {
+    "context": "001295",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看到“宇喜多佳司”这个名字，是在刚才醒来之后的事情了。"
+  },
+  "001300": {
+    "context": "001300",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "拿出刚才使用过的卡来一看，上面果然写着这个名字。"
+  },
+  "001311": {
+    "context": "001311",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那么这张卡是你的所有物吗？」"
+  },
+  "001340": {
+    "context": "001340",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「啊！果然是你拿去了吗！」"
+  },
+  "001345": {
+    "context": "001345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多从渡濑的手中抢过卡片。"
+  },
+  "001356": {
+    "context": "001356",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那个，我说啊……宇喜多。我当初是为什么，从你那抢了卡的？」"
+  },
+  "001385": {
+    "context": "001385",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「总觉得是奇妙的问题，嘛算了。那么，怎么说好呢……」"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多思考了一阵，然后开始了说明。"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……同僚们全员避难的时候，我想着设法收拾一下这个事态。因为我想着这是这里的职员的义务」"
+  },
+  "001430": {
+    "context": "001430",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但非常不顺利，正迷茫的时候上面指示了“事态 N”的处理……」"
+  },
+  "001441": {
+    "context": "001441",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我还在愕然的时候，跟队长相遇了。大概是 2 小时以前的事吧」"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那时候，队长说了什么吗？」"
+  },
+  "001499": {
+    "context": "001499",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「“我会去找出口。但是因为火灾严重，很危险，你就在这个房间里等着。”这么说的」"
+  },
+  "001528": {
+    "context": "001528",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但我那时候没听进去。因为恐慌，就闹腾起来了」"
+  },
+  "001557": {
+    "context": "001557",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「所以，队长就取走了我的卡片。为了不让我擅自移动」"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「嘛我也知道是担心我才这么做的……但毕竟太我行我素了。所以我才很火大啊」"
+  },
+  "001615": {
+    "context": "001615",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「呜哇，队长确实有些死心眼的」"
+  },
+  "001626": {
+    "context": "001626",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这样的吗……那真是做了对不起你的事。我估计本来是准备马上回来的……」"
+  },
+  "001655": {
+    "context": "001655",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「不，没事了。说起来，这边的女士们是？」"
+  },
+  "001660": {
+    "context": "001660",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多看了看惠那和悠里，问道。"
+  },
+  "001689": {
+    "context": "001689",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「我叫椿山惠那。是被叫到这个设施里来的高中老师」"
+  },
+  "001718": {
+    "context": "001718",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「我，悠里…… LABO 的研究员的、家属」"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「唔嗯……老师和家属，吗」"
+  },
+  "001776": {
+    "context": "001776",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但是有点奇怪啊。这个设施的安保很严格，应该是让人不能轻易地进入地下区域的才是」"
+  },
+  "001787": {
+    "context": "001787",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这样吗？两位，这是怎么回事？」"
+  },
+  "001792": {
+    "context": "001792",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑他们突然间察觉到这事以后，惠那像是无奈般回答了。"
+  },
+  "001821": {
+    "context": "001821",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「这种事我才想问啊。我都不知道为什么我要一早就被叫过来啊」"
+  },
+  "001832": {
+    "context": "001832",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「被一个看起来很自大的职员带到地下……马上就发生了那个爆炸，什么都不知道的时候就被困住了」"
+  },
+  "001861": {
+    "context": "001861",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「职员？」"
+  },
+  "001872": {
+    "context": "001872",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「好像叫野岛什么的来着」"
+  },
+  "001901": {
+    "context": "001901",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「那个人说着“在这里等着！”就很快走掉了。真是的，别开玩笑啊」"
+  },
+  "001976": {
+    "context": "001976",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「是，是的。我也是这样……」"
+  },
+  "001987": {
+    "context": "001987",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「不知道为什么昨天很晚的时候来接我……告诉我说让我住到地下区域……」"
+  },
+  "002016": {
+    "context": "002016",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「睡着醒过来，事情就变成了这样……妈妈也不在，我，我好怕……！」"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「什么嘛，那我们就是被卷入的受害者了。我可没做过什么被说是要追究的事啊」"
+  },
+  "002074": {
+    "context": "002074",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「唔……这样啊，抱歉了」"
+  },
+  "002079": {
+    "context": "002079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多这么说着，仿佛在思考着什么。"
+  },
+  "002098": {
+    "context": "002098",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「怎么了宇喜多？有什么在意的地方吗？」"
+  },
+  "002127": {
+    "context": "002127",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「诶，啊……不，没有」"
+  },
+  "002156": {
+    "context": "002156",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「什么啊？有什么想说的话不如说清楚点啊？」"
+  },
+  "002185": {
+    "context": "002185",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「所以我说，没什么啊」"
+  },
+  "002190": {
+    "context": "002190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一时间， 他们像要发生口角——但被渡濑慌忙阻止了。"
+  },
+  "002201": {
+    "context": "002201",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嘛，嘛。也不用这么冲嘛老师」"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……哼」"
+  },
+  "002241": {
+    "context": "002241",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「说起来宇喜多，AD 已经注射了吗？」"
+  },
+  "002249": {
+    "context": "002249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见惊讶地看着他，一边插嘴说。"
+  },
+  "002278": {
+    "context": "002278",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……说起来宇喜多先生，AD 已经注射过了吗？」"
+  },
+  "002307": {
+    "context": "002307",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「啊，AD 吗！」"
+  },
+  "002336": {
+    "context": "002336",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「之前有注射队长给我留下的，但已经用完了。最后一次注射是在差不多 1 小时前了」"
+  },
+  "002341": {
+    "context": "002341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多毕竟是研究员，看起来是知道有关 AD 的知识的。"
+  },
+  "002422": {
+    "context": "002422",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那，你用这个吧」"
+  },
+  "002445": {
+    "context": "002445",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑这么说着，将 AD 递给宇喜多。"
+  },
+  "002451": {
+    "context": "002451",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多抢夺一般接过，给自己注射了。"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……数量不多了啊）"
+  },
+  "002462": {
+    "context": "002462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑感到有些不安，这时宇喜多扔掉 AD 的空安瓿，说道。"
+  },
+  "002523": {
+    "context": "002523",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「比起这个，救援队的各位……能麻烦你们来看看这个显示器吗？」"
+  },
+  "002534": {
+    "context": "002534",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶？」"
+  },
+  "002545": {
+    "context": "002545",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我一直在看监控来了解外面的现状，但这段监控录像有点奇怪」"
+  },
+  "002556": {
+    "context": "002556",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这么说的话确实，一开始你是在自言自语来着」"
+  },
+  "002585": {
+    "context": "002585",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是什么监控录像奇怪呢？」"
+  },
+  "002614": {
+    "context": "002614",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「这是“ 6 点 21 分”，第 2 区域的录像——」"
+  },
+  "002619": {
+    "context": "002619",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多操作着控制板。"
+  },
+  "002624": {
+    "context": "002624",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后显示器上映出了监控录像。"
+  }
+}
