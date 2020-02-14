@@ -16,7 +16,10 @@ namespace CSYetiTools
      */
     public sealed class CodeScript
     {
-        private readonly bool _isSteam;
+        private const byte FooterSeparator = 0x05;
+
+        private readonly bool _isStringPooled;
+
         private byte[] _header = Array.Empty<byte>();
 
         private int _opCodeStart;
@@ -29,212 +32,128 @@ namespace CSYetiTools
 
         private List<(int offset, string content)> _stringList = new List<(int, string)>();
 
-        private byte[] _footer = Array.Empty<byte>();
+        private CodeScriptFooter _footer;
 
-        public CodeScript(byte[] bytes, bool isSteam)
+        public CodeScript(byte[] bytes, CodeScriptFooter footer, bool isStringPooled)
         {
-            //_rawBytes = bytes.ToArray();
-            _isSteam = isSteam;
+            System.Diagnostics.Debug.Assert(bytes.Length % 16 == 0);
+
+            _footer = footer;
+            _isStringPooled = isStringPooled;
+
+            // find footer
+            int FindFooterStart()
+            {
+                var fBytes = footer.ToBytes();
+                for (int i = 0; i < 16; ++i) // max fill 0x00 bytes
+                {
+                    if (bytes[(bytes.Length - i - 16)..(bytes.Length - i)].SequenceEqual(fBytes))
+                        return bytes.Length - i - 16;
+                }
+                for (int i = 0; i < 16; ++i) // max fill 0x00 bytes
+                {
+                    Console.WriteLine($"compare [{Utils.BytesToHex(bytes[(bytes.Length - i - 16)..(bytes.Length - i)])}] with [{Utils.BytesToHex(fBytes)}]");
+                }
+                throw new InvalidDataException($"Cannot locate footer [{footer}] in script");
+            }
+
+            var footerStart = FindFooterStart();
+
+            var codeEnd = footerStart - 1; // FooterSeparator
 
             var errorBuilder = new StringBuilder();
 
-            using (var reader = new BinaryReader(new MemoryStream(bytes),
+            using var reader = new BinaryReader(new MemoryStream(bytes),
                 Encoding.Default,
-                leaveOpen: false))
+                leaveOpen: false);
+
+            _opCodeStart = reader.ReadInt32();
+            _header = new byte[_opCodeStart - 4];
+            reader.Read(_header);
+
+            var stringTableEnd = codeEnd;
+
+            try
             {
-                if (isSteam)
-                    ParseSteam(reader, errorBuilder);
-                else
-                    Parse(reader, errorBuilder);
+                while (reader.BaseStream.Position < codeEnd)
+                {
+                    var opCode = OpCode.GetNextCode(reader, _codes, isStringPooled);
+                    if (isStringPooled && opCode is OpCodes.StringCode strCode)
+                    {
+                        // there are two {[55] ""} referring [0x00] at the end of header.
+                        var refOffset = strCode.ContentOffset.AbsoluteOffset;
+                        if (refOffset > strCode.Offset && codeEnd > refOffset)
+                        {
+                            codeEnd = refOffset;
+                        }
+
+                        var pos = reader.BaseStream.Position;
+                        reader.BaseStream.Position = refOffset;
+                        strCode.Content = Utils.ReadStringZ(reader);
+
+                        if (refOffset > strCode.Offset && stringTableEnd < reader.BaseStream.Position)
+                        {
+                            stringTableEnd = (int)reader.BaseStream.Position;
+                        }
+
+                        reader.BaseStream.Position = pos;
+                    }
+                    _codes.Add(opCode);
+                }
             }
+            catch (OpCodeParseException exc)
+            {
+                errorBuilder.AppendLine(exc.Message);
+                if (!string.IsNullOrWhiteSpace(exc.ScriptContext))
+                {
+                    errorBuilder.AppendLine("------ context --------");
+                    errorBuilder.AppendLine(exc.ScriptContext);
+                    errorBuilder.AppendLine("-----------------------");
+                }
+                if (exc.InnerException != null)
+                {
+                    errorBuilder.AppendLine(exc.InnerException.ToString());
+                }
+            }
+
+            if (isStringPooled)
+            {
+                _stringStart = (int)reader.BaseStream.Position;
+                System.Diagnostics.Debug.Assert(_stringStart == codeEnd, $"{_stringStart} != {codeEnd}");
+                while (reader.BaseStream.Position < stringTableEnd)
+                {
+                    var pos = (int)reader.BaseStream.Position;
+                    var content = Utils.ReadStringZ(reader);
+                    _stringList.Add((pos, content));
+                }
+            }
+
+            var separator = reader.ReadByte();
+            System.Diagnostics.Debug.Assert(separator == FooterSeparator);
+            var footerBytes = reader.ReadBytes(16);
+            System.Diagnostics.Debug.Assert(footerBytes.SequenceEqual(_footer.ToBytes()));
+            var fillBytes = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
+            System.Diagnostics.Debug.Assert(fillBytes.Length < 16);
+            System.Diagnostics.Debug.Assert(fillBytes.All(b => b == 0x00));
+
+            foreach (var code in _codes)
+            {
+                _codeTable.Add(code.Offset, code);
+            }
+            foreach (var code in _codes.OfType<OpCodes.IHasAddress>())
+            {
+                code.SetCodeIndices(_codeTable);
+            }
+
             if (errorBuilder.Length != 0) ParserError = errorBuilder.ToString();
 
-#if DEBUG
             System.Diagnostics.Debug.Assert(GetRawBytes().SequenceEqual(bytes), "Rawbytes not sequence-equal to original.");
-#endif
-        }
-
-        private void Parse(BinaryReader reader, StringBuilder errorBuilder)
-        {
-            _opCodeStart = reader.ReadInt32();
-            HeaderStart = 4;
-            _header = new byte[_opCodeStart - 4];
-            reader.Read(_header);
-
-            try
-            {
-                while (reader.BaseStream.Position < reader.BaseStream.Length)
-                {
-                    try
-                    {
-                        var opCode = OpCode.GetNextCode(reader, _codes, isSteam: false);
-                        _codes.Add(opCode);
-                        //if (opCode.Code == OpCode.EndBlock && _codes.Count > 0 && _codes.Last().Code == OpCode.EndBlock)
-                        if (opCode.Code == OpCode.EndBlock && reader.BaseStream.Length - reader.BaseStream.Position < 40)
-                        {
-                            //reader.BaseStream.Seek(-1, SeekOrigin.Current);
-                            break;
-                        }
-                    }
-                    catch (ZeroCodeException exc)
-                    {
-                        if (reader.BaseStream.Length - reader.BaseStream.Position >= 40) throw;
-                        _codes.Add(exc.Code);
-                        reader.BaseStream.Seek(1, SeekOrigin.Current);
-                        break;
-                    }
-                }
-            }
-            catch (OpCodeParseException exc)
-            {
-                errorBuilder.AppendLine(exc.Message);
-                if (!string.IsNullOrWhiteSpace(exc.ScriptContext))
-                {
-                    errorBuilder.AppendLine("------ context --------");
-                    errorBuilder.AppendLine(exc.ScriptContext);
-                    errorBuilder.AppendLine("-----------------------");
-                }
-                if (exc.InnerException != null)
-                {
-                    errorBuilder.AppendLine(exc.InnerException.ToString());
-                }
-            }
-
-            foreach (var code in _codes)
-            {
-                if (code is OpCodes.StringCode strCode)
-                {
-                    _stringList.Add((offset: 0, content: strCode.Content));
-                }
-                _codeTable.Add(code.Offset, code);
-            }
-            foreach (var code in _codes.OfType<OpCodes.IHasAddress>())
-            {
-                code.SetCodeIndices(_codeTable);
-            }
-
-            FooterStart = (int)reader.BaseStream.Position;
-            _footer = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
-        }
-
-        private void ParseSteam(BinaryReader reader, StringBuilder errorBuilder)
-        {
-            _opCodeStart = reader.ReadInt32();
-            HeaderStart = 4;
-            _header = new byte[_opCodeStart - 4];
-            reader.Read(_header);
-
-            var stringTableStart = (int)reader.BaseStream.Length;
-            var stringTableEnd = 0;
-            try
-            {
-                while (reader.BaseStream.Position < stringTableStart)
-                {
-                    try
-                    {
-                        var opCode = OpCode.GetNextCode(reader, _codes, isSteam: true);
-                        if (opCode is OpCodes.StringCode strCode)
-                        {
-                            if (strCode.ContentOffset > strCode.Offset && stringTableStart > strCode.ContentOffset) stringTableStart = strCode.ContentOffset;
-
-                            var pos = reader.BaseStream.Position;
-                            reader.BaseStream.Position = strCode.ContentOffset;
-                            strCode.Content = Utils.ReadStringZ(reader);
-
-#if DEBUG
-                            if (strCode.ContentOffset < strCode.Offset && strCode.Content.Length != 0)
-                            {
-                                throw new ArgumentException("Test if all empty referenced string are pointed to 0x00 in header: failed!");
-                            }
-#endif
-
-                            if (strCode.ContentOffset > strCode.Offset && stringTableEnd < reader.BaseStream.Position) stringTableEnd = (int)reader.BaseStream.Position;
-
-                            reader.BaseStream.Position = pos;
-                        }
-                        _codes.Add(opCode);
-                        //if (opCode.Code == OpCode.EndBlock && _codes.Count > 0 && _codes.Last().Code == OpCode.EndBlock)
-                        if (opCode.Code == OpCode.EndBlock
-                            && (stringTableStart - reader.BaseStream.Position < 4 || reader.BaseStream.Length - reader.BaseStream.Position < 40))
-                        {
-                            //reader.BaseStream.Seek(-1, SeekOrigin.Current);
-                            break;
-                        }
-                    }
-                    catch (ZeroCodeException exc)
-                    {
-                        if (stringTableStart - reader.BaseStream.Position < 4 || reader.BaseStream.Length - reader.BaseStream.Position < 40)
-                        {
-                            _codes.Add(exc.Code);
-                            reader.BaseStream.Seek(1, SeekOrigin.Current);
-                            break;
-                        }
-                        throw;
-                    }
-                }
-            }
-            catch (OpCodeParseException exc)
-            {
-                errorBuilder.AppendLine(exc.Message);
-                if (!string.IsNullOrWhiteSpace(exc.ScriptContext))
-                {
-                    errorBuilder.AppendLine("------ context --------");
-                    errorBuilder.AppendLine(exc.ScriptContext);
-                    errorBuilder.AppendLine("-----------------------");
-                }
-                if (exc.InnerException != null)
-                {
-                    errorBuilder.AppendLine(exc.InnerException.ToString());
-                }
-                FooterStart = (int)reader.BaseStream.Position;
-                _footer = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
-                return;
-            }
-
-            _stringStart = (int)reader.BaseStream.Position;
-            while (reader.BaseStream.Position < stringTableEnd)
-            {
-                var pos = (int)reader.BaseStream.Position;
-                var content = Utils.ReadStringZ(reader);
-                _stringList.Add((pos, content));
-            }
-
-#if DEBUG
-            if (stringTableEnd > reader.BaseStream.Position)
-            {
-                int pos = (int)reader.BaseStream.Position;
-                Console.WriteLine($"Unknown data in string table: {stringTableEnd - pos}");
-                Utils.BytesToTextLines(reader.ReadBytes(stringTableEnd - pos), pos).ForEach(Console.WriteLine);
-                reader.BaseStream.Position = pos;
-
-                //reader.BaseStream.Position = stringTableEnd;
-            }
-#endif
-
-            foreach (var code in _codes)
-            {
-                _codeTable.Add(code.Offset, code);
-            }
-            foreach (var code in _codes.OfType<OpCodes.IHasAddress>())
-            {
-                code.SetCodeIndices(_codeTable);
-            }
-
-            FooterStart = (int)reader.BaseStream.Position;
-            _footer = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
         }
 
         public string? ParserError { get; }
 
         public byte[] Header
             => _header.ToArray();
-
-        public int HeaderStart { get; private set; }
-
-        public byte[] Footer
-            => _footer.ToArray();
-
-        public int FooterStart { get; private set; }
 
         public IEnumerable<OpCode> Codes
             => _codes.ToArray();
@@ -279,7 +198,7 @@ namespace CSYetiTools
 
         public void ReplaceStringTable(IReadOnlyList<StringReferenceEntry> referenceList)
         {
-            if (!_isSteam) throw new InvalidOperationException("Cannot replace string table of a non-steam version script");
+            if (!_isStringPooled) throw new InvalidOperationException("Cannot replace string table of a non-steam version script");
 
             var strCodeList = _codes.OfType<OpCodes.StringCode>().ToList();
             if (strCodeList.Count == 0)
@@ -297,7 +216,7 @@ namespace CSYetiTools
                     throw new ArgumentException(
                         $"string-list code {code.Code:X02} != reference-list code {refEntry.Code}");
                 code.Content = refEntry.Content;
-                code.ContentOffset = currentOffset;
+                code.ContentOffset.AbsoluteOffset = currentOffset;
                 if (refEntry.Content != prevString)
                 {
                     prevString = refEntry.Content;
@@ -306,16 +225,10 @@ namespace CSYetiTools
                 }
             }
             _stringList = newStringList;
-            FooterStart = currentOffset;
-            if ((FooterStart + _footer.Length) % 16 != 0)
-            {
-                var extraBytes = Enumerable.Repeat<byte>(0x00, 16 - ((FooterStart + _footer.Length) % 16));
-                _footer = _footer.Concat(extraBytes).ToArray();
-            }
 
 #if DEBUG
             var bytes = GetRawBytes();
-            var script = new CodeScript(bytes, isSteam: true);
+            var script = new CodeScript(bytes, _footer, isStringPooled: true);
             if (!script.GetRawBytes().SequenceEqual(bytes))
             {
                 throw new ArgumentException("error");
@@ -325,31 +238,37 @@ namespace CSYetiTools
 
         public byte[] GetRawBytes()
         {
-            byte[] result;
-            if (_isSteam)
+            using var ms = new MemoryStream();
+            using (var writer = new BinaryWriter(ms))
             {
-                result = BitConverter.GetBytes(_opCodeStart)
-                    .Concat(_header)
-                    .Concat(_codes.SelectMany(code => code.ToBytes()))
-                    .Concat(_stringList.SelectMany(entry => (Utils.GetStringZBytes(entry.content))))
-                    .Concat(_footer)
-                    .ToArray();
+                writer.Write(_opCodeStart);
+                writer.Write(_header);
+                foreach (var code in _codes)
+                {
+                    writer.Write(code.ToBytes());
+                }
+                if (_isStringPooled)
+                {
+                    foreach (var (_, content) in _stringList)
+                    {
+                        writer.Write(Utils.GetStringZBytes(content).ToArray());
+                    }
+                }
+                writer.Write(FooterSeparator);
+                writer.Write(_footer.ToBytes());
+                var alignFillCount = 16 - writer.BaseStream.Position % 16;
+                if (alignFillCount != 16)
+                {
+                    for (var i = 0; i < alignFillCount; ++i)
+                    {
+                        writer.Write((byte)0x00);
+                    }
+                }
+
+                System.Diagnostics.Debug.Assert(ms.Length % 16 == 0);
             }
-            else
-            {
-                result = BitConverter.GetBytes(_opCodeStart)
-                    .Concat(_header)
-                    .Concat(_codes.SelectMany(code => code.ToBytes()))
-                    .Concat(_footer)
-                    .ToArray();
-            }
-#if DEBUG
-            if (result.Length % 16 != 0)
-            {
-                Console.WriteLine($"CodeScript size {result.Length} % 16 != 0");
-            }
-#endif
-            return result;
+
+            return ms.ToArray();
         }
 
         /// <summary>
@@ -362,11 +281,10 @@ namespace CSYetiTools
         /// <param name="codeFormat"></param>
         public void DumpText(TextWriter writer, string codeFormat = "{index,4} | 0x{offset:X08}: {code}", bool header = true, bool footer = true)
         {
-            
             if (header)
             {
                 writer.WriteLine("* * * Header * * *");
-                Utils.BytesToTextLines(_header, HeaderStart).ForEach(writer.WriteLine);
+                Utils.BytesToTextLines(_header, 4).ForEach(writer.WriteLine);
                 writer.WriteLine();
             }
 
@@ -376,8 +294,9 @@ namespace CSYetiTools
 
             foreach (var (i, code) in _codes.WithIndex())
             {
-                
-                writer.WriteLine(formatter.Format(key => key switch {
+
+                writer.WriteLine(formatter.Format(key => key switch
+                {
                     "index" => i,
                     "offset" => code.Offset,
                     "code" => code,
@@ -388,12 +307,11 @@ namespace CSYetiTools
             }
             writer.WriteLine();
 
-            
+
             if (footer)
             {
                 writer.WriteLine("* * * Footer * * *");
-                Utils.BytesToTextLines(_footer, FooterStart).ForEach(writer.WriteLine);
-                writer.WriteLine();
+                writer.WriteLine(_footer);
             }
         }
 

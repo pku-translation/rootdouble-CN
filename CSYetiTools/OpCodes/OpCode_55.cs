@@ -9,6 +9,10 @@ namespace CSYetiTools.OpCodes
         private byte _unknown = 0x01; // always 0x01 ?
         private CodeAddressData _endOffset = new CodeAddressData();
 
+        public CodeAddressData StartOffset => _startOffset;
+
+        public CodeAddressData EndOffset => _endOffset;
+
         public OpCode_55() : base(0x55) { }
 
         public override int ArgLength

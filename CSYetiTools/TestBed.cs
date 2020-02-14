@@ -29,6 +29,12 @@ namespace CSYetiTools
             // {
             //     writer.WriteLine(Utils.BytesToHex(s.Footer));
             // }
+            foreach (var s in package!.Scripts)
+            {
+                var dialog = s.Codes.Count(c => c is OpCodes.DialogCode);
+                //Console.WriteLine($"{dialog,5}");
+            }
+
         }
     }
 }

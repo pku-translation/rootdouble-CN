@@ -19,15 +19,15 @@ namespace CSYetiTools
 
         public int Int3 { get; set; }
 
-        public int Int4 { get; set; }
+        public int ScriptIndex { get; set; }
 
         public byte[] ToBytes()
         {
             var result = new byte[16];
-            BitConverter.TryWriteBytes(result[0..3], Int1);
-            BitConverter.TryWriteBytes(result[4..7], Int2);
-            BitConverter.TryWriteBytes(result[8..11], Int3);
-            BitConverter.TryWriteBytes(result[12..15], Int4);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 0, 4), Int1);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 4, 4), Int2);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 8, 4), Int3);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 12, 4), ScriptIndex);
             return result;
         }
 
@@ -37,20 +37,8 @@ namespace CSYetiTools
                 Int1 = reader.ReadInt32(),
                 Int2 = reader.ReadInt32(),
                 Int3 = reader.ReadInt32(),
-                Int4 = reader.ReadInt32(),
+                ScriptIndex = reader.ReadInt32(),
             };
-        }
-
-        public static CodeScriptFooter[] ReadAllFrom(BinaryReader reader)
-        {
-            var footers = new List<CodeScriptFooter>();
-            while (true)
-            {
-                var footer = ReadFrom(reader);
-                footers.Add(footer);
-                if (footer.Int1 == -1) break;
-            }
-            return footers.ToArray();
         }
 
         public void WriteTo(BinaryWriter writer)
@@ -58,20 +46,23 @@ namespace CSYetiTools
             writer.Write(Int1);
             writer.Write(Int2);
             writer.Write(Int3);
-            writer.Write(Int4);
+            writer.Write(ScriptIndex);
         }
-
-        public static void WriteAllTo(IEnumerable<CodeScriptFooter> footers, BinaryWriter writer)
-        {
-            foreach (var footer in footers)
-            {
-                footer.WriteTo(writer);
-            }
-        }
-
+        
         public override string ToString()
         {
-            return $"{Int1,4} {Int2,4} {Int3,4} {Int4,4}";
+            return $"{Int1,6} {Int2,6} {Int3,6} {ScriptIndex,6}";
+        }
+
+        public CodeScriptFooter Clone()
+        {
+            return new CodeScriptFooter
+            {
+                Int1 = Int1,
+                Int2 = Int2,
+                Int3 = Int3,
+                ScriptIndex = ScriptIndex,
+            };
         }
 
     }

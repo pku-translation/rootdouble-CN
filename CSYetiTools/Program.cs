@@ -92,19 +92,6 @@ namespace CSYetiTools
             public bool IsDumpScript { get; set; }
         }
 
-        [Verb("decode-script", HelpText = "Decode script file")]
-        class DecodeScriptOptions
-        {
-            [Option("input")]
-            public string Input { get; set; } = "";
-
-            [Option("output", Default = "")]
-            public string Output { get; set; } = "";
-
-            [Option("steam", Default = false)]
-            public bool IsSteam { get; set; }
-        }
-
         [Verb("replace-string-list", HelpText = "Replace string list of steam version")]
         class ReplaceStringListOptions
         {
@@ -169,7 +156,6 @@ namespace CSYetiTools
                 TestBedOptions,
                 EncodeSnOptions,
                 DecodeSnOptions,
-                DecodeScriptOptions,
                 GenStringCompareOptions,
                 GenCodeCompareOptions,
                 ReplaceStringListOptions,
@@ -179,7 +165,6 @@ namespace CSYetiTools
                 (TestBedOptions o) => Task.Run(() => TestBed(o)),
                 (EncodeSnOptions o) => Task.Run(() => EncodeSn(o)),
                 (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
-                (DecodeScriptOptions o) => Task.Run(() => DecodeScript(o)),
                 (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
                 (GenCodeCompareOptions o) => Task.Run(() => GenCodeCompare(o)),
                 (ReplaceStringListOptions o) => Task.Run(() => ReplaceStringList(o)),
@@ -231,13 +216,6 @@ namespace CSYetiTools
             var package = new SnPackage(input, options.IsSteam);
 
             package.Dump(outputDir, Path.GetFileNameWithoutExtension(input), options.IsDumpBinary, options.IsDumpScript);
-        }
-
-        private static void DecodeScript(DecodeScriptOptions options)
-        {
-            var script = new CodeScript(File.ReadAllBytes(options.Input), options.IsSteam);
-            if (script.ParserError != null) Console.WriteLine(script.ParserError);
-            script.DumpText(options.Output);
         }
 
         private static void GenStringCompare(GenStringCompareOptions options)

@@ -13,16 +13,88 @@ namespace CSYetiTools
 {
     public sealed class SnPackage
     {
+        private class FootersChunk
+        {
+            private CodeScriptFooter[] _footers;
+
+            public CodeScriptFooter this[int index]
+            {
+                get => _footers[index];
+            }
+
+            public FootersChunk(byte[] source)
+            {
+                using var ms = new MemoryStream(source);
+                using var reader = new BinaryReader(ms);
+                var footers = new List<CodeScriptFooter>();
+                while (true)
+                {
+                    var footer = CodeScriptFooter.ReadFrom(reader);
+                    footers.Add(footer);
+                    if (footer.Int1 == -1) break;
+                }
+                if (footers.Count < 2) {
+                    throw new InvalidDataException($"Footer chunk length({footers.Count}) < 2");
+                }
+                
+                var checkFooter = footers[^2];
+                var accFooter = new CodeScriptFooter();
+                for (int i = 0; i < footers.Count - 2; ++i)
+                {
+                    var f = footers[i];
+                    accFooter.Int1 += f.Int1;
+                    accFooter.Int2 += f.Int2;
+                    accFooter.Int3 += f.Int3;
+                    accFooter.ScriptIndex += f.ScriptIndex;
+                }
+                if (!accFooter.ToBytes().SequenceEqual(checkFooter.ToBytes()))
+                {
+                    throw new InvalidDataException($"Footer sum check failed: [{accFooter}] != [{checkFooter}]");
+                }
+
+                _footers = footers.ToArray();
+            }
+
+            public byte[] ToBytes()
+            {
+                using var ms = new MemoryStream();
+                using (var writer = new BinaryWriter(ms))
+                {
+                    foreach (var footer in _footers)
+                    {
+                        footer.WriteTo(writer);
+                    }
+                }
+                return ms.ToArray();
+            }
+
+            public void Dump(TextWriter writer)
+            {
+                foreach (var footer in _footers)
+                {
+                    writer.WriteLine(footer);
+                }
+            }
+        }
+
+
         #region Members
 
-        private List<CodeScript> _codeScripts = new List<CodeScript>();
+        private CodeScript[] _codeScripts;
 
-        private CodeScriptFooter[] _footers = Array.Empty<CodeScriptFooter>();
+        private FootersChunk _footers;
 
         #endregion
 
-        private void FromStream(Stream stream, bool isSteam)
+        private SnPackage(CodeScript[] scripts, FootersChunk footers)
         {
+            _codeScripts = scripts;
+            _footers = footers;
+        }
+
+        public SnPackage(string filename, bool isSteam)
+        {
+            using var stream = File.OpenRead(filename);
             Span<byte> header = stackalloc byte[4];
             stream.Read(header);
             var decodedSize = BitConverter.ToInt32(header);
@@ -46,46 +118,21 @@ namespace CSYetiTools
                     Array.Copy(bytes, chunkOffset, chunk, 0, chunkSize);
                     chunks.Add(chunk);
                 }
-                _codeScripts = new List<CodeScript>();
+
+                _footers = new FootersChunk(chunks.Last());
+
+                var codeScripts = new List<CodeScript>();
                 for (int i = 0; i < chunks.Count - 1; ++i)
                 {
-                    _codeScripts.Add(new CodeScript(chunks[i], isSteam));
+                    codeScripts.Add(new CodeScript(chunks[i], _footers[i], isSteam));
                 }
+                _codeScripts = codeScripts.ToArray();
 
-                using (var ms = new MemoryStream(chunks.Last()))
-                {
-                    using var br = new BinaryReader(ms);
-                    var footers = new List<CodeScriptFooter>();
-                    while (true)
-                    {
-                        var footer = CodeScriptFooter.ReadFrom(br);
-                        footers.Add(footer);
-                        if (footer.Int1 == -1) break;
-                    }
-
-                    _footers = footers.ToArray();
-                }
             }
             catch (IndexOutOfRangeException)
             {
                 throw new ArgumentException("Incomplete file");
             }
-        }
-
-        private SnPackage()
-        {
-
-        }
-
-        public SnPackage(string filename, bool isSteam)
-        {
-            using var stream = File.OpenRead(filename);
-            FromStream(stream, isSteam);
-        }
-
-        public SnPackage(Stream stream, bool isSteam)
-        {
-            FromStream(stream, isSteam);
         }
 
         public static SnPackage CreateFrom(string dirPath, bool isSteam)
@@ -94,17 +141,14 @@ namespace CSYetiTools
 
             var footersPath = Path.Combine(dirPath, "footers");
             if (!File.Exists(footersPath)) throw new ArgumentException("File footers not exists!");
+            var footers = new FootersChunk(File.ReadAllBytes(footersPath));
 
-            using var br = new BinaryReader(File.OpenRead(footersPath), Encoding.Default, leaveOpen: false);
-
-            return new SnPackage
-            {
-                _footers = CodeScriptFooter.ReadAllFrom(br),
-                _codeScripts = Directory.GetFiles(dirPath, "*.codescript")
-                    .OrderBy(o => o)
-                    .Select(file => new CodeScript(File.ReadAllBytes(file), isSteam))
-                    .ToList()
-            };
+            var scripts = Directory.GetFiles(dirPath, "*.codescript")
+                .OrderBy(o => o)
+                .Select((file, i) => new CodeScript(File.ReadAllBytes(file), footers[i], isSteam))
+                .ToArray();
+            
+            return new SnPackage(scripts, footers);
         }
 
         public void Dump(string dirPath, string postfix, bool isDumpBinary, bool isDumpScript)
@@ -117,6 +161,7 @@ namespace CSYetiTools
                 {
                     File.WriteAllBytes(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript"), script.GetRawBytes());
                 }
+                File.WriteAllBytes(Path.Combine(dirPath, $"footers_{postfix}"), _footers.ToBytes());
             }
 
             if (isDumpScript)
@@ -136,10 +181,7 @@ namespace CSYetiTools
 
             using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers_{postfix}.txt")))
             {
-                foreach (var footer in _footers)
-                {
-                    writer.WriteLine(footer);
-                }
+                _footers.Dump(writer);
             }
         }
 
@@ -245,12 +287,12 @@ namespace CSYetiTools
         }
 
         public IReadOnlyList<CodeScript> Scripts
-            => _codeScripts.AsReadOnly();
+            => Array.AsReadOnly(_codeScripts);
 
         public byte[] GetRawBytes()
         {
-            var lengths = new int[_codeScripts.Count + 1];
-            var chunks = new byte[_codeScripts.Count + 1][];
+            var lengths = new int[_codeScripts.Length + 1];
+            var chunks = new byte[_codeScripts.Length + 1][];
 
             Parallel.ForEach(_codeScripts.WithIndex(), entry =>
             {
@@ -260,21 +302,13 @@ namespace CSYetiTools
                 lengths[i] = rawBytes.Length;
             });
 
-            using (var ms = new MemoryStream())
-            {
-                using (var bw = new BinaryWriter(ms))
-                {
-                    CodeScriptFooter.WriteAllTo(_footers, bw);
-                }
-                var footersChunk = ms.ToArray();
-
-                lengths[_codeScripts.Count] = footersChunk.Length;
-                chunks[_codeScripts.Count] = footersChunk;
-            }
+            var footersChunk = _footers.ToBytes();
+            lengths[_codeScripts.Length] = footersChunk.Length;
+            chunks[_codeScripts.Length] = footersChunk;
 
             using (var ms = new MemoryStream())
             {
-                var offset = 16 * (_codeScripts.Count + 1); // (offset, size, 0, 0) for each chunk
+                var offset = 16 * (_codeScripts.Length + 1); // (offset, size, 0, 0) for each chunk
                 foreach (var length in lengths)
                 {
                     ms.Write(BitConverter.GetBytes(offset));

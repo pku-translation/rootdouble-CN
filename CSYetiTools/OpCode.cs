@@ -80,12 +80,12 @@ namespace CSYetiTools
 
     public abstract class OpCode
     {
-        public static readonly byte EndBlock = 0x05;
-
         private static OpCode CreateOpCode(byte op)
         {
             return op switch
             {
+                0x00 => new ZeroCode(),  // empty block
+
                 0x01 => new AddressCode(op),            // seems jump to address
                 0x02 => new FixedLengthCode(op, 5),     // seems script jump
                 0x03 => new AddressCode(op),            // seems jump to address
@@ -254,34 +254,13 @@ namespace CSYetiTools
             return string.Join(Environment.NewLine, Utils.BytesToTextLines(buffer.Take(read).ToArray(), offset));
         }
 
-        public static OpCode GetNextCode(BinaryReader reader, IReadOnlyList<OpCode> prevCodes, bool isSteam)
+        public static OpCode GetNextCode(BinaryReader reader, IReadOnlyList<OpCode> prevCodes, bool isStringPooled)
         {
             var offset = (int)reader.BaseStream.Position;
             if (reader.BaseStream.Position == reader.BaseStream.Length) throw new OpCodeParseException("Stream is empty", "");
 
             var op = reader.ReadByte();
-            if (op == 0x00)
-            {
-                var opCode = new ZeroCode();
-                opCode._offset = offset;
-                opCode._index = prevCodes.Count;
 
-                // if it's in 0C/0D scope, tailing zero is allowed?
-                // assume there is no long-ranged scope?
-                foreach (var code in prevCodes.Reverse())
-                {
-                    if (code is OpCode_0C_0D scopeCode && scopeCode.TargetOffset >= reader.BaseStream.Position)
-                    {
-                        return opCode;
-                    }
-                }
-
-                // else throw exception
-                reader.BaseStream.Seek(offset, SeekOrigin.Begin);
-                var context = GetContext(reader.BaseStream);
-                reader.BaseStream.Seek(offset, SeekOrigin.Begin);
-                throw new ZeroCodeException(opCode, "Code is zero", context);
-            }
             try
             {
                 var opCode = CreateOpCode(op);
@@ -300,7 +279,7 @@ namespace CSYetiTools
                 }
                 else if (opCode is StringCode strCode)
                 {
-                    strCode.IsOffset = isSteam;
+                    strCode.IsOffset = isStringPooled;
                 }
                 opCode.Read(reader);
 

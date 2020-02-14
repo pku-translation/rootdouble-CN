@@ -11,7 +11,7 @@ namespace CSYetiTools.OpCodes
 
         public string Content { get; set; } = "";
 
-        public int ContentOffset { get; set; }
+        public CodeAddressData ContentOffset { get; set; } = new CodeAddressData();
 
         public bool IsOffset { get; set; }
 
@@ -19,7 +19,7 @@ namespace CSYetiTools.OpCodes
         {
             if (IsOffset)
             {
-                ContentOffset = reader.ReadInt32();
+                ContentOffset = new CodeAddressData(_offset, reader.ReadInt32());
             }
             else
             {
