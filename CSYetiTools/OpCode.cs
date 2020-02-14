@@ -9,6 +9,18 @@ namespace CSYetiTools
 {
     public class CodeAddressData
     {
+        /*
+            seems if-else: 
+
+            756 | [0A] CE 80 07 00 ${code 760}
+            757 | [0C] 15 80 ${code 759}
+            758 | [89] 2 1 [ 0 0 1 0 0 0 0 0 0]
+            759 | [01] ${code 762}
+            760 | [0C] 15 80 ${code 762}
+            761 | [89] 3 0 [ 0 0 0 0 0 0 0 0 0]
+            762 | ...
+        */
+
         public CodeAddressData(int baseOffset = default, int absoluteOffset = default)
         {
             BaseOffset = baseOffset;
@@ -30,8 +42,9 @@ namespace CSYetiTools
         {
             if (TargetCodeRelativeIndex != null)
             {
-                if (TargetCodeRelativeIndex >= 0) return $"${{code +{TargetCodeRelativeIndex}}}";
-                else return $"${{code {TargetCodeRelativeIndex}}}";
+                return $"$0x{AbsoluteOffset:X8}:{{code {TargetCodeIndex}}}";
+                //if (TargetCodeRelativeIndex >= 0) return $"$0x{AbsoluteOffset:X8}{{code +{TargetCodeRelativeIndex}}}";
+                //else return $"$0x{AbsoluteOffset:X8}{{code {TargetCodeRelativeIndex}}}";
             }
             return $"$0x{AbsoluteOffset:X8}";
             // if (RelativeOffset >= 0)
@@ -73,39 +86,44 @@ namespace CSYetiTools
         {
             return op switch
             {
-                0x01 => new AddressCode(op),   // seems jump to address
-                0x03 => new AddressCode(op),   // seems jump to address
-                0x05 => new OpCode_05(),
-                0x06 => new PrefixedAddressCode(op, 4),
+                0x01 => new AddressCode(op),            // seems jump to address
+                0x02 => new FixedLengthCode(op, 5),     // seems script jump
+                0x03 => new AddressCode(op),            // seems jump to address
+                0x04 => new FixedLengthCode(op, 5),     // seems script jump or else?
+                0x05 => new OpCode_05(),                // seems return? end-block?
+                0x06 => new PrefixedAddressCode(op, 4), // seems invoke
                 0x07 => new PrefixedAddressCode(op, 4),
                 0x08 => new PrefixedAddressCode(op, 4),
                 0x09 => new PrefixedAddressCode(op, 4),
                 0x0A => new PrefixedAddressCode(op, 4),
                 0x0B => new PrefixedAddressCode(op, 4),
-                0x0C => new OpCode_0C_0D(op),  // seems scope with sub codes
-                0x0D => new OpCode_0C_0D(op),  // seems scope with sub codes
 
-                0x0E => new OpCode_0E(),       // seems scoped by 0C/0D when count == 0x80CB
+                0x0C => new OpCode_0C_0D(op),           // seems scope with sub codes
+                0x0D => new OpCode_0C_0D(op),           // seems scope with sub codes
 
-                0x31 => new OpCode_31_32(op),  // choice
-                0x32 => new OpCode_31_32(op),  // switch
+                0x0E => new OpCode_0E(),                // seems scoped by 0C/0D when count == 0x80CB
+                                                        // all scopes are: [0D] 15 80 0x${code +2} and [0C] 5B 80 0x${code +2}
+                                                        // and [0E]s are always [0E] 80 80 CB 80
 
-                0x44 => new OpCode_44(),
-                0x45 => new DialogCode(),      // dialog
-                0x47 => new CharacterCode(),   // character name
+                0x32 => new DebugMenuCode(op),          // debug menu?
 
-                0x55 => new OpCode_55(),       // title
+                0x44 => new OpCode_44(),            
+                0x45 => new DialogCode(),               // dialog
+                0x47 => new CharacterCode(),            // character name
 
-                0x68 => new TestCode68(),
+                0x55 => new OpCode_55(),                // title
+
+                //0x68 => new TestCode68(),
 
                 0x85 => new DynamicLengthStringCode(op), // directive message?
-                0x86 => new NovelCode(),       // novel
-                0x87 => new OpCode_87(),       // SSS?
+                0x86 => new NovelCode(),             // novel
+
+                0x87 => new SssInputCode(),          // センシズ受付開始？
+                0x88 => new FixedLengthCode(op, 3),  // センシズ受付終了？
+                0x89 => new SssFlagCode(),           // センシズフラッグ？
 
                 _ => new FixedLengthCode(op, op switch
                 {
-                    0x02 => 5,
-                    0x04 => 5,
 
                     0x0F => 9, // not found
 
@@ -206,9 +224,6 @@ namespace CSYetiTools
                     0x82 => 3,
                     0x83 => 5,
 
-                    0x88 => 3, // ?
-                    0x89 => 23, // ?
-
                     0x8A => 3,
                     0x8B => 5,
                     0x8C => 5,
@@ -247,14 +262,16 @@ namespace CSYetiTools
             var op = reader.ReadByte();
             if (op == 0x00)
             {
+                var opCode = new ZeroCode();
+                opCode._offset = offset;
+                opCode._index = prevCodes.Count;
+
                 // if it's in 0C/0D scope, tailing zero is allowed?
                 // assume there is no long-ranged scope?
                 foreach (var code in prevCodes.Reverse())
                 {
                     if (code is OpCode_0C_0D scopeCode && scopeCode.TargetOffset >= reader.BaseStream.Position)
                     {
-                        var opCode = new ZeroCode();
-                        opCode.Read(reader);
                         return opCode;
                     }
                 }
@@ -263,7 +280,7 @@ namespace CSYetiTools
                 reader.BaseStream.Seek(offset, SeekOrigin.Begin);
                 var context = GetContext(reader.BaseStream);
                 reader.BaseStream.Seek(offset, SeekOrigin.Begin);
-                throw new ZeroCodeException("Code is zero", context);
+                throw new ZeroCodeException(opCode, "Code is zero", context);
             }
             try
             {

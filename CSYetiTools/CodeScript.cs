@@ -50,11 +50,7 @@ namespace CSYetiTools
             if (errorBuilder.Length != 0) ParserError = errorBuilder.ToString();
 
 #if DEBUG
-            var rawBytes = GetRawBytes();
-            if (!rawBytes.SequenceEqual(bytes))
-            {
-                throw new InvalidOperationException("Rawbytes not sequence-equal to original.");
-            }
+            System.Diagnostics.Debug.Assert(GetRawBytes().SequenceEqual(bytes), "Rawbytes not sequence-equal to original.");
 #endif
         }
 
@@ -80,11 +76,11 @@ namespace CSYetiTools
                             break;
                         }
                     }
-                    catch (ZeroCodeException)
+                    catch (ZeroCodeException exc)
                     {
                         if (reader.BaseStream.Length - reader.BaseStream.Position >= 40) throw;
+                        _codes.Add(exc.Code);
                         reader.BaseStream.Seek(1, SeekOrigin.Current);
-                        _codes.Add(new OpCodes.ZeroCode());
                         break;
                     }
                 }
@@ -165,12 +161,12 @@ namespace CSYetiTools
                             break;
                         }
                     }
-                    catch (ZeroCodeException)
+                    catch (ZeroCodeException exc)
                     {
                         if (stringTableStart - reader.BaseStream.Position < 4 || reader.BaseStream.Length - reader.BaseStream.Position < 40)
                         {
+                            _codes.Add(exc.Code);
                             reader.BaseStream.Seek(1, SeekOrigin.Current);
-                            _codes.Add(new OpCodes.ZeroCode());
                             break;
                         }
                         throw;
@@ -389,10 +385,6 @@ namespace CSYetiTools
                     _ => throw new ArgumentException($"Invalid key {key} for code dump"),
                 }));
                 //writer.WriteLine($"{i,4} | 0x{code.Offset:X08}: {code}");
-                if (code.Code == OpCode.EndBlock)
-                {
-                    writer.WriteLine("-----------------------------------------------------");
-                }
             }
             writer.WriteLine();
 

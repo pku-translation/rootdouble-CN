@@ -27,7 +27,7 @@ namespace CSYetiTools.OpCodes
         }
 
         protected override string ArgsToString()
-            => Utils.BytesToHex(GetBytes(_unknown1)) + " 0x" + _targetOffset.ToString();
+            => Utils.BytesToHex(GetBytes(_unknown1)) + " " + _targetOffset.ToString();
 
         protected override void Read(BinaryReader reader)
         {

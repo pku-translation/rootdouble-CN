@@ -19,10 +19,13 @@ namespace CSYetiTools
         class TestBedOptions
         {
             [Option("input", Default = null)]
-            public string Input { get; set; } = "";
+            public string? Input { get; set; }
 
             [Option("input-steam", Default = null)]
-            public string InputSteam { get; set; } = "";
+            public string? InputSteam { get; set; }
+
+            [Option("text-output", Default = null)]
+            public string? TextOutputPath { get; set; }
         }
 
         [Verb("gen-string-compare", HelpText = "Generate string compare file")]
@@ -118,7 +121,7 @@ namespace CSYetiTools
             public string Output { get; set; } = "";
 
             [Option("dump-result-text-path", Default = null)]
-            public string DumpResultTextPath { get; set; } = "";
+            public string? DumpResultTextPath { get; set; }
         }
 
         [Verb("dump-trans-source", HelpText = "DumpTranslateSource")]
@@ -211,7 +214,7 @@ namespace CSYetiTools
                 stopwatch.Stop();
                 Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
             }
-            new TestBed(package, packageSteam).Run();
+            new TestBed(package, packageSteam, options.TextOutputPath).Run();
         }
 
         private static void EncodeSn(EncodeSnOptions options)
@@ -222,10 +225,12 @@ namespace CSYetiTools
 
         private static void DecodeSn(DecodeSnOptions options)
         {
-            Console.WriteLine($"Decoding {options.Input} --> {options.OutputDir} ...");
-            var package = new SnPackage(options.Input, options.IsSteam);
+            var input = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.Input);
+            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
+            Console.WriteLine($"Decoding {input} --> {outputDir} ...");
+            var package = new SnPackage(input, options.IsSteam);
 
-            package.Dump(options.OutputDir, Path.GetFileNameWithoutExtension(options.Input), options.IsDumpBinary, options.IsDumpScript);
+            package.Dump(outputDir, Path.GetFileNameWithoutExtension(input), options.IsDumpBinary, options.IsDumpScript);
         }
 
         private static void DecodeScript(DecodeScriptOptions options)
@@ -237,7 +242,8 @@ namespace CSYetiTools
 
         private static void GenStringCompare(GenStringCompareOptions options)
         {
-            Console.WriteLine($"Gen string compare --> {options.OutputDir}");
+            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
+            Console.WriteLine($"Gen string compare --> {outputDir}");
 
             void DumpText(string path, IEnumerable<CodeScript.StringReferenceEntry> entries)
             {
@@ -254,7 +260,7 @@ namespace CSYetiTools
 
             var modifierTable = StringListModifier.Load(options.ModifierFile);
 
-            var dumpDir = new DirectoryInfo(options.OutputDir);
+            var dumpDir = new DirectoryInfo(outputDir);
             if (dumpDir.Exists)
             {
                 foreach (var file in dumpDir.EnumerateFiles()) file.Delete();
@@ -263,7 +269,7 @@ namespace CSYetiTools
             {
                 dumpDir.Create();
             }
-            using var writer = new StreamWriter(Path.Combine(options.OutputDir, "compare-result.txt"));
+            using var writer = new StreamWriter(Path.Combine(outputDir, "compare-result.txt"));
             int n = 0;
             foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
             {
@@ -294,20 +300,21 @@ namespace CSYetiTools
                     ++n;
                     writer.WriteLine("========================================================");
                 }
-                DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_ref.txt"), c1s);
-                DumpText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_steam.txt"), c2s);
+                DumpText(Path.Combine(outputDir, $"chunk_{i:0000}_ref.txt"), c1s);
+                DumpText(Path.Combine(outputDir, $"chunk_{i:0000}_steam.txt"), c2s);
             }
             writer.WriteLine($"{n} different files");
         }
 
         private static void GenCodeCompare(GenCodeCompareOptions options)
         {
-            Console.WriteLine($"Gen code compare --> {options.OutputDir}");
+            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
+            Console.WriteLine($"Gen code compare --> {outputDir}");
 
             var package = new SnPackage(options.Input, isSteam: false);
             var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
 
-            var dumpDir = new DirectoryInfo(options.OutputDir);
+            var dumpDir = new DirectoryInfo(outputDir);
             if (dumpDir.Exists)
             {
                 foreach (var file in dumpDir.EnumerateFiles()) file.Delete();
@@ -320,15 +327,17 @@ namespace CSYetiTools
             {
                 var writer1 = new StringWriter();
                 var writer2 = new StringWriter();
-                s1.DumpText(writer1, "{nostrcode}", footer: false);
-                s2.DumpText(writer2, "{nostrcode}", footer: false);
+                //s1.DumpText(writer1, "{nostrcode}", footer: false);
+                //s2.DumpText(writer2, "{nostrcode}", footer: false);
+                s1.DumpText(writer1, "{code}", footer: false);
+                s2.DumpText(writer2, "{code}", footer: false);
 
                 var str1 = writer1.ToString();
                 var str2 = writer2.ToString();
                 if (str1 != str2)
                 {
-                    File.WriteAllText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_ref.txt"), str1, Encoding.UTF8);
-                    File.WriteAllText(Path.Combine(options.OutputDir, $"chunk_{i:0000}_code_steam.txt"), str2, Encoding.UTF8);
+                    File.WriteAllText(Path.Combine(outputDir, $"chunk_{i:0000}_code_ref.txt"), str1, Encoding.UTF8);
+                    File.WriteAllText(Path.Combine(outputDir, $"chunk_{i:0000}_code_steam.txt"), str2, Encoding.UTF8);
                 }
             }
         }

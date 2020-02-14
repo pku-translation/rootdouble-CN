@@ -5,7 +5,7 @@ using System.Linq;
 namespace CSYetiTools.OpCodes
 {
     // 0x00 when allowed (confusing :( )
-    public class ZeroCode : OpCode
+    public sealed class ZeroCode : OpCode
     {
         public ZeroCode() : base(0x00) { }
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CSYetiTools.OpCodes
 {
-    public class OpCode_31_32 : OpCode, IHasAddress
+    public class DebugMenuCode : OpCode, IHasAddress
     {
         private class Choice
         {
@@ -21,14 +21,13 @@ namespace CSYetiTools.OpCodes
                 => PrefixLength + 4 + Utils.GetStringZByteCount(Title);
         }
 
-        
         private short _arg1;
 
         private short _arg2;
 
         private Choice[] _choices = System.Array.Empty<Choice>();
 
-        public OpCode_31_32(byte code) : base(code) { }
+        public DebugMenuCode(byte code) : base(code) { }
 
         public override int ArgLength
             => 2 + 1 + 2 + _choices.Sum(c => c.Length);

@@ -2,7 +2,11 @@ namespace CSYetiTools
 {
     public class ZeroCodeException : OpCodeParseException
     {
-        public ZeroCodeException(string message, string context) : base(message, context)
-        {}
+        public OpCodes.ZeroCode Code { get; }
+
+        public ZeroCodeException(OpCodes.ZeroCode code, string message, string context) : base(message, context)
+        {
+            Code = code;
+        }
     }
 }
