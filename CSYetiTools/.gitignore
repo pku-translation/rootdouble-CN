@@ -31,15 +31,5 @@ msbuild.wrn
 bin/
 obj/
 
-# data
-
-data/*
-!data/sn_en_steam.bin
-!data/sn_jp_psv.bin
-!data/string_compare
-
 # Visual Studio
 .vs/
-
-# Transifex
-tx_token

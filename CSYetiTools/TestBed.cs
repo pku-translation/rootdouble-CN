@@ -23,12 +23,12 @@ namespace CSYetiTools
 
         public void Run()
         {
-            using var writer = new StreamWriter(textOutputPath!, false, Encoding.UTF8);
+            // using var writer = new StreamWriter(textOutputPath!, false, Encoding.UTF8);
 
-            foreach (var s in package!.Scripts)
-            {
-                writer.WriteLine(Utils.BytesToHex(s.Footer));
-            }
+            // foreach (var s in package!.Scripts)
+            // {
+            //     writer.WriteLine(Utils.BytesToHex(s.Footer));
+            // }
         }
     }
 }

@@ -1,1 +1,12 @@
 /.vscode
+
+# data
+
+data/*
+!data/sn_en_steam.bin
+!data/sn_jp_psv.bin
+!data/string_compare
+
+
+# Transifex
+tx_token

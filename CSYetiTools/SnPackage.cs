@@ -17,7 +17,7 @@ namespace CSYetiTools
 
         private List<CodeScript> _codeScripts = new List<CodeScript>();
 
-        private byte[] _lastChunk = Array.Empty<byte>();
+        private CodeScriptFooter[] _footers = Array.Empty<CodeScriptFooter>();
 
         #endregion
 
@@ -51,7 +51,20 @@ namespace CSYetiTools
                 {
                     _codeScripts.Add(new CodeScript(chunks[i], isSteam));
                 }
-                _lastChunk = chunks.Last();
+
+                using (var ms = new MemoryStream(chunks.Last()))
+                {
+                    using var br = new BinaryReader(ms);
+                    var footers = new List<CodeScriptFooter>();
+                    while (true)
+                    {
+                        var footer = CodeScriptFooter.ReadFrom(br);
+                        footers.Add(footer);
+                        if (footer.Int1 == -1) break;
+                    }
+
+                    _footers = footers.ToArray();
+                }
             }
             catch (IndexOutOfRangeException)
             {
@@ -79,12 +92,14 @@ namespace CSYetiTools
         {
             if (!Directory.Exists(dirPath)) throw new ArgumentException($"Directory {dirPath} not exists!");
 
-            var lastChunkFile = Path.Combine(dirPath, "last_chunk");
-            if (!File.Exists(Path.Combine(dirPath, "last_chunk"))) throw new ArgumentException("File last_chunk not exists!");
+            var footersPath = Path.Combine(dirPath, "footers");
+            if (!File.Exists(footersPath)) throw new ArgumentException("File footers not exists!");
+
+            using var br = new BinaryReader(File.OpenRead(footersPath), Encoding.Default, leaveOpen: false);
 
             return new SnPackage
             {
-                _lastChunk = File.ReadAllBytes(lastChunkFile),
+                _footers = CodeScriptFooter.ReadAllFrom(br),
                 _codeScripts = Directory.GetFiles(dirPath, "*.codescript")
                     .OrderBy(o => o)
                     .Select(file => new CodeScript(File.ReadAllBytes(file), isSteam))
@@ -119,7 +134,13 @@ namespace CSYetiTools
                 });
             }
 
-            File.WriteAllBytes(Path.Combine(dirPath, $"last_chunk_{postfix}"), _lastChunk);
+            using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers_{postfix}.txt")))
+            {
+                foreach (var footer in _footers)
+                {
+                    writer.WriteLine(footer);
+                }
+            }
         }
 
         public void DumpTranslateSource(string dirPath)
@@ -146,22 +167,24 @@ namespace CSYetiTools
                     }
                     else if (code is OpCodes.DialogCode)
                     {
-                        var content = new {
-                                context = index,
-                                code = $"0x{code.Code:X2}",
-                                developer_comment = currentName ?? "",
-                                @string = code.Content
-                            };
+                        var content = new
+                        {
+                            context = index,
+                            code = $"0x{code.Code:X2}",
+                            developer_comment = currentName ?? "",
+                            @string = code.Content
+                        };
                         currentName = null;
                         contents.Add(index, JObject.FromObject(content));
                     }
                     else
                     {
-                        var content = new {
-                                context = index,
-                                code = $"0x{code.Code:X2}",
-                                @string = code.Content
-                            };
+                        var content = new
+                        {
+                            context = index,
+                            code = $"0x{code.Code:X2}",
+                            @string = code.Content
+                        };
                         contents.Add(index, JObject.FromObject(content));
                     }
                 }
@@ -236,8 +259,18 @@ namespace CSYetiTools
                 chunks[i] = rawBytes;
                 lengths[i] = rawBytes.Length;
             });
-            lengths[_codeScripts.Count] = _lastChunk.Length;
-            chunks[_codeScripts.Count] = _lastChunk;
+
+            using (var ms = new MemoryStream())
+            {
+                using (var bw = new BinaryWriter(ms))
+                {
+                    CodeScriptFooter.WriteAllTo(_footers, bw);
+                }
+                var footersChunk = ms.ToArray();
+
+                lengths[_codeScripts.Count] = footersChunk.Length;
+                chunks[_codeScripts.Count] = footersChunk;
+            }
 
             using (var ms = new MemoryStream())
             {
