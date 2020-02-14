@@ -24,6 +24,12 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "000404": {
+    "context": "000404",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――全ては、この施設の中で起きた出来事だった――"
+  },
   "000452": {
     "context": "000452",
     "code": "0x45",
@@ -47,6 +53,12 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "000555": {
+    "context": "000555",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――９年前、幼い彼が、彼女を必死で救おうとした事も――"
+  },
   "000657": {
     "context": "000657",
     "code": "0x45",
@@ -57,6 +69,12 @@
     "context": "000695",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "000699": {
+    "context": "000699",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――彼女の幻影と、別離の時を迎えた事も。"
   },
   "000783": {
     "context": "000783",
@@ -69,10 +87,22 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "000825": {
+    "context": "000825",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そしてずっと彼を支えてくれた幼馴染と、心を通わせ――"
+  },
   "000928": {
     "context": "000928",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "000932": {
+    "context": "000932",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "彼女を救うため、命を賭して戦った事も。"
   },
   "001014": {
     "context": "001014",
@@ -91,15 +121,39 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "001067": {
+    "context": "001067",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そして彼は最後の力を振り絞って、悪意に満ちた男を倒し……"
+  },
   "001170": {
     "context": "001170",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "001174": {
+    "context": "001174",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "彼らの時は、一度止まった。"
+  },
   "001323": {
     "context": "001323",
     "code": "0x85",
     "string": "　%N　%N　%N"
+  },
+  "001327": {
+    "context": "001327",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――しかし、それから４８９６秒が経過した後――"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "時は、また動き出す。"
   },
   "001463": {
     "context": "001463",
@@ -136,6 +190,12 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "001602": {
+    "context": "001602",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――『レスキュー隊の隊長』という役目を背負い、彼は目覚め――"
+  },
   "001703": {
     "context": "001703",
     "code": "0x45",
@@ -153,20 +213,44 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "001756": {
+    "context": "001756",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "その役目を全うするため、身を呈して戦った。"
+  },
   "001859": {
     "context": "001859",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――だがその奮戦の甲斐もなく、幾つもの命が失われ――"
   },
   "001966": {
     "context": "001966",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "001970": {
+    "context": "001970",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そして救うべき仲間たちにまで、"
+  },
   "002073": {
     "context": "002073",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "彼は牙を剥かれた。"
   },
   "002161": {
     "context": "002161",
@@ -202,6 +286,18 @@
     "context": "002288",
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
+  },
+  "002292": {
+    "context": "002292",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ついには最も信頼する女にさえ、疑われてしまった。"
+  },
+  "002300": {
+    "context": "002300",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "確かに心が通ったはずだったのに。"
   },
   "002438": {
     "context": "002438",

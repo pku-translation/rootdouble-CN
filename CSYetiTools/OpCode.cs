@@ -109,13 +109,14 @@ namespace CSYetiTools
 
                 0x44 => new OpCode_44(),            
                 0x45 => new DialogCode(),               // dialog
-                0x47 => new CharacterCode(),            // character name
+                0x47 => new ExtraDialogCode(),            // character name
 
                 0x55 => new OpCode_55(),                // title
 
                 //0x68 => new TestCode68(),
 
                 0x85 => new DynamicLengthStringCode(op), // directive message?
+                                                         // [85] 0A 00 FF FF is message-box?
                 0x86 => new NovelCode(),             // novel
 
                 0x87 => new SssInputCode(),          // センシズ受付開始？

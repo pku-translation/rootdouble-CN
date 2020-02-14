@@ -755,20 +755,44 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "002404": {
+    "context": "002404",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被＊＊＊＊＊＊＊だ――"
+  },
   "002481": {
     "context": "002481",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "002485": {
+    "context": "002485",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被＊体＊＊は＊＊だ――"
   },
   "002562": {
     "context": "002562",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "002566": {
+    "context": "002566",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被験体＊＊は危＊だ――"
+  },
   "002643": {
     "context": "002643",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "002647": {
+    "context": "002647",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被験体たちは危険だ――"
   },
   "002747": {
     "context": "002747",

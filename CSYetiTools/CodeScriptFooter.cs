@@ -15,9 +15,9 @@ namespace CSYetiTools
     {
         public int Int1 { get; set; }
         
-        public int Int2 { get; set; }
+        public int Unknown { get; set; }
 
-        public int Int3 { get; set; }
+        public int FlagCodeCount { get; set; }
 
         public int ScriptIndex { get; set; }
 
@@ -25,8 +25,8 @@ namespace CSYetiTools
         {
             var result = new byte[16];
             BitConverter.TryWriteBytes(new Span<byte>(result, 0, 4), Int1);
-            BitConverter.TryWriteBytes(new Span<byte>(result, 4, 4), Int2);
-            BitConverter.TryWriteBytes(new Span<byte>(result, 8, 4), Int3);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 4, 4), Unknown);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 8, 4), FlagCodeCount);
             BitConverter.TryWriteBytes(new Span<byte>(result, 12, 4), ScriptIndex);
             return result;
         }
@@ -35,8 +35,8 @@ namespace CSYetiTools
         {
             return new CodeScriptFooter {
                 Int1 = reader.ReadInt32(),
-                Int2 = reader.ReadInt32(),
-                Int3 = reader.ReadInt32(),
+                Unknown = reader.ReadInt32(),
+                FlagCodeCount = reader.ReadInt32(),
                 ScriptIndex = reader.ReadInt32(),
             };
         }
@@ -44,14 +44,14 @@ namespace CSYetiTools
         public void WriteTo(BinaryWriter writer)
         {
             writer.Write(Int1);
-            writer.Write(Int2);
-            writer.Write(Int3);
+            writer.Write(Unknown);
+            writer.Write(FlagCodeCount);
             writer.Write(ScriptIndex);
         }
         
         public override string ToString()
         {
-            return $"{Int1,6} {Int2,6} {Int3,6} {ScriptIndex,6}";
+            return $"{Int1,6} {Unknown,6} {FlagCodeCount,6} {ScriptIndex,6}";
         }
 
         public CodeScriptFooter Clone()
@@ -59,8 +59,8 @@ namespace CSYetiTools
             return new CodeScriptFooter
             {
                 Int1 = Int1,
-                Int2 = Int2,
-                Int3 = Int3,
+                Unknown = Unknown,
+                FlagCodeCount = FlagCodeCount,
                 ScriptIndex = ScriptIndex,
             };
         }

@@ -5,7 +5,9 @@ namespace CSYetiTools.OpCodes
 {
     public class FixedLengthStringCode : StringCode
     {
-        private byte[] _extra = new byte[4];
+        public short Short1 { get; set; }
+
+        public short Short2 { get; set; }
 
         public FixedLengthStringCode(byte code) : base(code) { }
 
@@ -13,20 +15,21 @@ namespace CSYetiTools.OpCodes
             => 4 + ContentLength;
 
         public override byte[] ArgsToBytes()
-            => _extra.Concat(ContentToBytes()).ToArray();
+            => GetBytes(Short1).Concat(GetBytes(Short2)).Concat(ContentToBytes()).ToArray();
 
         protected override string ArgsToString()
             => ArgsToString(false);
 
         protected override string ArgsToString(bool noString)
         {
-            if (noString) return Utils.BytesToHex(_extra);
-            else return Utils.BytesToHex(_extra) + " " + ContentToString();
+            if (noString) return $"{Short1} {Short2}";
+            else return $"{Short1} {Short2}" + ContentToString();
         }
 
         protected override void Read(BinaryReader reader)
         {
-            reader.Read(_extra);
+            Short1 = reader.ReadInt16();
+            Short2 = reader.ReadInt16();
             ReadString(reader);
         }
     }

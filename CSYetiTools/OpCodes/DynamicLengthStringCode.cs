@@ -5,8 +5,8 @@ namespace CSYetiTools.OpCodes
 {
     public class DynamicLengthStringCode : StringCode
     {
-        private short _extra1;
-        private short _extra2;
+        public short Short1;
+        public short Short2;
 
         private int _extralength;
 
@@ -19,11 +19,11 @@ namespace CSYetiTools.OpCodes
         {
             if (_extralength == 4)
             {
-                return GetBytes(_extra1).Concat(GetBytes(_extra2)).Concat(ContentToBytes()).ToArray();
+                return GetBytes(Short1).Concat(GetBytes(Short2)).Concat(ContentToBytes()).ToArray();
             }
             else
             {
-                return GetBytes(_extra1).Concat(ContentToBytes()).ToArray();
+                return GetBytes(Short1).Concat(ContentToBytes()).ToArray();
             }
         }
 
@@ -38,31 +38,31 @@ namespace CSYetiTools.OpCodes
             {
                 if (_extralength == 4)
                 {
-                    return Utils.BytesToHex(GetBytes(_extra1)) + " " + Utils.BytesToHex(GetBytes(_extra2));
+                    return Utils.BytesToHex(GetBytes(Short1)) + " " + Utils.BytesToHex(GetBytes(Short2));
                 }
                 else
                 {
-                    return Utils.BytesToHex(GetBytes(_extra1));
+                    return Utils.BytesToHex(GetBytes(Short1));
                 }
             }
             else
             {
                 if (_extralength == 4)
                 {
-                    return Utils.BytesToHex(GetBytes(_extra1)) + " " + Utils.BytesToHex(GetBytes(_extra2)) + " " + ContentToString();
+                    return Utils.BytesToHex(GetBytes(Short1)) + " " + Utils.BytesToHex(GetBytes(Short2)) + " " + ContentToString();
                 }
                 else
                 {
-                    return Utils.BytesToHex(GetBytes(_extra1)) + " " + ContentToString();
+                    return Utils.BytesToHex(GetBytes(Short1)) + " " + ContentToString();
                 }
             }
         }
 
         protected override void Read(BinaryReader reader)
         {
-            _extra1 = reader.ReadInt16();
-            _extra2 = reader.ReadInt16();
-            if (_extra1 == -1 || _extra2 == -1)
+            Short1 = reader.ReadInt16();
+            Short2 = reader.ReadInt16();
+            if (Short1 == -1 || Short2 == -1)
             {
                 _extralength = 4;
             }

@@ -610,6 +610,24 @@
     "developer_comment": "",
     "string": "そう言いたかったが、声は出なかった。"
   },
+  "003406": {
+    "context": "003406",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――恐ろしい出来事など、２度と起きない。"
+  },
+  "003413": {
+    "context": "003413",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "日常はいつまでも平穏に続き、小さな異変さえも起こらない。"
+  },
+  "003420": {
+    "context": "003420",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ずっとそう思っていたのに――"
+  },
   "003473": {
     "context": "003473",
     "code": "0x45",
@@ -639,5 +657,41 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（どうして……いつの間に……？）"
+  },
+  "003772": {
+    "context": "003772",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――夏彦はまだ知らない。"
+  },
+  "003779": {
+    "context": "003779",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "その時計がいつ、どうして壊れたのかを。"
+  },
+  "003786": {
+    "context": "003786",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "時計が指し示している日付と時刻は――"
+  },
+  "003801": {
+    "context": "003801",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『９　月　１　６　日』"
+  },
+  "003809": {
+    "context": "003809",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『６　時　１　９　分』"
+  },
+  "003825": {
+    "context": "003825",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "夏彦の時計は、そのとき壊れたのだ。"
   }
 }

@@ -6,7 +6,7 @@ data/*
 !data/sn_en_steam.bin
 !data/sn_jp_psv.bin
 !data/string_compare
-
+!data/string_list_modifiers.sexpr
 
 # Transifex
 tx_token

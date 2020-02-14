@@ -466,6 +466,18 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
+  "001415": {
+    "context": "001415",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『９　月　１　６　日』"
+  },
+  "001423": {
+    "context": "001423",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『２　３　時　４　５　分』"
+  },
   "001514": {
     "context": "001514",
     "code": "0x45",
@@ -639,10 +651,46 @@
     "code": "0x85",
     "string": "　%N"
   },
+  "002382": {
+    "context": "002382",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――『鹿鳴市同時多発火災』――"
+  },
+  "002390": {
+    "context": "002390",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "この夜起きた出来事は、後にそう呼ばれた。"
+  },
+  "002397": {
+    "context": "002397",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "渡瀬は彼女の遺志を継ぎ、レスキュー隊になる事を決意した。"
+  },
+  "002406": {
+    "context": "002406",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "それが全ての始まりだった。"
+  },
+  "002414": {
+    "context": "002414",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "この街で１６年に渡り繰り広げられる物語は、"
+  },
+  "002419": {
+    "context": "002419",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "この夜、密かに幕を開けたのだ。"
+  },
   "002552": {
     "context": "002552",
     "code": "0x45",
-    "developer_comment": "この夜、密かに幕を開けたのだ。",
+    "developer_comment": "",
     "string": "――そしてその夜、別の場所で――"
   },
   "002557": {
@@ -686,10 +734,22 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
+  "002676": {
+    "context": "002676",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――だが、彼女はまだ知らない。"
+  },
+  "002684": {
+    "context": "002684",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "父の死の真相を。彼が何を護ろうとしたのかを。"
+  },
   "002867": {
     "context": "002867",
     "code": "0x45",
-    "developer_comment": "父の死の真相を。彼が何を護ろうとしたのかを。",
+    "developer_comment": "",
     "string": "それは１人のコミュニケーターだった。"
   },
   "002872": {
@@ -715,10 +775,34 @@
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
+  "002924": {
+    "context": "002924",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――そしてアリスは幽閉生活の中で、ある研究員と恋に落ち――"
+  },
+  "002932": {
+    "context": "002932",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "娘を宿した。"
+  },
+  "002941": {
+    "context": "002941",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そしてその娘を出産すると共に、"
+  },
+  "002946": {
+    "context": "002946",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "命を落としてしまったのだ……。"
+  },
   "003021": {
     "context": "003021",
     "code": "0x45",
-    "developer_comment": "命を落としてしまったのだ……。",
+    "developer_comment": "",
     "string": "娘は天川美夜子によって、『優衣』と名づけられた。"
   },
   "003026": {
@@ -732,10 +816,28 @@
     "code": "0x85",
     "string": "　%N　%N"
   },
+  "003111": {
+    "context": "003111",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それら一連の事件の全ては、鹿鳴市とラボによって隠蔽された。"
+  },
+  "003120": {
+    "context": "003120",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "真実は闇の中に消え、やがて忘れられていった。"
+  },
+  "003129": {
+    "context": "003129",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そうして時は過ぎ、それから７年後――"
+  },
   "003338": {
     "context": "003338",
     "code": "0x45",
-    "developer_comment": "そうして時は過ぎ、それから７年後――",
+    "developer_comment": "",
     "string": "――渡瀬は亡き姉の遺志を継ぎ、レスキュー隊員になっていた。"
   },
   "003421": {
@@ -773,10 +875,34 @@
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
+  "003659": {
+    "context": "003659",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――救助された２人の少女のうち、"
+  },
+  "003664": {
+    "context": "003664",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "１人は命を落とし、１人は生き残った。"
+  },
+  "003673": {
+    "context": "003673",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "生き残った少女は、守部洵――"
+  },
+  "003681": {
+    "context": "003681",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "彼女は自分を救ったヒーローに、憧れを抱いた。"
+  },
   "003816": {
     "context": "003816",
     "code": "0x45",
-    "developer_comment": "彼女は自分を救ったヒーローに、憧れを抱いた。",
+    "developer_comment": "",
     "string": "そして死んだ少女は、橘凪沙と言った。"
   },
   "003821": {
@@ -814,10 +940,40 @@
     "code": "0x85",
     "string": "　%N　%N"
   },
+  "003980": {
+    "context": "003980",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――だが、凪沙は生きていた。"
+  },
+  "003988": {
+    "context": "003988",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "彼女は事故の際、死亡したものと偽装され、"
+  },
+  "003993": {
+    "context": "003993",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ラボに幽閉されたのだ。"
+  },
+  "004001": {
+    "context": "004001",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "凪沙は姉に会うことを望んだ。"
+  },
+  "004010": {
+    "context": "004010",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そして、幽閉から３ヵ月後――"
+  },
   "004175": {
     "context": "004175",
     "code": "0x45",
-    "developer_comment": "そして、幽閉から３ヵ月後――",
+    "developer_comment": "",
     "string": "ラボからの脱走を目論んだ。"
   },
   "004183": {
@@ -843,6 +999,24 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
+  "004242": {
+    "context": "004242",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――だがそれは新たな悲劇を呼んだ。"
+  },
+  "004251": {
+    "context": "004251",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "その日、たまたまラボ内にいた２人の子供が、"
+  },
+  "004256": {
+    "context": "004256",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『ケースＮ』に巻き込まれてしまったのだ。"
+  },
   "004413": {
     "context": "004413",
     "code": "0x45",
@@ -865,6 +1039,30 @@
     "context": "004473",
     "code": "0x85",
     "string": "　%N　%N"
+  },
+  "004477": {
+    "context": "004477",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――天川夏彦は、琴乃悠里を救うため、"
+  },
+  "004482": {
+    "context": "004482",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "生涯初めてのテレパシーを使った。"
+  },
+  "004491": {
+    "context": "004491",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "それは母の元へ届き、２人は救助されたのだが――"
+  },
+  "004501": {
+    "context": "004501",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "母は息子に、嘘をついた。"
   },
   "004656": {
     "context": "004656",
@@ -907,6 +1105,24 @@
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
+  "004771": {
+    "context": "004771",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "息子を護るための母の嘘は、彼の心を崩壊させた。"
+  },
+  "004780": {
+    "context": "004780",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "夏彦を想う少女、鳥羽ましろは――"
+  },
+  "004789": {
+    "context": "004789",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "変わり果てた彼の姿を見て、愕然とした。"
+  },
   "005001": {
     "context": "005001",
     "code": "0x45",
@@ -948,10 +1164,22 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
+  "005086": {
+    "context": "005086",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――しかし悠里もまた、生きていた。"
+  },
+  "005095": {
+    "context": "005095",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "凪沙同様、死を偽装され、ラボ内に幽閉されていたのだ。"
+  },
   "005272": {
     "context": "005272",
     "code": "0x45",
-    "developer_comment": "凪沙同様、死を偽装され、ラボ内に幽閉されていたのだ。",
+    "developer_comment": "",
     "string": "悠里は夏彦を元に戻すため、自分との記憶を全て消そうとしたが――"
   },
   "005277": {
@@ -983,20 +1211,86 @@
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
+  "005418": {
+    "context": "005418",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――そうして２人は、離れ離れになった。"
+  },
+  "005427": {
+    "context": "005427",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "だがその事実も覆い隠され、罪はまたしても闇に消えた。"
+  },
+  "005436": {
+    "context": "005436",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "悲劇は当事者たちの心に深い傷を残し、"
+  },
+  "005441": {
+    "context": "005441",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "それでもその後の日々は続く。"
+  },
   "005450": {
     "context": "005450",
     "code": "0x85",
     "string": "　%N"
+  },
+  "005454": {
+    "context": "005454",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "夏彦は悠里の幻と共に生き、ましろは彼を見守り続けた。"
+  },
+  "005463": {
+    "context": "005463",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "渡瀬はシリウスの隊長となり、風見と再会した。"
+  },
+  "005472": {
+    "context": "005472",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "洵は風見を追うように、レスキュー隊を志した。"
+  },
+  "005481": {
+    "context": "005481",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "悠里とサリュと凪沙は、互いに顔を合わせる事なく、"
+  },
+  "005486": {
+    "context": "005486",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ラボの地下深くに幽閉され続けた。"
   },
   "005495": {
     "context": "005495",
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
+  "005499": {
+    "context": "005499",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それから長い時が過ぎ――"
+  },
+  "005508": {
+    "context": "005508",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "やがて彼らの運命は、動き始める。"
+  },
   "005704": {
     "context": "005704",
     "code": "0x45",
-    "developer_comment": "やがて彼らの運命は、動き始める。",
+    "developer_comment": "",
     "string": "恵那は父の足跡を追うように、超科局に入り――"
   },
   "005796": {
@@ -1039,6 +1333,30 @@
     "context": "006514",
     "code": "0x85",
     "string": "　%N　%N　%N"
+  },
+  "006518": {
+    "context": "006518",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それから今、この瞬間に至るまでの、"
+  },
+  "006523": {
+    "context": "006523",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "あらゆる記憶を夏彦は見てきた。"
+  },
+  "006532": {
+    "context": "006532",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "１つ１つは、断片に過ぎない。"
+  },
+  "006541": {
+    "context": "006541",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "取るに足らない情報の欠片――"
   },
   "006684": {
     "context": "006684",

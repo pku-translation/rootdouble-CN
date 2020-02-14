@@ -43,8 +43,8 @@ namespace CSYetiTools
                 {
                     var f = footers[i];
                     accFooter.Int1 += f.Int1;
-                    accFooter.Int2 += f.Int2;
-                    accFooter.Int3 += f.Int3;
+                    accFooter.Unknown += f.Unknown;
+                    accFooter.FlagCodeCount += f.FlagCodeCount;
                     accFooter.ScriptIndex += f.ScriptIndex;
                 }
                 if (!accFooter.ToBytes().SequenceEqual(checkFooter.ToBytes()))
@@ -202,12 +202,12 @@ namespace CSYetiTools
                 foreach (var code in script.Codes.OfType<OpCodes.StringCode>())
                 {
                     var index = $"{code.Index:000000}";
-                    if (code is OpCodes.CharacterCode)
+                    if (code is OpCodes.ExtraDialogCode dialogCode && dialogCode.IsCharacter)
                     {
                         currentName = code.Content;
                         names.Add(code.Content);
                     }
-                    else if (code is OpCodes.DialogCode)
+                    else if (code is OpCodes.DialogCode || code is OpCodes.ExtraDialogCode)
                     {
                         var content = new
                         {

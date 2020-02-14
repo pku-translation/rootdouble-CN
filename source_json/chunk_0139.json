@@ -472,10 +472,34 @@
     "developer_comment": "",
     "string": "自分の行動が原因で、悠里を死の危険にさらさせてしまったのだ。"
   },
+  "002120": {
+    "context": "002120",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "想起されるのは、火の記憶。"
+  },
+  "002221": {
+    "context": "002221",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "響き渡る警報と、明滅する赤色灯。"
+  },
+  "002241": {
+    "context": "002241",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "閉じ込められた夏彦たち。"
+  },
+  "002297": {
+    "context": "002297",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "泣きじゃくる悠里の声――"
+  },
   "002438": {
     "context": "002438",
     "code": "0x45",
-    "developer_comment": "泣きじゃくる悠里の声――",
+    "developer_comment": "",
     "string": "思い出すだけで身震いが起きる。"
   },
   "002443": {
@@ -1431,5 +1455,29 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は闇の中、目を凝らして文字盤を見た。"
+  },
+  "006013": {
+    "context": "006013",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "時計が指し示している日付と時刻は――"
+  },
+  "006028": {
+    "context": "006028",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『９　月　１　６　日』"
+  },
+  "006036": {
+    "context": "006036",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『６　時　１　９　分』"
+  },
+  "006086": {
+    "context": "006086",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それはこの日から、６日後の朝だった。"
   }
 }

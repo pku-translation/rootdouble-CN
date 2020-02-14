@@ -214,6 +214,24 @@
     "developer_comment": "",
     "string": "そう言いかけた時、放送の声が響いた。"
   },
+  "002094": {
+    "context": "002094",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "「緊急放送です！」"
+  },
+  "002112": {
+    "context": "002112",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "「ただいま施設内で、多数の爆発が起きています！」"
+  },
+  "002130": {
+    "context": "002130",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "「爆発は主に、各非常階段付近で発生！」"
+  },
   "002148": {
     "context": "002148",
     "code": "0x85",
@@ -229,10 +247,16 @@
     "code": "0x86",
     "string": "「今のところ第２エリア以降の非常階段は一部無事ですが、それらも随時崩壊している模様です！」"
   },
+  "002169": {
+    "context": "002169",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "「危険です！　職員の皆様は、早急に地上に避難して下さい！」"
+  },
   "002202": {
     "context": "002202",
     "code": "0x45",
-    "developer_comment": "「危険です！　職員の皆様は、早急に地上に避難して下さい！」",
+    "developer_comment": "",
     "string": "必死に叫ぶ声を聞き、夏彦は息を呑んだ。"
   },
   "002207": {
@@ -663,5 +687,29 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（バカな……どうして！？）"
+  },
+  "005202": {
+    "context": "005202",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そこに表示された日付と時刻は――"
+  },
+  "005217": {
+    "context": "005217",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『９　月　１　１　日』"
+  },
+  "005225": {
+    "context": "005225",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『６　時　２　９　分』"
+  },
+  "005241": {
+    "context": "005241",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それはこの日から、５日前の朝だった。"
   }
 }

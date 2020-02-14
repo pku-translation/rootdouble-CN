@@ -155,6 +155,9 @@ namespace CSYetiTools
         public byte[] Header
             => _header.ToArray();
 
+        public CodeScriptFooter Footer
+            => _footer;
+
         public IEnumerable<OpCode> Codes
             => _codes.ToArray();
 

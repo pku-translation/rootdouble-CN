@@ -1179,6 +1179,12 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "003674": {
+    "context": "003674",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "―戦った？　俺が―――…子ども―…高校生？"
+  },
   "003706": {
     "context": "003706",
     "code": "0x85",
@@ -1192,13 +1198,19 @@
   "003736": {
     "context": "003736",
     "code": "0x45",
-    "developer_comment": "―戦った？　俺が―――…子ども―…高校生？",
+    "developer_comment": "",
     "string": "それは閃光のように甦った記憶。"
   },
   "003928": {
     "context": "003928",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "003929": {
+    "context": "003929",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――撃った…銃で――…（彼女を）彼を…―俺が――……？"
   },
   "003961": {
     "context": "003961",
@@ -1213,13 +1225,19 @@
   "003991": {
     "context": "003991",
     "code": "0x45",
-    "developer_comment": "――撃った…銃で――…（彼女を）彼を…―俺が――……？",
+    "developer_comment": "",
     "string": "いつの記憶かはわからない。"
   },
   "004183": {
     "context": "004183",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
+  },
+  "004184": {
+    "context": "004184",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "……―アイツが―…――脳を……―やられた！"
   },
   "004216": {
     "context": "004216",
@@ -1234,7 +1252,7 @@
   "004246": {
     "context": "004246",
     "code": "0x45",
-    "developer_comment": "……―アイツが―…――脳を……―やられた！",
+    "developer_comment": "",
     "string": "刹那、渡瀬の脳が奇跡的に正常な思考を取り戻す。"
   },
   "004252": {

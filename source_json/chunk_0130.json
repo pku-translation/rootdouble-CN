@@ -906,10 +906,46 @@
     "developer_comment": "夏彦",
     "string": "（どうしてこんな事に――）"
   },
+  "008963": {
+    "context": "008963",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "その答えは、記憶の中にあった。"
+  },
+  "009022": {
+    "context": "009022",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "全てはあの日から始まったのだ。"
+  },
+  "009081": {
+    "context": "009081",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "今日から６日前。"
+  },
+  "009140": {
+    "context": "009140",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "２０３０年、９月１０日。"
+  },
+  "009199": {
+    "context": "009199",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "こんな事になるとは、まだ誰も予想していなかった頃。"
+  },
+  "009258": {
+    "context": "009258",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "まだ何もかもが平穏だったあの日から――"
+  },
   "009296": {
     "context": "009296",
     "code": "0x45",
-    "developer_comment": "まだ何もかもが平穏だったあの日から――",
+    "developer_comment": "",
     "string": "――やがて、茫漠とした意識の奥で――"
   },
   "009365": {
@@ -929,5 +965,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "白く塗られた墓の下で、彼はその声を聞き……"
+  },
+  "009584": {
+    "context": "009584",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "そして時が、動き出した。"
   }
 }

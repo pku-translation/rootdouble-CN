@@ -9,10 +9,16 @@
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N"
   },
+  "000090": {
+    "context": "000090",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "【――椿山恵那との記憶――】"
+  },
   "000170": {
     "context": "000170",
     "code": "0x45",
-    "developer_comment": "【――椿山恵那との記憶――】",
+    "developer_comment": "",
     "string": "――ラボを脱出した後、渡瀬はそのまま警察に出頭した。"
   },
   "000175": {
@@ -163,6 +169,24 @@
     "context": "000603",
     "code": "0x85",
     "string": "　%N　%N　%N"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――恵那はそう言って、話し始めた。"
+  },
+  "000615": {
+    "context": "000615",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "『Ｑの撲滅に協力する代わり、刑期を大幅短縮する』"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "という提案を……。"
   },
   "000688": {
     "context": "000688",

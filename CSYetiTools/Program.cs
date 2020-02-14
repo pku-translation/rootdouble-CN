@@ -356,9 +356,12 @@ namespace CSYetiTools
 
         private static void DumpTranslateSource(DumpTranslateSourceOptions options)
         {
+            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
+            Console.WriteLine($"Dump translate source --> {outputDir}");
+
             var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
 
-            package.DumpTranslateSource(options.OutputDir);
+            package.DumpTranslateSource(outputDir);
         }
 
         class DupEntry
@@ -406,7 +409,7 @@ namespace CSYetiTools
                 var list = new JArray();
                 foreach (var code in script.Codes.OfType<OpCodes.StringCode>())
                 {
-                    if (code is OpCodes.CharacterCode) continue;
+                    if (code is OpCodes.ExtraDialogCode) continue;
 
                     var content = code.Content;
                     if (regex.IsMatch(code.Content))
