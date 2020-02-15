@@ -187,7 +187,7 @@ namespace CSYetiTools
 
         public void DumpTranslateSource(string dirPath)
         {
-            if (!Directory.Exists(dirPath)) Directory.CreateDirectory(dirPath);
+            Utils.CreateAllClearDirectory(dirPath);
 
             var errors = new List<string>();
 
@@ -195,7 +195,8 @@ namespace CSYetiTools
 
             foreach (var (i, script) in _codeScripts.WithIndex())
             {
-                if (i == 0) continue; // skip first
+                if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
+
                 var contents = new JObject();
                 string? currentName = null;
 

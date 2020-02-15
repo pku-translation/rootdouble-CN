@@ -49,7 +49,7 @@ namespace CSYetiTools
 
             if (input.Length != 2)
             {
-                throw new ArgumentException($"{input} is not a valid byte."); 
+                throw new ArgumentException($"{input} is not a valid byte.");
             }
             return byte.Parse(input, System.Globalization.NumberStyles.HexNumber);
         }
@@ -76,9 +76,9 @@ namespace CSYetiTools
         {
             const int rowSize = 16;
             var header = "           " + "  ".Join(Enumerable.Range(0, rowSize).Select(n => n.ToString("X1")));
-            
+
             if (withHeader) yield return header;
-            
+
             var buffer = new string[rowSize];
             var lineOffset = extraStart / rowSize * rowSize;
             var position = 0;
@@ -87,7 +87,7 @@ namespace CSYetiTools
                 if (withOffset) return lineOffset.ToString("X08") + ": " + string.Join(' ', buffer.Take(position));
                 else return string.Join(' ', buffer.Take(position));
             }
-            
+
             if (lineOffset != extraStart)
             {
                 for (; position < extraStart - lineOffset; ++position)
@@ -106,6 +106,20 @@ namespace CSYetiTools
                 }
             }
             if (position != 0) yield return CurrentLine();
+        }
+
+        public static void CreateAllClearDirectory(string dirPath)
+        {
+            var dirInfo = new DirectoryInfo(dirPath);
+            if (dirInfo.Exists)
+            {
+                foreach (var file in dirInfo.GetFiles()) file.Delete();
+                foreach (var subDir in dirInfo.GetDirectories()) subDir.Delete(true);
+            }
+            else
+            {
+                dirInfo.Create();
+            }
         }
 
     }

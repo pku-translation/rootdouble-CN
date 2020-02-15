@@ -86,17 +86,17 @@ namespace CSYetiTools
             {
                 0x00 => new ZeroCode(),  // empty block
 
-                0x01 => new AddressCode(op),            // seems jump to address
-                0x02 => new FixedLengthCode(op, 5),     // seems script jump
-                0x03 => new AddressCode(op),            // seems jump to address
-                0x04 => new FixedLengthCode(op, 5),     // seems script jump or else?
-                0x05 => new OpCode_05(),                // seems return? end-block?
-                0x06 => new PrefixedAddressCode(op, 4), // seems invoke
+                0x01 => new AddressCode(op),            // jump to address?
+                0x02 => new FixedLengthCode(op, 5),     // script jump?
+                0x03 => new AddressCode(op),            // jump to address?
+                0x04 => new FixedLengthCode(op, 5),     // script jump or else?
+                0x05 => new OpCode_05(),                // return? end-block?
+                0x06 => new PrefixedAddressCode(op, 4), // invoke?
                 0x07 => new PrefixedAddressCode(op, 4),
                 0x08 => new PrefixedAddressCode(op, 4),
                 0x09 => new PrefixedAddressCode(op, 4),
-                0x0A => new PrefixedAddressCode(op, 4),
-                0x0B => new PrefixedAddressCode(op, 4),
+                0x0A => new PrefixedAddressCode(op, 4), // scope?
+                0x0B => new PrefixedAddressCode(op, 4), // scope?
 
                 0x0C => new OpCode_0C_0D(op),           // seems scope with sub codes
                 0x0D => new OpCode_0C_0D(op),           // seems scope with sub codes
@@ -125,9 +125,6 @@ namespace CSYetiTools
 
                 _ => new FixedLengthCode(op, op switch
                 {
-
-                    0x0F => 9, // not found
-
                     0x10 => 5,
                     0x11 => 5,
                     0x12 => 5,
