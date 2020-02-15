@@ -31,7 +31,7 @@ namespace CSYetiTools
                 {
                     var footer = CodeScriptFooter.ReadFrom(reader);
                     footers.Add(footer);
-                    if (footer.Int1 == -1) break;
+                    if (footer.IndexedDialogCount == -1) break;
                 }
                 if (footers.Count < 2) {
                     throw new InvalidDataException($"Footer chunk length({footers.Count}) < 2");
@@ -42,7 +42,7 @@ namespace CSYetiTools
                 for (int i = 0; i < footers.Count - 2; ++i)
                 {
                     var f = footers[i];
-                    accFooter.Int1 += f.Int1;
+                    accFooter.IndexedDialogCount += f.IndexedDialogCount;
                     accFooter.Unknown += f.Unknown;
                     accFooter.FlagCodeCount += f.FlagCodeCount;
                     accFooter.ScriptIndex += f.ScriptIndex;

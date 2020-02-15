@@ -109,7 +109,7 @@ namespace CSYetiTools
 
                 0x44 => new OpCode_44(),            
                 0x45 => new DialogCode(),               // dialog
-                0x47 => new ExtraDialogCode(),            // character name
+                0x47 => new ExtraDialogCode(),          // character name
 
                 0x55 => new OpCode_55(),                // title
 
@@ -117,11 +117,11 @@ namespace CSYetiTools
 
                 0x85 => new DynamicLengthStringCode(op), // directive message?
                                                          // [85] 0A 00 FF FF is message-box?
-                0x86 => new NovelCode(),             // novel
+                0x86 => new NovelCode(),                 // novel
 
-                0x87 => new SssInputCode(),          // センシズ受付開始？
-                0x88 => new FixedLengthCode(op, 3),  // センシズ受付終了？
-                0x89 => new SssFlagCode(),           // センシズフラッグ？
+                0x87 => new SssInputCode(),              // センシズ受付開始？
+                0x88 => new FixedLengthCode(op, 3),      // センシズ受付終了？
+                0x89 => new SssFlagCode(),               // センシズフラッグ？
 
                 _ => new FixedLengthCode(op, op switch
                 {

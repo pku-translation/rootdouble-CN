@@ -13,7 +13,7 @@ namespace CSYetiTools
      */
     public sealed class CodeScriptFooter
     {
-        public int Int1 { get; set; }
+        public int IndexedDialogCount { get; set; }
         
         public int Unknown { get; set; }
 
@@ -24,7 +24,7 @@ namespace CSYetiTools
         public byte[] ToBytes()
         {
             var result = new byte[16];
-            BitConverter.TryWriteBytes(new Span<byte>(result, 0, 4), Int1);
+            BitConverter.TryWriteBytes(new Span<byte>(result, 0, 4), IndexedDialogCount);
             BitConverter.TryWriteBytes(new Span<byte>(result, 4, 4), Unknown);
             BitConverter.TryWriteBytes(new Span<byte>(result, 8, 4), FlagCodeCount);
             BitConverter.TryWriteBytes(new Span<byte>(result, 12, 4), ScriptIndex);
@@ -34,7 +34,7 @@ namespace CSYetiTools
         public static CodeScriptFooter ReadFrom(BinaryReader reader)
         {
             return new CodeScriptFooter {
-                Int1 = reader.ReadInt32(),
+                IndexedDialogCount = reader.ReadInt32(),
                 Unknown = reader.ReadInt32(),
                 FlagCodeCount = reader.ReadInt32(),
                 ScriptIndex = reader.ReadInt32(),
@@ -43,7 +43,7 @@ namespace CSYetiTools
 
         public void WriteTo(BinaryWriter writer)
         {
-            writer.Write(Int1);
+            writer.Write(IndexedDialogCount);
             writer.Write(Unknown);
             writer.Write(FlagCodeCount);
             writer.Write(ScriptIndex);
@@ -51,14 +51,14 @@ namespace CSYetiTools
         
         public override string ToString()
         {
-            return $"{Int1,6} {Unknown,6} {FlagCodeCount,6} {ScriptIndex,6}";
+            return $"{IndexedDialogCount,6} {Unknown,6} {FlagCodeCount,6} {ScriptIndex,6}";
         }
 
         public CodeScriptFooter Clone()
         {
             return new CodeScriptFooter
             {
-                Int1 = Int1,
+                IndexedDialogCount = IndexedDialogCount,
                 Unknown = Unknown,
                 FlagCodeCount = FlagCodeCount,
                 ScriptIndex = ScriptIndex,
