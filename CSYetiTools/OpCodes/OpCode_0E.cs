@@ -50,15 +50,15 @@ namespace CSYetiTools.OpCodes
                 builder.Append(" (short)").Append(_count);
             }
             builder.Append(" [");
-            for (int i = 0; i < _count; ++i)
+            foreach (var (i, branch) in _branches.WithIndex())
             {
                 builder.AppendLine()
                     .Append("                ")
                     .Append(i.ToString().PadLeft(3))
                     .Append(": ")
-                    .Append(_branches[i].prefix.ToString("X04"))
+                    .Append(branch.prefix.ToString("X04"))
                     .Append(": ")
-                    .Append(_branches[i].offset.ToString());
+                    .Append(branch.offset.ToString());
             }
             builder.Append(" ]");
             return builder.ToString();

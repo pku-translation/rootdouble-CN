@@ -41,7 +41,6 @@ namespace CSYetiTools
             }
             public static SExpr Symbol(string s)
             {
-                System.Diagnostics.Debug.Assert(s != null);
                 return new SExpr { _value = s, Type = SExprType.Symbol };
             }
             public static SExpr List(IEnumerable<SExpr> exps)
@@ -309,19 +308,20 @@ namespace CSYetiTools
                 {
                     var actionArgs = rootArgs[i].AsList();
 
-                    if (actionArgs[1].IsSymbol)
+                    if (actionArgs[0].IsSymbol)
                     {
-                        var index = actionArgs[0].AsInt();
-                        var op = actionArgs[1].AsSymbol();
+                        var op = actionArgs[0].AsSymbol();
                         if (op == "->")
                         {
                             // recode
+                            var index = actionArgs[1].AsInt();
                             var code = (byte)actionArgs[2].AsInt();
                             actions.Add(table => table[index].Code = code);
                         }
                         else if (op == "<-")
                         {
                             // concat
+                            var index = actionArgs[1].AsInt();
                             var indexes = new List<int>();
                             for (int r = 2; r < actionArgs.Count; ++r)
                                 indexes.Add(actionArgs[r].AsInt());
@@ -338,15 +338,7 @@ namespace CSYetiTools
                                 }
                             });
                         }
-                        else
-                        {
-                            throw new ArgumentException($"Unknown operation: {rootArgs[i]}");
-                        }
-                    }
-                    else if (actionArgs[0].IsSymbol)
-                    {
-                        var op = actionArgs[0].AsSymbol();
-                        if (op == "+")
+                        else if (op == "+")
                         {
                             var index = actionArgs[1].AsInt();
                             if (actionArgs.Count == 4 && actionArgs[3].IsString)

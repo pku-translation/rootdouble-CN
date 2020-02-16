@@ -24,10 +24,9 @@ namespace CSYetiTools.OpCodes
             }
         }
 
-        protected override string ArgsToString(bool noString)
+        protected override string ArgsToString()
         {
-            if (noString) return "<Dialog>";
-            else return "<Dialog> " + base.ArgsToString(noString);
+            return "<Dialog> " + base.ArgsToString();
         }
     }
 }

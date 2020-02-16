@@ -47,7 +47,7 @@ namespace CSYetiTools
                     accFooter.FlagCodeCount += f.FlagCodeCount;
                     accFooter.ScriptIndex += f.ScriptIndex;
                 }
-                if (!accFooter.ToBytes().SequenceEqual(checkFooter.ToBytes()))
+                if (!accFooter.Equals(checkFooter))
                 {
                     throw new InvalidDataException($"Footer sum check failed: [{accFooter}] != [{checkFooter}]");
                 }
@@ -92,19 +92,16 @@ namespace CSYetiTools
             _footers = footers;
         }
 
-        public SnPackage(string filename, bool isSteam)
+        public SnPackage(string filename, bool isStringPooled)
         {
-            using var stream = File.OpenRead(filename);
-            Span<byte> header = stackalloc byte[4];
-            stream.Read(header);
-            var decodedSize = BitConverter.ToInt32(header);
-            var bytes = LZSS.Decode(stream.StreamAsIEnumerable()).ToArray();
+            var data = File.ReadAllBytes(filename);
+            var decodedSize = BitConverter.ToInt32(data);
+            var bytes = LZSS.Decode(data.Skip(4)).ToArray();
 
             if (decodedSize != bytes.Length)
             {
-                throw new ArgumentException($"Invalid size (header = {decodedSize}, bytes = {bytes.Length}).");
+                throw new InvalidDataException($"Invalid size (header = {decodedSize}, bytes = {bytes.Length}).");
             }
-
             try
             {
                 int maxOffset = BitConverter.ToInt32(bytes, 0);
@@ -124,7 +121,7 @@ namespace CSYetiTools
                 var codeScripts = new List<CodeScript>();
                 for (int i = 0; i < chunks.Count - 1; ++i)
                 {
-                    codeScripts.Add(new CodeScript(chunks[i], _footers[i], isSteam));
+                    codeScripts.Add(new CodeScript(chunks[i], _footers[i], isStringPooled));
                 }
                 _codeScripts = codeScripts.ToArray();
 
@@ -135,7 +132,7 @@ namespace CSYetiTools
             }
         }
 
-        public static SnPackage CreateFrom(string dirPath, bool isSteam)
+        public static SnPackage CreateFrom(string dirPath, bool isStringPooled)
         {
             if (!Directory.Exists(dirPath)) throw new ArgumentException($"Directory {dirPath} not exists!");
 
@@ -145,7 +142,7 @@ namespace CSYetiTools
 
             var scripts = Directory.GetFiles(dirPath, "*.codescript")
                 .OrderBy(o => o)
-                .Select((file, i) => new CodeScript(File.ReadAllBytes(file), footers[i], isSteam))
+                .Select((file, i) => new CodeScript(File.ReadAllBytes(file), footers[i], isStringPooled))
                 .ToArray();
             
             return new SnPackage(scripts, footers);
@@ -153,7 +150,7 @@ namespace CSYetiTools
 
         public void Dump(string dirPath, string postfix, bool isDumpBinary, bool isDumpScript)
         {
-            if (!Directory.Exists(dirPath)) Directory.CreateDirectory(dirPath);
+            Utils.CreateOrClearDirectory(dirPath);
 
             if (isDumpBinary)
             {
@@ -187,7 +184,7 @@ namespace CSYetiTools
 
         public void DumpTranslateSource(string dirPath)
         {
-            Utils.CreateAllClearDirectory(dirPath);
+            Utils.CreateOrClearDirectory(dirPath);
 
             var errors = new List<string>();
 
@@ -274,6 +271,7 @@ namespace CSYetiTools
         {
             var rawBytes = GetRawBytes();
             var bytes = LZSS.Encode(rawBytes).ToArray();
+            
             stream.Write(BitConverter.GetBytes(rawBytes.Length));
             stream.Write(bytes);
             stream.Flush();
@@ -281,7 +279,7 @@ namespace CSYetiTools
 
         public void WriteTo(string path)
         {
-            using (var stream = File.OpenWrite(path))
+            using (var stream = File.Create(path))
             {
                 WriteTo(stream);
             }
@@ -324,6 +322,18 @@ namespace CSYetiTools
                     ms.Write(ch);
                 }
                 return ms.ToArray();
+            }
+        }
+
+        public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier> modifierDict)
+        {
+            foreach (var (i, (script, refScript)) in Scripts.ZipTuple(refPackage.Scripts).WithIndex())
+            {
+                var refList = modifierDict.TryGetValue(i, out var modifiers)
+                    ? refScript.GenerateStringReferenceList(modifiers)
+                    : refScript.GenerateStringReferenceList();
+
+                script.ReplaceStringTable(refList);
             }
         }
 

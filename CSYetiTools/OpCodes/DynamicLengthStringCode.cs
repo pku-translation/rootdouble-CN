@@ -29,32 +29,13 @@ namespace CSYetiTools.OpCodes
 
         protected override string ArgsToString()
         {
-            return ArgsToString(false);
-        }
-
-        protected override string ArgsToString(bool noString = false)
-        {
-            if (noString)
+            if (_extralength == 4)
             {
-                if (_extralength == 4)
-                {
-                    return Utils.BytesToHex(GetBytes(Short1)) + " " + Utils.BytesToHex(GetBytes(Short2));
-                }
-                else
-                {
-                    return Utils.BytesToHex(GetBytes(Short1));
-                }
+                return Utils.BytesToHex(GetBytes(Short1)) + " " + Utils.BytesToHex(GetBytes(Short2)) + " " + ContentToString();
             }
             else
             {
-                if (_extralength == 4)
-                {
-                    return Utils.BytesToHex(GetBytes(Short1)) + " " + Utils.BytesToHex(GetBytes(Short2)) + " " + ContentToString();
-                }
-                else
-                {
-                    return Utils.BytesToHex(GetBytes(Short1)) + " " + ContentToString();
-                }
+                return Utils.BytesToHex(GetBytes(Short1)) + " " + ContentToString();
             }
         }
 

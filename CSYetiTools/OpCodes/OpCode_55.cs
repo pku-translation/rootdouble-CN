@@ -47,12 +47,6 @@ namespace CSYetiTools.OpCodes
             return ContentToString();
         }
 
-        protected override string ArgsToString(bool noString = false)
-        {
-            if (noString) return string.Empty;
-            else return ContentToString();
-        }
-
         protected override void Read(BinaryReader reader)
         {
             if (IsOffset)

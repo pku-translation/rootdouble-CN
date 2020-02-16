@@ -18,12 +18,8 @@ namespace CSYetiTools.OpCodes
             => GetBytes(Short1).Concat(GetBytes(Short2)).Concat(ContentToBytes()).ToArray();
 
         protected override string ArgsToString()
-            => ArgsToString(false);
-
-        protected override string ArgsToString(bool noString)
         {
-            if (noString) return $"{Short1} {Short2}";
-            else return $"{Short1} {Short2}" + ContentToString();
+            return $"{Short1} {Short2} " + ContentToString();
         }
 
         protected override void Read(BinaryReader reader)

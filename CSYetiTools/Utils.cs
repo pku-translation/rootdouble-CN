@@ -72,7 +72,7 @@ namespace CSYetiTools
             return string.Join(' ', bytes.Select(ByteToHex));
         }
 
-        public static IEnumerable<string> BytesToTextLines(byte[] bytes, int extraStart, bool withHeader = true, bool withOffset = true)
+        public static IEnumerable<string> BytesToTextLines(byte[] bytes, int extraStart = 0, bool withHeader = true, bool withOffset = true)
         {
             const int rowSize = 16;
             var header = "           " + "  ".Join(Enumerable.Range(0, rowSize).Select(n => n.ToString("X1")));
@@ -108,7 +108,7 @@ namespace CSYetiTools
             if (position != 0) yield return CurrentLine();
         }
 
-        public static void CreateAllClearDirectory(string dirPath)
+        public static void CreateOrClearDirectory(string dirPath)
         {
             var dirInfo = new DirectoryInfo(dirPath);
             if (dirInfo.Exists)

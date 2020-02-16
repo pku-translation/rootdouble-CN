@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 
 namespace CSYetiTools
@@ -11,7 +12,9 @@ namespace CSYetiTools
         except which contain strings.
     
      */
-    public sealed class CodeScriptFooter
+
+
+    public sealed class CodeScriptFooter : IEquatable<CodeScriptFooter>
     {
         public int IndexedDialogCount { get; set; }
         
@@ -65,5 +68,14 @@ namespace CSYetiTools
             };
         }
 
+        public bool Equals(CodeScriptFooter? other)
+        {
+            if (!(other is CodeScriptFooter footer)) return false;
+
+            return IndexedDialogCount == footer.IndexedDialogCount
+                && Unknown == footer.Unknown
+                && FlagCodeCount == footer.FlagCodeCount
+                && ScriptIndex == footer.ScriptIndex;
+        }
     }
 }

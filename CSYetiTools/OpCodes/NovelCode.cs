@@ -6,7 +6,7 @@ namespace CSYetiTools.OpCodes
         // Short2: may be voice index, -1 indicates no voice
         public NovelCode() : base(0x86) { }
 
-        protected override string ArgsToString(bool noString)
-            => "<Novel> " + base.ArgsToString(noString);
+        protected override string ArgsToString()
+            => "<Novel> " + base.ArgsToString();
     }
 }

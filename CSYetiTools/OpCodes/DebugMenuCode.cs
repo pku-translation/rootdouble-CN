@@ -51,9 +51,9 @@ namespace CSYetiTools.OpCodes
         {
             var builder = new StringBuilder()
                 .Append(Utils.BytesToHex(GetBytes(_arg1)))
-                .Append(" (short)")
+                .Append(" choices:(short)")
                 .Append(_choices.Length)
-                .Append(" choices ")
+                .Append(" ")
                 .Append(Utils.BytesToHex(GetBytes(_arg2)))
                 .Append(" [");
             int index = 0;

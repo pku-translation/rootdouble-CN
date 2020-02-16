@@ -36,7 +36,7 @@ namespace CSYetiTools
 
         public CodeScript(byte[] bytes, CodeScriptFooter footer, bool isStringPooled)
         {
-            System.Diagnostics.Debug.Assert(bytes.Length % 16 == 0);
+            if (bytes.Length % 16 != 0) throw new InvalidDataException($"{nameof(bytes)} length is not times of 16");
 
             _footer = footer;
             _isStringPooled = isStringPooled;
@@ -93,6 +93,8 @@ namespace CSYetiTools
 
                         if (refOffset > strCode.Offset && stringTableEnd < reader.BaseStream.Position)
                         {
+                            Console.WriteLine($"strange code: ");
+                            Console.Write($"    {strCode.Index}: {strCode}");
                             stringTableEnd = (int)reader.BaseStream.Position;
                         }
 
@@ -119,7 +121,10 @@ namespace CSYetiTools
             if (isStringPooled)
             {
                 _stringStart = (int)reader.BaseStream.Position;
-                System.Diagnostics.Debug.Assert(_stringStart == codeEnd, $"{_stringStart} != {codeEnd}");
+                if (_stringStart != codeEnd) throw new InvalidDataException($"string start ({_stringStart}) != code end ({codeEnd})");
+                if (stringTableEnd != footerStart - 1) {
+                    Console.WriteLine($"[{footer}]: {stringTableEnd} != {footerStart - 1}");
+                }
                 while (reader.BaseStream.Position < stringTableEnd)
                 {
                     var pos = (int)reader.BaseStream.Position;
@@ -127,14 +132,22 @@ namespace CSYetiTools
                     _stringList.Add((pos, content));
                 }
             }
+            if (reader.BaseStream.Position < stringTableEnd)
+            {
+                throw new InvalidDataException($"Read string table causes pos({reader.BaseStream.Position} != {stringTableEnd})");
+            }
 
             var separator = reader.ReadByte();
-            System.Diagnostics.Debug.Assert(separator == FooterSeparator);
-            var footerBytes = reader.ReadBytes(16);
-            System.Diagnostics.Debug.Assert(footerBytes.SequenceEqual(_footer.ToBytes()));
+            if (separator != FooterSeparator) throw new InvalidDataException($"Separator != {separator}");
+
+            var footerBytes = CodeScriptFooter.ReadFrom(reader);
+            if (!footerBytes.Equals(_footer)) throw new InvalidDataException($"Footer [{footerBytes}] != [{_footer}]");
+            
             var fillBytes = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
-            System.Diagnostics.Debug.Assert(fillBytes.Length < 16);
-            System.Diagnostics.Debug.Assert(fillBytes.All(b => b == 0x00));
+            if (fillBytes.Length >= 16 || fillBytes.Any(b => b != 0x00))
+             {  
+                throw new InvalidDataException("Invalid fill bytes: " + Utils.BytesToTextLines(fillBytes));
+            }
 
             foreach (var code in _codes)
             {
@@ -211,6 +224,7 @@ namespace CSYetiTools
                 throw new ArgumentException($"string-list length {strCodeList.Count} != reference-list length {referenceList.Count}");
 
             string? prevString = null; // some adjacent string ([86] [85]) uses the same entry? (maybe debug)
+            int? prevOffset = null;
             var currentOffset = _stringStart;
             var newStringList = new List<(int offset, string content)>();
             foreach (var (code, refEntry) in strCodeList.ZipTuple(referenceList))
@@ -219,12 +233,17 @@ namespace CSYetiTools
                     throw new ArgumentException(
                         $"string-list code {code.Code:X02} != reference-list code {refEntry.Code}");
                 code.Content = refEntry.Content;
-                code.ContentOffset.AbsoluteOffset = currentOffset;
                 if (refEntry.Content != prevString)
                 {
+                    code.ContentOffset.AbsoluteOffset = currentOffset;
                     prevString = refEntry.Content;
+                    prevOffset = currentOffset;
                     newStringList.Add((currentOffset, prevString));
                     currentOffset += Utils.GetStringZByteCount(prevString);
+                }
+                else
+                {
+                    code.ContentOffset.AbsoluteOffset = prevOffset!.Value;
                 }
             }
             _stringList = newStringList;
@@ -303,7 +322,6 @@ namespace CSYetiTools
                     "index" => i,
                     "offset" => code.Offset,
                     "code" => code,
-                    "nostrcode" => code.ToString(noString: true),
                     _ => throw new ArgumentException($"Invalid key {key} for code dump"),
                 }));
                 //writer.WriteLine($"{i,4} | 0x{code.Offset:X08}: {code}");

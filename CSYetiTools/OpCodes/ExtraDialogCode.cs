@@ -13,7 +13,7 @@ namespace CSYetiTools.OpCodes
         public bool IsCharacter
             => Short1 == 0x0D;
 
-        protected override string ArgsToString(bool noString)
-            => (IsCharacter ? "<Character> " : "<ExDialog> ") + base.ArgsToString(noString);
+        protected override string ArgsToString()
+            => (IsCharacter ? "<Character> " : "<ExDialog> ") + base.ArgsToString();
     }
 }

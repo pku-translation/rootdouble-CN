@@ -18,14 +18,8 @@ namespace CSYetiTools
         [Verb("test-bed", HelpText = "Test a sn.bin")]
         class TestBedOptions
         {
-            [Option("input", Default = null)]
-            public string? Input { get; set; }
-
-            [Option("input-steam", Default = null)]
-            public string? InputSteam { get; set; }
-
-            [Option("text-output", Default = null)]
-            public string? TextOutputPath { get; set; }
+            [Option("data-path")]
+            public string? DataPath { get; set; }
         }
 
         [Verb("gen-string-compare", HelpText = "Generate string compare file")]
@@ -69,8 +63,8 @@ namespace CSYetiTools
             [Option("output", Default = "sn.bin")]
             public string Output { get; set; } = "";
 
-            [Option("steam")]
-            public bool IsSteam { get; set; }
+            [Option("string-pooled")]
+            public bool IsStringPooled { get; set; }
         }
 
         [Verb("decode-sn", HelpText = "Decode sn.bin to specified folder")]
@@ -82,8 +76,8 @@ namespace CSYetiTools
             [Option("outputdir", Default = "./")]
             public string OutputDir { get; set; } = "";
 
-            [Option("steam")]
-            public bool IsSteam { get; set; }
+            [Option("string-pooled")]
+            public bool IsStringPooled { get; set; }
 
             [Option("dump-binary")]
             public bool IsDumpBinary { get; set; }
@@ -178,33 +172,12 @@ namespace CSYetiTools
 
         private static void TestBed(TestBedOptions options)
         {
-            SnPackage? package = null;
-            SnPackage? packageSteam = null;
-
-            var stopwatch = new System.Diagnostics.Stopwatch();
-            if (!string.IsNullOrWhiteSpace(options.Input))
-            {
-                Console.WriteLine("Loading package " + options.Input + " ... ");
-                stopwatch.Start();
-                package = new SnPackage(options.Input, isSteam: false);
-                stopwatch.Stop();
-                Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
-            }
-            if (!string.IsNullOrWhiteSpace(options.InputSteam))
-            {
-                stopwatch.Restart();
-                Console.WriteLine("Loading steam package " + options.InputSteam + " ... ");
-                Console.Out.Flush();
-                packageSteam = new SnPackage(options.InputSteam, isSteam: true);
-                stopwatch.Stop();
-                Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
-            }
-            new TestBed(package, packageSteam, options.TextOutputPath).Run();
+            new TestBed(options.DataPath!).Run();
         }
 
         private static void EncodeSn(EncodeSnOptions options)
         {
-            var package = SnPackage.CreateFrom(options.InputDir, options.IsSteam);
+            var package = SnPackage.CreateFrom(options.InputDir, options.IsStringPooled);
             package.WriteTo(options.Output);
         }
 
@@ -213,7 +186,7 @@ namespace CSYetiTools
             var input = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.Input);
             var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
             Console.WriteLine($"Decoding {input} --> {outputDir} ...");
-            var package = new SnPackage(input, options.IsSteam);
+            var package = new SnPackage(input, options.IsStringPooled);
 
             package.Dump(outputDir, Path.GetFileNameWithoutExtension(input), options.IsDumpBinary, options.IsDumpScript);
         }
@@ -233,8 +206,8 @@ namespace CSYetiTools
                 }
             }
 
-            var package = new SnPackage(options.Input, isSteam: false);
-            var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
+            var package = new SnPackage(options.Input, isStringPooled: false);
+            var packageSteam = new SnPackage(options.InputSteam, isStringPooled: true);
 
             var modifierTable = StringListModifier.Load(options.ModifierFile);
 
@@ -289,8 +262,8 @@ namespace CSYetiTools
             var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
             Console.WriteLine($"Gen code compare --> {outputDir}");
 
-            var package = new SnPackage(options.Input, isSteam: false);
-            var packageSteam = new SnPackage(options.InputSteam, isSteam: true);
+            var package = new SnPackage(options.Input, isStringPooled: false);
+            var packageSteam = new SnPackage(options.InputSteam, isStringPooled: true);
 
             var dumpDir = new DirectoryInfo(outputDir);
             if (dumpDir.Exists)
@@ -322,35 +295,29 @@ namespace CSYetiTools
 
         private static SnPackage GenerateStringReplacedPackage(string input, string inputRef, string modifiersFile)
         {
-            var package = new SnPackage(input, isSteam: true);
-            var refPackage = new SnPackage(inputRef, isSteam: false);
+            var package = new SnPackage(input, isStringPooled: true);
+            var refPackage = new SnPackage(inputRef, isStringPooled: false);
 
             var modifierDict = StringListModifier.Load(modifiersFile);
-
-            foreach (var (i, (script, refScript)) in package.Scripts.ZipTuple(refPackage.Scripts).WithIndex())
-            {
-                var refList = modifierDict.TryGetValue(i, out var modifiers)
-                    ? refScript.GenerateStringReferenceList(modifiers)
-                    : refScript.GenerateStringReferenceList();
-
-                script.ReplaceStringTable(refList);
-            }
+            package.ReplaceStringTable(refPackage, modifierDict);
 
             return package;
         }
 
         private static void ReplaceStringList(ReplaceStringListOptions options)
         {
+            var output = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.Output);
+            Console.WriteLine("Replace string table, write to " + output);
+
             var package = GenerateStringReplacedPackage(options.InputSteam, options.InputRef, options.ModifiersFile);
 
-            package.WriteTo(options.Output);
+            package.WriteTo(output);
 
             var dumpPath = options.DumpResultTextPath;
             if (dumpPath != null)
             {
-                if (Directory.Exists(dumpPath)) File.Delete(Path.Combine(dumpPath, "*"));
-                else Directory.CreateDirectory(dumpPath);
-                package.Dump(dumpPath, Path.GetFileNameWithoutExtension(options.Output), isDumpBinary: false, isDumpScript: true);
+                Utils.CreateOrClearDirectory(dumpPath);
+                package.Dump(dumpPath, Path.GetFileNameWithoutExtension(output), isDumpBinary: false, isDumpScript: true);
             }
         }
 
@@ -461,11 +428,6 @@ namespace CSYetiTools
             }
             dict = dict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
             Console.WriteLine($"{dict.Sum(entry => entry.Value.DupCounter)} dups of {dict.Count} strings");
-            
-            // foreach (var (k, v) in dict.OrderByDescending(e => e.Value.DupCounter).Take(100))
-            // {
-            //     Console.WriteLine($"    {k:10}: {v.DupCounter}");
-            // }
         }
 
         private static void HandleError(Error error)

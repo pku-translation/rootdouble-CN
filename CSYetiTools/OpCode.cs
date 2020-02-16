@@ -31,7 +31,7 @@ namespace CSYetiTools
 
         public int? TargetCodeRelativeIndex { get; set; }
 
-        public int AbsoluteOffset { get; set;}
+        public int AbsoluteOffset { get; set; }
 
         public int BaseOffset { get; set; }
 
@@ -59,24 +59,6 @@ namespace CSYetiTools
             // }
         }
     }
-    public class TestCode68 : FixedLengthCode
-    {
-        private static byte[] test1 = { 0x0A,0x00,0x64,0x00,0x18,0x00,0x38,0x04,0x60,0x00 };
-
-        private static byte[] test2 = { 0x0A,0x00,0x64,0x00,0x10,0x00,0x38,0x04,0x60,0x00 };
-
-        public TestCode68() : base(0x68, 11) { }
-
-        protected override string ArgsToString(bool noString)
-        {
-            if (_args.SequenceEqual(test1) || _args.SequenceEqual(test2)) {
-                return "";
-            }
-            else {
-                return base.ArgsToString(noString);
-            }
-        }
-    }
 
     public abstract class OpCode
     {
@@ -98,22 +80,22 @@ namespace CSYetiTools
                 0x0A => new PrefixedAddressCode(op, 4), // scope?
                 0x0B => new PrefixedAddressCode(op, 4), // scope?
 
-                0x0C => new OpCode_0C_0D(op),           // seems scope with sub codes
-                0x0D => new OpCode_0C_0D(op),           // seems scope with sub codes
+                0x0C => new OpCode_0C_0D(op),           // scope with sub codes?
+                0x0D => new OpCode_0C_0D(op),           // scope with sub codes?
 
-                0x0E => new OpCode_0E(),                // seems scoped by 0C/0D when count == 0x80CB
-                                                        // all scopes are: [0D] 15 80 0x${code +2} and [0C] 5B 80 0x${code +2}
+                0x0E => new OpCode_0E(),                // scoped by 0C/0D when count == 0x80CB ?
+                                                        // all these scopes are: [0D] 15 80 0x${code +2} and [0C] 5B 80 0x${code +2}
                                                         // and [0E]s are always [0E] 80 80 CB 80
 
                 0x32 => new DebugMenuCode(op),          // debug menu?
 
-                0x44 => new OpCode_44(),            
+                0x44 => new OpCode_44(),
                 0x45 => new DialogCode(),               // dialog
                 0x47 => new ExtraDialogCode(),          // character name
 
                 0x55 => new OpCode_55(),                // title
 
-                //0x68 => new TestCode68(),
+                0x68 => new TextAreaCode(),
 
                 0x85 => new DynamicLengthStringCode(op), // directive message?
                                                          // [85] 0A 00 FF FF is message-box?
@@ -329,20 +311,10 @@ namespace CSYetiTools
         }
 
         protected abstract string ArgsToString();
-
-        protected virtual string ArgsToString(bool noString = false)
-        {
-            return ArgsToString();
-        }
-
+        
         public override string ToString()
         {
-            return ToString(false);
-        }
-
-        public string ToString(bool noString = false)
-        {
-            var args = ArgsToString(noString);
+            var args = ArgsToString();
             if (string.IsNullOrWhiteSpace(args)) return $"[{_code:X02}]";
             else return $"[{_code:X02}] " + args;
         }
