@@ -1,0 +1,607 @@
+{
+  "000014": {
+    "context": "000014",
+    "code": "0x55",
+    "string": "√Before Chapter2"
+  },
+  "000018": {
+    "context": "000018",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——午休结束后——"
+  },
+  "000029": {
+    "context": "000029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "下午是课外授课。"
+  },
+  "000034": {
+    "context": "000034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "乘坐公交，前往校外的研究设施进行社会实践。"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和其他同学由惠那老师领着走出学校。"
+  },
+  "000207": {
+    "context": "000207",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在校门口的公交站等待的同时，真白向纱瑠搭话。"
+  },
+  "000218": {
+    "context": "000218",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「纱瑠，食堂味道好吗？」"
+  },
+  "000247": {
+    "context": "000247",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「普通」"
+  },
+  "000252": {
+    "context": "000252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "像是在谈论刚才一起吃的午饭的话题。"
+  },
+  "000258": {
+    "context": "000258",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（“普通”什么的……也太冷漠了吧）"
+  },
+  "000287": {
+    "context": "000287",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「但是，稍微有些惊讶」"
+  },
+  "000316": {
+    "context": "000316",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「欸，关于什么？」"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「自助购餐的系统」"
+  },
+  "000356": {
+    "context": "000356",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「因为我本以为餐点都是有侍者送过来的」"
+  },
+  "000367": {
+    "context": "000367",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯？」"
+  },
+  "000372": {
+    "context": "000372",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠出人意料的一句话，让夏彦禁不住插了句嘴。"
+  },
+  "000383": {
+    "context": "000383",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「餐点有专人递送……？难道是像贵族大小姐学校一样的地方？」"
+  },
+  "000412": {
+    "context": "000412",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「虽然不知道你说的“贵族大小姐学校”定义是什么，但我反正是第一次自己买饭」"
+  },
+  "000423": {
+    "context": "000423",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「是、是这样吗……？」"
+  },
+  "000428": {
+    "context": "000428",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦有些惊讶，但真白满不在乎地说。"
+  },
+  "000457": {
+    "context": "000457",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哇，不愧是法国的学校，听起来就很高级呢」"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「总之如果还有其它不清楚的地方，尽管问我就好了」"
+  },
+  "000515": {
+    "context": "000515",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「不知道的东西……」"
+  },
+  "000520": {
+    "context": "000520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到真白的话，纱瑠稍加思索——"
+  },
+  "000549": {
+    "context": "000549",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……那个，是什么？」"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后指着校门外说。"
+  },
+  "000799": {
+    "context": "000799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠的指尖朝着街头默默竖着的摄像头。"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「啊，那是监控摄像头」"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「监控摄像头……？为了监视学生？」"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「啊哈哈，不是的。只是为了防止有不怀好意的人进入学校」"
+  },
+  "000920": {
+    "context": "000920",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「这么说我想起来了，昨天在街上也看到了那个。那东西到处都是吗？」"
+  },
+  "000949": {
+    "context": "000949",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「嗯。监控摄像头遍布鹿鸣市各处，是为了留心犯罪者」"
+  },
+  "000954": {
+    "context": "000954",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白自豪地说明着。"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "市内能够实现良好的治安环境，也是得益于此。"
+  },
+  "000988": {
+    "context": "000988",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「可疑的城市。总觉得哪里有些奇怪」"
+  },
+  "001018": {
+    "context": "001018",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「确实有点特殊也说不定呢。这座城，你瞧，毕竟是“政令指定机密都市”嘛」"
+  },
+  "001047": {
+    "context": "001047",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……那是什么？」"
+  },
+  "001076": {
+    "context": "001076",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「嗯、我想，大概是日本特有吧……」"
+  },
+  "001105": {
+    "context": "001105",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「对了夏彦，政经是你的拿手科目吧？说明一下呗」"
+  },
+  "001116": {
+    "context": "001116",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸，我吗？」"
+  },
+  "001139": {
+    "context": "001139",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看上去，真白是想让夏彦和纱瑠聊起来的样子。"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦混杂着叹息开始了说明。"
+  },
+  "001155": {
+    "context": "001155",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……总之呢，这座城市由政府指定的科学特区，为此颁布了头等重视治安的法规」"
+  },
+  "001184": {
+    "context": "001184",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「于是就有了各种各样的特殊制度和街头设施。监控摄像头也是其中的一环啊」"
+  },
+  "001195": {
+    "context": "001195",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「还有什么与众不同的地方？」"
+  },
+  "001206": {
+    "context": "001206",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我想想，首先，迁居必须要经过复杂的手续……」"
+  },
+  "001217": {
+    "context": "001217",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「只要出入城区，就必须先向市政厅申报之类的」"
+  },
+  "001246": {
+    "context": "001246",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……怎么这么严格？」"
+  },
+  "001257": {
+    "context": "001257",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「既然有很多研究设施，就要担心被工业间谍盯上的可能，为此才期望有万全的防范措施的样子」"
+  },
+  "001268": {
+    "context": "001268",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「因为有很多事关国家大计的重要研究在进行，所以也警戒着研究成果的流出」"
+  },
+  "001297": {
+    "context": "001297",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「就是这样。也有关于电话和邮件都会经过筛查的流言呢」"
+  },
+  "001326": {
+    "context": "001326",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「怎么样，纱瑠？这样听起来，有没有感觉整座城都像是一座秘密研究所呢？很科幻很炫酷吧？」"
+  },
+  "001355": {
+    "context": "001355",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「…」"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "对真白的连番追问，纱瑠张大了眼睛。"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真白你又开始胡思乱想了。从出生就住在这里，也早该变成普通的光景了吧？」"
+  },
+  "001382": {
+    "context": "001382",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「监控摄像头什么的，也不过是像“警察巡逻中”的告示一样的东西吧。没做亏心事，不怕鬼敲门」"
+  },
+  "001411": {
+    "context": "001411",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「但是我觉得，稍微有些警备过头了的样子」"
+  },
+  "001440": {
+    "context": "001440",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「不是这样喔，稍微过度警备一点反而让人能够放心呢」"
+  },
+  "001469": {
+    "context": "001469",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「毕竟这座城里，还有那个啊」"
+  },
+  "001492": {
+    "context": "001492",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白这么说着，指向公交站边设置的城市地图。"
+  },
+  "001662": {
+    "context": "001662",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在那地图的一角——城区的外沿，画着一个巨大的六边形建筑物。"
+  },
+  "001673": {
+    "context": "001673",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「那个是……」"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「“LABO”哦。鹿鸣市最大的研究设施——」"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「日本代表性的核能研究所」"
+  },
+  "001702": {
+    "context": "001702",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到那个词，夏彦吓得身子都僵住了。"
+  },
+  "001707": {
+    "context": "001707",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那正是昨天夏彦对真白说的，“这座城里放心不下的，唯一的一点”。"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "LABO——全称"
+  },
+  "001834": {
+    "context": "001834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "“核能与生物学机构·第 6 研究所”"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "对核能及其生物学效应进行研究和技术开发的，独立行政法人。"
+  },
+  "001843": {
+    "context": "001843",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然是国有设施，但其运营和管理都完全委托鹿鸣市负责。"
+  },
+  "001847": {
+    "context": "001847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这座设施的独特之处在于——设施内拥有用于研究的“小型核反应堆”。"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人们用它来进行着能产生巨大收益的各种研究，从原子核裂变实验，到原子核聚变反应堆的开发。"
+  },
+  "001857": {
+    "context": "001857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "而且国家提供了补助资金，用于支持这些伴着危险的研究。"
+  },
+  "001861": {
+    "context": "001861",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那之前还只是普通地方都市的鹿鸣市，得益于此而转变成了科研都市。"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "从经济、工业、科学全方位来看，LABO 可谓是这座城的核心。"
+  },
+  "001956": {
+    "context": "001956",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「一旦有工业间谍，就会首先盯上那里。据说那里汇聚着世界领先的设备和研究人员」"
+  },
+  "001985": {
+    "context": "001985",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「然后夏彦的妈妈，就是当中的袋表呢——」"
+  },
+  "001990": {
+    "context": "001990",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白笑着引出话题。"
+  },
+  "002001": {
+    "context": "002001",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……算是吧」"
+  },
+  "002006": {
+    "context": "002006",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但夏彦显得稍稍扫兴。"
+  },
+  "002154": {
+    "context": "002154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦的母亲“天川美夜子博士”，是一名在 LABO 工作的研究人员。"
+  },
+  "002159": {
+    "context": "002159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然夏彦对她的研究实力和成果没有详细了解，只知道是世界有名的物理学家的样子。"
+  },
+  "002163": {
+    "context": "002163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但对于这样一个冷冷的科学家是他的母亲，夏彦不太喜欢。"
+  },
+  "002279": {
+    "context": "002279",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（那样的母亲他们的研究成果，能给这座城带来巨大的收益吧）"
+  },
+  "002285": {
+    "context": "002285",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（这座城的繁荣也好，我们的生活富足也罢，都拜其所赐。尽管这样……）"
+  },
+  "002290": {
+    "context": "002290",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "事实上，夏彦的母亲领着相当高的薪水。"
+  },
+  "002341": {
+    "context": "002341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但就算如此，夏彦仍然对叫做 LABO 的这座设施提不起好感。"
+  },
+  "002346": {
+    "context": "002346",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这不只是因为和母亲关系不佳。"
+  },
+  "002351": {
+    "context": "002351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真正的理由，关乎夏彦自己的过去。"
+  },
+  "002429": {
+    "context": "002429",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……那天，要是没去 LABO 就好了……）"
+  },
+  "002434": {
+    "context": "002434",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "痛苦的悔恨，在胸中翻腾扩张。"
+  },
+  "002549": {
+    "context": "002549",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……怎么了夏彦，突然一言不发？」"
+  },
+  "002566": {
+    "context": "002566",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸？啊，嗯……」"
+  },
+  "002577": {
+    "context": "002577",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「什么都没有哦。比起这些公交还没来吗？」"
+  },
+  "002643": {
+    "context": "002643",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "话音刚落，公交恰好到站。"
+  },
+  "002672": {
+    "context": "002672",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「好啦同学们，没有规定座次所以上车随便坐就行了——」"
+  },
+  "002742": {
+    "context": "002742",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那么两位，我们坐在一起吧」"
+  },
+  "002753": {
+    "context": "002753",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊可以啊。虽然总觉得会被其它男生瞪着就是了」"
+  },
+  "002777": {
+    "context": "002777",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "002782": {
+    "context": "002782",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠看上去有话要说——"
+  },
+  "002805": {
+    "context": "002805",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "结果还是对真白的话点头表示同意，乘上了公交。"
+  }
+}

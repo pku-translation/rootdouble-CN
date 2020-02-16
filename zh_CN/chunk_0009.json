@@ -1,0 +1,907 @@
+{
+  "000048": {
+    "context": "000048",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000062": {
+    "context": "000062",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "定格的录像上，有三个小孩。"
+  },
+  "000067": {
+    "context": "000067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一个戴着眼镜的少年，一个金发少女，还有一个看不清样子的少女。"
+  },
+  "000072": {
+    "context": "000072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "三个人都像是穿着校服。"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "突然惠那和洵同时开口了。"
+  },
+  "000088": {
+    "context": "000088",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「不会吧，为什么天川他们会在这里！？」"
+  },
+  "000099": {
+    "context": "000099",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「诶！？那另外两个就是真白和露易斯！？」"
+  },
+  "000110": {
+    "context": "000110",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯？你认识她们两个吗？」"
+  },
+  "000121": {
+    "context": "000121",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「当然了！我是他们三个的副班主任」"
+  },
+  "000132": {
+    "context": "000132",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我是上周碰巧认识了他们……」"
+  },
+  "000143": {
+    "context": "000143",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什么！？」"
+  },
+  "000242": {
+    "context": "000242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多在惊讶的渡濑背后，说道。"
+  },
+  "000253": {
+    "context": "000253",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「其实，我也见过这三个小孩」"
+  },
+  "000264": {
+    "context": "000264",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「为什么见过？」"
+  },
+  "000275": {
+    "context": "000275",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「首先我跟这个少年住在隔壁。其次这个少年的母亲也在这个设施里工作。就是这样」"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「所以他们是来看他的母亲的吗？」"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「额……这我就不太清楚了……」"
+  },
+  "000326": {
+    "context": "000326",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「总而言之他们在别的几个画面里也出现了。然后最后一次出现的画面是——」"
+  },
+  "000355": {
+    "context": "000355",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「 7 点 12 分，在第 5 区域的画面」"
+  },
+  "000360": {
+    "context": "000360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这句话，渡濑立即理解了宇喜多想说什么。"
+  },
+  "000371": {
+    "context": "000371",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「等一下……画面是 7 点 12 分的，然后隔离墙是在 7 点放下来的……」"
+  },
+  "000400": {
+    "context": "000400",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「嗯。除了在这里的 6 个人以外，至少还有 3 个人被困在了 LABO 里」"
+  },
+  "000411": {
+    "context": "000411",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什么……！」"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑看向画面里的三人。"
+  },
+  "000439": {
+    "context": "000439",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（他们在这里做什么？）"
+  },
+  "000444": {
+    "context": "000444",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真的是来见他的母亲的，还是有什么别的目的——"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「老师……这三个高中生叫什么？」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「男生叫做“天川 夏彦”」"
+  },
+  "000480": {
+    "context": "000480",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「那两个女生，分别叫“鸟羽真白”和“三之宫·路易斯·优衣”」"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000491": {
+    "context": "000491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "总觉得这几个名字有点耳熟。"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "感觉这几个名字很亲切，好像已经认识了很久一样。"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（该不会，我是……）"
+  },
+  "000508": {
+    "context": "000508",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（为了帮助他们几个才下到地下来的？）"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么想着，他向宇喜多发问。"
+  },
+  "000578": {
+    "context": "000578",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「你说他们三个还被困在这里面，是真的吗？」"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我不完全确定，但是基本肯定是这样的」"
+  },
+  "000612": {
+    "context": "000612",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多指向房间一角的电话。"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「紧急电话也断了。PDA 也打不通」"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我们也试过了，果然还是不行啊」"
+  },
+  "000676": {
+    "context": "000676",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这么说着，惠那突然开口了。"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「对了。有人会用“ BC ”吗？」"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶……BC？」"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「是。也就是传心术」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「用这个跟外面通讯，至少可以知道一些外面的情况」"
+  },
+  "000787": {
+    "context": "000787",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「传，传心术……！」"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这样不着边际的话，渡濑睁大了双眼。"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「老师，这种时候还开什么玩笑啊？」"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「啊，队长你的失忆有点严重啊……这种事都忘了吗？」"
+  },
+  "000843": {
+    "context": "000843",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「能用传心术的人，最近这段时间可不少」"
+  },
+  "000854": {
+    "context": "000854",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什……真的吗！？」"
+  },
+  "000859": {
+    "context": "000859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑困惑地看向剩下的人。"
+  },
+  "000864": {
+    "context": "000864",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是只有渡濑一个人对这件事感到了惊讶。"
+  },
+  "000875": {
+    "context": "000875",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那个，橘。老师说的事是真的吗？」"
+  },
+  "000904": {
+    "context": "000904",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯，是真的」"
+  },
+  "000915": {
+    "context": "000915",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这里提到的传心术，是能把声音传到远处的人的能力」"
+  },
+  "000944": {
+    "context": "000944",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「确实如果用传心术的话，就可以跟外面联络上——」"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但是就算说是不少，实际上有这个能力的人 500 个里可能只有 1 个吧？」"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「还有，能用 BC 的人大部分是小孩，能用这个的大人相比起来少得多」"
+  },
+  "001013": {
+    "context": "001013",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队长自不用说，救援队里也没有能用这个的人」"
+  },
+  "001042": {
+    "context": "001042",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我也更不用说了。悠里能用吗？」"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「我，我……不行。我不擅长 BC ……」"
+  },
+  "001076": {
+    "context": "001076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "大家都带着认真的表情回答了。"
+  },
+  "001081": {
+    "context": "001081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然一时之间还是很难相信，但是看大家的反应，这个事情应该不是假的。"
+  },
+  "001092": {
+    "context": "001092",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「真的吗……？所以，还有能使用别的超能力的人吗？」"
+  },
+  "001103": {
+    "context": "001103",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「比如那个，瞬间移动啊念动啊」"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「做不到的吧。这都是超自然现象的领域了」"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「传心术不是超自然现象吗？」"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「 BC 是被科学证明存在的“能力”。并不“超”的」"
+  },
+  "001201": {
+    "context": "001201",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「 BC 是“ Beyond Communication ”——不需要通过语言作为媒介的一种沟通手段」"
+  },
+  "001212": {
+    "context": "001212",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「是一种能给远处的人传递自己想法的能力。除此之外没有作用」"
+  },
+  "001217": {
+    "context": "001217",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听上去 BC 的能力范围十分狭窄。"
+  },
+  "001222": {
+    "context": "001222",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但，即使她说的是真的——"
+  },
+  "001233": {
+    "context": "001233",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯确实，我们有人会用传心术的话就好了……」"
+  },
+  "001244": {
+    "context": "001244",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「但 500 个人里只出 1 个的人，也不知道我们这里有没有」"
+  },
+  "001273": {
+    "context": "001273",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「但是那群孩子们能使用传心术哦？」"
+  },
+  "001284": {
+    "context": "001284",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶！？如果他们在的话我们就可以跟外面联络了吗！？」"
+  },
+  "001313": {
+    "context": "001313",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「如果他们在的话，但是……啊真是的，太可惜了。我也能有这个能力的话就快多了」"
+  },
+  "001318": {
+    "context": "001318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "突然，一个混杂着噪音的声音响起，"
+  },
+  "001330": {
+    "context": "001330",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "盖住了惠那的声音。"
+  },
+  "001417": {
+    "context": "001417",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「——……是 Sirius 司令长，村上」"
+  },
+  "001425": {
+    "context": "001425",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「橘，收到请回复。完毕」"
+  },
+  "001436": {
+    "context": "001436",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什么！？」"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「是无线电！终于又跟外界联络上了！」"
+  },
+  "001579": {
+    "context": "001579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见取出 PDA 并回答道。"
+  },
+  "001608": {
+    "context": "001608",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「收到。我是 Sirius A队副队长，橘」"
+  },
+  "001616": {
+    "context": "001616",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「橘！看起来无线电通讯终于恢复了！」"
+  },
+  "001645": {
+    "context": "001645",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是通话还是非常不稳定。这次通话也不知道能持续多久」"
+  },
+  "001653": {
+    "context": "001653",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「那就简要报告一下吧。你们那边情况怎样？」"
+  },
+  "001682": {
+    "context": "001682",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「收到。现在我们——」"
+  },
+  "001687": {
+    "context": "001687",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见对指挥长讲述了直到现在发生的所有事情。"
+  },
+  "001692": {
+    "context": "001692",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "与渡濑汇合以后，救助了悠里、惠那、宇喜多的事情。"
+  },
+  "001697": {
+    "context": "001697",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看起来她暂且没有把渡濑失忆相关的事情告诉司令长。"
+  },
+  "001702": {
+    "context": "001702",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听完这个报告的司令长，苦涩地说道。"
+  },
+  "001710": {
+    "context": "001710",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「这样……果然 A 队的所有人都去了地下啊」"
+  },
+  "001721": {
+    "context": "001721",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「也就是说堂岛和桧山都没有回到地面吗？」"
+  },
+  "001729": {
+    "context": "001729",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「嗯，看起来地上和地下现在被完全隔离开了」"
+  },
+  "001734": {
+    "context": "001734",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "司令长用郑重的声音说完后，风见向他发问。"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「话说回来司令长，能告诉我为什么隔离墙会放下来吗？」"
+  },
+  "001771": {
+    "context": "001771",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「其实我们也没太搞清楚状况……但是我有事情要告诉你」"
+  },
+  "001779": {
+    "context": "001779",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「“地下的核反应堆发生了堆芯熔毁”。这件事是真的」"
+  },
+  "001790": {
+    "context": "001790",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「果然……！」"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「 6 点 19 分的爆炸发生以后，LABO 的技术人员开始在地上的远距操作室里，进行核反应堆的紧急停堆工作」"
+  },
+  "001807": {
+    "context": "001807",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「但是然后，发生了出乎意料的事情」"
+  },
+  "001815": {
+    "context": "001815",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「短时冷却水无法循环，水压调整系统故障，通风系统无法操作之类的」"
+  },
+  "001823": {
+    "context": "001823",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「技术人员竭尽所能阻止堆芯熔毁——」"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「但是即使如此，还是没有改变结果……」"
+  },
+  "001837": {
+    "context": "001837",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「这也是隔离墙关闭的原因」"
+  },
+  "001854": {
+    "context": "001854",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「与堆芯熔毁同时的，防止辐射泄露系统开始工作」"
+  },
+  "001883": {
+    "context": "001883",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「防止辐射泄漏系统……！」"
+  },
+  "001891": {
+    "context": "001891",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「嗯，目的是阻止放射性物质扩散」"
+  },
+  "001920": {
+    "context": "001920",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「所以这个隔离墙，可以暂时打开一下的对吧？」"
+  },
+  "001925": {
+    "context": "001925",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到风见的话，大家的脸上浮现出期待的神色。"
+  },
+  "001930": {
+    "context": "001930",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是——"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「这个，有点不太好说……」"
+  },
+  "001946": {
+    "context": "001946",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「目前来看，这件事情不太可能……！」"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不可能！？为什么！？」"
+  },
+  "001983": {
+    "context": "001983",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「目前看来在核反应堆的所在地“ N 区域”，堆芯熔毁导致的火灾还在继续燃烧——」"
+  },
+  "001991": {
+    "context": "001991",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「因此安全系统失控了，没有办法从外面来操作」"
+  },
+  "001999": {
+    "context": "001999",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「看起来只有灭火以后系统才能恢复正常，但是 N 区域的自动灭火系统已经坏了，火没法灭掉」"
+  },
+  "002007": {
+    "context": "002007",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「因此 LABO 的员工现在正在全力恢复系统……」"
+  },
+  "002036": {
+    "context": "002036",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「恢复系统，大概需要多少时间！」"
+  },
+  "002044": {
+    "context": "002044",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「……估计的话……」"
+  },
+  "002052": {
+    "context": "002052",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「还需要 9 个小时」"
+  },
+  "002144": {
+    "context": "002144",
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "「——！」"
+  },
+  "002149": {
+    "context": "002149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到“ 9 小时”这个数字，在场的所有人都倒吸一口凉气。"
+  },
+  "002178": {
+    "context": "002178",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「别……别开玩笑了！快点炸开隔离墙，打开一个出口吧！」"
+  },
+  "002186": {
+    "context": "002186",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「橘，对不起！但是我做不到！」"
+  },
+  "002197": {
+    "context": "002197",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「为什么！？用 C4 炸弹不就好了吗！」"
+  },
+  "002205": {
+    "context": "002205",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「把地下和地上隔开的天花板和隔离门，是 8 层的耐热耐冲击复合钢板！ C4 这样的东西拿他没有办法！」"
+  },
+  "002213": {
+    "context": "002213",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「它是为了应对水蒸气爆炸和氢气爆炸的。我们所带的装备……」"
+  },
+  "002242": {
+    "context": "002242",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不，不是吧……」"
+  },
+  "002247": {
+    "context": "002247",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一直保持冷静的风见呆住了。"
+  },
+  "002276": {
+    "context": "002276",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「这里有很多被困人员……你们真的什么也做不了了吗……！？」"
+  },
+  "002284": {
+    "context": "002284",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「我们也竭尽所能了，但是——…时间——……——了」"
+  },
+  "002289": {
+    "context": "002289",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "突然，声音变得断断续续。"
+  },
+  "002300": {
+    "context": "002300",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「司令长！？声音有点断断续续的！」"
+  },
+  "002308": {
+    "context": "002308",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「——…号不太好！　——时间了，我有来自 LABO 员工的话要告诉你！」"
+  },
+  "002313": {
+    "context": "002313",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "司令长发现通话快要断了，语速也快了起来。"
+  },
+  "002321": {
+    "context": "002321",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「——…——应对这样的事情，在设施内各个地方都存放了 AD ！」"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「继续保持注射！然后远离危险区域！」"
+  },
+  "002337": {
+    "context": "002337",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「——的话，就肯定能延长存活时间！」"
+  },
+  "002342": {
+    "context": "002342",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悲痛的声音传向四周。"
+  },
+  "002347": {
+    "context": "002347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见一脸难受地沉默着，听着司令官的话。"
+  },
+  "002355": {
+    "context": "002355",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…——…你了，橘。要跟笠鹭和守部一起合作——」"
+  },
+  "002384": {
+    "context": "002384",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「司令长！？声音又听不到了！」"
+  },
+  "002392": {
+    "context": "002392",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「——…不到了吗！？好像通讯也――…」"
+  },
+  "002403": {
+    "context": "002403",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「司令长！司令长！」"
+  },
+  "002408": {
+    "context": "002408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见奋力地喊着——"
+  },
+  "002419": {
+    "context": "002419",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然而无线电还是，无情地中断了。"
+  }
+}
