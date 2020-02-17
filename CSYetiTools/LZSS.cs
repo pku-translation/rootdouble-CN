@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     internal static class LZSS
     {

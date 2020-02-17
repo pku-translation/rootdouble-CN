@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     /// <summary>
     /// A simple runtime string formatter.

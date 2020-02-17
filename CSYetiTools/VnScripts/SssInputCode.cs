@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     /*********************************************************************************
         Route-A:    [87] 01 00 [ 1 0 1 0 0 0 0 0 0 ] = 渡瀬 洵 yellow
@@ -49,49 +48,7 @@ namespace CSYetiTools.OpCodes
         public override int ArgLength
             => 2 + _ennegrams.Length * 18 + 2; // 0xFFFF as end.
 
-        public override byte[] ArgsToBytes()
-        {
-            using var ms = new MemoryStream();
-            using var bw = new BinaryWriter(ms);
-            bw.Write(_type);
-            foreach (var ennegram in _ennegrams)
-            {
-                foreach (var elem in ennegram)
-                {
-                    bw.Write(elem);
-                }
-            }
-            bw.Write((short)-1);
-            bw.Flush();
-            return ms.ToArray();
-        }
-
-        protected override string ArgsToString()
-        {
-            var builder = new StringBuilder()
-                .AppendLine(TypeName[_type])
-                .Append("               Active:   [ ");
-            foreach (var elem in _ennegrams[0]) 
-            {
-                builder.Append(elem).Append(' ');
-            }
-            builder.Append("]");
-            for (int i = 1; i < _ennegrams.Length; ++i)
-            {
-                builder.AppendLine()
-                    .Append("               Answer ")
-                    .Append(i.ToString())
-                    .Append(": [ ");
-                foreach (var elem in _ennegrams[i])
-                {
-                    builder.Append(elem).Append(' ');
-                }
-                builder.Append("]");
-            }
-            return builder.ToString();
-        }
-
-        protected override void Read(BinaryReader reader)
+        protected override void ReadArgs(BinaryReader reader)
         {
             _type = reader.ReadInt16();
             if (_type < 0 || _type >= TypeName.Length) throw new InvalidDataException("$Invalid SssInputCode type {_type}");
@@ -109,6 +66,42 @@ namespace CSYetiTools.OpCodes
                 ennegrams.Add(ennegram);
             }
             _ennegrams = ennegrams.ToArray();
+        }
+
+        protected override void WriteArgs(BinaryWriter writer)
+        {
+            writer.Write(_type);
+            foreach (var ennegram in _ennegrams)
+            {
+                foreach (var elem in ennegram)
+                {
+                    writer.Write(elem);
+                }
+            }
+            writer.Write((short)-1);
+        }
+
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.WriteLine(TypeName[_type]);
+            writer.Write("               Active:   [ ");
+            foreach (var elem in _ennegrams[0])
+            {
+                writer.Write(elem); writer.Write(' ');
+            }
+            writer.Write("]");
+            for (int i = 1; i < _ennegrams.Length; ++i)
+            {
+                writer.WriteLine();
+                writer.Write("               Answer ");
+                writer.Write(i);
+                writer.Write(": [ ");
+                foreach (var elem in _ennegrams[i])
+                {
+                    writer.Write(elem); writer.Write(' ');
+                }
+                writer.Write("]");
+            }
         }
     }
 }

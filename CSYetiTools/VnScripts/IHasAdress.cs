@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     public interface IHasAddress
     {

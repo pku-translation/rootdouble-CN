@@ -1,7 +1,6 @@
 using System.IO;
-using System.Linq;
 
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     // Content/Offset is public for en->jp replacement
     //    poor design :(
@@ -14,7 +13,10 @@ namespace CSYetiTools.OpCodes
         public CodeAddressData ContentOffset { get; set; } = new CodeAddressData();
 
         public bool IsOffset { get; set; }
-
+        
+        protected int ContentLength
+            => IsOffset ? 4 : Utils.GetStringZByteCount(Content);
+        
         protected void ReadString(BinaryReader reader)
         {
             if (IsOffset)
@@ -27,11 +29,17 @@ namespace CSYetiTools.OpCodes
             }
         }
 
-        protected int ContentLength
-            => IsOffset ? 4 : Utils.GetStringZByteCount(Content);
-
-        protected byte[] ContentToBytes()
-            => IsOffset ? GetBytes(ContentOffset) : Utils.GetStringZBytes(Content).ToArray();
+        protected void WriteString(BinaryWriter writer)
+        {
+            if (IsOffset)
+            {
+                WriteAddress(writer, ContentOffset);
+            }
+            else
+            {
+                Utils.WriteStringZ(writer, Content);
+            }
+        }
 
         protected string ContentToString()
             => "\"" + Content.Replace("\"", "\\\"").Replace("\n", "\\n") + "\"";

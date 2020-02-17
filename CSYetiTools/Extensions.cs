@@ -4,10 +4,40 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     public static class Extensions
     {
+        private static char[] Hex1Table = "0123456789ABCDEF".ToArray();
+
+        private static string[] Hex2Table = Enumerable.Range(0, 256).Select(i => {
+            Span<char> span = stackalloc char[2] { Hex1Table[i / 16], Hex1Table[i % 16] };
+            return new string(span);
+        }).ToArray();
+
+        public static string ToHex(this byte b)
+        {
+            var s = b.ToString("X02");
+            System.Diagnostics.Debug.Assert(s == Hex2Table[b]);
+            return s;
+        }
+        
+        public static string ToHex(this int i)
+        {
+            // Span<byte> span = stackalloc byte[sizeof(int)];
+            // BitConverter.TryWriteBytes(span, i);
+            // return BytesToHex(span);
+            return i.ToString("X08");
+        }
+
+        public static string ToHex(this short s)
+        {
+            // Span<byte> span = stackalloc byte[sizeof(short)];
+            // BitConverter.TryWriteBytes(span, s);
+            // return BytesToHex(span);
+            return s.ToString("X04");
+        }
+
         public static void Times(this int times, Action action)
         {
             for (int i = 0; i < times; ++i) action();

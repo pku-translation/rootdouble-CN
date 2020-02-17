@@ -1,4 +1,4 @@
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     public class DialogCode : FixedLengthStringCode
     {
@@ -24,9 +24,10 @@ namespace CSYetiTools.OpCodes
             }
         }
 
-        protected override string ArgsToString()
+        protected override void DumpArgs(System.IO.TextWriter writer)
         {
-            return "<Dialog> " + base.ArgsToString();
+            writer.Write(" <Dialog>");
+            base.DumpArgs(writer);
         }
     }
 }

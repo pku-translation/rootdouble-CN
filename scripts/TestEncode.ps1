@@ -2,4 +2,4 @@
 
 & $Run encode-sn `
     --inputdir=$DataRoot/sn_en_steam `
-    --output=$DataRoot/sn_en_steam_test.bin 
+    --output=$DataRoot/sn_en_steam_test.bin

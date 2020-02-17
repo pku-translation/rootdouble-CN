@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     public static class Utils
     {
@@ -18,25 +18,15 @@ namespace CSYetiTools
             return Cp932.GetString(bytes.ToArray());
         }
 
-        public static string ReadStringZ(byte[] bytes, int index)
+        public static void WriteStringZ(BinaryWriter writer, string content)
         {
-            var strBytes = new List<byte>();
-            while (bytes[index] != 0x00)
-            {
-                strBytes.Add(bytes[index++]);
-            }
-            return Cp932.GetString(strBytes.ToArray());
+            writer.Write(Cp932.GetBytes(content));
+            writer.Write((byte)0x00);
         }
 
         public static int GetStringZByteCount(string str)
         {
             return Cp932.GetByteCount(str) + 1;
-        }
-
-        public static IEnumerable<byte> GetStringZBytes(string str)
-        {
-            foreach (var b in Cp932.GetBytes(str)) yield return b;
-            yield return 0x00;
         }
 
         public static byte ParseByte(string input)
@@ -62,14 +52,43 @@ namespace CSYetiTools
                 .ToArray();
         }
 
-        public static string ByteToHex(byte b)
-        {
-            return b.ToString("X02");
-        }
-
         public static string BytesToHex(IEnumerable<byte> bytes)
         {
-            return string.Join(' ', bytes.Select(ByteToHex));
+            using var enumerator = bytes.GetEnumerator();
+            return BytesToHex(enumerator);
+        }
+
+        public static string BytesToHex(IEnumerator<byte> enumerator)
+        {
+            var builder = new StringBuilder();
+            if (enumerator.MoveNext())
+            {
+                builder.Append(enumerator.Current.ToHex());
+            }
+            while (enumerator.MoveNext())
+            {
+                builder.Append(' ').Append(enumerator.Current.ToHex());
+            }
+            return builder.ToString();
+        }
+
+        public static string BytesToHex(byte[] bytes)
+        {
+            return BytesToHex((IEnumerable<byte>)bytes);
+        }
+
+        public static string BytesToHex(Span<byte> span)
+        {
+            var builder = new StringBuilder();
+            if (span.Length > 0)
+            {
+                builder.Append(span[0].ToHex());
+            }
+            for (int i = 1; i < span.Length; ++i)
+            {
+                builder.Append(' ').Append(span[i].ToHex());
+            }
+            return builder.ToString();
         }
 
         public static IEnumerable<string> BytesToTextLines(byte[] bytes, int extraStart = 0, bool withHeader = true, bool withOffset = true)
@@ -97,7 +116,7 @@ namespace CSYetiTools
             }
             foreach (var b in bytes)
             {
-                buffer[position++] = ByteToHex(b);
+                buffer[position++] = b.ToHex();
                 if (position == rowSize)
                 {
                     yield return CurrentLine();
@@ -122,5 +141,22 @@ namespace CSYetiTools
             }
         }
 
+        public static string Time(Action action)
+        {
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
+            action();
+            stopwatch.Stop();
+            return stopwatch.ElapsedMilliseconds + " ms";
+        }
+
+        public static (T, string) Time<T>(Func<T> action)
+        {
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
+            var result = action();
+            stopwatch.Stop();
+            return (result, stopwatch.ElapsedMilliseconds + " ms");
+        }
     }
 }

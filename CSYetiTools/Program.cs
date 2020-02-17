@@ -7,11 +7,12 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using CommandLine;
 using Newtonsoft.Json.Linq;
+using CsYetiTools.VnScripts;
 using Flurl;
 using Flurl.Util;
 using Flurl.Http;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     class Program
     {
@@ -24,22 +25,6 @@ namespace CSYetiTools
 
         [Verb("gen-string-compare", HelpText = "Generate string compare file")]
         class GenStringCompareOptions
-        {
-            [Option("input")]
-            public string Input { get; set; } = "";
-
-            [Option("input-steam")]
-            public string InputSteam { get; set; } = "";
-
-            [Option("outputdir")]
-            public string OutputDir { get; set; } = "";
-
-            [Option("modifier-file")]
-            public string ModifierFile { get; set; } = "string_list_modifiers.sexpr";
-        }
-
-        [Verb("gen-code-compare", HelpText = "Generate code compare file")]
-        class GenCodeCompareOptions
         {
             [Option("input")]
             public string Input { get; set; } = "";
@@ -146,12 +131,14 @@ namespace CSYetiTools
 
         static async Task Main(string[] args)
         {
+            var stopwatch = new System.Diagnostics.Stopwatch();
+            stopwatch.Start();
+
             await Parser.Default.ParseArguments<
                 TestBedOptions,
                 EncodeSnOptions,
                 DecodeSnOptions,
                 GenStringCompareOptions,
-                GenCodeCompareOptions,
                 ReplaceStringListOptions,
                 DumpTranslateSourceOptions,
                 FillTransifexDuplicatedStringsOptions
@@ -160,14 +147,15 @@ namespace CSYetiTools
                 (EncodeSnOptions o) => Task.Run(() => EncodeSn(o)),
                 (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
                 (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
-                (GenCodeCompareOptions o) => Task.Run(() => GenCodeCompare(o)),
                 (ReplaceStringListOptions o) => Task.Run(() => ReplaceStringList(o)),
                 (DumpTranslateSourceOptions o) => Task.Run(() => DumpTranslateSource(o)),
                 (FillTransifexDuplicatedStringsOptions o) => FillTransifexDuplicatedStrings(o),
                 errs => Task.Run(() => errs.ForEach(HandleError))
             );
 
-            Console.WriteLine("Done.");
+            stopwatch.Stop();
+
+            Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
         }
 
         private static void TestBed(TestBedOptions options)
@@ -187,7 +175,6 @@ namespace CSYetiTools
             var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
             Console.WriteLine($"Decoding {input} --> {outputDir} ...");
             var package = new SnPackage(input, options.IsStringPooled);
-
             package.Dump(outputDir, Path.GetFileNameWithoutExtension(input), options.IsDumpBinary, options.IsDumpScript);
         }
 
@@ -255,42 +242,6 @@ namespace CSYetiTools
                 DumpText(Path.Combine(outputDir, $"chunk_{i:0000}_steam.txt"), c2s);
             }
             writer.WriteLine($"{n} different files");
-        }
-
-        private static void GenCodeCompare(GenCodeCompareOptions options)
-        {
-            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
-            Console.WriteLine($"Gen code compare --> {outputDir}");
-
-            var package = new SnPackage(options.Input, isStringPooled: false);
-            var packageSteam = new SnPackage(options.InputSteam, isStringPooled: true);
-
-            var dumpDir = new DirectoryInfo(outputDir);
-            if (dumpDir.Exists)
-            {
-                foreach (var file in dumpDir.EnumerateFiles()) file.Delete();
-            }
-            else
-            {
-                dumpDir.Create();
-            }
-            foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
-            {
-                var writer1 = new StringWriter();
-                var writer2 = new StringWriter();
-                //s1.DumpText(writer1, "{nostrcode}", footer: false);
-                //s2.DumpText(writer2, "{nostrcode}", footer: false);
-                s1.DumpText(writer1, "{code}", footer: false);
-                s2.DumpText(writer2, "{code}", footer: false);
-
-                var str1 = writer1.ToString();
-                var str2 = writer2.ToString();
-                if (str1 != str2)
-                {
-                    File.WriteAllText(Path.Combine(outputDir, $"chunk_{i:0000}_code_ref.txt"), str1, Encoding.UTF8);
-                    File.WriteAllText(Path.Combine(outputDir, $"chunk_{i:0000}_code_steam.txt"), str2, Encoding.UTF8);
-                }
-            }
         }
 
         private static SnPackage GenerateStringReplacedPackage(string input, string inputRef, string modifiersFile)
@@ -374,9 +325,9 @@ namespace CSYetiTools
                 if (chunkIndex == 0) continue;
 
                 var list = new JArray();
-                foreach (var code in script.Codes.OfType<OpCodes.StringCode>())
+                foreach (var code in script.Codes.OfType<StringCode>())
                 {
-                    if (code is OpCodes.ExtraDialogCode) continue;
+                    if (code is ExtraDialogCode) continue;
 
                     var content = code.Content;
                     if (regex.IsMatch(code.Content))
@@ -384,14 +335,15 @@ namespace CSYetiTools
                         if (dict.TryGetValue(content, out var entry))
                         {
                             ++entry.DupCounter;
-                            list.Add(JObject.FromObject(new {
+                            list.Add(JObject.FromObject(new
+                            {
                                 source_entity_hash = GetMd5Hash($"{code.Index:000000}:{code.Index:000000}"),
                                 translation = $"@import {entry.Chunk:0000} {entry.Index:000000}"
                             }));
                         }
                         else
                         {
-                            dict.Add(content, new DupEntry{ Chunk = chunkIndex, Index = code.Index, DupCounter = 1 });
+                            dict.Add(content, new DupEntry { Chunk = chunkIndex, Index = code.Index, DupCounter = 1 });
                         }
                     }
                 }
@@ -416,7 +368,7 @@ namespace CSYetiTools
                             .WithHeader("Content-Type", "application/json")
                             .PutStringAsync(list.ToString())
                             .ReceiveString();
-                        
+
                         Console.WriteLine(result);
                     }
                     catch (FlurlHttpException exc)

@@ -1,9 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     public class PrefixedAddressCode : OpCode, IHasAddress
     {
@@ -18,16 +16,22 @@ namespace CSYetiTools.OpCodes
         public override int ArgLength
             => _prefix.Length + 4;
 
-        public override byte[] ArgsToBytes()
-            => _prefix.Concat(GetBytes(_address.AbsoluteOffset)).ToArray();
-
-        protected override string ArgsToString()
-            => Utils.BytesToHex(_prefix) + " " + _address.ToString();
-
-        protected override void Read(BinaryReader reader) {
+        protected override void ReadArgs(BinaryReader reader)
+        {
             reader.Read(_prefix, 0, _prefix.Length);
-            _address.BaseOffset = _offset;
-            _address.AbsoluteOffset = reader.ReadInt32();
+            _address = ReadAddress(reader);
+        }
+
+        protected override void WriteArgs(BinaryWriter writer)
+        {
+            writer.Write(_prefix);
+            WriteAddress(writer, _address);
+        }
+
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(Utils.BytesToHex(_prefix));
+            writer.Write(' '); writer.Write(_address);
         }
         
         public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)

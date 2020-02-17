@@ -1,4 +1,4 @@
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     public class ExtraDialogCode : DynamicLengthStringCode
     {
@@ -13,7 +13,10 @@ namespace CSYetiTools.OpCodes
         public bool IsCharacter
             => Short1 == 0x0D;
 
-        protected override string ArgsToString()
-            => (IsCharacter ? "<Character> " : "<ExDialog> ") + base.ArgsToString();
+        protected override void DumpArgs(System.IO.TextWriter writer)
+        {
+            writer.Write(IsCharacter ? " <Character>" : " <ExDialog>");
+            base.DumpArgs(writer);
+        }
     }
 }

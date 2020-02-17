@@ -3,17 +3,15 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace CSYetiTools
+namespace CsYetiTools.VnScripts
 {
     public sealed class SnPackage
     {
-        private class FootersChunk
+        public class FootersChunk
         {
             private CodeScriptFooter[] _footers;
 
@@ -39,13 +37,12 @@ namespace CSYetiTools
                 
                 var checkFooter = footers[^2];
                 var accFooter = new CodeScriptFooter();
-                for (int i = 0; i < footers.Count - 2; ++i)
+                foreach (var footer in footers.SkipLast(2))
                 {
-                    var f = footers[i];
-                    accFooter.IndexedDialogCount += f.IndexedDialogCount;
-                    accFooter.Unknown += f.Unknown;
-                    accFooter.FlagCodeCount += f.FlagCodeCount;
-                    accFooter.ScriptIndex += f.ScriptIndex;
+                    accFooter.IndexedDialogCount += footer.IndexedDialogCount;
+                    accFooter.Unknown += footer.Unknown;
+                    accFooter.FlagCodeCount += footer.FlagCodeCount;
+                    accFooter.ScriptIndex += footer.ScriptIndex;
                 }
                 if (!accFooter.Equals(checkFooter))
                 {
@@ -53,6 +50,22 @@ namespace CSYetiTools
                 }
 
                 _footers = footers.ToArray();
+            }
+
+            public FootersChunk(IEnumerable<CodeScriptFooter> footers)
+            {
+                var list = footers.ToList();
+                var accFooter = new CodeScriptFooter();
+                foreach (var footer in footers)
+                {
+                    accFooter.IndexedDialogCount += footer.IndexedDialogCount;
+                    accFooter.Unknown += footer.Unknown;
+                    accFooter.FlagCodeCount += footer.FlagCodeCount;
+                    accFooter.ScriptIndex += footer.ScriptIndex;
+                }
+                list.Add(accFooter);
+                list.Add(new CodeScriptFooter{ IndexedDialogCount = -1 });
+                _footers = list.ToArray();
             }
 
             public byte[] ToBytes()
@@ -77,19 +90,14 @@ namespace CSYetiTools
             }
         }
 
-
-        #region Members
-
         private CodeScript[] _codeScripts;
 
-        private FootersChunk _footers;
-
-        #endregion
+        public FootersChunk Footers
+            => new FootersChunk(_codeScripts.Select(s => s.Footer));
 
         private SnPackage(CodeScript[] scripts, FootersChunk footers)
         {
             _codeScripts = scripts;
-            _footers = footers;
         }
 
         public SnPackage(string filename, bool isStringPooled)
@@ -116,12 +124,12 @@ namespace CSYetiTools
                     chunks.Add(chunk);
                 }
 
-                _footers = new FootersChunk(chunks.Last());
+                var footers = new FootersChunk(chunks.Last());
 
                 var codeScripts = new List<CodeScript>();
                 for (int i = 0; i < chunks.Count - 1; ++i)
                 {
-                    codeScripts.Add(new CodeScript(chunks[i], _footers[i], isStringPooled));
+                    codeScripts.Add(new CodeScript(chunks[i], footers[i], isStringPooled));
                 }
                 _codeScripts = codeScripts.ToArray();
 
@@ -130,6 +138,8 @@ namespace CSYetiTools
             {
                 throw new ArgumentException("Incomplete file");
             }
+
+            System.Diagnostics.Debug.Assert(bytes.SequenceEqual(ToRawBytes()));
         }
 
         public static SnPackage CreateFrom(string dirPath, bool isStringPooled)
@@ -154,31 +164,41 @@ namespace CSYetiTools
 
             if (isDumpBinary)
             {
-                foreach (var (i, script) in _codeScripts.WithIndex())
+                Parallel.ForEach(_codeScripts.WithIndex(), entry =>
                 {
-                    File.WriteAllBytes(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript"), script.GetRawBytes());
-                }
-                File.WriteAllBytes(Path.Combine(dirPath, $"footers_{postfix}"), _footers.ToBytes());
+                    var (i, script) = entry;
+                    var path = Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript");
+                    using (var writer = new BinaryWriter(File.Create(path), Encoding.Default, leaveOpen: false))
+                    {
+                        script.WriteTo(writer);
+                    }
+                    //File.WriteAllBytes(, script.ToRawBytes());
+                });
+                File.WriteAllBytes(Path.Combine(dirPath, $"footers_{postfix}"), Footers.ToBytes());
             }
 
             if (isDumpScript)
             {
-                using var errorWriter = new StreamWriter(Path.Combine(dirPath, "parse_error.log"));
+                var errors = new List<string>();
                 Parallel.ForEach(_codeScripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
                     script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript-dump.txt"));
-                    if (script.ParserError != null)
+                    if (script.ParseError != null)
                     {
-                        var errorInfo = $"Error parsing chunk_{i:0000}_{postfix}: \r\n" + script.ParserError + "\r\n-------------------------------------------------------\r\n";
-                        errorWriter.WriteLine(errorInfo);
+                        var errorInfo = $"Error parsing chunk_{i:0000}_{postfix}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
+                        lock (errors) errors.Add(errorInfo);
                     }
                 });
+                if (errors.Count > 0)
+                {
+                    File.WriteAllLines(Path.Combine(dirPath, "parse_error.log"), errors);
+                }
             }
 
             using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers_{postfix}.txt")))
             {
-                _footers.Dump(writer);
+                Footers.Dump(writer);
             }
         }
 
@@ -197,15 +217,15 @@ namespace CSYetiTools
                 var contents = new JObject();
                 string? currentName = null;
 
-                foreach (var code in script.Codes.OfType<OpCodes.StringCode>())
+                foreach (var code in script.Codes.OfType<StringCode>())
                 {
                     var index = $"{code.Index:000000}";
-                    if (code is OpCodes.ExtraDialogCode dialogCode && dialogCode.IsCharacter)
+                    if (code is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
                     {
                         currentName = code.Content;
                         names.Add(code.Content);
                     }
-                    else if (code is OpCodes.DialogCode || code is OpCodes.ExtraDialogCode)
+                    else if (code is DialogCode || code is ExtraDialogCode)
                     {
                         var content = new
                         {
@@ -236,9 +256,9 @@ namespace CSYetiTools
                     jsonWriter.Formatting = Formatting.Indented;
                     contents.WriteTo(jsonWriter);
                 }
-                if (script.ParserError != null)
+                if (script.ParseError != null)
                 {
-                    errors.Add($"Error parsing chunk_{i:0000}: \r\n" + script.ParserError + "\r\n-------------------------------------------------------\r\n");
+                    errors.Add($"Error parsing chunk_{i:0000}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n");
                 }
             }
 
@@ -269,7 +289,7 @@ namespace CSYetiTools
 
         public void WriteTo(Stream stream)
         {
-            var rawBytes = GetRawBytes();
+            var rawBytes = ToRawBytes();
             var bytes = LZSS.Encode(rawBytes).ToArray();
             
             stream.Write(BitConverter.GetBytes(rawBytes.Length));
@@ -288,7 +308,7 @@ namespace CSYetiTools
         public IReadOnlyList<CodeScript> Scripts
             => Array.AsReadOnly(_codeScripts);
 
-        public byte[] GetRawBytes()
+        public byte[] ToRawBytes()
         {
             var lengths = new int[_codeScripts.Length + 1];
             var chunks = new byte[_codeScripts.Length + 1][];
@@ -296,12 +316,12 @@ namespace CSYetiTools
             Parallel.ForEach(_codeScripts.WithIndex(), entry =>
             {
                 var (i, script) = entry;
-                var rawBytes = script.GetRawBytes();
+                var rawBytes = script.ToRawBytes();
                 chunks[i] = rawBytes;
                 lengths[i] = rawBytes.Length;
             });
 
-            var footersChunk = _footers.ToBytes();
+            var footersChunk = Footers.ToBytes();
             lengths[_codeScripts.Length] = footersChunk.Length;
             chunks[_codeScripts.Length] = footersChunk;
 
@@ -317,9 +337,9 @@ namespace CSYetiTools
                     offset += length;
                 }
 
-                foreach (var ch in chunks)
+                foreach (var chunk in chunks)
                 {
-                    ms.Write(ch);
+                    ms.Write(chunk);
                 }
                 return ms.ToArray();
             }

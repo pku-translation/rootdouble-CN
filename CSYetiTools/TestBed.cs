@@ -1,11 +1,9 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using CSYetiTools.OpCodes;
+using CsYetiTools.VnScripts;
 
-namespace CSYetiTools
+namespace CsYetiTools
 {
     class TestBed
     {
@@ -48,17 +46,16 @@ namespace CSYetiTools
             
             foreach (var script in enPackage.Scripts)
             {
-                foreach (var code in script.Codes) 
+                foreach (var code in script.GetCodes<TextAreaCode>()) 
                 {
-                    if (code is TextAreaCode c && c.IsTestTarget)
+                    if (code.IsEnArea)
                     {
-                        c.ChangeArgs(0x0A, 0x00, 0x64, 0x00, 0x00, 0x00, 0x38, 0x04, 0x60, 0x00);
+                        code.Y = 24;
                     }
                 }
             }
 
             enPackage.WriteTo(FilePath("sn.bin"));
-            enPackage.Dump(FilePath("test_dump/"), "e", false, true);
 
         }
     }

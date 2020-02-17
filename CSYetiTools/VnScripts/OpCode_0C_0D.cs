@@ -1,9 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
-namespace CSYetiTools.OpCodes
+namespace CsYetiTools.VnScripts
 {
     public class OpCode_0C_0D : OpCode, IHasAddress
     {
@@ -19,21 +17,22 @@ namespace CSYetiTools.OpCodes
         public override int ArgLength
             => 6;
 
-        public override byte[] ArgsToBytes()
-        {
-            return GetBytes(_unknown1)
-                .Concat(GetBytes(_targetOffset))
-                .ToArray();
-        }
-
-        protected override string ArgsToString()
-            => Utils.BytesToHex(GetBytes(_unknown1)) + " " + _targetOffset.ToString();
-
-        protected override void Read(BinaryReader reader)
+        protected override void ReadArgs(BinaryReader reader)
         {
             _unknown1 = reader.ReadInt16();
-            _targetOffset.BaseOffset = _offset;
-            _targetOffset.AbsoluteOffset = reader.ReadInt32();
+            _targetOffset = ReadAddress(reader);
+        }
+
+        protected override void WriteArgs(BinaryWriter writer)
+        {
+            writer.Write(_unknown1);
+            WriteAddress(writer, _targetOffset);
+        }
+
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(_unknown1.ToHex());
+            writer.Write(' '); writer.Write(_targetOffset);
         }
         
         public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)

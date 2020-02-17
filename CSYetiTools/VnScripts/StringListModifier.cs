@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CSYetiTools
+namespace CsYetiTools.VnScripts
 {
     public class StringListModifier
     {

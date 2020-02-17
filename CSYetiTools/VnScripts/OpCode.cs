@@ -2,10 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using CSYetiTools.OpCodes;
 
-namespace CSYetiTools
+namespace CsYetiTools.VnScripts
 {
     public class CodeAddressData
     {
@@ -89,7 +87,6 @@ namespace CSYetiTools
 
                 0x32 => new DebugMenuCode(op),          // debug menu?
 
-                0x44 => new OpCode_44(),
                 0x45 => new DialogCode(),               // dialog
                 0x47 => new ExtraDialogCode(),          // character name
 
@@ -155,6 +152,7 @@ namespace CSYetiTools
 
                     0x42 => 9,
                     0x43 => 5,
+                    0x44 => 5,
 
                     0x48 => 3,
                     0x49 => 5,
@@ -217,23 +215,6 @@ namespace CSYetiTools
             };
         }
 
-        protected static byte[] GetBytes(int n)
-            => BitConverter.GetBytes(n);
-        protected static byte[] GetBytes(short n)
-            => BitConverter.GetBytes(n);
-
-        protected byte[] GetBytes(CodeAddressData address)
-            => BitConverter.GetBytes(address.AbsoluteOffset);
-
-        private static string GetContext(Stream stream)
-        {
-            const int length = 64;
-            var buffer = new byte[length];
-            var offset = (int)stream.Position;
-            var read = stream.Read(buffer);
-            return string.Join(Environment.NewLine, Utils.BytesToTextLines(buffer.Take(read).ToArray(), offset));
-        }
-
         public static OpCode GetNextCode(BinaryReader reader, IReadOnlyList<OpCode> prevCodes, bool isStringPooled)
         {
             var offset = (int)reader.BaseStream.Position;
@@ -261,14 +242,22 @@ namespace CSYetiTools
                 {
                     strCode.IsOffset = isStringPooled;
                 }
-                opCode.Read(reader);
+                opCode.ReadArgs(reader);
 
+                #if DEBUG
+                // check parse result
+                reader.BaseStream.Seek(-opCode.TotalLength, SeekOrigin.Current);
+                var opBytes = reader.ReadBytes(opCode.TotalLength);
+                System.Diagnostics.Debug.Assert(opBytes.SequenceEqual(opCode.ToBytes()), $"OpCode 0x{op:X02} parsing is invalid");
+                #endif
+                
                 return opCode;
             }
             catch (Exception exc)
             {
                 reader.BaseStream.Seek(offset, SeekOrigin.Begin);
-                var context = GetContext(reader.BaseStream);
+                var buffer = reader.ReadBytes(64);
+                var context = string.Join(Environment.NewLine, Utils.BytesToTextLines(buffer, offset));
                 reader.BaseStream.Seek(offset, SeekOrigin.Begin);
                 throw new OpCodeParseException($"Error parsing code {op:X02}", context, exc);
             }
@@ -296,29 +285,55 @@ namespace CSYetiTools
 
         public byte[] ToBytes()
         {
-            var argsBytes = ArgsToBytes();
-            var bytes = new byte[argsBytes.Length + 1];
-            bytes[0] = _code;
-            argsBytes.CopyTo(bytes, 1);
-            return bytes;
+            using var ms = new MemoryStream();
+            using (var writer = new BinaryWriter(ms)) WriteTo(writer);
+            return ms.ToArray();
         }
 
-        public abstract byte[] ArgsToBytes();
+        public void WriteTo(BinaryWriter writer)
+        {
+            writer.Write(_code);
+            WriteArgs(writer);
+        }
+
+        public void Dump(TextWriter writer)
+        {
+            writer.Write('[');
+            writer.Write(Code.ToHex());
+            writer.Write(']');
+            DumpArgs(writer);
+        }
 
         protected OpCode(byte code)
         {
             _code = code;
         }
 
-        protected abstract string ArgsToString();
-        
         public override string ToString()
         {
-            var args = ArgsToString();
-            if (string.IsNullOrWhiteSpace(args)) return $"[{_code:X02}]";
-            else return $"[{_code:X02}] " + args;
+            using var writer = new StringWriter();
+            Dump(writer);
+            return writer.ToString();
         }
 
-        protected abstract void Read(BinaryReader reader);
+        protected CodeAddressData ReadAddress(BinaryReader reader)
+        {
+            return new CodeAddressData(_offset, reader.ReadInt32());
+        }
+
+        protected void WriteAddress(BinaryWriter writer, CodeAddressData address)
+        {
+            if (address.BaseOffset != _offset)
+            {
+                throw new InvalidOperationException($"Writing address data with {nameof(address.BaseOffset)}(0x{address.BaseOffset:X08}) != {_offset}");
+            }
+            writer.Write(address.AbsoluteOffset);
+        }
+
+        protected abstract void ReadArgs(BinaryReader reader);
+
+        protected abstract void WriteArgs(BinaryWriter writer);
+
+        protected abstract void DumpArgs(TextWriter writer);
     }
 }
