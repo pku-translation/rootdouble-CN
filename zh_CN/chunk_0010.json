@@ -1,0 +1,1405 @@
+{
+  "000008": {
+    "context": "000008",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……」"
+  },
+  "000082": {
+    "context": "000082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见懊悔地把 PDA 拿开了。"
+  },
+  "000087": {
+    "context": "000087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑他们呆住了，小声地交谈着。"
+  },
+  "000098": {
+    "context": "000098",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「恢复系统还需要…… 9 小时……！？」"
+  },
+  "000128": {
+    "context": "000128",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「太久了吧！为什么会这么久！？」"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「发生堆芯熔毁的核反应堆，就在我们边上吗……！」"
+  },
+  "000164": {
+    "context": "000164",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这种环境下的 9 小时——对他们来说太过于漫长了。"
+  },
+  "000169": {
+    "context": "000169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见看起来放弃了期待外面的增援。"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑用沙哑的声音，开口说道。"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「宇喜多……」"
+  },
+  "000308": {
+    "context": "000308",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……怎么了」"
+  },
+  "000319": {
+    "context": "000319",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这个“核泄漏阻断系统”到底是什么……！？」"
+  },
+  "000348": {
+    "context": "000348",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0004 002426"
+  },
+  "000359": {
+    "context": "000359",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「就因为这个，我们没法升起隔离墙……为什么在地下还有人的时候，这个系统也启动了？」"
+  },
+  "000370": {
+    "context": "000370",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「堆芯熔毁又到底是什么！？」"
+  },
+  "000381": {
+    "context": "000381",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「请告诉我！我还什么都不知道，不知道这到底有多可怕！」"
+  },
+  "000469": {
+    "context": "000469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多犹豫地，看了所有人一圈，然后说道。"
+  },
+  "000498": {
+    "context": "000498",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「唔……看起来还有不知道的人，那我还是说明一下比较好……」"
+  },
+  "000527": {
+    "context": "000527",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0002 002723"
+  },
+  "000571": {
+    "context": "000571",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「会是非常简要的说明，可以吗？」"
+  },
+  "000582": {
+    "context": "000582",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯……麻烦你了」"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑说完，宇喜多开始静静说道。"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「堆芯熔毁是指——核反应堆的堆芯因为出现异常的高温，出现熔毁这一事件」"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「一般来说，在核反应堆里工作的核燃料会经过完全冷却，所以不会发生这一现象……」"
+  },
+  "000656": {
+    "context": "000656",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「有时没法得到应有的冷却，导致出现堆芯的最大可承受温度以上的温度，核反应堆就会出现损坏」"
+  },
+  "000667": {
+    "context": "000667",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「然后炙热的核燃料就会泄露到外部」"
+  },
+  "000678": {
+    "context": "000678",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「 N 区域发生的“大火灾”就是因为这个吗？」"
+  },
+  "000689": {
+    "context": "000689",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「嗯。恐怕极其高温的核燃料，点燃了周围的可燃物」"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「熔化的核燃料一般超过 3000 摄氏度，能点燃一切接触到的物质」"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「现在火灾还继续在烧，说明损坏十分严重对吧？」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「你说的应该是对的」"
+  },
+  "000787": {
+    "context": "000787",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「而且从自动灭火系统被破坏这一事实来看，可能发生了爆炸」"
+  },
+  "000816": {
+    "context": "000816",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「核燃料一旦遇到水分，就会引起水蒸气爆炸。N 区域大概已经变成了充满热风的地狱」"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多有些僵硬的笑着，回答道。"
+  },
+  "000850": {
+    "context": "000850",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……然后不用我说，核燃料就是放射性物质」"
+  },
+  "000879": {
+    "context": "000879",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「从核反应堆里出来以后，就会对周围放出辐射」"
+  },
+  "000890": {
+    "context": "000890",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「举个例子的话——对了、你们听说过“切尔诺贝利核事故”吗？」"
+  },
+  "000901": {
+    "context": "000901",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「没有……」"
+  },
+  "000906": {
+    "context": "000906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到他说完全没有印象，宇喜多叹了口气，继续说。"
+  },
+  "000935": {
+    "context": "000935",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「这是在差不多半个世纪前，在前苏联发生的，人类史上最大的核危机」"
+  },
+  "000964": {
+    "context": "000964",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「核电站里的核反应堆发生了堆芯熔毁，进而引发了水蒸气爆炸」"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「十吨的放射性物质，从核反应堆里泄漏到了外界」"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「这差不多是广岛核爆的量的五百倍，导致了大量的人员死亡」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「仅是最开始参加事故处理的核电站工作人员和消防员，有 3000 人死亡。再这之后伤亡数字更是不断增加」"
+  },
+  "001008": {
+    "context": "001008",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「最后的死亡人数，直到现在都还不清楚——一般认为大概有数十万」"
+  },
+  "001019": {
+    "context": "001019",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「数十万！？为什么会有这么多死者……！」"
+  },
+  "001048": {
+    "context": "001048",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「这是放射性物质导致的」"
+  },
+  "001059": {
+    "context": "001059",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我们称之为“死亡之灰”，它随着爆炸和火灾在空中飘荡，随着雨水落向大地」"
+  },
+  "001088": {
+    "context": "001088",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「明白吗？这是他最为恐怖的地方。想想如果地下这种程度的辐射，扩散到周围的话……！」"
+  },
+  "001099": {
+    "context": "001099",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……所以，你是说死亡之灰会泄露出来，污染设施之外吗？」"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「是的。事实上切尔诺贝利周围的地方，在最近 900 年内都不适合人类居住」"
+  },
+  "001139": {
+    "context": "001139",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「所以对于堆芯熔毁时的紧急应对，是汲取了过去国内外的核事故的教训——」"
+  },
+  "001150": {
+    "context": "001150",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「现在主流思想是将控制放射性物质的扩散视为第一要务」"
+  },
+  "001161": {
+    "context": "001161",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「所以这个设施，在发生堆芯熔毁的时候，就会自动封闭所有的隔离墙」"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「“事态 N ”也就是一个警示大家隔离墙会强制封闭的代号」"
+  },
+  "001183": {
+    "context": "001183",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……原来是这样吗……！」"
+  },
+  "001188": {
+    "context": "001188",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "确实如果核反应堆被坚固无比的符合钢板封闭起来的话，万一堆芯熔毁发生，处理起来就简单多了。"
+  },
+  "001193": {
+    "context": "001193",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "如果只是普通的钢筋混凝土建筑的话，发生水蒸气爆炸的话整个建筑就崩塌了。"
+  },
+  "001198": {
+    "context": "001198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为了避免这件事情发生，整个设施被做成巨大的金属盒子，一旦发生事故，把盖子盖上就能把里面密闭住。"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这样想的话就能理解了——"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……那，被困在里面的人怎么办呢？」"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「对啊，就没有逃生出口吗！？」"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「通风管道之类的……现在我们还能呼吸，说明有空气流通的通道对吧？」"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「不行，在通风管道各处都安装有能滤过放射性物质的装置。这些装置把通向其他区域和地上的通路都隔断了」"
+  },
+  "001294": {
+    "context": "001294",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「当然，认识过不去的。所以不可能通过通风管道逃生」"
+  },
+  "001305": {
+    "context": "001305",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「连这里都考虑到了吗！？」"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「是的。不管是哪里的核设施，都在安全方面极度谨慎」"
+  },
+  "001345": {
+    "context": "001345",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「现在这个 LABO 的地下楼层，已经跟外界完全隔绝了。就算是一粒灰尘也不会泄露到外面」"
+  },
+  "001356": {
+    "context": "001356",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「所以就像刚刚的联络说的那样，我们只能一边注射 AD ，一边等待隔离墙打开——」"
+  },
+  "001361": {
+    "context": "001361",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵打断了宇喜多的话，说道。"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「等一下，宇喜多……等这么久看上去好像不太可能」"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「为，为什么？」"
+  },
+  "001424": {
+    "context": "001424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵从怀里拿出 Procyon ，继续回答道。"
+  },
+  "001435": {
+    "context": "001435",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「看看 Procyon 的数值……现在是“ 1605 mSv ”」"
+  },
+  "001446": {
+    "context": "001446",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「但是隔离墙刚封锁的时候，还只有“ 100 mSv ”上下」"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「虽然地方不一样，数值也会有稍许变动……但是数值是一直在缓缓升高的」"
+  },
+  "001486": {
+    "context": "001486",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「什么！？」"
+  },
+  "001491": {
+    "context": "001491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说到这里渡濑也反应过来了。"
+  },
+  "001496": {
+    "context": "001496",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第一次看到 Procyon 的数值时，还只有大概“ 1100 mSv ”。"
+  },
+  "001501": {
+    "context": "001501",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "从那时到现在的这短短的时间内，数值确实是上升了。"
+  },
+  "001512": {
+    "context": "001512",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「为，为什么会这样，宇喜多！？为什么数值一直在上升！？」"
+  },
+  "001523": {
+    "context": "001523",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「既然采取了很多措施防止放射性物质向外扩散，设施内难道什么措施也没有吗！？」"
+  },
+  "001552": {
+    "context": "001552",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……没，没有，那个……」"
+  },
+  "001581": {
+    "context": "001581",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……我也不太清楚……！」"
+  },
+  "001592": {
+    "context": "001592",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「不太清楚！？」"
+  },
+  "001621": {
+    "context": "001621",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「各个区域之间的门禁和隔离门一样，也是为了防止放射性物质扩散的……」"
+  },
+  "001650": {
+    "context": "001650",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但是因为这样的爆炸和火灾，门禁或者内部墙壁可能哪里发生了破损也说不定……」"
+  },
+  "001661": {
+    "context": "001661",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「也有可能，通风管道里的过滤系统坏了……」"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「什，什么嘛！？这就是“在安全方面谨慎”吗！」"
+  },
+  "001785": {
+    "context": "001785",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那眉毛倒竖，愤怒的逼近宇喜多。"
+  },
+  "001796": {
+    "context": "001796",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「还有人被困在地下，就擅自封锁隔离墙，而且还没办法打开！」"
+  },
+  "001853": {
+    "context": "001853",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「辐射越来越强！电话和无线电都用不了！电梯没法工作，灭火系统也没有效果！」"
+  },
+  "001882": {
+    "context": "001882",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「到处都是漏洞！这是个什么核泄漏阻断系统啊！」"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「唔，嗯……确，确实在安全方面我们有很多疏忽的地方……」"
+  },
+  "001940": {
+    "context": "001940",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但是，系统的失控，爆炸的发生，这些都是我们预想之外的事情——」"
+  },
+  "001969": {
+    "context": "001969",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「所谓“在安全方面谨慎”，不就是让这些预想之外的事情不要发生吗！？」"
+  },
+  "001988": {
+    "context": "001988",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「老师说的对，宇喜多！」"
+  },
+  "001999": {
+    "context": "001999",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「“预想之外”换句话说，就是“本应预想到但是疏忽了”对吧！？」"
+  },
+  "002010": {
+    "context": "002010",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那最后我们的安全问题怎么办！？」"
+  },
+  "002039": {
+    "context": "002039",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但，但是！虽然我是 LABO 的员工，也不代表我要对安全系统负责啊！？」"
+  },
+  "002050": {
+    "context": "002050",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「你们的愤怒我理解，但是请稍微冷静一下！」"
+  },
+  "002064": {
+    "context": "002064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「等，等一下老师，先冷静下来！」"
+  },
+  "002093": {
+    "context": "002093",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「冷静下来！？这我怎么冷静的下来！」"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「先不说我，我的学生们也被困在这里面了！」"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！」"
+  },
+  "002166": {
+    "context": "002166",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑大吃一惊，看向刚刚的显示器。"
+  },
+  "002211": {
+    "context": "002211",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——他们也被困在这个极度危险的地方了。"
+  },
+  "002216": {
+    "context": "002216",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "得不到援助，被火焰和辐射驱赶，只能无助的寻找出口。"
+  },
+  "002227": {
+    "context": "002227",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「早一分钟也好，至少也要把 AD 给他们……！」"
+  },
+  "002232": {
+    "context": "002232",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那带着哭腔说道。"
+  },
+  "002237": {
+    "context": "002237",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然看起来是一个强势的女性——但是毕竟，她也是一个教师，会担心学生也是没办法的事情。"
+  },
+  "002290": {
+    "context": "002290",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「老师，我们马上去找他们吧！」"
+  },
+  "002319": {
+    "context": "002319",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「嗯！」"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑他们飞奔出房间的时候，尖利的声音响起。"
+  },
+  "002354": {
+    "context": "002354",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「你们两个，等一下！」"
+  },
+  "002383": {
+    "context": "002383",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「橘！？怎么了吗？」"
+  },
+  "002421": {
+    "context": "002421",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「在开始搜索他们之前……我们刚刚还留下了一个问题没有讨论」"
+  },
+  "002430": {
+    "context": "002430",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（但是，这……！）"
+  },
+  "002454": {
+    "context": "002454",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "正这么想的时候，风见说出了渡濑的想法。"
+  },
+  "002465": {
+    "context": "002465",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不，椿山……我们现在还面临一个问题」"
+  },
+  "002494": {
+    "context": "002494",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「诶！？」"
+  },
+  "002523": {
+    "context": "002523",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「即使和他们汇合了，为了保证所有人的生命，一个小时就需要 9 支 AD」"
+  },
+  "002552": {
+    "context": "002552",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是我们现在只剩下——仅仅 5 支 AD」"
+  },
+  "002563": {
+    "context": "002563",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「且不说给他们，这样下去的话，我们 6 个人下一个小时的生存都成问题……！」"
+  },
+  "002568": {
+    "context": "002568",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这句话，众人屏住了呼吸。"
+  },
+  "002597": {
+    "context": "002597",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「 5 ，5 支？……就这么多吗！？」"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「很抱歉……我们没有预想到会发生这样的情况」"
+  },
+  "002655": {
+    "context": "002655",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「准备也太不充分了吧！你们是救援队不是吗！？」"
+  },
+  "002684": {
+    "context": "002684",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……真的是，很抱歉」"
+  },
+  "002739": {
+    "context": "002739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "指责和道歉，追究和对立——听到这些话语，渡濑咬牙切齿。"
+  },
+  "002745": {
+    "context": "002745",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（情况太糟糕了……！）"
+  },
+  "002750": {
+    "context": "002750",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为了保证全员不受辐射影响，一个小时最少需要 6 支 AD 。"
+  },
+  "002755": {
+    "context": "002755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是每救助一个被困人员，需要的 AD 数量就会随之增加。"
+  },
+  "002760": {
+    "context": "002760",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "救了悠里以后， AD 也没有现在这么不足——"
+  },
+  "002766": {
+    "context": "002766",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（老师和宇喜多加入了以后……现在就变的越来越缺了）"
+  },
+  "002771": {
+    "context": "002771",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为什么会出现这么糟糕的情况，这个原因他不清楚，也没有思考的余地。"
+  },
+  "002776": {
+    "context": "002776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是，现在该做的事情就非常清楚了。"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「也就是说，我们要在搜索“三名被困人员”的同时——」"
+  },
+  "002845": {
+    "context": "002845",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「找到“足够所有人用的 AD ”……！」"
+  },
+  "002874": {
+    "context": "002874",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯，这个要尽快完成」"
+  },
+  "002879": {
+    "context": "002879",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见看着显示器，说道。"
+  },
+  "002890": {
+    "context": "002890",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「要在他们的“累积照射”达到致死量以前……！」"
+  },
+  "002901": {
+    "context": "002901",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「累积照射？」"
+  },
+  "002906": {
+    "context": "002906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到渡濑的问题，风见开始快速的说明。"
+  },
+  "002935": {
+    "context": "002935",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「受到的辐射会在体内累积。这个累积的总数就叫做累积照射」"
+  },
+  "002946": {
+    "context": "002946",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「 Procyon 上显示的是，“在这个地方，一小时大概会收到的照射”」"
+  },
+  "002957": {
+    "context": "002957",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「也就是说此时此刻，“一小时大致会受到 1605 mSv 的照射”」"
+  },
+  "002968": {
+    "context": "002968",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「累积照射达到 2000 mSv 的时候，致死率大约百分之五。如果达到 4000 mSv 的话，致死率大约百分之五十」"
+  },
+  "002997": {
+    "context": "002997",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「然后如果达到 8000 mSv 的话，百分之九十九都会死亡」"
+  },
+  "003008": {
+    "context": "003008",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「也就是说，随着累积照射的增加，死亡的几率的增速会越来越大」"
+  },
+  "003019": {
+    "context": "003019",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「然后只要被照射，就不能再减少累积照射了」"
+  },
+  "003024": {
+    "context": "003024",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "也就是说在现在的情况下，如果得不到 AD 的话——"
+  },
+  "003029": {
+    "context": "003029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两个半小时大概会受到 4000 mSv 的照射，五个小时大概会受到 8000 mSV 的照射。"
+  },
+  "003035": {
+    "context": "003035",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（如果得不到 AD 的话，我们几个小时以内就会死……！）"
+  },
+  "003040": {
+    "context": "003040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多说的话印证了渡濑的想法。"
+  },
+  "003086": {
+    "context": "003086",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「但是 AD 可以完全抵抗 4000 mSv 以下的辐射」"
+  },
+  "003115": {
+    "context": "003115",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「然后在 8000 mSv 左右的环境下，也能有效的延长生命」"
+  },
+  "003126": {
+    "context": "003126",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「只要还在继续注射 AD ，累积照射就不会增加」"
+  },
+  "003137": {
+    "context": "003137",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这是真的吗？可以的话想看看确凿的证据——」"
+  },
+  "003166": {
+    "context": "003166",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「虽然很难以置信，但是请相信我。 AD 是我们 LABO 的最高杰作」"
+  },
+  "003177": {
+    "context": "003177",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「碘剂，螯合剂，普鲁士蓝等九种抗辐射药物，加上医疗用的纳米机器人，全身防辐射药——」"
+  },
+  "003206": {
+    "context": "003206",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「虽然在静脉注射，但是会到达全身，保护细胞、血液、神经系统、遗传物质」"
+  },
+  "003217": {
+    "context": "003217",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「只需要三分钟就能到达胃和肺部的粘膜，切断放射性物质的吸收途径」"
+  },
+  "003246": {
+    "context": "003246",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「还可以跟放射性物质反应并使其无效化，然后通过汗液和尿液之类的方式排出体外」"
+  },
+  "003257": {
+    "context": "003257",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「正是因为知道其不可思议的效果，我才会如此镇定。不然的话我会更慌张才是」"
+  },
+  "003268": {
+    "context": "003268",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「明……明白了！」"
+  },
+  "003273": {
+    "context": "003273",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多的语气和表情看起来都不像是在说谎。"
+  },
+  "003278": {
+    "context": "003278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "所以只要能注射 AD ，就能保证生存。"
+  },
+  "003283": {
+    "context": "003283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是从 AD 用尽那一刻起，每分每秒他们都会更接近死亡。"
+  },
+  "003314": {
+    "context": "003314",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「如果这样的话，现在就不是在这里说话的时间了！」"
+  },
+  "003343": {
+    "context": "003343",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「我们要收集设施内所有剩下的 AD ，然后要找到夏彦他们！」"
+  },
+  "003354": {
+    "context": "003354",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那宇喜多！可以用监控摄像来搜索被困人员吗！？」"
+  },
+  "003383": {
+    "context": "003383",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是啊，还可以用内部广播来呼叫他们！」"
+  },
+  "003412": {
+    "context": "003412",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「不行，这个……现在广播用不了了，监控摄像头也几乎都坏了」"
+  },
+  "003423": {
+    "context": "003423",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「为什么坏了？」"
+  },
+  "003452": {
+    "context": "003452",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「因为火灾和爆炸吧……监控记录也是，很多数据都丢失了」"
+  },
+  "003481": {
+    "context": "003481",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「通过查看剩下的录像记录，他们应该是在朝“第 6 区域”前进……」"
+  },
+  "003492": {
+    "context": "003492",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第 6 区域吗！」"
+  },
+  "003497": {
+    "context": "003497",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他们在朝着比第 3 区域远的多的区域前进。"
+  },
+  "003502": {
+    "context": "003502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是只要知道这个就足够了。"
+  },
+  "003513": {
+    "context": "003513",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那正好……除了那三个人，很可能还有别的被困人员」"
+  },
+  "003524": {
+    "context": "003524",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「为了救援所有的被困人员，有必要搜索所有的区域」"
+  },
+  "003553": {
+    "context": "003553",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯，第 1 区域和第 2 区域已经搜索完毕了」"
+  },
+  "003564": {
+    "context": "003564",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「从目前的第 3 区域，朝着第 6 区域一边搜索一边前进，我们就可以搜索所有的区域」"
+  },
+  "003593": {
+    "context": "003593",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「堂岛和桧山，应该也在这里面某处」"
+  },
+  "003622": {
+    "context": "003622",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「那两个人不仅有 AD ，同时也是跟队长差不多强的人。能汇合的话就放心了！」"
+  },
+  "003633": {
+    "context": "003633",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好！橘，守部，立即开始行动！」"
+  },
+  "003638": {
+    "context": "003638",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "惠那对渡濑他们坚定地说。"
+  },
+  "003670": {
+    "context": "003670",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「我……我也要去！」"
+  },
+  "003699": {
+    "context": "003699",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「嗯。大家一起边搜索边前进的话，效率会比较高」"
+  },
+  "003774": {
+    "context": "003774",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「但是，我们不能接受一般民众的帮助——」"
+  },
+  "003803": {
+    "context": "003803",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「现在是说这个的时候吗！？」"
+  },
+  "003832": {
+    "context": "003832",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「是啊。而且我对 LABO 非常了解。多少能派上点用场」"
+  },
+  "003861": {
+    "context": "003861",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「我也是……虽然可能什么忙也帮不上，但是我会加油的」"
+  },
+  "003866": {
+    "context": "003866",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多和悠里也说道。"
+  },
+  "003891": {
+    "context": "003891",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「不……橘说得对，就让我们救援队三人来搜索吧」"
+  },
+  "003920": {
+    "context": "003920",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「三人！？就你们三个，怎么搜索这么大的 LABO 呢！？」"
+  },
+  "003949": {
+    "context": "003949",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「是啊，这样太花时间了！」"
+  },
+  "003954": {
+    "context": "003954",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "大家指责渡濑的时候，洵开口说道。"
+  },
+  "003983": {
+    "context": "003983",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队长，副队长……比起规则我们更应该以实际情况为准。大家都很想参加」"
+  },
+  "003998": {
+    "context": "003998",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘，他们说的有道理……把时间浪费在争吵上太不值得了」"
+  },
+  "004027": {
+    "context": "004027",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是啊副队长，比起规则我们更应该以实际情况为准」"
+  },
+  "004042": {
+    "context": "004042",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「就连悠里都这么说了……橘！」"
+  },
+  "004047": {
+    "context": "004047",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考虑到 LABO 这么大，帮忙搜索的人自然是越多越好。"
+  },
+  "004052": {
+    "context": "004052",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后对于能鼓起勇气的悠里，他不想让她的决心浪费。"
+  },
+  "004081": {
+    "context": "004081",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0010 004027"
+  },
+  "004090": {
+    "context": "004090",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（橘，我们该怎么办……？）"
+  },
+  "004095": {
+    "context": "004095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在渡濑看向风见的时候，洵富有气势地说道。"
+  },
+  "004124": {
+    "context": "004124",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「副队长，比起规则我们更应该以实际情况为准！大家都很想参加」"
+  },
+  "004153": {
+    "context": "004153",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……确实，我们没什么选择……！」"
+  },
+  "004158": {
+    "context": "004158",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬的犹豫过后，风见点了点头。"
+  },
+  "004163": {
+    "context": "004163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——六个人为了同一个目的而统一了想法。"
+  },
+  "004168": {
+    "context": "004168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先是“为了活下来”。"
+  },
+  "004173": {
+    "context": "004173",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后是“救援被困人员”。"
+  },
+  "004178": {
+    "context": "004178",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "为了达成这两个目的，必须马上行动起来。"
+  },
+  "004189": {
+    "context": "004189",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那我们抓紧吧，具体怎么搜索呢？」"
+  },
+  "004200": {
+    "context": "004200",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「因为我们只有两台 Procyon 和两张门禁卡，那就分成两队搜索吧」"
+  },
+  "004229": {
+    "context": "004229",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队伍怎么分呢？」"
+  },
+  "004376": {
+    "context": "004376",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「为了平衡考虑，首先我和队长还有悠里分为一队吧」"
+  },
+  "004387": {
+    "context": "004387",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「明白！」"
+  },
+  "004416": {
+    "context": "004416",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「明……明白了」"
+  },
+  "004528": {
+    "context": "004528",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「那这边是，我和椿山还有宇喜多一队对吧？」"
+  },
+  "004539": {
+    "context": "004539",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「嗯」"
+  },
+  "004550": {
+    "context": "004550",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「我也没有意见」"
+  },
+  "004657": {
+    "context": "004657",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那么，我们在内环楼搜索，然后守部队你们在外环楼搜索吧」"
+  },
+  "004686": {
+    "context": "004686",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「搜索目标一共是四个——」"
+  },
+  "004697": {
+    "context": "004697",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「“被困人员”和“ AD ”」"
+  },
+  "004708": {
+    "context": "004708",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「然后可以的话，还有为了前往第 5 区域所需要的“等级 5 门禁卡”和“逃生通道”」"
+  },
+  "004719": {
+    "context": "004719",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「 AD 装在铁制的“医疗箱”里。也有一些可能掉在路边，要小心的检查」"
+  },
+  "004748": {
+    "context": "004748",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「时间紧迫所以大家请抓紧时间……！但是绝对不要急躁，要注意自身的安全！」"
+  },
+  "004759": {
+    "context": "004759",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那么，就有劳各位了！」"
+  },
+  "004767": {
+    "context": "004767",
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "@import 0002 002801"
+  },
+  "004772": {
+    "context": "004772",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说完，渡濑他们从监控室里飞奔而出。"
+  }
+}
