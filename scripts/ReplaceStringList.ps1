@@ -1,8 +1,8 @@
 . $PSScriptRoot/Defines.ps1
 
 & $Run replace-string-list `
-    --modifiers=$DataRoot/string_list_modifiers.sexpr `
-    --input-ref=$DataRoot/sn_jp_psv.bin `
-    --input-steam=$DataRoot/sn_en_steam.bin `
+    --modifiers=$DataRoot/string_list_modifiers.ss `
+    --input-ref=$DataRoot/psv/sn.bin `
+    --input-steam=$DataRoot/steam/sn.bin `
     --output=$DataRoot/sn_steam_modified.bin `
-    #--dump-result-text-path=$DataRoot/sn_en_steam_modified/
+    #--dump-result-text-path=$DataRoot/steam_sn_modified/

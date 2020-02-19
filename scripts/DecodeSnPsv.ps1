@@ -1,6 +1,6 @@
 . $PSScriptRoot/Defines.ps1
 
 & $Run decode-sn `
-    --input=$DataRoot/sn_jp_psv.bin `
-    --outputdir=$DataRoot/sn_jp_psv `
+    --input=$DataRoot/psv/sn.bin `
+    --outputdir=$DataRoot/sn_psv `
     --dump-binary --dump-script

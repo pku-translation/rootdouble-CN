@@ -1,7 +1,7 @@
 . $PSScriptRoot/Defines.ps1
 
 & $Run dump-trans-source `
-    --input=$DataRoot/sn_en_steam.bin `
-    --input-ref=$DataRoot/sn_jp_psv.bin `
+    --input=$DataRoot/steam/sn.bin `
+    --input-ref=$DataRoot/psv/sn.bin `
     --outputdir=$PSScriptRoot/../source_json `
-    --modifier-file=$DataRoot/string_list_modifiers.sexpr
+    --modifier-file=$DataRoot/string_list_modifiers.ss

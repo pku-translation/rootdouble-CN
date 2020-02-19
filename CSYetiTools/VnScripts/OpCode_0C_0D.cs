@@ -35,13 +35,9 @@ namespace CsYetiTools.VnScripts
             writer.Write(' '); writer.Write(_targetOffset);
         }
         
-        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        public IEnumerable<CodeAddressData> GetAddresses()
         {
-            if (codeTable.TryGetValue(_targetOffset.AbsoluteOffset, out var code))
-            {
-                _targetOffset.TargetCodeIndex = code.Index;
-                _targetOffset.TargetCodeRelativeIndex = code.Index - _index;
-            }
+            yield return _targetOffset;
         }
     }
 }

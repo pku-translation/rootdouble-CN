@@ -1,7 +1,7 @@
 . $PSScriptRoot/Defines.ps1
 
 & $Run gen-string-compare `
-    --input=$DataRoot/sn_jp_psv.bin `
-    --input-steam=$DataRoot/sn_en_steam.bin `
-    --outputdir=$DataRoot/string_compare `
-    --modifier-file=$DataRoot/string_list_modifiers.sexpr
+    --input=$DataRoot/psv/sn.bin `
+    --input-steam=$DataRoot/steam/sn.bin `
+    --outputdir=$DataRoot/../reference/ `
+    --modifier-file=$DataRoot/string_list_modifiers.ss

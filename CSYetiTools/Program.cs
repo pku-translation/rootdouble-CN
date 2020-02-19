@@ -8,9 +8,6 @@ using System.Threading.Tasks;
 using CommandLine;
 using Newtonsoft.Json.Linq;
 using CsYetiTools.VnScripts;
-using Flurl;
-using Flurl.Util;
-using Flurl.Http;
 
 namespace CsYetiTools
 {
@@ -36,7 +33,7 @@ namespace CsYetiTools
             public string OutputDir { get; set; } = "";
 
             [Option("modifier-file")]
-            public string ModifierFile { get; set; } = "string_list_modifiers.sexpr";
+            public string ModifierFile { get; set; } = "";
         }
 
         [Verb("encode-sn", HelpText = "Encode sn.bin with files in specified folder")]
@@ -103,7 +100,7 @@ namespace CsYetiTools
             public string OutputDir { get; set; } = "";
 
             [Option("modifier-file")]
-            public string ModifiersFile { get; set; } = "string_list_modifiers.sexpr";
+            public string ModifiersFile { get; set; } = "";
         }
 
         [Verb("fill-fx-dups", HelpText = "FillTransifexDuplicatedStrings")]
@@ -117,7 +114,7 @@ namespace CsYetiTools
             public string InputRef { get; set; } = "";
 
             [Option("modifier-file")]
-            public string ModifiersFile { get; set; } = "string_list_modifiers.sexpr";
+            public string ModifiersFile { get; set; } = "";
 
             [Option("url")]
             public string Url { get; set; } = "";
@@ -143,7 +140,7 @@ namespace CsYetiTools
                 DumpTranslateSourceOptions,
                 FillTransifexDuplicatedStringsOptions
             >(args).MapResult(
-                (TestBedOptions o) => Task.Run(() => TestBed(o)),
+                (TestBedOptions o) => TestBed(o),
                 (EncodeSnOptions o) => Task.Run(() => EncodeSn(o)),
                 (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
                 (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
@@ -158,9 +155,9 @@ namespace CsYetiTools
             Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
         }
 
-        private static void TestBed(TestBedOptions options)
+        private static async Task TestBed(TestBedOptions options)
         {
-            new TestBed(options.DataPath!).Run();
+            await new TestBed(options.DataPath!).Run();
         }
 
         private static void EncodeSn(EncodeSnOptions options)
@@ -183,7 +180,7 @@ namespace CsYetiTools
             var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
             Console.WriteLine($"Gen string compare --> {outputDir}");
 
-            void DumpText(string path, IEnumerable<CodeScript.StringReferenceEntry> entries)
+            void DumpText(string path, IEnumerable<Script.StringReferenceEntry> entries)
             {
                 using var writer = new StreamWriter(path);
                 foreach (var (i, entry) in entries.WithIndex())
@@ -196,22 +193,16 @@ namespace CsYetiTools
             var package = new SnPackage(options.Input, isStringPooled: false);
             var packageSteam = new SnPackage(options.InputSteam, isStringPooled: true);
 
-            var modifierTable = StringListModifier.Load(options.ModifierFile);
+            var modifierTable = StringListModifier.LoadFile(options.ModifierFile);
 
-            var dumpDir = new DirectoryInfo(outputDir);
-            if (dumpDir.Exists)
-            {
-                foreach (var file in dumpDir.EnumerateFiles()) file.Delete();
-            }
-            else
-            {
-                dumpDir.Create();
-            }
+            Utils.CreateOrClearDirectory(outputDir);
+            
             using var writer = new StreamWriter(Path.Combine(outputDir, "compare-result.txt"));
             int n = 0;
             foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
             {
-                //var c1s = s1.GenerateStringReferenceList(raplaceExcepts.TryGetValue(i, out var except) ? except : null);
+                if (s1.Footer.ScriptIndex < 0) continue;
+                
                 var c1s = s1.GenerateStringReferenceList(modifierTable.TryGetValue(i, out var modifier) ? modifier : null);
                 var c2s = s2.GenerateStringReferenceList();
 
@@ -249,7 +240,7 @@ namespace CsYetiTools
             var package = new SnPackage(input, isStringPooled: true);
             var refPackage = new SnPackage(inputRef, isStringPooled: false);
 
-            var modifierDict = StringListModifier.Load(modifiersFile);
+            var modifierDict = StringListModifier.LoadFile(modifiersFile);
             package.ReplaceStringTable(refPackage, modifierDict);
 
             return package;
@@ -264,9 +255,10 @@ namespace CsYetiTools
 
             package.WriteTo(output);
 
-            var dumpPath = options.DumpResultTextPath;
-            if (dumpPath != null)
+            if (options.DumpResultTextPath != null)
             {
+                var dumpPath = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.DumpResultTextPath);
+                Console.WriteLine("Dump to " + dumpPath);
                 Utils.CreateOrClearDirectory(dumpPath);
                 package.Dump(dumpPath, Path.GetFileNameWithoutExtension(output), isDumpBinary: false, isDumpScript: true);
             }
@@ -291,16 +283,7 @@ namespace CsYetiTools
 
         private static async Task FillTransifexDuplicatedStrings(FillTransifexDuplicatedStringsOptions options)
         {
-            string? token = options.Token;
-            if (string.IsNullOrWhiteSpace(token))
-            {
-                token = Environment.GetEnvironmentVariable("TX_TOKEN");
-            }
-            if (string.IsNullOrWhiteSpace(token))
-            {
-                Console.WriteLine("No API token found, please use env TX_TOKEN or args --token to specify API token.");
-                return;
-            }
+            var client = new Transifex.TransifexClient(options.Token);
 
             var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
 
@@ -318,32 +301,32 @@ namespace CsYetiTools
                 return sBuilder.ToString();
             }
 
-            var dict = new Dictionary<string, DupEntry>();
+            var dupDict = new Dictionary<string, DupEntry>();
 
             foreach (var (chunkIndex, script) in package.Scripts.WithIndex())
             {
                 if (chunkIndex == 0) continue;
 
-                var list = new JArray();
+                var list = new List<object>();
                 foreach (var code in script.Codes.OfType<StringCode>())
                 {
-                    if (code is ExtraDialogCode) continue;
+                    if (code is ExtraDialogCode exDialog && !exDialog.IsDialog) continue;
 
                     var content = code.Content;
                     if (regex.IsMatch(code.Content))
                     {
-                        if (dict.TryGetValue(content, out var entry))
+                        if (dupDict.TryGetValue(content, out var entry))
                         {
                             ++entry.DupCounter;
-                            list.Add(JObject.FromObject(new
+                            list.Add(new
                             {
-                                source_entity_hash = GetMd5Hash($"{code.Index:000000}:{code.Index:000000}"),
-                                translation = $"@import {entry.Chunk:0000} {entry.Index:000000}"
-                            }));
+                                SourceEntryHash = GetMd5Hash($"{code.Index:000000}:{code.Index:000000}"),
+                                Translation = $"@import {entry.Chunk:0000} {entry.Index:000000}"
+                            });
                         }
                         else
                         {
-                            dict.Add(content, new DupEntry { Chunk = chunkIndex, Index = code.Index, DupCounter = 1 });
+                            dupDict.Add(content, new DupEntry { Chunk = chunkIndex, Index = code.Index, DupCounter = 1 });
                         }
                     }
                 }
@@ -362,24 +345,19 @@ namespace CsYetiTools
                         Console.Write($"Filling chunk_{chunkIndex:0000} ({list.Count} imports)...");
                         Console.Out.Flush();
 
-                        var result = await url
-                            .WithBasicAuth("api", token)
-                            .WithTimeout(30)
-                            .WithHeader("Content-Type", "application/json")
-                            .PutStringAsync(list.ToString())
-                            .ReceiveString();
+                        var result = await client.PutJson(url, list);
 
                         Console.WriteLine(result);
                     }
-                    catch (FlurlHttpException exc)
+                    catch (Exception exc)
                     {
                         Console.WriteLine(exc.Message);
                         return;
                     }
                 }
             }
-            dict = dict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
-            Console.WriteLine($"{dict.Sum(entry => entry.Value.DupCounter)} dups of {dict.Count} strings");
+            dupDict = dupDict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
+            Console.WriteLine($"{dupDict.Sum(entry => entry.Value.DupCounter)} dups of {dupDict.Count} strings");
         }
 
         private static void HandleError(Error error)

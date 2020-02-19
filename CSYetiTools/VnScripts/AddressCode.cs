@@ -27,13 +27,9 @@ namespace CsYetiTools.VnScripts
             writer.Write(' '); writer.Write(_address);
         }
 
-        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        public IEnumerable<CodeAddressData> GetAddresses()
         {
-            if (codeTable.TryGetValue(_address.AbsoluteOffset, out var code))
-            {
-                _address.TargetCodeIndex = code.Index;
-                _address.TargetCodeRelativeIndex = code.Index - _index;
-            }
+            yield return _address;
         }
     }
 }

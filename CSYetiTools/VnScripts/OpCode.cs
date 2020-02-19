@@ -286,7 +286,8 @@ namespace CsYetiTools.VnScripts
         public byte[] ToBytes()
         {
             using var ms = new MemoryStream();
-            using (var writer = new BinaryWriter(ms)) WriteTo(writer);
+            using var writer = new BinaryWriter(ms);
+            WriteTo(writer);
             return ms.ToArray();
         }
 

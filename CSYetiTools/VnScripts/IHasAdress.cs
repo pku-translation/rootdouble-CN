@@ -4,6 +4,6 @@ namespace CsYetiTools.VnScripts
 {
     public interface IHasAddress
     {
-        void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable);
+        IEnumerable<CodeAddressData> GetAddresses();
     }
 }

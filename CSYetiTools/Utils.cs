@@ -10,6 +10,8 @@ namespace CsYetiTools
     {
         private static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932) ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
 
+        public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false);
+
         public static string ReadStringZ(BinaryReader reader)
         {
             var bytes = new List<byte>();
@@ -141,22 +143,23 @@ namespace CsYetiTools
             }
         }
 
-        public static string Time(Action action)
+        public static void Time(Action action, string format = "{0}")
         {
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
             action();
             stopwatch.Stop();
-            return stopwatch.ElapsedMilliseconds + " ms";
+            Console.WriteLine(format, stopwatch.ElapsedMilliseconds + " ms");
         }
 
-        public static (T, string) Time<T>(Func<T> action)
+        public static T Time<T>(Func<T> action, string format = "{0}")
         {
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
             var result = action();
             stopwatch.Stop();
-            return (result, stopwatch.ElapsedMilliseconds + " ms");
+            Console.WriteLine(format, stopwatch.ElapsedMilliseconds + " ms");
+            return result;
         }
     }
 }

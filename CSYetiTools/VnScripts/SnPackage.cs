@@ -13,9 +13,9 @@ namespace CsYetiTools.VnScripts
     {
         public class FootersChunk
         {
-            private CodeScriptFooter[] _footers;
+            private ScriptFooter[] _footers;
 
-            public CodeScriptFooter this[int index]
+            public ScriptFooter this[int index]
             {
                 get => _footers[index];
             }
@@ -24,19 +24,20 @@ namespace CsYetiTools.VnScripts
             {
                 using var ms = new MemoryStream(source);
                 using var reader = new BinaryReader(ms);
-                var footers = new List<CodeScriptFooter>();
+                var footers = new List<ScriptFooter>();
                 while (true)
                 {
-                    var footer = CodeScriptFooter.ReadFrom(reader);
+                    var footer = ScriptFooter.ReadFrom(reader);
                     footers.Add(footer);
                     if (footer.IndexedDialogCount == -1) break;
                 }
-                if (footers.Count < 2) {
+                if (footers.Count < 2)
+                {
                     throw new InvalidDataException($"Footer chunk length({footers.Count}) < 2");
                 }
-                
+
                 var checkFooter = footers[^2];
-                var accFooter = new CodeScriptFooter();
+                var accFooter = new ScriptFooter();
                 foreach (var footer in footers.SkipLast(2))
                 {
                     accFooter.IndexedDialogCount += footer.IndexedDialogCount;
@@ -52,10 +53,10 @@ namespace CsYetiTools.VnScripts
                 _footers = footers.ToArray();
             }
 
-            public FootersChunk(IEnumerable<CodeScriptFooter> footers)
+            public FootersChunk(IEnumerable<ScriptFooter> footers)
             {
                 var list = footers.ToList();
-                var accFooter = new CodeScriptFooter();
+                var accFooter = new ScriptFooter();
                 foreach (var footer in footers)
                 {
                     accFooter.IndexedDialogCount += footer.IndexedDialogCount;
@@ -64,19 +65,17 @@ namespace CsYetiTools.VnScripts
                     accFooter.ScriptIndex += footer.ScriptIndex;
                 }
                 list.Add(accFooter);
-                list.Add(new CodeScriptFooter{ IndexedDialogCount = -1 });
+                list.Add(new ScriptFooter { IndexedDialogCount = -1 });
                 _footers = list.ToArray();
             }
 
             public byte[] ToBytes()
             {
                 using var ms = new MemoryStream();
-                using (var writer = new BinaryWriter(ms))
+                using var writer = new BinaryWriter(ms);
+                foreach (var footer in _footers)
                 {
-                    foreach (var footer in _footers)
-                    {
-                        footer.WriteTo(writer);
-                    }
+                    footer.WriteTo(writer);
                 }
                 return ms.ToArray();
             }
@@ -90,14 +89,14 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        private CodeScript[] _codeScripts;
+        private Script[] _scripts;
 
         public FootersChunk Footers
-            => new FootersChunk(_codeScripts.Select(s => s.Footer));
+            => new FootersChunk(_scripts.Select(s => s.Footer));
 
-        private SnPackage(CodeScript[] scripts, FootersChunk footers)
+        private SnPackage(Script[] scripts, FootersChunk footers)
         {
-            _codeScripts = scripts;
+            _scripts = scripts;
         }
 
         public SnPackage(string filename, bool isStringPooled)
@@ -114,6 +113,7 @@ namespace CsYetiTools.VnScripts
             {
                 int maxOffset = BitConverter.ToInt32(bytes, 0);
                 var chunks = new List<byte[]>();
+
                 for (int offset = 0; offset < maxOffset; offset += 16)
                 {
                     int chunkOffset = BitConverter.ToInt32(bytes, offset);
@@ -126,13 +126,12 @@ namespace CsYetiTools.VnScripts
 
                 var footers = new FootersChunk(chunks.Last());
 
-                var codeScripts = new List<CodeScript>();
-                for (int i = 0; i < chunks.Count - 1; ++i)
-                {
-                    codeScripts.Add(new CodeScript(chunks[i], footers[i], isStringPooled));
-                }
-                _codeScripts = codeScripts.ToArray();
+                _scripts = new Script[chunks.Count - 1];
 
+                Parallel.For(0, _scripts.Length, i =>
+                {
+                    _scripts[i] = new Script(chunks[i], footers[i], isStringPooled);
+                });
             }
             catch (IndexOutOfRangeException)
             {
@@ -150,11 +149,11 @@ namespace CsYetiTools.VnScripts
             if (!File.Exists(footersPath)) throw new ArgumentException("File footers not exists!");
             var footers = new FootersChunk(File.ReadAllBytes(footersPath));
 
-            var scripts = Directory.GetFiles(dirPath, "*.codescript")
+            var scripts = Directory.GetFiles(dirPath, "*.script")
                 .OrderBy(o => o)
-                .Select((file, i) => new CodeScript(File.ReadAllBytes(file), footers[i], isStringPooled))
+                .Select((file, i) => new Script(File.ReadAllBytes(file), footers[i], isStringPooled))
                 .ToArray();
-            
+
             return new SnPackage(scripts, footers);
         }
 
@@ -164,15 +163,12 @@ namespace CsYetiTools.VnScripts
 
             if (isDumpBinary)
             {
-                Parallel.ForEach(_codeScripts.WithIndex(), entry =>
+                Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    var path = Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript");
-                    using (var writer = new BinaryWriter(File.Create(path), Encoding.Default, leaveOpen: false))
-                    {
-                        script.WriteTo(writer);
-                    }
-                    //File.WriteAllBytes(, script.ToRawBytes());
+                    var path = Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.script");
+                    using var writer = new BinaryWriter(File.Create(path));
+                    script.WriteTo(writer);
                 });
                 File.WriteAllBytes(Path.Combine(dirPath, $"footers_{postfix}"), Footers.ToBytes());
             }
@@ -180,10 +176,10 @@ namespace CsYetiTools.VnScripts
             if (isDumpScript)
             {
                 var errors = new List<string>();
-                Parallel.ForEach(_codeScripts.WithIndex(), entry =>
+                Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.codescript-dump.txt"));
+                    script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.script-dump.txt"));
                     if (script.ParseError != null)
                     {
                         var errorInfo = $"Error parsing chunk_{i:0000}_{postfix}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
@@ -210,51 +206,22 @@ namespace CsYetiTools.VnScripts
 
             var names = new HashSet<string>();
 
-            foreach (var (i, script) in _codeScripts.WithIndex())
+            foreach (var (i, script) in _scripts.WithIndex())
             {
                 if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-                var contents = new JObject();
-                string? currentName = null;
-
-                foreach (var code in script.Codes.OfType<StringCode>())
+                var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
+                foreach (var info in script.EnumerateTranslateSources())
                 {
-                    var index = $"{code.Index:000000}";
-                    if (code is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
-                    {
-                        currentName = code.Content;
-                        names.Add(code.Content);
-                    }
-                    else if (code is DialogCode || code is ExtraDialogCode)
-                    {
-                        var content = new
-                        {
-                            context = index,
-                            code = $"0x{code.Code:X2}",
-                            developer_comment = currentName ?? "",
-                            @string = code.Content
-                        };
-                        currentName = null;
-                        contents.Add(index, JObject.FromObject(content));
-                    }
-                    else
-                    {
-                        var content = new
-                        {
-                            context = index,
-                            code = $"0x{code.Code:X2}",
-                            @string = code.Content
-                        };
-                        contents.Add(index, JObject.FromObject(content));
-                    }
+                    dict.Add(info.Context, info);
                 }
+                var content = JsonConvert.SerializeObject(dict, Transifex.TransifexClient.JsonSettings);
+                names.UnionWith(script.EnumerateCharacterNames());
 
-                using (var writer = new StreamWriter(Path.Combine(dirPath, $"chunk_{i:0000}.json"), false, new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false)))
+                using (var writer = new StreamWriter(Path.Combine(dirPath, $"chunk_{i:0000}.json"), false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
-                    using var jsonWriter = new JsonTextWriter(writer);
-                    jsonWriter.Formatting = Formatting.Indented;
-                    contents.WriteTo(jsonWriter);
+                    writer.WriteLine(content);
                 }
                 if (script.ParseError != null)
                 {
@@ -262,7 +229,7 @@ namespace CsYetiTools.VnScripts
                 }
             }
 
-            using (var writer = new StreamWriter(Path.Combine(dirPath, "names.json"), false, new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false)))
+            using (var writer = new StreamWriter(Path.Combine(dirPath, "names.json"), false, Utils.Utf8))
             {
                 writer.NewLine = "\n";
                 using (var jsonWriter = new JsonTextWriter(writer))
@@ -291,7 +258,7 @@ namespace CsYetiTools.VnScripts
         {
             var rawBytes = ToRawBytes();
             var bytes = LZSS.Encode(rawBytes).ToArray();
-            
+
             stream.Write(BitConverter.GetBytes(rawBytes.Length));
             stream.Write(bytes);
             stream.Flush();
@@ -305,15 +272,15 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        public IReadOnlyList<CodeScript> Scripts
-            => Array.AsReadOnly(_codeScripts);
+        public IReadOnlyList<Script> Scripts
+            => Array.AsReadOnly(_scripts);
 
         public byte[] ToRawBytes()
         {
-            var lengths = new int[_codeScripts.Length + 1];
-            var chunks = new byte[_codeScripts.Length + 1][];
+            var lengths = new int[_scripts.Length + 1];
+            var chunks = new byte[_scripts.Length + 1][];
 
-            Parallel.ForEach(_codeScripts.WithIndex(), entry =>
+            Parallel.ForEach(_scripts.WithIndex(), entry =>
             {
                 var (i, script) = entry;
                 var rawBytes = script.ToRawBytes();
@@ -322,12 +289,12 @@ namespace CsYetiTools.VnScripts
             });
 
             var footersChunk = Footers.ToBytes();
-            lengths[_codeScripts.Length] = footersChunk.Length;
-            chunks[_codeScripts.Length] = footersChunk;
+            lengths[_scripts.Length] = footersChunk.Length;
+            chunks[_scripts.Length] = footersChunk;
 
             using (var ms = new MemoryStream())
             {
-                var offset = 16 * (_codeScripts.Length + 1); // (offset, size, 0, 0) for each chunk
+                var offset = 16 * (_scripts.Length + 1); // (offset, size, 0, 0) for each chunk
                 foreach (var length in lengths)
                 {
                     ms.Write(BitConverter.GetBytes(offset));
@@ -345,7 +312,7 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier> modifierDict)
+        public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier[]> modifierDict)
         {
             foreach (var (i, (script, refScript)) in Scripts.ZipTuple(refPackage.Scripts).WithIndex())
             {

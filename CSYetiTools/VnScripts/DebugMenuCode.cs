@@ -79,15 +79,11 @@ namespace CsYetiTools.VnScripts
             writer.Write(" ]");
         }
 
-        public void SetCodeIndices(IReadOnlyDictionary<int, OpCode> codeTable)
+        public IEnumerable<CodeAddressData> GetAddresses()
         {
             foreach (var choice in _choices)
             {
-                if (codeTable.TryGetValue(choice.Offset.AbsoluteOffset, out var code))
-                {
-                    choice.Offset.TargetCodeIndex = code.Index;
-                    choice.Offset.TargetCodeRelativeIndex = code.Index - _index;
-                }
+                yield return choice.Offset;
             }
         }
     }
