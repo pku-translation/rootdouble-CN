@@ -1,8 +1,10 @@
 . $PSScriptRoot/Defines.ps1
 
-& $Run replace-string-list `
-    --modifiers=$DataRoot/string_list_modifiers.ss `
-    --input-ref=$DataRoot/psv/sn.bin `
-    --input-steam=$DataRoot/steam/sn.bin `
-    --output=$DataRoot/sn_steam_modified.bin `
-    #--dump-result-text-path=$DataRoot/steam_sn_modified/
+& $Run @"
+
+var package = Load("psv/sn.bin", false);
+var packageSteam = Load("steam/sn.bin", true);
+ReplaceStringList(packageSteam, package, "string_list_modifiers.ss");
+packageSteam.WriteTo("$DataRoot/sn_modified.bin");
+
+"@

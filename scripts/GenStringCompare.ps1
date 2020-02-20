@@ -1,7 +1,9 @@
 . $PSScriptRoot/Defines.ps1
 
-& $Run gen-string-compare `
-    --input=$DataRoot/psv/sn.bin `
-    --input-steam=$DataRoot/steam/sn.bin `
-    --outputdir=$DataRoot/../reference/ `
-    --modifier-file=$DataRoot/string_list_modifiers.ss
+& $Run @"
+
+var package = Load("psv/sn.bin", false);
+var packageSteam = Load("steam/sn.bin", true);
+GenStringCompare(package, "string_list_modifiers.ss", packageSteam, null, "$DataRoot/../reference/");
+
+"@

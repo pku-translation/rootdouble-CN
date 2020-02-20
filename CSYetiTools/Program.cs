@@ -5,206 +5,136 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using CommandLine;
-using Newtonsoft.Json.Linq;
 using CsYetiTools.VnScripts;
+using Microsoft.CodeAnalysis.CSharp.Scripting;
+using Microsoft.CodeAnalysis.Scripting;
+using Microsoft.CodeAnalysis.CSharp;
 
 namespace CsYetiTools
 {
-    class Program
+    public static class Program
     {
-        [Verb("test-bed", HelpText = "Test a sn.bin")]
-        class TestBedOptions
+        private static string GetAllInput()
         {
-            [Option("data-path")]
-            public string? DataPath { get; set; }
-        }
-
-        [Verb("gen-string-compare", HelpText = "Generate string compare file")]
-        class GenStringCompareOptions
-        {
-            [Option("input")]
-            public string Input { get; set; } = "";
-
-            [Option("input-steam")]
-            public string InputSteam { get; set; } = "";
-
-            [Option("outputdir")]
-            public string OutputDir { get; set; } = "";
-
-            [Option("modifier-file")]
-            public string ModifierFile { get; set; } = "";
-        }
-
-        [Verb("encode-sn", HelpText = "Encode sn.bin with files in specified folder")]
-        class EncodeSnOptions
-        {
-            [Option("inputdir")]
-            public string InputDir { get; set; } = "";
-
-            [Option("output", Default = "sn.bin")]
-            public string Output { get; set; } = "";
-
-            [Option("string-pooled")]
-            public bool IsStringPooled { get; set; }
-        }
-
-        [Verb("decode-sn", HelpText = "Decode sn.bin to specified folder")]
-        class DecodeSnOptions
-        {
-            [Option("input", Default = "sn.bin")]
-            public string Input { get; set; } = "";
-
-            [Option("outputdir", Default = "./")]
-            public string OutputDir { get; set; } = "";
-
-            [Option("string-pooled")]
-            public bool IsStringPooled { get; set; }
-
-            [Option("dump-binary")]
-            public bool IsDumpBinary { get; set; }
-
-            [Option("dump-script")]
-            public bool IsDumpScript { get; set; }
-        }
-
-        [Verb("replace-string-list", HelpText = "Replace string list of steam version")]
-        class ReplaceStringListOptions
-        {
-            [Option("input-steam")]
-            public string InputSteam { get; set; } = "";
-
-            [Option("input-ref")]
-            public string InputRef { get; set; } = "";
-
-            [Option("modifiers")]
-            public string ModifiersFile { get; set; } = "";
-
-            [Option("output")]
-            public string Output { get; set; } = "";
-
-            [Option("dump-result-text-path", Default = null)]
-            public string? DumpResultTextPath { get; set; }
-        }
-
-        [Verb("dump-trans-source", HelpText = "DumpTranslateSource")]
-        class DumpTranslateSourceOptions
-        {
-            [Option("input", Default = "sn.bin")]
-            public string Input { get; set; } = "";
-
-            [Option("input-ref")]
-            public string InputRef { get; set; } = "";
-
-            [Option("outputdir", Default = "./")]
-            public string OutputDir { get; set; } = "";
-
-            [Option("modifier-file")]
-            public string ModifiersFile { get; set; } = "";
-        }
-
-        [Verb("fill-fx-dups", HelpText = "FillTransifexDuplicatedStrings")]
-        class FillTransifexDuplicatedStringsOptions
-        {
-
-            [Option("input", Default = "sn.bin")]
-            public string Input { get; set; } = "";
-
-            [Option("input-ref")]
-            public string InputRef { get; set; } = "";
-
-            [Option("modifier-file")]
-            public string ModifiersFile { get; set; } = "";
-
-            [Option("url")]
-            public string Url { get; set; } = "";
-
-            [Option("token", Default = "")]
-            public string Token { get; set; } = "";
-
-            [Option("pattern", Default = ".*")]
-            public string Pattern { get; set; } = ".*";
+            var builder = new StringBuilder();
+            string? line;
+            while ((line = Console.ReadLine()) != null)
+            {
+                builder.AppendLine(line);
+            }
+            return builder.ToString();
         }
 
         static async Task Main(string[] args)
         {
+            var scriptText = args.Length switch
+            {
+                0 => GetAllInput(),
+                1 => args[0] switch
+                {
+                    "testbed" => null,
+                    _ => throw new ArgumentException($"Expecting zero or two args (file <filename> | command <command>)")
+                },
+                2 => args[0] switch
+                {
+                    "file" => File.ReadAllText(args[1], Encoding.UTF8),
+                    "command" => args[1],
+                    _ => throw new ArgumentException($"Unknown type {args[0]}, expecting (file|command)")
+                },
+                _ => throw new ArgumentException($"Expecting zero or two args (file <filename> | command <command>)")
+            };
+
+            if (scriptText == null)
+            {
+                var stopwatch = new System.Diagnostics.Stopwatch();
+                stopwatch.Start();
+                await TestBed.Run();
+                Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
+            }
+            else
+            {
+                var script = CSharpScript.Create(scriptText,
+                    ScriptOptions.Default
+                        .AddReferences(typeof(Program).Assembly)
+                        .AddImports(typeof(Program).Namespace, typeof(Program).FullName, typeof(SnPackage).Namespace)
+                        .AddImports()
+                        .WithCheckOverflow(true)
+                        .WithFileEncoding(Encoding.UTF8)
+                        .WithLanguageVersion(LanguageVersion.CSharp8));
+                try
+                {
+                    var stopwatch = new System.Diagnostics.Stopwatch();
+                    stopwatch.Start();
+                    script.Compile();
+                    stopwatch.Stop();
+                    Console.WriteLine($"Compiled in {stopwatch.ElapsedMilliseconds} ms");
+
+                    stopwatch.Restart();
+                    await script.RunAsync();
+                    stopwatch.Stop();
+                    Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
+
+                }
+                catch (CompilationErrorException exc)
+                {
+                    Console.WriteLine("Compile error in input: ");
+                    var color = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine(scriptText);
+                    Console.ForegroundColor = color;
+                    Console.WriteLine(exc);
+                    return;
+                }
+
+            }
+        }
+
+        private static string RelativePath(string path)
+            => Path.GetRelativePath(Directory.GetCurrentDirectory(), path);
+
+        public static SnPackage Load(string path, bool isStringPooled)
+        {
+            path = RelativePath(path);
+            Console.Write("Loading package " + path + " ... ");
+            Console.Out.Flush();
+
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
-
-            await Parser.Default.ParseArguments<
-                TestBedOptions,
-                EncodeSnOptions,
-                DecodeSnOptions,
-                GenStringCompareOptions,
-                ReplaceStringListOptions,
-                DumpTranslateSourceOptions,
-                FillTransifexDuplicatedStringsOptions
-            >(args).MapResult(
-                (TestBedOptions o) => TestBed(o),
-                (EncodeSnOptions o) => Task.Run(() => EncodeSn(o)),
-                (DecodeSnOptions o) => Task.Run(() => DecodeSn(o)),
-                (GenStringCompareOptions o) => Task.Run(() => GenStringCompare(o)),
-                (ReplaceStringListOptions o) => Task.Run(() => ReplaceStringList(o)),
-                (DumpTranslateSourceOptions o) => Task.Run(() => DumpTranslateSource(o)),
-                (FillTransifexDuplicatedStringsOptions o) => FillTransifexDuplicatedStrings(o),
-                errs => Task.Run(() => errs.ForEach(HandleError))
-            );
-
+            var package = new SnPackage(path, isStringPooled);
             stopwatch.Stop();
 
-            Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
+            return package;
         }
 
-        private static async Task TestBed(TestBedOptions options)
+        public static void GenStringCompare(SnPackage package1, string? modifierPath1, SnPackage package2, string? modifierPath2, string outputDir)
         {
-            await new TestBed(options.DataPath!).Run();
-        }
-
-        private static void EncodeSn(EncodeSnOptions options)
-        {
-            var package = SnPackage.CreateFrom(options.InputDir, options.IsStringPooled);
-            package.WriteTo(options.Output);
-        }
-
-        private static void DecodeSn(DecodeSnOptions options)
-        {
-            var input = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.Input);
-            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
-            Console.WriteLine($"Decoding {input} --> {outputDir} ...");
-            var package = new SnPackage(input, options.IsStringPooled);
-            package.Dump(outputDir, Path.GetFileNameWithoutExtension(input), options.IsDumpBinary, options.IsDumpScript);
-        }
-
-        private static void GenStringCompare(GenStringCompareOptions options)
-        {
-            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
+            outputDir = RelativePath(outputDir);
             Console.WriteLine($"Gen string compare --> {outputDir}");
 
-            void DumpText(string path, IEnumerable<Script.StringReferenceEntry> entries)
+            void DumpText(string path, IEnumerable<VnScripts.Script.StringReferenceEntry> entries)
             {
                 using var writer = new StreamWriter(path);
                 foreach (var (i, entry) in entries.WithIndex())
                 {
-                    //writer.WriteLine($"{i, 3}: {entry.Index, 3}| [{entry.Code:X02}] [{entry.Content}]");
                     writer.WriteLine($"{i,3}: {entry.Index,4}| [{entry.Code:X02}] [{entry.Content}]");
                 }
             }
-
-            var package = new SnPackage(options.Input, isStringPooled: false);
-            var packageSteam = new SnPackage(options.InputSteam, isStringPooled: true);
-
-            var modifierTable = StringListModifier.LoadFile(options.ModifierFile);
+            var modifierTable1 = modifierPath1 != null ? StringListModifier.LoadFile(modifierPath1) : null;
+            var modifierTable2 = modifierPath2 != null ? StringListModifier.LoadFile(modifierPath2) : null;
 
             Utils.CreateOrClearDirectory(outputDir);
-            
+
             using var writer = new StreamWriter(Path.Combine(outputDir, "compare-result.txt"));
             int n = 0;
-            foreach (var (i, (s1, s2)) in package.Scripts.ZipTuple(packageSteam.Scripts).WithIndex())
+            foreach (var (i, (s1, s2)) in package1.Scripts.ZipTuple(package2.Scripts).WithIndex())
             {
                 if (s1.Footer.ScriptIndex < 0) continue;
-                
-                var c1s = s1.GenerateStringReferenceList(modifierTable.TryGetValue(i, out var modifier) ? modifier : null);
-                var c2s = s2.GenerateStringReferenceList();
+
+                var c1s = s1.GenerateStringReferenceList(
+                    modifierTable1 != null ? modifierTable1.TryGetValue(i, out var modifier1) ? modifier1 : null : null);
+                var c2s = s2.GenerateStringReferenceList(
+                    modifierTable2 != null ? modifierTable2.TryGetValue(i, out var modifier2) ? modifier2 : null : null);
 
                 bool same = true;
                 foreach (var (c1, c2) in c1s.ZipTuple(c2s))
@@ -235,43 +165,10 @@ namespace CsYetiTools
             writer.WriteLine($"{n} different files");
         }
 
-        private static SnPackage GenerateStringReplacedPackage(string input, string inputRef, string modifiersFile)
+        public static void ReplaceStringList(SnPackage package, SnPackage refPackage, string modifiersFile)
         {
-            var package = new SnPackage(input, isStringPooled: true);
-            var refPackage = new SnPackage(inputRef, isStringPooled: false);
-
             var modifierDict = StringListModifier.LoadFile(modifiersFile);
             package.ReplaceStringTable(refPackage, modifierDict);
-
-            return package;
-        }
-
-        private static void ReplaceStringList(ReplaceStringListOptions options)
-        {
-            var output = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.Output);
-            Console.WriteLine("Replace string table, write to " + output);
-
-            var package = GenerateStringReplacedPackage(options.InputSteam, options.InputRef, options.ModifiersFile);
-
-            package.WriteTo(output);
-
-            if (options.DumpResultTextPath != null)
-            {
-                var dumpPath = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.DumpResultTextPath);
-                Console.WriteLine("Dump to " + dumpPath);
-                Utils.CreateOrClearDirectory(dumpPath);
-                package.Dump(dumpPath, Path.GetFileNameWithoutExtension(output), isDumpBinary: false, isDumpScript: true);
-            }
-        }
-
-        private static void DumpTranslateSource(DumpTranslateSourceOptions options)
-        {
-            var outputDir = Path.GetRelativePath(Directory.GetCurrentDirectory(), options.OutputDir);
-            Console.WriteLine($"Dump translate source --> {outputDir}");
-
-            var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
-
-            package.DumpTranslateSource(outputDir);
         }
 
         class DupEntry
@@ -281,13 +178,13 @@ namespace CsYetiTools
             public int DupCounter { get; set; }
         }
 
-        private static async Task FillTransifexDuplicatedStrings(FillTransifexDuplicatedStringsOptions options)
+        private static async Task FillTransifexDuplicatedStrings(
+            SnPackage package, string filterPattern,
+            string projectSlug, string chunkTemplate, string? token = null)
         {
-            var client = new Transifex.TransifexClient(options.Token);
+            var client = new Transifex.TransifexClient(token);
 
-            var package = GenerateStringReplacedPackage(options.Input, options.InputRef, options.ModifiersFile);
-
-            var regex = new Regex(options.Pattern, RegexOptions.Compiled | RegexOptions.Singleline);
+            var regex = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
 
             var md5 = System.Security.Cryptography.MD5.Create();
             string GetMd5Hash(string input)
@@ -332,22 +229,17 @@ namespace CsYetiTools
                 }
                 if (list.Count > 0)
                 {
-                    //GET "https://www.transifex.com/api/2/project/rootdouble_steam_cn/resource/source-json-chunk-0521-json--master/translation/zh_CN/strings/?key=1028"
-
-                    //PUT  "https://www.transifex.com/api/2/project/rootdouble_steam_cn/resource/source-json-chunk-0521-json--master/translation/zh_CN/strings/"
-                    //    Content-Type: application/json
-                    //    [{"source_entity_hash": "52eb48c64d136a9356bd2fcf03ab4bc2", "translation": "@import 0521 000554"}]
-
-                    var url = Regex.Replace(options.Url, "<chunk>", $"{chunkIndex:0000}");
+                    var chunk = chunkTemplate.Replace("<chunk>", $"{chunkIndex:0000}");
 
                     try
                     {
                         Console.Write($"Filling chunk_{chunkIndex:0000} ({list.Count} imports)...");
                         Console.Out.Flush();
 
-                        var result = await client.PutJson(url, list);
+                        await Task.Run(() => { });
+                        //var result = await client.Put()
 
-                        Console.WriteLine(result);
+                        //Console.WriteLine(result);
                     }
                     catch (Exception exc)
                     {
@@ -359,11 +251,5 @@ namespace CsYetiTools
             dupDict = dupDict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
             Console.WriteLine($"{dupDict.Sum(entry => entry.Value.DupCounter)} dups of {dupDict.Count} strings");
         }
-
-        private static void HandleError(Error error)
-        {
-            Console.WriteLine(error.ToString());
-        }
-
     }
 }

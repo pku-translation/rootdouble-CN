@@ -59,9 +59,12 @@ namespace CsYetiTools.Transifex
         public Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string language, TranslationMode mode = TranslationMode.Default)
             => _client.GetTranslations(_projectSlug, _resourceSlug, language, mode);
 
+        public Task<TranslationStringInfo[]> GetTranslationStrings(string language, string? key = null, string? context = null)
+            => _client.GetTranslationStrings(_projectSlug, _resourceSlug, language, key, context);
 
         public Task<string> Test(string url, object args)
             => _client.ResourceTest(_projectSlug, _resourceSlug, url, args);
+
 
     }
 
@@ -87,8 +90,6 @@ namespace CsYetiTools.Transifex
             NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
         };
 
-        private string _apiToken;
-
         private FlurlClient _flurlClient;
 
         public TransifexClient(string? apiToken = null)
@@ -101,7 +102,6 @@ namespace CsYetiTools.Transifex
             {
                 throw new ArgumentException("No API token found, please use env TX_TOKEN or args --token to specify API token.");
             }
-            _apiToken = apiToken;
 
             _flurlClient = new FlurlClient(BaseUrl).WithBasicAuth("api", apiToken).WithTimeout(Timeout);
         }
@@ -117,29 +117,31 @@ namespace CsYetiTools.Transifex
             _flurlClient.Dispose();
         }
         
-        private async Task<string> Get(IFlurlRequest request)
+        private Task<string> Get(IFlurlRequest request)
         {
-            return await request.GetStringAsync();
+            return request.GetStringAsync();
         }
 
         private async Task<T> Get<T>(IFlurlRequest request)
         {
-            var json = await request.GetStringAsync();
-            return JsonConvert.DeserializeObject<T>(json, JsonSettings)!;
+            return JsonConvert.DeserializeObject<T>(await request.GetStringAsync(), JsonSettings)!;
         }
 
-        public Task<string> Put(string url, string content, string contentType)
+        public Task<string> Put(IFlurlRequest request, string content, string contentType)
         {
-            return url
-                .WithBasicAuth("api", _apiToken)
-                .WithTimeout(30)
+            return request
                 .WithHeader("Content-Type", contentType)
                 .PutStringAsync(content)
                 .ReceiveString();
         }
 
-        public Task<string> PutJson(string url, object data)
-            => Put(url, JsonConvert.SerializeObject(data, JsonSettings), "application/json");
+        public async Task<T> Put<T>(IFlurlRequest request, string content, string contentType)
+        {
+            return JsonConvert.DeserializeObject<T>(await Put(request, content, contentType))!;
+        }
+
+        public Task<string> PutJson(IFlurlRequest request, object data)
+            => Put(request, JsonConvert.SerializeObject(data, JsonSettings), "application/json");
 
         public Task<ProjectInfo[]> GetProjects(int start = 1, int? end = 500)
             => Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start = start, end = end }));
@@ -152,6 +154,7 @@ namespace CsYetiTools.Transifex
 
         public Task<ResourceInfo> GetResource(string projectSlug, string resourceSlug)
             => Get<ResourceInfo>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug));
+        
 
         public async Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
         {
@@ -160,6 +163,14 @@ namespace CsYetiTools.Transifex
             if (response.Mimetype != "application/json")
                 throw new FormatException("Response is not json");
             return JsonConvert.DeserializeObject<SortedDictionary<string, TranslationInfo>>(response.Content, JsonSettings)!;
+        }
+
+        public async Task<TranslationStringInfo[]> GetTranslationStrings(string projectSlug, string resourceSlug, string language, string? key = null, string? context = null)
+        {
+            var request = _flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/").SetQueryParam("details");
+            if (key != null) request.SetQueryParam("key", key);
+            if (context != null) request.SetQueryParam("context", true);
+            return JsonConvert.DeserializeObject<TranslationStringInfo[]>(await Get(request), JsonSettings)!;
         }
 
         public Task<string> ResourceTest(string projectSlug, string resourceSlug, string url, object args)

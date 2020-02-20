@@ -11,9 +11,7 @@ namespace CsYetiTools
 {
     class TestBed
     {
-        private string dataPath;
-
-        private SnPackage Load(string path, bool isStringPooled)
+        private static SnPackage Load(string path, bool isStringPooled)
         {
             var rpath = Path.GetRelativePath(Directory.GetCurrentDirectory(), path);
             Console.Write("Loading package " + rpath + " ... ");
@@ -27,14 +25,6 @@ namespace CsYetiTools
             Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
             return package;
         }
-
-        public TestBed(string dataPath)
-        {
-            this.dataPath = dataPath;
-        }
-
-        private string FilePath(string file)
-            => Path.Combine(dataPath, file);
 
         private static void SaveModifiers(string file, IDictionary<int, StringListModifier[]> modifiers)
         {
@@ -55,18 +45,16 @@ namespace CsYetiTools
             }
         }
 
-        public async Task Run()
+        public static async Task Run()
         {
-            var jpPath = FilePath("psv/sn.bin");
-            var enPath = FilePath("steam/sn.bin");
-            var modifierFilePath = FilePath("string_list_modifiers.sexpr");
-            using var writer = new StreamWriter(FilePath("test_bed.txt"), false, Encoding.UTF8);
-
-            var jpPackage = Load(jpPath, false);
-            var enPackage = Load(enPath, true);
-            await Task.Run(() => { });
-
+            await Task.Run(() => {});
             
+            // var jpPath = "psv/sn.bin";
+            // var enPath = "steam/sn.bin";
+            // var modifierFilePath = "string_list_modifiers.sexpr";
+
+            // var jpPackage = Load(jpPath, false);
+            // var enPackage = Load(enPath, true);
 
             // ----------------------------------------------------------------------
 

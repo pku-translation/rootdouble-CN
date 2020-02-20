@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -35,26 +36,38 @@ namespace CsYetiTools
         //     Console.WriteLine(sexpr.ToString());
         // }
 
+        private static UnicodeCategory[] NonRenderingCategories = new UnicodeCategory[] {
+            UnicodeCategory.Control,
+            UnicodeCategory.OtherNotAssigned,
+            UnicodeCategory.Surrogate
+        };
+
         public static string EscapeString(string input)
         {
             var builder = new StringBuilder();
             foreach (var c in input)
             {
-                if (char.IsControl(c))
+                var escape = c switch
                 {
-                    var escape = c switch
-                    {
-                        '\a' => "\\a",
-                        '\b' => "\\b",
-                        '\t' => "\\t",
-                        '\n' => "\\n",
-                        '\v' => "\\v",
-                        '\f' => "\\f",
-                        '\r' => "\\r",
-                        _ => null
-                    };
-                    if (escape != null) builder.Append(escape);
-                    else if (c <= 0xFF) builder.Append("\\x").Append(((int)c).ToString("X02"));
+                    '\a' => "\\a",
+                    '\b' => "\\b",
+                    '\t' => "\\t",
+                    '\n' => "\\n",
+                    '\v' => "\\v",
+                    '\f' => "\\f",
+                    '\r' => "\\r",
+                    '\x1B' => "\\e",
+                    '\"' => "\\\"",
+                    '\\' => "\\\\",
+                    _ => null
+                };
+                if (escape != null)
+                {
+                    builder.Append(escape);
+                }
+                else if (NonRenderingCategories.Contains(char.GetUnicodeCategory(c)))
+                {
+                    if (c <= 0xFF) builder.Append("\\x").Append(((int)c).ToString("X02"));
                     else builder.Append("\\u").Append(((int)c).ToString("X04"));
                     // ignoring surrogate-pairs
                 }

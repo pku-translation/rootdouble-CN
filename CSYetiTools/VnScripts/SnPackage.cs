@@ -100,8 +100,11 @@ namespace CsYetiTools.VnScripts
         }
 
         public SnPackage(string filename, bool isStringPooled)
+            : this(File.ReadAllBytes(filename), isStringPooled)
+        { }
+
+        public SnPackage(byte[] data, bool isStringPooled)
         {
-            var data = File.ReadAllBytes(filename);
             var decodedSize = BitConverter.ToInt32(data);
             var bytes = LZSS.Decode(data.Skip(4)).ToArray();
 
@@ -157,7 +160,7 @@ namespace CsYetiTools.VnScripts
             return new SnPackage(scripts, footers);
         }
 
-        public void Dump(string dirPath, string postfix, bool isDumpBinary, bool isDumpScript)
+        public void Dump(string dirPath, bool isDumpBinary, bool isDumpScript)
         {
             Utils.CreateOrClearDirectory(dirPath);
 
@@ -166,11 +169,11 @@ namespace CsYetiTools.VnScripts
                 Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    var path = Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.script");
+                    var path = Path.Combine(dirPath, $"chunk_{i:0000}.script");
                     using var writer = new BinaryWriter(File.Create(path));
                     script.WriteTo(writer);
                 });
-                File.WriteAllBytes(Path.Combine(dirPath, $"footers_{postfix}"), Footers.ToBytes());
+                File.WriteAllBytes(Path.Combine(dirPath, $"footers"), Footers.ToBytes());
             }
 
             if (isDumpScript)
@@ -179,10 +182,10 @@ namespace CsYetiTools.VnScripts
                 Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}_{postfix}.script-dump.txt"));
+                    script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}.script-dump.txt"));
                     if (script.ParseError != null)
                     {
-                        var errorInfo = $"Error parsing chunk_{i:0000}_{postfix}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
+                        var errorInfo = $"Error parsing chunk_{i:0000}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
                         lock (errors) errors.Add(errorInfo);
                     }
                 });
@@ -192,7 +195,7 @@ namespace CsYetiTools.VnScripts
                 }
             }
 
-            using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers_{postfix}.txt")))
+            using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers.txt")))
             {
                 Footers.Dump(writer);
             }

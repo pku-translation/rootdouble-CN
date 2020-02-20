@@ -130,7 +130,7 @@ namespace CsYetiTools.VnScripts
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
-            table.Add(Index, new Script.StringReferenceEntry(Index, Code, -1, Content));
+            table.Add(Index, new Script.StringReferenceEntry(Index, Code, Content));
         }
 
         public override SExpr ToSExpr()
@@ -154,7 +154,7 @@ namespace CsYetiTools.VnScripts
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             var source = table[SourceIndex];
-            table.Add(Index, new Script.StringReferenceEntry(Index, Code ?? source.Code, -1, source.Content));
+            table.Add(Index, new Script.StringReferenceEntry(Index, Code ?? source.Code, source.Content));
         }
 
         public override SExpr ToSExpr()

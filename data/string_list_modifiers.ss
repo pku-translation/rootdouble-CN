@@ -5,7 +5,7 @@
 ;  concat: (<- <index> {<srcindex>})
 ;  drop:   (-- {<index>})
 ;  insert: (++ <index> <code> <content>)
-;  copy:   (<+ <index> <index> [<code>])
+;  copy:   (<+ <index> <srcindex> [<code>])
 
 (script 2
     (-> 1275 #x47)

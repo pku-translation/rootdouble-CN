@@ -70,7 +70,7 @@ namespace CsYetiTools.VnScripts
                 0x02 => new FixedLengthCode(op, 5),     // script jump?
                 0x03 => new AddressCode(op),            // jump to address?
                 0x04 => new FixedLengthCode(op, 5),     // script jump or else?
-                0x05 => new OpCode_05(),                // return? end-block?
+                0x05 => new FixedLengthCode(op, 1),                // return? end-block?
                 0x06 => new PrefixedAddressCode(op, 4), // invoke?
                 0x07 => new PrefixedAddressCode(op, 4),
                 0x08 => new PrefixedAddressCode(op, 4),

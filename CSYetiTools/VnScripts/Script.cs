@@ -243,23 +243,21 @@ namespace CsYetiTools.VnScripts
 
         public class StringReferenceEntry
         {
-            public StringReferenceEntry(int index, byte code, int offset, string content)
+            public StringReferenceEntry(int index, byte code, string content)
             {
                 Index = index;
                 Code = code;
-                Offset = offset;
                 Content = content;
             }
             public int Index { get; set; }
             public byte Code { get; set; }
-            public int Offset { get; set; }
             public string Content { get; set; }
         }
 
         public List<StringReferenceEntry> GenerateStringReferenceList()
         {
             return _codes.OfType<StringCode>()
-                .Select(code => new StringReferenceEntry(code.Index, code.Code, code.Offset, code.Content))
+                .Select(code => new StringReferenceEntry(code.Index, code.Code, code.Content))
                 .ToList();
         }
 

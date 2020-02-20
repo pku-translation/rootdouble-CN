@@ -1,5 +1,7 @@
 . $PSScriptRoot/Defines.ps1
 
-& dotnet run -p $PSScriptRoot/../CsYetiTools -c Debug -- test-bed `
-    --data-path=$DataRoot/
-    
+pushd $DataRoot
+
+& dotnet run -p $PSScriptRoot/../CsYetiTools -c Debug -- testbed
+
+popd
