@@ -3,9 +3,20 @@
 
 # data
 
-/data/*
+/data/**
+
+!/data/psv/
+/data/psv/**
 !/data/psv/sn.bin
+
+!/data/ps3/
+/data/ps3/**
+!/data/ps3/sn.sdat
+
+!/data/steam/
+/data/steam/**
 !/data/steam/sn.bin
+
 !/data/string_list_modifiers.ss
 
 # Transifex

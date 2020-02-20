@@ -83,7 +83,8 @@ namespace CsYetiTools.Transifex
             {
                 NamingStrategy = new SnakeCaseNamingStrategy(true, false)
             },
-            Formatting = Formatting.Indented
+            Formatting = Formatting.Indented,
+            NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
         };
 
         private string _apiToken;
