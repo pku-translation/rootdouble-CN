@@ -1,0 +1,956 @@
+{
+  "000076": {
+    "context": "000076",
+    "code": "0x55",
+    "string": "√Before Chapter2"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——今天真白也像往常那样做好了晚饭。"
+  },
+  "000274": {
+    "context": "000274",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "所有人围坐在餐桌前。"
+  },
+  "000311": {
+    "context": "000311",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "与往常不同的是，今天的桌前多了纱瑠一个人。"
+  },
+  "000316": {
+    "context": "000316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "对话变得惊人地提不起劲。"
+  },
+  "000357": {
+    "context": "000357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白向纱瑠问了各种各样的问题，但除了冷淡的回复外什么都没收到。"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "尽管悠里脸上笑眯眯的，纱瑠却几乎没有和她说话。夏彦也是如此。"
+  },
+  "000397": {
+    "context": "000397",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就这样晚餐在僵硬的氛围中结束了。"
+  },
+  "000531": {
+    "context": "000531",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「——那么我该回去啦，三位再见」"
+  },
+  "000542": {
+    "context": "000542",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯，今天也多谢了」"
+  },
+  "000571": {
+    "context": "000571",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「真白白，明天见啦～」"
+  },
+  "000597": {
+    "context": "000597",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……嗯」"
+  },
+  "000602": {
+    "context": "000602",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白瞟了眼嘟囔了声的纱瑠，然后说。"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「对了夏彦，你介意稍微送我一段路吗？」"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸，很少见啊？平常你都不会……」"
+  },
+  "000644": {
+    "context": "000644",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦刚张开嘴，"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x85",
+    "string": "『快察觉到啊。"
+  },
+  "000715": {
+    "context": "000715",
+    "code": "0x85",
+    "string": "关于纱瑠的事情，我有话要跟你说』"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x86",
+    "string": "真白"
+  },
+  "000732": {
+    "context": "000732",
+    "code": "0x86",
+    "string": "『快察觉到啊。关于纱瑠的事情，我有话要跟你说』"
+  },
+  "000761": {
+    "context": "000761",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白用传心术继续说。"
+  },
+  "000772": {
+    "context": "000772",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……也、也是。好的」"
+  },
+  "000798": {
+    "context": "000798",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「谢谢」"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦点点头，和真白一起走出家门。"
+  },
+  "000987": {
+    "context": "000987",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哎呀～……发展成了出乎预料的事态呢」"
+  },
+  "000992": {
+    "context": "000992",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚走出玄关，真白就苦笑着说。"
+  },
+  "001003": {
+    "context": "001003",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「是呢……」"
+  },
+  "001032": {
+    "context": "001032",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦感觉这样不太好吗？」"
+  },
+  "001043": {
+    "context": "001043",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我倒是觉得没所谓，问题是悠里的感受」"
+  },
+  "001072": {
+    "context": "001072",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……果然是这样啊」"
+  },
+  "001083": {
+    "context": "001083",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我只是想，生活环境突然变化不会往她心里的伤口撒盐吧……希望她没事吧」"
+  },
+  "001088": {
+    "context": "001088",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里因为过去的阴影变得无法外出了的事情，真白当然是知道的。"
+  },
+  "001093": {
+    "context": "001093",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦和真白有时商量那件事情，也会达成“静静守候下去”的共识，但是——"
+  },
+  "001122": {
+    "context": "001122",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「唔嗯，这样想或许有些轻率……关于这事，不如说会往好的方向发展也说不定呢？」"
+  },
+  "001133": {
+    "context": "001133",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸，为什么这么说？」"
+  },
+  "001162": {
+    "context": "001162",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「如果一直这么下去，悠里无论如何都没法踏入“社会”吧」"
+  },
+  "001173": {
+    "context": "001173",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「说实话，我觉得那对悠里来说不是好事」"
+  },
+  "001184": {
+    "context": "001184",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「呃、嗯……」"
+  },
+  "001259": {
+    "context": "001259",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「但是如果与纱瑠住在一起，她不就能和我们之外的人接触了嘛」"
+  },
+  "001288": {
+    "context": "001288",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「这对悠里来说会有帮助，博士也是这么想才把纱瑠带过来的不是吗？」"
+  },
+  "001299": {
+    "context": "001299",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「真的吗……」"
+  },
+  "001304": {
+    "context": "001304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "对这个观点，夏彦半信半疑。"
+  },
+  "001309": {
+    "context": "001309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然不觉得那样冷漠的母亲会考虑得这么深入，但真白说的也有一番道理。"
+  },
+  "001349": {
+    "context": "001349",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……嘛，悠里看起来好像也没有那么讨厌这件事就是了」"
+  },
+  "001378": {
+    "context": "001378",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那样的话就更好了呢。姑且先慢慢适应吧，我也会尽可能帮你们的」"
+  },
+  "001389": {
+    "context": "001389",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「这样啊……抱歉啦真白，让你也添负担了」"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「没有没有，这点事不算什么」"
+  },
+  "001447": {
+    "context": "001447",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「比起这些，我还担心纱瑠的感受。不只是悠里啊」"
+  },
+  "001459": {
+    "context": "001459",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……我只是有点，担心悠里的反应……」"
+  },
+  "001488": {
+    "context": "001488",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「嗯……虽然她看起来也没有那么讨厌这件事呢」"
+  },
+  "001517": {
+    "context": "001517",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「姑且先慢慢适应吧，我也会尽可能帮你们的」"
+  },
+  "001528": {
+    "context": "001528",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯，拜托你了」"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦刚点头，真白好像突然察觉到了什么。"
+  },
+  "001562": {
+    "context": "001562",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「说起担心……其实我还担心纱瑠的感受。不只是悠里啊」"
+  },
+  "001573": {
+    "context": "001573",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「纱瑠的感受？」"
+  },
+  "001584": {
+    "context": "001584",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「因为那孩子果然还是有些紧张不是嘛？连话也没怎么说」"
+  },
+  "001596": {
+    "context": "001596",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「呃……紧张？」"
+  },
+  "001607": {
+    "context": "001607",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「在你看来是这样子吗……？」"
+  },
+  "001636": {
+    "context": "001636",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那是当然。不管怎么说，那孩子也只不过是个 13 岁的小女生吧？」"
+  },
+  "001648": {
+    "context": "001648",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸……你说紧张？」"
+  },
+  "001659": {
+    "context": "001659",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我单单只觉得她令人讨厌……」"
+  },
+  "001688": {
+    "context": "001688",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「笨蛋，说什么呢！太孩子气了吧！」"
+  },
+  "001699": {
+    "context": "001699",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「你想想啊夏彦，不管说什么，那孩子也只不过是个 13 岁的小女生吧？」"
+  },
+  "001728": {
+    "context": "001728",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「要和年长的男生住在一起，没道理不紧张吧」"
+  },
+  "001739": {
+    "context": "001739",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦也多和她聊聊的话，她就能放宽心了」"
+  },
+  "001750": {
+    "context": "001750",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「说、说得也是……」"
+  },
+  "001755": {
+    "context": "001755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦虽然无法认同，但姑且先和真白统一了口径。"
+  },
+  "001766": {
+    "context": "001766",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我知道了。我会尽量努力的」"
+  },
+  "001795": {
+    "context": "001795",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「又是这个回答啊？」"
+  },
+  "001806": {
+    "context": "001806",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「啊，我没有要随便应付的意思」"
+  },
+  "001835": {
+    "context": "001835",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「哈哈，那就好。我很期待哦」"
+  },
+  "001864": {
+    "context": "001864",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「那就拜啦，夏彦。明天见」"
+  },
+  "001875": {
+    "context": "001875",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯，明天见」"
+  },
+  "001924": {
+    "context": "001924",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真白砰砰拍了拍夏彦的肩膀，然后踏进了夜色中。"
+  },
+  "001931": {
+    "context": "001931",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（真是的，也太老好人了……）"
+  },
+  "001936": {
+    "context": "001936",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这虽然是真白的优点——"
+  },
+  "001947": {
+    "context": "001947",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「一旦扯到我，就很麻烦……」"
+  },
+  "001991": {
+    "context": "001991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边说着一边走回家的同时，"
+  },
+  "002016": {
+    "context": "002016",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「什么东西很麻烦？」"
+  },
+  "002029": {
+    "context": "002029",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「？！」"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到从玄关前的暗处发出的声音，夏彦吓出了一身冷汗。"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「你、你在啊纱瑠？」"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「刚出来。因为夏彦一直没回」"
+  },
+  "002119": {
+    "context": "002119",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……我和真白说的话，你听到了？」"
+  },
+  "002148": {
+    "context": "002148",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「不，一点都没」"
+  },
+  "002154": {
+    "context": "002154",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（真的吗……？）"
+  },
+  "002159": {
+    "context": "002159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦虽然这样想着，但从纱瑠的表情当中什么也看不出来。"
+  },
+  "002170": {
+    "context": "002170",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不是啦，聊的只是些无关紧要的琐事。比方说纱瑠很可爱啦什么的……」"
+  },
+  "002175": {
+    "context": "002175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦这么说着，想要蒙混过关的那一瞬——"
+  },
+  "002183": {
+    "context": "002183",
+    "code": "0x45",
+    "developer_comment": "ぬいぐるみ",
+    "string": "「啾～……」"
+  },
+  "002188": {
+    "context": "002188",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠抱着的布偶叫了一声。"
+  },
+  "002217": {
+    "context": "002217",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「什？！」"
+  },
+  "002228": {
+    "context": "002228",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……！」"
+  },
+  "002233": {
+    "context": "002233",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦又被吓出了一身冷汗。纱瑠的表情同时僵住了。"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「纱、纱瑠？刚才那个，叫了？」"
+  },
+  "002273": {
+    "context": "002273",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「它怎么了吗？」"
+  },
+  "002278": {
+    "context": "002278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠的回答像是在说“叫一声很正常吧”。"
+  },
+  "002284": {
+    "context": "002284",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（它怎么了吗……难道里面有什么机关？）"
+  },
+  "002289": {
+    "context": "002289",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠突如其来的话打断了夏彦的疑惑。"
+  },
+  "002318": {
+    "context": "002318",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦你，在防范着我呢」"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸？不，没这种事……」"
+  },
+  "002358": {
+    "context": "002358",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「那样的话就很遗憾了」"
+  },
+  "002369": {
+    "context": "002369",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「我明明是为了保护你，才到这里来的」"
+  },
+  "002380": {
+    "context": "002380",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸……？保护，我？」"
+  },
+  "002391": {
+    "context": "002391",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「喂等下，为什么你要保护我？」"
+  },
+  "002420": {
+    "context": "002420",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士拜托的」"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「妈妈？！不对我是说……从什么之中保护我？」"
+  },
+  "002442": {
+    "context": "002442",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「再说我又不是什么 VIP 之类的……」"
+  },
+  "002471": {
+    "context": "002471",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士说，“最近这附近不太平。不清楚什么时候会卷进什么什么事里”」"
+  },
+  "002482": {
+    "context": "002482",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「哈……？」"
+  },
+  "002534": {
+    "context": "002534",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠的话也好，母亲的话也罢，实际上夏彦都无法理解。"
+  },
+  "002539": {
+    "context": "002539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠虽说文武双全，但怎么看都不适合当贴身保镖。"
+  },
+  "002561": {
+    "context": "002561",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「究竟为什么，我不得不被像你一样的女孩子“保护”？正常不应该反过来吗？」"
+  },
+  "002572": {
+    "context": "002572",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不对等下，我也没有保护你的义务就是了……」"
+  },
+  "002601": {
+    "context": "002601",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「但是我同样没义务保护你」"
+  },
+  "002612": {
+    "context": "002612",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……？我没明白什么意思」"
+  },
+  "002623": {
+    "context": "002623",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「说起来被卷入什么事情，具体是指——」"
+  },
+  "002710": {
+    "context": "002710",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "刚说完，夏彦突然想起昨天发生的事情来。"
+  },
+  "002761": {
+    "context": "002761",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——宇喜多发生车祸的时候，纱瑠也在现场。"
+  },
+  "002898": {
+    "context": "002898",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@import 0137 004564"
+  },
+  "002916": {
+    "context": "002916",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@import 0137 004633"
+  },
+  "003020": {
+    "context": "003020",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（这么说来大叔也说了这样的话……）"
+  },
+  "003072": {
+    "context": "003072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多的话和现在的状况之间像是有什么关联一般，夏彦忍不住这么想。"
+  },
+  "003078": {
+    "context": "003078",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（该不会纱瑠的到来，就是大叔口中的“奇怪的事情”吧？）"
+  },
+  "003083": {
+    "context": "003083",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "还是说从现在开始，将会发生更奇怪的事情呢。"
+  },
+  "003088": {
+    "context": "003088",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就是为了在那时保护夏彦，纱瑠才来到这里的吗？"
+  },
+  "003110": {
+    "context": "003110",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……纱瑠。妈妈她，是认为我会面临什么危险吗？」"
+  },
+  "003139": {
+    "context": "003139",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「详细的我也不知道。只是说要我保护你而已」"
+  },
+  "003144": {
+    "context": "003144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠淡淡地说。"
+  },
+  "003150": {
+    "context": "003150",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "究竟是真不知道详细呢，还是不想回答呢——就连这个夏彦也不知道。"
+  },
+  "003233": {
+    "context": "003233",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……总之，夏彦务必老实接受我的保护。被那么警戒着会让我束手束脚」"
+  },
+  "003262": {
+    "context": "003262",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「然后被冷漠对待的感觉不好受。不要」"
+  },
+  "003273": {
+    "context": "003273",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「那、那真是抱歉……」"
+  },
+  "003287": {
+    "context": "003287",
+    "code": "0x55",
+    "string": "√Before Chapter2"
+  },
+  "003318": {
+    "context": "003318",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「知道就好。我还有日常事务要做，就先回房间了」"
+  },
+  "003347": {
+    "context": "003347",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸，啊，等等」"
+  },
+  "003369": {
+    "context": "003369",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠自说自话返回了家中。"
+  },
+  "003375": {
+    "context": "003375",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（怎么回事啊，那女孩子……？）"
+  },
+  "003380": {
+    "context": "003380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠的态度，与在超心理学研究所门前分别时如出一辙。"
+  },
+  "003464": {
+    "context": "003464",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦独自伫立在玄关前，思索着纱瑠的话语。"
+  },
+  "003470": {
+    "context": "003470",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（虽然说要保护我……但意图是什么呢）"
+  },
+  "003541": {
+    "context": "003541",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不管这话的本意是什么，只怕纱瑠丝毫不是出于对夏彦的好心吧。"
+  },
+  "003646": {
+    "context": "003646",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "纱瑠看起来是不情不愿地接受的天川博士的任命。"
+  },
+  "003652": {
+    "context": "003652",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（母亲又究竟是为了什么而任命纱瑠来做这种事的呢……？）"
+  },
+  "003688": {
+    "context": "003688",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "毕竟鹿鸣市的治安相当良好，没那么容易卷进犯罪事件。"
+  },
+  "003693": {
+    "context": "003693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "只是——有事情令他在意。"
+  },
+  "003799": {
+    "context": "003799",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（仔细想想，宇喜多大叔是 LABO 的职员——妈妈的同事）"
+  },
+  "003805": {
+    "context": "003805",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（如果，那次汽车事故，并不是普通的事故的话……？）"
+  },
+  "003811": {
+    "context": "003811",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（LABO 相关人员可能会被盯上？）"
+  },
+  "003847": {
+    "context": "003847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——虽然这样的想法闪过脑海，但他却不知道为什么会发生这种情况。"
+  },
+  "003852": {
+    "context": "003852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "博士又是为什么没有跟夏彦和纱瑠讲清楚呢。"
+  },
+  "003857": {
+    "context": "003857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "进一步说，纱瑠真的是来保护夏彦的吗？"
+  },
+  "003863": {
+    "context": "003863",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  "003869": {
+    "context": "003869",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「………」"
+  },
+  "003954": {
+    "context": "003954",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「…………不行啊，完全想不明白」"
+  },
+  "003959": {
+    "context": "003959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦这样嘀咕着，停下了思考。"
+  },
+  "003965": {
+    "context": "003965",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（没有实际损害的话，就随它去吧）"
+  },
+  "003970": {
+    "context": "003970",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "想了也没用的事情，就尽量不去想了。这就是夏彦的生活方式。"
+  },
+  "003975": {
+    "context": "003975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是——夏彦隐约感到有些不安。"
+  },
+  "003980": {
+    "context": "003980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "有什么东西在自己浑然不觉的暗处悄悄进行着的，这种不安……"
+  }
+}
