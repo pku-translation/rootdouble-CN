@@ -16,10 +16,15 @@ namespace CsYetiTools.Transifex
     public class TranslationStringsPutInfo
     {
         private static System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create();
-
-        public string SourceEntryHash { get; set; } = "";
+        public string SourceEntityHash { get; set; } = "";
         public string Translation { get; set; } = "";
         public string? User { get; set; } = null;
+
+        public TranslationStringsPutInfo()
+        {
+
+        }
+
         public TranslationStringsPutInfo(string key, string context, string translation, string? user = null)
         {
             var data = md5.ComputeHash(Utils.Utf8.GetBytes(key + ":" + context));
@@ -28,7 +33,7 @@ namespace CsYetiTools.Transifex
             {
                 builder.Append(data[i].ToString("x2"));
             }
-            SourceEntryHash = builder.ToString();
+            SourceEntityHash = builder.ToString();
             Translation = translation;
             User = user;
         }

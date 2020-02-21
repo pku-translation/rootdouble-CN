@@ -1,740 +1,740 @@
 {
-  "000001": {
-    "context": "000001",
+  "000079": {
+    "context": "000079",
     "code": "0x55",
     "string": "√After Chapter3"
   },
-  "000005": {
-    "context": "000005",
+  "000083": {
+    "context": "000083",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがその安全基準は、ＡＤを投与している事が前提だった。"
   },
-  "000010": {
-    "context": "000010",
+  "000088": {
+    "context": "000088",
     "code": "0x45",
     "developer_comment": "",
     "string": "もしこのままＡＤが見つからなければ、ラボ全域が汚染区域という事になるだろう。"
   },
-  "000015": {
-    "context": "000015",
+  "000093": {
+    "context": "000093",
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな絶望的な状況だけは、どうしても避けなければならなかった。"
   },
-  "000026": {
-    "context": "000026",
+  "000104": {
+    "context": "000104",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「次のＡＤ投与時間まで、あと３０分を切っている。とにかく手分けして捜索しよう」"
   },
-  "000057": {
-    "context": "000057",
+  "000135": {
+    "context": "000135",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「となれば、ファクトリーを重点的に捜索した方がいいだろう」"
   },
-  "000068": {
-    "context": "000068",
+  "000146": {
+    "context": "000146",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「ＡＤはこの場所で作られていたはずだから、焼け残りがあるかもしれない」"
   },
-  "000073": {
-    "context": "000073",
+  "000151": {
+    "context": "000151",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう言えば、ＡＤはラボの関係者から支給されたと、以前風見が言っていた。"
   },
-  "000102": {
-    "context": "000102",
+  "000180": {
+    "context": "000180",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「でも、こんな中から見つけ出すなんて骨が折れそうよ？」"
   },
-  "000131": {
-    "context": "000131",
+  "000209": {
+    "context": "000209",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「そうだね。それに内周棟だって、ちゃんと捜索しなきゃならないし」"
   },
-  "000136": {
-    "context": "000136",
+  "000214": {
+    "context": "000214",
     "code": "0x45",
     "developer_comment": "",
     "string": "こうして話し合っている時間もおしい。渡瀬は即座に決断した。"
   },
-  "000147": {
-    "context": "000147",
+  "000225": {
+    "context": "000225",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「わかった、だったら内周棟はオレが１人で担当しよう。みんなは手分けして、ファクトリーを調べてくれ」"
   },
-  "000152": {
-    "context": "000152",
+  "000230": {
+    "context": "000230",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそう言うや、１人で内周棟へ向かった。"
   },
-  "000250": {
-    "context": "000250",
+  "000328": {
+    "context": "000328",
     "code": "0x45",
     "developer_comment": "",
     "string": "――地下２階フロアを、全速力で駆け回る。"
   },
-  "000385": {
-    "context": "000385",
+  "000463": {
+    "context": "000463",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが、どの部屋を探してもＡＤを見つける事はできなかった。"
   },
-  "000391": {
-    "context": "000391",
+  "000469": {
+    "context": "000469",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（――いや、落ち着け。まだ地下１階が残ってる）"
   },
-  "000439": {
-    "context": "000439",
+  "000517": {
+    "context": "000517",
     "code": "0x45",
     "developer_comment": "",
     "string": "上階に上がるため、階段室へと向かう。"
   },
-  "000451": {
-    "context": "000451",
+  "000529": {
+    "context": "000529",
     "code": "0x45",
     "developer_comment": "",
     "string": "防火扉を開けると、そこで渡瀬を待っていたのは――"
   },
-  "000580": {
-    "context": "000580",
+  "000658": {
+    "context": "000658",
     "code": "0x45",
     "developer_comment": "",
     "string": "非常階段が、完全に崩れている光景だった。"
   },
-  "000586": {
-    "context": "000586",
+  "000664": {
+    "context": "000664",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（くそっ、時間がねえってのに！）"
   },
-  "000598": {
-    "context": "000598",
+  "000676": {
+    "context": "000676",
     "code": "0x45",
     "developer_comment": "",
     "string": "時計を見ると『１１時５８分』――。"
   },
-  "000603": {
-    "context": "000603",
+  "000681": {
+    "context": "000681",
     "code": "0x45",
     "developer_comment": "",
     "string": "ＡＤ投与時間まで、残り２０分を切っている。"
   },
-  "000609": {
-    "context": "000609",
+  "000687": {
+    "context": "000687",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（またエレベーターシャフトを上らなきゃならないのか？）"
   },
-  "000615": {
-    "context": "000615",
+  "000693": {
+    "context": "000693",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（いや――）"
   },
-  "000620": {
-    "context": "000620",
+  "000698": {
+    "context": "000698",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はずっと持ち歩いていた１０ｍロープを取り出すと、その先端に落ちていた瓦礫を縛り付けた。"
   },
-  "000631": {
-    "context": "000631",
+  "000709": {
+    "context": "000709",
     "code": "0x45",
     "developer_comment": "",
     "string": "そしてそれを投げ、地下１階に残っている踊り場の手すりに引っ掛ける。"
   },
-  "000694": {
-    "context": "000694",
+  "000772": {
+    "context": "000772",
     "code": "0x45",
     "developer_comment": "",
     "string": "さらに何度か引っ張ると、ロープはしっかりと固定されているようだった。"
   },
-  "000700": {
-    "context": "000700",
+  "000778": {
+    "context": "000778",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（――よし、行ける！）"
   },
-  "000787": {
-    "context": "000787",
+  "000865": {
+    "context": "000865",
     "code": "0x45",
     "developer_comment": "",
     "string": "腕力にものを言わせてロープを登り、渡瀬は無事に地下１階フロアへたどり着いていた。"
   },
-  "000793": {
-    "context": "000793",
+  "000871": {
+    "context": "000871",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（ちっ、余計な時間を食っちまったな……）"
   },
-  "000798": {
-    "context": "000798",
+  "000876": {
+    "context": "000876",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は胸中で毒づくと、また駆け足で捜索を開始した。"
   },
-  "000852": {
-    "context": "000852",
+  "000930": {
+    "context": "000930",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがその捜索も、何の成果もないままに終了し――"
   },
-  "000897": {
-    "context": "000897",
+  "000975": {
+    "context": "000975",
     "code": "0x45",
     "developer_comment": "",
     "string": "地下２階に降りた渡瀬の足取りは、さすがに重たくなっていた。"
   },
-  "000903": {
-    "context": "000903",
+  "000981": {
+    "context": "000981",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（風見たちが、ＡＤを見つけてくれればいいんだが……）"
   },
-  "000908": {
-    "context": "000908",
+  "000986": {
+    "context": "000986",
     "code": "0x45",
     "developer_comment": "",
     "string": "ファクトリーに繋がる連絡通路の中で、渡瀬が不安に駆られた――その時。"
   },
-  "000940": {
-    "context": "000940",
+  "001018": {
+    "context": "001018",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「っ！！！？？？」"
   },
-  "000945": {
-    "context": "000945",
+  "001023": {
+    "context": "001023",
     "code": "0x45",
     "developer_comment": "",
     "string": "前方から聞こえて来た轟音に、渡瀬の全身が総毛立つ。"
-  },
-  "001004": {
-    "context": "001004",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "急いでファクトリーに駆け込むと、ある一角にもうもうと砂煙が立っていた。"
-  },
-  "001009": {
-    "context": "001009",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "その周りに風見たちの姿がある。"
-  },
-  "001020": {
-    "context": "001020",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「どうした！？　なにがあったんだ！？」"
-  },
-  "001025": {
-    "context": "001025",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "駆け寄ると、風見を初めとする全員が、砂煙の中に現れた瓦礫の山を見つめていた。"
-  },
-  "001030": {
-    "context": "001030",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "問いかけたにもかかわらず、誰からも反応が返ってこない。"
-  },
-  "001041": {
-    "context": "001041",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「おい、橘！　なにがあったのかって聞いてるんだ！」"
-  },
-  "001046": {
-    "context": "001046",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "すると風見が、半ば放心したように言う。"
-  },
-  "001077": {
-    "context": "001077",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "「ユウリさんが……私たちが、気付いた時にはもう……」"
   },
   "001082": {
     "context": "001082",
     "code": "0x45",
     "developer_comment": "",
-    "string": "見ると瓦礫の下から、大量の血が滲み出している。"
+    "string": "急いでファクトリーに駆け込むと、ある一角にもうもうと砂煙が立っていた。"
   },
   "001087": {
     "context": "001087",
     "code": "0x45",
     "developer_comment": "",
+    "string": "その周りに風見たちの姿がある。"
+  },
+  "001098": {
+    "context": "001098",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうした！？　なにがあったんだ！？」"
+  },
+  "001103": {
+    "context": "001103",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "駆け寄ると、風見を初めとする全員が、砂煙の中に現れた瓦礫の山を見つめていた。"
+  },
+  "001108": {
+    "context": "001108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "問いかけたにもかかわらず、誰からも反応が返ってこない。"
+  },
+  "001119": {
+    "context": "001119",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おい、橘！　なにがあったのかって聞いてるんだ！」"
+  },
+  "001124": {
+    "context": "001124",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると風見が、半ば放心したように言う。"
+  },
+  "001155": {
+    "context": "001155",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ユウリさんが……私たちが、気付いた時にはもう……」"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見ると瓦礫の下から、大量の血が滲み出している。"
+  },
+  "001165": {
+    "context": "001165",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "そしてその場にいる『４人』の中に、ユウリの姿が見当たらない。"
   },
-  "001117": {
-    "context": "001117",
+  "001195": {
+    "context": "001195",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「う、うぅ……ユウリちゃん……ユウリちゃん……」"
   },
-  "001174": {
-    "context": "001174",
+  "001252": {
+    "context": "001252",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「なぜだ……なぜ、こんな事になってしまったのだ……」"
   },
-  "001204": {
-    "context": "001204",
+  "001282": {
+    "context": "001282",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私たちが、ＡＤを探すのに気を取られていたばっかりに……」"
   },
-  "001261": {
-    "context": "001261",
+  "001339": {
+    "context": "001339",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「私は……私は、危険に気づいていたはずなのに……」"
   },
-  "001267": {
-    "context": "001267",
+  "001345": {
+    "context": "001345",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（う、嘘だろ……？）"
   },
-  "001272": {
-    "context": "001272",
+  "001350": {
+    "context": "001350",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが状況を理解したとたん、渡瀬の体は弾かれたように、瓦礫の下へ向かっていた。"
   },
-  "001324": {
-    "context": "001324",
+  "001402": {
+    "context": "001402",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ユウリッ！　ユウリ頼むから、返事をしてくれッ！」"
   },
-  "001335": {
-    "context": "001335",
+  "001413": {
+    "context": "001413",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「――馬鹿やろう！　お前らなにぼさっとしてるんだ！　ユウリを助けるのを手伝いやがれ！」"
   },
-  "001340": {
-    "context": "001340",
+  "001418": {
+    "context": "001418",
     "code": "0x45",
     "developer_comment": "",
     "string": "するとこんな時、真っ先に行動するはずの洵が言う。"
   },
-  "001376": {
-    "context": "001376",
+  "001454": {
+    "context": "001454",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「無理だよ、隊長……こんなでっかい瓦礫が、天井から落ちてきたんだよ……」"
   },
-  "001387": {
-    "context": "001387",
+  "001465": {
+    "context": "001465",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ユウリちゃんは、その真下にいて……だから…………」"
   },
-  "001392": {
-    "context": "001392",
+  "001470": {
+    "context": "001470",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵の言葉は、そのまま嗚咽に塗り潰されていた。"
   },
-  "001403": {
-    "context": "001403",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「そ、そんな……くそっ――くそおおおおおっ！」"
-  },
-  "001408": {
-    "context": "001408",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "それからどれくらい、渡瀬たちは打ちひしがれていたのだろう。"
-  },
-  "001413": {
-    "context": "001413",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "やがて風見の腕時計が、ＡＤ投与の時間を告げた。"
-  },
-  "001475": {
-    "context": "001475",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「ＡＤは……？」"
-  },
   "001481": {
     "context": "001481",
     "code": "0x45",
-    "developer_comment": "",
-    "string": "渡瀬がそう尋ねると、風見が無言で首を振る。"
+    "developer_comment": "渡瀬",
+    "string": "「そ、そんな……くそっ――くそおおおおおっ！」"
   },
   "001486": {
     "context": "001486",
     "code": "0x45",
     "developer_comment": "",
+    "string": "それからどれくらい、渡瀬たちは打ちひしがれていたのだろう。"
+  },
+  "001491": {
+    "context": "001491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて風見の腕時計が、ＡＤ投与の時間を告げた。"
+  },
+  "001553": {
+    "context": "001553",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＡＤは……？」"
+  },
+  "001559": {
+    "context": "001559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう尋ねると、風見が無言で首を振る。"
+  },
+  "001564": {
+    "context": "001564",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "そのとき、今度はプロキオンが鳴り響く。"
   },
-  "001497": {
-    "context": "001497",
+  "001575": {
+    "context": "001575",
     "code": "0x45",
     "developer_comment": "",
     "string": "表示を見ると、数値はちょうど『４０００ｍＳｖ』――。"
   },
-  "001502": {
-    "context": "001502",
+  "001580": {
+    "context": "001580",
     "code": "0x45",
     "developer_comment": "",
     "string": "早くも肌が痺れ始め、脳内に痛みが起こり始めていた。"
   },
-  "001514": {
-    "context": "001514",
+  "001592": {
+    "context": "001592",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「行くぞ……このままじゃ、オレたち全員おしまいだ」"
   },
-  "001525": {
-    "context": "001525",
+  "001603": {
+    "context": "001603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「とにかくＡＤを見つけよう。それにオレたちはまだ、夏彦たち３人を見つけちゃいない」"
   },
-  "001570": {
-    "context": "001570",
+  "001648": {
+    "context": "001648",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして渡瀬たちは、第１エリアから再捜索を開始した。"
   },
-  "001614": {
-    "context": "001614",
+  "001692": {
+    "context": "001692",
     "code": "0x45",
     "developer_comment": "",
     "string": "肌の感覚異常、嘔吐感、激しい頭痛……。"
   },
-  "001619": {
-    "context": "001619",
+  "001697": {
+    "context": "001697",
     "code": "0x45",
     "developer_comment": "",
     "string": "やがて足取りさえも、だんだん怪しくなってくる。"
   },
-  "001624": {
-    "context": "001624",
+  "001702": {
+    "context": "001702",
     "code": "0x45",
     "developer_comment": "",
     "string": "それでも渡瀬たちは、ＡＤを求め、要救助者の姿を探し、さまよい続けなければならなかった。"
   },
-  "001629": {
-    "context": "001629",
+  "001707": {
+    "context": "001707",
     "code": "0x45",
     "developer_comment": "",
     "string": "気付けば、宇喜多の姿がない。"
   },
-  "001640": {
-    "context": "001640",
+  "001718": {
+    "context": "001718",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「なあ……おっさんは、どこに行ったんだ……？」"
   },
-  "001645": {
-    "context": "001645",
+  "001723": {
+    "context": "001723",
     "code": "0x45",
     "developer_comment": "",
     "string": "頭痛がひどく、思考が上手く働かない。"
   },
-  "001650": {
-    "context": "001650",
+  "001728": {
+    "context": "001728",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがそれは他の面々にしても、似たようなものだった。"
   },
-  "001681": {
-    "context": "001681",
+  "001759": {
+    "context": "001759",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「変ですね……？　さっきまで、一緒にいたはずなのですが……？」"
   },
-  "001711": {
-    "context": "001711",
+  "001789": {
+    "context": "001789",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「うん……いたよ、さっきまで……ねえ、椿山さん……？」"
   },
-  "001716": {
-    "context": "001716",
+  "001794": {
+    "context": "001794",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵がそう尋ねても、恵那からの返事がない。"
   },
-  "001727": {
-    "context": "001727",
+  "001805": {
+    "context": "001805",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「先生……？」"
   },
-  "001818": {
-    "context": "001818",
+  "001896": {
+    "context": "001896",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「っ……」"
   },
-  "001925": {
-    "context": "001925",
+  "002003": {
+    "context": "002003",
     "code": "0x45",
     "developer_comment": "",
     "string": "倒れた恵那を渡瀬が背負い、今度は第２エリアへ向かう。"
   },
-  "001930": {
-    "context": "001930",
+  "002008": {
+    "context": "002008",
     "code": "0x45",
     "developer_comment": "",
     "string": "吐き気がひどく、口を開く事すらままならない。"
   },
-  "001961": {
-    "context": "001961",
+  "002039": {
+    "context": "002039",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「ねえ……こんろこそ、エーディー見つかるよね……？」"
   },
-  "001966": {
-    "context": "001966",
+  "002044": {
+    "context": "002044",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵のろれつは、もうだいぶ怪しくなっていた。"
   },
-  "002042": {
-    "context": "002042",
+  "002120": {
+    "context": "002120",
     "code": "0x45",
     "developer_comment": "",
     "string": "第２エリアを捜索中、洵は意識を失った。"
   },
-  "002047": {
-    "context": "002047",
+  "002125": {
+    "context": "002125",
     "code": "0x45",
     "developer_comment": "",
     "string": "その洵を背負い、風見が言う。"
   },
-  "002076": {
-    "context": "002076",
+  "002154": {
+    "context": "002154",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「たいちょう……このままでは、われわれも……」"
   },
-  "002081": {
-    "context": "002081",
+  "002159": {
+    "context": "002159",
     "code": "0x45",
     "developer_comment": "",
     "string": "……わかってる。"
   },
-  "002086": {
-    "context": "002086",
+  "002164": {
+    "context": "002164",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそう言葉にしたつもりだが、口から出たのは、細い溜め息のような音だけだった。"
   },
-  "002129": {
-    "context": "002129",
+  "002207": {
+    "context": "002207",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬と風見は、やがて人を背負える状態ではなくなった。"
   },
-  "002173": {
-    "context": "002173",
+  "002251": {
+    "context": "002251",
     "code": "0x45",
     "developer_comment": "",
     "string": "……記憶が曖昧になっている。"
   },
-  "002178": {
-    "context": "002178",
+  "002256": {
+    "context": "002256",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵と恵那をどこかの部屋に置いたのだが、それがどこだったのかわからない。"
   },
-  "002183": {
-    "context": "002183",
+  "002261": {
+    "context": "002261",
     "code": "0x45",
     "developer_comment": "",
     "string": "ただひたすらに気持ちが悪く、ただひたすらに頭が痛い。"
-  },
-  "002276": {
-    "context": "002276",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "しばらくすると、近くで爆発音が鳴り――"
-  },
-  "002322": {
-    "context": "002322",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "その爆風に巻き込まれ、渡瀬は吹き飛ばされていた。"
-  },
-  "002327": {
-    "context": "002327",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "全身がひどくだるかった。"
-  },
-  "002332": {
-    "context": "002332",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "起き上がって周囲を見回すと、風見の姿が見当たらない。"
-  },
-  "002337": {
-    "context": "002337",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "頭の中がぼーっとする。"
-  },
-  "002343": {
-    "context": "002343",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（あれ……？　どうしてオレは１人なんだ……？）"
-  },
-  "002349": {
-    "context": "002349",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（だめだ……もう、なにがなんだか……）"
   },
   "002354": {
     "context": "002354",
     "code": "0x45",
     "developer_comment": "",
+    "string": "しばらくすると、近くで爆発音が鳴り――"
+  },
+  "002400": {
+    "context": "002400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その爆風に巻き込まれ、渡瀬は吹き飛ばされていた。"
+  },
+  "002405": {
+    "context": "002405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全身がひどくだるかった。"
+  },
+  "002410": {
+    "context": "002410",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "起き上がって周囲を見回すと、風見の姿が見当たらない。"
+  },
+  "002415": {
+    "context": "002415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頭の中がぼーっとする。"
+  },
+  "002421": {
+    "context": "002421",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（あれ……？　どうしてオレは１人なんだ……？）"
+  },
+  "002427": {
+    "context": "002427",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だめだ……もう、なにがなんだか……）"
+  },
+  "002432": {
+    "context": "002432",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "渡瀬は右腕から、血をダラダラ流しながら歩き出した。"
   },
-  "002359": {
-    "context": "002359",
+  "002437": {
+    "context": "002437",
     "code": "0x45",
     "developer_comment": "",
     "string": "細く鋭いナイフのような瓦礫が、腕に突き刺さっている。"
   },
-  "002364": {
-    "context": "002364",
+  "002442": {
+    "context": "002442",
     "code": "0x45",
     "developer_comment": "",
     "string": "まったく気付いていなかったが、どうやらさっき負傷していたらしい。"
   },
-  "002369": {
-    "context": "002369",
+  "002447": {
+    "context": "002447",
     "code": "0x45",
     "developer_comment": "",
     "string": "その痛みは、まるで他人事のようだった。"
   },
-  "002375": {
-    "context": "002375",
+  "002453": {
+    "context": "002453",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（オレは……なにを、してるんだったかな……？）"
   },
-  "002381": {
-    "context": "002381",
+  "002459": {
+    "context": "002459",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（ああ、そうか……ＡＤを、さがしているんだった……）"
   },
-  "002426": {
-    "context": "002426",
+  "002504": {
+    "context": "002504",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして、連絡通路らしき場所に迷い込んだ時――"
   },
-  "002431": {
-    "context": "002431",
+  "002509": {
+    "context": "002509",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は不意に、平衡感覚を失った。"
   },
-  "002462": {
-    "context": "002462",
+  "002540": {
+    "context": "002540",
     "code": "0x45",
     "developer_comment": "",
     "string": "倒れ、床で顔を打つ。"
   },
-  "002467": {
-    "context": "002467",
+  "002545": {
+    "context": "002545",
     "code": "0x45",
     "developer_comment": "",
     "string": "衝撃と痛みがあったが、そんなモノはどうでもよかった。"
   },
-  "002472": {
-    "context": "002472",
+  "002550": {
+    "context": "002550",
     "code": "0x45",
     "developer_comment": "",
     "string": "……いらない……。"
   },
-  "002477": {
-    "context": "002477",
+  "002555": {
+    "context": "002555",
     "code": "0x45",
     "developer_comment": "",
     "string": "体も、感覚も、思考も、記憶も、渡瀬は何もいらなくなった。"
   },
-  "002482": {
-    "context": "002482",
+  "002560": {
+    "context": "002560",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬が欲しいのは、ただ１つ。"
   },
-  "002487": {
-    "context": "002487",
+  "002565": {
+    "context": "002565",
     "code": "0x45",
     "developer_comment": "",
     "string": "……ＡＤ……。"
   },
-  "002492": {
-    "context": "002492",
+  "002570": {
+    "context": "002570",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はただそれだけを渇望し、"
   },
-  "002497": {
-    "context": "002497",
+  "002575": {
+    "context": "002575",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがそれさえも、やがて必要なモノではなくなった……。"
   },
-  "002629": {
-    "context": "002629",
+  "002707": {
+    "context": "002707",
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
-  "002632": {
-    "context": "002632",
+  "002710": {
+    "context": "002710",
     "code": "0x45",
     "developer_comment": "",
     "string": "√A バッドエンド8【持たざる者】"
   },
-  "002635": {
-    "context": "002635",
+  "002713": {
+    "context": "002713",
     "code": "0x85",
     "string": "　"
   },
-  "002638": {
-    "context": "002638",
+  "002716": {
+    "context": "002716",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬の身を案じすぎて、ＡＤの捜索を失敗していた場合の結末。"
   },
-  "002641": {
-    "context": "002641",
+  "002719": {
+    "context": "002719",
     "code": "0x85",
     "string": "　"
   },
-  "002644": {
-    "context": "002644",
+  "002722": {
+    "context": "002722",
     "code": "0x45",
     "developer_comment": "",
     "string": "１１時４８分付近に入力できるセンシズで、渡瀬をとても高く設定したら、この結末は回避できたかもしれない。"

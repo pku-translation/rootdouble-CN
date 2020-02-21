@@ -1,452 +1,452 @@
 {
-  "000001": {
-    "context": "000001",
+  "000049": {
+    "context": "000049",
     "code": "0x55",
     "string": "√After Chapter4"
   },
-  "000006": {
-    "context": "000006",
+  "000054": {
+    "context": "000054",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（おかしい……！）"
   },
-  "000011": {
-    "context": "000011",
+  "000059": {
+    "context": "000059",
     "code": "0x45",
     "developer_comment": "",
     "string": "疑惑は急速に膨らんだ。"
   },
-  "000016": {
-    "context": "000016",
+  "000064": {
+    "context": "000064",
     "code": "0x45",
     "developer_comment": "",
     "string": "何かがおかしい。どこかが不自然だった。"
   },
-  "000022": {
-    "context": "000022",
+  "000070": {
+    "context": "000070",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（なんだ？　オレはユウリに何かされたのか？）"
   },
-  "000028": {
-    "context": "000028",
+  "000076": {
+    "context": "000076",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（ッ――！？）"
   },
-  "000034": {
-    "context": "000034",
+  "000082": {
+    "context": "000082",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（『ユウリに何かされた』って、オレは何を考えてんだ！？）"
   },
-  "000039": {
-    "context": "000039",
+  "000087": {
+    "context": "000087",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は自分自身の、脈略のない思考に戸惑った。"
   },
-  "000044": {
-    "context": "000044",
+  "000092": {
+    "context": "000092",
     "code": "0x45",
     "developer_comment": "",
     "string": "すると、脳裏に記憶が瞬いて――"
   },
-  "000140": {
-    "context": "000140",
+  "000188": {
+    "context": "000188",
     "code": "0x45",
     "developer_comment": "",
     "string": "それは、ついさっきの記憶。"
   },
-  "000151": {
-    "context": "000151",
+  "000199": {
+    "context": "000199",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「――…――…―…――」"
   },
-  "000156": {
-    "context": "000156",
+  "000204": {
+    "context": "000204",
     "code": "0x45",
     "developer_comment": "",
     "string": "エレベーターホールで見つけたユウリが、自分に何かを言っている。"
   },
-  "000161": {
-    "context": "000161",
+  "000209": {
+    "context": "000209",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが奇妙な事に、その内容がわからない。"
   },
-  "000166": {
-    "context": "000166",
+  "000214": {
+    "context": "000214",
     "code": "0x45",
     "developer_comment": "",
     "string": "やがてユウリが平然と、渡瀬の方へ歩み寄り――"
-  },
-  "000236": {
-    "context": "000236",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "――そこからの記憶は全て消えていた。"
-  },
-  "000241": {
-    "context": "000241",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "いや、そうではない。いま思い出した記憶さえ、渡瀬には『心当たりのない』ものだった。"
-  },
-  "000247": {
-    "context": "000247",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（なっ……オレはいつの間に、今の記憶を失ったんだ……？）"
-  },
-  "000253": {
-    "context": "000253",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（まさか、さっき記憶の混濁が起きた時に……ッ！？）"
-  },
-  "000258": {
-    "context": "000258",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "だが、わからない事がもう１つある。"
-  },
-  "000263": {
-    "context": "000263",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "それは汚染区域の中で、ユウリが平然としていたという事だ。"
-  },
-  "000268": {
-    "context": "000268",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "得体の知れない不安が、渡瀬の中に沸き起こる。"
-  },
-  "000274": {
-    "context": "000274",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（まさか……ユウリは放射線が平気なのか……？）"
-  },
-  "000279": {
-    "context": "000279",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "自分でも、それが突拍子もない考えである事はわかっていた。"
   },
   "000284": {
     "context": "000284",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが渡瀬の中にある、何かがそれを主張した。"
+    "string": "――そこからの記憶は全て消えていた。"
   },
-  "000290": {
-    "context": "000290",
+  "000289": {
+    "context": "000289",
     "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（もし、放射線が平気だって言うんなら――）"
+    "developer_comment": "",
+    "string": "いや、そうではない。いま思い出した記憶さえ、渡瀬には『心当たりのない』ものだった。"
   },
   "000295": {
     "context": "000295",
     "code": "0x45",
-    "developer_comment": "",
-    "string": "そしてエレベーターホール前にいた渡瀬の記憶に、空白があるという事は――！"
+    "developer_comment": "渡瀬",
+    "string": "（なっ……オレはいつの間に、今の記憶を失ったんだ……？）"
   },
   "000301": {
     "context": "000301",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（――まさかユウリは、まだ汚染区域に潜んでいるのか！？）"
+    "string": "（まさか、さっき記憶の混濁が起きた時に……ッ！？）"
   },
   "000306": {
     "context": "000306",
     "code": "0x45",
     "developer_comment": "",
+    "string": "だが、わからない事がもう１つある。"
+  },
+  "000311": {
+    "context": "000311",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは汚染区域の中で、ユウリが平然としていたという事だ。"
+  },
+  "000316": {
+    "context": "000316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "得体の知れない不安が、渡瀬の中に沸き起こる。"
+  },
+  "000322": {
+    "context": "000322",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（まさか……ユウリは放射線が平気なのか……？）"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分でも、それが突拍子もない考えである事はわかっていた。"
+  },
+  "000332": {
+    "context": "000332",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬の中にある、何かがそれを主張した。"
+  },
+  "000338": {
+    "context": "000338",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もし、放射線が平気だって言うんなら――）"
+  },
+  "000343": {
+    "context": "000343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてエレベーターホール前にいた渡瀬の記憶に、空白があるという事は――！"
+  },
+  "000349": {
+    "context": "000349",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（――まさかユウリは、まだ汚染区域に潜んでいるのか！？）"
+  },
+  "000354": {
+    "context": "000354",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "渡瀬はそう判断し、急いで地下２階へ引き返した。"
   },
-  "000355": {
-    "context": "000355",
+  "000403": {
+    "context": "000403",
     "code": "0x45",
     "developer_comment": "",
     "string": "汚染区域に戻ったとたん、渡瀬は激しい頭痛に見舞われた。"
   },
-  "000360": {
-    "context": "000360",
+  "000408": {
+    "context": "000408",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして渡瀬は確信した。"
   },
-  "000365": {
-    "context": "000365",
+  "000413": {
+    "context": "000413",
     "code": "0x45",
     "developer_comment": "",
     "string": "あのか弱いユウリが、この頭痛に耐えられたはずがないという事を。"
   },
-  "000371": {
-    "context": "000371",
+  "000419": {
+    "context": "000419",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（だったら、やっぱりユウリは……！）"
   },
-  "000377": {
-    "context": "000377",
+  "000425": {
+    "context": "000425",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（しかし、だとしたらユウリは何者なんだ……！？）"
   },
-  "000382": {
-    "context": "000382",
+  "000430": {
+    "context": "000430",
     "code": "0x45",
     "developer_comment": "",
     "string": "放射線の影響を受けない人間がいるとしたら、おそらくそれは人外の者だろう。"
   },
-  "000432": {
-    "context": "000432",
+  "000480": {
+    "context": "000480",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（――思い出せ！）"
   },
-  "000437": {
-    "context": "000437",
+  "000485": {
+    "context": "000485",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は汚染区域内を捜索しながら、自分に強くそう命じた。"
   },
-  "000442": {
-    "context": "000442",
+  "000490": {
+    "context": "000490",
     "code": "0x45",
     "developer_comment": "",
     "string": "消えてしまった記憶の中に、答えがあるような気がしたのだ。"
   },
-  "000447": {
-    "context": "000447",
+  "000495": {
+    "context": "000495",
     "code": "0x45",
     "developer_comment": "",
     "string": "とたんに頭痛がひどくなる。"
   },
-  "000452": {
-    "context": "000452",
+  "000500": {
+    "context": "000500",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが渡瀬はそれを噛み殺し、必死に自分の記憶を探った。"
   },
-  "000527": {
-    "context": "000527",
+  "000575": {
+    "context": "000575",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（そうだ……オレはあのとき、エレベーターホールでユウリを見つけて……）"
   },
-  "000533": {
-    "context": "000533",
+  "000581": {
+    "context": "000581",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（そして、ユウリに手のひらを向けられて……）"
   },
-  "000662": {
-    "context": "000662",
+  "000710": {
+    "context": "000710",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（そう……オレは、恐れたんだ……！）"
   },
-  "000668": {
-    "context": "000668",
+  "000716": {
+    "context": "000716",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（ユウリが……あの怪物と、同じに見えたから……！）"
   },
-  "000673": {
-    "context": "000673",
+  "000721": {
+    "context": "000721",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬が、それを思い出した――その瞬間。"
   },
-  "000753": {
-    "context": "000753",
+  "000801": {
+    "context": "000801",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「ぐ、あ……」"
   },
-  "000833": {
-    "context": "000833",
+  "000881": {
+    "context": "000881",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「がああああああああああっ！」"
   },
-  "000838": {
-    "context": "000838",
+  "000886": {
+    "context": "000886",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は頭を抱えて絶叫した。"
   },
-  "000843": {
-    "context": "000843",
+  "000891": {
+    "context": "000891",
     "code": "0x45",
     "developer_comment": "",
     "string": "凄まじい激痛が、渡瀬の脳を襲ったのだ。"
   },
-  "000848": {
-    "context": "000848",
+  "000896": {
+    "context": "000896",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして、刹那に思い出す。"
   },
-  "000853": {
-    "context": "000853",
+  "000901": {
+    "context": "000901",
     "code": "0x45",
     "developer_comment": "",
     "string": "ほんの少し前にも、同様の苦痛を味わった事を。"
   },
-  "000859": {
-    "context": "000859",
+  "000907": {
+    "context": "000907",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（これは放射線の――ッ！！）"
   },
-  "000864": {
-    "context": "000864",
+  "000912": {
+    "context": "000912",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが、わかったところでどうにもならない。"
   },
-  "000869": {
-    "context": "000869",
+  "000917": {
+    "context": "000917",
     "code": "0x45",
     "developer_comment": "",
     "string": "激痛が脳内をかき回す。脳髄を引き絞り、脳細胞を引き千切る。"
   },
-  "000874": {
-    "context": "000874",
+  "000922": {
+    "context": "000922",
     "code": "0x45",
     "developer_comment": "",
     "string": "――壊れるッ！"
   },
-  "000954": {
-    "context": "000954",
+  "001002": {
+    "context": "001002",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おああああああああああっ！」"
   },
-  "000959": {
-    "context": "000959",
+  "001007": {
+    "context": "001007",
     "code": "0x45",
     "developer_comment": "",
     "string": "絶叫が止まらない。"
   },
-  "000964": {
-    "context": "000964",
+  "001012": {
+    "context": "001012",
     "code": "0x45",
     "developer_comment": "",
     "string": "頭の中で、毛細血管がブチブチと切れる音がした。"
   },
-  "000969": {
-    "context": "000969",
+  "001017": {
+    "context": "001017",
     "code": "0x45",
     "developer_comment": "",
     "string": "その血が鼻から流れ出す。"
   },
-  "001019": {
-    "context": "001019",
+  "001067": {
+    "context": "001067",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして、目や耳からも――！"
   },
-  "001024": {
-    "context": "001024",
+  "001072": {
+    "context": "001072",
     "code": "0x45",
     "developer_comment": "",
     "string": "だが不意に――"
   },
-  "001073": {
-    "context": "001073",
+  "001121": {
+    "context": "001121",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬の世界から全てが消えた。"
   },
-  "001078": {
-    "context": "001078",
+  "001126": {
+    "context": "001126",
     "code": "0x45",
     "developer_comment": "",
     "string": "光も、音も、絶叫も、脳を襲った痛みさえも。"
   },
-  "001083": {
-    "context": "001083",
+  "001131": {
+    "context": "001131",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう、全てが……。"
   },
-  "001088": {
-    "context": "001088",
+  "001136": {
+    "context": "001136",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬を、渡瀬として形成していた、記憶さえも……。"
   },
-  "001093": {
-    "context": "001093",
+  "001141": {
+    "context": "001141",
     "code": "0x45",
     "developer_comment": "",
     "string": "消えた。"
   },
-  "001098": {
-    "context": "001098",
+  "001146": {
+    "context": "001146",
     "code": "0x45",
     "developer_comment": "",
     "string": "なくなった。"
   },
-  "001103": {
-    "context": "001103",
+  "001151": {
+    "context": "001151",
     "code": "0x45",
     "developer_comment": "",
     "string": "わからなくなった。"
   },
-  "001108": {
-    "context": "001108",
+  "001156": {
+    "context": "001156",
     "code": "0x45",
     "developer_comment": "",
     "string": "いや、１つだけ確かな事がある。"
   },
-  "001113": {
-    "context": "001113",
+  "001161": {
+    "context": "001161",
     "code": "0x45",
     "developer_comment": "",
     "string": "それは彼の脳が、完全に壊れたという事だ。"
   },
-  "001118": {
-    "context": "001118",
+  "001166": {
+    "context": "001166",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして――世界に虚無が訪れた。"
   },
-  "001205": {
-    "context": "001205",
+  "001253": {
+    "context": "001253",
     "code": "0x85",
     "string": "　%N　%N　%N"
   },
-  "001208": {
-    "context": "001208",
+  "001256": {
+    "context": "001256",
     "code": "0x45",
     "developer_comment": "",
     "string": "√A バッドエンド16【恐れおののける者】"
   },
-  "001211": {
-    "context": "001211",
+  "001259": {
+    "context": "001259",
     "code": "0x85",
     "string": "　"
   },
-  "001214": {
-    "context": "001214",
+  "001262": {
+    "context": "001262",
     "code": "0x45",
     "developer_comment": "",
     "string": "最悪のタイミングでユウリに恐怖を抱いてしまった場合の結末。"
   },
-  "001217": {
-    "context": "001217",
+  "001265": {
+    "context": "001265",
     "code": "0x85",
     "string": "　"
   },
-  "001220": {
-    "context": "001220",
+  "001268": {
+    "context": "001268",
     "code": "0x45",
     "developer_comment": "",
     "string": "このエンディング直前に入力できるセンシズで、ユウリをとても高く設定したら、この結末は回避できたかもしれない。"

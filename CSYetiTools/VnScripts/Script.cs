@@ -391,7 +391,7 @@ namespace CsYetiTools.VnScripts
             DumpText(writer, header, footer);
         }
 
-        public HashSet<string> EnumerateCharacterNames()
+        public HashSet<string> GetCharacterNames()
         {
             var names = new HashSet<string>();
             foreach (var code in Codes.OfType<StringCode>())
@@ -405,9 +405,11 @@ namespace CsYetiTools.VnScripts
             return names;
         }
 
-        public IEnumerable<Transifex.TranslationInfo> EnumerateTranslateSources()
+        public SortedDictionary<string, Transifex.TranslationInfo> GetTranslateSources()
         {
             string? currentName = null;
+
+            var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
 
             foreach (var code in Codes.OfType<StringCode>())
             {
@@ -418,25 +420,27 @@ namespace CsYetiTools.VnScripts
                 }
                 else if (code is DialogCode || code is ExtraDialogCode)
                 {
-                    yield return new Transifex.TranslationInfo
+                    dict.Add(index, new Transifex.TranslationInfo
                     {
                         Context = index,
                         Code = $"0x{code.Code:X2}",
                         DeveloperComment = currentName ?? "",
                         String = code.Content
-                    };
+                    });
                     currentName = null;
                 }
                 else
                 {
-                    yield return new Transifex.TranslationInfo
+                    dict.Add(index, new Transifex.TranslationInfo
                     {
                         Context = index,
                         Code = $"0x{code.Code:X2}",
                         @String = code.Content
-                    };
+                    });
                 }
             }
+
+            return dict;
         }
     }
 }

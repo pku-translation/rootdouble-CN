@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CsYetiTools.Transifex;
 using CsYetiTools.VnScripts;
+using Newtonsoft.Json;
 
 namespace CsYetiTools
 {
@@ -49,95 +50,30 @@ namespace CsYetiTools
         {
             await Task.Run(() => {});
             
-            // var jpPath = "psv/sn.bin";
-            // var enPath = "steam/sn.bin";
-            // var modifierFilePath = "string_list_modifiers.sexpr";
 
-            // var jpPackage = Load(jpPath, false);
-            // var enPackage = Load(enPath, true);
+            // ------------------------------------------------------------------------
 
-            // ----------------------------------------------------------------------
-
-            // foreach (var (i, script) in jpPackage.Scripts.WithIndex())
+            // var package = Load("psv/sn.bin", false);
+            // using var client = new TransifexClient();
+            // foreach (var (i, script) in package.Scripts.WithIndex())
             // {
-            //     var header = script.Header;
-            //     if (header.Entries.Length <= 1) continue;
+            //     if (i == 251) continue;
 
-            //     var start = header.Entries[0].AbsoluteOffset;
-            //     var exStart = header.Entries.Min(e => e.AbsoluteOffset);
+            //     if (script.Footer.ScriptIndex < 0) continue;
 
-            //     if (exStart == start) continue;
+            //     var mainCodeIndex = script.Codes.First(c => c.Offset == script.Header.Entries[0].AbsoluteOffset).Index;
+            //     if (mainCodeIndex == 0) continue;
 
-            //     foreach (var c in script.Codes)
-            //     {
-            //         if (c.Offset < start) {
-            //             if (c is StringCode) Console.WriteLine(c);
-            //             if (c is IHasAddress addressCode)
-            //             {
-            //                 foreach (var addr in addressCode.GetAddresses())
-            //                 {
-            //                     if (addr.AbsoluteOffset >= start)
-            //                     {
-            //                         Console.WriteLine($"{i,4}: {c.Index,4}|0x{c.Offset:X08} {c}");
-            //                     }
-            //                 }
-            //             }
-            //         }
-            //     }
+            //     Console.WriteLine($"script {i}");
+
+            //     var translations = JsonConvert.DeserializeObject<TranslationStringsPutInfo[]>(
+            //         File.ReadAllText($"translations/chunk_{i}.json"),
+            //         TransifexClient.JsonSettings)!;
+                
+            //     var resource = client.Project("rootdouble_steam_cn").Resource($"source-json-chunk-{i:0000}-json--master");
+
+            //     Console.WriteLine(await resource.PutTranslationStrings("zh_CN", translations));
             // }
-
-            // -------------------------------------------------------------------------------------------
-
-            // var client = new TransifexClient();
-            // var resource = client.Resource("rootdouble_steam_cn", $"source-json-chunk-{251:0000}-json--master");
-
-            // var trans = await resource.GetTranslations("zh_CN", TranslationMode.OnlyTranslated);
-
-            // // var json = await resource.Test("translation/zh_CN/", new { mode = "translator" });
-            // // var content = Newtonsoft.Json.JsonConvert.DeserializeAnonymousType(json, new{ Content = "" }).Content;
-
-            // // Console.WriteLine(content);
-
-            // var source = jpPackage.Scripts[251].EnumerateTranslateSources().ToList();
-            // Console.WriteLine($"{trans.Count} vs {source.Count}");
-
-            // string ToStr(Transifex.TranslationInfo v)
-            // {
-            //     if (string.IsNullOrWhiteSpace(v.DeveloperComment))
-            //         return $"[{v.Code}] {v.Context} | {(string.IsNullOrWhiteSpace(v.String) ? "<empty>" : v.String)}";
-            //     else
-            //         return $"[{v.Code}] {v.Context} | {v.DeveloperComment}: {(string.IsNullOrWhiteSpace(v.String) ? "<empty>" : v.String)}";
-            // }
-
-            // foreach (var (i, (src, (k, v))) in source.ZipTuple(trans).WithIndex())
-            // {
-            //     Console.WriteLine(" ---- " + ToStr(src));
-            //     Console.WriteLine("      " + ToStr(v));
-            // }
-
-            // ----------------------------------------------------------------------------------
-
-            // var pinfo = await client.GetProject("rootdouble_steam_cn");
-            // Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(pinfo));
-
-            // var info = await client.GetResource("rootdouble_steam_cn", $"source-json-chunk-{251:0000}-json--master");
-            // Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(info));
-
-            // enPackage.ReplaceStringTable(jpPackage, StringListModifier.Load(modifierFilePath));
-
-            // foreach (var script in enPackage.Scripts)
-            // {
-            //     foreach (var code in script.GetCodes<TextAreaCode>()) 
-            //     {
-            //         if (code.IsEnArea)
-            //         {
-            //             code.Y = 24;
-            //         }
-            //     }
-            // }
-
-            // enPackage.WriteTo(FilePath("sn.bin"));
-
         }
     }
 }

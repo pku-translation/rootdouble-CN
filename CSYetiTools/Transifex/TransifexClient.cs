@@ -62,6 +62,9 @@ namespace CsYetiTools.Transifex
         public Task<TranslationStringInfo[]> GetTranslationStrings(string language, string? key = null, string? context = null)
             => _client.GetTranslationStrings(_projectSlug, _resourceSlug, language, key, context);
 
+        public Task<string> PutTranslationStrings(string language, TranslationStringsPutInfo[] translations)
+            => _client.PutTranslationStrings(_projectSlug, _resourceSlug, language, translations);
+
         public Task<string> Test(string url, object args)
             => _client.ResourceTest(_projectSlug, _resourceSlug, url, args);
 
@@ -141,7 +144,12 @@ namespace CsYetiTools.Transifex
         }
 
         public Task<string> PutJson(IFlurlRequest request, object data)
-            => Put(request, JsonConvert.SerializeObject(data, JsonSettings), "application/json");
+        {
+            var json = JsonConvert.SerializeObject(data, JsonSettings);
+            Console.WriteLine("put: " + request.Url);
+            Console.WriteLine("data: " + json);
+            return Put(request, JsonConvert.SerializeObject(data, JsonSettings), "application/json");
+        }
 
         public Task<ProjectInfo[]> GetProjects(int start = 1, int? end = 500)
             => Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start = start, end = end }));
@@ -172,6 +180,9 @@ namespace CsYetiTools.Transifex
             if (context != null) request.SetQueryParam("context", true);
             return JsonConvert.DeserializeObject<TranslationStringInfo[]>(await Get(request), JsonSettings)!;
         }
+
+        public Task<string> PutTranslationStrings(string projectSlug, string resourceSlug, string language, TranslationStringsPutInfo[] translations)
+            => PutJson(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/"), translations);
 
         public Task<string> ResourceTest(string projectSlug, string resourceSlug, string url, object args)
             => Get(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, url).SetQueryParams(args));

@@ -1,437 +1,437 @@
 {
-  "000007": {
-    "context": "000007",
+  "000045": {
+    "context": "000045",
     "code": "0x55",
     "string": "√Before Chapter6"
   },
-  "000023": {
-    "context": "000023",
+  "000061": {
+    "context": "000061",
     "code": "0x45",
     "developer_comment": "",
     "string": "ラボに続く道は、１種類しかない。"
   },
-  "000028": {
-    "context": "000028",
+  "000066": {
+    "context": "000066",
     "code": "0x45",
     "developer_comment": "",
     "string": "『ラボ専用道路』。その入口には検問があり、そこを通る車は全てチェックされる。"
-  },
-  "000033": {
-    "context": "000033",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "原子炉を擁する施設なのだ。それも当然の警備体制だった。"
   },
   "000071": {
     "context": "000071",
     "code": "0x45",
     "developer_comment": "",
+    "string": "原子炉を擁する施設なのだ。それも当然の警備体制だった。"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "そしてその入口で――"
   },
-  "000076": {
-    "context": "000076",
+  "000114": {
+    "context": "000114",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちも、チェックに引っかかってしまった。"
   },
-  "000123": {
-    "context": "000123",
+  "000161": {
+    "context": "000161",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「む！？　誰だ君たちは！？」"
   },
-  "000128": {
-    "context": "000128",
+  "000166": {
+    "context": "000166",
     "code": "0x45",
     "developer_comment": "",
     "string": "検問を通ろうとした時、厳しい顔をした監視員に引き止められた。"
   },
-  "000139": {
-    "context": "000139",
+  "000177": {
+    "context": "000177",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ラボに行きたいんです！　通してください！」"
   },
-  "000147": {
-    "context": "000147",
+  "000185": {
+    "context": "000185",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「何を言ってるんだ、君は？　ダメに決まってるだろう」"
   },
-  "000155": {
-    "context": "000155",
+  "000193": {
+    "context": "000193",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「だいたい、行くってどうやって行くんだ。ここからラボまで１０ｋｍ近くあるぞ？」"
   },
-  "000163": {
-    "context": "000163",
+  "000201": {
+    "context": "000201",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「バカなこと言ってないで、帰った帰った」"
   },
-  "000199": {
-    "context": "000199",
+  "000237": {
+    "context": "000237",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「で、でも私たち、ここに勤めている天川博士の知り合いなんですけど……」"
   },
-  "000207": {
-    "context": "000207",
+  "000245": {
+    "context": "000245",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「そんな事は関係ない。この検問はいかなる人間であろうと、正当な理由無しに通すわけにはいかん」"
   },
-  "000215": {
-    "context": "000215",
+  "000253": {
+    "context": "000253",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「ラボに行きたいのであれば、鹿鳴市保安課もしくはラボの渉外担当者を通じ、許可を取りたまえ」"
   },
-  "000226": {
-    "context": "000226",
+  "000264": {
+    "context": "000264",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「許可？　それはどのくらいかかるんですか？」"
   },
-  "000234": {
-    "context": "000234",
+  "000272": {
+    "context": "000272",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「３日から１週間ほどかかるだろう」"
   },
-  "000242": {
-    "context": "000242",
+  "000280": {
+    "context": "000280",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「まぁ単なる学生が申請しても、通るわけもないがね」"
   },
-  "000271": {
-    "context": "000271",
+  "000309": {
+    "context": "000309",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「そ、そんな……！」"
   },
-  "000282": {
-    "context": "000282",
+  "000320": {
+    "context": "000320",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「ラボでテロが起きるかもしれないんですよ！？」"
   },
-  "000290": {
-    "context": "000290",
+  "000328": {
+    "context": "000328",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「テロ？　あぁ、近頃市街を騒がせているあれか」"
   },
-  "000298": {
-    "context": "000298",
+  "000336": {
+    "context": "000336",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「それについては我々も警戒している。充分すぎるほどね」"
   },
-  "000327": {
-    "context": "000327",
+  "000365": {
+    "context": "000365",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「違うんです！　それだけじゃ足りないんです！」"
   },
-  "000363": {
-    "context": "000363",
+  "000401": {
+    "context": "000401",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「ラボにはテロリストの内通者がいる可能性が高い。その事については考えてある？」"
   },
-  "000371": {
-    "context": "000371",
+  "000409": {
+    "context": "000409",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「内通者？　何をわけのわからないことを言っているんだ？」"
   },
-  "000379": {
-    "context": "000379",
+  "000417": {
+    "context": "000417",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「もういいからはやく帰れ。そうしなければ警察に通報するぞ」"
   },
-  "000384": {
-    "context": "000384",
+  "000422": {
+    "context": "000422",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう言って監視員は、電話の受話器を手に取った。"
   },
-  "000390": {
-    "context": "000390",
+  "000428": {
+    "context": "000428",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（警察……！）"
   },
-  "000395": {
-    "context": "000395",
+  "000433": {
+    "context": "000433",
     "code": "0x45",
     "developer_comment": "",
     "string": "保安課からの疑いは晴れたものの、警察を呼ばれたら、また面倒な事になりかねない。"
   },
-  "000400": {
-    "context": "000400",
+  "000438": {
+    "context": "000438",
     "code": "0x45",
     "developer_comment": "",
     "string": "サリュがそっと夏彦に耳打ちする。"
   },
-  "000429": {
-    "context": "000429",
+  "000467": {
+    "context": "000467",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「帰ろう２人とも。これ以上騒ぎ立てるのは得策じゃない」"
   },
-  "000458": {
-    "context": "000458",
+  "000496": {
+    "context": "000496",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「で、でも……！」"
   },
-  "000469": {
-    "context": "000469",
+  "000507": {
+    "context": "000507",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「今やるべきは、あくまでテロの阻止。警察や保安課を敵に回すべきじゃない」"
   },
-  "000480": {
-    "context": "000480",
+  "000518": {
+    "context": "000518",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……！」"
   },
-  "000485": {
-    "context": "000485",
+  "000523": {
+    "context": "000523",
     "code": "0x45",
     "developer_comment": "",
     "string": "そこまで言われて、夏彦たちはようやく納得した。"
   },
-  "000496": {
-    "context": "000496",
+  "000534": {
+    "context": "000534",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……わかったよ、別の方策を考えよう」"
   },
-  "000525": {
-    "context": "000525",
+  "000563": {
+    "context": "000563",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「それがいい」"
   },
-  "000554": {
-    "context": "000554",
+  "000592": {
+    "context": "000592",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「……失礼しました」"
   },
-  "000562": {
-    "context": "000562",
+  "000600": {
+    "context": "000600",
     "code": "0x45",
     "developer_comment": "監視員",
     "string": "「ふんっ。間違ってももう来ないようにな」"
   },
-  "000610": {
-    "context": "000610",
+  "000648": {
+    "context": "000648",
     "code": "0x45",
     "developer_comment": "",
     "string": "その声を背に、夏彦たちはその場を去った。"
   },
-  "000639": {
-    "context": "000639",
+  "000677": {
+    "context": "000677",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「まずいよ……どうする？」"
   },
-  "000650": {
-    "context": "000650",
+  "000688": {
+    "context": "000688",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「しかたない……まずは公衆電話を探そう」"
   },
-  "000661": {
-    "context": "000661",
+  "000699": {
+    "context": "000699",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「警察や保安課、それからラボ関係者に連絡して、注意を促すんだ」"
   },
-  "000666": {
-    "context": "000666",
+  "000704": {
+    "context": "000704",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちはうなずき、また歩き出した。"
   },
-  "000716": {
-    "context": "000716",
+  "000754": {
+    "context": "000754",
     "code": "0x45",
     "developer_comment": "",
     "string": "――街道を歩くうち、すぐに２つ並んだ公衆電話が見つかった。"
   },
-  "000721": {
-    "context": "000721",
+  "000759": {
+    "context": "000759",
     "code": "0x45",
     "developer_comment": "",
     "string": "さっそく夏彦は保安課の番号を調べ、電話をかけた。"
   },
-  "000746": {
-    "context": "000746",
+  "000784": {
+    "context": "000784",
     "code": "0x45",
     "developer_comment": "保安課員",
     "string": "「はい、鹿鳴市役所保安課、武橋が承ります」"
   },
-  "000757": {
-    "context": "000757",
+  "000795": {
+    "context": "000795",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「さきほどはお世話になりました。鹿鳴学園生徒の天川と申しますが」"
   },
-  "000765": {
-    "context": "000765",
+  "000803": {
+    "context": "000803",
     "code": "0x45",
     "developer_comment": "保安課員",
     "string": "「……なんだ、ハウスキーパー君か。どうしたね？」"
   },
-  "000776": {
-    "context": "000776",
+  "000814": {
+    "context": "000814",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「いや、実は……」"
   },
-  "000781": {
-    "context": "000781",
+  "000819": {
+    "context": "000819",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はかいつまんで、保安課員にサリュの予想を伝えた。"
   },
-  "000786": {
-    "context": "000786",
+  "000824": {
+    "context": "000824",
     "code": "0x45",
     "developer_comment": "",
     "string": "しかし――"
   },
-  "000797": {
-    "context": "000797",
+  "000835": {
+    "context": "000835",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「つまり、テロリストがラボを狙ってる可能性がですね……」"
   },
-  "000805": {
-    "context": "000805",
+  "000843": {
+    "context": "000843",
     "code": "0x45",
     "developer_comment": "保安課員",
     "string": "「あぁ、それはもうわかった。ご協力ありがとう」"
   },
-  "000810": {
-    "context": "000810",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "電話の向こうの保安課員の声には、いま一つ真剣味が感じられなかった。"
-  },
-  "000818": {
-    "context": "000818",
-    "code": "0x45",
-    "developer_comment": "保安課員",
-    "string": "「ラボの方には注意を促しておくから、安心してくれ」"
-  },
-  "000829": {
-    "context": "000829",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "「いや、それだけじゃ不充分な気が……警備を強化するとかできないんですか？」"
-  },
-  "000837": {
-    "context": "000837",
-    "code": "0x45",
-    "developer_comment": "保安課員",
-    "string": "「しかし、そのために他の各施設の警備を薄くするわけにもいかないんだ」"
-  },
   "000848": {
     "context": "000848",
     "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "「それも解るんですけど、そこをなんとか……」"
+    "developer_comment": "",
+    "string": "電話の向こうの保安課員の声には、いま一つ真剣味が感じられなかった。"
   },
   "000856": {
     "context": "000856",
     "code": "0x45",
     "developer_comment": "保安課員",
+    "string": "「ラボの方には注意を促しておくから、安心してくれ」"
+  },
+  "000867": {
+    "context": "000867",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、それだけじゃ不充分な気が……警備を強化するとかできないんですか？」"
+  },
+  "000875": {
+    "context": "000875",
+    "code": "0x45",
+    "developer_comment": "保安課員",
+    "string": "「しかし、そのために他の各施設の警備を薄くするわけにもいかないんだ」"
+  },
+  "000886": {
+    "context": "000886",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それも解るんですけど、そこをなんとか……」"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "保安課員",
     "string": "「うちも可能性だけじゃ動けないんだよ。それこそ怪文書でも届いていればいいんだが」"
   },
-  "000862": {
-    "context": "000862",
+  "000900": {
+    "context": "000900",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……」"
   },
-  "000870": {
-    "context": "000870",
+  "000908": {
+    "context": "000908",
     "code": "0x45",
     "developer_comment": "保安課員",
     "string": "「ともかく、市内の警戒態勢を強化しておくよ」"
   },
-  "000881": {
-    "context": "000881",
+  "000919": {
+    "context": "000919",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「わかりました……じゃあお願いします……」"
   },
-  "000930": {
-    "context": "000930",
+  "000968": {
+    "context": "000968",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は肩を落とし、電話を切った。"
   },
-  "000995": {
-    "context": "000995",
+  "001033": {
+    "context": "001033",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「どうだった？」"
   },
-  "001006": {
-    "context": "001006",
+  "001044": {
+    "context": "001044",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「一応、話は聞いてくれたけど……そっちは？」"
   },
-  "001011": {
-    "context": "001011",
+  "001049": {
+    "context": "001049",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦が保安課に通報している間、ましろは警察に連絡していた。"
   },
-  "001016": {
-    "context": "001016",
+  "001054": {
+    "context": "001054",
     "code": "0x45",
     "developer_comment": "",
     "string": "しかし彼女も、沈んだ表情で首を振る。"
   },
-  "001045": {
-    "context": "001045",
+  "001083": {
+    "context": "001083",
     "code": "0x45",
     "developer_comment": "ましろ",
     "string": "「だめだよ全然。『警備は充分に行っています』の一点張り」"
   },
-  "001056": {
-    "context": "001056",
+  "001094": {
+    "context": "001094",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「話が大きすぎて、信用してもらえないのか……！」"
   },
-  "001086": {
-    "context": "001086",
+  "001124": {
+    "context": "001124",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……どうする？」"
   },
-  "001092": {
-    "context": "001092",
+  "001130": {
+    "context": "001130",
     "code": "0x45",
     "developer_comment": "",
     "string": "サリュがそう呟いた時――"
   },
-  "001097": {
-    "context": "001097",
+  "001135": {
+    "context": "001135",
     "code": "0x45",
     "developer_comment": "",
     "string": "遠くから、足音が近づいてくるのが聞こえた。"

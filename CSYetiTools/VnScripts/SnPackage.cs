@@ -213,18 +213,13 @@ namespace CsYetiTools.VnScripts
             {
                 if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-                var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
-                foreach (var info in script.EnumerateTranslateSources())
-                {
-                    dict.Add(info.Context, info);
-                }
-                var content = JsonConvert.SerializeObject(dict, Transifex.TransifexClient.JsonSettings);
-                names.UnionWith(script.EnumerateCharacterNames());
+                var content = JsonConvert.SerializeObject(script.GetTranslateSources(), Transifex.TransifexClient.JsonSettings);
+                names.UnionWith(script.GetCharacterNames());
 
                 using (var writer = new StreamWriter(Path.Combine(dirPath, $"chunk_{i:0000}.json"), false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
-                    writer.WriteLine(content);
+                    writer.Write(content);
                 }
                 if (script.ParseError != null)
                 {
