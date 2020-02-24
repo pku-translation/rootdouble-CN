@@ -1,7 +1,0 @@
-filters: 
-  - filter_type: dir
-    file_format:  STRUCTURED_JSON
-    source_file_extension: json
-    source_language: ja_jp
-    source_file_dir: /source_json/
-    translation_files_expression: /<lang>/
