@@ -1,0 +1,626 @@
+{
+  "000BD328": {
+    "context": "000BD328",
+    "offset": "000BD328",
+    "character_limit": 5,
+    "string": "Proceed?"
+  },
+  "000BD334": {
+    "context": "000BD334",
+    "offset": "000BD334",
+    "character_limit": 23,
+    "string": "Any unsaved data will be lost at this point."
+  },
+  "000BD364": {
+    "context": "000BD364",
+    "offset": "000BD364",
+    "character_limit": 7,
+    "string": "Loading data."
+  },
+  "000BD374": {
+    "context": "000BD374",
+    "offset": "000BD374",
+    "character_limit": 13,
+    "string": "Failed to load save data."
+  },
+  "000BD390": {
+    "context": "000BD390",
+    "offset": "000BD390",
+    "character_limit": 11,
+    "string": "Save data is damaged."
+  },
+  "000BD3A8": {
+    "context": "000BD3A8",
+    "offset": "000BD3A8",
+    "character_limit": 17,
+    "string": "Please try saving one more time."
+  },
+  "000BD3CC": {
+    "context": "000BD3CC",
+    "offset": "000BD3CC",
+    "character_limit": 11,
+    "string": "Failed to save data."
+  },
+  "000BD3E4": {
+    "context": "000BD3E4",
+    "offset": "000BD3E4",
+    "character_limit": 25,
+    "string": "Would you like to proceed with data overwriting?"
+  },
+  "000BD418": {
+    "context": "000BD418",
+    "offset": "000BD418",
+    "character_limit": 31,
+    "string": "To load, please restart the game and select a storage device."
+  },
+  "000BD458": {
+    "context": "000BD458",
+    "offset": "000BD458",
+    "character_limit": 31,
+    "string": "Since a storage device has not been chosen, you cannot load."
+  },
+  "000BD498": {
+    "context": "000BD498",
+    "offset": "000BD498",
+    "character_limit": 31,
+    "string": "To save, please restart the game and select a storage device."
+  },
+  "000BD4D8": {
+    "context": "000BD4D8",
+    "offset": "000BD4D8",
+    "character_limit": 31,
+    "string": "Since a storage device has not been chosen, you cannot save."
+  },
+  "000BD518": {
+    "context": "000BD518",
+    "offset": "000BD518",
+    "character_limit": 23,
+    "string": "Please sign in so that the data can be loaded."
+  },
+  "000BD548": {
+    "context": "000BD548",
+    "offset": "000BD548",
+    "character_limit": 23,
+    "string": "Please sign in so that the data can be saved."
+  },
+  "000BD578": {
+    "context": "000BD578",
+    "offset": "000BD578",
+    "character_limit": 25,
+    "string": "Data cannot be saved because you are not signed in."
+  },
+  "000BD5AC": {
+    "context": "000BD5AC",
+    "offset": "000BD5AC",
+    "character_limit": 9,
+    "string": "System data loaded."
+  },
+  "000BD5C0": {
+    "context": "000BD5C0",
+    "offset": "000BD5C0",
+    "character_limit": 9,
+    "string": "Load system data?"
+  },
+  "000BD5D4": {
+    "context": "000BD5D4",
+    "offset": "000BD5D4",
+    "character_limit": 15,
+    "string": "Processing has been suspended."
+  },
+  "000BD5F4": {
+    "context": "000BD5F4",
+    "offset": "000BD5F4",
+    "character_limit": 9,
+    "string": "Save system data?"
+  },
+  "000BD608": {
+    "context": "000BD608",
+    "offset": "000BD608",
+    "character_limit": 29,
+    "string": "your damaged data will be overwritten if you save. Proceed?"
+  },
+  "000BD644": {
+    "context": "000BD644",
+    "offset": "000BD644",
+    "character_limit": 21,
+    "string": "Since your save data list cannot be read,"
+  },
+  "000BD670": {
+    "context": "000BD670",
+    "offset": "000BD670",
+    "character_limit": 39,
+    "string": "To save, you need over %s of free space.Would you like to check one more time?"
+  },
+  "000BD6C0": {
+    "context": "000BD6C0",
+    "offset": "000BD6C0",
+    "character_limit": 9,
+    "string": "in [\"TITLE_NAME\"]."
+  },
+  "000BD6D4": {
+    "context": "000BD6D4",
+    "offset": "000BD6D4",
+    "character_limit": 11,
+    "string": "There is no save data"
+  },
+  "000BD6EC": {
+    "context": "000BD6EC",
+    "offset": "000BD6EC",
+    "character_limit": 19,
+    "string": "Would you like to check one more time?"
+  },
+  "000BD714": {
+    "context": "000BD714",
+    "offset": "000BD714",
+    "character_limit": 25,
+    "string": "There is a possibility your save data is damaged."
+  },
+  "000BD748": {
+    "context": "000BD748",
+    "offset": "000BD748",
+    "character_limit": 13,
+    "string": "No memory stick inserted."
+  },
+  "000BD764": {
+    "context": "000BD764",
+    "offset": "000BD764",
+    "character_limit": 19,
+    "string": "Would you still like to start the game?"
+  },
+  "000BD78C": {
+    "context": "000BD78C",
+    "offset": "000BD78C",
+    "character_limit": 21,
+    "string": "To save, you need over %s of free space."
+  },
+  "000BD7B8": {
+    "context": "000BD7B8",
+    "offset": "000BD7B8",
+    "character_limit": 29,
+    "string": "Your memory storage media does not have enough free space."
+  },
+  "000C0084": {
+    "context": "000C0084",
+    "offset": "000C0084",
+    "character_limit": 13,
+    "string": "Senses Sympathy Tutorial"
+  },
+  "000C00A0": {
+    "context": "000C00A0",
+    "offset": "000C00A0",
+    "character_limit": 7,
+    "string": "－－－－－－"
+  },
+  "000C00B0": {
+    "context": "000C00B0",
+    "offset": "000C00B0",
+    "character_limit": 13,
+    "string": "%02d/%02d/%04d %02d:%02d"
+  },
+  "000C00CC": {
+    "context": "000C00CC",
+    "offset": "000C00CC",
+    "character_limit": 3,
+    "string": "%03d:"
+  },
+  "000C00D4": {
+    "context": "000C00D4",
+    "offset": "000C00D4",
+    "character_limit": 7,
+    "string": "%03d: NO DATA "
+  },
+  "000C00E4": {
+    "context": "000C00E4",
+    "offset": "000C00E4",
+    "character_limit": 15,
+    "string": "%02d/%02d/%04d %02d:%02d:%02d"
+  },
+  "000C0104": {
+    "context": "000C0104",
+    "offset": "000C0104",
+    "character_limit": 5,
+    "string": "Yes / No"
+  },
+  "000C0110": {
+    "context": "000C0110",
+    "offset": "000C0110",
+    "character_limit": 1,
+    "string": "Yes"
+  },
+  "000C0114": {
+    "context": "000C0114",
+    "offset": "000C0114",
+    "character_limit": 1,
+    "string": " / "
+  },
+  "000C0118": {
+    "context": "000C0118",
+    "offset": "000C0118",
+    "character_limit": 3,
+    "string": "Yes / "
+  },
+  "000C0120": {
+    "context": "000C0120",
+    "offset": "000C0120",
+    "character_limit": 1,
+    "string": "No"
+  },
+  "000C0124": {
+    "context": "000C0124",
+    "offset": "000C0124",
+    "character_limit": 7,
+    "string": "Now Saving..."
+  },
+  "000C018C": {
+    "context": "000C018C",
+    "offset": "000C018C",
+    "character_limit": 1,
+    "string": "Jun"
+  },
+  "000C0190": {
+    "context": "000C0190",
+    "offset": "000C0190",
+    "character_limit": 5,
+    "string": "Natsuhiko"
+  },
+  "000C019C": {
+    "context": "000C019C",
+    "offset": "000C019C",
+    "character_limit": 3,
+    "string": "Kazami"
+  },
+  "000C01A4": {
+    "context": "000C01A4",
+    "offset": "000C01A4",
+    "character_limit": 3,
+    "string": "Watase"
+  },
+  "000C01AC": {
+    "context": "000C01AC",
+    "offset": "000C01AC",
+    "character_limit": 3,
+    "string": "Salyu"
+  },
+  "000C01B4": {
+    "context": "000C01B4",
+    "offset": "000C01B4",
+    "character_limit": 1,
+    "string": "Ena"
+  },
+  "000C01B8": {
+    "context": "000C01B8",
+    "offset": "000C01B8",
+    "character_limit": 3,
+    "string": "Mashiro"
+  },
+  "000C01C0": {
+    "context": "000C01C0",
+    "offset": "000C01C0",
+    "character_limit": 3,
+    "string": "Ukita"
+  },
+  "000C01C8": {
+    "context": "000C01C8",
+    "offset": "000C01C8",
+    "character_limit": 3,
+    "string": "Yuuri"
+  },
+  "000C01D0": {
+    "context": "000C01D0",
+    "offset": "000C01D0",
+    "character_limit": 13,
+    "string": "TIP [%s] has been added."
+  },
+  "000C01EC": {
+    "context": "000C01EC",
+    "offset": "000C01EC",
+    "character_limit": 3,
+    "string": "「「"
+  },
+  "000C01F4": {
+    "context": "000C01F4",
+    "offset": "000C01F4",
+    "character_limit": 1,
+    "string": "『"
+  },
+  "000C01F8": {
+    "context": "000C01F8",
+    "offset": "000C01F8",
+    "character_limit": 3,
+    "string": "SCENE: "
+  },
+  "000C0200": {
+    "context": "000C0200",
+    "offset": "000C0200",
+    "character_limit": 5,
+    "string": "　　　⑳"
+  },
+  "000C020C": {
+    "context": "000C020C",
+    "offset": "000C020C",
+    "character_limit": 7,
+    "string": "miss code : %d\n"
+  },
+  "000C021C": {
+    "context": "000C021C",
+    "offset": "000C021C",
+    "character_limit": 1,
+    "string": "\n"
+  },
+  "000C0220": {
+    "context": "000C0220",
+    "offset": "000C0220",
+    "character_limit": 1,
+    "string": "%"
+  },
+  "000C0224": {
+    "context": "000C0224",
+    "offset": "000C0224",
+    "character_limit": 1,
+    "string": "（"
+  },
+  "000C0228": {
+    "context": "000C0228",
+    "offset": "000C0228",
+    "character_limit": 1,
+    "string": "《"
+  },
+  "000C022C": {
+    "context": "000C022C",
+    "offset": "000C022C",
+    "character_limit": 3,
+    "string": "シェス"
+  },
+  "000C0234": {
+    "context": "000C0234",
+    "offset": "000C0234",
+    "character_limit": 3,
+    "string": "シェラ"
+  },
+  "000C023C": {
+    "context": "000C023C",
+    "offset": "000C023C",
+    "character_limit": 17,
+    "string": "ERROR : GET_SYSTEM 使用回数 over\n"
+  },
+  "000C0260": {
+    "context": "000C0260",
+    "offset": "000C0260",
+    "character_limit": 9,
+    "string": "Senses input active"
+  },
+  "000C0274": {
+    "context": "000C0274",
+    "offset": "000C0274",
+    "character_limit": 3,
+    "string": "Favor: "
+  },
+  "000C027C": {
+    "context": "000C027C",
+    "offset": "000C027C",
+    "character_limit": 1,
+    "string": "-3 "
+  },
+  "000C0280": {
+    "context": "000C0280",
+    "offset": "000C0280",
+    "character_limit": 1,
+    "string": "-2 "
+  },
+  "000C0284": {
+    "context": "000C0284",
+    "offset": "000C0284",
+    "character_limit": 1,
+    "string": "-1 "
+  },
+  "000C0288": {
+    "context": "000C0288",
+    "offset": "000C0288",
+    "character_limit": 1,
+    "string": "+1 "
+  },
+  "000C028C": {
+    "context": "000C028C",
+    "offset": "000C028C",
+    "character_limit": 1,
+    "string": "+2 "
+  },
+  "000C0290": {
+    "context": "000C0290",
+    "offset": "000C0290",
+    "character_limit": 1,
+    "string": "+3 "
+  },
+  "000C0294": {
+    "context": "000C0294",
+    "offset": "000C0294",
+    "character_limit": 9,
+    "string": "sk CodeCount = %d\n"
+  },
+  "000C02A8": {
+    "context": "000C02A8",
+    "offset": "000C02A8",
+    "character_limit": 9,
+    "string": "bk CodeCount = %d\n"
+  },
+  "000C02BC": {
+    "context": "000C02BC",
+    "offset": "000C02BC",
+    "character_limit": 7,
+    "string": "♪: ----------"
+  },
+  "000C02CC": {
+    "context": "000C02CC",
+    "offset": "000C02CC",
+    "character_limit": 3,
+    "string": "♪: %s"
+  },
+  "000C02D4": {
+    "context": "000C02D4",
+    "offset": "000C02D4",
+    "character_limit": 9,
+    "string": "Scene: ----------"
+  },
+  "000C02E8": {
+    "context": "000C02E8",
+    "offset": "000C02E8",
+    "character_limit": 3,
+    "string": "Scene: "
+  },
+  "000C02F0": {
+    "context": "000C02F0",
+    "offset": "000C02F0",
+    "character_limit": 1,
+    "string": "%s"
+  },
+  "000C02F4": {
+    "context": "000C02F4",
+    "offset": "000C02F4",
+    "character_limit": 5,
+    "string": "Chapter: "
+  },
+  "000C0300": {
+    "context": "000C0300",
+    "offset": "000C0300",
+    "character_limit": 7,
+    "string": "Current AD: %d"
+  },
+  "000C0310": {
+    "context": "000C0310",
+    "offset": "000C0310",
+    "character_limit": 5,
+    "string": "時間切れ"
+  },
+  "000C031C": {
+    "context": "000C031C",
+    "offset": "000C031C",
+    "character_limit": 31,
+    "string": "you will be returned to the line you have selected. Proceed?"
+  },
+  "000C035C": {
+    "context": "000C035C",
+    "offset": "000C035C",
+    "character_limit": 25,
+    "string": "A quicksave of your current state will be made and "
+  },
+  "000C0390": {
+    "context": "000C0390",
+    "offset": "000C0390",
+    "character_limit": 15,
+    "string": "Any unsaved data will be lost."
+  },
+  "000C03B0": {
+    "context": "000C03B0",
+    "offset": "000C03B0",
+    "character_limit": 27,
+    "string": "The game will end and be returned to the title screen."
+  },
+  "000C03E8": {
+    "context": "000C03E8",
+    "offset": "000C03E8",
+    "character_limit": 3,
+    "string": "Return"
+  },
+  "000C03F0": {
+    "context": "000C03F0",
+    "offset": "000C03F0",
+    "character_limit": 5,
+    "string": "[Answer 6]"
+  },
+  "000C03FC": {
+    "context": "000C03FC",
+    "offset": "000C03FC",
+    "character_limit": 5,
+    "string": "[Answer 5]"
+  },
+  "000C0408": {
+    "context": "000C0408",
+    "offset": "000C0408",
+    "character_limit": 5,
+    "string": "[Answer 4]"
+  },
+  "000C0414": {
+    "context": "000C0414",
+    "offset": "000C0414",
+    "character_limit": 5,
+    "string": "[Answer 3]"
+  },
+  "000C0420": {
+    "context": "000C0420",
+    "offset": "000C0420",
+    "character_limit": 5,
+    "string": "[Answer 2]"
+  },
+  "000C042C": {
+    "context": "000C042C",
+    "offset": "000C042C",
+    "character_limit": 5,
+    "string": "[Answer 1]"
+  },
+  "000C0438": {
+    "context": "000C0438",
+    "offset": "000C0438",
+    "character_limit": 5,
+    "string": "[Answer]"
+  },
+  "000C0444": {
+    "context": "000C0444",
+    "offset": "000C0444",
+    "character_limit": 3,
+    "string": "Decide"
+  },
+  "000C044C": {
+    "context": "000C044C",
+    "offset": "000C044C",
+    "character_limit": 9,
+    "string": "Natsuhiko Tenkawa"
+  },
+  "000C0460": {
+    "context": "000C0460",
+    "offset": "000C0460",
+    "character_limit": 7,
+    "string": "Mashiro Toba"
+  },
+  "000C0470": {
+    "context": "000C0470",
+    "offset": "000C0470",
+    "character_limit": 7,
+    "string": "Keiji Ukita"
+  },
+  "000C0480": {
+    "context": "000C0480",
+    "offset": "000C0480",
+    "character_limit": 43,
+    "string": "Once you set your values, you will not be able to change them until the next branch."
+  },
+  "000C04D8": {
+    "context": "000C04D8",
+    "offset": "000C04D8",
+    "character_limit": 29,
+    "string": "Are you sure you want to set your Senses at these values?"
+  },
+  "000C0514": {
+    "context": "000C0514",
+    "offset": "000C0514",
+    "character_limit": 29,
+    "string": "Cancel altered values and close the Senses input screen?"
+  },
+  "000C0550": {
+    "context": "000C0550",
+    "offset": "000C0550",
+    "character_limit": 13,
+    "string": "新たな記憶が出現しました。"
+  },
+  "000C056C": {
+    "context": "000C056C",
+    "offset": "000C056C",
+    "character_limit": 19,
+    "string": "悪意に汚染された記憶が浄化されました。"
+  },
+  "000C0594": {
+    "context": "000C0594",
+    "offset": "000C0594",
+    "character_limit": 3,
+    "string": "？？？"
+  }
+}

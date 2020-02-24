@@ -1,0 +1,296 @@
+{
+  "000B7E20": {
+    "context": "000B7E20",
+    "offset": "000B7E20",
+    "character_limit": 13,
+    "string": "Failed to load saved data."
+  },
+  "000B7E3C": {
+    "context": "000B7E3C",
+    "offset": "000B7E3C",
+    "character_limit": 17,
+    "string": "Your save data has been corrupted."
+  },
+  "000B7E60": {
+    "context": "000B7E60",
+    "offset": "000B7E60",
+    "character_limit": 19,
+    "string": "√D True Ending [Ideals from Eternity]"
+  },
+  "000B7E88": {
+    "context": "000B7E88",
+    "offset": "000B7E88",
+    "character_limit": 23,
+    "string": "√D Good Ending After [Successor from Regret]"
+  },
+  "000B7EB8": {
+    "context": "000B7EB8",
+    "offset": "000B7EB8",
+    "character_limit": 25,
+    "string": "√D Good Ending BEFORE [Alliance from Compromise]"
+  },
+  "000B7EEC": {
+    "context": "000B7EEC",
+    "offset": "000B7EEC",
+    "character_limit": 25,
+    "string": "√D Good Ending AFTER [Replay from Forgetfulness]"
+  },
+  "000B7F20": {
+    "context": "000B7F20",
+    "offset": "000B7F20",
+    "character_limit": 25,
+    "string": "√D Good Ending Before [Resurrection from Oblivion]"
+  },
+  "000B7F54": {
+    "context": "000B7F54",
+    "offset": "000B7F54",
+    "character_limit": 29,
+    "string": "√D Normal Ending #3 [Protected by the Bird-of-Paradise]"
+  },
+  "000B7F90": {
+    "context": "000B7F90",
+    "offset": "000B7F90",
+    "character_limit": 23,
+    "string": "√D Normal Ending #2 [Salvation from the Root]"
+  },
+  "000B7FC0": {
+    "context": "000B7FC0",
+    "offset": "000B7FC0",
+    "character_limit": 21,
+    "string": "√D Normal Ending #1 [Guidance of Sirius]"
+  },
+  "000B7FEC": {
+    "context": "000B7FEC",
+    "offset": "000B7FEC",
+    "character_limit": 21,
+    "string": "√D Bad Ending #6 [The Wavering Enthusiast]"
+  },
+  "000B8018": {
+    "context": "000B8018",
+    "offset": "000B8018",
+    "character_limit": 21,
+    "string": "√D Bad Ending #5 [The Vanquished Loyalist]"
+  },
+  "000B8044": {
+    "context": "000B8044",
+    "offset": "000B8044",
+    "character_limit": 23,
+    "string": "√D Bad Ending #4 [The Malicious Challenger]"
+  },
+  "000B8074": {
+    "context": "000B8074",
+    "offset": "000B8074",
+    "character_limit": 21,
+    "string": "√D Bad Ending #3 [The Malicious Reformer]"
+  },
+  "000B80A0": {
+    "context": "000B80A0",
+    "offset": "000B80A0",
+    "character_limit": 21,
+    "string": "√D Bad Ending #2 [The Hesitant Enthusiast]"
+  },
+  "000B80CC": {
+    "context": "000B80CC",
+    "offset": "000B80CC",
+    "character_limit": 21,
+    "string": "√D Bad Ending #1 [The Erased Investigator]"
+  },
+  "000B80F8": {
+    "context": "000B80F8",
+    "offset": "000B80F8",
+    "character_limit": 25,
+    "string": "√C Good Ending [Investigation through Recurrence]"
+  },
+  "000B812C": {
+    "context": "000B812C",
+    "offset": "000B812C",
+    "character_limit": 21,
+    "string": "√B Good Ending [Demise by Annihilation]"
+  },
+  "000B8158": {
+    "context": "000B8158",
+    "offset": "000B8158",
+    "character_limit": 21,
+    "string": "√B Bad Ending #4 [The Scapegoater's Fate]"
+  },
+  "000B8184": {
+    "context": "000B8184",
+    "offset": "000B8184",
+    "character_limit": 21,
+    "string": "√B Bad Ending #3 [The Apathetic's Fate]"
+  },
+  "000B81B0": {
+    "context": "000B81B0",
+    "offset": "000B81B0",
+    "character_limit": 21,
+    "string": "√B Bad Ending #2 [The Unreceptive's Fate]"
+  },
+  "000B81DC": {
+    "context": "000B81DC",
+    "offset": "000B81DC",
+    "character_limit": 21,
+    "string": "√B Bad Ending #1 [The Nonbeliever's Fate]"
+  },
+  "000B8208": {
+    "context": "000B8208",
+    "offset": "000B8208",
+    "character_limit": 19,
+    "string": "√A Good Ending [Awakening from Chaos]"
+  },
+  "000B8230": {
+    "context": "000B8230",
+    "offset": "000B8230",
+    "character_limit": 21,
+    "string": "√A Normal Ending [Conclusion from Despair]"
+  },
+  "000B825C": {
+    "context": "000B825C",
+    "offset": "000B825C",
+    "character_limit": 17,
+    "string": "√A Bad Ending #17 [The Unknowing]"
+  },
+  "000B8280": {
+    "context": "000B8280",
+    "offset": "000B8280",
+    "character_limit": 17,
+    "string": "√A Bad Ending #16 [The Terrified]"
+  },
+  "000B82A4": {
+    "context": "000B82A4",
+    "offset": "000B82A4",
+    "character_limit": 19,
+    "string": "√A Bad Ending #15 [The Fainthearted]"
+  },
+  "000B82CC": {
+    "context": "000B82CC",
+    "offset": "000B82CC",
+    "character_limit": 17,
+    "string": "√A Bad Ending #14 [The Deserter]"
+  },
+  "000B82F0": {
+    "context": "000B82F0",
+    "offset": "000B82F0",
+    "character_limit": 17,
+    "string": "√A Bad Ending #13 [The Conceited]"
+  },
+  "000B8314": {
+    "context": "000B8314",
+    "offset": "000B8314",
+    "character_limit": 17,
+    "string": "√A Bad Ending #12 [The Doubter]"
+  },
+  "000B8338": {
+    "context": "000B8338",
+    "offset": "000B8338",
+    "character_limit": 17,
+    "string": "√A Bad Ending #11 [The Despised]"
+  },
+  "000B835C": {
+    "context": "000B835C",
+    "offset": "000B835C",
+    "character_limit": 17,
+    "string": "√A Bad Ending #10 [The Murderer]"
+  },
+  "000B8380": {
+    "context": "000B8380",
+    "offset": "000B8380",
+    "character_limit": 15,
+    "string": "√A Bad Ending #9 [The Doubted]"
+  },
+  "000B83A0": {
+    "context": "000B83A0",
+    "offset": "000B83A0",
+    "character_limit": 17,
+    "string": "√A Bad Ending #8 [The Wanderer]"
+  },
+  "000B83C4": {
+    "context": "000B83C4",
+    "offset": "000B83C4",
+    "character_limit": 15,
+    "string": "√A Bad Ending #7 [The Egoless]"
+  },
+  "000B83E4": {
+    "context": "000B83E4",
+    "offset": "000B83E4",
+    "character_limit": 15,
+    "string": "√A Bad Ending #6 [The Fallen]"
+  },
+  "000B8404": {
+    "context": "000B8404",
+    "offset": "000B8404",
+    "character_limit": 15,
+    "string": "√A Bad Ending #5 [The Coward]"
+  },
+  "000B8424": {
+    "context": "000B8424",
+    "offset": "000B8424",
+    "character_limit": 17,
+    "string": "√A Bad Ending #4 [The Misguided]"
+  },
+  "000B8448": {
+    "context": "000B8448",
+    "offset": "000B8448",
+    "character_limit": 21,
+    "string": "√A Bad Ending #3 [The Overeager Martyr]"
+  },
+  "000B8474": {
+    "context": "000B8474",
+    "offset": "000B8474",
+    "character_limit": 17,
+    "string": "√A Bad Ending #2 [The Careless]"
+  },
+  "000B8498": {
+    "context": "000B8498",
+    "offset": "000B8498",
+    "character_limit": 17,
+    "string": "√A Bad Ending #1 [The Reckless]"
+  },
+  "000B84BC": {
+    "context": "000B84BC",
+    "offset": "000B84BC",
+    "character_limit": 13,
+    "string": "Senses Branches Encountered"
+  },
+  "000B84D8": {
+    "context": "000B84D8",
+    "offset": "000B84D8",
+    "character_limit": 7,
+    "string": "Messages Read"
+  },
+  "000B84E8": {
+    "context": "000B84E8",
+    "offset": "000B84E8",
+    "character_limit": 9,
+    "string": "Music Completion"
+  },
+  "000B84FC": {
+    "context": "000B84FC",
+    "offset": "000B84FC",
+    "character_limit": 9,
+    "string": "Album Completion"
+  },
+  "000B8510": {
+    "context": "000B8510",
+    "offset": "000B8510",
+    "character_limit": 7,
+    "string": "TIPS Completion"
+  },
+  "000B8520": {
+    "context": "000B8520",
+    "offset": "000B8520",
+    "character_limit": 9,
+    "string": "Scene Titles Seen"
+  },
+  "000B8534": {
+    "context": "000B8534",
+    "offset": "000B8534",
+    "character_limit": 7,
+    "string": "Endings Reached"
+  },
+  "000B8544": {
+    "context": "000B8544",
+    "offset": "000B8544",
+    "character_limit": 7,
+    "string": "%d/%d(%3.3f%%)"
+  }
+}
