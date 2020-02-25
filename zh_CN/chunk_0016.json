@@ -1,0 +1,751 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0003 000047"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——第 3 区域内环楼、地下 1 层。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这里没有发生过火灾的征兆。"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Procyon 显示“ 1792 mSv ”，没什么问题。"
+  },
+  "000081": {
+    "context": "000081",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「目前看来……此时此刻，这层楼应该是安全的」"
+  },
+  "000146": {
+    "context": "000146",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「那么继续分成两组，开始搜索吧」"
+  },
+  "000176": {
+    "context": "000176",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「慢慢决定分队浪费时间太可惜了。快点开始搜索吧」"
+  },
+  "000207": {
+    "context": "000207",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是啊，而且我们还没找到 AD 呢」"
+  },
+  "000324": {
+    "context": "000324",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……」"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那么，我们在外环楼，然后守部队你们在内环楼搜索吧」"
+  },
+  "000340": {
+    "context": "000340",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "没有人提出异议。"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "6 人再次，分为“渡濑 + 风见 + 悠里”和“洵 + 宇喜多 + 惠那”两组，开始搜索第 3 区域的地下一层。"
+  },
+  "000388": {
+    "context": "000388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——首先渡濑和风见还有悠里一起，朝外环楼进发。"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是，在通向外环楼的道路的尽头，他们尝试打开门禁的时候——"
+  },
+  "000449": {
+    "context": "000449",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶？」"
+  },
+  "000454": {
+    "context": "000454",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "卡片没有被识别。"
+  },
+  "000459": {
+    "context": "000459",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这是等级“ 3 ”的门禁，等级 4 的卡应该可以打开门的。"
+  },
+  "000464": {
+    "context": "000464",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "又试着把卡放进卡槽里，"
+  },
+  "000475": {
+    "context": "000475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门果然还是没开。"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「可恶，看起来是坏了！还有别的路进去吗？」"
+  },
+  "000517": {
+    "context": "000517",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我来看看！」"
+  },
+  "000522": {
+    "context": "000522",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说着，风见从怀里拿出了手绘地图。"
+  },
+  "000643": {
+    "context": "000643",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「——我们现在这里。然后这里的门打不开，」"
+  },
+  "000709": {
+    "context": "000709",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「还有……第 2 区域过来的方向的门，因为火灾破坏了门禁的卡槽，也打不开了」"
+  },
+  "000720": {
+    "context": "000720",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「话说回来这里的楼梯都崩塌了，所以也不能从别的层进来」"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「所以说只能绕路了，从第 4 区域的方向进入」"
+  },
+  "000771": {
+    "context": "000771",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那好像更不妙了……因为 AD 不太够了」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "离需要注射 AD 的时间已经不到 10 分钟了。"
+  },
+  "000787": {
+    "context": "000787",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「至少再找到 1 支……」"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说着，渡濑听到了拘谨的声音。"
+  },
+  "000838": {
+    "context": "000838",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「那，那个……」"
+  },
+  "000849": {
+    "context": "000849",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「嗯？怎么了？」"
+  },
+  "000860": {
+    "context": "000860",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「如果真的到了那个时候……我放弃注射 AD ，是不是会好一点……」"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「悠里你在说什么啊！我们不会让你做这样的事情的！」"
+  },
+  "000953": {
+    "context": "000953",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「！」"
+  },
+  "000958": {
+    "context": "000958",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里吓得浑身一哆嗦。"
+  },
+  "000969": {
+    "context": "000969",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「是啊悠里！真到了那时候，我才是应该——」"
+  },
+  "000998": {
+    "context": "000998",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不，真的到了那时候再考虑这些事情吧」"
+  },
+  "001009": {
+    "context": "001009",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「说，说得对……」"
+  },
+  "001020": {
+    "context": "001020",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「话说回来，我们返回内环楼吧。时间宝贵」"
+  },
+  "001049": {
+    "context": "001049",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「好，好的……」"
+  },
+  "001054": {
+    "context": "001054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑和悠里跟在快步走着的风见后面。"
+  },
+  "001059": {
+    "context": "001059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是在身旁走着的悠里身上，渡濑嗅到了一丝不寻常的气息。"
+  },
+  "001065": {
+    "context": "001065",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（好像有点奇怪……？）"
+  },
+  "001070": {
+    "context": "001070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "她绝不是不帮忙一起搜索。"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然很害怕，但是有比起自己先考虑别人的温柔。"
+  },
+  "001081": {
+    "context": "001081",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（那为什么……她刚刚会一个人逃走？）"
+  },
+  "001152": {
+    "context": "001152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他回忆起了第一次见到悠里的时候，悠里的表情。"
+  },
+  "001157": {
+    "context": "001157",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在看见渡濑的瞬间，她确实非常害怕。"
+  },
+  "001163": {
+    "context": "001163",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（有没有可能即使是现在，她还是很害怕看到我？为什么呢……？）"
+  },
+  "001198": {
+    "context": "001198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "正当渡濑这样想着——"
+  },
+  "001206": {
+    "context": "001206",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「啊啊啊啊啊啊！」"
+  },
+  "001250": {
+    "context": "001250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "传来了仿佛能刺破耳膜的声音。"
+  },
+  "001261": {
+    "context": "001261",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「怎么了！？」"
+  },
+  "001272": {
+    "context": "001272",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「洵……是洵他们的声音！？」"
+  },
+  "001277": {
+    "context": "001277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少见的，悠里大声说道。"
+  },
+  "001306": {
+    "context": "001306",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「——快点走！」"
+  },
+  "001326": {
+    "context": "001326",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "犹豫了一瞬，风见冲了出去。"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑牵着悠里的手，跟在后面。"
+  },
+  "001379": {
+    "context": "001379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "转过一个拐角，看到洵他们站在一个房间的门口。"
+  },
+  "001444": {
+    "context": "001444",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队……队长！」"
+  },
+  "001455": {
+    "context": "001455",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「怎，怎么了！？发生什么了！？」"
+  },
+  "001512": {
+    "context": "001512",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「啊！？嗯，那个……」"
+  },
+  "001517": {
+    "context": "001517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多十分慌乱，看着渡濑他们，却说不出完整的句子。"
+  },
+  "001547": {
+    "context": "001547",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「大家冷静下来！到底发生什么了！」"
+  },
+  "001552": {
+    "context": "001552",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后惠那脸色苍白，呆呆的说道。"
+  },
+  "001581": {
+    "context": "001581",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……尸体……」"
+  },
+  "001592": {
+    "context": "001592",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「诶！？」"
+  },
+  "001621": {
+    "context": "001621",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「很多，尸体……！」"
+  },
+  "001626": {
+    "context": "001626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——那个瞬间，现场的空气凝结了。"
+  },
+  "001637": {
+    "context": "001637",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「老，老师……你是说尸体……？」"
+  },
+  "001666": {
+    "context": "001666",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「在这间房间里……」"
+  },
+  "001695": {
+    "context": "001695",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「是被烧死的……对吧？」"
+  },
+  "001706": {
+    "context": "001706",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  "001711": {
+    "context": "001711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑脑中闪过了夏彦他们被烧死的样子。"
+  },
+  "001716": {
+    "context": "001716",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是洵摇了摇头。"
+  },
+  "001745": {
+    "context": "001745",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「不是的……虽然还不清楚，但是……！」"
+  },
+  "001756": {
+    "context": "001756",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「你，你说的是什么意思……？」"
+  },
+  "001785": {
+    "context": "001785",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……你进房间看看就知道了……」"
+  },
+  "001790": {
+    "context": "001790",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵神色厌恶地看着房间的门。"
+  },
+  "001850": {
+    "context": "001850",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门已经关上了，但是——"
+  },
+  "001855": {
+    "context": "001855",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "里面传来了铁锈一般的味道。"
+  },
+  "001861": {
+    "context": "001861",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（是什么味道……？）"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一这样想，对未知的恐惧就涌上心头。"
+  },
+  "001871": {
+    "context": "001871",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑咽了一口唾沫，下定了决心。"
+  },
+  "001882": {
+    "context": "001882",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……悠里，你就留在这里比较好」"
+  },
+  "001918": {
+    "context": "001918",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「好，好的……！」"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里紧绷着脸，说道。"
+  },
+  "001992": {
+    "context": "001992",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「队长，副队长，准备好了吗……？」"
+  },
+  "002003": {
+    "context": "002003",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯」"
+  },
+  "002014": {
+    "context": "002014",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「啊……」"
+  },
+  "002019": {
+    "context": "002019",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵走向了房间——"
+  },
+  "002024": {
+    "context": "002024",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "门，打开了"
+  },
+  "002220": {
+    "context": "002220",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！？」"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "首先映入眼帘的是红色。"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "房间仿佛被染成了血色。"
+  },
+  "002235": {
+    "context": "002235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑脚边，有两具倒在在血泊里的，残破的尸体。"
+  },
+  "002240": {
+    "context": "002240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "然后——房间的深处还一具尸体。"
+  },
+  "002245": {
+    "context": "002245",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "是跟风见他们一样，穿着防辐射服的尸体。"
+  },
+  "002250": {
+    "context": "002250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "看到尸体的瞬间——风见喊道。"
+  },
+  "002261": {
+    "context": "002261",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「怎，怎么会……！？」"
+  },
+  "002272": {
+    "context": "002272",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「那是，那具尸体是……！！」"
+  },
+  "002277": {
+    "context": "002277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵一脸悲痛地点点头，然后回答道。"
+  },
+  "002288": {
+    "context": "002288",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「是……堂岛前辈」"
+  },
+  "002293": {
+    "context": "002293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这句话，渡濑屏住了呼吸。"
+  },
+  "002298": {
+    "context": "002298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "虽然没有记忆，但是洵知道他的名字说明——"
+  },
+  "002309": {
+    "context": "002309",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「难道，那个人是，我们的……！？」"
+  },
+  "002320": {
+    "context": "002320",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嗯……他是跟我们同属 A 队的队员……！」"
+  },
+  "002331": {
+    "context": "002331",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「为什么……为什么会发生这种事……」"
+  },
+  "002336": {
+    "context": "002336",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "风见和洵跪坐在了地上。"
+  },
+  "002342": {
+    "context": "002342",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（为，为什么会这样……！）"
+  },
+  "002347": {
+    "context": "002347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑觉得在这个设施里看到“尸体”，应该都是被烧死的尸体。"
+  },
+  "002352": {
+    "context": "002352",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是这里的不同。"
+  },
+  "002357": {
+    "context": "002357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "是不知道被谁，夺去了生命的尸体——"
+  },
+  "002362": {
+    "context": "002362",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最明显不过的，被人杀死的尸体。"
+  },
+  "002373": {
+    "context": "002373",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「到，到底……」"
+  },
+  "002384": {
+    "context": "002384",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「这里，发生了……！？」"
+  },
+  "002389": {
+    "context": "002389",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "没有人回答这个问题。"
+  },
+  "002394": {
+    "context": "002394",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡濑在充满血腥味的房间里，只能呆呆地站着。"
+  },
+  "002440": {
+    "context": "002440",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——核反应堆发生了堆芯熔毁的事故设施，人们被困于此。"
+  },
+  "002445": {
+    "context": "002445",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "这是他想象中最坏的地方了。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "稍有不慎就会丢失生命的地狱……。"
+  },
+  "002495": {
+    "context": "002495",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但是威胁渡濑他们生命的，不只只是火灾和辐射。"
+  },
+  "002500": {
+    "context": "002500",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "距离隔离墙打开，还有大约 8 小时。"
+  },
+  "002505": {
+    "context": "002505",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他们的生死攸关的逃生，现在才刚刚开始……。"
+  }
+}
