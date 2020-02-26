@@ -1,0 +1,505 @@
+{
+  "000072": {
+    "context": "000072",
+    "code": "0x55",
+    "string": "√Before Chapter2"
+  },
+  "000086": {
+    "context": "000086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 001911"
+  },
+  "000091": {
+    "context": "000091",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 001916"
+  },
+  "000102": {
+    "context": "000102",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0151 001927"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 001932"
+  },
+  "000112": {
+    "context": "000112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "在那里，他遇见了同是孤身一人的悠里。"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0151 002027"
+  },
+  "000207": {
+    "context": "000207",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 002032"
+  },
+  "000212": {
+    "context": "000212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 002037"
+  },
+  "000217": {
+    "context": "000217",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "目睹此情此景，夏彦关心地问悠里。"
+  },
+  "000273": {
+    "context": "000273",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0151 002098"
+  },
+  "000302": {
+    "context": "000302",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0151 002127"
+  },
+  "000307": {
+    "context": "000307",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "那就是，夏彦和悠里的第一次对话。"
+  },
+  "000336": {
+    "context": "000336",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0151 002156"
+  },
+  "000347": {
+    "context": "000347",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0151 002167"
+  },
+  "000376": {
+    "context": "000376",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……夏-彦-君？」"
+  },
+  "000387": {
+    "context": "000387",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0151 002207"
+  },
+  "000416": {
+    "context": "000416",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0024 002121"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0151 002247"
+  },
+  "000456": {
+    "context": "000456",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……可以吗？」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸？不可以交朋友吗？」"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「因为，我是超能力者……」"
+  },
+  "000507": {
+    "context": "000507",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「超能力者？哦哦，你说 Communicator？」"
+  },
+  "000536": {
+    "context": "000536",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「嗯、嗯……」"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嚯、所以呢？」"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「欸……？」"
+  },
+  "000605": {
+    "context": "000605",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「说不定能读取人的心思哦？你不怕吗……？」"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「并没有那种事情哦。喂喂，来一起玩啦」"
+  },
+  "000645": {
+    "context": "000645",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「啊……」"
+  },
+  "000674": {
+    "context": "000674",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「呜呜……谢谢……」"
+  },
+  "000685": {
+    "context": "000685",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嘿嘿」"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "就这样两人开始一起玩了。"
+  },
+  "000759": {
+    "context": "000759",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——只是他们并没有想出来两人能玩些什么。"
+  },
+  "000765": {
+    "context": "000765",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两人玩着“跳房子”和“S 字合战”这样简单的游戏。"
+  },
+  "000770": {
+    "context": "000770",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "但只是在草坪上跳来跳去，就让悠里的脸上浮现出了笑容。"
+  },
+  "000860": {
+    "context": "000860",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「呼～……你还挺有能耐的嘛，悠里」"
+  },
+  "000871": {
+    "context": "000871",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「不是这样哦——夏彦君才是，跳房子也好 S 字合战也好，都擅长得多哦」"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「不过确实有点累了。休息一下吧」"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「嗯！」"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "两人并排坐在草地上。"
+  },
+  "001037": {
+    "context": "001037",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦一边深呼吸，一边问悠里。"
+  },
+  "001048": {
+    "context": "001048",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「说起来，悠里为什么会搬到这座城里来呢？」"
+  },
+  "001077": {
+    "context": "001077",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「嗯……爸爸说，这样对我比较好……」"
+  },
+  "001088": {
+    "context": "001088",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸？」"
+  },
+  "001117": {
+    "context": "001117",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「他说“鹿鸣市里，超能力者很多”」"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「“这样我也不会被别人害怕了”」"
+  },
+  "001133": {
+    "context": "001133",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "听到这些，夏彦也想了起来。"
+  },
+  "001138": {
+    "context": "001138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "母亲说过这座城里 Communicator 的数量远比其它城市多得多。"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「是的欸。我好像也有“适性”的样子」"
+  },
+  "001178": {
+    "context": "001178",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「欸？夏、夏彦君也是 Communicator 吗？」"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯，好像是那样。虽然还用不了传心呢」"
+  },
+  "001218": {
+    "context": "001218",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「这样啊……其实，我也是」"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸嘿，一样哒」"
+  },
+  "001252": {
+    "context": "001252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦笑了，悠里也跟着笑起来。"
+  },
+  "001263": {
+    "context": "001263",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「还有呢，不只有我哦。我认识的真白那家伙也是，而且适性高得意洋洋」"
+  },
+  "001274": {
+    "context": "001274",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「这座城里 Communicator 很多的哦。所以见到也很正常的」"
+  },
+  "001285": {
+    "context": "001285",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「所以谁都不会害怕悠里的哦？」"
+  },
+  "001314": {
+    "context": "001314",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「夏彦君也是吗？」"
+  },
+  "001325": {
+    "context": "001325",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「那还用说」"
+  },
+  "001354": {
+    "context": "001354",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「绝对？」"
+  },
+  "001365": {
+    "context": "001365",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「就是绝对啦。悠里真是爱担心啊」"
+  },
+  "001388": {
+    "context": "001388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦笑了起来，悠里回以微笑。"
+  },
+  "001417": {
+    "context": "001417",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「太好啦～……我真的，超级不安的」"
+  },
+  "001428": {
+    "context": "001428",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸，为什么？」"
+  },
+  "001457": {
+    "context": "001457",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「因为不知道搬过来以后能不能交到朋友。总觉得没有自信」"
+  },
+  "001468": {
+    "context": "001468",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「但是，这不是已经交到了嘛？」"
+  },
+  "001497": {
+    "context": "001497",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「嗯！」"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「这个公园有好多小伙伴会来。到这里来的话，一定可以交到其他朋友的」"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「谢谢你。我会多多来这里哒」"
+  },
+  "001566": {
+    "context": "001566",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「才第一次来这里，就和夏彦君交上了朋友……」"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "说到这里，悠里露出了好像一下子注意到什么的表情。"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「啊，说起来……」"
+  },
+  "001611": {
+    "context": "001611",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嗯？」"
+  },
+  "001640": {
+    "context": "001640",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「为什么夏彦君，要和我说话呢？」"
+  },
+  "001669": {
+    "context": "001669",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「明明是没见过的孩子……而且，还是女孩子」"
+  },
+  "001680": {
+    "context": "001680",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「欸～？嗯…那是……」"
+  },
+  "001709": {
+    "context": "001709",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「那是……？」"
+  },
+  "001720": {
+    "context": "001720",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「我也说不清！」"
+  },
+  "001749": {
+    "context": "001749",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「欸～？说不清吗」"
+  },
+  "001754": {
+    "context": "001754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里有点遗憾似的说。"
+  },
+  "001821": {
+    "context": "001821",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "但——那是谎话。"
+  },
+  "001828": {
+    "context": "001828",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "真正的原因是，他看见悠里在哭。"
+  },
+  "001844": {
+    "context": "001844",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "所以夏彦才出声叫她。"
+  },
+  "001851": {
+    "context": "001851",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "因为他希望能一起陪着她——"
+  }
+}
