@@ -3,7 +3,7 @@
     "context": "000ED934",
     "developer_comment": "Category: %s",
     "character_limit": 9,
-    "string": "該当する項目がありません"
+    "string": "分類:%s"
   },
   "0001": {
     "context": "000ED92C",
@@ -15,13 +15,13 @@
     "context": "000ED914",
     "developer_comment": "No corresponding TIPS.",
     "character_limit": 11,
-    "string": "読み:%s"
+    "string": "該当する項目がありません"
   },
   "0003": {
     "context": "000ED90C",
     "developer_comment": "%03d",
     "character_limit": 3,
-    "string": "分類:%s"
+    "string": "%03d"
   },
   "0004": {
     "context": "000ED904",

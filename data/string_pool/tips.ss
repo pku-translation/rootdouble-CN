@@ -2,16 +2,16 @@
 ; order reversed for steam version string pool
 
 ; Category: %s
-("該当する項目がありません")
+("分類:%s")
 
 ; TIP: %s
 ("用語:%s")
 
 ; No corresponding TIPS.
-("読み:%s")
+("該当する項目がありません")
 
 ; %03d
-("分類:%s")
+("%03d")
 
 ; INES
 ("INES")
