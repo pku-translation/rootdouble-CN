@@ -3,14 +3,32 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace CsYetiTools
 {
     public static class Utils
     {
-        private static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932) ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
+        public static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932) ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
 
         public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false);
+        
+        public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
+        {
+            ContractResolver = new DefaultContractResolver
+            {
+                NamingStrategy = new SnakeCaseNamingStrategy(false, false)
+            },
+            Formatting = Formatting.Indented,
+            NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
+        };
+
+        public static T SafeCastEnum<T>(object value) where T : Enum
+        {
+            if (Enum.IsDefined(typeof(T), value)) return (T)value;
+            throw new ArgumentException($"Cannot cast {value} to {typeof(T).Name}");
+        }
 
         public static string ReadStringZ(BinaryReader reader)
         {
@@ -93,7 +111,7 @@ namespace CsYetiTools
             return builder.ToString();
         }
 
-        public static IEnumerable<string> BytesToTextLines(byte[] bytes, int extraStart = 0, bool withHeader = true, bool withOffset = true)
+        public static IEnumerable<string> BytesToTextLines(IEnumerable<byte> bytes, int extraStart = 0, bool withHeader = true, bool withOffset = true)
         {
             const int rowSize = 16;
             var header = "           " + "  ".Join(Enumerable.Range(0, rowSize).Select(n => n.ToString("X1")));
@@ -160,6 +178,28 @@ namespace CsYetiTools
             stopwatch.Stop();
             Console.WriteLine(format, stopwatch.ElapsedMilliseconds + " ms");
             return result;
+        }
+
+        public static bool CompareStream(Stream stream1, Stream stream2)
+        {
+            var buffer1 = new byte[4096];
+            var buffer2 = new byte[4096];
+            while (true)
+            {
+                int read1 = stream1.Read(buffer1, 0, buffer1.Length);
+                int read2 = stream2.Read(buffer2, 0, buffer2.Length);
+                if (!buffer1.SequenceEqual(buffer2)) return false;
+                if (read1 != buffer1.Length) break;
+            }
+            return true;
+        }
+
+        public static bool CompareFile(string path1, string path2)
+        {
+            using var file1 = File.OpenRead(path1);
+            using var file2 = File.OpenRead(path2);
+            if (file1.Length != file2.Length) return false;
+            return CompareStream(file1, file2);
         }
     }
 }

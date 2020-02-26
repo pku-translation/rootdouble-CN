@@ -29,6 +29,8 @@ namespace CsYetiTools.VnScripts
 
         public int? TargetCodeRelativeIndex { get; set; }
 
+        public string? TargetLabel { get; set; }
+
         public int AbsoluteOffset { get; set; }
 
         public int BaseOffset { get; set; }
@@ -38,23 +40,15 @@ namespace CsYetiTools.VnScripts
 
         public override string ToString()
         {
-            if (TargetCodeRelativeIndex != null)
+            if (TargetLabel != null)
+            {
+                return $"${TargetLabel}";
+            }
+            if (TargetCodeIndex != null)
             {
                 return $"$0x{AbsoluteOffset:X8}:{{code {TargetCodeIndex}}}";
-                //if (TargetCodeRelativeIndex >= 0) return $"$0x{AbsoluteOffset:X8}{{code +{TargetCodeRelativeIndex}}}";
-                //else return $"$0x{AbsoluteOffset:X8}{{code {TargetCodeRelativeIndex}}}";
             }
             return $"$0x{AbsoluteOffset:X8}";
-            // if (RelativeOffset >= 0)
-            // {
-            //     if (RelativeOffset > 0xFFFF) return $"+{RelativeOffset:X8}";
-            //     else return $"+{RelativeOffset:X4}";
-            // }
-            // else
-            // {
-            //     if (-RelativeOffset > 0xFFFF) return $"-{-RelativeOffset:X8}";
-            //     else return $"-{-RelativeOffset:X4}";
-            // }
         }
     }
 
@@ -66,11 +60,11 @@ namespace CsYetiTools.VnScripts
             {
                 0x00 => new ZeroCode(),  // empty block
 
-                0x01 => new AddressCode(op),            // jump to address?
-                0x02 => new FixedLengthCode(op, 5),     // script jump?
-                0x03 => new AddressCode(op),            // jump to address?
-                0x04 => new FixedLengthCode(op, 5),     // script jump or else?
-                0x05 => new FixedLengthCode(op, 1),                // return? end-block?
+                0x01 => new JumpCode(op),            // jump to address?
+                0x02 => new ScriptJumpCode(0x02),       // script jump?
+                0x03 => new JumpCode(op),            // jump to address?
+                0x04 => new ScriptJumpCode(0x04),       // script jump or else?
+                0x05 => new FixedLengthCode(op, 0),     // return? end-block?
                 0x06 => new PrefixedAddressCode(op, 4), // invoke?
                 0x07 => new PrefixedAddressCode(op, 4),
                 0x08 => new PrefixedAddressCode(op, 4),
@@ -99,117 +93,117 @@ namespace CsYetiTools.VnScripts
                 0x86 => new NovelCode(),                 // novel
 
                 0x87 => new SssInputCode(),              // センシズ受付開始？
-                0x88 => new FixedLengthCode(op, 3),      // センシズ受付終了？
+                0x88 => new FixedLengthCode(op, 2),      // センシズ受付終了？
                 0x89 => new SssFlagCode(),               // センシズフラッグ？
 
                 _ => new FixedLengthCode(op, op switch
                 {
-                    0x10 => 5,
-                    0x11 => 5,
-                    0x12 => 5,
-                    0x13 => 5,
-                    0x14 => 5,
-                    0x15 => 5,
-                    0x16 => 5,
-                    0x17 => 5,
-                    0x18 => 5,
-                    0x19 => 9,
-                    0x1A => 5,
-                    0x1B => 1,
-                    0x1C => 1,
-                    0x1D => 7,
-                    0x1E => 11,
-                    0x1F => 13,
+                    0x10 => 4,
+                    0x11 => 4,
+                    0x12 => 4,
+                    0x13 => 4,
+                    0x14 => 4,
+                    0x15 => 4,
+                    0x16 => 4,
+                    0x17 => 4,
+                    0x18 => 4,
+                    0x19 => 8,
+                    0x1A => 4,
+                    0x1B => 0,
+                    0x1C => 0,
+                    0x1D => 6,
+                    0x1E => 10,
+                    0x1F => 12,
 
-                    0x20 => 7,
-                    0x21 => 7,
-                    0x22 => 5,
-                    0x23 => 9,
-                    0x24 => 7,
-                    0x25 => 5,
-                    0x27 => 1,
-                    0x28 => 3,
-                    0x2B => 1,
-                    0x2C => 3,
-                    0x2D => 5,
-                    0x2E => 1,
-                    0x2F => 3,
+                    0x20 => 6,
+                    0x21 => 6,
+                    0x22 => 4,
+                    0x23 => 8,
+                    0x24 => 6,
+                    0x25 => 4,
+                    0x27 => 0,
+                    0x28 => 2,
+                    0x2B => 0,
+                    0x2C => 2,
+                    0x2D => 4,
+                    0x2E => 0,
+                    0x2F => 2,
 
-                    0x30 => 11,
+                    0x30 => 10,
 
-                    0x33 => 1,
-                    0x34 => 11,
-                    0x35 => 5,
-                    0x36 => 3,
-                    0x37 => 1,
-                    0x38 => 3,
-                    0x39 => 5,
-                    0x3A => 5,
-                    0x3B => 3,
-                    0x3C => 3,
-                    0x3D => 1,
-                    0x3F => 1,
+                    0x33 => 0,
+                    0x34 => 10,
+                    0x35 => 4,
+                    0x36 => 2,
+                    0x37 => 0,
+                    0x38 => 2,
+                    0x39 => 4,
+                    0x3A => 4,
+                    0x3B => 2,
+                    0x3C => 2,
+                    0x3D => 0,
+                    0x3F => 0,
 
-                    0x42 => 9,
-                    0x43 => 5,
-                    0x44 => 5,
+                    0x42 => 8,
+                    0x43 => 4,
+                    0x44 => 4,  // dialog box related?
 
-                    0x48 => 3,
-                    0x49 => 5,
-                    0x4A => 3,
-                    0x4B => 5,
-                    0x4C => 7,
-                    0x4E => 5,
-                    0x4F => 5,
+                    0x48 => 2,  // dialog box related? (area index when BC, FF FF when novel)
+                    0x49 => 4,  // always FF FF FF FF
+                    0x4A => 2,
+                    0x4B => 4,
+                    0x4C => 6,
+                    0x4E => 4,
+                    0x4F => 4,
 
-                    0x51 => 7,
+                    0x51 => 6,
 
-                    0x59 => 1,
-                    0x5A => 1,
-                    0x5E => 3,
-                    0x5F => 1,
+                    0x59 => 0,
+                    0x5A => 0,
+                    0x5E => 2,
+                    0x5F => 0,
 
-                    0x60 => 7,
-                    0x61 => 7,
-                    0x62 => 5,
-                    0x63 => 11,
-                    0x64 => 7,
-                    0x65 => 5,
-                    0x66 => 3,
-                    0x68 => 11, // {[68] 0A 00 64 00 18 (->10) 00 38 04 60 00} 24 changed to 16, maybe font-size?
-                    0x69 => 3,
-                    0x6A => 5,
-                    0x6B => 3,
-                    0x6C => 17,
-                    0x6D => 3,
-                    0x6E => 5,
-                    0x6F => 7,
+                    0x60 => 6,
+                    0x61 => 6,
+                    0x62 => 4,
+                    0x63 => 10,
+                    0x64 => 6,
+                    0x65 => 4,
+                    0x66 => 2,
+                    //0x68 => 10,
+                    0x69 => 2,
+                    0x6A => 4,  // always FF FF FF FF
+                    0x6B => 2,
+                    0x6C => 16,
+                    0x6D => 2,
+                    0x6E => 4,
+                    0x6F => 6,
 
-                    0x70 => 1,
-                    0x71 => 7,
-                    0x72 => 5,
-                    0x74 => 7,
-                    0x75 => 5,
-                    0x7A => 11,
-                    0x7B => 5,
-                    0x7C => 5,
-                    0x7D => 3,
-                    0x7E => 3,
-                    0x7F => 5,
+                    0x70 => 0,
+                    0x71 => 6,
+                    0x72 => 4,
+                    0x74 => 6,
+                    0x75 => 4,
+                    0x7A => 10,
+                    0x7B => 4,
+                    0x7C => 4,
+                    0x7D => 2,
+                    0x7E => 2,
+                    0x7F => 4,
 
-                    0x80 => 5,
-                    0x81 => 3,
-                    0x82 => 3,
-                    0x83 => 5,
+                    0x80 => 4,
+                    0x81 => 2,
+                    0x82 => 2,
+                    0x83 => 4,
 
-                    0x8A => 3,
-                    0x8B => 5,
-                    0x8C => 5,
-                    0x8D => 1,
-                    0x8E => 11,
-                    0x8F => 7,
+                    0x8A => 2,
+                    0x8B => 4,
+                    0x8C => 4,
+                    0x8D => 0,
+                    0x8E => 10,
+                    0x8F => 6,
 
-                    0x91 => 9,
+                    0x91 => 8,
                     _ => throw new InvalidDataException($"Unknown opcode {op:X02}"),
                 }),
             };
@@ -233,9 +227,9 @@ namespace CsYetiTools.VnScripts
                 {
                     if (prevCodes.Count > 0
                         && prevCodes.Last() is OpCode_0C_0D scopeCode
-                        && scopeCode.TargetOffset != 0)
+                        && scopeCode.TargetOffset.AbsoluteOffset != 0)
                     {
-                        scopedCode.TargetEndOffset = scopeCode.TargetOffset;
+                        scopedCode.TargetEndOffset = scopeCode.TargetOffset.AbsoluteOffset;
                     }
                 }
                 else if (opCode is StringCode strCode)

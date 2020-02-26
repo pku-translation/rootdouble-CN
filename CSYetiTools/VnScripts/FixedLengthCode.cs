@@ -7,9 +7,9 @@ namespace CsYetiTools.VnScripts
         protected int _argLength;
         protected byte[] _args = System.Array.Empty<byte>();
 
-        public FixedLengthCode(byte code, int length) : base(code)
+        public FixedLengthCode(byte code, int argLength) : base(code)
         {
-            _argLength = length - 1;
+            _argLength = argLength;
         }
 
         public override int ArgLength

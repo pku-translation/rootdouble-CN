@@ -213,7 +213,7 @@ namespace CsYetiTools.VnScripts
             {
                 if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-                var content = JsonConvert.SerializeObject(script.GetTranslateSources(), Transifex.TransifexClient.JsonSettings);
+                var content = JsonConvert.SerializeObject(script.GetTranslateSources(), Utils.JsonSettings);
                 names.UnionWith(script.GetCharacterNames());
 
                 using (var writer = new StreamWriter(Path.Combine(dirPath, $"chunk_{i:0000}.json"), false, Utils.Utf8))
@@ -312,7 +312,7 @@ namespace CsYetiTools.VnScripts
 
         public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier[]> modifierDict)
         {
-            foreach (var (i, (script, refScript)) in Scripts.ZipTuple(refPackage.Scripts).WithIndex())
+            foreach (var (i, (script, refScript)) in Scripts.Zip(refPackage.Scripts).WithIndex())
             {
                 var refList = modifierDict.TryGetValue(i, out var modifiers)
                     ? refScript.GenerateStringReferenceList(modifiers)

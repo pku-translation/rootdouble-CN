@@ -7,7 +7,7 @@ namespace CsYetiTools.VnScripts
     {
         private byte[] _prefix;
 
-        private CodeAddressData _address = new CodeAddressData();
+        public CodeAddressData TargetAddress { get; set; } = new CodeAddressData();
 
         public PrefixedAddressCode(byte op, int prefixLength) : base(op) { 
             _prefix = new byte[prefixLength];
@@ -19,24 +19,24 @@ namespace CsYetiTools.VnScripts
         protected override void ReadArgs(BinaryReader reader)
         {
             reader.Read(_prefix, 0, _prefix.Length);
-            _address = ReadAddress(reader);
+            TargetAddress = ReadAddress(reader);
         }
 
         protected override void WriteArgs(BinaryWriter writer)
         {
             writer.Write(_prefix);
-            WriteAddress(writer, _address);
+            WriteAddress(writer, TargetAddress);
         }
 
         protected override void DumpArgs(TextWriter writer)
         {
             writer.Write(' '); writer.Write(Utils.BytesToHex(_prefix));
-            writer.Write(' '); writer.Write(_address);
+            writer.Write(' '); writer.Write(TargetAddress);
         }
         
         public IEnumerable<CodeAddressData> GetAddresses()
         {
-            yield return _address;
+            yield return TargetAddress;
         }
     }
 }

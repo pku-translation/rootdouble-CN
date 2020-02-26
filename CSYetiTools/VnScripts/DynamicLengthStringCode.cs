@@ -44,6 +44,7 @@ namespace CsYetiTools.VnScripts
             {
                 writer.Write(' '); writer.Write(Short2);
             }
+            writer.Write(' ');
             writer.Write(ContentToString());
         }
     }

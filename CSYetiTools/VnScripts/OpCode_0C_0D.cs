@@ -5,39 +5,40 @@ namespace CsYetiTools.VnScripts
 {
     public class OpCode_0C_0D : OpCode, IHasAddress
     {
-        private short _unknown1;
+        private byte _unknown1;
+        private byte _unknown2;
 
-        private CodeAddressData _targetOffset = new CodeAddressData();
+        public CodeAddressData TargetOffset { get; set; } = new CodeAddressData();
 
         public OpCode_0C_0D(byte code) : base(code) { }
-
-        public int TargetOffset
-            => _targetOffset.AbsoluteOffset;
 
         public override int ArgLength
             => 6;
 
         protected override void ReadArgs(BinaryReader reader)
         {
-            _unknown1 = reader.ReadInt16();
-            _targetOffset = ReadAddress(reader);
+            _unknown1 = reader.ReadByte();
+            _unknown2 = reader.ReadByte();
+            TargetOffset = ReadAddress(reader);
         }
 
         protected override void WriteArgs(BinaryWriter writer)
         {
             writer.Write(_unknown1);
-            WriteAddress(writer, _targetOffset);
+            writer.Write(_unknown2);
+            WriteAddress(writer, TargetOffset);
         }
 
         protected override void DumpArgs(TextWriter writer)
         {
             writer.Write(' '); writer.Write(_unknown1.ToHex());
-            writer.Write(' '); writer.Write(_targetOffset);
+            writer.Write(' '); writer.Write(_unknown2.ToHex());
+            writer.Write(' '); writer.Write(TargetOffset);
         }
         
         public IEnumerable<CodeAddressData> GetAddresses()
         {
-            yield return _targetOffset;
+            yield return TargetOffset;
         }
     }
 }

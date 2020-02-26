@@ -5,17 +5,12 @@
 
 /data/**
 
-!/data/psv/
-/data/psv/**
-!/data/psv/sn.bin
-
-!/data/ps3/
-/data/ps3/**
-!/data/ps3/sn.bin
-
-!/data/steam/
-/data/steam/**
-!/data/steam/sn.bin
+!/data/*/
+/data/*/**
+!/data/*/sn.bin
+!/data/*/executable
+!/data/*/exe_string_pool.ss
+!/data/string_pool/*
 
 !/data/string_list_modifiers.ss
 

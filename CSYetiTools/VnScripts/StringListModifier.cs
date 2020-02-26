@@ -17,29 +17,28 @@ namespace CsYetiTools.VnScripts
 
         public static IDictionary<int, StringListModifier[]> LoadFile(string path)
         {
-            var rootList = SExpr.ParseFile(path).ToList();
+            var rootList = SExpr.ParseFile(path);
             var result = new Dictionary<int, StringListModifier[]>();
-            foreach (var root in rootList)
+            foreach (var root in rootList.AsEnumerable())
             {
-                if (root.Car.AsSymbol() != "script") throw new ArgumentException($"Invalid script value {root}");
-                int script = root.Cdr.Car.AsInt();
+                var rootConsumer = new SExprConsumer(root);
+                if (rootConsumer.TakeSymbol() != "script") throw new ArgumentException($"Invalid script value {root}");
+                int script = rootConsumer.TakeInt();
 
                 var modifiers = new List<StringListModifier>();
-                foreach (var expr in root.Cdr.Cdr.ToList())
+                foreach (var expr in rootConsumer.TakeRest())
                 {
-                    if (!expr.Car.IsSymbol)
-                        throw new ArgumentException($"Unknown operation: {expr.Car}");
+                    var consumer = new SExprConsumer(expr);
 
-                    var op = expr.Car.AsSymbol();
-                    var args = expr.Cdr;
+                    var op = consumer.TakeSymbol();
 
                     modifiers.Add(op switch
                     {
-                        "->" => new Recode(args),
-                        "<-" => new ConcatCodes(args),
-                        "--" => new DropCodes(args),
-                        "++" => new InsertCode(args),
-                        "<+" => new CopyCode(args),
+                        "->" => new Recode(consumer),
+                        "<-" => new ConcatCodes(consumer),
+                        "--" => new DropCodes(consumer),
+                        "++" => new InsertCode(consumer),
+                        "<+" => new CopyCode(consumer),
                         _ => throw new ArgumentException($"Unknown operation: {op}")
                     });
                 }
@@ -57,10 +56,10 @@ namespace CsYetiTools.VnScripts
     {
         public int Index;
         public byte Code;
-        public Recode(SExpr args)
+        public Recode(SExprConsumer consumer)
         {
-            Index = args.Car.AsInt();
-            Code = (byte)args.Cdr.Car.AsInt();
+            Index = consumer.TakeInt();
+            Code = (byte)consumer.TakeInt();
         }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
@@ -76,10 +75,10 @@ namespace CsYetiTools.VnScripts
     {
         public int Index;
         public List<int> Sources;
-        public ConcatCodes(SExpr args)
+        public ConcatCodes(SExprConsumer consumer)
         {
-            Index = args.Car.AsInt();
-            Sources = args.Cdr.ToList().Select(s => s.AsInt()).ToList();
+            Index = consumer.TakeInt();
+            Sources = consumer.TakeRest().Select(s => s.AsInt()).ToList();
         }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
@@ -102,9 +101,9 @@ namespace CsYetiTools.VnScripts
     public class DropCodes : StringListModifier
     {
         public List<int> Indices;
-        public DropCodes(SExpr args)
+        public DropCodes(SExprConsumer consumer)
         {
-            Indices = args.ToList().Select(s => s.AsInt()).ToList();
+            Indices = consumer.TakeRest().Select(s => s.AsInt()).ToList();
         }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
@@ -121,11 +120,11 @@ namespace CsYetiTools.VnScripts
         public int Index;
         public byte Code;
         public string Content;
-        public InsertCode(SExpr args)
+        public InsertCode(SExprConsumer consumer)
         {
-            Index = args.Car.AsInt();
-            Code = (byte)args.Cdr.Car.AsInt();
-            Content = args.Cdr.Cdr.Car.AsString();
+            Index = consumer.TakeInt();
+            Code = (byte)consumer.TakeInt();
+            Content = consumer.TakeString();
         }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
@@ -142,13 +141,12 @@ namespace CsYetiTools.VnScripts
         public int Index;
         public int SourceIndex;
         public byte? Code;
-        public CopyCode(SExpr args)
+        public CopyCode(SExprConsumer consumer)
         {
-            Index = args.Car.AsInt();
-            SourceIndex = args.Cdr.Car.AsInt();
-            var last = args.Cdr.Cdr;
-            if (!last.IsNull)
-                Code = (byte)last.Car.AsInt();
+            Index = consumer.TakeInt();
+            SourceIndex = consumer.TakeInt();
+            if (!consumer.IsEmpty)
+                Code = (byte)consumer.TakeInt();
         }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)

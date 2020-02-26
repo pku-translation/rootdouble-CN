@@ -148,6 +148,17 @@ namespace CsYetiTools
             var tuple = ((Tuple<SExpr, SExpr>)_value);
             return (tuple.Item1, tuple.Item2);
         }
+        public IEnumerable<SExpr> AsEnumerable()
+        {
+            if (!IsList) throw new InvalidOperationException("Non-list sexpr cannot as-enumerable");
+            var cur = this;
+            while (!cur.IsNull)
+            {
+                var (car, cdr) = cur.AsPair();
+                yield return car;
+                cur = cdr;
+            }
+        }
         public SExpr Car
             => AsPair().car;
         public SExpr Cdr
@@ -450,4 +461,44 @@ namespace CsYetiTools
             => Parse(new StringReader(str));
     }
 
+    public class SExprConsumer
+    {
+        private SExpr _sexpr;
+        public SExprConsumer(SExpr sexpr)
+        {
+            if (!sexpr.IsList)
+            {
+                throw new ArgumentException($"Cannot consume non-list sexpr {sexpr}");
+            }
+            _sexpr = sexpr;
+        }
+        public SExpr Take()
+        {
+            if (_sexpr.IsNull)
+            {
+                throw new ArgumentNullException("Cannot take more element from sexpr");
+            }
+            var (car, cdr) = _sexpr.AsPair();
+            _sexpr = cdr;
+            return car;
+        }
+        public int TakeInt()
+            => Take().AsInt();
+        public string TakeString()
+            => Take().AsString();
+        public string TakeSymbol()
+            => Take().AsSymbol();
+        public (SExpr car, SExpr cdr) TakePair()
+            => Take().AsPair();
+        public IList<SExpr> TakeList()
+            => Take().ToList();
+        public IList<SExpr> TakeRest()
+        {
+            var rest = _sexpr.ToList();
+            _sexpr = SExpr.Null;
+            return rest;
+        }
+        public bool IsEmpty
+            => _sexpr.IsNull;
+    }
 }

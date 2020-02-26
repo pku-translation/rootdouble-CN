@@ -9,6 +9,11 @@ namespace CsYetiTools.VnScripts
 
         // 0x0A, 100, 16, 1080, 96 (EN)
 
+        // 000A: dialog
+        // 000D: character name
+        // 0046: BC1
+        // 0047: BC2
+
         public short AreaIndex { get; set; }
 
         public short X { get; set; }

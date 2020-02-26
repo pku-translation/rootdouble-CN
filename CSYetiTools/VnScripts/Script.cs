@@ -24,6 +24,10 @@ namespace CsYetiTools.VnScripts
 
         private readonly List<OpCode> _codes = new List<OpCode>();
 
+        private readonly SortedDictionary<int, string> _labelForward = new SortedDictionary<int, string>();
+
+        private readonly Dictionary<string, int> _labelBackward = new Dictionary<string, int>();
+
         private int _stringStart;
 
         private List<(int offset, string content)> _stringList = new List<(int, string)>();
@@ -82,6 +86,7 @@ namespace CsYetiTools.VnScripts
             }
             var maybeRemainBytes = reader.ReadBytes(firstCodeOffset - (int)(reader.BaseStream.Position));
 
+            // codes
             try
             {
                 while (reader.BaseStream.Position < codeEnd)
@@ -156,7 +161,7 @@ namespace CsYetiTools.VnScripts
                     ExceptionDispatchInfo.Capture(exc).Throw();
                 }
             }
-            
+
             var codeDict = new SortedDictionary<int, OpCode>();
             foreach (var code in _codes)
             {
@@ -194,6 +199,50 @@ namespace CsYetiTools.VnScripts
             else
             {
                 _header = new ScriptHeader(maybeEntries, maybeRemainBytes);
+            }
+
+            // labels
+            var entryIndex = 0;
+            foreach (var entry in _header.Entries)
+            {
+                if (_labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName))
+                {
+                    entry.TargetLabel = entryName;
+                }
+                else
+                {
+                    var entryLabelName = $"Entry-{entryIndex++:00}";
+                    entry.TargetLabel = entryLabelName;
+                    _labelForward.Add(entry.AbsoluteOffset, entryLabelName);
+                    _labelBackward.Add(entryLabelName, entry.AbsoluteOffset);
+                }
+            }
+            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
+            {
+                if (_labelForward.TryGetValue(address.AbsoluteOffset, out var label))
+                {
+                    address.TargetLabel = label;
+                }
+                else
+                {
+                    _labelForward.Add(address.AbsoluteOffset, "");
+                }
+            }
+            var labelOffsets = _labelForward.Keys.ToList();
+            if (labelOffsets.Count >= 10000) throw new InvalidDataException($"Too many labels: {labelOffsets.Count}");
+            var labelIndex = 1;
+            foreach (var offset in labelOffsets)
+            {
+                if (string.IsNullOrWhiteSpace(_labelForward[offset]))
+                {
+                    var labelName = $"Label-{labelIndex++:0000}";
+                    _labelForward[offset] = labelName;
+                    _labelBackward.Add(labelName, offset);
+                }
+            }
+            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
+            {
+                address.TargetLabel = _labelForward[address.AbsoluteOffset];
             }
 
             System.Diagnostics.Debug.Assert(ToRawBytes().SequenceEqual(bytes), "Rawbytes not sequence-equal to original.");
@@ -264,7 +313,7 @@ namespace CsYetiTools.VnScripts
         public List<StringReferenceEntry> GenerateStringReferenceList(IEnumerable<StringListModifier>? modifiers)
         {
             if (modifiers == null) return GenerateStringReferenceList();
-            
+
             var list = GenerateStringReferenceList();
             var dict = new SortedDictionary<int, StringReferenceEntry>();
             foreach (var entry in list) dict.Add(entry.Index, entry);
@@ -289,7 +338,7 @@ namespace CsYetiTools.VnScripts
             int? prevOffset = null;
             var currentOffset = _stringStart;
             var newStringList = new List<(int offset, string content)>();
-            foreach (var (code, refEntry) in strCodeList.ZipTuple(referenceList))
+            foreach (var (code, refEntry) in strCodeList.Zip(referenceList))
             {
                 if (code.Code != refEntry.Code)
                     throw new ArgumentException(
@@ -370,7 +419,13 @@ namespace CsYetiTools.VnScripts
 
             foreach (var (i, code) in _codes.WithIndex())
             {
-                writer.Write($"{i,4} | 0x{code.Offset:X08}: ");
+                if (_labelForward.TryGetValue(code.Offset, out var label))
+                {
+                    writer.Write("#");
+                    writer.WriteLine(label);
+                }
+                //writer.Write($"{i,4} | 0x{code.Offset:X08}: ");
+                writer.Write("  ");
                 code.Dump(writer);
                 writer.WriteLine();
             }

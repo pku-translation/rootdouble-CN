@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using CsYetiTools.VnScripts;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.CodeAnalysis.CSharp;
+using System.Text.RegularExpressions;
 
 namespace CsYetiTools
 {
@@ -27,32 +27,38 @@ namespace CsYetiTools
 
         static async Task Main(string[] args)
         {
-            var scriptText = args.Length switch
+            if (args.Length == 1)
             {
-                0 => GetAllInput(),
-                1 => args[0] switch
+                if (args[0] == "testbed")
                 {
-                    "testbed" => null,
-                    _ => throw new ArgumentException($"Expecting zero or two args (file <filename> | command <command>)")
-                },
-                2 => args[0] switch
+                    var stopwatch = new System.Diagnostics.Stopwatch();
+                    stopwatch.Start();
+                    await TestBed.Run();
+                    Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
+                }
+                else if (args[0] == "benchmark")
                 {
-                    "file" => File.ReadAllText(args[1], Encoding.UTF8),
-                    "command" => args[1],
-                    _ => throw new ArgumentException($"Unknown type {args[0]}, expecting (file|command)")
-                },
-                _ => throw new ArgumentException($"Expecting zero or two args (file <filename> | command <command>)")
-            };
-
-            if (scriptText == null)
-            {
-                var stopwatch = new System.Diagnostics.Stopwatch();
-                stopwatch.Start();
-                await TestBed.Run();
-                Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
+                    Benchmarks.Run();
+                }
+                else
+                {
+                    Console.WriteLine($"Unknown command \"{args[0]}\"");
+                }
             }
             else
             {
+                var scriptText = args.Length switch
+                {
+                    0 => GetAllInput(),
+                    2 => args[0] switch
+                    {
+                        "file" => File.ReadAllText(args[1], Encoding.UTF8),
+                        "command" => args[1],
+                        _ => throw new ArgumentException($"Unknown type {args[0]}, expecting (file|command)")
+                    },
+                    _ => throw new ArgumentException($"Expecting zero or two args (file <filename> | command <command>)")
+                };
+
                 var script = CSharpScript.Create(scriptText,
                     ScriptOptions.Default
                         .AddReferences(typeof(Program).Assembly)
@@ -127,7 +133,7 @@ namespace CsYetiTools
 
             using var writer = new StreamWriter(Path.Combine(outputDir, "compare-result.txt"));
             int n = 0;
-            foreach (var (i, (s1, s2)) in package1.Scripts.ZipTuple(package2.Scripts).WithIndex())
+            foreach (var (i, (s1, s2)) in package1.Scripts.Zip(package2.Scripts).WithIndex())
             {
                 if (s1.Footer.ScriptIndex < 0) continue;
 
@@ -137,7 +143,7 @@ namespace CsYetiTools
                     modifierTable2 != null ? modifierTable2.TryGetValue(i, out var modifier2) ? modifier2 : null : null);
 
                 bool same = true;
-                foreach (var (c1, c2) in c1s.ZipTuple(c2s))
+                foreach (var (c1, c2) in c1s.Zip(c2s))
                 {
                     if (c1.Code != c2.Code)
                     {
@@ -171,6 +177,7 @@ namespace CsYetiTools
             package.ReplaceStringTable(refPackage, modifierDict);
         }
 
+
         class DupEntry
         {
             public int Chunk { get; set; }
@@ -180,31 +187,20 @@ namespace CsYetiTools
 
         private static async Task FillTransifexDuplicatedStrings(
             SnPackage package, string filterPattern,
-            string projectSlug, string chunkTemplate, string? token = null)
+            string projectSlug, string chunkFormatter, string? token = null)
         {
             var client = new Transifex.TransifexClient(token);
+            var project = client.Project(projectSlug);
 
             var regex = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
-
-            var md5 = System.Security.Cryptography.MD5.Create();
-            string GetMd5Hash(string input)
-            {
-                var data = md5.ComputeHash(Encoding.UTF8.GetBytes(input));
-                var sBuilder = new StringBuilder();
-                for (int i = 0; i < data.Length; i++)
-                {
-                    sBuilder.Append(data[i].ToString("x2"));
-                }
-                return sBuilder.ToString();
-            }
 
             var dupDict = new Dictionary<string, DupEntry>();
 
             foreach (var (chunkIndex, script) in package.Scripts.WithIndex())
             {
-                if (chunkIndex == 0) continue;
+                if (script.Footer.ScriptIndex < 0) continue;
 
-                var list = new List<object>();
+                var dict = new SortedDictionary<int, string>();
                 foreach (var code in script.Codes.OfType<StringCode>())
                 {
                     if (code is ExtraDialogCode exDialog && !exDialog.IsDialog) continue;
@@ -214,12 +210,9 @@ namespace CsYetiTools
                     {
                         if (dupDict.TryGetValue(content, out var entry))
                         {
+
                             ++entry.DupCounter;
-                            list.Add(new
-                            {
-                                SourceEntryHash = GetMd5Hash($"{code.Index:000000}:{code.Index:000000}"),
-                                Translation = $"@import {entry.Chunk:0000} {entry.Index:000000}"
-                            });
+                            dict.Add(code.Index, $"@import {entry.Chunk:0000} {entry.Index:000000}");
                         }
                         else
                         {
@@ -227,19 +220,40 @@ namespace CsYetiTools
                         }
                     }
                 }
-                if (list.Count > 0)
+                if (dict.Count > 0)
                 {
-                    var chunk = chunkTemplate.Replace("<chunk>", $"{chunkIndex:0000}");
-
+                    var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
                     try
                     {
-                        Console.Write($"Filling chunk_{chunkIndex:0000} ({list.Count} imports)...");
+                        var currentTranslations = new SortedDictionary<int, Transifex.TranslationStringInfo>();
+                        foreach (var trans in await resource.GetTranslationStrings("zh_CN"))
+                        {
+                            currentTranslations.Add(int.Parse(trans.Key), trans);
+                        }
+                        Console.WriteLine($"chunk {chunkIndex}");
+                        var imports = new List<Transifex.TranslationStringsPutInfo>();
+                        foreach (var (k, t) in dict)
+                        {
+                            if (currentTranslations.TryGetValue(k, out var currentTranslation)
+                                && !string.IsNullOrWhiteSpace(currentTranslation.Translation)
+                                && !currentTranslation.Translation.StartsWith("@import"))
+                            {
+                                Console.WriteLine($"    skip: [{currentTranslation.Key}] {currentTranslation.User} => {currentTranslation.Translation}");
+                                continue;
+                            }
+                            var keyStr = k.ToString("000000");
+                            imports.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, dict[k], ""));
+                        }
+                        if (imports.Count == 0)
+                        {
+                            Console.WriteLine("Empty");
+                            continue;
+                        }
+                        Console.Write($"Filling ...");
                         Console.Out.Flush();
 
-                        await Task.Run(() => { });
-                        //var result = await client.Put()
-
-                        //Console.WriteLine(result);
+                        var result = await resource.PutTranslationStrings("zh_CN", imports.ToArray());
+                        Console.WriteLine(result);
                     }
                     catch (Exception exc)
                     {

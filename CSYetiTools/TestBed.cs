@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using CsYetiTools.FileTypes;
 using CsYetiTools.Transifex;
 using CsYetiTools.VnScripts;
 using Newtonsoft.Json;
@@ -48,32 +50,7 @@ namespace CsYetiTools
 
         public static async Task Run()
         {
-            await Task.Run(() => {});
-            
-
-            // ------------------------------------------------------------------------
-
-            // var package = Load("psv/sn.bin", false);
-            // using var client = new TransifexClient();
-            // foreach (var (i, script) in package.Scripts.WithIndex())
-            // {
-            //     if (i == 251) continue;
-
-            //     if (script.Footer.ScriptIndex < 0) continue;
-
-            //     var mainCodeIndex = script.Codes.First(c => c.Offset == script.Header.Entries[0].AbsoluteOffset).Index;
-            //     if (mainCodeIndex == 0) continue;
-
-            //     Console.WriteLine($"script {i}");
-
-            //     var translations = JsonConvert.DeserializeObject<TranslationStringsPutInfo[]>(
-            //         File.ReadAllText($"translations/chunk_{i}.json"),
-            //         TransifexClient.JsonSettings)!;
-                
-            //     var resource = client.Project("rootdouble_steam_cn").Resource($"source-json-chunk-{i:0000}-json--master");
-
-            //     Console.WriteLine(await resource.PutTranslationStrings("zh_CN", translations));
-            // }
+            await Task.Run(() => { });
         }
     }
 }
