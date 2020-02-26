@@ -1,122 +1,92 @@
 {
-  "000B9640": {
-    "Context": "000B9640",
-    "Code": null,
-    "Offset": "000B9640",
-    "DeveloperComment": "Change message display window opacity.\n\nThe window will grow more transparent the closer it is to \"Min\", and vice-versa.",
-    "CharacterLimit": 61,
-    "String": "ゲーム中にメッセージが表示される、ウィンドウの透明度を変更します。\n\n『透明』の方に設定するほど、ウィンドウが透ける度合いが大きくなります。\n\n『濃い』の方に設定するほど、ウィンドウが透ける度合いが小さくなります。"
+  "0000": {
+    "context": "000B9640",
+    "developer_comment": "Change message display window opacity.\n\nThe window will grow more transparent the closer it is to \"Min\", and vice-versa.",
+    "character_limit": 61,
+    "string": "ゲーム中にメッセージが表示される、ウィンドウの透明度を変更します。\n\n『透明』の方に設定するほど、ウィンドウが透ける度合いが大きくなります。\n\n『濃い』の方に設定するほど、ウィンドウが透ける度合いが小さくなります。"
   },
-  "000B9578": {
-    "Context": "000B9578",
-    "Code": null,
-    "Offset": "000B9578",
-    "DeveloperComment": "Change the speed messages display at.\n\nThey will display slower the closer it is to \"Min\", and faster the closer it is to \"Max\".\nIf you set it at its highest, text will be displayed all at once.",
-    "CharacterLimit": 99,
-    "String": "ゲーム中に表示されるメッセージの速度を変更します。\n\n『Ｍｉｎ』の方に設定するほど、表示される速度が遅くなります。\n『Ｍａｘ』の方に設定するほど、表示される速度が速くなります。\n最大に設定すると、１文字ずつの表示ではなく、一括表示となります。ただし、音声があるメッセージで音声同期が『ＯＮ』の場合、そちらが優先されます。"
+  "0001": {
+    "context": "000B9578",
+    "developer_comment": "Change the speed messages display at.\n\nThey will display slower the closer it is to \"Min\", and faster the closer it is to \"Max\".\nIf you set it at its highest, text will be displayed all at once.",
+    "character_limit": 99,
+    "string": "ゲーム中に表示されるメッセージの速度を変更します。\n\n『Ｍｉｎ』の方に設定するほど、表示される速度が遅くなります。\n『Ｍａｘ』の方に設定するほど、表示される速度が速くなります。\n最大に設定すると、１文字ずつの表示ではなく、一括表示となります。ただし、音声があるメッセージで音声同期が『ＯＮ』の場合、そちらが優先されます。"
   },
-  "000B94D8": {
-    "Context": "000B94D8",
-    "Code": null,
-    "Offset": "000B94D8",
-    "DeveloperComment": "Change the speed messages display at during Auto Mode.\n\nThey will take longer to display the closer it is to \"Min\", and shorter the closer it is to \"Max\".",
-    "CharacterLimit": 79,
-    "String": "オートモード時のメッセージが送られる速度を設定します。\n\n『Ｍｉｎ』の方に設定するほど、メッセージが送られるまでの待ち時間が長くなります。\n\n『Ｍａｘ』の方に設定するほど、メッセージが送られるまでの待ち時間が短くなります。"
+  "0002": {
+    "context": "000B94D8",
+    "developer_comment": "Change the speed messages display at during Auto Mode.\n\nThey will take longer to display the closer it is to \"Min\", and shorter the closer it is to \"Max\".",
+    "character_limit": 79,
+    "string": "オートモード時のメッセージが送られる速度を設定します。\n\n『Ｍｉｎ』の方に設定するほど、メッセージが送られるまでの待ち時間が長くなります。\n\n『Ｍａｘ』の方に設定するほど、メッセージが送られるまでの待ち時間が短くなります。"
   },
-  "000B93E0": {
-    "Context": "000B93E0",
-    "Code": null,
-    "Offset": "000B93E0",
-    "DeveloperComment": "Set how the game skips when you hold down the CTRL key.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
-    "CharacterLimit": 123,
-    "String": "CTRLキーを押した時のスキップ機能の設定をします。\n\n『既読のみ』に設定すると、過去に表示したことがあるメッセージのみスキップし、一度も表示したことがないメッセージはスキップしません。\n\n『すべて』に設定すると、過去の表示に関係なくメッセージをスキップします。"
+  "0003": {
+    "context": "000B93E0",
+    "developer_comment": "Set how the game skips when you hold down the CTRL key.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
+    "character_limit": 123,
+    "string": "CTRLキーを押した時のスキップ機能の設定をします。\n\n『既読のみ』に設定すると、過去に表示したことがあるメッセージのみスキップし、一度も表示したことがないメッセージはスキップしません。\n\n『すべて』に設定すると、過去の表示に関係なくメッセージをスキップします。"
   },
-  "000B92E8": {
-    "Context": "000B92E8",
-    "Code": null,
-    "Offset": "000B92E8",
-    "DeveloperComment": "Set how the game skips when you press the Skip button.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
-    "CharacterLimit": 123,
-    "String": "スキップモードになった時の、スキップ機能の設定をします。\n\n『既読のみ』に設定すると、過去に表示したことがあるメッセージのみスキップし、一度も表示したことがないメッセージはスキップしません。\n\n『すべて』に設定すると、過去の表示に関係なくメッセージをスキップします。"
+  "0004": {
+    "context": "000B92E8",
+    "developer_comment": "Set how the game skips when you press the Skip button.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
+    "character_limit": 123,
+    "string": "スキップモードになった時の、スキップ機能の設定をします。\n\n『既読のみ』に設定すると、過去に表示したことがあるメッセージのみスキップし、一度も表示したことがないメッセージはスキップしません。\n\n『すべて』に設定すると、過去の表示に関係なくメッセージをスキップします。"
   },
-  "000B9208": {
-    "Context": "000B9208",
-    "Code": null,
-    "Offset": "000B9208",
-    "DeveloperComment": "Set whether the scene title appears when you change scenes.\n\nIf set to \"On\", the scene title will display when you change scenes.\n\nIf set to \"Off\", the scene title will not be displayed even if you change scenes.",
-    "CharacterLimit": 111,
-    "String": "シーンが変わった際にシーンタイトルを表示するか設定します。\n\n『ＯＮ』に設定すると、シーンが変わった際にそのシーンのタイトルが表示されます。\n\n『ＯＦＦ』に設定すると、シーンが変わってもタイトルは表示されません。"
+  "0005": {
+    "context": "000B9208",
+    "developer_comment": "Set whether the scene title appears when you change scenes.\n\nIf set to \"On\", the scene title will display when you change scenes.\n\nIf set to \"Off\", the scene title will not be displayed even if you change scenes.",
+    "character_limit": 111,
+    "string": "シーンが変わった際にシーンタイトルを表示するか設定します。\n\n『ＯＮ』に設定すると、シーンが変わった際にそのシーンのタイトルが表示されます。\n\n『ＯＦＦ』に設定すると、シーンが変わってもタイトルは表示されません。"
   },
-  "000B9180": {
-    "Context": "000B9180",
-    "Code": null,
-    "Offset": "000B9180",
-    "DeveloperComment": "Set the volume of the game's BGM.\n\nThe closer it is to \"Min\", the quieter it is.\n\nThe closer it is to \"Max\", the louder it is.",
-    "CharacterLimit": 67,
-    "String": "ゲーム中に流れるＢＧＭのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
+  "0006": {
+    "context": "000B9180",
+    "developer_comment": "Set the volume of the game's BGM.\n\nThe closer it is to \"Min\", the quieter it is.\n\nThe closer it is to \"Max\", the louder it is.",
+    "character_limit": 67,
+    "string": "ゲーム中に流れるＢＧＭのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
   },
-  "000B90E8": {
-    "Context": "000B90E8",
-    "Code": null,
-    "Offset": "000B90E8",
-    "DeveloperComment": "Set the volume of the game's sound effects.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
-    "CharacterLimit": 75,
-    "String": "ゲーム中に流れるＳＥのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
+  "0007": {
+    "context": "000B90E8",
+    "developer_comment": "Set the volume of the game's sound effects.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
+    "character_limit": 75,
+    "string": "ゲーム中に流れるＳＥのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
   },
-  "000B9038": {
-    "Context": "000B9038",
-    "Code": null,
-    "Offset": "000B9038",
-    "DeveloperComment": "Set the volume of the game's sound effects used in menu operation.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
-    "CharacterLimit": 87,
-    "String": "キー操作をした時に再生されるＳＥのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
+  "0008": {
+    "context": "000B9038",
+    "developer_comment": "Set the volume of the game's sound effects used in menu operation.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
+    "character_limit": 87,
+    "string": "キー操作をした時に再生されるＳＥのボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
   },
-  "000B8FA8": {
-    "Context": "000B8FA8",
-    "Code": null,
-    "Offset": "000B8FA8",
-    "DeveloperComment": "Set the volume of the game's voices.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
-    "CharacterLimit": 71,
-    "String": "ゲーム中に再生される音声のボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
+  "0009": {
+    "context": "000B8FA8",
+    "developer_comment": "Set the volume of the game's voices.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
+    "character_limit": 71,
+    "string": "ゲーム中に再生される音声のボリュームを設定します。\n\n『Ｍｉｎ』の方に設定するほど、小さな音で再生されます。\n\n『Ｍａｘ』の方に設定するほど、大きな音で再生されます。"
   },
-  "000B8EF8": {
-    "Context": "000B8EF8",
-    "Code": null,
-    "Offset": "000B8EF8",
-    "DeveloperComment": "Set whether or not a tutorial plays right before √A and √B's first Senses input.\n\nIf set to \"On\", the tutorial plays.\n\nIf set to \"Off\", the tutorial will not play.",
-    "CharacterLimit": 87,
-    "String": "√Ａと√Ｂにおいて、最初のセンシズ入力直前で、チュートリアルを発生させるかを設定します。\n\n『ＯＮ』に設定すると、チュートリアルが発生します。\n\n『ＯＦＦ』に設定すると、チュートリアルが発生しません。"
+  "0010": {
+    "context": "000B8EF8",
+    "developer_comment": "Set whether or not a tutorial plays right before √A and √B's first Senses input.\n\nIf set to \"On\", the tutorial plays.\n\nIf set to \"Off\", the tutorial will not play.",
+    "character_limit": 87,
+    "string": "√Ａと√Ｂにおいて、最初のセンシズ入力直前で、チュートリアルを発生させるかを設定します。\n\n『ＯＮ』に設定すると、チュートリアルが発生します。\n\n『ＯＦＦ』に設定すると、チュートリアルが発生しません。"
   },
-  "000B8E60": {
-    "Context": "000B8E60",
-    "Code": null,
-    "Offset": "000B8E60",
-    "DeveloperComment": "Set whether a hint will display after Bad Endings.\n\nIf set to \"On\", the hint will display.\n\nIf set to \"Off\", the hint will not be displayed.",
-    "CharacterLimit": 75,
-    "String": "バッドエンドを迎えたときに、ヒントのメッセージを表示するか設定します。\n\n『ＯＮ』に設定すると、ヒントが表示されます。\n\n『ＯＦＦ』に設定すると、ヒントは表示されません。"
+  "0011": {
+    "context": "000B8E60",
+    "developer_comment": "Set whether a hint will display after Bad Endings.\n\nIf set to \"On\", the hint will display.\n\nIf set to \"Off\", the hint will not be displayed.",
+    "character_limit": 75,
+    "string": "バッドエンドを迎えたときに、ヒントのメッセージを表示するか設定します。\n\n『ＯＮ』に設定すると、ヒントが表示されます。\n\n『ＯＦＦ』に設定すると、ヒントは表示されません。"
   },
-  "000B8DA8": {
-    "Context": "000B8DA8",
-    "Code": null,
-    "Offset": "000B8DA8",
-    "DeveloperComment": "Set whether the results of a Senses input display.\n\nIf set to \"On\", the results of a Senses decision will display on-screen.\n\nIf set to \"Off\", the results will not display.",
-    "CharacterLimit": 91,
-    "String": "センシズ入力の結果を表示するか設定します。\n\n『ＯＮ』に設定すると、センシズ判定の結果が画面上に表示されます。\n\n『ＯＦＦ』に設定すると、結果は表示されません。"
+  "0012": {
+    "context": "000B8DA8",
+    "developer_comment": "Set whether the results of a Senses input display.\n\nIf set to \"On\", the results of a Senses decision will display on-screen.\n\nIf set to \"Off\", the results will not display.",
+    "character_limit": 91,
+    "string": "センシズ入力の結果を表示するか設定します。\n\n『ＯＮ』に設定すると、センシズ判定の結果が画面上に表示されます。\n\n『ＯＦＦ』に設定すると、結果は表示されません。"
   },
-  "000B8CF0": {
-    "Context": "000B8CF0",
-    "Code": null,
-    "Offset": "000B8CF0",
-    "DeveloperComment": "Set whether a message giving you the option to cancel your Senses input before you set it.\nIf set to \"On\", the message will display.\n\nIf set to \"Off\", the message will not display.",
-    "CharacterLimit": 91,
-    "String": "センシズ入力時の決定とキャンセルの確認ダイアログを表示するか設定します。\n\n『ＯＮ』に設定すると、確認ダイアログが表示されます。\n\n『ＯＦＦ』に設定すると、確認ダイアログは表示されません。"
+  "0013": {
+    "context": "000B8CF0",
+    "developer_comment": "Set whether a message giving you the option to cancel your Senses input before you set it.\nIf set to \"On\", the message will display.\n\nIf set to \"Off\", the message will not display.",
+    "character_limit": 91,
+    "string": "センシズ入力時の決定とキャンセルの確認ダイアログを表示するか設定します。\n\n『ＯＮ』に設定すると、確認ダイアログが表示されます。\n\n『ＯＦＦ』に設定すると、確認ダイアログは表示されません。"
   },
-  "000B8C48": {
-    "Context": "000B8C48",
-    "Code": null,
-    "Offset": "000B8C48",
-    "DeveloperComment": "Set the game's screen mode.\n\nIf set to \"Window\", the game will display in window-sized format.\n\nIf set to \"Full\", the game will display in fullscreen format.",
-    "CharacterLimit": 83,
-    "String": "Set the game's screen mode.\n\nIf set to \"Window\", the game will display in window-sized format.\n\nIf set to \"Full\", the game will display in fullscreen format."
+  "0014": {
+    "context": "000B8C48",
+    "developer_comment": "Set the game's screen mode.\n\nIf set to \"Window\", the game will display in window-sized format.\n\nIf set to \"Full\", the game will display in fullscreen format.",
+    "character_limit": 83,
+    "string": "Set the game's screen mode.\n\nIf set to \"Window\", the game will display in window-sized format.\n\nIf set to \"Full\", the game will display in fullscreen format."
   }
 }

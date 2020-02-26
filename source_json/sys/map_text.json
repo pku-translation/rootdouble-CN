@@ -1,50 +1,38 @@
 {
-  "000B885C": {
-    "Context": "000B885C",
-    "Code": null,
-    "Offset": "000B885C",
-    "DeveloperComment": "Unknown",
-    "CharacterLimit": 3,
-    "String": "Unknown"
+  "0000": {
+    "context": "000B885C",
+    "developer_comment": "Unknown",
+    "character_limit": 3,
+    "string": "Unknown"
   },
-  "000B884C": {
-    "Context": "000B884C",
-    "Code": null,
-    "Offset": "000B884C",
-    "DeveloperComment": "Rokumei City",
-    "CharacterLimit": 7,
-    "String": "鹿鳴研究学園都市"
+  "0001": {
+    "context": "000B884C",
+    "developer_comment": "Rokumei City",
+    "character_limit": 7,
+    "string": "鹿鳴研究学園都市"
   },
-  "000B8838": {
-    "Context": "000B8838",
-    "Code": null,
-    "Offset": "000B8838",
-    "DeveloperComment": "LABO ENGINE ROOM",
-    "CharacterLimit": 9,
-    "String": "LABO ENGINE ROOM"
+  "0002": {
+    "context": "000B8838",
+    "developer_comment": "LABO ENGINE ROOM",
+    "character_limit": 9,
+    "string": "LABO ENGINE ROOM"
   },
-  "000B8830": {
-    "Context": "000B8830",
-    "Code": null,
-    "Offset": "000B8830",
-    "DeveloperComment": "LABO B1",
-    "CharacterLimit": 3,
-    "String": "LABO B1"
+  "0003": {
+    "context": "000B8830",
+    "developer_comment": "LABO B1",
+    "character_limit": 3,
+    "string": "LABO B1"
   },
-  "000B8828": {
-    "Context": "000B8828",
-    "Code": null,
-    "Offset": "000B8828",
-    "DeveloperComment": "LABO B2",
-    "CharacterLimit": 3,
-    "String": "LABO B2"
+  "0004": {
+    "context": "000B8828",
+    "developer_comment": "LABO B2",
+    "character_limit": 3,
+    "string": "LABO B2"
   },
-  "000B8820": {
-    "Context": "000B8820",
-    "Code": null,
-    "Offset": "000B8820",
-    "DeveloperComment": "LABO B3",
-    "CharacterLimit": 3,
-    "String": "LABO B3"
+  "0005": {
+    "context": "000B8820",
+    "developer_comment": "LABO B3",
+    "character_limit": 3,
+    "string": "LABO B3"
   }
 }

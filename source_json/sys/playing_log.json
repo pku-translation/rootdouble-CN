@@ -1,394 +1,296 @@
 {
-  "000B8544": {
-    "Context": "000B8544",
-    "Code": null,
-    "Offset": "000B8544",
-    "DeveloperComment": "%d/%d(%3.3f%%)",
-    "CharacterLimit": 7,
-    "String": "%d/%d(%3.3f%%)"
+  "0000": {
+    "context": "000B8544",
+    "developer_comment": "%d/%d(%3.3f%%)",
+    "character_limit": 7,
+    "string": "%d/%d(%3.3f%%)"
   },
-  "000B8534": {
-    "Context": "000B8534",
-    "Code": null,
-    "Offset": "000B8534",
-    "DeveloperComment": "Endings Reached",
-    "CharacterLimit": 7,
-    "String": "エンディング達成数"
+  "0001": {
+    "context": "000B8534",
+    "developer_comment": "Endings Reached",
+    "character_limit": 7,
+    "string": "エンディング達成数"
   },
-  "000B8520": {
-    "Context": "000B8520",
-    "Code": null,
-    "Offset": "000B8520",
-    "DeveloperComment": "Scene Titles Seen",
-    "CharacterLimit": 9,
-    "String": "シーンタイトル達成数"
+  "0002": {
+    "context": "000B8520",
+    "developer_comment": "Scene Titles Seen",
+    "character_limit": 9,
+    "string": "シーンタイトル達成数"
   },
-  "000B8510": {
-    "Context": "000B8510",
-    "Code": null,
-    "Offset": "000B8510",
-    "DeveloperComment": "TIPS Completion",
-    "CharacterLimit": 7,
-    "String": "TIPS完成度"
+  "0003": {
+    "context": "000B8510",
+    "developer_comment": "TIPS Completion",
+    "character_limit": 7,
+    "string": "TIPS完成度"
   },
-  "000B84FC": {
-    "Context": "000B84FC",
-    "Code": null,
-    "Offset": "000B84FC",
-    "DeveloperComment": "Album Completion",
-    "CharacterLimit": 9,
-    "String": "アルバム完成度"
+  "0004": {
+    "context": "000B84FC",
+    "developer_comment": "Album Completion",
+    "character_limit": 9,
+    "string": "アルバム完成度"
   },
-  "000B84E8": {
-    "Context": "000B84E8",
-    "Code": null,
-    "Offset": "000B84E8",
-    "DeveloperComment": "Music Completion",
-    "CharacterLimit": 9,
-    "String": "ミュージック完成度"
+  "0005": {
+    "context": "000B84E8",
+    "developer_comment": "Music Completion",
+    "character_limit": 9,
+    "string": "ミュージック完成度"
   },
-  "000B84D8": {
-    "Context": "000B84D8",
-    "Code": null,
-    "Offset": "000B84D8",
-    "DeveloperComment": "Messages Read",
-    "CharacterLimit": 7,
-    "String": "メッセージ既読数"
+  "0006": {
+    "context": "000B84D8",
+    "developer_comment": "Messages Read",
+    "character_limit": 7,
+    "string": "メッセージ既読数"
   },
-  "000B84BC": {
-    "Context": "000B84BC",
-    "Code": null,
-    "Offset": "000B84BC",
-    "DeveloperComment": "Senses Branches Encountered",
-    "CharacterLimit": 13,
-    "String": "センシズ分岐数"
+  "0007": {
+    "context": "000B84BC",
+    "developer_comment": "Senses Branches Encountered",
+    "character_limit": 13,
+    "string": "センシズ分岐数"
   },
-  "000B8498": {
-    "Context": "000B8498",
-    "Code": null,
-    "Offset": "000B8498",
-    "DeveloperComment": "√A Bad Ending #1 [The Reckless]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド1【己を知らぬ者】"
+  "0008": {
+    "context": "000B8498",
+    "developer_comment": "√A Bad Ending #1 [The Reckless]",
+    "character_limit": 17,
+    "string": "√A バッドエンド1【己を知らぬ者】"
   },
-  "000B8474": {
-    "Context": "000B8474",
-    "Code": null,
-    "Offset": "000B8474",
-    "DeveloperComment": "√A Bad Ending #2 [The Careless]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド2【注意力なき者】"
+  "0009": {
+    "context": "000B8474",
+    "developer_comment": "√A Bad Ending #2 [The Careless]",
+    "character_limit": 17,
+    "string": "√A バッドエンド2【注意力なき者】"
   },
-  "000B8448": {
-    "Context": "000B8448",
-    "Code": null,
-    "Offset": "000B8448",
-    "DeveloperComment": "√A Bad Ending #3 [The Overeager Martyr]",
-    "CharacterLimit": 21,
-    "String": "√A バッドエンド3【自己犠牲の過ぎたる者】"
+  "0010": {
+    "context": "000B8448",
+    "developer_comment": "√A Bad Ending #3 [The Overeager Martyr]",
+    "character_limit": 21,
+    "string": "√A バッドエンド3【自己犠牲の過ぎたる者】"
   },
-  "000B8424": {
-    "Context": "000B8424",
-    "Code": null,
-    "Offset": "000B8424",
-    "DeveloperComment": "√A Bad Ending #4 [The Misguided]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド4【道を誤りし者】"
+  "0011": {
+    "context": "000B8424",
+    "developer_comment": "√A Bad Ending #4 [The Misguided]",
+    "character_limit": 17,
+    "string": "√A バッドエンド4【道を誤りし者】"
   },
-  "000B8404": {
-    "Context": "000B8404",
-    "Code": null,
-    "Offset": "000B8404",
-    "DeveloperComment": "√A Bad Ending #5 [The Coward]",
-    "CharacterLimit": 15,
-    "String": "√A バッドエンド5【勇気なき者】"
+  "0012": {
+    "context": "000B8404",
+    "developer_comment": "√A Bad Ending #5 [The Coward]",
+    "character_limit": 15,
+    "string": "√A バッドエンド5【勇気なき者】"
   },
-  "000B83E4": {
-    "Context": "000B83E4",
-    "Code": null,
-    "Offset": "000B83E4",
-    "DeveloperComment": "√A Bad Ending #6 [The Fallen]",
-    "CharacterLimit": 15,
-    "String": "√A バッドエンド6【墜落せし者】"
+  "0013": {
+    "context": "000B83E4",
+    "developer_comment": "√A Bad Ending #6 [The Fallen]",
+    "character_limit": 15,
+    "string": "√A バッドエンド6【墜落せし者】"
   },
-  "000B83C4": {
-    "Context": "000B83C4",
-    "Code": null,
-    "Offset": "000B83C4",
-    "DeveloperComment": "√A Bad Ending #7 [The Egoless]",
-    "CharacterLimit": 15,
-    "String": "√A バッドエンド7【意思なき者】"
+  "0014": {
+    "context": "000B83C4",
+    "developer_comment": "√A Bad Ending #7 [The Egoless]",
+    "character_limit": 15,
+    "string": "√A バッドエンド7【意思なき者】"
   },
-  "000B83A0": {
-    "Context": "000B83A0",
-    "Code": null,
-    "Offset": "000B83A0",
-    "DeveloperComment": "√A Bad Ending #8 [The Wanderer]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド8【持たざる者】"
+  "0015": {
+    "context": "000B83A0",
+    "developer_comment": "√A Bad Ending #8 [The Wanderer]",
+    "character_limit": 17,
+    "string": "√A バッドエンド8【持たざる者】"
   },
-  "000B8380": {
-    "Context": "000B8380",
-    "Code": null,
-    "Offset": "000B8380",
-    "DeveloperComment": "√A Bad Ending #9 [The Doubted]",
-    "CharacterLimit": 15,
-    "String": "√A バッドエンド9【疑われし者】"
+  "0016": {
+    "context": "000B8380",
+    "developer_comment": "√A Bad Ending #9 [The Doubted]",
+    "character_limit": 15,
+    "string": "√A バッドエンド9【疑われし者】"
   },
-  "000B835C": {
-    "Context": "000B835C",
-    "Code": null,
-    "Offset": "000B835C",
-    "DeveloperComment": "√A Bad Ending #10 [The Murderer]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド10【人を殺めし者】"
+  "0017": {
+    "context": "000B835C",
+    "developer_comment": "√A Bad Ending #10 [The Murderer]",
+    "character_limit": 17,
+    "string": "√A バッドエンド10【人を殺めし者】"
   },
-  "000B8338": {
-    "Context": "000B8338",
-    "Code": null,
-    "Offset": "000B8338",
-    "DeveloperComment": "√A Bad Ending #11 [The Despised]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド11【恨まれし者】"
+  "0018": {
+    "context": "000B8338",
+    "developer_comment": "√A Bad Ending #11 [The Despised]",
+    "character_limit": 17,
+    "string": "√A バッドエンド11【恨まれし者】"
   },
-  "000B8314": {
-    "Context": "000B8314",
-    "Code": null,
-    "Offset": "000B8314",
-    "DeveloperComment": "√A Bad Ending #12 [The Doubter]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド12【信じざる者】"
+  "0019": {
+    "context": "000B8314",
+    "developer_comment": "√A Bad Ending #12 [The Doubter]",
+    "character_limit": 17,
+    "string": "√A バッドエンド12【信じざる者】"
   },
-  "000B82F0": {
-    "Context": "000B82F0",
-    "Code": null,
-    "Offset": "000B82F0",
-    "DeveloperComment": "√A Bad Ending #13 [The Conceited]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド13【慢心せし者】"
+  "0020": {
+    "context": "000B82F0",
+    "developer_comment": "√A Bad Ending #13 [The Conceited]",
+    "character_limit": 17,
+    "string": "√A バッドエンド13【慢心せし者】"
   },
-  "000B82CC": {
-    "Context": "000B82CC",
-    "Code": null,
-    "Offset": "000B82CC",
-    "DeveloperComment": "√A Bad Ending #14 [The Deserter]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド14【見捨てし者】"
+  "0021": {
+    "context": "000B82CC",
+    "developer_comment": "√A Bad Ending #14 [The Deserter]",
+    "character_limit": 17,
+    "string": "√A バッドエンド14【見捨てし者】"
   },
-  "000B82A4": {
-    "Context": "000B82A4",
-    "Code": null,
-    "Offset": "000B82A4",
-    "DeveloperComment": "√A Bad Ending #15 [The Fainthearted]",
-    "CharacterLimit": 19,
-    "String": "√A バッドエンド15【弱気なる者】"
+  "0022": {
+    "context": "000B82A4",
+    "developer_comment": "√A Bad Ending #15 [The Fainthearted]",
+    "character_limit": 19,
+    "string": "√A バッドエンド15【弱気なる者】"
   },
-  "000B8280": {
-    "Context": "000B8280",
-    "Code": null,
-    "Offset": "000B8280",
-    "DeveloperComment": "√A Bad Ending #16 [The Terrified]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド16【恐れおののける者】"
+  "0023": {
+    "context": "000B8280",
+    "developer_comment": "√A Bad Ending #16 [The Terrified]",
+    "character_limit": 17,
+    "string": "√A バッドエンド16【恐れおののける者】"
   },
-  "000B825C": {
-    "Context": "000B825C",
-    "Code": null,
-    "Offset": "000B825C",
-    "DeveloperComment": "√A Bad Ending #17 [The Unknowing]",
-    "CharacterLimit": 17,
-    "String": "√A バッドエンド17【知恵なき者】"
+  "0024": {
+    "context": "000B825C",
+    "developer_comment": "√A Bad Ending #17 [The Unknowing]",
+    "character_limit": 17,
+    "string": "√A バッドエンド17【知恵なき者】"
   },
-  "000B8230": {
-    "Context": "000B8230",
-    "Code": null,
-    "Offset": "000B8230",
-    "DeveloperComment": "√A Normal Ending [Conclusion from Despair]",
-    "CharacterLimit": 21,
-    "String": "√A ノーマルエンド【絶望からの終局】"
+  "0025": {
+    "context": "000B8230",
+    "developer_comment": "√A Normal Ending [Conclusion from Despair]",
+    "character_limit": 21,
+    "string": "√A ノーマルエンド【絶望からの終局】"
   },
-  "000B8208": {
-    "Context": "000B8208",
-    "Code": null,
-    "Offset": "000B8208",
-    "DeveloperComment": "√A Good Ending [Awakening from Chaos]",
-    "CharacterLimit": 19,
-    "String": "√A グッドエンド【混沌からの覚醒】"
+  "0026": {
+    "context": "000B8208",
+    "developer_comment": "√A Good Ending [Awakening from Chaos]",
+    "character_limit": 19,
+    "string": "√A グッドエンド【混沌からの覚醒】"
   },
-  "000B81DC": {
-    "Context": "000B81DC",
-    "Code": null,
-    "Offset": "000B81DC",
-    "DeveloperComment": "√B Bad Ending #1 [The Nonbeliever's Fate]",
-    "CharacterLimit": 21,
-    "String": "√B バッドエンド1【信じぬ者の末路】"
+  "0027": {
+    "context": "000B81DC",
+    "developer_comment": "√B Bad Ending #1 [The Nonbeliever's Fate]",
+    "character_limit": 21,
+    "string": "√B バッドエンド1【信じぬ者の末路】"
   },
-  "000B81B0": {
-    "Context": "000B81B0",
-    "Code": null,
-    "Offset": "000B81B0",
-    "DeveloperComment": "√B Bad Ending #2 [The Unreceptive's Fate]",
-    "CharacterLimit": 21,
-    "String": "√B バッドエンド2【受け入れぬ者の末路】"
+  "0028": {
+    "context": "000B81B0",
+    "developer_comment": "√B Bad Ending #2 [The Unreceptive's Fate]",
+    "character_limit": 21,
+    "string": "√B バッドエンド2【受け入れぬ者の末路】"
   },
-  "000B8184": {
-    "Context": "000B8184",
-    "Code": null,
-    "Offset": "000B8184",
-    "DeveloperComment": "√B Bad Ending #3 [The Apathetic's Fate]",
-    "CharacterLimit": 21,
-    "String": "√B バッドエンド3【気遣わぬ者の末路】"
+  "0029": {
+    "context": "000B8184",
+    "developer_comment": "√B Bad Ending #3 [The Apathetic's Fate]",
+    "character_limit": 21,
+    "string": "√B バッドエンド3【気遣わぬ者の末路】"
   },
-  "000B8158": {
-    "Context": "000B8158",
-    "Code": null,
-    "Offset": "000B8158",
-    "DeveloperComment": "√B Bad Ending #4 [The Scapegoater's Fate]",
-    "CharacterLimit": 21,
-    "String": "√B バッドエンド4【他者を責めし者の末路】"
+  "0030": {
+    "context": "000B8158",
+    "developer_comment": "√B Bad Ending #4 [The Scapegoater's Fate]",
+    "character_limit": 21,
+    "string": "√B バッドエンド4【他者を責めし者の末路】"
   },
-  "000B812C": {
-    "Context": "000B812C",
-    "Code": null,
-    "Offset": "000B812C",
-    "DeveloperComment": "√B Good Ending [Demise by Annihilation]",
-    "CharacterLimit": 21,
-    "String": "√B グッドエンド【消滅からの終焉】"
+  "0031": {
+    "context": "000B812C",
+    "developer_comment": "√B Good Ending [Demise by Annihilation]",
+    "character_limit": 21,
+    "string": "√B グッドエンド【消滅からの終焉】"
   },
-  "000B80F8": {
-    "Context": "000B80F8",
-    "Code": null,
-    "Offset": "000B80F8",
-    "DeveloperComment": "√C Good Ending [Investigation through Recurrence]",
-    "CharacterLimit": 25,
-    "String": "√C グッドエンド【反復からの究明】"
+  "0032": {
+    "context": "000B80F8",
+    "developer_comment": "√C Good Ending [Investigation through Recurrence]",
+    "character_limit": 25,
+    "string": "√C グッドエンド【反復からの究明】"
   },
-  "000B80CC": {
-    "Context": "000B80CC",
-    "Code": null,
-    "Offset": "000B80CC",
-    "DeveloperComment": "√D Bad Ending #1 [The Erased Investigator]",
-    "CharacterLimit": 21,
-    "String": "√D バッドエンド1【抹消されし観察者】"
+  "0033": {
+    "context": "000B80CC",
+    "developer_comment": "√D Bad Ending #1 [The Erased Investigator]",
+    "character_limit": 21,
+    "string": "√D バッドエンド1【抹消されし観察者】"
   },
-  "000B80A0": {
-    "Context": "000B80A0",
-    "Code": null,
-    "Offset": "000B80A0",
-    "DeveloperComment": "√D Bad Ending #2 [The Hesitant Enthusiast]",
-    "CharacterLimit": 21,
-    "String": "√D バッドエンド2【逡巡せし情熱家】"
+  "0034": {
+    "context": "000B80A0",
+    "developer_comment": "√D Bad Ending #2 [The Hesitant Enthusiast]",
+    "character_limit": 21,
+    "string": "√D バッドエンド2【逡巡せし情熱家】"
   },
-  "000B8074": {
-    "Context": "000B8074",
-    "Code": null,
-    "Offset": "000B8074",
-    "DeveloperComment": "√D Bad Ending #3 [The Malicious Reformer]",
-    "CharacterLimit": 21,
-    "String": "√D バッドエンド3【悪意根深き批評家】"
+  "0035": {
+    "context": "000B8074",
+    "developer_comment": "√D Bad Ending #3 [The Malicious Reformer]",
+    "character_limit": 21,
+    "string": "√D バッドエンド3【悪意根深き批評家】"
   },
-  "000B8044": {
-    "Context": "000B8044",
-    "Code": null,
-    "Offset": "000B8044",
-    "DeveloperComment": "√D Bad Ending #4 [The Malicious Challenger]",
-    "CharacterLimit": 23,
-    "String": "√D バッドエンド4【悪意根深き挑戦者】"
+  "0036": {
+    "context": "000B8044",
+    "developer_comment": "√D Bad Ending #4 [The Malicious Challenger]",
+    "character_limit": 23,
+    "string": "√D バッドエンド4【悪意根深き挑戦者】"
   },
-  "000B8018": {
-    "Context": "000B8018",
-    "Code": null,
-    "Offset": "000B8018",
-    "DeveloperComment": "√D Bad Ending #5 [The Vanquished Loyalist]",
-    "CharacterLimit": 21,
-    "String": "√D バッドエンド5【抹消されし忠実家】"
+  "0037": {
+    "context": "000B8018",
+    "developer_comment": "√D Bad Ending #5 [The Vanquished Loyalist]",
+    "character_limit": 21,
+    "string": "√D バッドエンド5【抹消されし忠実家】"
   },
-  "000B7FEC": {
-    "Context": "000B7FEC",
-    "Code": null,
-    "Offset": "000B7FEC",
-    "DeveloperComment": "√D Bad Ending #6 [The Wavering Enthusiast]",
-    "CharacterLimit": 21,
-    "String": "√D バッドエンド6【断念せし情熱家】"
+  "0038": {
+    "context": "000B7FEC",
+    "developer_comment": "√D Bad Ending #6 [The Wavering Enthusiast]",
+    "character_limit": 21,
+    "string": "√D バッドエンド6【断念せし情熱家】"
   },
-  "000B7FC0": {
-    "Context": "000B7FC0",
-    "Code": null,
-    "Offset": "000B7FC0",
-    "DeveloperComment": "√D Normal Ending #1 [Guidance of Sirius]",
-    "CharacterLimit": 21,
-    "String": "√D ノーマルエンド1【天狼からの導き】"
+  "0039": {
+    "context": "000B7FC0",
+    "developer_comment": "√D Normal Ending #1 [Guidance of Sirius]",
+    "character_limit": 21,
+    "string": "√D ノーマルエンド1【天狼からの導き】"
   },
-  "000B7F90": {
-    "Context": "000B7F90",
-    "Code": null,
-    "Offset": "000B7F90",
-    "DeveloperComment": "√D Normal Ending #2 [Salvation from the Root]",
-    "CharacterLimit": 23,
-    "String": "√D ノーマルエンド2【根源からの救済】"
+  "0040": {
+    "context": "000B7F90",
+    "developer_comment": "√D Normal Ending #2 [Salvation from the Root]",
+    "character_limit": 23,
+    "string": "√D ノーマルエンド2【根源からの救済】"
   },
-  "000B7F54": {
-    "Context": "000B7F54",
-    "Code": null,
-    "Offset": "000B7F54",
-    "DeveloperComment": "√D Normal Ending #3 [Protected by the Bird-of-Paradise]",
-    "CharacterLimit": 29,
-    "String": "√D ノーマルエンド3【風鳥からの庇護】"
+  "0041": {
+    "context": "000B7F54",
+    "developer_comment": "√D Normal Ending #3 [Protected by the Bird-of-Paradise]",
+    "character_limit": 29,
+    "string": "√D ノーマルエンド3【風鳥からの庇護】"
   },
-  "000B7F20": {
-    "Context": "000B7F20",
-    "Code": null,
-    "Offset": "000B7F20",
-    "DeveloperComment": "√D Good Ending Before [Resurrection from Oblivion]",
-    "CharacterLimit": 25,
-    "String": "√D グッドエンドBefore【忘却からの蘇生】"
+  "0042": {
+    "context": "000B7F20",
+    "developer_comment": "√D Good Ending Before [Resurrection from Oblivion]",
+    "character_limit": 25,
+    "string": "√D グッドエンドBefore【忘却からの蘇生】"
   },
-  "000B7EEC": {
-    "Context": "000B7EEC",
-    "Code": null,
-    "Offset": "000B7EEC",
-    "DeveloperComment": "√D Good Ending AFTER [Replay from Forgetfulness]",
-    "CharacterLimit": 25,
-    "String": "√D グッドエンドアフター【忘失からの再生】"
+  "0043": {
+    "context": "000B7EEC",
+    "developer_comment": "√D Good Ending AFTER [Replay from Forgetfulness]",
+    "character_limit": 25,
+    "string": "√D グッドエンドアフター【忘失からの再生】"
   },
-  "000B7EB8": {
-    "Context": "000B7EB8",
-    "Code": null,
-    "Offset": "000B7EB8",
-    "DeveloperComment": "√D Good Ending BEFORE [Alliance from Compromise]",
-    "CharacterLimit": 25,
-    "String": "√D グッドエンドビフォー【和解からの盟約】"
+  "0044": {
+    "context": "000B7EB8",
+    "developer_comment": "√D Good Ending BEFORE [Alliance from Compromise]",
+    "character_limit": 25,
+    "string": "√D グッドエンドビフォー【和解からの盟約】"
   },
-  "000B7E88": {
-    "Context": "000B7E88",
-    "Code": null,
-    "Offset": "000B7E88",
-    "DeveloperComment": "√D Good Ending After [Successor from Regret]",
-    "CharacterLimit": 23,
-    "String": "√D グッドエンドAfter【失意からの継承】"
+  "0045": {
+    "context": "000B7E88",
+    "developer_comment": "√D Good Ending After [Successor from Regret]",
+    "character_limit": 23,
+    "string": "√D グッドエンドAfter【失意からの継承】"
   },
-  "000B7E60": {
-    "Context": "000B7E60",
-    "Code": null,
-    "Offset": "000B7E60",
-    "DeveloperComment": "√D True Ending [Ideals from Eternity]",
-    "CharacterLimit": 19,
-    "String": "√D トゥルーエンド【久遠からの想念】"
+  "0046": {
+    "context": "000B7E60",
+    "developer_comment": "√D True Ending [Ideals from Eternity]",
+    "character_limit": 19,
+    "string": "√D トゥルーエンド【久遠からの想念】"
   },
-  "000B7E3C": {
-    "Context": "000B7E3C",
-    "Code": null,
-    "Offset": "000B7E3C",
-    "DeveloperComment": "Your save data has been corrupted.",
-    "CharacterLimit": 17,
-    "String": "セーブデータが破損しています。"
+  "0047": {
+    "context": "000B7E3C",
+    "developer_comment": "Your save data has been corrupted.",
+    "character_limit": 17,
+    "string": "セーブデータが破損しています。"
   },
-  "000B7E20": {
-    "Context": "000B7E20",
-    "Code": null,
-    "Offset": "000B7E20",
-    "DeveloperComment": "Failed to load saved data.",
-    "CharacterLimit": 13,
-    "String": "セーブデータのロードに失敗しました。"
+  "0048": {
+    "context": "000B7E20",
+    "developer_comment": "Failed to load saved data.",
+    "character_limit": 13,
+    "string": "セーブデータのロードに失敗しました。"
   }
 }

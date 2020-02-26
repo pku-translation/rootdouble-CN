@@ -1,370 +1,278 @@
 {
-  "000B8C34": {
-    "Context": "000B8C34",
-    "Code": null,
-    "Offset": "000B8C34",
-    "DeveloperComment": "？？？？？？？？",
-    "CharacterLimit": 9,
-    "String": "？？？？？？？？"
+  "0000": {
+    "context": "000B8C34",
+    "developer_comment": "？？？？？？？？",
+    "character_limit": 9,
+    "string": "？？？？？？？？"
   },
-  "000B8C24": {
-    "Context": "000B8C24",
-    "Code": null,
-    "Offset": "000B8C24",
-    "DeveloperComment": "  No.%02d    %s",
-    "CharacterLimit": 7,
-    "String": "  No.%02d    %s"
+  "0001": {
+    "context": "000B8C24",
+    "developer_comment": "  No.%02d    %s",
+    "character_limit": 7,
+    "string": "  No.%02d    %s"
   },
-  "000B8C08": {
-    "Context": "000B8C08",
-    "Code": null,
-    "Offset": "000B8C08",
-    "DeveloperComment": "Peacemaker/Theme of Yuuri",
-    "CharacterLimit": 13,
-    "String": "Peacemaker／Theme of Yuuri"
+  "0002": {
+    "context": "000B8C08",
+    "developer_comment": "Peacemaker/Theme of Yuuri",
+    "character_limit": 13,
+    "string": "Peacemaker／Theme of Yuuri"
   },
-  "000B8BF0": {
-    "Context": "000B8BF0",
-    "Code": null,
-    "Offset": "000B8BF0",
-    "DeveloperComment": "Helper/Theme of Mashiro",
-    "CharacterLimit": 11,
-    "String": "Helper／Theme of Mashiro"
+  "0003": {
+    "context": "000B8BF0",
+    "developer_comment": "Helper/Theme of Mashiro",
+    "character_limit": 11,
+    "string": "Helper／Theme of Mashiro"
   },
-  "000B8BD0": {
-    "Context": "000B8BD0",
-    "Code": null,
-    "Offset": "000B8BD0",
-    "DeveloperComment": "Individualist/Theme of Louise",
-    "CharacterLimit": 15,
-    "String": "Individualist／Theme of Louise"
+  "0004": {
+    "context": "000B8BD0",
+    "developer_comment": "Individualist/Theme of Louise",
+    "character_limit": 15,
+    "string": "Individualist／Theme of Louise"
   },
-  "000B8BB8": {
-    "Context": "000B8BB8",
-    "Code": null,
-    "Offset": "000B8BB8",
-    "DeveloperComment": "Challenger/Theme of Jun",
-    "CharacterLimit": 11,
-    "String": "Challenger／Theme of Jun"
+  "0005": {
+    "context": "000B8BB8",
+    "developer_comment": "Challenger/Theme of Jun",
+    "character_limit": 11,
+    "string": "Challenger／Theme of Jun"
   },
-  "000B8B9C": {
-    "Context": "000B8B9C",
-    "Code": null,
-    "Offset": "000B8B9C",
-    "DeveloperComment": "Loyalist/Theme of Tachibana",
-    "CharacterLimit": 13,
-    "String": "Loyalist／Theme of Tachibana"
+  "0006": {
+    "context": "000B8B9C",
+    "developer_comment": "Loyalist/Theme of Tachibana",
+    "character_limit": 13,
+    "string": "Loyalist／Theme of Tachibana"
   },
-  "000B8B84": {
-    "Context": "000B8B84",
-    "Code": null,
-    "Offset": "000B8B84",
-    "DeveloperComment": "Achiever/Theme of Ena",
-    "CharacterLimit": 11,
-    "String": "Achiever／Theme of Ena"
+  "0007": {
+    "context": "000B8B84",
+    "developer_comment": "Achiever/Theme of Ena",
+    "character_limit": 11,
+    "string": "Achiever／Theme of Ena"
   },
-  "000B8B68": {
-    "Context": "000B8B68",
-    "Code": null,
-    "Offset": "000B8B68",
-    "DeveloperComment": "Quiet Days of Rokumei City",
-    "CharacterLimit": 13,
-    "String": "Quiet Days of Rokumei City"
+  "0008": {
+    "context": "000B8B68",
+    "developer_comment": "Quiet Days of Rokumei City",
+    "character_limit": 13,
+    "string": "Quiet Days of Rokumei City"
   },
-  "000B8B48": {
-    "Context": "000B8B48",
-    "Code": null,
-    "Offset": "000B8B48",
-    "DeveloperComment": "Languid Hours of Rokumei City",
-    "CharacterLimit": 15,
-    "String": "Languid Hours of Rokumei City"
+  "0009": {
+    "context": "000B8B48",
+    "developer_comment": "Languid Hours of Rokumei City",
+    "character_limit": 15,
+    "string": "Languid Hours of Rokumei City"
   },
-  "000B8B28": {
-    "Context": "000B8B28",
-    "Code": null,
-    "Offset": "000B8B28",
-    "DeveloperComment": "Anxious Times of Rokumei City",
-    "CharacterLimit": 15,
-    "String": "Anxious Time of Rokumei City"
+  "0010": {
+    "context": "000B8B28",
+    "developer_comment": "Anxious Times of Rokumei City",
+    "character_limit": 15,
+    "string": "Anxious Time of Rokumei City"
   },
-  "000B8B14": {
-    "Context": "000B8B14",
-    "Code": null,
-    "Offset": "000B8B14",
-    "DeveloperComment": "LABO Security Lv.1",
-    "CharacterLimit": 9,
-    "String": "LABO Security Lv.1"
+  "0011": {
+    "context": "000B8B14",
+    "developer_comment": "LABO Security Lv.1",
+    "character_limit": 9,
+    "string": "LABO Security Lv.1"
   },
-  "000B8B00": {
-    "Context": "000B8B00",
-    "Code": null,
-    "Offset": "000B8B00",
-    "DeveloperComment": "LABO Security Lv.2",
-    "CharacterLimit": 9,
-    "String": "LABO Security Lv.2"
+  "0012": {
+    "context": "000B8B00",
+    "developer_comment": "LABO Security Lv.2",
+    "character_limit": 9,
+    "string": "LABO Security Lv.2"
   },
-  "000B8AEC": {
-    "Context": "000B8AEC",
-    "Code": null,
-    "Offset": "000B8AEC",
-    "DeveloperComment": "LABO Security Lv.3",
-    "CharacterLimit": 9,
-    "String": "LABO Security Lv.3"
+  "0013": {
+    "context": "000B8AEC",
+    "developer_comment": "LABO Security Lv.3",
+    "character_limit": 9,
+    "string": "LABO Security Lv.3"
   },
-  "000B8ADC": {
-    "Context": "000B8ADC",
-    "Code": null,
-    "Offset": "000B8ADC",
-    "DeveloperComment": "Looming Crisis",
-    "CharacterLimit": 7,
-    "String": "Looming Crisis"
+  "0014": {
+    "context": "000B8ADC",
+    "developer_comment": "Looming Crisis",
+    "character_limit": 7,
+    "string": "Looming Crisis"
   },
-  "000B8AC8": {
-    "Context": "000B8AC8",
-    "Code": null,
-    "Offset": "000B8AC8",
-    "DeveloperComment": "Approaching Death",
-    "CharacterLimit": 9,
-    "String": "Approaching Death"
+  "0015": {
+    "context": "000B8AC8",
+    "developer_comment": "Approaching Death",
+    "character_limit": 9,
+    "string": "Approaching Death"
   },
-  "000B8AB0": {
-    "Context": "000B8AB0",
-    "Code": null,
-    "Offset": "000B8AB0",
-    "DeveloperComment": "Psychological Warfare",
-    "CharacterLimit": 11,
-    "String": "Psychological Warfare"
+  "0016": {
+    "context": "000B8AB0",
+    "developer_comment": "Psychological Warfare",
+    "character_limit": 11,
+    "string": "Psychological Warfare"
   },
-  "000B8A9C": {
-    "Context": "000B8A9C",
-    "Code": null,
-    "Offset": "000B8A9C",
-    "DeveloperComment": "Evil and Nightmares",
-    "CharacterLimit": 9,
-    "String": "Evil and Nightmares"
+  "0017": {
+    "context": "000B8A9C",
+    "developer_comment": "Evil and Nightmares",
+    "character_limit": 9,
+    "string": "Evil and Nightmares"
   },
-  "000B8A94": {
-    "Context": "000B8A94",
-    "Code": null,
-    "Offset": "000B8A94",
-    "DeveloperComment": "Abyss",
-    "CharacterLimit": 3,
-    "String": "Abyss"
+  "0018": {
+    "context": "000B8A94",
+    "developer_comment": "Abyss",
+    "character_limit": 3,
+    "string": "Abyss"
   },
-  "000B8A80": {
-    "Context": "000B8A80",
-    "Code": null,
-    "Offset": "000B8A80",
-    "DeveloperComment": "Family and Friends",
-    "CharacterLimit": 9,
-    "String": "Family and Friends"
+  "0019": {
+    "context": "000B8A80",
+    "developer_comment": "Family and Friends",
+    "character_limit": 9,
+    "string": "Family and Friends"
   },
-  "000B8A74": {
-    "Context": "000B8A74",
-    "Code": null,
-    "Offset": "000B8A74",
-    "DeveloperComment": "Foolishness",
-    "CharacterLimit": 5,
-    "String": "Zukkoke"
+  "0020": {
+    "context": "000B8A74",
+    "developer_comment": "Foolishness",
+    "character_limit": 5,
+    "string": "Zukkoke"
   },
-  "000B8A60": {
-    "Context": "000B8A60",
-    "Code": null,
-    "Offset": "000B8A60",
-    "DeveloperComment": "Words of Healing",
-    "CharacterLimit": 9,
-    "String": "Words of Healing"
+  "0021": {
+    "context": "000B8A60",
+    "developer_comment": "Words of Healing",
+    "character_limit": 9,
+    "string": "Words of Healing"
   },
-  "000B8A44": {
-    "Context": "000B8A44",
-    "Code": null,
-    "Offset": "000B8A44",
-    "DeveloperComment": "Extra-Sensory Perception",
-    "CharacterLimit": 13,
-    "String": "Extra-Sensory Perception"
+  "0022": {
+    "context": "000B8A44",
+    "developer_comment": "Extra-Sensory Perception",
+    "character_limit": 13,
+    "string": "Extra-Sensory Perception"
   },
-  "000B8A30": {
-    "Context": "000B8A30",
-    "Code": null,
-    "Offset": "000B8A30",
-    "DeveloperComment": "Close to the Truth",
-    "CharacterLimit": 9,
-    "String": "Close to the Truth"
+  "0023": {
+    "context": "000B8A30",
+    "developer_comment": "Close to the Truth",
+    "character_limit": 9,
+    "string": "Close to the Truth"
   },
-  "000B8A10": {
-    "Context": "000B8A10",
-    "Code": null,
-    "Offset": "000B8A10",
-    "DeveloperComment": "Pose the Question to this World",
-    "CharacterLimit": 15,
-    "String": "Pose the Question in this World"
+  "0024": {
+    "context": "000B8A10",
+    "developer_comment": "Pose the Question to this World",
+    "character_limit": 15,
+    "string": "Pose the Question in this World"
   },
-  "000B89F8": {
-    "Context": "000B89F8",
-    "Code": null,
-    "Offset": "000B89F8",
-    "DeveloperComment": "The Truth is Revealed",
-    "CharacterLimit": 11,
-    "String": "The Truth is Revealed"
+  "0025": {
+    "context": "000B89F8",
+    "developer_comment": "The Truth is Revealed",
+    "character_limit": 11,
+    "string": "The Truth is Revealed"
   },
-  "000B89E4": {
-    "Context": "000B89E4",
-    "Code": null,
-    "Offset": "000B89E4",
-    "DeveloperComment": "The Brave Decision",
-    "CharacterLimit": 9,
-    "String": "The Brave Decision"
+  "0026": {
+    "context": "000B89E4",
+    "developer_comment": "The Brave Decision",
+    "character_limit": 9,
+    "string": "The Brave Decision"
   },
-  "000B89D8": {
-    "Context": "000B89D8",
-    "Code": null,
-    "Offset": "000B89D8",
-    "DeveloperComment": "Convergence",
-    "CharacterLimit": 5,
-    "String": "Convergence"
+  "0027": {
+    "context": "000B89D8",
+    "developer_comment": "Convergence",
+    "character_limit": 5,
+    "string": "Convergence"
   },
-  "000B89C8": {
-    "Context": "000B89C8",
-    "Code": null,
-    "Offset": "000B89C8",
-    "DeveloperComment": "Memento Mori",
-    "CharacterLimit": 7,
-    "String": "Memento Mori"
+  "0028": {
+    "context": "000B89C8",
+    "developer_comment": "Memento Mori",
+    "character_limit": 7,
+    "string": "Memento Mori"
   },
-  "000B89B4": {
-    "Context": "000B89B4",
-    "Code": null,
-    "Offset": "000B89B4",
-    "DeveloperComment": "End of the Route",
-    "CharacterLimit": 9,
-    "String": "The End of Route"
+  "0029": {
+    "context": "000B89B4",
+    "developer_comment": "End of the Route",
+    "character_limit": 9,
+    "string": "The End of Route"
   },
-  "000B8994": {
-    "Context": "000B8994",
-    "Code": null,
-    "Offset": "000B8994",
-    "DeveloperComment": "Double Bible (Inst. Arrange)",
-    "CharacterLimit": 15,
-    "String": "Double Bible（Inst. Arrange）"
+  "0030": {
+    "context": "000B8994",
+    "developer_comment": "Double Bible (Inst. Arrange)",
+    "character_limit": 15,
+    "string": "Double Bible（Inst. Arrange）"
   },
-  "000B8974": {
-    "Context": "000B8974",
-    "Code": null,
-    "Offset": "000B8974",
-    "DeveloperComment": "Rondo Carrousel (Inst. Arrange)",
-    "CharacterLimit": 15,
-    "String": "Rondo Carrousel（Inst. Arrange）"
+  "0031": {
+    "context": "000B8974",
+    "developer_comment": "Rondo Carrousel (Inst. Arrange)",
+    "character_limit": 15,
+    "string": "Rondo Carrousel（Inst. Arrange）"
   },
-  "000B8958": {
-    "Context": "000B8958",
-    "Code": null,
-    "Offset": "000B8958",
-    "DeveloperComment": "Rondo Carrousel (Music Box)",
-    "CharacterLimit": 13,
-    "String": "Rondo Carrousel（Orgel）"
+  "0032": {
+    "context": "000B8958",
+    "developer_comment": "Rondo Carrousel (Music Box)",
+    "character_limit": 13,
+    "string": "Rondo Carrousel（Orgel）"
   },
-  "000B8944": {
-    "Context": "000B8944",
-    "Code": null,
-    "Offset": "000B8944",
-    "DeveloperComment": "平和な久米井路市",
-    "CharacterLimit": 9,
-    "String": "平和な久米井路市"
+  "0033": {
+    "context": "000B8944",
+    "developer_comment": "平和な久米井路市",
+    "character_limit": 9,
+    "string": "平和な久米井路市"
   },
-  "000B8934": {
-    "Context": "000B8934",
-    "Code": null,
-    "Offset": "000B8934",
-    "DeveloperComment": "忍び寄る不安",
-    "CharacterLimit": 7,
-    "String": "忍び寄る不安"
+  "0034": {
+    "context": "000B8934",
+    "developer_comment": "忍び寄る不安",
+    "character_limit": 7,
+    "string": "忍び寄る不安"
   },
-  "000B8924": {
-    "Context": "000B8924",
-    "Code": null,
-    "Offset": "000B8924",
-    "DeveloperComment": "賑やかな放課後",
-    "CharacterLimit": 7,
-    "String": "賑やかな放課後"
+  "0035": {
+    "context": "000B8924",
+    "developer_comment": "賑やかな放課後",
+    "character_limit": 7,
+    "string": "賑やかな放課後"
   },
-  "000B8914": {
-    "Context": "000B8914",
-    "Code": null,
-    "Offset": "000B8914",
-    "DeveloperComment": "コミィの戦い",
-    "CharacterLimit": 7,
-    "String": "コミィの戦い"
+  "0036": {
+    "context": "000B8914",
+    "developer_comment": "コミィの戦い",
+    "character_limit": 7,
+    "string": "コミィの戦い"
   },
-  "000B8900": {
-    "Context": "000B8900",
-    "Code": null,
-    "Offset": "000B8900",
-    "DeveloperComment": "コミィ、ピンチ！",
-    "CharacterLimit": 9,
-    "String": "コミィ、ピンチ！"
+  "0037": {
+    "context": "000B8900",
+    "developer_comment": "コミィ、ピンチ！",
+    "character_limit": 9,
+    "string": "コミィ、ピンチ！"
   },
-  "000B88F0": {
-    "Context": "000B88F0",
-    "Code": null,
-    "Offset": "000B88F0",
-    "DeveloperComment": "神秘なる能力",
-    "CharacterLimit": 7,
-    "String": "神秘なる能力"
+  "0038": {
+    "context": "000B88F0",
+    "developer_comment": "神秘なる能力",
+    "character_limit": 7,
+    "string": "神秘なる能力"
   },
-  "000B88E0": {
-    "Context": "000B88E0",
-    "Code": null,
-    "Offset": "000B88E0",
-    "DeveloperComment": "癒やされる心",
-    "CharacterLimit": 7,
-    "String": "癒やされる心"
+  "0039": {
+    "context": "000B88E0",
+    "developer_comment": "癒やされる心",
+    "character_limit": 7,
+    "string": "癒やされる心"
   },
-  "000B88C4": {
-    "Context": "000B88C4",
-    "Code": null,
-    "Offset": "000B88C4",
-    "DeveloperComment": "超能力少女ビヨンド・コミィ",
-    "CharacterLimit": 13,
-    "String": "超能力少女ビヨンド・コミィ"
+  "0040": {
+    "context": "000B88C4",
+    "developer_comment": "超能力少女ビヨンド・コミィ",
+    "character_limit": 13,
+    "string": "超能力少女ビヨンド・コミィ"
   },
-  "000B88B8": {
-    "Context": "000B88B8",
-    "Code": null,
-    "Offset": "000B88B8",
-    "DeveloperComment": "事件解決",
-    "CharacterLimit": 5,
-    "String": "事件解決"
+  "0041": {
+    "context": "000B88B8",
+    "developer_comment": "事件解決",
+    "character_limit": 5,
+    "string": "事件解決"
   },
-  "000B88A8": {
-    "Context": "000B88A8",
-    "Code": null,
-    "Offset": "000B88A8",
-    "DeveloperComment": "ところ変わって",
-    "CharacterLimit": 7,
-    "String": "ところ変わって"
+  "0042": {
+    "context": "000B88A8",
+    "developer_comment": "ところ変わって",
+    "character_limit": 7,
+    "string": "ところ変わって"
   },
-  "000B8898": {
-    "Context": "000B8898",
-    "Code": null,
-    "Offset": "000B8898",
-    "DeveloperComment": "Rondo Carrousel",
-    "CharacterLimit": 7,
-    "String": "Rondo Carrousel"
+  "0043": {
+    "context": "000B8898",
+    "developer_comment": "Rondo Carrousel",
+    "character_limit": 7,
+    "string": "Rondo Carrousel"
   },
-  "000B887C": {
-    "Context": "000B887C",
-    "Code": null,
-    "Offset": "000B887C",
-    "DeveloperComment": "Double Bible (Game Size)",
-    "CharacterLimit": 13,
-    "String": "Double Bible（Game Size）"
+  "0044": {
+    "context": "000B887C",
+    "developer_comment": "Double Bible (Game Size)",
+    "character_limit": 13,
+    "string": "Double Bible（Game Size）"
   },
-  "000B8864": {
-    "Context": "000B8864",
-    "Code": null,
-    "Offset": "000B8864",
-    "DeveloperComment": "ROUTE EXIT (Game Size)",
-    "CharacterLimit": 11,
-    "String": "ROUTE EXIT（Game Size）"
+  "0045": {
+    "context": "000B8864",
+    "developer_comment": "ROUTE EXIT (Game Size)",
+    "character_limit": 11,
+    "string": "ROUTE EXIT（Game Size）"
   }
 }

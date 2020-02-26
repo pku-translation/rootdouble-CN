@@ -4,7 +4,6 @@ namespace CsYetiTools.Transifex
     {
         public string Context { get; set; } = "";
         public string? Code { get; set; }
-        public string? Offset { get; set; }
         public string? DeveloperComment { get; set; } = null;
         public int? CharacterLimit { get; set; }
         public string String { get; set; } = "";

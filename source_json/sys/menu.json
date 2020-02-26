@@ -1,834 +1,626 @@
 {
-  "000C0594": {
-    "Context": "000C0594",
-    "Code": null,
-    "Offset": "000C0594",
-    "DeveloperComment": "？？？",
-    "CharacterLimit": 3,
-    "String": "？？？"
-  },
-  "000C056C": {
-    "Context": "000C056C",
-    "Code": null,
-    "Offset": "000C056C",
-    "DeveloperComment": "悪意に汚染された記憶が浄化されました。",
-    "CharacterLimit": 19,
-    "String": "悪意に汚染された記憶が浄化されました。"
-  },
-  "000C0550": {
-    "Context": "000C0550",
-    "Code": null,
-    "Offset": "000C0550",
-    "DeveloperComment": "新たな記憶が出現しました。",
-    "CharacterLimit": 13,
-    "String": "新たな記憶が出現しました。"
-  },
-  "000C0514": {
-    "Context": "000C0514",
-    "Code": null,
-    "Offset": "000C0514",
-    "DeveloperComment": "Cancel altered values and close the Senses input screen?",
-    "CharacterLimit": 29,
-    "String": "入力した値を破棄して、センシズの入力画面を終了しますか？"
-  },
-  "000C04D8": {
-    "Context": "000C04D8",
-    "Code": null,
-    "Offset": "000C04D8",
-    "DeveloperComment": "Are you sure you want to set your Senses at these values?",
-    "CharacterLimit": 29,
-    "String": "センシズの値を決定しますか？"
-  },
-  "000C0480": {
-    "Context": "000C0480",
-    "Code": null,
-    "Offset": "000C0480",
-    "DeveloperComment": "Once you set your values, you will not be able to change them until the next branch.",
-    "CharacterLimit": 43,
-    "String": "決定すると次のブランチまで決定を変更することができなくなります。"
-  },
-  "000C0470": {
-    "Context": "000C0470",
-    "Code": null,
-    "Offset": "000C0470",
-    "DeveloperComment": "Keiji Ukita",
-    "CharacterLimit": 7,
-    "String": "宇喜多佳司"
-  },
-  "000C0460": {
-    "Context": "000C0460",
-    "Code": null,
-    "Offset": "000C0460",
-    "DeveloperComment": "Mashiro Toba",
-    "CharacterLimit": 7,
-    "String": "鳥羽ましろ"
-  },
-  "000C044C": {
-    "Context": "000C044C",
-    "Code": null,
-    "Offset": "000C044C",
-    "DeveloperComment": "Natsuhiko Tenkawa",
-    "CharacterLimit": 9,
-    "String": "天川夏彦"
-  },
-  "000C0444": {
-    "Context": "000C0444",
-    "Code": null,
-    "Offset": "000C0444",
-    "DeveloperComment": "Decide",
-    "CharacterLimit": 3,
-    "String": "決定"
-  },
-  "000C0438": {
-    "Context": "000C0438",
-    "Code": null,
-    "Offset": "000C0438",
-    "DeveloperComment": "[Answer]",
-    "CharacterLimit": 5,
-    "String": "【Answer】"
-  },
-  "000C042C": {
-    "Context": "000C042C",
-    "Code": null,
-    "Offset": "000C042C",
-    "DeveloperComment": "[Answer 1]",
-    "CharacterLimit": 5,
-    "String": "【Answer 1】"
-  },
-  "000C0420": {
-    "Context": "000C0420",
-    "Code": null,
-    "Offset": "000C0420",
-    "DeveloperComment": "[Answer 2]",
-    "CharacterLimit": 5,
-    "String": "【Answer 2】"
-  },
-  "000C0414": {
-    "Context": "000C0414",
-    "Code": null,
-    "Offset": "000C0414",
-    "DeveloperComment": "[Answer 3]",
-    "CharacterLimit": 5,
-    "String": "【Answer 3】"
-  },
-  "000C0408": {
-    "Context": "000C0408",
-    "Code": null,
-    "Offset": "000C0408",
-    "DeveloperComment": "[Answer 4]",
-    "CharacterLimit": 5,
-    "String": "【Answer 4】"
-  },
-  "000C03FC": {
-    "Context": "000C03FC",
-    "Code": null,
-    "Offset": "000C03FC",
-    "DeveloperComment": "[Answer 5]",
-    "CharacterLimit": 5,
-    "String": "【Answer 5】"
-  },
-  "000C03F0": {
-    "Context": "000C03F0",
-    "Code": null,
-    "Offset": "000C03F0",
-    "DeveloperComment": "[Answer 6]",
-    "CharacterLimit": 5,
-    "String": "【Answer 6】"
-  },
-  "000C03E8": {
-    "Context": "000C03E8",
-    "Code": null,
-    "Offset": "000C03E8",
-    "DeveloperComment": "Return",
-    "CharacterLimit": 3,
-    "String": "戻る"
-  },
-  "000C03B0": {
-    "Context": "000C03B0",
-    "Code": null,
-    "Offset": "000C03B0",
-    "DeveloperComment": "The game will end and be returned to the title screen.",
-    "CharacterLimit": 27,
-    "String": "ゲームを終了してタイトル画面へ戻ります"
-  },
-  "000C0390": {
-    "Context": "000C0390",
-    "Code": null,
-    "Offset": "000C0390",
-    "DeveloperComment": "Any unsaved data will be lost.",
-    "CharacterLimit": 15,
-    "String": "セーブを行っていない場合、現在プレイ中のデータは失われます"
-  },
-  "000C035C": {
-    "Context": "000C035C",
-    "Code": null,
-    "Offset": "000C035C",
-    "DeveloperComment": "A quicksave of your current state will be made and ",
-    "CharacterLimit": 25,
-    "String": "現在の状態をクイックセーブして、選択した箇所から"
-  },
-  "000C031C": {
-    "Context": "000C031C",
-    "Code": null,
-    "Offset": "000C031C",
-    "DeveloperComment": "you will be returned to the line you have selected. Proceed?",
-    "CharacterLimit": 31,
-    "String": "再スタートします。よろしいですか？"
-  },
-  "000C0310": {
-    "Context": "000C0310",
-    "Code": null,
-    "Offset": "000C0310",
-    "DeveloperComment": "時間切れ",
-    "CharacterLimit": 5,
-    "String": "時間切れ"
-  },
-  "000C0300": {
-    "Context": "000C0300",
-    "Code": null,
-    "Offset": "000C0300",
-    "DeveloperComment": "Current AD: %d",
-    "CharacterLimit": 7,
-    "String": "ＡＤ所持数：%d"
-  },
-  "000C02F4": {
-    "Context": "000C02F4",
-    "Code": null,
-    "Offset": "000C02F4",
-    "DeveloperComment": "Chapter: ",
-    "CharacterLimit": 5,
-    "String": "チャプター："
-  },
-  "000C02F0": {
-    "Context": "000C02F0",
-    "Code": null,
-    "Offset": "000C02F0",
-    "DeveloperComment": "%s",
-    "CharacterLimit": 1,
-    "String": "%s"
-  },
-  "000C02E8": {
-    "Context": "000C02E8",
-    "Code": null,
-    "Offset": "000C02E8",
-    "DeveloperComment": "Scene: ",
-    "CharacterLimit": 3,
-    "String": "シーン　　："
-  },
-  "000C02D4": {
-    "Context": "000C02D4",
-    "Code": null,
-    "Offset": "000C02D4",
-    "DeveloperComment": "Scene: ----------",
-    "CharacterLimit": 9,
-    "String": "シーン　　：－－－－－－"
-  },
-  "000C02CC": {
-    "Context": "000C02CC",
-    "Code": null,
-    "Offset": "000C02CC",
-    "DeveloperComment": "♪: %s",
-    "CharacterLimit": 3,
-    "String": "♪：%s"
-  },
-  "000C02BC": {
-    "Context": "000C02BC",
-    "Code": null,
-    "Offset": "000C02BC",
-    "DeveloperComment": "♪: ----------",
-    "CharacterLimit": 7,
-    "String": "♪：－－－－－－"
-  },
-  "000C02A8": {
-    "Context": "000C02A8",
-    "Code": null,
-    "Offset": "000C02A8",
-    "DeveloperComment": "bk CodeCount = %d\n",
-    "CharacterLimit": 9,
-    "String": "bk CodeCount = %d"
-  },
-  "000C0294": {
-    "Context": "000C0294",
-    "Code": null,
-    "Offset": "000C0294",
-    "DeveloperComment": "sk CodeCount = %d\n",
-    "CharacterLimit": 9,
-    "String": "sk CodeCount = %d"
-  },
-  "000C0290": {
-    "Context": "000C0290",
-    "Code": null,
-    "Offset": "000C0290",
-    "DeveloperComment": "+3 ",
-    "CharacterLimit": 1,
-    "String": "＋３　"
-  },
-  "000C028C": {
-    "Context": "000C028C",
-    "Code": null,
-    "Offset": "000C028C",
-    "DeveloperComment": "+2 ",
-    "CharacterLimit": 1,
-    "String": "＋２　"
-  },
-  "000C0288": {
-    "Context": "000C0288",
-    "Code": null,
-    "Offset": "000C0288",
-    "DeveloperComment": "+1 ",
-    "CharacterLimit": 1,
-    "String": "＋１　"
-  },
-  "000C0284": {
-    "Context": "000C0284",
-    "Code": null,
-    "Offset": "000C0284",
-    "DeveloperComment": "-1 ",
-    "CharacterLimit": 1,
-    "String": "－１　"
-  },
-  "000C0280": {
-    "Context": "000C0280",
-    "Code": null,
-    "Offset": "000C0280",
-    "DeveloperComment": "-2 ",
-    "CharacterLimit": 1,
-    "String": "－２　"
-  },
-  "000C027C": {
-    "Context": "000C027C",
-    "Code": null,
-    "Offset": "000C027C",
-    "DeveloperComment": "-3 ",
-    "CharacterLimit": 1,
-    "String": "－３　"
-  },
-  "000C0274": {
-    "Context": "000C0274",
-    "Code": null,
-    "Offset": "000C0274",
-    "DeveloperComment": "Favor: ",
-    "CharacterLimit": 3,
-    "String": "好感度："
-  },
-  "000C0260": {
-    "Context": "000C0260",
-    "Code": null,
-    "Offset": "000C0260",
-    "DeveloperComment": "Senses input active",
-    "CharacterLimit": 9,
-    "String": "センシズ受付開始"
-  },
-  "000C023C": {
-    "Context": "000C023C",
-    "Code": null,
-    "Offset": "000C023C",
-    "DeveloperComment": "ERROR : GET_SYSTEM 使用回数 over\n",
-    "CharacterLimit": 17,
-    "String": "ERROR : GET_SYSTEM 使用回数 over"
-  },
-  "000C0234": {
-    "Context": "000C0234",
-    "Code": null,
-    "Offset": "000C0234",
-    "DeveloperComment": "シェラ",
-    "CharacterLimit": 3,
-    "String": "シェラ"
-  },
-  "000C022C": {
-    "Context": "000C022C",
-    "Code": null,
-    "Offset": "000C022C",
-    "DeveloperComment": "シェス",
-    "CharacterLimit": 3,
-    "String": "シェス"
-  },
-  "000C0228": {
-    "Context": "000C0228",
-    "Code": null,
-    "Offset": "000C0228",
-    "DeveloperComment": "《",
-    "CharacterLimit": 1,
-    "String": "《"
-  },
-  "000C0224": {
-    "Context": "000C0224",
-    "Code": null,
-    "Offset": "000C0224",
-    "DeveloperComment": "（",
-    "CharacterLimit": 1,
-    "String": "（"
-  },
-  "000C0220": {
-    "Context": "000C0220",
-    "Code": null,
-    "Offset": "000C0220",
-    "DeveloperComment": "%",
-    "CharacterLimit": 1,
-    "String": "サリュ"
-  },
-  "000C021C": {
-    "Context": "000C021C",
-    "Code": null,
-    "Offset": "000C021C",
-    "DeveloperComment": "\n",
-    "CharacterLimit": 1,
-    "String": "\n"
-  },
-  "000C020C": {
-    "Context": "000C020C",
-    "Code": null,
-    "Offset": "000C020C",
-    "DeveloperComment": "miss code : %d\n",
-    "CharacterLimit": 7,
-    "String": "miss code : %d\n"
-  },
-  "000C0200": {
-    "Context": "000C0200",
-    "Code": null,
-    "Offset": "000C0200",
-    "DeveloperComment": "　　　⑳",
-    "CharacterLimit": 5,
-    "String": "　　　⑳"
-  },
-  "000C01F8": {
-    "Context": "000C01F8",
-    "Code": null,
-    "Offset": "000C01F8",
-    "DeveloperComment": "SCENE: ",
-    "CharacterLimit": 3,
-    "String": "SCENE: "
-  },
-  "000C01F4": {
-    "Context": "000C01F4",
-    "Code": null,
-    "Offset": "000C01F4",
-    "DeveloperComment": "『",
-    "CharacterLimit": 1,
-    "String": "『"
-  },
-  "000C01EC": {
-    "Context": "000C01EC",
-    "Code": null,
-    "Offset": "000C01EC",
-    "DeveloperComment": "「「",
-    "CharacterLimit": 3,
-    "String": "「「"
-  },
-  "000C01D0": {
-    "Context": "000C01D0",
-    "Code": null,
-    "Offset": "000C01D0",
-    "DeveloperComment": "TIP [%s] has been added.",
-    "CharacterLimit": 13,
-    "String": "TIPS追加【%s】"
-  },
-  "000C01C8": {
-    "Context": "000C01C8",
-    "Code": null,
-    "Offset": "000C01C8",
-    "DeveloperComment": "Yuuri",
-    "CharacterLimit": 3,
-    "String": "悠里"
-  },
-  "000C01C0": {
-    "Context": "000C01C0",
-    "Code": null,
-    "Offset": "000C01C0",
-    "DeveloperComment": "Ukita",
-    "CharacterLimit": 3,
-    "String": "宇喜多"
-  },
-  "000C01B8": {
-    "Context": "000C01B8",
-    "Code": null,
-    "Offset": "000C01B8",
-    "DeveloperComment": "Mashiro",
-    "CharacterLimit": 3,
-    "String": "ましろ"
-  },
-  "000C01B4": {
-    "Context": "000C01B4",
-    "Code": null,
-    "Offset": "000C01B4",
-    "DeveloperComment": "Ena",
-    "CharacterLimit": 1,
-    "String": "恵那"
-  },
-  "000C01AC": {
-    "Context": "000C01AC",
-    "Code": null,
-    "Offset": "000C01AC",
-    "DeveloperComment": "Salyu",
-    "CharacterLimit": 3,
-    "String": "サリュ"
-  },
-  "000C01A4": {
-    "Context": "000C01A4",
-    "Code": null,
-    "Offset": "000C01A4",
-    "DeveloperComment": "Watase",
-    "CharacterLimit": 3,
-    "String": "渡瀬"
-  },
-  "000C019C": {
-    "Context": "000C019C",
-    "Code": null,
-    "Offset": "000C019C",
-    "DeveloperComment": "Kazami",
-    "CharacterLimit": 3,
-    "String": "風見"
-  },
-  "000C0190": {
-    "Context": "000C0190",
-    "Code": null,
-    "Offset": "000C0190",
-    "DeveloperComment": "Natsuhiko",
-    "CharacterLimit": 5,
-    "String": "夏彦"
-  },
-  "000C018C": {
-    "Context": "000C018C",
-    "Code": null,
-    "Offset": "000C018C",
-    "DeveloperComment": "Jun",
-    "CharacterLimit": 1,
-    "String": "洵"
-  },
-  "000C0124": {
-    "Context": "000C0124",
-    "Code": null,
-    "Offset": "000C0124",
-    "DeveloperComment": "Now Saving...",
-    "CharacterLimit": 7,
-    "String": "保存中…"
-  },
-  "000C0120": {
-    "Context": "000C0120",
-    "Code": null,
-    "Offset": "000C0120",
-    "DeveloperComment": "No",
-    "CharacterLimit": 1,
-    "String": "いいえ"
-  },
-  "000C0118": {
-    "Context": "000C0118",
-    "Code": null,
-    "Offset": "000C0118",
-    "DeveloperComment": "Yes / ",
-    "CharacterLimit": 3,
-    "String": "はい／"
-  },
-  "000C0114": {
-    "Context": "000C0114",
-    "Code": null,
-    "Offset": "000C0114",
-    "DeveloperComment": " / ",
-    "CharacterLimit": 1,
-    "String": "／"
-  },
-  "000C0110": {
-    "Context": "000C0110",
-    "Code": null,
-    "Offset": "000C0110",
-    "DeveloperComment": "Yes",
-    "CharacterLimit": 1,
-    "String": "はい"
-  },
-  "000C0104": {
-    "Context": "000C0104",
-    "Code": null,
-    "Offset": "000C0104",
-    "DeveloperComment": "Yes / No",
-    "CharacterLimit": 5,
-    "String": "はい／いいえ"
-  },
-  "000C00E4": {
-    "Context": "000C00E4",
-    "Code": null,
-    "Offset": "000C00E4",
-    "DeveloperComment": "%02d/%02d/%04d %02d:%02d:%02d",
-    "CharacterLimit": 15,
-    "String": "%02d/%02d/%04d %02d:%02d:%02d"
-  },
-  "000C00D4": {
-    "Context": "000C00D4",
-    "Code": null,
-    "Offset": "000C00D4",
-    "DeveloperComment": "%03d: NO DATA ",
-    "CharacterLimit": 7,
-    "String": "%03d: NO DATA "
-  },
-  "000C00CC": {
-    "Context": "000C00CC",
-    "Code": null,
-    "Offset": "000C00CC",
-    "DeveloperComment": "%03d:",
-    "CharacterLimit": 3,
-    "String": "%03d:"
-  },
-  "000C00B0": {
-    "Context": "000C00B0",
-    "Code": null,
-    "Offset": "000C00B0",
-    "DeveloperComment": "%02d/%02d/%04d %02d:%02d",
-    "CharacterLimit": 13,
-    "String": "%02d/%02d/%04d %02d:%02d"
-  },
-  "000C00A0": {
-    "Context": "000C00A0",
-    "Code": null,
-    "Offset": "000C00A0",
-    "DeveloperComment": "－－－－－－",
-    "CharacterLimit": 7,
-    "String": "－－－－－－"
-  },
-  "000C0084": {
-    "Context": "000C0084",
-    "Code": null,
-    "Offset": "000C0084",
-    "DeveloperComment": "Senses Sympathy Tutorial",
-    "CharacterLimit": 13,
-    "String": "センシズシンパシー チュートリアル"
-  },
-  "000BD7B8": {
-    "Context": "000BD7B8",
-    "Code": null,
-    "Offset": "000BD7B8",
-    "DeveloperComment": "Your memory storage media does not have enough free space.",
-    "CharacterLimit": 29,
-    "String": "記録メディアの空き容量が不足しています。"
-  },
-  "000BD78C": {
-    "Context": "000BD78C",
-    "Code": null,
-    "Offset": "000BD78C",
-    "DeveloperComment": "To save, you need over %s of free space.",
-    "CharacterLimit": 21,
-    "String": "セーブするには%s以上の空き容量が必要です。"
-  },
-  "000BD764": {
-    "Context": "000BD764",
-    "Code": null,
-    "Offset": "000BD764",
-    "DeveloperComment": "Would you still like to start the game?",
-    "CharacterLimit": 19,
-    "String": "ゲームを開始してもよろしいですか？"
-  },
-  "000BD748": {
-    "Context": "000BD748",
-    "Code": null,
-    "Offset": "000BD748",
-    "DeveloperComment": "No memory stick inserted.",
-    "CharacterLimit": 13,
-    "String": "メモリースティックが挿入されていません。"
-  },
-  "000BD714": {
-    "Context": "000BD714",
-    "Code": null,
-    "Offset": "000BD714",
-    "DeveloperComment": "There is a possibility your save data is damaged.",
-    "CharacterLimit": 25,
-    "String": "セーブデータが破損している可能性があります。"
-  },
-  "000BD6EC": {
-    "Context": "000BD6EC",
-    "Code": null,
-    "Offset": "000BD6EC",
-    "DeveloperComment": "Would you like to check one more time?",
-    "CharacterLimit": 19,
-    "String": "もう一度チェックしますか？"
-  },
-  "000BD6D4": {
-    "Context": "000BD6D4",
-    "Code": null,
-    "Offset": "000BD6D4",
-    "DeveloperComment": "There is no save data",
-    "CharacterLimit": 11,
-    "String": "セーブデータがありません。"
-  },
-  "000BD6C0": {
-    "Context": "000BD6C0",
-    "Code": null,
-    "Offset": "000BD6C0",
-    "DeveloperComment": "in [\"TITLE_NAME\"].",
-    "CharacterLimit": 9,
-    "String": "「\"TITLE_NAME L\"」の"
-  },
-  "000BD670": {
-    "Context": "000BD670",
-    "Code": null,
-    "Offset": "000BD670",
-    "DeveloperComment": "To save, you need over %s of free space.Would you like to check one more time?",
-    "CharacterLimit": 39,
-    "String": "セーブするには%s以上の空き容量が必要です。もう一度チェックしますか？"
-  },
-  "000BD644": {
-    "Context": "000BD644",
-    "Code": null,
-    "Offset": "000BD644",
-    "DeveloperComment": "Since your save data list cannot be read,",
-    "CharacterLimit": 21,
-    "String": "このままセーブを行うと破損データに上書きすることになりますが、"
-  },
-  "000BD608": {
-    "Context": "000BD608",
-    "Code": null,
-    "Offset": "000BD608",
-    "DeveloperComment": "your damaged data will be overwritten if you save. Proceed?",
-    "CharacterLimit": 29,
-    "String": "よろしいですか？"
-  },
-  "000BD5F4": {
-    "Context": "000BD5F4",
-    "Code": null,
-    "Offset": "000BD5F4",
-    "DeveloperComment": "Save system data?",
-    "CharacterLimit": 9,
-    "String": "システムデータをセーブしますか？"
-  },
-  "000BD5D4": {
-    "Context": "000BD5D4",
-    "Code": null,
-    "Offset": "000BD5D4",
-    "DeveloperComment": "Processing has been suspended.",
-    "CharacterLimit": 15,
-    "String": "処理が中断されました。"
-  },
-  "000BD5C0": {
-    "Context": "000BD5C0",
-    "Code": null,
-    "Offset": "000BD5C0",
-    "DeveloperComment": "Load system data?",
-    "CharacterLimit": 9,
-    "String": "システムデータをロードしますか？"
-  },
-  "000BD5AC": {
-    "Context": "000BD5AC",
-    "Code": null,
-    "Offset": "000BD5AC",
-    "DeveloperComment": "System data loaded.",
-    "CharacterLimit": 9,
-    "String": "システムデータをロードしました。"
-  },
-  "000BD578": {
-    "Context": "000BD578",
-    "Code": null,
-    "Offset": "000BD578",
-    "DeveloperComment": "Data cannot be saved because you are not signed in.",
-    "CharacterLimit": 25,
-    "String": "サインインされていないため、セーブを行うことは出来ません。"
-  },
-  "000BD548": {
-    "Context": "000BD548",
-    "Code": null,
-    "Offset": "000BD548",
-    "DeveloperComment": "Please sign in so that the data can be saved.",
-    "CharacterLimit": 23,
-    "String": "セーブを行うには、サインインを行ってください。"
-  },
-  "000BD518": {
-    "Context": "000BD518",
-    "Code": null,
-    "Offset": "000BD518",
-    "DeveloperComment": "Please sign in so that the data can be loaded.",
-    "CharacterLimit": 23,
-    "String": "ロードを行うには、サインインを行ってください。"
-  },
-  "000BD4D8": {
-    "Context": "000BD4D8",
-    "Code": null,
-    "Offset": "000BD4D8",
-    "DeveloperComment": "Since a storage device has not been chosen, you cannot save.",
-    "CharacterLimit": 31,
-    "String": "ストレージデバイスが選択されていないため、セーブを行うことは出来ません。"
-  },
-  "000BD498": {
-    "Context": "000BD498",
-    "Code": null,
-    "Offset": "000BD498",
-    "DeveloperComment": "To save, please restart the game and select a storage device.",
-    "CharacterLimit": 31,
-    "String": "セーブを行うには、ゲームを再起動してストレージデバイスを選択してください。"
-  },
-  "000BD458": {
-    "Context": "000BD458",
-    "Code": null,
-    "Offset": "000BD458",
-    "DeveloperComment": "Since a storage device has not been chosen, you cannot load.",
-    "CharacterLimit": 31,
-    "String": "ストレージデバイスが選択されていないため、ロードを行うことは出来ません。"
-  },
-  "000BD418": {
-    "Context": "000BD418",
-    "Code": null,
-    "Offset": "000BD418",
-    "DeveloperComment": "To load, please restart the game and select a storage device.",
-    "CharacterLimit": 31,
-    "String": "ロードを行うには、ゲームを再起動してストレージデバイスを選択してください。"
-  },
-  "000BD3E4": {
-    "Context": "000BD3E4",
-    "Code": null,
-    "Offset": "000BD3E4",
-    "DeveloperComment": "Would you like to proceed with data overwriting?",
-    "CharacterLimit": 25,
-    "String": "データを上書きしてもよろしいですか？"
-  },
-  "000BD3CC": {
-    "Context": "000BD3CC",
-    "Code": null,
-    "Offset": "000BD3CC",
-    "DeveloperComment": "Failed to save data.",
-    "CharacterLimit": 11,
-    "String": "データのセーブに失敗しました。"
-  },
-  "000BD3A8": {
-    "Context": "000BD3A8",
-    "Code": null,
-    "Offset": "000BD3A8",
-    "DeveloperComment": "Please try saving one more time.",
-    "CharacterLimit": 17,
-    "String": "もう一度セーブを行ってください。"
-  },
-  "000BD390": {
-    "Context": "000BD390",
-    "Code": null,
-    "Offset": "000BD390",
-    "DeveloperComment": "Save data is damaged.",
-    "CharacterLimit": 11,
-    "String": "セーブデータが破損しています。"
-  },
-  "000BD374": {
-    "Context": "000BD374",
-    "Code": null,
-    "Offset": "000BD374",
-    "DeveloperComment": "Failed to load save data.",
-    "CharacterLimit": 13,
-    "String": "セーブデータのロードに失敗しました。"
-  },
-  "000BD364": {
-    "Context": "000BD364",
-    "Code": null,
-    "Offset": "000BD364",
-    "DeveloperComment": "Loading data.",
-    "CharacterLimit": 7,
-    "String": "データをロードします。"
-  },
-  "000BD334": {
-    "Context": "000BD334",
-    "Code": null,
-    "Offset": "000BD334",
-    "DeveloperComment": "Any unsaved data will be lost at this point.",
-    "CharacterLimit": 23,
-    "String": "セーブを行っていない場合、現在プレイ中のデータは失われます。"
-  },
-  "000BD328": {
-    "Context": "000BD328",
-    "Code": null,
-    "Offset": "000BD328",
-    "DeveloperComment": "Proceed?",
-    "CharacterLimit": 5,
-    "String": "よろしいですか？"
+  "0000": {
+    "context": "000C0594",
+    "developer_comment": "？？？",
+    "character_limit": 3,
+    "string": "？？？"
+  },
+  "0001": {
+    "context": "000C056C",
+    "developer_comment": "悪意に汚染された記憶が浄化されました。",
+    "character_limit": 19,
+    "string": "悪意に汚染された記憶が浄化されました。"
+  },
+  "0002": {
+    "context": "000C0550",
+    "developer_comment": "新たな記憶が出現しました。",
+    "character_limit": 13,
+    "string": "新たな記憶が出現しました。"
+  },
+  "0003": {
+    "context": "000C0514",
+    "developer_comment": "Cancel altered values and close the Senses input screen?",
+    "character_limit": 29,
+    "string": "入力した値を破棄して、センシズの入力画面を終了しますか？"
+  },
+  "0004": {
+    "context": "000C04D8",
+    "developer_comment": "Are you sure you want to set your Senses at these values?",
+    "character_limit": 29,
+    "string": "センシズの値を決定しますか？"
+  },
+  "0005": {
+    "context": "000C0480",
+    "developer_comment": "Once you set your values, you will not be able to change them until the next branch.",
+    "character_limit": 43,
+    "string": "決定すると次のブランチまで決定を変更することができなくなります。"
+  },
+  "0006": {
+    "context": "000C0470",
+    "developer_comment": "Keiji Ukita",
+    "character_limit": 7,
+    "string": "宇喜多佳司"
+  },
+  "0007": {
+    "context": "000C0460",
+    "developer_comment": "Mashiro Toba",
+    "character_limit": 7,
+    "string": "鳥羽ましろ"
+  },
+  "0008": {
+    "context": "000C044C",
+    "developer_comment": "Natsuhiko Tenkawa",
+    "character_limit": 9,
+    "string": "天川夏彦"
+  },
+  "0009": {
+    "context": "000C0444",
+    "developer_comment": "Decide",
+    "character_limit": 3,
+    "string": "決定"
+  },
+  "0010": {
+    "context": "000C0438",
+    "developer_comment": "[Answer]",
+    "character_limit": 5,
+    "string": "【Answer】"
+  },
+  "0011": {
+    "context": "000C042C",
+    "developer_comment": "[Answer 1]",
+    "character_limit": 5,
+    "string": "【Answer 1】"
+  },
+  "0012": {
+    "context": "000C0420",
+    "developer_comment": "[Answer 2]",
+    "character_limit": 5,
+    "string": "【Answer 2】"
+  },
+  "0013": {
+    "context": "000C0414",
+    "developer_comment": "[Answer 3]",
+    "character_limit": 5,
+    "string": "【Answer 3】"
+  },
+  "0014": {
+    "context": "000C0408",
+    "developer_comment": "[Answer 4]",
+    "character_limit": 5,
+    "string": "【Answer 4】"
+  },
+  "0015": {
+    "context": "000C03FC",
+    "developer_comment": "[Answer 5]",
+    "character_limit": 5,
+    "string": "【Answer 5】"
+  },
+  "0016": {
+    "context": "000C03F0",
+    "developer_comment": "[Answer 6]",
+    "character_limit": 5,
+    "string": "【Answer 6】"
+  },
+  "0017": {
+    "context": "000C03E8",
+    "developer_comment": "Return",
+    "character_limit": 3,
+    "string": "戻る"
+  },
+  "0018": {
+    "context": "000C03B0",
+    "developer_comment": "The game will end and be returned to the title screen.",
+    "character_limit": 27,
+    "string": "ゲームを終了してタイトル画面へ戻ります"
+  },
+  "0019": {
+    "context": "000C0390",
+    "developer_comment": "Any unsaved data will be lost.",
+    "character_limit": 15,
+    "string": "セーブを行っていない場合、現在プレイ中のデータは失われます"
+  },
+  "0020": {
+    "context": "000C035C",
+    "developer_comment": "A quicksave of your current state will be made and ",
+    "character_limit": 25,
+    "string": "現在の状態をクイックセーブして、選択した箇所から"
+  },
+  "0021": {
+    "context": "000C031C",
+    "developer_comment": "you will be returned to the line you have selected. Proceed?",
+    "character_limit": 31,
+    "string": "再スタートします。よろしいですか？"
+  },
+  "0022": {
+    "context": "000C0310",
+    "developer_comment": "時間切れ",
+    "character_limit": 5,
+    "string": "時間切れ"
+  },
+  "0023": {
+    "context": "000C0300",
+    "developer_comment": "Current AD: %d",
+    "character_limit": 7,
+    "string": "ＡＤ所持数：%d"
+  },
+  "0024": {
+    "context": "000C02F4",
+    "developer_comment": "Chapter: ",
+    "character_limit": 5,
+    "string": "チャプター："
+  },
+  "0025": {
+    "context": "000C02F0",
+    "developer_comment": "%s",
+    "character_limit": 1,
+    "string": "%s"
+  },
+  "0026": {
+    "context": "000C02E8",
+    "developer_comment": "Scene: ",
+    "character_limit": 3,
+    "string": "シーン　　："
+  },
+  "0027": {
+    "context": "000C02D4",
+    "developer_comment": "Scene: ----------",
+    "character_limit": 9,
+    "string": "シーン　　：－－－－－－"
+  },
+  "0028": {
+    "context": "000C02CC",
+    "developer_comment": "♪: %s",
+    "character_limit": 3,
+    "string": "♪：%s"
+  },
+  "0029": {
+    "context": "000C02BC",
+    "developer_comment": "♪: ----------",
+    "character_limit": 7,
+    "string": "♪：－－－－－－"
+  },
+  "0030": {
+    "context": "000C02A8",
+    "developer_comment": "bk CodeCount = %d\n",
+    "character_limit": 9,
+    "string": "bk CodeCount = %d"
+  },
+  "0031": {
+    "context": "000C0294",
+    "developer_comment": "sk CodeCount = %d\n",
+    "character_limit": 9,
+    "string": "sk CodeCount = %d"
+  },
+  "0032": {
+    "context": "000C0290",
+    "developer_comment": "+3 ",
+    "character_limit": 1,
+    "string": "＋３　"
+  },
+  "0033": {
+    "context": "000C028C",
+    "developer_comment": "+2 ",
+    "character_limit": 1,
+    "string": "＋２　"
+  },
+  "0034": {
+    "context": "000C0288",
+    "developer_comment": "+1 ",
+    "character_limit": 1,
+    "string": "＋１　"
+  },
+  "0035": {
+    "context": "000C0284",
+    "developer_comment": "-1 ",
+    "character_limit": 1,
+    "string": "－１　"
+  },
+  "0036": {
+    "context": "000C0280",
+    "developer_comment": "-2 ",
+    "character_limit": 1,
+    "string": "－２　"
+  },
+  "0037": {
+    "context": "000C027C",
+    "developer_comment": "-3 ",
+    "character_limit": 1,
+    "string": "－３　"
+  },
+  "0038": {
+    "context": "000C0274",
+    "developer_comment": "Favor: ",
+    "character_limit": 3,
+    "string": "好感度："
+  },
+  "0039": {
+    "context": "000C0260",
+    "developer_comment": "Senses input active",
+    "character_limit": 9,
+    "string": "センシズ受付開始"
+  },
+  "0040": {
+    "context": "000C023C",
+    "developer_comment": "ERROR : GET_SYSTEM 使用回数 over\n",
+    "character_limit": 17,
+    "string": "ERROR : GET_SYSTEM 使用回数 over"
+  },
+  "0041": {
+    "context": "000C0234",
+    "developer_comment": "シェラ",
+    "character_limit": 3,
+    "string": "シェラ"
+  },
+  "0042": {
+    "context": "000C022C",
+    "developer_comment": "シェス",
+    "character_limit": 3,
+    "string": "シェス"
+  },
+  "0043": {
+    "context": "000C0228",
+    "developer_comment": "《",
+    "character_limit": 1,
+    "string": "《"
+  },
+  "0044": {
+    "context": "000C0224",
+    "developer_comment": "（",
+    "character_limit": 1,
+    "string": "（"
+  },
+  "0045": {
+    "context": "000C0220",
+    "developer_comment": "%",
+    "character_limit": 1,
+    "string": "サリュ"
+  },
+  "0046": {
+    "context": "000C021C",
+    "developer_comment": "\n",
+    "character_limit": 1,
+    "string": "\n"
+  },
+  "0047": {
+    "context": "000C020C",
+    "developer_comment": "miss code : %d\n",
+    "character_limit": 7,
+    "string": "miss code : %d\n"
+  },
+  "0048": {
+    "context": "000C0200",
+    "developer_comment": "　　　⑳",
+    "character_limit": 5,
+    "string": "　　　⑳"
+  },
+  "0049": {
+    "context": "000C01F8",
+    "developer_comment": "SCENE: ",
+    "character_limit": 3,
+    "string": "SCENE: "
+  },
+  "0050": {
+    "context": "000C01F4",
+    "developer_comment": "『",
+    "character_limit": 1,
+    "string": "『"
+  },
+  "0051": {
+    "context": "000C01EC",
+    "developer_comment": "「「",
+    "character_limit": 3,
+    "string": "「「"
+  },
+  "0052": {
+    "context": "000C01D0",
+    "developer_comment": "TIP [%s] has been added.",
+    "character_limit": 13,
+    "string": "TIPS追加【%s】"
+  },
+  "0053": {
+    "context": "000C01C8",
+    "developer_comment": "Yuuri",
+    "character_limit": 3,
+    "string": "悠里"
+  },
+  "0054": {
+    "context": "000C01C0",
+    "developer_comment": "Ukita",
+    "character_limit": 3,
+    "string": "宇喜多"
+  },
+  "0055": {
+    "context": "000C01B8",
+    "developer_comment": "Mashiro",
+    "character_limit": 3,
+    "string": "ましろ"
+  },
+  "0056": {
+    "context": "000C01B4",
+    "developer_comment": "Ena",
+    "character_limit": 1,
+    "string": "恵那"
+  },
+  "0057": {
+    "context": "000C01AC",
+    "developer_comment": "Salyu",
+    "character_limit": 3,
+    "string": "サリュ"
+  },
+  "0058": {
+    "context": "000C01A4",
+    "developer_comment": "Watase",
+    "character_limit": 3,
+    "string": "渡瀬"
+  },
+  "0059": {
+    "context": "000C019C",
+    "developer_comment": "Kazami",
+    "character_limit": 3,
+    "string": "風見"
+  },
+  "0060": {
+    "context": "000C0190",
+    "developer_comment": "Natsuhiko",
+    "character_limit": 5,
+    "string": "夏彦"
+  },
+  "0061": {
+    "context": "000C018C",
+    "developer_comment": "Jun",
+    "character_limit": 1,
+    "string": "洵"
+  },
+  "0062": {
+    "context": "000C0124",
+    "developer_comment": "Now Saving...",
+    "character_limit": 7,
+    "string": "保存中…"
+  },
+  "0063": {
+    "context": "000C0120",
+    "developer_comment": "No",
+    "character_limit": 1,
+    "string": "いいえ"
+  },
+  "0064": {
+    "context": "000C0118",
+    "developer_comment": "Yes / ",
+    "character_limit": 3,
+    "string": "はい／"
+  },
+  "0065": {
+    "context": "000C0114",
+    "developer_comment": " / ",
+    "character_limit": 1,
+    "string": "／"
+  },
+  "0066": {
+    "context": "000C0110",
+    "developer_comment": "Yes",
+    "character_limit": 1,
+    "string": "はい"
+  },
+  "0067": {
+    "context": "000C0104",
+    "developer_comment": "Yes / No",
+    "character_limit": 5,
+    "string": "はい／いいえ"
+  },
+  "0068": {
+    "context": "000C00E4",
+    "developer_comment": "%02d/%02d/%04d %02d:%02d:%02d",
+    "character_limit": 15,
+    "string": "%02d/%02d/%04d %02d:%02d:%02d"
+  },
+  "0069": {
+    "context": "000C00D4",
+    "developer_comment": "%03d: NO DATA ",
+    "character_limit": 7,
+    "string": "%03d: NO DATA "
+  },
+  "0070": {
+    "context": "000C00CC",
+    "developer_comment": "%03d:",
+    "character_limit": 3,
+    "string": "%03d:"
+  },
+  "0071": {
+    "context": "000C00B0",
+    "developer_comment": "%02d/%02d/%04d %02d:%02d",
+    "character_limit": 13,
+    "string": "%02d/%02d/%04d %02d:%02d"
+  },
+  "0072": {
+    "context": "000C00A0",
+    "developer_comment": "－－－－－－",
+    "character_limit": 7,
+    "string": "－－－－－－"
+  },
+  "0073": {
+    "context": "000C0084",
+    "developer_comment": "Senses Sympathy Tutorial",
+    "character_limit": 13,
+    "string": "センシズシンパシー チュートリアル"
+  },
+  "0074": {
+    "context": "000BD7B8",
+    "developer_comment": "Your memory storage media does not have enough free space.",
+    "character_limit": 29,
+    "string": "記録メディアの空き容量が不足しています。"
+  },
+  "0075": {
+    "context": "000BD78C",
+    "developer_comment": "To save, you need over %s of free space.",
+    "character_limit": 21,
+    "string": "セーブするには%s以上の空き容量が必要です。"
+  },
+  "0076": {
+    "context": "000BD764",
+    "developer_comment": "Would you still like to start the game?",
+    "character_limit": 19,
+    "string": "ゲームを開始してもよろしいですか？"
+  },
+  "0077": {
+    "context": "000BD748",
+    "developer_comment": "No memory stick inserted.",
+    "character_limit": 13,
+    "string": "メモリースティックが挿入されていません。"
+  },
+  "0078": {
+    "context": "000BD714",
+    "developer_comment": "There is a possibility your save data is damaged.",
+    "character_limit": 25,
+    "string": "セーブデータが破損している可能性があります。"
+  },
+  "0079": {
+    "context": "000BD6EC",
+    "developer_comment": "Would you like to check one more time?",
+    "character_limit": 19,
+    "string": "もう一度チェックしますか？"
+  },
+  "0080": {
+    "context": "000BD6D4",
+    "developer_comment": "There is no save data",
+    "character_limit": 11,
+    "string": "セーブデータがありません。"
+  },
+  "0081": {
+    "context": "000BD6C0",
+    "developer_comment": "in [\"TITLE_NAME\"].",
+    "character_limit": 9,
+    "string": "「\"TITLE_NAME L\"」の"
+  },
+  "0082": {
+    "context": "000BD670",
+    "developer_comment": "To save, you need over %s of free space.Would you like to check one more time?",
+    "character_limit": 39,
+    "string": "セーブするには%s以上の空き容量が必要です。もう一度チェックしますか？"
+  },
+  "0083": {
+    "context": "000BD644",
+    "developer_comment": "Since your save data list cannot be read,",
+    "character_limit": 21,
+    "string": "このままセーブを行うと破損データに上書きすることになりますが、"
+  },
+  "0084": {
+    "context": "000BD608",
+    "developer_comment": "your damaged data will be overwritten if you save. Proceed?",
+    "character_limit": 29,
+    "string": "よろしいですか？"
+  },
+  "0085": {
+    "context": "000BD5F4",
+    "developer_comment": "Save system data?",
+    "character_limit": 9,
+    "string": "システムデータをセーブしますか？"
+  },
+  "0086": {
+    "context": "000BD5D4",
+    "developer_comment": "Processing has been suspended.",
+    "character_limit": 15,
+    "string": "処理が中断されました。"
+  },
+  "0087": {
+    "context": "000BD5C0",
+    "developer_comment": "Load system data?",
+    "character_limit": 9,
+    "string": "システムデータをロードしますか？"
+  },
+  "0088": {
+    "context": "000BD5AC",
+    "developer_comment": "System data loaded.",
+    "character_limit": 9,
+    "string": "システムデータをロードしました。"
+  },
+  "0089": {
+    "context": "000BD578",
+    "developer_comment": "Data cannot be saved because you are not signed in.",
+    "character_limit": 25,
+    "string": "サインインされていないため、セーブを行うことは出来ません。"
+  },
+  "0090": {
+    "context": "000BD548",
+    "developer_comment": "Please sign in so that the data can be saved.",
+    "character_limit": 23,
+    "string": "セーブを行うには、サインインを行ってください。"
+  },
+  "0091": {
+    "context": "000BD518",
+    "developer_comment": "Please sign in so that the data can be loaded.",
+    "character_limit": 23,
+    "string": "ロードを行うには、サインインを行ってください。"
+  },
+  "0092": {
+    "context": "000BD4D8",
+    "developer_comment": "Since a storage device has not been chosen, you cannot save.",
+    "character_limit": 31,
+    "string": "ストレージデバイスが選択されていないため、セーブを行うことは出来ません。"
+  },
+  "0093": {
+    "context": "000BD498",
+    "developer_comment": "To save, please restart the game and select a storage device.",
+    "character_limit": 31,
+    "string": "セーブを行うには、ゲームを再起動してストレージデバイスを選択してください。"
+  },
+  "0094": {
+    "context": "000BD458",
+    "developer_comment": "Since a storage device has not been chosen, you cannot load.",
+    "character_limit": 31,
+    "string": "ストレージデバイスが選択されていないため、ロードを行うことは出来ません。"
+  },
+  "0095": {
+    "context": "000BD418",
+    "developer_comment": "To load, please restart the game and select a storage device.",
+    "character_limit": 31,
+    "string": "ロードを行うには、ゲームを再起動してストレージデバイスを選択してください。"
+  },
+  "0096": {
+    "context": "000BD3E4",
+    "developer_comment": "Would you like to proceed with data overwriting?",
+    "character_limit": 25,
+    "string": "データを上書きしてもよろしいですか？"
+  },
+  "0097": {
+    "context": "000BD3CC",
+    "developer_comment": "Failed to save data.",
+    "character_limit": 11,
+    "string": "データのセーブに失敗しました。"
+  },
+  "0098": {
+    "context": "000BD3A8",
+    "developer_comment": "Please try saving one more time.",
+    "character_limit": 17,
+    "string": "もう一度セーブを行ってください。"
+  },
+  "0099": {
+    "context": "000BD390",
+    "developer_comment": "Save data is damaged.",
+    "character_limit": 11,
+    "string": "セーブデータが破損しています。"
+  },
+  "0100": {
+    "context": "000BD374",
+    "developer_comment": "Failed to load save data.",
+    "character_limit": 13,
+    "string": "セーブデータのロードに失敗しました。"
+  },
+  "0101": {
+    "context": "000BD364",
+    "developer_comment": "Loading data.",
+    "character_limit": 7,
+    "string": "データをロードします。"
+  },
+  "0102": {
+    "context": "000BD334",
+    "developer_comment": "Any unsaved data will be lost at this point.",
+    "character_limit": 23,
+    "string": "セーブを行っていない場合、現在プレイ中のデータは失われます。"
+  },
+  "0103": {
+    "context": "000BD328",
+    "developer_comment": "Proceed?",
+    "character_limit": 5,
+    "string": "よろしいですか？"
   }
 }

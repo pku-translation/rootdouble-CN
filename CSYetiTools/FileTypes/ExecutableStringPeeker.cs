@@ -125,21 +125,19 @@ namespace CsYetiTools.FileTypes
             using var writer = new StreamWriter(path, false, Utils.Utf8);
             writer.NewLine = "\n";
 
-            var jobj = new JObject();
+            var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
             foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
             {
-                var offset = seg.Offset.ToString("X08");
-                jobj.Add(offset, JObject.FromObject(new Transifex.TranslationInfo
+                dict.Add(i.ToString("0000"), new Transifex.TranslationInfo
                 {
                     String = reference[i],
-                    Context = offset,
-                    Offset = offset,
+                    Context = seg.Offset.ToString("X08"),
                     DeveloperComment = seg.Content,
                     CharacterLimit = seg.Length / 2 - 1,
-                }));
+                });
             }
 
-            writer.WriteLine(JsonConvert.SerializeObject(jobj, Utils.JsonSettings));
+            writer.WriteLine(JsonConvert.SerializeObject(dict, Utils.JsonSettings));
         }
 
         public void DumpTranslateSource(string dirPath, string stringPoolDirPath)

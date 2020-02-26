@@ -1,4138 +1,3104 @@
 {
-  "000C0078": {
-    "Context": "000C0078",
-    "Code": null,
-    "Offset": "000C0078",
-    "DeveloperComment": "Prologue",
-    "CharacterLimit": 5,
-    "String": "Prologue"
-  },
-  "000C0070": {
-    "Context": "000C0070",
-    "Code": null,
-    "Offset": "000C0070",
-    "DeveloperComment": "Format",
-    "CharacterLimit": 3,
-    "String": "Format"
-  },
-  "000C005C": {
-    "Context": "000C005C",
-    "Code": null,
-    "Offset": "000C005C",
-    "DeveloperComment": "First Impression",
-    "CharacterLimit": 9,
-    "String": "First Impression"
-  },
-  "000C004C": {
-    "Context": "000C004C",
-    "Code": null,
-    "Offset": "000C004C",
-    "DeveloperComment": "Closed Circle",
-    "CharacterLimit": 7,
-    "String": "Closed Circle"
-  },
-  "000C0044": {
-    "Context": "000C0044",
-    "Code": null,
-    "Offset": "000C0044",
-    "DeveloperComment": "Base",
-    "CharacterLimit": 3,
-    "String": "Base"
-  },
-  "000C003C": {
-    "Context": "000C003C",
-    "Code": null,
-    "Offset": "000C003C",
-    "DeveloperComment": "Teacher",
-    "CharacterLimit": 3,
-    "String": "Teacher"
-  },
-  "000C0030": {
-    "Context": "000C0030",
-    "Code": null,
-    "Offset": "000C0030",
-    "DeveloperComment": "Researcher",
-    "CharacterLimit": 5,
-    "String": "Researcher"
-  },
-  "000C002C": {
-    "Context": "000C002C",
-    "Code": null,
-    "Offset": "000C002C",
-    "DeveloperComment": "6+3",
-    "CharacterLimit": 1,
-    "String": "6+3"
-  },
-  "000C0020": {
-    "Context": "000C0020",
-    "Code": null,
-    "Offset": "000C0020",
-    "DeveloperComment": "Radiation",
-    "CharacterLimit": 5,
-    "String": "Radiation"
-  },
-  "000C0018": {
-    "Context": "000C0018",
-    "Code": null,
-    "Offset": "000C0018",
-    "DeveloperComment": "Leakage",
-    "CharacterLimit": 3,
-    "String": "Leakage"
-  },
-  "000C000C": {
-    "Context": "000C000C",
-    "Code": null,
-    "Offset": "000C000C",
-    "DeveloperComment": "Backdraft",
-    "CharacterLimit": 5,
-    "String": "Back Draft"
-  },
-  "000BFFFC": {
-    "Context": "000BFFFC",
-    "Code": null,
-    "Offset": "000BFFFC",
-    "DeveloperComment": "Senior & Junior",
-    "CharacterLimit": 7,
-    "String": "Senior & Junior"
-  },
-  "000BFFF4": {
-    "Context": "000BFFF4",
-    "Code": null,
-    "Offset": "000BFFF4",
-    "DeveloperComment": "Instill",
-    "CharacterLimit": 3,
-    "String": "Instill"
-  },
-  "000BFFEC": {
-    "Context": "000BFFEC",
-    "Code": null,
-    "Offset": "000BFFEC",
-    "DeveloperComment": "Escape",
-    "CharacterLimit": 3,
-    "String": "Escape"
-  },
-  "000BFFD0": {
-    "Context": "000BFFD0",
-    "Code": null,
-    "Offset": "000BFFD0",
-    "DeveloperComment": "Knocking on Heaven's Door",
-    "CharacterLimit": 13,
-    "String": "Knocking on heavens door"
-  },
-  "000BFFC4": {
-    "Context": "000BFFC4",
-    "Code": null,
-    "Offset": "000BFFC4",
-    "DeveloperComment": "Murder Case",
-    "CharacterLimit": 5,
-    "String": "Murder Case"
-  },
-  "000BFFB8": {
-    "Context": "000BFFB8",
-    "Code": null,
-    "Offset": "000BFFB8",
-    "DeveloperComment": "Shortage",
-    "CharacterLimit": 5,
-    "String": "Shortage"
-  },
-  "000BFFA0": {
-    "Context": "000BFFA0",
-    "Code": null,
-    "Offset": "000BFFA0",
-    "DeveloperComment": "Electric Dragon 80000V",
-    "CharacterLimit": 11,
-    "String": "Electric Dragon 80000V"
-  },
-  "000BFF94": {
-    "Context": "000BFF94",
-    "Code": null,
-    "Offset": "000BFF94",
-    "DeveloperComment": "Brain Cell",
-    "CharacterLimit": 5,
-    "String": "Brain Cell"
-  },
-  "000BFF8C": {
-    "Context": "000BFF8C",
-    "Code": null,
-    "Offset": "000BFF8C",
-    "DeveloperComment": "Seven",
-    "CharacterLimit": 3,
-    "String": "Seven"
-  },
-  "000BFF84": {
-    "Context": "000BFF84",
-    "Code": null,
-    "Offset": "000BFF84",
-    "DeveloperComment": "Hazard",
-    "CharacterLimit": 3,
-    "String": "Hazard"
-  },
-  "000BFF7C": {
-    "Context": "000BFF7C",
-    "Code": null,
-    "Offset": "000BFF7C",
-    "DeveloperComment": "Comfort",
-    "CharacterLimit": 3,
-    "String": "Comfort"
-  },
-  "000BFF70": {
-    "Context": "000BFF70",
-    "Code": null,
-    "Offset": "000BFF70",
-    "DeveloperComment": "Flash Dance",
-    "CharacterLimit": 5,
-    "String": "Flash Dance"
-  },
-  "000BFF54": {
-    "Context": "000BFF54",
-    "Code": null,
-    "Offset": "000BFF54",
-    "DeveloperComment": "Disaster Prevention Manual",
-    "CharacterLimit": 13,
-    "String": "Disaster Prevention Manual"
-  },
-  "000BFF38": {
-    "Context": "000BFF38",
-    "Code": null,
-    "Offset": "000BFF38",
-    "DeveloperComment": "Clear and Present Danger",
-    "CharacterLimit": 13,
-    "String": "Clear and Present Danger"
-  },
-  "000BFF28": {
-    "Context": "000BFF28",
-    "Code": null,
-    "Offset": "000BFF28",
-    "DeveloperComment": "Fireman's Carry",
-    "CharacterLimit": 7,
-    "String": "Fireman's Carry"
-  },
-  "000BFF18": {
-    "Context": "000BFF18",
-    "Code": null,
-    "Offset": "000BFF18",
-    "DeveloperComment": "Run & Search",
-    "CharacterLimit": 7,
-    "String": "Run & Search"
-  },
-  "000BFF10": {
-    "Context": "000BFF10",
-    "Code": null,
-    "Offset": "000BFF10",
-    "DeveloperComment": "Coolant",
-    "CharacterLimit": 3,
-    "String": "Coolant"
-  },
-  "000BFF00": {
-    "Context": "000BFF00",
-    "Code": null,
-    "Offset": "000BFF00",
-    "DeveloperComment": "Fighters' Rest",
-    "CharacterLimit": 7,
-    "String": "The Rest of Fighter's"
-  },
-  "000BFEF4": {
-    "Context": "000BFEF4",
-    "Code": null,
-    "Offset": "000BFEF4",
-    "DeveloperComment": "Photograph",
-    "CharacterLimit": 5,
-    "String": "Photograph"
-  },
-  "000BFEEC": {
-    "Context": "000BFEEC",
-    "Code": null,
-    "Offset": "000BFEEC",
-    "DeveloperComment": "Body",
-    "CharacterLimit": 3,
-    "String": "a Body"
-  },
-  "000BFED8": {
-    "Context": "000BFED8",
-    "Code": null,
-    "Offset": "000BFED8",
-    "DeveloperComment": "Cumulative exposure",
-    "CharacterLimit": 9,
-    "String": "Exposed dose"
-  },
-  "000BFEC8": {
-    "Context": "000BFEC8",
-    "Code": null,
-    "Offset": "000BFEC8",
-    "DeveloperComment": "Nine years ago",
-    "CharacterLimit": 7,
-    "String": "Nine years ago"
-  },
-  "000BFEC0": {
-    "Context": "000BFEC0",
-    "Code": null,
-    "Offset": "000BFEC0",
-    "DeveloperComment": "Order",
-    "CharacterLimit": 3,
-    "String": "Order"
-  },
-  "000BFEB4": {
-    "Context": "000BFEB4",
-    "Code": null,
-    "Offset": "000BFEB4",
-    "DeveloperComment": "Infirmary",
-    "CharacterLimit": 5,
-    "String": "Infirmary"
-  },
-  "000BFE9C": {
-    "Context": "000BFE9C",
-    "Code": null,
-    "Offset": "000BFE9C",
-    "DeveloperComment": "Emergency Evacuation",
-    "CharacterLimit": 11,
-    "String": "Emergency Evacuation"
-  },
-  "000BFE8C": {
-    "Context": "000BFE8C",
-    "Code": null,
-    "Offset": "000BFE8C",
-    "DeveloperComment": "Elevator Action",
-    "CharacterLimit": 7,
-    "String": "Elevator Action"
-  },
-  "000BFE80": {
-    "Context": "000BFE80",
-    "Code": null,
-    "Offset": "000BFE80",
-    "DeveloperComment": "Laboratory",
-    "CharacterLimit": 5,
-    "String": "Laboratory"
-  },
-  "000BFE78": {
-    "Context": "000BFE78",
-    "Code": null,
-    "Offset": "000BFE78",
-    "DeveloperComment": "Buddy",
-    "CharacterLimit": 3,
-    "String": "One's Buddy"
-  },
-  "000BFE64": {
-    "Context": "000BFE64",
-    "Code": null,
-    "Offset": "000BFE64",
-    "DeveloperComment": "Over Eighty Percent",
-    "CharacterLimit": 9,
-    "String": "Eighty Percent of The Complete"
-  },
-  "000BFE5C": {
-    "Context": "000BFE5C",
-    "Code": null,
-    "Offset": "000BFE5C",
-    "DeveloperComment": "Factory",
-    "CharacterLimit": 3,
-    "String": "Factory"
-  },
-  "000BFE48": {
-    "Context": "000BFE48",
-    "Code": null,
-    "Offset": "000BFE48",
-    "DeveloperComment": "Rescue & Teacher",
-    "CharacterLimit": 9,
-    "String": "Rescue & Teacher"
-  },
-  "000BFE38": {
-    "Context": "000BFE38",
-    "Code": null,
-    "Offset": "000BFE38",
-    "DeveloperComment": "Buddy & Buddy",
-    "CharacterLimit": 7,
-    "String": "Buddy & Buddy"
-  },
-  "000BFE20": {
-    "Context": "000BFE20",
-    "Code": null,
-    "Offset": "000BFE20",
-    "DeveloperComment": "Superior & Subordinate",
-    "CharacterLimit": 11,
-    "String": "Superior & Subordinate"
-  },
-  "000BFE10": {
-    "Context": "000BFE10",
-    "Code": null,
-    "Offset": "000BFE10",
-    "DeveloperComment": "Idle Thoughts",
-    "CharacterLimit": 7,
-    "String": "Idle Thoughts"
-  },
-  "000BFE04": {
-    "Context": "000BFE04",
-    "Code": null,
-    "Offset": "000BFE04",
-    "DeveloperComment": "Cargo Lift",
-    "CharacterLimit": 5,
-    "String": "Carry out Lift"
-  },
-  "000BFDF4": {
-    "Context": "000BFDF4",
-    "Code": null,
-    "Offset": "000BFDF4",
-    "DeveloperComment": "Dramatic Rescue",
-    "CharacterLimit": 7,
-    "String": "Dramatic Rescue"
-  },
-  "000BFDE4": {
-    "Context": "000BFDE4",
-    "Code": null,
-    "Offset": "000BFDE4",
-    "DeveloperComment": "Breakthrough",
-    "CharacterLimit": 7,
-    "String": "Breakthrough"
-  },
-  "000BFDE0": {
-    "Context": "000BFDE0",
-    "Code": null,
-    "Offset": "000BFDE0",
-    "DeveloperComment": "Hug",
-    "CharacterLimit": 1,
-    "String": "Hug"
-  },
-  "000BFDD4": {
-    "Context": "000BFDD4",
-    "Code": null,
-    "Offset": "000BFDD4",
-    "DeveloperComment": "The end of",
-    "CharacterLimit": 5,
-    "String": "The end of"
-  },
-  "000BFDC4": {
-    "Context": "000BFDC4",
-    "Code": null,
-    "Offset": "000BFDC4",
-    "DeveloperComment": "The end of hope",
-    "CharacterLimit": 7,
-    "String": "The end of hope"
-  },
-  "000BFDB8": {
-    "Context": "000BFDB8",
-    "Code": null,
-    "Offset": "000BFDB8",
-    "DeveloperComment": "Dark Clouds",
-    "CharacterLimit": 5,
-    "String": "Dark Clouds"
-  },
-  "000BFDAC": {
-    "Context": "000BFDAC",
-    "Code": null,
-    "Offset": "000BFDAC",
-    "DeveloperComment": "Flashback",
-    "CharacterLimit": 5,
-    "String": "Flashback"
-  },
-  "000BFDA4": {
-    "Context": "000BFDA4",
-    "Code": null,
-    "Offset": "000BFDA4",
-    "DeveloperComment": "Missing",
-    "CharacterLimit": 3,
-    "String": "Missing"
-  },
-  "000BFD9C": {
-    "Context": "000BFD9C",
-    "Code": null,
-    "Offset": "000BFD9C",
-    "DeveloperComment": "Sister",
-    "CharacterLimit": 3,
-    "String": "Sister"
-  },
-  "000BFD90": {
-    "Context": "000BFD90",
-    "Code": null,
-    "Offset": "000BFD90",
-    "DeveloperComment": "Recollect",
-    "CharacterLimit": 5,
-    "String": "Recollect"
-  },
-  "000BFD8C": {
-    "Context": "000BFD8C",
-    "Code": null,
-    "Offset": "000BFD8C",
-    "DeveloperComment": "9-3",
-    "CharacterLimit": 1,
-    "String": "9-3"
-  },
-  "000BFD7C": {
-    "Context": "000BFD7C",
-    "Code": null,
-    "Offset": "000BFD7C",
-    "DeveloperComment": "Protection suit",
-    "CharacterLimit": 7,
-    "String": "Protective clothing"
-  },
-  "000BFD74": {
-    "Context": "000BFD74",
-    "Code": null,
-    "Offset": "000BFD74",
-    "DeveloperComment": "Message",
-    "CharacterLimit": 3,
-    "String": "Message"
-  },
-  "000BFD6C": {
-    "Context": "000BFD6C",
-    "Code": null,
-    "Offset": "000BFD6C",
-    "DeveloperComment": "Fall",
-    "CharacterLimit": 3,
-    "String": "Fell"
-  },
-  "000BFD64": {
-    "Context": "000BFD64",
-    "Code": null,
-    "Offset": "000BFD64",
-    "DeveloperComment": "Repair",
-    "CharacterLimit": 3,
-    "String": "Repair"
-  },
-  "000BFD5C": {
-    "Context": "000BFD5C",
-    "Code": null,
-    "Offset": "000BFD5C",
-    "DeveloperComment": "Seek",
-    "CharacterLimit": 3,
-    "String": "Looking for"
-  },
-  "000BFD50": {
-    "Context": "000BFD50",
-    "Code": null,
-    "Offset": "000BFD50",
-    "DeveloperComment": "An Injury",
-    "CharacterLimit": 5,
-    "String": "An Injury"
-  },
-  "000BFD40": {
-    "Context": "000BFD40",
-    "Code": null,
-    "Offset": "000BFD40",
-    "DeveloperComment": "Disappearance",
-    "CharacterLimit": 7,
-    "String": "Disappearance"
-  },
-  "000BFD38": {
-    "Context": "000BFD38",
-    "Code": null,
-    "Offset": "000BFD38",
-    "DeveloperComment": "Warning",
-    "CharacterLimit": 3,
-    "String": "Warning"
-  },
-  "000BFD2C": {
-    "Context": "000BFD2C",
-    "Code": null,
-    "Offset": "000BFD2C",
-    "DeveloperComment": "Explosion",
-    "CharacterLimit": 5,
-    "String": "Explosion"
-  },
-  "000BFD20": {
-    "Context": "000BFD20",
-    "Code": null,
-    "Offset": "000BFD20",
-    "DeveloperComment": "Best Friend",
-    "CharacterLimit": 5,
-    "String": "Best Friend"
-  },
-  "000BFD18": {
-    "Context": "000BFD18",
-    "Code": null,
-    "Offset": "000BFD18",
-    "DeveloperComment": "Nursing",
-    "CharacterLimit": 3,
-    "String": "Nursing"
-  },
-  "000BFD08": {
-    "Context": "000BFD08",
-    "Code": null,
-    "Offset": "000BFD08",
-    "DeveloperComment": "Medical Care",
-    "CharacterLimit": 7,
-    "String": "Medical Care"
-  },
-  "000BFD00": {
-    "Context": "000BFD00",
-    "Code": null,
-    "Offset": "000BFD00",
-    "DeveloperComment": "Injury",
-    "CharacterLimit": 3,
-    "String": "Injury"
-  },
-  "000BFCF8": {
-    "Context": "000BFCF8",
-    "Code": null,
-    "Offset": "000BFCF8",
-    "DeveloperComment": "Father",
-    "CharacterLimit": 3,
-    "String": "Father"
-  },
-  "000BFCEC": {
-    "Context": "000BFCEC",
-    "Code": null,
-    "Offset": "000BFCEC",
-    "DeveloperComment": "Old Wound",
-    "CharacterLimit": 5,
-    "String": "Old Wound"
-  },
-  "000BFCD8": {
-    "Context": "000BFCD8",
-    "Code": null,
-    "Offset": "000BFCD8",
-    "DeveloperComment": "Former Girlfriend",
-    "CharacterLimit": 9,
-    "String": "Former Girlfriend"
-  },
-  "000BFCC0": {
-    "Context": "000BFCC0",
-    "Code": null,
-    "Offset": "000BFCC0",
-    "DeveloperComment": "Beyond Communication",
-    "CharacterLimit": 11,
-    "String": "Beyond Communication"
-  },
-  "000BFCB0": {
-    "Context": "000BFCB0",
-    "Code": null,
-    "Offset": "000BFCB0",
-    "DeveloperComment": "In the Mirror",
-    "CharacterLimit": 7,
-    "String": "In the Mirror"
-  },
-  "000BFCA0": {
-    "Context": "000BFCA0",
-    "Code": null,
-    "Offset": "000BFCA0",
-    "DeveloperComment": "The Fugitive",
-    "CharacterLimit": 7,
-    "String": "The Fugitive"
-  },
-  "000BFC90": {
-    "Context": "000BFC90",
-    "Code": null,
-    "Offset": "000BFC90",
-    "DeveloperComment": "The Pursuers",
-    "CharacterLimit": 7,
-    "String": "The Pursuers"
-  },
-  "000BFC84": {
-    "Context": "000BFC84",
-    "Code": null,
-    "Offset": "000BFC84",
-    "DeveloperComment": "Bomb & Gun",
-    "CharacterLimit": 5,
-    "String": "Bomb & Gun"
-  },
-  "000BFC74": {
-    "Context": "000BFC74",
-    "Code": null,
-    "Offset": "000BFC74",
-    "DeveloperComment": "Smoking Barrel",
-    "CharacterLimit": 7,
-    "String": "Smoking Barrel"
-  },
-  "000BFC6C": {
-    "Context": "000BFC6C",
-    "Code": null,
-    "Offset": "000BFC6C",
-    "DeveloperComment": "Lesson",
-    "CharacterLimit": 3,
-    "String": "Lesson"
-  },
-  "000BFC64": {
-    "Context": "000BFC64",
-    "Code": null,
-    "Offset": "000BFC64",
-    "DeveloperComment": "Believe",
-    "CharacterLimit": 3,
-    "String": "Believe"
-  },
-  "000BFC54": {
-    "Context": "000BFC54",
-    "Code": null,
-    "Offset": "000BFC54",
-    "DeveloperComment": "Test Subject",
-    "CharacterLimit": 7,
-    "String": "Experimental Subject"
-  },
-  "000BFC48": {
-    "Context": "000BFC48",
-    "Code": null,
-    "Offset": "000BFC48",
-    "DeveloperComment": "Dreamlike",
-    "CharacterLimit": 5,
-    "String": "Feeling as if in a dream"
-  },
-  "000BFC3C": {
-    "Context": "000BFC3C",
-    "Code": null,
-    "Offset": "000BFC3C",
-    "DeveloperComment": "Suspicion",
-    "CharacterLimit": 5,
-    "String": "Suspicion"
-  },
-  "000BFC24": {
-    "Context": "000BFC24",
-    "Code": null,
-    "Offset": "000BFC24",
-    "DeveloperComment": "An Inconvenient Truth",
-    "CharacterLimit": 11,
-    "String": "An Inconvenient Truth"
-  },
-  "000BFC10": {
-    "Context": "000BFC10",
-    "Code": null,
-    "Offset": "000BFC10",
-    "DeveloperComment": "Cross-examination",
-    "CharacterLimit": 9,
-    "String": "Cross‐examination"
-  },
-  "000BFC08": {
-    "Context": "000BFC08",
-    "Code": null,
-    "Offset": "000BFC08",
-    "DeveloperComment": "Cause",
-    "CharacterLimit": 3,
-    "String": "Cause"
-  },
-  "000BFC00": {
-    "Context": "000BFC00",
-    "Code": null,
-    "Offset": "000BFC00",
-    "DeveloperComment": "Kiss",
-    "CharacterLimit": 3,
-    "String": "Kiss"
-  },
-  "000BFBF4": {
-    "Context": "000BFBF4",
-    "Code": null,
-    "Offset": "000BFBF4",
-    "DeveloperComment": "Desperate",
-    "CharacterLimit": 5,
-    "String": "Desperate"
-  },
-  "000BFBEC": {
-    "Context": "000BFBEC",
-    "Code": null,
-    "Offset": "000BFBEC",
-    "DeveloperComment": "Area N",
-    "CharacterLimit": 3,
-    "String": "N Area"
-  },
-  "000BFBE4": {
-    "Context": "000BFBE4",
-    "Code": null,
-    "Offset": "000BFBE4",
-    "DeveloperComment": "Battle",
-    "CharacterLimit": 3,
-    "String": "Battle"
-  },
-  "000BFBD0": {
-    "Context": "000BFBD0",
-    "Code": null,
-    "Offset": "000BFBD0",
-    "DeveloperComment": "Unclear Conclusion",
-    "CharacterLimit": 9,
-    "String": "Unclear Conclusion"
-  },
-  "000BFBC4": {
-    "Context": "000BFBC4",
-    "Code": null,
-    "Offset": "000BFBC4",
-    "DeveloperComment": "First aid",
-    "CharacterLimit": 5,
-    "String": "First aid"
-  },
-  "000BFBB0": {
-    "Context": "000BFBB0",
-    "Code": null,
-    "Offset": "000BFBB0",
-    "DeveloperComment": "Murderous Design",
-    "CharacterLimit": 9,
-    "String": "Murderous Design"
-  },
-  "000BFBA4": {
-    "Context": "000BFBA4",
-    "Code": null,
-    "Offset": "000BFBA4",
-    "DeveloperComment": "Insanity",
-    "CharacterLimit": 5,
-    "String": "Insanity"
-  },
-  "000BFB98": {
-    "Context": "000BFB98",
-    "Code": null,
-    "Offset": "000BFB98",
-    "DeveloperComment": "Persuasion",
-    "CharacterLimit": 5,
-    "String": "Persuasion"
-  },
-  "000BFB84": {
-    "Context": "000BFB84",
-    "Code": null,
-    "Offset": "000BFB84",
-    "DeveloperComment": "The Great Escape",
-    "CharacterLimit": 9,
-    "String": "The Great Escape"
-  },
-  "000BFB78": {
-    "Context": "000BFB78",
-    "Code": null,
-    "Offset": "000BFB78",
-    "DeveloperComment": "Last Choice",
-    "CharacterLimit": 5,
-    "String": "Last Choice"
-  },
-  "000BFB70": {
-    "Context": "000BFB70",
-    "Code": null,
-    "Offset": "000BFB70",
-    "DeveloperComment": "Promise",
-    "CharacterLimit": 3,
-    "String": "Promise"
-  },
-  "000BFB60": {
-    "Context": "000BFB60",
-    "Code": null,
-    "Offset": "000BFB60",
-    "DeveloperComment": "Overeagerness",
-    "CharacterLimit": 7,
-    "String": "Overeagerness"
-  },
-  "000BFB54": {
-    "Context": "000BFB54",
-    "Code": null,
-    "Offset": "000BFB54",
-    "DeveloperComment": "Disregard",
-    "CharacterLimit": 5,
-    "String": "Disregard"
-  },
-  "000BFB48": {
-    "Context": "000BFB48",
-    "Code": null,
-    "Offset": "000BFB48",
-    "DeveloperComment": "Flash Over",
-    "CharacterLimit": 5,
-    "String": "Flash Over"
-  },
-  "000BFB3C": {
-    "Context": "000BFB3C",
-    "Code": null,
-    "Offset": "000BFB3C",
-    "DeveloperComment": "Misguided",
-    "CharacterLimit": 5,
-    "String": "Trusting too much"
-  },
-  "000BFB2C": {
-    "Context": "000BFB2C",
-    "Code": null,
-    "Offset": "000BFB2C",
-    "DeveloperComment": "Falling Down",
-    "CharacterLimit": 7,
-    "String": "Fall"
-  },
-  "000BFB24": {
-    "Context": "000BFB24",
-    "Code": null,
-    "Offset": "000BFB24",
-    "DeveloperComment": "Skewer",
-    "CharacterLimit": 3,
-    "String": "Skewer"
-  },
-  "000BFB18": {
-    "Context": "000BFB18",
-    "Code": null,
-    "Offset": "000BFB18",
-    "DeveloperComment": "Time's Up",
-    "CharacterLimit": 5,
-    "String": "Time Out"
-  },
-  "000BFB08": {
-    "Context": "000BFB08",
-    "Code": null,
-    "Offset": "000BFB08",
-    "DeveloperComment": "Obnubilation",
-    "CharacterLimit": 7,
-    "String": "Obnubilation"
-  },
-  "000BFB00": {
-    "Context": "000BFB00",
-    "Code": null,
-    "Offset": "000BFB00",
-    "DeveloperComment": "Binding",
-    "CharacterLimit": 3,
-    "String": "Binding"
-  },
-  "000BFAF4": {
-    "Context": "000BFAF4",
-    "Code": null,
-    "Offset": "000BFAF4",
-    "DeveloperComment": "Accident",
-    "CharacterLimit": 5,
-    "String": "Accident"
-  },
-  "000BFAE8": {
-    "Context": "000BFAE8",
-    "Code": null,
-    "Offset": "000BFAE8",
-    "DeveloperComment": "Treachery",
-    "CharacterLimit": 5,
-    "String": "Treachery"
-  },
-  "000BFAD4": {
-    "Context": "000BFAD4",
-    "Code": null,
-    "Offset": "000BFAD4",
-    "DeveloperComment": "Misunderstanding",
-    "CharacterLimit": 9,
-    "String": "Misunderstanding"
-  },
-  "000BFAC8": {
-    "Context": "000BFAC8",
-    "Code": null,
-    "Offset": "000BFAC8",
-    "DeveloperComment": "Intrusive",
-    "CharacterLimit": 5,
-    "String": "Being Intrusive"
-  },
-  "000BFAB4": {
-    "Context": "000BFAB4",
-    "Code": null,
-    "Offset": "000BFAB4",
-    "DeveloperComment": "Error of Judgment",
-    "CharacterLimit": 9,
-    "String": "Error of Judgment"
-  },
-  "000BFAA8": {
-    "Context": "000BFAA8",
-    "Code": null,
-    "Offset": "000BFAA8",
-    "DeveloperComment": "Knockdown",
-    "CharacterLimit": 5,
-    "String": "Knockdown"
-  },
-  "000BFA98": {
-    "Context": "000BFA98",
-    "Code": null,
-    "Offset": "000BFA98",
-    "DeveloperComment": "Destroy Brain",
-    "CharacterLimit": 7,
-    "String": "Destroy Brain"
-  },
-  "000BFA84": {
-    "Context": "000BFA84",
-    "Code": null,
-    "Offset": "000BFA84",
-    "DeveloperComment": "Accidental Shooting",
-    "CharacterLimit": 9,
-    "String": "Accidental Shooting"
-  },
-  "000BFA78": {
-    "Context": "000BFA78",
-    "Code": null,
-    "Offset": "000BFA78",
-    "DeveloperComment": "Hesitation",
-    "CharacterLimit": 5,
-    "String": "Hesitation"
-  },
-  "000BFA6C": {
-    "Context": "000BFA6C",
-    "Code": null,
-    "Offset": "000BFA6C",
-    "DeveloperComment": "Decision",
-    "CharacterLimit": 5,
-    "String": "Decision"
-  },
-  "000BFA60": {
-    "Context": "000BFA60",
-    "Code": null,
-    "Offset": "000BFA60",
-    "DeveloperComment": "Too late",
-    "CharacterLimit": 5,
-    "String": "Be too late"
-  },
-  "000BFA58": {
-    "Context": "000BFA58",
-    "Code": null,
-    "Offset": "000BFA58",
-    "DeveloperComment": "Murder",
-    "CharacterLimit": 3,
-    "String": "Murder"
-  },
-  "000BFA4C": {
-    "Context": "000BFA4C",
-    "Code": null,
-    "Offset": "000BFA4C",
-    "DeveloperComment": "Ringleader",
-    "CharacterLimit": 5,
-    "String": "Ringleader"
-  },
-  "000BFA3C": {
-    "Context": "000BFA3C",
-    "Code": null,
-    "Offset": "000BFA3C",
-    "DeveloperComment": "Nightmare's end",
-    "CharacterLimit": 7,
-    "String": "The end of Nightmare"
-  },
-  "000BFA28": {
-    "Context": "000BFA28",
-    "Code": null,
-    "Offset": "000BFA28",
-    "DeveloperComment": "Endless Nightmare",
-    "CharacterLimit": 9,
-    "String": "Endless Nightmare"
-  },
-  "000BFA18": {
-    "Context": "000BFA18",
-    "Code": null,
-    "Offset": "000BFA18",
-    "DeveloperComment": "Endless Despair",
-    "CharacterLimit": 7,
-    "String": "Endless Despair"
-  },
-  "000BFA08": {
-    "Context": "000BFA08",
-    "Code": null,
-    "Offset": "000BFA08",
-    "DeveloperComment": "Metamorphosis",
-    "CharacterLimit": 7,
-    "String": "Metamorphosis"
-  },
-  "000BF9EC": {
-    "Context": "000BF9EC",
-    "Code": null,
-    "Offset": "000BF9EC",
-    "DeveloperComment": "The beginning and the end",
-    "CharacterLimit": 13,
-    "String": "The biggining and the end"
-  },
-  "000BF9E0": {
-    "Context": "000BF9E0",
-    "Code": null,
-    "Offset": "000BF9E0",
-    "DeveloperComment": "Epilogue",
-    "CharacterLimit": 5,
-    "String": "Epilogue"
-  },
-  "000BF9D4": {
-    "Context": "000BF9D4",
-    "Code": null,
-    "Offset": "000BF9D4",
-    "DeveloperComment": "PROLOGUE",
-    "CharacterLimit": 5,
-    "String": "プロローグ"
-  },
-  "000BF9BC": {
-    "Context": "000BF9BC",
-    "Code": null,
-    "Offset": "000BF9BC",
-    "DeveloperComment": "START OF THE FIRST DAY",
-    "CharacterLimit": 11,
-    "String": "最初の日の始まり"
-  },
-  "000BF9B4": {
-    "Context": "000BF9B4",
-    "Code": null,
-    "Offset": "000BF9B4",
-    "DeveloperComment": "INVOKE",
-    "CharacterLimit": 3,
-    "String": "発動"
-  },
-  "000BF99C": {
-    "Context": "000BF99C",
-    "Code": null,
-    "Offset": "000BF99C",
-    "DeveloperComment": "BEYOND COMMUNICATION",
-    "CharacterLimit": 11,
-    "String": "ビヨンド･コミュニケーション"
-  },
-  "000BF98C": {
-    "Context": "000BF98C",
-    "Code": null,
-    "Offset": "000BF98C",
-    "DeveloperComment": "NOISY FUTURE",
-    "CharacterLimit": 7,
-    "String": "騒々しい未来"
-  },
-  "000BF97C": {
-    "Context": "000BF97C",
-    "Code": null,
-    "Offset": "000BF97C",
-    "DeveloperComment": "AFTER SCHOOL",
-    "CharacterLimit": 7,
-    "String": "アフタースクール"
-  },
-  "000BF964": {
-    "Context": "000BF964",
-    "Code": null,
-    "Offset": "000BF964",
-    "DeveloperComment": "ROKUMEI SCIENCE CITY",
-    "CharacterLimit": 11,
-    "String": "鹿鳴研究学園都市"
-  },
-  "000BF944": {
-    "Context": "000BF944",
-    "Code": null,
-    "Offset": "000BF944",
-    "DeveloperComment": "SOMETHING WICKED THIS WAY COMES",
-    "CharacterLimit": 15,
-    "String": "なにかが道をやってくる"
-  },
-  "000BF930": {
-    "Context": "000BF930",
-    "Code": null,
-    "Offset": "000BF930",
-    "DeveloperComment": "HIS AND HER PAST",
-    "CharacterLimit": 9,
-    "String": "彼らと彼らの過去"
-  },
-  "000BF8FC": {
-    "Context": "000BF8FC",
-    "Code": null,
-    "Offset": "000BF8FC",
-    "DeveloperComment": "REALITY IS A DREAM, YOUR DREAM AT NIGHT IS REALITY",
-    "CharacterLimit": 25,
-    "String": "現世は夢、夜の夢こそ真"
-  },
-  "000BF8E4": {
-    "Context": "000BF8E4",
-    "Code": null,
-    "Offset": "000BF8E4",
-    "DeveloperComment": "NATSUHIKO- SEPTEMBER 16",
-    "CharacterLimit": 11,
-    "String": "9月16日の夏彦"
-  },
-  "000BF8D4": {
-    "Context": "000BF8D4",
-    "Code": null,
-    "Offset": "000BF8D4",
-    "DeveloperComment": "BACK INTO PEACE",
-    "CharacterLimit": 7,
-    "String": "再び平穏の中へ"
-  },
-  "000BF8C0": {
-    "Context": "000BF8C0",
-    "Code": null,
-    "Offset": "000BF8C0",
-    "DeveloperComment": "TRANSFER STUDENT",
-    "CharacterLimit": 9,
-    "String": "転校生"
-  },
-  "000BF8B0": {
-    "Context": "000BF8B0",
-    "Code": null,
-    "Offset": "000BF8B0",
-    "DeveloperComment": "ENFANT TERRIBLE",
-    "CharacterLimit": 7,
-    "String": "アンファン･テリブル"
-  },
-  "000BF874": {
-    "Context": "000BF874",
-    "Code": null,
-    "Offset": "000BF874",
-    "DeveloperComment": "LABO: 6TH LABORATORY OF ATOMIC AND BIOLOGICAL ORGANIZATION",
-    "CharacterLimit": 29,
-    "String": "ラボ:原子力生物学研究機構･第6研究所"
-  },
-  "000BF854": {
-    "Context": "000BF854",
-    "Code": null,
-    "Offset": "000BF854",
-    "DeveloperComment": "PARAPSYCHOLOGY RESEARCH CENTER",
-    "CharacterLimit": 15,
-    "String": "超心理学研究所"
-  },
-  "000BF844": {
-    "Context": "000BF844",
-    "Code": null,
-    "Offset": "000BF844",
-    "DeveloperComment": "DUSK LIT BUS",
-    "CharacterLimit": 7,
-    "String": "夕暮れ、バスに乗って"
-  },
-  "000BF834": {
-    "Context": "000BF834",
-    "Code": null,
-    "Offset": "000BF834",
-    "DeveloperComment": "THE WAY WE WERE",
-    "CharacterLimit": 7,
-    "String": "かつての2人"
-  },
-  "000BF824": {
-    "Context": "000BF824",
-    "Code": null,
-    "Offset": "000BF824",
-    "DeveloperComment": "THE STRANGER",
-    "CharacterLimit": 7,
-    "String": "異邦人"
-  },
-  "000BF81C": {
-    "Context": "000BF81C",
-    "Code": null,
-    "Offset": "000BF81C",
-    "DeveloperComment": "FOR YOU",
-    "CharacterLimit": 3,
-    "String": "あなたのために"
-  },
-  "000BF80C": {
-    "Context": "000BF80C",
-    "Code": null,
-    "Offset": "000BF80C",
-    "DeveloperComment": "YOUR NAME IS",
-    "CharacterLimit": 7,
-    "String": "君の名は"
-  },
-  "000BF7F0": {
-    "Context": "000BF7F0",
-    "Code": null,
-    "Offset": "000BF7F0",
-    "DeveloperComment": "THE PAST AND PRESENT YOU",
-    "CharacterLimit": 13,
-    "String": "あの頃の君、今の彼女"
-  },
-  "000BF7E4": {
-    "Context": "000BF7E4",
-    "Code": null,
-    "Offset": "000BF7E4",
-    "DeveloperComment": "ENCOUNTER",
-    "CharacterLimit": 5,
-    "String": "出逢い"
-  },
-  "000BF7D0": {
-    "Context": "000BF7D0",
-    "Code": null,
-    "Offset": "000BF7D0",
-    "DeveloperComment": "SALYU- SEPTEMBER 16",
-    "CharacterLimit": 9,
-    "String": "9月16日のサリュ"
-  },
-  "000BF7BC": {
-    "Context": "000BF7BC",
-    "Code": null,
-    "Offset": "000BF7BC",
-    "DeveloperComment": "DREAMS AND REALITY",
-    "CharacterLimit": 9,
-    "String": "夢と現実"
-  },
-  "000BF7A8": {
-    "Context": "000BF7A8",
-    "Code": null,
-    "Offset": "000BF7A8",
-    "DeveloperComment": "THE GREAT ILLUSION",
-    "CharacterLimit": 9,
-    "String": "大いなる錯覚"
-  },
-  "000BF7A0": {
-    "Context": "000BF7A0",
-    "Code": null,
-    "Offset": "000BF7A0",
-    "DeveloperComment": "PHANTOM",
-    "CharacterLimit": 3,
-    "String": "ファントム"
-  },
-  "000BF774": {
-    "Context": "000BF774",
-    "Code": null,
-    "Offset": "000BF774",
-    "DeveloperComment": "THROW AWAY YOUR BOOKS, RALLY IN THE STREETS",
-    "CharacterLimit": 21,
-    "String": "書を捨てよ、街に出よう"
-  },
-  "000BF764": {
-    "Context": "000BF764",
-    "Code": null,
-    "Offset": "000BF764",
-    "DeveloperComment": "WHEN SHE SMILES",
-    "CharacterLimit": 7,
-    "String": "微笑みを浮かべた時"
-  },
-  "000BF75C": {
-    "Context": "000BF75C",
-    "Code": null,
-    "Offset": "000BF75C",
-    "DeveloperComment": "ARMS",
-    "CharacterLimit": 3,
-    "String": "アームズ"
-  },
-  "000BF748": {
-    "Context": "000BF748",
-    "Code": null,
-    "Offset": "000BF748",
-    "DeveloperComment": "HIS NAME WAS SIRIUS",
-    "CharacterLimit": 9,
-    "String": "彼の名はシリウス"
-  },
-  "000BF738": {
-    "Context": "000BF738",
-    "Code": null,
-    "Offset": "000BF738",
-    "DeveloperComment": "PASSIONATE MEAL",
-    "CharacterLimit": 7,
-    "String": "情熱の食卓"
-  },
-  "000BF724": {
-    "Context": "000BF724",
-    "Code": null,
-    "Offset": "000BF724",
-    "DeveloperComment": "OUR FAVORITE THINGS",
-    "CharacterLimit": 9,
-    "String": "わたしたちの好きなもの"
-  },
-  "000BF704": {
-    "Context": "000BF704",
-    "Code": null,
-    "Offset": "000BF704",
-    "DeveloperComment": "AT THE END OF AN UNEVENTFUL DAY",
-    "CharacterLimit": 15,
-    "String": "何も始まらなかった1日の終わりに"
-  },
-  "000BF6F0": {
-    "Context": "000BF6F0",
-    "Code": null,
-    "Offset": "000BF6F0",
-    "DeveloperComment": "WHAT IS ESSENTIAL",
-    "CharacterLimit": 9,
-    "String": "本当に大切なもの"
-  },
-  "000BF6D4": {
-    "Context": "000BF6D4",
-    "Code": null,
-    "Offset": "000BF6D4",
-    "DeveloperComment": "ALL OF THEM- SEPTEMBER 16",
-    "CharacterLimit": 13,
-    "String": "9月16日の彼ら"
-  },
-  "000BF6C0": {
-    "Context": "000BF6C0",
-    "Code": null,
-    "Offset": "000BF6C0",
-    "DeveloperComment": "REFRESHING MORNING",
-    "CharacterLimit": 9,
-    "String": "清々しい朝"
-  },
-  "000BF6B0": {
-    "Context": "000BF6B0",
-    "Code": null,
-    "Offset": "000BF6B0",
-    "DeveloperComment": "MAXWELL'S DEMON",
-    "CharacterLimit": 7,
-    "String": "マクスウェルの悪魔"
-  },
-  "000BF6A4": {
-    "Context": "000BF6A4",
-    "Code": null,
-    "Offset": "000BF6A4",
-    "DeveloperComment": "MINDSEEKER",
-    "CharacterLimit": 5,
-    "String": "マインドシーカー"
-  },
-  "000BF68C": {
-    "Context": "000BF68C",
-    "Code": null,
-    "Offset": "000BF68C",
-    "DeveloperComment": "PATH TO ENLIGHTENMENT",
-    "CharacterLimit": 11,
-    "String": "サトリの研究"
-  },
-  "000BF674": {
-    "Context": "000BF674",
-    "Code": null,
-    "Offset": "000BF674",
-    "DeveloperComment": "THE WOMAN FROM SIRIUS",
-    "CharacterLimit": 11,
-    "String": "シリウスから来た女"
-  },
-  "000BF65C": {
-    "Context": "000BF65C",
-    "Code": null,
-    "Offset": "000BF65C",
-    "DeveloperComment": "ANOTHER MAN'S TREASURE",
-    "CharacterLimit": 11,
-    "String": "ひとりにひとつの宝物"
-  },
-  "000BF648": {
-    "Context": "000BF648",
-    "Code": null,
-    "Offset": "000BF648",
-    "DeveloperComment": "THE MAN FROM LABO",
-    "CharacterLimit": 9,
-    "String": "ラボから来た男"
-  },
-  "000BF63C": {
-    "Context": "000BF63C",
-    "Code": null,
-    "Offset": "000BF63C",
-    "DeveloperComment": "MANEUVERING",
-    "CharacterLimit": 5,
-    "String": "蠢動"
-  },
-  "000BF630": {
-    "Context": "000BF630",
-    "Code": null,
-    "Offset": "000BF630",
-    "DeveloperComment": "PROPHECY",
-    "CharacterLimit": 5,
-    "String": "予言"
-  },
-  "000BF618": {
-    "Context": "000BF618",
-    "Code": null,
-    "Offset": "000BF618",
-    "DeveloperComment": "STORY OF THE STARRY SKY",
-    "CharacterLimit": 11,
-    "String": "星空の物語"
-  },
-  "000BF600": {
-    "Context": "000BF600",
-    "Code": null,
-    "Offset": "000BF600",
-    "DeveloperComment": "MEMORIES AND REALITY",
-    "CharacterLimit": 11,
-    "String": "回想と現実"
-  },
-  "000BF5E0": {
-    "Context": "000BF5E0",
-    "Code": null,
-    "Offset": "000BF5E0",
-    "DeveloperComment": "IN A CORNER OF A TWILIT CITY",
-    "CharacterLimit": 15,
-    "String": "宵闇に沈む街の片隅で"
-  },
-  "000BF5C8": {
-    "Context": "000BF5C8",
-    "Code": null,
-    "Offset": "000BF5C8",
-    "DeveloperComment": "MASHIRO- SEPTEMBER 16",
-    "CharacterLimit": 11,
-    "String": "9月16日のましろ"
-  },
-  "000BF5B4": {
-    "Context": "000BF5B4",
-    "Code": null,
-    "Offset": "000BF5B4",
-    "DeveloperComment": "CHANGING MORNINGS",
-    "CharacterLimit": 9,
-    "String": "変わりゆく朝"
-  },
-  "000BF5A0": {
-    "Context": "000BF5A0",
-    "Code": null,
-    "Offset": "000BF5A0",
-    "DeveloperComment": "SINCE YOU WENT AWAY",
-    "CharacterLimit": 9,
-    "String": "彼女のいない教室"
-  },
-  "000BF594": {
-    "Context": "000BF594",
-    "Code": null,
-    "Offset": "000BF594",
-    "DeveloperComment": "INCIDENT",
-    "CharacterLimit": 5,
-    "String": "事件"
-  },
-  "000BF584": {
-    "Context": "000BF584",
-    "Code": null,
-    "Offset": "000BF584",
-    "DeveloperComment": "HER FEELINGS",
-    "CharacterLimit": 7,
-    "String": "彼女の事情"
-  },
-  "000BF578": {
-    "Context": "000BF578",
-    "Code": null,
-    "Offset": "000BF578",
-    "DeveloperComment": "FAR BEYOND",
-    "CharacterLimit": 5,
-    "String": "彼方へ"
-  },
-  "000BF570": {
-    "Context": "000BF570",
-    "Code": null,
-    "Offset": "000BF570",
-    "DeveloperComment": "GATE",
-    "CharacterLimit": 3,
-    "String": "門"
-  },
-  "000BF564": {
-    "Context": "000BF564",
-    "Code": null,
-    "Offset": "000BF564",
-    "DeveloperComment": "FALSE ALARM",
-    "CharacterLimit": 5,
-    "String": "虚報"
-  },
-  "000BF560": {
-    "Context": "000BF560",
-    "Code": null,
-    "Offset": "000BF560",
-    "DeveloperComment": "\"Q\"",
-    "CharacterLimit": 1,
-    "String": "『Q』"
-  },
-  "000BF554": {
-    "Context": "000BF554",
-    "Code": null,
-    "Offset": "000BF554",
-    "DeveloperComment": "CITY SCARS",
-    "CharacterLimit": 5,
-    "String": "街の傷跡"
-  },
-  "000BF548": {
-    "Context": "000BF548",
-    "Code": null,
-    "Offset": "000BF548",
-    "DeveloperComment": "TRUE VALUE",
-    "CharacterLimit": 5,
-    "String": "真価"
-  },
-  "000BF51C": {
-    "Context": "000BF51C",
-    "Code": null,
-    "Offset": "000BF51C",
-    "DeveloperComment": "BACK TO THE PARAPSYCHOLOGY RESEARCH CENTER",
-    "CharacterLimit": 21,
-    "String": "超心理学研究所、再び"
-  },
-  "000BF514": {
-    "Context": "000BF514",
-    "Code": null,
-    "Offset": "000BF514",
-    "DeveloperComment": "GUARD",
-    "CharacterLimit": 3,
-    "String": "護衛者"
-  },
-  "000BF4F0": {
-    "Context": "000BF4F0",
-    "Code": null,
-    "Offset": "000BF4F0",
-    "DeveloperComment": "SALYU AND NATSUHIKO- COOKING 101",
-    "CharacterLimit": 17,
-    "String": "サリュと夏彦のお料理教室"
-  },
-  "000BF4E0": {
-    "Context": "000BF4E0",
-    "Code": null,
-    "Offset": "000BF4E0",
-    "DeveloperComment": "MYSELF;YOURSELF",
-    "CharacterLimit": 7,
-    "String": "マイセルフ;ユアセルフ"
-  },
-  "000BF4D0": {
-    "Context": "000BF4D0",
-    "Code": null,
-    "Offset": "000BF4D0",
-    "DeveloperComment": "TAKE HER HAND",
-    "CharacterLimit": 7,
-    "String": "彼女の手を握って"
-  },
-  "000BF4BC": {
-    "Context": "000BF4BC",
-    "Code": null,
-    "Offset": "000BF4BC",
-    "DeveloperComment": "INTO THE DARKNESS",
-    "CharacterLimit": 9,
-    "String": "闇の中へ"
-  },
-  "000BF4AC": {
-    "Context": "000BF4AC",
-    "Code": null,
-    "Offset": "000BF4AC",
-    "DeveloperComment": "UNDER THE MOON",
-    "CharacterLimit": 7,
-    "String": "空に浮かぶ月の下で"
-  },
-  "000BF494": {
-    "Context": "000BF494",
-    "Code": null,
-    "Offset": "000BF494",
-    "DeveloperComment": "UNDER THE STARRY SKY",
-    "CharacterLimit": 11,
-    "String": "満天の星空の下で"
-  },
-  "000BF48C": {
-    "Context": "000BF48C",
-    "Code": null,
-    "Offset": "000BF48C",
-    "DeveloperComment": "CHORUS",
-    "CharacterLimit": 3,
-    "String": "合唱"
-  },
-  "000BF474": {
-    "Context": "000BF474",
-    "Code": null,
-    "Offset": "000BF474",
-    "DeveloperComment": "TELL ME ABOUT YOURSELF",
-    "CharacterLimit": 11,
-    "String": "テル･ミー･アバウト･ユアセルフ"
-  },
-  "000BF464": {
-    "Context": "000BF464",
-    "Code": null,
-    "Offset": "000BF464",
-    "DeveloperComment": "HIDDEN FEELINGS",
-    "CharacterLimit": 7,
-    "String": "秘めた想い"
-  },
-  "000BF458": {
-    "Context": "000BF458",
-    "Code": null,
-    "Offset": "000BF458",
-    "DeveloperComment": "WORLD'S END",
-    "CharacterLimit": 5,
-    "String": "世界の果て"
-  },
-  "000BF444": {
-    "Context": "000BF444",
-    "Code": null,
-    "Offset": "000BF444",
-    "DeveloperComment": "YUURI- SEPTEMBER 16",
-    "CharacterLimit": 9,
-    "String": "9月16日の悠里"
-  },
-  "000BF420": {
-    "Context": "000BF420",
-    "Code": null,
-    "Offset": "000BF420",
-    "DeveloperComment": "NATSUHIKO TENKAWA'S DETERMINATION",
-    "CharacterLimit": 17,
-    "String": "天川夏彦の決意"
-  },
-  "000BF410": {
-    "Context": "000BF410",
-    "Code": null,
-    "Offset": "000BF410",
-    "DeveloperComment": "POLICEMEN'S JOB",
-    "CharacterLimit": 7,
-    "String": "警官たちの仕事"
-  },
-  "000BF3F4": {
-    "Context": "000BF3F4",
-    "Code": null,
-    "Offset": "000BF3F4",
-    "DeveloperComment": "MIYOKO TENKAWA'S EMOTIONS",
-    "CharacterLimit": 13,
-    "String": "天川美夜子の感情"
-  },
-  "000BF3D4": {
-    "Context": "000BF3D4",
-    "Code": null,
-    "Offset": "000BF3D4",
-    "DeveloperComment": "SECURITY DEPARTMENT'S PURSUIT",
-    "CharacterLimit": 15,
-    "String": "保安課員の追跡"
-  },
-  "000BF3C0": {
-    "Context": "000BF3C0",
-    "Code": null,
-    "Offset": "000BF3C0",
-    "DeveloperComment": "JOURNEY OF JUSTICE",
-    "CharacterLimit": 9,
-    "String": "正義の旅"
-  },
-  "000BF3A8": {
-    "Context": "000BF3A8",
-    "Code": null,
-    "Offset": "000BF3A8",
-    "DeveloperComment": "ENA TSUBAKIYAMA'S HEART",
-    "CharacterLimit": 11,
-    "String": "椿山恵那の心"
-  },
-  "000BF394": {
-    "Context": "000BF394",
-    "Code": null,
-    "Offset": "000BF394",
-    "DeveloperComment": "JUN MORIBE'S DUTY",
-    "CharacterLimit": 9,
-    "String": "守部洵の使命"
-  },
-  "000BF378": {
-    "Context": "000BF378",
-    "Code": null,
-    "Offset": "000BF378",
-    "DeveloperComment": "MASHIRO TOBA'S ABILITIES",
-    "CharacterLimit": 13,
-    "String": "鳥羽ましろの能力"
-  },
-  "000BF354": {
-    "Context": "000BF354",
-    "Code": null,
-    "Offset": "000BF354",
-    "DeveloperComment": "LOUISE YUI SANNOMIYA'S DEDUCTION",
-    "CharacterLimit": 17,
-    "String": "三ノ宮･ルイーズ･優衣の推察"
-  },
-  "000BF348": {
-    "Context": "000BF348",
-    "Code": null,
-    "Offset": "000BF348",
-    "DeveloperComment": "ADVENTURE",
-    "CharacterLimit": 5,
-    "String": "冒険"
-  },
-  "000BF330": {
-    "Context": "000BF330",
-    "Code": null,
-    "Offset": "000BF330",
-    "DeveloperComment": "KEIJI UKITA'S REACTION",
-    "CharacterLimit": 11,
-    "String": "宇喜多佳司の反応"
-  },
-  "000BF31C": {
-    "Context": "000BF31C",
-    "Code": null,
-    "Offset": "000BF31C",
-    "DeveloperComment": "WATCHMAN'S REFUSAL",
-    "CharacterLimit": 9,
-    "String": "監視員の拒絶"
-  },
-  "000BF314": {
-    "Context": "000BF314",
-    "Code": null,
-    "Offset": "000BF314",
-    "DeveloperComment": "Q'S--",
-    "CharacterLimit": 3,
-    "String": "Qの――"
-  },
-  "000BF2F8": {
-    "Context": "000BF2F8",
-    "Code": null,
-    "Offset": "000BF2F8",
-    "DeveloperComment": "SEPTEMBER 16, AT THAT PLACE",
-    "CharacterLimit": 13,
-    "String": "9月16日、あの場所で"
-  },
-  "000BF2E8": {
-    "Context": "000BF2E8",
-    "Code": null,
-    "Offset": "000BF2E8",
-    "DeveloperComment": "THE LAST DAY",
-    "CharacterLimit": 7,
-    "String": "最後の1日"
-  },
-  "000BF2DC": {
-    "Context": "000BF2DC",
-    "Code": null,
-    "Offset": "000BF2DC",
-    "DeveloperComment": "SET FORTH",
-    "CharacterLimit": 5,
-    "String": "出発"
-  },
-  "000BF2D0": {
-    "Context": "000BF2D0",
-    "Code": null,
-    "Offset": "000BF2D0",
-    "DeveloperComment": "DAYBREAK",
-    "CharacterLimit": 5,
-    "String": "黎明"
-  },
-  "000BF2BC": {
-    "Context": "000BF2BC",
-    "Code": null,
-    "Offset": "000BF2BC",
-    "DeveloperComment": "THE TIME HAS COME",
-    "CharacterLimit": 9,
-    "String": "時は至り"
-  },
-  "000BF2B0": {
-    "Context": "000BF2B0",
-    "Code": null,
-    "Offset": "000BF2B0",
-    "DeveloperComment": "TO REALITY",
-    "CharacterLimit": 5,
-    "String": "現実へ"
-  },
-  "000BF2A8": {
-    "Context": "000BF2A8",
-    "Code": null,
-    "Offset": "000BF2A8",
-    "DeveloperComment": "PAST",
-    "CharacterLimit": 3,
-    "String": "過去"
-  },
-  "000BF284": {
-    "Context": "000BF284",
-    "Code": null,
-    "Offset": "000BF284",
-    "DeveloperComment": "EVERY SECOND TURNS INTO A MEMORY",
-    "CharacterLimit": 17,
-    "String": "それはいつしか想い出に"
-  },
-  "000BF27C": {
-    "Context": "000BF27C",
-    "Code": null,
-    "Offset": "000BF27C",
-    "DeveloperComment": "TRUTH",
-    "CharacterLimit": 3,
-    "String": "真実"
-  },
-  "000BF278": {
-    "Context": "000BF278",
-    "Code": null,
-    "Offset": "000BF278",
-    "DeveloperComment": "LIE",
-    "CharacterLimit": 1,
-    "String": "嘘"
-  },
-  "000BF260": {
-    "Context": "000BF260",
-    "Code": null,
-    "Offset": "000BF260",
-    "DeveloperComment": "Memories: Magnetic Rose",
-    "CharacterLimit": 11,
-    "String": "彼女の想い出"
-  },
-  "000BF240": {
-    "Context": "000BF240",
-    "Code": null,
-    "Offset": "000BF240",
-    "DeveloperComment": "When Cicada's Season Is Over",
-    "CharacterLimit": 15,
-    "String": "蝉時雨のやむ頃"
-  },
-  "000BF230": {
-    "Context": "000BF230",
-    "Code": null,
-    "Offset": "000BF230",
-    "DeveloperComment": "Sonata in B♭",
-    "CharacterLimit": 7,
-    "String": "B♭のソナタ"
-  },
-  "000BF210": {
-    "Context": "000BF210",
-    "Code": null,
-    "Offset": "000BF210",
-    "DeveloperComment": "Odyssey in the Sky With Denpa",
-    "CharacterLimit": 15,
-    "String": "電波オデッセイ"
-  },
-  "000BF204": {
-    "Context": "000BF204",
-    "Code": null,
-    "Offset": "000BF204",
-    "DeveloperComment": "Eternity",
-    "CharacterLimit": 5,
-    "String": "永遠"
-  },
-  "000BF1FC": {
-    "Context": "000BF1FC",
-    "Code": null,
-    "Offset": "000BF1FC",
-    "DeveloperComment": "MIND",
-    "CharacterLimit": 3,
-    "String": "心"
-  },
-  "000BF1EC": {
-    "Context": "000BF1EC",
-    "Code": null,
-    "Offset": "000BF1EC",
-    "DeveloperComment": "ETERNAL MEMORY",
-    "CharacterLimit": 7,
-    "String": "悠久の記憶"
-  },
-  "000BF1CC": {
-    "Context": "000BF1CC",
-    "Code": null,
-    "Offset": "000BF1CC",
-    "DeveloperComment": "IF YOU CAN DO IT ALL OVER AGAIN",
-    "CharacterLimit": 15,
-    "String": "もしもやり直せるなら"
-  },
-  "000BF1B0": {
-    "Context": "000BF1B0",
-    "Code": null,
-    "Offset": "000BF1B0",
-    "DeveloperComment": "WHY CAN'T YOU TRUST OTHERS",
-    "CharacterLimit": 13,
-    "String": "どうして人を信じられないの"
-  },
-  "000BF194": {
-    "Context": "000BF194",
-    "Code": null,
-    "Offset": "000BF194",
-    "DeveloperComment": "I DIDN'T WANT TO DO THIS",
-    "CharacterLimit": 13,
-    "String": "こんな事はしたくなかった"
-  },
-  "000BF17C": {
-    "Context": "000BF17C",
-    "Code": null,
-    "Offset": "000BF17C",
-    "DeveloperComment": "PLEASE DON'T GIVE UP",
-    "CharacterLimit": 11,
-    "String": "お願い、諦めないで"
-  },
-  "000BF170": {
-    "Context": "000BF170",
-    "Code": null,
-    "Offset": "000BF170",
-    "DeveloperComment": "SHATTERED",
-    "CharacterLimit": 5,
-    "String": "破砕"
-  },
-  "000BF168": {
-    "Context": "000BF168",
-    "Code": null,
-    "Offset": "000BF168",
-    "DeveloperComment": "RESOLVE",
-    "CharacterLimit": 3,
-    "String": "覚悟"
-  },
-  "000BF158": {
-    "Context": "000BF158",
-    "Code": null,
-    "Offset": "000BF158",
-    "DeveloperComment": "PARTING KISS",
-    "CharacterLimit": 7,
-    "String": "別れの口づけ"
-  },
-  "000BF150": {
-    "Context": "000BF150",
-    "Code": null,
-    "Offset": "000BF150",
-    "DeveloperComment": "MONSTER",
-    "CharacterLimit": 3,
-    "String": "怪物"
-  },
-  "000BF148": {
-    "Context": "000BF148",
-    "Code": null,
-    "Offset": "000BF148",
-    "DeveloperComment": "PRAYER",
-    "CharacterLimit": 3,
-    "String": "祈り"
-  },
-  "000BF13C": {
-    "Context": "000BF13C",
-    "Code": null,
-    "Offset": "000BF13C",
-    "DeveloperComment": "EPILOGUE",
-    "CharacterLimit": 5,
-    "String": "エピローグ"
-  },
-  "000BF128": {
-    "Context": "000BF128",
-    "Code": null,
-    "Offset": "000BF128",
-    "DeveloperComment": "Prologue / EPILOGUE",
-    "CharacterLimit": 9,
-    "String": "Prologue / エピローグ"
-  },
-  "000BF118": {
-    "Context": "000BF118",
-    "Code": null,
-    "Offset": "000BF118",
-    "DeveloperComment": "Format / ORDER",
-    "CharacterLimit": 7,
-    "String": "Format / 命令"
-  },
-  "000BF100": {
-    "Context": "000BF100",
-    "Code": null,
-    "Offset": "000BF100",
-    "DeveloperComment": "Dosage / SUDDEN CHANGE",
-    "CharacterLimit": 11,
-    "String": "Dosage / 異変"
-  },
-  "000BF0EC": {
-    "Context": "000BF0EC",
-    "Code": null,
-    "Offset": "000BF0EC",
-    "DeveloperComment": "Encounter / REUNION",
-    "CharacterLimit": 9,
-    "String": "Encounter / 再会"
-  },
-  "000BF0D8": {
-    "Context": "000BF0D8",
-    "Code": null,
-    "Offset": "000BF0D8",
-    "DeveloperComment": "Action / DEADLOCK",
-    "CharacterLimit": 9,
-    "String": "Action / 停止"
-  },
-  "000BF0C4": {
-    "Context": "000BF0C4",
-    "Code": null,
-    "Offset": "000BF0C4",
-    "DeveloperComment": "Search / BAFFLEMENT",
-    "CharacterLimit": 9,
-    "String": "Search / 困惑"
-  },
-  "000BF0AC": {
-    "Context": "000BF0AC",
-    "Code": null,
-    "Offset": "000BF0AC",
-    "DeveloperComment": "Flashback / AWAKENING",
-    "CharacterLimit": 11,
-    "String": "Flashback / 覚醒"
-  },
-  "000BF098": {
-    "Context": "000BF098",
-    "Code": null,
-    "Offset": "000BF098",
-    "DeveloperComment": "Terror / ERASURE",
-    "CharacterLimit": 9,
-    "String": "Terror / 消去"
-  },
-  "000BF084": {
-    "Context": "000BF084",
-    "Code": null,
-    "Offset": "000BF084",
-    "DeveloperComment": "Recollect / FORGERY",
-    "CharacterLimit": 9,
-    "String": "Recollect / 改竄"
-  },
-  "000BF068": {
-    "Context": "000BF068",
-    "Code": null,
-    "Offset": "000BF068",
-    "DeveloperComment": "Apprehensions / MISGIVINGS",
-    "CharacterLimit": 13,
-    "String": "Apprehensions / 危惧"
-  },
-  "000BF04C": {
-    "Context": "000BF04C",
-    "Code": null,
-    "Offset": "000BF04C",
-    "DeveloperComment": "Message / PRIVATE MESSAGE",
-    "CharacterLimit": 13,
-    "String": "Message / 私信"
-  },
-  "000BF03C": {
-    "Context": "000BF03C",
-    "Code": null,
-    "Offset": "000BF03C",
-    "DeveloperComment": "Strike / CLASH",
-    "CharacterLimit": 7,
-    "String": "Strike / 激突"
-  },
-  "000BF024": {
-    "Context": "000BF024",
-    "Code": null,
-    "Offset": "000BF024",
-    "DeveloperComment": "Explosive / EXPLOSION",
-    "CharacterLimit": 11,
-    "String": "Explosive / 爆発"
-  },
-  "000BF010": {
-    "Context": "000BF010",
-    "Code": null,
-    "Offset": "000BF010",
-    "DeveloperComment": "Doubt / IRRITATION",
-    "CharacterLimit": 9,
-    "String": "Doubt / 焦燥"
-  },
-  "000BF000": {
-    "Context": "000BF000",
-    "Code": null,
-    "Offset": "000BF000",
-    "DeveloperComment": "Sign / ANXIETY",
-    "CharacterLimit": 7,
-    "String": "Sign / 不安"
-  },
-  "000BEFF0": {
-    "Context": "000BEFF0",
-    "Code": null,
-    "Offset": "000BEFF0",
-    "DeveloperComment": "Crisis / PANIC",
-    "CharacterLimit": 7,
-    "String": "Crisis / 狼狽"
-  },
-  "000BEFD8": {
-    "Context": "000BEFD8",
-    "Code": null,
-    "Offset": "000BEFD8",
-    "DeveloperComment": "Support / SUSPICIONS",
-    "CharacterLimit": 11,
-    "String": "Support / 疑心"
-  },
-  "000BEFC0": {
-    "Context": "000BEFC0",
-    "Code": null,
-    "Offset": "000BEFC0",
-    "DeveloperComment": "Danger / FALSIFICATION",
-    "CharacterLimit": 11,
-    "String": "Danger / 捏造"
-  },
-  "000BEFAC": {
-    "Context": "000BEFAC",
-    "Code": null,
-    "Offset": "000BEFAC",
-    "DeveloperComment": "Request / APPEAL",
-    "CharacterLimit": 9,
-    "String": "Request / 要請"
-  },
-  "000BEF94": {
-    "Context": "000BEF94",
-    "Code": null,
-    "Offset": "000BEF94",
-    "DeveloperComment": "Determination / OMEN",
-    "CharacterLimit": 11,
-    "String": "Determination / 予兆"
-  },
-  "000BEF80": {
-    "Context": "000BEF80",
-    "Code": null,
-    "Offset": "000BEF80",
-    "DeveloperComment": "Heart / QUESTION",
-    "CharacterLimit": 9,
-    "String": "Heart / 疑問"
-  },
-  "000BEF68": {
-    "Context": "000BEF68",
-    "Code": null,
-    "Offset": "000BEF68",
-    "DeveloperComment": "Resuscitate / REVIVAL",
-    "CharacterLimit": 11,
-    "String": "Resuscitate / 蘇生"
-  },
-  "000BEF50": {
-    "Context": "000BEF50",
-    "Code": null,
-    "Offset": "000BEF50",
-    "DeveloperComment": "Violence / RESTRAINT",
-    "CharacterLimit": 11,
-    "String": "Violence / 制止"
-  },
-  "000BEF38": {
-    "Context": "000BEF38",
-    "Code": null,
-    "Offset": "000BEF38",
-    "DeveloperComment": "Cure / UNDERSTANDING",
-    "CharacterLimit": 11,
-    "String": "Cure / 理解"
-  },
-  "000BEF20": {
-    "Context": "000BEF20",
-    "Code": null,
-    "Offset": "000BEF20",
-    "DeveloperComment": "Struggle / OBSERVING",
-    "CharacterLimit": 11,
-    "String": "Struggle / 傍観"
-  },
-  "000BEF08": {
-    "Context": "000BEF08",
-    "Code": null,
-    "Offset": "000BEF08",
-    "DeveloperComment": "Astonishment / SHOCK",
-    "CharacterLimit": 11,
-    "String": "Astonishment / 驚愕"
-  },
-  "000BEEF4": {
-    "Context": "000BEEF4",
-    "Code": null,
-    "Offset": "000BEEF4",
-    "DeveloperComment": "Despair / DECISION",
-    "CharacterLimit": 9,
-    "String": "Despair / 決意"
-  },
-  "000BEEE0": {
-    "Context": "000BEEE0",
-    "Code": null,
-    "Offset": "000BEEE0",
-    "DeveloperComment": "Epilogue / PROLOGUE",
-    "CharacterLimit": 9,
-    "String": "Epilogue / プロローグ"
-  },
-  "000BEEDC": {
-    "Context": "000BEEDC",
-    "Code": null,
-    "Offset": "000BEEDC",
-    "DeveloperComment": "√",
-    "CharacterLimit": 1,
-    "String": "√"
-  },
-  "000BEEC4": {
-    "Context": "000BEEC4",
-    "Code": null,
-    "Offset": "000BEEC4",
-    "DeveloperComment": "NATSUHIKO'S PERSPECTIVE",
-    "CharacterLimit": 11,
-    "String": "夏彦の視点"
-  },
-  "000BEEAC": {
-    "Context": "000BEEAC",
-    "Code": null,
-    "Offset": "000BEEAC",
-    "DeveloperComment": "Watase's Perspective",
-    "CharacterLimit": 11,
-    "String": "View of Watase"
-  },
-  "000BEEA0": {
-    "Context": "000BEEA0",
-    "Code": null,
-    "Offset": "000BEEA0",
-    "DeveloperComment": "TELEPATHY",
-    "CharacterLimit": 5,
-    "String": "テレパシー"
-  },
-  "000BEE98": {
-    "Context": "000BEE98",
-    "Code": null,
-    "Offset": "000BEE98",
-    "DeveloperComment": "Friends",
-    "CharacterLimit": 3,
-    "String": "Friends"
-  },
-  "000BEE88": {
-    "Context": "000BEE88",
-    "Code": null,
-    "Offset": "000BEE88",
-    "DeveloperComment": "AFTER PARTING",
-    "CharacterLimit": 7,
-    "String": "別れの後"
-  },
-  "000BEE78": {
-    "Context": "000BEE78",
-    "Code": null,
-    "Offset": "000BEE78",
-    "DeveloperComment": "Yuuri Kotono",
-    "CharacterLimit": 7,
-    "String": "琴乃悠里"
-  },
-  "000BEE64": {
-    "Context": "000BEE64",
-    "Code": null,
-    "Offset": "000BEE64",
-    "DeveloperComment": "Heart of Darkness",
-    "CharacterLimit": 9,
-    "String": "闇の奥"
-  },
-  "000BEE50": {
-    "Context": "000BEE50",
-    "Code": null,
-    "Offset": "000BEE50",
-    "DeveloperComment": "The Night She Died",
-    "CharacterLimit": 9,
-    "String": "彼女が死んだ夜"
-  },
-  "000BEE3C": {
-    "Context": "000BEE3C",
-    "Code": null,
-    "Offset": "000BEE3C",
-    "DeveloperComment": "Ma-in: The Demon",
-    "CharacterLimit": 9,
-    "String": "魔人"
-  },
-  "000BEE18": {
-    "Context": "000BEE18",
-    "Code": null,
-    "Offset": "000BEE18",
-    "DeveloperComment": "Ushinawareru Monogatari: Lost Story",
-    "CharacterLimit": 17,
-    "String": "失われる物語"
-  },
-  "000BEDF0": {
-    "Context": "000BEDF0",
-    "Code": null,
-    "Offset": "000BEDF0",
-    "DeveloperComment": "Natsu no Replica: Replaceable Summer",
-    "CharacterLimit": 19,
-    "String": "夏のレプリカ"
-  },
-  "000BEDDC": {
-    "Context": "000BEDDC",
-    "Code": null,
-    "Offset": "000BEDDC",
-    "DeveloperComment": "Sorekara: And Then",
-    "CharacterLimit": 9,
-    "String": "それから"
-  },
-  "000BEDC4": {
-    "Context": "000BEDC4",
-    "Code": null,
-    "Offset": "000BEDC4",
-    "DeveloperComment": "For Whom the Bell Tolls",
-    "CharacterLimit": 11,
-    "String": "誰が為に鐘は鳴る"
-  },
-  "000BED94": {
-    "Context": "000BED94",
-    "Code": null,
-    "Offset": "000BED94",
-    "DeveloperComment": "Towa mo Nakaba wo Sugite: Half Past Eternity",
-    "CharacterLimit": 23,
-    "String": "永遠も半ばを過ぎて"
-  },
-  "000BED84": {
-    "Context": "000BED84",
-    "Code": null,
-    "Offset": "000BED84",
-    "DeveloperComment": "Towards Zero",
-    "CharacterLimit": 7,
-    "String": "ゼロの時間へ"
-  },
-  "000BED6C": {
-    "Context": "000BED6C",
-    "Code": null,
-    "Offset": "000BED6C",
-    "DeveloperComment": "TRANSCENDING REALITY",
-    "CharacterLimit": 11,
-    "String": "現実を超えて"
-  },
-  "000BED64": {
-    "Context": "000BED64",
-    "Code": null,
-    "Offset": "000BED64",
-    "DeveloperComment": "Nobody",
-    "CharacterLimit": 3,
-    "String": "Nobady"
-  },
-  "000BED48": {
-    "Context": "000BED48",
-    "Code": null,
-    "Offset": "000BED48",
-    "DeveloperComment": "Phantom of the nightmare",
-    "CharacterLimit": 13,
-    "String": "Phantom of the worst"
-  },
-  "000BED38": {
-    "Context": "000BED38",
-    "Code": null,
-    "Offset": "000BED38",
-    "DeveloperComment": "MANY ANSWERS",
-    "CharacterLimit": 7,
-    "String": "数々の答え"
-  },
-  "000BED2C": {
-    "Context": "000BED2C",
-    "Code": null,
-    "Offset": "000BED2C",
-    "DeveloperComment": "CONFESSION",
-    "CharacterLimit": 5,
-    "String": "告白"
-  },
-  "000BED20": {
-    "Context": "000BED20",
-    "Code": null,
-    "Offset": "000BED20",
-    "DeveloperComment": "Prepared",
-    "CharacterLimit": 5,
-    "String": "Prepared"
-  },
-  "000BED10": {
-    "Context": "000BED10",
-    "Code": null,
-    "Offset": "000BED10",
-    "DeveloperComment": "Watase Kasasagi",
-    "CharacterLimit": 7,
-    "String": "笠鷺渡瀬"
-  },
-  "000BED08": {
-    "Context": "000BED08",
-    "Code": null,
-    "Offset": "000BED08",
-    "DeveloperComment": "Reverie",
-    "CharacterLimit": 3,
-    "String": "夢"
-  },
-  "000BECFC": {
-    "Context": "000BECFC",
-    "Code": null,
-    "Offset": "000BECFC",
-    "DeveloperComment": "Goin' Home",
-    "CharacterLimit": 5,
-    "String": "家路"
-  },
-  "000BECD0": {
-    "Context": "000BECD0",
-    "Code": null,
-    "Offset": "000BECD0",
-    "DeveloperComment": "Das Lied der Trennung: The Song of Parting",
-    "CharacterLimit": 21,
-    "String": "別離の歌"
-  },
-  "000BECC0": {
-    "Context": "000BECC0",
-    "Code": null,
-    "Offset": "000BECC0",
-    "DeveloperComment": "Eroica: Hero",
-    "CharacterLimit": 7,
-    "String": "英雄"
-  },
-  "000BECA8": {
-    "Context": "000BECA8",
-    "Code": null,
-    "Offset": "000BECA8",
-    "DeveloperComment": "Dies Irae: Day of Wrath",
-    "CharacterLimit": 11,
-    "String": "怒りの日"
-  },
-  "000BEC68": {
-    "Context": "000BEC68",
-    "Code": null,
-    "Offset": "000BEC68",
-    "DeveloperComment": "Falsche Welt, dir trau ich nicht: False world, I trust thee not",
-    "CharacterLimit": 31,
-    "String": "悪しき世よ、我は汝に頼まじ"
-  },
-  "000BEC40": {
-    "Context": "000BEC40",
-    "Code": null,
-    "Offset": "000BEC40",
-    "DeveloperComment": "Kinderszenen: Scenes from Childhood",
-    "CharacterLimit": 19,
-    "String": "子供の情景"
-  },
-  "000BEC28": {
-    "Context": "000BEC28",
-    "Code": null,
-    "Offset": "000BEC28",
-    "DeveloperComment": "Baba Yaga: The Witch",
-    "CharacterLimit": 11,
-    "String": "バーバヤガー"
-  },
-  "000BEC04": {
-    "Context": "000BEC04",
-    "Code": null,
-    "Offset": "000BEC04",
-    "DeveloperComment": "Die Zauberfloete: The Magic Flute",
-    "CharacterLimit": 17,
-    "String": "魔笛"
-  },
-  "000BEBF8": {
-    "Context": "000BEBF8",
-    "Code": null,
-    "Offset": "000BEBF8",
-    "DeveloperComment": "ONCE AGAIN",
-    "CharacterLimit": 5,
-    "String": "そして再び"
-  },
-  "000BEBE0": {
-    "Context": "000BEBE0",
-    "Code": null,
-    "Offset": "000BEBE0",
-    "DeveloperComment": "Sarabande Divergents: A",
-    "CharacterLimit": 11,
-    "String": "迷走するサラバンド:A"
-  },
-  "000BEBC8": {
-    "Context": "000BEBC8",
-    "Code": null,
-    "Offset": "000BEBC8",
-    "DeveloperComment": "Sarabande Divergents: B",
-    "CharacterLimit": 11,
-    "String": "迷走するサラバンド:B"
-  },
-  "000BEBB0": {
-    "Context": "000BEBB0",
-    "Code": null,
-    "Offset": "000BEBB0",
-    "DeveloperComment": "Sarabande Divergents: C",
-    "CharacterLimit": 11,
-    "String": "迷走するサラバンド:C"
-  },
-  "000BEB98": {
-    "Context": "000BEB98",
-    "Code": null,
-    "Offset": "000BEB98",
-    "DeveloperComment": "Sarabande Divergents: D",
-    "CharacterLimit": 11,
-    "String": "迷走するサラバンド:D"
-  },
-  "000BEB64": {
-    "Context": "000BEB64",
-    "Code": null,
-    "Offset": "000BEB64",
-    "DeveloperComment": "De Temporum Fine Comoedia: Play At the End of Time",
-    "CharacterLimit": 25,
-    "String": "時の終わりの劇"
-  },
-  "000BEB48": {
-    "Context": "000BEB48",
-    "Code": null,
-    "Offset": "000BEB48",
-    "DeveloperComment": "Awake, a Voice Calls to Us",
-    "CharacterLimit": 13,
-    "String": "目覚めよ、と呼ぶ声が聞こえ"
-  },
-  "000BEB40": {
-    "Context": "000BEB40",
-    "Code": null,
-    "Offset": "000BEB40",
-    "DeveloperComment": "Partner",
-    "CharacterLimit": 3,
-    "String": "相棒"
-  },
-  "000BEB2C": {
-    "Context": "000BEB2C",
-    "Code": null,
-    "Offset": "000BEB2C",
-    "DeveloperComment": "Lady in the dark",
-    "CharacterLimit": 9,
-    "String": "Lady in the dark"
-  },
-  "000BEB08": {
-    "Context": "000BEB08",
-    "Code": null,
-    "Offset": "000BEB08",
-    "DeveloperComment": "NINE YEARS WORTH OF CONVERSATION",
-    "CharacterLimit": 17,
-    "String": "9年分の会話"
-  },
-  "000BEAFC": {
-    "Context": "000BEAFC",
-    "Code": null,
-    "Offset": "000BEAFC",
-    "DeveloperComment": "Defragment",
-    "CharacterLimit": 5,
-    "String": "デフラグメント"
-  },
-  "000BEAF0": {
-    "Context": "000BEAF0",
-    "Code": null,
-    "Offset": "000BEAF0",
-    "DeveloperComment": "Conflict",
-    "CharacterLimit": 5,
-    "String": "コンフリクト"
-  },
-  "000BEAE4": {
-    "Context": "000BEAE4",
-    "Code": null,
-    "Offset": "000BEAE4",
-    "DeveloperComment": "Interlace",
-    "CharacterLimit": 5,
-    "String": "インタレース"
-  },
-  "000BEAD0": {
-    "Context": "000BEAD0",
-    "Code": null,
-    "Offset": "000BEAD0",
-    "DeveloperComment": "Garbage Collection",
-    "CharacterLimit": 9,
-    "String": "ガーベージ･コレクション"
-  },
-  "000BEAC8": {
-    "Context": "000BEAC8",
-    "Code": null,
-    "Offset": "000BEAC8",
-    "DeveloperComment": "Enter",
-    "CharacterLimit": 3,
-    "String": "エンター"
-  },
-  "000BEABC": {
-    "Context": "000BEABC",
-    "Code": null,
-    "Offset": "000BEABC",
-    "DeveloperComment": "Debug: A",
-    "CharacterLimit": 5,
-    "String": "デバッグ:A"
-  },
-  "000BEAB0": {
-    "Context": "000BEAB0",
-    "Code": null,
-    "Offset": "000BEAB0",
-    "DeveloperComment": "Debug: B",
-    "CharacterLimit": 5,
-    "String": "デバッグ:B"
-  },
-  "000BEAA4": {
-    "Context": "000BEAA4",
-    "Code": null,
-    "Offset": "000BEAA4",
-    "DeveloperComment": "Debug: C",
-    "CharacterLimit": 5,
-    "String": "デバッグ:C"
-  },
-  "000BEA9C": {
-    "Context": "000BEA9C",
-    "Code": null,
-    "Offset": "000BEA9C",
-    "DeveloperComment": "Commit",
-    "CharacterLimit": 3,
-    "String": "コミット"
-  },
-  "000BEA8C": {
-    "Context": "000BEA8C",
-    "Code": null,
-    "Offset": "000BEA8C",
-    "DeveloperComment": "Terabyte Disc",
-    "CharacterLimit": 7,
-    "String": "テラバイトディスク"
-  },
-  "000BEA84": {
-    "Context": "000BEA84",
-    "Code": null,
-    "Offset": "000BEA84",
-    "DeveloperComment": "Program",
-    "CharacterLimit": 3,
-    "String": "プログラム"
-  },
-  "000BEA7C": {
-    "Context": "000BEA7C",
-    "Code": null,
-    "Offset": "000BEA7C",
-    "DeveloperComment": "Ether",
-    "CharacterLimit": 3,
-    "String": "イーサ"
-  },
-  "000BEA64": {
-    "Context": "000BEA64",
-    "Code": null,
-    "Offset": "000BEA64",
-    "DeveloperComment": "ENEMY, ENEMY, AND ENEMY",
-    "CharacterLimit": 11,
-    "String": "敵と敵と敵"
-  },
-  "000BEA5C": {
-    "Context": "000BEA5C",
-    "Code": null,
-    "Offset": "000BEA5C",
-    "DeveloperComment": "LOOMING",
-    "CharacterLimit": 3,
-    "String": "迫り来るモノ"
-  },
-  "000BEA48": {
-    "Context": "000BEA48",
-    "Code": null,
-    "Offset": "000BEA48",
-    "DeveloperComment": "Overlapping crises",
-    "CharacterLimit": 9,
-    "String": "Overlap crisis"
-  },
-  "000BEA2C": {
-    "Context": "000BEA2C",
-    "Code": null,
-    "Offset": "000BEA2C",
-    "DeveloperComment": "KILL ONE, SAVE A THOUSAND",
-    "CharacterLimit": 13,
-    "String": "一殺多生"
-  },
-  "000BEA10": {
-    "Context": "000BEA10",
-    "Code": null,
-    "Offset": "000BEA10",
-    "DeveloperComment": "BETWEEN MALICE AND DECEIT",
-    "CharacterLimit": 13,
-    "String": "Believe that"
-  },
-  "000BEA04": {
-    "Context": "000BEA04",
-    "Code": null,
-    "Offset": "000BEA04",
-    "DeveloperComment": "Jun Moribe",
-    "CharacterLimit": 5,
-    "String": "守部洵"
-  },
-  "000BE9E4": {
-    "Context": "000BE9E4",
-    "Code": null,
-    "Offset": "000BE9E4",
-    "DeveloperComment": "(I Can't Get No) Satisfaction",
-    "CharacterLimit": 15,
-    "String": "サティスファクション"
-  },
-  "000BE9CC": {
-    "Context": "000BE9CC",
-    "Code": null,
-    "Offset": "000BE9CC",
-    "DeveloperComment": "Holding Out for a Hero",
-    "CharacterLimit": 11,
-    "String": "ヒーロー"
-  },
-  "000BE9C4": {
-    "Context": "000BE9C4",
-    "Code": null,
-    "Offset": "000BE9C4",
-    "DeveloperComment": "Life",
-    "CharacterLimit": 3,
-    "String": "ライフ"
-  },
-  "000BE9AC": {
-    "Context": "000BE9AC",
-    "Code": null,
-    "Offset": "000BE9AC",
-    "DeveloperComment": "Fight Fire With Fire",
-    "CharacterLimit": 11,
-    "String": "ファイト･ファイア･ウィズ･ファイア"
-  },
-  "000BE98C": {
-    "Context": "000BE98C",
-    "Code": null,
-    "Offset": "000BE98C",
-    "DeveloperComment": "The Dark Side of the Moon: A",
-    "CharacterLimit": 15,
-    "String": "ダークサイド･オブ･ザ･ムーン:A"
-  },
-  "000BE96C": {
-    "Context": "000BE96C",
-    "Code": null,
-    "Offset": "000BE96C",
-    "DeveloperComment": "The Dark Side of the Moon: B",
-    "CharacterLimit": 15,
-    "String": "ダークサイド･オブ･ザ･ムーン:B"
-  },
-  "000BE94C": {
-    "Context": "000BE94C",
-    "Code": null,
-    "Offset": "000BE94C",
-    "DeveloperComment": "The Dark Side of the Moon: C",
-    "CharacterLimit": 15,
-    "String": "ダークサイド･オブ･ザ･ムーン:C"
-  },
-  "000BE92C": {
-    "Context": "000BE92C",
-    "Code": null,
-    "Offset": "000BE92C",
-    "DeveloperComment": "The Dark Side of the Moon: D",
-    "CharacterLimit": 15,
-    "String": "ダークサイド･オブ･ザ･ムーン:D"
-  },
-  "000BE920": {
-    "Context": "000BE920",
-    "Code": null,
-    "Offset": "000BE920",
-    "DeveloperComment": "Crossroads",
-    "CharacterLimit": 5,
-    "String": "クロスロード"
-  },
-  "000BE908": {
-    "Context": "000BE908",
-    "Code": null,
-    "Offset": "000BE908",
-    "DeveloperComment": "Sympathy for the Devil",
-    "CharacterLimit": 11,
-    "String": "シンパシー･フォー･ザ･デビル"
-  },
-  "000BE8FC": {
-    "Context": "000BE8FC",
-    "Code": null,
-    "Offset": "000BE8FC",
-    "DeveloperComment": "Born to Run",
-    "CharacterLimit": 5,
-    "String": "ボーン･トゥ･ラン"
-  },
-  "000BE8E8": {
-    "Context": "000BE8E8",
-    "Code": null,
-    "Offset": "000BE8E8",
-    "DeveloperComment": "Bohemian Rhapsody",
-    "CharacterLimit": 9,
-    "String": "ボヘミアン･ラプソディ"
-  },
-  "000BE8D8": {
-    "Context": "000BE8D8",
-    "Code": null,
-    "Offset": "000BE8D8",
-    "DeveloperComment": "Ena Tsubakiyama",
-    "CharacterLimit": 7,
-    "String": "椿山恵那"
-  },
-  "000BE8C4": {
-    "Context": "000BE8C4",
-    "Code": null,
-    "Offset": "000BE8C4",
-    "DeveloperComment": "Song for My Father",
-    "CharacterLimit": 9,
-    "String": "ソング･フォー･マイファザー"
-  },
-  "000BE8A4": {
-    "Context": "000BE8A4",
-    "Code": null,
-    "Offset": "000BE8A4",
-    "DeveloperComment": "Ding-Dong! The Witch Is Dead",
-    "CharacterLimit": 15,
-    "String": "ウィッチ･イズ･デッド"
-  },
-  "000BE898": {
-    "Context": "000BE898",
-    "Code": null,
-    "Offset": "000BE898",
-    "DeveloperComment": "School Days",
-    "CharacterLimit": 5,
-    "String": "スクール･デイズ"
-  },
-  "000BE88C": {
-    "Context": "000BE88C",
-    "Code": null,
-    "Offset": "000BE88C",
-    "DeveloperComment": "In the Dark",
-    "CharacterLimit": 5,
-    "String": "イン･ザ･ダーク"
-  },
-  "000BE87C": {
-    "Context": "000BE87C",
-    "Code": null,
-    "Offset": "000BE87C",
-    "DeveloperComment": "Body and Soul",
-    "CharacterLimit": 7,
-    "String": "ボディ･アンド･ソウル"
-  },
-  "000BE870": {
-    "Context": "000BE870",
-    "Code": null,
-    "Offset": "000BE870",
-    "DeveloperComment": "Work Song",
-    "CharacterLimit": 5,
-    "String": "ワーク･ソング"
-  },
-  "000BE854": {
-    "Context": "000BE854",
-    "Code": null,
-    "Offset": "000BE854",
-    "DeveloperComment": "Ev'ry Time We Say Goodbye",
-    "CharacterLimit": 13,
-    "String": "エヴリタイム･ウィ･セイ･グッバイ"
-  },
-  "000BE848": {
-    "Context": "000BE848",
-    "Code": null,
-    "Offset": "000BE848",
-    "DeveloperComment": "MOVING TIME",
-    "CharacterLimit": 5,
-    "String": "歩き出す時"
-  },
-  "000BE838": {
-    "Context": "000BE838",
-    "Code": null,
-    "Offset": "000BE838",
-    "DeveloperComment": "Out of order",
-    "CharacterLimit": 7,
-    "String": "Out of order"
-  },
-  "000BE820": {
-    "Context": "000BE820",
-    "Code": null,
-    "Offset": "000BE820",
-    "DeveloperComment": "Louise Yui Sannomiya",
-    "CharacterLimit": 11,
-    "String": "三ノ宮･ルイーズ･優衣"
-  },
-  "000BE814": {
-    "Context": "000BE814",
-    "Code": null,
-    "Offset": "000BE814",
-    "DeveloperComment": "Rapunzel",
-    "CharacterLimit": 5,
-    "String": "ラプンツェル"
-  },
-  "000BE7F8": {
-    "Context": "000BE7F8",
-    "Code": null,
-    "Offset": "000BE7F8",
-    "DeveloperComment": "The Girl Who Was Plugged In",
-    "CharacterLimit": 13,
-    "String": "接続された女"
-  },
-  "000BE7E0": {
-    "Context": "000BE7E0",
-    "Code": null,
-    "Offset": "000BE7E0",
-    "DeveloperComment": "Methuselah's Children",
-    "CharacterLimit": 11,
-    "String": "メトセラの子"
-  },
-  "000BE7D0": {
-    "Context": "000BE7D0",
-    "Code": null,
-    "Offset": "000BE7D0",
-    "DeveloperComment": "Childhood's End",
-    "CharacterLimit": 7,
-    "String": "幼年期の終わり"
-  },
-  "000BE7B8": {
-    "Context": "000BE7B8",
-    "Code": null,
-    "Offset": "000BE7B8",
-    "DeveloperComment": "The Door into Summer",
-    "CharacterLimit": 11,
-    "String": "夏への扉"
-  },
-  "000BE7AC": {
-    "Context": "000BE7AC",
-    "Code": null,
-    "Offset": "000BE7AC",
-    "DeveloperComment": "Watchers",
-    "CharacterLimit": 5,
-    "String": "ウォッチャーズ"
-  },
-  "000BE798": {
-    "Context": "000BE798",
-    "Code": null,
-    "Offset": "000BE798",
-    "DeveloperComment": "The End of the Road",
-    "CharacterLimit": 9,
-    "String": "旅路の果て"
-  },
-  "000BE77C": {
-    "Context": "000BE77C",
-    "Code": null,
-    "Offset": "000BE77C",
-    "DeveloperComment": "The Only Neat Thing to Do",
-    "CharacterLimit": 13,
-    "String": "たったひとつの冴えたやりかた"
-  },
-  "000BE76C": {
-    "Context": "000BE76C",
-    "Code": null,
-    "Offset": "000BE76C",
-    "DeveloperComment": "Prison Legend",
-    "CharacterLimit": 7,
-    "String": "独房ファンタジア"
-  },
-  "000BE75C": {
-    "Context": "000BE75C",
-    "Code": null,
-    "Offset": "000BE75C",
-    "DeveloperComment": "MIYOKO TENKAWA",
-    "CharacterLimit": 7,
-    "String": "天川美夜子"
-  },
-  "000BE750": {
-    "Context": "000BE750",
-    "Code": null,
-    "Offset": "000BE750",
-    "DeveloperComment": "Lunatique",
-    "CharacterLimit": 5,
-    "String": "Lunatique"
-  },
-  "000BE744": {
-    "Context": "000BE744",
-    "Code": null,
-    "Offset": "000BE744",
-    "DeveloperComment": "INFORMATION",
-    "CharacterLimit": 5,
-    "String": "情報"
-  },
-  "000BE734": {
-    "Context": "000BE734",
-    "Code": null,
-    "Offset": "000BE734",
-    "DeveloperComment": "Heart and pain",
-    "CharacterLimit": 7,
-    "String": "Heart and pain"
-  },
-  "000BE720": {
-    "Context": "000BE720",
-    "Code": null,
-    "Offset": "000BE720",
-    "DeveloperComment": "PURPOSE OF POWER",
-    "CharacterLimit": 9,
-    "String": "力の使途"
-  },
-  "000BE718": {
-    "Context": "000BE718",
-    "Code": null,
-    "Offset": "000BE718",
-    "DeveloperComment": "LOCKUP",
-    "CharacterLimit": 3,
-    "String": "ロック･アップ"
-  },
-  "000BE70C": {
-    "Context": "000BE70C",
-    "Code": null,
-    "Offset": "000BE70C",
-    "DeveloperComment": "Time trick",
-    "CharacterLimit": 5,
-    "String": "Time trick"
-  },
-  "000BE704": {
-    "Context": "000BE704",
-    "Code": null,
-    "Offset": "000BE704",
-    "DeveloperComment": "MESSAGE",
-    "CharacterLimit": 3,
-    "String": "メッセージ"
-  },
-  "000BE6EC": {
-    "Context": "000BE6EC",
-    "Code": null,
-    "Offset": "000BE6EC",
-    "DeveloperComment": "Raven's determination",
-    "CharacterLimit": 11,
-    "String": "Raven's determination"
-  },
-  "000BE6D8": {
-    "Context": "000BE6D8",
-    "Code": null,
-    "Offset": "000BE6D8",
-    "DeveloperComment": "Kazami Tachibana",
-    "CharacterLimit": 9,
-    "String": "橘風見"
-  },
-  "000BE6B4": {
-    "Context": "000BE6B4",
-    "Code": null,
-    "Offset": "000BE6B4",
-    "DeveloperComment": "Concerto du vent: Concerto for wind",
-    "CharacterLimit": 17,
-    "String": "風のコンチェルト"
-  },
-  "000BE6AC": {
-    "Context": "000BE6AC",
-    "Code": null,
-    "Offset": "000BE6AC",
-    "DeveloperComment": "Requiem",
-    "CharacterLimit": 3,
-    "String": "レクイエム"
-  },
-  "000BE684": {
-    "Context": "000BE684",
-    "Code": null,
-    "Offset": "000BE684",
-    "DeveloperComment": "Walkuerenritt: Ride of the Valkyries",
-    "CharacterLimit": 19,
-    "String": "ワルキューレの騎行"
-  },
-  "000BE638": {
-    "Context": "000BE638",
-    "Code": null,
-    "Offset": "000BE638",
-    "DeveloperComment": "L'alba separa dalla luce l'ombra: Dawn Divides the Light from the Shadows",
-    "CharacterLimit": 37,
-    "String": "暁は光と闇を分かつ"
-  },
-  "000BE600": {
-    "Context": "000BE600",
-    "Code": null,
-    "Offset": "000BE600",
-    "DeveloperComment": "Tod und Verklaerung: Death and Transfiguration: A",
-    "CharacterLimit": 27,
-    "String": "死と変容:A"
-  },
-  "000BE5CC": {
-    "Context": "000BE5CC",
-    "Code": null,
-    "Offset": "000BE5CC",
-    "DeveloperComment": "Tod und Verklaerung: Death and Transfiguration: B",
-    "CharacterLimit": 25,
-    "String": "死と変容:B"
-  },
-  "000BE598": {
-    "Context": "000BE598",
-    "Code": null,
-    "Offset": "000BE598",
-    "DeveloperComment": "Tod und Verklaerung: Death and Transfiguration: C",
-    "CharacterLimit": 25,
-    "String": "死と変容:C"
-  },
-  "000BE580": {
-    "Context": "000BE580",
-    "Code": null,
-    "Offset": "000BE580",
-    "DeveloperComment": "V mlhach: In the Mists",
-    "CharacterLimit": 11,
-    "String": "霧の中で"
-  },
-  "000BE570": {
-    "Context": "000BE570",
-    "Code": null,
-    "Offset": "000BE570",
-    "DeveloperComment": "Sleepers Wake",
-    "CharacterLimit": 7,
-    "String": "目覚メよ、ト呼ブ声が聞こエ"
-  },
-  "000BE550": {
-    "Context": "000BE550",
-    "Code": null,
-    "Offset": "000BE550",
-    "DeveloperComment": "WHEN YOU STARE INTO THE ABYSS",
-    "CharacterLimit": 15,
-    "String": "深淵を覗き込む時"
-  },
-  "000BE544": {
-    "Context": "000BE544",
-    "Code": null,
-    "Offset": "000BE544",
-    "DeveloperComment": "Darkness",
-    "CharacterLimit": 5,
-    "String": "Darkness"
-  },
-  "000BE538": {
-    "Context": "000BE538",
-    "Code": null,
-    "Offset": "000BE538",
-    "DeveloperComment": "DECISION",
-    "CharacterLimit": 5,
-    "String": "決断"
-  },
-  "000BE51C": {
-    "Context": "000BE51C",
-    "Code": null,
-    "Offset": "000BE51C",
-    "DeveloperComment": "Queen of the Night's Aria",
-    "CharacterLimit": 13,
-    "String": "夜の女王のアリア"
-  },
-  "000BE508": {
-    "Context": "000BE508",
-    "Code": null,
-    "Offset": "000BE508",
-    "DeveloperComment": "L'Adieu: Farewell",
-    "CharacterLimit": 9,
-    "String": "別れの曲"
-  },
-  "000BE500": {
-    "Context": "000BE500",
-    "Code": null,
-    "Offset": "000BE500",
-    "DeveloperComment": "CHOICE",
-    "CharacterLimit": 3,
-    "String": "選択"
-  },
-  "000BE4F8": {
-    "Context": "000BE4F8",
-    "Code": null,
-    "Offset": "000BE4F8",
-    "DeveloperComment": "HOPE",
-    "CharacterLimit": 3,
-    "String": "希望"
-  },
-  "000BE4E0": {
-    "Context": "000BE4E0",
-    "Code": null,
-    "Offset": "000BE4E0",
-    "DeveloperComment": "ESCAPE / Last Escape",
-    "CharacterLimit": 11,
-    "String": "脱出 / Last Escape"
-  },
-  "000BE4D8": {
-    "Context": "000BE4D8",
-    "Code": null,
-    "Offset": "000BE4D8",
-    "DeveloperComment": "PROMISE",
-    "CharacterLimit": 3,
-    "String": "約束"
-  },
-  "000BE4D0": {
-    "Context": "000BE4D0",
-    "Code": null,
-    "Offset": "000BE4D0",
-    "DeveloperComment": "PARTING",
-    "CharacterLimit": 3,
-    "String": "別離"
-  },
-  "000BE4A8": {
-    "Context": "000BE4A8",
-    "Code": null,
-    "Offset": "000BE4A8",
-    "DeveloperComment": "Root Double / To Each Their Memories",
-    "CharacterLimit": 19,
-    "String": "Root Double / それぞれの記憶"
-  },
-  "000BE494": {
-    "Context": "000BE494",
-    "Code": null,
-    "Offset": "000BE494",
-    "DeveloperComment": "Prologue & Epilogue",
-    "CharacterLimit": 9,
-    "String": "Prologue & Epilogue"
-  },
-  "000BE464": {
-    "Context": "000BE464",
-    "Code": null,
-    "Offset": "000BE464",
-    "DeveloperComment": "DON'T WANT TO BE ALONE AT THE END OF THE WORLD",
-    "CharacterLimit": 23,
-    "String": "世界の終わりに一人は嫌だ"
-  },
-  "000BE458": {
-    "Context": "000BE458",
-    "Code": null,
-    "Offset": "000BE458",
-    "DeveloperComment": "Fatal Error",
-    "CharacterLimit": 5,
-    "String": "フェイタル･エラー"
-  },
-  "000BE448": {
-    "Context": "000BE448",
-    "Code": null,
-    "Offset": "000BE448",
-    "DeveloperComment": "Killer Queen",
-    "CharacterLimit": 7,
-    "String": "キラー･クィーン"
-  },
-  "000BE440": {
-    "Context": "000BE440",
-    "Code": null,
-    "Offset": "000BE440",
-    "DeveloperComment": "ERASE",
-    "CharacterLimit": 3,
-    "String": "消去"
-  },
-  "000BE430": {
-    "Context": "000BE430",
-    "Code": null,
-    "Offset": "000BE430",
-    "DeveloperComment": "Pure Motives",
-    "CharacterLimit": 7,
-    "String": "Pure Motives"
-  },
-  "000BE42C": {
-    "Context": "000BE42C",
-    "Code": null,
-    "Offset": "000BE42C",
-    "DeveloperComment": "-3",
-    "CharacterLimit": 1,
-    "String": "-3"
-  },
-  "000BE414": {
-    "Context": "000BE414",
-    "Code": null,
-    "Offset": "000BE414",
-    "DeveloperComment": "IN A SHATTERED WORLD",
-    "CharacterLimit": 11,
-    "String": "バラバラに壊れた世界で"
-  },
-  "000BE404": {
-    "Context": "000BE404",
-    "Code": null,
-    "Offset": "000BE404",
-    "DeveloperComment": "PRIDE OF SIRIUS",
-    "CharacterLimit": 7,
-    "String": "シリウスの矜持"
-  },
-  "000BE3F0": {
-    "Context": "000BE3F0",
-    "Code": null,
-    "Offset": "000BE3F0",
-    "DeveloperComment": "NEVERENDING STORY",
-    "CharacterLimit": 9,
-    "String": "終わらない物語"
-  },
-  "000BE3E0": {
-    "Context": "000BE3E0",
-    "Code": null,
-    "Offset": "000BE3E0",
-    "DeveloperComment": "REQUIEM FOR MEN",
-    "CharacterLimit": 7,
-    "String": "男たちの挽歌"
-  },
-  "000BE3C4": {
-    "Context": "000BE3C4",
-    "Code": null,
-    "Offset": "000BE3C4",
-    "DeveloperComment": "BIRD THAT FACES THE WIND",
-    "CharacterLimit": 13,
-    "String": "風に立ち向かう鳥"
-  },
-  "000BE3BC": {
-    "Context": "000BE3BC",
-    "Code": null,
-    "Offset": "000BE3BC",
-    "DeveloperComment": "LIFE",
-    "CharacterLimit": 3,
-    "String": "命"
-  },
-  "000BE3B8": {
-    "Context": "000BE3B8",
-    "Code": null,
-    "Offset": "000BE3B8",
-    "DeveloperComment": "SIN",
-    "CharacterLimit": 1,
-    "String": "罪"
-  },
-  "000BE3A8": {
-    "Context": "000BE3A8",
-    "Code": null,
-    "Offset": "000BE3A8",
-    "DeveloperComment": "Before Crime",
-    "CharacterLimit": 7,
-    "String": "Before Crime"
-  },
-  "000BE39C": {
-    "Context": "000BE39C",
-    "Code": null,
-    "Offset": "000BE39C",
-    "DeveloperComment": "ONE BY ONE",
-    "CharacterLimit": 5,
-    "String": "2人"
-  },
-  "000BE390": {
-    "Context": "000BE390",
-    "Code": null,
-    "Offset": "000BE390",
-    "DeveloperComment": "AFTER DAYS",
-    "CharacterLimit": 5,
-    "String": "アフターデイズ"
-  },
-  "000BE384": {
-    "Context": "000BE384",
-    "Code": null,
-    "Offset": "000BE384",
-    "DeveloperComment": "DEPARTURE",
-    "CharacterLimit": 5,
-    "String": "出立"
-  },
-  "000BE374": {
-    "Context": "000BE374",
-    "Code": null,
-    "Offset": "000BE374",
-    "DeveloperComment": "BEFORE CRIME",
-    "CharacterLimit": 7,
-    "String": "ビフォークライム"
-  },
-  "000BE36C": {
-    "Context": "000BE36C",
-    "Code": null,
-    "Offset": "000BE36C",
-    "DeveloperComment": "THEM",
-    "CharacterLimit": 3,
-    "String": "彼ら"
-  },
-  "000BE360": {
-    "Context": "000BE360",
-    "Code": null,
-    "Offset": "000BE360",
-    "DeveloperComment": "After Days",
-    "CharacterLimit": 5,
-    "String": "After Days"
-  },
-  "000BE354": {
-    "Context": "000BE354",
-    "Code": null,
-    "Offset": "000BE354",
-    "DeveloperComment": "ASTERISK",
-    "CharacterLimit": 5,
-    "String": "アスタリスク"
-  },
-  "000BE344": {
-    "Context": "000BE344",
-    "Code": null,
-    "Offset": "000BE344",
-    "DeveloperComment": "Unforgettable",
-    "CharacterLimit": 7,
-    "String": "Unforgettable"
-  },
-  "000BE32C": {
-    "Context": "000BE32C",
-    "Code": null,
-    "Offset": "000BE32C",
-    "DeveloperComment": "I'll be there for you",
-    "CharacterLimit": 11,
-    "String": "I'll be there for you"
-  },
-  "000BE310": {
-    "Context": "000BE310",
-    "Code": null,
-    "Offset": "000BE310",
-    "DeveloperComment": "A midsummer night's dream",
-    "CharacterLimit": 13,
-    "String": "A midsummer night's dream"
-  },
-  "000BE300": {
-    "Context": "000BE300",
-    "Code": null,
-    "Offset": "000BE300",
-    "DeveloperComment": "BOYS AND GIRLS",
-    "CharacterLimit": 7,
-    "String": "少年少女"
-  },
-  "000BE2EC": {
-    "Context": "000BE2EC",
-    "Code": null,
-    "Offset": "000BE2EC",
-    "DeveloperComment": "ALL SUMMER IN A DAY",
-    "CharacterLimit": 9,
-    "String": "すべての夏をこの一日に"
-  },
-  "000BE2D8": {
-    "Context": "000BE2D8",
-    "Code": null,
-    "Offset": "000BE2D8",
-    "DeveloperComment": "THE LITTLE PRINCE",
-    "CharacterLimit": 9,
-    "String": "星の王子さま"
-  },
-  "000BE2C8": {
-    "Context": "000BE2C8",
-    "Code": null,
-    "Offset": "000BE2C8",
-    "DeveloperComment": "Grand Epilogue",
-    "CharacterLimit": 7,
-    "String": "Grand Epilogue"
-  },
-  "000BE2B8": {
-    "Context": "000BE2B8",
-    "Code": null,
-    "Offset": "000BE2B8",
-    "DeveloperComment": "GRAND EPILOGUE",
-    "CharacterLimit": 7,
-    "String": "グランドエピローグ"
-  },
-  "000BE29C": {
-    "Context": "000BE29C",
-    "Code": null,
-    "Offset": "000BE29C",
-    "DeveloperComment": "RAM / Random Access Memory",
-    "CharacterLimit": 13,
-    "String": "RAM / ランダム･アクセス･メモリー"
-  },
-  "000BE28C": {
-    "Context": "000BE28C",
-    "Code": null,
-    "Offset": "000BE28C",
-    "DeveloperComment": "Xe: Defragment",
-    "CharacterLimit": 7,
-    "String": "Xe:デフラグメント"
-  },
-  "000BE27C": {
-    "Context": "000BE27C",
-    "Code": null,
-    "Offset": "000BE27C",
-    "DeveloperComment": "Xe: Conflict",
-    "CharacterLimit": 7,
-    "String": "Xe:コンフリクト"
-  },
-  "000BE26C": {
-    "Context": "000BE26C",
-    "Code": null,
-    "Offset": "000BE26C",
-    "DeveloperComment": "Xe: Interlace",
-    "CharacterLimit": 7,
-    "String": "Xe:インタレース"
-  },
-  "000BE254": {
-    "Context": "000BE254",
-    "Code": null,
-    "Offset": "000BE254",
-    "DeveloperComment": "Xe: Garbage Collection",
-    "CharacterLimit": 11,
-    "String": "Xe:ガーベージ･コレクション"
-  },
-  "000BE248": {
-    "Context": "000BE248",
-    "Code": null,
-    "Offset": "000BE248",
-    "DeveloperComment": "Xe: Enter",
-    "CharacterLimit": 5,
-    "String": "Xe:エンター"
-  },
-  "000BE238": {
-    "Context": "000BE238",
-    "Code": null,
-    "Offset": "000BE238",
-    "DeveloperComment": "Xe: Debug: A",
-    "CharacterLimit": 7,
-    "String": "Xe:デバッグ:A"
-  },
-  "000BE228": {
-    "Context": "000BE228",
-    "Code": null,
-    "Offset": "000BE228",
-    "DeveloperComment": "Xe: Debug: B",
-    "CharacterLimit": 7,
-    "String": "Xe:デバッグ:B"
-  },
-  "000BE218": {
-    "Context": "000BE218",
-    "Code": null,
-    "Offset": "000BE218",
-    "DeveloperComment": "Xe: Debug: C",
-    "CharacterLimit": 7,
-    "String": "Xe:デバッグ:C"
-  },
-  "000BE20C": {
-    "Context": "000BE20C",
-    "Code": null,
-    "Offset": "000BE20C",
-    "DeveloperComment": "Xe: Network",
-    "CharacterLimit": 5,
-    "String": "Xe:ネットワーク"
-  },
-  "000BE200": {
-    "Context": "000BE200",
-    "Code": null,
-    "Offset": "000BE200",
-    "DeveloperComment": "Xe: Virus",
-    "CharacterLimit": 5,
-    "String": "Xe:ウィルス"
-  },
-  "000BE1E4": {
-    "Context": "000BE1E4",
-    "Code": null,
-    "Offset": "000BE1E4",
-    "DeveloperComment": "Xe: Memories: Magnetic Rose",
-    "CharacterLimit": 13,
-    "String": "Xe:彼女の想い出"
-  },
-  "000BE1C0": {
-    "Context": "000BE1C0",
-    "Code": null,
-    "Offset": "000BE1C0",
-    "DeveloperComment": "Xe: When Cicada's Season Is Over",
-    "CharacterLimit": 17,
-    "String": "Xe:蝉時雨のやむ頃"
-  },
-  "000BE1AC": {
-    "Context": "000BE1AC",
-    "Code": null,
-    "Offset": "000BE1AC",
-    "DeveloperComment": "Xe: Sonata in B♭",
-    "CharacterLimit": 9,
-    "String": "Xe:Ｂ♭のソナタ"
-  },
-  "000BE188": {
-    "Context": "000BE188",
-    "Code": null,
-    "Offset": "000BE188",
-    "DeveloperComment": "Xe: Odyssey in the Sky With Denpa",
-    "CharacterLimit": 17,
-    "String": "Xe:電波オデッセイ"
-  },
-  "000BE178": {
-    "Context": "000BE178",
-    "Code": null,
-    "Offset": "000BE178",
-    "DeveloperComment": "Xe: Eternity",
-    "CharacterLimit": 7,
-    "String": "Xe:永遠"
-  },
-  "000BE168": {
-    "Context": "000BE168",
-    "Code": null,
-    "Offset": "000BE168",
-    "DeveloperComment": "Xe: Translucent",
-    "CharacterLimit": 7,
-    "String": "Xe:トランスルーセント"
-  },
-  "000BE154": {
-    "Context": "000BE154",
-    "Code": null,
-    "Offset": "000BE154",
-    "DeveloperComment": "Xe: Grateful Dead",
-    "CharacterLimit": 9,
-    "String": "Xe:グレイトフル･デッド"
-  },
-  "000BE140": {
-    "Context": "000BE140",
-    "Code": null,
-    "Offset": "000BE140",
-    "DeveloperComment": "Xe: Camouflage City",
-    "CharacterLimit": 9,
-    "String": "Xe:迷彩都市"
-  },
-  "000BE120": {
-    "Context": "000BE120",
-    "Code": null,
-    "Offset": "000BE120",
-    "DeveloperComment": "Xe: In A Corner of This World",
-    "CharacterLimit": 15,
-    "String": "Xe:この世界の片隅に"
-  },
-  "000BE10C": {
-    "Context": "000BE10C",
-    "Code": null,
-    "Offset": "000BE10C",
-    "DeveloperComment": "Xe: The One I Love",
-    "CharacterLimit": 9,
-    "String": "Xe:わたしのすきなひと"
-  },
-  "000BE0F4": {
-    "Context": "000BE0F4",
-    "Code": null,
-    "Offset": "000BE0F4",
-    "DeveloperComment": "Xe: Song For My Father",
-    "CharacterLimit": 11,
-    "String": "Xe:ソング･フォー･マイファザー"
-  },
-  "000BE0D0": {
-    "Context": "000BE0D0",
-    "Code": null,
-    "Offset": "000BE0D0",
-    "DeveloperComment": "Xe: Ding-Dong! The Witch Is Dead",
-    "CharacterLimit": 17,
-    "String": "Xe:ウィッチ･イズ･デッド"
-  },
-  "000BE0C0": {
-    "Context": "000BE0C0",
-    "Code": null,
-    "Offset": "000BE0C0",
-    "DeveloperComment": "Xe: School Days",
-    "CharacterLimit": 7,
-    "String": "Xe:スクール･デイズ"
-  },
-  "000BE0B0": {
-    "Context": "000BE0B0",
-    "Code": null,
-    "Offset": "000BE0B0",
-    "DeveloperComment": "Xe: In the Dark",
-    "CharacterLimit": 7,
-    "String": "Xe:イン･ザ･ダーク"
-  },
-  "000BE09C": {
-    "Context": "000BE09C",
-    "Code": null,
-    "Offset": "000BE09C",
-    "DeveloperComment": "Xe: Body and Soul",
-    "CharacterLimit": 9,
-    "String": "Xe:ボディ･アンド･ソウル"
-  },
-  "000BE084": {
-    "Context": "000BE084",
-    "Code": null,
-    "Offset": "000BE084",
-    "DeveloperComment": "Xe: Oh, Lady be Good!",
-    "CharacterLimit": 11,
-    "String": "Xe:レディ･ビー･グッド"
-  },
-  "000BE064": {
-    "Context": "000BE064",
-    "Code": null,
-    "Offset": "000BE064",
-    "DeveloperComment": "Xe: Ev'ry Time We Say Goodbye",
-    "CharacterLimit": 15,
-    "String": "Xe:エヴリタイム･ウィ･セイ･グッバイ"
-  },
-  "000BE050": {
-    "Context": "000BE050",
-    "Code": null,
-    "Offset": "000BE050",
-    "DeveloperComment": "Xe: Memories of You",
-    "CharacterLimit": 9,
-    "String": "Xe:メモリーズ･オブ･ユー"
-  },
-  "000BE038": {
-    "Context": "000BE038",
-    "Code": null,
-    "Offset": "000BE038",
-    "DeveloperComment": "Xe: Return to Forever",
-    "CharacterLimit": 11,
-    "String": "Xe:リターン･トゥ･フォーエヴァー"
-  },
-  "000BE018": {
-    "Context": "000BE018",
-    "Code": null,
-    "Offset": "000BE018",
-    "DeveloperComment": "Xe: The Girl Who Was Plugged In",
-    "CharacterLimit": 15,
-    "String": "Xe:接続された女"
-  },
-  "000BDFFC": {
-    "Context": "000BDFFC",
-    "Code": null,
-    "Offset": "000BDFFC",
-    "DeveloperComment": "Xe: Methuselah's Children",
-    "CharacterLimit": 13,
-    "String": "Xe:メトセラの子"
-  },
-  "000BDFE8": {
-    "Context": "000BDFE8",
-    "Code": null,
-    "Offset": "000BDFE8",
-    "DeveloperComment": "Xe: Childhood's End",
-    "CharacterLimit": 9,
-    "String": "Xe:幼年期の終わり"
-  },
-  "000BDFCC": {
-    "Context": "000BDFCC",
-    "Code": null,
-    "Offset": "000BDFCC",
-    "DeveloperComment": "Xe: The Door into Summer",
-    "CharacterLimit": 13,
-    "String": "Xe:夏への扉"
-  },
-  "000BDFBC": {
-    "Context": "000BDFBC",
-    "Code": null,
-    "Offset": "000BDFBC",
-    "DeveloperComment": "Xe: Watchers",
-    "CharacterLimit": 7,
-    "String": "Xe:ウォッチャーズ"
-  },
-  "000BDFA4": {
-    "Context": "000BDFA4",
-    "Code": null,
-    "Offset": "000BDFA4",
-    "DeveloperComment": "Xe: The End of the Road",
-    "CharacterLimit": 11,
-    "String": "Xe:旅路の果て"
-  },
-  "000BDF84": {
-    "Context": "000BDF84",
-    "Code": null,
-    "Offset": "000BDF84",
-    "DeveloperComment": "Xe: The Only Neat Thing to Do",
-    "CharacterLimit": 15,
-    "String": "Xe:たったひとつの冴えたやりかた"
-  },
-  "000BDF60": {
-    "Context": "000BDF60",
-    "Code": null,
-    "Offset": "000BDF60",
-    "DeveloperComment": "Xe: The Lights in the Sky Are Stars",
-    "CharacterLimit": 17,
-    "String": "Xe:天の光は全て星"
-  },
-  "000BDF44": {
-    "Context": "000BDF44",
-    "Code": null,
-    "Offset": "000BDF44",
-    "DeveloperComment": "Xe: The Terminal Experiment",
-    "CharacterLimit": 13,
-    "String": "Xe:ターミナル･エクスペリメント"
-  },
-  "000BDF2C": {
-    "Context": "000BDF2C",
-    "Code": null,
-    "Offset": "000BDF2C",
-    "DeveloperComment": "Xe: Orphans of the Sky",
-    "CharacterLimit": 11,
-    "String": "Xe:宇宙の孤児"
-  },
-  "000BDF04": {
-    "Context": "000BDF04",
-    "Code": null,
-    "Offset": "000BDF04",
-    "DeveloperComment": "Xe: Love Is the Plan the Plan Is Death",
-    "CharacterLimit": 19,
-    "String": "Xe:愛はさだめ、さだめは死"
-  },
-  "000BDEF0": {
-    "Context": "000BDEF0",
-    "Code": null,
-    "Offset": "000BDEF0",
-    "DeveloperComment": "Xe: To Live Again",
-    "CharacterLimit": 9,
-    "String": "Xe:いまひとたびの生"
-  },
-  "000BDEE4": {
-    "Context": "000BDEE4",
-    "Code": null,
-    "Offset": "000BDEE4",
-    "DeveloperComment": "Xe: Reverie",
-    "CharacterLimit": 5,
-    "String": "Xe:夢"
-  },
-  "000BDED4": {
-    "Context": "000BDED4",
-    "Code": null,
-    "Offset": "000BDED4",
-    "DeveloperComment": "Xe: Goin' Home",
-    "CharacterLimit": 7,
-    "String": "Xe:家路"
-  },
-  "000BDEA4": {
-    "Context": "000BDEA4",
-    "Code": null,
-    "Offset": "000BDEA4",
-    "DeveloperComment": "Xe: Das Lied der Trennung: The Song of Parting",
-    "CharacterLimit": 23,
-    "String": "Xe:別離の歌"
-  },
-  "000BDE90": {
-    "Context": "000BDE90",
-    "Code": null,
-    "Offset": "000BDE90",
-    "DeveloperComment": "Xe: Eroica: Hero",
-    "CharacterLimit": 9,
-    "String": "Xe:英雄"
-  },
-  "000BDE74": {
-    "Context": "000BDE74",
-    "Code": null,
-    "Offset": "000BDE74",
-    "DeveloperComment": "Xe: Dies Irae: Day of Wrath",
-    "CharacterLimit": 13,
-    "String": "Xe:怒りの日"
-  },
-  "000BDE30": {
-    "Context": "000BDE30",
-    "Code": null,
-    "Offset": "000BDE30",
-    "DeveloperComment": "Xe: Falsche Welt, dir trau ich nicht: False world, I trust thee not",
-    "CharacterLimit": 33,
-    "String": "Xe:悪しき世よ、我は汝に頼まじ"
-  },
-  "000BDE04": {
-    "Context": "000BDE04",
-    "Code": null,
-    "Offset": "000BDE04",
-    "DeveloperComment": "Xe: Kinderszenen: Scenes from Childhood",
-    "CharacterLimit": 21,
-    "String": "Xe:子供の情景"
-  },
-  "000BDDE8": {
-    "Context": "000BDDE8",
-    "Code": null,
-    "Offset": "000BDDE8",
-    "DeveloperComment": "Xe: Baba Yaga: The Witch",
-    "CharacterLimit": 13,
-    "String": "Xe:バーバヤガー"
-  },
-  "000BDDC0": {
-    "Context": "000BDDC0",
-    "Code": null,
-    "Offset": "000BDDC0",
-    "DeveloperComment": "Xe: Die Zauberfloete: The Magic Flute",
-    "CharacterLimit": 19,
-    "String": "Xe:魔笛"
-  },
-  "000BDDB0": {
-    "Context": "000BDDB0",
-    "Code": null,
-    "Offset": "000BDDB0",
-    "DeveloperComment": "Xe: Promenade",
-    "CharacterLimit": 7,
-    "String": "Xe:プロムナード"
-  },
-  "000BDD8C": {
-    "Context": "000BDD8C",
-    "Code": null,
-    "Offset": "000BDD8C",
-    "DeveloperComment": "Xe: La gazza ladra: Thieving Magpie",
-    "CharacterLimit": 17,
-    "String": "Xe:泥棒かささぎ"
-  },
-  "000BDD70": {
-    "Context": "000BDD70",
-    "Code": null,
-    "Offset": "000BDD70",
-    "DeveloperComment": "Xe: Je te veux: I Want You",
-    "CharacterLimit": 13,
-    "String": "Xe:ジュ･トゥ･ヴ"
-  },
-  "000BDD30": {
-    "Context": "000BDD30",
-    "Code": null,
-    "Offset": "000BDD30",
-    "DeveloperComment": "Xe: Pavane pour une infante defunte: Pavane for a Dead Princess",
-    "CharacterLimit": 31,
-    "String": "Xe:亡き王女のためのバヴァーヌ"
-  },
-  "000BDD20": {
-    "Context": "000BDD20",
-    "Code": null,
-    "Offset": "000BDD20",
-    "DeveloperComment": "Xe: Jupiter",
-    "CharacterLimit": 7,
-    "String": "Xe:ジュピター"
-  },
-  "000BDD10": {
-    "Context": "000BDD10",
-    "Code": null,
-    "Offset": "000BDD10",
-    "DeveloperComment": "Xe: Serenade",
-    "CharacterLimit": 7,
-    "String": "Xe:小夜曲"
-  },
-  "000BDCE8": {
-    "Context": "000BDCE8",
-    "Code": null,
-    "Offset": "000BDCE8",
-    "DeveloperComment": "Xe: Concerto du vent: Concerto for wind",
-    "CharacterLimit": 19,
-    "String": "Xe:風のコンチェルト"
-  },
-  "000BDCDC": {
-    "Context": "000BDCDC",
-    "Code": null,
-    "Offset": "000BDCDC",
-    "DeveloperComment": "Xe: Requiem",
-    "CharacterLimit": 5,
-    "String": "Xe:レクイエム"
-  },
-  "000BDCB0": {
-    "Context": "000BDCB0",
-    "Code": null,
-    "Offset": "000BDCB0",
-    "DeveloperComment": "Xe: Walkuerenritt: Ride of the Valkyries",
-    "CharacterLimit": 21,
-    "String": "Xe:ワルキューレの騎行"
-  },
-  "000BDC60": {
-    "Context": "000BDC60",
-    "Code": null,
-    "Offset": "000BDC60",
-    "DeveloperComment": "Xe: L'alba separa dalla luce l'ombra: Dawn Divides the Light from the Shadows",
-    "CharacterLimit": 39,
-    "String": "Xe:暁は光と闇を分かつ"
-  },
-  "000BDC24": {
-    "Context": "000BDC24",
-    "Code": null,
-    "Offset": "000BDC24",
-    "DeveloperComment": "Xe: Tod und Verklaerung: Death and Transfiguration: A",
-    "CharacterLimit": 29,
-    "String": "Xe:死と変容:A"
-  },
-  "000BDBEC": {
-    "Context": "000BDBEC",
-    "Code": null,
-    "Offset": "000BDBEC",
-    "DeveloperComment": "Xe: Tod und Verklaerung: Death and Transfiguration: B",
-    "CharacterLimit": 27,
-    "String": "Xe:死と変容:B"
-  },
-  "000BDBB4": {
-    "Context": "000BDBB4",
-    "Code": null,
-    "Offset": "000BDBB4",
-    "DeveloperComment": "Xe: Tod und Verklaerung: Death and Transfiguration: C",
-    "CharacterLimit": 27,
-    "String": "Xe:死と変容:C"
-  },
-  "000BDBA8": {
-    "Context": "000BDBA8",
-    "Code": null,
-    "Offset": "000BDBA8",
-    "DeveloperComment": "Xe: Flower",
-    "CharacterLimit": 5,
-    "String": "Xe:花"
-  },
-  "000BDB94": {
-    "Context": "000BDB94",
-    "Code": null,
-    "Offset": "000BDB94",
-    "DeveloperComment": "Xe: Segreto: Secret",
-    "CharacterLimit": 9,
-    "String": "Xe:秘密"
-  },
-  "000BDB74": {
-    "Context": "000BDB74",
-    "Code": null,
-    "Offset": "000BDB74",
-    "DeveloperComment": "Xe: Nuages gris: Dark Clouds",
-    "CharacterLimit": 15,
-    "String": "Xe:暗い雲"
-  },
-  "000BDB48": {
-    "Context": "000BDB48",
-    "Code": null,
-    "Offset": "000BDB48",
-    "DeveloperComment": "Xe: Voi che sapete: Tell Me What Love Is",
-    "CharacterLimit": 21,
-    "String": "Xe:恋とはどんなものかしら"
-  },
-  "000BDB34": {
-    "Context": "000BDB34",
-    "Code": null,
-    "Offset": "000BDB34",
-    "DeveloperComment": "Xe: Yuuri's Smile",
-    "CharacterLimit": 9,
-    "String": "Xe:悠里の笑顔"
-  },
-  "000BDB18": {
-    "Context": "000BDB18",
-    "Code": null,
-    "Offset": "000BDB18",
-    "DeveloperComment": "Xe: Quiet and Peaceful Time",
-    "CharacterLimit": 13,
-    "String": "Xe:静かで穏やかな時間"
-  },
-  "000BDB08": {
-    "Context": "000BDB08",
-    "Code": null,
-    "Offset": "000BDB08",
-    "DeveloperComment": "Xe: Dear Friend",
-    "CharacterLimit": 7,
-    "String": "Xe:親しい友達"
-  },
-  "000BDAF0": {
-    "Context": "000BDAF0",
-    "Code": null,
-    "Offset": "000BDAF0",
-    "DeveloperComment": "Xe: Thoughtless Actions",
-    "CharacterLimit": 11,
-    "String": "Xe:考え無しの行動"
-  },
-  "000BDADC": {
-    "Context": "000BDADC",
-    "Code": null,
-    "Offset": "000BDADC",
-    "DeveloperComment": "Xe: Communicator",
-    "CharacterLimit": 9,
-    "String": "Xe:コミュニケーター"
-  },
-  "000BDAB8": {
-    "Context": "000BDAB8",
-    "Code": null,
-    "Offset": "000BDAB8",
-    "DeveloperComment": "Xe: (I Can't Get No) Satisfaction",
-    "CharacterLimit": 17,
-    "String": "Xe:サティスファクション"
-  },
-  "000BDA9C": {
-    "Context": "000BDA9C",
-    "Code": null,
-    "Offset": "000BDA9C",
-    "DeveloperComment": "Xe: Holding Out for a Hero",
-    "CharacterLimit": 13,
-    "String": "Xe:ヒーロー"
-  },
-  "000BDA90": {
-    "Context": "000BDA90",
-    "Code": null,
-    "Offset": "000BDA90",
-    "DeveloperComment": "Xe: Life",
-    "CharacterLimit": 5,
-    "String": "Xe:ライフ"
-  },
-  "000BDA74": {
-    "Context": "000BDA74",
-    "Code": null,
-    "Offset": "000BDA74",
-    "DeveloperComment": "Xe: Fight Fire with Fire",
-    "CharacterLimit": 13,
-    "String": "Xe:ファイト･ファイア･ウィズ･ファイア"
-  },
-  "000BDA50": {
-    "Context": "000BDA50",
-    "Code": null,
-    "Offset": "000BDA50",
-    "DeveloperComment": "Xe: The Dark Side of the Moon: A",
-    "CharacterLimit": 17,
-    "String": "Xe:ダークサイド･オブ･ザ･ムーン:A"
-  },
-  "000BDA2C": {
-    "Context": "000BDA2C",
-    "Code": null,
-    "Offset": "000BDA2C",
-    "DeveloperComment": "Xe: The Dark Side of the Moon: B",
-    "CharacterLimit": 17,
-    "String": "Xe:ダークサイド･オブ･ザ･ムーン:B"
-  },
-  "000BDA08": {
-    "Context": "000BDA08",
-    "Code": null,
-    "Offset": "000BDA08",
-    "DeveloperComment": "Xe: The Dark Side of the Moon: C",
-    "CharacterLimit": 17,
-    "String": "Xe:ダークサイド･オブ･ザ･ムーン:C"
-  },
-  "000BD9E4": {
-    "Context": "000BD9E4",
-    "Code": null,
-    "Offset": "000BD9E4",
-    "DeveloperComment": "Xe: The Dark Side of the Moon: D",
-    "CharacterLimit": 17,
-    "String": "Xe:ダークサイド･オブ･ザ･ムーン:D"
-  },
-  "000BD9CC": {
-    "Context": "000BD9CC",
-    "Code": null,
-    "Offset": "000BD9CC",
-    "DeveloperComment": "Xe: Roll Over Beethoven",
-    "CharacterLimit": 11,
-    "String": "Xe:ロール･オーバー･ベートーベン"
-  },
-  "000BD9B4": {
-    "Context": "000BD9B4",
-    "Code": null,
-    "Offset": "000BD9B4",
-    "DeveloperComment": "Xe: Honky Tonk Woman",
-    "CharacterLimit": 11,
-    "String": "Xe:ホンキー･トンク･ウィメン"
-  },
-  "000BD9A4": {
-    "Context": "000BD9A4",
-    "Code": null,
-    "Offset": "000BD9A4",
-    "DeveloperComment": "Xe: Dirty Work",
-    "CharacterLimit": 7,
-    "String": "Xe:ダーティ･ワーク"
-  },
-  "000BD990": {
-    "Context": "000BD990",
-    "Code": null,
-    "Offset": "000BD990",
-    "DeveloperComment": "Xe: Light My Fire",
-    "CharacterLimit": 9,
-    "String": "Xe:ライト･マイ･ファイア"
-  },
-  "000BD978": {
-    "Context": "000BD978",
-    "Code": null,
-    "Offset": "000BD978",
-    "DeveloperComment": "Xe: Heart of Darkness",
-    "CharacterLimit": 11,
-    "String": "Xe:闇の奥"
-  },
-  "000BD960": {
-    "Context": "000BD960",
-    "Code": null,
-    "Offset": "000BD960",
-    "DeveloperComment": "Xe: The Night She Died",
-    "CharacterLimit": 11,
-    "String": "Xe:彼女が死んだ夜"
-  },
-  "000BD948": {
-    "Context": "000BD948",
-    "Code": null,
-    "Offset": "000BD948",
-    "DeveloperComment": "Xe: Ma-in: The Demon",
-    "CharacterLimit": 11,
-    "String": "Xe:魔人"
-  },
-  "000BD920": {
-    "Context": "000BD920",
-    "Code": null,
-    "Offset": "000BD920",
-    "DeveloperComment": "Xe: Ushinawareru Monogatari: Lost Story",
-    "CharacterLimit": 19,
-    "String": "Xe:失われる物語"
-  },
-  "000BD8F4": {
-    "Context": "000BD8F4",
-    "Code": null,
-    "Offset": "000BD8F4",
-    "DeveloperComment": "Xe: Natsu no Replica: Replaceable Summer",
-    "CharacterLimit": 21,
-    "String": "Xe:夏のレプリカ"
-  },
-  "000BD8DC": {
-    "Context": "000BD8DC",
-    "Code": null,
-    "Offset": "000BD8DC",
-    "DeveloperComment": "Xe: Sorekara: And Then",
-    "CharacterLimit": 11,
-    "String": "Xe:それから"
-  },
-  "000BD8C0": {
-    "Context": "000BD8C0",
-    "Code": null,
-    "Offset": "000BD8C0",
-    "DeveloperComment": "Xe: For Whom The Bell Tolls",
-    "CharacterLimit": 13,
-    "String": "Xe:誰が為に鐘は鳴る"
-  },
-  "000BD88C": {
-    "Context": "000BD88C",
-    "Code": null,
-    "Offset": "000BD88C",
-    "DeveloperComment": "Xe: Towa mo Nakaba wo Sugite: Half Past Eternity",
-    "CharacterLimit": 25,
-    "String": "Xe:永遠も半ばを過ぎて"
-  },
-  "000BD878": {
-    "Context": "000BD878",
-    "Code": null,
-    "Offset": "000BD878",
-    "DeveloperComment": "Xe: Towards Zero",
-    "CharacterLimit": 9,
-    "String": "Xe:ゼロの時間へ"
-  },
-  "000BD864": {
-    "Context": "000BD864",
-    "Code": null,
-    "Offset": "000BD864",
-    "DeveloperComment": "Xe: I Won't Forget",
-    "CharacterLimit": 9,
-    "String": "Xe:きっと忘れない"
-  },
-  "000BD840": {
-    "Context": "000BD840",
-    "Code": null,
-    "Offset": "000BD840",
-    "DeveloperComment": "Xe: Atatakai Yume: A Sweet Dream",
-    "CharacterLimit": 17,
-    "String": "Xe:暖かい夢"
-  },
-  "000BD834": {
-    "Context": "000BD834",
-    "Code": null,
-    "Offset": "000BD834",
-    "DeveloperComment": "Xe: Level 7",
-    "CharacterLimit": 5,
-    "String": "Xe:レベル7"
-  },
-  "000BD820": {
-    "Context": "000BD820",
-    "Code": null,
-    "Offset": "000BD820",
-    "DeveloperComment": "Xe: Kokoro: Mind",
-    "CharacterLimit": 9,
-    "String": "Xe:こころ"
+  "0000": {
+    "context": "000C0078",
+    "developer_comment": "Prologue",
+    "character_limit": 5,
+    "string": "Prologue"
+  },
+  "0001": {
+    "context": "000C0070",
+    "developer_comment": "Format",
+    "character_limit": 3,
+    "string": "Format"
+  },
+  "0002": {
+    "context": "000C005C",
+    "developer_comment": "First Impression",
+    "character_limit": 9,
+    "string": "First Impression"
+  },
+  "0003": {
+    "context": "000C004C",
+    "developer_comment": "Closed Circle",
+    "character_limit": 7,
+    "string": "Closed Circle"
+  },
+  "0004": {
+    "context": "000C0044",
+    "developer_comment": "Base",
+    "character_limit": 3,
+    "string": "Base"
+  },
+  "0005": {
+    "context": "000C003C",
+    "developer_comment": "Teacher",
+    "character_limit": 3,
+    "string": "Teacher"
+  },
+  "0006": {
+    "context": "000C0030",
+    "developer_comment": "Researcher",
+    "character_limit": 5,
+    "string": "Researcher"
+  },
+  "0007": {
+    "context": "000C002C",
+    "developer_comment": "6+3",
+    "character_limit": 1,
+    "string": "6+3"
+  },
+  "0008": {
+    "context": "000C0020",
+    "developer_comment": "Radiation",
+    "character_limit": 5,
+    "string": "Radiation"
+  },
+  "0009": {
+    "context": "000C0018",
+    "developer_comment": "Leakage",
+    "character_limit": 3,
+    "string": "Leakage"
+  },
+  "0010": {
+    "context": "000C000C",
+    "developer_comment": "Backdraft",
+    "character_limit": 5,
+    "string": "Back Draft"
+  },
+  "0011": {
+    "context": "000BFFFC",
+    "developer_comment": "Senior & Junior",
+    "character_limit": 7,
+    "string": "Senior & Junior"
+  },
+  "0012": {
+    "context": "000BFFF4",
+    "developer_comment": "Instill",
+    "character_limit": 3,
+    "string": "Instill"
+  },
+  "0013": {
+    "context": "000BFFEC",
+    "developer_comment": "Escape",
+    "character_limit": 3,
+    "string": "Escape"
+  },
+  "0014": {
+    "context": "000BFFD0",
+    "developer_comment": "Knocking on Heaven's Door",
+    "character_limit": 13,
+    "string": "Knocking on heavens door"
+  },
+  "0015": {
+    "context": "000BFFC4",
+    "developer_comment": "Murder Case",
+    "character_limit": 5,
+    "string": "Murder Case"
+  },
+  "0016": {
+    "context": "000BFFB8",
+    "developer_comment": "Shortage",
+    "character_limit": 5,
+    "string": "Shortage"
+  },
+  "0017": {
+    "context": "000BFFA0",
+    "developer_comment": "Electric Dragon 80000V",
+    "character_limit": 11,
+    "string": "Electric Dragon 80000V"
+  },
+  "0018": {
+    "context": "000BFF94",
+    "developer_comment": "Brain Cell",
+    "character_limit": 5,
+    "string": "Brain Cell"
+  },
+  "0019": {
+    "context": "000BFF8C",
+    "developer_comment": "Seven",
+    "character_limit": 3,
+    "string": "Seven"
+  },
+  "0020": {
+    "context": "000BFF84",
+    "developer_comment": "Hazard",
+    "character_limit": 3,
+    "string": "Hazard"
+  },
+  "0021": {
+    "context": "000BFF7C",
+    "developer_comment": "Comfort",
+    "character_limit": 3,
+    "string": "Comfort"
+  },
+  "0022": {
+    "context": "000BFF70",
+    "developer_comment": "Flash Dance",
+    "character_limit": 5,
+    "string": "Flash Dance"
+  },
+  "0023": {
+    "context": "000BFF54",
+    "developer_comment": "Disaster Prevention Manual",
+    "character_limit": 13,
+    "string": "Disaster Prevention Manual"
+  },
+  "0024": {
+    "context": "000BFF38",
+    "developer_comment": "Clear and Present Danger",
+    "character_limit": 13,
+    "string": "Clear and Present Danger"
+  },
+  "0025": {
+    "context": "000BFF28",
+    "developer_comment": "Fireman's Carry",
+    "character_limit": 7,
+    "string": "Fireman's Carry"
+  },
+  "0026": {
+    "context": "000BFF18",
+    "developer_comment": "Run & Search",
+    "character_limit": 7,
+    "string": "Run & Search"
+  },
+  "0027": {
+    "context": "000BFF10",
+    "developer_comment": "Coolant",
+    "character_limit": 3,
+    "string": "Coolant"
+  },
+  "0028": {
+    "context": "000BFF00",
+    "developer_comment": "Fighters' Rest",
+    "character_limit": 7,
+    "string": "The Rest of Fighter's"
+  },
+  "0029": {
+    "context": "000BFEF4",
+    "developer_comment": "Photograph",
+    "character_limit": 5,
+    "string": "Photograph"
+  },
+  "0030": {
+    "context": "000BFEEC",
+    "developer_comment": "Body",
+    "character_limit": 3,
+    "string": "a Body"
+  },
+  "0031": {
+    "context": "000BFED8",
+    "developer_comment": "Cumulative exposure",
+    "character_limit": 9,
+    "string": "Exposed dose"
+  },
+  "0032": {
+    "context": "000BFEC8",
+    "developer_comment": "Nine years ago",
+    "character_limit": 7,
+    "string": "Nine years ago"
+  },
+  "0033": {
+    "context": "000BFEC0",
+    "developer_comment": "Order",
+    "character_limit": 3,
+    "string": "Order"
+  },
+  "0034": {
+    "context": "000BFEB4",
+    "developer_comment": "Infirmary",
+    "character_limit": 5,
+    "string": "Infirmary"
+  },
+  "0035": {
+    "context": "000BFE9C",
+    "developer_comment": "Emergency Evacuation",
+    "character_limit": 11,
+    "string": "Emergency Evacuation"
+  },
+  "0036": {
+    "context": "000BFE8C",
+    "developer_comment": "Elevator Action",
+    "character_limit": 7,
+    "string": "Elevator Action"
+  },
+  "0037": {
+    "context": "000BFE80",
+    "developer_comment": "Laboratory",
+    "character_limit": 5,
+    "string": "Laboratory"
+  },
+  "0038": {
+    "context": "000BFE78",
+    "developer_comment": "Buddy",
+    "character_limit": 3,
+    "string": "One's Buddy"
+  },
+  "0039": {
+    "context": "000BFE64",
+    "developer_comment": "Over Eighty Percent",
+    "character_limit": 9,
+    "string": "Eighty Percent of The Complete"
+  },
+  "0040": {
+    "context": "000BFE5C",
+    "developer_comment": "Factory",
+    "character_limit": 3,
+    "string": "Factory"
+  },
+  "0041": {
+    "context": "000BFE48",
+    "developer_comment": "Rescue & Teacher",
+    "character_limit": 9,
+    "string": "Rescue & Teacher"
+  },
+  "0042": {
+    "context": "000BFE38",
+    "developer_comment": "Buddy & Buddy",
+    "character_limit": 7,
+    "string": "Buddy & Buddy"
+  },
+  "0043": {
+    "context": "000BFE20",
+    "developer_comment": "Superior & Subordinate",
+    "character_limit": 11,
+    "string": "Superior & Subordinate"
+  },
+  "0044": {
+    "context": "000BFE10",
+    "developer_comment": "Idle Thoughts",
+    "character_limit": 7,
+    "string": "Idle Thoughts"
+  },
+  "0045": {
+    "context": "000BFE04",
+    "developer_comment": "Cargo Lift",
+    "character_limit": 5,
+    "string": "Carry out Lift"
+  },
+  "0046": {
+    "context": "000BFDF4",
+    "developer_comment": "Dramatic Rescue",
+    "character_limit": 7,
+    "string": "Dramatic Rescue"
+  },
+  "0047": {
+    "context": "000BFDE4",
+    "developer_comment": "Breakthrough",
+    "character_limit": 7,
+    "string": "Breakthrough"
+  },
+  "0048": {
+    "context": "000BFDE0",
+    "developer_comment": "Hug",
+    "character_limit": 1,
+    "string": "Hug"
+  },
+  "0049": {
+    "context": "000BFDD4",
+    "developer_comment": "The end of",
+    "character_limit": 5,
+    "string": "The end of"
+  },
+  "0050": {
+    "context": "000BFDC4",
+    "developer_comment": "The end of hope",
+    "character_limit": 7,
+    "string": "The end of hope"
+  },
+  "0051": {
+    "context": "000BFDB8",
+    "developer_comment": "Dark Clouds",
+    "character_limit": 5,
+    "string": "Dark Clouds"
+  },
+  "0052": {
+    "context": "000BFDAC",
+    "developer_comment": "Flashback",
+    "character_limit": 5,
+    "string": "Flashback"
+  },
+  "0053": {
+    "context": "000BFDA4",
+    "developer_comment": "Missing",
+    "character_limit": 3,
+    "string": "Missing"
+  },
+  "0054": {
+    "context": "000BFD9C",
+    "developer_comment": "Sister",
+    "character_limit": 3,
+    "string": "Sister"
+  },
+  "0055": {
+    "context": "000BFD90",
+    "developer_comment": "Recollect",
+    "character_limit": 5,
+    "string": "Recollect"
+  },
+  "0056": {
+    "context": "000BFD8C",
+    "developer_comment": "9-3",
+    "character_limit": 1,
+    "string": "9-3"
+  },
+  "0057": {
+    "context": "000BFD7C",
+    "developer_comment": "Protection suit",
+    "character_limit": 7,
+    "string": "Protective clothing"
+  },
+  "0058": {
+    "context": "000BFD74",
+    "developer_comment": "Message",
+    "character_limit": 3,
+    "string": "Message"
+  },
+  "0059": {
+    "context": "000BFD6C",
+    "developer_comment": "Fall",
+    "character_limit": 3,
+    "string": "Fell"
+  },
+  "0060": {
+    "context": "000BFD64",
+    "developer_comment": "Repair",
+    "character_limit": 3,
+    "string": "Repair"
+  },
+  "0061": {
+    "context": "000BFD5C",
+    "developer_comment": "Seek",
+    "character_limit": 3,
+    "string": "Looking for"
+  },
+  "0062": {
+    "context": "000BFD50",
+    "developer_comment": "An Injury",
+    "character_limit": 5,
+    "string": "An Injury"
+  },
+  "0063": {
+    "context": "000BFD40",
+    "developer_comment": "Disappearance",
+    "character_limit": 7,
+    "string": "Disappearance"
+  },
+  "0064": {
+    "context": "000BFD38",
+    "developer_comment": "Warning",
+    "character_limit": 3,
+    "string": "Warning"
+  },
+  "0065": {
+    "context": "000BFD2C",
+    "developer_comment": "Explosion",
+    "character_limit": 5,
+    "string": "Explosion"
+  },
+  "0066": {
+    "context": "000BFD20",
+    "developer_comment": "Best Friend",
+    "character_limit": 5,
+    "string": "Best Friend"
+  },
+  "0067": {
+    "context": "000BFD18",
+    "developer_comment": "Nursing",
+    "character_limit": 3,
+    "string": "Nursing"
+  },
+  "0068": {
+    "context": "000BFD08",
+    "developer_comment": "Medical Care",
+    "character_limit": 7,
+    "string": "Medical Care"
+  },
+  "0069": {
+    "context": "000BFD00",
+    "developer_comment": "Injury",
+    "character_limit": 3,
+    "string": "Injury"
+  },
+  "0070": {
+    "context": "000BFCF8",
+    "developer_comment": "Father",
+    "character_limit": 3,
+    "string": "Father"
+  },
+  "0071": {
+    "context": "000BFCEC",
+    "developer_comment": "Old Wound",
+    "character_limit": 5,
+    "string": "Old Wound"
+  },
+  "0072": {
+    "context": "000BFCD8",
+    "developer_comment": "Former Girlfriend",
+    "character_limit": 9,
+    "string": "Former Girlfriend"
+  },
+  "0073": {
+    "context": "000BFCC0",
+    "developer_comment": "Beyond Communication",
+    "character_limit": 11,
+    "string": "Beyond Communication"
+  },
+  "0074": {
+    "context": "000BFCB0",
+    "developer_comment": "In the Mirror",
+    "character_limit": 7,
+    "string": "In the Mirror"
+  },
+  "0075": {
+    "context": "000BFCA0",
+    "developer_comment": "The Fugitive",
+    "character_limit": 7,
+    "string": "The Fugitive"
+  },
+  "0076": {
+    "context": "000BFC90",
+    "developer_comment": "The Pursuers",
+    "character_limit": 7,
+    "string": "The Pursuers"
+  },
+  "0077": {
+    "context": "000BFC84",
+    "developer_comment": "Bomb & Gun",
+    "character_limit": 5,
+    "string": "Bomb & Gun"
+  },
+  "0078": {
+    "context": "000BFC74",
+    "developer_comment": "Smoking Barrel",
+    "character_limit": 7,
+    "string": "Smoking Barrel"
+  },
+  "0079": {
+    "context": "000BFC6C",
+    "developer_comment": "Lesson",
+    "character_limit": 3,
+    "string": "Lesson"
+  },
+  "0080": {
+    "context": "000BFC64",
+    "developer_comment": "Believe",
+    "character_limit": 3,
+    "string": "Believe"
+  },
+  "0081": {
+    "context": "000BFC54",
+    "developer_comment": "Test Subject",
+    "character_limit": 7,
+    "string": "Experimental Subject"
+  },
+  "0082": {
+    "context": "000BFC48",
+    "developer_comment": "Dreamlike",
+    "character_limit": 5,
+    "string": "Feeling as if in a dream"
+  },
+  "0083": {
+    "context": "000BFC3C",
+    "developer_comment": "Suspicion",
+    "character_limit": 5,
+    "string": "Suspicion"
+  },
+  "0084": {
+    "context": "000BFC24",
+    "developer_comment": "An Inconvenient Truth",
+    "character_limit": 11,
+    "string": "An Inconvenient Truth"
+  },
+  "0085": {
+    "context": "000BFC10",
+    "developer_comment": "Cross-examination",
+    "character_limit": 9,
+    "string": "Cross‐examination"
+  },
+  "0086": {
+    "context": "000BFC08",
+    "developer_comment": "Cause",
+    "character_limit": 3,
+    "string": "Cause"
+  },
+  "0087": {
+    "context": "000BFC00",
+    "developer_comment": "Kiss",
+    "character_limit": 3,
+    "string": "Kiss"
+  },
+  "0088": {
+    "context": "000BFBF4",
+    "developer_comment": "Desperate",
+    "character_limit": 5,
+    "string": "Desperate"
+  },
+  "0089": {
+    "context": "000BFBEC",
+    "developer_comment": "Area N",
+    "character_limit": 3,
+    "string": "N Area"
+  },
+  "0090": {
+    "context": "000BFBE4",
+    "developer_comment": "Battle",
+    "character_limit": 3,
+    "string": "Battle"
+  },
+  "0091": {
+    "context": "000BFBD0",
+    "developer_comment": "Unclear Conclusion",
+    "character_limit": 9,
+    "string": "Unclear Conclusion"
+  },
+  "0092": {
+    "context": "000BFBC4",
+    "developer_comment": "First aid",
+    "character_limit": 5,
+    "string": "First aid"
+  },
+  "0093": {
+    "context": "000BFBB0",
+    "developer_comment": "Murderous Design",
+    "character_limit": 9,
+    "string": "Murderous Design"
+  },
+  "0094": {
+    "context": "000BFBA4",
+    "developer_comment": "Insanity",
+    "character_limit": 5,
+    "string": "Insanity"
+  },
+  "0095": {
+    "context": "000BFB98",
+    "developer_comment": "Persuasion",
+    "character_limit": 5,
+    "string": "Persuasion"
+  },
+  "0096": {
+    "context": "000BFB84",
+    "developer_comment": "The Great Escape",
+    "character_limit": 9,
+    "string": "The Great Escape"
+  },
+  "0097": {
+    "context": "000BFB78",
+    "developer_comment": "Last Choice",
+    "character_limit": 5,
+    "string": "Last Choice"
+  },
+  "0098": {
+    "context": "000BFB70",
+    "developer_comment": "Promise",
+    "character_limit": 3,
+    "string": "Promise"
+  },
+  "0099": {
+    "context": "000BFB60",
+    "developer_comment": "Overeagerness",
+    "character_limit": 7,
+    "string": "Overeagerness"
+  },
+  "0100": {
+    "context": "000BFB54",
+    "developer_comment": "Disregard",
+    "character_limit": 5,
+    "string": "Disregard"
+  },
+  "0101": {
+    "context": "000BFB48",
+    "developer_comment": "Flash Over",
+    "character_limit": 5,
+    "string": "Flash Over"
+  },
+  "0102": {
+    "context": "000BFB3C",
+    "developer_comment": "Misguided",
+    "character_limit": 5,
+    "string": "Trusting too much"
+  },
+  "0103": {
+    "context": "000BFB2C",
+    "developer_comment": "Falling Down",
+    "character_limit": 7,
+    "string": "Fall"
+  },
+  "0104": {
+    "context": "000BFB24",
+    "developer_comment": "Skewer",
+    "character_limit": 3,
+    "string": "Skewer"
+  },
+  "0105": {
+    "context": "000BFB18",
+    "developer_comment": "Time's Up",
+    "character_limit": 5,
+    "string": "Time Out"
+  },
+  "0106": {
+    "context": "000BFB08",
+    "developer_comment": "Obnubilation",
+    "character_limit": 7,
+    "string": "Obnubilation"
+  },
+  "0107": {
+    "context": "000BFB00",
+    "developer_comment": "Binding",
+    "character_limit": 3,
+    "string": "Binding"
+  },
+  "0108": {
+    "context": "000BFAF4",
+    "developer_comment": "Accident",
+    "character_limit": 5,
+    "string": "Accident"
+  },
+  "0109": {
+    "context": "000BFAE8",
+    "developer_comment": "Treachery",
+    "character_limit": 5,
+    "string": "Treachery"
+  },
+  "0110": {
+    "context": "000BFAD4",
+    "developer_comment": "Misunderstanding",
+    "character_limit": 9,
+    "string": "Misunderstanding"
+  },
+  "0111": {
+    "context": "000BFAC8",
+    "developer_comment": "Intrusive",
+    "character_limit": 5,
+    "string": "Being Intrusive"
+  },
+  "0112": {
+    "context": "000BFAB4",
+    "developer_comment": "Error of Judgment",
+    "character_limit": 9,
+    "string": "Error of Judgment"
+  },
+  "0113": {
+    "context": "000BFAA8",
+    "developer_comment": "Knockdown",
+    "character_limit": 5,
+    "string": "Knockdown"
+  },
+  "0114": {
+    "context": "000BFA98",
+    "developer_comment": "Destroy Brain",
+    "character_limit": 7,
+    "string": "Destroy Brain"
+  },
+  "0115": {
+    "context": "000BFA84",
+    "developer_comment": "Accidental Shooting",
+    "character_limit": 9,
+    "string": "Accidental Shooting"
+  },
+  "0116": {
+    "context": "000BFA78",
+    "developer_comment": "Hesitation",
+    "character_limit": 5,
+    "string": "Hesitation"
+  },
+  "0117": {
+    "context": "000BFA6C",
+    "developer_comment": "Decision",
+    "character_limit": 5,
+    "string": "Decision"
+  },
+  "0118": {
+    "context": "000BFA60",
+    "developer_comment": "Too late",
+    "character_limit": 5,
+    "string": "Be too late"
+  },
+  "0119": {
+    "context": "000BFA58",
+    "developer_comment": "Murder",
+    "character_limit": 3,
+    "string": "Murder"
+  },
+  "0120": {
+    "context": "000BFA4C",
+    "developer_comment": "Ringleader",
+    "character_limit": 5,
+    "string": "Ringleader"
+  },
+  "0121": {
+    "context": "000BFA3C",
+    "developer_comment": "Nightmare's end",
+    "character_limit": 7,
+    "string": "The end of Nightmare"
+  },
+  "0122": {
+    "context": "000BFA28",
+    "developer_comment": "Endless Nightmare",
+    "character_limit": 9,
+    "string": "Endless Nightmare"
+  },
+  "0123": {
+    "context": "000BFA18",
+    "developer_comment": "Endless Despair",
+    "character_limit": 7,
+    "string": "Endless Despair"
+  },
+  "0124": {
+    "context": "000BFA08",
+    "developer_comment": "Metamorphosis",
+    "character_limit": 7,
+    "string": "Metamorphosis"
+  },
+  "0125": {
+    "context": "000BF9EC",
+    "developer_comment": "The beginning and the end",
+    "character_limit": 13,
+    "string": "The biggining and the end"
+  },
+  "0126": {
+    "context": "000BF9E0",
+    "developer_comment": "Epilogue",
+    "character_limit": 5,
+    "string": "Epilogue"
+  },
+  "0127": {
+    "context": "000BF9D4",
+    "developer_comment": "PROLOGUE",
+    "character_limit": 5,
+    "string": "プロローグ"
+  },
+  "0128": {
+    "context": "000BF9BC",
+    "developer_comment": "START OF THE FIRST DAY",
+    "character_limit": 11,
+    "string": "最初の日の始まり"
+  },
+  "0129": {
+    "context": "000BF9B4",
+    "developer_comment": "INVOKE",
+    "character_limit": 3,
+    "string": "発動"
+  },
+  "0130": {
+    "context": "000BF99C",
+    "developer_comment": "BEYOND COMMUNICATION",
+    "character_limit": 11,
+    "string": "ビヨンド･コミュニケーション"
+  },
+  "0131": {
+    "context": "000BF98C",
+    "developer_comment": "NOISY FUTURE",
+    "character_limit": 7,
+    "string": "騒々しい未来"
+  },
+  "0132": {
+    "context": "000BF97C",
+    "developer_comment": "AFTER SCHOOL",
+    "character_limit": 7,
+    "string": "アフタースクール"
+  },
+  "0133": {
+    "context": "000BF964",
+    "developer_comment": "ROKUMEI SCIENCE CITY",
+    "character_limit": 11,
+    "string": "鹿鳴研究学園都市"
+  },
+  "0134": {
+    "context": "000BF944",
+    "developer_comment": "SOMETHING WICKED THIS WAY COMES",
+    "character_limit": 15,
+    "string": "なにかが道をやってくる"
+  },
+  "0135": {
+    "context": "000BF930",
+    "developer_comment": "HIS AND HER PAST",
+    "character_limit": 9,
+    "string": "彼らと彼らの過去"
+  },
+  "0136": {
+    "context": "000BF8FC",
+    "developer_comment": "REALITY IS A DREAM, YOUR DREAM AT NIGHT IS REALITY",
+    "character_limit": 25,
+    "string": "現世は夢、夜の夢こそ真"
+  },
+  "0137": {
+    "context": "000BF8E4",
+    "developer_comment": "NATSUHIKO- SEPTEMBER 16",
+    "character_limit": 11,
+    "string": "9月16日の夏彦"
+  },
+  "0138": {
+    "context": "000BF8D4",
+    "developer_comment": "BACK INTO PEACE",
+    "character_limit": 7,
+    "string": "再び平穏の中へ"
+  },
+  "0139": {
+    "context": "000BF8C0",
+    "developer_comment": "TRANSFER STUDENT",
+    "character_limit": 9,
+    "string": "転校生"
+  },
+  "0140": {
+    "context": "000BF8B0",
+    "developer_comment": "ENFANT TERRIBLE",
+    "character_limit": 7,
+    "string": "アンファン･テリブル"
+  },
+  "0141": {
+    "context": "000BF874",
+    "developer_comment": "LABO: 6TH LABORATORY OF ATOMIC AND BIOLOGICAL ORGANIZATION",
+    "character_limit": 29,
+    "string": "ラボ:原子力生物学研究機構･第6研究所"
+  },
+  "0142": {
+    "context": "000BF854",
+    "developer_comment": "PARAPSYCHOLOGY RESEARCH CENTER",
+    "character_limit": 15,
+    "string": "超心理学研究所"
+  },
+  "0143": {
+    "context": "000BF844",
+    "developer_comment": "DUSK LIT BUS",
+    "character_limit": 7,
+    "string": "夕暮れ、バスに乗って"
+  },
+  "0144": {
+    "context": "000BF834",
+    "developer_comment": "THE WAY WE WERE",
+    "character_limit": 7,
+    "string": "かつての2人"
+  },
+  "0145": {
+    "context": "000BF824",
+    "developer_comment": "THE STRANGER",
+    "character_limit": 7,
+    "string": "異邦人"
+  },
+  "0146": {
+    "context": "000BF81C",
+    "developer_comment": "FOR YOU",
+    "character_limit": 3,
+    "string": "あなたのために"
+  },
+  "0147": {
+    "context": "000BF80C",
+    "developer_comment": "YOUR NAME IS",
+    "character_limit": 7,
+    "string": "君の名は"
+  },
+  "0148": {
+    "context": "000BF7F0",
+    "developer_comment": "THE PAST AND PRESENT YOU",
+    "character_limit": 13,
+    "string": "あの頃の君、今の彼女"
+  },
+  "0149": {
+    "context": "000BF7E4",
+    "developer_comment": "ENCOUNTER",
+    "character_limit": 5,
+    "string": "出逢い"
+  },
+  "0150": {
+    "context": "000BF7D0",
+    "developer_comment": "SALYU- SEPTEMBER 16",
+    "character_limit": 9,
+    "string": "9月16日のサリュ"
+  },
+  "0151": {
+    "context": "000BF7BC",
+    "developer_comment": "DREAMS AND REALITY",
+    "character_limit": 9,
+    "string": "夢と現実"
+  },
+  "0152": {
+    "context": "000BF7A8",
+    "developer_comment": "THE GREAT ILLUSION",
+    "character_limit": 9,
+    "string": "大いなる錯覚"
+  },
+  "0153": {
+    "context": "000BF7A0",
+    "developer_comment": "PHANTOM",
+    "character_limit": 3,
+    "string": "ファントム"
+  },
+  "0154": {
+    "context": "000BF774",
+    "developer_comment": "THROW AWAY YOUR BOOKS, RALLY IN THE STREETS",
+    "character_limit": 21,
+    "string": "書を捨てよ、街に出よう"
+  },
+  "0155": {
+    "context": "000BF764",
+    "developer_comment": "WHEN SHE SMILES",
+    "character_limit": 7,
+    "string": "微笑みを浮かべた時"
+  },
+  "0156": {
+    "context": "000BF75C",
+    "developer_comment": "ARMS",
+    "character_limit": 3,
+    "string": "アームズ"
+  },
+  "0157": {
+    "context": "000BF748",
+    "developer_comment": "HIS NAME WAS SIRIUS",
+    "character_limit": 9,
+    "string": "彼の名はシリウス"
+  },
+  "0158": {
+    "context": "000BF738",
+    "developer_comment": "PASSIONATE MEAL",
+    "character_limit": 7,
+    "string": "情熱の食卓"
+  },
+  "0159": {
+    "context": "000BF724",
+    "developer_comment": "OUR FAVORITE THINGS",
+    "character_limit": 9,
+    "string": "わたしたちの好きなもの"
+  },
+  "0160": {
+    "context": "000BF704",
+    "developer_comment": "AT THE END OF AN UNEVENTFUL DAY",
+    "character_limit": 15,
+    "string": "何も始まらなかった1日の終わりに"
+  },
+  "0161": {
+    "context": "000BF6F0",
+    "developer_comment": "WHAT IS ESSENTIAL",
+    "character_limit": 9,
+    "string": "本当に大切なもの"
+  },
+  "0162": {
+    "context": "000BF6D4",
+    "developer_comment": "ALL OF THEM- SEPTEMBER 16",
+    "character_limit": 13,
+    "string": "9月16日の彼ら"
+  },
+  "0163": {
+    "context": "000BF6C0",
+    "developer_comment": "REFRESHING MORNING",
+    "character_limit": 9,
+    "string": "清々しい朝"
+  },
+  "0164": {
+    "context": "000BF6B0",
+    "developer_comment": "MAXWELL'S DEMON",
+    "character_limit": 7,
+    "string": "マクスウェルの悪魔"
+  },
+  "0165": {
+    "context": "000BF6A4",
+    "developer_comment": "MINDSEEKER",
+    "character_limit": 5,
+    "string": "マインドシーカー"
+  },
+  "0166": {
+    "context": "000BF68C",
+    "developer_comment": "PATH TO ENLIGHTENMENT",
+    "character_limit": 11,
+    "string": "サトリの研究"
+  },
+  "0167": {
+    "context": "000BF674",
+    "developer_comment": "THE WOMAN FROM SIRIUS",
+    "character_limit": 11,
+    "string": "シリウスから来た女"
+  },
+  "0168": {
+    "context": "000BF65C",
+    "developer_comment": "ANOTHER MAN'S TREASURE",
+    "character_limit": 11,
+    "string": "ひとりにひとつの宝物"
+  },
+  "0169": {
+    "context": "000BF648",
+    "developer_comment": "THE MAN FROM LABO",
+    "character_limit": 9,
+    "string": "ラボから来た男"
+  },
+  "0170": {
+    "context": "000BF63C",
+    "developer_comment": "MANEUVERING",
+    "character_limit": 5,
+    "string": "蠢動"
+  },
+  "0171": {
+    "context": "000BF630",
+    "developer_comment": "PROPHECY",
+    "character_limit": 5,
+    "string": "予言"
+  },
+  "0172": {
+    "context": "000BF618",
+    "developer_comment": "STORY OF THE STARRY SKY",
+    "character_limit": 11,
+    "string": "星空の物語"
+  },
+  "0173": {
+    "context": "000BF600",
+    "developer_comment": "MEMORIES AND REALITY",
+    "character_limit": 11,
+    "string": "回想と現実"
+  },
+  "0174": {
+    "context": "000BF5E0",
+    "developer_comment": "IN A CORNER OF A TWILIT CITY",
+    "character_limit": 15,
+    "string": "宵闇に沈む街の片隅で"
+  },
+  "0175": {
+    "context": "000BF5C8",
+    "developer_comment": "MASHIRO- SEPTEMBER 16",
+    "character_limit": 11,
+    "string": "9月16日のましろ"
+  },
+  "0176": {
+    "context": "000BF5B4",
+    "developer_comment": "CHANGING MORNINGS",
+    "character_limit": 9,
+    "string": "変わりゆく朝"
+  },
+  "0177": {
+    "context": "000BF5A0",
+    "developer_comment": "SINCE YOU WENT AWAY",
+    "character_limit": 9,
+    "string": "彼女のいない教室"
+  },
+  "0178": {
+    "context": "000BF594",
+    "developer_comment": "INCIDENT",
+    "character_limit": 5,
+    "string": "事件"
+  },
+  "0179": {
+    "context": "000BF584",
+    "developer_comment": "HER FEELINGS",
+    "character_limit": 7,
+    "string": "彼女の事情"
+  },
+  "0180": {
+    "context": "000BF578",
+    "developer_comment": "FAR BEYOND",
+    "character_limit": 5,
+    "string": "彼方へ"
+  },
+  "0181": {
+    "context": "000BF570",
+    "developer_comment": "GATE",
+    "character_limit": 3,
+    "string": "門"
+  },
+  "0182": {
+    "context": "000BF564",
+    "developer_comment": "FALSE ALARM",
+    "character_limit": 5,
+    "string": "虚報"
+  },
+  "0183": {
+    "context": "000BF560",
+    "developer_comment": "\"Q\"",
+    "character_limit": 1,
+    "string": "『Q』"
+  },
+  "0184": {
+    "context": "000BF554",
+    "developer_comment": "CITY SCARS",
+    "character_limit": 5,
+    "string": "街の傷跡"
+  },
+  "0185": {
+    "context": "000BF548",
+    "developer_comment": "TRUE VALUE",
+    "character_limit": 5,
+    "string": "真価"
+  },
+  "0186": {
+    "context": "000BF51C",
+    "developer_comment": "BACK TO THE PARAPSYCHOLOGY RESEARCH CENTER",
+    "character_limit": 21,
+    "string": "超心理学研究所、再び"
+  },
+  "0187": {
+    "context": "000BF514",
+    "developer_comment": "GUARD",
+    "character_limit": 3,
+    "string": "護衛者"
+  },
+  "0188": {
+    "context": "000BF4F0",
+    "developer_comment": "SALYU AND NATSUHIKO- COOKING 101",
+    "character_limit": 17,
+    "string": "サリュと夏彦のお料理教室"
+  },
+  "0189": {
+    "context": "000BF4E0",
+    "developer_comment": "MYSELF;YOURSELF",
+    "character_limit": 7,
+    "string": "マイセルフ;ユアセルフ"
+  },
+  "0190": {
+    "context": "000BF4D0",
+    "developer_comment": "TAKE HER HAND",
+    "character_limit": 7,
+    "string": "彼女の手を握って"
+  },
+  "0191": {
+    "context": "000BF4BC",
+    "developer_comment": "INTO THE DARKNESS",
+    "character_limit": 9,
+    "string": "闇の中へ"
+  },
+  "0192": {
+    "context": "000BF4AC",
+    "developer_comment": "UNDER THE MOON",
+    "character_limit": 7,
+    "string": "空に浮かぶ月の下で"
+  },
+  "0193": {
+    "context": "000BF494",
+    "developer_comment": "UNDER THE STARRY SKY",
+    "character_limit": 11,
+    "string": "満天の星空の下で"
+  },
+  "0194": {
+    "context": "000BF48C",
+    "developer_comment": "CHORUS",
+    "character_limit": 3,
+    "string": "合唱"
+  },
+  "0195": {
+    "context": "000BF474",
+    "developer_comment": "TELL ME ABOUT YOURSELF",
+    "character_limit": 11,
+    "string": "テル･ミー･アバウト･ユアセルフ"
+  },
+  "0196": {
+    "context": "000BF464",
+    "developer_comment": "HIDDEN FEELINGS",
+    "character_limit": 7,
+    "string": "秘めた想い"
+  },
+  "0197": {
+    "context": "000BF458",
+    "developer_comment": "WORLD'S END",
+    "character_limit": 5,
+    "string": "世界の果て"
+  },
+  "0198": {
+    "context": "000BF444",
+    "developer_comment": "YUURI- SEPTEMBER 16",
+    "character_limit": 9,
+    "string": "9月16日の悠里"
+  },
+  "0199": {
+    "context": "000BF420",
+    "developer_comment": "NATSUHIKO TENKAWA'S DETERMINATION",
+    "character_limit": 17,
+    "string": "天川夏彦の決意"
+  },
+  "0200": {
+    "context": "000BF410",
+    "developer_comment": "POLICEMEN'S JOB",
+    "character_limit": 7,
+    "string": "警官たちの仕事"
+  },
+  "0201": {
+    "context": "000BF3F4",
+    "developer_comment": "MIYOKO TENKAWA'S EMOTIONS",
+    "character_limit": 13,
+    "string": "天川美夜子の感情"
+  },
+  "0202": {
+    "context": "000BF3D4",
+    "developer_comment": "SECURITY DEPARTMENT'S PURSUIT",
+    "character_limit": 15,
+    "string": "保安課員の追跡"
+  },
+  "0203": {
+    "context": "000BF3C0",
+    "developer_comment": "JOURNEY OF JUSTICE",
+    "character_limit": 9,
+    "string": "正義の旅"
+  },
+  "0204": {
+    "context": "000BF3A8",
+    "developer_comment": "ENA TSUBAKIYAMA'S HEART",
+    "character_limit": 11,
+    "string": "椿山恵那の心"
+  },
+  "0205": {
+    "context": "000BF394",
+    "developer_comment": "JUN MORIBE'S DUTY",
+    "character_limit": 9,
+    "string": "守部洵の使命"
+  },
+  "0206": {
+    "context": "000BF378",
+    "developer_comment": "MASHIRO TOBA'S ABILITIES",
+    "character_limit": 13,
+    "string": "鳥羽ましろの能力"
+  },
+  "0207": {
+    "context": "000BF354",
+    "developer_comment": "LOUISE YUI SANNOMIYA'S DEDUCTION",
+    "character_limit": 17,
+    "string": "三ノ宮･ルイーズ･優衣の推察"
+  },
+  "0208": {
+    "context": "000BF348",
+    "developer_comment": "ADVENTURE",
+    "character_limit": 5,
+    "string": "冒険"
+  },
+  "0209": {
+    "context": "000BF330",
+    "developer_comment": "KEIJI UKITA'S REACTION",
+    "character_limit": 11,
+    "string": "宇喜多佳司の反応"
+  },
+  "0210": {
+    "context": "000BF31C",
+    "developer_comment": "WATCHMAN'S REFUSAL",
+    "character_limit": 9,
+    "string": "監視員の拒絶"
+  },
+  "0211": {
+    "context": "000BF314",
+    "developer_comment": "Q'S--",
+    "character_limit": 3,
+    "string": "Qの――"
+  },
+  "0212": {
+    "context": "000BF2F8",
+    "developer_comment": "SEPTEMBER 16, AT THAT PLACE",
+    "character_limit": 13,
+    "string": "9月16日、あの場所で"
+  },
+  "0213": {
+    "context": "000BF2E8",
+    "developer_comment": "THE LAST DAY",
+    "character_limit": 7,
+    "string": "最後の1日"
+  },
+  "0214": {
+    "context": "000BF2DC",
+    "developer_comment": "SET FORTH",
+    "character_limit": 5,
+    "string": "出発"
+  },
+  "0215": {
+    "context": "000BF2D0",
+    "developer_comment": "DAYBREAK",
+    "character_limit": 5,
+    "string": "黎明"
+  },
+  "0216": {
+    "context": "000BF2BC",
+    "developer_comment": "THE TIME HAS COME",
+    "character_limit": 9,
+    "string": "時は至り"
+  },
+  "0217": {
+    "context": "000BF2B0",
+    "developer_comment": "TO REALITY",
+    "character_limit": 5,
+    "string": "現実へ"
+  },
+  "0218": {
+    "context": "000BF2A8",
+    "developer_comment": "PAST",
+    "character_limit": 3,
+    "string": "過去"
+  },
+  "0219": {
+    "context": "000BF284",
+    "developer_comment": "EVERY SECOND TURNS INTO A MEMORY",
+    "character_limit": 17,
+    "string": "それはいつしか想い出に"
+  },
+  "0220": {
+    "context": "000BF27C",
+    "developer_comment": "TRUTH",
+    "character_limit": 3,
+    "string": "真実"
+  },
+  "0221": {
+    "context": "000BF278",
+    "developer_comment": "LIE",
+    "character_limit": 1,
+    "string": "嘘"
+  },
+  "0222": {
+    "context": "000BF260",
+    "developer_comment": "Memories: Magnetic Rose",
+    "character_limit": 11,
+    "string": "彼女の想い出"
+  },
+  "0223": {
+    "context": "000BF240",
+    "developer_comment": "When Cicada's Season Is Over",
+    "character_limit": 15,
+    "string": "蝉時雨のやむ頃"
+  },
+  "0224": {
+    "context": "000BF230",
+    "developer_comment": "Sonata in B♭",
+    "character_limit": 7,
+    "string": "B♭のソナタ"
+  },
+  "0225": {
+    "context": "000BF210",
+    "developer_comment": "Odyssey in the Sky With Denpa",
+    "character_limit": 15,
+    "string": "電波オデッセイ"
+  },
+  "0226": {
+    "context": "000BF204",
+    "developer_comment": "Eternity",
+    "character_limit": 5,
+    "string": "永遠"
+  },
+  "0227": {
+    "context": "000BF1FC",
+    "developer_comment": "MIND",
+    "character_limit": 3,
+    "string": "心"
+  },
+  "0228": {
+    "context": "000BF1EC",
+    "developer_comment": "ETERNAL MEMORY",
+    "character_limit": 7,
+    "string": "悠久の記憶"
+  },
+  "0229": {
+    "context": "000BF1CC",
+    "developer_comment": "IF YOU CAN DO IT ALL OVER AGAIN",
+    "character_limit": 15,
+    "string": "もしもやり直せるなら"
+  },
+  "0230": {
+    "context": "000BF1B0",
+    "developer_comment": "WHY CAN'T YOU TRUST OTHERS",
+    "character_limit": 13,
+    "string": "どうして人を信じられないの"
+  },
+  "0231": {
+    "context": "000BF194",
+    "developer_comment": "I DIDN'T WANT TO DO THIS",
+    "character_limit": 13,
+    "string": "こんな事はしたくなかった"
+  },
+  "0232": {
+    "context": "000BF17C",
+    "developer_comment": "PLEASE DON'T GIVE UP",
+    "character_limit": 11,
+    "string": "お願い、諦めないで"
+  },
+  "0233": {
+    "context": "000BF170",
+    "developer_comment": "SHATTERED",
+    "character_limit": 5,
+    "string": "破砕"
+  },
+  "0234": {
+    "context": "000BF168",
+    "developer_comment": "RESOLVE",
+    "character_limit": 3,
+    "string": "覚悟"
+  },
+  "0235": {
+    "context": "000BF158",
+    "developer_comment": "PARTING KISS",
+    "character_limit": 7,
+    "string": "別れの口づけ"
+  },
+  "0236": {
+    "context": "000BF150",
+    "developer_comment": "MONSTER",
+    "character_limit": 3,
+    "string": "怪物"
+  },
+  "0237": {
+    "context": "000BF148",
+    "developer_comment": "PRAYER",
+    "character_limit": 3,
+    "string": "祈り"
+  },
+  "0238": {
+    "context": "000BF13C",
+    "developer_comment": "EPILOGUE",
+    "character_limit": 5,
+    "string": "エピローグ"
+  },
+  "0239": {
+    "context": "000BF128",
+    "developer_comment": "Prologue / EPILOGUE",
+    "character_limit": 9,
+    "string": "Prologue / エピローグ"
+  },
+  "0240": {
+    "context": "000BF118",
+    "developer_comment": "Format / ORDER",
+    "character_limit": 7,
+    "string": "Format / 命令"
+  },
+  "0241": {
+    "context": "000BF100",
+    "developer_comment": "Dosage / SUDDEN CHANGE",
+    "character_limit": 11,
+    "string": "Dosage / 異変"
+  },
+  "0242": {
+    "context": "000BF0EC",
+    "developer_comment": "Encounter / REUNION",
+    "character_limit": 9,
+    "string": "Encounter / 再会"
+  },
+  "0243": {
+    "context": "000BF0D8",
+    "developer_comment": "Action / DEADLOCK",
+    "character_limit": 9,
+    "string": "Action / 停止"
+  },
+  "0244": {
+    "context": "000BF0C4",
+    "developer_comment": "Search / BAFFLEMENT",
+    "character_limit": 9,
+    "string": "Search / 困惑"
+  },
+  "0245": {
+    "context": "000BF0AC",
+    "developer_comment": "Flashback / AWAKENING",
+    "character_limit": 11,
+    "string": "Flashback / 覚醒"
+  },
+  "0246": {
+    "context": "000BF098",
+    "developer_comment": "Terror / ERASURE",
+    "character_limit": 9,
+    "string": "Terror / 消去"
+  },
+  "0247": {
+    "context": "000BF084",
+    "developer_comment": "Recollect / FORGERY",
+    "character_limit": 9,
+    "string": "Recollect / 改竄"
+  },
+  "0248": {
+    "context": "000BF068",
+    "developer_comment": "Apprehensions / MISGIVINGS",
+    "character_limit": 13,
+    "string": "Apprehensions / 危惧"
+  },
+  "0249": {
+    "context": "000BF04C",
+    "developer_comment": "Message / PRIVATE MESSAGE",
+    "character_limit": 13,
+    "string": "Message / 私信"
+  },
+  "0250": {
+    "context": "000BF03C",
+    "developer_comment": "Strike / CLASH",
+    "character_limit": 7,
+    "string": "Strike / 激突"
+  },
+  "0251": {
+    "context": "000BF024",
+    "developer_comment": "Explosive / EXPLOSION",
+    "character_limit": 11,
+    "string": "Explosive / 爆発"
+  },
+  "0252": {
+    "context": "000BF010",
+    "developer_comment": "Doubt / IRRITATION",
+    "character_limit": 9,
+    "string": "Doubt / 焦燥"
+  },
+  "0253": {
+    "context": "000BF000",
+    "developer_comment": "Sign / ANXIETY",
+    "character_limit": 7,
+    "string": "Sign / 不安"
+  },
+  "0254": {
+    "context": "000BEFF0",
+    "developer_comment": "Crisis / PANIC",
+    "character_limit": 7,
+    "string": "Crisis / 狼狽"
+  },
+  "0255": {
+    "context": "000BEFD8",
+    "developer_comment": "Support / SUSPICIONS",
+    "character_limit": 11,
+    "string": "Support / 疑心"
+  },
+  "0256": {
+    "context": "000BEFC0",
+    "developer_comment": "Danger / FALSIFICATION",
+    "character_limit": 11,
+    "string": "Danger / 捏造"
+  },
+  "0257": {
+    "context": "000BEFAC",
+    "developer_comment": "Request / APPEAL",
+    "character_limit": 9,
+    "string": "Request / 要請"
+  },
+  "0258": {
+    "context": "000BEF94",
+    "developer_comment": "Determination / OMEN",
+    "character_limit": 11,
+    "string": "Determination / 予兆"
+  },
+  "0259": {
+    "context": "000BEF80",
+    "developer_comment": "Heart / QUESTION",
+    "character_limit": 9,
+    "string": "Heart / 疑問"
+  },
+  "0260": {
+    "context": "000BEF68",
+    "developer_comment": "Resuscitate / REVIVAL",
+    "character_limit": 11,
+    "string": "Resuscitate / 蘇生"
+  },
+  "0261": {
+    "context": "000BEF50",
+    "developer_comment": "Violence / RESTRAINT",
+    "character_limit": 11,
+    "string": "Violence / 制止"
+  },
+  "0262": {
+    "context": "000BEF38",
+    "developer_comment": "Cure / UNDERSTANDING",
+    "character_limit": 11,
+    "string": "Cure / 理解"
+  },
+  "0263": {
+    "context": "000BEF20",
+    "developer_comment": "Struggle / OBSERVING",
+    "character_limit": 11,
+    "string": "Struggle / 傍観"
+  },
+  "0264": {
+    "context": "000BEF08",
+    "developer_comment": "Astonishment / SHOCK",
+    "character_limit": 11,
+    "string": "Astonishment / 驚愕"
+  },
+  "0265": {
+    "context": "000BEEF4",
+    "developer_comment": "Despair / DECISION",
+    "character_limit": 9,
+    "string": "Despair / 決意"
+  },
+  "0266": {
+    "context": "000BEEE0",
+    "developer_comment": "Epilogue / PROLOGUE",
+    "character_limit": 9,
+    "string": "Epilogue / プロローグ"
+  },
+  "0267": {
+    "context": "000BEEDC",
+    "developer_comment": "√",
+    "character_limit": 1,
+    "string": "√"
+  },
+  "0268": {
+    "context": "000BEEC4",
+    "developer_comment": "NATSUHIKO'S PERSPECTIVE",
+    "character_limit": 11,
+    "string": "夏彦の視点"
+  },
+  "0269": {
+    "context": "000BEEAC",
+    "developer_comment": "Watase's Perspective",
+    "character_limit": 11,
+    "string": "View of Watase"
+  },
+  "0270": {
+    "context": "000BEEA0",
+    "developer_comment": "TELEPATHY",
+    "character_limit": 5,
+    "string": "テレパシー"
+  },
+  "0271": {
+    "context": "000BEE98",
+    "developer_comment": "Friends",
+    "character_limit": 3,
+    "string": "Friends"
+  },
+  "0272": {
+    "context": "000BEE88",
+    "developer_comment": "AFTER PARTING",
+    "character_limit": 7,
+    "string": "別れの後"
+  },
+  "0273": {
+    "context": "000BEE78",
+    "developer_comment": "Yuuri Kotono",
+    "character_limit": 7,
+    "string": "琴乃悠里"
+  },
+  "0274": {
+    "context": "000BEE64",
+    "developer_comment": "Heart of Darkness",
+    "character_limit": 9,
+    "string": "闇の奥"
+  },
+  "0275": {
+    "context": "000BEE50",
+    "developer_comment": "The Night She Died",
+    "character_limit": 9,
+    "string": "彼女が死んだ夜"
+  },
+  "0276": {
+    "context": "000BEE3C",
+    "developer_comment": "Ma-in: The Demon",
+    "character_limit": 9,
+    "string": "魔人"
+  },
+  "0277": {
+    "context": "000BEE18",
+    "developer_comment": "Ushinawareru Monogatari: Lost Story",
+    "character_limit": 17,
+    "string": "失われる物語"
+  },
+  "0278": {
+    "context": "000BEDF0",
+    "developer_comment": "Natsu no Replica: Replaceable Summer",
+    "character_limit": 19,
+    "string": "夏のレプリカ"
+  },
+  "0279": {
+    "context": "000BEDDC",
+    "developer_comment": "Sorekara: And Then",
+    "character_limit": 9,
+    "string": "それから"
+  },
+  "0280": {
+    "context": "000BEDC4",
+    "developer_comment": "For Whom the Bell Tolls",
+    "character_limit": 11,
+    "string": "誰が為に鐘は鳴る"
+  },
+  "0281": {
+    "context": "000BED94",
+    "developer_comment": "Towa mo Nakaba wo Sugite: Half Past Eternity",
+    "character_limit": 23,
+    "string": "永遠も半ばを過ぎて"
+  },
+  "0282": {
+    "context": "000BED84",
+    "developer_comment": "Towards Zero",
+    "character_limit": 7,
+    "string": "ゼロの時間へ"
+  },
+  "0283": {
+    "context": "000BED6C",
+    "developer_comment": "TRANSCENDING REALITY",
+    "character_limit": 11,
+    "string": "現実を超えて"
+  },
+  "0284": {
+    "context": "000BED64",
+    "developer_comment": "Nobody",
+    "character_limit": 3,
+    "string": "Nobady"
+  },
+  "0285": {
+    "context": "000BED48",
+    "developer_comment": "Phantom of the nightmare",
+    "character_limit": 13,
+    "string": "Phantom of the worst"
+  },
+  "0286": {
+    "context": "000BED38",
+    "developer_comment": "MANY ANSWERS",
+    "character_limit": 7,
+    "string": "数々の答え"
+  },
+  "0287": {
+    "context": "000BED2C",
+    "developer_comment": "CONFESSION",
+    "character_limit": 5,
+    "string": "告白"
+  },
+  "0288": {
+    "context": "000BED20",
+    "developer_comment": "Prepared",
+    "character_limit": 5,
+    "string": "Prepared"
+  },
+  "0289": {
+    "context": "000BED10",
+    "developer_comment": "Watase Kasasagi",
+    "character_limit": 7,
+    "string": "笠鷺渡瀬"
+  },
+  "0290": {
+    "context": "000BED08",
+    "developer_comment": "Reverie",
+    "character_limit": 3,
+    "string": "夢"
+  },
+  "0291": {
+    "context": "000BECFC",
+    "developer_comment": "Goin' Home",
+    "character_limit": 5,
+    "string": "家路"
+  },
+  "0292": {
+    "context": "000BECD0",
+    "developer_comment": "Das Lied der Trennung: The Song of Parting",
+    "character_limit": 21,
+    "string": "別離の歌"
+  },
+  "0293": {
+    "context": "000BECC0",
+    "developer_comment": "Eroica: Hero",
+    "character_limit": 7,
+    "string": "英雄"
+  },
+  "0294": {
+    "context": "000BECA8",
+    "developer_comment": "Dies Irae: Day of Wrath",
+    "character_limit": 11,
+    "string": "怒りの日"
+  },
+  "0295": {
+    "context": "000BEC68",
+    "developer_comment": "Falsche Welt, dir trau ich nicht: False world, I trust thee not",
+    "character_limit": 31,
+    "string": "悪しき世よ、我は汝に頼まじ"
+  },
+  "0296": {
+    "context": "000BEC40",
+    "developer_comment": "Kinderszenen: Scenes from Childhood",
+    "character_limit": 19,
+    "string": "子供の情景"
+  },
+  "0297": {
+    "context": "000BEC28",
+    "developer_comment": "Baba Yaga: The Witch",
+    "character_limit": 11,
+    "string": "バーバヤガー"
+  },
+  "0298": {
+    "context": "000BEC04",
+    "developer_comment": "Die Zauberfloete: The Magic Flute",
+    "character_limit": 17,
+    "string": "魔笛"
+  },
+  "0299": {
+    "context": "000BEBF8",
+    "developer_comment": "ONCE AGAIN",
+    "character_limit": 5,
+    "string": "そして再び"
+  },
+  "0300": {
+    "context": "000BEBE0",
+    "developer_comment": "Sarabande Divergents: A",
+    "character_limit": 11,
+    "string": "迷走するサラバンド:A"
+  },
+  "0301": {
+    "context": "000BEBC8",
+    "developer_comment": "Sarabande Divergents: B",
+    "character_limit": 11,
+    "string": "迷走するサラバンド:B"
+  },
+  "0302": {
+    "context": "000BEBB0",
+    "developer_comment": "Sarabande Divergents: C",
+    "character_limit": 11,
+    "string": "迷走するサラバンド:C"
+  },
+  "0303": {
+    "context": "000BEB98",
+    "developer_comment": "Sarabande Divergents: D",
+    "character_limit": 11,
+    "string": "迷走するサラバンド:D"
+  },
+  "0304": {
+    "context": "000BEB64",
+    "developer_comment": "De Temporum Fine Comoedia: Play At the End of Time",
+    "character_limit": 25,
+    "string": "時の終わりの劇"
+  },
+  "0305": {
+    "context": "000BEB48",
+    "developer_comment": "Awake, a Voice Calls to Us",
+    "character_limit": 13,
+    "string": "目覚めよ、と呼ぶ声が聞こえ"
+  },
+  "0306": {
+    "context": "000BEB40",
+    "developer_comment": "Partner",
+    "character_limit": 3,
+    "string": "相棒"
+  },
+  "0307": {
+    "context": "000BEB2C",
+    "developer_comment": "Lady in the dark",
+    "character_limit": 9,
+    "string": "Lady in the dark"
+  },
+  "0308": {
+    "context": "000BEB08",
+    "developer_comment": "NINE YEARS WORTH OF CONVERSATION",
+    "character_limit": 17,
+    "string": "9年分の会話"
+  },
+  "0309": {
+    "context": "000BEAFC",
+    "developer_comment": "Defragment",
+    "character_limit": 5,
+    "string": "デフラグメント"
+  },
+  "0310": {
+    "context": "000BEAF0",
+    "developer_comment": "Conflict",
+    "character_limit": 5,
+    "string": "コンフリクト"
+  },
+  "0311": {
+    "context": "000BEAE4",
+    "developer_comment": "Interlace",
+    "character_limit": 5,
+    "string": "インタレース"
+  },
+  "0312": {
+    "context": "000BEAD0",
+    "developer_comment": "Garbage Collection",
+    "character_limit": 9,
+    "string": "ガーベージ･コレクション"
+  },
+  "0313": {
+    "context": "000BEAC8",
+    "developer_comment": "Enter",
+    "character_limit": 3,
+    "string": "エンター"
+  },
+  "0314": {
+    "context": "000BEABC",
+    "developer_comment": "Debug: A",
+    "character_limit": 5,
+    "string": "デバッグ:A"
+  },
+  "0315": {
+    "context": "000BEAB0",
+    "developer_comment": "Debug: B",
+    "character_limit": 5,
+    "string": "デバッグ:B"
+  },
+  "0316": {
+    "context": "000BEAA4",
+    "developer_comment": "Debug: C",
+    "character_limit": 5,
+    "string": "デバッグ:C"
+  },
+  "0317": {
+    "context": "000BEA9C",
+    "developer_comment": "Commit",
+    "character_limit": 3,
+    "string": "コミット"
+  },
+  "0318": {
+    "context": "000BEA8C",
+    "developer_comment": "Terabyte Disc",
+    "character_limit": 7,
+    "string": "テラバイトディスク"
+  },
+  "0319": {
+    "context": "000BEA84",
+    "developer_comment": "Program",
+    "character_limit": 3,
+    "string": "プログラム"
+  },
+  "0320": {
+    "context": "000BEA7C",
+    "developer_comment": "Ether",
+    "character_limit": 3,
+    "string": "イーサ"
+  },
+  "0321": {
+    "context": "000BEA64",
+    "developer_comment": "ENEMY, ENEMY, AND ENEMY",
+    "character_limit": 11,
+    "string": "敵と敵と敵"
+  },
+  "0322": {
+    "context": "000BEA5C",
+    "developer_comment": "LOOMING",
+    "character_limit": 3,
+    "string": "迫り来るモノ"
+  },
+  "0323": {
+    "context": "000BEA48",
+    "developer_comment": "Overlapping crises",
+    "character_limit": 9,
+    "string": "Overlap crisis"
+  },
+  "0324": {
+    "context": "000BEA2C",
+    "developer_comment": "KILL ONE, SAVE A THOUSAND",
+    "character_limit": 13,
+    "string": "一殺多生"
+  },
+  "0325": {
+    "context": "000BEA10",
+    "developer_comment": "BETWEEN MALICE AND DECEIT",
+    "character_limit": 13,
+    "string": "Believe that"
+  },
+  "0326": {
+    "context": "000BEA04",
+    "developer_comment": "Jun Moribe",
+    "character_limit": 5,
+    "string": "守部洵"
+  },
+  "0327": {
+    "context": "000BE9E4",
+    "developer_comment": "(I Can't Get No) Satisfaction",
+    "character_limit": 15,
+    "string": "サティスファクション"
+  },
+  "0328": {
+    "context": "000BE9CC",
+    "developer_comment": "Holding Out for a Hero",
+    "character_limit": 11,
+    "string": "ヒーロー"
+  },
+  "0329": {
+    "context": "000BE9C4",
+    "developer_comment": "Life",
+    "character_limit": 3,
+    "string": "ライフ"
+  },
+  "0330": {
+    "context": "000BE9AC",
+    "developer_comment": "Fight Fire With Fire",
+    "character_limit": 11,
+    "string": "ファイト･ファイア･ウィズ･ファイア"
+  },
+  "0331": {
+    "context": "000BE98C",
+    "developer_comment": "The Dark Side of the Moon: A",
+    "character_limit": 15,
+    "string": "ダークサイド･オブ･ザ･ムーン:A"
+  },
+  "0332": {
+    "context": "000BE96C",
+    "developer_comment": "The Dark Side of the Moon: B",
+    "character_limit": 15,
+    "string": "ダークサイド･オブ･ザ･ムーン:B"
+  },
+  "0333": {
+    "context": "000BE94C",
+    "developer_comment": "The Dark Side of the Moon: C",
+    "character_limit": 15,
+    "string": "ダークサイド･オブ･ザ･ムーン:C"
+  },
+  "0334": {
+    "context": "000BE92C",
+    "developer_comment": "The Dark Side of the Moon: D",
+    "character_limit": 15,
+    "string": "ダークサイド･オブ･ザ･ムーン:D"
+  },
+  "0335": {
+    "context": "000BE920",
+    "developer_comment": "Crossroads",
+    "character_limit": 5,
+    "string": "クロスロード"
+  },
+  "0336": {
+    "context": "000BE908",
+    "developer_comment": "Sympathy for the Devil",
+    "character_limit": 11,
+    "string": "シンパシー･フォー･ザ･デビル"
+  },
+  "0337": {
+    "context": "000BE8FC",
+    "developer_comment": "Born to Run",
+    "character_limit": 5,
+    "string": "ボーン･トゥ･ラン"
+  },
+  "0338": {
+    "context": "000BE8E8",
+    "developer_comment": "Bohemian Rhapsody",
+    "character_limit": 9,
+    "string": "ボヘミアン･ラプソディ"
+  },
+  "0339": {
+    "context": "000BE8D8",
+    "developer_comment": "Ena Tsubakiyama",
+    "character_limit": 7,
+    "string": "椿山恵那"
+  },
+  "0340": {
+    "context": "000BE8C4",
+    "developer_comment": "Song for My Father",
+    "character_limit": 9,
+    "string": "ソング･フォー･マイファザー"
+  },
+  "0341": {
+    "context": "000BE8A4",
+    "developer_comment": "Ding-Dong! The Witch Is Dead",
+    "character_limit": 15,
+    "string": "ウィッチ･イズ･デッド"
+  },
+  "0342": {
+    "context": "000BE898",
+    "developer_comment": "School Days",
+    "character_limit": 5,
+    "string": "スクール･デイズ"
+  },
+  "0343": {
+    "context": "000BE88C",
+    "developer_comment": "In the Dark",
+    "character_limit": 5,
+    "string": "イン･ザ･ダーク"
+  },
+  "0344": {
+    "context": "000BE87C",
+    "developer_comment": "Body and Soul",
+    "character_limit": 7,
+    "string": "ボディ･アンド･ソウル"
+  },
+  "0345": {
+    "context": "000BE870",
+    "developer_comment": "Work Song",
+    "character_limit": 5,
+    "string": "ワーク･ソング"
+  },
+  "0346": {
+    "context": "000BE854",
+    "developer_comment": "Ev'ry Time We Say Goodbye",
+    "character_limit": 13,
+    "string": "エヴリタイム･ウィ･セイ･グッバイ"
+  },
+  "0347": {
+    "context": "000BE848",
+    "developer_comment": "MOVING TIME",
+    "character_limit": 5,
+    "string": "歩き出す時"
+  },
+  "0348": {
+    "context": "000BE838",
+    "developer_comment": "Out of order",
+    "character_limit": 7,
+    "string": "Out of order"
+  },
+  "0349": {
+    "context": "000BE820",
+    "developer_comment": "Louise Yui Sannomiya",
+    "character_limit": 11,
+    "string": "三ノ宮･ルイーズ･優衣"
+  },
+  "0350": {
+    "context": "000BE814",
+    "developer_comment": "Rapunzel",
+    "character_limit": 5,
+    "string": "ラプンツェル"
+  },
+  "0351": {
+    "context": "000BE7F8",
+    "developer_comment": "The Girl Who Was Plugged In",
+    "character_limit": 13,
+    "string": "接続された女"
+  },
+  "0352": {
+    "context": "000BE7E0",
+    "developer_comment": "Methuselah's Children",
+    "character_limit": 11,
+    "string": "メトセラの子"
+  },
+  "0353": {
+    "context": "000BE7D0",
+    "developer_comment": "Childhood's End",
+    "character_limit": 7,
+    "string": "幼年期の終わり"
+  },
+  "0354": {
+    "context": "000BE7B8",
+    "developer_comment": "The Door into Summer",
+    "character_limit": 11,
+    "string": "夏への扉"
+  },
+  "0355": {
+    "context": "000BE7AC",
+    "developer_comment": "Watchers",
+    "character_limit": 5,
+    "string": "ウォッチャーズ"
+  },
+  "0356": {
+    "context": "000BE798",
+    "developer_comment": "The End of the Road",
+    "character_limit": 9,
+    "string": "旅路の果て"
+  },
+  "0357": {
+    "context": "000BE77C",
+    "developer_comment": "The Only Neat Thing to Do",
+    "character_limit": 13,
+    "string": "たったひとつの冴えたやりかた"
+  },
+  "0358": {
+    "context": "000BE76C",
+    "developer_comment": "Prison Legend",
+    "character_limit": 7,
+    "string": "独房ファンタジア"
+  },
+  "0359": {
+    "context": "000BE75C",
+    "developer_comment": "MIYOKO TENKAWA",
+    "character_limit": 7,
+    "string": "天川美夜子"
+  },
+  "0360": {
+    "context": "000BE750",
+    "developer_comment": "Lunatique",
+    "character_limit": 5,
+    "string": "Lunatique"
+  },
+  "0361": {
+    "context": "000BE744",
+    "developer_comment": "INFORMATION",
+    "character_limit": 5,
+    "string": "情報"
+  },
+  "0362": {
+    "context": "000BE734",
+    "developer_comment": "Heart and pain",
+    "character_limit": 7,
+    "string": "Heart and pain"
+  },
+  "0363": {
+    "context": "000BE720",
+    "developer_comment": "PURPOSE OF POWER",
+    "character_limit": 9,
+    "string": "力の使途"
+  },
+  "0364": {
+    "context": "000BE718",
+    "developer_comment": "LOCKUP",
+    "character_limit": 3,
+    "string": "ロック･アップ"
+  },
+  "0365": {
+    "context": "000BE70C",
+    "developer_comment": "Time trick",
+    "character_limit": 5,
+    "string": "Time trick"
+  },
+  "0366": {
+    "context": "000BE704",
+    "developer_comment": "MESSAGE",
+    "character_limit": 3,
+    "string": "メッセージ"
+  },
+  "0367": {
+    "context": "000BE6EC",
+    "developer_comment": "Raven's determination",
+    "character_limit": 11,
+    "string": "Raven's determination"
+  },
+  "0368": {
+    "context": "000BE6D8",
+    "developer_comment": "Kazami Tachibana",
+    "character_limit": 9,
+    "string": "橘風見"
+  },
+  "0369": {
+    "context": "000BE6B4",
+    "developer_comment": "Concerto du vent: Concerto for wind",
+    "character_limit": 17,
+    "string": "風のコンチェルト"
+  },
+  "0370": {
+    "context": "000BE6AC",
+    "developer_comment": "Requiem",
+    "character_limit": 3,
+    "string": "レクイエム"
+  },
+  "0371": {
+    "context": "000BE684",
+    "developer_comment": "Walkuerenritt: Ride of the Valkyries",
+    "character_limit": 19,
+    "string": "ワルキューレの騎行"
+  },
+  "0372": {
+    "context": "000BE638",
+    "developer_comment": "L'alba separa dalla luce l'ombra: Dawn Divides the Light from the Shadows",
+    "character_limit": 37,
+    "string": "暁は光と闇を分かつ"
+  },
+  "0373": {
+    "context": "000BE600",
+    "developer_comment": "Tod und Verklaerung: Death and Transfiguration: A",
+    "character_limit": 27,
+    "string": "死と変容:A"
+  },
+  "0374": {
+    "context": "000BE5CC",
+    "developer_comment": "Tod und Verklaerung: Death and Transfiguration: B",
+    "character_limit": 25,
+    "string": "死と変容:B"
+  },
+  "0375": {
+    "context": "000BE598",
+    "developer_comment": "Tod und Verklaerung: Death and Transfiguration: C",
+    "character_limit": 25,
+    "string": "死と変容:C"
+  },
+  "0376": {
+    "context": "000BE580",
+    "developer_comment": "V mlhach: In the Mists",
+    "character_limit": 11,
+    "string": "霧の中で"
+  },
+  "0377": {
+    "context": "000BE570",
+    "developer_comment": "Sleepers Wake",
+    "character_limit": 7,
+    "string": "目覚メよ、ト呼ブ声が聞こエ"
+  },
+  "0378": {
+    "context": "000BE550",
+    "developer_comment": "WHEN YOU STARE INTO THE ABYSS",
+    "character_limit": 15,
+    "string": "深淵を覗き込む時"
+  },
+  "0379": {
+    "context": "000BE544",
+    "developer_comment": "Darkness",
+    "character_limit": 5,
+    "string": "Darkness"
+  },
+  "0380": {
+    "context": "000BE538",
+    "developer_comment": "DECISION",
+    "character_limit": 5,
+    "string": "決断"
+  },
+  "0381": {
+    "context": "000BE51C",
+    "developer_comment": "Queen of the Night's Aria",
+    "character_limit": 13,
+    "string": "夜の女王のアリア"
+  },
+  "0382": {
+    "context": "000BE508",
+    "developer_comment": "L'Adieu: Farewell",
+    "character_limit": 9,
+    "string": "別れの曲"
+  },
+  "0383": {
+    "context": "000BE500",
+    "developer_comment": "CHOICE",
+    "character_limit": 3,
+    "string": "選択"
+  },
+  "0384": {
+    "context": "000BE4F8",
+    "developer_comment": "HOPE",
+    "character_limit": 3,
+    "string": "希望"
+  },
+  "0385": {
+    "context": "000BE4E0",
+    "developer_comment": "ESCAPE / Last Escape",
+    "character_limit": 11,
+    "string": "脱出 / Last Escape"
+  },
+  "0386": {
+    "context": "000BE4D8",
+    "developer_comment": "PROMISE",
+    "character_limit": 3,
+    "string": "約束"
+  },
+  "0387": {
+    "context": "000BE4D0",
+    "developer_comment": "PARTING",
+    "character_limit": 3,
+    "string": "別離"
+  },
+  "0388": {
+    "context": "000BE4A8",
+    "developer_comment": "Root Double / To Each Their Memories",
+    "character_limit": 19,
+    "string": "Root Double / それぞれの記憶"
+  },
+  "0389": {
+    "context": "000BE494",
+    "developer_comment": "Prologue & Epilogue",
+    "character_limit": 9,
+    "string": "Prologue & Epilogue"
+  },
+  "0390": {
+    "context": "000BE464",
+    "developer_comment": "DON'T WANT TO BE ALONE AT THE END OF THE WORLD",
+    "character_limit": 23,
+    "string": "世界の終わりに一人は嫌だ"
+  },
+  "0391": {
+    "context": "000BE458",
+    "developer_comment": "Fatal Error",
+    "character_limit": 5,
+    "string": "フェイタル･エラー"
+  },
+  "0392": {
+    "context": "000BE448",
+    "developer_comment": "Killer Queen",
+    "character_limit": 7,
+    "string": "キラー･クィーン"
+  },
+  "0393": {
+    "context": "000BE440",
+    "developer_comment": "ERASE",
+    "character_limit": 3,
+    "string": "消去"
+  },
+  "0394": {
+    "context": "000BE430",
+    "developer_comment": "Pure Motives",
+    "character_limit": 7,
+    "string": "Pure Motives"
+  },
+  "0395": {
+    "context": "000BE42C",
+    "developer_comment": "-3",
+    "character_limit": 1,
+    "string": "-3"
+  },
+  "0396": {
+    "context": "000BE414",
+    "developer_comment": "IN A SHATTERED WORLD",
+    "character_limit": 11,
+    "string": "バラバラに壊れた世界で"
+  },
+  "0397": {
+    "context": "000BE404",
+    "developer_comment": "PRIDE OF SIRIUS",
+    "character_limit": 7,
+    "string": "シリウスの矜持"
+  },
+  "0398": {
+    "context": "000BE3F0",
+    "developer_comment": "NEVERENDING STORY",
+    "character_limit": 9,
+    "string": "終わらない物語"
+  },
+  "0399": {
+    "context": "000BE3E0",
+    "developer_comment": "REQUIEM FOR MEN",
+    "character_limit": 7,
+    "string": "男たちの挽歌"
+  },
+  "0400": {
+    "context": "000BE3C4",
+    "developer_comment": "BIRD THAT FACES THE WIND",
+    "character_limit": 13,
+    "string": "風に立ち向かう鳥"
+  },
+  "0401": {
+    "context": "000BE3BC",
+    "developer_comment": "LIFE",
+    "character_limit": 3,
+    "string": "命"
+  },
+  "0402": {
+    "context": "000BE3B8",
+    "developer_comment": "SIN",
+    "character_limit": 1,
+    "string": "罪"
+  },
+  "0403": {
+    "context": "000BE3A8",
+    "developer_comment": "Before Crime",
+    "character_limit": 7,
+    "string": "Before Crime"
+  },
+  "0404": {
+    "context": "000BE39C",
+    "developer_comment": "ONE BY ONE",
+    "character_limit": 5,
+    "string": "2人"
+  },
+  "0405": {
+    "context": "000BE390",
+    "developer_comment": "AFTER DAYS",
+    "character_limit": 5,
+    "string": "アフターデイズ"
+  },
+  "0406": {
+    "context": "000BE384",
+    "developer_comment": "DEPARTURE",
+    "character_limit": 5,
+    "string": "出立"
+  },
+  "0407": {
+    "context": "000BE374",
+    "developer_comment": "BEFORE CRIME",
+    "character_limit": 7,
+    "string": "ビフォークライム"
+  },
+  "0408": {
+    "context": "000BE36C",
+    "developer_comment": "THEM",
+    "character_limit": 3,
+    "string": "彼ら"
+  },
+  "0409": {
+    "context": "000BE360",
+    "developer_comment": "After Days",
+    "character_limit": 5,
+    "string": "After Days"
+  },
+  "0410": {
+    "context": "000BE354",
+    "developer_comment": "ASTERISK",
+    "character_limit": 5,
+    "string": "アスタリスク"
+  },
+  "0411": {
+    "context": "000BE344",
+    "developer_comment": "Unforgettable",
+    "character_limit": 7,
+    "string": "Unforgettable"
+  },
+  "0412": {
+    "context": "000BE32C",
+    "developer_comment": "I'll be there for you",
+    "character_limit": 11,
+    "string": "I'll be there for you"
+  },
+  "0413": {
+    "context": "000BE310",
+    "developer_comment": "A midsummer night's dream",
+    "character_limit": 13,
+    "string": "A midsummer night's dream"
+  },
+  "0414": {
+    "context": "000BE300",
+    "developer_comment": "BOYS AND GIRLS",
+    "character_limit": 7,
+    "string": "少年少女"
+  },
+  "0415": {
+    "context": "000BE2EC",
+    "developer_comment": "ALL SUMMER IN A DAY",
+    "character_limit": 9,
+    "string": "すべての夏をこの一日に"
+  },
+  "0416": {
+    "context": "000BE2D8",
+    "developer_comment": "THE LITTLE PRINCE",
+    "character_limit": 9,
+    "string": "星の王子さま"
+  },
+  "0417": {
+    "context": "000BE2C8",
+    "developer_comment": "Grand Epilogue",
+    "character_limit": 7,
+    "string": "Grand Epilogue"
+  },
+  "0418": {
+    "context": "000BE2B8",
+    "developer_comment": "GRAND EPILOGUE",
+    "character_limit": 7,
+    "string": "グランドエピローグ"
+  },
+  "0419": {
+    "context": "000BE29C",
+    "developer_comment": "RAM / Random Access Memory",
+    "character_limit": 13,
+    "string": "RAM / ランダム･アクセス･メモリー"
+  },
+  "0420": {
+    "context": "000BE28C",
+    "developer_comment": "Xe: Defragment",
+    "character_limit": 7,
+    "string": "Xe:デフラグメント"
+  },
+  "0421": {
+    "context": "000BE27C",
+    "developer_comment": "Xe: Conflict",
+    "character_limit": 7,
+    "string": "Xe:コンフリクト"
+  },
+  "0422": {
+    "context": "000BE26C",
+    "developer_comment": "Xe: Interlace",
+    "character_limit": 7,
+    "string": "Xe:インタレース"
+  },
+  "0423": {
+    "context": "000BE254",
+    "developer_comment": "Xe: Garbage Collection",
+    "character_limit": 11,
+    "string": "Xe:ガーベージ･コレクション"
+  },
+  "0424": {
+    "context": "000BE248",
+    "developer_comment": "Xe: Enter",
+    "character_limit": 5,
+    "string": "Xe:エンター"
+  },
+  "0425": {
+    "context": "000BE238",
+    "developer_comment": "Xe: Debug: A",
+    "character_limit": 7,
+    "string": "Xe:デバッグ:A"
+  },
+  "0426": {
+    "context": "000BE228",
+    "developer_comment": "Xe: Debug: B",
+    "character_limit": 7,
+    "string": "Xe:デバッグ:B"
+  },
+  "0427": {
+    "context": "000BE218",
+    "developer_comment": "Xe: Debug: C",
+    "character_limit": 7,
+    "string": "Xe:デバッグ:C"
+  },
+  "0428": {
+    "context": "000BE20C",
+    "developer_comment": "Xe: Network",
+    "character_limit": 5,
+    "string": "Xe:ネットワーク"
+  },
+  "0429": {
+    "context": "000BE200",
+    "developer_comment": "Xe: Virus",
+    "character_limit": 5,
+    "string": "Xe:ウィルス"
+  },
+  "0430": {
+    "context": "000BE1E4",
+    "developer_comment": "Xe: Memories: Magnetic Rose",
+    "character_limit": 13,
+    "string": "Xe:彼女の想い出"
+  },
+  "0431": {
+    "context": "000BE1C0",
+    "developer_comment": "Xe: When Cicada's Season Is Over",
+    "character_limit": 17,
+    "string": "Xe:蝉時雨のやむ頃"
+  },
+  "0432": {
+    "context": "000BE1AC",
+    "developer_comment": "Xe: Sonata in B♭",
+    "character_limit": 9,
+    "string": "Xe:Ｂ♭のソナタ"
+  },
+  "0433": {
+    "context": "000BE188",
+    "developer_comment": "Xe: Odyssey in the Sky With Denpa",
+    "character_limit": 17,
+    "string": "Xe:電波オデッセイ"
+  },
+  "0434": {
+    "context": "000BE178",
+    "developer_comment": "Xe: Eternity",
+    "character_limit": 7,
+    "string": "Xe:永遠"
+  },
+  "0435": {
+    "context": "000BE168",
+    "developer_comment": "Xe: Translucent",
+    "character_limit": 7,
+    "string": "Xe:トランスルーセント"
+  },
+  "0436": {
+    "context": "000BE154",
+    "developer_comment": "Xe: Grateful Dead",
+    "character_limit": 9,
+    "string": "Xe:グレイトフル･デッド"
+  },
+  "0437": {
+    "context": "000BE140",
+    "developer_comment": "Xe: Camouflage City",
+    "character_limit": 9,
+    "string": "Xe:迷彩都市"
+  },
+  "0438": {
+    "context": "000BE120",
+    "developer_comment": "Xe: In A Corner of This World",
+    "character_limit": 15,
+    "string": "Xe:この世界の片隅に"
+  },
+  "0439": {
+    "context": "000BE10C",
+    "developer_comment": "Xe: The One I Love",
+    "character_limit": 9,
+    "string": "Xe:わたしのすきなひと"
+  },
+  "0440": {
+    "context": "000BE0F4",
+    "developer_comment": "Xe: Song For My Father",
+    "character_limit": 11,
+    "string": "Xe:ソング･フォー･マイファザー"
+  },
+  "0441": {
+    "context": "000BE0D0",
+    "developer_comment": "Xe: Ding-Dong! The Witch Is Dead",
+    "character_limit": 17,
+    "string": "Xe:ウィッチ･イズ･デッド"
+  },
+  "0442": {
+    "context": "000BE0C0",
+    "developer_comment": "Xe: School Days",
+    "character_limit": 7,
+    "string": "Xe:スクール･デイズ"
+  },
+  "0443": {
+    "context": "000BE0B0",
+    "developer_comment": "Xe: In the Dark",
+    "character_limit": 7,
+    "string": "Xe:イン･ザ･ダーク"
+  },
+  "0444": {
+    "context": "000BE09C",
+    "developer_comment": "Xe: Body and Soul",
+    "character_limit": 9,
+    "string": "Xe:ボディ･アンド･ソウル"
+  },
+  "0445": {
+    "context": "000BE084",
+    "developer_comment": "Xe: Oh, Lady be Good!",
+    "character_limit": 11,
+    "string": "Xe:レディ･ビー･グッド"
+  },
+  "0446": {
+    "context": "000BE064",
+    "developer_comment": "Xe: Ev'ry Time We Say Goodbye",
+    "character_limit": 15,
+    "string": "Xe:エヴリタイム･ウィ･セイ･グッバイ"
+  },
+  "0447": {
+    "context": "000BE050",
+    "developer_comment": "Xe: Memories of You",
+    "character_limit": 9,
+    "string": "Xe:メモリーズ･オブ･ユー"
+  },
+  "0448": {
+    "context": "000BE038",
+    "developer_comment": "Xe: Return to Forever",
+    "character_limit": 11,
+    "string": "Xe:リターン･トゥ･フォーエヴァー"
+  },
+  "0449": {
+    "context": "000BE018",
+    "developer_comment": "Xe: The Girl Who Was Plugged In",
+    "character_limit": 15,
+    "string": "Xe:接続された女"
+  },
+  "0450": {
+    "context": "000BDFFC",
+    "developer_comment": "Xe: Methuselah's Children",
+    "character_limit": 13,
+    "string": "Xe:メトセラの子"
+  },
+  "0451": {
+    "context": "000BDFE8",
+    "developer_comment": "Xe: Childhood's End",
+    "character_limit": 9,
+    "string": "Xe:幼年期の終わり"
+  },
+  "0452": {
+    "context": "000BDFCC",
+    "developer_comment": "Xe: The Door into Summer",
+    "character_limit": 13,
+    "string": "Xe:夏への扉"
+  },
+  "0453": {
+    "context": "000BDFBC",
+    "developer_comment": "Xe: Watchers",
+    "character_limit": 7,
+    "string": "Xe:ウォッチャーズ"
+  },
+  "0454": {
+    "context": "000BDFA4",
+    "developer_comment": "Xe: The End of the Road",
+    "character_limit": 11,
+    "string": "Xe:旅路の果て"
+  },
+  "0455": {
+    "context": "000BDF84",
+    "developer_comment": "Xe: The Only Neat Thing to Do",
+    "character_limit": 15,
+    "string": "Xe:たったひとつの冴えたやりかた"
+  },
+  "0456": {
+    "context": "000BDF60",
+    "developer_comment": "Xe: The Lights in the Sky Are Stars",
+    "character_limit": 17,
+    "string": "Xe:天の光は全て星"
+  },
+  "0457": {
+    "context": "000BDF44",
+    "developer_comment": "Xe: The Terminal Experiment",
+    "character_limit": 13,
+    "string": "Xe:ターミナル･エクスペリメント"
+  },
+  "0458": {
+    "context": "000BDF2C",
+    "developer_comment": "Xe: Orphans of the Sky",
+    "character_limit": 11,
+    "string": "Xe:宇宙の孤児"
+  },
+  "0459": {
+    "context": "000BDF04",
+    "developer_comment": "Xe: Love Is the Plan the Plan Is Death",
+    "character_limit": 19,
+    "string": "Xe:愛はさだめ、さだめは死"
+  },
+  "0460": {
+    "context": "000BDEF0",
+    "developer_comment": "Xe: To Live Again",
+    "character_limit": 9,
+    "string": "Xe:いまひとたびの生"
+  },
+  "0461": {
+    "context": "000BDEE4",
+    "developer_comment": "Xe: Reverie",
+    "character_limit": 5,
+    "string": "Xe:夢"
+  },
+  "0462": {
+    "context": "000BDED4",
+    "developer_comment": "Xe: Goin' Home",
+    "character_limit": 7,
+    "string": "Xe:家路"
+  },
+  "0463": {
+    "context": "000BDEA4",
+    "developer_comment": "Xe: Das Lied der Trennung: The Song of Parting",
+    "character_limit": 23,
+    "string": "Xe:別離の歌"
+  },
+  "0464": {
+    "context": "000BDE90",
+    "developer_comment": "Xe: Eroica: Hero",
+    "character_limit": 9,
+    "string": "Xe:英雄"
+  },
+  "0465": {
+    "context": "000BDE74",
+    "developer_comment": "Xe: Dies Irae: Day of Wrath",
+    "character_limit": 13,
+    "string": "Xe:怒りの日"
+  },
+  "0466": {
+    "context": "000BDE30",
+    "developer_comment": "Xe: Falsche Welt, dir trau ich nicht: False world, I trust thee not",
+    "character_limit": 33,
+    "string": "Xe:悪しき世よ、我は汝に頼まじ"
+  },
+  "0467": {
+    "context": "000BDE04",
+    "developer_comment": "Xe: Kinderszenen: Scenes from Childhood",
+    "character_limit": 21,
+    "string": "Xe:子供の情景"
+  },
+  "0468": {
+    "context": "000BDDE8",
+    "developer_comment": "Xe: Baba Yaga: The Witch",
+    "character_limit": 13,
+    "string": "Xe:バーバヤガー"
+  },
+  "0469": {
+    "context": "000BDDC0",
+    "developer_comment": "Xe: Die Zauberfloete: The Magic Flute",
+    "character_limit": 19,
+    "string": "Xe:魔笛"
+  },
+  "0470": {
+    "context": "000BDDB0",
+    "developer_comment": "Xe: Promenade",
+    "character_limit": 7,
+    "string": "Xe:プロムナード"
+  },
+  "0471": {
+    "context": "000BDD8C",
+    "developer_comment": "Xe: La gazza ladra: Thieving Magpie",
+    "character_limit": 17,
+    "string": "Xe:泥棒かささぎ"
+  },
+  "0472": {
+    "context": "000BDD70",
+    "developer_comment": "Xe: Je te veux: I Want You",
+    "character_limit": 13,
+    "string": "Xe:ジュ･トゥ･ヴ"
+  },
+  "0473": {
+    "context": "000BDD30",
+    "developer_comment": "Xe: Pavane pour une infante defunte: Pavane for a Dead Princess",
+    "character_limit": 31,
+    "string": "Xe:亡き王女のためのバヴァーヌ"
+  },
+  "0474": {
+    "context": "000BDD20",
+    "developer_comment": "Xe: Jupiter",
+    "character_limit": 7,
+    "string": "Xe:ジュピター"
+  },
+  "0475": {
+    "context": "000BDD10",
+    "developer_comment": "Xe: Serenade",
+    "character_limit": 7,
+    "string": "Xe:小夜曲"
+  },
+  "0476": {
+    "context": "000BDCE8",
+    "developer_comment": "Xe: Concerto du vent: Concerto for wind",
+    "character_limit": 19,
+    "string": "Xe:風のコンチェルト"
+  },
+  "0477": {
+    "context": "000BDCDC",
+    "developer_comment": "Xe: Requiem",
+    "character_limit": 5,
+    "string": "Xe:レクイエム"
+  },
+  "0478": {
+    "context": "000BDCB0",
+    "developer_comment": "Xe: Walkuerenritt: Ride of the Valkyries",
+    "character_limit": 21,
+    "string": "Xe:ワルキューレの騎行"
+  },
+  "0479": {
+    "context": "000BDC60",
+    "developer_comment": "Xe: L'alba separa dalla luce l'ombra: Dawn Divides the Light from the Shadows",
+    "character_limit": 39,
+    "string": "Xe:暁は光と闇を分かつ"
+  },
+  "0480": {
+    "context": "000BDC24",
+    "developer_comment": "Xe: Tod und Verklaerung: Death and Transfiguration: A",
+    "character_limit": 29,
+    "string": "Xe:死と変容:A"
+  },
+  "0481": {
+    "context": "000BDBEC",
+    "developer_comment": "Xe: Tod und Verklaerung: Death and Transfiguration: B",
+    "character_limit": 27,
+    "string": "Xe:死と変容:B"
+  },
+  "0482": {
+    "context": "000BDBB4",
+    "developer_comment": "Xe: Tod und Verklaerung: Death and Transfiguration: C",
+    "character_limit": 27,
+    "string": "Xe:死と変容:C"
+  },
+  "0483": {
+    "context": "000BDBA8",
+    "developer_comment": "Xe: Flower",
+    "character_limit": 5,
+    "string": "Xe:花"
+  },
+  "0484": {
+    "context": "000BDB94",
+    "developer_comment": "Xe: Segreto: Secret",
+    "character_limit": 9,
+    "string": "Xe:秘密"
+  },
+  "0485": {
+    "context": "000BDB74",
+    "developer_comment": "Xe: Nuages gris: Dark Clouds",
+    "character_limit": 15,
+    "string": "Xe:暗い雲"
+  },
+  "0486": {
+    "context": "000BDB48",
+    "developer_comment": "Xe: Voi che sapete: Tell Me What Love Is",
+    "character_limit": 21,
+    "string": "Xe:恋とはどんなものかしら"
+  },
+  "0487": {
+    "context": "000BDB34",
+    "developer_comment": "Xe: Yuuri's Smile",
+    "character_limit": 9,
+    "string": "Xe:悠里の笑顔"
+  },
+  "0488": {
+    "context": "000BDB18",
+    "developer_comment": "Xe: Quiet and Peaceful Time",
+    "character_limit": 13,
+    "string": "Xe:静かで穏やかな時間"
+  },
+  "0489": {
+    "context": "000BDB08",
+    "developer_comment": "Xe: Dear Friend",
+    "character_limit": 7,
+    "string": "Xe:親しい友達"
+  },
+  "0490": {
+    "context": "000BDAF0",
+    "developer_comment": "Xe: Thoughtless Actions",
+    "character_limit": 11,
+    "string": "Xe:考え無しの行動"
+  },
+  "0491": {
+    "context": "000BDADC",
+    "developer_comment": "Xe: Communicator",
+    "character_limit": 9,
+    "string": "Xe:コミュニケーター"
+  },
+  "0492": {
+    "context": "000BDAB8",
+    "developer_comment": "Xe: (I Can't Get No) Satisfaction",
+    "character_limit": 17,
+    "string": "Xe:サティスファクション"
+  },
+  "0493": {
+    "context": "000BDA9C",
+    "developer_comment": "Xe: Holding Out for a Hero",
+    "character_limit": 13,
+    "string": "Xe:ヒーロー"
+  },
+  "0494": {
+    "context": "000BDA90",
+    "developer_comment": "Xe: Life",
+    "character_limit": 5,
+    "string": "Xe:ライフ"
+  },
+  "0495": {
+    "context": "000BDA74",
+    "developer_comment": "Xe: Fight Fire with Fire",
+    "character_limit": 13,
+    "string": "Xe:ファイト･ファイア･ウィズ･ファイア"
+  },
+  "0496": {
+    "context": "000BDA50",
+    "developer_comment": "Xe: The Dark Side of the Moon: A",
+    "character_limit": 17,
+    "string": "Xe:ダークサイド･オブ･ザ･ムーン:A"
+  },
+  "0497": {
+    "context": "000BDA2C",
+    "developer_comment": "Xe: The Dark Side of the Moon: B",
+    "character_limit": 17,
+    "string": "Xe:ダークサイド･オブ･ザ･ムーン:B"
+  },
+  "0498": {
+    "context": "000BDA08",
+    "developer_comment": "Xe: The Dark Side of the Moon: C",
+    "character_limit": 17,
+    "string": "Xe:ダークサイド･オブ･ザ･ムーン:C"
+  },
+  "0499": {
+    "context": "000BD9E4",
+    "developer_comment": "Xe: The Dark Side of the Moon: D",
+    "character_limit": 17,
+    "string": "Xe:ダークサイド･オブ･ザ･ムーン:D"
+  },
+  "0500": {
+    "context": "000BD9CC",
+    "developer_comment": "Xe: Roll Over Beethoven",
+    "character_limit": 11,
+    "string": "Xe:ロール･オーバー･ベートーベン"
+  },
+  "0501": {
+    "context": "000BD9B4",
+    "developer_comment": "Xe: Honky Tonk Woman",
+    "character_limit": 11,
+    "string": "Xe:ホンキー･トンク･ウィメン"
+  },
+  "0502": {
+    "context": "000BD9A4",
+    "developer_comment": "Xe: Dirty Work",
+    "character_limit": 7,
+    "string": "Xe:ダーティ･ワーク"
+  },
+  "0503": {
+    "context": "000BD990",
+    "developer_comment": "Xe: Light My Fire",
+    "character_limit": 9,
+    "string": "Xe:ライト･マイ･ファイア"
+  },
+  "0504": {
+    "context": "000BD978",
+    "developer_comment": "Xe: Heart of Darkness",
+    "character_limit": 11,
+    "string": "Xe:闇の奥"
+  },
+  "0505": {
+    "context": "000BD960",
+    "developer_comment": "Xe: The Night She Died",
+    "character_limit": 11,
+    "string": "Xe:彼女が死んだ夜"
+  },
+  "0506": {
+    "context": "000BD948",
+    "developer_comment": "Xe: Ma-in: The Demon",
+    "character_limit": 11,
+    "string": "Xe:魔人"
+  },
+  "0507": {
+    "context": "000BD920",
+    "developer_comment": "Xe: Ushinawareru Monogatari: Lost Story",
+    "character_limit": 19,
+    "string": "Xe:失われる物語"
+  },
+  "0508": {
+    "context": "000BD8F4",
+    "developer_comment": "Xe: Natsu no Replica: Replaceable Summer",
+    "character_limit": 21,
+    "string": "Xe:夏のレプリカ"
+  },
+  "0509": {
+    "context": "000BD8DC",
+    "developer_comment": "Xe: Sorekara: And Then",
+    "character_limit": 11,
+    "string": "Xe:それから"
+  },
+  "0510": {
+    "context": "000BD8C0",
+    "developer_comment": "Xe: For Whom The Bell Tolls",
+    "character_limit": 13,
+    "string": "Xe:誰が為に鐘は鳴る"
+  },
+  "0511": {
+    "context": "000BD88C",
+    "developer_comment": "Xe: Towa mo Nakaba wo Sugite: Half Past Eternity",
+    "character_limit": 25,
+    "string": "Xe:永遠も半ばを過ぎて"
+  },
+  "0512": {
+    "context": "000BD878",
+    "developer_comment": "Xe: Towards Zero",
+    "character_limit": 9,
+    "string": "Xe:ゼロの時間へ"
+  },
+  "0513": {
+    "context": "000BD864",
+    "developer_comment": "Xe: I Won't Forget",
+    "character_limit": 9,
+    "string": "Xe:きっと忘れない"
+  },
+  "0514": {
+    "context": "000BD840",
+    "developer_comment": "Xe: Atatakai Yume: A Sweet Dream",
+    "character_limit": 17,
+    "string": "Xe:暖かい夢"
+  },
+  "0515": {
+    "context": "000BD834",
+    "developer_comment": "Xe: Level 7",
+    "character_limit": 5,
+    "string": "Xe:レベル7"
+  },
+  "0516": {
+    "context": "000BD820",
+    "developer_comment": "Xe: Kokoro: Mind",
+    "character_limit": 9,
+    "string": "Xe:こころ"
   }
 }
