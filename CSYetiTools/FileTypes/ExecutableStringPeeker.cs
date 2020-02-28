@@ -37,12 +37,63 @@ namespace CsYetiTools.FileTypes
             return new StringSegment(offset, length, encoding.GetString(bytes.ToArray()));
         }
 
-        public void Modify(Stream stream, Encoding encoding)
+        public void Modify(Stream stream, Encoding encoding, string? replacement, bool throwIfLengthError)
         {
-            var bytes = encoding.GetBytes(Content.Replace("\n", "%N"));
-            if (bytes.Length + 1 >= Length)
+            var content = replacement ?? Content;
+            var bytes = encoding.GetBytes(content.Replace("\n", "%N"));
+            if (bytes.Length + 1 > Length)
             {
-                throw new InvalidOperationException($"\"{Content.Replace("\"", "\\\"")}\" length > {Length - 1}");
+                if (throwIfLengthError)
+                {
+                    throw new InvalidOperationException($"\"{content.Replace("\"", "\\\"")}\" length > {Length - 1}");
+                }
+                else
+                {
+                    if (content.Length == bytes.Length || Length <= 5) // all single-byte means maybe english, or too short.
+                    {
+                        var color = Console.ForegroundColor;
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"\"{content.Replace("\"", "\\\"")}\" length > \"{Content.Replace("\"", "\\\"")}\", use source");
+                        Console.ForegroundColor = color;
+                        content = Content;
+                        bytes = encoding.GetBytes(content.Replace("\n", "%N"));
+                    }
+                    else
+                    {
+                        var byteList = new List<byte>();
+                        var chars1 = new char[1];
+                        var chars2 = new char[2];
+                        foreach (var c in content)
+                        {
+                            byte[] newBytes;
+                            if (char.IsHighSurrogate(c))
+                            {
+                                chars2[0] = c;
+                                continue;
+                            }
+                            else if (char.IsLowSurrogate(c))
+                            {
+                                chars2[1] = c;
+                                newBytes = encoding.GetBytes(chars2);
+                            }
+                            else
+                            {
+                                chars1[0] = c;
+                                newBytes = encoding.GetBytes(chars1);
+                            }
+                            if (byteList.Count + newBytes.Length + 1 > Length) break;
+                            byteList.AddRange(newBytes);
+                        }
+                        bytes = byteList.ToArray();
+                        if (bytes.Length + 1 > Length)
+                            throw new InvalidProgramException("???");
+                        var newString = encoding.GetString(bytes);
+                        var color = Console.ForegroundColor;
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"trunked \"{content.Replace("\"", "\\\"")}\"(\"{Content.Replace("\"", "\\\"")}\") to {newString.Replace("\"", "\\\"")}");
+                        Console.ForegroundColor = color;
+                    }
+                }
             }
             stream.Position = Offset;
             stream.Write(bytes);
@@ -109,18 +160,24 @@ namespace CsYetiTools.FileTypes
         public List<StringSegment> Segments(string name)
             => _ranges.First(kv => kv.name == name).segments;
 
-        public void Modify(Stream stream, Encoding encoding)
+        public void Modify(Stream stream, Encoding encoding, string stringPoolDirPath)
         {
             foreach (var (name, segs) in _ranges)
             {
-                foreach (var seg in segs) seg.Modify(stream, encoding);
+                var sexprs = SExpr.ParseFile(Path.Combine(stringPoolDirPath, name + ".ss"));
+                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
+                if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
+                foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
+                {
+                    seg.Modify(stream, encoding, references[i], false);
+                }
             }
         }
 
-        public void DumpTranslateSource(string name, string path, IList<string> reference)
+        public void DumpTranslateSource(string name, string path, IList<string> references)
         {
             var segs = Segments(name);
-            if (segs.Count != reference.Count) throw new ArgumentException($"{name}: reference({reference.Count}) doesnt match segs({segs.Count})");
+            if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
 
             using var writer = new StreamWriter(path, false, Utils.Utf8);
             writer.NewLine = "\n";
@@ -130,7 +187,7 @@ namespace CsYetiTools.FileTypes
             {
                 dict.Add(i.ToString("0000"), new Transifex.TranslationInfo
                 {
-                    String = reference[i],
+                    String = references[i],
                     Context = seg.Offset.ToString("X08"),
                     DeveloperComment = seg.Content,
                     CharacterLimit = seg.Length / 2 - 1,
@@ -146,8 +203,8 @@ namespace CsYetiTools.FileTypes
             foreach (var name in Names)
             {
                 var sexprs = SExpr.ParseFile(Path.Combine(stringPoolDirPath, name + ".ss"));
-                var list = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
-                DumpTranslateSource(name, Path.Combine(dirPath, name.Replace('-', '_') + ".json"), list);
+                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
+                DumpTranslateSource(name, Path.Combine(dirPath, name.Replace('-', '_') + ".json"), references);
             }
         }
     }

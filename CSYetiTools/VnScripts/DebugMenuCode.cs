@@ -40,7 +40,7 @@ namespace CsYetiTools.VnScripts
             for (int i = 0; i < count; ++i)
             {
                 var choice = new Choice();
-                choice.Prefix = reader.ReadBytes(Choice.PrefixLength);
+                choice.Prefix = reader.ReadBytesExact(Choice.PrefixLength);
                 choice.Offset = ReadAddress(reader);
                 choice.Title = Utils.ReadStringZ(reader);
 

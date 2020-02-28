@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CsYetiTools.FileTypes
 {
-    public sealed class CpkFile : IDisposable
+    public sealed class Cpk : IDisposable
     {
         // file format reference:
         //     https://gist.github.com/unknownbrackets/78c4631a4091044d381432ffb7f1bae4
@@ -103,7 +103,7 @@ namespace CsYetiTools.FileTypes
         {
             var oldPos = reader.BaseStream.Position;
             reader.BaseStream.Position = pos;
-            var bytes = reader.ReadBytes(size);
+            var bytes = reader.ReadBytesExact(size);
             reader.BaseStream.Position = oldPos;
             return bytes;
         }
@@ -124,10 +124,10 @@ namespace CsYetiTools.FileTypes
         private static void CheckBytes(IEnumerable<byte> data, byte[] target, string message)
         {
             var arr = data.ToList();
-            if (!data.SequenceEqual(target))
+            if (!arr.SequenceEqual(target))
             {
                 throw new InvalidDataException(
-                    $"{message}: [{Utils.BytesToHex(data)}] != [{Utils.BytesToHex(target)}]");
+                    $"{message}: [{Utils.BytesToHex(arr)}] != [{Utils.BytesToHex(target)}]");
             }
         }
 
@@ -148,7 +148,7 @@ namespace CsYetiTools.FileTypes
             if (unknown != 0x00000FFU) Console.WriteLine($"Unknown u32 {unknown} != 0x000000FF");
             var size = reader.ReadInt64();
             if (size > int.MaxValue) throw new InvalidDataException($"Too large UTF size {size}");
-            var utf = reader.ReadBytes((int)size);
+            var utf = reader.ReadBytesExact((int)size);
             if (!utf.Take(4).SequenceEqual(UtfTag)) DecryptInPlace(utf);
             return utf;
         }
@@ -295,7 +295,7 @@ namespace CsYetiTools.FileTypes
         public IReadOnlyList<ItocEntry> ItocEntries
             => _itocEntries.AsReadOnly();
 
-        public CpkFile(Stream stream)
+        public Cpk(Stream stream)
         {
             _stream = stream;
 
@@ -358,9 +358,9 @@ namespace CsYetiTools.FileTypes
             ExtractItoc(file, entry);
         }
 
-        public static CpkFile FromFile(string path)
+        public static Cpk FromFile(string path)
         {
-            return new CpkFile(File.OpenRead(path));
+            return new Cpk(File.OpenRead(path));
         }
 
         public void Dispose()

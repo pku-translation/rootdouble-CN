@@ -10,9 +10,12 @@ namespace CsYetiTools
 {
     public static class Utils
     {
-        public static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932) ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
+        public static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932, new EncoderExceptionFallback(), new DecoderExceptionFallback())
+            ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
+        public static readonly Encoding Cp936 = CodePagesEncodingProvider.Instance.GetEncoding(936, new EncoderExceptionFallback(), new DecoderExceptionFallback())
+            ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
 
-        public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false);
+        public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false, /*throwOnInvalidBytes: */ true);
         
         public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
         {
@@ -200,6 +203,40 @@ namespace CsYetiTools
             using var file2 = File.OpenRead(path2);
             if (file1.Length != file2.Length) return false;
             return CompareStream(file1, file2);
+        }
+
+        public static IEnumerable<int> Range(int count)
+            => Enumerable.Range(0, count);
+            
+        public static IEnumerable<int> Range(int start, int end)
+            => Enumerable.Range(start, end - start);
+
+        public static IEnumerable<int> Range(int start, int end, int step)
+        {
+            if (start == end)
+            {
+
+            }
+            else if (start < end && step > 0)
+            {
+                while (start < end)
+                {
+                    yield return start;
+                    start += step;
+                }
+            }
+            else if (start > end && step < 0)
+            {
+                while (start > end)
+                {
+                    yield return start;
+                    start += step;
+                }
+            }
+            else
+            {
+                throw new ArgumentException($"Invalid range ({start}, {end}, {step})");
+            }
         }
     }
 }

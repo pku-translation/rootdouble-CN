@@ -64,6 +64,18 @@ namespace CsYetiTools
             return reader.BaseStream.Peek();
         }
 
+        public static byte[] ReadBytesExact(this BinaryReader reader, int count)
+        {
+            var data = reader.ReadBytes(count);
+            if (data.Length != count) throw new InvalidDataException($"No enough data, {data.Length} read (need {count})");
+            return data;
+        }
+
+        public static byte[] ReadToEnd(this BinaryReader reader)
+        {
+            return reader.ReadBytes(checked((int)(reader.BaseStream.Length - reader.BaseStream.Position)));
+        }
+
         public static IEnumerable<(int index, T element)> WithIndex<T>(this IEnumerable<T> source)
         {
             int i = 0;

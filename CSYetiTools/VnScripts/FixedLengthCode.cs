@@ -17,7 +17,7 @@ namespace CsYetiTools.VnScripts
 
         protected override void ReadArgs(BinaryReader reader)
         {
-            _args = reader.ReadBytes(_argLength);
+            _args = reader.ReadBytesExact(_argLength);
         }
 
         protected override void WriteArgs(BinaryWriter writer)

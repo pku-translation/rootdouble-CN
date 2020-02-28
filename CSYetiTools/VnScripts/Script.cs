@@ -84,7 +84,7 @@ namespace CsYetiTools.VnScripts
                 }
                 maybeEntries.Add(new CodeAddressData(currentOffset, offset));
             }
-            var maybeRemainBytes = reader.ReadBytes(firstCodeOffset - (int)(reader.BaseStream.Position));
+            var maybeRemainBytes = reader.ReadBytesExact(firstCodeOffset - (int)(reader.BaseStream.Position));
 
             // codes
             try
@@ -143,7 +143,7 @@ namespace CsYetiTools.VnScripts
                 var footerBytes = ScriptFooter.ReadFrom(reader);
                 if (!footerBytes.Equals(footer)) throw new InvalidDataException($"Footer [{footerBytes}] != [{footer}]");
 
-                var fillBytes = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
+                var fillBytes = reader.ReadToEnd();
                 if (fillBytes.Length >= 16 || fillBytes.Any(b => b != 0x00))
                 {
                     throw new InvalidDataException("Invalid fill bytes: " + Utils.BytesToTextLines(fillBytes));
@@ -154,7 +154,7 @@ namespace CsYetiTools.VnScripts
                 if (allowError)
                 {
                     ParseError = allowError.ToString();
-                    UnparsedBytes = reader.ReadBytes((int)(reader.BaseStream.Length - reader.BaseStream.Position));
+                    UnparsedBytes = reader.ReadToEnd();
                 }
                 else
                 {
