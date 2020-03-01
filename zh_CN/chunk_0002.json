@@ -159,7 +159,7 @@
   "001499": {
     "context": "001499",
     "code": "0x86",
-    "string": "06时19分——"
+    "string": "06 时 19 分——"
   },
   "001577": {
     "context": "001577",
@@ -294,7 +294,7 @@
     "context": "002507",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——06 点 26 分"
+    "string": "——06 时 26 分"
   },
   "002512": {
     "context": "002512",
@@ -925,5 +925,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "然后时间，开始流动。"
+  },
+  "005919": {
+    "context": "005919",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

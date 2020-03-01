@@ -1,0 +1,725 @@
+{
+  "000049": {
+    "context": "000049",
+    "code": "0x55",
+    "string": "@import 0248 000102"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦の意識がようやく恵那から離れたのは、渡瀬が第６エリア内周棟で、１人になってからだった。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がサリュの姿を求め、次々と部屋を調べて行く。"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて渡瀬の眼が、あるＰＣモニターに止まった。"
+  },
+  "000208": {
+    "context": "000208",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0060 000643"
+  },
+  "000252": {
+    "context": "000252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000822"
+  },
+  "000255": {
+    "context": "000255",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000258": {
+    "context": "000258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000828"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000831"
+  },
+  "000264": {
+    "context": "000264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000834"
+  },
+  "000267": {
+    "context": "000267",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000837"
+  },
+  "000270": {
+    "context": "000270",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000840"
+  },
+  "000273": {
+    "context": "000273",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000843"
+  },
+  "000276": {
+    "context": "000276",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000849"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000853"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000289": {
+    "context": "000289",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000859"
+  },
+  "000292": {
+    "context": "000292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000862"
+  },
+  "000295": {
+    "context": "000295",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000865"
+  },
+  "000298": {
+    "context": "000298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000868"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000871"
+  },
+  "000304": {
+    "context": "000304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000874"
+  },
+  "000307": {
+    "context": "000307",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000880"
+  },
+  "000313": {
+    "context": "000313",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000883"
+  },
+  "000316": {
+    "context": "000316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0084 000886"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……なんだこれ？）"
+  },
+  "000356": {
+    "context": "000356",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体？　ＩＧＦ２Ｒ遺伝子？　監視対象？）"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、そんな事より――）"
+  },
+  "000367": {
+    "context": "000367",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『　被験体Ｙ　→　ユ号（２０３０／０９／１０）　』"
+  },
+  "000373": {
+    "context": "000373",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――９月１０日って言ったら、ぼくの日常が変わり始めた日じゃないか！？）"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（何だよこのファイル？　いったい何を意味してるんだ？）"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どこかこの記述に、薄気味悪さを感じた時、"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に渡瀬の脳裏に、奇妙な情景が明滅した。"
+  },
+  "000480": {
+    "context": "000480",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x86",
+    "string": "@import 0084 001043"
+  },
+  "000491": {
+    "context": "000491",
+    "code": "0x85",
+    "string": "@import 0084 001043"
+  },
+  "000554": {
+    "context": "000554",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x86",
+    "string": "@import 0084 001117"
+  },
+  "000563": {
+    "context": "000563",
+    "code": "0x85",
+    "string": "@import 0084 001117"
+  },
+  "000626": {
+    "context": "000626",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x86",
+    "string": "@import 0084 001189"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x85",
+    "string": "@import 0084 001189"
+  },
+  "000698": {
+    "context": "000698",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000699": {
+    "context": "000699",
+    "code": "0x86",
+    "string": "@import 0084 001261"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x85",
+    "string": "@import 0084 001261"
+  },
+  "000804": {
+    "context": "000804",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なっ――また記憶が！？）"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、どうして！？　何をきっかけに、渡瀬は記憶を甦らせたんだ！？）"
+  },
+  "000815": {
+    "context": "000815",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その出来事に、夏彦が驚愕した一瞬後――渡瀬は逃げ出すように、その部屋を後にした。"
+  },
+  "000865": {
+    "context": "000865",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なっ！？　ど、どうしたんだこいつ！？）"
+  },
+  "000870": {
+    "context": "000870",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜか彼は激しく狼狽していた。心には不快感と怒りが渦巻いている。"
+  },
+  "000875": {
+    "context": "000875",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして脳裏に、再び過去の記憶が――"
+  },
+  "000958": {
+    "context": "000958",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0055 001579"
+  },
+  "001018": {
+    "context": "001018",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ！　今のは、ぼくが消した記憶のはずじゃ……！）"
+  },
+  "001023": {
+    "context": "001023",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが堰を切ったように、その時の記憶が甦ってくる。"
+  },
+  "001108": {
+    "context": "001108",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0055 001859"
+  },
+  "001119": {
+    "context": "001119",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0055 001870"
+  },
+  "001231": {
+    "context": "001231",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0055 002460"
+  },
+  "001303": {
+    "context": "001303",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0055 002194"
+  },
+  "001314": {
+    "context": "001314",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0055 002264"
+  },
+  "001379": {
+    "context": "001379",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0084 002292"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0084 002313"
+  },
+  "001395": {
+    "context": "001395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が戸惑いつつ、ふらふらと階段室の外に出る。"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0103 000817"
+  },
+  "001477": {
+    "context": "001477",
+    "code": "0x85",
+    "string": "@import 0084 002400"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被＊＊＊＊＊＊＊だ――"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x85",
+    "string": "@import 0084 002400"
+  },
+  "001562": {
+    "context": "001562",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被＊体＊＊は＊＊だ――"
+  },
+  "001639": {
+    "context": "001639",
+    "code": "0x85",
+    "string": "@import 0084 002400"
+  },
+  "001643": {
+    "context": "001643",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被験体＊＊は危＊だ――"
+  },
+  "001720": {
+    "context": "001720",
+    "code": "0x85",
+    "string": "@import 0084 002400"
+  },
+  "001724": {
+    "context": "001724",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――被験体たちは危険だ――"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0021 003823"
+  },
+  "001837": {
+    "context": "001837",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『被験体たちは危険だ』って……こいつ、急に何のことを……！？）"
+  },
+  "001842": {
+    "context": "001842",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の中に浮かび上がってきたその思念に、夏彦は困惑したが――"
+  },
+  "001848": {
+    "context": "001848",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかして――！）"
+  },
+  "001915": {
+    "context": "001915",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『被験体』っていうのは、彼女の事なのか！？）"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だからさっきの資料を見た時、渡瀬の記憶が触発されて――！？）"
+  },
+  "001926": {
+    "context": "001926",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は慌てて、渡瀬の心の中に潜りこんだ。"
+  },
+  "002028": {
+    "context": "002028",
+    "code": "0x85",
+    "string": "《被験体たちは危険だ……！"
+  },
+  "002030": {
+    "context": "002030",
+    "code": "0x85",
+    "string": "　被験体たちは危険だ……！"
+  },
+  "002032": {
+    "context": "002032",
+    "code": "0x85",
+    "string": "　　被験体たちは危険だ……！》"
+  },
+  "002033": {
+    "context": "002033",
+    "code": "0x86",
+    "string": "渡瀬"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x86",
+    "string": "《被験体たちは危険だ……！　被験体たちは危険だ……！　被験体たちは危険だ……！》"
+  },
+  "002051": {
+    "context": "002051",
+    "code": "0x85",
+    "string": "《な……なんの事だ！？　なんなんだこの言葉は！？》"
+  },
+  "002052": {
+    "context": "002052",
+    "code": "0x86",
+    "string": "渡瀬"
+  },
+  "002053": {
+    "context": "002053",
+    "code": "0x86",
+    "string": "@import 0259 002051"
+  },
+  "002068": {
+    "context": "002068",
+    "code": "0x85",
+    "string": "《オレは知らん！　そんな言葉は知らねぇ！！》"
+  },
+  "002069": {
+    "context": "002069",
+    "code": "0x86",
+    "string": "渡瀬"
+  },
+  "002070": {
+    "context": "002070",
+    "code": "0x86",
+    "string": "@import 0259 002068"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これは……！）"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心の奥からわき上がる憎悪に対し、渡瀬が激しく抵抗しているのがわかる。"
+  },
+  "002109": {
+    "context": "002109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが恐怖は徐々に変質し、ドス黒い憎悪に塗り替えられて行く。"
+  },
+  "002114": {
+    "context": "002114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "憎悪はさらに変容し、殺意にさえ変わっていく。"
+  },
+  "002120": {
+    "context": "002120",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（このままだと、またあの時の渡瀬に逆戻りだ！　早く渡瀬の記憶を何とかしないと！）"
+  },
+  "002126": {
+    "context": "002126",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、でも……！）"
+  },
+  "002131": {
+    "context": "002131",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶消去が渡瀬に与えるダメージを考えれば、これ以上の記憶消去は、おそらく渡瀬の生命に関わるだろう。"
+  },
+  "002136": {
+    "context": "002136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして渡瀬の死は、すなわち夏彦の消滅をも意味するのだ。"
+  },
+  "002142": {
+    "context": "002142",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあどうする！？　どうすれば渡瀬の憎悪を、封じこめる事ができるんだ！？）"
+  },
+  "002148": {
+    "context": "002148",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（考えろ！　きっと何か方法があるはずだ！）"
+  },
+  "002153": {
+    "context": "002153",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――渡瀬はユウリを、なぜか恐怖している。憎悪と殺意を抱いている。"
+  },
+  "002158": {
+    "context": "002158",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "普段は彼女を心配し、常に護ろうとしていたのに。"
+  },
+  "002163": {
+    "context": "002163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶を取り戻しかけるたび、その恐怖・憎悪・殺意が蘇るのだ。"
+  },
+  "002169": {
+    "context": "002169",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったら、いっその事……）"
+  },
+  "002175": {
+    "context": "002175",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬に『彼女が死んだ』と誤認させればいいんじゃないか？）"
+  },
+  "002181": {
+    "context": "002181",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうすれば彼女への恐怖は消えるだろうし、必然的に憎悪や殺意だって……！）"
+  },
+  "002186": {
+    "context": "002186",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "うまくいくかどうかはわからない。"
+  },
+  "002191": {
+    "context": "002191",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがこのままでは本当に、渡瀬が記憶を取り戻しかねない。"
+  },
+  "002196": {
+    "context": "002196",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "止むなく夏彦は、その方法に賭けてみることにした。"
+  },
+  "002207": {
+    "context": "002207",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬の記憶の中に、『ユウリの死』のイメージを――！》"
+  },
+  "002328": {
+    "context": "002328",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうして夏彦は、渡瀬の記憶をまた改竄した。"
+  },
+  "002439": {
+    "context": "002439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それから時間にして５分――。"
+  },
+  "002444": {
+    "context": "002444",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はまるで死んだかのように、その場で放心し続けた。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おい……まさか、ずっとこのままなんじゃないだろうな……！）"
+  },
+  "002455": {
+    "context": "002455",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不安感に駆られ、夏彦は渡瀬に呼びかけた。"
+  },
+  "002466": {
+    "context": "002466",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0085 000126"
+  },
+  "002477": {
+    "context": "002477",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0085 000147"
+  },
+  "002497": {
+    "context": "002497",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の声に揺り動かされ、渡瀬が意識を取り戻す。"
+  },
+  "002507": {
+    "context": "002507",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしておぼつかない足取りで、他の皆がいるファクトリーへと向かった。"
+  },
+  "002513": {
+    "context": "002513",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……渡瀬の記憶をいじるのは、これ以上はやめた方が良さそうだな）"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（頼むから、もう記憶を取り戻したりしないでくれよ……！）"
+  },
+  "002524": {
+    "context": "002524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう祈る。"
+  },
+  "002567": {
+    "context": "002567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だが夏彦の行為が生んだひずみは、すぐに露呈した。"
+  },
+  "002578": {
+    "context": "002578",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

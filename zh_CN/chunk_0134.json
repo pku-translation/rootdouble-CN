@@ -4,6 +4,11 @@
     "code": "0x55",
     "string": "@import 0131 000221"
   },
+  "000121": {
+    "context": "000121",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000130": {
     "context": "000130",
     "code": "0x45",
@@ -845,5 +850,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "一边说着，夏彦和真白一边前去购买食物。"
+  },
+  "002297": {
+    "context": "002297",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

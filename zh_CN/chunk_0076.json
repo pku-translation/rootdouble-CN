@@ -1,0 +1,1482 @@
+{
+  "000016": {
+    "context": "000016",
+    "code": "0x55",
+    "string": "@import 0069 000136"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見と別れた渡瀬は、まず階段室へ向かった。"
+  },
+  "000089": {
+    "context": "000089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほどの爆発の原因を探るために。"
+  },
+  "000133": {
+    "context": "000133",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0009 001968"
+  },
+  "000139": {
+    "context": "000139",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（何もないな……）"
+  },
+  "000144": {
+    "context": "000144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階段室をいくら調べても、爆発物らしきものは見つからなかった。"
+  },
+  "000149": {
+    "context": "000149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "消火器を見てなぜかぞっとした事を思い出し、それについても調べようとしたが――"
+  },
+  "000154": {
+    "context": "000154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その消火器はすでに砕け散っていて、破片からは何も伺い知れなかった。"
+  },
+  "000160": {
+    "context": "000160",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（消火器が火災により、爆発する事なんてないよな……？）"
+  },
+  "000166": {
+    "context": "000166",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……じゃあ、ガス漏れでも発生していたのか……）"
+  },
+  "000171": {
+    "context": "000171",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが火災調査の知識を持たない渡瀬には、それ以上の事はわからない。"
+  },
+  "000177": {
+    "context": "000177",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（気にはなるが、時間も惜しいしな……）"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はひとまず諦め、捜索を続行した。"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第２エリア内周棟・地下２階――"
+  },
+  "000288": {
+    "context": "000288",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はすぐに、そこの捜索を開始した。"
+  },
+  "000293": {
+    "context": "000293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "簡易基地のあるこのフロアを、前回捜索したのは風見と洵だ。"
+  },
+  "000298": {
+    "context": "000298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それからかなり時間が過ぎている。"
+  },
+  "000304": {
+    "context": "000304",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（要救助者たちが移動してきている可能性は、十分ある……）"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、駆け足で捜索を行なっていると――"
+  },
+  "000358": {
+    "context": "000358",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0037 001964"
+  },
+  "000363": {
+    "context": "000363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ある部屋の前にかけられたプレートに、渡瀬の目が留まった。"
+  },
+  "000369": {
+    "context": "000369",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『資料室』。"
+  },
+  "000374": {
+    "context": "000374",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "初めて見る部屋だった。"
+  },
+  "000380": {
+    "context": "000380",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ここならあるいは、脱出経路のヒントが……？）"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多から釘を刺されたばかりだが、構っていられる状況ではない。"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう思い、その部屋に入った。"
+  },
+  "000463": {
+    "context": "000463",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは５ｍ四方ほどの狭い空間だった。"
+  },
+  "000468": {
+    "context": "000468",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その空間のほとんどを、幾重にも重なったスチール製の本棚が占めている。"
+  },
+  "000473": {
+    "context": "000473",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "本棚の１つ１つにスイッチがついている所を見ると、どうやら可動式らしい。"
+  },
+  "000479": {
+    "context": "000479",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ユウリは……いないな）"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第２エリア内周棟・地下２階。"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは渡瀬たちが２手に別れた『第５エリア』の、ちょうど反対側に位置するエリアだった。"
+  },
+  "000549": {
+    "context": "000549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "このあたりで風見たちのチームと合流しそうなものだが――彼女たちの姿は見えない。"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（あっちでも、妙なトラブルが起きてなきゃいいんだが……）"
+  },
+  "000560": {
+    "context": "000560",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の負傷が人為的なものだった以上、そんな不安が脳裏をよぎる。"
+  },
+  "000566": {
+    "context": "000566",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや、大丈夫だ。向こうには橘がいる。あいつなら何が起こっても対処できるはずだ）"
+  },
+  "000571": {
+    "context": "000571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は頭を振り、捜索を再開した。"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000293"
+  },
+  "000581": {
+    "context": "000581",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000298"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（要救助者たちが移動してきている可能性は十二分にある……）"
+  },
+  "000592": {
+    "context": "000592",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000309"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0037 001964"
+  },
+  "000646": {
+    "context": "000646",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000363"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000369"
+  },
+  "000657": {
+    "context": "000657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000374"
+  },
+  "000663": {
+    "context": "000663",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 000380"
+  },
+  "000668": {
+    "context": "000668",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000390"
+  },
+  "000741": {
+    "context": "000741",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000463"
+  },
+  "000746": {
+    "context": "000746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000468"
+  },
+  "000751": {
+    "context": "000751",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000473"
+  },
+  "000757": {
+    "context": "000757",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 000479"
+  },
+  "000817": {
+    "context": "000817",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000539"
+  },
+  "000822": {
+    "context": "000822",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000544"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「このあたりで副隊長さんたちのチームと、合流しそうなものだけど……」"
+  },
+  "000898": {
+    "context": "000898",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いないな」"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「さっきみたいなトラブルが、あっちでも起きたらどうしましょう……」"
+  },
+  "000938": {
+    "context": "000938",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁに、橘と守部のことなら大丈夫さ。ちょっとやそっとのトラブルに負ける２人じゃない」"
+  },
+  "000967": {
+    "context": "000967",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かにね……それじゃ先に私たちの手で、このエリアの捜索をしてしまいましょうか」"
+  },
+  "001010": {
+    "context": "001010",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はうなずき、恵那と共に歩き出した。"
+  },
+  "001015": {
+    "context": "001015",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000293"
+  },
+  "001020": {
+    "context": "001020",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000298"
+  },
+  "001026": {
+    "context": "001026",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（要救助者たちが移動してきている可能性は十分ある……）"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000309"
+  },
+  "001080": {
+    "context": "001080",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0037 001964"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000363"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「この部屋は……『資料室』？」"
+  },
+  "001120": {
+    "context": "001120",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "プレートには、確かにそう書いてあった。"
+  },
+  "001131": {
+    "context": "001131",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あるいは、この部屋に脱出のヒントが……？」"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あるかもしれないわね。入ってみましょう、隊長さん」"
+  },
+  "001193": {
+    "context": "001193",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言うや、恵那は資料室のドアを開けた。"
+  },
+  "001266": {
+    "context": "001266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000463"
+  },
+  "001271": {
+    "context": "001271",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000468"
+  },
+  "001276": {
+    "context": "001276",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 000473"
+  },
+  "001305": {
+    "context": "001305",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「この部屋にも……誰もいないみたいね？」"
+  },
+  "001316": {
+    "context": "001316",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああ、そのようだな……」"
+  },
+  "001355": {
+    "context": "001355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを確認してから、本棚に目を向ける。"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこにはぎっしりと、書籍や論文が並んでいた。"
+  },
+  "001365": {
+    "context": "001365",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『情報力場仮説入門／著：天川美夜子』"
+  },
+  "001370": {
+    "context": "001370",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『素粒子・情報・意識／著：天川美夜子』"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『超感覚知覚同期仮説／著：アントワーヌ・クールベ　訳：天川美夜子』"
+  },
+  "001380": {
+    "context": "001380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『大脳　～迷宮の生理学～／著：柏木鍄兼』"
+  },
+  "001385": {
+    "context": "001385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『擬似科学からの脱却　～超心理学の未来と展望～／著：隅田高貴』"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『Ｂｅｆｏｒｅ　Ｃｒｉｍｅ　＊　Ａｆｔｅｒ Ｄａｙｓ／著：苑村千薗』"
+  },
+  "001395": {
+    "context": "001395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『粒子と心、そして脳／著：江里口秀也』"
+  },
+  "001400": {
+    "context": "001400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それらのタイトルを、渡瀬は眺める。"
+  },
+  "001406": {
+    "context": "001406",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……よくわからんな）"
+  },
+  "001411": {
+    "context": "001411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "科学の知識は、今の渡瀬にはない。それがどんな内容なのか、まるで見当がつかない。"
+  },
+  "001416": {
+    "context": "001416",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この施設で研究している２大テーマは、確か『原子力科学』と『生物学』。"
+  },
+  "001421": {
+    "context": "001421",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どちらかと言えば、生物学関連の本が多いということくらいしかわからない。"
+  },
+  "001426": {
+    "context": "001426",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその著者名の中に、見覚えがあるものが含まれていた。"
+  },
+  "001432": {
+    "context": "001432",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（『天川美夜子』……）"
+  },
+  "001437": {
+    "context": "001437",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確か要救助者の１人、天川夏彦の母親の名前だ。"
+  },
+  "001442": {
+    "context": "001442",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその本を見た時――渡瀬の胸に、奇妙な不安が湧いてきた。"
+  },
+  "001448": {
+    "context": "001448",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（！？）"
+  },
+  "001453": {
+    "context": "001453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は戸惑った。なぜ本を見て、不安を感じるのか。"
+  },
+  "001459": {
+    "context": "001459",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（こんな事をしている時間はないが――）"
+  },
+  "001464": {
+    "context": "001464",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は自分の感情に逆らえず、その本を手にとり、めくった。"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『情報力場仮説入門』"
+  },
+  "001505": {
+    "context": "001505",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "＜序文＞"
+  },
+  "001511": {
+    "context": "001511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "現代物理学においては、自然を形作っている現象を、４種類の力で全て説明できる。"
+  },
+  "001514": {
+    "context": "001514",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし、宇宙の加速膨張など、４つの力だけでは説明のつかない現象がある。"
+  },
+  "001517": {
+    "context": "001517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "近年の高精度の観測により、膨張速度が時間とともに加速していることは明白であった。"
+  },
+  "001520": {
+    "context": "001520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで、ダークエネルギーという未知のエネルギー（重力に対する斥力）を仮定する考え方がある。"
+  },
+  "001523": {
+    "context": "001523",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "仮にダークエネルギーが存在するとしたら、それは何なのか？"
+  },
+  "001526": {
+    "context": "001526",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "様々な説が考え出されたが、それらは全て推測の域を出ていなかった。"
+  },
+  "001530": {
+    "context": "001530",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで私は素粒子物理学者としての観点から、その力を探り続け、そして１つの仮説を立てた。"
+  },
+  "001536": {
+    "context": "001536",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは『情報』であると。"
+  },
+  "001539": {
+    "context": "001539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第５の力が存在するとしたら、それは『情報』である可能性が高い。"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "情報量がエネルギーと等価であることを数式で表し、%Nそこから値を導き出した結果、"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは宇宙の膨張速度の数値と見事に一致したのである。"
+  },
+  "001548": {
+    "context": "001548",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "即ち――"
+  },
+  "001577": {
+    "context": "001577",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……？？？）"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬には何が書いてあるのか、さっぱりわからなかった。"
+  },
+  "001588": {
+    "context": "001588",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（第５の力？　情報？　ダークエネルギー？　なんだそれ……）"
+  },
+  "001593": {
+    "context": "001593",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜこの本に強い不安を感じたのか。渡瀬は自分でもよくわからなかった。"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（気のせいなのか……？）"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いつつ、ぱらぱらと読み進めていく。"
+  },
+  "001642": {
+    "context": "001642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――この理論に基づくと、以下の推察が成り立つ。"
+  },
+  "001645": {
+    "context": "001645",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001648": {
+    "context": "001648",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "・情報はそれ自体でも独立して存在でき、%N　他の力を介さずに相互作用（伝達）が可能である。"
+  },
+  "001651": {
+    "context": "001651",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "・例えば人間の思考も一種の『情報』であるため、%N　他の媒体（電気信号など）に変換せずとも、他者とコミュニケーションできる。"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001657": {
+    "context": "001657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "若干極端な表現を用いてはいるが、これが『情報力場仮説』の骨子である。"
+  },
+  "001660": {
+    "context": "001660",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "情報力場とは、（第５の力・エネルギーとしての）『情報』が働いている場の事である。"
+  },
+  "001663": {
+    "context": "001663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人間の脳を例にとって考えれば、思考情報によって生じる『情報力場』とは、即ち『意識』の事なのかもしれない。"
+  },
+  "001673": {
+    "context": "001673",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『意識』の発生過程については、未だ明確な答えが出ていない。"
+  },
+  "001676": {
+    "context": "001676",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ただ、『無数の記憶』＝『情報の断片』と、%N『シナプスを走る電気信号』が相互に作用し、"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "脳内に意識を生じさせるのだという事しかわからない。"
+  },
+  "001682": {
+    "context": "001682",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしこの仮説に基づいて考えれば、それについても１つの推察が成り立つ。"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "情報が独立して存在しうるのであれば、意識は必ずしも脳の中に発生するとは限らない。"
+  },
+  "001688": {
+    "context": "001688",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一定の情報量が場に集積し、相互作用を起こせば、意識はそこに生まれ得る。"
+  },
+  "001691": {
+    "context": "001691",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらに言うと、情報をコントロールする事ができるならば――"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人工的に『意識を作る』事も、可能なのである。"
+  },
+  "001721": {
+    "context": "001721",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……なんの話をしているんだ、これは）"
+  },
+  "001727": {
+    "context": "001727",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この天川美夜子という人は、なんの研究をしていたんだ……？）"
+  },
+  "001732": {
+    "context": "001732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『素粒子物理学者』と名乗っているが、これはむしろ生物学的な話のような気がする。"
+  },
+  "001738": {
+    "context": "001738",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（それにしても、『意識を作る』って……）"
+  },
+  "001744": {
+    "context": "001744",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（そんなもの、なんのために……？）"
+  },
+  "001750": {
+    "context": "001750",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（意識を作る研究と、原子力科学とに、なんの関係があるんだ……？）"
+  },
+  "001755": {
+    "context": "001755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜかはわからないが、薄っすらと不気味なものを感じた。"
+  },
+  "001760": {
+    "context": "001760",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでもその本を、さらに読み進めていくうち――"
+  },
+  "001765": {
+    "context": "001765",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は、息を呑んだ。"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……以上、『情報力場仮説』の中で展開した様々な説は、未だ証明はできていない。"
+  },
+  "001806": {
+    "context": "001806",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしその仮説は、私自身が全く予想もしなかった形で、再評価される事となった。"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "近年、急速に起きた社会の大変革によって。"
+  },
+  "001812": {
+    "context": "001812",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "即ち、『ＢＣ』の発現である。"
+  },
+  "001844": {
+    "context": "001844",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＢＣ……！？」"
+  },
+  "001849": {
+    "context": "001849",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えば、恵那が前にそんな事を言っていた。"
+  },
+  "001854": {
+    "context": "001854",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『いまやテレパシーを使える人間は珍しくない』とも。"
+  },
+  "001859": {
+    "context": "001859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はさらに読み進める。"
+  },
+  "001897": {
+    "context": "001897",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ここ数年の間に、『ＢＣ』という能力は、社会に広く認知された。"
+  },
+  "001900": {
+    "context": "001900",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それにより『情報』のありかたとその伝達法に対する考え方は、%N大きな変容を遂げたといえる。"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして我々は、それ以前では考えられないような能力を持つ者を、数え切れないほど見てきた。"
+  },
+  "001906": {
+    "context": "001906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ＢＣ』に分類される能力は、大きく分けて２つである。"
+  },
+  "001909": {
+    "context": "001909",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001912": {
+    "context": "001912",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１つは、他者の心に直接声を投げかける『テレパシー』。"
+  },
+  "001915": {
+    "context": "001915",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もう１つは、他者の心の声を聞く『エンパシー』。"
+  },
+  "001918": {
+    "context": "001918",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "極めてわかりやすい言い方をするならば、%Nこの２つの能力はそれぞれそのように説明できる。"
+  },
+  "001931": {
+    "context": "001931",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＢＣの使用時、使用者は『思考情報』を、他の媒体に変換する事はない。"
+  },
+  "001934": {
+    "context": "001934",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "素粒子を媒介に、直接対象者の脳に送り込み、コミュニケーションする。"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これは『情報力場仮説』内で、私が提唱した事と一致する。"
+  },
+  "001940": {
+    "context": "001940",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＢＣ＝超心理学と、素粒子物理学という、全く無関係な２つの学問が、ここで繋がったのである。"
+  },
+  "001950": {
+    "context": "001950",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なおテレパシーの使用者はまだ少なく、エンパシーの使用者はさらに稀だ。"
+  },
+  "001953": {
+    "context": "001953",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし実数の多寡は、事の重要性を左右しない。"
+  },
+  "001956": {
+    "context": "001956",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エンパシーと言う能力が、実在する事。"
+  },
+  "001959": {
+    "context": "001959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『心の声』という、それまで本人しか知りえなかった『情報』を、観測できる存在が現れた事。"
+  },
+  "001962": {
+    "context": "001962",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それこそが２１世紀に起きた最初の、そして最大のパラダイムシフトなのである。"
+  },
+  "001989": {
+    "context": "001989",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（こ……これは！？）"
+  },
+  "001994": {
+    "context": "001994",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこに書かれていたのは、信じられないような話だった。"
+  },
+  "001999": {
+    "context": "001999",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『他者の脳に直接声を投げかける能力』というのは、すでに聞いていた。"
+  },
+  "002004": {
+    "context": "002004",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "問題はもう１つの能力のほうだ。"
+  },
+  "002017": {
+    "context": "002017",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『人の心を読む能力』だと……！？」"
+  },
+  "002022": {
+    "context": "002022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えばあの時、恵那は言っていた。"
+  },
+  "002134": {
+    "context": "002134",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「要は離れたところにいる人と、意思を伝え合う能力よ。それ以外の事はできないわ」"
+  },
+  "002194": {
+    "context": "002194",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（そうか、『伝え合う』という事は……伝えるだけじゃなくて、読み取りもできるって事じゃないか！）"
+  },
+  "002200": {
+    "context": "002200",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（じゃあ、この本に書いてある事は絵空事じゃなくて――！）"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「せ、先生……ここに書いてある事は、本当か？」"
+  },
+  "002259": {
+    "context": "002259",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  "002264": {
+    "context": "002264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那がその本を覗き込む。"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この、エンパシーって能力は……本当にあるのか？」"
+  },
+  "002304": {
+    "context": "002304",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え、ええ。言っていなかったかしら」"
+  },
+  "002315": {
+    "context": "002315",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「『ＢＣは離れたところにいる人と、意思を伝え合う能力』と言ったわよね」"
+  },
+  "002344": {
+    "context": "002344",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「相手に心の声を伝えるだけではなくて、読み取る事もできるの」"
+  },
+  "002355": {
+    "context": "002355",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……！」"
+  },
+  "002440": {
+    "context": "002440",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっとして本棚を見れば、『ＢＣ』という単語を含んだ書名がたくさんあった。"
+  },
+  "002445": {
+    "context": "002445",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやらそれは本当に、ごく一般的なものらしい。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "発現率は極めて低いと言っても、この世の中には『人の心を読める者』が、確かに存在するのだ。"
+  },
+  "002455": {
+    "context": "002455",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで――ようやく不安の正体がわかった。"
+  },
+  "002461": {
+    "context": "002461",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（そうか、オレは……）"
+  },
+  "002467": {
+    "context": "002467",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（このエンパシーという能力が、怖かったのか……！？）"
+  },
+  "002472": {
+    "context": "002472",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "細かな理由まではわからない。"
+  },
+  "002477": {
+    "context": "002477",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶を失う前に、よほど恐ろしい目にあったのかもしれない。"
+  },
+  "002482": {
+    "context": "002482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、それでなくても――他人に心を覗かれて平気でいられる人間など、そうはいない気がする。"
+  },
+  "002488": {
+    "context": "002488",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや、まさに今この瞬間も……）"
+  },
+  "002494": {
+    "context": "002494",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（『心を読まれることを恐怖しているオレの心』を、誰かが読んでいるとしたら――！？）"
+  },
+  "002499": {
+    "context": "002499",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "──そんな突飛な考えに襲われ、渡瀬はぶるりと震えた。"
+  },
+  "002611": {
+    "context": "002611",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それにＢＣの使い手はなぜか子供に多く、大人で使える人は輪をかけて稀なんだ」"
+  },
+  "002672": {
+    "context": "002672",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の言葉を信じるなら、渡瀬たち『大人』の中にコミュニケーターはいないのだろう。"
+  },
+  "002678": {
+    "context": "002678",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だが、『子ども』たちはどうなんだ……？）"
+  },
+  "002683": {
+    "context": "002683",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は？　ましろは？　サリュは？"
+  },
+  "002688": {
+    "context": "002688",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして――ユウリは？"
+  },
+  "002696": {
+    "context": "002696",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……先生は、『夏彦たちはテレパシーを使える』と言っていた）"
+  },
+  "002702": {
+    "context": "002702",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（じゃあ彼らがエンパシーを使えるという可能性も、当然ありうるんじゃないのか……？）"
+  },
+  "002728": {
+    "context": "002728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はその疑問を抑える事ができなかった。"
+  },
+  "002739": {
+    "context": "002739",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……先生、もう一つ聞きたい」"
+  },
+  "002750": {
+    "context": "002750",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの子たちは、エンパシーを使えるのか？」"
+  },
+  "002779": {
+    "context": "002779",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え……？　使えないわよ」"
+  },
+  "002808": {
+    "context": "002808",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「鳥羽さんはテレパシーを自由自在に使えるけど、あとの２人はＢＣ自体苦手なはず……」"
+  },
+  "002814": {
+    "context": "002814",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（本当か……？）"
+  },
+  "002825": {
+    "context": "002825",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ねぇ、それがどうかしたの？」"
+  },
+  "002830": {
+    "context": "002830",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "訝しげな恵那の問いに答えず、渡瀬はなおも考える。"
+  },
+  "002873": {
+    "context": "002873",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考えてみれば、疑わしい出来事がいくつもある。"
+  },
+  "002903": {
+    "context": "002903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜユウリは、渡瀬たちの前から姿を消したのか？"
+  },
+  "002941": {
+    "context": "002941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜサリュは、あのとき渡瀬たちから逃げたのか？"
+  },
+  "003027": {
+    "context": "003027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜ３名の要救助者は、未だに見つかっていないのか？"
+  },
+  "003245": {
+    "context": "003245",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もしあの子どもたちに、人の心を読む力があるんだとしたら……）"
+  },
+  "003251": {
+    "context": "003251",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（子どもたちが逃げるのは……オレたちの中に、彼らへの悪意を持った人間がいるからなんじゃないのか……！）"
+  },
+  "003256": {
+    "context": "003256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "信じたくはないが、そう考えれば辻褄が合う。"
+  },
+  "003261": {
+    "context": "003261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だとすると、その悪意を持った人間とは誰なのか？"
+  },
+  "003266": {
+    "context": "003266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少なくとも、それは渡瀬ではない。渡瀬自身がそれをよく知っている。"
+  },
+  "003272": {
+    "context": "003272",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ということは、オレ以外の４人の中に……？）"
+  },
+  "003277": {
+    "context": "003277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１度そう考えてしまえば、誰も彼もが、急に怪しく思えてきた。"
+  },
+  "003282": {
+    "context": "003282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不安が膨らみ、鼓動が速くなっていく。"
+  },
+  "003287": {
+    "context": "003287",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "疑念が疑念を呼び――やがてその疑念が逆転した。"
+  },
+  "003293": {
+    "context": "003293",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや……あるいは、逆か？）"
+  },
+  "003299": {
+    "context": "003299",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（むしろあの子供たちに、悪意があるとしたら？）"
+  },
+  "003304": {
+    "context": "003304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人の心が読める子供たちが、何らかの動機と悪意を持って、渡瀬たちを追い詰めようとしている。"
+  },
+  "003309": {
+    "context": "003309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは荒唐無稽な憶測かもしれないが――"
+  },
+  "003315": {
+    "context": "003315",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もしそうだとしたら……そんな奴らに、対抗できるのか……？）"
+  },
+  "003320": {
+    "context": "003320",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこまで考えた時、"
+  },
+  "003421": {
+    "context": "003421",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「っ！」"
+  },
+  "003426": {
+    "context": "003426",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "突如襲ってきた頭痛に、渡瀬は呻いた。"
+  },
+  "003437": {
+    "context": "003437",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ぐっ……うぅ……！」"
+  },
+  "003442": {
+    "context": "003442",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ひどい目眩がし、意識が遠のく。"
+  },
+  "003453": {
+    "context": "003453",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ま……まずい……！）"
+  },
+  "003510": {
+    "context": "003510",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は身体をふらつかせながら、資料室を飛び出した。"
+  },
+  "003516": {
+    "context": "003516",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の異変に気づき、恵那が声を上げる。"
+  },
+  "003552": {
+    "context": "003552",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どうしたの、隊長さん！？」"
+  },
+  "003563": {
+    "context": "003563",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや……急に気分が……！」"
+  },
+  "003592": {
+    "context": "003592",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え！？　大丈夫！？」"
+  },
+  "003603": {
+    "context": "003603",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わ、悪い……トイレに行って来る……！」"
+  },
+  "003614": {
+    "context": "003614",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生は、ここで待っててくれ……！」"
+  },
+  "003643": {
+    "context": "003643",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ちょ、ちょっと隊長さん！？」"
+  },
+  "003698": {
+    "context": "003698",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声を背に聞きながら、渡瀬は資料室を飛び出した。"
+  },
+  "003711": {
+    "context": "003711",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

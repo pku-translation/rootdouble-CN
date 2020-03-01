@@ -1,0 +1,426 @@
+{
+  "000052": {
+    "context": "000052",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その後、３分も経たず、地下２階の捜索は終了した。"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが相変わらず、成果はなしだった。"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……次は地下１階に行きましょうか」"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、だが――この棟の非常階段は、崩れちまってるんだ」"
+  },
+  "000172": {
+    "context": "000172",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「なに？　じゃあ君はさっきどうやって捜索したんだね？」"
+  },
+  "000183": {
+    "context": "000183",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「崩れた階段の代わりに、ロープを使ったのさ」"
+  },
+  "000194": {
+    "context": "000194",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが先生やおっさんが登るには、ちょっと無理があるな……」"
+  },
+  "000199": {
+    "context": "000199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背負って登ってもいいが、２人ともなると手間が掛かりすぎるだろう。"
+  },
+  "000228": {
+    "context": "000228",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「他のエリアから回り込む？」"
+  },
+  "000239": {
+    "context": "000239",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、時間がもったいない。エレベーターシャフト内のハシゴを使おう」"
+  },
+  "000268": {
+    "context": "000268",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「まぁなんでもいい。それで行こうじゃないか」"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ」"
+  },
+  "000284": {
+    "context": "000284",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那と宇喜多の同意を得た渡瀬は、エレベーターホールに向かった。"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――例によってエレベーターの扉を開け、中をうかがう。"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこはねっとりとした闇に満ちていた。"
+  },
+  "000470": {
+    "context": "000470",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……ここを登っていくの？」"
+  },
+  "000536": {
+    "context": "000536",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ん？　怖いなら残ってもいいんだがね」"
+  },
+  "000566": {
+    "context": "000566",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「バカ言わないで。一緒に行くわよ」"
+  },
+  "000577": {
+    "context": "000577",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや待て先生。一応オレが先に行って、安全を確認しよう」"
+  },
+  "000588": {
+    "context": "000588",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生たちは後から追ってきてくれればいい」"
+  },
+  "000617": {
+    "context": "000617",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そ、そう？　……それじゃ気をつけてね」"
+  },
+  "000622": {
+    "context": "000622",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はうなずき、そしてシャフト内に入った。"
+  },
+  "000676": {
+    "context": "000676",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真っ暗な闇の中を、手探りで階上を目指す。"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ハシゴはみしみしと音を立て、やや心もとない。"
+  },
+  "000686": {
+    "context": "000686",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階上で起きた火災が、エレベーターシャフト内にも回ったのか、上に行くほどハシゴは朽ちているようだった。"
+  },
+  "000693": {
+    "context": "000693",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……先生にはちょっとキツイかもな）"
+  },
+  "000704": {
+    "context": "000704",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いつつ、地下１階付近まで登っていくと――"
+  },
+  "000709": {
+    "context": "000709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "下の方から、声が聞こえてきた。"
+  },
+  "000872": {
+    "context": "000872",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「―…っきの話だけど――」"
+  },
+  "000883": {
+    "context": "000883",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「―んだね？」"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ん？）"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は耳を澄ました。"
+  },
+  "000899": {
+    "context": "000899",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階下で恵那と宇喜多が話しているようだ。"
+  },
+  "000916": {
+    "context": "000916",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……あなた何かと私たちに、アレを見るなコレを見るなって釘ばかり刺しているわね」"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でもあなたはどこまで知っているの？　この施設の事」"
+  },
+  "000938": {
+    "context": "000938",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「むろん第４エリア勤務の職員としての知識はあるが、それが何か？」"
+  },
+  "000949": {
+    "context": "000949",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「とぼけないで。本当はもっと重要な事を知っているんじゃないの？」"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「何をだね？」"
+  },
+  "000991": {
+    "context": "000991",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「決まってるじゃない、隔壁が開かない理由よ！」"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だからそれは、放射能漏洩防止システムが――」"
+  },
+  "001013": {
+    "context": "001013",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「本当に！？　それ以外の理由があるんじゃないの！？」"
+  },
+  "001044": {
+    "context": "001044",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「君はまだそんな事を言っているのかね！？　疑うのもいい加減にしたまえ！」"
+  },
+  "001049": {
+    "context": "001049",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那と宇喜多の声が熱を帯びる。"
+  },
+  "001054": {
+    "context": "001054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "またしても口論が始まりそうだ。"
+  },
+  "001110": {
+    "context": "001110",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（くそ、ちょっと目を離した隙に！）"
+  },
+  "001116": {
+    "context": "001116",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（どんだけ相性悪いんだよ、あの２人は！）"
+  },
+  "001121": {
+    "context": "001121",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はシャフト内から、２人を制止しようとした。"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おいやめろ！　ケンカするんじゃない！」"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ほっといて隊長さん！　このへんではっきりさせたいのよ！」"
+  },
+  "001148": {
+    "context": "001148",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが階下からは、そんな声が返ってくる。"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だからよせというのに――！）"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が２人を制止するため、慌ててハシゴを降りようとした時――"
+  },
+  "001171": {
+    "context": "001171",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "足元で、びきっと鈍い音がした。"
+  },
+  "001182": {
+    "context": "001182",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0040 000198"
+  },
+  "001187": {
+    "context": "001187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ハシゴの足場が折れたのだ！"
+  },
+  "001192": {
+    "context": "001192",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬の浮遊感――渡瀬の体が闇を舞う。"
+  },
+  "001198": {
+    "context": "001198",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ま、マズい！）"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は無我夢中で腕を振った。"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その手が何かにぶつかる。ハシゴの足場だ！"
+  },
+  "001220": {
+    "context": "001220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とっさにそれを掴む。"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、それとほぼ同時に――"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ぐあっ！！」"
+  },
+  "001248": {
+    "context": "001248",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の体は、床に叩きつけられた。"
+  },
+  "001259": {
+    "context": "001259",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 000751"
+  },
+  "001264": {
+    "context": "001264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "腰の辺りをしたたか打ちつけた。"
+  },
+  "001269": {
+    "context": "001269",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その衝撃が脳まで伝わり、急速に意識が消失していく。"
+  },
+  "001280": {
+    "context": "001280",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0048 001821"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ちょ、ちょっと隊長さん！？　隊長さんっ！！」"
+  },
+  "001296": {
+    "context": "001296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "薄れ行く意識の中、渡瀬は恵那の悲痛な声を聞いた気がした――。"
+  },
+  "001308": {
+    "context": "001308",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

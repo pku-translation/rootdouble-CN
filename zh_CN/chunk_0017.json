@@ -640,6 +640,11 @@
     "developer_comment": "宇喜多",
     "string": "「不，我不是这个意思！孩子们是不会做出这么残酷的事情的！」"
   },
+  "001886": {
+    "context": "001886",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001915": {
     "context": "001915",
     "code": "0x45",
@@ -813,5 +818,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "突然，响起了“哔”的声音。"
+  },
+  "002369": {
+    "context": "002369",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

@@ -1,0 +1,904 @@
+{
+  "000065": {
+    "context": "000065",
+    "code": "0x55",
+    "string": "@import 0089 000103"
+  },
+  "000079": {
+    "context": "000079",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、暴風のようなエネルギーを感じた。"
+  },
+  "000089": {
+    "context": "000089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見えない力が凄まじい勢いで、渡瀬の体と頭を突き抜けていく。"
+  },
+  "000094": {
+    "context": "000094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも渡瀬は両足を踏ん張り、目を見開くと――"
+  },
+  "000099": {
+    "context": "000099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ゲートの向こうの光景が、見えてきた。"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「…………！？」"
+  },
+  "000168": {
+    "context": "000168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその光景を見て、渡瀬は息を呑んだ。"
+  },
+  "000173": {
+    "context": "000173",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "開かれた扉の向こうは――機械の駆動音が微かに響く、巨大なホールだった。"
+  },
+  "000184": {
+    "context": "000184",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な……なんだここは！？」"
+  },
+  "000189": {
+    "context": "000189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この場所にはメルトダウンを起こした原子炉があるはずだ。"
+  },
+  "000194": {
+    "context": "000194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "セキュリティシステムを暴走させる要因になった、火災が起きているはずだった。"
+  },
+  "000199": {
+    "context": "000199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なのに空気が、ひんやりと澄んでいる。"
+  },
+  "000242": {
+    "context": "000242",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ど……どういう事なんだ」"
+  },
+  "000253": {
+    "context": "000253",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「炎上する原子炉ってのは、どこにあるんだ！？」"
+  },
+  "000258": {
+    "context": "000258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はホースを放り出し、辺りを見回した。"
+  },
+  "000263": {
+    "context": "000263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアの中央に透明な円柱が、そしてその円周に塔のような装置が６機建っている。"
+  },
+  "000268": {
+    "context": "000268",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "各装置は天井付近でそれぞれ連結され、六角形を描いていた。"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……これは……この機械は！？」"
+  },
+  "000328": {
+    "context": "000328",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はふらりと、その装置に歩み寄った。"
+  },
+  "000333": {
+    "context": "000333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "原子炉というものがどういう形をしているのか、渡瀬にはよくわからない。"
+  },
+  "000338": {
+    "context": "000338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――ここにあるものは、原子炉とは何か違う気がした。"
+  },
+  "000387": {
+    "context": "000387",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちょ、ちょっと待て……」"
+  },
+  "000398": {
+    "context": "000398",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば、さっき先生が見せてくれた文書には……！？」"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さきほど見た文書の内容を、渡瀬は必死で思い出す。"
+  },
+  "000409": {
+    "context": "000409",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（並んでいた単語は、確か――）"
+  },
+  "000414": {
+    "context": "000414",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ケースＮ』『メルトダウン』『脳機能障害』『被験体Ｎ』『ＷＸ粒子』『粒子増幅器』『ＷＸ粒子の蔓延』。"
+  },
+  "000425": {
+    "context": "000425",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おかしい……！！」"
+  },
+  "000430": {
+    "context": "000430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの時感じた強烈な違和感。その正体にようやく気づいた。"
+  },
+  "000435": {
+    "context": "000435",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ケースＮ』『メルトダウン』という単語は出てくるのに、あるべき単語がない。"
+  },
+  "000440": {
+    "context": "000440",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『原子炉』『放射線』『放射性物質』『被曝』と言った単語が、一切出てこない。"
+  },
+  "000445": {
+    "context": "000445",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その代わりにあるのは、『ＷＸ粒子』『粒子増幅器』という意味不明の単語。"
+  },
+  "000450": {
+    "context": "000450",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "明らかにおかしい。説明がつかない。"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――その答えがここにある気がした。"
+  },
+  "000466": {
+    "context": "000466",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……火災が起きてないってだけじゃない……」"
+  },
+  "000477": {
+    "context": "000477",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もしかして、ここには……」"
+  },
+  "000488": {
+    "context": "000488",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「原子炉自体、存在しないんじゃないのか！？」"
+  },
+  "000493": {
+    "context": "000493",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は愕然として叫んだ。"
+  },
+  "000504": {
+    "context": "000504",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ど、どういう事だ！？　オレたちは騙されていたのか！？」"
+  },
+  "000515": {
+    "context": "000515",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「誰に、なんの目的で！？」"
+  },
+  "000520": {
+    "context": "000520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "混乱が疑問を生む。いつかも同じ言葉を叫んだ気がした。"
+  },
+  "000526": {
+    "context": "000526",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（司令長が嘘をついていたってのか！？）"
+  },
+  "000532": {
+    "context": "000532",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だが司令長は、何のためにこんな嘘を！？）"
+  },
+  "000538": {
+    "context": "000538",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや、疑うべきはラボ側の人間か……！）"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ということは、宇喜多のおっさんも……！？）"
+  },
+  "000549": {
+    "context": "000549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これまでの皆の態度を見る限り、このラボには原子炉が存在すると、街中の人間に信じられていたのだろう。"
+  },
+  "000554": {
+    "context": "000554",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ではなぜラボの運営者たちは、そんな嘘をついたのか。"
+  },
+  "000559": {
+    "context": "000559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "街中の人間を騙してまで、偽装する意味があるのだろうか？"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこまで考えた時、またも渡瀬の頭が痛んだ。"
+  },
+  "000644": {
+    "context": "000644",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0040 000198"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつもの頭痛よりはるかに激しい。同時に皮膚も、全身の生傷も痛み出す。"
+  },
+  "000660": {
+    "context": "000660",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ……かっ……！」"
+  },
+  "000667": {
+    "context": "000667",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらに訳もなく、ガタガタと体が震え始めた。"
+  },
+  "000673": {
+    "context": "000673",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや……痙攣している！？）"
+  },
+  "000684": {
+    "context": "000684",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ま、まずい……！」"
+  },
+  "000689": {
+    "context": "000689",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "出口を探し、周囲に視線をさまよわせる。"
+  },
+  "000694": {
+    "context": "000694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時ふと、渡瀬の眼が――奇妙なものを発見した。"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「？！」"
+  },
+  "000752": {
+    "context": "000752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エリアの奥の方に、何かが落ちている。"
+  },
+  "000757": {
+    "context": "000757",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "よろよろと歩み寄って、それを拾ってみると、それは真っ二つに割れたセキュリティカードだった。"
+  },
+  "000762": {
+    "context": "000762",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "名前表記は『天川美夜子』。レベル表示は――『Ｌｖ．Ｎ』。"
+  },
+  "000773": {
+    "context": "000773",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうして、こんな物が……！？」"
+  },
+  "000778": {
+    "context": "000778",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき渡瀬の鼻が、不意に嫌な臭いを捉えた。"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今までにも何度か嗅いだもの……"
+  },
+  "000788": {
+    "context": "000788",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "血の臭いだった。"
+  },
+  "000799": {
+    "context": "000799",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "000804": {
+    "context": "000804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不吉な予感を覚えながら、渡瀬が装置の裏をのぞき込むと、"
+  },
+  "000811": {
+    "context": "000811",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x55",
+    "string": "@import 0089 000103"
+  },
+  "000936": {
+    "context": "000936",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 004245"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "学生服姿の少年が倒れていた。"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "床に広がる血溜まりの中に、その身を横たえて。"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この少年は……『天川夏彦』！？）"
+  },
+  "000957": {
+    "context": "000957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶の中にある名前と顔が一致した。"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おい！　大丈夫か！」"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、呼びかけても反応はない。"
+  },
+  "000978": {
+    "context": "000978",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は手袋を脱ぎ、夏彦の頚動脈に指を当てた。"
+  },
+  "000984": {
+    "context": "000984",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0058 000669"
+  },
+  "000989": {
+    "context": "000989",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "脈拍は感じられず、体は冷たい。"
+  },
+  "001034": {
+    "context": "001034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は慌てて夏彦を横たえ、心肺蘇生を始めた。"
+  },
+  "001040": {
+    "context": "001040",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（橘たちがやっていたように――！）"
+  },
+  "001045": {
+    "context": "001045",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0052 000743"
+  },
+  "001050": {
+    "context": "001050",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦に反応はない。"
+  },
+  "001056": {
+    "context": "001056",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（くそ……くそ！）"
+  },
+  "001061": {
+    "context": "001061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は頭痛と痙攣に耐えながら、必死で心肺蘇生を続けた。"
+  },
+  "001066": {
+    "context": "001066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0052 000743"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心臓マッサージ１５回。人工呼吸２回。心臓マッサージ１５回。人工呼吸２回。"
+  },
+  "001076": {
+    "context": "001076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心臓マッサージ１５回。人工呼吸２回。心臓マッサージ１５回。人工呼吸２回。心臓マッサージ１５回。人工呼吸２回。"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（頼む……死なないでくれ！）"
+  },
+  "001087": {
+    "context": "001087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて、かすかに脈動が――"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「や……やった！」"
+  },
+  "001109": {
+    "context": "001109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼の口に手を当てると、呼気を感じた。"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし瀕死の重傷には違いない。"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これだけの出血をして、生きてる方が奇跡なのだ。"
+  },
+  "001165": {
+    "context": "001165",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（でもどうして、こんな出血を……！）"
+  },
+  "001170": {
+    "context": "001170",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見ると制服の数箇所に、小さく爆ぜたような痕がある。"
+  },
+  "001181": {
+    "context": "001181",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……銃創！？」"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは今までにも何度か眼にしてきたものだった。"
+  },
+  "001191": {
+    "context": "001191",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき渡瀬の眼が、夏彦の側に落ちていたものを発見した。"
+  },
+  "001300": {
+    "context": "001300",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「こ、これは……！」"
+  },
+  "001305": {
+    "context": "001305",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "拾い上げると、ずしりとした重みを感じる。"
+  },
+  "001310": {
+    "context": "001310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の持っていたものとは違うが、それは紛れもない拳銃だった。"
+  },
+  "001363": {
+    "context": "001363",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まさか、夏彦も同じ犯人に……！？」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が驚愕して呻いた、その時――"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005125"
+  },
+  "001625": {
+    "context": "001625",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――得体の知れない恐怖が、わきあがってきた。"
+  },
+  "001709": {
+    "context": "001709",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0002 005102"
+  },
+  "001714": {
+    "context": "001714",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005107"
+  },
+  "001719": {
+    "context": "001719",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005117"
+  },
+  "001730": {
+    "context": "001730",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005125"
+  },
+  "001804": {
+    "context": "001804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005199"
+  },
+  "001815": {
+    "context": "001815",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005207"
+  },
+  "001820": {
+    "context": "001820",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005212"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005225"
+  },
+  "001842": {
+    "context": "001842",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005233"
+  },
+  "001847": {
+    "context": "001847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005238"
+  },
+  "001853": {
+    "context": "001853",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005244"
+  },
+  "001858": {
+    "context": "001858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005249"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005326"
+  },
+  "001943": {
+    "context": "001943",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005331"
+  },
+  "001954": {
+    "context": "001954",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005339"
+  },
+  "001959": {
+    "context": "001959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005344"
+  },
+  "001964": {
+    "context": "001964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005349"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005357"
+  },
+  "002029": {
+    "context": "002029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005411"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005416"
+  },
+  "002039": {
+    "context": "002039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005421"
+  },
+  "002088": {
+    "context": "002088",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005470"
+  },
+  "002143": {
+    "context": "002143",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005525"
+  },
+  "002192": {
+    "context": "002192",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005574"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005626"
+  },
+  "002255": {
+    "context": "002255",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005634"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ッ！？」"
+  },
+  "002340": {
+    "context": "002340",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な……なんだ今のは……！」"
+  },
+  "002345": {
+    "context": "002345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつとも知れない記憶。"
+  },
+  "002350": {
+    "context": "002350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは渡瀬が記憶を失う直前の記憶ではなかったか。"
+  },
+  "002355": {
+    "context": "002355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてあの時、渡瀬を恐怖させたのは――目の前にいる、この少年ではなかったか！？"
+  },
+  "002361": {
+    "context": "002361",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……バカな、そんな事があるわけがない！）"
+  },
+  "002366": {
+    "context": "002366",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はその妄想を、頭を振って否定した。"
+  },
+  "002372": {
+    "context": "002372",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（とにかく彼を、どこか安全な場所へ……！）"
+  },
+  "002377": {
+    "context": "002377",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は拳銃を懐にしまうと、夏彦の身体を抱え上げようとした。"
+  },
+  "002382": {
+    "context": "002382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だが、その瞬間。"
+  },
+  "002443": {
+    "context": "002443",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0003 002680"
+  },
+  "002448": {
+    "context": "002448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は背後に、気配を感じた。"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――振り返り、渡瀬は見た。"
+  },
+  "002567": {
+    "context": "002567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "小さな人影が、こちらに向けて飛び掛ってくるのを。"
+  },
+  "002572": {
+    "context": "002572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その人影の手には――"
+  },
+  "002618": {
+    "context": "002618",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（斧っ！？）"
+  },
+  "002623": {
+    "context": "002623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに気づいた瞬間、"
+  },
+  "002791": {
+    "context": "002791",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "斧が渡瀬の脳天目掛け、振り下ろされた。"
+  },
+  "002796": {
+    "context": "002796",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

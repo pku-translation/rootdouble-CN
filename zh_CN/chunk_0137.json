@@ -919,6 +919,11 @@
     "developer_comment": "",
     "string": "少女混杂在四散而去的人群中，远远地直勾勾地盯着这边。"
   },
+  "005350": {
+    "context": "005350",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "005356": {
     "context": "005356",
     "code": "0x45",
@@ -1116,5 +1121,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "再一次回头看去，少女的身影早已无影无踪。"
+  },
+  "006472": {
+    "context": "006472",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

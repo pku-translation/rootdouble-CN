@@ -1,4 +1,5 @@
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -15,12 +16,12 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => _argLength;
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
             _args = reader.ReadBytesExact(_argLength);
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
             writer.Write(_args);
         }

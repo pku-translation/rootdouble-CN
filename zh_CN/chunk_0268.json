@@ -1,0 +1,757 @@
+{
+  "000084": {
+    "context": "000084",
+    "code": "0x55",
+    "string": "@import 0261 000102"
+  },
+  "000101": {
+    "context": "000101",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――Ｎエリアにたどり着いた時、渡瀬はすでにボロボロだった。"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見に消火器で腕を殴られ、"
+  },
+  "000223": {
+    "context": "000223",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "途中で遭遇した洵から逃れ、"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の銃撃を脇腹に受け、"
+  },
+  "000342": {
+    "context": "000342",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして何とか駆け込んだＮエリアで、渡瀬を待ち構えていたのは――"
+  },
+  "000422": {
+    "context": "000422",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 004861"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "肌の違和感・頭痛・指先の痙攣という、様々な体の異常だった。"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ダメだ、渡瀬！　この場所は危険すぎる！）"
+  },
+  "000438": {
+    "context": "000438",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エンジンルームで見たマニュアルにも、こう書いてあった。"
+  },
+  "000443": {
+    "context": "000443",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『　８０００ｍＳｖ～　　　：意識断絶　』"
+  },
+  "000448": {
+    "context": "000448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアの汚染レベルは、その数値を遥かに越えている。"
+  },
+  "000454": {
+    "context": "000454",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ――これだけ汚染レベルが高いってことは、やっぱりここにある機械がＷＸ粒子増幅器！）"
+  },
+  "000460": {
+    "context": "000460",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この機械のせいで、施設内の『ｍＳｖ』の数値が上昇していたのか！？）"
+  },
+  "000465": {
+    "context": "000465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう確信した瞬間、夏彦の意識に閃光が走った。"
+  },
+  "000472": {
+    "context": "000472",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（っ！！！）"
+  },
+  "000477": {
+    "context": "000477",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ＡＤ』『プロキオン』『汚染区域』『ＷＸ粒子増幅器』『ＷＸ粒子』『ＢＣの第３の能力』。"
+  },
+  "000482": {
+    "context": "000482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の中でバラバラに存在していたパズルのピースが、急速に１つに繋がる。"
+  },
+  "000488": {
+    "context": "000488",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あ、あ、あぁぁ……！）"
+  },
+  "000494": {
+    "context": "000494",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（わ……わかったぞ！　１つだけ、謎が解けた！）"
+  },
+  "000499": {
+    "context": "000499",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやく見つけた答え――それはこの施設の正体だった。"
+  },
+  "000511": {
+    "context": "000511",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ぼくはこの６時間、渡瀬と『ＢＣの第３の能力』で繋がったままだった）"
+  },
+  "000517": {
+    "context": "000517",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なのに『ＡＤ』を投与するたびにそれは閉ざされ、渡瀬が『汚染区域』に入る度にそれは復活した）"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（つまりこのラボで作られた『ＡＤ』は、ぼくのＢＣ能力を阻害する薬で――）"
+  },
+  "000529": {
+    "context": "000529",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いまラボに蔓延している『ＷＸ粒子』は、ＡＤとは逆に、ぼくのＢＣ能力を有効にするものだったんだ！）"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして最もセキュリティレベルが高いラボの中枢に、『ＷＸ粒子増幅器』がある。"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それにＷＸ粒子を計測する『プロキオン』も、このラボで作られた物。"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＡＤもＷＸ粒子もプロキオンも全て、ＢＣに関する物――！"
+  },
+  "000550": {
+    "context": "000550",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ということは……という事は、このラボは！！）"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "七不思議　その１"
+  },
+  "000645": {
+    "context": "000645",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ラボはただの原子力研究所ではない。"
+  },
+  "000650": {
+    "context": "000650",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "兵器製造など"
+  },
+  "000656": {
+    "context": "000656",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――もっと国家的な危険な研究を行っている――"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x85",
+    "string": "@import 0102 001086"
+  },
+  "000675": {
+    "context": "000675",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――ラボはただの原子力研究所ではない――"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――もっと国家的で危険な研究を――"
+  },
+  "000753": {
+    "context": "000753",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――このラボは、やっぱり原子力研究所なんかじゃない！）"
+  },
+  "000759": {
+    "context": "000759",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『ＷＸ粒子』と、『ＢＣ能力』を研究するための施設だったんだ！！）"
+  },
+  "000764": {
+    "context": "000764",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がついにその真実にたどり着いた――まさにその時。"
+  },
+  "000931": {
+    "context": "000931",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まだ開いたままのゲートの向こうに、消火器を手にした風見が現れた。"
+  },
+  "000942": {
+    "context": "000942",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  "000978": {
+    "context": "000978",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が慌てて、端末を操作する。"
+  },
+  "001032": {
+    "context": "001032",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ゲートがすぐに閉じ始める。"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、風見はそれよりも早くゲートを潜り抜け――"
+  },
+  "001134": {
+    "context": "001134",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0127 003930"
+  },
+  "001158": {
+    "context": "001158",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が振り下ろした消火器が、渡瀬の頭部を殴打した。"
+  },
+  "001163": {
+    "context": "001163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "視界に火花が散り、渡瀬の体がぐらりと傾ぐ。"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は最後の力を振り絞り、"
+  },
+  "001228": {
+    "context": "001228",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0127 004041"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0127 004067"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0127 004191"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0127 004202"
+  },
+  "001373": {
+    "context": "001373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の声が、ゲートの向こうに消える。"
+  },
+  "001452": {
+    "context": "001452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同時に渡瀬が崩れ落ち、夏彦の体も投げ出された。"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0106 001632"
+  },
+  "001619": {
+    "context": "001619",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "薄れ行く渡瀬の意識に、様々な疑問が明滅する。"
+  },
+  "001636": {
+    "context": "001636",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『渡瀬が記憶を失った理由』。『この９人が施設内に閉じ込められた理由』。『要救助者に何度も逃げられた理由』。"
+  },
+  "001641": {
+    "context": "001641",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『Ｎエリアに火災も原子炉もなく、代わりに夏彦が倒れてた理由』。『ユウリの死体が消えた理由』――。"
+  },
+  "001658": {
+    "context": "001658",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――疑問のうちいくつかの答えは、夏彦の中にあった。"
+  },
+  "001663": {
+    "context": "001663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶喪失やつじつまの合わない記憶は、夏彦の能力によってもたらされたものだ。"
+  },
+  "001680": {
+    "context": "001680",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュが渡瀬から逃げたのは、彼がテロリストだからに他ならない。"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おそらく『ユウリ』が逃げた理由も同じだろう。"
+  },
+  "001734": {
+    "context": "001734",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてＮエリアに火災も原子炉もなかったのは、ここがＷＸ粒子とＢＣ能力を研究するための施設だったからだ。"
+  },
+  "001739": {
+    "context": "001739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦の中にも、解けない６つの疑問が残された。"
+  },
+  "001791": {
+    "context": "001791",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ラボ内で起きている殺人事件の犯人は誰なのか？"
+  },
+  "001841": {
+    "context": "001841",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "貨物搬出用リフトの前で殺されていた少女は、何者だったのか？"
+  },
+  "001891": {
+    "context": "001891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里と同じ顔をした、あの『ユウリ』という少女は何者だったのか？"
+  },
+  "001939": {
+    "context": "001939",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "保管しておいたＡＤは誰が持ち去ったのか？"
+  },
+  "001987": {
+    "context": "001987",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はどこに行ってしまったのか？"
+  },
+  "002030": {
+    "context": "002030",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして何よりわからないのは――"
+  },
+  "002179": {
+    "context": "002179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうして３人の人間が、次々と狂ってしまったのか、という事だった。"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――『思い出せ』と誰かが囁いた気がした。"
+  },
+  "002272": {
+    "context": "002272",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは夏彦の心の奥から、沸き上がってくる声に思えた。"
+  },
+  "002284": {
+    "context": "002284",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ、思いだせ……！　いままで見聞きしたものの中に、答えがあるはずだ）"
+  },
+  "002296": {
+    "context": "002296",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（解けていない謎の答えが……！）"
+  },
+  "002307": {
+    "context": "002307",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思う夏彦の意識に、あの『鹿鳴市の七不思議』が甦る。"
+  },
+  "002392": {
+    "context": "002392",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002396": {
+    "context": "002396",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "七不思議　その５"
+  },
+  "002402": {
+    "context": "002402",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "正しいやり方を知らずにＢＣを使っていると"
+  },
+  "002408": {
+    "context": "002408",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――そのコミュニケーターはやがて"
+  },
+  "002413": {
+    "context": "002413",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "心が壊れた怪物になってしまう――"
+  },
+  "002428": {
+    "context": "002428",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002432": {
+    "context": "002432",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "七不思議　その６"
+  },
+  "002438": {
+    "context": "002438",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "怪物化したコミュニケーターは"
+  },
+  "002443": {
+    "context": "002443",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "鹿鳴市保安課の隠蔽部隊によって捕まえられ"
+  },
+  "002449": {
+    "context": "002449",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――地下に幽閉される――"
+  },
+  "002464": {
+    "context": "002464",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002468": {
+    "context": "002468",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@import 0240 001885"
+  },
+  "002474": {
+    "context": "002474",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "間違ったやり方で"
+  },
+  "002479": {
+    "context": "002479",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "ＢＣを使い過ぎると"
+  },
+  "002485": {
+    "context": "002485",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@import 0240 001897"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜ急に、そんな事を思い出したのかはわからない。"
+  },
+  "002605": {
+    "context": "002605",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――"
+  },
+  "002639": {
+    "context": "002639",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もし、今のが全部本当の事だったんだとしたら……！）"
+  },
+  "002671": {
+    "context": "002671",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（みんなの心を狂わせた怪物が、この地下に閉じ込められてたんだとしたら――！）"
+  },
+  "002702": {
+    "context": "002702",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それはとても推察とは言えない。単なる思い付きに過ぎない。"
+  },
+  "002733": {
+    "context": "002733",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦は考える。"
+  },
+  "002765": {
+    "context": "002765",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（怪物が実在するかは、わからない……）"
+  },
+  "002797": {
+    "context": "002797",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（誰が悪いのかもわからない……）"
+  },
+  "002829": {
+    "context": "002829",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここで何が起こっているのか、ぼくにはわからない……！）"
+  },
+  "002860": {
+    "context": "002860",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――このままでは終われない。"
+  },
+  "002890": {
+    "context": "002890",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何もわからないまま、引き下がるわけにはいかなかった。"
+  },
+  "002902": {
+    "context": "002902",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だから、調べるんだ！　ここで何が起きているのかを！）"
+  },
+  "002908": {
+    "context": "002908",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もう渡瀬だけに任せるんじゃなく、傍観しているだけじゃなくて――）"
+  },
+  "002914": {
+    "context": "002914",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――ぼくも、やるんだ！）"
+  },
+  "002920": {
+    "context": "002920",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こいつと２人で、力を合わせて――！！）"
+  },
+  "002968": {
+    "context": "002968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼がそう決意した瞬間――"
+  },
+  "002973": {
+    "context": "002973",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の意識は、肉体に帰った。"
+  },
+  "003060": {
+    "context": "003060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自身の五感が戻ってくる。"
+  },
+  "003065": {
+    "context": "003065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "視覚と聴覚と触覚と嗅覚と味覚と痛覚が、夏彦の体内で覚醒する。"
+  },
+  "003076": {
+    "context": "003076",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0002 005125"
+  },
+  "003081": {
+    "context": "003081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とたんに全身の銃創から、焼けるような痛みが伝わってきた。"
+  },
+  "003086": {
+    "context": "003086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "歯を食いしばらなければ耐えられない程の、本物の激痛。"
+  },
+  "003097": {
+    "context": "003097",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――……っ！！」"
+  },
+  "003102": {
+    "context": "003102",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦はぎりぎりと奥歯を噛み締め、重い手足に力をこめ――"
+  },
+  "003137": {
+    "context": "003137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ゆっくりと、立ち上がった。"
+  },
+  "003142": {
+    "context": "003142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "輸血の針が外れたが、それでも構わず……"
+  },
+  "003147": {
+    "context": "003147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬のもとへ、歩み寄る。"
+  },
+  "003265": {
+    "context": "003265",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の足音を聞きつけ、渡瀬がうっすらと眼を開ける。"
+  },
+  "003276": {
+    "context": "003276",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0128 001540"
+  },
+  "003287": {
+    "context": "003287",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0128 001551"
+  },
+  "003333": {
+    "context": "003333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "広大なＮエリアにそびえ立つ、６つの巨大な装置。"
+  },
+  "003338": {
+    "context": "003338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それらが微かな駆動音を響かせる中――"
+  },
+  "003343": {
+    "context": "003343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "強い意思に満ちた声が、凛と空気を震わせた。"
+  },
+  "003354": {
+    "context": "003354",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前とぼくで、みんなをこの悪夢から救うんだ……！」"
+  },
+  "003405": {
+    "context": "003405",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

@@ -368,7 +368,7 @@
     "context": "003403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "对真白空洞的声音，纱瑠只是用鼻子轻哼一声作为回应。"
+    "string": "对真白空洞的声音，纱瑠只是用鼻子轻哼一声，然后回应。"
   },
   "003432": {
     "context": "003432",
@@ -470,7 +470,7 @@
     "context": "003918",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「必须相信的人是谁……小彦理应早就知道了哦」"
+    "string": "「应该相信的人是谁……小彦理应早就知道了哦」"
   },
   "003923": {
     "context": "003923",
@@ -506,7 +506,7 @@
     "context": "004292",
     "code": "0x47",
     "developer_comment": "",
-    "string": "“6 时 39 分”"
+    "string": "“6 点 39 分”"
   },
   "004326": {
     "context": "004326",
@@ -525,5 +525,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦竭力发出声音。"
+  },
+  "004503": {
+    "context": "004503",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

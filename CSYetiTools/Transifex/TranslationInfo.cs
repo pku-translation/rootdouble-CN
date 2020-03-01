@@ -8,5 +8,9 @@ namespace CsYetiTools.Transifex
         public int? CharacterLimit { get; set; }
         public string String { get; set; } = "";
 
+        public override string ToString()
+        {
+            return $"<TranslationInfo> \"{SExpr.EscapeString(String)}\"";
+        }
     }
 }

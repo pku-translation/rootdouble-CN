@@ -1,0 +1,941 @@
+{
+  "000073": {
+    "context": "000073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――天川博士が『しばらく実験の予定はない』と言ったあの日から、３週間が過ぎた。"
+  },
+  "000078": {
+    "context": "000078",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かにその間、１度も実験はなかった。"
+  },
+  "000083": {
+    "context": "000083",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000087"
+  },
+  "000104": {
+    "context": "000104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000108"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000113"
+  },
+  "000200": {
+    "context": "000200",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000203": {
+    "context": "000203",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000206": {
+    "context": "000206",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000209": {
+    "context": "000209",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000213"
+  },
+  "000213": {
+    "context": "000213",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000216": {
+    "context": "000216",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000220"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000223": {
+    "context": "000223",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000227"
+  },
+  "000233": {
+    "context": "000233",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000239": {
+    "context": "000239",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000242": {
+    "context": "000242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000246"
+  },
+  "000246": {
+    "context": "000246",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000249": {
+    "context": "000249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000253"
+  },
+  "000252": {
+    "context": "000252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000256"
+  },
+  "000256": {
+    "context": "000256",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000259": {
+    "context": "000259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000263"
+  },
+  "000269": {
+    "context": "000269",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000272": {
+    "context": "000272",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000277"
+  },
+  "000275": {
+    "context": "000275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000280"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000282": {
+    "context": "000282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000287"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000289": {
+    "context": "000289",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000294"
+  },
+  "000292": {
+    "context": "000292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000297"
+  },
+  "000296": {
+    "context": "000296",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000304"
+  },
+  "000302": {
+    "context": "000302",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000307"
+  },
+  "000306": {
+    "context": "000306",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000314"
+  },
+  "000312": {
+    "context": "000312",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000317"
+  },
+  "000358": {
+    "context": "000358",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000368": {
+    "context": "000368",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000371": {
+    "context": "000371",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000330"
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000378": {
+    "context": "000378",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000337"
+  },
+  "000381": {
+    "context": "000381",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000340"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000388": {
+    "context": "000388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000347"
+  },
+  "000392": {
+    "context": "000392",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000354"
+  },
+  "000398": {
+    "context": "000398",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000357"
+  },
+  "000402": {
+    "context": "000402",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000405": {
+    "context": "000405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000364"
+  },
+  "000489": {
+    "context": "000489",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000442"
+  },
+  "000573": {
+    "context": "000573",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この小説を勧めてくれた天川博士には申し訳ないが、サリュはもっと痛快でわくわくするような話が好きなのだ。"
+  },
+  "000579": {
+    "context": "000579",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（例えば博士が、最初に与えてくれた小説……あれはもう、何度読んだかわからない）"
+  },
+  "000585": {
+    "context": "000585",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（あの作家のまだ見ぬ小説を、博士にねだってみようか）"
+  },
+  "000596": {
+    "context": "000596",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュがそう思った時、久しぶりに部屋の扉が開いて、博士が入ってきた。"
+  },
+  "000604": {
+    "context": "000604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000447"
+  },
+  "000610": {
+    "context": "000610",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000453"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000459"
+  },
+  "000621": {
+    "context": "000621",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000464"
+  },
+  "000626": {
+    "context": "000626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000469"
+  },
+  "000637": {
+    "context": "000637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000480"
+  },
+  "000673": {
+    "context": "000673",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0355 000120"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000524"
+  },
+  "000692": {
+    "context": "000692",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000535"
+  },
+  "000697": {
+    "context": "000697",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000540"
+  },
+  "000717": {
+    "context": "000717",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000560"
+  },
+  "000833": {
+    "context": "000833",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000676"
+  },
+  "000838": {
+    "context": "000838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000681"
+  },
+  "000846": {
+    "context": "000846",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000689"
+  },
+  "000857": {
+    "context": "000857",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000700"
+  },
+  "000868": {
+    "context": "000868",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000711"
+  },
+  "000873": {
+    "context": "000873",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000716"
+  },
+  "000878": {
+    "context": "000878",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000721"
+  },
+  "000886": {
+    "context": "000886",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「嘘」"
+  },
+  "000915": {
+    "context": "000915",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「え？」"
+  },
+  "000923": {
+    "context": "000923",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000766"
+  },
+  "000929": {
+    "context": "000929",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000772"
+  },
+  "000960": {
+    "context": "000960",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000803"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000811"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0004 002426"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000848"
+  },
+  "001034": {
+    "context": "001034",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000877"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000882"
+  },
+  "001044": {
+    "context": "001044",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000887"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 000922"
+  },
+  "001087": {
+    "context": "001087",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「別に」"
+  },
+  "001092": {
+    "context": "001092",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000935"
+  },
+  "001097": {
+    "context": "001097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000940"
+  },
+  "001102": {
+    "context": "001102",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 000945"
+  },
+  "001110": {
+    "context": "001110",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 000953"
+  },
+  "001134": {
+    "context": "001134",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0014 001994"
+  },
+  "001163": {
+    "context": "001163",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001006"
+  },
+  "001171": {
+    "context": "001171",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001014"
+  },
+  "001196": {
+    "context": "001196",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001039"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001069"
+  },
+  "001236": {
+    "context": "001236",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001080"
+  },
+  "001247": {
+    "context": "001247",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001091"
+  },
+  "001255": {
+    "context": "001255",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001099"
+  },
+  "001284": {
+    "context": "001284",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001129"
+  },
+  "001292": {
+    "context": "001292",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001137"
+  },
+  "001321": {
+    "context": "001321",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001167"
+  },
+  "001332": {
+    "context": "001332",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001178"
+  },
+  "001340": {
+    "context": "001340",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001186"
+  },
+  "001369": {
+    "context": "001369",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001215"
+  },
+  "001380": {
+    "context": "001380",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001226"
+  },
+  "001391": {
+    "context": "001391",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001237"
+  },
+  "001420": {
+    "context": "001420",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001266"
+  },
+  "001431": {
+    "context": "001431",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001277"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001285"
+  },
+  "001468": {
+    "context": "001468",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0300 005660"
+  },
+  "001479": {
+    "context": "001479",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001325"
+  },
+  "001484": {
+    "context": "001484",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001330"
+  },
+  "001489": {
+    "context": "001489",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001335"
+  },
+  "001497": {
+    "context": "001497",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001343"
+  },
+  "001505": {
+    "context": "001505",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001351"
+  },
+  "001513": {
+    "context": "001513",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001359"
+  },
+  "001521": {
+    "context": "001521",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001367"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001375"
+  },
+  "001560": {
+    "context": "001560",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001406"
+  },
+  "001589": {
+    "context": "001589",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001435"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001446"
+  },
+  "001608": {
+    "context": "001608",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0168 002823"
+  },
+  "001637": {
+    "context": "001637",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001483"
+  },
+  "001666": {
+    "context": "001666",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001512"
+  },
+  "001674": {
+    "context": "001674",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001520"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001531"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001542"
+  },
+  "001727": {
+    "context": "001727",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001573"
+  },
+  "001732": {
+    "context": "001732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001578"
+  },
+  "001737": {
+    "context": "001737",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001583"
+  },
+  "001745": {
+    "context": "001745",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001591"
+  },
+  "001774": {
+    "context": "001774",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001620"
+  },
+  "001785": {
+    "context": "001785",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001631"
+  },
+  "001796": {
+    "context": "001796",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001642"
+  },
+  "001801": {
+    "context": "001801",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001647"
+  },
+  "001806": {
+    "context": "001806",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001652"
+  },
+  "001811": {
+    "context": "001811",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001657"
+  },
+  "001816": {
+    "context": "001816",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001662"
+  },
+  "001821": {
+    "context": "001821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001667"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001698"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001709"
+  },
+  "001871": {
+    "context": "001871",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001717"
+  },
+  "001900": {
+    "context": "001900",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「え？」"
+  },
+  "001908": {
+    "context": "001908",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001754"
+  },
+  "001913": {
+    "context": "001913",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001759"
+  },
+  "001918": {
+    "context": "001918",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001764"
+  },
+  "001949": {
+    "context": "001949",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001795"
+  },
+  "001957": {
+    "context": "001957",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001803"
+  },
+  "001986": {
+    "context": "001986",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001832"
+  },
+  "001997": {
+    "context": "001997",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001843"
+  },
+  "002026": {
+    "context": "002026",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0356 001872"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001880"
+  },
+  "002042": {
+    "context": "002042",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001888"
+  },
+  "002050": {
+    "context": "002050",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001896"
+  },
+  "002073": {
+    "context": "002073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001919"
+  },
+  "002096": {
+    "context": "002096",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001942"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0003 001012"
+  },
+  "002129": {
+    "context": "002129",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001975"
+  },
+  "002137": {
+    "context": "002137",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0356 001983"
+  },
+  "002142": {
+    "context": "002142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001988"
+  },
+  "002147": {
+    "context": "002147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0356 001993"
+  }
+}

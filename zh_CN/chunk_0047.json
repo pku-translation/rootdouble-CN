@@ -1,0 +1,582 @@
+{
+  "000020": {
+    "context": "000020",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "000028": {
+    "context": "000028",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階段室からロープを伝い、地下２階へ――"
+  },
+  "000078": {
+    "context": "000078",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてファクトリーに戻ると、すぐに皆が飛んで来た。"
+  },
+  "000161": {
+    "context": "000161",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長！　何かあったの！？」"
+  },
+  "000172": {
+    "context": "000172",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なんかどすんって音が鳴ったけど……」"
+  },
+  "000183": {
+    "context": "000183",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、大したことないさ。連絡通路が崩れただけだ」"
+  },
+  "000214": {
+    "context": "000214",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それより皆さん、要救助者等は見つかりましたか？」"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それが……いないんだよ」"
+  },
+  "000324": {
+    "context": "000324",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長！　何かあったのですか！？」"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0047 000172"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 000183"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それよりみんな、要救助者とかいた？」"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それが……いないのよ」"
+  },
+  "000487": {
+    "context": "000487",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長！　何かあったのですか？」"
+  },
+  "000498": {
+    "context": "000498",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なんかどすんって音が鳴ったけど！」"
+  },
+  "000509": {
+    "context": "000509",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 000183"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それより皆さん、あの子たちは見つかった？」"
+  },
+  "000569": {
+    "context": "000569",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0047 000243"
+  },
+  "000691": {
+    "context": "000691",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「隅々まで捜索したのだがね、要救助者の姿はどこにもない」"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あの、内周棟にもいなかったんですか……？」"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、こっちでも誰も見つからなかった」"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは、すでにラボ内の全エリアの捜索をすでに終えてしまっている。"
+  },
+  "000723": {
+    "context": "000723",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、要救助者はどこにもいない。死体すらも見つからない。"
+  },
+  "000734": {
+    "context": "000734",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあ……いよいよ、間違いないな」"
+  },
+  "000765": {
+    "context": "000765",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの子たちはすでに、搬出リフトから脱出したんだ！」"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そう考えるのが自然ですね……！」"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の言葉に、洵たちが訝しげな顔をする。"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「搬出リフト？　なにそれ？」"
+  },
+  "000871": {
+    "context": "000871",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ファクトリーのどこかに、地上に脱出できるリフトがあるらしいのです」"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、これ見てくれ！」"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って、さきほど入手した防災マニュアルを皆に見せた。"
+  },
+  "000916": {
+    "context": "000916",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうか……こんな手があったのか！」"
+  },
+  "000945": {
+    "context": "000945",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かに、これなら行けそうね……！」"
+  },
+  "000956": {
+    "context": "000956",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だろ？　なぁみんな、ファクトリーの中に、それっぽいリフトはなかったか？」"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「見つからなかったけど……もしかしたら、あれかも！」"
+  },
+  "001070": {
+    "context": "001070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が振り返り、ファクトリーの隅を見る。"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その視線の先――ファクトリー最奥の壁際に、なぜかセキュリティゲートがあった。"
+  },
+  "001091": {
+    "context": "001091",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なんであんなところに、セキュリティゲートが？」"
+  },
+  "001120": {
+    "context": "001120",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「不自然なところにあったから、あたしらも気にはなってたんだけどさ……」"
+  },
+  "001131": {
+    "context": "001131",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「セキュリティスロットが完全に焼失してて、中に入れなかったんだ」"
+  },
+  "001161": {
+    "context": "001161",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも、ファクトリー内で未捜索の場所はあのゲートの向こうだけ」"
+  },
+  "001190": {
+    "context": "001190",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「搬出リフトってのがあるとしたら、あの向こうにある事は間違いないわ！」"
+  },
+  "001220": {
+    "context": "001220",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、そうか！　そう考えるのが自然だよね！」"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の言葉に、風見たちが訝しげな顔をする。"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「搬出リフト？　なんですかそれは？」"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ファクトリーのどこかに、地上に脱出できるリフトがあるらしいんだよ！」"
+  },
+  "001294": {
+    "context": "001294",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 000882"
+  },
+  "001299": {
+    "context": "001299",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 000887"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0047 000916"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに、これならあるいは……！」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だろ！？　なぁみんな、ファクトリーの中に、それっぽいリフトはなかったか？」"
+  },
+  "001397": {
+    "context": "001397",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「見つかりませんでしたが……もしかしたら、あれかもしれません」"
+  },
+  "001482": {
+    "context": "001482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が振り返り、ファクトリーの隅を見る。"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 001075"
+  },
+  "001503": {
+    "context": "001503",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 001091"
+  },
+  "001532": {
+    "context": "001532",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「不自然なところにあったので、我々も気にはなっていたのですが……」"
+  },
+  "001543": {
+    "context": "001543",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「セキュリティスロットが完全に焼失し、中に入れず、捜索を諦めていたのです」"
+  },
+  "001573": {
+    "context": "001573",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0047 001161"
+  },
+  "001602": {
+    "context": "001602",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0047 001190"
+  },
+  "001632": {
+    "context": "001632",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あ！　そ、そう考えるのが自然よね！」"
+  },
+  "001637": {
+    "context": "001637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 000813"
+  },
+  "001666": {
+    "context": "001666",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0047 000842"
+  },
+  "001677": {
+    "context": "001677",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 001283"
+  },
+  "001688": {
+    "context": "001688",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 000882"
+  },
+  "001693": {
+    "context": "001693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 000887"
+  },
+  "001722": {
+    "context": "001722",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0047 000916"
+  },
+  "001751": {
+    "context": "001751",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0047 001357"
+  },
+  "001762": {
+    "context": "001762",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 001368"
+  },
+  "001791": {
+    "context": "001791",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0047 000985"
+  },
+  "001876": {
+    "context": "001876",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 001070"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0047 001075"
+  },
+  "001897": {
+    "context": "001897",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0047 001091"
+  },
+  "001926": {
+    "context": "001926",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0047 001532"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0047 001543"
+  },
+  "001967": {
+    "context": "001967",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0047 001161"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「搬出リフトってのがあるとしたら、あの向こうにある事は間違いないよ！」"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "002051": {
+    "context": "002051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちの顔に、笑みが浮かぶ。"
+  },
+  "002056": {
+    "context": "002056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＡＤは残り６本しかない。だが外に脱出してしまえば、ＡＤなど必要なくなる。"
+  },
+  "002061": {
+    "context": "002061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この苦難に満ちた道程も、ひとまず終了するのだ！"
+  },
+  "002072": {
+    "context": "002072",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし！　どうにかしてあのゲートを開けよう！」"
+  },
+  "002137": {
+    "context": "002137",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「例によってエアダクトから、向こう側に行く事はできないの？」"
+  },
+  "002167": {
+    "context": "002167",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「残念ながら天井が高すぎて、エアダクトに入る事はできません」"
+  },
+  "002178": {
+    "context": "002178",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあゲートをエンジンカッターとかで壊す事は？」"
+  },
+  "002209": {
+    "context": "002209",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「すでに試してみました。簡易基地からカッターを取って来て」"
+  },
+  "002238": {
+    "context": "002238",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし少々切れ目が入ったくらいで、とても開きそうにありません」"
+  },
+  "002268": {
+    "context": "002268",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「もう試してみたよ。簡易基地からカッター取って来てね」"
+  },
+  "002297": {
+    "context": "002297",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも、ちょっと切れ目が入ったくらいで、とても開きそうにない」"
+  },
+  "002308": {
+    "context": "002308",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「くそ、そうかよ！」"
+  },
+  "002337": {
+    "context": "002337",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……どうすれば、開けられるんでしょう……？」"
+  },
+  "002342": {
+    "context": "002342",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリがそう言って、渡瀬を見つめる。"
+  },
+  "002348": {
+    "context": "002348",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（もう、出口は目の前なんだ……！）"
+  },
+  "002354": {
+    "context": "002354",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この子を助けるためにも……あのゲートを、なんとかして開けなければ！）"
+  },
+  "002359": {
+    "context": "002359",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0016 001198"
+  },
+  "002385": {
+    "context": "002385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――不意に、奇妙な音がした。"
+  },
+  "002438": {
+    "context": "002438",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

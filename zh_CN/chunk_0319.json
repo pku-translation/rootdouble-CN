@@ -1,0 +1,731 @@
+{
+  "000063": {
+    "context": "000063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それは、第５エリアを捜索中に起きた出来事の記憶だった。"
+  },
+  "000092": {
+    "context": "000092",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先行した恵那を追って、宇喜多が洵と共に、脳科学実験室に立ち入った時――"
+  },
+  "000118": {
+    "context": "000118",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0012 004043"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が部屋の奥で、パソコンを起動させているのを見た。"
+  },
+  "000152": {
+    "context": "000152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その刹那、以前聞いた言葉が脳裏にフラッシュバックする。"
+  },
+  "000263": {
+    "context": "000263",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000320": {
+    "context": "000320",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0313 000375"
+  },
+  "000344": {
+    "context": "000344",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "直後、宇喜多は恵那に向かって叫んでいた。"
+  },
+  "000355": {
+    "context": "000355",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「やめたまえ、椿山さん！　君は何をしているのかね！」"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それは、その……見たこともない機械だったから、つい……」"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いいからそのパソコンから離れるんだ。これは君の身のためを思って忠告しているのだよ」"
+  },
+  "000748": {
+    "context": "000748",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なによ！　ちょっとぐらい良いじゃない！」"
+  },
+  "000790": {
+    "context": "000790",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだ？　今度は何事だ？」"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「知らないわよ。私がこのパソコンをいじっていたら、急に宇喜多さんが怒り出して」"
+  },
+  "000905": {
+    "context": "000905",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「宇喜多さん。どういう事か、ご説明願えますか？」"
+  },
+  "000936": {
+    "context": "000936",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだよ。別にパソコンぐらい、触ったっていいじゃん」"
+  },
+  "001078": {
+    "context": "001078",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここは国策に関わる研究をしているんだ。むやみに情報を探らない方がいい」"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そんな事をすると、君の身が危険だ」"
+  },
+  "001401": {
+    "context": "001401",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言うと――恵那は、不意に艶かしい笑みを浮かべた。"
+  },
+  "001432": {
+    "context": "001432",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なぁんだ、そういう事だったの……？」"
+  },
+  "001488": {
+    "context": "001488",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ホントに私を心配してくれてるのね」"
+  },
+  "001630": {
+    "context": "001630",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001700": {
+    "context": "001700",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0039 000182"
+  },
+  "001705": {
+    "context": "001705",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると、そこへ渡瀬たちまでやってくる。"
+  },
+  "001741": {
+    "context": "001741",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0039 000325"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（ま、まずい！　被験体ＹⅡや隊長さんはともかく、もし他の３人がラボの機密に触れてしまったら――！）"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は慌てて全員に、機密情報について警告した。"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……第５エリアから先は、機密のレベルも極めて高い」"
+  },
+  "001774": {
+    "context": "001774",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000666"
+  },
+  "001785": {
+    "context": "001785",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000677"
+  },
+  "001790": {
+    "context": "001790",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは宇喜多の、本心からの言葉だった……。"
+  },
+  "001874": {
+    "context": "001874",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0319 000748"
+  },
+  "001879": {
+    "context": "001879",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとそこへ、渡瀬たちもやってきた。"
+  },
+  "001915": {
+    "context": "001915",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0319 000790"
+  },
+  "001944": {
+    "context": "001944",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0319 000821"
+  },
+  "002001": {
+    "context": "002001",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0319 000905"
+  },
+  "002030": {
+    "context": "002030",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0319 000936"
+  },
+  "002041": {
+    "context": "002041",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、絶対にダメだ。ここは国策に関わる研究をしているんだ。むやみに情報を探らない方がいい」"
+  },
+  "002070": {
+    "context": "002070",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「なによそれ、この緊急時にそんなこと言ってる場合？　生きるか死ぬかって瀬戸際に」"
+  },
+  "002081": {
+    "context": "002081",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000637"
+  },
+  "002092": {
+    "context": "002092",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000666"
+  },
+  "002103": {
+    "context": "002103",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000677"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一般人はラボの機密に触れない方がいい。それは宇喜多の偽りのない気持ちだったのだが――"
+  },
+  "002137": {
+    "context": "002137",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう……そうやって私たちを脅すつもりなのね。まったく怪しいったらないわ」"
+  },
+  "002148": {
+    "context": "002148",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0088 001149"
+  },
+  "002177": {
+    "context": "002177",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だってそうでしょう？　私、館内放送で聞いたのよ。地上の点呼で、施設内の全職員の避難が確認できたって」"
+  },
+  "002206": {
+    "context": "002206",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それなのにあなた、どうして地下に残っているのよ。そんなのっておかしいわ」"
+  },
+  "002217": {
+    "context": "002217",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「それを言うなら、怪しいのは君だって同じだろう？　なぜ鹿鳴学園の教師が、こんなところにいるのかね？」"
+  },
+  "002274": {
+    "context": "002274",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ストップ。２人ともそこまでだ。今は言い争ってる場合かよ」"
+  },
+  "002303": {
+    "context": "002303",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ふん。わかったわ」"
+  },
+  "002314": {
+    "context": "002314",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0005 000751"
+  },
+  "002321": {
+    "context": "002321",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とりあえずその場はそれで収まった。"
+  },
+  "002326": {
+    "context": "002326",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが宇喜多の中には確実に、恵那への不満が鬱屈した……。"
+  },
+  "002439": {
+    "context": "002439",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0078 000739"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0319 001334"
+  },
+  "002461": {
+    "context": "002461",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0319 001350"
+  },
+  "002486": {
+    "context": "002486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言うと――恵那は、不意になまめかしい笑みを浮かべた。"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0319 001432"
+  },
+  "002550": {
+    "context": "002550",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0319 001488"
+  },
+  "002561": {
+    "context": "002561",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　あ、あぁ、まぁ……」"
+  },
+  "002590": {
+    "context": "002590",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「頼りなさそうだったけど、意外にいいとこあるじゃない」"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はそう言って、宇喜多にすり寄って来た。"
+  },
+  "002606": {
+    "context": "002606",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「な……なんだね？」"
+  },
+  "002617": {
+    "context": "002617",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「別に？」"
+  },
+  "002646": {
+    "context": "002646",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ただ、優しいなって思って……」"
+  },
+  "002657": {
+    "context": "002657",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「や……優しい？」"
+  },
+  "002686": {
+    "context": "002686",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ほら、こういう状況の時って、やっぱり男の人に頼りたくなるじゃない」"
+  },
+  "002715": {
+    "context": "002715",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも隊長さんって、ちょっと怖そうなところがあるから……」"
+  },
+  "002720": {
+    "context": "002720",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かに、そう言うところはあるが――"
+  },
+  "002749": {
+    "context": "002749",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私ね、ああいうガサツな男より、マジメな人が好きなの」"
+  },
+  "002801": {
+    "context": "002801",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はそう言って、宇喜多の腕に手を触れた。"
+  },
+  "002821": {
+    "context": "002821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、びくんと電流が走る。"
+  },
+  "002832": {
+    "context": "002832",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「い、今はそういう話をしている時かね！？」"
+  },
+  "002843": {
+    "context": "002843",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「それに守部くんもいるというのに――」"
+  },
+  "002873": {
+    "context": "002873",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら、あの小娘なら、どこかに行っちゃったわよ」"
+  },
+  "002884": {
+    "context": "002884",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　あ……」"
+  },
+  "002889": {
+    "context": "002889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつの間にか洵はいなくなっていた。"
+  },
+  "002919": {
+    "context": "002919",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「邪魔者がいなくなったところで、宇喜多さん……」"
+  },
+  "002930": {
+    "context": "002930",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「今後の話をしない？」"
+  },
+  "002941": {
+    "context": "002941",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「今後の話って……」"
+  },
+  "002971": {
+    "context": "002971",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「無事脱出するためには、チームワークが必要よね？」"
+  },
+  "003001": {
+    "context": "003001",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも私たち、親密さが足りないと思うの」"
+  },
+  "003031": {
+    "context": "003031",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だから……ねぇ？　その親密さをもっと高めたいと思うのよ」"
+  },
+  "003042": {
+    "context": "003042",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そ、それは――」"
+  },
+  "003047": {
+    "context": "003047",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言いかけた時、"
+  },
+  "003060": {
+    "context": "003060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に背後で、部屋の扉が開いた。"
+  },
+  "003086": {
+    "context": "003086",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「！！」"
+  },
+  "003114": {
+    "context": "003114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっとして振り返ると、そこに洵や渡瀬、それから他の皆も立っていた。"
+  },
+  "003119": {
+    "context": "003119",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が呼んで来たのだろう。渡瀬が宇喜多を睨んで言う。"
+  },
+  "003155": {
+    "context": "003155",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なにやってんだ、あんたら？」"
+  },
+  "003160": {
+    "context": "003160",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、恵那がぱっと離れて言う。"
+  },
+  "003189": {
+    "context": "003189",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「知らないわよ。私がこのパソコンをいじっていたら、急に宇喜多さんが怒り出して……」"
+  },
+  "003200": {
+    "context": "003200",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「腕を捕まれて、お説教されてたの」"
+  },
+  "003226": {
+    "context": "003226",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0005 004245"
+  },
+  "003231": {
+    "context": "003231",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の嘘に、宇喜多は一瞬愕然としたが――そこに風見が口を挟んだ。"
+  },
+  "003288": {
+    "context": "003288",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0319 000905"
+  },
+  "003299": {
+    "context": "003299",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あ、ああ、いや……」"
+  },
+  "003310": {
+    "context": "003310",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「機密情報に触れないように、注意していたんだ」"
+  },
+  "003321": {
+    "context": "003321",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「第５エリアから先は、機密のレベルも極めて高い」"
+  },
+  "003332": {
+    "context": "003332",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000666"
+  },
+  "003343": {
+    "context": "003343",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0039 000677"
+  },
+  "003348": {
+    "context": "003348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな説明をしつつも、宇喜多の中では疑心が渦巻いていた。"
+  },
+  "003398": {
+    "context": "003398",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（なんなんだ、この女は……？）"
+  },
+  "003404": {
+    "context": "003404",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（さっきはどういうつもりで、あんな事を……！）"
+  },
+  "003559": {
+    "context": "003559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は先ほどまでとは打って変わって、平然としている。"
+  },
+  "003564": {
+    "context": "003564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多に見せた態度など、忘れてしまったようだ。"
+  },
+  "003570": {
+    "context": "003570",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（……男を誘惑して、自分の思うままに動かそうとしてるのか？）"
+  },
+  "003643": {
+    "context": "003643",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "よく見れば恵那はかなりの美人で、しかもグラマラスだ。"
+  },
+  "003648": {
+    "context": "003648",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの肉体を餌にされたら、たいていの男はクラっと来てしまうかもしれないが――"
+  },
+  "003654": {
+    "context": "003654",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（しかし、なんのために誘惑など……！？）"
+  },
+  "003674": {
+    "context": "003674",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だが結局、その疑問の答えらしきものは、見つからなかった……。"
+  },
+  "003728": {
+    "context": "003728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003273"
+  },
+  "003734": {
+    "context": "003734",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……先生に対する記憶も、書きかえられてるみたいだな）"
+  },
+  "003740": {
+    "context": "003740",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここは先生に対しても、好意的な感情を注ぎ込んだほうがいいんだろう）"
+  },
+  "003746": {
+    "context": "003746",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、どのくらいが妥当なんだ……？）"
+  },
+  "003780": {
+    "context": "003780",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003273"
+  },
+  "003786": {
+    "context": "003786",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさん、気持ちはわからないでもないけど……先生は多分、そんな人じゃないよ）"
+  },
+  "003792": {
+    "context": "003792",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……それにしても、この修復はちょっと難しそうだな）"
+  },
+  "003798": {
+    "context": "003798",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（先生に対する感情を、自然な形に調整すればいいんだろうけど……）"
+  },
+  "003870": {
+    "context": "003870",
+    "code": "0x04",
+    "string": "@ignore"
+  }
+}

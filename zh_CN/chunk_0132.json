@@ -1,4 +1,9 @@
 {
+  "000003": {
+    "context": "000003",
+    "code": "0x04",
+    "string": "@ignore"
+  },
   "000123": {
     "context": "000123",
     "code": "0x55",
@@ -105,6 +110,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "多少感觉有些奇怪，但也没有比这更合理的解释了。"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "000815": {
     "context": "000815",
@@ -642,5 +652,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "进行着这样的对话，两人走进教学楼。"
+  },
+  "003338": {
+    "context": "003338",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

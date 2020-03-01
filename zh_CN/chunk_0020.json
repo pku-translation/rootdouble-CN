@@ -1,0 +1,786 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0017 000136"
+  },
+  "000054": {
+    "context": "000054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第４エリア内周棟・地下１階に、渡瀬たちは足を踏み入れた。"
+  },
+  "000059": {
+    "context": "000059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは見た目は第３エリアと、そう代わり映えしない場所だった。"
+  },
+  "000064": {
+    "context": "000064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がプロキオンを見て呟く。"
+  },
+  "000129": {
+    "context": "000129",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「汚染レベル、『２１６４ｍＳｖ』か……やっぱり徐々に上がってるね」"
+  },
+  "000140": {
+    "context": "000140",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だったら急がなきゃ――」"
+  },
+  "000145": {
+    "context": "000145",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう言いかけた時、"
+  },
+  "000156": {
+    "context": "000156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に渡瀬のＰＤＡから声が流れ出した。"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…ちらシリウス司令長村上。笠鷺、感ある―…鷺、感あるか？」"
+  },
+  "000181": {
+    "context": "000181",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「む、無線！？」"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "驚く渡瀬に、風見が言う。"
+  },
+  "000216": {
+    "context": "000216",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さきほど隊長の無事を報告したので、私ではなくそちらに連絡してきたのでしょう」"
+  },
+  "000227": {
+    "context": "000227",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「応答してください」"
+  },
+  "000238": {
+    "context": "000238",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0011 001416"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は慌ててＰＤＡを取り出し、応答した。"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、あー、こちら笠鷺、感あり」"
+  },
+  "000354": {
+    "context": "000354",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―笠さ―…ずっと連絡し…―……ようやく繋がっ…」"
+  },
+  "000359": {
+    "context": "000359",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほどの通信より、電波の状況は明らかに悪かった。"
+  },
+  "000364": {
+    "context": "000364",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "途切れ途切れの声で、司令長が指示を出す。"
+  },
+  "000372": {
+    "context": "000372",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…現況を報告せよ」"
+  },
+  "000383": {
+    "context": "000383",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、ああ！　実はその、人が死んで……」"
+  },
+  "000391": {
+    "context": "000391",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…がどうした！？　よく聞こえ――…」"
+  },
+  "000402": {
+    "context": "000402",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設内で、３名の死者を発見したんだ！」"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかも他殺体だ！　その中には、堂島隊員も……！」"
+  },
+  "000421": {
+    "context": "000421",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「何！？」"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「聞こえるか！？　堂島隊員と、研究員２名の他殺体を発見したんだ！」"
+  },
+  "000440": {
+    "context": "000440",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…殺体！？…――」"
+  },
+  "000451": {
+    "context": "000451",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「死体には銃創があった！　殺人者は外に逃げているかもしれない」"
+  },
+  "000462": {
+    "context": "000462",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「施設から出てきた人間の中に、銃を持っている奴がいないか調べてくれ！」"
+  },
+  "000470": {
+    "context": "000470",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「銃―…―した――……―」"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「聞こえてるか！？　繰り返すぞ！」"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0020 000462"
+  },
+  "000500": {
+    "context": "000500",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「――…銃を―…―…調べるんだな！？　―った、任せ――…」"
+  },
+  "000505": {
+    "context": "000505",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なんとか司令長にも、この異常事態は伝わったらしい。"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―…信状況が悪――……―…ちらからの伝言を伝える」"
+  },
+  "000518": {
+    "context": "000518",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼は方針を切り替え、一方的に話し出した。"
+  },
+  "000526": {
+    "context": "000526",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「ラボ関係者―…要請…―…」"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―助者の中に―……―…―…保護―…くれ」"
+  },
+  "000545": {
+    "context": "000545",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 003503"
+  },
+  "000553": {
+    "context": "000553",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「少―…―の保護を―……―…優先的に……―…――」"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「司令長、聞こえん！　繰り返してくれ！」"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―う女だ…―！…」"
+  },
+  "000580": {
+    "context": "000580",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「…―…少女を保護しろ…―…」"
+  },
+  "000591": {
+    "context": "000591",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「少女を保護！？　ユウリの事だな！？」"
+  },
+  "000599": {
+    "context": "000599",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「頼む笠―……―橘や守部と協力……―…――……―…」"
+  },
+  "000610": {
+    "context": "000610",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「協力して要救助者を助けろってんだな！」"
+  },
+  "000615": {
+    "context": "000615",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はちらりと、風見と洵を見た。２人とも力強くうなずく。"
+  },
+  "000626": {
+    "context": "000626",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わかった、まかせろ！」"
+  },
+  "000634": {
+    "context": "000634",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―むぞ―……―…―……―…」"
+  },
+  "000642": {
+    "context": "000642",
+    "code": "0x45",
+    "developer_comment": "司令長",
+    "string": "「―――…――」"
+  },
+  "000647": {
+    "context": "000647",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通信はそこで切れた。"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はＰＤＡをしまい、皆に言う。"
+  },
+  "000684": {
+    "context": "000684",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……みんな、聞いたか今の通信？」"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「言うまでもない事です。さっそく第４エリアの捜索を行いましょう」"
+  },
+  "000785": {
+    "context": "000785",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ宇喜多さん、ここはどんなエリアなの？」"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ああ、ここは『電子計算機棟』と呼ばれているエリアだ」"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「情報処理を主に扱っている部署で、『ＢｒａｉｎＣｅｌｌ』というスーパーコンピューターがある」"
+  },
+  "000837": {
+    "context": "000837",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「スーパーコンピューター？　それはどこに？」"
+  },
+  "000866": {
+    "context": "000866",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「筐体そのものは外周棟にあるが、制御はこの内周棟から行う」"
+  },
+  "000877": {
+    "context": "000877",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「こっちだ、ついてきてくれ」"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って歩き出す宇喜多に、渡瀬たちは従った。"
+  },
+  "000926": {
+    "context": "000926",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はすぐ近くにあった、『システム制御室』という部屋に、渡瀬たちを連れて行った。"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "扉が開いた途端、眼に飛び込んできたのは、壁一面を埋めるほどの大きなディスプレイだった。"
+  },
+  "000988": {
+    "context": "000988",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこでは膨大なデータらしきものが、目まぐるしく明滅している。"
+  },
+  "001017": {
+    "context": "001017",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ひゃー、なんか作戦司令本部って感じだねぇ」"
+  },
+  "001089": {
+    "context": "001089",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「これはどういうキカイなの？」"
+  },
+  "001100": {
+    "context": "001100",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ、ＢｒａｉｎＣｅｌｌはこのラボで扱っている全情報を、一括処理しているんだ」"
+  },
+  "001111": {
+    "context": "001111",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「全情報っていうと、どこからどこまでのことを言うんだ？」"
+  },
+  "001140": {
+    "context": "001140",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「実験データの解析・演算から、電力・照明・空調・上下水道などのインフラシステムの処理まで、全てだよ」"
+  },
+  "001151": {
+    "context": "001151",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ケースＮ中でも然りだ。こちらの数字を見てくれ」"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はモニターの隅の数値を指差した。"
+  },
+  "001161": {
+    "context": "001161",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには『１８：１６』という時刻と、『１４５８１ｍＳｖ』という数字が並んでいる。"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「『１８：１６』というのが、隔壁が開放される予想時刻だ」"
+  },
+  "001183": {
+    "context": "001183",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あとざっと８時間か……！」"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「司令長の説明と、大体一致するみたいだね」"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ。現在うちの技術者たちが、地上からシステム復旧作業を行っているという話だが――」"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そのデータを分析し、『復旧作業が終わって隔壁が開放されるであろう時刻』を算出しているんだ」"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「予想時刻より早く、隔壁が開放される可能性はあるの？」"
+  },
+  "001312": {
+    "context": "001312",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、む……難しいだろう。復旧に必要な処理の大半は、ＢｒａｉｎＣｅｌｌが自ら行っている」"
+  },
+  "001323": {
+    "context": "001323",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そのＢｒａｉｎＣｅｌｌ自身が予想した時刻だ。人為的ミスなどで遅くなる事はあっても、早くなるとは思えん」"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……じゃあ、こっちの『１４５８１ｍＳｖ』っていう数字は？」"
+  },
+  "001363": {
+    "context": "001363",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　それは――」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は一瞬、ためらってから言った。"
+  },
+  "001397": {
+    "context": "001397",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……Ｎエリアの、放射線量だ」"
+  },
+  "001408": {
+    "context": "001408",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なに！？　Ｎエリアはここまで汚染が進んで――！？」"
+  },
+  "001413": {
+    "context": "001413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は戦慄した。"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１５０００ｍＳｖ近い放射線が、Ｎエリアには渦巻いているという。"
+  },
+  "001423": {
+    "context": "001423",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らく足を踏み入れれば、確実に命を奪われる、死の空間……！"
+  },
+  "001452": {
+    "context": "001452",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「Ｎエリアの線量計は、どうやらまだ生きているみたいだね……むしろ知らない方がよかったかもしれないが」"
+  },
+  "001463": {
+    "context": "001463",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや、知っておくに越した事はないだろう。Ｎエリアのヤバさを認識しとくのは必要だ」"
+  },
+  "001493": {
+    "context": "001493",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうか……そこがこのラボの、『象の足』だね」"
+  },
+  "001504": {
+    "context": "001504",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「象の足？」"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「チェルノブイリ原発事故の時に、最も放射線量が高かった場所だよ」"
+  },
+  "001544": {
+    "context": "001544",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「最大線量が約８００００ｍＳｖ。そこに近づいた人間は、ほんの数秒で死んだって言われている」"
+  },
+  "001573": {
+    "context": "001573",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それに比べれば、今回のはまだマシだけど……」"
+  },
+  "001584": {
+    "context": "001584",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「Ｎエリアに入ったらただじゃすまないってのは、間違いないだろうな……！」"
+  },
+  "001589": {
+    "context": "001589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１５０００ｍＳｖと８００００ｍＳｖのどちらが大きい小さいという比較は、さほど意味をなさない。"
+  },
+  "001594": {
+    "context": "001594",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どちらにしても、命を奪うには充分すぎる線量だ。"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "チェルノブイリにしても、このラボにしても、異常な放射線が飛び交う狂った世界なのだ。"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……ともかく、こんな最悪の状況下でも、ＢｒａｉｎＣｅｌｌが生きててくれたのはよかった」"
+  },
+  "001639": {
+    "context": "001639",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「セキュリティゲートの開閉もここで行っている。これが壊れると捜索もままならないからな」"
+  },
+  "001668": {
+    "context": "001668",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ゲートの開放も？　と言う事は――」"
+  },
+  "001697": {
+    "context": "001697",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隔壁の開閉については、ここから操作できませんか！？」"
+  },
+  "001726": {
+    "context": "001726",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ッ！」"
+  },
+  "001731": {
+    "context": "001731",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の言葉に、全員が目を見開いた。"
+  },
+  "001742": {
+    "context": "001742",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「う、宇喜多さん、できそうか！？」"
+  },
+  "001753": {
+    "context": "001753",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「わからん！　わからんが……賭けてみる価値はありそうだ！」"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は制御ブースに歩み寄り、言った。"
+  },
+  "001874": {
+    "context": "001874",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここは僕に任せ、君らは捜索を続けてくれ。全員でここにいる意味はないからな」"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし！　それじゃオレたちはその間に、第４エリアの捜索をしておこう！」"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ！」"
+  },
+  "001965": {
+    "context": "001965",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「お願いするわよ、宇喜多さん！」"
+  },
+  "001979": {
+    "context": "001979",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは宇喜多を残し、システム制御室から退出した。"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "出るなり風見が、渡瀬・洵・恵那、そしてユウリに言った。"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ではまた２手に分かれましょう！」"
+  },
+  "002110": {
+    "context": "002110",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「メンバー分けは！？」"
+  },
+  "002121": {
+    "context": "002121",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まず、ユウリさんは私と一緒に行動しましょう。責任を持ってお預かりします」"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「え……」"
+  },
+  "002180": {
+    "context": "002180",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「とはいえ、ほとんど何もしなくていいですからね。安全確実な状況でのみ、捜索を手伝って下されば結構です」"
+  },
+  "002209": {
+    "context": "002209",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は……はい」"
+  },
+  "002214": {
+    "context": "002214",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリは素直に、風見に従った。"
+  },
+  "002296": {
+    "context": "002296",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃあ残りは、あたしのチームだね？」"
+  },
+  "002307": {
+    "context": "002307",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0008 000368"
+  },
+  "002337": {
+    "context": "002337",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確かにこれならバランスがよさそうね」"
+  },
+  "002419": {
+    "context": "002419",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「では我々がここ地下１階を捜索するので、そちらのチームは地下２階をお願いします」"
+  },
+  "002432": {
+    "context": "002432",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう！　きっとすぐＡＤを見つけて、お前に渡してやるからな！」"
+  },
+  "002461": {
+    "context": "002461",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「――お願いします」"
+  },
+  "002473": {
+    "context": "002473",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ……早いとこＡＤを見つけなきゃ、オレ自身がやばいからな」"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ、急ぎましょう！」"
+  },
+  "002507": {
+    "context": "002507",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声を合図に、渡瀬たちは動き出した。"
+  },
+  "002562": {
+    "context": "002562",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

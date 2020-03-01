@@ -766,6 +766,11 @@
     "developer_comment": "恵那",
     "string": "「为什么好像在说别人的事一样。作为救援队的一员，不该对被救的人好一点吗？」"
   },
+  "002808": {
+    "context": "002808",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "002819": {
     "context": "002819",
     "code": "0x45",
@@ -897,5 +902,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "然后 5 人一起，朝第 3 区域前进。"
+  },
+  "003412": {
+    "context": "003412",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

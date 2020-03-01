@@ -1,0 +1,1178 @@
+{
+  "000051": {
+    "context": "000051",
+    "code": "0x55",
+    "string": "@import 0330 000156"
+  },
+  "000063": {
+    "context": "000063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――シェルターを出た夏彦は、悠里に肩を借り、第３エリアに辿り着いた。"
+  },
+  "000074": {
+    "context": "000074",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ！　どこだ！？」"
+  },
+  "000103": {
+    "context": "000103",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「サリュちゃーん！」"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュを探して、２人で声を上げる。"
+  },
+  "000113": {
+    "context": "000113",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほど渡瀬がサリュと、このあたりで遭遇してから、さほど時間は経っていない。"
+  },
+  "000118": {
+    "context": "000118",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがここで逃してしまったら、いつ会えるかわからない。"
+  },
+  "000123": {
+    "context": "000123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、夏彦は第３エリアを探し回った。"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内周棟と外周棟を繋ぐ連絡通路も。"
+  },
+  "000225": {
+    "context": "000225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "非常階段も。"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ、いないのか！？」"
+  },
+  "000288": {
+    "context": "000288",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし彼女は見つからない。"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「くそっ、どこに彼女は……？」"
+  },
+  "000328": {
+    "context": "000328",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「他のエリアに行っちゃったのかな……」"
+  },
+  "000333": {
+    "context": "000333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちがそう呟いた時――彼女の声が聞こえた。"
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦！」"
+  },
+  "000398": {
+    "context": "000398",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "振り返るとそこに彼女がいた。"
+  },
+  "000409": {
+    "context": "000409",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ！！」"
+  },
+  "000447": {
+    "context": "000447",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あぁ……ようやく、再会できた……！」"
+  },
+  "000459": {
+    "context": "000459",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは安堵の微笑を浮かべて、こちらに突進してきた。"
+  },
+  "000565": {
+    "context": "000565",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぐほっ！！」"
+  },
+  "000570": {
+    "context": "000570",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "小さなサリュの頭が、夏彦のみぞおちにめり込む。"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがサリュは構わず、頭をぐりぐりと押し付ける。"
+  },
+  "000608": {
+    "context": "000608",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「とても心配していた。あの男に、殺されてしまったのではないかと……」"
+  },
+  "000619": {
+    "context": "000619",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だ、大丈夫だよ……怪我はしてるけど、ちゃんと生きてる」"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう言えば、その怪我で、どうやってここまで？」"
+  },
+  "000660": {
+    "context": "000660",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、悠里に肩を借りて――」"
+  },
+  "000690": {
+    "context": "000690",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0172 005096"
+  },
+  "000715": {
+    "context": "000715",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはそこで初めて、悠里の存在に気づいたらしい。"
+  },
+  "000738": {
+    "context": "000738",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女をまじまじと見つめ、怪訝そうに呟く。"
+  },
+  "000767": {
+    "context": "000767",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『悠里』って……夏彦の、幼馴染の？」"
+  },
+  "000796": {
+    "context": "000796",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0039 001275"
+  },
+  "000825": {
+    "context": "000825",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……混乱中」"
+  },
+  "000854": {
+    "context": "000854",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士から、悠里は９年前に死んだと聞いていた。それで夏彦は、彼女の幻覚を見続けていると」"
+  },
+  "000865": {
+    "context": "000865",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうか……やっぱりサリュも、ぼくに話を合わせてくれてたんだな」"
+  },
+  "000876": {
+    "context": "000876",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも、悠里は生きていたんだ」"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「９年間この施設にいて、ぼくらと同じく閉じ込められていたんだよ」"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0092 000163"
+  },
+  "000956": {
+    "context": "000956",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはその説明に、ますます戸惑いの表情を浮かべた。"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……無理もないか、ぼくだって相当混乱したくらいなんだし）"
+  },
+  "000967": {
+    "context": "000967",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう思ったのだが――その直後、サリュは予想もしない事を言った。"
+  },
+  "000996": {
+    "context": "000996",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「悠里……」"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「な……なに？」"
+  },
+  "001054": {
+    "context": "001054",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私、あなたを、どこかで見た事がある気がする……」"
+  },
+  "001118": {
+    "context": "001118",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0002 003339"
+  },
+  "001123": {
+    "context": "001123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、夏彦は息を呑む。"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幻覚の事は聞いていたとしても、サリュが悠里の容姿を知っているはずはないのに――！？"
+  },
+  "001139": {
+    "context": "001139",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ど、どういう事なんだ！？　いつ会ったんだ！？」"
+  },
+  "001168": {
+    "context": "001168",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「気のせいかもしれないけど……悠里を見た時、何か懐かしさのようなものが……」"
+  },
+  "001179": {
+    "context": "001179",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「って……悠里は会った事あるのか？」"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「な、ないよ。気のせいだと思うよ」"
+  },
+  "001219": {
+    "context": "001219",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 001012"
+  },
+  "001248": {
+    "context": "001248",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんがわたしの話をサリュちゃんにしていたから、初めて会った気がしないんだよ」"
+  },
+  "001259": {
+    "context": "001259",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「違うかな、サリュちゃん？」"
+  },
+  "001288": {
+    "context": "001288",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん……恐らく、そうだと思う。今日、あなたに遭遇した事はないし」"
+  },
+  "001299": {
+    "context": "001299",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それに博士から、あなたの９年前の写真を見せられた事があった。その面影のせいだと思う」"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そう……それじゃ改めて、自己紹介だね」"
+  },
+  "001333": {
+    "context": "001333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "戸惑う夏彦をよそに、悠里がサリュに言う。"
+  },
+  "001362": {
+    "context": "001362",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「初めましてサリュちゃん。わたし、ひこりんからサリュちゃんの事は色々聞いてるの」"
+  },
+  "001391": {
+    "context": "001391",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ましろんと会いたいでしょ？　ましろんは第５エリアにいるから、連れてってあげる」"
+  },
+  "001420": {
+    "context": "001420",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0039 001275"
+  },
+  "001425": {
+    "context": "001425",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの手を引いて、悠里が歩き出そうとする。"
+  },
+  "001454": {
+    "context": "001454",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「じゃあ、夏彦は私が背負っていく」"
+  },
+  "001465": {
+    "context": "001465",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、ああ、頼む」"
+  },
+  "001490": {
+    "context": "001490",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "こんな小さな女の子に背負われるのは、かなり気がひけたが、時間を無駄にはしたくない。"
+  },
+  "001495": {
+    "context": "001495",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は早々に、それに従った。"
+  },
+  "001543": {
+    "context": "001543",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアを経由すれば、第５エリアはすぐそこだ。"
+  },
+  "001659": {
+    "context": "001659",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、Ｎエリアを通過する。"
+  },
+  "001670": {
+    "context": "001670",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ、大丈夫か？　具合悪くなったりしていないか？」"
+  },
+  "001699": {
+    "context": "001699",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「放射線の事？」"
+  },
+  "001710": {
+    "context": "001710",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0011 001630"
+  },
+  "001739": {
+    "context": "001739",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「大丈夫。４０分ほど前に投与したＡＤが、まだ効いてるから」"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「少しだけ頭が痛むけど、前回訪れたときほどではない」"
+  },
+  "001773": {
+    "context": "001773",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "という事はＮエリアのＷＸ粒子エネルギー量も、低下してきているのだろう。"
+  },
+  "001778": {
+    "context": "001778",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "と、そのとき夏彦はある事を思いついた。"
+  },
+  "001789": {
+    "context": "001789",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ……ちょっと待って」"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は声を上げ、サリュの背から降りる。"
+  },
+  "001828": {
+    "context": "001828",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0200 003096"
+  },
+  "001857": {
+    "context": "001857",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「何か問題でも……？」"
+  },
+  "001868": {
+    "context": "001868",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、悠里――」"
+  },
+  "001927": {
+    "context": "001927",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里に目配せし、テレパシーを送った。"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《一応念のため、チェックしたいんだ。サリュが悪意に感染していないかどうかを》"
+  },
+  "001965": {
+    "context": "001965",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《え？》"
+  },
+  "001970": {
+    "context": "001970",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのテレパシーに、悠里が表情を強張らせた。"
+  },
+  "001978": {
+    "context": "001978",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《サリュがＡＤを投与してても、ここでならたぶんＢＣが効くだろ？》"
+  },
+  "001986": {
+    "context": "001986",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《チャンスだから、今のうちにやっとくべきだと思うんだよ》"
+  },
+  "001991": {
+    "context": "001991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアの数値は、ほんの２時間前まで、１５０００ｍＳｖを超えていた。"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らくまだ４０００ｍＳｖ以上はあると思われる。"
+  },
+  "002001": {
+    "context": "002001",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが悠里は慌てて首を振った。"
+  },
+  "002050": {
+    "context": "002050",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《ひ、必要ないよひこりん！　サリュちゃんを信用してないの！？》"
+  },
+  "002088": {
+    "context": "002088",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《信用してるよ。でも自覚がないのが、あの悪意の怖いところだろ？》"
+  },
+  "002093": {
+    "context": "002093",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "万が一のことを考え、一応やっておくべきだと夏彦は考えたのだ。"
+  },
+  "002120": {
+    "context": "002120",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《うーん……じゃあ、『花の香りのする記憶』があるかどうかだけ確認しよう》"
+  },
+  "002147": {
+    "context": "002147",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《それだけでも、悪意に感染してるかどうかはわかるはずだから》"
+  },
+  "002234": {
+    "context": "002234",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0060 000643"
+  },
+  "002239": {
+    "context": "002239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里はなぜか、不自然なまでに頑なだった。"
+  },
+  "002245": {
+    "context": "002245",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんだ……？　どうして悠里が、サリュの記憶に潜る事を拒むんだ？）"
+  },
+  "002251": {
+    "context": "002251",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（サリュと悠里の間に、何が……）"
+  },
+  "002256": {
+    "context": "002256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った瞬間、不意に――"
+  },
+  "002261": {
+    "context": "002261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "目の前に、恵那の記憶の中で見た情景が明滅した。"
+  },
+  "002325": {
+    "context": "002325",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001020"
+  },
+  "002340": {
+    "context": "002340",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてサリュが転校して来た日の情景も。"
+  },
+  "002421": {
+    "context": "002421",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0142 002964"
+  },
+  "002441": {
+    "context": "002441",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ッ！？）"
+  },
+  "002447": {
+    "context": "002447",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（コミュニケーターＡもサリュも、故郷はフランスの『アンドレジー』……！？）"
+  },
+  "002507": {
+    "context": "002507",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらにサリュの顔を見ると――"
+  },
+  "002624": {
+    "context": "002624",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――どこかコミュニケーターＡに似ている気がした。"
+  },
+  "002630": {
+    "context": "002630",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（え、え……？　これってどういう事だ？）"
+  },
+  "002635": {
+    "context": "002635",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "理由はわからない。しかしそれが悠里の態度と、何か関係がある気がした。"
+  },
+  "002640": {
+    "context": "002640",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "コミュニケーターＡは、その生涯の最後の１年を、ラボで過ごしたのだから――"
+  },
+  "002741": {
+    "context": "002741",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ちょ、ちょっと待ってくれ、悠里……》"
+  },
+  "002752": {
+    "context": "002752",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《君はサリュについて、何かぼくが知らないことを、知ってるんじゃないのか！？》"
+  },
+  "002814": {
+    "context": "002814",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《……っ！》"
+  },
+  "002825": {
+    "context": "002825",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《もしかして、サリュの記憶に潜っちゃいけない理由があるのか！？》"
+  },
+  "002852": {
+    "context": "002852",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《ち、違うよ。ただ、時間がないから……》"
+  },
+  "002857": {
+    "context": "002857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里が黙り込む。"
+  },
+  "002862": {
+    "context": "002862",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュがそこで口を挟んだ。"
+  },
+  "002899": {
+    "context": "002899",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……不意に黙り込んで、どうしたの２人とも」"
+  },
+  "002910": {
+    "context": "002910",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0137 005673"
+  },
+  "002915": {
+    "context": "002915",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "説明が難しいので、夏彦は言葉を濁した。"
+  },
+  "002926": {
+    "context": "002926",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ただ、ちょっとやっておかなきゃならない事があって……その相談を、悠里とテレパシーでしてたんだ」"
+  },
+  "002955": {
+    "context": "002955",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「テレパシー？　悠里もコミュニケーターなの？」"
+  },
+  "002985": {
+    "context": "002985",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そ、そうだよ」"
+  },
+  "002996": {
+    "context": "002996",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「使えるのは、テレパシーとエンパシーと……？」"
+  },
+  "003031": {
+    "context": "003031",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それだけ……っていうか、ＢＣ能力ってその２種類しかないでしょ？」"
+  },
+  "003042": {
+    "context": "003042",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0006 002098"
+  },
+  "003047": {
+    "context": "003047",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその直後――サリュは、ふぅと息をついた。"
+  },
+  "003076": {
+    "context": "003076",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……謎が解けた」"
+  },
+  "003105": {
+    "context": "003105",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0005 003761"
+  },
+  "003134": {
+    "context": "003134",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「実はわずかに気になっていた。私の過去には、不自然な点が多いと」"
+  },
+  "003145": {
+    "context": "003145",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「１３年に渡る人生にしては、あまりにも内容が薄いと」"
+  },
+  "003174": {
+    "context": "003174",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦もそう思わなかった？」"
+  },
+  "003185": {
+    "context": "003185",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 002120"
+  },
+  "003190": {
+    "context": "003190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かに実の娘を、家から出してくれない両親というのは、少し異常だとは思ったが――"
+  },
+  "003201": {
+    "context": "003201",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……それがどうかしたのか？」"
+  },
+  "003230": {
+    "context": "003230",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「その答えが、ようやくわかったの」"
+  },
+  "003235": {
+    "context": "003235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは悠里を見据えて、言う。"
+  },
+  "003264": {
+    "context": "003264",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「悠里、あなたが――」"
+  },
+  "003275": {
+    "context": "003275",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私の記憶を、操作したのね」"
+  },
+  "003304": {
+    "context": "003304",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――な、に？」"
+  },
+  "003309": {
+    "context": "003309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はその言葉に、耳を疑った。"
+  },
+  "003320": {
+    "context": "003320",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「き、記憶を操作したって……！？」"
+  },
+  "003331": {
+    "context": "003331",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「い、いつ！？　っていうか２人は、どこかで会っていたのか！？」"
+  },
+  "003336": {
+    "context": "003336",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "激しく戸惑いながら、悠里を見る。"
+  },
+  "003341": {
+    "context": "003341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが彼女はさほど、驚いてはいなかった。"
+  },
+  "003370": {
+    "context": "003370",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……思い出したの？　サリュちゃん」"
+  },
+  "003399": {
+    "context": "003399",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……少しだけ」"
+  },
+  "003410": {
+    "context": "003410",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あなたの顔を見て、明滅した記憶がある」"
+  },
+  "003439": {
+    "context": "003439",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私が夏彦と出会う前日。『９月９日』の記憶」"
+  },
+  "003450": {
+    "context": "003450",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「記憶操作という単語。Ｚｅｒｏエリア。あなたの部屋――」"
+  },
+  "003479": {
+    "context": "003479",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「詳しい事は思い出せないけど……私はあなたに、返しきれない恩がある気がする」"
+  },
+  "003484": {
+    "context": "003484",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの言葉を聞いて、なお夏彦は混乱していた。"
+  },
+  "003495": {
+    "context": "003495",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ゆ、悠里……本当なのか？　サリュの言っている事」"
+  },
+  "003500": {
+    "context": "003500",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると悠里は、観念したようにうなずいた。"
+  },
+  "003529": {
+    "context": "003529",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0024 002121"
+  },
+  "003540": {
+    "context": "003540",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「実は……サリュちゃんの記憶は、わたしが一度改竄しているの」"
+  },
+  "003551": {
+    "context": "003551",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうして……！？」"
+  },
+  "003580": {
+    "context": "003580",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「仕方なかったの。覚えていちゃいけない事があったから……」"
+  },
+  "003609": {
+    "context": "003609",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「悠里、その記憶は元に戻す事はできるの？」"
+  },
+  "003638": {
+    "context": "003638",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「できるけど……」"
+  },
+  "003649": {
+    "context": "003649",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「知らない方が、いいかもしれないよ……？」"
+  },
+  "003693": {
+    "context": "003693",
+    "code": "0x45",
+    "developer_comment": "夏彦・サリュ",
+    "string": "@import 0005 000751"
+  },
+  "003704": {
+    "context": "003704",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「その方がサリュちゃんのためになると思って、わたしは記憶を操作したの」"
+  },
+  "003715": {
+    "context": "003715",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「真実を知っても、悲しくなるだけかもしれない。それでもいいの？」"
+  },
+  "003720": {
+    "context": "003720",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里の問いに、サリュは即座に答えた。"
+  },
+  "003749": {
+    "context": "003749",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「構わない。記憶を戻して」"
+  },
+  "003778": {
+    "context": "003778",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私は真実を知りたい。嘘の中で生きていくより良い」"
+  },
+  "003783": {
+    "context": "003783",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉を聞いて、夏彦は思う。"
+  },
+  "003788": {
+    "context": "003788",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の言う通りだ。真実から目を背けていては、前には進めない。"
+  },
+  "003793": {
+    "context": "003793",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそうしたように、サリュも知るべきなのだ……。"
+  },
+  "003804": {
+    "context": "003804",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ……今回は、悠里だけがサリュの記憶に潜るのか？」"
+  },
+  "003836": {
+    "context": "003836",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……いや、夏彦にも見てほしい」"
+  },
+  "003847": {
+    "context": "003847",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "003876": {
+    "context": "003876",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「内容は、おぼろげに予想はついている……だから夏彦にも見てもらいたい」"
+  },
+  "003905": {
+    "context": "003905",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そして、叶うならば……私を支えてほしい」"
+  },
+  "003916": {
+    "context": "003916",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "003921": {
+    "context": "003921",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの素直な言葉が、夏彦の胸を打つ。"
+  },
+  "003951": {
+    "context": "003951",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ひこりん、わたしからもお願い」"
+  },
+  "003985": {
+    "context": "003985",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「一緒に、わたしのやった事を見て……わたしたちの過去を」"
+  },
+  "003996": {
+    "context": "003996",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0300 006009"
+  },
+  "004001": {
+    "context": "004001",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は、その言葉にうなずいた。"
+  },
+  "004008": {
+    "context": "004008",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして悠里と手を繋ぎ――センシズシンパシーを、試みた。"
+  },
+  "004023": {
+    "context": "004023",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《あぁ、そうだな》"
+  },
+  "004028": {
+    "context": "004028",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もとより夏彦もそのつもりだった。"
+  },
+  "004039": {
+    "context": "004039",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《じゃあ、始めるよ》"
+  },
+  "004066": {
+    "context": "004066",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《うん……》"
+  },
+  "004073": {
+    "context": "004073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里と手を繋ぎ、センシズシンパシーを試みた。"
+  },
+  "004178": {
+    "context": "004178",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004182": {
+    "context": "004182",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004183": {
+    "context": "004183",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004184": {
+    "context": "004184",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004185": {
+    "context": "004185",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004186": {
+    "context": "004186",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004187": {
+    "context": "004187",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004188": {
+    "context": "004188",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004190": {
+    "context": "004190",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004194": {
+    "context": "004194",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

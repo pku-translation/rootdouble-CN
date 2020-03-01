@@ -262,5 +262,54 @@ namespace CsYetiTools
             dupDict = dupDict.Where(entry => entry.Value.DupCounter > 1).ToDictionary(entry => entry.Key, entry => entry.Value);
             Console.WriteLine($"{dupDict.Sum(entry => entry.Value.DupCounter)} dups of {dupDict.Count} strings");
         }
+
+        public static async Task FillTransifexIgnores(
+            SnPackage package,
+            string projectSlug, string chunkFormatter, string? token = null)
+        {
+            var client = new Transifex.TransifexClient(token);
+            var project = client.Project(projectSlug);
+
+            foreach (var (chunkIndex, script) in package.Scripts.WithIndex())
+            {
+                if (script.Footer.ScriptIndex < 0) continue;
+
+                var ignores = new List<Transifex.TranslationStringsPutInfo>();
+
+                foreach (var code in script.Codes)
+                {
+                    switch (code)
+                    {
+                        case SssInputCode si:
+                        case ScriptJumpCode c when c.IsJump:
+                        {
+                            var keyStr = code.Index.ToString("000000");
+                            ignores.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
+                        }
+                        break;
+                    }
+                }
+                if (ignores.Count > 0)
+                {
+                    var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
+                    try
+                    {
+                        Console.WriteLine($"chunk {chunkIndex}");
+                        //Console.WriteLine(Utils.SerializeJson(ignores));
+
+                        Console.Write($"Filling ...");
+                        Console.Out.Flush();
+
+                        var result = await resource.PutTranslationStrings("zh_CN", ignores.ToArray());
+                        Console.WriteLine(result);
+                    }
+                    catch (Exception exc)
+                    {
+                        Console.WriteLine(exc.Message);
+                        return;
+                    }
+                }
+            }
+        }
     }
 }

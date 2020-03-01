@@ -166,6 +166,11 @@
     "developer_comment": "ましろ",
     "string": "「“BeyoBEYO”的名语录。在动画版第 13 话」"
   },
+  "000772": {
+    "context": "000772",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000783": {
     "context": "000783",
     "code": "0x45",
@@ -651,5 +656,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "就注意到地图以外的某样东西，而倒抽了一口凉气。"
+  },
+  "003262": {
+    "context": "003262",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

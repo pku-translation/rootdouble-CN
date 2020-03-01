@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.FileTypes
 {
@@ -14,7 +15,7 @@ namespace CsYetiTools.FileTypes
         Unknown,
     }
 
-    public class SysCpkEntry
+    public class SysCpkEntry : IDisposable
     {
         public CpkFileType Type { get; }
         public object Content { get; }
@@ -25,6 +26,11 @@ namespace CsYetiTools.FileTypes
             Type = type;
             Path = path;
             Content = content;
+        }
+
+        public void Dispose()
+        {
+            if (Content is Xtx xtx) xtx.Dispose();
         }
     }
 
@@ -89,23 +95,22 @@ namespace CsYetiTools.FileTypes
             FilePath path,
             byte[] data)
         {
-            using var ms = new MemoryStream(data);
-            using var reader = new BinaryReader(ms);
+            using var reader = new BinaryStream(data);
 
             var firstEntry = (
-                offset: reader.ReadInt32(),
-                size: reader.ReadInt32(),
-                unknown1: reader.ReadInt32(),
-                unknown2: reader.ReadInt32()
+                offset: reader.ReadInt32LE(),
+                size: reader.ReadInt32LE(),
+                unknown1: reader.ReadInt32LE(),
+                unknown2: reader.ReadInt32LE()
             );
             var headers = new List<(int offset, int size, int unknown1, int unknown2)> { firstEntry };
 
             // guess content
             if (firstEntry.unknown1 == 0 && firstEntry.unknown2 == 0)
             {
-                while (ms.Position < firstEntry.offset)
+                while (reader.Position < firstEntry.offset)
                 {
-                    headers.Add((reader.ReadInt32(), reader.ReadInt32(), reader.ReadInt32(), reader.ReadInt32()));
+                    headers.Add((reader.ReadInt32LE(), reader.ReadInt32LE(), reader.ReadInt32LE(), reader.ReadInt32LE()));
                 }
                 foreach (var (i, header) in headers.WithIndex())
                 {
@@ -168,19 +173,26 @@ namespace CsYetiTools.FileTypes
         {
             Parallel.ForEach(EnumerateSysFiles(cpk, index), entry =>
             {
-                var path = dirPath / entry.Path;
-                var parent = path.Parent;
-                if (!Directory.Exists(parent)) Directory.CreateDirectory(parent);
-                switch (entry.Content)
+                try
                 {
-                    case Xtx xtx:
-                        xtx.SaveTo(path);
-                        break;
-                    case byte[] bytes:
-                        File.WriteAllBytes(path, bytes);
-                        break;
-                    default:
-                        throw new InvalidDataException($"Unknonw content type: {entry.Content.GetType().FullName}");
+                    var path = dirPath / entry.Path;
+                    var parent = path.Parent;
+                    if (!Directory.Exists(parent)) Directory.CreateDirectory(parent);
+                    switch (entry.Content)
+                    {
+                        case Xtx xtx:
+                            xtx.SaveTo(path);
+                            break;
+                        case byte[] bytes:
+                            File.WriteAllBytes(path, bytes);
+                            break;
+                        default:
+                            throw new InvalidDataException($"Unknonw content type: {entry.Content.GetType().FullName}");
+                    }
+                }
+                finally
+                {
+                    entry.Dispose();
                 }
             });
         }
@@ -188,7 +200,7 @@ namespace CsYetiTools.FileTypes
         public static void DumpSys(Cpk cpk, FilePath dirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
-            Parallel.For(0, 16, i => 
+            Parallel.For(0, 16, i =>
             {
                 Console.WriteLine($"Dumping: {i:00} ... ");
                 DumpSys(cpk, i, dirPath / $"{i:00}");
@@ -230,21 +242,28 @@ namespace CsYetiTools.FileTypes
                 var data = ms.ToArray();
 
                 var files = HandleNested("", data).ToList();
-                if (files.Count > 1)
+                try
                 {
-                    var itocDirPath = dirPath / itocStr;
-                    Utils.CreateOrClearDirectory(itocDirPath);
-                    foreach (var entry in files)
+                    if (files.Count > 1)
                     {
-                        var path = itocDirPath / entry.Path;
+                        var itocDirPath = dirPath / itocStr;
+                        Utils.CreateOrClearDirectory(itocDirPath);
+                        foreach (var entry in files)
+                        {
+                            var path = itocDirPath / entry.Path;
+                            HandleContent(path, entry.Content);
+                        }
+                    }
+                    else
+                    {
+                        var entry = files.First();
+                        var path = dirPath / (itocStr + "_" + entry.Path);
                         HandleContent(path, entry.Content);
                     }
                 }
-                else
+                finally
                 {
-                    var entry = files.First();
-                    var path = dirPath / (itocStr + "_" + entry.Path);
-                    HandleContent(path, entry.Content);
+                    foreach (var entry in files) entry.Dispose();
                 }
             });
         }

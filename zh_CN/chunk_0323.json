@@ -1,0 +1,403 @@
+{
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして夏彦は、ついに辿り着いた。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000064"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《ひこりん、気をつけて。きっとこの先には、Ｎちゃんが……》"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000107"
+  },
+  "000146": {
+    "context": "000146",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000159"
+  },
+  "000155": {
+    "context": "000155",
+    "code": "0x02",
+    "string": "@ignore"
+  },
+  "000218": {
+    "context": "000218",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000222"
+  },
+  "000224": {
+    "context": "000224",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000228"
+  },
+  "000231": {
+    "context": "000231",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000235"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000240"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000303"
+  },
+  "000305": {
+    "context": "000305",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000309"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000314"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000319"
+  },
+  "000321": {
+    "context": "000321",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000325"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000331"
+  },
+  "000332": {
+    "context": "000332",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000336"
+  },
+  "000343": {
+    "context": "000343",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0321 000347"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 002680"
+  },
+  "000437": {
+    "context": "000437",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "驚く夏彦の目の前で、被験体Ｎの死体がむくりと起き上がる。"
+  },
+  "000512": {
+    "context": "000512",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0321 000512"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "@import 0321 000523"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "@import 0321 000534"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 000539"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の中にいた彼女の口調や性格が、渡瀬の影響を強く受けていたように、今回は宇喜多の影響を受けているのだろう。"
+  },
+  "000549": {
+    "context": "000549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いつつ、夏彦は被験体Ｎに問いかけた。"
+  },
+  "000560": {
+    "context": "000560",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「被験体Ｎでも、おじさんでもないなら――それじゃあ、お前は誰なんだ？」"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ふむ、理解できないかね？　では、少し僕の見解を話そうか」"
+  },
+  "000668": {
+    "context": "000668",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「君は『Ｎｕｌｌ値』というものを知っているかね？」"
+  },
+  "000679": {
+    "context": "000679",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「プログラミング言語やデータベースのデータ表現の一種。何のデータも含まれない状態、あるいは長さゼロの空文字列の事を」"
+  },
+  "000690": {
+    "context": "000690",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 001012"
+  },
+  "000719": {
+    "context": "000719",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「わからないか。ではもっとわかりやすく言おう」"
+  },
+  "000748": {
+    "context": "000748",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「Ｎｕｌｌ値とは、プログラムの中に存在する『“”』のようなモノの事だ」"
+  },
+  "000759": {
+    "context": "000759",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「情報の世界では、この『“”』は何の情報も持たない。だが確実に、そこにはＮｕｌｌ値が存在している」"
+  },
+  "000770": {
+    "context": "000770",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「僕はそのＮｕｌｌ値と同じようなモノなのだよ」"
+  },
+  "000781": {
+    "context": "000781",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「『どこにもいない』が、宇喜多の脳内には確かに存在している」"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ただそこにあるだけの無意味な存在さ」"
+  },
+  "000797": {
+    "context": "000797",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやら被験体Ｎは、自分は無意味であるが故に、消す必要はないのだと言いたいようだった。"
+  },
+  "000802": {
+    "context": "000802",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦は、そんな言葉に騙されはしない。"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「嘘をつくな、被験体Ｎ！」"
+  },
+  "000824": {
+    "context": "000824",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前が無意味な存在だというなら、どうしておじさんの人格は変わったんだ！？」"
+  },
+  "000853": {
+    "context": "000853",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「ほう、人格が変わった？　それはこういう宇喜多の事を言っているのかね？」"
+  },
+  "000858": {
+    "context": "000858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 002047"
+  },
+  "001009": {
+    "context": "001009",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0321 002198"
+  },
+  "001020": {
+    "context": "001020",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000780"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000791"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000802"
+  },
+  "001081": {
+    "context": "001081",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（そうしなければ被験体ＹⅡや夏彦くんたちまで、隊長さんに殺される……！）"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「――さて。いまの記憶を踏まえた上で、君に聞こう」"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「宇喜多は、本当に人格が変わっていたのかね？」"
+  },
+  "001263": {
+    "context": "001263",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「僕はただ隊長さんから、何としても被験体ＹⅡや君たちを護りたかっただけだ」"
+  },
+  "001274": {
+    "context": "001274",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「それは宇喜多佳司本人の心情と、等しかったのではないか？」"
+  },
+  "001279": {
+    "context": "001279",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "被験体Ｎの言葉は、ともすれば真実のように聞こえた。"
+  },
+  "001284": {
+    "context": "001284",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦はそれを否定する。"
+  },
+  "001295": {
+    "context": "001295",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……違う。それでもおじさんは、人殺しなんか望んでいなかったはずだ」"
+  },
+  "001306": {
+    "context": "001306",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前は無意味な『“”』なんかじゃない。お前は『悪意』の塊だ」"
+  },
+  "001317": {
+    "context": "001317",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やっぱりお前は、被験体Ｎという存在なんだよ」"
+  },
+  "001346": {
+    "context": "001346",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「はは、そうか……ではどうする？　君は僕を消すのかね？」"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「宇喜多ではなく、被験体Ｎという別の意味を持ったこの僕を」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ああ……そうしなきゃ、おじさんは元に戻せないからな……」"
+  },
+  "001397": {
+    "context": "001397",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「そうか……僕が無意味な存在ではないと知りつつ、君は僕を消すというのか……」"
+  },
+  "001426": {
+    "context": "001426",
+    "code": "0x45",
+    "developer_comment": "被験体Ｎ",
+    "string": "「まあいい……だったらやりたまえ。君が自分の正義を疑わないのであれば」"
+  },
+  "001437": {
+    "context": "001437",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや……間違っているのは、ぼくの方かもしれない」"
+  },
+  "001448": {
+    "context": "001448",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも、悪いけど……ぼくはお前を消すよ、被験体Ｎ……」"
+  },
+  "001453": {
+    "context": "001453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "被験体Ｎが無意味な存在かどうか、それは夏彦にも、答えの出せない問いだった。"
+  },
+  "001458": {
+    "context": "001458",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、それでも宇喜多を元に戻すため――"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦は、被験体Ｎを消去した。"
+  }
+}

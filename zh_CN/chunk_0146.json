@@ -274,6 +274,11 @@
     "developer_comment": "ましろ",
     "string": "「即使是后来才搬过来的悠里，不也很快就亲密起来了嘛」"
   },
+  "001661": {
+    "context": "001661",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001672": {
     "context": "001672",
     "code": "0x45",
@@ -375,6 +380,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "这句话立即勾起了夏彦的回忆。"
+  },
+  "002032": {
+    "context": "002032",
+    "code": "0x04",
+    "string": "@ignore"
   },
   "002034": {
     "context": "002034",
@@ -758,5 +768,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "真白平常会先回一趟自己家，但今天因为天色已晚就这样直接去了天川家。"
+  },
+  "003706": {
+    "context": "003706",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

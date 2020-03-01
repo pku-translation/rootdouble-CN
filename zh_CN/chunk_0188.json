@@ -1,0 +1,642 @@
+{
+  "000042": {
+    "context": "000042",
+    "code": "0x55",
+    "string": "@import 0179 000042"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "外に出た夏彦たちは、歩きながら話し合った。"
+  },
+  "000111": {
+    "context": "000111",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それじゃどうやって捜索しようか？」"
+  },
+  "000122": {
+    "context": "000122",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「待てましろ、先に互いの能力について確認しよう」"
+  },
+  "000133": {
+    "context": "000133",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前の能力って、本当はどの程度のものなんだ？」"
+  },
+  "000162": {
+    "context": "000162",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「私？　私の場合は――」"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「『効果範囲５００ｍ程度のテレパシー』と、『効果範囲１０ｍ程度のエンパシー』だよ」"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「能力レベルは認定されてないけど、５相当かな」"
+  },
+  "000231": {
+    "context": "000231",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0054 001378"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はその答えに仰天した。"
+  },
+  "000241": {
+    "context": "000241",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『能力レベル５』と言えば、現在確認されているコミュニケーターの中でも、最高の水準と言えた。"
+  },
+  "000246": {
+    "context": "000246",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "離れた相手へのエンパシーが自由に使いこなせれば、能力レベルは５に分類される。"
+  },
+  "000251": {
+    "context": "000251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに該当するコミュニケーターは、日本中あわせても５０名程度しかいないという話なのだ。"
+  },
+  "000262": {
+    "context": "000262",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちょっとお前、それって本気で凄いんじゃないのか！？」"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私も驚いた。ましろは天才なのね」"
+  },
+  "000344": {
+    "context": "000344",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「い、いや、それほどでも……」"
+  },
+  "000349": {
+    "context": "000349",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろは照れつつも、少し複雑そうだった。"
+  },
+  "000378": {
+    "context": "000378",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ねぇ、２人とも……確かに私はエンパシー使えるけど……怖がらないでね」"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "000418": {
+    "context": "000418",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「これは信じて欲しいんだけど、勝手に他人の心を覗き込んだりは、絶対しないようにしてるの」"
+  },
+  "000447": {
+    "context": "000447",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「テロリストの心を読んだのは、サリュの身を案じてやった、あくまで例外で……」"
+  },
+  "000476": {
+    "context": "000476",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「もちろん、夏彦たちの心を読んだりもしないし……」"
+  },
+  "000487": {
+    "context": "000487",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、わかってるよ」"
+  },
+  "000516": {
+    "context": "000516",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だいたい私は、読まれて困るような心は持ってない」"
+  },
+  "000527": {
+    "context": "000527",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「もちろん他の人に話したりはしない。この事は、ぼくらの秘密にしよう」"
+  },
+  "000556": {
+    "context": "000556",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そう……よかった」"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろはその答えに、ほっとしたように言った。"
+  },
+  "000590": {
+    "context": "000590",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……それじゃ、夏彦の能力は？」"
+  },
+  "000601": {
+    "context": "000601",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えっと、自分でもまだよくわかってないんだけど……」"
+  },
+  "000612": {
+    "context": "000612",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「『効果範囲２ｋｍ程度のテレパシー』かな」"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「に、２ｋｍ！？　マジで！？」"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、どうやらね……」"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それって能力レベルに換算すると、どのくらいなの？」"
+  },
+  "000710": {
+    "context": "000710",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「効果範囲２ｋｍってのは、私も聞いた事ないよ。レベル５の私を遥かに超えてるし」"
+  },
+  "000739": {
+    "context": "000739",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「って言う事は、まさか……『レベル６』？」"
+  },
+  "000744": {
+    "context": "000744",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが感嘆の表情で、夏彦を見た。"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えば恵那も、ＢＣには未知の領域があるかもしれないと言っていた。"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ならば『能力レベル６以上』のコミュニケーターというのも、有りうるのかもしれない。"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ちょ、ちょっと夏彦！　私にテレパシー送ってみて！」"
+  },
+  "000794": {
+    "context": "000794",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「わかった、待ってくれ」"
+  },
+  "000799": {
+    "context": "000799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう答え、コメカミに指を当てて念じた。"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ましろ、聞こえるか！？）"
+  },
+  "000811": {
+    "context": "000811",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（聞こえたら返事してくれ！）"
+  },
+  "000816": {
+    "context": "000816",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心の底からそのメッセージを、念じたつもりだった。"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうだましろ、聞こえたか？」"
+  },
+  "000861": {
+    "context": "000861",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？　……ごめん、何も聞こえないよ？」"
+  },
+  "000872": {
+    "context": "000872",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0016 000449"
+  },
+  "000877": {
+    "context": "000877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやら何も起きなかったらしい。"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "例の五感が消失するような、奇妙な感覚もなかった。"
+  },
+  "000893": {
+    "context": "000893",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うーん……まだまるでコントロールできてないみたいだな」"
+  },
+  "000922": {
+    "context": "000922",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうなんだ……」"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「今は特に、ましろに伝えたいメッセージはなかったからでは？」"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうか。本当に必要な時しか、能力が発動しないのかもな……」"
+  },
+  "000967": {
+    "context": "000967",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なんだか凄いんだか凄くないんだか、我が事ながらよくわからない。"
+  },
+  "000972": {
+    "context": "000972",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いずれにせよエンパシーが使えない以上、レベル６などとはとうてい言いがたいだろう。"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……普段マジメに練習してなかったのが、ちょっと悔やまれるな」"
+  },
+  "001012": {
+    "context": "001012",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うーん、テレパシーのやりとりができたら、別行動も可能なのにね」"
+  },
+  "001041": {
+    "context": "001041",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや、ましろはテロリストに顔を見られている。一緒に行動すべき」"
+  },
+  "001070": {
+    "context": "001070",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、そっか……！」"
+  },
+  "001081": {
+    "context": "001081",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうだよましろ、せっかく集まったのにまたバラバラになっちゃ意味がない。３人で一緒に探そう」"
+  },
+  "001110": {
+    "context": "001110",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0140 002460"
+  },
+  "001139": {
+    "context": "001139",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ところで探すアテは他にあるの？」"
+  },
+  "001168": {
+    "context": "001168",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「すぐには思いつかないけど……とりあえず、近頃街で起こっている事件についてあたってみようか」"
+  },
+  "001179": {
+    "context": "001179",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、それでいこう！」"
+  },
+  "001184": {
+    "context": "001184",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちはそう言って、街の方に歩き出した。"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その後、夏彦たちはＰＤＡでニュースを確認しながら、聞き込みを続けた。"
+  },
+  "001296": {
+    "context": "001296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＢＣトレーニングセンターの他にも、怪文書などを受け取った施設はいくつかあった。"
+  },
+  "001301": {
+    "context": "001301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あのトレーナーから聞けた以上の話は、どこでも聞けはしなかったが……。"
+  },
+  "001359": {
+    "context": "001359",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "５件目の聞き込みの後、夏彦たちは足を止めて話し合った。"
+  },
+  "001370": {
+    "context": "001370",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……よし、わかったことを整理しよう」"
+  },
+  "001414": {
+    "context": "001414",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うん。まず１つ目が――『怪文書が送られてきたのは、全てＢＣ関連施設だって事』だね？」"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はうなずいた。"
+  },
+  "001424": {
+    "context": "001424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "街のＢＣ関連施設を当たると、かなりの数の施設が、怪文書を受け取っていた。"
+  },
+  "001429": {
+    "context": "001429",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その全てに『Ｑ』という署名があったらしい。"
+  },
+  "001434": {
+    "context": "001434",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "受け取った側の反応はまちまちだったが、それらの怪文書は全て、市の保安課や警察に回収されたそうだ。"
+  },
+  "001463": {
+    "context": "001463",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「もう１つ。近頃街では火事が多い事。それもまたＢＣ関連施設ばかりが被害にあっているという事」"
+  },
+  "001474": {
+    "context": "001474",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それも気になるな……」"
+  },
+  "001479": {
+    "context": "001479",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "こちらは偶然かもしれないが、市内でも大きめの研究所『ＢＣ開発センター』を初めとする３軒の施設が、火災に遭っていた。"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「保安課が躍起になって怪文書の回収をしているのは、不安を煽らないためかな？」"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だけど相変わらずわからない。怪文書をばらまく事に、なんの意味が？」"
+  },
+  "001548": {
+    "context": "001548",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……それなんだよな」"
+  },
+  "001553": {
+    "context": "001553",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "学校での危険物騒ぎにしろ、怪文書にしろ、やはり愉快犯的過ぎる。"
+  },
+  "001559": {
+    "context": "001559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、その時ましろが――ふと思いついたように言った。"
+  },
+  "001594": {
+    "context": "001594",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「待って、２人とも……」"
+  },
+  "001623": {
+    "context": "001623",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「こうして騒ぎを起こす事自体が、本当の目的のための布石だとしたら？」"
+  },
+  "001634": {
+    "context": "001634",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「布石？」"
+  },
+  "001663": {
+    "context": "001663",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いや、この手口ってさ、過去のＱが起こしたテロに似ている気がするんだよ」"
+  },
+  "001692": {
+    "context": "001692",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「似ているって、どういう事？」"
+  },
+  "001703": {
+    "context": "001703",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「１２年前に、『去別市ＢＣ研究所爆破事件』ってのがあったんだけど――」"
+  },
+  "001732": {
+    "context": "001732",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あの時もＱは、事件が起きた市内で、犯行の直前に放火騒ぎを起こしてるんだ。爆破された研究所とは全然別の場所でね」"
+  },
+  "001761": {
+    "context": "001761",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それで警察や消防が、その放火現場に出払っている隙に、本当のターゲットを爆破したってわけ」"
+  },
+  "001790": {
+    "context": "001790",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それってつまり――」"
+  },
+  "001801": {
+    "context": "001801",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「陽動って事か！？」"
+  },
+  "001806": {
+    "context": "001806",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は息を呑んだ。"
+  },
+  "001811": {
+    "context": "001811",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かに市内のそこかしこで騒ぎを起こせば、警察や保安課の注意も散漫にならざるを得ないだろう。"
+  },
+  "001816": {
+    "context": "001816",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "怪文書の回収と出所の捜査だけでも、余計な人員を割かなければならない。"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今回の事件でも同じ手口を使ってるとしたら、本当のターゲットは別にある……」"
+  },
+  "001856": {
+    "context": "001856",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ、本当のターゲットはどこだ！？」"
+  },
+  "001861": {
+    "context": "001861",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは考え、そして同時に声を上げた。"
+  },
+  "001905": {
+    "context": "001905",
+    "code": "0x45",
+    "developer_comment": "３人",
+    "string": "「――超心理学研究所！」"
+  },
+  "001910": {
+    "context": "001910",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは数日前にも、課外授業で訪れた、この街最大のＢＣ研究施設だ。"
+  },
+  "001915": {
+    "context": "001915",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｑが狙うとしたら、これ以上のターゲットはない。"
+  },
+  "001926": {
+    "context": "001926",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「行こう２人とも！」"
+  },
+  "001970": {
+    "context": "001970",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うん、職員の人に伝えなきゃ！」"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声と共に、夏彦たちは駆け出した。"
+  },
+  "002085": {
+    "context": "002085",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

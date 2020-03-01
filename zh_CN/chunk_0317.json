@@ -1,0 +1,521 @@
+{
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その記憶は、宇喜多たちが３人の死体を見るところから始まった。"
+  },
+  "000112": {
+    "context": "000112",
+    "code": "0x45",
+    "developer_comment": "３人",
+    "string": "@import 0016 001206"
+  },
+  "000118": {
+    "context": "000118",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "部屋の奥で、死んでいたのは堂島だった。"
+  },
+  "000124": {
+    "context": "000124",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おまけに渡瀬たちが脱出のために用意した、削岩機まで壊れている。"
+  },
+  "000130": {
+    "context": "000130",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（僕が気を失っている間に、このラボで何が起こったんだ！？）"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多たちが部屋の外に出ると、すぐに別行動を取っていた渡瀬たちが駆けつけて来る。"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてレスキュー隊の３人で部屋に入り――"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が部屋から出て来たとたん、宇喜多は思わず彼に掴みかかっていた。"
+  },
+  "000272": {
+    "context": "000272",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 000983"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0008 000483"
+  },
+  "000348": {
+    "context": "000348",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 001020"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 001064"
+  },
+  "000493": {
+    "context": "000493",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "削岩機が壊されたという事は、想定していたパイプからの脱出ができなくなったという事だ。"
+  },
+  "000549": {
+    "context": "000549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちが別の脱出口を用意していたのか、それとも１８時１６分に隔壁が開くのを待って脱出するつもりなのか――"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（だいたい削岩機が壊れたのは、ただの偶然なのか！？）"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（誰かが何らかの意図を持って、壊したんじゃないのか！？）"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はそう思い、渡瀬を睨みつける。"
+  },
+  "000930": {
+    "context": "000930",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 001075"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だったら君以外に、誰がわかると言うんだね！」"
+  },
+  "001027": {
+    "context": "001027",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ちょっと待ちなさいよ、宇喜多さん。それはどういう意味？」"
+  },
+  "001083": {
+    "context": "001083",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どうして『隊長さん以外にはわからない』なんて言えるの？」"
+  },
+  "001099": {
+    "context": "001099",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「逆にあなたこそ、何か知っているみたいに見えるわ」"
+  },
+  "001166": {
+    "context": "001166",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その偽りの記憶を、夏彦は修正した。"
+  },
+  "001511": {
+    "context": "001511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――渡瀬はぎろりと、宇喜多を睨みつけた。"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ？」"
+  },
+  "001598": {
+    "context": "001598",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0005 000751"
+  },
+  "001629": {
+    "context": "001629",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺が知るかよ。っていうか何パニクってんだおっさん？」"
+  },
+  "001670": {
+    "context": "001670",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「こっちは仲間を失って、気落ちしてるんだぜ」"
+  },
+  "001701": {
+    "context": "001701",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それなのになんだ？　人の襟首つかまえて」"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 001075"
+  },
+  "001844": {
+    "context": "001844",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（――だったら君以外に、誰がわかると言うんだね！）"
+  },
+  "001849": {
+    "context": "001849",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそう叫ぼうとしたところで、宇喜多は被験体ＹⅡに止められた。"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0017 001364"
+  },
+  "001914": {
+    "context": "001914",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0017 001375"
+  },
+  "001927": {
+    "context": "001927",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 001419"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 001430"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして宇喜多は自分に言い聞かせる。"
+  },
+  "002033": {
+    "context": "002033",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（そうだ、落ち着け……落ち着いて、状況を見極めるんだ……！）"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "状況が一向に見えてこないまま、ラボの捜索は続く……。"
+  },
+  "002124": {
+    "context": "002124",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 001075"
+  },
+  "002135": {
+    "context": "002135",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0317 000946"
+  },
+  "002140": {
+    "context": "002140",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言った時――恵那が、口を挟んできた。"
+  },
+  "002176": {
+    "context": "002176",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0317 001027"
+  },
+  "002187": {
+    "context": "002187",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？」"
+  },
+  "002216": {
+    "context": "002216",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0317 001083"
+  },
+  "002245": {
+    "context": "002245",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0317 001099"
+  },
+  "002281": {
+    "context": "002281",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……そうですね……そんな気がします」"
+  },
+  "002286": {
+    "context": "002286",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見ると被験体ＹⅡまでもが、疑わしげに宇喜多の顔を見つめている。"
+  },
+  "002314": {
+    "context": "002314",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「なっ――違う！　違うんだ、ユウリくん！」"
+  },
+  "002338": {
+    "context": "002338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は慌てて、渡瀬から手を離していた。"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "被験体ＹⅡに疑われる――。"
+  },
+  "002436": {
+    "context": "002436",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは被験体を助けたいと思っている宇喜多にとって、耐え難い事だった。"
+  },
+  "002442": {
+    "context": "002442",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（くそ……なぜ僕が、被験体ＹⅡに疑われなければならないんだ……！）"
+  },
+  "002577": {
+    "context": "002577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 002040"
+  },
+  "002651": {
+    "context": "002651",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は、ぎろりと宇喜多を睨み返した。"
+  },
+  "002662": {
+    "context": "002662",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ？」"
+  },
+  "002688": {
+    "context": "002688",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0005 000751"
+  },
+  "002717": {
+    "context": "002717",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0317 001629"
+  },
+  "002728": {
+    "context": "002728",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0317 001670"
+  },
+  "002757": {
+    "context": "002757",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0317 001701"
+  },
+  "002768": {
+    "context": "002768",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「い、いや、それは……」"
+  },
+  "002797": {
+    "context": "002797",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁいいや、とりあえず手ェ離せや」"
+  },
+  "002849": {
+    "context": "002849",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬に凄まれ、宇喜多は思わず手を離した。"
+  },
+  "002878": {
+    "context": "002878",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やれやれ……しかし大変な事になっちまったな」"
+  },
+  "002914": {
+    "context": "002914",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、まさか堂島が……」"
+  },
+  "002919": {
+    "context": "002919",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はもう宇喜多には目もくれず、風見たちと死体の事を話し始めた。"
+  },
+  "003052": {
+    "context": "003052",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その背後で、宇喜多は――内心、震え上がっていた。"
+  },
+  "003100": {
+    "context": "003100",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（い、いま、あいつの……本性が一瞬、見えたような……！）"
+  },
+  "003105": {
+    "context": "003105",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かに宇喜多にも非があったが、その変貌ぶりはただ事ではなかった気がする。"
+  },
+  "003138": {
+    "context": "003138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……急に渡瀬が、恐ろしくなってきた。"
+  },
+  "003143": {
+    "context": "003143",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いや、考えてみれば、元々恐ろしい相手ではあったのだ。"
+  },
+  "003148": {
+    "context": "003148",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "獣のような筋肉と体躯。"
+  },
+  "003153": {
+    "context": "003153",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの豪腕で殴られたら、枯れ木のような宇喜多の体は、ひとたまりもないだろう。"
+  },
+  "003206": {
+    "context": "003206",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（堂島隊員は、全身の骨を折られて殺されていた……彼だって屈強なレスキュー隊員だというのに）"
+  },
+  "003212": {
+    "context": "003212",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（あんな事ができるのは……隊長さんしかいないんじゃないのか？）"
+  },
+  "003229": {
+    "context": "003229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その疑惑が胸に募る。"
+  },
+  "003236": {
+    "context": "003236",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は恐怖を抑えながら、ともかく捜索を続ける事にした……。"
+  },
+  "003285": {
+    "context": "003285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その記憶を見終えた夏彦は、思った。"
+  },
+  "003291": {
+    "context": "003291",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……これでいいのかな？　確かに少し修復できた感じはするけど……）"
+  },
+  "003297": {
+    "context": "003297",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬以外の人にも、好意的な感情を、もっと注ぎ込むべきかな……）"
+  },
+  "003331": {
+    "context": "003331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003285"
+  },
+  "003337": {
+    "context": "003337",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（い、今の記憶は……明らかに変だったぞ？）"
+  },
+  "003343": {
+    "context": "003343",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ、もっと渡瀬に対する好意的な感情を注ぎ込まなきゃダメか？）"
+  },
+  "003417": {
+    "context": "003417",
+    "code": "0x04",
+    "string": "@ignore"
+  }
+}

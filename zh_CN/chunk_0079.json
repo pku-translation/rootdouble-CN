@@ -1,0 +1,660 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0069 000136"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と恵那はサリュを追い、第２エリア外周棟・地下２階フロアに足を踏み入れた。"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしそこにもサリュの姿はない。"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あの子、どこへ……！？」"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「探そう、どこか近くの部屋に隠れている可能性が高い」"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ」"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と恵那はうなずき合い、近くの部屋を探った。"
+  },
+  "000234": {
+    "context": "000234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "部屋の扉を手当たり次第に開けながら、渡瀬は呟く。"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかしあの子……オレが『危険』って、どういうことなんだ？」"
+  },
+  "000328": {
+    "context": "000328",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そんなこと言ってたわね……隊長さん、さっきの話に心当たりは？」"
+  },
+  "000339": {
+    "context": "000339",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……残念ながら、ない」"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう……」"
+  },
+  "000364": {
+    "context": "000364",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが先生こそ……さっきサリュに何か言われていたな？」"
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『昨日は情報に耳を貸さなかった』とか『心を開いていない』とか……」"
+  },
+  "000404": {
+    "context": "000404",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？　ええと、それは――」"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「昨日、三ノ宮さんたちに言われたの。『ラボには何か秘密がある。調べたいから同行してくれ』って……」"
+  },
+  "000444": {
+    "context": "000444",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0012 006275"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「事情がまるでわからないし、そもそも私が同行したところで調べようがないと思って、取り合わなかったの」"
+  },
+  "000484": {
+    "context": "000484",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そのせいで三ノ宮さんは、私を信用してくれてないみたいだけど……」"
+  },
+  "000495": {
+    "context": "000495",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう、なのか……？」"
+  },
+  "000500": {
+    "context": "000500",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "色々とよくわからない話だった。"
+  },
+  "000511": {
+    "context": "000511",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの娘たちは、何か知っているのか？　オレたちの知らないことを……？」"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……そんな疑うほどの事じゃないと思うけど……」"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でも考えてみれば、高校生がこんな原子力研究施設にいるっておかしいだろう？」"
+  },
+  "000562": {
+    "context": "000562",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかもこんな大事故が起きた日に、たまたまなんて」"
+  },
+  "000573": {
+    "context": "000573",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もっと何か聞いてないか？　あの高校生たちがラボに来ようと思った理由について」"
+  },
+  "000602": {
+    "context": "000602",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……わからないわ。本当にそれしか聞いてないの」"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は恵那の受け答えに、かすかな疑念を感じた。"
+  },
+  "000618": {
+    "context": "000618",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生……本当か？」"
+  },
+  "000647": {
+    "context": "000647",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「本当かって、嘘をつくわけないじゃない」"
+  },
+  "000658": {
+    "context": "000658",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし、これはオレの受けた単なる印象だが――」"
+  },
+  "000669": {
+    "context": "000669",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さっきの先生とサリュの会話は、なんというか……」"
+  },
+  "000680": {
+    "context": "000680",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『先生と生徒』と言うより、もっと別の関係の者たちの会話のように聞こえた」"
+  },
+  "000709": {
+    "context": "000709",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  "000720": {
+    "context": "000720",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あんたら、本当に先生と生徒なのか？」"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「当たり前よ。なにバカなこと言ってるの」"
+  },
+  "000778": {
+    "context": "000778",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「名前見ればわかる通り、あの子はハーフなの。敬語の使い方とかに慣れていないだけよ」"
+  },
+  "000789": {
+    "context": "000789",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし、他にも気になる点がある。『ここから先は大人の仕事』ってのはどういう意味だ？」"
+  },
+  "000800": {
+    "context": "000800",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あれは、天川くんたちの救助についての話よ」"
+  },
+  "000811": {
+    "context": "000811",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「三ノ宮さんには安全なところで待機してもらって、彼らを救助するのは私たち大人に任せるように言ったの」"
+  },
+  "000816": {
+    "context": "000816",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の言葉によどみはなく、嘘をついている風でもない。"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが引っかかる点もないわけではない。"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし教師のあんたがどうして、生徒にあんなに警戒されているんだ……？」"
+  },
+  "000861": {
+    "context": "000861",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……色々と難しいところのある子だからね。他人に対し、壁を作るというか……」"
+  },
+  "000872": {
+    "context": "000872",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……そうなのか」"
+  },
+  "000877": {
+    "context": "000877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はしばらく黙り込み、恵那を見据えていたが――"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて気付いた。こんな問答で、時間を浪費している場合ではないという事に。"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那もそう思ったのか、話を切るように言う。"
+  },
+  "000916": {
+    "context": "000916",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だけど確かに、私は彼女に警戒されているけど――」"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「三ノ宮さんと隊長さんの間にも、何かがあったのは確かなはずよ。恐らく隊長さんが記憶喪失になる前に」"
+  },
+  "000938": {
+    "context": "000938",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……あぁ、それも気になるところだ」"
+  },
+  "000974": {
+    "context": "000974",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも、三ノ宮さんと隊長さんの間に、何かがあったのは確かなはずよ。恐らく隊長さんが記憶喪失になる前に」"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、オレも同じことを考えていた」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だがオレはレスキュー隊員なんだぞ？　それなのに、彼女に何をしたって言うんだ？」"
+  },
+  "001026": {
+    "context": "001026",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私に聞かれてもわかるわけないでしょ。もしかすると三ノ宮さんが、何か誤解をしているのかもしれないけど……」"
+  },
+  "001127": {
+    "context": "001127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞いた渡瀬は、サリュの腕の傷のことを思い出した。"
+  },
+  "001133": {
+    "context": "001133",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（まさか、オレがあの傷を負わせたのか……？）"
+  },
+  "001138": {
+    "context": "001138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそうしなければならない理由など、何一つ思いつかない。"
+  },
+  "001183": {
+    "context": "001183",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうこうしている内に、そのフロアの捜索は終わった。"
+  },
+  "001227": {
+    "context": "001227",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "依然、サリュは見つからないままだ。"
+  },
+  "001292": {
+    "context": "001292",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「他のエリアに逃げたのかしら……？」"
+  },
+  "001303": {
+    "context": "001303",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、彼女を追いかけよう！　彼女を見つけられれば、直接色々話も聞ける！」"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「待って、その前に！」"
+  },
+  "001346": {
+    "context": "001346",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「？！」"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「隊長さんは、どうして単独行動をしているの？　危険だから極力避けようって話だったわよね」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、それは橘が――」"
+  },
+  "001373": {
+    "context": "001373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は恵那に、風見が負傷した経緯を説明した。"
+  },
+  "001378": {
+    "context": "001378",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ついでに探索成果の情報を共有するために、渡瀬は恵那とＰＤＡのマップデータを同期させた。"
+  },
+  "001407": {
+    "context": "001407",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう、そっちではそんなことがあったのね……」"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『そっちでは』ってことは？」"
+  },
+  "001447": {
+    "context": "001447",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こっちも守部さんが、第６エリアの捜索中、高所から落下して負傷したわ……」"
+  },
+  "001458": {
+    "context": "001458",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだって！？　それで守部は大丈夫なのか！？」"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「安心して。今は第６エリアの一室で休んでいるけど、すぐに復帰できると思うわ」"
+  },
+  "001498": {
+    "context": "001498",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0022 001466"
+  },
+  "001503": {
+    "context": "001503",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "安堵の息をつく渡瀬に、恵那は顔をしかめて言う。"
+  },
+  "001532": {
+    "context": "001532",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも……ねぇ隊長さん。こんなことが連続するなんて、やっぱりこのラボで何かが起こっていると思わない？」"
+  },
+  "001543": {
+    "context": "001543",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 001664"
+  },
+  "001548": {
+    "context": "001548",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――風見と洵が、立て続けに負傷した。そこに何らかの悪意を感じる。"
+  },
+  "001554": {
+    "context": "001554",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（姿を現さない『見えない敵』がいるような気が……！）"
+  },
+  "001559": {
+    "context": "001559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、いたずらに不安を煽ってもしょうがない。渡瀬は急務の方を優先する事にした。"
+  },
+  "001570": {
+    "context": "001570",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でもそれより先生、まずはサリュを追おう。まだ近くにいるかもしれない」"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0015 001866"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那も不安げにうなずき、そして渡瀬と共に駆け出した。"
+  },
+  "001634": {
+    "context": "001634",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0079 001335"
+  },
+  "001645": {
+    "context": "001645",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「？！」"
+  },
+  "001656": {
+    "context": "001656",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0079 001357"
+  },
+  "001667": {
+    "context": "001667",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、それは守部が――」"
+  },
+  "001672": {
+    "context": "001672",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は恵那に、洵が負傷した経緯を説明した。"
+  },
+  "001678": {
+    "context": "001678",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0079 001378"
+  },
+  "001707": {
+    "context": "001707",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0079 001407"
+  },
+  "001718": {
+    "context": "001718",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0079 001418"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こっちでも橘さんが、第３エリアの捜索中、爆発に巻き込まれて脚を負傷したわ……」"
+  },
+  "001758": {
+    "context": "001758",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「爆発！？」"
+  },
+  "001769": {
+    "context": "001769",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ……原因がわからないんだけど……」"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それで橘は大丈夫なのか！？」"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「今は監視ルームで、カメラをチェックしながら休んでいるわ……」"
+  },
+  "001820": {
+    "context": "001820",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「恐らくすぐに復帰できるはず」"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0022 001466"
+  },
+  "001836": {
+    "context": "001836",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0079 001503"
+  },
+  "001865": {
+    "context": "001865",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0079 001532"
+  },
+  "001876": {
+    "context": "001876",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 001664"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0079 001548"
+  },
+  "001887": {
+    "context": "001887",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0079 001554"
+  },
+  "001892": {
+    "context": "001892",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0079 001559"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でもそれより先生、まずはサリュを追おう。ひょっとしたらまだ近くにいるかもしれない」"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0015 001866"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0079 001604"
+  },
+  "001967": {
+    "context": "001967",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え、ええ！」"
+  },
+  "001972": {
+    "context": "001972",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と恵那は、同時に駆け出した。"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

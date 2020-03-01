@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -31,13 +32,13 @@ namespace CsYetiTools.VnScripts
             return result;
         }
 
-        public static ScriptFooter ReadFrom(BinaryReader reader)
+        public static ScriptFooter ReadFrom(IBinaryStream stream)
         {
             return new ScriptFooter {
-                IndexedDialogCount = reader.ReadInt32(),
-                Unknown = reader.ReadInt32(),
-                FlagCodeCount = reader.ReadInt32(),
-                ScriptIndex = reader.ReadInt32(),
+                IndexedDialogCount = stream.ReadInt32LE(),
+                Unknown = stream.ReadInt32LE(),
+                FlagCodeCount = stream.ReadInt32LE(),
+                ScriptIndex = stream.ReadInt32LE(),
             };
         }
 

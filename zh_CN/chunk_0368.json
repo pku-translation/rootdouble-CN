@@ -1,0 +1,772 @@
+{
+  "000044": {
+    "context": "000044",
+    "code": "0x55",
+    "string": "@import 0364 000095"
+  },
+  "000056": {
+    "context": "000056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――やがて、２人が泣き止んだ頃。"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが面目なさそうに、皆に言った。"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「い、いやぁ……皆さん、お恥ずかしいところを見せました」"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って照れ笑いするましろは、もういつも通りの彼女だった。"
+  },
+  "000165": {
+    "context": "000165",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いいのよ、鳥羽さん……思い切り泣くべき場面よ」"
+  },
+  "000194": {
+    "context": "000194",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん、美しい光景だったね」"
+  },
+  "000223": {
+    "context": "000223",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……少し妬ける」"
+  },
+  "000228": {
+    "context": "000228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那たちの言葉に、ましろと悠里が顔を赤くする。"
+  },
+  "000255": {
+    "context": "000255",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……」"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000284": {
+    "context": "000284",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と宇喜多は何も言わなかった。"
+  },
+  "000342": {
+    "context": "000342",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろも彼らに怯えている様子はあったが、それを抑えているようだった。"
+  },
+  "000347": {
+    "context": "000347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は皆の気持ちを鑑みつつ、声を上げる。"
+  },
+  "000358": {
+    "context": "000358",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……皆さん、おかげでようやく８人足並みが揃いましたけど……」"
+  },
+  "000369": {
+    "context": "000369",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「『知っての通り』、未だ全員揃って脱出できるかどうか怪しい状況です」"
+  },
+  "000374": {
+    "context": "000374",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、全員の表情が引き締まった。"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……爆弾の事だね？」"
+  },
+  "000414": {
+    "context": "000414",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう、渡瀬が仕掛けた爆弾が、Ｚｅｒｏエリアに眠っているんです」"
+  },
+  "000419": {
+    "context": "000419",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の軽口に、渡瀬が居心地悪そうに言う。"
+  },
+  "000448": {
+    "context": "000448",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかも爆弾が爆発するのは、隔壁開放のわずか１分後――」"
+  },
+  "000453": {
+    "context": "000453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はＢｒａｉｎＣｅｌｌのモニターをちらりと見た。"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには『１８：１９』と表示されている。"
+  },
+  "000487": {
+    "context": "000487",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あと４０分足らずで、この施設は吹き飛んじゃうのか……」"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さきほどの夏彦の無差別テレパシーのおかげで、ましろも話に置いていかれずに済んでいた。"
+  },
+  "000497": {
+    "context": "000497",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同じ情報を持つ全員が、口々に意見を言う。"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「橘さんを捕まえて、悪意を消去する事ができれば、全員揃って脱出できるんじゃ？」"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ＢＣで、橘風見を呼ぶ事はできない？」"
+  },
+  "000583": {
+    "context": "000583",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「難しいんじゃないかな。各エリアのＷＸ粒子エネルギー量は、もう１ｍＳｖ未満まで下がってるし」"
+  },
+  "000594": {
+    "context": "000594",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いつの間にそんなに？」"
+  },
+  "000605": {
+    "context": "000605",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ついさっきかな。いつからか、１時間あたり２０００ｍＳｖくらいずつ下がってたみたい」"
+  },
+  "000642": {
+    "context": "000642",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ふむ……それもうなずける」"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「皆、あれを見たまえ」"
+  },
+  "000684": {
+    "context": "000684",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はそう言って、ＢｒａｉｎＣｅｌｌのモニターを指差した。"
+  },
+  "000716": {
+    "context": "000716",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「お忘れかもしれないが、ＢｒａｉｎＣｅｌｌのモニターには――」"
+  },
+  "000727": {
+    "context": "000727",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「『隔壁の開放予想』とともに、『ＮエリアのＷＸ粒子エネルギー量』が表示される」"
+  },
+  "000738": {
+    "context": "000738",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「現在Ｎエリアのエネルギー量は、『２７８９ｍＳｖ』。しかもどんどん下がっている」"
+  },
+  "000743": {
+    "context": "000743",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えばそんな表示もされていた。"
+  },
+  "000798": {
+    "context": "000798",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその数値は２７８８ｍＳｖ、２７８７ｍＳｖ、２７８６ｍＳｖと下がっていっている。"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれが０ｍＳｖ程度になった時、隔壁が開くのだろう。"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど、Ｎエリアがあそこまで減衰してるなら、他の各エリアがそんなに低いのもわかるな」"
+  },
+  "000855": {
+    "context": "000855",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ここまで粒子が減衰しちゃうと、エリアを挟んでの通信は無理だろうね」"
+  },
+  "000884": {
+    "context": "000884",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それに風見はかなりひどく悪意にやられちまってた。仮にテレパシーが届いても、来てくれるかどうか……」"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちが表情を歪める。"
+  },
+  "000900": {
+    "context": "000900",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ……道は２つだな」"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「４０分以内に橘さんを見つけるか。あるいはＺｅｒｏエリアに降りて、爆弾を解除するか」"
+  },
+  "000940": {
+    "context": "000940",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「安全を期し、後者を選びたい。俺たちレスキュー隊員は、爆弾解体の技術も持ってるしな」"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、そうなのか？　そんな話、聞いた事も――」"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「センシズシンパシーで読まなかった記憶も、たくさんあるという事さ」"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われてみれば、それも当然の話だった。"
+  },
+  "000990": {
+    "context": "000990",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が読んだ記憶は、渡瀬の全記憶ではないのだから。"
+  },
+  "001050": {
+    "context": "001050",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだね、それに――テトリル爆弾が爆発すれば、施設の周りに居る人が巻き添えを食うかもしれない」"
+  },
+  "001061": {
+    "context": "001061",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「レスキュー隊員として、それは見過ごせないよ」"
+  },
+  "001072": {
+    "context": "001072",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ……誰かを巻き込むのは、やはりな……」"
+  },
+  "001077": {
+    "context": "001077",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はその言葉にうなずいた。"
+  },
+  "001100": {
+    "context": "001100",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「では母から教わった通り、ＢｒａｉｎＣｅｌｌをハッキングして、Ｚｅｒｏエリアへのエレベーターを動かそうと思います」"
+  },
+  "001111": {
+    "context": "001111",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「権限を奪うのに、必要なのは３人」"
+  },
+  "001122": {
+    "context": "001122",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「３人だけ制御室に残って、他の皆は地下に降りますか？」"
+  },
+  "001151": {
+    "context": "001151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、全員で降りる事はないだろう。俺と守部で充分――」"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「待て、僕も行く。当事者だしね」"
+  },
+  "001209": {
+    "context": "001209",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ならば私も」"
+  },
+  "001238": {
+    "context": "001238",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「えっ、サリュちゃんも？」"
+  },
+  "001267": {
+    "context": "001267",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「近頃の爆弾には、必ずデジタルプロテクトがついているはず」"
+  },
+  "001327": {
+    "context": "001327",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私ならアリスを使って、それを簡単に解除できる。レスキュー隊より早い自信はある」"
+  },
+  "001338": {
+    "context": "001338",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど……頼もしいな」"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは頷いた。"
+  },
+  "001386": {
+    "context": "001386",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあハッキングってのは、私と悠里と夏彦でやろう」"
+  },
+  "001415": {
+    "context": "001415",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私は上に残るわね。橘さんが現れた時の、護衛のために」"
+  },
+  "001444": {
+    "context": "001444",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うん……良さそうだね」"
+  },
+  "001527": {
+    "context": "001527",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "８人が顔を見合わせる。"
+  },
+  "001735": {
+    "context": "001735",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｚｅｒｏエリアに降りるのは、渡瀬・洵・サリュ・宇喜多。"
+  },
+  "001889": {
+    "context": "001889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして上に残るのは、夏彦・悠里・ましろ・恵那だ。"
+  },
+  "002023": {
+    "context": "002023",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、それじゃ始めよう！」"
+  },
+  "002076": {
+    "context": "002076",
+    "code": "0x45",
+    "developer_comment": "全員",
+    "string": "@import 0002 002801"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして夏彦たちは、一斉に動き出した。"
+  },
+  "002154": {
+    "context": "002154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――まず夏彦たちが、ＢｒａｉｎＣｅｌｌにアリス２号を接続する。"
+  },
+  "002170": {
+    "context": "002170",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "３つの制御用端末に、認証画面が表示された。"
+  },
+  "002175": {
+    "context": "002175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "アリス２号のモニターに表示されたマニュアルを見て、セキュリティの解除方法も確認する。"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その間に渡瀬たちが、液体窒素や工具など、爆弾解体に必要なものを揃える。"
+  },
+  "002249": {
+    "context": "002249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "液体窒素の缶は、医療用に用意されていたものを、医務室から取ってきた。"
+  },
+  "002255": {
+    "context": "002255",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一方でサリュが、アリス１号を女子トイレから回収した。"
+  },
+  "002266": {
+    "context": "002266",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし……こっちは準備万端だ」"
+  },
+  "002317": {
+    "context": "002317",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうして渡瀬たちＺｅｒｏエリア組は、Ｎエリアのエレベーターの前に集合する。"
+  },
+  "002392": {
+    "context": "002392",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを確認した連絡役の恵那が、制御室に駆け込んで来た。"
+  },
+  "002428": {
+    "context": "002428",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くん、いけるわよ！　権限を奪って！」"
+  },
+  "002439": {
+    "context": "002439",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、やるぞ悠里、ましろ！」"
+  },
+  "002475": {
+    "context": "002475",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0039 004068"
+  },
+  "002511": {
+    "context": "002511",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0196 000804"
+  },
+  "002524": {
+    "context": "002524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして夏彦たちは同時に、端末を操作した。"
+  },
+  "002535": {
+    "context": "002535",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ＢｒａｉｎＣｅｌｌのモニターが切り替わり、施設内の全設備が表示される。"
+  },
+  "002541": {
+    "context": "002541",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（恐らくチャンスは１回こっきりだ！　３０秒以内に全てを終わらせる！）"
+  },
+  "002552": {
+    "context": "002552",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "膨大なメニュー画面の中から、ＮエリアとＺｅｒｏエリアのセキュリティ設定を選ぶ。"
+  },
+  "002557": {
+    "context": "002557",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして両エリアのセキュリティ認証を解除し、エレベーターを自由に起動できるようにした。"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし！　これでいけるはず！」"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「確認してくるわ！」"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が制御室を飛び出していった。"
+  },
+  "002647": {
+    "context": "002647",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてＢｒａｉｎＣｅｌｌの画面に、アラートが出た。"
+  },
+  "002730": {
+    "context": "002730",
+    "code": "0x85",
+    "string": "@import 0102 001086"
+  },
+  "002733": {
+    "context": "002733",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『違法なアクセスを感知しました』"
+  },
+  "002737": {
+    "context": "002737",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『アクセス権限を解除します』"
+  },
+  "002773": {
+    "context": "002773",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして続いて表示されたアラート。"
+  },
+  "002856": {
+    "context": "002856",
+    "code": "0x85",
+    "string": "@import 0102 001086"
+  },
+  "002859": {
+    "context": "002859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『攻性防壁を起動します』"
+  },
+  "002863": {
+    "context": "002863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『違法アクセスの発信元をダウンします』"
+  },
+  "002899": {
+    "context": "002899",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが表示されると共に、アリス２号のモニターがフッと消えた。"
+  },
+  "002907": {
+    "context": "002907",
+    "code": "0x45",
+    "developer_comment": "アリス２号",
+    "string": "「キュウ……」"
+  },
+  "002938": {
+    "context": "002938",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0014 001929"
+  },
+  "002943": {
+    "context": "002943",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里が慌ててアリス２号に触れる。"
+  },
+  "003027": {
+    "context": "003027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが撫でても振っても、アリス２号はもう動く事はなかった。"
+  },
+  "003063": {
+    "context": "003063",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「こ、壊されたの？」"
+  },
+  "003074": {
+    "context": "003074",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうみたいだ……」"
+  },
+  "003097": {
+    "context": "003097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これで失敗していたら、もう手立てがない。"
+  },
+  "003189": {
+    "context": "003189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう思った時、恵那が戻ってきた。"
+  },
+  "003218": {
+    "context": "003218",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「先生、どうでしたか！？」"
+  },
+  "003247": {
+    "context": "003247",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「成功よ！　隊長さんたちは地下に降りる事ができたわ！」"
+  },
+  "003291": {
+    "context": "003291",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「や……やったあ！」"
+  },
+  "003296": {
+    "context": "003296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里が喝采を上げた。"
+  },
+  "003301": {
+    "context": "003301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はふぅと大きく息をつき、ぐっとガッツポーズした。"
+  },
+  "003330": {
+    "context": "003330",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「さぁ、それじゃ爆弾の事はサリュたちに任せて……私たちは橘さんを探そうか？」"
+  },
+  "003359": {
+    "context": "003359",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ダメよ鳥羽さん、あなたそんな重傷なのに。さっき輸血が終わったばかりじゃない」"
+  },
+  "003388": {
+    "context": "003388",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「施設内を歩き回るだけでも、十二分に危険なのよ」"
+  },
+  "003432": {
+    "context": "003432",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0018 001229"
+  },
+  "003437": {
+    "context": "003437",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうましろが言ったとき、夏彦はある事を閃いた。"
+  },
+  "003448": {
+    "context": "003448",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……いや、歩き回る必要はないかもしれませんよ」"
+  },
+  "003477": {
+    "context": "003477",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え？」"
+  },
+  "003488": {
+    "context": "003488",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「思いついたんだよ、橘さんを呼び出す方法を」"
+  },
+  "003493": {
+    "context": "003493",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はにっと笑って答える。"
+  },
+  "003504": {
+    "context": "003504",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「来てくれるかどうかは賭けだけど……とにかく、第３エリアに移動しよう」"
+  },
+  "003555": {
+    "context": "003555",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

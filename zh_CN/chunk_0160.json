@@ -1,0 +1,793 @@
+{
+  "000072": {
+    "context": "000072",
+    "code": "0x55",
+    "string": "@import 0154 000080"
+  },
+  "000080": {
+    "context": "000080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはまだ、夏彦とましろが仲が悪かった頃の話――"
+  },
+  "000091": {
+    "context": "000091",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ある日、夏彦はおやつを手に、公園へと向かった。"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ましろ、いなければいいけどな……あったらまたケンカになりそうだし）"
+  },
+  "000102": {
+    "context": "000102",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おやつは袋詰めのビスケット。"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もしましろがいたら、見せびらかしてやろうと思っていた。"
+  },
+  "000185": {
+    "context": "000185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、公園についた時――"
+  },
+  "000196": {
+    "context": "000196",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0040 000198"
+  },
+  "000201": {
+    "context": "000201",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は目を見開いた。"
+  },
+  "000285": {
+    "context": "000285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには凶暴そうな野良犬と、ましろがいたのだ。"
+  },
+  "000293": {
+    "context": "000293",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「グルル……」"
+  },
+  "000298": {
+    "context": "000298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "野良犬は唸りながら、ましろを睨んでいる。"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ……や、やぁぁ……」"
+  },
+  "000338": {
+    "context": "000338",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、なによぅ……！　こないでよぅ……！」"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「ウワゥ！　ワウ！」"
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だ、だれか……たすけ……」"
+  },
+  "000380": {
+    "context": "000380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "涙声で、ましろが助けを求める。"
+  },
+  "000447": {
+    "context": "000447",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが周囲には誰もいない。"
+  },
+  "000452": {
+    "context": "000452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう気づいた途端、夏彦は駆け出し――"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やめろー！」"
+  },
+  "000570": {
+    "context": "000570",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0003 002680"
+  },
+  "000575": {
+    "context": "000575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろと野良犬の間に、割って入った。"
+  },
+  "000586": {
+    "context": "000586",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おい、いぬっころ！　ましろをいじめるな！」"
+  },
+  "000594": {
+    "context": "000594",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「バウっ！？」"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、夏彦！？」"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思わず出た言葉に、野良犬もましろも、そして夏彦自身も驚く。"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なんで夏彦が……？」"
+  },
+  "000645": {
+    "context": "000645",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（えーっと、なんでだ？）"
+  },
+  "000650": {
+    "context": "000650",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とっさに考え、そして言う。"
+  },
+  "000677": {
+    "context": "000677",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「こいつはぼくの……そう、ライバルなんだ！」"
+  },
+  "000688": {
+    "context": "000688",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だからなー、ぼくいがいのやつが、ましろをやっつけるのはゆるさないぞ！」"
+  },
+  "000693": {
+    "context": "000693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは当時夏彦がハマっていた、ヒーローものの番組のセリフをもじったものだった。"
+  },
+  "000698": {
+    "context": "000698",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "受け売りとは言え、威勢のいいそのセリフに、野良犬が気圧される。"
+  },
+  "000706": {
+    "context": "000706",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「グル……」"
+  },
+  "000711": {
+    "context": "000711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "犬を睨みつける夏彦の背後で、ましろが呟いた。"
+  },
+  "000722": {
+    "context": "000722",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、夏彦、まさかたすけにきてくれたの……？」"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おまえのためじゃない。ヒーローとしてとうぜんのことだ」"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「カッコつけるのはいいけど……ど、どうするつもりなの……？」"
+  },
+  "000824": {
+    "context": "000824",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ふっふっふ、こんなこともあろうかと！」"
+  },
+  "000846": {
+    "context": "000846",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はおもむろにポケットからビスケットの袋を取り出し、１枚犬に放った。"
+  },
+  "000854": {
+    "context": "000854",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「うぅぅ～……」"
+  },
+  "000859": {
+    "context": "000859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "野良犬は一声唸ると、ビスケットをがっつき始めた。"
+  },
+  "000864": {
+    "context": "000864",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちに眼もくれない勢いで。"
+  },
+  "000926": {
+    "context": "000926",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よ、よしチャンスだ！　いまのうちにやっつけよう！」"
+  },
+  "000937": {
+    "context": "000937",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ま、まって夏彦！」"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "野良犬は瞬く間にビスケットを平らげ――"
+  },
+  "000964": {
+    "context": "000964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして人懐っこい鳴き声を上げた。"
+  },
+  "000972": {
+    "context": "000972",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「くーんくーん」"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれ？　きゅうにおとなしくなった……」"
+  },
+  "001045": {
+    "context": "001045",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「も、もしかしておなかへってただけなんじゃ……？」"
+  },
+  "001056": {
+    "context": "001056",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なーんだ、ひょうしぬけ」"
+  },
+  "001061": {
+    "context": "001061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "かくんと肩を落とす夏彦に、犬が擦り寄ってくる。"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「くーん……」"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんだよ、ビスケットもっとほしいのか？」"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「ワン！」"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちぇっ、しょうがないな……ぼくのぶんもあげるから、たべろよ」"
+  },
+  "001120": {
+    "context": "001120",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はビスケットの袋を破いて、地面にばらまいた。"
+  },
+  "001126": {
+    "context": "001126",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（たたかわずにすむなら、このほうがいい……ヒーローのやさしさだ）"
+  },
+  "001131": {
+    "context": "001131",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内心ほっとしながら、夏彦は言う。"
+  },
+  "001142": {
+    "context": "001142",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ほら、もう大丈夫だぞましろ」"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがましろの方を振り返った瞬間――"
+  },
+  "001212": {
+    "context": "001212",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0012 004312"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うぁぁ～～ん！　こわかったよぅ！」"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女はいきなり泣き出した。"
+  },
+  "001250": {
+    "context": "001250",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うわっ！　ちょ、なくなよ！」"
+  },
+  "001261": {
+    "context": "001261",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うわぁぁ～～ん！」"
+  },
+  "001266": {
+    "context": "001266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がなだめても、ましろは泣き止まない。"
+  },
+  "001271": {
+    "context": "001271",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その横で野良犬は、ひたすらビスケットを食べていた。"
+  },
+  "001322": {
+    "context": "001322",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて――５分ほどした頃。"
+  },
+  "001327": {
+    "context": "001327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろはようやく泣き止んだ。"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……すん、すん……」"
+  },
+  "001361": {
+    "context": "001361",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なぁ、もう大丈夫か？」"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0041 000188"
+  },
+  "001413": {
+    "context": "001413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言ってから、ましろは夏彦を見てもじもじした。"
+  },
+  "001424": {
+    "context": "001424",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ……あのさ……」"
+  },
+  "001435": {
+    "context": "001435",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "001464": {
+    "context": "001464",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あの……その、あり……」"
+  },
+  "001469": {
+    "context": "001469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろの口がモゴモゴと動く。"
+  },
+  "001480": {
+    "context": "001480",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なんだよ。なんかいいたいならはやくいえって」"
+  },
+  "001485": {
+    "context": "001485",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がいい加減焦れてきた時――"
+  },
+  "001493": {
+    "context": "001493",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「オン！」"
+  },
+  "001520": {
+    "context": "001520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "野良犬が突然、夏彦に飛び掛った。"
+  },
+  "001693": {
+    "context": "001693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、夏彦の顔をペロペロと舐め始める。"
+  },
+  "001701": {
+    "context": "001701",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「わふぅ！」"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うばば！？　なんだ！？　なんのたくらみだ！？」"
+  },
+  "001741": {
+    "context": "001741",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ビスケットあげたから、なついちゃったんじゃない？」"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど……ってそれより、かおをなめるのをやめろぅ！　かゆい！」"
+  },
+  "001760": {
+    "context": "001760",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "「おふ～……」"
+  },
+  "001765": {
+    "context": "001765",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が強く言うと、野良犬は従った。"
+  },
+  "001770": {
+    "context": "001770",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見かけによらず、頭のいい犬らしい。"
+  },
+  "001781": {
+    "context": "001781",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……それにしても、おまえはみどころがあるな。なかまにしてやろうか？」"
+  },
+  "001789": {
+    "context": "001789",
+    "code": "0x45",
+    "developer_comment": "野良犬",
+    "string": "@import 0160 001493"
+  },
+  "001800": {
+    "context": "001800",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ははっ、すなおなやつ」"
+  },
+  "001805": {
+    "context": "001805",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は嬉しくなって、野良犬の頭を撫でた。"
+  },
+  "001810": {
+    "context": "001810",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろも優しい声で言う。"
+  },
+  "001839": {
+    "context": "001839",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「かわいいねー」"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「かっこいいっていえよ。かわいいのはダメだ、よわそうだから」"
+  },
+  "001895": {
+    "context": "001895",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まぁどっちでもいいけどさ。そんなことよりこの子、のらいぬなんだよね？」"
+  },
+  "001906": {
+    "context": "001906",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まーそうだろうな。くびわしてないし」"
+  },
+  "001917": {
+    "context": "001917",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃあ私たちでかわない？」"
+  },
+  "001928": {
+    "context": "001928",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ダメだよ、うちいぬかえないもん。おかあさんがどうぶつアレルギーなんだ」"
+  },
+  "001957": {
+    "context": "001957",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そっか。うちもおとうさんがどうぶつぎらいだからなぁ」"
+  },
+  "001986": {
+    "context": "001986",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うーん……」"
+  },
+  "001991": {
+    "context": "001991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろは少し考えてから、ポンと手を叩いて行った。"
+  },
+  "002020": {
+    "context": "002020",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それじゃ、このこうえんでかうのは？　えさはわたしたちでよういしてさ」"
+  },
+  "002031": {
+    "context": "002031",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、それならできるな！　そうしよう！」"
+  },
+  "002036": {
+    "context": "002036",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろの提案に、夏彦が賛同する。"
+  },
+  "002041": {
+    "context": "002041",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはとても素敵なアイディアに思えた。"
+  },
+  "002052": {
+    "context": "002052",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なまえは、どうしようか？」"
+  },
+  "002081": {
+    "context": "002081",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うん？　えーっとえーっと……そうだ！」"
+  },
+  "002110": {
+    "context": "002110",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「『シリウス』っていうのはどう！？」"
+  },
+  "002121": {
+    "context": "002121",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「シリウス？」"
+  },
+  "002132": {
+    "context": "002132",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いぬのせいざのなまえだよ、たしか」"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それと、このまちのレスキューたいのなまえでもあるんだよ」"
+  },
+  "002172": {
+    "context": "002172",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「レスキューたいか……かっこいいな、それ」"
+  },
+  "002199": {
+    "context": "002199",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、それじゃ今日からおまえはシリウスだ！」"
+  },
+  "002207": {
+    "context": "002207",
+    "code": "0x45",
+    "developer_comment": "シリウス",
+    "string": "@import 0160 001493"
+  },
+  "002212": {
+    "context": "002212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "犬も名前が気に入ったらしく、元気に答える。"
+  },
+  "002241": {
+    "context": "002241",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よかったね、シリウス」"
+  },
+  "002249": {
+    "context": "002249",
+    "code": "0x45",
+    "developer_comment": "シリウス",
+    "string": "@import 0160 001701"
+  },
+  "002254": {
+    "context": "002254",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "上機嫌な『シリウス』を見て、ましろが微笑む。"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その横顔を見て、ふとさきほど感じた疑問を思い出した。"
+  },
+  "002286": {
+    "context": "002286",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ところでましろ、さっきなんかいおうとしなかったか？」"
+  },
+  "002315": {
+    "context": "002315",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？　いや……なんでもないよ」"
+  },
+  "002326": {
+    "context": "002326",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんだよ、へんなヤツ」"
+  },
+  "002355": {
+    "context": "002355",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「へんなヤツってなによぅ。夏彦のバカ」"
+  },
+  "002398": {
+    "context": "002398",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「へっ、だ」"
+  },
+  "002409": {
+    "context": "002409",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふんっ」"
+  },
+  "002417": {
+    "context": "002417",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人はプイと顔を背ける。"
+  },
+  "002486": {
+    "context": "002486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその日を境に――"
+  },
+  "002491": {
+    "context": "002491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦とましろが罵り合うということは、自然となくなっていった。"
+  }
+}

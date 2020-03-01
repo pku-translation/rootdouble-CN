@@ -1,0 +1,421 @@
+{
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――悠里の死を境に、夏彦は変わってしまった。"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがむろん、今の夏彦に不満があるわけではない。"
+  },
+  "000075": {
+    "context": "000075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000070"
+  },
+  "000113": {
+    "context": "000113",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000108"
+  },
+  "000118": {
+    "context": "000118",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000113"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0146 003256"
+  },
+  "000152": {
+    "context": "000152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000147"
+  },
+  "000157": {
+    "context": "000157",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000152"
+  },
+  "000162": {
+    "context": "000162",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000157"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0146 003285"
+  },
+  "000199": {
+    "context": "000199",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0146 003296"
+  },
+  "000207": {
+    "context": "000207",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0146 003307"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0142 002436"
+  },
+  "000241": {
+    "context": "000241",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000236"
+  },
+  "000270": {
+    "context": "000270",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0146 003408"
+  },
+  "000278": {
+    "context": "000278",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0146 003437"
+  },
+  "000307": {
+    "context": "000307",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0146 003448"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0146 003477"
+  },
+  "000338": {
+    "context": "000338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000333"
+  },
+  "000343": {
+    "context": "000343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000338"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000372"
+  },
+  "000382": {
+    "context": "000382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000377"
+  },
+  "000387": {
+    "context": "000387",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000382"
+  },
+  "000392": {
+    "context": "000392",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000387"
+  },
+  "000397": {
+    "context": "000397",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000392"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000398"
+  },
+  "000409": {
+    "context": "000409",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000404"
+  },
+  "000415": {
+    "context": "000415",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000410"
+  },
+  "000420": {
+    "context": "000420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000415"
+  },
+  "000466": {
+    "context": "000466",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000471": {
+    "context": "000471",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000420"
+  },
+  "000476": {
+    "context": "000476",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000425"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000430"
+  },
+  "000489": {
+    "context": "000489",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0218 000608"
+  },
+  "000518": {
+    "context": "000518",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "000606": {
+    "context": "000606",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「覚えてる？　あの頃のこと」"
+  },
+  "000614": {
+    "context": "000614",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「悠里と一緒に３人で、ここを駆け回ってた頃のこと」"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、もちろん……懐かしい思い出だよ」"
+  },
+  "000657": {
+    "context": "000657",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……たぶんあの頃、私ね……」"
+  },
+  "000665": {
+    "context": "000665",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦のこと、好きだったよ」"
+  },
+  "000670": {
+    "context": "000670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、夏彦の目が見開かれた。"
+  },
+  "000699": {
+    "context": "000699",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0060 001114"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「意地悪だけど、いざという時は優しくてさ。他の男の子とは、ちょっと違う感じでさ」"
+  },
+  "000715": {
+    "context": "000715",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ケンカばっかりしてたけど、ホントはもっと素直に、仲良くしたかった」"
+  },
+  "000723": {
+    "context": "000723",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「子供だったからよくわかんなかったけど、きっとあれが初恋だったんだと思う」"
+  },
+  "000752": {
+    "context": "000752",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0005 000751"
+  },
+  "000781": {
+    "context": "000781",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「初恋って……今は？」"
+  },
+  "000789": {
+    "context": "000789",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今も好きだよ、友達として」"
+  },
+  "000797": {
+    "context": "000797",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でも夏彦には、悠里がいるじゃない？」"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0024 002121"
+  },
+  "000834": {
+    "context": "000834",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だから、まぁ……そういう事だよ」"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今の私はね、夏彦と悠里を見守る事の方が……なんか、嬉しいんだ」"
+  },
+  "000847": {
+    "context": "000847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そんな形でしか、想いを告げる事はできない。"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は目を伏せ、寂しそうに笑う。"
+  },
+  "000881": {
+    "context": "000881",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0022 001466"
+  },
+  "000886": {
+    "context": "000886",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼がそう呟いた時――穏やかな風が吹き抜け、２人を包んだ。"
+  },
+  "000970": {
+    "context": "000970",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000583"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつか、このかりそめの告白を、本物にできればいいと……。"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000475"
+  },
+  "000994": {
+    "context": "000994",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0229 000483"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0229 000494"
+  },
+  "001010": {
+    "context": "001010",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000499"
+  },
+  "001094": {
+    "context": "001094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000583"
+  },
+  "001099": {
+    "context": "001099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0229 000588"
+  },
+  "001306": {
+    "context": "001306",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003152"
+  },
+  "001311": {
+    "context": "001311",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003157"
+  },
+  "001316": {
+    "context": "001316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003162"
+  },
+  "001321": {
+    "context": "001321",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003167"
+  },
+  "001326": {
+    "context": "001326",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003172"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0436 003177"
+  }
+}

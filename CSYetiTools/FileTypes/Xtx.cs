@@ -2,14 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
+using CsYetiTools.IO;
 using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Advanced;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
+using static CsYetiTools.Utils;
 
 namespace CsYetiTools.FileTypes
 {
-    public class Xtx : IDisposable
+    public sealed class Xtx : IDisposable
     {
         public static byte[] FileTag = { (byte)'x', (byte)'t', (byte)'x', 0x00 };
 
@@ -19,13 +21,15 @@ namespace CsYetiTools.FileTypes
             if (!arr.SequenceEqual(target))
             {
                 throw new InvalidDataException(
-                    $"{message}: [{Utils.BytesToHex(arr)}] != [{Utils.BytesToHex(target)}]");
+                    $"{message}: [{BytesToHex(arr)}] != [{BytesToHex(target)}]");
             }
         }
 
         public int Width { get; private set; }
 
         public int Height { get; private set; }
+
+        public bool IsFontAtlas { get; private set; }
 
         private int _alignedWidth;
 
@@ -37,57 +41,19 @@ namespace CsYetiTools.FileTypes
 
         public int Format { get; private set; }
 
-        public object Content { get; private set; }
+        public Image Content { get; private set; }
 
         public void Dispose()
         {
-            if (Format == 0)
-                ((Image<Bgra32>)Content).Dispose();
-            else if (Format == 1)
-                ((Image<Bgr565>)Content).Dispose();
-            else if (Format == 2)
-                ((Image<Bgra32>)Content).Dispose();
-            else
-                throw new InvalidDataException($"invalid format-type {Format}");
+            Content.Dispose();
         }
 
         public void SaveTo(string path)
         {
-            if (Format == 0)
-                ((Image<Bgra32>)Content).Save(path);
-            else if (Format == 1)
-                ((Image<Bgr565>)Content).Save(path);
-            else if (Format == 2)
-                ((Image<Bgra32>)Content).Save(path);
-            else
-                throw new InvalidDataException($"invalid format-type {Format}");
+            Content.Save(path);
         }
 
-        public Xtx(byte[] bytes)
-        {
-            using var ms = new MemoryStream(bytes);
-            using var reader = new BinaryReader(ms);
-
-            CheckBytes(reader.ReadBytes(4), FileTag, "XTX tag mismatch");
-            Format = reader.ReadInt32();
-
-            _alignedWidth = reader.ReadBEInt32();
-            _alignedHeight = reader.ReadBEInt32();
-            Width = reader.ReadBEInt32();
-            Height = reader.ReadBEInt32();
-            OffsetX = reader.ReadBEInt32();
-            OffsetY = reader.ReadBEInt32();
-
-            Content = Format switch
-            {
-                0 => DecodeFormat0(reader),
-                1 => DecodeFormat1(reader),
-                2 => DecodeFormat2(reader),
-                _ => throw new NotSupportedException($"Xtx format {Format} not supported"),
-            };
-        }
-
-        private static long GetX(int i, long width, byte level)
+        private static int GetX(int i, int width, byte level)
         {
             int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
             int v2 = i << v1;
@@ -96,7 +62,7 @@ namespace CsYetiTools.FileTypes
                 + ((((((v2 >> 6) & 0xFF) + ((v3 >> (v1 + 5)) & 0xFE)) & 3)
                     + (((v3 >> (v1 + 7)) % (((width + 31)) >> 5)) << 2)) << 3);
         }
-        private static long GetY(int i, long width, byte level)
+        private static int GetY(int i, int width, byte level)
         {
             int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
             int v2 = i << v1;
@@ -109,12 +75,32 @@ namespace CsYetiTools.FileTypes
                     + (((v3 >> (v1 + 7)) / ((width + 31) >> 5)) << 2)) << 3);
         }
 
-        private Image<Bgra32> DecodeFormat0(BinaryReader reader)
+        private static int GetAlignedSize(int size, int format)
         {
-            var data = reader.ReadBytes(_alignedWidth * _alignedHeight * 4);
+            // var trunked = 1 << (Msb(size) - 1);
+            // var aligned = trunked == size ? size : trunked << 1;
+            // return aligned < 0x80 ? 0x80 : aligned;
+
+            var cell = format switch
+            {
+                0 => 0x20,
+                1 => 0x10,
+                2 => 0x80,
+                _ => throw new InvalidDataException(),
+            };
+
+            var remainder = size % cell;
+            if (remainder == 0) return size;
+
+            return size + (cell - remainder);
+        }
+
+        private Image<Bgra32> DecodeFormat0(IBinaryStream reader)
+        {
+            var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight * 4);
             var pixels = new Bgra32[Width * Height];
 
-            foreach (var i in Utils.Range(_alignedWidth * _alignedHeight))
+            foreach (var i in Range(_alignedWidth * _alignedHeight))
             {
                 var x = GetX(i, _alignedWidth, 4);
                 var y = GetY(i, _alignedWidth, 4);
@@ -131,17 +117,22 @@ namespace CsYetiTools.FileTypes
             return Image.LoadPixelData(pixels, Width, Height);
         }
 
-        private Image<Bgr565> DecodeFormat1(BinaryReader reader)
+        private byte[] EncodeFormat0()
         {
-            var data = reader.ReadBytes(_alignedWidth * _alignedHeight * 2);
+            throw new NotImplementedException();
+        }
+
+        private Image<Bgr565> DecodeFormat1(IBinaryStream reader)
+        {
+            var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight * 2);
             var pixels = new Bgr565[Width * Height];
-            
-            foreach (var i in Utils.Range(_alignedWidth * _alignedHeight))
+
+            foreach (var i in Range(_alignedWidth * _alignedHeight))
             {
                 var x = GetX(i, _alignedWidth, 2);
                 var y = GetY(i, _alignedWidth, 2);
                 if (x >= Width || y >= Height) continue;
-                
+
                 var src = i * 2;
 
                 pixels[x + y * Width].PackedValue = checked((ushort)(data[src] | (data[src + 1] << 8)));
@@ -149,19 +140,24 @@ namespace CsYetiTools.FileTypes
             return Image.LoadPixelData(pixels, Width, Height);
         }
 
-        private Image<Bgra32> DecodeFormat2(BinaryReader reader)
+        private byte[] EncodeFormat1()
+        {
+            throw new NotImplementedException();
+        }
+
+        private Image<Bgra32> DecodeFormat2(IBinaryStream reader)
         {
             var textureWidth = _alignedWidth / 4;
             var textureHeight = _alignedHeight / 4;
             var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight);
             var decrypted = new byte[data.Length];
             int src = 0;
-            foreach (var i in Utils.Range(textureWidth * textureHeight))
+            foreach (var i in Range(textureWidth * textureHeight))
             {
                 var x = GetX(i, textureWidth, 16);
                 var y = GetY(i, textureWidth, 16);
                 var dst = (x + y * textureWidth) * 16;
-                foreach (var j in Utils.Range(8))
+                foreach (var j in Range(8))
                 {
                     decrypted[dst + 1] = data[src];
                     decrypted[dst] = data[src + 1];
@@ -175,6 +171,188 @@ namespace CsYetiTools.FileTypes
             image.Mutate(x => x.Crop(Width, Height));
 
             return image;
+        }
+
+        private byte[] EncodeFormat2()
+        {
+            throw new NotImplementedException();
+        }
+
+        private const int BlockSize = 48;
+
+        private Image<Bgra4444> DecodeFont(IBinaryStream reader)
+        {
+            // from https://github.com/vn-tools/arc_unpacker/issues/54
+            IsFontAtlas = true;
+
+            var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight * 2);
+            var encodedWidth = Width;
+            Width *= 4;
+            var encodedHeight = Height;
+            var pixels = new Bgra4444[Width * Height];
+
+            foreach (var i in Range(_alignedWidth * _alignedHeight))
+            {
+                var absX = GetX(i, _alignedWidth, 2);
+                var absY = GetY(i, _alignedWidth, 2);
+                if (absX >= encodedWidth || absY >= encodedHeight) continue;
+
+                var src = i * 2;
+
+                var blockX = (absX / BlockSize) * BlockSize;
+                var blockY = (absY / BlockSize) * BlockSize;
+                var x = absX % BlockSize;
+                var y = absY % BlockSize;
+                var targetY = blockY + y;
+                var targetBase = blockX * 4 + x + targetY * Width;
+                var target1 = targetBase;
+                var target2 = targetBase + BlockSize;
+                var target3 = targetBase + BlockSize * 2;
+                var target4 = targetBase + BlockSize * 3;
+
+                pixels[target1].PackedValue = (ushort)(0x0FFFu | ((data[src] >> 4) << 12));
+                pixels[target2].PackedValue = (ushort)(0x0FFFu | ((data[src] & 0xF) << 12));
+                pixels[target3].PackedValue = (ushort)(0x0FFFu | ((data[src + 1] >> 4) << 12));
+                pixels[target4].PackedValue = (ushort)(0x0FFFu | ((data[src + 1] & 0xF) << 12));
+            }
+            return Image.LoadPixelData(pixels, Width, Height);
+        }
+
+        private byte[] EncodeFont()
+        {
+            var data = new byte[_alignedWidth * _alignedHeight * 2];
+            var img = (Image<Bgra4444>)Content;
+            var pixels = img.GetPixelSpan();
+            var encodedWidth = Width / 4;
+            var encodedHeight = Height;
+            
+            foreach (var i in Range(_alignedWidth * _alignedHeight))
+            {
+                var absX = GetX(i, _alignedWidth, 2);
+                var absY = GetY(i, _alignedWidth, 2);
+                if (absX >= encodedWidth || absY >= encodedHeight) continue;
+
+                var src = i * 2;
+
+                var blockX = (absX / BlockSize) * BlockSize;
+                var blockY = (absY / BlockSize) * BlockSize;
+                var x = absX % BlockSize;
+                var y = absY % BlockSize;
+                var targetY = blockY + y;
+                var targetBase = blockX * 4 + x + targetY * Width;
+                var target1 = targetBase;
+                var target2 = targetBase + BlockSize;
+                var target3 = targetBase + BlockSize * 2;
+                var target4 = targetBase + BlockSize * 3;
+
+                data[src] = (byte)(
+                    ((0xF000 & pixels[target1].PackedValue) >> 8)
+                  | ((0xF000 & pixels[target2].PackedValue) >> 12)
+                );
+                data[src + 1] = (byte)(
+                    ((0xF000 & pixels[target3].PackedValue) >> 8)
+                  | ((0xF000 & pixels[target4].PackedValue) >> 12)
+                );
+            }
+            return data;
+        }
+
+        public Xtx(byte[] bytes, bool fontAtlas = false)
+        {
+            using var reader = new BinaryStream(bytes);
+
+            CheckBytes(reader.ReadBytesMax(4), FileTag, "XTX tag mismatch");
+            Format = reader.ReadInt32LE();
+
+            _alignedWidth = reader.ReadInt32BE();
+            _alignedHeight = reader.ReadInt32BE();
+            Width = reader.ReadInt32BE();
+            Height = reader.ReadInt32BE();
+            OffsetX = reader.ReadInt32BE();
+            OffsetY = reader.ReadInt32BE();
+
+            if (GetAlignedSize(Width, Format) != _alignedWidth || GetAlignedSize(Height, Format) != _alignedHeight)
+            {
+                throw new NotSupportedException($"{Format} ({Width:X}x{Height:X}) -> ({_alignedWidth:X}x{_alignedHeight:X}), not ({GetAlignedSize(Width, Format):X}x{GetAlignedSize(Height, Format):X})");
+            }
+
+            Content = Format switch
+            {
+                0 => DecodeFormat0(reader),
+                1 => fontAtlas ? (Image)DecodeFont(reader) : (Image)DecodeFormat1(reader),
+                2 => DecodeFormat2(reader),
+                _ => throw new NotSupportedException($"Xtx format {Format} not supported"),
+            };
+        }
+
+        public Xtx(Image image, int format, bool fontAtlas = false, int offsetX = 0, int offsetY = 0)
+        {
+            Format = format;
+            IsFontAtlas = fontAtlas;
+            if (fontAtlas)
+            {
+                if (Width % BlockSize != 0 && Height % BlockSize != 0)
+                {
+                    throw new InvalidDataException("Font width/height is not multiple of 48");
+                }
+            }
+            switch (format)
+            {
+                case 0:
+                    if (fontAtlas) throw new ArgumentException("Font atlas format must be 1");
+                    Content = image is Image<Bgra32> ? image : image.CloneAs<Bgra32>();
+                    break;
+                case 1:
+                    if (fontAtlas)
+                    {
+                        Content = image is Image<Bgra4444> ? image : image.CloneAs<Bgra4444>();
+                    }
+                    else
+                    {
+                        Content = image is Image<Bgr565> ? image : image.CloneAs<Bgr565>();
+                    }
+                    break;
+                case 2:
+                    if (fontAtlas) throw new ArgumentException("Font atlas format must be 1");
+                    Content = image is Image<Bgra32> ? image : image.CloneAs<Bgra32>();
+                    break;
+                default:
+                    throw new NotSupportedException($"Xtx format {Format} not supported");
+            }
+            Width = image.Width;
+            Height = image.Height;
+            _alignedWidth = fontAtlas ? Width / 4 : GetAlignedSize(Width, format);
+            _alignedHeight = fontAtlas ? Height : GetAlignedSize(Height, format);
+            OffsetX = offsetX;
+            OffsetY = offsetY;
+        }
+
+        public byte[] ToBytes()
+        {
+            using var ms = new MemoryStream();
+            using var writer = new BinaryWriter(ms);
+
+            writer.Write(FileTag);
+            writer.Write(Format);
+
+            writer.WriteBE(_alignedWidth);
+            writer.WriteBE(_alignedHeight);
+            writer.WriteBE(IsFontAtlas ? Width / 4 : Width);
+            writer.WriteBE(Height);
+            writer.WriteBE(OffsetX);
+            writer.WriteBE(OffsetY);
+
+            writer.Write(Format switch
+            {
+                0 => EncodeFormat0(),
+                1 => IsFontAtlas ? EncodeFont() : EncodeFormat1(),
+                2 => EncodeFormat2(),
+                _ => throw new NotSupportedException($"Xtx format {Format} not supported"),
+            });
+
+            writer.Flush();
+
+            return ms.ToArray();
         }
 
     }

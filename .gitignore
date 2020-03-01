@@ -13,6 +13,7 @@
 !/data/string_pool/*
 
 !/data/string_list_modifiers.ss
+!/data/fonts/SourceHanSansSC-Regular.ttf
 
-# Transifex
-tx_token
+# env
+/scripts/Env.ps1

@@ -2319,19 +2319,19 @@
  "　プリピャチを覆う放射性物質はいまなお色濃く、人が住めるようになるにはまだ数百年はかかるといわれている。")
 
 ; ぶれいんせる
-("BrainCell")
+("ぶれいんせる")
 
 ; A supercomputer made in Japan that manages all of LABO's information, including experimental data, security, electricity, and other infrastructure.
 ; It is installed in the outer ring of LABO, and is only accessible from Area 4.
 ; Aside from the backup data it sends to the surface, Brain Cell is standalone
 ; (it is not connected to the internet). The three control systems, Solone, Deux, and Tria, perform constant mutual surveillance on each other, and thus it is impervious to direct cracking and unauthorized access. Brain Cell is currently ranked as the number one fastest computer system in the world by the twice-yearly ranking organization, Project Top 500.
-("ぶれいんせる")
-
-; Procyon
 ("　実験の解析データをはじめ、電力などのインフラ、セキュリティの管理などなど、ラボで扱う全情報を一括で管理する日本製のスーパーコンピューター。"
  "　ラボの外周棟に設置されており、第4エリアからのみアクセスすることができる。"
  "　地上にバックアップ用のデータを送信している以外はスタンドアローン"
  "(インターネットに繋がっていない状態)を保っているうえ、ソロネ、デュー、トライアと呼ばれる3つの制御システムが常時相互に監視しあっているので、直接的なクラッキングや不正アクセスに対する備えも万全である。世界で最も高速なコンピューターシステムを年2回格付けするプロジェクト・TOP500で、現在1位を独走中。")
+
+; Procyon
+("プロキオン")
 
 ; ぷろきおん
 ("ぷろきおん")

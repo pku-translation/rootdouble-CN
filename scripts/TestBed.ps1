@@ -2,6 +2,9 @@
 
 pushd $DataRoot
 
-& dotnet run -p $PSScriptRoot/../CsYetiTools -c Debug -- testbed
-
-popd
+try {
+    & dotnet run -p $PSScriptRoot/../CsYetiTools -c Release -- testbed
+}
+finally {
+    popd
+}

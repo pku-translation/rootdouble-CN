@@ -1,0 +1,281 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そして、部屋を出た途端。"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の鼻が、ある臭いをとらえた。"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？」"
+  },
+  "000082": {
+    "context": "000082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どこかから焦げたような臭いが漂ってきている。"
+  },
+  "000093": {
+    "context": "000093",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「何か焼けてるんじゃないのか？」"
+  },
+  "000158": {
+    "context": "000158",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ……この臭い、いったいどこから……？」"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは慎重に、臭いの出所をたどって歩いた。"
+  },
+  "000168": {
+    "context": "000168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして階段室にたどり着くと――"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこにはうっすらと、煙が漂っていた。"
+  },
+  "000225": {
+    "context": "000225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階下の方に目をやると、階段の陰に小さな火が瞬いている。"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ボヤのようですね……」"
+  },
+  "000281": {
+    "context": "000281",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさんは危ないから、ちょっと後ろで待っててくれ」"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000363": {
+    "context": "000363",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「わかった」"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は宇喜多を階段室の外に待たせ、風見と共に階下に降りる。"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてボヤの状況を確認した。"
+  },
+  "000438": {
+    "context": "000438",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「消えかかってた炎が再燃したのか」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「階段の陰になっていたせいで、スプリンクラーでは鎮火し切れなかったみたいですね」"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "火災は小規模なものだった。おそらく消火は容易だろう。"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう判断し、即座に指示を出していた。"
+  },
+  "000497": {
+    "context": "000497",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ともかく橘、放水ホースを」"
+  },
+  "000526": {
+    "context": "000526",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0027 001395"
+  },
+  "000546": {
+    "context": "000546",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の指示に従って、風見が地下２階へ飛び出して行く。"
+  },
+  "000556": {
+    "context": "000556",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "火災は小規模に見える。おそらく消火は容易だと思うのだが――"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうする、橘？」"
+  },
+  "000596": {
+    "context": "000596",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「むろん消火するに決まっています」"
+  },
+  "000625": {
+    "context": "000625",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「放水ホースを取ってきますので、隊長はこの場に待機を」"
+  },
+  "000645": {
+    "context": "000645",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう告げて、風見が地下２階へ飛び出して行く。"
+  },
+  "000696": {
+    "context": "000696",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、その直後――渡瀬は炎の傍に、消火器があるのを見つけた。"
+  },
+  "000741": {
+    "context": "000741",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……消火器？）"
+  },
+  "000746": {
+    "context": "000746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "階段室に消火器があるのは、おかしな事ではない。"
+  },
+  "000751": {
+    "context": "000751",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "傍らの炎は今にも、消火器に触れようとしている。"
+  },
+  "000833": {
+    "context": "000833",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを見た時、なぜか――渡瀬の背筋はぞっとした。"
+  },
+  "000839": {
+    "context": "000839",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（なんだ！？）"
+  },
+  "000857": {
+    "context": "000857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同時に足音が聞こえ、風見が階段室に戻ってきた。"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長、ホースを――」"
+  },
+  "000899": {
+    "context": "000899",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、渡瀬は叫んでいた。"
+  },
+  "000916": {
+    "context": "000916",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘、こっちに来るんじゃない！　戻れ！」"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0002 003339"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見がその場に立ち止まる。"
+  },
+  "000956": {
+    "context": "000956",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "危険信号が、渡瀬の脳内に響き渡る。"
+  },
+  "000967": {
+    "context": "000967",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「危ないッ！」"
+  },
+  "001022": {
+    "context": "001022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう叫び、風見に飛びついた。"
+  },
+  "001027": {
+    "context": "001027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして風見と共に、階段室を飛び出した直後――"
+  },
+  "001032": {
+    "context": "001032",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背後で閃光が瞬いた。"
+  },
+  "001195": {
+    "context": "001195",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

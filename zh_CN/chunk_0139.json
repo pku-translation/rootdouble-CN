@@ -322,6 +322,11 @@
     "developer_comment": "夏彦",
     "string": "「这、这也太乱来了吧」"
   },
+  "001304": {
+    "context": "001304",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001333": {
     "context": "001333",
     "code": "0x45",
@@ -891,6 +896,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「是、是什么？」"
+  },
+  "004048": {
+    "context": "004048",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "004077": {
     "context": "004077",
@@ -1479,5 +1489,10 @@
     "code": "0x47",
     "developer_comment": "",
     "string": "——这是从今天算起，6 天后的早晨。"
+  },
+  "006185": {
+    "context": "006185",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

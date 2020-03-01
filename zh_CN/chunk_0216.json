@@ -1,0 +1,1428 @@
+{
+  "000053": {
+    "context": "000053",
+    "code": "0x55",
+    "string": "√Before Chapter7"
+  },
+  "000117": {
+    "context": "000117",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "星の明かりもない闇の中――"
+  },
+  "000122": {
+    "context": "000122",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこに、夏彦は伏していた。"
+  },
+  "000127": {
+    "context": "000127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "時計の音がかすかに辺りに響く。"
+  },
+  "000132": {
+    "context": "000132",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その音を聞きつけ、夏彦は目を覚ました。"
+  },
+  "000143": {
+    "context": "000143",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……う……」"
+  },
+  "000154": {
+    "context": "000154",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……こ……ここは……？」"
+  },
+  "000204": {
+    "context": "000204",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは例の廃工場だった。"
+  },
+  "000354": {
+    "context": "000354",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやら気絶させられたまま、放置されたようだ。"
+  },
+  "000359": {
+    "context": "000359",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれからどのくらい時間が経っているのだろうか。"
+  },
+  "000364": {
+    "context": "000364",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った時、うめくような声がそばで響いた。"
+  },
+  "000375": {
+    "context": "000375",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ぅ」"
+  },
+  "000386": {
+    "context": "000386",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「な……夏彦？」"
+  },
+  "000391": {
+    "context": "000391",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろとサリュの声だった。"
+  },
+  "000396": {
+    "context": "000396",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人とも同じく目覚めたところらしい。"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、２人とも！　無事だったか！？」"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ん……無事、かな？　どこも痛くないし……」"
+  },
+  "000535": {
+    "context": "000535",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも、身動きは取れない模様」"
+  },
+  "000546": {
+    "context": "000546",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0005 003761"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言いかけた時、夏彦も気付いた。"
+  },
+  "000562": {
+    "context": "000562",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "両手と両足が、固く縄で縛られている事に。"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見ればましろとサリュも、同じように縛られていた。"
+  },
+  "000578": {
+    "context": "000578",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あっ、なにこれ！？」"
+  },
+  "000589": {
+    "context": "000589",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私たちを逃さないためだと思う」"
+  },
+  "000600": {
+    "context": "000600",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「むっ……！　くっ……！」"
+  },
+  "000605": {
+    "context": "000605",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いくら腕や脚に力を入れても、縄はビクともしなかった。"
+  },
+  "000611": {
+    "context": "000611",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ……早く縄を解いて、あいつらを止めないと……！）"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の焦りに反応するように、緊迫した鳴き声が闇に響いた。"
+  },
+  "000624": {
+    "context": "000624",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "「きゅう～……！」"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、アリスは壊されなかったんだね……よかった」"
+  },
+  "000646": {
+    "context": "000646",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「アリス、こっちへ」"
+  },
+  "000693": {
+    "context": "000693",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "@import 0159 006687"
+  },
+  "000698": {
+    "context": "000698",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの声に応えるように、アリスがサリュの元へ走る。"
+  },
+  "000709": {
+    "context": "000709",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ん、待て。アリスって自律歩行ができるのか？」"
+  },
+  "000720": {
+    "context": "000720",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「簡易的な機能だけど、できる。口頭で命令して歩かせる事や、順路データを入力する事も」"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど……！　それならサリュ、アリスに何かこの縄を切るものを取ってきてもらえないか？」"
+  },
+  "000742": {
+    "context": "000742",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、その手があったか」"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見れば窓際に、ガラスの破片らしきものが落ちている。"
+  },
+  "000758": {
+    "context": "000758",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ではアリス、以下命令」"
+  },
+  "000769": {
+    "context": "000769",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『１５ｍ直進後、そこにある砕片を拾い、現座標に回帰』。以上命令」"
+  },
+  "000777": {
+    "context": "000777",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "@import 0194 002159"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頼もしい鳴き声でアリスが応え、窓のそばに向かう。"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しばらくそこで、サリュの命じたものに該当する物体を探していたが――"
+  },
+  "000831": {
+    "context": "000831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて割れたガラスを咥え、戻ってきた。"
+  },
+  "000878": {
+    "context": "000878",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "@import 0194 002159"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「やった！　でかしたアリス！」"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は身をよじり、アリスからガラスを受け取った。"
+  },
+  "000905": {
+    "context": "000905",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちょっと待ってろ、とりあえずぼくが抜け出してみんなの縄も切る……」"
+  },
+  "000910": {
+    "context": "000910",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は縄にガラスを当てて、力を込めてこすり――"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なんとか手足の縄を切る事に成功した。"
+  },
+  "000970": {
+    "context": "000970",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よしっ！」"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらにましろとサリュの縄も切ってやる。"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ふぅ……ようやく解放されたよ」"
+  },
+  "001099": {
+    "context": "001099",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ありがとう、夏彦」"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人ともやはり、どこにも怪我はないようだ。"
+  },
+  "001109": {
+    "context": "001109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "テロリストの目的は、あくまで夏彦たちを足止めするだけだったらしい。"
+  },
+  "001138": {
+    "context": "001138",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……それにしても、テロリストたちの意図がわからない」"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私たちを生かしておく意味はないはずなのに……」"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、奴らの目的はあくまでもラボだ。ぼくらを殺したりして、目立つのを恐れたんだろう」"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なんでわかるの？」"
+  },
+  "001200": {
+    "context": "001200",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「実際に聞いたからだよ。奴らの心の声を」"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「声を聞いたって？　エンパシーで？」"
+  },
+  "001240": {
+    "context": "001240",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0043 002892"
+  },
+  "001245": {
+    "context": "001245",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いつつも、夏彦は若干の違和感を覚えていた。"
+  },
+  "001250": {
+    "context": "001250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの時、気絶しかけた夏彦が発動した能力――それはエンパシーとは少し違う気がした。"
+  },
+  "001255": {
+    "context": "001255",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "声だけではなく、映像も見えたのだ。あれがエンパシーと言えるだろうか。"
+  },
+  "001260": {
+    "context": "001260",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつか聞いた恵那の言葉が、胸に蘇る。"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ＢＣの可能性は無限なの」"
+  },
+  "001361": {
+    "context": "001361",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0155 003994"
+  },
+  "001460": {
+    "context": "001460",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（第３の能力……！？）"
+  },
+  "001465": {
+    "context": "001465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その可能性はありうる。"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はここ数日、急速にＢＣ能力が高まっていた。"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まだ制御しきれてないとはいえ、ほんの数日でテレパシーとエンパシーを使えるようになっていたのだ。"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（本当に、そんなものが……？）"
+  },
+  "001486": {
+    "context": "001486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその可能性について、じっくり考えている時間はない。"
+  },
+  "001491": {
+    "context": "001491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その能力によって得た情報の方が、今は遥かに重要だった。"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……とにかく奴らの心の声によると、ラボが狙われているのは本当らしい」"
+  },
+  "001513": {
+    "context": "001513",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「しかも、決行は今日だ……！」"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今日！？　じゃ、じゃあすぐ止めなきゃ！」"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でもどうすれば？　警察などに通報しても、昨日と同じ結果になりかねない」"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0099 001434"
+  },
+  "001637": {
+    "context": "001637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "保安課や警察を今から説得しても、間に合うとは思えなかった。"
+  },
+  "001642": {
+    "context": "001642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は押し黙り、考え込む。"
+  },
+  "001648": {
+    "context": "001648",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ラボに直接行って、注意を促すか……？）"
+  },
+  "001653": {
+    "context": "001653",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれは危険だ。"
+  },
+  "001658": {
+    "context": "001658",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内通者がいる可能性も高いし、そのままテロに巻き込まれるかもしれない。"
+  },
+  "001663": {
+    "context": "001663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうなれば今度こそ、殺されかねない――！"
+  },
+  "001669": {
+    "context": "001669",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……だったら……）"
+  },
+  "001675": {
+    "context": "001675",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（すぐにでも、逃げるべきじゃないのか……？）"
+  },
+  "001680": {
+    "context": "001680",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろたちとすぐ家に帰り、悠里を連れてこの街から脱出する。"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが最も妥当なやり方に思えた。"
+  },
+  "001690": {
+    "context": "001690",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦だけならまだしも、ましろたちまで危険にさらすわけにはいかない。"
+  },
+  "001695": {
+    "context": "001695",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0009 001968"
+  },
+  "001701": {
+    "context": "001701",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうすれば、この街にいる全ての人を見捨てる事になる）"
+  },
+  "001707": {
+    "context": "001707",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（自分たちに関係ない人々は、どうでもいいって考えるべきか……？）"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつだって彼はそうしてきた。"
+  },
+  "001717": {
+    "context": "001717",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが夏彦の処世術だった。"
+  },
+  "001722": {
+    "context": "001722",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "例えばテレビで報道される、この街で起きた『火事』や『事故』や『事件』。"
+  },
+  "001727": {
+    "context": "001727",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それらは全て、自分とは関係ない事。自ら関わる必要もない。"
+  },
+  "001732": {
+    "context": "001732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "大切なのは自分と悠里と、せいぜいましろやサリュくらいのものだ。"
+  },
+  "001737": {
+    "context": "001737",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ずっとそう思ってきたのに……"
+  },
+  "001742": {
+    "context": "001742",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "脳裏に浮かぶのは、この街に住む、『関係ないはずの人々』の事だった。"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "距離を置いてつきあってきたクラスメートたち。"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がコミュニケーターだと知るなり、離れていった幼い頃の友達。"
+  },
+  "001757": {
+    "context": "001757",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、夏彦たちに心を開いてくれなかった恵那。"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……くそ、だからどうだっていうんだ）"
+  },
+  "001769": {
+    "context": "001769",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（仮に原子炉がメルトダウンしたって、皆が死ぬわけじゃない）"
+  },
+  "001775": {
+    "context": "001775",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この街に誰も住めなくなるってだけだろ？）"
+  },
+  "001781": {
+    "context": "001781",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったらまず、自分たちが逃げることを優先するのが当たり前じゃないか……！）"
+  },
+  "001786": {
+    "context": "001786",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそのとき、不意に――"
+  },
+  "001791": {
+    "context": "001791",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今まで聞いた様々な言葉が、夏彦の耳に蘇った。"
+  },
+  "001883": {
+    "context": "001883",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0179 000586"
+  },
+  "001993": {
+    "context": "001993",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0208 002098"
+  },
+  "002074": {
+    "context": "002074",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0192 002388"
+  },
+  "002217": {
+    "context": "002217",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0037 001648"
+  },
+  "002222": {
+    "context": "002222",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時、夏彦は気づいた。"
+  },
+  "002227": {
+    "context": "002227",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今すぐ逃げようとしても、逃げおおせるとは限らない事に。"
+  },
+  "002233": {
+    "context": "002233",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この街は、住人の出入りにも、厳重なチェックと手続きがいる……）"
+  },
+  "002239": {
+    "context": "002239",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なのに悠里を連れて、逃げられるものか？）"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは難しいだろう。"
+  },
+  "002249": {
+    "context": "002249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ラボに行くのと逃げるのと、どちらも危険な事には変わりないのだ。"
+  },
+  "002254": {
+    "context": "002254",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だったら――"
+  },
+  "002260": {
+    "context": "002260",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ラボに行くべきだ……！）"
+  },
+  "002265": {
+    "context": "002265",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "弾き出された結論に、夏彦自身驚いた。"
+  },
+  "002270": {
+    "context": "002270",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが急速に、その意思は膨らんでいく。"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９年前、夏彦と悠里は、ラボに行って事故に遭った。"
+  },
+  "002280": {
+    "context": "002280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの恐怖は今も消えていない。"
+  },
+  "002285": {
+    "context": "002285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "また死ぬような目に遭うかもしれないし、何かを失うかもしれない。"
+  },
+  "002290": {
+    "context": "002290",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、それでもなお。"
+  },
+  "002296": {
+    "context": "002296",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（行かなきゃならないんだな、悠里……）"
+  },
+  "002302": {
+    "context": "002302",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうしなきゃぼくは、過去を乗り越えられないんだな？）"
+  },
+  "002320": {
+    "context": "002320",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう思った瞬間、ましろがはっと息を呑んだ。"
+  },
+  "002349": {
+    "context": "002349",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……夏彦、もしかして……」"
+  },
+  "002360": {
+    "context": "002360",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今から直接、ラボに行くつもり？」"
+  },
+  "002386": {
+    "context": "002386",
+    "code": "0x45",
+    "developer_comment": "夏彦・サリュ",
+    "string": "@import 0003 002680"
+  },
+  "002391": {
+    "context": "002391",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、夏彦もサリュも目を見開いた。"
+  },
+  "002402": {
+    "context": "002402",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「どうしてそれを！？」"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「エンパシーを使ったの？」"
+  },
+  "002460": {
+    "context": "002460",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「使わなくてもわかるよ……長い付き合いなんだもん」"
+  },
+  "002466": {
+    "context": "002466",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうか……ましろには、隠し通せないか……）"
+  },
+  "002471": {
+    "context": "002471",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は諦めて笑い、彼女に答えた。"
+  },
+  "002482": {
+    "context": "002482",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なぁましろ。３日前の夜のお前の気持ち、ようやくわかったよ」"
+  },
+  "002511": {
+    "context": "002511",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？」"
+  },
+  "002522": {
+    "context": "002522",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「これからラボでテロが起こる事を知っているのは、今この街でぼくらだけだ」"
+  },
+  "002533": {
+    "context": "002533",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そんな状況になると、どうしたって……使命感って湧いてくるもんなんだな？」"
+  },
+  "002562": {
+    "context": "002562",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0005 000751"
+  },
+  "002573": {
+    "context": "002573",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ぼくが行かなきゃ、この街が滅んじまう」"
+  },
+  "002584": {
+    "context": "002584",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それがテレビの向こうの出来事なんかじゃなくて、自分に関係のある出来事なら――」"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やっぱり、行かなきゃいけないよな」"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "危険を避けてさえいれば、穏やかに暮らせると思っていた。"
+  },
+  "002605": {
+    "context": "002605",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがどれだけ避けようとしても、平穏が崩れる事はある。"
+  },
+  "002610": {
+    "context": "002610",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやくその事に気付いた夏彦に、サリュがかすかな声で言う。"
+  },
+  "002639": {
+    "context": "002639",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……夏彦がラボに行ったからって、何もできないかもしれない」"
+  },
+  "002650": {
+    "context": "002650",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「警備関係者に注意を促しても、信じてもらえない可能性は高い」"
+  },
+  "002661": {
+    "context": "002661",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だけど行かなかったら、ぼくはたぶん後悔する」"
+  },
+  "002672": {
+    "context": "002672",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「もう後悔なんて、したくないんだよ」"
+  },
+  "002677": {
+    "context": "002677",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は今日まで、幾度となく後悔してきた。"
+  },
+  "002682": {
+    "context": "002682",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの日、ラボに行きさえしなければ……そう思った事は数知れない。"
+  },
+  "002687": {
+    "context": "002687",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが今回は逆だ。"
+  },
+  "002692": {
+    "context": "002692",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "後悔しないためにラボに行くのだ。"
+  },
+  "002721": {
+    "context": "002721",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だったら、私たちも――」"
+  },
+  "002732": {
+    "context": "002732",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、ましろたちまで来る必要はない。１人いれば充分だ」"
+  },
+  "002761": {
+    "context": "002761",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「じゃあ私たちはどうすれば？」"
+  },
+  "002772": {
+    "context": "002772",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「頼みがあるんだ」"
+  },
+  "002783": {
+    "context": "002783",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「すぐに家に帰って、悠里を連れて、少しでも遠くに逃げてくれ」"
+  },
+  "002812": {
+    "context": "002812",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0005 000751"
+  },
+  "002823": {
+    "context": "002823",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里が泣いても叫んでも、引きずっていってくれ」"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「万が一の事が起きた時のために……！」"
+  },
+  "002839": {
+    "context": "002839",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は２人を見据えて言う。"
+  },
+  "002844": {
+    "context": "002844",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがましろは――夏彦を睨んで答えた。"
+  },
+  "002873": {
+    "context": "002873",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……冗談じゃないよ」"
+  },
+  "002884": {
+    "context": "002884",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ここまで来て『帰れ』って、私が素直に帰ると思ってんの？」"
+  },
+  "002895": {
+    "context": "002895",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0005 003761"
+  },
+  "002906": {
+    "context": "002906",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「９年前、夏彦と悠里は、ラボで事故にあったよね？」"
+  },
+  "002935": {
+    "context": "002935",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それで私が、どんな気持ちになったと思う？」"
+  },
+  "002964": {
+    "context": "002964",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「死ぬほど後悔したよ、止めりゃよかったって」"
+  },
+  "002975": {
+    "context": "002975",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「鈍い鈍い夏彦だって、そのくらいわかってんでしょ？」"
+  },
+  "002986": {
+    "context": "002986",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "003015": {
+    "context": "003015",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「今だって止めたいよ……逃げるなら逃げるで、夏彦とも一緒に逃げたいよ！」"
+  },
+  "003044": {
+    "context": "003044",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でも夏彦、どうせ止めても、ラボに行くのやめないでしょ！？　９年前と同じにさ！」"
+  },
+  "003050": {
+    "context": "003050",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  "003079": {
+    "context": "003079",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だったら……だったら私も、せめて一緒に行きたい」"
+  },
+  "003108": {
+    "context": "003108",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「２度と後悔したくないのは、私も同じなんだよ……！」"
+  },
+  "003113": {
+    "context": "003113",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろの声は震えていた。"
+  },
+  "003118": {
+    "context": "003118",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは恐らく、ましろが長年胸に押し込めてきた言葉だっただろう。"
+  },
+  "003129": {
+    "context": "003129",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でもましろ、やっぱりそれは……！」"
+  },
+  "003134": {
+    "context": "003134",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも止めようとする夏彦に、サリュがため息混じりに言った。"
+  },
+  "003163": {
+    "context": "003163",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私も同感。夏彦は言っても止まらない」"
+  },
+  "003174": {
+    "context": "003174",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "003185": {
+    "context": "003185",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「危険を避けているなどと言いつつ、ましろや悠里が絡むと、簡単にその禁が破れる」"
+  },
+  "003196": {
+    "context": "003196",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「い、いや、まぁ……」"
+  },
+  "003225": {
+    "context": "003225",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「矛盾だらけで御しがたい。それはこの数日でよくわかった」"
+  },
+  "003254": {
+    "context": "003254",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「止めても無駄なら仕方がない。私も一緒に行く」"
+  },
+  "003259": {
+    "context": "003259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、夏彦たちは息を呑んだ。"
+  },
+  "003270": {
+    "context": "003270",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちょっとおい、なに言ってんだ！？　今の話聞いてなかったのか？」"
+  },
+  "003299": {
+    "context": "003299",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、そうだよ危険なんだよ！？」"
+  },
+  "003310": {
+    "context": "003310",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「私は９年前の事があるからともかくとしても、なんでサリュまで一緒に来なきゃならないの？」"
+  },
+  "003339": {
+    "context": "003339",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや、むしろ行くのが当然」"
+  },
+  "003368": {
+    "context": "003368",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あなたたち２人でラボに行って、もしテロリストに遭遇したら、対抗する術がない。違う？」"
+  },
+  "003379": {
+    "context": "003379",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0017 002099"
+  },
+  "003408": {
+    "context": "003408",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そりゃそうだけど……サリュだって昨夜、テロリストにＫＯされたじゃん……」"
+  },
+  "003437": {
+    "context": "003437",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、私が後悔しているのは昨夜の事」"
+  },
+  "003448": {
+    "context": "003448",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私が奴らを倒していれば、今こんなに悩む事はなかった」"
+  },
+  "003477": {
+    "context": "003477",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だから私も行く。これは決定事項。覆す事はできない」"
+  },
+  "003506": {
+    "context": "003506",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それに何より――私の役目は、夏彦を護る事だから」"
+  },
+  "003511": {
+    "context": "003511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは一息に言った。出会った時と同じく、冷徹な口調で。"
+  },
+  "003516": {
+    "context": "003516",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその言葉の中に、夏彦たちを案じる気持ちがある事ははっきりとわかった。"
+  },
+  "003527": {
+    "context": "003527",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁもう……どうしてそんなに２人とも、わからず屋なんだ……！」"
+  },
+  "003532": {
+    "context": "003532",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "苦々しい気持ちで言う夏彦に、ましろたちが言い返す。"
+  },
+  "003561": {
+    "context": "003561",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦に言われたくないよ。３人とも考えが一緒なだけだよ」"
+  },
+  "003590": {
+    "context": "003590",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「全く同感」"
+  },
+  "003595": {
+    "context": "003595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉を聞き、夏彦は苦笑する。"
+  },
+  "003601": {
+    "context": "003601",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（止めても無駄なのは、お互い様か……！）"
+  },
+  "003606": {
+    "context": "003606",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "女の子を２人連れて、これからテロが起こる施設に向かう。"
+  },
+  "003611": {
+    "context": "003611",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全く馬鹿げた話で、危険極まりない。"
+  },
+  "003616": {
+    "context": "003616",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なのに、あろう事か夏彦は――それもいいと思い始めていた。"
+  },
+  "003622": {
+    "context": "003622",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ちくしょう、どうして……）"
+  },
+  "003628": {
+    "context": "003628",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（９年前の恐怖が、ずっと消えなかったのに……）"
+  },
+  "003634": {
+    "context": "003634",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうして３人で行くと思うと、怖さが和らいじまうんだ？）"
+  },
+  "003639": {
+    "context": "003639",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ますますましろの気持ちがわかった。"
+  },
+  "003644": {
+    "context": "003644",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『１人ではない』という事が、これほどまでに心強い事だとは。"
+  },
+  "003649": {
+    "context": "003649",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は２人に笑いかけ、そしてことさら元気よく言う。"
+  },
+  "003660": {
+    "context": "003660",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかった、わかったよ２人とも！　ぼくの負けだ！」"
+  },
+  "003689": {
+    "context": "003689",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦、それじゃ！？」"
+  },
+  "003700": {
+    "context": "003700",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「こうして言い争ってる時間がもったいない、仕方ないから３人で行こう！」"
+  },
+  "003729": {
+    "context": "003729",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「って何それ、態度悪いなぁ！」"
+  },
+  "003758": {
+    "context": "003758",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私より弱いくせに……」"
+  },
+  "003769": {
+    "context": "003769",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ははっ、確かにな！」"
+  },
+  "003774": {
+    "context": "003774",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう笑いつつも、夏彦は心に誓っていた。"
+  },
+  "003779": {
+    "context": "003779",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これから何があっても、絶対２人を護ろうと。"
+  },
+  "003784": {
+    "context": "003784",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュより腕っ節が弱かろうと、ましろほどＢＣが上手く使えなかろうと。"
+  },
+  "003789": {
+    "context": "003789",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人がくれた勇気に対して、報いる方法はそれしかない。"
+  },
+  "003800": {
+    "context": "003800",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……それじゃいいかい、２人とも」"
+  },
+  "003829": {
+    "context": "003829",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「了解」"
+  },
+  "003858": {
+    "context": "003858",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ん、いつでも行けるよ」"
+  },
+  "003869": {
+    "context": "003869",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「行こう、この街を護りに……！」"
+  },
+  "003874": {
+    "context": "003874",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "３人はうなずき合い、そして駆け出した。"
+  },
+  "003924": {
+    "context": "003924",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

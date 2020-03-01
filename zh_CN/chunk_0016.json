@@ -20,7 +20,7 @@
     "context": "000070",
     "code": "0x45",
     "developer_comment": "",
-    "string": "Procyon 显示“ 1792 mSv ”，没什么问题。"
+    "string": "Procyon 显示“1792 mSv”，没什么问题。"
   },
   "000081": {
     "context": "000081",
@@ -747,5 +747,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "他们的逃亡生死剧，现在才刚刚开始……"
+  },
+  "002517": {
+    "context": "002517",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

@@ -1,0 +1,743 @@
+{
+  "000056": {
+    "context": "000056",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――よし、完璧だ！」"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「や……やった！　やったやったやったよぉ！」"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "隙間は狭いが、体の大きな渡瀬でも充分通れそうだ。"
+  },
+  "000141": {
+    "context": "000141",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その向こうの暗がりに、リフトのコントロールパネルらしきものが見える。"
+  },
+  "000171": {
+    "context": "000171",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「よかった……！」"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ね？　これでもう安心よ」"
+  },
+  "000324": {
+    "context": "000324",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「どうやら、上手く行ったようだね？」"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、すみませんでした宇喜多さん。民間の方に手伝っていただいて」"
+  },
+  "000364": {
+    "context": "000364",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いやなに、ここから脱出できるなら何でもするさ」"
+  },
+  "000369": {
+    "context": "000369",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "問題のゲートが通れるようになった事で、みんなの表情は明るかった。"
+  },
+  "000453": {
+    "context": "000453",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の顔にも、自然と笑みが浮かぶ。"
+  },
+  "000464": {
+    "context": "000464",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（よかった……ようやく、脱出経路が確保できた）"
+  },
+  "000469": {
+    "context": "000469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "要救助者はまだ全員見つかったわけではないが、これで少なくともユウリ・恵那・宇喜多を脱出させる事はできる。"
+  },
+  "000474": {
+    "context": "000474",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうすればＡＤの数ももう心配ない。外からレスキュー隊の仲間を呼ぶ事もできるだろう。"
+  },
+  "000479": {
+    "context": "000479",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は安堵しつつ、メンバーの顔を見回し――"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして風見に歩み寄り、囁いた。"
+  },
+  "000583": {
+    "context": "000583",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やったな、橘」"
+  },
+  "000612": {
+    "context": "000612",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0020 002151"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前のおかげだ。みんなをここまで引っ張ってくれたからだよ」"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「い、いえ……隊長のお力があればこそです」"
+  },
+  "000657": {
+    "context": "000657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は照れているのか、頬をかすかに赤らめて言う。"
+  },
+  "000723": {
+    "context": "000723",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして洵に笑いかけた。"
+  },
+  "000734": {
+    "context": "000734",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やったな、守部！」"
+  },
+  "000763": {
+    "context": "000763",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0039 004068"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それもこれも、全部このエンジンカッターのお陰だね？」"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前、本当にそれが好きだな。目が怖いぞ」"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0006 003453"
+  },
+  "000837": {
+    "context": "000837",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は照れたように笑い、渡瀬も笑みを返す。"
+  },
+  "000903": {
+    "context": "000903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして恵那に歩み寄り、言った。"
+  },
+  "000914": {
+    "context": "000914",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、今までありがとな」"
+  },
+  "000943": {
+    "context": "000943",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0005 003761"
+  },
+  "000954": {
+    "context": "000954",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ここまで色々と、オレのことを励ましてくれただろ？」"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……いいのよ別に、そんなこと」"
+  },
+  "000994": {
+    "context": "000994",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「脱出経路はこれで確保できた。あとはあんたの生徒を、早いとこ保護してやらなきゃな」"
+  },
+  "001023": {
+    "context": "001023",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ええ。頼りにしてるわよ、隊長さん」"
+  },
+  "001028": {
+    "context": "001028",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那につんと胸をつつかれ、渡瀬は笑ってうなずく。"
+  },
+  "001094": {
+    "context": "001094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてユウリに笑いかけた。"
+  },
+  "001105": {
+    "context": "001105",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリ、ここまでよく頑張ったな」"
+  },
+  "001134": {
+    "context": "001134",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0048 001821"
+  },
+  "001145": {
+    "context": "001145",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もう何も心配ない。外でゆっくり休んでてくれ」"
+  },
+  "001174": {
+    "context": "001174",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0004 005112"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「隊長さん、今までありがとうございました」"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よせよ、ユウリ。それじゃあ今生の別れみたいだろ？」"
+  },
+  "001219": {
+    "context": "001219",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は苦笑し、ユウリの頭を撫でる。"
+  },
+  "001284": {
+    "context": "001284",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして宇喜多に言った。"
+  },
+  "001295": {
+    "context": "001295",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「やったな、おっさん」"
+  },
+  "001324": {
+    "context": "001324",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ、まだ問題は多いが……とりあえずこれで良しとしよう」"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだな……残りの要救助者の件もあるし……」"
+  },
+  "001364": {
+    "context": "001364",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ……」"
+  },
+  "001369": {
+    "context": "001369",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多が暗い表情で言う。"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……そうか、おっさんは……むしろこれからが大変なんだろうな）"
+  },
+  "001380": {
+    "context": "001380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "メルトダウンなどという大事故を起こしてしまった以上、宇喜多たち職員は、後ほど何らかの責任を取らされるに違いない。"
+  },
+  "001385": {
+    "context": "001385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その重責の中で、宇喜多は命がけの脱出に取り組んでいたのだ。"
+  },
+  "001391": {
+    "context": "001391",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（おっさんにはおっさんの心労があったんだろうな……）"
+  },
+  "001396": {
+    "context": "001396",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はねぎらうように、宇喜多の肩を叩く。"
+  },
+  "001482": {
+    "context": "001482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それから他の皆に目をやった。"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誰もがススや埃まみれで、だけどみんな笑顔だった。"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――皆のおかげで、誰も欠けずに、ここまで来る事ができた。"
+  },
+  "001538": {
+    "context": "001538",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幾度となく諦めかけても、決してくじけることなく。"
+  },
+  "001544": {
+    "context": "001544",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（どれだけ絶望的な状況下でも……人は諦めず、前に進む意思を持つ事ができるんだな）"
+  },
+  "001549": {
+    "context": "001549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心の奥底から湧き上がる、生きる意志。"
+  },
+  "001554": {
+    "context": "001554",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それこそが、この絶望の中に瞬く、たったひとつの希望の光に思えた。"
+  },
+  "001560": {
+    "context": "001560",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……希望ってのは、脱出口とかＡＤとか、そんな細かなものじゃないんだ）"
+  },
+  "001566": {
+    "context": "001566",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ここにいる皆が……手を取り合って歩く仲間がいるって事が、希望なんだ）"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思うと、渡瀬の胸は熱くなった。"
+  },
+  "001576": {
+    "context": "001576",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "こみ上げるものを抑えつつ、声を上げる。"
+  },
+  "001606": {
+    "context": "001606",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よーし、そんじゃ脱出するか！」"
+  },
+  "001617": {
+    "context": "001617",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃああたしが先に入って、安全を確かめるよ！」"
+  },
+  "001646": {
+    "context": "001646",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「頼みますよ、守部！」"
+  },
+  "001675": {
+    "context": "001675",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「はーい、まかせてー」"
+  },
+  "001689": {
+    "context": "001689",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皆が見守る中、洵は上機嫌で、その隙間にもぐりこんだ。"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0012 003288"
+  },
+  "001699": {
+    "context": "001699",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その直後――"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「きゃああああああっ！」"
+  },
+  "001785": {
+    "context": "001785",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ゲートの向こうの暗がりから、洵の絶叫が聞こえた。"
+  },
+  "001796": {
+    "context": "001796",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0003 002680"
+  },
+  "001825": {
+    "context": "001825",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「守部、何ごとですか！？」"
+  },
+  "001839": {
+    "context": "001839",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは息を呑み、その隙間にもぐりこんだ。"
+  },
+  "001936": {
+    "context": "001936",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そこには６畳ほどの空間があった。"
+  },
+  "001941": {
+    "context": "001941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "奥には文書に記されていた通り、人が乗れるほどの大きな資材搬出用のリフトがある。"
+  },
+  "001964": {
+    "context": "001964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その前に、洵が立ち尽くしていた。"
+  },
+  "002029": {
+    "context": "002029",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部、何があった！？」"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「こ……ここにも……！」"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は震える声で言い、リフトの脇を指し示す。"
+  },
+  "002103": {
+    "context": "002103",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 004245"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを見た渡瀬は、言葉を失った。"
+  },
+  "002282": {
+    "context": "002282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そこには、少女の死体があったのだ。"
+  },
+  "002293": {
+    "context": "002293",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だ、誰なんだこの子は……」"
+  },
+  "002304": {
+    "context": "002304",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「その……『鳥羽ましろ』って子、か……？」"
+  },
+  "002309": {
+    "context": "002309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし恵那は蒼白な顔で、ぼそりと答える。"
+  },
+  "002320": {
+    "context": "002320",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「違うわ……！」"
+  },
+  "002331": {
+    "context": "002331",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0020 000421"
+  },
+  "002342": {
+    "context": "002342",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃ、じゃあ……誰の……！？」"
+  },
+  "002347": {
+    "context": "002347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誰も知らない、そして話にさえ出てこなかった少女の死体。"
+  },
+  "002352": {
+    "context": "002352",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の腹には、穴が穿たれていた。"
+  },
+  "002358": {
+    "context": "002358",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……銃創……！）"
+  },
+  "002363": {
+    "context": "002363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこから溢れた血は、すでにどす黒く乾いている。"
+  },
+  "002368": {
+    "context": "002368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "間違いなく他殺体だった。"
+  },
+  "002373": {
+    "context": "002373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつごろ撃たれ、いつ頃死んだのだろうか。そして――"
+  },
+  "002379": {
+    "context": "002379",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この子はなぜ、誰に殺された……！？）"
+  },
+  "002384": {
+    "context": "002384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少女の顔には、なんの表情も浮かんでいない。恐怖も苦痛も見て取れない。"
+  },
+  "002389": {
+    "context": "002389",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ただ虚ろな眼で、床を見つめている。"
+  },
+  "002394": {
+    "context": "002394",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誰もが戸惑い、黙り込んだ。"
+  },
+  "002399": {
+    "context": "002399",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて宇喜多が、何かに気づいたように言う。"
+  },
+  "002410": {
+    "context": "002410",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……あ！」"
+  },
+  "002415": {
+    "context": "002415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は、ふらりとパネルに歩み寄った。"
+  },
+  "002420": {
+    "context": "002420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少女の傍らにある、リフトのコントロールパネルは――"
+  },
+  "002426": {
+    "context": "002426",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（！！）"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "完全に破壊されていた。"
+  },
+  "002436": {
+    "context": "002436",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まるで誰かが、意図的に壊したかのように！"
+  },
+  "002442": {
+    "context": "002442",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……」"
+  },
+  "002447": {
+    "context": "002447",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多が無言で、それを操作しようとする。"
+  },
+  "002452": {
+    "context": "002452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがスイッチを押しても、何も起こらない。リフトはただ沈黙している。"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて諦めたようにパネルを叩き、そして首を振った。"
+  },
+  "002462": {
+    "context": "002462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "静寂がその狭い部屋に満ちる。"
+  },
+  "002473": {
+    "context": "002473",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……どうして……」"
+  },
+  "002478": {
+    "context": "002478",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "沈黙を破ったのは、ユウリだった。"
+  },
+  "002489": {
+    "context": "002489",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「どうして、こんな事に……！」"
+  },
+  "002494": {
+    "context": "002494",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "戸惑いと絶望の入り混じった声が、その狭い部屋に響き渡る。"
+  },
+  "002499": {
+    "context": "002499",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誰も何も答えられなかった。"
+  },
+  "002504": {
+    "context": "002504",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはただ呆然と、そこに立ち尽くしていた……。"
+  },
+  "002554": {
+    "context": "002554",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

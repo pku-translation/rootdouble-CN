@@ -1,0 +1,597 @@
+{
+  "000049": {
+    "context": "000049",
+    "code": "0x55",
+    "string": "@import 0261 000102"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それからは夏彦の予想だにしない出来事の連続だった。"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000780"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000791"
+  },
+  "000153": {
+    "context": "000153",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000802"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ……おじさん、ついに渡瀬を糾弾するために強行手段に……！）"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 000994"
+  },
+  "000181": {
+    "context": "000181",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0096 001016"
+  },
+  "000264": {
+    "context": "000264",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0096 001109"
+  },
+  "000509": {
+    "context": "000509",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕は必ず、君を裁いてやる！　その事を忘れるな！」"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさん……ッ）"
+  },
+  "000557": {
+    "context": "000557",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬を裏切り者呼ばわりするってことは、やっぱりおじさんは内通者だったのか！？）"
+  },
+  "000563": {
+    "context": "000563",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、どうして……ぼくはおじさんの事を、できれば信じたかったのに……！）"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0096 001800"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0096 001811"
+  },
+  "000650": {
+    "context": "000650",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0096 001832"
+  },
+  "000762": {
+    "context": "000762",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……先生がいない……ッ！）"
+  },
+  "000773": {
+    "context": "000773",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0097 000295"
+  },
+  "000779": {
+    "context": "000779",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――いったい何があったんだ！？　もしかして先生は、誰かに連れ去られたのか！？）"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0097 000353"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ……お願いです、先生！　どうか無事でいて下さい！）"
+  },
+  "000868": {
+    "context": "000868",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてあてもなく駆け出した渡瀬たちが、第１エリアへ繋がる連絡通路で遭遇したのは――"
+  },
+  "000992": {
+    "context": "000992",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0097 000679"
+  },
+  "001003": {
+    "context": "001003",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0097 000690"
+  },
+  "001014": {
+    "context": "001014",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0097 000701"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0097 000712"
+  },
+  "001037": {
+    "context": "001037",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0021 003823"
+  },
+  "001043": {
+    "context": "001043",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（洵さん――どうして頭から血を！？　それになんで、エンジンカッターなんかッ！？）"
+  },
+  "001099": {
+    "context": "001099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――洵から逃れて通路を走りながら、風見が呆然と呟いた。"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0097 001346"
+  },
+  "001197": {
+    "context": "001197",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0097 001357"
+  },
+  "001202": {
+    "context": "001202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞いて、夏彦も思う。"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……おかしい……）"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（宇喜多さんもそうだったけど……いくら渡瀬が疑わしいからって、洵さんまであんな風になるなんて……）"
+  },
+  "001220": {
+    "context": "001220",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あの２人……あれじゃまるで、あの時の渡瀬と同じじゃないか！）"
+  },
+  "001226": {
+    "context": "001226",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この状況は何なんだ！？　こんなめちゃくちゃな状況で、どうやって生き残れって言うんだよ！？）"
+  },
+  "001231": {
+    "context": "001231",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、そのとき渡瀬が言った。"
+  },
+  "001264": {
+    "context": "001264",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……諦めるな」"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0097 001729"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だから、最後の最後まであがいて……諦めるのは、その後にしよう」"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは夏彦の意識をも、奮い立たせる言葉だった。"
+  },
+  "001338": {
+    "context": "001338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて一縷の希望を求めて向かったエンジンルームで、渡瀬たちが発見したものは――"
+  },
+  "001409": {
+    "context": "001409",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0099 000916"
+  },
+  "001447": {
+    "context": "001447",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002446"
+  },
+  "001450": {
+    "context": "001450",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001453": {
+    "context": "001453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000965"
+  },
+  "001456": {
+    "context": "001456",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001459": {
+    "context": "001459",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000971"
+  },
+  "001462": {
+    "context": "001462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000974"
+  },
+  "001465": {
+    "context": "001465",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001468": {
+    "context": "001468",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000980"
+  },
+  "001471": {
+    "context": "001471",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000983"
+  },
+  "001474": {
+    "context": "001474",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000986"
+  },
+  "001478": {
+    "context": "001478",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000990"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001484": {
+    "context": "001484",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 000996"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001490": {
+    "context": "001490",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001002"
+  },
+  "001493": {
+    "context": "001493",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001496": {
+    "context": "001496",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001008"
+  },
+  "001499": {
+    "context": "001499",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001014"
+  },
+  "001505": {
+    "context": "001505",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001020"
+  },
+  "001512": {
+    "context": "001512",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001024"
+  },
+  "001515": {
+    "context": "001515",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001518": {
+    "context": "001518",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001030"
+  },
+  "001521": {
+    "context": "001521",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001036"
+  },
+  "001527": {
+    "context": "001527",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001530": {
+    "context": "001530",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001042"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001536": {
+    "context": "001536",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001048"
+  },
+  "001539": {
+    "context": "001539",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001014"
+  },
+  "001546": {
+    "context": "001546",
+    "code": "0x85",
+    "string": "@import 0011 000328"
+  },
+  "001549": {
+    "context": "001549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001061"
+  },
+  "001552": {
+    "context": "001552",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001555": {
+    "context": "001555",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0099 001067"
+  },
+  "001622": {
+    "context": "001622",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この『ＷＸ粒子増幅器』って、Ｎエリアにあった機械のことか……？）"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それじゃあ、ラボ内に蔓延していたのは放射線じゃなくて、%Nこの『ＷＸ粒子』ってやつだったのか？）"
+  },
+  "001633": {
+    "context": "001633",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦の意識に様々な疑問がよぎったが、渡瀬が求めるものは別にあった。"
+  },
+  "001644": {
+    "context": "001644",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0099 001158"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0099 001325"
+  },
+  "001705": {
+    "context": "001705",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0099 001341"
+  },
+  "001830": {
+    "context": "001830",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "冷却装置を停止させ、排水パイプを通って外と連絡を取り、救助隊を中へ誘導する。"
+  },
+  "001835": {
+    "context": "001835",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが渡瀬の考えた、全員が生き残るための方法だった。"
+  },
+  "001840": {
+    "context": "001840",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして渡瀬は必要な道具をかき集め、救援を求めて１人パイプの中を泳いでいった。"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――"
+  },
+  "001992": {
+    "context": "001992",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0126 000575"
+  },
+  "002060": {
+    "context": "002060",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0126 000660"
+  },
+  "002089": {
+    "context": "002089",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0126 000694"
+  },
+  "002100": {
+    "context": "002100",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0126 000705"
+  },
+  "002111": {
+    "context": "002111",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0126 000716"
+  },
+  "002140": {
+    "context": "002140",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0126 000745"
+  },
+  "002145": {
+    "context": "002145",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その方法は、結局失敗に終わってしまった。"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ……ようやく希望が見えたと思ったのに……！）"
+  },
+  "002162": {
+    "context": "002162",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0126 000871"
+  },
+  "002173": {
+    "context": "002173",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0126 000882"
+  },
+  "002336": {
+    "context": "002336",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてたどり着いた隔壁の前で、ラボ全体が主電源から非常用電源に切り替わった時――"
+  },
+  "002391": {
+    "context": "002391",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュが目覚め、風見に牙を剥いた。"
+  },
+  "002441": {
+    "context": "002441",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

@@ -1,4 +1,5 @@
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -17,7 +18,7 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => IsOffset ? 4 : 9 + ContentLength;
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
             if (IsOffset)
             {
@@ -26,16 +27,16 @@ namespace CsYetiTools.VnScripts
             else
             {
                 _startOffset = ReadAddress(reader);
-                if (_startOffset.RelativeOffset != 10) throw new InvalidDataException("code [55] start != 10");
+                if (_startOffset.RelativeOffset != 10) throw new InvalidDataException($"code [55] start {_startOffset.RelativeOffset} != 10");
                 _unknown = reader.ReadByte();
                 if (_unknown != 0x01) throw new InvalidDataException("code [55] separator != 0x01");
                 _endOffset = ReadAddress(reader);
                 ReadString(reader);
-                if (_endOffset.RelativeOffset != 10 + Utils.GetStringZByteCount(Content)) throw new InvalidDataException("code [55] end != 10 + strlen");
+                if (_endOffset.RelativeOffset != 10 + Utils.GetStringZByteCount(Content)) throw new InvalidDataException($"code [55] end {_endOffset.RelativeOffset} != 10 + strlen {Utils.GetStringZByteCount(Content)}");
             }
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
             if (IsOffset)
             {

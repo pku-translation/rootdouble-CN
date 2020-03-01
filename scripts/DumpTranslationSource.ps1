@@ -1,6 +1,6 @@
 . $PSScriptRoot/Defines.ps1
 
-& $Run @"
+& $RunCsx @"
 
 var packageSteam = Load("steam/sn.bin", true);
 var package = Load("psv/sn.bin", false);

@@ -1,0 +1,785 @@
+{
+  "000063": {
+    "context": "000063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その記憶は、宇喜多たちがガスの中を潜り抜け――"
+  },
+  "000068": {
+    "context": "000068",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エンジンルームに辿り着いた時の記憶だった。"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "消火システムを正常に作動させようと、宇喜多は渡瀬と共に部屋の奥へと向かっていた。"
+  },
+  "000102": {
+    "context": "000102",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もし渡瀬の記憶喪失が他のメンバーをあざむくための演技なら、そろそろ正体を明かしても良い頃合だろう。"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はそう思いながら、あえて本来の渡瀬が知っている知識を口にした。"
+  },
+  "000126": {
+    "context": "000126",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0029 000130"
+  },
+  "000175": {
+    "context": "000175",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000221": {
+    "context": "000221",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000250": {
+    "context": "000250",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0029 000141"
+  },
+  "000255": {
+    "context": "000255",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬から返ってきたのは、何のてらいもない声だった。"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（まさか……本当に記憶喪失だというのか？）"
+  },
+  "000266": {
+    "context": "000266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "念のため、宇喜多は渡瀬に質問した。"
+  },
+  "000277": {
+    "context": "000277",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0029 000709"
+  },
+  "000631": {
+    "context": "000631",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0186 000330"
+  },
+  "000672": {
+    "context": "000672",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「本当かね？」"
+  },
+  "000728": {
+    "context": "000728",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なあ、おっさん。あんたまだ、俺が記憶喪失かどうか疑ってるんじゃないだろうな？」"
+  },
+  "000795": {
+    "context": "000795",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001066": {
+    "context": "001066",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0172 006009"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0081 001386"
+  },
+  "001138": {
+    "context": "001138",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさんよ、なんだその質問？」"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？」"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まるで腹を探るみてぇじゃねぇかよ……なんか言いたい事でもあんのか？」"
+  },
+  "001277": {
+    "context": "001277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001372": {
+    "context": "001372",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0029 000720"
+  },
+  "001377": {
+    "context": "001377",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その口ぶりには、不審な点は見受けられなかった。"
+  },
+  "001450": {
+    "context": "001450",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（隊長さんの言葉を信じるなら、どうやら橘さんたちも、彼の記憶喪失を疑ってないらしいな……）"
+  },
+  "001456": {
+    "context": "001456",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（隊長さんの言動に不審点があれば、橘さんたちが気付くはずだ）"
+  },
+  "001462": {
+    "context": "001462",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（という事は、どうやら隊長さんは本当に……！？）"
+  },
+  "001467": {
+    "context": "001467",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこまで考えて、宇喜多はようやく渡瀬の記憶喪失を確信した。"
+  },
+  "001473": {
+    "context": "001473",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（だが、どうして隊長さんは記憶喪失になったんだ！？　まさか、誰かに頭を殴られて！？）"
+  },
+  "001479": {
+    "context": "001479",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（だとすると、隊長さんを殴った可能性があるのは――）"
+  },
+  "001484": {
+    "context": "001484",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思いつくのは唯１人。"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（――この場にいない、『桧山隊員』が全ての元凶なのか！？）"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その結論に辿り着き、宇喜多の心は震撼した。"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もし桧山がＱから別命を受けていたのだとしたら――！"
+  },
+  "001615": {
+    "context": "001615",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は桧山に連れ去られた被験体Ｎの無事を、祈らずにはいられなかった。"
+  },
+  "001665": {
+    "context": "001665",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ともかく無事に消火システムを作動させ、宇喜多らはラボの捜索を再開した。"
+  },
+  "001670": {
+    "context": "001670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして第４エリア外周棟の、地下２階に辿り着いた時――"
+  },
+  "001784": {
+    "context": "001784",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0186 000330"
+  },
+  "001795": {
+    "context": "001795",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0318 000672"
+  },
+  "001800": {
+    "context": "001800",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言うと――渡瀬は低い声で言った。"
+  },
+  "001829": {
+    "context": "001829",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なあ、おっさん。あんたまだ、オレが記憶喪失かどうか疑ってるんじゃないだろうな？」"
+  },
+  "001855": {
+    "context": "001855",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「っ！？　い、いやそんな事は……」"
+  },
+  "001884": {
+    "context": "001884",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁ、疑う気持ちもわかるがな……」"
+  },
+  "001913": {
+    "context": "001913",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし橘たちも、オレが記憶喪失だと認めているんだ」"
+  },
+  "001924": {
+    "context": "001924",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もしオレの言動行動に不審なところがあったとしたら、橘か守部が気付くだろ？」"
+  },
+  "001935": {
+    "context": "001935",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「まぁ、確かに……」"
+  },
+  "001946": {
+    "context": "001946",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレの事は信じられなくても、橘たちの事は信じてもいいんじゃないか？」"
+  },
+  "001957": {
+    "context": "001957",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……うむ、そうだな」"
+  },
+  "002036": {
+    "context": "002036",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はそう答えたが――内心では別の事を考えていた。"
+  },
+  "002094": {
+    "context": "002094",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（……橘さんたちは、隊長さんの部下だ。態度から察するに、敬愛の念もあるだろう……）"
+  },
+  "002100": {
+    "context": "002100",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（そんな彼女たちなら、隊長さんの言う事を、無条件に信じてしまうんじゃないか？）"
+  },
+  "002105": {
+    "context": "002105",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう、風見や洵がなんと言っていても、それが渡瀬の記憶喪失を否定する材料にはなりえないのだ。"
+  },
+  "002170": {
+    "context": "002170",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（しかしなぜ同僚をたばかってまで、隊長さんは記憶喪失のフリをしているんだ）"
+  },
+  "002176": {
+    "context": "002176",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（もしや何も知らない態を装い、僕を陥れようというのではないだろうな？）"
+  },
+  "002182": {
+    "context": "002182",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（こうなったら皆に聞いてみるか。『隊長さんの記憶喪失は、実は演技だと思わないかね？』と）"
+  },
+  "002187": {
+    "context": "002187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしその考えを、宇喜多はすぐに否定した。"
+  },
+  "002192": {
+    "context": "002192",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな事をすれば渡瀬自身も、他のメンバーから追及される事は目に見えている。"
+  },
+  "002198": {
+    "context": "002198",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（くっ……なんという気持ちの悪い状況だ）"
+  },
+  "002204": {
+    "context": "002204",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（だが――とにかく今は、姿の見えない桧山を探すことを優先しよう）"
+  },
+  "002210": {
+    "context": "002210",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（おそらく彼が、被験体Ｎと一緒にいるはずだ）"
+  },
+  "002282": {
+    "context": "002282",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0318 001665"
+  },
+  "002287": {
+    "context": "002287",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0318 001670"
+  },
+  "002351": {
+    "context": "002351",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0172 006009"
+  },
+  "002362": {
+    "context": "002362",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0081 001386"
+  },
+  "002367": {
+    "context": "002367",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多がそう言った瞬間――渡瀬がくっと笑った。"
+  },
+  "002396": {
+    "context": "002396",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0318 001138"
+  },
+  "002407": {
+    "context": "002407",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？」"
+  },
+  "002438": {
+    "context": "002438",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0318 001210"
+  },
+  "002464": {
+    "context": "002464",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「！！」"
+  },
+  "002475": {
+    "context": "002475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の微笑には、禍々しいものが浮かんでいた。"
+  },
+  "002504": {
+    "context": "002504",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ひょっとしてあんた、俺の記憶喪失を疑ってんじゃねぇだろうな？」"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あえて、嘘をついていると？」"
+  },
+  "002526": {
+    "context": "002526",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「い、いや、まさかそんな……」"
+  },
+  "002555": {
+    "context": "002555",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「馬鹿くせぇ。そんなわきゃねぇだろう」"
+  },
+  "002566": {
+    "context": "002566",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だいたいそんな事して、俺になんのメリットがあるんだ？」"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「賢いその頭で考えてみろよ。学者サンなんだろ、あんた」"
+  },
+  "002606": {
+    "context": "002606",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、く……」"
+  },
+  "002635": {
+    "context": "002635",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「答えられないのか？　じゃあ――」"
+  },
+  "002646": {
+    "context": "002646",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あんたはなんの根拠もなく、俺を疑ったって事だな？」"
+  },
+  "002697": {
+    "context": "002697",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がゆっくりと宇喜多に歩み寄ってくる。"
+  },
+  "002702": {
+    "context": "002702",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は思わず後ずさった。"
+  },
+  "002728": {
+    "context": "002728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがすぐに背中が何かにぶつかり、それ以上は下がれなくなった。"
+  },
+  "002757": {
+    "context": "002757",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……おいおっさん。学校で習わなかったか？」"
+  },
+  "002768": {
+    "context": "002768",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『人を疑うのは、よくない事です』ってよ」"
+  },
+  "002797": {
+    "context": "002797",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺はほんのちょっぴりムカついてんだぜ？　いつもいつも、あんたに疑うような目で見られてよ」"
+  },
+  "002808": {
+    "context": "002808",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、違うんだ！　僕はただ……」"
+  },
+  "002837": {
+    "context": "002837",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0145 001855"
+  },
+  "002848": {
+    "context": "002848",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「き……君が心配なだけなんだよ」"
+  },
+  "002853": {
+    "context": "002853",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は卑屈な笑みを浮かべて言う。"
+  },
+  "002858": {
+    "context": "002858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると渡瀬は破顔した。"
+  },
+  "002915": {
+    "context": "002915",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「はっ！　そうかそうか、俺が心配だったか！」"
+  },
+  "002926": {
+    "context": "002926",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そ、そうとも」"
+  },
+  "002955": {
+    "context": "002955",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ならいいけどな。疑われてたらどうしようと思ってたんだ」"
+  },
+  "002984": {
+    "context": "002984",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だって堂島みたいなゴツイ男を素手で殺せるのは、俺くらいだもんなぁ？」"
+  },
+  "003010": {
+    "context": "003010",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0224 001208"
+  },
+  "003039": {
+    "context": "003039",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でもな、それはありえねぇよ。俺は何しろ記憶喪失だし、あいつを殺す動機なんかない」"
+  },
+  "003050": {
+    "context": "003050",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「違うか、おっさん？」"
+  },
+  "003061": {
+    "context": "003061",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0024 002091"
+  },
+  "003090": {
+    "context": "003090",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう、それでいい。それじゃさっさと消火システムを起動するぞ」"
+  },
+  "003101": {
+    "context": "003101",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さ、案内してくれ」"
+  },
+  "003106": {
+    "context": "003106",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言う渡瀬は、もういつもの渡瀬に戻っていた。"
+  },
+  "003117": {
+    "context": "003117",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「わ、わかった。こっちだ」"
+  },
+  "003139": {
+    "context": "003139",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう答えて歩き出しつつも、宇喜多は恐怖に足が震えていた。"
+  },
+  "003144": {
+    "context": "003144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――さきほど渡瀬に迫られた時――"
+  },
+  "003199": {
+    "context": "003199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ふと、中学時代にクラスにいた不良の事を思い出した。"
+  },
+  "003204": {
+    "context": "003204",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつもは朗らかで優しげでもあったが、キレると何をするのかわからない男だった。"
+  },
+  "003209": {
+    "context": "003209",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は彼に何度か因縁をつけられたが、その時と同様、生きた心地がしなかった。"
+  },
+  "003241": {
+    "context": "003241",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（隊長さんが記憶喪失でもそうでなくとも……やっぱりどこか、危険な気がする……！）"
+  },
+  "003247": {
+    "context": "003247",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（この男、何が目的なんだ……？）"
+  },
+  "003252": {
+    "context": "003252",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "疑心は恐怖と共に、宇喜多の中で強くなっていった。"
+  },
+  "003317": {
+    "context": "003317",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0318 002210"
+  },
+  "003323": {
+    "context": "003323",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（姿の見えない桧山を探すことを優先しよう）"
+  },
+  "003329": {
+    "context": "003329",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0318 002210"
+  },
+  "003334": {
+    "context": "003334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だがその後、渡瀬は全くおかしな挙動を見せなかった。"
+  },
+  "003406": {
+    "context": "003406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "消火システムも作動させ、宇喜多らはラボの捜索を再開する。"
+  },
+  "003411": {
+    "context": "003411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが第４エリア外周棟の、地下２階に辿り着いた時――"
+  },
+  "003501": {
+    "context": "003501",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさん、聞いてくれ……桧山の死体が見つかった」"
+  },
+  "003512": {
+    "context": "003512",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「なっ……そ、それは本当かね……！？」"
+  },
+  "003517": {
+    "context": "003517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に告げられた言葉に、宇喜多は混乱した。"
+  },
+  "003572": {
+    "context": "003572",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（しかし、それでは誰が堂島やあの２名の研究員を……？）"
+  },
+  "003578": {
+    "context": "003578",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "（いや……それともやはり桧山が犯人で、３人を殺した際に手傷を負い、そのあと火に巻かれて死んだのか……？）"
+  },
+  "003583": {
+    "context": "003583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考えれば考えるほど、わけがわからなくなってくる。"
+  },
+  "003600": {
+    "context": "003600",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも宇喜多は、被験体Ｎや夏彦たちの捜索を、諦めるわけにはいかなかった……。"
+  },
+  "003631": {
+    "context": "003631",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003285"
+  },
+  "003637": {
+    "context": "003637",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……これでいいのかな？　多少は修復できた感じはするけど……）"
+  },
+  "003643": {
+    "context": "003643",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬以外の人にも、もっと信頼の感情を注ぎ込まなきゃまずいか……？）"
+  },
+  "003677": {
+    "context": "003677",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003285"
+  },
+  "003683": {
+    "context": "003683",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんだこれ！？　まるで渡瀬がチンピラじゃないか！）"
+  },
+  "003689": {
+    "context": "003689",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もっと渡瀬に対する好意的な感情を注ぎ込まなきゃ、記憶は直りそうにないぞ！）"
+  },
+  "003763": {
+    "context": "003763",
+    "code": "0x04",
+    "string": "@ignore"
+  }
+}

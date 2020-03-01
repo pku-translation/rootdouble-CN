@@ -679,6 +679,11 @@
     "developer_comment": "",
     "string": "不知为何，少女一边走一边死死盯着夏彦。"
   },
+  "002173": {
+    "context": "002173",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "002197": {
     "context": "002197",
     "code": "0x45",
@@ -1261,6 +1266,11 @@
     "developer_comment": "夏彦",
     "string": "「喂喂、真白，刚认识就给人起外号……有点随意过头了吧？」"
   },
+  "004636": {
+    "context": "004636",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "004665": {
     "context": "004665",
     "code": "0x45",
@@ -1392,5 +1402,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "总之就像这样子，她也一点点变成了真白和夏彦的“朋友”……"
+  },
+  "005096": {
+    "context": "005096",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

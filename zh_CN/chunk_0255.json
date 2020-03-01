@@ -1,0 +1,808 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0248 000102"
+  },
+  "000059": {
+    "context": "000059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが何一つ成果を得られぬまま、渡瀬の捜索は続き――"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして宇喜多と合流することも、有益な成果も得られぬまま、渡瀬たちの捜索は続き――"
+  },
+  "000122": {
+    "context": "000122",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて『資料室』という部屋に着いた。"
+  },
+  "000127": {
+    "context": "000127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が本棚の１つに眼を向けると、そこにぎっしりと書籍や論文が並んでいる。"
+  },
+  "000132": {
+    "context": "000132",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001365"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001370"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001375"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001380"
+  },
+  "000152": {
+    "context": "000152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001385"
+  },
+  "000157": {
+    "context": "000157",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001390"
+  },
+  "000162": {
+    "context": "000162",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001395"
+  },
+  "000168": {
+    "context": "000168",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ずいぶん母さんの書籍があるみたいだけど――）"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『情報力場』とか『超感覚知覚同期』とか、母さんは何の研究をしてるんだ？）"
+  },
+  "000180": {
+    "context": "000180",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（これも原子力研究の一貫なのか……？）"
+  },
+  "000185": {
+    "context": "000185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると夏彦の意識が影響を与えたのか、渡瀬が『情報力場仮説入門／著：天川美夜子』を手に取った。"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001502"
+  },
+  "000232": {
+    "context": "000232",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000235": {
+    "context": "000235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "＜序文＞"
+  },
+  "000238": {
+    "context": "000238",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001511"
+  },
+  "000241": {
+    "context": "000241",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001514"
+  },
+  "000244": {
+    "context": "000244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001517"
+  },
+  "000247": {
+    "context": "000247",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001520"
+  },
+  "000250": {
+    "context": "000250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001523"
+  },
+  "000253": {
+    "context": "000253",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001526"
+  },
+  "000257": {
+    "context": "000257",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "000260": {
+    "context": "000260",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001533"
+  },
+  "000263": {
+    "context": "000263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001536"
+  },
+  "000266": {
+    "context": "000266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001539"
+  },
+  "000269": {
+    "context": "000269",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001542"
+  },
+  "000272": {
+    "context": "000272",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001545"
+  },
+  "000275": {
+    "context": "000275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "即ち――"
+  },
+  "000302": {
+    "context": "000302",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ダークエネルギー……？）"
+  },
+  "000308": {
+    "context": "000308",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（よくわからないけど、母さんはその正体が『情報』だって考えてるみたいだな）"
+  },
+  "000314": {
+    "context": "000314",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そういや椿山先生も授業の中で、『情報もエネルギーの一種』だって言ってたっけ）"
+  },
+  "000320": {
+    "context": "000320",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でもこの論文って、結局何のことを言ってるんだ……？）"
+  },
+  "000364": {
+    "context": "000364",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001642"
+  },
+  "000367": {
+    "context": "000367",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000370": {
+    "context": "000370",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001648"
+  },
+  "000373": {
+    "context": "000373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001651"
+  },
+  "000376": {
+    "context": "000376",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001642"
+  },
+  "000382": {
+    "context": "000382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001660"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001663"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001658"
+  },
+  "000398": {
+    "context": "000398",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001676"
+  },
+  "000401": {
+    "context": "000401",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001679"
+  },
+  "000404": {
+    "context": "000404",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001682"
+  },
+  "000407": {
+    "context": "000407",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001685"
+  },
+  "000410": {
+    "context": "000410",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001688"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001691"
+  },
+  "000416": {
+    "context": "000416",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001694"
+  },
+  "000443": {
+    "context": "000443",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（人工的に『意識を作る』だって……！？）"
+  },
+  "000449": {
+    "context": "000449",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そんな研究、原子力科学と関係があるようには思えない……）"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、違うのか？）"
+  },
+  "000461": {
+    "context": "000461",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（確かこのラボの正式名称は、『原子力生物学機構第６研究所』だ）"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（母さんは『原子力』じゃなくて、『生物学』の方の研究をしていたのか……？）"
+  },
+  "000511": {
+    "context": "000511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001788"
+  },
+  "000514": {
+    "context": "000514",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001806"
+  },
+  "000517": {
+    "context": "000517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001809"
+  },
+  "000520": {
+    "context": "000520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001812"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001882"
+  },
+  "000527": {
+    "context": "000527",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001900"
+  },
+  "000530": {
+    "context": "000530",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001903"
+  },
+  "000533": {
+    "context": "000533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001906"
+  },
+  "000536": {
+    "context": "000536",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001897"
+  },
+  "000542": {
+    "context": "000542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001915"
+  },
+  "000545": {
+    "context": "000545",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000548": {
+    "context": "000548",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001906"
+  },
+  "000558": {
+    "context": "000558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001916"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001934"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001937"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001940"
+  },
+  "000577": {
+    "context": "000577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001935"
+  },
+  "000580": {
+    "context": "000580",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001953"
+  },
+  "000583": {
+    "context": "000583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001956"
+  },
+  "000586": {
+    "context": "000586",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001959"
+  },
+  "000589": {
+    "context": "000589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0076 001962"
+  },
+  "000617": {
+    "context": "000617",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここで急に、ＢＣの話が出てきた……）"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『意識を作る』『原子力』『生物学』『ＢＣ』……この４つに、なんの接点が……？）"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそんな疑問を抱いた時――渡瀬が声を上げた。"
+  },
+  "000685": {
+    "context": "000685",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 002002"
+  },
+  "000715": {
+    "context": "000715",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 002215"
+  },
+  "000744": {
+    "context": "000744",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  "000755": {
+    "context": "000755",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 002260"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 002289"
+  },
+  "000795": {
+    "context": "000795",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 002300"
+  },
+  "000824": {
+    "context": "000824",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 002329"
+  },
+  "000835": {
+    "context": "000835",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "000884": {
+    "context": "000884",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とたんに渡瀬の心の中に、様々な疑問が沸き上がってくる。"
+  },
+  "000914": {
+    "context": "000914",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『なぜユウリは姿を消したのか？』"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『なぜサリュは逃げたのか？』"
+  },
+  "001038": {
+    "context": "001038",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『なぜ３名の要救助者は、未だに見つかっていないのか？』"
+  },
+  "001043": {
+    "context": "001043",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして渡瀬が最も強く思ったのは――"
+  },
+  "001312": {
+    "context": "001312",
+    "code": "0x85",
+    "string": "《もしあの子どもたちに、人の心を読む力があるんだとしたら……》"
+  },
+  "001313": {
+    "context": "001313",
+    "code": "0x86",
+    "string": "渡瀬"
+  },
+  "001314": {
+    "context": "001314",
+    "code": "0x86",
+    "string": "@import 0255 001312"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x85",
+    "string": "《子どもたちが逃げるのは……"
+  },
+  "001333": {
+    "context": "001333",
+    "code": "0x85",
+    "string": "オレたちの中に、彼らへの悪意を持った"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x85",
+    "string": "人間がいるからなんじゃないのか……！》"
+  },
+  "001336": {
+    "context": "001336",
+    "code": "0x86",
+    "string": "渡瀬"
+  },
+  "001337": {
+    "context": "001337",
+    "code": "0x86",
+    "string": "《子どもたちが逃げるのは……オレたちの中に、彼らへの悪意を持った人間がいるからなんじゃないのか……！》"
+  },
+  "001366": {
+    "context": "001366",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ――！）"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がたどり着きつつある結論に、夏彦は驚愕した。"
+  },
+  "001376": {
+    "context": "001376",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリと名乗ったあの少女が、コミュニケーターである可能性は非常に高い。"
+  },
+  "001381": {
+    "context": "001381",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてユウリとサリュが、『悪意を持った人間』から逃げているというのも、おそらく正解だ。"
+  },
+  "001386": {
+    "context": "001386",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あと足りないのは、渡瀬自身が『悪意を持った人間』であるという自覚だけだった。"
+  },
+  "001392": {
+    "context": "001392",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まずい！　もし渡瀬がその事を自覚してしまったら――！）"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x85",
+    "string": "@import 0240 003063"
+  },
+  "001510": {
+    "context": "001510",
+    "code": "0x85",
+    "string": "@import 0240 003065"
+  },
+  "001511": {
+    "context": "001511",
+    "code": "0x86",
+    "string": "@import 0240 003063"
+  },
+  "001512": {
+    "context": "001512",
+    "code": "0x86",
+    "string": "@import 0240 003067"
+  },
+  "001527": {
+    "context": "001527",
+    "code": "0x85",
+    "string": "@import 0240 003082"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x85",
+    "string": "@import 0240 003084"
+  },
+  "001530": {
+    "context": "001530",
+    "code": "0x86",
+    "string": "@import 0240 003082"
+  },
+  "001531": {
+    "context": "001531",
+    "code": "0x86",
+    "string": "@import 0240 003086"
+  },
+  "001546": {
+    "context": "001546",
+    "code": "0x85",
+    "string": "@import 0240 003101"
+  },
+  "001548": {
+    "context": "001548",
+    "code": "0x85",
+    "string": "@import 0240 003103"
+  },
+  "001549": {
+    "context": "001549",
+    "code": "0x86",
+    "string": "@import 0240 003101"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x86",
+    "string": "@import 0240 003105"
+  },
+  "001578": {
+    "context": "001578",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あのとき渡瀬の中で見た憎悪と殺意の光景が、まざまざと夏彦の意識に甦る。"
+  },
+  "001647": {
+    "context": "001647",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ！　今すぐ渡瀬の記憶を何とかしないと！）"
+  },
+  "001652": {
+    "context": "001652",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、夏彦が渡瀬の記憶に干渉しようとした瞬間、"
+  },
+  "001739": {
+    "context": "001739",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 003422"
+  },
+  "001744": {
+    "context": "001744",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "強烈な頭痛が渡瀬を襲った。"
+  },
+  "001835": {
+    "context": "001835",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、なんで！？　ぼくはまだ何も――！？）"
+  },
+  "001853": {
+    "context": "001853",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思わぬ事態に、夏彦が慌てて意識の集中を解くと――"
+  },
+  "001907": {
+    "context": "001907",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は資料室から飛び出して、近くのトイレに駆け込んでいた。"
+  },
+  "001933": {
+    "context": "001933",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき恵那が、渡瀬の異変に気付く。"
+  },
+  "001944": {
+    "context": "001944",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 003537"
+  },
+  "001955": {
+    "context": "001955",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 003548"
+  },
+  "001984": {
+    "context": "001984",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 003577"
+  },
+  "001995": {
+    "context": "001995",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 003588"
+  },
+  "002006": {
+    "context": "002006",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0076 003599"
+  },
+  "002035": {
+    "context": "002035",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0076 003628"
+  },
+  "002090": {
+    "context": "002090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は恵那の声を振り切って、資料室から飛び出し――"
+  },
+  "002095": {
+    "context": "002095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そのまま近くのトイレに駆け込んでいた。"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

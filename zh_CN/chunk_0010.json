@@ -550,6 +550,11 @@
     "developer_comment": "恵那",
     "string": "「还有人被困在地下，就擅自封锁隔离墙，而且还没办法打开！」"
   },
+  "001842": {
+    "context": "001842",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001853": {
     "context": "001853",
     "code": "0x45",
@@ -627,6 +632,11 @@
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「先不说我，我的学生们也被困在这里面了！」"
+  },
+  "002150": {
+    "context": "002150",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "002161": {
     "context": "002161",
@@ -1144,6 +1154,11 @@
     "developer_comment": "宇喜多",
     "string": "「嗯。大家一起边搜索边前进的话，效率会比较高」"
   },
+  "003745": {
+    "context": "003745",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "003774": {
     "context": "003774",
     "code": "0x45",
@@ -1401,5 +1416,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "说完，渡濑他们从监控室里飞奔而出。"
+  },
+  "004827": {
+    "context": "004827",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

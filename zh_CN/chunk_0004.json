@@ -1,4 +1,9 @@
 {
+  "000091": {
+    "context": "000091",
+    "code": "0x04",
+    "string": "@ignore"
+  },
   "000166": {
     "context": "000166",
     "code": "0x55",
@@ -9,6 +14,11 @@
     "code": "0x45",
     "developer_comment": "男",
     "string": "「等等！我这就去救你！」"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "000234": {
     "context": "000234",
@@ -70,6 +80,11 @@
     "developer_comment": "男",
     "string": "「不，还是交给我吧！」"
   },
+  "000487": {
+    "context": "000487",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000492": {
     "context": "000492",
     "code": "0x45",
@@ -117,6 +132,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "@import 0004 000397"
+  },
+  "000678": {
+    "context": "000678",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "000687": {
     "context": "000687",
@@ -970,6 +990,11 @@
     "developer_comment": "",
     "string": "她把刚刚的药拿在手上，继续开始说明。"
   },
+  "004163": {
+    "context": "004163",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "004285": {
     "context": "004285",
     "code": "0x45",
@@ -1018,6 +1043,11 @@
     "developer_comment": "",
     "string": "总觉得这药没什么现实感……看她这么冷静的样子，应该是真的吧。"
   },
+  "004416": {
+    "context": "004416",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "004421": {
     "context": "004421",
     "code": "0x45",
@@ -1053,6 +1083,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "总觉得这药没什么现实感……既然都说到这样了，只能相信了。"
+  },
+  "004526": {
+    "context": "004526",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "004536": {
     "context": "004536",
@@ -1257,5 +1292,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "他们在紧跟在后面。"
+  },
+  "005177": {
+    "context": "005177",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

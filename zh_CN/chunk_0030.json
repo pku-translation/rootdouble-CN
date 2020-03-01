@@ -1,0 +1,925 @@
+{
+  "000117": {
+    "context": "000117",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "000121": {
+    "context": "000121",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――渡瀬たちは車座になって、床に腰を下ろした。"
+  },
+  "000179": {
+    "context": "000179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、２時間分の疲れがどっと襲ってきて、全員の口からため息が漏れる。"
+  },
+  "000190": {
+    "context": "000190",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「はぁ……」"
+  },
+  "000195": {
+    "context": "000195",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう息をつくと、先ほどフラッシュオーバーに吹き飛ばされた時に打った肋骨が、かすかにうずいた。"
+  },
+  "000201": {
+    "context": "000201",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（痛みが長く続きすぎてる……こりゃ、ヒビいってるかな……）"
+  },
+  "000206": {
+    "context": "000206",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "疲労だけではなく、負傷も蓄積しているようだ。"
+  },
+  "000250": {
+    "context": "000250",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……守部に先生、体の調子はどうだ？」"
+  },
+  "000279": {
+    "context": "000279",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょっと指先が痺れるけど……平気だよ」"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私も、もう少し休んだら問題なさそうだわ」"
+  },
+  "000354": {
+    "context": "000354",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘は？」"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私も問題ありません……例の、肌が痺れるような感覚等も、ＡＤを投与したら消えました」"
+  },
+  "000429": {
+    "context": "000429",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……そうか、何よりだ」"
+  },
+  "000434": {
+    "context": "000434",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "という事はやはり、風見の訴えていた諸々の体調不良は、放射線障害だったのだろう。"
+  },
+  "000463": {
+    "context": "000463",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ＡＤの効果ってのは、やっぱかなり高いみたいだね。即座に効果が出るなんてさ」"
+  },
+  "000474": {
+    "context": "000474",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いくらなんでも、早く効き過ぎですけどね」"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「体調不良も薬の効用も、どちらも気のせいかもしれません。いわゆるプラシーボという奴かと」"
+  },
+  "000497": {
+    "context": "000497",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……でも、ＡＤはあった方がいいぞ」"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はプロキオンをちらりと見て言った。数値はまた上昇している。"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「見ろ、現在『３０９０ｍＳｖ』……遠からず第１危険基準値の『４０００ｍＳｖ』を超えそうだ」"
+  },
+  "000544": {
+    "context": "000544",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……そうなるとますます、ＡＤが重要になってきますね」"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「チェルノブイリ原発事故の際にも、４０００ｍＳｖ以上の環境下で事故処理作業を行った人がいたそうです」"
+  },
+  "000566": {
+    "context": "000566",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「その環境下にいた作業員の死亡率は、一説には１００％と……」"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に皆の表情が凍りついた。"
+  },
+  "000618": {
+    "context": "000618",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……ＡＤがない時代の話とは言え、１００％か」"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だんだん感覚が麻痺してきてるけど……普通に考えたら、物凄い放射線の中にいるのよね」"
+  },
+  "000660": {
+    "context": "000660",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くんたち、ＡＤを持っていればいいけど……！」"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生、そう焦るなよ」"
+  },
+  "000682": {
+    "context": "000682",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「空のメディカルケースや使用済みのＡＤがあったって事は、彼らは彼らでＡＤを入手している可能性が高いって事さ」"
+  },
+  "000711": {
+    "context": "000711",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そ、そうだよ椿山さん……急ぎすぎても危険なだけだよ。今はまず体を休めよう」"
+  },
+  "000742": {
+    "context": "000742",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……そうよね」"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が力ない笑みを浮かべる。"
+  },
+  "000752": {
+    "context": "000752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何かと口が悪かった恵那も、疲労を自覚し始めたのか、ひどく素直な様子だった。"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「椿山さん……本当は、かなり辛いのではありませんか？」"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「正直、それなりにね。走り詰めで疲れが溜まってきてるし……」"
+  },
+  "000825": {
+    "context": "000825",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「さらに弱音を吐いちゃうと……朝から何も食べてないから、ちょっとお腹も空いてきたわ」"
+  },
+  "000830": {
+    "context": "000830",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われて渡瀬も、空腹を自覚した。"
+  },
+  "000835": {
+    "context": "000835",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつから食べてないのか自分でもわからないが、腹の中には何も入っていないようだ。"
+  },
+  "000846": {
+    "context": "000846",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……でもオレは空腹より、渇きの方がキツい」"
+  },
+  "000857": {
+    "context": "000857",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「火や煙にいぶされつつ、走ったり跳んだりで、喉がもうカラカラだ」"
+  },
+  "000888": {
+    "context": "000888",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね……どこかで水を探したいわね」"
+  },
+  "000919": {
+    "context": "000919",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いえ、やめた方が良いでしょう」"
+  },
+  "000930": {
+    "context": "000930",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0012 001782"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「この施設内にある水は、すでに放射能汚染されている可能性が高いです」"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そんなものを飲んだら、体の内側から被曝しますよ」"
+  },
+  "000963": {
+    "context": "000963",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……マジかよ」"
+  },
+  "000992": {
+    "context": "000992",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「内部被曝っていうんだよ……そうなったらさすがに、ＡＤでも被曝を防げなくなっちゃうかもだよ」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ならばこの施設内にいる間は、水すら飲めないという事になる。"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最長であと７時間――その事について考えると、心底げんなりした。"
+  },
+  "001033": {
+    "context": "001033",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……あぁもう、どうしてこんな事に……！」"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "001050": {
+    "context": "001050",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「昨日までは平穏の中にいたのに、人生一寸先は闇ね……」"
+  },
+  "001055": {
+    "context": "001055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だんだん陰鬱とした気分が、その場に蔓延してきた。"
+  },
+  "001060": {
+    "context": "001060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを振り払うように、洵がことさら明るく言う。"
+  },
+  "001089": {
+    "context": "001089",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ椿山さん、暗い話はやめようよ。あたしたちが必ず、椿山さんも生徒たちも助けるからさ」"
+  },
+  "001120": {
+    "context": "001120",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あっ……ごめんなさい、ちょっと弱気になっていたみたい……」"
+  },
+  "001151": {
+    "context": "001151",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「もしこんなところで、死んでしまったらなんて思うと――」"
+  },
+  "001162": {
+    "context": "001162",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「や、やめろよ縁起でもない！」"
+  },
+  "001193": {
+    "context": "001193",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そんな事を言ってはダメですよ。弱気は危険を倍加させます」"
+  },
+  "001222": {
+    "context": "001222",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「全くだよ。ここで誰かを死なせるつもりなんて、あたしにはさらさらないからね」"
+  },
+  "001253": {
+    "context": "001253",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……強いのね、３人とも」"
+  },
+  "001258": {
+    "context": "001258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は俯いて、ぽつりと呟いた。"
+  },
+  "001304": {
+    "context": "001304",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……ごめんなさい、今まで色々失礼な事を言って」"
+  },
+  "001346": {
+    "context": "001346",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あなたたち、さすがはレスキュー隊だわ……私は何の役にも立たないくせに、口ばかり達者で……」"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「えっ？　いやその……いいんだよ、気にしないで」"
+  },
+  "001386": {
+    "context": "001386",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ。誰であれこんな状況に置かれたら、気が立つのは当然です」"
+  },
+  "001417": {
+    "context": "001417",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも……これからは皆さんの言う事を聞くようにするわ」"
+  },
+  "001441": {
+    "context": "001441",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それがいいな。ケンカばっかしてるより、こうして仲良くしてる方が嬉しいよ」"
+  },
+  "001472": {
+    "context": "001472",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう？」"
+  },
+  "001483": {
+    "context": "001483",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ほら、オレなんか気が弱いからさ……女の子同士のケンカとか、端から見ていて胃が痛いんだ」"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あはっ、なに情けないこと言ってるのよ？」"
+  },
+  "001627": {
+    "context": "001627",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うわー、普段の隊長からは絶対出てこないような言葉だぁ」"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そんな一面もあったんですね？」"
+  },
+  "001751": {
+    "context": "001751",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の軽い冗談に、みんなが笑ってくれた。"
+  },
+  "001756": {
+    "context": "001756",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやく緊張が、少しはほぐれてきたようだ。"
+  },
+  "001767": {
+    "context": "001767",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁなんだ、どうせするなら明るい話をしようぜ」"
+  },
+  "001778": {
+    "context": "001778",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「明るい話？　そんな材料があるかしら」"
+  },
+  "001789": {
+    "context": "001789",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、いっこあるよ。隊長について、見直した事」"
+  },
+  "001800": {
+    "context": "001800",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  "001811": {
+    "context": "001811",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「取れたてのネタだよ。さっきはカッコよかったねぇ隊長？」"
+  },
+  "001822": {
+    "context": "001822",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「？？　さっきとは？」"
+  },
+  "001833": {
+    "context": "001833",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしとユウリちゃんを背負って、ガスの中を走った時さ～」"
+  },
+  "001844": {
+    "context": "001844",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだ、意識あったのか」"
+  },
+  "001855": {
+    "context": "001855",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うっすらとね。しかし隊長らしからぬ、熱い行動だったね？」"
+  },
+  "001869": {
+    "context": "001869",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ああ、その方がいいな」"
+  },
+  "001880": {
+    "context": "001880",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、こうした状況下で一番恐ろしいのは、チームワークが乱れることですから」"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうね……皆さん、本当にごめんなさい」"
+  },
+  "001916": {
+    "context": "001916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心より申し訳無さそうな恵那の表情が、その場の空気を暗くした。"
+  },
+  "001927": {
+    "context": "001927",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ま……まぁなんだ、どうせするなら明るい話をしようぜ」"
+  },
+  "001958": {
+    "context": "001958",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「明るい話って言われても……」"
+  },
+  "001987": {
+    "context": "001987",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001789"
+  },
+  "001998": {
+    "context": "001998",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001811"
+  },
+  "002038": {
+    "context": "002038",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0030 001822"
+  },
+  "002049": {
+    "context": "002049",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001833"
+  },
+  "002060": {
+    "context": "002060",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 001844"
+  },
+  "002089": {
+    "context": "002089",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001855"
+  },
+  "002150": {
+    "context": "002150",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あ、私も覚えてるわ。橘さんに『２人背負って下さい』って言われた時――」"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「間髪入れず、『任せろ！』って言ってたわね」"
+  },
+  "002172": {
+    "context": "002172",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そりゃ、考えてる時間がなかったから……」"
+  },
+  "002183": {
+    "context": "002183",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「謙遜しないで。男らしくて素敵だったわよ」"
+  },
+  "002194": {
+    "context": "002194",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002723"
+  },
+  "002199": {
+    "context": "002199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真正面から素敵などと言われ、渡瀬は少々面食らった。"
+  },
+  "002210": {
+    "context": "002210",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだよ、急に手のひら返したように……最初は『頼りない』とか言ってたじゃないか」"
+  },
+  "002221": {
+    "context": "002221",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そういう人がいざという時に頑張ったりすると、余計に素敵に見えるものでしょ？」"
+  },
+  "002267": {
+    "context": "002267",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002278": {
+    "context": "002278",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……だからな、そのな」"
+  },
+  "002289": {
+    "context": "002289",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら、照れちゃって。いい年なのにけっこう純情なのね？」"
+  },
+  "002300": {
+    "context": "002300",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あー、なに椿山さん。それってもしかして、隊長くどいてんの？」"
+  },
+  "002311": {
+    "context": "002311",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「さぁ、どうかしらね？」"
+  },
+  "002316": {
+    "context": "002316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "くすくすと笑う恵那の、本心は見て取れない。"
+  },
+  "002331": {
+    "context": "002331",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いやしかし……そのなんだ、悪い気はしないな）"
+  },
+  "002376": {
+    "context": "002376",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思う渡瀬の表情は、緩んでいたのだろうか。風見が鋭く睨んできた。"
+  },
+  "002387": {
+    "context": "002387",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長、任務中にヤニさがらないで下さい。みっともない」"
+  },
+  "002398": {
+    "context": "002398",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「み、みっともない？」"
+  },
+  "002409": {
+    "context": "002409",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら、厳しいのね橘さん」"
+  },
+  "002420": {
+    "context": "002420",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そう、超厳しいんだよねぇ……特に男には」"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そのせいでせっかくこんな美人なのに、いまいちモテないんだよ」"
+  },
+  "002439": {
+    "context": "002439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はやれやれと首を振った。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「先生よ、こんな時にあんまりからかうもんじゃないぞ」"
+  },
+  "002461": {
+    "context": "002461",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら、こんな時だからこそよ。吊り橋効果ってあるでしょ」"
+  },
+  "002472": {
+    "context": "002472",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「吊り橋効果？」"
+  },
+  "002483": {
+    "context": "002483",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「危機的状況だと、異性がより素敵に見えるって心理効果の事」"
+  },
+  "002494": {
+    "context": "002494",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「生理的に発生する動悸を、恋愛時の高揚と錯覚するの」"
+  },
+  "002505": {
+    "context": "002505",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なるほどねぇ……」"
+  },
+  "002510": {
+    "context": "002510",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さすがは教師、理路整然とした説明だ――と思った瞬間。"
+  },
+  "002561": {
+    "context": "002561",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「椿山さん、それはまさしく錯覚ですよ」"
+  },
+  "002566": {
+    "context": "002566",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が冷たく口を挟んだ。"
+  },
+  "002577": {
+    "context": "002577",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なにっ？」"
+  },
+  "002588": {
+    "context": "002588",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「普段の隊長ならいざ知らず、今日の隊長は……その、いつもの隊長の七割減くらいですので」"
+  },
+  "002599": {
+    "context": "002599",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘、お前、結構キツイな……！」"
+  },
+  "002610": {
+    "context": "002610",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そう、超キツいんだよねぇ……特に男には」"
+  },
+  "002621": {
+    "context": "002621",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 002431"
+  },
+  "002671": {
+    "context": "002671",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002682": {
+    "context": "002682",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「余計なお世話ですよ、守部」"
+  },
+  "002693": {
+    "context": "002693",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それももったいない話ねぇ。綺麗で凛々しくて有能で、私が男なら放っておかないのにね」"
+  },
+  "002704": {
+    "context": "002704",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「椿山さんも、守部の与太話に乗らないように」"
+  },
+  "002725": {
+    "context": "002725",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "002727": {
+    "context": "002727",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "002741": {
+    "context": "002741",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「やれやれ……今日は特にお固いね、お姉ちゃんってば」"
+  },
+  "002746": {
+    "context": "002746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、風見が眉根を寄せた。"
+  },
+  "002757": {
+    "context": "002757",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「守部、任務中は『副隊長』と呼ぶようにといつも言っているでしょう」"
+  },
+  "002768": {
+    "context": "002768",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん、今『お姉ちゃん』って言ったか？」"
+  },
+  "002779": {
+    "context": "002779",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「姉妹には見えないし、苗字も違うけど……」"
+  },
+  "002790": {
+    "context": "002790",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あー、あたしたち家が近所でさ、子供の頃からのつきあいなんだよ」"
+  },
+  "002801": {
+    "context": "002801",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「とは言え、公私混同は止めなさいといっているのですが……」"
+  },
+  "002812": {
+    "context": "002812",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いーじゃん休憩中くらい。ねぇお姉ちゃん？」"
+  },
+  "002823": {
+    "context": "002823",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「だからやめなさいと言うのに……もう……」"
+  },
+  "002828": {
+    "context": "002828",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が呆れたようにため息をつき、渡瀬たちは笑う。"
+  },
+  "002833": {
+    "context": "002833",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは、この施設に来てから――"
+  },
+  "002838": {
+    "context": "002838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いや、渡瀬が目を覚ましてから初めての、穏やかな時間だった。"
+  },
+  "002887": {
+    "context": "002887",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だが平穏は、長くは続かない。"
+  },
+  "002892": {
+    "context": "002892",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皆を現実に引き戻すかのように、宇喜多の声が聞こえた。"
+  },
+  "002903": {
+    "context": "002903",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

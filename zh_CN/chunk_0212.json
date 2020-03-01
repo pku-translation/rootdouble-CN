@@ -1,0 +1,648 @@
+{
+  "000180": {
+    "context": "000180",
+    "code": "0x55",
+    "string": "@import 0202 000094"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ん……夏彦くんじゃないか？」"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え……あ！」"
+  },
+  "000207": {
+    "context": "000207",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦ははっとして、声の主を見た。"
+  },
+  "000212": {
+    "context": "000212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "路肩に停車した車があり、その中から――宇喜多が現れた。"
+  },
+  "000289": {
+    "context": "000289",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「宇喜多のおじさん！」"
+  },
+  "000300": {
+    "context": "000300",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「どうしたんだい？　こんなとこで騒いで」"
+  },
+  "000305": {
+    "context": "000305",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多が不思議そうな表情を浮かべ、夏彦たちに問う。"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき不意に、彼が事故に遭遇した事を思い出した。"
+  },
+  "000418": {
+    "context": "000418",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「どうしておじさん、事故なんか……」"
+  },
+  "000429": {
+    "context": "000429",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0138 000975"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でもＡＤＳの故障なんてめったに起きないでしょ？」"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――あの時は事故の原因について、深く考えてはいなかったが……"
+  },
+  "000578": {
+    "context": "000578",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかしてあれは、ただの事故じゃなくて……）"
+  },
+  "000584": {
+    "context": "000584",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさんはラボの関係者だから、Ｑに狙われたのか！？）"
+  },
+  "000589": {
+    "context": "000589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は愕然として、宇喜多に駆け寄った。"
+  },
+  "000600": {
+    "context": "000600",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おじさん、聞いて下さい！　実はこんな事が――」"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はましろと共に、サリュの予想について語った。"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はサリュの事を知らないだろうから、彼女についての説明も添えて。"
+  },
+  "000633": {
+    "context": "000633",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてそれを聞き終えた宇喜多は――険しい顔で言った。"
+  },
+  "000662": {
+    "context": "000662",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……うちがＱに狙われてる！？　大ごとじゃないか！」"
+  },
+  "000673": {
+    "context": "000673",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おじさんもＱを知ってるんですね？」"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕の趣味はパソコンだ。当然ネットだってやるし、それで小耳には挟んでいた」"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「まさか無関係な自分の職場が狙われるなんて、思いもしなかったがね」"
+  },
+  "000736": {
+    "context": "000736",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皮肉めいた言い方だったが、夏彦たちの言葉は信じてくれたようだ。"
+  },
+  "000741": {
+    "context": "000741",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はほっとしつつ、説明を加える。"
+  },
+  "000752": {
+    "context": "000752",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さっき１人、そのテロリストを捕まえました」"
+  },
+  "000781": {
+    "context": "000781",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「捕まえたって！？　き、君たちがかい！？」"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「はい。でもそいつも陽動要員だったかもしれないんですよ」"
+  },
+  "000839": {
+    "context": "000839",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ふむ……なら、まだ安心はできないな」"
+  },
+  "000868": {
+    "context": "000868",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「しかし我がラボはこの街で、一番警備が厳しい。テロリストが狙おうと狙うまいとね」"
+  },
+  "000879": {
+    "context": "000879",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あの警備が、簡単に破れるとは思えないよ」"
+  },
+  "000908": {
+    "context": "000908",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それでも警戒するに越した事はない」"
+  },
+  "000937": {
+    "context": "000937",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、む……確かに万が一あそこが占拠でもされれば大変なことだ。ならばどうするか……」"
+  },
+  "000966": {
+    "context": "000966",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「よし！　さっそく警備主任に言って、警備を一層厳しくしてもらうとするよ！」"
+  },
+  "001010": {
+    "context": "001010",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「はい、お願いします！」"
+  },
+  "001015": {
+    "context": "001015",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろと宇喜多が笑みを交わす。"
+  },
+  "001098": {
+    "context": "001098",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その横で夏彦は密かに、精神を集中し始めた。"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（すみませんおじさん、信用してないわけじゃないんですが……）"
+  },
+  "001109": {
+    "context": "001109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の時と同様、念のため宇喜多の心を読む事にした。"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の脳波を探り、『ＴＹＰＥ１』だと判断する。"
+  },
+  "001119": {
+    "context": "001119",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらに続けて、心を知ろうと念じる。"
+  },
+  "001125": {
+    "context": "001125",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（頼みますおじさん、どうか心を開いてて下さい……！）"
+  },
+  "001130": {
+    "context": "001130",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう思った時、頭の中に声が響いた。"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x85",
+    "string": "《この子たちまで巻き込むわけにはいかない……》"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x86",
+    "string": "宇喜多"
+  },
+  "001420": {
+    "context": "001420",
+    "code": "0x86",
+    "string": "@import 0212 001418"
+  },
+  "001435": {
+    "context": "001435",
+    "code": "0x85",
+    "string": "《だが時間が無い、すぐに対応しなければ！》"
+  },
+  "001436": {
+    "context": "001436",
+    "code": "0x86",
+    "string": "宇喜多"
+  },
+  "001437": {
+    "context": "001437",
+    "code": "0x86",
+    "string": "@import 0212 001435"
+  },
+  "001471": {
+    "context": "001471",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0165 001928"
+  },
+  "001476": {
+    "context": "001476",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "３回目ともなると徐々に慣れてきた。またもエンパシーに成功した。"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして何よりありがたい事に、宇喜多も夏彦たちに心を開いていてくれたようだ。"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ありがとうございます、おじさん。おじさんに相談できてよかった」"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ん？　いやいや、当然の事だよ。僕にはラボの職員としての責任がある」"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「何が起きたとしても……君たちを危険にさらす事はないと約束しよう」"
+  },
+  "001717": {
+    "context": "001717",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼が味方になったのは、夏彦たちにとって大きな支えになる気がした。"
+  },
+  "001723": {
+    "context": "001723",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "001728": {
+    "context": "001728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてサリュは大人しく、宇喜多の言葉を聞いていた。"
+  },
+  "001757": {
+    "context": "001757",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「それじゃさっそく僕はラボに戻る。悪いがこれで失礼するよ」"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0212 001010"
+  },
+  "001791": {
+    "context": "001791",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "「キャンキャン！」"
+  },
+  "001811": {
+    "context": "001811",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦とアリスの鳴き声を背に、宇喜多は車に乗り込む。"
+  },
+  "001822": {
+    "context": "001822",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてラボに向けて、走り去って行った。"
+  },
+  "001827": {
+    "context": "001827",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、走り去っていく車を見送っていると――サリュがぽつりと呟いた。"
+  },
+  "001873": {
+    "context": "001873",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……私は他人の心がわからない」"
+  },
+  "001884": {
+    "context": "001884",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん……？　なんだ突然？」"
+  },
+  "001913": {
+    "context": "001913",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや、だから２人に聞きたい事があるの」"
+  },
+  "001924": {
+    "context": "001924",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「宇喜多佳司の言動に、不審な点を感じた？」"
+  },
+  "001953": {
+    "context": "001953",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え……不審？」"
+  },
+  "001958": {
+    "context": "001958",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "嫌な予感が、急速に膨らんできた。"
+  },
+  "001963": {
+    "context": "001963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはアリスを撫でて続ける。"
+  },
+  "001992": {
+    "context": "001992",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「不明な点というのは、アリスが鳴いた理由について」"
+  },
+  "002003": {
+    "context": "002003",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「さっきの『キャンキャン！』という鳴き声は、相手が焦っている時の声」"
+  },
+  "002032": {
+    "context": "002032",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……あの人はなぜ焦ったの？」"
+  },
+  "002043": {
+    "context": "002043",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0012 004043"
+  },
+  "002048": {
+    "context": "002048",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉を聞き、夏彦たちは息を呑んだ。"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ちょっと待って、焦ってたって……」"
+  },
+  "002088": {
+    "context": "002088",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうは見えなかったぞ？」"
+  },
+  "002117": {
+    "context": "002117",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「アリスは人間には認識困難な、微細な表情の変化も検出する」"
+  },
+  "002128": {
+    "context": "002128",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「肌ににじむ汗、筋肉の引きつり、体の震えなど……」"
+  },
+  "002157": {
+    "context": "002157",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「その分析が間違っていなければ、あの人は焦っていた。でもその理由がわからない」"
+  },
+  "002163": {
+    "context": "002163",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そんな……え……？）"
+  },
+  "002169": {
+    "context": "002169",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ど、どっちなんだ？　おじさんは『被害者側』なのか『加害者側』なのか？）"
+  },
+  "002174": {
+    "context": "002174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考えているうち、ふと夏彦は気づいた。"
+  },
+  "002179": {
+    "context": "002179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さきほど聞いた、宇喜多の心の声――そこに妙な点がある事に。"
+  },
+  "002409": {
+    "context": "002409",
+    "code": "0x85",
+    "string": "@import 0212 001418"
+  },
+  "002410": {
+    "context": "002410",
+    "code": "0x86",
+    "string": "宇喜多"
+  },
+  "002411": {
+    "context": "002411",
+    "code": "0x86",
+    "string": "@import 0212 001418"
+  },
+  "002426": {
+    "context": "002426",
+    "code": "0x85",
+    "string": "@import 0212 001435"
+  },
+  "002427": {
+    "context": "002427",
+    "code": "0x86",
+    "string": "宇喜多"
+  },
+  "002428": {
+    "context": "002428",
+    "code": "0x86",
+    "string": "@import 0212 001435"
+  },
+  "002548": {
+    "context": "002548",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「『時間がない』……！？」"
+  },
+  "002553": {
+    "context": "002553",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼が心を開いていた事がわかって、すっかり安心してしまっていたが――"
+  },
+  "002558": {
+    "context": "002558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考えてみれば、妙だ。"
+  },
+  "002563": {
+    "context": "002563",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜ宇喜多は、サリュの予想について話しただけなのに、『時間がない』などと思ったのだろうか。"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ちょ、ちょっと待て……！）"
+  },
+  "002574": {
+    "context": "002574",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おかしな点はまだある。"
+  },
+  "002579": {
+    "context": "002579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『この子たちまで巻き込むわけにはいかない』という言葉は、他にもすでに巻き込んだ人間がいるという風にも取れる。"
+  },
+  "002590": {
+    "context": "002590",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「か……可能性は２つある」"
+  },
+  "002601": {
+    "context": "002601",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「宇喜多のおじさんが本当に、テロリストに脅威を感じていたか――」"
+  },
+  "002630": {
+    "context": "002630",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「実はおじさんも、テロリストの仲間で……計画を察知されたと思ったから……？」"
+  },
+  "002642": {
+    "context": "002642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どくん、と夏彦の心臓が跳ねた。"
+  },
+  "002648": {
+    "context": "002648",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（Ｑは、『内通者』を使う……！）"
+  },
+  "002654": {
+    "context": "002654",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（おじさんは、ラボへのテロを成功させるための、内通者……！？）"
+  },
+  "002665": {
+    "context": "002665",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……まずい！　とりあえず、おじさんを追おう！」"
+  },
+  "002694": {
+    "context": "002694",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0140 002460"
+  },
+  "002748": {
+    "context": "002748",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "忌わしい記憶について、気にしている余裕はなかった。"
+  },
+  "002753": {
+    "context": "002753",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは、宇喜多が走り去った方向に駆け出した。"
+  },
+  "002765": {
+    "context": "002765",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

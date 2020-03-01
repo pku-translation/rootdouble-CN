@@ -1,0 +1,675 @@
+{
+  "000050": {
+    "context": "000050",
+    "code": "0x55",
+    "string": "√Current Chapter1"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  "000071": {
+    "context": "000071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 000068"
+  },
+  "000076": {
+    "context": "000076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0224 001445"
+  },
+  "000081": {
+    "context": "000081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 000078"
+  },
+  "000086": {
+    "context": "000086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 000083"
+  },
+  "000092": {
+    "context": "000092",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（なんだ……？）"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何が起きているのかわからない。"
+  },
+  "000102": {
+    "context": "000102",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分は生きているのか死んでいるのか、それすら判然としない。"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（ぼくは、いったい……？）"
+  },
+  "000113": {
+    "context": "000113",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "戸惑いの感情が、虚無に波紋を広げたその時――"
+  },
+  "000197": {
+    "context": "000197",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "（こ……これは！）"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――瞬時に、記憶が戻ってきた。"
+  },
+  "000285": {
+    "context": "000285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分が何者か。どこで何をして、今のこの状況に置かれているのか。"
+  },
+  "000291": {
+    "context": "000291",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ……！　ぼくは、天川夏彦だ）"
+  },
+  "000296": {
+    "context": "000296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ただのいち高校生だった自分が、テロの情報を掴み、それを阻止しようと、ラボに来た事も。"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、その果てに――"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "テロリストの銃撃を受けた事も！"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあ――やっぱり、ぼくは死んだのか！？）"
+  },
+  "000474": {
+    "context": "000474",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや……！）"
+  },
+  "000558": {
+    "context": "000558",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だって、この脈動は……！）"
+  },
+  "000570": {
+    "context": "000570",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かに感じる。"
+  },
+  "000575": {
+    "context": "000575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは――心臓の鼓動だった。"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに視覚が聴覚が触覚が嗅覚が味覚が――痛覚が。"
+  },
+  "000640": {
+    "context": "000640",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "肉体が、意識が、ここにある。"
+  },
+  "000646": {
+    "context": "000646",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくはまだ、死んでいない……？）"
+  },
+  "000651": {
+    "context": "000651",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 000597"
+  },
+  "000657": {
+    "context": "000657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 000602"
+  },
+  "000771": {
+    "context": "000771",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@import 0003 000716"
+  },
+  "000782": {
+    "context": "000782",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@import 0003 000727"
+  },
+  "000793": {
+    "context": "000793",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "@import 0003 000738"
+  },
+  "000798": {
+    "context": "000798",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声に呼び起こされ――"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は、眼を開けた。"
+  },
+  "001006": {
+    "context": "001006",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@import 0003 000951"
+  },
+  "001056": {
+    "context": "001056",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "@import 0003 001001"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0022 000145"
+  },
+  "001106": {
+    "context": "001106",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "目の前にいるのは、２人の女性レスキュー隊員だった。"
+  },
+  "001111": {
+    "context": "001111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その内の１人に見覚えがある。"
+  },
+  "001117": {
+    "context": "001117",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……洵、さん……？）"
+  },
+  "001122": {
+    "context": "001122",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言おうとした、が――"
+  },
+  "001127": {
+    "context": "001127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜか唇がマヒしたように動かない。"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "感覚はあるのに、神経がちゃんと肉体に接続されていないような……それは奇妙な感覚だった。"
+  },
+  "001138": {
+    "context": "001138",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、なんだ……どうなってるんだ？）"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が疑問に思った時、"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0003 001131"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "口が勝手に動いた。"
+  },
+  "001164": {
+    "context": "001164",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらに体までもが、夏彦の意思を無視して起き上がる。"
+  },
+  "001218": {
+    "context": "001218",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（…………！？）"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はその景色に困惑した。"
+  },
+  "001228": {
+    "context": "001228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは夏彦が意識を失う直前にいた場所と、明らかに異なる場所だった。"
+  },
+  "001392": {
+    "context": "001392",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0003 001413"
+  },
+  "001397": {
+    "context": "001397",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に体が苦痛の声を上げ、再び通路に倒れ込む。"
+  },
+  "001403": {
+    "context": "001403",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、何なんだ……？）"
+  },
+  "001408": {
+    "context": "001408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頭が痛んだという感覚はあるのに、なぜか実感がほとんどない。"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0003 001429"
+  },
+  "001430": {
+    "context": "001430",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0003 001440"
+  },
+  "001435": {
+    "context": "001435",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "また口が勝手に動く。そして己の腕が、ひとりでに視界に入り込んでくる。"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（え……！？　なんでぼくがレスキュー隊の服を……！？）"
+  },
+  "001486": {
+    "context": "001486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると夏彦の戸惑いを無視して、体が壁に手をついて立ち上がる。"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんでさっきから、勝手に体が動く……？）"
+  },
+  "001541": {
+    "context": "001541",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくは……誰かに操られているのか？）"
+  },
+  "001546": {
+    "context": "001546",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそんな疑問を抱くと同時に、"
+  },
+  "001569": {
+    "context": "001569",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発音が聞こえた。"
+  },
+  "001640": {
+    "context": "001640",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@import 0003 001691"
+  },
+  "001670": {
+    "context": "001670",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0003 001721"
+  },
+  "001699": {
+    "context": "001699",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "@import 0003 001750"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って、２人のレスキュー隊員が駆けて行く。"
+  },
+  "001769": {
+    "context": "001769",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくが……レスキューの『隊長』だって……！？）"
+  },
+  "001774": {
+    "context": "001774",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "困惑する夏彦をよそに、肉体は勝手に動いて、２人の後を追う。"
+  },
+  "001860": {
+    "context": "001860",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0003 001920"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声に、聞き覚えがある事に気付いた。"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはましろと夏彦を拳銃で撃った、あのテロリストの声―－"
+  },
+  "002051": {
+    "context": "002051",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（え！？　という事は……）"
+  },
+  "002057": {
+    "context": "002057",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（この体は、あの男のものなのか！？）"
+  },
+  "002246": {
+    "context": "002246",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第１エリア地下２階・外周棟は、業火に包まれていた。"
+  },
+  "002251": {
+    "context": "002251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "体が夏彦の意思とは別に、呆然と立ち尽くす。"
+  },
+  "002257": {
+    "context": "002257",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（やっぱりそうだ……！　ぼくは今、あの男の中に入っているんだ！）"
+  },
+  "002262": {
+    "context": "002262",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "理由はわからないが、とにかくそれだけは理解した。"
+  },
+  "002313": {
+    "context": "002313",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき男の耳に、かすかな声が聞こえ……"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0003 003234"
+  },
+  "002451": {
+    "context": "002451",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの部屋……誰かいる！」"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0106 004251"
+  },
+  "002463": {
+    "context": "002463",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――だったら、助けないと！）"
+  },
+  "002520": {
+    "context": "002520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう思うと同時に、男は炎の合間を駆け抜けていた。"
+  },
+  "002581": {
+    "context": "002581",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0003 003493"
+  },
+  "002640": {
+    "context": "002640",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0003 003568"
+  },
+  "002645": {
+    "context": "002645",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男が眼を凝らすと、煙の合間に――"
+  },
+  "002760": {
+    "context": "002760",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ッ！！？？）"
+  },
+  "002766": {
+    "context": "002766",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ゆ、悠里！？　なんでこんな所に悠里が！？）"
+  },
+  "002772": {
+    "context": "002772",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まさかぼくは、また幻覚を見ているのか！？）"
+  },
+  "002777": {
+    "context": "002777",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った直後、少女の顔が大きく引きつった。"
+  },
+  "002829": {
+    "context": "002829",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0003 003760"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき意識の中に、夏彦とは別の思念が駆け抜ける。"
+  },
+  "002892": {
+    "context": "002892",
+    "code": "0x85",
+    "string": "《な……なぜそんな顔を！？》"
+  },
+  "002893": {
+    "context": "002893",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "002894": {
+    "context": "002894",
+    "code": "0x86",
+    "string": "@import 0243 002892"
+  },
+  "002923": {
+    "context": "002923",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0039 004013"
+  },
+  "002929": {
+    "context": "002929",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんだ、今のテレパシーみたいな声は！？）"
+  },
+  "002934": {
+    "context": "002934",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "気づけば男の足が止まっている。"
+  },
+  "002940": {
+    "context": "002940",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかして、今の声……こいつが思った事なのか！？）"
+  },
+  "002946": {
+    "context": "002946",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こいつが認識してるって事は、あれは幻覚なんかじゃなくて――ッ！？）"
+  },
+  "002952": {
+    "context": "002952",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まずい！　だったら早く悠里を助けなきゃ！）"
+  },
+  "002957": {
+    "context": "002957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見ると悠里の体に、炎がどんどん迫っている。"
+  },
+  "002963": {
+    "context": "002963",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こいつの声がぼくに聞こえたって事は、ぼくの声だってきっとこいつに届くはずだ！）"
+  },
+  "002968": {
+    "context": "002968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はテレパシーを使う時のように、心の底から強く思った。"
+  },
+  "002979": {
+    "context": "002979",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 003839"
+  },
+  "002990": {
+    "context": "002990",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 003856"
+  },
+  "003001": {
+    "context": "003001",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「？！」"
+  },
+  "003012": {
+    "context": "003012",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 003997"
+  },
+  "003017": {
+    "context": "003017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとその声は、男の頭の中に響き渡り――"
+  },
+  "003022": {
+    "context": "003022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男は弾かれたように、燃え盛る炎の中に飛び込んだ。"
+  },
+  "003078": {
+    "context": "003078",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

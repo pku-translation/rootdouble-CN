@@ -174,13 +174,21 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        public void DumpTranslateSource(string name, string path, IList<string> references)
+        public void Modify(Stream stream, Encoding encoding)
+        {
+            foreach (var (name, segs) in _ranges)
+            {
+                foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
+                {
+                    seg.Modify(stream, encoding, null, false);
+                }
+            }
+        }
+
+        public void DumpTranslateSource(string name, FilePath path, IList<string> references)
         {
             var segs = Segments(name);
             if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
-
-            using var writer = new StreamWriter(path, false, Utils.Utf8);
-            writer.NewLine = "\n";
 
             var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
             foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
@@ -194,7 +202,7 @@ namespace CsYetiTools.FileTypes
                 });
             }
 
-            writer.WriteLine(JsonConvert.SerializeObject(dict, Utils.JsonSettings));
+            Utils.SerializeJsonToFile(dict, path);
         }
 
         public void DumpTranslateSource(FilePath dirPath, FilePath stringPoolDirPath)
@@ -205,6 +213,51 @@ namespace CsYetiTools.FileTypes
                 var sexprs = SExpr.ParseFile(stringPoolDirPath / (name + ".ss"));
                 var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
                 DumpTranslateSource(name, dirPath / (name.Replace('-', '_') + ".json"), references);
+            }
+        }
+
+        private void ApplyTranslations(string name, IList<string> references, IList<string> translations)
+        {
+            var segs = Segments(name);
+            if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
+            if (segs.Count != translations.Count) throw new ArgumentException($"{name}: translations({references.Count}) doesnt match segs({segs.Count})");
+
+            foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
+            {
+                var trans = translations[i].Trim();
+                if (trans == "@en") { trans = seg.Content; }
+                else if (trans == "@cp" || trans == "@jp") { trans = references[i]; }
+
+                seg.Content = trans;
+            }
+        }
+
+        public void ApplyTranslations(FilePath translationDirPath, FilePath referenceStringPoolPath)
+        {
+            foreach (var name in Names)
+            {
+                var sexprs = SExpr.ParseFile(referenceStringPoolPath / (name + ".ss"));
+                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
+
+                var path = translationDirPath / (name.Replace('-', '_') + ".json");
+                if (File.Exists(path))
+                {
+                    var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
+                    var translations = dict.Values.Select(info => info.String).ToList();
+
+                    ApplyTranslations(name, references, translations);
+                }
+            }
+        }
+
+        public IEnumerable<char> EnumerateChars()
+        {
+            foreach (var (name, segs) in _ranges)
+            {
+                foreach (var seg in segs)
+                {
+                    foreach (var c in seg.Content) yield return c;
+                }
             }
         }
     }

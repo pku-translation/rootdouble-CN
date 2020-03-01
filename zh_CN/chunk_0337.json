@@ -1,0 +1,989 @@
+{
+  "000056": {
+    "context": "000056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――施設内にはやはり、放射線・炎・突発的な爆発など、無数の危機が満ちていた。"
+  },
+  "000062": {
+    "context": "000062",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（できるだけ早く、堂島先輩たちと合流したいけど……）"
+  },
+  "000067": {
+    "context": "000067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵たちと同様、施設内に閉じ込められた『堂島』『桧山』と合流できれば、かなり心強いと思っていた。"
+  },
+  "000072": {
+    "context": "000072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、堂島と合流したときには――"
+  },
+  "000125": {
+    "context": "000125",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼は変わり果てた姿になっていた。"
+  },
+  "000130": {
+    "context": "000130",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……その部屋の凄惨な光景は、渡瀬にも風見にも、精神的なダメージを与えたようだ。"
+  },
+  "000190": {
+    "context": "000190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがＡＤは相変わらず足りず、時間は刻一刻と消耗していく。"
+  },
+  "000195": {
+    "context": "000195",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "仲間の死を乗り越え、捜索はなおも続いた。"
+  },
+  "000200": {
+    "context": "000200",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ガスの蔓延する区画を乗り越え、消火システムを起動する。"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "消火が終了し、ガスの換気が終わるまでのわずかな時間、洵たちは休憩する事にした……。"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000250"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 000279"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 000310"
+  },
+  "000446": {
+    "context": "000446",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000503": {
+    "context": "000503",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0030 000385"
+  },
+  "000532": {
+    "context": "000532",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……でも、安心はできないぞ」"
+  },
+  "000537": {
+    "context": "000537",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はプロキオンをちらりと見て言った。"
+  },
+  "000566": {
+    "context": "000566",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「見ろ、現在『３０９０ｍＳｖ』……遠からず、第１危険基準値の『４０００ｍＳｖ』を超えそうだ」"
+  },
+  "000597": {
+    "context": "000597",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 000660"
+  },
+  "000883": {
+    "context": "000883",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000671"
+  },
+  "000899": {
+    "context": "000899",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000682"
+  },
+  "000930": {
+    "context": "000930",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ん……気遣ってくれてるの？」"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「優しいのね、隊長さん」"
+  },
+  "001017": {
+    "context": "001017",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なに言ってんだ。レスキュー隊として当たり前の事だ」"
+  },
+  "001084": {
+    "context": "001084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001394": {
+    "context": "001394",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうだね……今は自分の事より、あの子たちが心配だよ」"
+  },
+  "001425": {
+    "context": "001425",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう言えば守部は、あの高校生たちと知り合いだったな」"
+  },
+  "001466": {
+    "context": "001466",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん、２回くらい話しただけだけど……」"
+  },
+  "001497": {
+    "context": "001497",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあほとんど他人じゃないか」"
+  },
+  "001513": {
+    "context": "001513",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それでも心配なものは心配なんだよ」"
+  },
+  "001569": {
+    "context": "001569",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……お前もあの高校生たちと、そう年も変わらないだろうに」"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「優しいんだな、守部は」"
+  },
+  "001667": {
+    "context": "001667",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 001166"
+  },
+  "001798": {
+    "context": "001798",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その言葉に、洵は目を見開いた。"
+  },
+  "001804": {
+    "context": "001804",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（自分の身がヤバいのに、まず生徒の事を案じるなんて……）"
+  },
+  "001810": {
+    "context": "001810",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（性格はキツいけど、キツ過ぎだけど……確かに、『先生』なんだね）"
+  },
+  "001815": {
+    "context": "001815",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が心から夏彦たちを心配している事が、洵にもわかった気がした。"
+  },
+  "001821": {
+    "context": "001821",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（で、でも、なんかさんざん衝突したから……そこ認めるの、なんかシャクだな……）"
+  },
+  "001859": {
+    "context": "001859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がまごまごしていると、渡瀬が先に声を上げる。"
+  },
+  "001888": {
+    "context": "001888",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000671"
+  },
+  "001899": {
+    "context": "001899",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000682"
+  },
+  "001905": {
+    "context": "001905",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（隊長ナイスフォロー！）"
+  },
+  "001910": {
+    "context": "001910",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は素早く、渡瀬の尻馬に乗る事にした。"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 000711"
+  },
+  "001952": {
+    "context": "001952",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 000742"
+  },
+  "001983": {
+    "context": "001983",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0030 000783"
+  },
+  "002014": {
+    "context": "002014",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 000814"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001033"
+  },
+  "002076": {
+    "context": "002076",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001050"
+  },
+  "002081": {
+    "context": "002081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が泣きそうな声で言う。洵の中に同情の念が湧いてきた。"
+  },
+  "002087": {
+    "context": "002087",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（よし、ここは１つ、レスキュー隊らしいところを見せとこう）"
+  },
+  "002098": {
+    "context": "002098",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001089"
+  },
+  "002129": {
+    "context": "002129",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001120"
+  },
+  "002140": {
+    "context": "002140",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001151"
+  },
+  "002169": {
+    "context": "002169",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 001162"
+  },
+  "002200": {
+    "context": "002200",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0030 001193"
+  },
+  "002211": {
+    "context": "002211",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001222"
+  },
+  "002242": {
+    "context": "002242",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001253"
+  },
+  "002273": {
+    "context": "002273",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001335"
+  },
+  "002304": {
+    "context": "002304",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001346"
+  },
+  "002315": {
+    "context": "002315",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0030 001375"
+  },
+  "002346": {
+    "context": "002346",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0030 001417"
+  },
+  "002351": {
+    "context": "002351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が申し訳なさそうに微笑む。"
+  },
+  "002356": {
+    "context": "002356",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その笑顔だけで、それまでの全てがチャラになる気がした。"
+  },
+  "002362": {
+    "context": "002362",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……そうだよね、椿山さんは偉そうだけど、あくまで『一般人』なんだから……）"
+  },
+  "002368": {
+    "context": "002368",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（多少のワガママは、スルーしてあげよう）"
+  },
+  "002375": {
+    "context": "002375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はそう思いなおした。"
+  },
+  "002380": {
+    "context": "002380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は細かい事は気にしない主義だし、従順な相手には優しく接するのがモットーなのだ。"
+  },
+  "002479": {
+    "context": "002479",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000671"
+  },
+  "002490": {
+    "context": "002490",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0030 000682"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0337 000930"
+  },
+  "002548": {
+    "context": "002548",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0337 000986"
+  },
+  "002553": {
+    "context": "002553",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の言葉に、渡瀬が顔を赤くした。"
+  },
+  "002582": {
+    "context": "002582",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0337 001017"
+  },
+  "002587": {
+    "context": "002587",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、洵は密かに鼻白んだ。"
+  },
+  "002593": {
+    "context": "002593",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（なにが『レスキュー隊として当たり前』だよ……記憶ソーシツのくせに）"
+  },
+  "002598": {
+    "context": "002598",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なんだか非常に面白くなかった。"
+  },
+  "002660": {
+    "context": "002660",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は目の前の女を見据える。"
+  },
+  "002665": {
+    "context": "002665",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やや薄汚れてはいるが、それを差し引いても、美人の範疇に入るだろう。"
+  },
+  "002671": {
+    "context": "002671",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（ムカつくけど、綺麗な人だな……）"
+  },
+  "002677": {
+    "context": "002677",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（こんな人にはきっと、あたしの気持ちなんてわかんないんだろうな）"
+  },
+  "002760": {
+    "context": "002760",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はその人生で、男とちゃんと付き合った事がない。"
+  },
+  "002765": {
+    "context": "002765",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背中の火傷跡を見せた事も、風見以外にはなかった。"
+  },
+  "002771": {
+    "context": "002771",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……あんな酷い姿見たら、男は引くもんね……）"
+  },
+  "002776": {
+    "context": "002776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "学生時代に言い寄ってくる男はいたし、洵も人を好きになった事はあったが、いつも背中の傷が気持ちにブレーキをかけた。"
+  },
+  "002782": {
+    "context": "002782",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……イヤになってくるな……）"
+  },
+  "002788": {
+    "context": "002788",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（仕事中に、しかも命のかかっている現場で、こんなくだらないこと考えてるなんて）"
+  },
+  "002794": {
+    "context": "002794",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（やめよう……浮ついた気持ちじゃ、本当に命落とすから……）"
+  },
+  "002801": {
+    "context": "002801",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はそう考え、思考を打ち切った。"
+  },
+  "002868": {
+    "context": "002868",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0337 001394"
+  },
+  "002897": {
+    "context": "002897",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0337 001425"
+  },
+  "002908": {
+    "context": "002908",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0337 001466"
+  },
+  "002937": {
+    "context": "002937",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0337 001497"
+  },
+  "002948": {
+    "context": "002948",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0337 001513"
+  },
+  "002977": {
+    "context": "002977",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0337 001569"
+  },
+  "003006": {
+    "context": "003006",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0337 001600"
+  },
+  "003017": {
+    "context": "003017",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0060 001114"
+  },
+  "003028": {
+    "context": "003028",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「な、なに言ってんの。レスキュー隊員として当たり前の事だよ」"
+  },
+  "003039": {
+    "context": "003039",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それでもなかなかできる事じゃないさ。お前は凄いよ、俺より有能だし」"
+  },
+  "003050": {
+    "context": "003050",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0190 001037"
+  },
+  "003061": {
+    "context": "003061",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだよ。こんな事を上司が言うもんじゃないとは思うが――」"
+  },
+  "003135": {
+    "context": "003135",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺はお前みたいな奴、好きだぜ」"
+  },
+  "003161": {
+    "context": "003161",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「すっ……！？」"
+  },
+  "003172": {
+    "context": "003172",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ごめん隊長！　今なんて言ったの？」"
+  },
+  "003209": {
+    "context": "003209",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん？　いやだからお前みたいな奴が好きって……」"
+  },
+  "003220": {
+    "context": "003220",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「寿司？」"
+  },
+  "003251": {
+    "context": "003251",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「好きだって言ったんだよ！　何度も言わせんな！」"
+  },
+  "003256": {
+    "context": "003256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、洵の心は躍った。"
+  },
+  "003261": {
+    "context": "003261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを隠しつつ、渡瀬に言う。"
+  },
+  "003272": {
+    "context": "003272",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「は、ははっ、隊長もたまには冗談言うんだね」"
+  },
+  "003303": {
+    "context": "003303",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「冗談じゃねぇよ。本気さ」"
+  },
+  "003314": {
+    "context": "003314",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0005 003761"
+  },
+  "003345": {
+    "context": "003345",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「性格や能力だけじゃない。お前の顔も好きだ」"
+  },
+  "003356": {
+    "context": "003356",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「口が悪いところも好きだ。その小さな胸が好きだ」"
+  },
+  "003367": {
+    "context": "003367",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんかもう全体的に好きだ、お前の事」"
+  },
+  "003378": {
+    "context": "003378",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「な……なに言ってんの、隊長！？」"
+  },
+  "003409": {
+    "context": "003409",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん、なにかおかしなこと言ってるか？」"
+  },
+  "003440": {
+    "context": "003440",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前は可愛いよ。こんな状況じゃなきゃ、もっと落ち着いて言えたのにな」"
+  },
+  "003451": {
+    "context": "003451",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょ、ちょっとやめて！」"
+  },
+  "003456": {
+    "context": "003456",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はなんだか怖くなってきた。"
+  },
+  "003494": {
+    "context": "003494",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "助けを求めて風見を見るが、彼女はいつのまにか、石のように固まっていた。"
+  },
+  "003532": {
+    "context": "003532",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那も石になっている。ユウリは死んでいる。宇喜多は消えてなくなった。"
+  },
+  "003537": {
+    "context": "003537",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "周囲の景色も、どこか歪んでいる気がした。"
+  },
+  "003575": {
+    "context": "003575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は洵を見つめ、微笑みながら言う。"
+  },
+  "003606": {
+    "context": "003606",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そう怯えるなよ、洵。こうして真正面から迫られるのは苦手か？」"
+  },
+  "003617": {
+    "context": "003617",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「でも俺には壁を作ったって無駄だ。お前の性格はお見通しだよ」"
+  },
+  "003648": {
+    "context": "003648",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ガサツな態度も、内心のコンプレックスを隠すためだろう？」"
+  },
+  "003659": {
+    "context": "003659",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0055 002297"
+  },
+  "003690": {
+    "context": "003690",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そういうところが可愛いのさ。お前を素直にしてやりたいな」"
+  },
+  "003721": {
+    "context": "003721",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんなら今すぐ、お前の制服をむしりとって――」"
+  },
+  "003782": {
+    "context": "003782",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「やめて！　ホントにやめて！」"
+  },
+  "003787": {
+    "context": "003787",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がそう叫んだ時――"
+  },
+  "003792": {
+    "context": "003792",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "歪んでいた景色が、元に戻った。"
+  },
+  "003912": {
+    "context": "003912",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0056 000215"
+  },
+  "003938": {
+    "context": "003938",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「？！」"
+  },
+  "003943": {
+    "context": "003943",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "気付くと周りの皆が、洵を呆然と見つめていた。"
+  },
+  "003978": {
+    "context": "003978",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なんだ、いきなり『やめて』って？」"
+  },
+  "004009": {
+    "context": "004009",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「誰か何かおかしな事を言いましたか？」"
+  },
+  "004020": {
+    "context": "004020",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、い、いや……なんでもない」"
+  },
+  "004031": {
+    "context": "004031",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ごめん、なんの話してたっけ？」"
+  },
+  "004062": {
+    "context": "004062",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ＡＤの話よ、ＡＤの」"
+  },
+  "004093": {
+    "context": "004093",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「こんな大事な時に、ぼーっとしてるなんて……大丈夫なの、あなた？」"
+  },
+  "004104": {
+    "context": "004104",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、あはは、ごめんごめん。なんでもないよ」"
+  },
+  "004187": {
+    "context": "004187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はそう取り繕ったが――"
+  },
+  "004192": {
+    "context": "004192",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心臓はバクバクと鳴っていた。"
+  },
+  "004198": {
+    "context": "004198",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（な、なんだったんだろ、今の……）"
+  },
+  "004304": {
+    "context": "004304",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（白昼夢……？　疲労で頭がぼーっとしてたの……？）"
+  },
+  "004310": {
+    "context": "004310",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（いや夢にしても、隊長にあんな風に迫られるなんて……）"
+  },
+  "004316": {
+    "context": "004316",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（……まさか、あれ……あたしの願望……！？）"
+  },
+  "004321": {
+    "context": "004321",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はそこまで考え、思考を切り替えた。"
+  },
+  "004327": {
+    "context": "004327",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（違う違う！　そんなわけない！）"
+  },
+  "004469": {
+    "context": "004469",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（あんなわけわかんない夢に、気を取られてちゃダメだ！）"
+  },
+  "004475": {
+    "context": "004475",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（あたしの役目は人命救助なんだから）"
+  },
+  "004481": {
+    "context": "004481",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "（今はそれだけ考えてればいいんだから……！）"
+  },
+  "004534": {
+    "context": "004534",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003273"
+  },
+  "004540": {
+    "context": "004540",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（洵さんに、こんなコンプレックスが……！？）"
+  },
+  "004546": {
+    "context": "004546",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、これはあくまで捏造された記憶だ。もっと自信が持てるよう、感情を調整しよう）"
+  },
+  "004552": {
+    "context": "004552",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それと、先生や渡瀬に対する感情も調整しなきゃまずいか……）"
+  },
+  "004583": {
+    "context": "004583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0317 003273"
+  },
+  "004589": {
+    "context": "004589",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……こ、これはコメントしにくい……）"
+  },
+  "004595": {
+    "context": "004595",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（というか改竄ぶりがひどすぎて、どこから手をつければいいのかわからないぞ）"
+  },
+  "004601": {
+    "context": "004601",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（えぇと、たしかこの時、現実では……渡瀬に感謝したり、先生と仲直りしたりしてたから――）"
+  },
+  "004607": {
+    "context": "004607",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それを考慮して、感情を調整すればいいのかな……？）"
+  },
+  "004685": {
+    "context": "004685",
+    "code": "0x04",
+    "string": "@ignore"
+  }
+}

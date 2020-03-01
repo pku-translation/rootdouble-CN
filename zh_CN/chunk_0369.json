@@ -1,0 +1,684 @@
+{
+  "000044": {
+    "context": "000044",
+    "code": "0x55",
+    "string": "@import 0364 000095"
+  },
+  "000056": {
+    "context": "000056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――セキュリティ認証を、夏彦たちに無効化してもらった後――"
+  },
+  "000134": {
+    "context": "000134",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬・洵・宇喜多、そしてサリュは、Ｚｅｒｏエリアに辿り着いた。"
+  },
+  "000140": {
+    "context": "000140",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "以前渡瀬がここに降りた時に連れてきた上級研究員たちは、エレベーターのそばで死んでいた。"
+  },
+  "000145": {
+    "context": "000145",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬も彼らの生死については諦めていたし、皆も夏彦のＢＣを通じてこの事は知っていたため、誰もさほど驚きはしなかったが――"
+  },
+  "000151": {
+    "context": "000151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……すまない）"
+  },
+  "000156": {
+    "context": "000156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やはり渡瀬の心には、悔恨が募った。"
+  },
+  "000161": {
+    "context": "000161",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は２人の死体に手を合わせ、それから辺りを見回して呟く。"
+  },
+  "000193": {
+    "context": "000193",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ラボのさらに地下に、こんなところが……」"
+  },
+  "000222": {
+    "context": "000222",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「大深度地下エリア……ラボの中枢だよ」"
+  },
+  "000227": {
+    "context": "000227",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多は死体から目を逸らし、低い声で答える。"
+  },
+  "000251": {
+    "context": "000251",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "000256": {
+    "context": "000256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは何も言わず、暗い目で天井を見ていた。"
+  },
+  "000267": {
+    "context": "000267",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……爆弾は、被験体Ｎの部屋に仕掛けてある。行こう」"
+  },
+  "000318": {
+    "context": "000318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は皆を連れて、件の部屋に向かった。"
+  },
+  "000323": {
+    "context": "000323",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、部屋に足を踏み入れると――"
+  },
+  "000382": {
+    "context": "000382",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「こ……これは！？」"
+  },
+  "000387": {
+    "context": "000387",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が愕然とした声を上げた。"
+  },
+  "000398": {
+    "context": "000398",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「被験体Ｎの拘束衣だ。彼女はここに吊るされていたんだ」"
+  },
+  "000436": {
+    "context": "000436",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「い、いや、そうじゃなくて……」"
+  },
+  "000441": {
+    "context": "000441",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は辺りを見回した。"
+  },
+  "000446": {
+    "context": "000446",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "視線を拘束衣ではなく、その周囲に巡らせている。"
+  },
+  "000457": {
+    "context": "000457",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうした、守部？」"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……うぅん、なんでもない。それより早く爆弾を！」"
+  },
+  "000515": {
+    "context": "000515",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ！」"
+  },
+  "000520": {
+    "context": "000520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは、部屋の中央に仕掛けられた爆弾に駆け寄った。"
+  },
+  "000610": {
+    "context": "000610",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「これが例の、テトリル爆弾？」"
+  },
+  "000621": {
+    "context": "000621",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだ。他の爆弾より、起爆装置も凝っている」"
+  },
+  "000632": {
+    "context": "000632",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「傾斜センサーと光センサーがついた、解体困難な代物さ」"
+  },
+  "000661": {
+    "context": "000661",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「全く、テロ組織らしいチョイスだな……」"
+  },
+  "000699": {
+    "context": "000699",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でもデジタルプロテクトを解除すれば、なんとかなりそうだね」"
+  },
+  "000728": {
+    "context": "000728",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「わかった。まずプロテクトを解く。アリスを接続するので、液体窒素を」"
+  },
+  "000739": {
+    "context": "000739",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「センサー系が死なないと何もできないから」"
+  },
+  "000750": {
+    "context": "000750",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おう」"
+  },
+  "000755": {
+    "context": "000755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう答え、液体窒素の缶を懐から出した。"
+  },
+  "000760": {
+    "context": "000760",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてそれを、爆弾にかけようとした時――"
+  },
+  "000833": {
+    "context": "000833",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0121 000628"
+  },
+  "000838": {
+    "context": "000838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は、ある事に気付いた。"
+  },
+  "000873": {
+    "context": "000873",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうしたの、隊長！？　早くしないと、爆破時間が……」"
+  },
+  "000884": {
+    "context": "000884",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや、その爆破時間の事なんだが――」"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の言葉に、その場にいる全員がタイマーを見た。"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "デジタルのタイマーが、爆破までの残り時刻を表示している。"
+  },
+  "001077": {
+    "context": "001077",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『００：３９：１６』"
+  },
+  "001123": {
+    "context": "001123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『００：３９：１５』"
+  },
+  "001169": {
+    "context": "001169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『００：３９：１４』……とカウントダウンしている。"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "腕時計を見ると、時刻は『１７：３７：４７』。"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時、渡瀬は気付いた。"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いや――思い出したのだ。"
+  },
+  "001250": {
+    "context": "001250",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、おい……！」"
+  },
+  "001261": {
+    "context": "001261",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この、爆弾の、爆破時刻……！」"
+  },
+  "001272": {
+    "context": "001272",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『１８：１７』にセットされてるよな！？」"
+  },
+  "001301": {
+    "context": "001301",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そ、それが……！？」"
+  },
+  "001312": {
+    "context": "001312",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おかしいんだよ！」"
+  },
+  "001323": {
+    "context": "001323",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺は『隔壁の開放時刻の１分後』に、爆弾をセットしたはずなんだ！」"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なのに――さっき制御室で見た『隔壁開放時刻』は、『１８：１９』！！」"
+  },
+  "001345": {
+    "context": "001345",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「２分足りない！　爆弾は、隔壁が開く前に爆発しちまうんだよ！！」"
+  },
+  "001412": {
+    "context": "001412",
+    "code": "0x45",
+    "developer_comment": "３人",
+    "string": "@import 0002 005125"
+  },
+  "001423": {
+    "context": "001423",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その場にいる全員が、息を呑んだ。"
+  },
+  "001428": {
+    "context": "001428",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆弾のセット時刻はズレていない。"
+  },
+  "001433": {
+    "context": "001433",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "隔壁の開放時刻が、渡瀬たちが最初に確認した時より、わずかにズレているのだ。"
+  },
+  "001462": {
+    "context": "001462",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そ、そう言えば変だよ！　あたしらが捜索を開始した当初、制御室に行ったとき――」"
+  },
+  "001473": {
+    "context": "001473",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あの時もＢｒａｉｎＣｅｌｌには、隔壁開放時刻は『１８：１６』って表示されてた！」"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「なぜ……？　いつズレたの！？」"
+  },
+  "001513": {
+    "context": "001513",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わ、わからん！　誰かが隔壁の開放時刻を変えたのか！？」"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、そんな事は不可能だ！」"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ＢｒａｉｎＣｅｌｌはＮエリアのＢＣ粒子エネルギー量を測定し、それに基づいて隔壁の開放時刻を自動設定するんだ！」"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「隔壁の開放時刻が後ろにズレることなど、普通はありえないんだよ！」"
+  },
+  "001629": {
+    "context": "001629",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「もしズレるとしたら？」"
+  },
+  "001658": {
+    "context": "001658",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「むぅ……まぁ粒子増幅器がもう１度暴走でもして、ＢＣ粒子のエネルギー量が高まればあるいは……」"
+  },
+  "001669": {
+    "context": "001669",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0026 003493"
+  },
+  "001674": {
+    "context": "001674",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その説明が、渡瀬の心にひっかかった。"
+  },
+  "001707": {
+    "context": "001707",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、おっさん……今、なんて言った！？」"
+  },
+  "001736": {
+    "context": "001736",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「え？　ＷＸ粒子増幅器が、もう１度暴走――」"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「違う、その前だ！」"
+  },
+  "001758": {
+    "context": "001758",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＢｒａｉｎＣｅｌｌは、隔壁の開放時刻を、どうやって自動設定するんだ！？」"
+  },
+  "001787": {
+    "context": "001787",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0054 000501"
+  },
+  "001816": {
+    "context": "001816",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「『Ｎエリア内のＢＣ粒子エネルギー量を測定し』『それが１ｍＳｖまで減衰する予定時刻を』、開放時刻に設定するんだよ」"
+  },
+  "001848": {
+    "context": "001848",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "001895": {
+    "context": "001895",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その瞬間、渡瀬の頭の中で、さまざまなピースが繋がった。"
+  },
+  "001949": {
+    "context": "001949",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアにずっと倒れていた夏彦。"
+  },
+  "001954": {
+    "context": "001954",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "６時間に渡り、聞こえていた幻聴。"
+  },
+  "002006": {
+    "context": "002006",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "センシズシンパシー。"
+  },
+  "002011": {
+    "context": "002011",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "コミュニケーター。"
+  },
+  "002063": {
+    "context": "002063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＢＣ粒子のエネルギー量――。"
+  },
+  "002089": {
+    "context": "002089",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……わかったよ、隔壁の開放時刻がずれた理由が……」"
+  },
+  "002118": {
+    "context": "002118",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0021 001376"
+  },
+  "002129": {
+    "context": "002129",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＢＣ粒子エネルギー量を増幅させていたのは、ＷＸ粒子増幅器だけじゃない」"
+  },
+  "002140": {
+    "context": "002140",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「夏彦だ……夏彦も６時間に渡り、Ｎエリア内のエネルギー量を、増幅させていたんだよ」"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あいつはＮエリアで、ずっとＢＣを使い続けていたんだからな！」"
+  },
+  "002215": {
+    "context": "002215",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あっ……！　あああっ！」"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そ、そうか……ＷＸ粒子増幅器から出るエネルギーと、夏彦くん自身が放出するエネルギー――」"
+  },
+  "002273": {
+    "context": "002273",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「それが合わさった事で、ＮエリアのＢＣ粒子エネルギーの総量を、少しだけ上げてしまったのか！」"
+  },
+  "002302": {
+    "context": "002302",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「じゃあ、ＢｒａｉｎＣｅｌｌが、隔壁開放時刻を再計算して――」"
+  },
+  "002313": {
+    "context": "002313",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ」"
+  },
+  "002318": {
+    "context": "002318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は思わず、頭を押さえた。"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「隔壁開放時刻が後ろにズレて、爆破時刻の２分後になっちまってたんだ……！」"
+  },
+  "002334": {
+    "context": "002334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、全員が目を見開いた。"
+  },
+  "002363": {
+    "context": "002363",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ま、まずいよそれ……夏彦くんたちに伝えなきゃ！」"
+  },
+  "002392": {
+    "context": "002392",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、そんな時間はない……！」"
+  },
+  "002421": {
+    "context": "002421",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だいたい伝えたところでどうなるの？　事態は好転しない」"
+  },
+  "002432": {
+    "context": "002432",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0018 002133"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう答えながらも、渡瀬は激しく後悔していた。"
+  },
+  "002520": {
+    "context": "002520",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆弾が仕掛けられているにせよ、９人揃って隔壁の開放を待ち、すぐに脱出すれば生き延びられると思っていた。"
+  },
+  "002525": {
+    "context": "002525",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが隔壁開放の前に爆弾が爆発するなら、風見の悪意を消去しても、関係ない。"
+  },
+  "002530": {
+    "context": "002530",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全員、この施設の中で爆死するのだ。"
+  },
+  "002536": {
+    "context": "002536",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（くそ、なんて事だ……！）"
+  },
+  "002542": {
+    "context": "002542",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（俺たちが爆弾なんて仕掛けなきゃ、こんな事にはならなかったのに！）"
+  },
+  "002547": {
+    "context": "002547",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう思った時。"
+  },
+  "002558": {
+    "context": "002558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――頭上で、何かノイズのような音がした。"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0009 001474"
+  },
+  "002575": {
+    "context": "002575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっとして天井を見上げる。"
+  },
+  "002580": {
+    "context": "002580",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると天井に備え付けられたスピーカーから、夏彦の声が聞こえてきた。"
+  },
+  "002591": {
+    "context": "002591",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――橘さん、聞こえますか？」"
+  },
+  "002643": {
+    "context": "002643",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

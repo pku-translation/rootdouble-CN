@@ -1,0 +1,759 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と風見は、まず内周棟地下２階に足を踏み入れた。"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「このエリアに、あの子たちがいるんだな……」"
+  },
+  "000192": {
+    "context": "000192",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そう信じたいところです」"
+  },
+  "000242": {
+    "context": "000242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000224"
+  },
+  "000285": {
+    "context": "000285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000267"
+  },
+  "000352": {
+    "context": "000352",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――"
+  },
+  "000457": {
+    "context": "000457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000439"
+  },
+  "000468": {
+    "context": "000468",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0044 000504"
+  },
+  "000533": {
+    "context": "000533",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「お待ち下さい、地下１階を探してみましょう」"
+  },
+  "000538": {
+    "context": "000538",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見に言われ、階段室に向かったが――"
+  },
+  "000583": {
+    "context": "000583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000565"
+  },
+  "000588": {
+    "context": "000588",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000570"
+  },
+  "000599": {
+    "context": "000599",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 000581"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「参りましたね。ファクトリーは吹き抜け状になってるから、階段はここしかないのに……」"
+  },
+  "000664": {
+    "context": "000664",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「またエレベーターシャフトを使いますか？」"
+  },
+  "000675": {
+    "context": "000675",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 000628"
+  },
+  "000680": {
+    "context": "000680",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000633"
+  },
+  "000740": {
+    "context": "000740",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000693"
+  },
+  "000751": {
+    "context": "000751",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これでなんとか登れないもんかな？」"
+  },
+  "000786": {
+    "context": "000786",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000789"
+  },
+  "000797": {
+    "context": "000797",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000800"
+  },
+  "000860": {
+    "context": "000860",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 000863"
+  },
+  "000871": {
+    "context": "000871",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0044 000853"
+  },
+  "000900": {
+    "context": "000900",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、我々なら問題なく登れる高さです」"
+  },
+  "000929": {
+    "context": "000929",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長はロープ登はんは、特にお得意でしたからね」"
+  },
+  "000940": {
+    "context": "000940",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうなのか？　ならちょうどいい」"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0044 000965"
+  },
+  "001027": {
+    "context": "001027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001173"
+  },
+  "001032": {
+    "context": "001032",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001178"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 001228"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0020 001921"
+  },
+  "001161": {
+    "context": "001161",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001307"
+  },
+  "001205": {
+    "context": "001205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001351"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこに足を踏み入れた途端、風見が声を上げた。"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……プロキオンがありますね」"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0038 003295"
+  },
+  "001384": {
+    "context": "001384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0044 001366"
+  },
+  "001400": {
+    "context": "001400",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 001564"
+  },
+  "001429": {
+    "context": "001429",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「プロキオンはラボから支給されたものです。施設内にあってもおかしくありません」"
+  },
+  "001440": {
+    "context": "001440",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか。いずれにしろいいものを見つけたな。これからは３チームに分かれられる」"
+  },
+  "001469": {
+    "context": "001469",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ。そんな事態が今後あるかはわかりませんが」"
+  },
+  "001474": {
+    "context": "001474",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも渡瀬たちは、一応プロキオンを持っていく事にした。"
+  },
+  "001479": {
+    "context": "001479",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001625"
+  },
+  "001484": {
+    "context": "001484",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0044 001466"
+  },
+  "001495": {
+    "context": "001495",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0044 001477"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「防災マニュアル？　前にユウリさんが見つけたあれでしょうか？」"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0044 001517"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と風見は、頭を寄せてそれを読む。"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001720"
+  },
+  "001583": {
+    "context": "001583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001758"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001589": {
+    "context": "001589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001764"
+  },
+  "001592": {
+    "context": "001592",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001595": {
+    "context": "001595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001770"
+  },
+  "001598": {
+    "context": "001598",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001773"
+  },
+  "001601": {
+    "context": "001601",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001776"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001779"
+  },
+  "001607": {
+    "context": "001607",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001782"
+  },
+  "001611": {
+    "context": "001611",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001789"
+  },
+  "001617": {
+    "context": "001617",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001620": {
+    "context": "001620",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001795"
+  },
+  "001623": {
+    "context": "001623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001798"
+  },
+  "001626": {
+    "context": "001626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001801"
+  },
+  "001629": {
+    "context": "001629",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001804"
+  },
+  "001632": {
+    "context": "001632",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001807"
+  },
+  "001635": {
+    "context": "001635",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001810"
+  },
+  "001667": {
+    "context": "001667",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 001842"
+  },
+  "001672": {
+    "context": "001672",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001847"
+  },
+  "001701": {
+    "context": "001701",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「『安全区域まで避難する事ができる』とは、もしかして……！」"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 001887"
+  },
+  "001735": {
+    "context": "001735",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬と風見は顔を見合わせた。頬にひりつくような笑みが浮かぶ。"
+  },
+  "001740": {
+    "context": "001740",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 001897"
+  },
+  "001751": {
+    "context": "001751",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それってどこにあると思う！？」"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「さっきは気づきませんでしたが、あの焼け爛れたファクトリーのどこかにあるんでしょう」"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかし先に、要救助者の捜索です。脱出口が見つかっても、要救助者を確保してなきゃ無意味ですから」"
+  },
+  "001820": {
+    "context": "001820",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だな！」"
+  },
+  "001825": {
+    "context": "001825",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002051"
+  },
+  "001868": {
+    "context": "001868",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002094"
+  },
+  "001934": {
+    "context": "001934",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 002160"
+  },
+  "001977": {
+    "context": "001977",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002203"
+  },
+  "002022": {
+    "context": "002022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002248"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002253"
+  },
+  "002086": {
+    "context": "002086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通路を引き返しながら、渡瀬は首を傾げた。"
+  },
+  "002097": {
+    "context": "002097",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おかしいな……要救助者がどこにもいないとは」"
+  },
+  "002126": {
+    "context": "002126",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに妙ですね。しかしファクトリーにいるのかもしれません」"
+  },
+  "002155": {
+    "context": "002155",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「我々も戻って、向こうの捜索を手伝いましょう」"
+  },
+  "002166": {
+    "context": "002166",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 002374"
+  },
+  "002171": {
+    "context": "002171",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0020 000145"
+  },
+  "002198": {
+    "context": "002198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002406"
+  },
+  "002204": {
+    "context": "002204",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 002412"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっとして下を見ると――"
+  },
+  "002249": {
+    "context": "002249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の足元の床に、ヒビが入っていた。"
+  },
+  "002255": {
+    "context": "002255",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 002458"
+  },
+  "002280": {
+    "context": "002280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002483"
+  },
+  "002305": {
+    "context": "002305",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002508"
+  },
+  "002338": {
+    "context": "002338",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「っ！」"
+  },
+  "002343": {
+    "context": "002343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "異変に気づき、風見もとっさに反応しようとした。"
+  },
+  "002348": {
+    "context": "002348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その直後、風見の足元は崩落した。"
+  },
+  "002464": {
+    "context": "002464",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘っ！」"
+  },
+  "002469": {
+    "context": "002469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はとっさに手を伸ばし、風見の腕を掴んだ。"
+  },
+  "002481": {
+    "context": "002481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002720"
+  },
+  "002487": {
+    "context": "002487",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ぐぅっ！！）"
+  },
+  "002492": {
+    "context": "002492",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれに耐え、風見の腕を握り締める。"
+  },
+  "002497": {
+    "context": "002497",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0043 002736"
+  },
+  "002571": {
+    "context": "002571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の顔が、その向こうに見えた。"
+  },
+  "002582": {
+    "context": "002582",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 002821"
+  },
+  "002593": {
+    "context": "002593",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「危ないところだったな、橘？」"
+  },
+  "002604": {
+    "context": "002604",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「た、隊長……！」"
+  },
+  "002615": {
+    "context": "002615",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「とっさに反応できて良かったぜ」"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「実際たいしたもんだよな、この笠鷺渡瀬って奴の身体はさ」"
+  },
+  "002671": {
+    "context": "002671",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言うと、風見はふっと笑った。"
+  },
+  "002682": {
+    "context": "002682",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長は、記憶喪失でも、やっぱり私たちの隊長なんですね……」"
+  },
+  "002693": {
+    "context": "002693",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「みたいだな……だが、感心するのは後だ」"
+  },
+  "002704": {
+    "context": "002704",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「引き上げるから、そっちの手も貸してくれ」"
+  },
+  "002715": {
+    "context": "002715",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「はい……」"
+  },
+  "002720": {
+    "context": "002720",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は風見の両手を掴み、そのまま一気に引き上げた。"
+  },
+  "002785": {
+    "context": "002785",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、ありがとうございました、隊長……」"
+  },
+  "002796": {
+    "context": "002796",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「怪我は無いか？」"
+  },
+  "002807": {
+    "context": "002807",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0004 005112"
+  },
+  "002818": {
+    "context": "002818",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか、よかった。しかし……」"
+  },
+  "002823": {
+    "context": "002823",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0044 002838"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第６エリアは、よほど火災によるダメージがひどかったんだな」"
+  },
+  "002863": {
+    "context": "002863",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうですね……他の皆さんは無事でしょうか？」"
+  },
+  "002874": {
+    "context": "002874",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0043 003046"
+  },
+  "002879": {
+    "context": "002879",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはそう言って、また駆け出した。"
+  }
+}

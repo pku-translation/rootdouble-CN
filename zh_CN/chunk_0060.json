@@ -1,0 +1,454 @@
+{
+  "000046": {
+    "context": "000046",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第６エリア内周棟・地下２階――"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこはつい１時間ほど前にも、捜索した場所だった。"
+  },
+  "000071": {
+    "context": "000071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "並んでいる扉の１つを開けて、中に入ると――"
+  },
+  "000115": {
+    "context": "000115",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには大きな研究室があった。"
+  },
+  "000120": {
+    "context": "000120",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "死角も多く、人が倒れてたり隠れてたりしていても、すぐにはわかりにくいだろう。"
+  },
+  "000200": {
+    "context": "000200",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いないとは思うが、一応探そう」"
+  },
+  "000211": {
+    "context": "000211",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えぇ」"
+  },
+  "000222": {
+    "context": "000222",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0049 002378"
+  },
+  "000265": {
+    "context": "000265",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って渡瀬たちは、その部屋の捜索を始めた。"
+  },
+  "000270": {
+    "context": "000270",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがユウリたちはおろか、ＡＤも見つからない。"
+  },
+  "000276": {
+    "context": "000276",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ちっ。だったら代わりに、脱出に関する情報を何か得られないか？）"
+  },
+  "000281": {
+    "context": "000281",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう思った時――部屋の奥にいた恵那が声を上げた。"
+  },
+  "000292": {
+    "context": "000292",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら……これ、何かしら」"
+  },
+  "000303": {
+    "context": "000303",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0012 006275"
+  },
+  "000363": {
+    "context": "000363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が駆け寄ると、恵那はホワイトボードを指差した。"
+  },
+  "000368": {
+    "context": "000368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこにはこう書いてある。"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――催涙雨から、彦星と鳥の羽の橋へ――"
+  },
+  "000409": {
+    "context": "000409",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000412": {
+    "context": "000412",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あなたたちは逃げられたの？"
+  },
+  "000415": {
+    "context": "000415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それともまだ、ここにいるの？"
+  },
+  "000418": {
+    "context": "000418",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いくら歩き回っても会えないと言う事は、%Nもうここにはいないのかもしれない。"
+  },
+  "000421": {
+    "context": "000421",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だけど残っているとしたら、一刻も早く合流したい。"
+  },
+  "000424": {
+    "context": "000424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もしあなたたちがこれを読んだなら、以下の問いに答えて。"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "000430": {
+    "context": "000430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『シリウスは、あの満月の夜、檻から抜け出す事ができた？』"
+  },
+  "000462": {
+    "context": "000462",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なんだこれ」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは例えば会議中に、議論の内容を記した文章などではなさそうに見えた。"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「う、ん……誰かから誰かに当てた、私信のようだけど……」"
+  },
+  "000507": {
+    "context": "000507",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「私信？」"
+  },
+  "000536": {
+    "context": "000536",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ホラ、私がさっき書いた置き手紙みたいな」"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……『シリウス』と言えば、オレたちレスキュー隊の名称だが……」"
+  },
+  "000558": {
+    "context": "000558",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まさかこれって、オレたちの事か？」"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう考えると、この『隔壁が閉鎖されたラボに閉じ込められた』って状況は、檻のようにも思えるわね……」"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも『満月の夜』というのは何かしら？　今日は確か満月じゃないし、そもそもまだ夜ではないわよ」"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「うーむ……何だろうなぁ」"
+  },
+  "000632": {
+    "context": "000632",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全く意味がわからなかった。"
+  },
+  "000637": {
+    "context": "000637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だが、なぜかその文章を見ているうち――"
+  },
+  "000643": {
+    "context": "000643",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……？）"
+  },
+  "000648": {
+    "context": "000648",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に奇妙な感情が湧いてきた。"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは決して、不快なものではない。"
+  },
+  "000658": {
+    "context": "000658",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "懐かしいような、ほっとしたような、胸を締め付けられるような……そんな温かで切ない感情だ。"
+  },
+  "000687": {
+    "context": "000687",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……？　どうしたの隊長さん」"
+  },
+  "000698": {
+    "context": "000698",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや……よくわからないんだが……」"
+  },
+  "000703": {
+    "context": "000703",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう言った時、背後で宇喜多の声がした。"
+  },
+  "000714": {
+    "context": "000714",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「――今度は何をやっているのかね？」"
+  },
+  "000760": {
+    "context": "000760",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、あぁ。先生が妙な文章を見つけてな」"
+  },
+  "000789": {
+    "context": "000789",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「宇喜多さん、意味わかる？」"
+  },
+  "000818": {
+    "context": "000818",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0017 002099"
+  },
+  "000823": {
+    "context": "000823",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はホワイトボードを一瞥し、それからため息をついた。"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕には意味がわからんが……それより、こんな事をしている暇はあるのかね？」"
+  },
+  "000863": {
+    "context": "000863",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いやしかし、気になるじゃないか」"
+  },
+  "000892": {
+    "context": "000892",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうよ。もしかしたら、鳥羽さんか三ノ宮さんが残した書置きかもしれないのに」"
+  },
+  "000921": {
+    "context": "000921",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「書き置き？　バカな」"
+  },
+  "000932": {
+    "context": "000932",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だとしたらどうして、こんなわけのわからない文章にするのかね」"
+  },
+  "000961": {
+    "context": "000961",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「じゃあなんなのよ？」"
+  },
+  "000990": {
+    "context": "000990",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕に聞かれても、わかるわけがないだろう」"
+  },
+  "001019": {
+    "context": "001019",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「というかこんな下らない事に、いちいちとらわれるんじゃない。捜索がさっぱり進まないじゃないか」"
+  },
+  "001048": {
+    "context": "001048",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0002 002723"
+  },
+  "001053": {
+    "context": "001053",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の言葉には、いちいち険があった。"
+  },
+  "001058": {
+    "context": "001058",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が不機嫌そうに黙り込む。"
+  },
+  "001064": {
+    "context": "001064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……まずいな。おっさんのせいで、さっきからギスギスしっ放しだ……）"
+  },
+  "001069": {
+    "context": "001069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だからと言って、怒鳴って黙らせるわけにもいかない。先ほど揉めたばかりなのだ。"
+  },
+  "001074": {
+    "context": "001074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はあえて気安い感じで言う。"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ま、これについてはおっさんの言う通りかもな。なぁ先生？」"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「えっ……？」"
+  },
+  "001125": {
+    "context": "001125",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この文章の事は頭に留めおいて、ひとまず捜索を続けるとしようぜ」"
+  },
+  "001130": {
+    "context": "001130",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が言うと、恵那はますます眉根を寄せたが――やがて鼻を鳴らして言った。"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……わかったわよ。そうするわ」"
+  },
+  "001164": {
+    "context": "001164",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉を聞いて、渡瀬はほっと安堵の息をつく。"
+  },
+  "001169": {
+    "context": "001169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――しかし同時に彼は気付いていた。"
+  },
+  "001174": {
+    "context": "001174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この素人２人を連れて捜索を行うのが、非常に難しいという事に。"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……いや、愚痴るな……）"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（オレがもっとしっかりしよう。２人をいがみ合わせないようにしながら、捜索をこなすんだ）"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は内心でそう決意しつつ、恵那たちと共にその部屋を出た。"
+  },
+  "001240": {
+    "context": "001240",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

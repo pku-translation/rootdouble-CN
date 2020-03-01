@@ -1,0 +1,497 @@
+{
+  "000051": {
+    "context": "000051",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第４エリア外周棟・地下２階から、第５エリア外周棟・地下２階に続く扉は、セキュリティスロットが焼失していたが――"
+  },
+  "000071": {
+    "context": "000071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "逆の順路なら、セキュリティスロットは無事だ。"
+  },
+  "000076": {
+    "context": "000076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはそのルートを辿り、第４エリアに足を踏み入れた。"
+  },
+  "000126": {
+    "context": "000126",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第４エリア外周棟・地下２階――"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこはサリュに逃げられ、フラッシュオーバーに遭い、桧山の遺体を見たエリアだ。"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "プロキオンを見ると、数値は『６６１０ｍＳｖ』を示している。"
+  },
+  "000148": {
+    "context": "000148",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さらに汚染が進んでいるな……！」"
+  },
+  "000213": {
+    "context": "000213",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「しかしＡＤがあれば、まだなんとか大丈夫なはずです」"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうとも。手早く捜索を済ませ、次の第３エリアに進むべきだ」"
+  },
+  "000248": {
+    "context": "000248",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――風見たちの言う通りだ。"
+  },
+  "000253": {
+    "context": "000253",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0062 000266"
+  },
+  "000259": {
+    "context": "000259",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0059 000234"
+  },
+  "000264": {
+    "context": "000264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう思いつつ、声を上げた。"
+  },
+  "000275": {
+    "context": "000275",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それじゃ捜索開始だ！　時間は３分くらいでいこう！」"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0020 001921"
+  },
+  "000329": {
+    "context": "000329",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはさっそく、外周棟の捜索を始めた。"
+  },
+  "000334": {
+    "context": "000334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが部屋は少なく、捜索の手間はそうかからない。"
+  },
+  "000339": {
+    "context": "000339",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通路を回り、エレベーターホールに向かう。"
+  },
+  "000382": {
+    "context": "000382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこには桧山の遺体が、納められていたが――"
+  },
+  "000434": {
+    "context": "000434",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0021 001376"
+  },
+  "000439": {
+    "context": "000439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は目を見開いた。何か違和感を覚えたのだ。"
+  },
+  "000445": {
+    "context": "000445",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（あるべきものがない気が……！）"
+  },
+  "000450": {
+    "context": "000450",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてすぐに、それに気づいた。"
+  },
+  "000512": {
+    "context": "000512",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "桧山の遺体の傍には、彼の遺品の防火斧を、墓標代わりに置いておいたのだが――"
+  },
+  "000579": {
+    "context": "000579",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「斧が、ない！？」"
+  },
+  "000590": {
+    "context": "000590",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そんな……どうして……！？」"
+  },
+  "000601": {
+    "context": "000601",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だ、誰が斧を持っていったんだ……？」"
+  },
+  "000606": {
+    "context": "000606",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たち６人は、ずっと一緒にいた。"
+  },
+  "000611": {
+    "context": "000611",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ならばあの３人の学生以外にはありえない。"
+  },
+  "000617": {
+    "context": "000617",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや……ユウリという事もありえるか……）"
+  },
+  "000622": {
+    "context": "000622",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリが逃げてから、ここに来て持っていった可能性もないわけではない。"
+  },
+  "000628": {
+    "context": "000628",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（しかし斧なんか何に使うんだ……）"
+  },
+  "000633": {
+    "context": "000633",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬にはわからない。"
+  },
+  "000638": {
+    "context": "000638",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ただ、ひどく嫌な予感がする。"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「と、とにかく……捜索を続けよう」"
+  },
+  "000660": {
+    "context": "000660",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え、えぇ」"
+  },
+  "000665": {
+    "context": "000665",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはそう言って、捜索を再開した。"
+  },
+  "000708": {
+    "context": "000708",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがやはり、成果は無く……。"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "次に地下１階を調べる事になった。"
+  },
+  "000757": {
+    "context": "000757",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第４エリア外周棟・地下１階。"
+  },
+  "000762": {
+    "context": "000762",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこに上がっても、プロキオンの警告音は無論止まない。"
+  },
+  "000767": {
+    "context": "000767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "数値は――『４６１２ｍＳｖ』。"
+  },
+  "000778": {
+    "context": "000778",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……それでも地下２階と１階では、えらい違いだな」"
+  },
+  "000843": {
+    "context": "000843",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ですがここも、いつ汚染されるかわかりません。今のうちに捜索をしてしまいましょう」"
+  },
+  "000873": {
+    "context": "000873",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「う、うむ」"
+  },
+  "000878": {
+    "context": "000878",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはひとかたまりに、地下１階を捜索した。"
+  },
+  "000922": {
+    "context": "000922",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "外周棟では、要救助者等は見つからなかった。"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのまま内周棟に移動しても、結果は同様。"
+  },
+  "000932": {
+    "context": "000932",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "制御室にも、ユウリたちの姿は見えなかった。"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第５エリア方面の連絡通路も、一応確認する。"
+  },
+  "000988": {
+    "context": "000988",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは天井が崩れ、通行不能になっていた。"
+  },
+  "001053": {
+    "context": "001053",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここにもいないようだね……」"
+  },
+  "001064": {
+    "context": "001064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、だが……」"
+  },
+  "001069": {
+    "context": "001069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は、その崩れた天井が気になった。"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001126": {
+    "context": "001126",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「この天井の割れ目、地上まで続いてないかな？」"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「続いていないでしょう。この手の割れ目などはすでに、私と守部でさんざん調べましたし――」"
+  },
+  "001185": {
+    "context": "001185",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「それにもし地上まで達するような穴があったら、とうに司令長たちが突入してきているはずです」"
+  },
+  "001190": {
+    "context": "001190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の言う事は正論だった。"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……まぁこんなところに都合よく、脱出口があるわけないよな」"
+  },
+  "001235": {
+    "context": "001235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし渡瀬はその意見を退ける。"
+  },
+  "001246": {
+    "context": "001246",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「一応確認してみる。ちょっと待っててくれ！」"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、隊長！」"
+  },
+  "001280": {
+    "context": "001280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は瓦礫の山を登り、天井の割れ目に入っていった。"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だがその天井の割れ目は、見た目ほどは深くなかった。"
+  },
+  "001333": {
+    "context": "001333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "割れ目の奥には、分厚い鉄板のようなものがあり、それ以上は上へ行けない。"
+  },
+  "001338": {
+    "context": "001338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "強く叩いてみたが、びくともしなかった。"
+  },
+  "001344": {
+    "context": "001344",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（隔壁と同じ素材みたいだな……）"
+  },
+  "001349": {
+    "context": "001349",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "司令長が通信で言っていた、『爆薬でも破壊できない鋼板』という奴だろう。これを破壊するのは不可能らしい。"
+  },
+  "001355": {
+    "context": "001355",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（しかし天井も崩れてるんだ。鋼板にも切れ目はないか？）"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は闇の中、手探りで鋼板の切れ目を探したが――"
+  },
+  "001365": {
+    "context": "001365",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どれほど調べても、そんなものは見つからなかった。"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……だめか）"
+  },
+  "001376": {
+    "context": "001376",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて渡瀬は諦め、瓦礫の山を降りた。"
+  },
+  "001462": {
+    "context": "001462",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちっ、やっぱり無理だったよ」"
+  },
+  "001473": {
+    "context": "001473",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だろうね。時間の無駄だよ」"
+  },
+  "001484": {
+    "context": "001484",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「残念ながら……以前にも申し上げましたが、脱出口がありそうな場所は全て、私と守部がすでに調べました」"
+  },
+  "001495": {
+    "context": "001495",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「天井、エアダクト、エレベーターシャフト、非常階段。全てあの鋼板に囲まれていて、隙間もありません」"
+  },
+  "001506": {
+    "context": "001506",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「まだ見落としがあるかもしれませんが……とりあえず要救助者等の捜索を優先しましょう」"
+  },
+  "001517": {
+    "context": "001517",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……だな。じゃあ第３エリアに進むか」"
+  },
+  "001522": {
+    "context": "001522",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはそう言って、連絡通路を後にした。"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

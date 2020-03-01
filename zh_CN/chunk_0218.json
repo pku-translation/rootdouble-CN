@@ -1,0 +1,1191 @@
+{
+  "000040": {
+    "context": "000040",
+    "code": "0x55",
+    "string": "@import 0216 000053"
+  },
+  "000055": {
+    "context": "000055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこはラボの関係者以外は、通る事を許されない道だった。"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１０キロにも及ぶ、分岐のない一本道。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "圧倒的な静寂の中、夏彦たちの足音が響く。"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてふと、サリュが道の脇を見て呟いた。"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦、またカメラが」"
+  },
+  "000240": {
+    "context": "000240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の視線の先には監視カメラがあった。"
+  },
+  "000251": {
+    "context": "000251",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それじゃサリュ、さっきと同じように頼む」"
+  },
+  "000280": {
+    "context": "000280",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「わかった。少し待ってて」"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは監視カメラの支柱にそっと近づき、アリスを接続した。"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すでに夏彦たちは７個のカメラを、このように無効化していたのだった。"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……もう１時間くらい歩いたかな」"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「まだ半分くらいだね。もうちょっと急いだ方がいいかな？」"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、そろそろペースを落とそう。スタミナ切れになったら余計に遅くなる」"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう夏彦が言った時、サリュが戻ってきた。"
+  },
+  "000452": {
+    "context": "000452",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦、ましろ、終わった」"
+  },
+  "000463": {
+    "context": "000463",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし。それじゃサリュ、ここからは歩いて行こう」"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それがいい。検問があんな様子だったところを見ると、まだテロリストはラボに向かってないと思う」"
+  },
+  "000535": {
+    "context": "000535",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして３人は、再び静寂の中を歩き出す。"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まるで世界に自分たちだけしかいないような孤独感が、夏彦たちを包んでいた。"
+  },
+  "000608": {
+    "context": "000608",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……ねぇ、夏彦」"
+  },
+  "000619": {
+    "context": "000619",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん、なに？」"
+  },
+  "000648": {
+    "context": "000648",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「『直接ラボに行って、内通者の存在を伝える』って言ってたけど、具体的には誰に伝えるつもりなの？」"
+  },
+  "000659": {
+    "context": "000659",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「超心研の時みたいに、警備員も犯人の一味かもしれないんだよ？」"
+  },
+  "000670": {
+    "context": "000670",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "000675": {
+    "context": "000675",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かにその可能性はあった。"
+  },
+  "000680": {
+    "context": "000680",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内通者が宇喜多であるとは限らないし、複数の可能性もある。"
+  },
+  "000691": {
+    "context": "000691",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「エンパシーを使って、信用できそうな人を探すしかないか……」"
+  },
+  "000696": {
+    "context": "000696",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が言った時、サリュがぽつりと呟いた。"
+  },
+  "000732": {
+    "context": "000732",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや……天川博士に、会うべきだと思う」"
+  },
+  "000787": {
+    "context": "000787",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「母さんに？　昨日は話も聞いてくれなかったじゃないか？」"
+  },
+  "000798": {
+    "context": "000798",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「また取り合ってもらえない可能性が高いぞ」"
+  },
+  "000809": {
+    "context": "000809",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「わかってる」"
+  },
+  "000820": {
+    "context": "000820",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの人は身勝手で、ぼくの言う事なんて聞かなくて……昔からそうなんだよ」"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "000837": {
+    "context": "000837",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なのになんで、母さんなんだ？　ぼくはあの人をアテには――」"
+  },
+  "000848": {
+    "context": "000848",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それでも夏彦は、信じるべき」"
+  },
+  "000853": {
+    "context": "000853",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは夏彦の言葉を遮って言った。"
+  },
+  "000858": {
+    "context": "000858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "有無を言わせないような、はっきりした口調だった。"
+  },
+  "000869": {
+    "context": "000869",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0056 000215"
+  },
+  "000898": {
+    "context": "000898",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦が気付こうとしてないだけ。博士がどれほど、夏彦の事を案じているかを」"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「忘れたの？　私の『夏彦を護る』という役目は、元はと言えば博士に命じられたものだという事を」"
+  },
+  "000938": {
+    "context": "000938",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「っ！」"
+  },
+  "000943": {
+    "context": "000943",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "言われてみればそうだった。"
+  },
+  "000948": {
+    "context": "000948",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "数日前、サリュが家に来た時から、すでに知っていたはずなのに――。"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「その一点から判断しても、博士は夏彦の身を強く案じている。違う？」"
+  },
+  "000970": {
+    "context": "000970",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「で、でもどうして母さんはそんな事を……？」"
+  },
+  "000999": {
+    "context": "000999",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「詳しい事情は、私も本当に聞いていない」"
+  },
+  "001028": {
+    "context": "001028",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だけど天川家に来る直前、博士はこう言っていた」"
+  },
+  "001057": {
+    "context": "001057",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『どれだけ強固な砦を築いても、完全な平穏は保証されない。この街にも多くの穴がある』」"
+  },
+  "001068": {
+    "context": "001068",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『適性度Ｓの夏彦は、他のコミュニケーターより危険な目に遭う確率が高い』」"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『でも私は一緒にいてあげられない。だから優衣、あなたが夏彦を護ってあげて』」"
+  },
+  "001090": {
+    "context": "001090",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「母さんが、そんな事を……？」"
+  },
+  "001095": {
+    "context": "001095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すぐには信じられなかったが――思い当たる節もあった。"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあ、あの声は……そういう意味だったのか？）"
+  },
+  "001106": {
+    "context": "001106",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "昨日、エンパシーで聞いた母の心の声。"
+  },
+  "001111": {
+    "context": "001111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『やはり私はこの子に嫌われている。仕事が全て終わるまでは、いっそ会わない方が』……。"
+  },
+  "001116": {
+    "context": "001116",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "言葉を失う夏彦に、サリュは続けた。"
+  },
+  "001145": {
+    "context": "001145",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……博士はこうも言っていた」"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『あなたも夏彦も、心に欠けた部分がある。でもだからこそ、共に補完しあえるはず』」"
+  },
+  "001167": {
+    "context": "001167",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『私は期待しているの。私が夏彦に与えられないものを、優衣が与えてくれる事を』」"
+  },
+  "001178": {
+    "context": "001178",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『私が優衣に与えられないものを、夏彦が与えてくれる事を』」"
+  },
+  "001207": {
+    "context": "001207",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……その言葉を聞いた時は、意味がよくわからなかった。でも今ならわかる気がする」"
+  },
+  "001218": {
+    "context": "001218",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦に出会ってから、ましろと友達になってから、私はたくさんのものを得た」"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「博士は嘘を言わなかった。だから信じるに足る」"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は目の前のサリュを見据えた。"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その硬い表情には、母と似た面影があった。"
+  },
+  "001244": {
+    "context": "001244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろも静かな声で言う。"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……夏彦、サリュの言ってる事は本当だよ」"
+  },
+  "001302": {
+    "context": "001302",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "001313": {
+    "context": "001313",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「博士はさ、いっつも夏彦のこと考えてるんだよ」"
+  },
+  "001342": {
+    "context": "001342",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だいたい私がご飯作りに通うようになったのだって、博士に頼まれたからだったでしょ？」"
+  },
+  "001353": {
+    "context": "001353",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「確かに、そうだ……！」"
+  },
+  "001364": {
+    "context": "001364",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「博士は考えたんだよ。家を空けがちな自分の代わりに、夏彦と一緒にいる『家族』が必要だって」"
+  },
+  "001393": {
+    "context": "001393",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「悠里と２人きりじゃ、心の傷が深くなるばっかりだって思ってさ」"
+  },
+  "001422": {
+    "context": "001422",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……きっとサリュが天川家に住むようになったのも、それを狙っての事だと思うよ」"
+  },
+  "001433": {
+    "context": "001433",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "001438": {
+    "context": "001438",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0151 004384"
+  },
+  "001443": {
+    "context": "001443",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "天川家に住む３人――夏彦・悠里・そしてサリュに、共通点がある事に気付いたのだ。"
+  },
+  "001448": {
+    "context": "001448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは家族関係が希薄な事。家庭の温もりを知らない事だ。"
+  },
+  "001454": {
+    "context": "001454",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……補完しあうってのは、そういう意味か……！）"
+  },
+  "001459": {
+    "context": "001459",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう気づいた瞬間、全ての疑問が氷解した。"
+  },
+  "001464": {
+    "context": "001464",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "母が悠里を引き取った理由。サリュが家に来た理由。サリュに与えた『夏彦を護る』という使命。"
+  },
+  "001469": {
+    "context": "001469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全てが母の意図の元、１つに繋がっていた。"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……）"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……なんでだよ、母さん）"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんで一言いってくれないんだよ……！？）"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った時、夏彦の腕にはめられた時計が目に入った。"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『Ｓａｌｖｉａ』というブランドの腕時計。"
+  },
+  "001547": {
+    "context": "001547",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは遠い昔、母が贈ってくれた品だった。"
+  },
+  "001601": {
+    "context": "001601",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それをもらった時の思い出が、夏彦の胸に蘇る。"
+  },
+  "001606": {
+    "context": "001606",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれは何年前の事だったろう。"
+  },
+  "001612": {
+    "context": "001612",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ……ぼくが５歳の頃……）"
+  },
+  "001618": {
+    "context": "001618",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（父さんが死んだすぐ後の事だ）"
+  },
+  "001673": {
+    "context": "001673",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの頃の母は、今ほど仕事人間ではなくて。"
+  },
+  "001678": {
+    "context": "001678",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最愛の夫を病で亡くしても、息子の前では決して涙を見せず、いつも静かに微笑んでいた。"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして葬儀なども終わって落ち着いた頃、泣いてばかりいる夏彦に、母は優しく言ったのだ。"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「夏彦、あなたにこの時計を贈るわ」"
+  },
+  "001723": {
+    "context": "001723",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え……とけい？」"
+  },
+  "001734": {
+    "context": "001734",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「お父さんの時計よ」"
+  },
+  "001745": {
+    "context": "001745",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「若い頃に私が贈って、あの人が最期の際までつけていた時計……」"
+  },
+  "001750": {
+    "context": "001750",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "父の形見の品だった。"
+  },
+  "001755": {
+    "context": "001755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "母はそのベルトを変え、息子に与えたのだ。"
+  },
+  "001766": {
+    "context": "001766",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「一緒に、お父さんからあなたに宛てた手紙があるの……」"
+  },
+  "001771": {
+    "context": "001771",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "母はそう言って、夏彦に手紙を渡した。"
+  },
+  "001776": {
+    "context": "001776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その手紙には夏彦が読めるように、ひらがなばかりでこう書かれていた。"
+  },
+  "001814": {
+    "context": "001814",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦へ"
+  },
+  "001817": {
+    "context": "001817",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001820": {
+    "context": "001820",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まだちいさなおまえをのこして、しんじまうおれをゆるしてくれ。"
+  },
+  "001823": {
+    "context": "001823",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "かなしいよな。ほんとうにごめんな。"
+  },
+  "001826": {
+    "context": "001826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "でも、ないてばかりいちゃだめだ。"
+  },
+  "001829": {
+    "context": "001829",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おまえがなくと、きっとかあさんもかなしむ。"
+  },
+  "001832": {
+    "context": "001832",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "かあさんはすごくつよそうにみえるが、%Nあれでいがいと、よわいところもおおいんだよ。"
+  },
+  "001835": {
+    "context": "001835",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だからおまえがささえてやってくれ。"
+  },
+  "001839": {
+    "context": "001839",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おまえは、つよいおとこのこだ。"
+  },
+  "001842": {
+    "context": "001842",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おれゆずりのせいぎかんと、%Nいたさやかなしさにまけないこころをもっている。"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんなおまえを、おれはほこりにおもっている。"
+  },
+  "001848": {
+    "context": "001848",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "つらくてもけっしてなかないで、%Nじぶんよりよわいひとをまもるんだ。"
+  },
+  "001851": {
+    "context": "001851",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうしてひとをまもりつづけるのは、つらいことかもしれん。%Nきずつくことだっておおい。"
+  },
+  "001854": {
+    "context": "001854",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "でもそのかわりに、おれがてんごくから、おまえをみまもってる。"
+  },
+  "001857": {
+    "context": "001857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だから、つよくいきろ。"
+  },
+  "001860": {
+    "context": "001860",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あいしてるぜ、むすこよ。"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x85",
+    "string": "　　　　　　　　　　"
+  },
+  "001867": {
+    "context": "001867",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おまえのちち　瞬より"
+  },
+  "001893": {
+    "context": "001893",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らく病床でしたためたであろう手紙の字は、ひどく荒れていた。"
+  },
+  "001898": {
+    "context": "001898",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを見るとまた涙が出そうになったが――"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は、必死で堪えた。"
+  },
+  "001908": {
+    "context": "001908",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "手紙を握り締めて震える彼を、母が優しく抱いて言う。"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……お父さんはいつでも、あなたと一緒にいるわ」"
+  },
+  "001966": {
+    "context": "001966",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「そして私も、これからもずっと……」"
+  },
+  "001971": {
+    "context": "001971",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言う母の目には、涙が浮かんでいた。"
+  },
+  "001982": {
+    "context": "001982",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……おかあさん、どうしてなくの？」"
+  },
+  "001993": {
+    "context": "001993",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おとうさんがいなくなっても、ぼくがいっしょにいるから……」"
+  },
+  "002004": {
+    "context": "002004",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……だから、なかないで」"
+  },
+  "002048": {
+    "context": "002048",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "博士はうなずき、静かに目を瞑る。"
+  },
+  "002053": {
+    "context": "002053",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "初めて見た母の涙は、かすかな音と共に床に落ちた。"
+  },
+  "002141": {
+    "context": "002141",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――あれ以来、昨日まで、母の涙を見た事はなかった。"
+  },
+  "002146": {
+    "context": "002146",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして母はしばらくすると、悲しさを埋めるように仕事に明け暮れ、家にも寄り付かなくなってしまった。"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "父が『護ってやってくれ』と言った母は、１人でも生きていける人だと思ったのだ。"
+  },
+  "002156": {
+    "context": "002156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて夏彦は手紙を机の奥にしまい、大切だったはずのこの記憶も、ほとんど思い出す事もなくなっていたが――"
+  },
+  "002163": {
+    "context": "002163",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……だからぼくは、ずっとこの時計を使っていたんだな）"
+  },
+  "002168": {
+    "context": "002168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "両親との絆の象徴を、夏彦はずっと身につけていた。"
+  },
+  "002173": {
+    "context": "002173",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の心の中で、母に対するわだかまりが、静かに解けていくのがわかった。"
+  },
+  "002178": {
+    "context": "002178",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もちろんいま会っても、すぐには普通の親子には戻れないだろう。"
+  },
+  "002183": {
+    "context": "002183",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、それでも――"
+  },
+  "002194": {
+    "context": "002194",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……母さんに、会いに行こう」"
+  },
+  "002199": {
+    "context": "002199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、サリュもましろも無言でうなずいた。"
+  },
+  "002204": {
+    "context": "002204",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "街の誰もが、夏彦たちに味方してはくれなかった。市も警察も学校も。"
+  },
+  "002210": {
+    "context": "002210",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だけど、血を分けた肉親なら……）"
+  },
+  "002215": {
+    "context": "002215",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その思いが、夏彦たちに残された、最後の希望となっていた。"
+  },
+  "002226": {
+    "context": "002226",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「味方になってくれるなら、母さんほど心強い人はいない」"
+  },
+  "002255": {
+    "context": "002255",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「だね。何しろラボの幹部だし、世界最高クラスの科学者だし」"
+  },
+  "002284": {
+    "context": "002284",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、私もあの人には勝てない」"
+  },
+  "002289": {
+    "context": "002289",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って３人は、笑みを交わした。"
+  },
+  "002294": {
+    "context": "002294",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かな希望が見えた事が、夏彦たちの勇気を一気に盛り立てていた。"
+  },
+  "002323": {
+    "context": "002323",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……でも、どうやって博士に会うの？」"
+  },
+  "002334": {
+    "context": "002334",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「警備が強化されてるって言ってたし、建物の中に入るのは難しいと思うよ？」"
+  },
+  "002345": {
+    "context": "002345",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「噂によると、ラボの警備員は自衛隊からの出向者で、ゴム弾使用のマシンガンを持ってるとか……」"
+  },
+  "002356": {
+    "context": "002356",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう言えば宇喜多のおじさんも、『ラボでは超法規的警備が認められている』って言ってたな」"
+  },
+  "002385": {
+    "context": "002385",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「では、裏口から侵入する？　大きな建物なら、入口は複数ある可能性が高い」"
+  },
+  "002390": {
+    "context": "002390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その問いに、夏彦は少し考えて答えた。"
+  },
+  "002401": {
+    "context": "002401",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……いや、真正面から行こう」"
+  },
+  "002430": {
+    "context": "002430",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「え？」"
+  },
+  "002441": {
+    "context": "002441",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「もし警備員が内通者だったとしたら、コソコソ侵入したら逆に危ない」"
+  },
+  "002452": {
+    "context": "002452",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「物陰とかに連れ込まれて、始末される恐れがある」"
+  },
+  "002463": {
+    "context": "002463",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも堂々と正面から入っていけば、多くの人目に触れる。向こうも手出ししにくいはずだ」"
+  },
+  "002492": {
+    "context": "002492",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「しかし警備員が内通者じゃなければ、捕まってしまうのは明白だけど？」"
+  },
+  "002503": {
+    "context": "002503",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「問題ないさ。その警備員に母さんを連れてきてもらえば、目的は果たせる」"
+  },
+  "002532": {
+    "context": "002532",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……確かに……でもさ、それってちょっと賭けだよね？」"
+  },
+  "002543": {
+    "context": "002543",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ賭けだ。だけど恐らく１番安全だし……それに正義はこっちにある」"
+  },
+  "002554": {
+    "context": "002554",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「正義の味方が、裏口からこっそり侵入なんて、カッコ悪いじゃないか」"
+  },
+  "002559": {
+    "context": "002559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がにやりと笑って見せると、ましろは目を丸くした。"
+  },
+  "002588": {
+    "context": "002588",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な、なんか夏彦……いつもとテンション違くない？」"
+  },
+  "002599": {
+    "context": "002599",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんだ忘れたのか、ましろ。まぁ９年も経つからしょうがないけど――」"
+  },
+  "002610": {
+    "context": "002610",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「これが本来のぼくだろ？」"
+  },
+  "002615": {
+    "context": "002615",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、ましろがぱぁっと表情を輝かせた。"
+  },
+  "002662": {
+    "context": "002662",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……それだよ夏彦！　その言葉を待ってたんだよ！」"
+  },
+  "002673": {
+    "context": "002673",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、それじゃ２人とも、正面から行くって事で問題ないな！？」"
+  },
+  "002702": {
+    "context": "002702",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「確かに、最も合理的なアイディア」"
+  },
+  "002713": {
+    "context": "002713",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0039 004068"
+  },
+  "002718": {
+    "context": "002718",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "３人はそう言って、笑顔をかわす。"
+  },
+  "002723": {
+    "context": "002723",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして長い道の先を見据えた。"
+  },
+  "002767": {
+    "context": "002767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "行く手の夜空には、夏の大三角形が輝く。"
+  },
+  "002772": {
+    "context": "002772",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "輝く３つの光は、夏彦たちの姿を象徴しているかのようで――。"
+  },
+  "002778": {
+    "context": "002778",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ああ、こんな事が昔にもあったな……）"
+  },
+  "002783": {
+    "context": "002783",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ふと、夏彦は昔の事を思い出していた。"
+  },
+  "002788": {
+    "context": "002788",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――幼い頃、夏彦は正義のヒーローになりたかった。"
+  },
+  "002793": {
+    "context": "002793",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに少しでも近づきたくて、危険を顧みず街を駆け回っていたのだ。"
+  },
+  "002798": {
+    "context": "002798",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその結果、悠里を傷つけることになった。"
+  },
+  "002804": {
+    "context": "002804",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あの時からぼくの時間は、止まってたんだな……）"
+  },
+  "002809": {
+    "context": "002809",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでもいいと、ずっと思っていた。"
+  },
+  "002814": {
+    "context": "002814",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分の脆弱な正義感のせいで、誰かが傷つくのなら、いっそ何もしない方がいいと。"
+  },
+  "002820": {
+    "context": "002820",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だけど……あの時とは違う）"
+  },
+  "002826": {
+    "context": "002826",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（今度こそ、何もかも護ってやる）"
+  },
+  "002831": {
+    "context": "002831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は決意を胸に歩く。"
+  },
+  "002890": {
+    "context": "002890",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて夜空に浮かぶ星が、朝の光に消える頃――"
+  },
+  "002895": {
+    "context": "002895",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "行く手に目的地が見えてきた。"
+  },
+  "002945": {
+    "context": "002945",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

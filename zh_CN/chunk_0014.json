@@ -190,6 +190,11 @@
     "developer_comment": "渡瀬",
     "string": "（糟……糟了！）"
   },
+  "000779": {
+    "context": "000779",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000784": {
     "context": "000784",
     "code": "0x45",
@@ -225,6 +230,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@import 0012 005089"
+  },
+  "000928": {
+    "context": "000928",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "000939": {
     "context": "000939",
@@ -297,6 +307,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "@import 0012 005351"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "001180": {
     "context": "001180",

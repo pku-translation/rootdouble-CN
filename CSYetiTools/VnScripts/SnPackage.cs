@@ -2,10 +2,11 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using CsYetiTools.IO;
+using System.Text;
 
 namespace CsYetiTools.VnScripts
 {
@@ -22,8 +23,7 @@ namespace CsYetiTools.VnScripts
 
             public FootersChunk(byte[] source)
             {
-                using var ms = new MemoryStream(source);
-                using var reader = new BinaryReader(ms);
+                using var reader = new BinaryStream(source);
                 var footers = new List<ScriptFooter>();
                 while (true)
                 {
@@ -170,8 +170,7 @@ namespace CsYetiTools.VnScripts
                 {
                     var (i, script) = entry;
                     var path = dirPath / $"chunk_{i:0000}.script";
-                    using var writer = new BinaryWriter(File.Create(path));
-                    script.WriteTo(writer);
+                    script.WriteToFile(path);
                 });
                 File.WriteAllBytes(dirPath / "footers", Footers.ToBytes());
             }
@@ -201,6 +200,74 @@ namespace CsYetiTools.VnScripts
             }
         }
 
+        public void WriteTo(Stream stream, Encoding? encoding = null)
+        {
+            var rawBytes = ToRawBytes(encoding);
+            var bytes = LZSS.Encode(rawBytes).ToArray();
+
+            stream.Write(BitConverter.GetBytes(rawBytes.Length));
+            stream.Write(bytes);
+            stream.Flush();
+        }
+
+        public void WriteTo(string path, Encoding? encoding = null)
+        {
+            using var stream = File.Create(path);
+            WriteTo(stream, encoding);
+        }
+
+        public IReadOnlyList<Script> Scripts
+            => Array.AsReadOnly(_scripts);
+
+        public byte[] ToRawBytes(Encoding? encoding = null)
+        {
+            var lengths = new int[_scripts.Length + 1];
+            var chunks = new byte[_scripts.Length + 1][];
+
+            Parallel.ForEach(_scripts.WithIndex(), entry =>
+            {
+                var (i, script) = entry;
+                var rawBytes = script.ToRawBytes(encoding);
+                chunks[i] = rawBytes;
+                lengths[i] = rawBytes.Length;
+            });
+
+            var footersChunk = Footers.ToBytes();
+            lengths[_scripts.Length] = footersChunk.Length;
+            chunks[_scripts.Length] = footersChunk;
+
+            using (var writer = new BinaryStream())
+            {
+                var offset = 16 * (_scripts.Length + 1); // (offset, size, 0, 0) for each chunk
+                foreach (var length in lengths)
+                {
+                    writer.WriteLE(offset);
+                    writer.WriteLE(length);
+                    writer.WriteLE(0);
+                    writer.WriteLE(0);
+                    offset += length;
+                }
+
+                foreach (var chunk in chunks)
+                {
+                    writer.Write(chunk);
+                }
+                return writer.ToBytes();
+            }
+        }
+
+        public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier[]> modifierDict)
+        {
+            foreach (var (i, (script, refScript)) in Scripts.Zip(refPackage.Scripts).WithIndex())
+            {
+                var refList = modifierDict.TryGetValue(i, out var modifiers)
+                    ? refScript.GenerateStringReferenceList(modifiers)
+                    : refScript.GenerateStringReferenceList();
+
+                script.ReplaceStringTable(refList);
+            }
+        }
+
         public void DumpTranslateSource(FilePath dirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
@@ -213,14 +280,10 @@ namespace CsYetiTools.VnScripts
             {
                 if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-                var content = JsonConvert.SerializeObject(script.GetTranslateSources(), Utils.JsonSettings);
                 names.UnionWith(script.GetCharacterNames());
 
-                using (var writer = new StreamWriter(dirPath / $"chunk_{i:0000}.json", false, Utils.Utf8))
-                {
-                    writer.NewLine = "\n";
-                    writer.WriteLine(content);
-                }
+                Utils.SerializeJsonToFile(script.GetTranslateSources(), dirPath / $"chunk_{i:0000}.json");
+
                 if (script.ParseError != null)
                 {
                     errors.Add($"Error parsing chunk_{i:0000}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n");
@@ -252,75 +315,89 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        public void WriteTo(Stream stream)
+        public void ApplyTranslations(FilePath sourceDir, FilePath translationDir)
         {
-            var rawBytes = ToRawBytes();
-            var bytes = LZSS.Encode(rawBytes).ToArray();
+            var sourceNamesPath = sourceDir / "names.json";
+            var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
+            var transNamesPath = translationDir / "names.json";
+            var transNameDict = File.Exists(transNamesPath)
+                ? Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(transNamesPath)
+                : new SortedDictionary<string, JObject>();
 
-            stream.Write(BitConverter.GetBytes(rawBytes.Length));
-            stream.Write(bytes);
-            stream.Flush();
-        }
-
-        public void WriteTo(string path)
-        {
-            using (var stream = File.Create(path))
+            var nameTable = new Dictionary<string, string>();
+            foreach (var (k, src) in sourceNameDict)
             {
-                WriteTo(stream);
-            }
-        }
-
-        public IReadOnlyList<Script> Scripts
-            => Array.AsReadOnly(_scripts);
-
-        public byte[] ToRawBytes()
-        {
-            var lengths = new int[_scripts.Length + 1];
-            var chunks = new byte[_scripts.Length + 1][];
-
-            Parallel.ForEach(_scripts.WithIndex(), entry =>
-            {
-                var (i, script) = entry;
-                var rawBytes = script.ToRawBytes();
-                chunks[i] = rawBytes;
-                lengths[i] = rawBytes.Length;
-            });
-
-            var footersChunk = Footers.ToBytes();
-            lengths[_scripts.Length] = footersChunk.Length;
-            chunks[_scripts.Length] = footersChunk;
-
-            using (var ms = new MemoryStream())
-            {
-                var offset = 16 * (_scripts.Length + 1); // (offset, size, 0, 0) for each chunk
-                foreach (var length in lengths)
+                var srcName = (string)src["string"]!;
+                if (transNameDict.TryGetValue(k, out var trans))
                 {
-                    ms.Write(BitConverter.GetBytes(offset));
-                    ms.Write(BitConverter.GetBytes(length));
-                    ms.Write(BitConverter.GetBytes(0));
-                    ms.Write(BitConverter.GetBytes(0));
-                    offset += length;
+                    nameTable.Add(srcName, (string)trans["string"]!);
                 }
-
-                foreach (var chunk in chunks)
+                else
                 {
-                    ms.Write(chunk);
+                    nameTable.Add(srcName, srcName);
                 }
-                return ms.ToArray();
             }
-        }
 
-        public void ReplaceStringTable(SnPackage refPackage, IDictionary<int, StringListModifier[]> modifierDict)
-        {
-            foreach (var (i, (script, refScript)) in Scripts.Zip(refPackage.Scripts).WithIndex())
+            var translationTables = Utils.Range(_scripts.Length).Select(i => new Dictionary<int, string>()).ToArray();
+
+            foreach (var (i, script) in _scripts.WithIndex())
             {
-                var refList = modifierDict.TryGetValue(i, out var modifiers)
-                    ? refScript.GenerateStringReferenceList(modifiers)
-                    : refScript.GenerateStringReferenceList();
+                if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-                script.ReplaceStringTable(refList);
+                var translationPath = translationDir / $"chunk_{i:0000}.json";
+                if (File.Exists(translationPath))
+                {
+                    try
+                    {
+                        var translationTable = translationTables[i];
+                        var translations = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(translationPath);
+                        foreach (var (k, v) in translations)
+                        {
+                            var index = int.Parse(k);
+                            var translation = v.String.Trim();
+                            if (translation == "@ignore") continue;
+                            if (translation.StartsWith("@import"))
+                            {
+                                var segs = translation.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                                var targetChunk = int.Parse(segs[1]);
+                                var targetIndex = int.Parse(segs[2]);
+                                if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent))
+                                {
+                                    translationTable.Add(index, targetContent);
+                                }
+                            }
+                            else
+                            {
+                                translationTable.Add(index, translation);
+                            }
+                        }
+                    }
+                    catch (Exception exc)
+                    {
+                        throw new InvalidDataException($"Invalid translation data for chunk_{i:0000}", exc);
+                    }
+                }
+            }
+
+            foreach (var (i, script) in _scripts.WithIndex())
+            {
+                try
+                {
+                    script.ApplyTranslations(translationTables[i], nameTable);
+                }
+                catch (Exception exc)
+                {
+                    throw new InvalidDataException($"Error translating chunk_{i:0000}", exc);
+                }
             }
         }
 
+        public IEnumerable<char> EnumerateChars()
+        {
+            foreach (var script in _scripts)
+            {
+                foreach (var c in script.EnumerateChars()) yield return c;
+            }
+        }
     }
 }

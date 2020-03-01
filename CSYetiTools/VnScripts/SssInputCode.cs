@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -20,37 +21,37 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => 2 + _ennegrams.Length * 18 + 2; // 0xFFFF as end.
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            _type = reader.ReadInt16();
+            _type = reader.ReadInt16LE();
             if (_type < 0 || _type >= TypeNames.Length) throw new InvalidDataException("$Invalid SssInputCode type {_type}");
             var ennegrams = new List<short[]>();
             while (true)
             {
-                var s = reader.ReadInt16();
+                var s = reader.ReadInt16LE();
                 if (s == -1) break;
                 var ennegram = new short[9];
                 ennegram[0] = s;
                 for (int i = 1; i < 9; ++i)
                 {
-                    ennegram[i] = reader.ReadInt16();
+                    ennegram[i] = reader.ReadInt16LE();
                 }
                 ennegrams.Add(ennegram);
             }
             _ennegrams = ennegrams.ToArray();
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_type);
+            writer.WriteLE(_type);
             foreach (var ennegram in _ennegrams)
             {
                 foreach (var elem in ennegram)
                 {
-                    writer.Write(elem);
+                    writer.WriteLE(elem);
                 }
             }
-            writer.Write((short)-1);
+            writer.WriteLE((short)-1);
         }
 
         protected override void DumpArgs(TextWriter writer)

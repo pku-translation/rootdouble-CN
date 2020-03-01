@@ -1,0 +1,414 @@
+{
+  "000092": {
+    "context": "000092",
+    "code": "0x55",
+    "string": "@import 0310 000139"
+  },
+  "000104": {
+    "context": "000104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――シェルターでは、宇喜多と洵がにらみ合っていた。"
+  },
+  "000115": {
+    "context": "000115",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0038 001016"
+  },
+  "000126": {
+    "context": "000126",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……どしたの、宇喜多さん？」"
+  },
+  "000132": {
+    "context": "000132",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がそう言いながら、歩みを進める。"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれから宇喜多は数発の銃弾を撃ったが、それらは全て洵の足元の床にめり込んでいた。"
+  },
+  "000148": {
+    "context": "000148",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうやら当てる事ができないみたいだねぇ？」"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「せいぜいこうやって威嚇するだけ。これじゃあたしは止められないよ」"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「い……いいから止まれ！　今度こそ撃つぞ！」"
+  },
+  "000234": {
+    "context": "000234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多が洵に狙いを定めた。しかし洵の歩みは止まらない。"
+  },
+  "000239": {
+    "context": "000239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はたまらず声を上げた。"
+  },
+  "000296": {
+    "context": "000296",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さん、やめて下さい！」"
+  },
+  "000307": {
+    "context": "000307",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0005 003761"
+  },
+  "000318": {
+    "context": "000318",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さん、正義のヒーローになりたいって言ってたじゃないですか！」"
+  },
+  "000329": {
+    "context": "000329",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「人を殺して、ヒーローなんかになれるんですか！？」"
+  },
+  "000340": {
+    "context": "000340",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……大丈夫、あんたらを殺しはしないよ」"
+  },
+  "000351": {
+    "context": "000351",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょっと手か足を斬って、行動できなくさせるだけさ」"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そんな事したら洵さんは、もうレスキュー隊員じゃなくなっちゃいますよ！」"
+  },
+  "000422": {
+    "context": "000422",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「夏彦くん……あたしはね、宇喜多さんに後頭部を殴られて、銃弾を奪われたんだよ」"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「宇喜多さんは、人を撃つために、銃弾を奪ったんだよ」"
+  },
+  "000444": {
+    "context": "000444",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「この人はね、人を殺そうとしたんだよ！」"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「事情があるんです！　おじさんはもう、そんなこと考えてません！」"
+  },
+  "000515": {
+    "context": "000515",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そんな事、どうして言える！？　一度人を殺そうとした人間が、どうして改心したと言えるのさ！？」"
+  },
+  "000526": {
+    "context": "000526",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いいかい！？　人が殺されてからじゃ遅いんだ！　死んだ人は絶対に戻ってこないんだ！」"
+  },
+  "000537": {
+    "context": "000537",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしだってこんな事したくないよ！　でも、万が一の犠牲者が出てから、後悔するくらいなら――」"
+  },
+  "000680": {
+    "context": "000680",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしはシリウスを辞めてでも、こいつに手を下す！」"
+  },
+  "000685": {
+    "context": "000685",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はエンジンカッターを振り上げ、宇喜多に飛び掛り――"
+  },
+  "000696": {
+    "context": "000696",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「やめてッ！！」"
+  },
+  "000701": {
+    "context": "000701",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里の絶叫が響いた瞬間、"
+  },
+  "000780": {
+    "context": "000780",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "部屋の外から、誰かが飛び込んできた。"
+  },
+  "000791": {
+    "context": "000791",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「？！」"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「動くなッ！」"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう叫んだのは、恵那だった。"
+  },
+  "000819": {
+    "context": "000819",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "手には銃を持ち、それを洵に向けている。"
+  },
+  "000830": {
+    "context": "000830",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「せ……先生ッ！？」"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あんたが、どうしてここに？」"
+  },
+  "000873": {
+    "context": "000873",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「隊長さんに聞いたのよ。おかしくなった女が、ここで人を襲おうとしてるって」"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「はぁん……」"
+  },
+  "000905": {
+    "context": "000905",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃあなに？　しばらく姿を見ないと思っていたら、あんたもテロリストの仲間――」"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「黙りなさい」"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0005 000751"
+  },
+  "000994": {
+    "context": "000994",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「動くと撃ちます。これ以上の警告はしないわ」"
+  },
+  "001000": {
+    "context": "001000",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那がそう言った瞬間、周囲の空気が凝結した。"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の全身から殺気が滲み、指先に凝縮され、引き金にかけられる。"
+  },
+  "001016": {
+    "context": "001016",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……撃てるの？　単なる高校教師のあんたに」"
+  },
+  "001027": {
+    "context": "001027",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「撃てるわよ。教師じゃないからね」"
+  },
+  "001038": {
+    "context": "001038",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「教師じゃない……？」"
+  },
+  "001049": {
+    "context": "001049",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いいかげん気付かれてると思ったんだけど――」"
+  },
+  "001107": {
+    "context": "001107",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私は、刑事よ」"
+  },
+  "001133": {
+    "context": "001133",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0008 000483"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「？！」"
+  },
+  "001155": {
+    "context": "001155",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「けっ……」"
+  },
+  "001166": {
+    "context": "001166",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「刑事！？」"
+  },
+  "001171": {
+    "context": "001171",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の告白に、その場にいる全員が目を見開いた。"
+  },
+  "001182": {
+    "context": "001182",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「正確には『刑事みたいなもの』ね。一般には知られてない団体に所属してるから」"
+  },
+  "001193": {
+    "context": "001193",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「でも警察に準ずる活動をし、帯銃も許されてる。不可避の際には、犯人射殺の権利も」"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「はっ、なにそれ？　そんな与太話、信じると思ってんの？」"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「与太話かどうか、試してみる？」"
+  },
+  "001270": {
+    "context": "001270",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0027 000910"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が気圧されたように黙り込む。"
+  },
+  "001280": {
+    "context": "001280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はますます冷酷な声で言った。"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そのエンジンカッターを、ゆっくり床に置きなさい」"
+  },
+  "001302": {
+    "context": "001302",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「少しでも怪しい動きがあったら、即座に射殺するわ」"
+  },
+  "001307": {
+    "context": "001307",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが洵は、エンジンカッターを手放さない。"
+  },
+  "001361": {
+    "context": "001361",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は傍らの夏彦に、小声で囁いた。"
+  },
+  "001372": {
+    "context": "001372",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くん、聞いて……」"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私が守部さんを抑えているから、今のうちに彼女の悪意を消して」"
+  },
+  "001388": {
+    "context": "001388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0239 001218"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

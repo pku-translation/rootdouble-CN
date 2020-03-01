@@ -100,6 +100,11 @@
     "developer_comment": "",
     "string": "但是哪里也看不到悠里的身影。"
   },
+  "000464": {
+    "context": "000464",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000481": {
     "context": "000481",
     "code": "0x45",
@@ -1119,5 +1124,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "上到了地下 1 层。"
+  },
+  "004278": {
+    "context": "004278",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

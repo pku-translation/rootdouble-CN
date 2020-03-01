@@ -14,7 +14,6 @@ namespace CsYetiTools
             ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
         public static readonly Encoding Cp936 = CodePagesEncodingProvider.Instance.GetEncoding(936, new EncoderExceptionFallback(), new DecoderExceptionFallback())
             ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
-
         public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false, /*throwOnInvalidBytes: */ true);
         
         public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
@@ -27,24 +26,27 @@ namespace CsYetiTools
             NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
         };
 
+        public static string SerializeJson(object obj)
+            => JsonConvert.SerializeObject(obj, JsonSettings);
+        
+        public static void SerializeJsonToFile(object obj, FilePath path)
+        {
+            var str = SerializeJson(obj);
+            using var file = new StreamWriter(path, false, Utf8);
+            file.NewLine = "\n";
+            file.WriteLine(str);
+        }
+
+        public static T DeserializeJson<T>(string value)
+            => JsonConvert.DeserializeObject<T>(value, JsonSettings) ?? throw new JsonSerializationException("Cannot deserialize object");
+
+        public static T DeserializeJsonFromFile<T>(FilePath path)
+            => DeserializeJson<T>(File.ReadAllText(path, Utf8));
+
         public static T SafeCastEnum<T>(object value) where T : Enum
         {
             if (Enum.IsDefined(typeof(T), value)) return (T)value;
             throw new ArgumentException($"Cannot cast {value} to {typeof(T).Name}");
-        }
-
-        public static string ReadStringZ(BinaryReader reader)
-        {
-            var bytes = new List<byte>();
-            byte b;
-            while ((b = reader.ReadByte()) != 0) bytes.Add(b);
-            return Cp932.GetString(bytes.ToArray());
-        }
-
-        public static void WriteStringZ(BinaryWriter writer, string content)
-        {
-            writer.Write(Cp932.GetBytes(content));
-            writer.Write((byte)0x00);
         }
 
         public static int GetStringZByteCount(string str)
@@ -238,5 +240,25 @@ namespace CsYetiTools
                 throw new ArgumentException($"Invalid range ({start}, {end}, {step})");
             }
         }
+
+        
+        private static readonly byte[] MsbTable =
+        {
+            0,1,2,2,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+            6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+            7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+            7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+            8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+            8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+            8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+            8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+        };
+
+        public static int Msb(int x)
+        {
+            int a = x <= 0xffff ? (x <= 0xff ? 0 : 8) : (x <= 0xffffff ? 16 : 24);
+            return MsbTable[x >> a] + a;
+        }
+
     }
 }

@@ -1,0 +1,613 @@
+{
+  "000048": {
+    "context": "000048",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "000063": {
+    "context": "000063",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "念のため第５エリアをざっと見てから、ファクトリーへ向かう。"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その雑然とした広い空間は、静寂に満ちていた。"
+  },
+  "000118": {
+    "context": "000118",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0059 000116"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0059 000196"
+  },
+  "000227": {
+    "context": "000227",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん。あと脱出経路の手がかりも見つけなきゃだね」"
+  },
+  "000256": {
+    "context": "000256",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「時間も限られてるし、サクサク捜索を進めよう」"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の言う通りだ。"
+  },
+  "000266": {
+    "context": "000266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "大量のＡＤを手に入れたところで、時間が逼迫している事には変わりはない。"
+  },
+  "000272": {
+    "context": "000272",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0059 000234"
+  },
+  "000277": {
+    "context": "000277",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう話しながら、ファクトリーに踏み込む。"
+  },
+  "000337": {
+    "context": "000337",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その時、渡瀬の視界に、あるものが入った。"
+  },
+  "000343": {
+    "context": "000343",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000348": {
+    "context": "000348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ファクトリーの隅にあるセキュリティゲート。"
+  },
+  "000353": {
+    "context": "000353",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは例の少女の遺体を見つけた、搬出リフトのある小部屋に続いている。"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ん……隊長、どうしたの？」"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、あの搬出リフトだが……なんとか脱出に使えないかな」"
+  },
+  "000424": {
+    "context": "000424",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「えっ？　コントロールパネルが壊れているんだよ？」"
+  },
+  "000435": {
+    "context": "000435",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だがもし修理できたら、地上に行けるだろ。どうだろうおっさん」"
+  },
+  "000465": {
+    "context": "000465",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うぅむ……自信がないな」"
+  },
+  "000470": {
+    "context": "000470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えば宇喜多は以前、セキュリティスロットの修理に挑んで失敗した事がある。"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが他に脱出口は見当たらないんだ。賭けてみる価値はあるんじゃないか？」"
+  },
+  "000510": {
+    "context": "000510",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「確かに。あたし手先器用だしさ、簡単な修理だったらできるかもしれないよ」"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうか……それなら、守部くんにお任せしよう」"
+  },
+  "000550": {
+    "context": "000550",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「決まりだな。行こう２人とも」"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは連れ立って、その小部屋に向かった。"
+  },
+  "000650": {
+    "context": "000650",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そこには以前と変わらず、少女の遺体があった。"
+  },
+  "000656": {
+    "context": "000656",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000661": {
+    "context": "000661",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは彼女に向け合掌し、それからコントロールパネルに歩み寄る。"
+  },
+  "000732": {
+    "context": "000732",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「さぁて修理できるかどうか……」"
+  },
+  "000737": {
+    "context": "000737",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は懐からアーミーナイフを取り出して言った。"
+  },
+  "000748": {
+    "context": "000748",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「じゃあその間に、オレはシャフト内を調べてみるか」"
+  },
+  "000777": {
+    "context": "000777",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「シャフトを？」"
+  },
+  "000788": {
+    "context": "000788",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「他のエレベーターと同じく、シャフトを登って上まで行けるかもしれないだろ」"
+  },
+  "000817": {
+    "context": "000817",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、なるほど」"
+  },
+  "000846": {
+    "context": "000846",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕は何をすればいいのかね？」"
+  },
+  "000857": {
+    "context": "000857",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさんは……ちょっと悪いが、ファクトリー内を調べて欲しい」"
+  },
+  "000868": {
+    "context": "000868",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「さっき調べたばかりとはいえ、一応な」"
+  },
+  "000897": {
+    "context": "000897",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「うむ……よかろう」"
+  },
+  "000917": {
+    "context": "000917",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はそう言って、小部屋を出て行った。"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そんじゃあたしたちも始めよっか」"
+  },
+  "000957": {
+    "context": "000957",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002801"
+  },
+  "001017": {
+    "context": "001017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は頷き、リフトの扉に駆け寄った。"
+  },
+  "001022": {
+    "context": "001022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "スライド式の扉に手を当て、力を込める。"
+  },
+  "001033": {
+    "context": "001033",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ふんッ！！」"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001084": {
+    "context": "001084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうして開けようと試みたのだが――"
+  },
+  "001089": {
+    "context": "001089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通常のエレベーターの扉とは違い、扉はびくともしなかった。"
+  },
+  "001100": {
+    "context": "001100",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「む、ロックが掛かってるみたいだな……」"
+  },
+  "001131": {
+    "context": "001131",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でもこのコンパネが直ったら、扉も開くよ」"
+  },
+  "001142": {
+    "context": "001142",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「修理はあたしがやっとくから、隊長は宇喜多さんの方を手伝ってくれば？」"
+  },
+  "001199": {
+    "context": "001199",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、そうしよう」"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それじゃ修理が終わったら呼ぶから、ちょっと待ってて」"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、待て……だったらオレが修理を担当しよう」"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え？　隊長、記憶喪失なのに修理なんてできるの？」"
+  },
+  "001294": {
+    "context": "001294",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わからんが、ちょっとやってみたいんだ。手が覚えているかもしれないしな」"
+  },
+  "001323": {
+    "context": "001323",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「頼りないな……じゃあちょっとやってみてよ、あたしもついてるから」"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……信用ないなぁ。まぁ見てろって」"
+  },
+  "001367": {
+    "context": "001367",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はうなずき、洵からアーミーナイフを受け取った。"
+  },
+  "001378": {
+    "context": "001378",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――しかし、それから３分ほどコンパネをいじってみたが――"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全く修理できる感じはしなかった。"
+  },
+  "001394": {
+    "context": "001394",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「うーむ……ダメだな、さっぱりわからん」"
+  },
+  "001399": {
+    "context": "001399",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あちこち断線してるのはわかるが、修理方法となると見当がつかない。"
+  },
+  "001428": {
+    "context": "001428",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だから言ったじゃん。言っちゃ悪いけど時間の無駄だよ」"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ここはあたしに任せて、宇喜多さんを手伝ってきなって」"
+  },
+  "001489": {
+    "context": "001489",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001500": {
+    "context": "001500",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……仕方ないな、そうしよう」"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0062 001239"
+  },
+  "001544": {
+    "context": "001544",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "001546": {
+    "context": "001546",
+    "code": "0x55",
+    "string": "@import 0052 000134"
+  },
+  "001554": {
+    "context": "001554",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はうなずき、その小部屋を出た。"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ファクトリーには宇喜多の姿があった。"
+  },
+  "001737": {
+    "context": "001737",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬に気付き、びくっと身を震わせる。"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ど、どうしたんだね？　シャフトの調査とやらは？」"
+  },
+  "001779": {
+    "context": "001779",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「扉が開かなくてできなかった。で、オレもファクトリーの捜索を手伝いに来たのさ」"
+  },
+  "001808": {
+    "context": "001808",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "@import 0025 000388"
+  },
+  "001813": {
+    "context": "001813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多はどこか不機嫌そうに目を逸らした。"
+  },
+  "001819": {
+    "context": "001819",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（なんだ……？　さっき揉めたこと、まだ気にしてるのか？）"
+  },
+  "001824": {
+    "context": "001824",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思うとなんとなく、渡瀬も気まずくなった。"
+  },
+  "001867": {
+    "context": "001867",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多と少し離れて、ファクトリーの捜索をする。"
+  },
+  "001872": {
+    "context": "001872",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうしてしばらく黙々と、ファクトリーを歩き回っていると――"
+  },
+  "001877": {
+    "context": "001877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて洵の声がした。"
+  },
+  "001888": {
+    "context": "001888",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長！　宇喜多さん！」"
+  },
+  "001893": {
+    "context": "001893",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見れば洵がリフトのある小部屋の方から、駆け寄ってくるところだった。"
+  },
+  "001973": {
+    "context": "001973",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうした守部？」"
+  },
+  "001984": {
+    "context": "001984",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「リフトの修理は終わったのかね？」"
+  },
+  "002013": {
+    "context": "002013",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いや、できてない。どう考えても部品が足りないんだ」"
+  },
+  "002024": {
+    "context": "002024",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「部品が足りないって？」"
+  },
+  "002053": {
+    "context": "002053",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まるで内部の配線とかが引きちぎられでもしたみたいに、消えてなくなってるのさ。すぐに修理するのは難しいよ」"
+  },
+  "002064": {
+    "context": "002064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……壊した奴は、ずいぶん念入りにやりやがったんだな」"
+  },
+  "002093": {
+    "context": "002093",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうする？　そのへんの機械バラして、配線やら部品やらデッチ上げれば、修理できるかもしれないけど」"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「時間かかりそうか？」"
+  },
+  "002133": {
+    "context": "002133",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「はっきり言って予想不能だね。合う部品があるかわかんないし」"
+  },
+  "002138": {
+    "context": "002138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が問うと、宇喜多が口を挟んできた。"
+  },
+  "002167": {
+    "context": "002167",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや……不確定な要素に賭けるくらいなら、先に要救助者を探すべきなんじゃないのかね」"
+  },
+  "002178": {
+    "context": "002178",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「迷いどころだが……確かにおっさんの言う事にも、一理あるな」"
+  },
+  "002207": {
+    "context": "002207",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だね。普通の現場ならともかく、救助に時間がかかればかかるほど、要救助者の累計被曝量も上がっちゃうし」"
+  },
+  "002218": {
+    "context": "002218",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし……じゃあこのリフトの事は、要救助者を見つけてから、改めて考えよう」"
+  },
+  "002229": {
+    "context": "002229",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん！　じゃあファクトリーの捜索は終了って事で、次は内周棟へ行こう！」"
+  },
+  "002258": {
+    "context": "002258",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「了解だ」"
+  },
+  "002263": {
+    "context": "002263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはそう話し、内周棟へ向かった。"
+  },
+  "002311": {
+    "context": "002311",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

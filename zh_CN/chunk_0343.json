@@ -1,0 +1,927 @@
+{
+  "000044": {
+    "context": "000044",
+    "code": "0x55",
+    "string": "@import 0330 000156"
+  },
+  "000056": {
+    "context": "000056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0002 005704"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――――"
+  },
+  "000066": {
+    "context": "000066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——"
+  },
+  "000115": {
+    "context": "000115",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0324 000153"
+  },
+  "000120": {
+    "context": "000120",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の視界に、最初に映ったのは……"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "エンジンカッターを持ったまま、ゆっくりと倒れる洵の姿だった。"
+  },
+  "000179": {
+    "context": "000179",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さん！」"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はとっさに、洵の手を掴んだ。"
+  },
+  "000210": {
+    "context": "000210",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "衝撃が体に伝わり、傷が痛んだが――手は離さない。"
+  },
+  "000215": {
+    "context": "000215",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが痛んだのは体だけではなかった。"
+  },
+  "000320": {
+    "context": "000320",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0021 004113"
+  },
+  "000325": {
+    "context": "000325",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の中にいた被験体Ｎを消した時と同様、頭にもまた痛みが走った。"
+  },
+  "000368": {
+    "context": "000368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらに脳が揺さぶられるような、あの奇妙な不快感も襲ってくる。"
+  },
+  "000373": {
+    "context": "000373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "痛みも不快感も、前回より明らかに強かった。"
+  },
+  "000402": {
+    "context": "000402",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひ、ひこりん？　まさか、また――」"
+  },
+  "000488": {
+    "context": "000488",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の変調に気づいた悠里が声を上げたが――夏彦はとっさに、テレパシーを返した。"
+  },
+  "000505": {
+    "context": "000505",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《悠里、その話は今はしないでくれ！》"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0003 002680"
+  },
+  "000545": {
+    "context": "000545",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《予想通り、どうやら被験体Ｎと接触するたびに、ぼくの脳はダメージを受けているらしい》"
+  },
+  "000556": {
+    "context": "000556",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《でもそれをここで口に出してもしょうがない。皆に心配かけるだけで、事態は何も好転しない》"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《だからこの事は、ぼくらの間だけの秘密にしておこう》"
+  },
+  "000590": {
+    "context": "000590",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると悠里は心配げに、夏彦を見つめていたが……やがてテレパシーで返事した。"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《……わかったよ。でも……どうか、無理はしないでね……》"
+  },
+  "000621": {
+    "context": "000621",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に夏彦は、うなずいて見せる。"
+  },
+  "000721": {
+    "context": "000721",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……無理はしないで、か……）"
+  },
+  "000726": {
+    "context": "000726",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "気持ちは嬉しいが、悠里の言葉に甘えるわけにはいかない。"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どれだけ脳にダメージを受けようと、全員を悪意から解放するまでは、被験体Ｎと戦い続けなければならないのだから。"
+  },
+  "000736": {
+    "context": "000736",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "かつて渡瀬が身を削って、皆を救おうとしたように。"
+  },
+  "000825": {
+    "context": "000825",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ははっ……！　盛り上がってきたじゃないか）"
+  },
+  "000831": {
+    "context": "000831",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくの脳が壊れるのが先か、被験体Ｎの悪意が全て消えるのが先か……勝負だな）"
+  },
+  "000836": {
+    "context": "000836",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の口の端に、強がるような笑みが浮かぶ。"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頭痛が鎮まるのを待つ夏彦に、恵那と宇喜多が声をかけてきた。"
+  },
+  "000896": {
+    "context": "000896",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……どうしたの、天川くん？」"
+  },
+  "000907": {
+    "context": "000907",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「き、傷が痛むのかい？」"
+  },
+  "000918": {
+    "context": "000918",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ええ、ちょっと……でもそれより、今は洵さんの事です」"
+  },
+  "000982": {
+    "context": "000982",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さん、大丈夫ですか？　洵さん？」"
+  },
+  "000987": {
+    "context": "000987",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が呼びかけると、洵はやがてうめき声を上げた。"
+  },
+  "000998": {
+    "context": "000998",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「…………ん」"
+  },
+  "001035": {
+    "context": "001035",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……あれ、夏彦くんに、ユウリちゃん……？」"
+  },
+  "001040": {
+    "context": "001040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は虚ろな目で、シェルター内にいる人々を順番に見て――"
+  },
+  "001045": {
+    "context": "001045",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてはっと気付いたように、息を呑んだ。"
+  },
+  "001074": {
+    "context": "001074",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ……あたし、なんて事を……？」"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「洵さん、意識ははっきりしてますか？」"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「う、うん……でも……」"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なんか変なんだよ……さっきまでのあたし、完全におかしかったよね？」"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「それが急に、元に戻ったって言うか……」"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵のその言葉を聞いて、夏彦はほっとした。"
+  },
+  "001170": {
+    "context": "001170",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それなら大丈夫です。今の洵さんが、本来の洵さんですよ」"
+  },
+  "001199": {
+    "context": "001199",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「本来のあたし……？」"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「今、この施設内にはそういう心理状況に陥る要因があるんです。誰もが攻撃的になり、疑心暗鬼になるという……」"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「って……どうしてそんな事が？」"
+  },
+  "001299": {
+    "context": "001299",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「搬出リフトの前で発見された少女――あの子は強力なコミュニケーターだったんです」"
+  },
+  "001310": {
+    "context": "001310",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「彼女は周囲の人間の精神を、悪意に満ちたものに変えていくという能力を持っていました」"
+  },
+  "001321": {
+    "context": "001321",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そのせいで施設内にいた人々は、みんなおかしくなってたんです」"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そんな……ＢＣにそんな力があるの……？」"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あるんです。信じられないとは思いますが」"
+  },
+  "001373": {
+    "context": "001373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はしばらく怪訝そうな顔をしていたが――"
+  },
+  "001402": {
+    "context": "001402",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……自分の状態を鑑みると、信じるしかなさそうだね……」"
+  },
+  "001431": {
+    "context": "001431",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「もしかして、宇喜多さんもそれでおかしくなってたの？」"
+  },
+  "001461": {
+    "context": "001461",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ……だからと言って、君を襲った事を許してもらえるとは思わんがね」"
+  },
+  "001466": {
+    "context": "001466",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多と洵は、お互いバツが悪そうな表情を浮かべた。"
+  },
+  "001471": {
+    "context": "001471",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ややあって洵が素直に頭を下げる。"
+  },
+  "001506": {
+    "context": "001506",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「こちらこそ……その、さっきはすみません。刃物持って迫ったあげく、なんかすごく失礼な事を言って……」"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「いや、いいさ……あのくらい言われてしかるべきだ」"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやらこの２人の確執も、ひとまずの決着が見えたようだ。"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那も息をついて、夏彦に囁く。"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くん、信じてくれてありがとう。おかげでなんとか収束できたみたいね」"
+  },
+  "001639": {
+    "context": "001639",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いえ……むしろ先生のおかげです」"
+  },
+  "001668": {
+    "context": "001668",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「先生が悪意に感染してなくて、本当に助かりました」"
+  },
+  "001673": {
+    "context": "001673",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そういう夏彦と悠里に、恵那は首を振った。"
+  },
+  "001702": {
+    "context": "001702",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「バカね２人とも。安心するのはまだ早いでしょ？」"
+  },
+  "001713": {
+    "context": "001713",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0056 000215"
+  },
+  "001742": {
+    "context": "001742",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「守部さんの様子を見るに、悪意感染の有無は自覚できないんでしょう？」"
+  },
+  "001753": {
+    "context": "001753",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だったら、私が悪意に感染してないとは限らないじゃない」"
+  },
+  "001779": {
+    "context": "001779",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 002680"
+  },
+  "001815": {
+    "context": "001815",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう言われ、とっさに悠里を護るように立った。"
+  },
+  "001844": {
+    "context": "001844",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが恵那は銃を床に置き、それから微笑んで言う。"
+  },
+  "001887": {
+    "context": "001887",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「慌てないで。私は多分悪意に感染してないわ。でも用心のために、私の心をチェックして欲しいの」"
+  },
+  "001898": {
+    "context": "001898",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そんな？　悪意感染の確証もないのに、先生の心を覗けって言うんですか？」"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはさすがに気が咎めた。"
+  },
+  "001908": {
+    "context": "001908",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが恵那は、夏彦を諭すように言う。"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「天川くん、あなたがそれを嫌がるのもわかるわ。あなたはずっと、ＢＣ能力を使う事を嫌がっていたものね」"
+  },
+  "001948": {
+    "context": "001948",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0060 001114"
+  },
+  "001977": {
+    "context": "001977",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「適性度Ｓのあなたが、本来自由に使えるはずのＢＣ能力をずっと発現しなかったのは、あなた自身がそれを拒んでいたから」"
+  },
+  "001988": {
+    "context": "001988",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「人の心に踏み込む事を、あなたはずっと避けていたんでしょう？」"
+  },
+  "001999": {
+    "context": "001999",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0006 005468"
+  },
+  "002004": {
+    "context": "002004",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いま考えれば、それは恵那の言う通りだったんだろう。"
+  },
+  "002009": {
+    "context": "002009",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＢＣ能力の発現には、使用者の『意思』が大きく影響する。だから夏彦のＢＣ能力は、ずっと開花しなかったのだ。"
+  },
+  "002020": {
+    "context": "002020",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だけど天川くん。今のあなたは、ＢＣ能力を自在に使えている。それはあなたが今、それを必要だと思っているからよ」"
+  },
+  "002031": {
+    "context": "002031",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも……先生の心を覗く事が、いま必要な事とは思えません」"
+  },
+  "002060": {
+    "context": "002060",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「いいえ。私があなたたちの信頼を得るためには、それをしてもらうしかないわ」"
+  },
+  "002071": {
+    "context": "002071",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だって天川くんも他の皆も、私を怪しいと思っているでしょう？」"
+  },
+  "002082": {
+    "context": "002082",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0005 000751"
+  },
+  "002105": {
+    "context": "002105",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "答えに窮する夏彦を見て、恵那は苦い笑みを浮かべる。"
+  },
+  "002134": {
+    "context": "002134",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それも当然よ。私は誰に対しても心を閉ざし、嘘ばかりついてきたから」"
+  },
+  "002145": {
+    "context": "002145",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「もはや言葉でなにを言っても、上滑りするばかりだけど……」"
+  },
+  "002174": {
+    "context": "002174",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「心を覗いてもらえば、私が何を考えて行動していたのか、全て理解してもらえると思うの」"
+  },
+  "002179": {
+    "context": "002179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はそう言って、夏彦の肩に手を置いた。"
+  },
+  "002208": {
+    "context": "002208",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……記憶は嘘をつかないわ。だから私の心に潜って、私の人生を追体験して」"
+  },
+  "002219": {
+    "context": "002219",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうすればきっとあなたたちも、私を信じてくれるはずだから……」"
+  },
+  "002224": {
+    "context": "002224",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かにそうすれば、彼女の気持ちを理解できるだろう。"
+  },
+  "002270": {
+    "context": "002270",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の正体も、彼女がずっと心を閉ざしていた理由も。"
+  },
+  "002281": {
+    "context": "002281",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、どうする……？　やるならどういう風に、記憶を検索するべきだ？）"
+  },
+  "002286": {
+    "context": "002286",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確認すべき事は『恵那の正体』と『なぜ今日ラボにいて、何を目的として行動していたか』。そして『悪意の感染の有無』だ。"
+  },
+  "002292": {
+    "context": "002292",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（詳しく見ていくべきか、確認のみで済ませるか……）"
+  },
+  "002298": {
+    "context": "002298",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あまり他人の心を暴かない方が、いいとは思うけど……）"
+  },
+  "002382": {
+    "context": "002382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬そう考えたが、そこでふと別の考えが胸に湧き起こった。"
+  },
+  "002388": {
+    "context": "002388",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや……先生の事は、詳しく知っておきたい。先生もそれを望んでいるようだから……）"
+  },
+  "002393": {
+    "context": "002393",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう思い、恵那に告げた。"
+  },
+  "002404": {
+    "context": "002404",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「わかりました……そんなに言うのでしたら、先生の記憶を覗かせて貰います」"
+  },
+  "002415": {
+    "context": "002415",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「先生の人生を、ぼくも体験させて頂きます」"
+  },
+  "002420": {
+    "context": "002420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう言うと、傍らの悠里も頷いた。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしも、そうさせてもらいます。先生を心から、信じたいから……」"
+  },
+  "002455": {
+    "context": "002455",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に先生は、穏やかに微笑んだ。"
+  },
+  "002490": {
+    "context": "002490",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……ありがとう、２人とも」"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私も今度こそ、心を開くわ……私の頭の中にあるのが、この国の真実の姿よ」"
+  },
+  "002524": {
+    "context": "002524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思わせぶりな事を言う恵那に、夏彦たちは歩み寄り――"
+  },
+  "002539": {
+    "context": "002539",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0343 001887"
+  },
+  "002550": {
+    "context": "002550",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「用心のため、ですか……？」"
+  },
+  "002579": {
+    "context": "002579",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そうよ、それにあなたたちも気になるんじゃない？　私の正体が」"
+  },
+  "002590": {
+    "context": "002590",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確かにそれは気になる。"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那が『警察のようなもの』に所属している人間であれば、それに準じた理由なのだろうが――"
+  },
+  "002646": {
+    "context": "002646",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002652": {
+    "context": "002652",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうする……今回はどういう風に、記憶を検索するべきだ？）"
+  },
+  "002657": {
+    "context": "002657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まず確認したい事は、『恵那の正体』と『なぜ今日ラボにいて、何を目的として行動していたか』。"
+  },
+  "002662": {
+    "context": "002662",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして『悪意の感染の有無』だ。"
+  },
+  "002668": {
+    "context": "002668",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0343 002292"
+  },
+  "002674": {
+    "context": "002674",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（確認のみで済ませるべきという気もするけど……）"
+  },
+  "002758": {
+    "context": "002758",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0343 002382"
+  },
+  "002764": {
+    "context": "002764",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや……先生の事は、詳しく知りたい）"
+  },
+  "002770": {
+    "context": "002770",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（先生は謎が多すぎるし、それに……）"
+  },
+  "002775": {
+    "context": "002775",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の内面を、もっと知りたかったのだ。"
+  },
+  "002786": {
+    "context": "002786",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかりました、先生の記憶を覗かせてもらいます」"
+  },
+  "002797": {
+    "context": "002797",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ただ、先生を疑っているから覗くわけじゃありませんから」"
+  },
+  "002827": {
+    "context": "002827",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そ、そうです。あくまで先生を心から信じるために……」"
+  },
+  "002832": {
+    "context": "002832",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦と悠里が言うと、恵那は微笑んだ。"
+  },
+  "002867": {
+    "context": "002867",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0343 002490"
+  },
+  "002896": {
+    "context": "002896",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0343 002519"
+  },
+  "002901": {
+    "context": "002901",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0343 002524"
+  },
+  "002911": {
+    "context": "002911",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……悪意感染の可能性は低いし……確認のみに留めよう）"
+  },
+  "002916": {
+    "context": "002916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は恵那を見据えて答えた。"
+  },
+  "002927": {
+    "context": "002927",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかりました、一応、確認させて頂きます」"
+  },
+  "002956": {
+    "context": "002956",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それでいいわ。無条件に信用するより、安全策を取るべきよ」"
+  },
+  "002963": {
+    "context": "002963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って微笑む恵那に、夏彦たちは歩み寄り――"
+  },
+  "003021": {
+    "context": "003021",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0311 003012"
+  },
+  "003126": {
+    "context": "003126",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003127": {
+    "context": "003127",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003128": {
+    "context": "003128",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003129": {
+    "context": "003129",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003130": {
+    "context": "003130",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003131": {
+    "context": "003131",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003133": {
+    "context": "003133",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003137": {
+    "context": "003137",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

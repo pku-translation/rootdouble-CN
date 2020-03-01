@@ -1,4 +1,5 @@
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -14,26 +15,26 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => _extralength + ContentLength;
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            Short1 = reader.ReadInt16();
-            Short2 = reader.ReadInt16();
+            Short1 = reader.ReadInt16LE();
+            Short2 = reader.ReadInt16LE();
             if (Short1 == -1 || Short2 == -1)
             {
                 _extralength = 4;
             }
             else
             {
-                reader.BaseStream.Seek(-2, SeekOrigin.Current);
+                reader.Seek(-2);
                 _extralength = 2;
             }
             ReadString(reader);
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(Short1);
-            if (_extralength == 4) writer.Write(Short2);
+            writer.WriteLE(Short1);
+            if (_extralength == 4) writer.WriteLE(Short2);
             WriteString(writer);
         }
 

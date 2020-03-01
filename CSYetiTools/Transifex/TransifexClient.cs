@@ -95,7 +95,7 @@ namespace CsYetiTools.Transifex
             }
             if (string.IsNullOrWhiteSpace(apiToken))
             {
-                throw new ArgumentException("No API token found, please use env TX_TOKEN or args --token to specify API token.");
+                throw new ArgumentException("No API token found, please use env TX_TOKEN to specify API token.");
             }
 
             _flurlClient = new FlurlClient(BaseUrl).WithBasicAuth("api", apiToken).WithTimeout(Timeout);

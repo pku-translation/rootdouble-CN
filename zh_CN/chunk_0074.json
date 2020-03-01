@@ -1,0 +1,787 @@
+{
+  "000060": {
+    "context": "000060",
+    "code": "0x55",
+    "string": "@import 0069 000136"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「背中の傷って……っ！　痛ッ！！」"
+  },
+  "000114": {
+    "context": "000114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は苦痛に身をよじった。己の傷に気付いたようだ。"
+  },
+  "000125": {
+    "context": "000125",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だから、その……悪いが服を脱がして、傷薬を塗らせてくれ」"
+  },
+  "000154": {
+    "context": "000154",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……そう、だったら……仕方ないね」"
+  },
+  "000165": {
+    "context": "000165",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも、なに見ても驚かないでね」"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は諦めたように呟き、そして背中を向け――"
+  },
+  "000175": {
+    "context": "000175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "制服のファスナーをおろした。"
+  },
+  "000224": {
+    "context": "000224",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は迷いなく制服の上半身をはだけ、血を吸ったＴシャツを脱ぎ捨てた。"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の背中があらわになる。"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "小柄だとは思っていたが、こうして見ると本当に小さな身体だった。"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "右肩甲骨の下に、直径２センチほどの傷があり、血がだらだらと流れている。"
+  },
+  "000355": {
+    "context": "000355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬が目を奪われたのは、そこではない。"
+  },
+  "000366": {
+    "context": "000366",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "000371": {
+    "context": "000371",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の右肩から背中の半ば辺りにかけて、広い範囲に皮膚がただれたような痕があったのだ。"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（これは……火傷の？）"
+  },
+  "000382": {
+    "context": "000382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "昨日今日できたものではない。かなり古い火傷の痕だった。"
+  },
+  "000393": {
+    "context": "000393",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「隊長、早く」"
+  },
+  "000404": {
+    "context": "000404",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0003 002120"
+  },
+  "000449": {
+    "context": "000449",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "うながされ、慌てて傷口にカイローンを塗り込んだ。"
+  },
+  "000460": {
+    "context": "000460",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0005 000751"
+  },
+  "000465": {
+    "context": "000465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がくすぐったげに身じろぎする。"
+  },
+  "000476": {
+    "context": "000476",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「すまない守部、少しだけ我慢してくれ」"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って、手当てを続ける。"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0070 001210"
+  },
+  "000497": {
+    "context": "000497",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……終ったぞ」"
+  },
+  "000542": {
+    "context": "000542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう声をかけると、洵は肩の力を抜いた。"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背中がしっとりと汗ばみ、火傷の痕が薄紅色に染まる。"
+  },
+  "000598": {
+    "context": "000598",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……隊長、気になる？」"
+  },
+  "000609": {
+    "context": "000609",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あ、いや……すまん……」"
+  },
+  "000620": {
+    "context": "000620",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ううん、気にしないで。隊長だから見せたんだし」"
+  },
+  "000625": {
+    "context": "000625",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵のその言葉には、何かを期待する響きがあった。"
+  },
+  "000630": {
+    "context": "000630",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に誘われ、渡瀬は尋ねる。"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁ守部……この火傷の痕はどうしたんだ？　ずいぶん古いものみたいだが」"
+  },
+  "000692": {
+    "context": "000692",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「もう１０年近くも前、ガス爆発事故でね……」"
+  },
+  "000703": {
+    "context": "000703",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『ガス爆発事故』……？」"
+  },
+  "000708": {
+    "context": "000708",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に渡瀬ははっとした。"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "確か風見の妹が死んだのも――！"
+  },
+  "000724": {
+    "context": "000724",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部、まさかその時、お前も一緒に！？」"
+  },
+  "000729": {
+    "context": "000729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が尋ねると、洵は静かに語り始めた。"
+  },
+  "000740": {
+    "context": "000740",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……そう。その日あたしは、凪沙の住む団地に遊びに行ってたんだ」"
+  },
+  "000751": {
+    "context": "000751",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そこで２人で遊んでいると、とつぜん物凄い音が聞こえて――」"
+  },
+  "000762": {
+    "context": "000762",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「気付けばあたしたちは、瓦礫の中にいた」"
+  },
+  "000773": {
+    "context": "000773",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「身動きはとれなくて、助けを呼んでも誰も来てくれなくて……」"
+  },
+  "000778": {
+    "context": "000778",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――この火傷は、その時のものなのだろう。"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はひどく沈んだ声で続ける。"
+  },
+  "000794": {
+    "context": "000794",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そのうちようやく救助が来て、あたしと凪沙は救助されたんだけど……」"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「凪沙は頭を強く打っていて……２日後、病院で息を引き取ったんだ」"
+  },
+  "000816": {
+    "context": "000816",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……そんなことが……」"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どう声をかけていいのかわからず、渡瀬は黙り込んだ。"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は淡々と続ける。"
+  },
+  "000877": {
+    "context": "000877",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……あたしさ、凪沙のことが大好きだったんだよ」"
+  },
+  "000888": {
+    "context": "000888",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「とっても心の綺麗な子で、優しくって、思いやりがあって……」"
+  },
+  "000899": {
+    "context": "000899",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あの子といるとあたしは、いつも救われたような気分になってたんだ」"
+  },
+  "000910": {
+    "context": "000910",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だからあの時も、何とかして凪沙を助けてあげたかったんだけど……その時のあたしには、何の力もなくってさ……」"
+  },
+  "000915": {
+    "context": "000915",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "過去の自分を悔やむように、洵が奥歯を噛み締める。"
+  },
+  "000920": {
+    "context": "000920",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その表情を見て、全てが腑に落ちた。"
+  },
+  "000931": {
+    "context": "000931",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だからお前は、レスキュー隊員になったのか……」"
+  },
+  "000936": {
+    "context": "000936",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の小さな身体は、お世辞にもレスキュー隊員向きとは言えない。"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも洵はここにいる。"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この体躯でレスキュー隊に入るためには、どれほどの努力が必要だっただろう。"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その鋼のような信念を思い、渡瀬は心底敬服した。"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……橘と同じ気持ちで、この世界に入ってきたんだな」"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん……他にも理由はいくつかあるけど、一番はやっぱそれだね」"
+  },
+  "000984": {
+    "context": "000984",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしはもう２度と繰り返したくないんだ。大切な人がすぐ側にいるのに、助けられないなんてことはね」"
+  },
+  "000995": {
+    "context": "000995",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「この火傷の痕は、弱かった頃のあたしの象徴なのさ」"
+  },
+  "001006": {
+    "context": "001006",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だから本当に心を許せる相手にしか、これを見せようとは思わなかったんだけど……」"
+  },
+  "001057": {
+    "context": "001057",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「まさかその相手が、隊長になるとはねぇ？」"
+  },
+  "001062": {
+    "context": "001062",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵がぎこちない笑顔を見せる。"
+  },
+  "001067": {
+    "context": "001067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背中の火傷が洵にとってどれほど大きな意味を持つのか、渡瀬にも痛いほど理解できた。"
+  },
+  "001072": {
+    "context": "001072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だから渡瀬も、無理に笑みを作って答える。"
+  },
+  "001083": {
+    "context": "001083",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いいや、オレなんてまだまだだよ。お前にもこうして怪我させちまったんだからな」"
+  },
+  "001094": {
+    "context": "001094",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なに言ってんのさ。このくらいバディだから当然じゃない」"
+  },
+  "001105": {
+    "context": "001105",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……バディか」"
+  },
+  "001110": {
+    "context": "001110",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうだった。あの汚染区域に入る前に交わした契り――"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "互いに信頼し合う相棒。それが渡瀬と洵の関係だ。"
+  },
+  "001126": {
+    "context": "001126",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……仲間を怪我させちまうような、頼りないオレでも、そう呼んでくれるんだな」"
+  },
+  "001137": {
+    "context": "001137",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「頼りないなんて事ないよ。だから誰にも見せた事のない傷を見せたんだよ」"
+  },
+  "001148": {
+    "context": "001148",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……あたし、隊長に期待してるからさ」"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「だから、ねぇ隊長……あたしの期待を裏切るような真似はしないでね？」"
+  },
+  "001170": {
+    "context": "001170",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、もちろんだ」"
+  },
+  "001181": {
+    "context": "001181",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「絶対に絶対だよ？」"
+  },
+  "001192": {
+    "context": "001192",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「約束は守るよ」"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前のバディとして……お前が信じてくれた分だけ、オレはそれに応え続ける」"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言うと洵は、柔らかく微笑んだ。"
+  },
+  "001219": {
+    "context": "001219",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……ありがと、隊長。ホントに今日の隊長はいつもと違うね」"
+  },
+  "001230": {
+    "context": "001230",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まぁ普段よりは能力も説得力も半減だろうが、我慢してくれ」"
+  },
+  "001241": {
+    "context": "001241",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「違うよ、そういう意味じゃない」"
+  },
+  "001252": {
+    "context": "001252",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いつもよりずっと、優しくてあったかいよ」"
+  },
+  "001263": {
+    "context": "001263",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0048 001821"
+  },
+  "001268": {
+    "context": "001268",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、渡瀬の心臓がどくんと跳ねた。"
+  },
+  "001273": {
+    "context": "001273",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はかすかに、頬を染めて言う。"
+  },
+  "001324": {
+    "context": "001324",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ隊長……こんな時にこんなこと言ったら、怒られるかもしれないけど……」"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしね、今日の隊長が好きだよ」"
+  },
+  "001346": {
+    "context": "001346",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いつもの隊長とは、比べ物にならないくらい……」"
+  },
+  "001351": {
+    "context": "001351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ごくり、と渡瀬の喉が鳴った。"
+  },
+  "001356": {
+    "context": "001356",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一回りも年下の少女から向けられた、素直な好意――それが嬉しくないわけではない。"
+  },
+  "001361": {
+    "context": "001361",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれ以上に戸惑っていた。"
+  },
+  "001372": {
+    "context": "001372",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な……なに言ってるんだよ。オレはもう３２歳、割とおっさんだぞ？」"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前みたいな若い娘には、もっといい相手が――」"
+  },
+  "001394": {
+    "context": "001394",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「バカ、そういう意味じゃないよ。バディとして一緒に組めるのが、嬉しいんだよ」"
+  },
+  "001405": {
+    "context": "001405",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「な、なんだ……びっくりさせるんじゃない」"
+  },
+  "001456": {
+    "context": "001456",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なーに？　ドギマギしちゃって」"
+  },
+  "001467": {
+    "context": "001467",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしの肌見て、やましいこと考えてたんじゃないの？　だからそういう風に取っちゃうんだよ」"
+  },
+  "001478": {
+    "context": "001478",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「仕方ないだろ、オレだって男なんだ」"
+  },
+  "001483": {
+    "context": "001483",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは笑い合う。"
+  },
+  "001488": {
+    "context": "001488",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "命がかかったこの状況下で、場違いなほど穏やかな気持ちで――"
+  },
+  "001531": {
+    "context": "001531",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして手当てを終えた洵は、服を着込みつつ言った。"
+  },
+  "001596": {
+    "context": "001596",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……本当にずっと、こんな隊長でいてくれればいいのに……」"
+  },
+  "001607": {
+    "context": "001607",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？　そりゃずっと変わらないだろ、オレはオレなんだし」"
+  },
+  "001636": {
+    "context": "001636",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「そうかな、でも……あたし、思うんだよ」"
+  },
+  "001647": {
+    "context": "001647",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「記憶が戻ったら、今の隊長は消えちゃうんじゃないかって……」"
+  },
+  "001658": {
+    "context": "001658",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "001663": {
+    "context": "001663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――洵が口走ったその言葉に、渡瀬は不吉なものを感じた。"
+  },
+  "001668": {
+    "context": "001668",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれをすぐに追い払って答える。"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……バカ言え、オレは消えたりなんかしないよ」"
+  },
+  "001690": {
+    "context": "001690",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「少なくとも、お前に無断では……」"
+  },
+  "001719": {
+    "context": "001719",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん……お願いね」"
+  },
+  "001724": {
+    "context": "001724",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不安げな洵に、渡瀬は力強くうなずいて見せた。"
+  },
+  "001729": {
+    "context": "001729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それからふと時計に目をやると、この部屋に来てからずいぶん時間が経っている事に気付いた。"
+  },
+  "001740": {
+    "context": "001740",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっと……いかん、宇喜多のおっさんが先に捜索を続けてるんだ」"
+  },
+  "001769": {
+    "context": "001769",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え、１人で？」"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第２エリアで待ち合わせしようと約束してたんだよ。そろそろ行かなきゃまずい」"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「じゃああたしも――」"
+  },
+  "001841": {
+    "context": "001841",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0070 001502"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0070 001513"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0070 001553"
+  },
+  "001892": {
+    "context": "001892",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ん……わかったよ、言う通りにする」"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、また後でな」"
+  },
+  "001908": {
+    "context": "001908",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は洵に手を振り、研究室を後にした。"
+  },
+  "001957": {
+    "context": "001957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵の手当てに時間を使いすぎてしまった渡瀬は、大急ぎで第２エリアに向かった。"
+  }
+}

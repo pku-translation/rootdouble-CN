@@ -52,6 +52,11 @@
     "developer_comment": "洵",
     "string": "「啊，副队长！」"
   },
+  "000367": {
+    "context": "000367",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000396": {
     "context": "000396",
     "code": "0x45",
@@ -418,6 +423,11 @@
     "developer_comment": "洵",
     "string": "「轰——！！」"
   },
+  "001922": {
+    "context": "001922",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001951": {
     "context": "001951",
     "code": "0x45",
@@ -484,6 +494,11 @@
     "developer_comment": "風見",
     "string": "「嗯。但是不管是哪一个门，也都可能有 AD 和被困人员」"
   },
+  "002157": {
+    "context": "002157",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "002168": {
     "context": "002168",
     "code": "0x45",
@@ -543,6 +558,11 @@
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「那是自然。但是不管是哪一个门，也都可能有 AD 和被困人员」"
+  },
+  "002320": {
+    "context": "002320",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "002347": {
     "context": "002347",
@@ -988,6 +1008,11 @@
     "developer_comment": "風見",
     "string": "「队长，还好吗！？」"
   },
+  "004481": {
+    "context": "004481",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "004486": {
     "context": "004486",
     "code": "0x45",
@@ -1017,6 +1042,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "房间里喷出火焰，扩散到了通道。"
+  },
+  "004594": {
+    "context": "004594",
+    "code": "0x04",
+    "string": "@ignore"
   },
   "004596": {
     "context": "004596",
@@ -1071,6 +1101,11 @@
     "developer_comment": "",
     "string": "但是同时火焰也晃动了一下，从渡濑的左手边划过。"
   },
+  "004904": {
+    "context": "004904",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "005021": {
     "context": "005021",
     "code": "0x45",
@@ -1106,6 +1141,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「知，知道了——」"
+  },
+  "005138": {
+    "context": "005138",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "005143": {
     "context": "005143",
@@ -1208,6 +1248,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "朝着正在喷出火焰的房间里冲去。"
+  },
+  "005408": {
+    "context": "005408",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "005419": {
     "context": "005419",
@@ -1563,6 +1608,11 @@
     "developer_comment": "",
     "string": "刚刚被火烧到的左手，在手套里火辣辣的作痛。"
   },
+  "006613": {
+    "context": "006613",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "006619": {
     "context": "006619",
     "code": "0x45",
@@ -1586,6 +1636,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "那么自己和风见，到底是怎样的上下关系呢。"
+  },
+  "006648": {
+    "context": "006648",
+    "code": "0x04",
+    "string": "@ignore"
   },
   "006654": {
     "context": "006654",
@@ -1616,5 +1671,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "只是，感觉非常怀念。"
+  },
+  "006725": {
+    "context": "006725",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

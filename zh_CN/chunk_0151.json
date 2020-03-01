@@ -370,6 +370,11 @@
     "developer_comment": "夏彦",
     "string": "「欸？悠里也这么觉得吗……」"
   },
+  "001558": {
+    "context": "001558",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001587": {
     "context": "001587",
     "code": "0x45",
@@ -399,6 +404,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "感觉像是时间融化了的同时，夏彦想起了初次见到悠里那天的记忆——"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x04",
+    "string": "@ignore"
   },
   "001779": {
     "context": "001779",
@@ -572,6 +582,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "为了保护悠里脆弱的心灵免遭一切恶意的圣地。"
+  },
+  "002635": {
+    "context": "002635",
+    "code": "0x87",
+    "string": "@ignore"
   },
   "002640": {
     "context": "002640",
@@ -825,6 +840,11 @@
     "developer_comment": "悠里",
     "string": "「没有哦。我也和小彦一样，不久前才遇到她而已哦」"
   },
+  "003404": {
+    "context": "003404",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "003433": {
     "context": "003433",
     "code": "0x45",
@@ -889,7 +909,7 @@
     "context": "003635",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……喂小彦，你为什么会这么想呢？」"
+    "string": "「……喂小彦，你就非要这么觉得吗？」"
   },
   "003719": {
     "context": "003719",
@@ -979,7 +999,7 @@
     "context": "003971",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「如果不和小纱瑠她们齐心协力的话，就会陷入命悬一线的状况之中」"
+    "string": "「如果不和小纱瑠她们齐心协力的话，就会陷入小命不保的状况之中」"
   },
   "003988": {
     "context": "003988",
@@ -998,6 +1018,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "眼前的景色，改变了。"
+  },
+  "004160": {
+    "context": "004160",
+    "code": "0x02",
+    "string": "@ignore"
   },
   "004171": {
     "context": "004171",
@@ -1190,5 +1215,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "然后、打开了它。"
+  },
+  "005207": {
+    "context": "005207",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

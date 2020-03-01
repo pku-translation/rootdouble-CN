@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -17,13 +18,13 @@ namespace CsYetiTools.VnScripts
             RemainBytes = bytes.ToArray();
         }
 
-        public void WriteTo(BinaryWriter writer)
+        public void WriteTo(IBinaryStream stream)
         {
             foreach (var entry in Entries)
             {
-                writer.Write(entry.AbsoluteOffset);
+                stream.WriteLE(entry.AbsoluteOffset);
             }
-            writer.Write(RemainBytes);
+            stream.Write(RemainBytes);
         }
 
         internal void Dump(TextWriter writer)

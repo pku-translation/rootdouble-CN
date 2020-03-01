@@ -1,0 +1,776 @@
+{
+  "000069": {
+    "context": "000069",
+    "code": "0x55",
+    "string": "@import 0089 000103"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "部屋を出た渡瀬は、扉の脇のドア開閉ボタンを破壊した。"
+  },
+  "000180": {
+    "context": "000180",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（これで万が一守部たちがこの部屋にやってきても、中に入る事はできない……先生の身は安全だ）"
+  },
+  "000185": {
+    "context": "000185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った時、再び幻聴が響いた。"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x85",
+    "string": "《おい答えろ！　なぜ先生を気絶させた！》"
+  },
+  "000244": {
+    "context": "000244",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000245": {
+    "context": "000245",
+    "code": "0x86",
+    "string": "@import 0091 000243"
+  },
+  "000260": {
+    "context": "000260",
+    "code": "0x85",
+    "string": "《お前、何をしようとしてるんだ！？》"
+  },
+  "000261": {
+    "context": "000261",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000262": {
+    "context": "000262",
+    "code": "0x86",
+    "string": "@import 0091 000260"
+  },
+  "000291": {
+    "context": "000291",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ふん……幻聴に答えるなんて、いよいよヤバい奴みたいだが……）"
+  },
+  "000296": {
+    "context": "000296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は苦々しく笑い、幻聴の問いに答える。"
+  },
+  "000307": {
+    "context": "000307",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……守部たちを説得するなんて意味がない。何しろもう、あと１時間しかないんだ」"
+  },
+  "000318": {
+    "context": "000318",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが、それでも……皆を助ける方法が、１つだけある」"
+  },
+  "000376": {
+    "context": "000376",
+    "code": "0x85",
+    "string": "《何！？》"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000378": {
+    "context": "000378",
+    "code": "0x86",
+    "string": "@import 0091 000376"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はポケットから、セキュリティカードを取り出した。"
+  },
+  "000411": {
+    "context": "000411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの死んだ少女が持っていた、『レベルＮ』のセキュリティカード。"
+  },
+  "000416": {
+    "context": "000416",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアに続く扉を開ける、唯一の鍵――。"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……司令長が言っていた。『Ｎエリアで火災が続いていて、それでセキュリティシステムが暴走している』と」"
+  },
+  "000438": {
+    "context": "000438",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だったらＮエリアの火災を、消しさえすれば――」"
+  },
+  "000449": {
+    "context": "000449",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「セキュリティシステムの暴走は止まり、隔壁も開けられるはず……！」"
+  },
+  "000506": {
+    "context": "000506",
+    "code": "0x85",
+    "string": "《……ッ！》"
+  },
+  "000507": {
+    "context": "000507",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000508": {
+    "context": "000508",
+    "code": "0x86",
+    "string": "@import 0091 000506"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x85",
+    "string": "《まさかお前……１人でＮエリアに行くつもりか？》"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000525": {
+    "context": "000525",
+    "code": "0x86",
+    "string": "@import 0091 000523"
+  },
+  "000559": {
+    "context": "000559",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そのまさかさ」"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアにはメルトダウンを起こした原子炉がある。"
+  },
+  "000569": {
+    "context": "000569",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで渦巻いている放射線の量は測り知れない。"
+  },
+  "000574": {
+    "context": "000574",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし、それでも――渡瀬は無理やり笑みを浮かべた。"
+  },
+  "000580": {
+    "context": "000580",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ふん……だからどうした？）"
+  },
+  "000585": {
+    "context": "000585",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真に恐ろしいのは、死ぬことではない。"
+  },
+  "000590": {
+    "context": "000590",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何もせずに終ること。何もできずに終ることだ。"
+  },
+  "000595": {
+    "context": "000595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い歩き出す渡瀬に、幻聴が必死に叫ぶ。"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x85",
+    "string": "《やめろバカ、死ぬぞ！》"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000654": {
+    "context": "000654",
+    "code": "0x86",
+    "string": "@import 0091 000652"
+  },
+  "000669": {
+    "context": "000669",
+    "code": "0x85",
+    "string": "《燃える原子炉の火を、たった１人で消せるわけがないだろう！》"
+  },
+  "000670": {
+    "context": "000670",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x86",
+    "string": "@import 0091 000669"
+  },
+  "000686": {
+    "context": "000686",
+    "code": "0x85",
+    "string": "《仮に消火できたとしても、被曝は免れないんだぞ！》"
+  },
+  "000687": {
+    "context": "000687",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000688": {
+    "context": "000688",
+    "code": "0x86",
+    "string": "@import 0091 000686"
+  },
+  "000716": {
+    "context": "000716",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今まで幾度となく、渡瀬を導いてくれた声。"
+  },
+  "000721": {
+    "context": "000721",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "敵か味方かもわからない、誰とも知れないその声に――"
+  },
+  "000726": {
+    "context": "000726",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は逆らった。"
+  },
+  "000737": {
+    "context": "000737",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……すまん、今回ばかりはお前の言う事は聞けない」"
+  },
+  "000748": {
+    "context": "000748",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「誰かがやらなきゃダメなんだよ。皆で５時間以上頑張って、今こんなザマなんだから」"
+  },
+  "000806": {
+    "context": "000806",
+    "code": "0x85",
+    "string": "《そんなに死にたいのか！？"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x85",
+    "string": "　皆を助けるためなら、死んじまってもいいってのか！》"
+  },
+  "000809": {
+    "context": "000809",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x86",
+    "string": "《そんなに死にたいのか！？　皆を助けるためなら、死んじまってもいいってのか！》"
+  },
+  "000838": {
+    "context": "000838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "激しく問いかけられる声。"
+  },
+  "000843": {
+    "context": "000843",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は苦笑して、それに答えた。"
+  },
+  "000854": {
+    "context": "000854",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前には、わかんないかな……」"
+  },
+  "000865": {
+    "context": "000865",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「別にオレは、死にたいわけじゃない。ただ皆を助けたいだけなんだよ」"
+  },
+  "000922": {
+    "context": "000922",
+    "code": "0x85",
+    "string": "《……？》"
+  },
+  "000923": {
+    "context": "000923",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000924": {
+    "context": "000924",
+    "code": "0x86",
+    "string": "@import 0091 000922"
+  },
+  "000939": {
+    "context": "000939",
+    "code": "0x85",
+    "string": "《どうして、そうまでして……》"
+  },
+  "000940": {
+    "context": "000940",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x86",
+    "string": "@import 0091 000939"
+  },
+  "000969": {
+    "context": "000969",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは、以前にも投げかけられた問いだった。"
+  },
+  "001046": {
+    "context": "001046",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「――どうしてそうまでして、わたしを救おうとしたりするんですか？」"
+  },
+  "001051": {
+    "context": "001051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はその問いを、懐かしく思い出す。"
+  },
+  "001056": {
+    "context": "001056",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まだ皆がいさかう事なく、共に生きる道を探っていた頃の記憶。"
+  },
+  "001061": {
+    "context": "001061",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あのとき出せなかった答えを、渡瀬は静かに呟いた。"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……オレは人を助ける事だけを、ずっと考えてきたんだ」"
+  },
+  "001112": {
+    "context": "001112",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前に『ユウリを助けろ』って言われた、あの時からな」"
+  },
+  "001117": {
+    "context": "001117",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "過去の記憶がない渡瀬にとっては、それからのほんの数時間が、いわば人生の全てだ。"
+  },
+  "001122": {
+    "context": "001122",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "わずかに戻った記憶も、このラボの中にいる記憶だった。"
+  },
+  "001127": {
+    "context": "001127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この薄暗い地下施設が、渡瀬の世界の全てだ。"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "平穏の中に生きていれば、別の選択もできたかもしれない。"
+  },
+  "001137": {
+    "context": "001137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は、この火と放射線に包まれた施設で目覚めた。"
+  },
+  "001142": {
+    "context": "001142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "レスキュー隊の隊長という役目を背負って。"
+  },
+  "001153": {
+    "context": "001153",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だからオレは……その役目を全うしたいだけなんだよ」"
+  },
+  "001164": {
+    "context": "001164",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「火や爆風や煙に追われて、無力な自分に腹を立てながらよ」"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ＡＤが足りなくなりゃ、ガスの中にも汚染区域にも飛び込んで」"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「誰かが穴に落っこちたら、手ぇ掴んで引っ張り上げて」"
+  },
+  "001197": {
+    "context": "001197",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリが瓦礫に潰されそうになれば、身を挺して庇って……」"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうして皆を助ける事だけを、ずっと考えてきたんだよ」"
+  },
+  "001263": {
+    "context": "001263",
+    "code": "0x85",
+    "string": "《……》"
+  },
+  "001264": {
+    "context": "001264",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "001265": {
+    "context": "001265",
+    "code": "0x86",
+    "string": "《……》"
+  },
+  "001293": {
+    "context": "001293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幻聴が黙り込む。"
+  },
+  "001298": {
+    "context": "001298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "無理もない。誰であれ、渡瀬の気持ちを理解できるわけがない。"
+  },
+  "001303": {
+    "context": "001303",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "記憶を失ったまっさらな状態で、この地獄のような環境に、突如として生み落とされた存在。"
+  },
+  "001308": {
+    "context": "001308",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分が誰なのかもわからないのに、『人を救う』という使命のみを与えられた魂――"
+  },
+  "001313": {
+    "context": "001313",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが彼だ。笠鷺渡瀬だ。"
+  },
+  "001318": {
+    "context": "001318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その使命を果たす過程で得た傷が、ふと痛む。"
+  },
+  "001418": {
+    "context": "001418",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "左手の火傷。"
+  },
+  "001597": {
+    "context": "001597",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "肋骨のヒビ。"
+  },
+  "001657": {
+    "context": "001657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "後頭部の裂傷。"
+  },
+  "001716": {
+    "context": "001716",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渇きと嘔吐で喉は焼けたようにひりつき、疲労が溜まった体は鉛のように重い。"
+  },
+  "001721": {
+    "context": "001721",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでもなお、渡瀬は足を止めない。"
+  },
+  "001726": {
+    "context": "001726",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その意思が、自分さえ信じられなくなりつつある彼に残された、最後の拠り所だからだ。"
+  },
+  "001737": {
+    "context": "001737",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……オレはオレのせいで、誰かが死ぬのは嫌なんだ」"
+  },
+  "001748": {
+    "context": "001748",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレが行動しなかったせいで、全員が命を落とすのも同じ事だ」"
+  },
+  "001759": {
+    "context": "001759",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「原子炉の火を消す事で、皆が救われるならそうしよう」"
+  },
+  "001770": {
+    "context": "001770",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「その結果、たとえ……」"
+  },
+  "001775": {
+    "context": "001775",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――命を失う事になろうとも。"
+  },
+  "001780": {
+    "context": "001780",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その想いを察したのか、幻聴が消え入りそうな声で言う。"
+  },
+  "001837": {
+    "context": "001837",
+    "code": "0x85",
+    "string": "《……渡瀬、お前……》"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x86",
+    "string": "幻听"
+  },
+  "001839": {
+    "context": "001839",
+    "code": "0x86",
+    "string": "@import 0091 001837"
+  },
+  "001873": {
+    "context": "001873",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わかったろ？　わかったらもう黙っていてくれ」"
+  },
+  "001884": {
+    "context": "001884",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……これ以上話すと、決心が鈍りそうだ」"
+  },
+  "001889": {
+    "context": "001889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は呟き、そして駆け出した。"
+  },
+  "001894": {
+    "context": "001894",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "炎上する原子炉のある、Ｎエリアへ向かって――。"
+  },
+  "002003": {
+    "context": "002003",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎエリアに続く連絡通路のゲートが開いた瞬間、プロキオンが激しく警告音を鳴らした。"
+  },
+  "002008": {
+    "context": "002008",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ディスプレイには、見た事もない数値が表示されている。"
+  },
+  "002017": {
+    "context": "002017",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『１２２１０ｍＳｖ』……！」"
+  },
+  "002026": {
+    "context": "002026",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『１２１１０ｍＳｖ』……！」"
+  },
+  "002035": {
+    "context": "002035",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『１２０１０ｍＳｖ』……！」"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ひどく頭が痛み、嘔吐感が襲ってくる。"
+  },
+  "002045": {
+    "context": "002045",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "肌が痺れ、眼がかすむ。"
+  },
+  "002056": {
+    "context": "002056",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ちっ」"
+  },
+  "002100": {
+    "context": "002100",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はプロキオンのスイッチを切り、そしてまた歩き出した。"
+  },
+  "002144": {
+    "context": "002144",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（このゲートの向こうに、原子炉が……！）"
+  },
+  "002149": {
+    "context": "002149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "溶解する原子炉、荒れ狂う業火、致死量を超える放射線――"
+  },
+  "002154": {
+    "context": "002154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで待ち受けているであろう地獄絵図を想像し、渡瀬の身は震えた。"
+  },
+  "002159": {
+    "context": "002159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが……"
+  },
+  "002209": {
+    "context": "002209",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……覚悟の上だ」"
+  },
+  "002214": {
+    "context": "002214",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は震えを抑え、消火栓からホースを引っ張り出す。"
+  },
+  "002219": {
+    "context": "002219",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを左手に抱え、セキュリティゲートに向けた。"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（放水準備完了。突入準備よし）"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真正の危険を前にしても、渡瀬の心は萎えていない。"
+  },
+  "002235": {
+    "context": "002235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "胸の奥からは、無尽の勇気が湧いていた。"
+  },
+  "002240": {
+    "context": "002240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はふと、頬に笑みを浮かべる。"
+  },
+  "002246": {
+    "context": "002246",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ようやく、オレも……レスキュー隊らしくなれたかな）"
+  },
+  "002251": {
+    "context": "002251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうして彼は、右手にカードを持ち――"
+  },
+  "002365": {
+    "context": "002365",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ゲートを、開けた。"
+  },
+  "002426": {
+    "context": "002426",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

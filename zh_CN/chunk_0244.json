@@ -1,0 +1,528 @@
+{
+  "000170": {
+    "context": "000170",
+    "code": "0x55",
+    "string": "@import 0243 000050"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――火災は２人のレスキュー隊員の活躍によって、見事に鎮火されていた。"
+  },
+  "000216": {
+    "context": "000216",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 001351"
+  },
+  "000245": {
+    "context": "000245",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "@import 0004 001380"
+  },
+  "000276": {
+    "context": "000276",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 001411"
+  },
+  "000281": {
+    "context": "000281",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は男の眼を通し、少女の顔をまじまじと見た。"
+  },
+  "000386": {
+    "context": "000386",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ほ、本当に悠里なのか……？）"
+  },
+  "000391": {
+    "context": "000391",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが悠里は９年前に、確かに死んでいるはずなのだ。"
+  },
+  "000397": {
+    "context": "000397",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もしかして……悠里には双子の姉妹がいたとか……？）"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも、悠里は一人っ子のはずだったし……それじゃあ、まさか悠里のクローンとか！？）"
+  },
+  "000408": {
+    "context": "000408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうした馬鹿げたことを考えてしまうほど、彼女は悠里と瓜二つだった。"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時、男の眼が２人のレスキュー隊員に向けられた。"
+  },
+  "000460": {
+    "context": "000460",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 001804"
+  },
+  "000471": {
+    "context": "000471",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 001815"
+  },
+  "000500": {
+    "context": "000500",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 001844"
+  },
+  "000529": {
+    "context": "000529",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "@import 0004 001873"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 001894"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 001905"
+  },
+  "000611": {
+    "context": "000611",
+    "code": "0x45",
+    "developer_comment": "３人",
+    "string": "@import 0002 003339"
+  },
+  "000616": {
+    "context": "000616",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男の告白に皆が驚く中、夏彦だけが安堵した。"
+  },
+  "000622": {
+    "context": "000622",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（良かった……ぼくはちゃんと、男の心を破壊できたんだ）"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はあの時の事を思い出す。"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0240 004029"
+  },
+  "000708": {
+    "context": "000708",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0240 004046"
+  },
+  "000777": {
+    "context": "000777",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0240 004115"
+  },
+  "000839": {
+    "context": "000839",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005634"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは夏彦が意識を失う直前の記憶だった。"
+  },
+  "000964": {
+    "context": "000964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "正確には男の心を壊したというよりは、『記憶』を破壊したのだろう。"
+  },
+  "000969": {
+    "context": "000969",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その結果、男はいわゆる記憶喪失になっているようだった。"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあ、あの殺意と憎悪も消えてくれたのか……？）"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこまでの確証は持てないが、男の様子を見る限り、ひとまず安心しても良さそうだ。"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……でも……）"
+  },
+  "000991": {
+    "context": "000991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分が意識を失った経緯を思い返し、夏彦は暗澹たる気分になった。"
+  },
+  "000996": {
+    "context": "000996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの傷と出血、そして闇へ落ちる感覚――とても、自分が無事だったとは思えない。"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そりゃそうだよな……あれだけ撃たれたら、誰だって……）"
+  },
+  "001060": {
+    "context": "001060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ぼくは、あのとき、死んだんだ――"
+  },
+  "001065": {
+    "context": "001065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その事実が、夏彦の心に暗い影を落とす。"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だけど、じゃあ今のぼくは何なんだ……？）"
+  },
+  "001077": {
+    "context": "001077",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……まさか、『幽霊』とか？）"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう考えたとき、先日聞いた話を思い出した。"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0168 008533"
+  },
+  "001183": {
+    "context": "001183",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「テレパシーによって発生したＢＣのエネルギーは、発生と同時に減衰し始めるけれど、すぐ０になるわけではないわ」"
+  },
+  "001212": {
+    "context": "001212",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「つまり超強力なテレパシーは、対象者がいようがいまいが、しばらくその場に留まりうる……」"
+  },
+  "001276": {
+    "context": "001276",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……『死んだ人の想いは、この世に残る』って事ですね！」"
+  },
+  "001412": {
+    "context": "001412",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……おそらく夏彦は、男の心に潜ったまま死んだのだ。"
+  },
+  "001417": {
+    "context": "001417",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、そのとき使用したＢＣエネルギーは、今なお男の中に滞留し続け――"
+  },
+  "001423": {
+    "context": "001423",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……ぼくの意識は、今ここにいるってわけか）"
+  },
+  "001429": {
+    "context": "001429",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まさか授業で聞いた話を、ぼく自身が実践できてしまうなんて……）"
+  },
+  "001435": {
+    "context": "001435",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（自分を殺した相手に取り憑くなんて、まるで悪霊みたいだな……ははっ）"
+  },
+  "001440": {
+    "context": "001440",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろやサリュ、そして母に２度と会えないのだと思うと、たまらなく寂しかった。"
+  },
+  "001450": {
+    "context": "001450",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そんな折、ふと夏彦は、副隊長が少女に何かを注射しようとしているのに気づく。"
+  },
+  "001467": {
+    "context": "001467",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "@import 0004 003168"
+  },
+  "001496": {
+    "context": "001496",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 003197"
+  },
+  "001525": {
+    "context": "001525",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "@import 0004 003226"
+  },
+  "001560": {
+    "context": "001560",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 003271"
+  },
+  "001565": {
+    "context": "001565",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "副隊長は無理やり、少女に何かを注射した。"
+  },
+  "001621": {
+    "context": "001621",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 003337"
+  },
+  "001650": {
+    "context": "001650",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「ＡＤ、と言います。簡単に説明すると『放射線被曝』を防ぐ薬です」"
+  },
+  "001655": {
+    "context": "001655",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "副隊長の説明によると、こういう事らしかった。"
+  },
+  "001787": {
+    "context": "001787",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＡＤとはラボから支給された薬で、あるレベルまでの放射線を６０分ほど防いでくれる物だという。"
+  },
+  "001847": {
+    "context": "001847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらにレスキュー隊員たちは、同じくラボから支給された放射線計測器『プロキオン』を携帯し、救助活動を行っているらしい。"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして副隊長は説明の中で、男にこう告げた。"
+  },
+  "001914": {
+    "context": "001914",
+    "code": "0x45",
+    "developer_comment": "副隊長",
+    "string": "「原子炉が、つい２時間ほど前――『メルトダウン』したのです」"
+  },
+  "002001": {
+    "context": "002001",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞き、男も夏彦も強いショックを受けた。"
+  },
+  "002007": {
+    "context": "002007",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そんな……結局、メルトダウンは起きてしまっていたなんて……！）"
+  },
+  "002013": {
+    "context": "002013",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ！　こいつさえ倒せば、何とかなると思ったのに！）"
+  },
+  "002018": {
+    "context": "002018",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おそらく男の仲間が、原子炉を爆破でもしたのだろう。"
+  },
+  "002024": {
+    "context": "002024",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったら、ぼくは……ぼくらは何のために……？）"
+  },
+  "002039": {
+    "context": "002039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "無力感にさいなまれる夏彦をよそに、男が自分のポケットを確認する。"
+  },
+  "002044": {
+    "context": "002044",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとそこにも、ＡＤが１本入っていた。"
+  },
+  "002094": {
+    "context": "002094",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 004763"
+  },
+  "002144": {
+    "context": "002144",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 004813"
+  },
+  "002156": {
+    "context": "002156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男が言われるままに、その薬を投与すると――"
+  },
+  "002280": {
+    "context": "002280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の意識に、異変が訪れた。"
+  },
+  "002361": {
+    "context": "002361",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0021 003823"
+  },
+  "002413": {
+    "context": "002413",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に強烈な喪失感が襲ってきた。"
+  },
+  "002429": {
+    "context": "002429",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男と戦った後にも感じた、自分が消えるような感覚が――！"
+  },
+  "002446": {
+    "context": "002446",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、なんだこれ！？）"
+  },
+  "002463": {
+    "context": "002463",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくはこのまま消えるのか！？）"
+  },
+  "002479": {
+    "context": "002479",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "五感が急速に遠くなって行く。"
+  },
+  "002529": {
+    "context": "002529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２度目の死が音もなく迫ってくる。"
+  },
+  "002543": {
+    "context": "002543",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのとき夏彦は強く願った。"
+  },
+  "002587": {
+    "context": "002587",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "せめてましろとサリュの安否を確認できるまでは、"
+  },
+  "002641": {
+    "context": "002641",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてあの少女の正体がわかるまでは、"
+  },
+  "002656": {
+    "context": "002656",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（き……消えたくないッ……！！）"
+  },
+  "002670": {
+    "context": "002670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその願いも虚しく――"
+  },
+  "002684": {
+    "context": "002684",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の意識は、闇の中に埋没した。"
+  },
+  "002740": {
+    "context": "002740",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

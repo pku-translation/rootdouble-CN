@@ -1,11 +1,11 @@
-$DataRoot = (Join-Path $PSScriptRoot /../data).replace('\', '/')
-$ScriptRoot = (Join-Path $PSScriptRoot /../scripts).replace('\', '/')
-$Run = {
-    pushd $DataRoot
+$global:DataRoot = (Join-Path $PSScriptRoot /../data).replace('\', '/')
+$global:ScriptRoot = (Join-Path $PSScriptRoot /../scripts).replace('\', '/')
+$global:RunCsx = {
+    Push-Location $DataRoot
     try {
         $args | dotnet run -p $PSScriptRoot/../CsYetiTools -c Release
     }
     finally {
-        popd
+        Pop-Location
     }
 }

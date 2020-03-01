@@ -1,0 +1,853 @@
+{
+  "000001": {
+    "context": "000001",
+    "code": "0x55",
+    "string": "@import 0166 000042"
+  },
+  "000009": {
+    "context": "000009",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そう思って振り返った時――"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うぉ！」"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュがいつの間にか、背後に立っていた。"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "前にもこんな事があったなと思いつつ、夏彦は言う。"
+  },
+  "000158": {
+    "context": "000158",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「い、いたのかサリュ」"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いま来た。何か騒々しかったから」"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……聞いてたのか？」"
+  },
+  "000209": {
+    "context": "000209",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや、内容までは聞こえなかった。でも……」"
+  },
+  "000214": {
+    "context": "000214",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは少し間を置いてから、続けた。"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……非常に気になる状況ではある」"
+  },
+  "000254": {
+    "context": "000254",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "000265": {
+    "context": "000265",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ましろの声を分析したアリスが、今までにない反応をした」"
+  },
+  "000294": {
+    "context": "000294",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「さきほどのましろの声に含まれている感情は、『怒り』と『落胆』と『悲しみ』」"
+  },
+  "000305": {
+    "context": "000305",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そんな事までわかるのか？」"
+  },
+  "000334": {
+    "context": "000334",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「恐らくは。もっとも私には、正否を判断しようがない」"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「判断しようがないって……？」"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはなんだかよくわからない事を言った。"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも少なくとも、アリスの分析ではそうなっていた」"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ましろの声がそんな複雑な感情を帯びたのは、今回が初めて」"
+  },
+  "000401": {
+    "context": "000401",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「何かあったの？」"
+  },
+  "000412": {
+    "context": "000412",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0010 000901"
+  },
+  "000417": {
+    "context": "000417",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はどう説明したものか迷った。"
+  },
+  "000422": {
+    "context": "000422",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何しろ夏彦自身も、さきほどのましろの心情については、よくわかっていないのだ。"
+  },
+  "000433": {
+    "context": "000433",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なんでもないよ。まぁでも、ちょっと……」"
+  },
+  "000462": {
+    "context": "000462",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ちょっと？」"
+  },
+  "000473": {
+    "context": "000473",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ケンカしただけさ」"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ケンカ？　なぜ？」"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「さぁね。でもできればこの事については、あまり詮索しないでほしいな」"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「他人のケンカに首を突っ込むもんじゃないよ」"
+  },
+  "000553": {
+    "context": "000553",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そういうものなの？」"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そういうものだよ」"
+  },
+  "000593": {
+    "context": "000593",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0089 002280"
+  },
+  "000598": {
+    "context": "000598",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時アリスが、弱々しい声を上げた。"
+  },
+  "000606": {
+    "context": "000606",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "@import 0159 002415"
+  },
+  "000635": {
+    "context": "000635",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「っ」"
+  },
+  "000640": {
+    "context": "000640",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの表情が強張った。"
+  },
+  "000645": {
+    "context": "000645",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "じっと夏彦を見つめてくる。"
+  },
+  "000651": {
+    "context": "000651",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "000662": {
+    "context": "000662",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なに？」"
+  },
+  "000691": {
+    "context": "000691",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「いや……アリスが分析するには、夏彦は戸惑っている？」"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　ま、まぁね」"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ましろに？　私に？」"
+  },
+  "000742": {
+    "context": "000742",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え……どうだろ、両方かな」"
+  },
+  "000771": {
+    "context": "000771",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "000776": {
+    "context": "000776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは不満げに夏彦を睨んだ。"
+  },
+  "000781": {
+    "context": "000781",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしそれでも家に戻ろうとしない。"
+  },
+  "000786": {
+    "context": "000786",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "奇妙な沈黙が、あたりを包む。"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な、なんだ……？　サリュは何をしたいんだ？）"
+  },
+  "000797": {
+    "context": "000797",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "正直放っておいてほしいところだが、そうは言えない。"
+  },
+  "000802": {
+    "context": "000802",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろとケンカした直後に、サリュとも揉めるのは気が引けた。"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……なにか、会話の接ぎ穂は……）"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思ってから、ふと思い出した。前にも似たような事があったと。"
+  },
+  "000818": {
+    "context": "000818",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "気を紛らわすためになるかと思い、夏彦はあの事について尋ねてみた。"
+  },
+  "000829": {
+    "context": "000829",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの……サリュ？」"
+  },
+  "000858": {
+    "context": "000858",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0012 006275"
+  },
+  "000869": {
+    "context": "000869",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう言えば一昨日あたりにも、玄関先でこんな妙な会話した事があったな？」"
+  },
+  "000898": {
+    "context": "000898",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「妙な会話……？」"
+  },
+  "000909": {
+    "context": "000909",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ほらぼくに『星が好き？』とか『名前の意味は？』とか、質問してきたじゃないか」"
+  },
+  "000938": {
+    "context": "000938",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん、確かに質問した」"
+  },
+  "000949": {
+    "context": "000949",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれってなんの質問だったんだ？」"
+  },
+  "000954": {
+    "context": "000954",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の問いに、サリュはさも当然のような表情で答えた。"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「自己紹介しようとした」"
+  },
+  "000994": {
+    "context": "000994",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「へ？　自己紹介？」"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「自己紹介って、あれが？」"
+  },
+  "001034": {
+    "context": "001034",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう。引っ越してきたばかりなので、私の人となりを伝えようとした」"
+  },
+  "001045": {
+    "context": "001045",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そうだったのか？　でもちっとも自己紹介にはなってなかったような……」"
+  },
+  "001074": {
+    "context": "001074",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それは夏彦が、ことごとく私の話の腰を折ったから」"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ、『星が好き？』っていう質問の意味は、もしかして……？」"
+  },
+  "001114": {
+    "context": "001114",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、私は星が好きだという事」"
+  },
+  "001143": {
+    "context": "001143",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「だから星の話をしようと思ったのだけど、夏彦が『好きでも嫌いでもない』と言ったので、話す気が失せた」"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0149 003273"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は思わず謝ってしまった。"
+  },
+  "001164": {
+    "context": "001164",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それから気を取り直して言う。"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ『名前の意味』ってのは？」"
+  },
+  "001204": {
+    "context": "001204",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「あれは――ちょっと気づいた事があったから」"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「気づいたこと？」"
+  },
+  "001244": {
+    "context": "001244",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦たちの名前の共通点について。まぁこじつけのようなものだけど」"
+  },
+  "001249": {
+    "context": "001249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはそう言って、夜空を指差した。"
+  },
+  "001349": {
+    "context": "001349",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「日本には、七夕の伝説というものがある。夏彦は知ってる？」"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？　うん」"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれだろ？　天の川に隔てられた織姫と彦星が、１年に１度会うっていう……」"
+  },
+  "001382": {
+    "context": "001382",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、まずはその『彦星』」"
+  },
+  "001393": {
+    "context": "001393",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「天川夏彦――天の川の横にある、彦星。夏の星」"
+  },
+  "001404": {
+    "context": "001404",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「恐らく偶然じゃない」"
+  },
+  "001415": {
+    "context": "001415",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0015 001533"
+  },
+  "001420": {
+    "context": "001420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われて、夏彦は初めて気づいた。"
+  },
+  "001431": {
+    "context": "001431",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ひょっとして、それがぼくの名前の意味……？」"
+  },
+  "001442": {
+    "context": "001442",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「多分」"
+  },
+  "001447": {
+    "context": "001447",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えばずっと昔に、悠里とそんな話をした事がある。"
+  },
+  "001452": {
+    "context": "001452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの時、悠里は言っていた。"
+  },
+  "001457": {
+    "context": "001457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ひこぼしは、夏彦くんの星だね？　なまえがにてるもん』と。"
+  },
+  "001468": {
+    "context": "001468",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほどね……でも共通点ってのは？」"
+  },
+  "001479": {
+    "context": "001479",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん、次は『織姫』」"
+  },
+  "001490": {
+    "context": "001490",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「織姫は西洋では、琴座の『ヴェガ』と呼ばれる」"
+  },
+  "001501": {
+    "context": "001501",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『琴』――琴乃。つまり悠里の星」"
+  },
+  "001512": {
+    "context": "001512",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なるほど、そう来たか」"
+  },
+  "001517": {
+    "context": "001517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの言う通り、若干こじつけっぽくはあったが、確かに共通点と言えなくもない。"
+  },
+  "001528": {
+    "context": "001528",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあましろは？　ましろは何かあるのか？」"
+  },
+  "001539": {
+    "context": "001539",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「七夕の夜、天の川には、鳥の羽で作られた橋がかかると言われている」"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「これで『鳥羽』ましろもコンプリート」"
+  },
+  "001561": {
+    "context": "001561",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「つまりあなたたちの名前は、全員七夕伝説に関係している」"
+  },
+  "001572": {
+    "context": "001572",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「へぇ～！　全然気づかなかった」"
+  },
+  "001577": {
+    "context": "001577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはこれまで、夏彦も悠里もましろも気づかなかった事だった。"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まさかフランス生まれのサリュに、それを指摘されるとは思わなかったが。"
+  },
+  "001661": {
+    "context": "001661",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「サリュ、星に詳しいんだな？」"
+  },
+  "001666": {
+    "context": "001666",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言うとサリュは、少しだけ胸を張って答える。"
+  },
+  "001695": {
+    "context": "001695",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私はなんでも詳しいけど、特に昔から星は好き」"
+  },
+  "001706": {
+    "context": "001706",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちなみにサリュは？　『サイルイウ』って言葉があるって言ってたけど……」"
+  },
+  "001735": {
+    "context": "001735",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん、それこそこじつけの極地だけど――」"
+  },
+  "001764": {
+    "context": "001764",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「七夕に降る雨を、『催涙雨』と呼ぶ。織姫と彦星の流す涙だと言われている」"
+  },
+  "001775": {
+    "context": "001775",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「はは、じゃあこれで４人とも全員七夕に関する名前を持ってるって事になるな」"
+  },
+  "001804": {
+    "context": "001804",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう」"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュがそう言って、不意に黙り込む。"
+  },
+  "001814": {
+    "context": "001814",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それから意を決したように、言った。"
+  },
+  "001843": {
+    "context": "001843",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「――あの、夏彦」"
+  },
+  "001854": {
+    "context": "001854",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "001883": {
+    "context": "001883",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私の話、面白い？」"
+  },
+  "001894": {
+    "context": "001894",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えっ？　急になに？」"
+  },
+  "001923": {
+    "context": "001923",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「確認したいだけ」"
+  },
+  "001934": {
+    "context": "001934",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「う、うん。面白かったよ。ためにもなったし……」"
+  },
+  "001963": {
+    "context": "001963",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、よかった」"
+  },
+  "001968": {
+    "context": "001968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやくそこでサリュは、かすかに微笑んだ。"
+  },
+  "001997": {
+    "context": "001997",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……では私は、日課があるので部屋に戻る」"
+  },
+  "002008": {
+    "context": "002008",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？　またしてもいきなりだな」"
+  },
+  "002037": {
+    "context": "002037",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「他人のケンカには口出しするべきではないと言われたから、これ以上話す事はない」"
+  },
+  "002066": {
+    "context": "002066",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも、あなたたちは共通の名前を持つ仲間。仲良くしたほうがいいと思う」"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0038 003295"
+  },
+  "002106": {
+    "context": "002106",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私としても、夏彦とましろは……仲良くしていた方が嬉しい」"
+  },
+  "002154": {
+    "context": "002154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはそう言って、さっさと家に入ってしまった。"
+  },
+  "002159": {
+    "context": "002159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "取り残された夏彦は、愕然として佇む。"
+  },
+  "002165": {
+    "context": "002165",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な……なんだ今の……？）"
+  },
+  "002171": {
+    "context": "002171",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（まさか……まさか……！）"
+  },
+  "002177": {
+    "context": "002177",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（サリュが、ぼくを、気遣ったっていうのか！？）"
+  },
+  "002182": {
+    "context": "002182",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "にわかには信じがたいが、どうもそうとしか思えない。"
+  },
+  "002193": {
+    "context": "002193",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……サリュって……」"
+  },
+  "002204": {
+    "context": "002204",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ひょっとして、いい奴？」"
+  },
+  "002209": {
+    "context": "002209",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう呟き、密かに苦笑した。"
+  },
+  "002214": {
+    "context": "002214",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、サリュはああ言ったものの――"
+  },
+  "002219": {
+    "context": "002219",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが怒った理由については、夏彦もよくわかっていない。"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（仲良くしろって言われてもな……どうしたもんだか）"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう思いながら、家に戻って行った。"
+  }
+}

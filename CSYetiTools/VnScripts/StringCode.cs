@@ -1,4 +1,5 @@
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -13,23 +14,23 @@ namespace CsYetiTools.VnScripts
         public CodeAddressData ContentOffset { get; set; } = new CodeAddressData();
 
         public bool IsOffset { get; set; }
-        
+
         protected int ContentLength
             => IsOffset ? 4 : Utils.GetStringZByteCount(Content);
         
-        protected void ReadString(BinaryReader reader)
+        protected void ReadString(IBinaryStream reader)
         {
             if (IsOffset)
             {
-                ContentOffset = new CodeAddressData(_offset, reader.ReadInt32());
+                ContentOffset = new CodeAddressData(Offset, reader.ReadInt32LE());
             }
             else
             {
-                Content = Utils.ReadStringZ(reader);
+                Content = reader.ReadStringZ();
             }
         }
 
-        protected void WriteString(BinaryWriter writer)
+        protected void WriteString(IBinaryStream writer)
         {
             if (IsOffset)
             {
@@ -37,7 +38,7 @@ namespace CsYetiTools.VnScripts
             }
             else
             {
-                Utils.WriteStringZ(writer, Content);
+                writer.WriteStringZ(Content);
             }
         }
 

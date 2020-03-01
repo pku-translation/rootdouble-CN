@@ -1,0 +1,585 @@
+{
+  "000053": {
+    "context": "000053",
+    "code": "0x55",
+    "string": "@import 0069 000136"
+  },
+  "000068": {
+    "context": "000068",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "最寄の部屋は、監視ルームだった。"
+  },
+  "000073": {
+    "context": "000073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそこの床に風見を横たえる。"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「悪い、ズボンまくるぞ」"
+  },
+  "000151": {
+    "context": "000151",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え、ええ……」"
+  },
+  "000156": {
+    "context": "000156",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ためらっている場合ではない。"
+  },
+  "000161": {
+    "context": "000161",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は風見のズボンをまくりあげ、"
+  },
+  "000172": {
+    "context": "000172",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002723"
+  },
+  "000177": {
+    "context": "000177",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして思わず顔をしかめた。"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の白い足が、血塗れになっている。"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "傷は深くはないが、縦に範囲が広い。"
+  },
+  "000193": {
+    "context": "000193",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（カイローンで治療できるか……！？）"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "無理だ。このまま塗っても血で流れてしまう。"
+  },
+  "000209": {
+    "context": "000209",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「橘、医務室に行こう！　あそこなら治療できるはずだ！」"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「待って！」"
+  },
+  "000357": {
+    "context": "000357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が渡瀬の袖を掴んで言った。"
+  },
+  "000368": {
+    "context": "000368",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「動脈は無事のようですから……ここで充分、治療できます」"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが、これは縫わなければ……！」"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「縫うのには時間と技術が要ります……ですから、これを」"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見はそう言って、胸ポケットから何かを取り出した。"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これは……！？」"
+  },
+  "000417": {
+    "context": "000417",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「医療用の、ホチキスです……これで傷を塞いでください」"
+  },
+  "000428": {
+    "context": "000428",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「しかし……」"
+  },
+  "000439": {
+    "context": "000439",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「は、早く……血が流れてしまいます……！」"
+  },
+  "000450": {
+    "context": "000450",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0004 002426"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は意を決し、ホチキスを受け取った。"
+  },
+  "000460": {
+    "context": "000460",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを風見の傷に当てる。"
+  },
+  "000471": {
+    "context": "000471",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「お願いします……」"
+  },
+  "000482": {
+    "context": "000482",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……いくぞ」"
+  },
+  "000508": {
+    "context": "000508",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして渡瀬が、ホチキスの針を打ち込むと――"
+  },
+  "000559": {
+    "context": "000559",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0009 002182"
+  },
+  "000564": {
+    "context": "000564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の顔が、苦痛に歪んだ。"
+  },
+  "000575": {
+    "context": "000575",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「大丈夫か！？」"
+  },
+  "000586": {
+    "context": "000586",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0053 000078"
+  },
+  "000591": {
+    "context": "000591",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "目を瞑ったまま風見がうなずく。"
+  },
+  "000596": {
+    "context": "000596",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は心を鬼にして、次々に針を打ち込んでいった。"
+  },
+  "000622": {
+    "context": "000622",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――５本の針で、傷はふさがった。"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さらにカイローンを、チューブの半分ほど、惜しみなく塗りこむ。"
+  },
+  "000632": {
+    "context": "000632",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて出血は見事に止まった。"
+  },
+  "000643": {
+    "context": "000643",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――よし、終わったぞ！」"
+  },
+  "000654": {
+    "context": "000654",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0027 001899"
+  },
+  "000659": {
+    "context": "000659",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が苦しそうに息をつく。"
+  },
+  "000670": {
+    "context": "000670",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……ありがとうございます」"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「痛むか？」"
+  },
+  "000692": {
+    "context": "000692",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「多少は……しかし、許容範囲内です」"
+  },
+  "000703": {
+    "context": "000703",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうか……良かった」"
+  },
+  "000748": {
+    "context": "000748",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう言うと、風見はふっと微笑んだ。"
+  },
+  "000759": {
+    "context": "000759",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「何だか、懐かしい感じです……」"
+  },
+  "000770": {
+    "context": "000770",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？」"
+  },
+  "000781": {
+    "context": "000781",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、いえ……シリウスに入隊したばかりの頃を思い出したんです」"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「よくこうして怪我をして、隊長に叱られてましたから」"
+  },
+  "000803": {
+    "context": "000803",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「新人の頃は、『お前は危なっかしくて見てられん』と言われたものです」"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「へぇ……オレからすると何だか意外な気がするけどな。橘にそういう時代があったなんて」"
+  },
+  "000819": {
+    "context": "000819",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "つい他人事のように渡瀬が言うと、"
+  },
+  "000864": {
+    "context": "000864",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が表情を曇らせた。"
+  },
+  "000875": {
+    "context": "000875",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長……本当に覚えてないんですか？」"
+  },
+  "000886": {
+    "context": "000886",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 003761"
+  },
+  "000897": {
+    "context": "000897",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……例えば、私との記憶はどうですか？　何か思い出せることはありませんか？」"
+  },
+  "000947": {
+    "context": "000947",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはすがるような眼だった。"
+  },
+  "000957": {
+    "context": "000957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は正直に言う。"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……すまん。本当に、何も思い出せないんだ」"
+  },
+  "000979": {
+    "context": "000979",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……そう、ですか……」"
+  },
+  "000984": {
+    "context": "000984",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それきり風見は黙り込む。"
+  },
+  "000999": {
+    "context": "000999",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "001001": {
+    "context": "001001",
+    "code": "0x55",
+    "string": "@import 0069 000136"
+  },
+  "001009": {
+    "context": "001009",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は不意に、風見に何か言わなければと思ったが――"
+  },
+  "001014": {
+    "context": "001014",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて彼女は、微笑んで言った。"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……記憶喪失になる前の隊長は、普段とても厳しかったですが……」"
+  },
+  "001036": {
+    "context": "001036",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「こうして私が怪我した時などは、色々とお気遣いを下さいました」"
+  },
+  "001047": {
+    "context": "001047",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうなのか？」"
+  },
+  "001058": {
+    "context": "001058",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ。その事を思い出して、恥ずかしながら……」"
+  },
+  "001069": {
+    "context": "001069",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ちょっと嬉しくなってしまったのです」"
+  },
+  "001075": {
+    "context": "001075",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "001080": {
+    "context": "001080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の素直な言葉に、渡瀬は照れ臭いものを感じた。"
+  },
+  "001091": {
+    "context": "001091",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……お前が望むなら、ずっと付き添っていてやるが……」"
+  },
+  "001102": {
+    "context": "001102",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いえ、嬉しいご提案ですが――今はそれが許されない状況です」"
+  },
+  "001113": {
+    "context": "001113",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そ、そうだな。じゃあそろそろ捜索を再開するか」"
+  },
+  "001124": {
+    "context": "001124",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「えぇ、私も……」"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0069 000424"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「無理するな。ここでしばらく休んでいるんだ」"
+  },
+  "001237": {
+    "context": "001237",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「で、ですが……」"
+  },
+  "001248": {
+    "context": "001248",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いいや、駄目だ。今のお前は『危なっかしくて見ていられない』からな」"
+  },
+  "001253": {
+    "context": "001253",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "強情な風見を止めるため、かつての自分の言葉を借りた。"
+  },
+  "001258": {
+    "context": "001258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だからこそ、その言葉は風見の胸に届いたようだ。"
+  },
+  "001309": {
+    "context": "001309",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……わかりました。隊長の言う通りにします」"
+  },
+  "001320": {
+    "context": "001320",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「回復したら、脳科学実験室に戻れ。そこでみんなと待ち合わせしよう」"
+  },
+  "001331": {
+    "context": "001331",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それまでは壊れてない監視カメラの映像でも見て、要救助者がいないか確認しててくれ」"
+  },
+  "001342": {
+    "context": "001342",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「はい……お任せ下さい」"
+  },
+  "001347": {
+    "context": "001347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は風見からプロキオンを受け取ると、扉へ足を向けた。"
+  },
+  "001352": {
+    "context": "001352",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると風見が呟く。"
+  },
+  "001363": {
+    "context": "001363",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長、あの――」"
+  },
+  "001374": {
+    "context": "001374",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0016 000849"
+  },
+  "001379": {
+    "context": "001379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が振り向くと、風見は短い沈黙の後――続けた。"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「い、いえ……気をつけて下さいね」"
+  },
+  "001401": {
+    "context": "001401",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0011 001630"
+  },
+  "001406": {
+    "context": "001406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は神妙にうなずくと、監視ルームを後にした。"
+  },
+  "001461": {
+    "context": "001461",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

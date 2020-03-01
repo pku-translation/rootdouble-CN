@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -197,10 +199,10 @@ namespace CsYetiTools.VnScripts
             };
         }
 
-        public static OpCode GetNextCode(BinaryReader reader, IReadOnlyList<OpCode> prevCodes, bool isStringPooled)
+        public static OpCode GetNextCode(IBinaryStream reader, IReadOnlyList<OpCode> prevCodes, bool isStringPooled)
         {
-            var offset = (int)reader.BaseStream.Position;
-            if (reader.BaseStream.Position == reader.BaseStream.Length) throw new OpCodeParseException("Stream is empty", "");
+            var offset = (int)reader.Position;
+            if (reader.Position == reader.Length) throw new OpCodeParseException("Stream is empty", "");
 
             var op = reader.ReadByte();
 
@@ -208,8 +210,8 @@ namespace CsYetiTools.VnScripts
             {
                 var opCode = CreateOpCode(op);
 
-                opCode._offset = offset;
-                opCode._index = prevCodes.Count;
+                opCode.Offset = offset;
+                opCode.Index = prevCodes.Count;
 
                 if (opCode is OpCode_0E scopedCode)
                 {
@@ -228,54 +230,44 @@ namespace CsYetiTools.VnScripts
 
                 #if DEBUG
                 // check parse result
-                reader.BaseStream.Seek(-opCode.TotalLength, SeekOrigin.Current);
-                var opBytes = reader.ReadBytes(opCode.TotalLength);
-                System.Diagnostics.Debug.Assert(opBytes.SequenceEqual(opCode.ToBytes()), $"OpCode 0x{op:X02} parsing is invalid");
+                reader.Seek(-opCode.TotalLength);
+                var opBytes = reader.ReadBytesMax(opCode.TotalLength);
+                System.Diagnostics.Debug.Assert(opBytes.SequenceEqual(opCode.ToBytes()), $"OpCode 0x{op:X02} parsing is invalid, raw=[{Utils.BytesToHex(opBytes)}, parsed=[{Utils.BytesToHex(opCode.ToBytes())}]");
                 #endif
                 
                 return opCode;
             }
             catch (Exception exc)
             {
-                reader.BaseStream.Seek(offset, SeekOrigin.Begin);
-                var buffer = reader.ReadBytes(64);
+                reader.Position = offset;
+                var buffer = reader.ReadBytesMax(64);
                 var context = string.Join(Environment.NewLine, Utils.BytesToTextLines(buffer, offset));
-                reader.BaseStream.Seek(offset, SeekOrigin.Begin);
+                reader.Position = offset;
                 throw new OpCodeParseException($"Error parsing code {op:X02}", context, exc);
             }
         }
 
-        protected byte _code;
+        public byte Code { get; set; }
 
-        protected int _offset;
+        public int Offset { get; set; }
 
-        protected int _index;
-
-        public byte Code
-            => _code;
-
-        public int Offset
-            => _offset;
-
-        public int Index
-            => _index;
+        public int Index { get; set; }
 
         public abstract int ArgLength { get; }
 
         public int TotalLength
             => ArgLength + 1;
 
-        public byte[] ToBytes()
+        public byte[] ToBytes(Encoding? encoding = null)
         {
-            using var ms = new MemoryStream();
-            using var writer = new BinaryWriter(ms);
-            WriteTo(writer);
-            return ms.ToArray();
+            using var stream = new BinaryStream(encoding ?? Utils.Cp932);
+            WriteTo(stream);
+            return stream.ToBytes();
         }
 
-        public void WriteTo(BinaryWriter writer)
+        public void WriteTo(IBinaryStream writer)
         {
-            writer.Write(_code);
+            writer.Write(Code);
             WriteArgs(writer);
         }
 
@@ -289,7 +281,7 @@ namespace CsYetiTools.VnScripts
 
         protected OpCode(byte code)
         {
-            _code = code;
+            Code = code;
         }
 
         public override string ToString()
@@ -299,23 +291,23 @@ namespace CsYetiTools.VnScripts
             return writer.ToString();
         }
 
-        protected CodeAddressData ReadAddress(BinaryReader reader)
+        protected CodeAddressData ReadAddress(IBinaryStream reader)
         {
-            return new CodeAddressData(_offset, reader.ReadInt32());
+            return new CodeAddressData(Offset, reader.ReadInt32LE());
         }
 
-        protected void WriteAddress(BinaryWriter writer, CodeAddressData address)
+        protected void WriteAddress(IBinaryStream writer, CodeAddressData address)
         {
-            if (address.BaseOffset != _offset)
+            if (address.BaseOffset != Offset)
             {
-                throw new InvalidOperationException($"Writing address data with {nameof(address.BaseOffset)}(0x{address.BaseOffset:X08}) != {_offset}");
+                throw new InvalidOperationException($"Writing address data with {nameof(address.BaseOffset)}(0x{address.BaseOffset:X08}) != {Offset}");
             }
-            writer.Write(address.AbsoluteOffset);
+            writer.WriteLE(address.AbsoluteOffset);
         }
 
-        protected abstract void ReadArgs(BinaryReader reader);
+        protected abstract void ReadArgs(IBinaryStream reader);
 
-        protected abstract void WriteArgs(BinaryWriter writer);
+        protected abstract void WriteArgs(IBinaryStream writer);
 
         protected abstract void DumpArgs(TextWriter writer);
     }

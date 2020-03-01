@@ -43,6 +43,18 @@ namespace CsYetiTools
             return i.ToString("X08");
         }
 
+        public static string ToBin(this byte b)
+        {
+            Span<char> chrs = stackalloc char[8];
+            var mask = 0b10000000;
+            for (int i = 0; i < 8; ++i)
+            {
+                chrs[i] = (b & mask) != 0 ? '1' : '0';
+                mask >>=1;
+            }
+            return new string(chrs);
+        }
+
         public static void Times(this int times, Action action)
         {
             for (int i = 0; i < times; ++i) action();
@@ -58,44 +70,7 @@ namespace CsYetiTools
             stream.Position = pos;
             return num != 0 ? oneByte[0] : -1;
         }
-
-        public static int PeekByte(this BinaryReader reader)
-        {
-            return reader.BaseStream.Peek();
-        }
-
-        public static byte[] ReadBytesExact(this BinaryReader reader, int count)
-        {
-            var data = reader.ReadBytes(count);
-            if (data.Length != count) throw new InvalidDataException($"No enough data, {data.Length} read (need {count})");
-            return data;
-        }
-
-        public static byte[] ReadToEnd(this BinaryReader reader)
-        {
-            return reader.ReadBytes(checked((int)(reader.BaseStream.Length - reader.BaseStream.Position)));
-        }
-
-        public static byte[] ReadBytes(this Stream stream, int count)
-        {
-            var data = new byte[count];
-            var read = stream.Read(data);
-            return data;
-        }
-
-        public static byte[] ReadBytesExact(this Stream stream, int count)
-        {
-            var data = new byte[count];
-            var read = stream.Read(data);
-            if (read != count) throw new InvalidDataException($"No enough data, {data.Length} read (need {count})");
-            return data;
-        }
-
-        public static byte[] ReadToEnd(this Stream stream)
-        {
-            return stream.ReadBytes(checked((int)(stream.Length - stream.Position)));
-        }
-
+        
         public static IEnumerable<(int index, T element)> WithIndex<T>(this IEnumerable<T> source)
         {
             int i = 0;
@@ -167,48 +142,57 @@ namespace CsYetiTools
                 return null;
             }
         }
+        
+        public static void WriteBE(this BinaryWriter writer, Int16 i)
+        {
+            writer.Write((byte)(i >> 8));
+            writer.Write((byte)(i & 0xFF));
+        }
 
-        public static short ReadBEInt16(this BinaryReader reader)
+        public static void WriteBE(this BinaryWriter writer, UInt16 i)
         {
-            Span<byte> span = stackalloc byte[2];
-            reader.Read(span);
-            return (short)(span[0] << 8 | span[1]);
+            writer.Write((byte)(i >> 8));
+            writer.Write((byte)(i & 0xFF));
         }
-        public static ushort ReadBEUInt16(this BinaryReader reader)
+
+        public static void WriteBE(this BinaryWriter writer, Int32 i)
         {
-            return (ushort)ReadBEInt16(reader);
+            writer.Write((byte)((i >> 0x18) & 0xFF));
+            writer.Write((byte)((i >> 0x10) & 0xFF));
+            writer.Write((byte)((i >> 0x08) & 0xFF));
+            writer.Write((byte)(i & 0xFF));
         }
-        public static int ReadBEInt32(this BinaryReader reader)
+        
+        public static void WriteBE(this BinaryWriter writer, UInt32 i)
         {
-            Span<byte> span = stackalloc byte[4];
-            reader.Read(span);
-            return (int)(span[0] << 24 | span[1] << 16 | span[2] << 8 | span[3]);
+            writer.Write((byte)((i >> 0x18) & 0xFF));
+            writer.Write((byte)((i >> 0x10) & 0xFF));
+            writer.Write((byte)((i >> 0x08) & 0xFF));
+            writer.Write((byte)(i & 0xFF));
         }
-        public static uint ReadBEUInt32(this BinaryReader reader)
+
+        public static void WriteBE(this BinaryWriter writer, Int64 i)
         {
-            return (uint)ReadBEInt32(reader);
+            writer.Write((byte)((i >> 0x38) & 0xFF));
+            writer.Write((byte)((i >> 0x30) & 0xFF));
+            writer.Write((byte)((i >> 0x28) & 0xFF));
+            writer.Write((byte)((i >> 0x20) & 0xFF));
+            writer.Write((byte)((i >> 0x18) & 0xFF));
+            writer.Write((byte)((i >> 0x10) & 0xFF));
+            writer.Write((byte)((i >> 0x08) & 0xFF));
+            writer.Write((byte)(i & 0xFF));
         }
-        public static long ReadBEInt64(this BinaryReader reader)
+        
+        public static void WriteBE(this BinaryWriter writer, UInt64 i)
         {
-            Span<byte> span = stackalloc byte[8];
-            reader.Read(span);
-            int hi = span[0] << 24 | span[1] << 16 | span[2] << 8 | span[3];
-            int lo = span[4] << 24 | span[5] << 16 | span[6] << 8 | span[7];
-            return ((long)hi << 32) | (uint)lo;
-        }
-        public static ulong ReadBEUInt64(this BinaryReader reader)
-        {
-            return (ulong)ReadBEInt64(reader);
-        }
-        public static float ReadBESingle(this BinaryReader reader)
-        {
-            // what is a BE single?
-            Console.WriteLine("Warning: reading big-endian float");
-            Span<byte> span = stackalloc byte[4];
-            Span<byte> reverse = stackalloc byte[4];
-            reader.Read(span);
-            for (int i = 0; i < 4; ++i) reverse[i] = span[3 - i];
-            return BitConverter.ToSingle(reverse);
+            writer.Write((byte)((i >> 0x38) & 0xFF));
+            writer.Write((byte)((i >> 0x30) & 0xFF));
+            writer.Write((byte)((i >> 0x28) & 0xFF));
+            writer.Write((byte)((i >> 0x20) & 0xFF));
+            writer.Write((byte)((i >> 0x18) & 0xFF));
+            writer.Write((byte)((i >> 0x10) & 0xFF));
+            writer.Write((byte)((i >> 0x08) & 0xFF));
+            writer.Write((byte)(i & 0xFF));
         }
 
         public static void Seek(this BinaryReader reader, long offset, SeekOrigin origin = SeekOrigin.Begin)

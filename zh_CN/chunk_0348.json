@@ -1,0 +1,734 @@
+{
+  "000064": {
+    "context": "000064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そして、その翌日。ついに運命の日がやってきた。"
+  },
+  "000069": {
+    "context": "000069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９月１６日早朝、黒田と比嘉と共に、恵那はラボに向かった。"
+  },
+  "000104": {
+    "context": "000104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "裏口のところで、ラボの警備員に止められたが……"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "偽造した令状を盾に、半ば無理やり、中に侵入した。"
+  },
+  "000176": {
+    "context": "000176",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "白衣に着替えさせられ、第６エリア内周棟まで通される。"
+  },
+  "000181": {
+    "context": "000181",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそこでもまた、研究員たちに呼び止められた。"
+  },
+  "000186": {
+    "context": "000186",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "曰く、『機密保持のため、いかに超科局の管理官といえど、これ以上先には入れる事はできません』との事。"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "かくなる上は、銃で脅して、Ｎエリアへの道を開こうとしたが――"
+  },
+  "000228": {
+    "context": "000228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時、不意に轟音が聞こえた。"
+  },
+  "000236": {
+    "context": "000236",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ッ！？　な、なんの音！？」"
+  },
+  "000241": {
+    "context": "000241",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0283 000807"
+  },
+  "000302": {
+    "context": "000302",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自動防災システムが、狂ったように警告放送を流す。"
+  },
+  "000316": {
+    "context": "000316",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0002 000716"
+  },
+  "000324": {
+    "context": "000324",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0002 000906"
+  },
+  "000332": {
+    "context": "000332",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0002 001098"
+  },
+  "000340": {
+    "context": "000340",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0002 001194"
+  },
+  "000391": {
+    "context": "000391",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――恵那は予想していなかった。"
+  },
+  "000396": {
+    "context": "000396",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "よりにもよって今日、こんな事が起きるとは。"
+  },
+  "000401": {
+    "context": "000401",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "偶然か、あるいは必然か――"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ともかく恵那たち超科局のメンバーも、テロに巻き込まれてしまったのだ。"
+  },
+  "000470": {
+    "context": "000470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那たちを呼び止めていた研究員は、蜘蛛の子を散らすように逃げていった。"
+  },
+  "000478": {
+    "context": "000478",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「こ、こりゃ……いったい何事だ！？」"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「わ、わかりません、ですが……あるいは、Ｑによるテロかと……！」"
+  },
+  "000494": {
+    "context": "000494",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「Ｑだと！？　連中はここがＢＣの研究施設だと知っていたというのか！？」"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あくまで、可能性としてですが」"
+  },
+  "000507": {
+    "context": "000507",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｑが市内に侵入しているという噂は、恵那たちも聞いていた。"
+  },
+  "000512": {
+    "context": "000512",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがＱが侵入したからと言って、ラボの警備を露骨に厳しくしたら、『ここはＢＣ研究施設です』と宣伝しているようなものだ。"
+  },
+  "000517": {
+    "context": "000517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "故にラボとしては、平時同様の警備をしていたのかもしれないが――"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（その隙を突かれたの……？）"
+  },
+  "000531": {
+    "context": "000531",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……ちっ！　だったらひとまず、出口を探そう！」"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「万が一テロリストに遭遇したら、まぁ完全に業務範囲外だが……捕まえられるかどうか、試してみるか」"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はっ！」"
+  },
+  "000552": {
+    "context": "000552",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那たちは出口を探し、駆け出した。"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――しかし、ファクトリーで大火に遭遇し――"
+  },
+  "000676": {
+    "context": "000676",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "黒田たちとは、分断されてしまった。"
+  },
+  "000684": {
+    "context": "000684",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「室長！　比嘉管理官！　どこですか！？」"
+  },
+  "000689": {
+    "context": "000689",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の叫びに、炎の向こうから声が返ってくる。"
+  },
+  "000697": {
+    "context": "000697",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「椿山ァ！　こりゃ合流は無理だ！　別々に出口を探そう！」"
+  },
+  "000705": {
+    "context": "000705",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "「地上で待ってろ！」"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0048 001308"
+  },
+  "000719": {
+    "context": "000719",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って別れた、しばらく後――"
+  },
+  "000764": {
+    "context": "000764",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "禍々しいサイレンが聞こえた。"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002300"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002308"
+  },
+  "000800": {
+    "context": "000800",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002316"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうして恵那は、地下に閉じ込められてしまった。"
+  },
+  "000864": {
+    "context": "000864",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "黒田たちと合流できないまま、連絡通路で火に追われる。"
+  },
+  "000872": {
+    "context": "000872",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0241 000723"
+  },
+  "000880": {
+    "context": "000880",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0241 000752"
+  },
+  "000888": {
+    "context": "000888",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0241 000763"
+  },
+  "000893": {
+    "context": "000893",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はラボから与えられた白衣を脱ぎ捨て、火と煙から必死で逃げ……"
+  },
+  "000904": {
+    "context": "000904",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして消化栓からホースを引っ張り出し、自力で消火を始めた。"
+  },
+  "000954": {
+    "context": "000954",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして火を消し止め、さらに連絡通路からの脱出を図っていると――"
+  },
+  "000965": {
+    "context": "000965",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてそこに、レスキュー隊員たちがやってきた。"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――あんた名前はなんて言うんだ？」"
+  },
+  "001104": {
+    "context": "001104",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0007 002468"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0007 002502"
+  },
+  "001126": {
+    "context": "001126",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0007 002513"
+  },
+  "001134": {
+    "context": "001134",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0007 002591"
+  },
+  "001145": {
+    "context": "001145",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 005112"
+  },
+  "001150": {
+    "context": "001150",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『ユウリ』と呼ばれた少女が、怯えるような目で恵那を見る。"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（ユウリ……『琴乃悠里』と同じ名前？）"
+  },
+  "001162": {
+    "context": "001162",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（何か気になるわ。しばらく一般人を装って、一緒に行動した方が良さそうね）"
+  },
+  "001167": {
+    "context": "001167",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに脱出口も探さねばならないし、黒田たちの安否も気になる。"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は彼らと、同行する事を決めた。"
+  },
+  "001322": {
+    "context": "001322",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ＡＤも風見に言われるままに、投与した。"
+  },
+  "001327": {
+    "context": "001327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はそれまでの仕事を通じ、ＷＸ粒子の危険性や、ＡＤの効果などについての知識も得ている。"
+  },
+  "001332": {
+    "context": "001332",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてむろんラボが対外的には、それらの全てを原子力に関わるものであるように偽装している事も。"
+  },
+  "001338": {
+    "context": "001338",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（でも、皆に話すわけにはいかない……）"
+  },
+  "001343": {
+    "context": "001343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一般人がそんなことを知ってしまったら、その人は今後、情報隠蔽のためにラボに狙われてしまうだろう。"
+  },
+  "001348": {
+    "context": "001348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どのみち危険な代物ではあるのだし、ＡＤは投与し続けなければならない。"
+  },
+  "001353": {
+    "context": "001353",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、皆に話を合わせながら、しばらく進むと……"
+  },
+  "001358": {
+    "context": "001358",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやく、黒田たちと再会できた。"
+  },
+  "001509": {
+    "context": "001509",
+    "code": "0x45",
+    "developer_comment": "３人",
+    "string": "@import 0016 001206"
+  },
+  "001514": {
+    "context": "001514",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は思わず絶叫していた。"
+  },
+  "001519": {
+    "context": "001519",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "再会したときには、黒田と比嘉は、変わり果てた姿になっていたのだ。"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人ともまだ、支給された白衣を着ていた。ラボの研究員を装い、行動していたのだろう。"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその白衣は、無数の銃創から流れ出た血に染まっていた。"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（撃たれたの……？）"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0017 000228"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全身に大小の穴が開き、とりわけ大きな腹の穴からは、赤茶けた腸がはみ出ている。"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが恵那はその死体から、決して目を逸らさなかった。"
+  },
+  "001556": {
+    "context": "001556",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……この状況の意味は……！？）"
+  },
+  "001562": {
+    "context": "001562",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（なぜ黒田室長と比嘉管理官は撃ち殺されているのに、あのレスキュー隊員だけが、首を折られて死んでいるの？）"
+  },
+  "001568": {
+    "context": "001568",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（考えられる答えは２つ……）"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（この３人が揃っていたところにテロリストが現れ、黒田さんたちが撃ち殺されたあとで、レスキュー隊員がなぶり殺された）"
+  },
+  "001580": {
+    "context": "001580",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（あるいは、あのレスキュー隊員こそがテロリストで……黒田室長たちはテロリストを捕まえようと、素手で戦いを挑んだ）"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（そして、戦いの果てに――相打ちになった）"
+  },
+  "001591": {
+    "context": "001591",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――答えとしては、後者の方がしっくり来る気がした。"
+  },
+  "001596": {
+    "context": "001596",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "黒田は確か警察庁あがりで、若い頃から格技の達人であったと、父の日記に記されていた。"
+  },
+  "001601": {
+    "context": "001601",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "比嘉も元公安だ。同等の力を持っていたとしてもおかしくない。"
+  },
+  "001607": {
+    "context": "001607",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（真相はわからないけど……はっきりしている事は、１つ）"
+  },
+  "001613": {
+    "context": "001613",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（黒田室長たちは、テロリストに殺された……！）"
+  },
+  "001618": {
+    "context": "001618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はぎりっと、奥歯を噛む。"
+  },
+  "001717": {
+    "context": "001717",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……安らかに眠って下さい……仇はきっと討ちますから……！）"
+  },
+  "001723": {
+    "context": "001723",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（これ以上の犠牲者は、絶対に出しませんから……！）"
+  },
+  "001728": {
+    "context": "001728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "このまま一般人を装い、犯人探しをしよう。"
+  },
+  "001733": {
+    "context": "001733",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那はそう決意したが――"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その決意も虚しく、新たな犠牲者が出てしまった。"
+  },
+  "001804": {
+    "context": "001804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が呆然と、その遺体を見て呟く。"
+  },
+  "001812": {
+    "context": "001812",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0051 002293"
+  },
+  "001817": {
+    "context": "001817",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那にもわからない。だが推測はできる。"
+  },
+  "001823": {
+    "context": "001823",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（この子の服装……まるで病院服のような……！）"
+  },
+  "001829": {
+    "context": "001829",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（ひょっとして、この子……ラボに幽閉されていた、被験体！？）"
+  },
+  "001834": {
+    "context": "001834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だとしたらＱに襲われ、殺された可能性は高い。"
+  },
+  "001840": {
+    "context": "001840",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（そうなるとやはり、ユウリさんも被験体なの……！？）"
+  },
+  "001846": {
+    "context": "001846",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（まさか隊長さんの記憶喪失の原因も、これに関わっている……？）"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（彼の記憶喪失が、センシズシンパシーによるものだとしたら……誰が、なぜ、隊長さんの記憶を消したの？）"
+  },
+  "001858": {
+    "context": "001858",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（この子が生前に……？　あるいは、ユウリさんが？）"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の思考を、様々な疑惑が支配する。"
+  },
+  "001868": {
+    "context": "001868",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分の正体を明かし、銃で脅して犯人探しをしようとも思ったが――それは危険だ。"
+  },
+  "001873": {
+    "context": "001873",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "万が一この中にテロリストか、能力レベル６のコミュニケーターがいたとしたら、逆にやられてしまう可能性が高い。"
+  },
+  "001879": {
+    "context": "001879",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……考えてみれば、いま一緒にいる人間は、誰もが怪しい……）"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（あのレスキュー隊員がテロリストだったとしたら、隊長さん・橘さん・守部さんも、テロリストの仲間かもしれない）"
+  },
+  "001891": {
+    "context": "001891",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（そして内通者の可能性がある宇喜多さんに、正体不明のユウリさん……確実に味方と言える人がいないわ……！）"
+  },
+  "001896": {
+    "context": "001896",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分の武器は、一丁の拳銃しかないのだ。"
+  },
+  "001901": {
+    "context": "001901",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "敵の数も種類もわからないのに、賭けに出るわけにはいかない。"
+  },
+  "001907": {
+    "context": "001907",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（それでも、私は……必ず犯人を捕まえる）"
+  },
+  "001913": {
+    "context": "001913",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（それが私の、管理官としての勤めだ）"
+  },
+  "001918": {
+    "context": "001918",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は懐の銃の重みを感じながら、そう決意する。"
+  },
+  "001924": {
+    "context": "001924",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……お父さん、私を護って……！）"
+  },
+  "001929": {
+    "context": "001929",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "敵が誰かもわからない状況下で、恵那の孤独な闘いが始まった。"
+  }
+}

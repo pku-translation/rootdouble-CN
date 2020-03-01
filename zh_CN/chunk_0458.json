@@ -1,0 +1,1569 @@
+{
+  "000064": {
+    "context": "000064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000068"
+  },
+  "000069": {
+    "context": "000069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000073"
+  },
+  "000074": {
+    "context": "000074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000078"
+  },
+  "000112": {
+    "context": "000112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000116"
+  },
+  "000117": {
+    "context": "000117",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000121"
+  },
+  "000167": {
+    "context": "000167",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000171"
+  },
+  "000172": {
+    "context": "000172",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000176"
+  },
+  "000180": {
+    "context": "000180",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0142 001013"
+  },
+  "000185": {
+    "context": "000185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000189"
+  },
+  "000314": {
+    "context": "000314",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0142 001619"
+  },
+  "000322": {
+    "context": "000322",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0142 001678"
+  },
+  "000327": {
+    "context": "000327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000331"
+  },
+  "000370": {
+    "context": "000370",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000374"
+  },
+  "000440": {
+    "context": "000440",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000444"
+  },
+  "000535": {
+    "context": "000535",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0142 003490"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000544"
+  },
+  "000546": {
+    "context": "000546",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000550"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000555"
+  },
+  "000557": {
+    "context": "000557",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000561"
+  },
+  "000603": {
+    "context": "000603",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000608": {
+    "context": "000608",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000566"
+  },
+  "000613": {
+    "context": "000613",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000571"
+  },
+  "000618": {
+    "context": "000618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000576"
+  },
+  "000629": {
+    "context": "000629",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0142 004492"
+  },
+  "000640": {
+    "context": "000640",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0360 000598"
+  },
+  "000725": {
+    "context": "000725",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われ、サリュも素直にうなずいた。"
+  },
+  "000733": {
+    "context": "000733",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「確かに、可愛い名前……それに意味深い」"
+  },
+  "000762": {
+    "context": "000762",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？」"
+  },
+  "000770": {
+    "context": "000770",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「『Ｓａｌｕｔ』とはフランス語で、『やぁ』という意味」"
+  },
+  "000778": {
+    "context": "000778",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「挨拶の言葉、即ちコミュニケーションの始まり」"
+  },
+  "000786": {
+    "context": "000786",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私の頑張りを、後押ししてくれそう」"
+  },
+  "000815": {
+    "context": "000815",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「頑張りって？　コミュニケーションを取ることに対して？」"
+  },
+  "000823": {
+    "context": "000823",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう。私はあなたたちと仲良くしたいと思っている」"
+  },
+  "000831": {
+    "context": "000831",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「正直そういうのは、とても苦手だけど」"
+  },
+  "000860": {
+    "context": "000860",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なーにいってんの、ちゃんと話せてるじゃん！」"
+  },
+  "000868": {
+    "context": "000868",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……そう？」"
+  },
+  "000897": {
+    "context": "000897",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうだよ、ね、夏彦？」"
+  },
+  "000926": {
+    "context": "000926",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん……まぁ、そうだな」"
+  },
+  "000931": {
+    "context": "000931",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人の言葉を、サリュは密かに喜んだ。"
+  },
+  "000937": {
+    "context": "000937",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（完璧なファーストコンタクト……２人ともう仲良くなれた）"
+  },
+  "000942": {
+    "context": "000942",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな好感触と共に、サリュの新しい生活は始まったのだった。"
+  },
+  "000953": {
+    "context": "000953",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0142 004723"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000612"
+  },
+  "000964": {
+    "context": "000964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000617"
+  },
+  "000970": {
+    "context": "000970",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000623"
+  },
+  "000976": {
+    "context": "000976",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000629"
+  },
+  "000981": {
+    "context": "000981",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000634"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000639"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000735"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000802"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000813"
+  },
+  "001195": {
+    "context": "001195",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 000848"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000856"
+  },
+  "001232": {
+    "context": "001232",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 000885"
+  },
+  "001240": {
+    "context": "001240",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000893"
+  },
+  "001251": {
+    "context": "001251",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 000904"
+  },
+  "001259": {
+    "context": "001259",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000912"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……」"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x45",
+    "developer_comment": "アリス",
+    "string": "@import 0360 000944"
+  },
+  "001296": {
+    "context": "001296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000949"
+  },
+  "001304": {
+    "context": "001304",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 000957"
+  },
+  "001333": {
+    "context": "001333",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 000986"
+  },
+  "001341": {
+    "context": "001341",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「？」"
+  },
+  "001346": {
+    "context": "001346",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 000999"
+  },
+  "001351": {
+    "context": "001351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001004"
+  },
+  "001380": {
+    "context": "001380",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 001033"
+  },
+  "001391": {
+    "context": "001391",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0360 001044"
+  },
+  "001399": {
+    "context": "001399",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0070 000581"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001123"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001211"
+  },
+  "001564": {
+    "context": "001564",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001217"
+  },
+  "001570": {
+    "context": "001570",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001223"
+  },
+  "001575": {
+    "context": "001575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001228"
+  },
+  "001601": {
+    "context": "001601",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0148 002693"
+  },
+  "001609": {
+    "context": "001609",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0148 002733"
+  },
+  "001638": {
+    "context": "001638",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "001643": {
+    "context": "001643",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001296"
+  },
+  "001649": {
+    "context": "001649",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001302"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001307"
+  },
+  "001660": {
+    "context": "001660",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001313"
+  },
+  "001706": {
+    "context": "001706",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001711": {
+    "context": "001711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001318"
+  },
+  "001716": {
+    "context": "001716",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001323"
+  },
+  "001795": {
+    "context": "001795",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001402"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0149 002369"
+  },
+  "001832": {
+    "context": "001832",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0149 002380"
+  },
+  "001916": {
+    "context": "001916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "きょとんとする夏彦を見て、サリュは思う。"
+  },
+  "001922": {
+    "context": "001922",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（説明不足？　もっと詳細を語らなければいけないのかも）"
+  },
+  "001930": {
+    "context": "001930",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……つまり、私はあなたを護るのが役目」"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「嫌々やっているのではなく、欲求もある」"
+  },
+  "001967": {
+    "context": "001967",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「へ……？　な、なんで？」"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……わからない。なんとなく」"
+  },
+  "002004": {
+    "context": "002004",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「な、なんとなくか」"
+  },
+  "002012": {
+    "context": "002012",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「でも、護りたいというのは本当」"
+  },
+  "002041": {
+    "context": "002041",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そうか、はは……ありがとう」"
+  },
+  "002046": {
+    "context": "002046",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が乾いた笑い声を上げた。サリュはそれに困惑する。"
+  },
+  "002052": {
+    "context": "002052",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（……別に面白い話などしていないのに）"
+  },
+  "002081": {
+    "context": "002081",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ま、なんにしても……女の子に護られるほどヤワじゃないよ」"
+  },
+  "002110": {
+    "context": "002110",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それじゃそろそろ戻ろうか」"
+  },
+  "002118": {
+    "context": "002118",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0142 004983"
+  },
+  "002123": {
+    "context": "002123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誠意を尽くして語ったにも関わらず、夏彦の反応は不透明だ。"
+  },
+  "002128": {
+    "context": "002128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュには彼が何を考えているのか、余計にわからなくなった。"
+  },
+  "002136": {
+    "context": "002136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001444"
+  },
+  "002142": {
+    "context": "002142",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001450"
+  },
+  "002148": {
+    "context": "002148",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001456"
+  },
+  "002153": {
+    "context": "002153",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001461"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001533"
+  },
+  "002230": {
+    "context": "002230",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001538"
+  },
+  "002334": {
+    "context": "002334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001642"
+  },
+  "002339": {
+    "context": "002339",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001647"
+  },
+  "002344": {
+    "context": "002344",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001652"
+  },
+  "002352": {
+    "context": "002352",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0159 002761"
+  },
+  "002360": {
+    "context": "002360",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0159 002772"
+  },
+  "002426": {
+    "context": "002426",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001784"
+  },
+  "002471": {
+    "context": "002471",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0159 002870"
+  },
+  "002500": {
+    "context": "002500",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 002881"
+  },
+  "002546": {
+    "context": "002546",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002551": {
+    "context": "002551",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001863"
+  },
+  "002580": {
+    "context": "002580",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 004878"
+  },
+  "002588": {
+    "context": "002588",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0012 006275"
+  },
+  "002617": {
+    "context": "002617",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 004933"
+  },
+  "002625": {
+    "context": "002625",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0142 004983"
+  },
+  "002711": {
+    "context": "002711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュがギクシャクとうなずいた時、傍らのましろが声を上げた。"
+  },
+  "002740": {
+    "context": "002740",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0159 005108"
+  },
+  "002769": {
+    "context": "002769",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 005119"
+  },
+  "002774": {
+    "context": "002774",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう言ったが、サリュにはましろの言葉が、心にぐっときた。"
+  },
+  "002782": {
+    "context": "002782",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「友情……素敵な言葉」"
+  },
+  "002826": {
+    "context": "002826",
+    "code": "0x45",
+    "developer_comment": "夏彦・ましろ",
+    "string": "「え？」"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦とましろに問う。私たちは、友達？」"
+  },
+  "002863": {
+    "context": "002863",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　ま、まぁ……」"
+  },
+  "002892": {
+    "context": "002892",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あったりまえだよ、サリュ！　最初に会ったときにも、そう言ったでしょ？」"
+  },
+  "002906": {
+    "context": "002906",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0002 002723"
+  },
+  "002911": {
+    "context": "002911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは心臓がどきどきするのを感じた。"
+  },
+  "002916": {
+    "context": "002916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろのストレートな言葉が、嬉しかったのだ。"
+  },
+  "002924": {
+    "context": "002924",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001942"
+  },
+  "002969": {
+    "context": "002969",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001987"
+  },
+  "002975": {
+    "context": "002975",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 001993"
+  },
+  "002980": {
+    "context": "002980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 001998"
+  },
+  "003053": {
+    "context": "003053",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002071"
+  },
+  "003061": {
+    "context": "003061",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0161 000802"
+  },
+  "003107": {
+    "context": "003107",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "003115": {
+    "context": "003115",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0161 000842"
+  },
+  "003192": {
+    "context": "003192",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0161 000973"
+  },
+  "003197": {
+    "context": "003197",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002169"
+  },
+  "003284": {
+    "context": "003284",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……あの、ありがとうましろ。こんなに豪勢な料理を作ってくれて」"
+  },
+  "003313": {
+    "context": "003313",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いやいや、お気になさらず。私こういうの好きなんだよ」"
+  },
+  "003342": {
+    "context": "003342",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それにやっぱ美味しい料理は、人との距離を近くするからさ」"
+  },
+  "003350": {
+    "context": "003350",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「同感」"
+  },
+  "003355": {
+    "context": "003355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュとましろは、笑みを交わした。"
+  },
+  "003361": {
+    "context": "003361",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（不思議……ましろといると、心が安らぐ）"
+  },
+  "003366": {
+    "context": "003366",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今まで天川博士以外に、そんな相手にめぐり合う事はなかった。"
+  },
+  "003371": {
+    "context": "003371",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうしてだろうと考え、サリュはすぐに気付いた。"
+  },
+  "003377": {
+    "context": "003377",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（安らぎの原因がわかった……ましろは優しいし、裏表がないからだ）"
+  },
+  "003385": {
+    "context": "003385",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ましろ」"
+  },
+  "003414": {
+    "context": "003414",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ん？」"
+  },
+  "003422": {
+    "context": "003422",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私、ましろが好き」"
+  },
+  "003451": {
+    "context": "003451",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「えっ！？　そ、そりゃ告白ッスか？」"
+  },
+  "003459": {
+    "context": "003459",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「素直に感情を表現してみた。いけなかった？」"
+  },
+  "003488": {
+    "context": "003488",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「いやいや、いけなくないよ！　私もサリュが好きだよ」"
+  },
+  "003499": {
+    "context": "003499",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろがそう言った時、アリスが『きゅっきゅー』と鳴いた。"
+  },
+  "003504": {
+    "context": "003504",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "好意的感情を示す鳴き声――それを聞いて、サリュは思う。"
+  },
+  "003510": {
+    "context": "003510",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（やはりアリスによる判断と、言動がほぼ一致している）"
+  },
+  "003516": {
+    "context": "003516",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 002181"
+  },
+  "003521": {
+    "context": "003521",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはアリスに、全幅の信頼を置いている。"
+  },
+  "003526": {
+    "context": "003526",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その分析結果を見るに、サリュもましろの事は無条件に信じてもいいと思えてきたのだ。"
+  },
+  "003535": {
+    "context": "003535",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 002175"
+  },
+  "003541": {
+    "context": "003541",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 002181"
+  },
+  "003546": {
+    "context": "003546",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002186"
+  },
+  "003642": {
+    "context": "003642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002282"
+  },
+  "003727": {
+    "context": "003727",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002367"
+  },
+  "003735": {
+    "context": "003735",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 002375"
+  },
+  "003764": {
+    "context": "003764",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0163 002219"
+  },
+  "003772": {
+    "context": "003772",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0163 002248"
+  },
+  "003780": {
+    "context": "003780",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0163 002277"
+  },
+  "003803": {
+    "context": "003803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002443"
+  },
+  "003808": {
+    "context": "003808",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002448"
+  },
+  "003886": {
+    "context": "003886",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002526"
+  },
+  "003891": {
+    "context": "003891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002531"
+  },
+  "003976": {
+    "context": "003976",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0174 003395"
+  },
+  "003988": {
+    "context": "003988",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0174 003424"
+  },
+  "003993": {
+    "context": "003993",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002633"
+  },
+  "004087": {
+    "context": "004087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002727"
+  },
+  "004095": {
+    "context": "004095",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0182 000384"
+  },
+  "004106": {
+    "context": "004106",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 000479"
+  },
+  "004135": {
+    "context": "004135",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 000487"
+  },
+  "004158": {
+    "context": "004158",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0005 000751"
+  },
+  "004163": {
+    "context": "004163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002803"
+  },
+  "004168": {
+    "context": "004168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002808"
+  },
+  "004174": {
+    "context": "004174",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 002814"
+  },
+  "004179": {
+    "context": "004179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002819"
+  },
+  "004184": {
+    "context": "004184",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002824"
+  },
+  "004189": {
+    "context": "004189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002829"
+  },
+  "004215": {
+    "context": "004215",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0182 001753"
+  },
+  "004223": {
+    "context": "004223",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0182 001764"
+  },
+  "004228": {
+    "context": "004228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 002868"
+  },
+  "004257": {
+    "context": "004257",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 002769"
+  },
+  "004268": {
+    "context": "004268",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 002806"
+  },
+  "004279": {
+    "context": "004279",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 002975"
+  },
+  "004287": {
+    "context": "004287",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0021 001376"
+  },
+  "004295": {
+    "context": "004295",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0182 003015"
+  },
+  "004324": {
+    "context": "004324",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0360 002964"
+  },
+  "004335": {
+    "context": "004335",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 003090"
+  },
+  "004346": {
+    "context": "004346",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 003098"
+  },
+  "004357": {
+    "context": "004357",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0182 003106"
+  },
+  "004403": {
+    "context": "004403",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "004408": {
+    "context": "004408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003002"
+  },
+  "004414": {
+    "context": "004414",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003008"
+  },
+  "004420": {
+    "context": "004420",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003014"
+  },
+  "004426": {
+    "context": "004426",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003020"
+  },
+  "004432": {
+    "context": "004432",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003026"
+  },
+  "004519": {
+    "context": "004519",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0227 002461"
+  },
+  "004548": {
+    "context": "004548",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "004556": {
+    "context": "004556",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「夏彦は私を、思いやってくれたの？」"
+  },
+  "004585": {
+    "context": "004585",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、ぼくなりにね」"
+  },
+  "004590": {
+    "context": "004590",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦ははっきりとそう言った。"
+  },
+  "004601": {
+    "context": "004601",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "アリスの反応も、その言葉が真実であることを示していた。"
+  },
+  "004607": {
+    "context": "004607",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（やっぱり、夏彦も私と同じ……！）"
+  },
+  "004612": {
+    "context": "004612",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そのとき初めてサリュは、夏彦の心を理解できた気がした。"
+  },
+  "004620": {
+    "context": "004620",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003031"
+  },
+  "004626": {
+    "context": "004626",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003037"
+  },
+  "004673": {
+    "context": "004673",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003084"
+  },
+  "004709": {
+    "context": "004709",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003120"
+  },
+  "004738": {
+    "context": "004738",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0015 003040"
+  },
+  "004806": {
+    "context": "004806",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003217"
+  },
+  "004863": {
+    "context": "004863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003274"
+  },
+  "004923": {
+    "context": "004923",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003334"
+  },
+  "004980": {
+    "context": "004980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003391"
+  },
+  "005023": {
+    "context": "005023",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003434"
+  },
+  "005028": {
+    "context": "005028",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003439"
+  },
+  "005034": {
+    "context": "005034",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003445"
+  },
+  "005040": {
+    "context": "005040",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0360 003451"
+  },
+  "005098": {
+    "context": "005098",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003509"
+  },
+  "005146": {
+    "context": "005146",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003557"
+  },
+  "005203": {
+    "context": "005203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003614"
+  },
+  "005253": {
+    "context": "005253",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003664"
+  },
+  "005258": {
+    "context": "005258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003669"
+  },
+  "005263": {
+    "context": "005263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003674"
+  },
+  "005362": {
+    "context": "005362",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0216 003527"
+  },
+  "005373": {
+    "context": "005373",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0216 003561"
+  },
+  "005381": {
+    "context": "005381",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "@import 0216 003590"
+  },
+  "005419": {
+    "context": "005419",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003830"
+  },
+  "005424": {
+    "context": "005424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003835"
+  },
+  "005453": {
+    "context": "005453",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0216 003800"
+  },
+  "005461": {
+    "context": "005461",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「了解」"
+  },
+  "005490": {
+    "context": "005490",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0216 003858"
+  },
+  "005519": {
+    "context": "005519",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0216 003869"
+  },
+  "005524": {
+    "context": "005524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003935"
+  },
+  "005529": {
+    "context": "005529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0360 003940"
+  },
+  "005657": {
+    "context": "005657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ラボに続く高架道路を、サリュたちは歩く。"
+  },
+  "005663": {
+    "context": "005663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "長い道のりを、励ましあいながら、３人は進んでいた。"
+  },
+  "005714": {
+    "context": "005714",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0218 002767"
+  },
+  "005720": {
+    "context": "005720",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "輝く３つの光は、サリュたちの姿を象徴しているかのようで――。"
+  },
+  "005727": {
+    "context": "005727",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（いや……私はまだその星の中には、入れてはいないのかもしれない）"
+  },
+  "005733": {
+    "context": "005733",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちの心の中には、もう１人の友達が住んでいる。"
+  },
+  "005739": {
+    "context": "005739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９年前に死んでしまった、琴乃悠里という少女が。"
+  },
+  "005745": {
+    "context": "005745",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その少女の事を考えると、なぜかサリュの胸にも、切なさと懐かしさが去来した。"
+  },
+  "005752": {
+    "context": "005752",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（……今となってはもう遅いけど、その子の事ももっと知りたかった）"
+  },
+  "005759": {
+    "context": "005759",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（夏彦の事もましろの事も、知れば知るほど親愛の情が高まったから）"
+  },
+  "005766": {
+    "context": "005766",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "（この事件が終わったら、２人に聞いてみよう）"
+  },
+  "005772": {
+    "context": "005772",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もう会うことのできない友達の想い出を――。"
+  },
+  "006006": {
+    "context": "006006",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうしてサリュの心の中で、夏彦・ましろ、そして悠里への想いが、より大きくなると共に――"
+  },
+  "006011": {
+    "context": "006011",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "新たな記憶が、心の中から湧き上がってきた……。"
+  }
+}

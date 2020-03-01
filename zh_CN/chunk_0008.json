@@ -544,6 +544,11 @@
     "developer_comment": "恵那",
     "string": "「那个人说着“在这里等着！”就很快走掉了。真是的，别开玩笑啊」"
   },
+  "001985": {
+    "context": "001985",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "002014": {
     "context": "002014",
     "code": "0x45",
@@ -735,5 +740,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "然后显示器上映出了监控录像。"
+  },
+  "002712": {
+    "context": "002712",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

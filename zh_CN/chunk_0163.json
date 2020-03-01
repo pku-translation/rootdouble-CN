@@ -1,0 +1,1435 @@
+{
+  "000078": {
+    "context": "000078",
+    "code": "0x55",
+    "string": "@import 0154 000080"
+  },
+  "000086": {
+    "context": "000086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうして他愛のない話を重ね――"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "気づけば、時計は夜１０時を回っていた。"
+  },
+  "000203": {
+    "context": "000203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里もウトウトし始めている。"
+  },
+  "000208": {
+    "context": "000208",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はためらいつつも、声を上げた。"
+  },
+  "000358": {
+    "context": "000358",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ましろ、そろそろ帰る時間じゃないか？」"
+  },
+  "000403": {
+    "context": "000403",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？　あ……もうこんな時間かぁ」"
+  },
+  "000432": {
+    "context": "000432",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「う～、もうちょっと話したいんだけどなぁ……」"
+  },
+  "000443": {
+    "context": "000443",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも親御さんも心配するだろ？」"
+  },
+  "000472": {
+    "context": "000472",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それに、明日も会える」"
+  },
+  "000518": {
+    "context": "000518",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000547": {
+    "context": "000547",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ん……そうだよね」"
+  },
+  "000576": {
+    "context": "000576",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「わかった、それじゃ今日のところは帰るよ」"
+  },
+  "000687": {
+    "context": "000687",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0159 003894"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0159 003963"
+  },
+  "000742": {
+    "context": "000742",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん」"
+  },
+  "000761": {
+    "context": "000761",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あ、ちょっと玄関先まで送っていくよ」"
+  },
+  "000790": {
+    "context": "000790",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え、今度は夏彦が？　……まぁでも頼もうかな」"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の申し出に、ましろはうなずいた。"
+  },
+  "000991": {
+    "context": "000991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "玄関先に出てから、夏彦は彼女に言う。"
+  },
+  "001002": {
+    "context": "001002",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ましろ、今日は色々ありがとな」"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「えぇぇ？　どうしたの改まって？」"
+  },
+  "001042": {
+    "context": "001042",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや……サリュとぼくが打ち解けるよう、頑張ってくれたんだろ？」"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あーまーね、おせっかいかもしれないけど」"
+  },
+  "001082": {
+    "context": "001082",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも、歓迎会をやるってのは正解だったよ。やっぱ美味しい食事をみんなで囲むと、雰囲気も和むな」"
+  },
+  "001112": {
+    "context": "001112",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「料理というのは不思議な力があるんだよ。人の心を通わせるためには、時としてＢＣより強い力となる……なんつってね」"
+  },
+  "001135": {
+    "context": "001135",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "照れ笑いを浮かべるましろに、夏彦は苦笑して言う。"
+  },
+  "001146": {
+    "context": "001146",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにしても、ましろと結婚する男は幸福だな。こんな料理をいつでも食べられるなんて」"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「なにそれ、コッテコテのくどき文句？　似合わないからやめた方がいいよ」"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁくどき文句だ。今日のお前には、こんな事も言いたくなる」"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「テキトーなこと言っちゃって……ま、料理への褒め言葉として受け取っとくよ」"
+  },
+  "001220": {
+    "context": "001220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の軽口を、ましろはあっさりいなした。"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろがそうする事をわかっているから、冗談も言えるのだ。"
+  },
+  "001231": {
+    "context": "001231",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……どのみち、そんな将来のことなんか考えられないしな）"
+  },
+  "001242": {
+    "context": "001242",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁとにかくありがとう。近いうちちゃんとお礼もするよ」"
+  },
+  "001271": {
+    "context": "001271",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ん、期待しとくよ。それじゃあまた明日ね」"
+  },
+  "001282": {
+    "context": "001282",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 003905"
+  },
+  "001315": {
+    "context": "001315",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "別れの挨拶を交わし、夏彦は家に戻っていった。"
+  },
+  "001415": {
+    "context": "001415",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 003905"
+  },
+  "001473": {
+    "context": "001473",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちの声を背に、ましろは部屋を出て行った。"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが帰ると同時に、夏彦はいつもと同じように玄関の鍵を閉めた。"
+  },
+  "001565": {
+    "context": "001565",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてリビングに戻る。"
+  },
+  "001649": {
+    "context": "001649",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろがいなくなったリビングは、静かなものだった。"
+  },
+  "001768": {
+    "context": "001768",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「す～……」"
+  },
+  "001773": {
+    "context": "001773",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里はソファで眠りに落ちていた。"
+  },
+  "001857": {
+    "context": "001857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュも眠そうにしながら、夏彦に言う。"
+  },
+  "001868": {
+    "context": "001868",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それじゃ夏彦、私は日課があるので部屋に戻る」"
+  },
+  "001879": {
+    "context": "001879",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう言えば昨日も言っていたな。日課ってなんだ？　勉強か？」"
+  },
+  "001908": {
+    "context": "001908",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「筋力トレーニング」"
+  },
+  "001919": {
+    "context": "001919",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え！？　筋力……え？」"
+  },
+  "001930": {
+    "context": "001930",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……そんな趣味もあったのか？」"
+  },
+  "001941": {
+    "context": "001941",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「趣味というか、習慣。昔から１日も欠かしていない」"
+  },
+  "001970": {
+    "context": "001970",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「やらなければ、なんだかそわそわする」"
+  },
+  "001981": {
+    "context": "001981",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そうなんだ……」"
+  },
+  "001986": {
+    "context": "001986",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュのパーソナリティは、聞くほどに驚きがあった。"
+  },
+  "001997": {
+    "context": "001997",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「文武両道ってやつか……？　なんにしろすごいな」"
+  },
+  "002026": {
+    "context": "002026",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「それほどの事ではない。それじゃ」"
+  },
+  "002050": {
+    "context": "002050",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはそそくさと、リビングを出て行こうとした。"
+  },
+  "002074": {
+    "context": "002074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが廊下に続く扉の前で、立ち止まって呟く。"
+  },
+  "002120": {
+    "context": "002120",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002131": {
+    "context": "002131",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……夏彦は、空気を読むのが得意？」"
+  },
+  "002142": {
+    "context": "002142",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え、なんだよいきなり」"
+  },
+  "002171": {
+    "context": "002171",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私は苦手だから、自信がないのだけど……」"
+  },
+  "002200": {
+    "context": "002200",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「今日はみんな、楽しそうにしているように見えた。夏彦も楽しかった？」"
+  },
+  "002219": {
+    "context": "002219",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　そ、そりゃもちろん。サリュは楽しくなかったのか？」"
+  },
+  "002248": {
+    "context": "002248",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……いや」"
+  },
+  "002277": {
+    "context": "002277",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私も、すごく楽しかった」"
+  },
+  "002288": {
+    "context": "002288",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "002317": {
+    "context": "002317",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「こんな日がずっと続けばいいのだけれど……」"
+  },
+  "002328": {
+    "context": "002328",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なに言ってんだよ、続くさそりゃ」"
+  },
+  "002357": {
+    "context": "002357",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……そう。楽しみ」"
+  },
+  "002377": {
+    "context": "002377",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュはそれだけ言って、リビングを出て行った。"
+  },
+  "002382": {
+    "context": "002382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は閉じた扉を、呆然と見つめる。"
+  },
+  "002393": {
+    "context": "002393",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……楽しかったって？」"
+  },
+  "002398": {
+    "context": "002398",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュのストレートな感情表現に、夏彦は驚いていたのだ。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あいつ……案外すごく素直で、いい子なんじゃないのか……？）"
+  },
+  "002554": {
+    "context": "002554",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュの事はまだ良く知らない。"
+  },
+  "002559": {
+    "context": "002559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦は徐々に、彼女に興味を持ち始めていた。"
+  },
+  "002564": {
+    "context": "002564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "昨日は警戒してばかりいたのに、今ではより仲良くなりたいとすら思いつつあった。"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（仲良くなれるかな……？）"
+  },
+  "002606": {
+    "context": "002606",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（大丈夫か、ましろがかすがいになってくれそうだし）"
+  },
+  "002611": {
+    "context": "002611",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "文化や性格の違いもあるし、難しそうではある。"
+  },
+  "002616": {
+    "context": "002616",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが心の壁を取り払えば、きっとなんとかなりそうな気がしていた。"
+  },
+  "002638": {
+    "context": "002638",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……うん、ぼくも楽しみになってきたぞ」"
+  },
+  "002652": {
+    "context": "002652",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？　あぁ、まぁ……それがどうかしたのか？」"
+  },
+  "002676": {
+    "context": "002676",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……」"
+  },
+  "002705": {
+    "context": "002705",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「……いや、なんでもない。それではまた明日」"
+  },
+  "002725": {
+    "context": "002725",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0163 002377"
+  },
+  "002730": {
+    "context": "002730",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0163 002382"
+  },
+  "002741": {
+    "context": "002741",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なんだ、今の？　相変わらずよくわからない子だ……」"
+  },
+  "002746": {
+    "context": "002746",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうぽつりと呟くと、背後で声がした。"
+  },
+  "002885": {
+    "context": "002885",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「なぁにぃ……？」"
+  },
+  "002890": {
+    "context": "002890",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見れば悠里が、とろんとした目で夏彦を見ていた。"
+  },
+  "002901": {
+    "context": "002901",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おっと悠里、起こしちゃったか？」"
+  },
+  "002930": {
+    "context": "002930",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「いやいいんだよ～……ここで寝ると、風邪引いちゃいそうだし……」"
+  },
+  "002941": {
+    "context": "002941",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「確かにそうだな。寝るなら部屋に戻った方がいい」"
+  },
+  "002970": {
+    "context": "002970",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わかったよ～……」"
+  },
+  "003039": {
+    "context": "003039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里はゆらりと立ち上がり、ふらふらと歩き始めた。"
+  },
+  "003090": {
+    "context": "003090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "扉ではなく、何もない壁に向かって。"
+  },
+  "003101": {
+    "context": "003101",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あーこら悠里、寝ぼけてるのか？」"
+  },
+  "003130": {
+    "context": "003130",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「む～？？」"
+  },
+  "003141": {
+    "context": "003141",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「むーじゃないよ、部屋はこっちだってば」"
+  },
+  "003187": {
+    "context": "003187",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "003216": {
+    "context": "003216",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ぐ～……」"
+  },
+  "003227": {
+    "context": "003227",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぐーじゃないって、起きなって……あっ」"
+  },
+  "003278": {
+    "context": "003278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の呼びかけも届かず、悠里は夏彦にしなだれかかってきた。"
+  },
+  "003289": {
+    "context": "003289",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やれやれ、またか……」"
+  },
+  "003294": {
+    "context": "003294",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "こういう事態はよくある事だ。"
+  },
+  "003313": {
+    "context": "003313",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「じゃあ失礼して……よっと」"
+  },
+  "003335": {
+    "context": "003335",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はいつものように、悠里の体をお姫様のように抱き上げた。"
+  },
+  "003347": {
+    "context": "003347",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ん～……ふわっとした～……」"
+  },
+  "003358": {
+    "context": "003358",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ふわっとしたじゃないよ、全く」"
+  },
+  "003363": {
+    "context": "003363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里の寝言をいなしながら、リビングを出る。"
+  },
+  "003448": {
+    "context": "003448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのまま廊下を通り、悠里の部屋へ。"
+  },
+  "003459": {
+    "context": "003459",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ほら悠里。部屋に着いたぞ」"
+  },
+  "003470": {
+    "context": "003470",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「すー、すー……」"
+  },
+  "003475": {
+    "context": "003475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう呼びかけても、全く起きようとしない。"
+  },
+  "003481": {
+    "context": "003481",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（っていうかこれは、多分甘えているんだろうな……）"
+  },
+  "003531": {
+    "context": "003531",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "003536": {
+    "context": "003536",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが甘えられて悪い気はしない。"
+  },
+  "003572": {
+    "context": "003572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里の体を抱え、リビングを出た。"
+  },
+  "003657": {
+    "context": "003657",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0163 003448"
+  },
+  "003668": {
+    "context": "003668",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0163 003459"
+  },
+  "003679": {
+    "context": "003679",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0163 003470"
+  },
+  "003729": {
+    "context": "003729",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "003734": {
+    "context": "003734",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0163 003475"
+  },
+  "003739": {
+    "context": "003739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は少しためらいつつ、悠里の部屋のドアを開けた。"
+  },
+  "003829": {
+    "context": "003829",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お邪魔します」"
+  },
+  "003905": {
+    "context": "003905",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里をベッドまで運び、そこに横たえた。"
+  },
+  "003923": {
+    "context": "003923",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ちゃんとあったかくして寝るんだぞ」"
+  },
+  "003928": {
+    "context": "003928",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が声をかけると、悠里が布団にくるまったまま言う。"
+  },
+  "004017": {
+    "context": "004017",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこり～ん……寝る前に、ご本読んで～……」"
+  },
+  "004028": {
+    "context": "004028",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？　ご本読んでって、子供か？」"
+  },
+  "004039": {
+    "context": "004039",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「たまにはいいでしょ～……？」"
+  },
+  "004044": {
+    "context": "004044",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里が甘えたような声を出す。"
+  },
+  "004050": {
+    "context": "004050",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なんだ？　今日はずいぶん子供っぽいな）"
+  },
+  "004055": {
+    "context": "004055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はちょっと呆れながら答える。"
+  },
+  "004066": {
+    "context": "004066",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「わかったよ。本はなんでもいいか？」"
+  },
+  "004095": {
+    "context": "004095",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんにお任せするよ～」"
+  },
+  "004203": {
+    "context": "004203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われた夏彦は、本棚から適当な絵本を抜き出した。"
+  },
+  "004297": {
+    "context": "004297",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……えー、コホン。それでは始めます」"
+  },
+  "004326": {
+    "context": "004326",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わー、ぱちぱち」"
+  },
+  "004384": {
+    "context": "004384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は本を開いて、序文を読み始めた。"
+  },
+  "004395": {
+    "context": "004395",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――大人は誰だって、最初は子供だった」"
+  },
+  "004406": {
+    "context": "004406",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だけどその事を忘れずにいる大人は、あまりいない……」"
+  },
+  "004412": {
+    "context": "004412",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……」"
+  },
+  "004464": {
+    "context": "004464",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――読みながら夏彦は、すぐに気付いた。"
+  },
+  "004469": {
+    "context": "004469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ずっと昔にも、悠里にこの本を読むようせがまれた事を。"
+  },
+  "004475": {
+    "context": "004475",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あれは、いつの事だっけ……）"
+  },
+  "004480": {
+    "context": "004480",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて夏彦の記憶の扉が開いた。"
+  },
+  "004485": {
+    "context": "004485",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはもう１０年近くも昔――"
+  },
+  "004490": {
+    "context": "004490",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里と出会って、１ヶ月ほど経った頃の出来事だった。"
+  },
+  "004566": {
+    "context": "004566",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "004568": {
+    "context": "004568",
+    "code": "0x55",
+    "string": "@import 0154 000080"
+  },
+  "004683": {
+    "context": "004683",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦は本を読みながら、そんな事を思い出していた。"
+  },
+  "004689": {
+    "context": "004689",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうか……これ、あの時の本か）"
+  },
+  "004694": {
+    "context": "004694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あのころ何度も読んだ本なのに、成長してからは全く読んでいなかった。"
+  },
+  "004710": {
+    "context": "004710",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "懐かしさを感じつつ、ふと悠里を見ると――"
+  },
+  "004761": {
+    "context": "004761",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女はいつの間にか、目を瞑っていた。"
+  },
+  "004772": {
+    "context": "004772",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なんだ、寝ちゃったのか」"
+  },
+  "004795": {
+    "context": "004795",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は苦笑して、本を本棚に戻した。"
+  },
+  "004802": {
+    "context": "004802",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……悠里はあの時の事を、覚えているかな？）"
+  },
+  "004816": {
+    "context": "004816",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いながら、彼女の寝顔を見つめる。"
+  },
+  "004824": {
+    "context": "004824",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして悠里の寝顔を見下ろす。"
+  },
+  "004876": {
+    "context": "004876",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  "004881": {
+    "context": "004881",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "無防備な姿を見ても、よこしまな気持ちは全く起きなかった。"
+  },
+  "004886": {
+    "context": "004886",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里を、成熟した肉体を持った女性として見る事ができない。"
+  },
+  "004891": {
+    "context": "004891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼も健全な高校生男子だというのに、なぜか昔から悠里に対してだけは、全くその手の欲望が湧かないのだ。"
+  },
+  "004897": {
+    "context": "004897",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（湧くとしたら……庇護欲、なんだろうな）"
+  },
+  "004902": {
+    "context": "004902",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "家族同然に育ったからというだけではない。"
+  },
+  "004907": {
+    "context": "004907",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９年前の事故のせいだろうか。それとも彼女の人柄によるものだろうか。"
+  },
+  "004912": {
+    "context": "004912",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "わからないが、それでいいと思う。"
+  },
+  "004917": {
+    "context": "004917",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だからこそ今まで、問題なく一緒に暮らしてこられたのだ。"
+  },
+  "004928": {
+    "context": "004928",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……お休み、悠里」"
+  },
+  "004933": {
+    "context": "004933",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "妹か姉にでも呼びかけるように、夏彦は悠里にそう囁く。"
+  },
+  "004949": {
+    "context": "004949",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もちろんこんな日々は、いつまでも続くものではないのかもしれない。"
+  },
+  "004955": {
+    "context": "004955",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（サリュが来て、身辺に変化も出て……）"
+  },
+  "004961": {
+    "context": "004961",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（こうして生活は、少しずつ変化していくものなのかもな）"
+  },
+  "004966": {
+    "context": "004966",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつかは悠里が、この家を出られるようになる日が来るのかもしれない。"
+  },
+  "004971": {
+    "context": "004971",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが彼氏でも作って、この家に寄り付かなくなる可能性もある。"
+  },
+  "004976": {
+    "context": "004976",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが変化を急ぐ必要はないのだ。"
+  },
+  "004981": {
+    "context": "004981",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "日々が変わらず続く限り、こうして過ごしていきたい。"
+  },
+  "005074": {
+    "context": "005074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう思い、悠里の部屋を出て行こうとした時――"
+  },
+  "005118": {
+    "context": "005118",
+    "code": "0x85",
+    "string": "「続かないよ」"
+  },
+  "005127": {
+    "context": "005127",
+    "code": "0x86",
+    "string": "悠里"
+  },
+  "005128": {
+    "context": "005128",
+    "code": "0x86",
+    "string": "@import 0163 005118"
+  },
+  "005142": {
+    "context": "005142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "暗い部屋に、そんな声が響いた。"
+  },
+  "005153": {
+    "context": "005153",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「――え？」"
+  },
+  "005276": {
+    "context": "005276",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "振り返ると、悠里が起きていた。彼女は夏彦を見つめて言う。"
+  },
+  "005293": {
+    "context": "005293",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「全ては移ろいゆくもので、いつまでも同じ日々は続かない」"
+  },
+  "005304": {
+    "context": "005304",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「変化というものはいつだって、気づいた時にはもう随分進んでしまっているんだよ」"
+  },
+  "005333": {
+    "context": "005333",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「今日だってそうだよね。サリュちゃんに対する感情は、今日１日で大きく変わったでしょ？」"
+  },
+  "005338": {
+    "context": "005338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっきりとした口調――まるで、さっきまで寝ぼけていたのが演技であったかのようだ。"
+  },
+  "005345": {
+    "context": "005345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな悠里に戸惑いつつ、夏彦は思わず答えた。"
+  },
+  "005356": {
+    "context": "005356",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「か、変わったって……」"
+  },
+  "005367": {
+    "context": "005367",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくはあんまり、そうは思ってないぞ」"
+  },
+  "005396": {
+    "context": "005396",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0021 001376"
+  },
+  "005407": {
+    "context": "005407",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「確かに、買い物を一緒にしたりはしたけど……」"
+  },
+  "005418": {
+    "context": "005418",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「相変わらず、よくわからないっていう印象の方が強いかな……」"
+  },
+  "005441": {
+    "context": "005441",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004518"
+  },
+  "005452": {
+    "context": "005452",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……どうしても、そうなんだね」"
+  },
+  "005481": {
+    "context": "005481",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんは心の底では、サリュちゃんを受け入れていなかったんだね……？」"
+  },
+  "005486": {
+    "context": "005486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004545"
+  },
+  "005491": {
+    "context": "005491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004550"
+  },
+  "005502": {
+    "context": "005502",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0159 004561"
+  },
+  "005531": {
+    "context": "005531",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0159 004590"
+  },
+  "005560": {
+    "context": "005560",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0159 004601"
+  },
+  "005589": {
+    "context": "005589",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0159 004630"
+  },
+  "005595": {
+    "context": "005595",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004635"
+  },
+  "005651": {
+    "context": "005651",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「？！」"
+  },
+  "005656": {
+    "context": "005656",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004696"
+  },
+  "005661": {
+    "context": "005661",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004701"
+  },
+  "005784": {
+    "context": "005784",
+    "code": "0x02",
+    "string": "@ignore"
+  },
+  "005787": {
+    "context": "005787",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな悠里に、夏彦はかすかに恐怖を覚えた。"
+  },
+  "005798": {
+    "context": "005798",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「な、なぁ悠里……」"
+  },
+  "005809": {
+    "context": "005809",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「最近、どうしちゃったんだ？」"
+  },
+  "005838": {
+    "context": "005838",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0146 002334"
+  },
+  "005849": {
+    "context": "005849",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だっていつもの悠里なら、言わないような事を言うじゃないか」"
+  },
+  "005854": {
+    "context": "005854",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――しかも、ここ数日連続だ。"
+  },
+  "005906": {
+    "context": "005906",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『症状』が、悪化しているのか……？）"
+  },
+  "005911": {
+    "context": "005911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがサリュと一緒にいた時、悠里は楽しそうにしていた。"
+  },
+  "005916": {
+    "context": "005916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の心がどういう状態なのか、夏彦にはまるでわからなかった。"
+  },
+  "005938": {
+    "context": "005938",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……今までみたいな日々が続かないって、どういう意味だ？　そんな予感があるのか？」"
+  },
+  "005967": {
+    "context": "005967",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うぅん、これは予言でもなんでもなくてね……そうなる事が、自然なだけなんだよ」"
+  },
+  "005972": {
+    "context": "005972",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里はそう言って、うつむいた。"
+  },
+  "006001": {
+    "context": "006001",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……そして平穏と共に、失われるものもある」"
+  },
+  "006030": {
+    "context": "006030",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だからこそ、手に入れたものを大事にして」"
+  },
+  "006041": {
+    "context": "006041",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それがひこりんを支え、導いてくれるはずだから……」"
+  },
+  "006046": {
+    "context": "006046",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "静かに続けられる言葉に、疑問が湧き上がってくる。"
+  },
+  "006057": {
+    "context": "006057",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「悠里……君は一体なにを……？」"
+  },
+  "006080": {
+    "context": "006080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がその問いを口にすると、悠里は黙って夏彦の腕時計を指差した。"
+  },
+  "006295": {
+    "context": "006295",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "腕時計を見ると――それは壊れていた。"
+  },
+  "006300": {
+    "context": "006300",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "文字盤が割れ、９月１６日の６時１９分で止まっている。"
+  },
+  "006306": {
+    "context": "006306",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（またか！？　いつ壊れたんだ、この時計は？）"
+  },
+  "006311": {
+    "context": "006311",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今日は９月１２日のはずだ。"
+  },
+  "006316": {
+    "context": "006316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だったらなぜこの時計は、９月１６日で止まってるのか？"
+  },
+  "006322": {
+    "context": "006322",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、待て……）"
+  },
+  "006328": {
+    "context": "006328",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（今日は本当に、９月１２日なのか……！？）"
+  },
+  "006333": {
+    "context": "006333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がその事に思い至った瞬間。"
+  },
+  "006381": {
+    "context": "006381",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "視界はぼやけ、目の前の風景が歪み――"
+  },
+  "006451": {
+    "context": "006451",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

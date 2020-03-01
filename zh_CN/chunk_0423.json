@@ -1,0 +1,978 @@
+{
+  "000000": {
+    "context": "000000",
+    "code": "0x55",
+    "string": "Xtend episode"
+  },
+  "000011": {
+    "context": "000011",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000013": {
+    "context": "000013",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000015": {
+    "context": "000015",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000017": {
+    "context": "000017",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000019": {
+    "context": "000019",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000021": {
+    "context": "000021",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000023": {
+    "context": "000023",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000025": {
+    "context": "000025",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000027": {
+    "context": "000027",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000029": {
+    "context": "000029",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000031": {
+    "context": "000031",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000033": {
+    "context": "000033",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000035": {
+    "context": "000035",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000037": {
+    "context": "000037",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000039": {
+    "context": "000039",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000041": {
+    "context": "000041",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000043": {
+    "context": "000043",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000045": {
+    "context": "000045",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000047": {
+    "context": "000047",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000049": {
+    "context": "000049",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000051": {
+    "context": "000051",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000053": {
+    "context": "000053",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000055": {
+    "context": "000055",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000057": {
+    "context": "000057",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000059": {
+    "context": "000059",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000061": {
+    "context": "000061",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000063": {
+    "context": "000063",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000067": {
+    "context": "000067",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000069": {
+    "context": "000069",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000071": {
+    "context": "000071",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000073": {
+    "context": "000073",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000075": {
+    "context": "000075",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000079": {
+    "context": "000079",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000081": {
+    "context": "000081",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000083": {
+    "context": "000083",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000085": {
+    "context": "000085",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000087": {
+    "context": "000087",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000089": {
+    "context": "000089",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000091": {
+    "context": "000091",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000093": {
+    "context": "000093",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000095": {
+    "context": "000095",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000097": {
+    "context": "000097",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000099": {
+    "context": "000099",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000101": {
+    "context": "000101",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000103": {
+    "context": "000103",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000105": {
+    "context": "000105",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000111": {
+    "context": "000111",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000113": {
+    "context": "000113",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000115": {
+    "context": "000115",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000117": {
+    "context": "000117",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000119": {
+    "context": "000119",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000121": {
+    "context": "000121",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000123": {
+    "context": "000123",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000125": {
+    "context": "000125",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000127": {
+    "context": "000127",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000129": {
+    "context": "000129",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000131": {
+    "context": "000131",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000133": {
+    "context": "000133",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000135": {
+    "context": "000135",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000139": {
+    "context": "000139",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000141": {
+    "context": "000141",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000143": {
+    "context": "000143",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000145": {
+    "context": "000145",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000149": {
+    "context": "000149",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000151": {
+    "context": "000151",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000153": {
+    "context": "000153",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000155": {
+    "context": "000155",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000157": {
+    "context": "000157",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000161": {
+    "context": "000161",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000165": {
+    "context": "000165",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000167": {
+    "context": "000167",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000169": {
+    "context": "000169",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000171": {
+    "context": "000171",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000173": {
+    "context": "000173",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000175": {
+    "context": "000175",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000177": {
+    "context": "000177",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000179": {
+    "context": "000179",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000181": {
+    "context": "000181",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000183": {
+    "context": "000183",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000185": {
+    "context": "000185",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000187": {
+    "context": "000187",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000189": {
+    "context": "000189",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000193": {
+    "context": "000193",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000195": {
+    "context": "000195",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000197": {
+    "context": "000197",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000199": {
+    "context": "000199",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000201": {
+    "context": "000201",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000203": {
+    "context": "000203",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x55",
+    "string": "@import 0423 000000"
+  },
+  "000709": {
+    "context": "000709",
+    "code": "0x86",
+    "string": "I remember the days of old,"
+  },
+  "000710": {
+    "context": "000710",
+    "code": "0x86",
+    "string": "Think of all the things that you have been made,"
+  },
+  "000711": {
+    "context": "000711",
+    "code": "0x86",
+    "string": "I think the work of thy hand."
+  },
+  "000712": {
+    "context": "000712",
+    "code": "0x86",
+    "string": "(The Old Testament / Psalms 143:5)"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "000717": {
+    "context": "000717",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "――それは９人にとって運命の１日となった、"
+  },
+  "000726": {
+    "context": "000726",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "２０３０年９月１６日。"
+  },
+  "000736": {
+    "context": "000736",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "あの途方も無く長い１日が終わり、そしてようやく訪れた夜。"
+  },
+  "000745": {
+    "context": "000745",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "迎えに来たヘリの中に、９人が乗った後の出来事……。"
+  },
+  "000832": {
+    "context": "000832",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……誰もが疲れ切っていた。"
+  },
+  "000837": {
+    "context": "000837",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９人とも力弱く、ヘリの座席に座り込んでいた。"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその表情には、生き残った事に対する安堵と、互いの生存を喜ぶ色が滲んでいる。"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「よかったよ、本当に……夏彦と悠里も、無事に脱出できてさ」"
+  },
+  "000981": {
+    "context": "000981",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ね……生きて脱出できるかは、やっぱり少し賭けだったからね」"
+  },
+  "001010": {
+    "context": "001010",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにしてもましろ、ありがとうな。ちゃんとぼくのテレパシーをキャッチして、迎えに来てくれて」"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そりゃ当然だよ、来るのを今か今かと待ってたんだから」"
+  },
+  "001068": {
+    "context": "001068",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「でももっとファインプレーは、サリュだよ？」"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「夏彦のテレパシーの有効範囲から出ないように、ヘリを上空で待機させるよう、運転手さんに指示したんだから」"
+  },
+  "001108": {
+    "context": "001108",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「その有効範囲が正確にはわからなかったから、不安だった。でも届いてよかった」"
+  },
+  "001137": {
+    "context": "001137",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「上空から夏彦たちの姿を見つけた時は……少し、涙がこぼれた」"
+  },
+  "001166": {
+    "context": "001166",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「はは……サリュ、ちょっと泣き虫になったんじゃないのか？」"
+  },
+  "001195": {
+    "context": "001195",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「うるさい夏彦」"
+  },
+  "001200": {
+    "context": "001200",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "サリュは弱々しく手を伸ばし、夏彦をぺしぺしと叩いた。"
+  },
+  "001238": {
+    "context": "001238",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを見て悠里やましろが、穏やかな笑みを浮かべる。"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてそう話す夏彦たちの横で、渡瀬たちも話しこんでいた。"
+  },
+  "001460": {
+    "context": "001460",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……それにしても風見、大丈夫か……？」"
+  },
+  "001471": {
+    "context": "001471",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ……」"
+  },
+  "001476": {
+    "context": "001476",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう答える風見の傍らには、凪沙の亡骸が横たえられていた。"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……この子は私に言ってくれたわ。私がこの子を覚えている限り、ずっと一緒だって」"
+  },
+  "001498": {
+    "context": "001498",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「思い出せばいつでも会える……だからこの悲しみにも、耐えられるはず」"
+  },
+  "001527": {
+    "context": "001527",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「今はこの子と、最期に再会出来た事を……せめてもの、救いだと思って……」"
+  },
+  "001550": {
+    "context": "001550",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこまで言って、風見の声が詰まった。"
+  },
+  "001573": {
+    "context": "001573",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女の隣にいる洵が、そっとその手を握る。"
+  },
+  "001584": {
+    "context": "001584",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「お姉ちゃん……一緒に凪沙を、弔ってあげよう……」"
+  },
+  "001613": {
+    "context": "001613",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0421 000828"
+  },
+  "001618": {
+    "context": "001618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見はそう言って、目の端に浮かんだ涙を拭った。"
+  },
+  "001623": {
+    "context": "001623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな彼女の肩を、渡瀬が静かに抱く。"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとそれまで黙っていた恵那が、気遣わしげに口を開いた。"
+  },
+  "001657": {
+    "context": "001657",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……それで、隊長さん、宇喜多さん……これからあなたたちは、どうするの？」"
+  },
+  "001686": {
+    "context": "001686",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……もちろん、自首するつもりだよ」"
+  },
+  "001715": {
+    "context": "001715",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「そうとも……僕らの罪は、公の場で裁かれるべきだ」"
+  },
+  "001726": {
+    "context": "001726",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「超科局に着いたら、そのまま逮捕してくれ。俺もおっさんもだ」"
+  },
+  "001755": {
+    "context": "001755",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「そう……わかったわ」"
+  },
+  "001766": {
+    "context": "001766",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「私たち超科局員は、逮捕権も持ってるから……私がこの手で、あなたたちを司法の手に引き渡すわ」"
+  },
+  "001810": {
+    "context": "001810",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ、それがいい」"
+  },
+  "001991": {
+    "context": "001991",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って、夏彦たちの方を見た。"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ヘリの座席にもたれている夏彦に、低い声で言う。"
+  },
+  "002007": {
+    "context": "002007",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なぁ、夏彦」"
+  },
+  "002033": {
+    "context": "002033",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0173 003900"
+  },
+  "002062": {
+    "context": "002062",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺はこれから一生かけて、自分の罪を償おうと思う」"
+  },
+  "002091": {
+    "context": "002091",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕もだよ。僕らは道を違えてしまった……それを認めなければ、何も始まりはしないから」"
+  },
+  "002120": {
+    "context": "002120",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……獄に繋がれ、そこから出たとしても、償いは続くだろう。俺たちの罪が消える事は無い」"
+  },
+  "002149": {
+    "context": "002149",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だがそれでも償おうと思えるようになったのは……お前のおかげだ」"
+  },
+  "002193": {
+    "context": "002193",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ありがとうな、夏彦」"
+  },
+  "002222": {
+    "context": "002222",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「はは……いいんだよ、そんな事」"
+  },
+  "002251": {
+    "context": "002251",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お前ならきっとやり直せるって、そう思ったから……」"
+  },
+  "002262": {
+    "context": "002262",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だから、ぼくは………」"
+  },
+  "002291": {
+    "context": "002291",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0014 001994"
+  },
+  "002296": {
+    "context": "002296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……夏彦の言葉は、そこで途切れた。"
+  },
+  "002301": {
+    "context": "002301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に訪れた静寂の中、悠里が彼の顔を覗き込む。"
+  },
+  "002358": {
+    "context": "002358",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ひこりん？」"
+  },
+  "002369": {
+    "context": "002369",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0014 001994"
+  },
+  "002398": {
+    "context": "002398",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……寝ちまったか。疲れてたんだな……」"
+  },
+  "002455": {
+    "context": "002455",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「無理も無いでしょう……この子は私たちを救うために、自分の心を磨り減らして戦ったのですから」"
+  },
+  "002512": {
+    "context": "002512",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうだよね……頑張ったね、夏彦」"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「初めて会った時は、ちょっと頼りない子だなぁと思ってたのにね。やっぱ男の子なんだね」"
+  },
+  "002626": {
+    "context": "002626",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「……同じ男として、頭が下がるよ。もう子供扱いはできないな」"
+  },
+  "002683": {
+    "context": "002683",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「それにしても、安らかで可愛い寝顔ね……どんな夢、見てるのかしら」"
+  },
+  "002740": {
+    "context": "002740",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「わからないけど、静かに寝かせておくべき。夏彦は心を磨り減らしただけではなく、肉体もぼろぼろなんだから」"
+  },
+  "002797": {
+    "context": "002797",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だね……お休み、ひこりん」"
+  },
+  "002888": {
+    "context": "002888",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その声と共に、ヘリの中は静寂に満ちた。"
+  },
+  "002893": {
+    "context": "002893",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてあちこちから、静かな寝息が聞こえ始めた。"
+  },
+  "002898": {
+    "context": "002898",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "生き残った９人は、ようやく穏やかな眠りについたのだ……。"
+  },
+  "002903": {
+    "context": "002903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……恐らく彼らと共に居られる時間は、さほど残ってはいない。"
+  },
+  "002908": {
+    "context": "002908",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "情報エネルギーは徐々に散逸し、観測は出来れど、干渉は出来なくなりつつある。"
+  },
+  "002913": {
+    "context": "002913",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼らの想いに触れる機会は、これが最後となるだろう。"
+  },
+  "002920": {
+    "context": "002920",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だからこそ、今――"
+  },
+  "002979": {
+    "context": "002979",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――『彼らの記憶を、再び遡る』。"
+  },
+  "002984": {
+    "context": "002984",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうする事で何かが起こるわけではないだろうが、彼らをより深く理解する助けにはなるはずだ。"
+  },
+  "002989": {
+    "context": "002989",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう考えた時、ＢＣ粒子が彼らの脳に影響を及ぼし――"
+  },
+  "002994": {
+    "context": "002994",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９人の記憶の断片が、静かに浮かび上がってきた。"
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ラボに来てからの３ヶ月――"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "実験漬けではあったが、悠里はその日々を平穏に過ごすことができた。"
+  },
+  "000094": {
+    "context": "000094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000099"
+  },
+  "000100": {
+    "context": "000100",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000105"
+  },
+  "000106": {
+    "context": "000106",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000111"
+  },
+  "000111": {
+    "context": "000111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000116"
+  },
+  "000116": {
+    "context": "000116",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000121"
+  },
+  "000122": {
+    "context": "000122",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000127"
+  },
+  "000169": {
+    "context": "000169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000174"
+  },
+  "000180": {
+    "context": "000180",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000185"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000196"
+  },
+  "000196": {
+    "context": "000196",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000201"
+  },
+  "000245": {
+    "context": "000245",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000250"
+  },
+  "000250": {
+    "context": "000250",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000255"
+  },
+  "000255": {
+    "context": "000255",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000260"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000291"
+  },
+  "000379": {
+    "context": "000379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000384"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000395"
+  },
+  "000401": {
+    "context": "000401",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000406"
+  },
+  "000412": {
+    "context": "000412",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000417"
+  },
+  "000417": {
+    "context": "000417",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000422"
+  },
+  "000422": {
+    "context": "000422",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000427"
+  },
+  "000451": {
+    "context": "000451",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000456"
+  },
+  "000462": {
+    "context": "000462",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0002 003339"
+  },
+  "000473": {
+    "context": "000473",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000478"
+  },
+  "000484": {
+    "context": "000484",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000489"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000518"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000529"
+  },
+  "000557": {
+    "context": "000557",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000562"
+  },
+  "000562": {
+    "context": "000562",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000567"
+  },
+  "000573": {
+    "context": "000573",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000578"
+  },
+  "000602": {
+    "context": "000602",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000607"
+  },
+  "000613": {
+    "context": "000613",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000618"
+  },
+  "000639": {
+    "context": "000639",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000644"
+  },
+  "000794": {
+    "context": "000794",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000799"
+  },
+  "000799": {
+    "context": "000799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000804"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000810"
+  },
+  "000957": {
+    "context": "000957",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 000607"
+  },
+  "000962": {
+    "context": "000962",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000967"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 000990"
+  },
+  "000990": {
+    "context": "000990",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 000995"
+  },
+  "001103": {
+    "context": "001103",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001108"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001164"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001220"
+  },
+  "001227": {
+    "context": "001227",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001232"
+  },
+  "001232": {
+    "context": "001232",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001237"
+  },
+  "001278": {
+    "context": "001278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001283"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001492"
+  },
+  "001492": {
+    "context": "001492",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001497"
+  },
+  "001503": {
+    "context": "001503",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 001508"
+  },
+  "001532": {
+    "context": "001532",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001537"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001542"
+  },
+  "001548": {
+    "context": "001548",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 001553"
+  },
+  "001577": {
+    "context": "001577",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001582"
+  },
+  "001600": {
+    "context": "001600",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001605"
+  },
+  "001605": {
+    "context": "001605",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001610"
+  },
+  "001616": {
+    "context": "001616",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 001621"
+  },
+  "001645": {
+    "context": "001645",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001650"
+  },
+  "001656": {
+    "context": "001656",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 001661"
+  },
+  "001685": {
+    "context": "001685",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001690"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 001701"
+  },
+  "001748": {
+    "context": "001748",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001753"
+  },
+  "001906": {
+    "context": "001906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001911"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 001916"
+  },
+  "002054": {
+    "context": "002054",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001650"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 002082"
+  },
+  "002082": {
+    "context": "002082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002087"
+  },
+  "002207": {
+    "context": "002207",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 001650"
+  },
+  "002299": {
+    "context": "002299",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002304"
+  },
+  "002391": {
+    "context": "002391",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002396"
+  },
+  "002435": {
+    "context": "002435",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002440"
+  },
+  "002618": {
+    "context": "002618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002623"
+  },
+  "002647": {
+    "context": "002647",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002652"
+  },
+  "002658": {
+    "context": "002658",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 002663"
+  },
+  "002687": {
+    "context": "002687",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002692"
+  },
+  "002692": {
+    "context": "002692",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002697"
+  },
+  "002697": {
+    "context": "002697",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002702"
+  },
+  "002708": {
+    "context": "002708",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 002713"
+  },
+  "002737": {
+    "context": "002737",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002742"
+  },
+  "002742": {
+    "context": "002742",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002747"
+  },
+  "002771": {
+    "context": "002771",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002776"
+  },
+  "002782": {
+    "context": "002782",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 002787"
+  },
+  "002787": {
+    "context": "002787",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002792"
+  },
+  "002801": {
+    "context": "002801",
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "@import 0280 002806"
+  },
+  "002824": {
+    "context": "002824",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002829"
+  },
+  "002853": {
+    "context": "002853",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002858"
+  },
+  "002858": {
+    "context": "002858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002863"
+  },
+  "002914": {
+    "context": "002914",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 002919"
+  },
+  "002943": {
+    "context": "002943",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 002948"
+  },
+  "002951": {
+    "context": "002951",
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "@import 0280 002956"
+  },
+  "002959": {
+    "context": "002959",
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "@import 0280 002964"
+  },
+  "002967": {
+    "context": "002967",
+    "code": "0x45",
+    "developer_comment": "江里口",
+    "string": "@import 0280 002972"
+  },
+  "002996": {
+    "context": "002996",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003001"
+  },
+  "003025": {
+    "context": "003025",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003030"
+  },
+  "003030": {
+    "context": "003030",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003035"
+  },
+  "003035": {
+    "context": "003035",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003040"
+  },
+  "003040": {
+    "context": "003040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003045"
+  },
+  "003051": {
+    "context": "003051",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 003056"
+  },
+  "003103": {
+    "context": "003103",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……」"
+  },
+  "003108": {
+    "context": "003108",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003113"
+  },
+  "003139": {
+    "context": "003139",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003144"
+  },
+  "003150": {
+    "context": "003150",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え？」"
+  },
+  "003167": {
+    "context": "003167",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003172"
+  },
+  "003178": {
+    "context": "003178",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 003183"
+  },
+  "003207": {
+    "context": "003207",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003212"
+  },
+  "003236": {
+    "context": "003236",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003241"
+  },
+  "003247": {
+    "context": "003247",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 002426"
+  },
+  "003276": {
+    "context": "003276",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 003281"
+  },
+  "003287": {
+    "context": "003287",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 005112"
+  },
+  "003347": {
+    "context": "003347",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003352"
+  },
+  "003512": {
+    "context": "003512",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003517"
+  },
+  "003517": {
+    "context": "003517",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003522"
+  },
+  "003540": {
+    "context": "003540",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "（！！）"
+  },
+  "003612": {
+    "context": "003612",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003617"
+  },
+  "003617": {
+    "context": "003617",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003622"
+  },
+  "003622": {
+    "context": "003622",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003627"
+  },
+  "003704": {
+    "context": "003704",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0226 000757"
+  },
+  "003709": {
+    "context": "003709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 003714"
+  },
+  "003738": {
+    "context": "003738",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0226 000783"
+  },
+  "003767": {
+    "context": "003767",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0226 000791"
+  },
+  "003778": {
+    "context": "003778",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0226 000804"
+  },
+  "003807": {
+    "context": "003807",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？」"
+  },
+  "003857": {
+    "context": "003857",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0226 000820"
+  },
+  "003868": {
+    "context": "003868",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0226 000828"
+  },
+  "003879": {
+    "context": "003879",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0226 000836"
+  },
+  "003904": {
+    "context": "003904",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 003909"
+  },
+  "004022": {
+    "context": "004022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004027"
+  },
+  "004033": {
+    "context": "004033",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0220 007825"
+  },
+  "004038": {
+    "context": "004038",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004043"
+  },
+  "004067": {
+    "context": "004067",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004072"
+  },
+  "004078": {
+    "context": "004078",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004083"
+  },
+  "004089": {
+    "context": "004089",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004094"
+  },
+  "004100": {
+    "context": "004100",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0004 002426"
+  },
+  "004133": {
+    "context": "004133",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004138"
+  },
+  "004138": {
+    "context": "004138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004143"
+  },
+  "004185": {
+    "context": "004185",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004190"
+  },
+  "004190": {
+    "context": "004190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004195"
+  },
+  "004195": {
+    "context": "004195",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004200"
+  },
+  "004255": {
+    "context": "004255",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004260"
+  },
+  "004266": {
+    "context": "004266",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004271"
+  },
+  "004277": {
+    "context": "004277",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004282"
+  },
+  "004288": {
+    "context": "004288",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004293"
+  },
+  "004317": {
+    "context": "004317",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004322"
+  },
+  "004328": {
+    "context": "004328",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004333"
+  },
+  "004357": {
+    "context": "004357",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004362"
+  },
+  "004368": {
+    "context": "004368",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004373"
+  },
+  "004379": {
+    "context": "004379",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004384"
+  },
+  "004384": {
+    "context": "004384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004389"
+  },
+  "004413": {
+    "context": "004413",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0204 001295"
+  },
+  "004424": {
+    "context": "004424",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004429"
+  },
+  "004435": {
+    "context": "004435",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0060 001114"
+  },
+  "004464": {
+    "context": "004464",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004469"
+  },
+  "004475": {
+    "context": "004475",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004480"
+  },
+  "004486": {
+    "context": "004486",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0026 003493"
+  },
+  "004491": {
+    "context": "004491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004496"
+  },
+  "004502": {
+    "context": "004502",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004507"
+  },
+  "004531": {
+    "context": "004531",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004536"
+  },
+  "004560": {
+    "context": "004560",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "@import 0280 004565"
+  },
+  "004586": {
+    "context": "004586",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「っ！」"
+  },
+  "004591": {
+    "context": "004591",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004596"
+  },
+  "004596": {
+    "context": "004596",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004601"
+  },
+  "004651": {
+    "context": "004651",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004656"
+  },
+  "004657": {
+    "context": "004657",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004662"
+  },
+  "004672": {
+    "context": "004672",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0280 004677"
+  },
+  "004678": {
+    "context": "004678",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……」"
+  },
+  "004689": {
+    "context": "004689",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0280 004694"
+  }
+}

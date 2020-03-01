@@ -1,0 +1,912 @@
+{
+  "000043": {
+    "context": "000043",
+    "code": "0x55",
+    "string": "@import 0179 000042"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――……）"
+  },
+  "000082": {
+    "context": "000082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その長かった１日は、ほんの寸時の間に想起された。"
+  },
+  "000087": {
+    "context": "000087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の穏やかな日常が壊れ……"
+  },
+  "000092": {
+    "context": "000092",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてましろたちと共に、事件の渦中に飛び込んだ日の出来事が。"
+  },
+  "000098": {
+    "context": "000098",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだよ……悠里のもとを離れてでも、そうしようって決めたんだ）"
+  },
+  "000136": {
+    "context": "000136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが悠里も結局巻き込まれ、いまましろと共に、夏彦の前にいる。"
+  },
+  "000141": {
+    "context": "000141",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通路の前後は共に炎に塞がれ、逃げ場はない。"
+  },
+  "000146": {
+    "context": "000146",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし、それでも――"
+  },
+  "000237": {
+    "context": "000237",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ねぇひこりん。よく考えて、いま進むべき道を」"
+  },
+  "000242": {
+    "context": "000242",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉が、夏彦の心を焚きつけた。"
+  },
+  "000248": {
+    "context": "000248",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（その通りだ……もし危険でも、正しい道を進むんだ）"
+  },
+  "000254": {
+    "context": "000254",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃなきゃ、過去を乗り越える事なんてできない！）"
+  },
+  "000259": {
+    "context": "000259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はましろの手を握り、言った。"
+  },
+  "000270": {
+    "context": "000270",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「諦めるな……行くぞましろ！」"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「え？　ど、どこに！？」"
+  },
+  "000346": {
+    "context": "000346",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「別の道を使うんだ！　第５エリアに続く道は、ここだけじゃない！」"
+  },
+  "000351": {
+    "context": "000351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は脳裏に、先ほど見た地図を思い浮かべた。"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ここは第４エリア外周棟と第５エリア外周棟をつなぐ道だ」"
+  },
+  "000373": {
+    "context": "000373",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「こっちの道がダメでも、内周棟の道は生きているかもしれない……」"
+  },
+  "000402": {
+    "context": "000402",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、それじゃ第４エリア内周棟に行く事ができれば……？」"
+  },
+  "000413": {
+    "context": "000413",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ。もう１度第４エリアの炎を突っ切り、内周棟から第５エリアに入ろう」"
+  },
+  "000424": {
+    "context": "000424",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ここでじっとしているよりは、生き残れる可能性が高い！」"
+  },
+  "000453": {
+    "context": "000453",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「う……うん！」"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろは戸惑うような表情を浮かべたが、すぐに力強く答えた。"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな夏彦たちを、悠里は見守るように微笑んでいる。"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし……行こう、２人とも」"
+  },
+  "000791": {
+    "context": "000791",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は２人の手を引いて、第４エリア側のゲートを開けた。"
+  },
+  "000891": {
+    "context": "000891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうして再び、炎上する第４エリア外周棟に飛び込んだ。"
+  },
+  "000896": {
+    "context": "000896",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は、悠里とましろの手を握って言う。"
+  },
+  "000907": {
+    "context": "000907",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「２人とも、最初から目を瞑っとけ！　そしてぼくの手を絶対離すな！」"
+  },
+  "000918": {
+    "context": "000918",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくについてくれば、絶対逃げられる！」"
+  },
+  "000947": {
+    "context": "000947",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「わ、わかったよ！」"
+  },
+  "000976": {
+    "context": "000976",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、気をつけてね！」"
+  },
+  "001043": {
+    "context": "001043",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はうなずき、そして２人の手を引いて走った。"
+  },
+  "001066": {
+    "context": "001066",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろは怯えているせいか、足取りが不確かだった。"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが悠里は意外にも落ち着いており、夏彦とぴったり歩調を合わせて着いてくる。"
+  },
+  "001076": {
+    "context": "001076",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "おかげで夏彦の負担も少なく、安心して走れたのだが――"
+  },
+  "001081": {
+    "context": "001081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて夏彦も目を煙にやられ、涙がぼろぼろとあふれてきた。"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くっ……耐えろ！）"
+  },
+  "001107": {
+    "context": "001107",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ここでぼくが立ち止まったら、ましろも悠里も死んじまうんだ！）"
+  },
+  "001112": {
+    "context": "001112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "滲む視界の中、夏彦は必死で駆け――"
+  },
+  "001176": {
+    "context": "001176",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして連絡通路を抜け、"
+  },
+  "001238": {
+    "context": "001238",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第４エリア内周棟に逃げ込んだ。"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内周棟は外周棟と違い、火の気はなかった。"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「助かった……もう大丈夫だぞ、２人とも！」"
+  },
+  "001301": {
+    "context": "001301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "大きく息をつく夏彦に、ましろと悠里が言う。"
+  },
+  "001330": {
+    "context": "001330",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あ、ありがとう夏彦……！」"
+  },
+  "001359": {
+    "context": "001359",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「危ないところだったね……！」"
+  },
+  "001370": {
+    "context": "001370",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、でもまだ完全には安心できない。第５エリアに行くまでは……」"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が言うと、ましろの表情が張り詰めた。"
+  },
+  "001419": {
+    "context": "001419",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、そうだね……こっちの連絡通路は無事かな」"
+  },
+  "001448": {
+    "context": "001448",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「無事でありますように……！」"
+  },
+  "001453": {
+    "context": "001453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "祈るような気持ちで、連絡通路に足を踏み入れる。"
+  },
+  "001564": {
+    "context": "001564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがこちらの道は、火も煙も全く見えなかった。"
+  },
+  "001575": {
+    "context": "001575",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「よし、行ける！」"
+  },
+  "001619": {
+    "context": "001619",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "@import 0026 003365"
+  },
+  "001630": {
+    "context": "001630",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「早く第５エリアへ！」"
+  },
+  "001635": {
+    "context": "001635",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは勇んで駆け出した。"
+  },
+  "001745": {
+    "context": "001745",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第５エリアの内周棟に入った夏彦たちは、そのまま非常階段へ向かった。"
+  },
+  "001751": {
+    "context": "001751",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（放送では第５・第６エリアの階段は無事だと言っていた……！）"
+  },
+  "001757": {
+    "context": "001757",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あれからけっこう時間が経つけど……無事であってくれ！）"
+  },
+  "001762": {
+    "context": "001762",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、階段室に駆け込んだが――"
+  },
+  "001829": {
+    "context": "001829",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "001834": {
+    "context": "001834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "扉の向こうにあったのは、崩れ落ちた階段だった。"
+  },
+  "001914": {
+    "context": "001914",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そ、そんな……ここもダメなの……！？」"
+  },
+  "001925": {
+    "context": "001925",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「まさか、もう全部の階段が……？」"
+  },
+  "001931": {
+    "context": "001931",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……」"
+  },
+  "001936": {
+    "context": "001936",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは肩を落とし、階段室を出た。"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は不意にサリュが心配になってきた。"
+  },
+  "002001": {
+    "context": "002001",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少し考えてから、彼女にテレパシーを送る。"
+  },
+  "002012": {
+    "context": "002012",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《サリュ、聞こえるか？　いまどこにいる？》"
+  },
+  "002017": {
+    "context": "002017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうしてしばらくすると、彼女の居場所がわかった。"
+  },
+  "002028": {
+    "context": "002028",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……２人とも、いいニュースだ」"
+  },
+  "002039": {
+    "context": "002039",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いまサリュとＢＣで連絡したら、あいつはもう第６エリアから脱出したってさ」"
+  },
+  "002083": {
+    "context": "002083",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ホントに！？」"
+  },
+  "002094": {
+    "context": "002094",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくらも諦めちゃダメだ。非常階段は、まだ他にもある」"
+  },
+  "002105": {
+    "context": "002105",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「第５エリア外周棟や、第６エリアにもあるんだ。あと３つのうち、どれかが無事なら……」"
+  },
+  "002134": {
+    "context": "002134",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「じゃあ、外周棟に行く？」"
+  },
+  "002145": {
+    "context": "002145",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、連絡通路の火勢を見る限り、第５エリア外周棟は炎上している可能性が高い」"
+  },
+  "002156": {
+    "context": "002156",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「第６エリアから先に行ってみて――」"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦がそう言いかけた時、"
+  },
+  "002213": {
+    "context": "002213",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に、禍々しいサイレンが鳴り響いた。"
+  },
+  "002224": {
+    "context": "002224",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うわっ！？」"
+  },
+  "002253": {
+    "context": "002253",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「な、何！？」"
+  },
+  "002282": {
+    "context": "002282",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「み、耳が痛いよぉ！」"
+  },
+  "002287": {
+    "context": "002287",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "前に聞いたのとは違う、大音響の警報だった。"
+  },
+  "002292": {
+    "context": "002292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自動放送の音声がそれに続く。"
+  },
+  "002300": {
+    "context": "002300",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「――ただいま、『ケースＮ』が発生しました」"
+  },
+  "002308": {
+    "context": "002308",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「緊急事態につき、セキュリティを『封鎖モード』に移行」"
+  },
+  "002316": {
+    "context": "002316",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「施設内の全ゲートを閉鎖・ロックすると共に、隔壁を封鎖します」"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "「施設内の職員はＡＤを投与の後、最寄の部屋に入り、動かないで下さい」"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦ははっとして、連絡通路の方を見る。"
+  },
+  "002446": {
+    "context": "002446",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "行く手にある『セキュリティゲート』――それが音を立てて閉まっていた。"
+  },
+  "002457": {
+    "context": "002457",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まずい！」"
+  },
+  "002561": {
+    "context": "002561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はゲートに駆け寄り、開けようと試みる。"
+  },
+  "002566": {
+    "context": "002566",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしどう力をこめようと、開閉ボタンを操作しようと、ゲートはびくともしなかった。"
+  },
+  "002577": {
+    "context": "002577",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「しまった……！」"
+  },
+  "002633": {
+    "context": "002633",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「こ、これどういう事！？」"
+  },
+  "002644": {
+    "context": "002644",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なんだか知らないけど、『避難モード』が終わったらしい……」"
+  },
+  "002655": {
+    "context": "002655",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「今まで開放されていたゲートも、全部ロックされた」"
+  },
+  "002684": {
+    "context": "002684",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃ、じゃあ……！」"
+  },
+  "002695": {
+    "context": "002695",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくらは、この棟に閉じ込められちまったんだ……！」"
+  },
+  "002700": {
+    "context": "002700",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は沈痛な声で、そう呟いた。"
+  },
+  "002706": {
+    "context": "002706",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうする……！？）"
+  },
+  "002711": {
+    "context": "002711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "放送では『全ゲートを封鎖する』と言っていた。"
+  },
+  "002716": {
+    "context": "002716",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "外周棟に続くゲートも、第４エリアに続くゲートも閉まっているだろう。"
+  },
+  "002722": {
+    "context": "002722",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ、どこかに脱出口はないか！？）"
+  },
+  "002727": {
+    "context": "002727",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はそう思い、周囲を見回す。"
+  },
+  "002732": {
+    "context": "002732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると悠里が、驚きの表情を浮かべていた。"
+  },
+  "002788": {
+    "context": "002788",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……信じられない……またこんな事が起こるなんて」"
+  },
+  "002817": {
+    "context": "002817",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「まるで９年前の再現だね」"
+  },
+  "002828": {
+    "context": "002828",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……９年前の……！？」"
+  },
+  "002833": {
+    "context": "002833",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉を聞いた瞬間、夏彦は思い出した。"
+  },
+  "002844": {
+    "context": "002844",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0015 001533"
+  },
+  "002849": {
+    "context": "002849",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９年前にも夏彦たちは、この第５エリアに閉じ込められたのだ。"
+  },
+  "002961": {
+    "context": "002961",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ……あの時も、さっきの警報が聞こえて……！）"
+  },
+  "002967": {
+    "context": "002967",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ゲートが閉まったんだ！）"
+  },
+  "003021": {
+    "context": "003021",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "泣きじゃくる悠里の映像が、脳裏をよぎる。"
+  },
+  "003027": {
+    "context": "003027",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あれからぼくらは、どうなった――！？）"
+  },
+  "003166": {
+    "context": "003166",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが詳細を思い出そうとすると、激しい頭痛が襲ってきた。"
+  },
+  "003246": {
+    "context": "003246",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0002 005125"
+  },
+  "003251": {
+    "context": "003251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは避け続けてきた過去そのものだった。"
+  },
+  "003256": {
+    "context": "003256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "９年間、夏彦たちを苛み続けた記憶――。"
+  },
+  "003262": {
+    "context": "003262",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうして、またこんな事に……！）"
+  },
+  "003325": {
+    "context": "003325",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頭痛に耐えながら、悠里に目をやる。"
+  },
+  "003331": {
+    "context": "003331",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくがこれほどの痛みを感じているなら、悠里は――！？）"
+  },
+  "003420": {
+    "context": "003420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "見れば彼女も辛そうな表情を浮かべていたが……"
+  },
+  "003443": {
+    "context": "003443",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも夏彦に、微笑んで言った。"
+  },
+  "003454": {
+    "context": "003454",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしは大丈夫だよ、ひこりん」"
+  },
+  "003465": {
+    "context": "003465",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でも、悠里……！」"
+  },
+  "003476": {
+    "context": "003476",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくは何も成長してなかった……ここに来て、同じように閉じ込められて……」"
+  },
+  "003487": {
+    "context": "003487",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「結局、過去を乗り越える事なんて、できてない……！」"
+  },
+  "003492": {
+    "context": "003492",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悔恨を吐き出す夏彦に、悠里は優しく答える。"
+  },
+  "003521": {
+    "context": "003521",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……そう思うのは、まだ早いよ」"
+  },
+  "003550": {
+    "context": "003550",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりんは今日までに、過去を乗り越える強さを手に入れたはずでしょ？」"
+  },
+  "003579": {
+    "context": "003579",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ましろんたちとなら、どんな時も平気だったよね」"
+  },
+  "003608": {
+    "context": "003608",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの日つきつけられた真実と悪意。それを乗り越えられたんだから……」"
+  },
+  "003619": {
+    "context": "003619",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「今回もきっと、乗り越えられるはずだよ」"
+  },
+  "003626": {
+    "context": "003626",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あの日……！？）"
+  },
+  "003637": {
+    "context": "003637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が怪訝に思った時、時計の音が聞こえてきた。"
+  },
+  "003884": {
+    "context": "003884",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "文字盤を見ると、針は――"
+  },
+  "003889": {
+    "context": "003889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『９月１５日』の『０７時０９分』を指している。"
+  },
+  "003895": {
+    "context": "003895",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……昨日か）"
+  },
+  "003901": {
+    "context": "003901",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくらが、真実に近づいた日……！）"
+  },
+  "004003": {
+    "context": "004003",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思う夏彦に、悠里がささやく。"
+  },
+  "004032": {
+    "context": "004032",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ひこりん、思い出す時が来たんだよ」"
+  },
+  "004043": {
+    "context": "004043",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ここにきたのは、きっとただの偶然じゃない」"
+  },
+  "004054": {
+    "context": "004054",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ねぇ、覚悟はいい……？」"
+  },
+  "004059": {
+    "context": "004059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0159 004635"
+  },
+  "004097": {
+    "context": "004097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の意識は、昨日に戻った。"
+  },
+  "004238": {
+    "context": "004238",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

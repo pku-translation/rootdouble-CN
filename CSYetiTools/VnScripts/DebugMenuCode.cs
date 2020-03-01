@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -31,33 +32,33 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => 2 + 2 + 2 + _choices.Sum(c => c.Length);
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            _arg1 = reader.ReadInt16();
-            int count = reader.ReadInt16();
-            _arg2 = reader.ReadInt16();
+            _arg1 = reader.ReadInt16LE();
+            int count = reader.ReadInt16LE();
+            _arg2 = reader.ReadInt16LE();
             _choices = new Choice[count];
             for (int i = 0; i < count; ++i)
             {
                 var choice = new Choice();
                 choice.Prefix = reader.ReadBytesExact(Choice.PrefixLength);
                 choice.Offset = ReadAddress(reader);
-                choice.Title = Utils.ReadStringZ(reader);
+                choice.Title = reader.ReadStringZ();
 
                 _choices[i] = choice;
             }
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_arg1);
-            writer.Write((short)_choices.Length);
-            writer.Write(_arg2);
+            writer.WriteLE(_arg1);
+            writer.WriteLE((short)_choices.Length);
+            writer.WriteLE(_arg2);
             foreach (var choice in _choices)
             {
                 writer.Write(choice.Prefix);
                 WriteAddress(writer, choice.Offset);
-                Utils.WriteStringZ(writer, choice.Title);
+                writer.WriteStringZ(choice.Title);
             }
         }
 
@@ -84,6 +85,14 @@ namespace CsYetiTools.VnScripts
             foreach (var choice in _choices)
             {
                 yield return choice.Offset;
+            }
+        }
+
+        public IEnumerable<char> EnumerateChars()
+        {
+            foreach (var choice in _choices)
+            {
+                foreach (var c in choice.Title) yield return c;
             }
         }
     }

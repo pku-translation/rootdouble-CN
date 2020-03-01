@@ -1,0 +1,588 @@
+{
+  "000056": {
+    "context": "000056",
+    "code": "0x55",
+    "string": "@import 0271 000147"
+  },
+  "000068": {
+    "context": "000068",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――渡瀬は闇に沈む第５エリアを、頭痛に耐えながら歩いていた。"
+  },
+  "000073": {
+    "context": "000073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内心には迷いがある。"
+  },
+  "000078": {
+    "context": "000078",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "背負っているこの少年――天川夏彦の言った事の真偽が、まだよくわからなかったからだ。"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ユウリが生きているだって……？）"
+  },
+  "000089": {
+    "context": "000089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それが本当だとしたら、それに勝ることはない。"
+  },
+  "000094": {
+    "context": "000094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかしなぜ夏彦が、それを知りえたのか。"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（彼はずっとＮエリアで、倒れてたんじゃなかったのか……？）"
+  },
+  "000153": {
+    "context": "000153",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（この子は何かを隠しているんじゃないか？）"
+  },
+  "000159": {
+    "context": "000159",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（このままユウリのところに連れて行っていいのか？）"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "と――そこまで考えて、渡瀬はかぶりを振った。"
+  },
+  "000180": {
+    "context": "000180",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いかん、疑心暗鬼になっちゃダメだ）"
+  },
+  "000186": {
+    "context": "000186",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（誰からも疑われてしまったオレだが……だからこそせめて、オレは他人を疑わないでいたい）"
+  },
+  "000192": {
+    "context": "000192",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（夏彦くんはオレを助けてくれたし……第一、オレはレスキュー隊員だ）"
+  },
+  "000198": {
+    "context": "000198",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（人を助けるために、この施設に来たんだ。疑うのはオレの仕事じゃない……！）"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は自分に、そう強く言い聞かせる。"
+  },
+  "000351": {
+    "context": "000351",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて例の『壁に設けられたボタン』が見えてきた。"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これか……」"
+  },
+  "000373": {
+    "context": "000373",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「えぇ。パスワード入力をお願いします」"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「１０７２１５と入力すれば、壁が開くはずです」"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000401": {
+    "context": "000401",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は夏彦を背負ったまま、その数字を入力する。"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると彼の言う通り――"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0017 000599"
+  },
+  "000486": {
+    "context": "000486",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "壁が開き、その向こうに細い通路が現れた。"
+  },
+  "000491": {
+    "context": "000491",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その通路の突き当たりに、頑丈そうな鉄扉がある。"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……ホントに開いた……」"
+  },
+  "000513": {
+    "context": "000513",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「中に入ってください。ユウリがいるはずです」"
+  },
+  "000524": {
+    "context": "000524",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0028 001735"
+  },
+  "000529": {
+    "context": "000529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は鉄扉に歩み寄り。"
+  },
+  "000540": {
+    "context": "000540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐る恐るそれを開けた。"
+  },
+  "000627": {
+    "context": "000627",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこは１０畳ほどの部屋だった。"
+  },
+  "000632": {
+    "context": "000632",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "中は薄暗く、何があるのか見えにくい。"
+  },
+  "000637": {
+    "context": "000637",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが部屋の隅から、うめき声のようなものが聞こえた。"
+  },
+  "000648": {
+    "context": "000648",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「ん～、ん～……！」"
+  },
+  "000674": {
+    "context": "000674",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「！！」"
+  },
+  "000755": {
+    "context": "000755",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "はっとして振り返ると、そこには――"
+  },
+  "000780": {
+    "context": "000780",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0055 001382"
+  },
+  "000791": {
+    "context": "000791",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なっ！？　どうしたんだそれは！？」"
+  },
+  "000804": {
+    "context": "000804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリが手足を縛られ、口には猿ぐつわをかまされ、床に転がされていた。"
+  },
+  "000815": {
+    "context": "000815",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「と、とにかくほどいてあげて下さい！」"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0015 003040"
+  },
+  "000831": {
+    "context": "000831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は夏彦を床に降ろし、ユウリに駆け寄った。"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして彼女の戒めを解く。"
+  },
+  "000893": {
+    "context": "000893",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――よし、これで大丈夫か？　ユウリ？」"
+  },
+  "000940": {
+    "context": "000940",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「は、はい……ありがとうございます」"
+  },
+  "000945": {
+    "context": "000945",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女はそう言うと――突如、目に涙を浮かべた。"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0224 001208"
+  },
+  "000986": {
+    "context": "000986",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ど、どうした！？　どっか痛いのか？」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「ち、違うんです……」"
+  },
+  "001038": {
+    "context": "001038",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリが夏彦の方を見る。夏彦も床から体を起こした。"
+  },
+  "001051": {
+    "context": "001051",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ゆ、ユウリ……！」"
+  },
+  "001062": {
+    "context": "001062",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「ひこりん……！」"
+  },
+  "001067": {
+    "context": "001067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリは震える声で、夏彦の愛称らしきものを呼び――"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「ようやく会えたぁ！！」"
+  },
+  "001194": {
+    "context": "001194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦に飛びついた。"
+  },
+  "001222": {
+    "context": "001222",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「痛だだだ！」"
+  },
+  "001233": {
+    "context": "001233",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あっ、ご、ごめん！」"
+  },
+  "001239": {
+    "context": "001239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ユウリが慌てて腕の力を緩める。"
+  },
+  "001244": {
+    "context": "001244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は痛みに涙ぐみながら、それでも微笑んだ。"
+  },
+  "001295": {
+    "context": "001295",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「い、いや、いいよ……」"
+  },
+  "001306": {
+    "context": "001306",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それより、無事でよかった……！」"
+  },
+  "001317": {
+    "context": "001317",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「わたしは無事だけど……ひこりんは、大丈夫なの？」"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「かなり痛いけど、なんとかね……隊長さんと橘さんが手当てしてくれたんだ」"
+  },
+  "001339": {
+    "context": "001339",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「そう……でも、よかった」"
+  },
+  "001344": {
+    "context": "001344",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そのやりとりを見て、渡瀬も苦笑する。"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（どうやら本当に、ユウリとは友達みたいだな……）"
+  },
+  "001355": {
+    "context": "001355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いや、この様子を見ると、恋人同士なのかもしれない。"
+  },
+  "001366": {
+    "context": "001366",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なにしろ本当に、無事でよかったよ。感動の再会ってやつだな？」"
+  },
+  "001377": {
+    "context": "001377",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0004 005112"
+  },
+  "001388": {
+    "context": "001388",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……おかげさまで」"
+  },
+  "001393": {
+    "context": "001393",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は２人に微笑みかけ、それから真顔に戻って言う。"
+  },
+  "001476": {
+    "context": "001476",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――でも、喜んでばかりもいられないよな」"
+  },
+  "001511": {
+    "context": "001511",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「え？」"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「何があったんだユウリ？　誰に縛られたんだ？」"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が尋ねると、ユウリは怯えたように答えた。"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「宇喜多さんが……！」"
+  },
+  "001585": {
+    "context": "001585",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「おっさんが！？」"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なぜおじさんがこんな事を！？」"
+  },
+  "001643": {
+    "context": "001643",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "@import 0054 000501"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「……宇喜多さんは、悪気があってやったわけじゃないみたいです」"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "夏彦・渡瀬",
+    "string": "「え？」"
+  },
+  "001712": {
+    "context": "001712",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「リフトのところであの娘が死んでいるのを見た宇喜多さんは、とにかくわたしを安全な場所に避難させたかったらしくて……」"
+  },
+  "001723": {
+    "context": "001723",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「縛ったのはあくまで、わたしが勝手に逃げたりしないようにするためです」"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうか……でもなんか、かなり無理やりだな」"
+  },
+  "001763": {
+    "context": "001763",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それにおっさんは、この隠し部屋の存在を知りながら、みんなには隠してたって事か……」"
+  },
+  "001774": {
+    "context": "001774",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうも動きが怪しすぎるな。まさに暗躍してるって感じだ」"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「一体何が目的で……？」"
+  },
+  "001808": {
+    "context": "001808",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで渡瀬は、ユウリが消えた時の事をふと思い出した。"
+  },
+  "001875": {
+    "context": "001875",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（そう言えば……ユウリが消えた直後、おっさんはオレを強く追及した）"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（本当は自分がここに、ユウリを匿ったのにも関わらず……）"
+  },
+  "001887": {
+    "context": "001887",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（と言う事は、おっさんの目的は――オレを陥れる事か！？）"
+  },
+  "001958": {
+    "context": "001958",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やはり宇喜多は、渡瀬の敵だったのだ。"
+  },
+  "001963": {
+    "context": "001963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれはいいとしても――"
+  },
+  "002013": {
+    "context": "002013",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……ユウリにまで手を出したのは、許せる事じゃない）"
+  },
+  "002019": {
+    "context": "002019",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（子供たちが危険な目に遭うことだけは避けなければ……！）"
+  },
+  "002099": {
+    "context": "002099",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は夏彦とユウリを見据え、決意を新たにした。"
+  },
+  "002152": {
+    "context": "002152",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

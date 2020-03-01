@@ -971,5 +971,10 @@
     "code": "0x47",
     "developer_comment": "",
     "string": "@import 0002 005853"
+  },
+  "009767": {
+    "context": "009767",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

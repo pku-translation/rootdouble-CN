@@ -1,0 +1,939 @@
+{
+  "000071": {
+    "context": "000071",
+    "code": "0x55",
+    "string": "@import 0288 000139"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「うわぁあああ！」"
+  },
+  "000114": {
+    "context": "000114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は瞬時に、渡瀬との心の繋がりを絶った。"
+  },
+  "000160": {
+    "context": "000160",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005125"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬もびくんと体を震わせ、放心したように俯く。"
+  },
+  "000179": {
+    "context": "000179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "現実に戻ってきた夏彦に、悠里が驚きの声を上げた。"
+  },
+  "000215": {
+    "context": "000215",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひ、ひこりん！？　大丈夫！？」"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その問いに、夏彦は答えられなかった。"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "全身に汗が滲んでいる。なのに背筋は凍りそうに冷たい。"
+  },
+  "000289": {
+    "context": "000289",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（な……なんだ今のは……！）"
+  },
+  "000294": {
+    "context": "000294",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が見た渡瀬の記憶――その終盤は、明らかに内容がおかしかった。"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それまで渡瀬の思考は理路整然としていたのに、終盤に向かうにつれ、急激に支離滅裂になっていった。"
+  },
+  "000304": {
+    "context": "000304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼が己の計画の中で犠牲者を出し、精神的に追い詰められたからというだけではない。"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不自然なほどの変容――あんな事が普通起こるだろうか？"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（いや、起こるわけがない！）"
+  },
+  "000321": {
+    "context": "000321",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬がおかしくなったのには、何か理由があるんだ！）"
+  },
+  "000396": {
+    "context": "000396",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その原因として真っ先に思いついたのは、やはり被験体Ｎの存在だった。"
+  },
+  "000419": {
+    "context": "000419",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "被験体Ｎが、奇怪な笑い声を上げた時。"
+  },
+  "000424": {
+    "context": "000424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの時を境に、渡瀬の中に凶暴な意思が生まれた。"
+  },
+  "000429": {
+    "context": "000429",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まるで人格を書き換えられたように。"
+  },
+  "000435": {
+    "context": "000435",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あれは、ひょっとして――）"
+  },
+  "000441": {
+    "context": "000441",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（１６年前に、コミュニケーターＡがやったことと同じなんじゃないのか！？）"
+  },
+  "000491": {
+    "context": "000491",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（鹿鳴市同時多発火災の原因にもなった、『コミュニケーターＡの悪意の感染』……）"
+  },
+  "000497": {
+    "context": "000497",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（それと同じ現象が、この施設の中でも起きてたんじゃ！？）"
+  },
+  "000502": {
+    "context": "000502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の脳内を、思考が高速で駆け巡る。"
+  },
+  "000508": {
+    "context": "000508",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体Ｎに接した者は、ことごとく錯乱していた。あの幹部研究員たちも、渡瀬も）"
+  },
+  "000588": {
+    "context": "000588",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（あるいは『堂島隊員』『桧山隊員』も、同じような心理状態に陥っていたのかもしれない）"
+  },
+  "000594": {
+    "context": "000594",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（普通に考えれば異常だけど――）"
+  },
+  "000599": {
+    "context": "000599",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "被験体ＮがコミュニケーターＡと同様、悪意に満ちたテレパシーを振りまいてたとしたら、説明がつく。"
+  },
+  "000679": {
+    "context": "000679",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "つまり渡瀬たちはみんな、被験体ＮのＢＣによって、精神を歪まされた……！"
+  },
+  "000713": {
+    "context": "000713",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……いや、待て！　それはおかしいぞ！？）"
+  },
+  "000764": {
+    "context": "000764",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬は、被験体Ｎのテレパシーを聞いていない！）"
+  },
+  "000770": {
+    "context": "000770",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（テレパシーを聞いていないなら、彼女の感情が伝播する事はないはずだ！）"
+  },
+  "000775": {
+    "context": "000775",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は自覚もないまま、異様な心理状態に陥った。"
+  },
+  "000780": {
+    "context": "000780",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なぜそんな事が起こるのか――！？"
+  },
+  "000785": {
+    "context": "000785",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう考えたとき、先ほど渡瀬の記憶の中で見た事を思い出した。"
+  },
+  "000859": {
+    "context": "000859",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――被験体Ｎが笑う直前。"
+  },
+  "000864": {
+    "context": "000864",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬、渡瀬の脳裏に、過去の情景が明滅した。"
+  },
+  "000870": {
+    "context": "000870",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくは……あれとよく似た現象を知っている！）"
+  },
+  "000937": {
+    "context": "000937",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（悠里がぼくの脳内を探った時も、同じ現象が起きた）"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（という事は、被験体Ｎは――）"
+  },
+  "001011": {
+    "context": "001011",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬に対して、センシズシンパシーを使ったんだ！！）"
+  },
+  "001016": {
+    "context": "001016",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――考えられるのはそれしかなかった。"
+  },
+  "001022": {
+    "context": "001022",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（『悪意の感染』は、テレパシーによってもたらされたんじゃない！）"
+  },
+  "001028": {
+    "context": "001028",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（センシズシンパシーによるものだったんだ！）"
+  },
+  "001078": {
+    "context": "001078",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体Ｎは、悠里と同じく、このラボに幽閉されていたコミュニケーターだ。同等の能力を持っていても不思議じゃない！）"
+  },
+  "001127": {
+    "context": "001127",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だとしたらセンシズシンパシーによって、渡瀬は被験体Ｎに操られていたのだろうか？"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがセンシズシンパシーは、同時に多数の人間と接続できないはずだ。"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "複数の人間と同時に接続したら、視点も感覚も複数のものが入り混じってしまい、わけがわからなくなるだろう。"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なのに被験体Ｎに接触した人間は、次々と悪意に感染し、さらにその状態がずっと続いていた。"
+  },
+  "001235": {
+    "context": "001235",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（操られていたんじゃない……まるで人格そのものが歪んだみたいに……）"
+  },
+  "001240": {
+    "context": "001240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思う夏彦の耳に、母の言葉が蘇る。"
+  },
+  "001309": {
+    "context": "001309",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「――人間の人格は、記憶の集積から成り立つ。魂とは、脳内に蓄えられた情報の集合体……」"
+  },
+  "001360": {
+    "context": "001360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だとしたら、渡瀬の人格が変容した真の原因は。"
+  },
+  "001365": {
+    "context": "001365",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『悪意の感染』という現象の正体とは――！"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0175 002171"
+  },
+  "001442": {
+    "context": "001442",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬は、渡瀬たちはあの時、被験体Ｎによって……！）"
+  },
+  "001467": {
+    "context": "001467",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（記憶を、書き換えられたのか！？）"
+  },
+  "001472": {
+    "context": "001472",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その結論が、電光のように閃いた。"
+  },
+  "001522": {
+    "context": "001522",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（じゃあぼくが見てきた渡瀬の記憶は、偽物の記憶なのか！？）"
+  },
+  "001528": {
+    "context": "001528",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体Ｎは、接触した人間の記憶を、悪意に満ちたものに書き換えていたのか！？）"
+  },
+  "001533": {
+    "context": "001533",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが作られた記憶であるにせよ、渡瀬にとっては真実の記憶。"
+  },
+  "001538": {
+    "context": "001538",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその悪意に満ちた記憶を、夏彦は読んでしまったのだ。"
+  },
+  "001544": {
+    "context": "001544",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（という事は、今の渡瀬は……？）"
+  },
+  "001609": {
+    "context": "001609",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は渡瀬に目を向ける。"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼はまだ俯いていた。"
+  },
+  "001619": {
+    "context": "001619",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "顔が影になり、表情が見えない。"
+  },
+  "001630": {
+    "context": "001630",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0108 000611"
+  },
+  "001636": {
+    "context": "001636",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "001641": {
+    "context": "001641",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "声をかけても、渡瀬は答えない。"
+  },
+  "001666": {
+    "context": "001666",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の心臓が早鐘のように鳴り始めた。"
+  },
+  "001672": {
+    "context": "001672",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0126 000293"
+  },
+  "001678": {
+    "context": "001678",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬があの時の記憶を……！）"
+  },
+  "001689": {
+    "context": "001689",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ま、まさか……！」"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "異変に気付いた悠里が、怯えたように言うと――渡瀬がぽつりと呟いた。"
+  },
+  "001725": {
+    "context": "001725",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なるほどな……全て、思い出したよ……」"
+  },
+  "001730": {
+    "context": "001730",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "地の底から響くような声と共に、渡瀬がゆっくりと顔を上げる。"
+  },
+  "001735": {
+    "context": "001735",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その眼には、憎悪が宿っていた。"
+  },
+  "001772": {
+    "context": "001772",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……やってくれたな、お前ら」"
+  },
+  "001783": {
+    "context": "001783",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「隊長さんッ！！」"
+  },
+  "001794": {
+    "context": "001794",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とっさに夏彦は叫び、銃を構えていた。"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが渡瀬は、挑むような表情で言う。"
+  },
+  "001828": {
+    "context": "001828",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「撃てるのか？」"
+  },
+  "001854": {
+    "context": "001854",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "001865": {
+    "context": "001865",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「人の心を破壊するのは得意でも、肉体の破壊はできるのかよ」"
+  },
+  "001876": {
+    "context": "001876",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@import 0057 002022"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は怯える悠里の手を握り、もう片方の手で銃を撃とうとしたが――"
+  },
+  "001887": {
+    "context": "001887",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（くそ、どうして……！）"
+  },
+  "001893": {
+    "context": "001893",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（どうして撃てないんだ！）"
+  },
+  "001898": {
+    "context": "001898",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "引き金にかけた指が、動いてくれなかった。"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ほんの１ｃｍ指を動かせば、目の前の『敵』の命を絶つ事ができるのに。"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……できないだろ、コミュニケーター？　そういうのは人間のする事だからな」"
+  },
+  "001943": {
+    "context": "001943",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺たちにはお前らのような能力がない。だから銃で挑んだんだ」"
+  },
+  "001972": {
+    "context": "001972",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうじゃなきゃ、怪物には勝てないと思ってな」"
+  },
+  "002023": {
+    "context": "002023",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう言って、にじり寄ってくる。"
+  },
+  "002029": {
+    "context": "002029",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0126 000293"
+  },
+  "002035": {
+    "context": "002035",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（もう一度こいつの心に潜って、記憶を破壊しなきゃ！）"
+  },
+  "002085": {
+    "context": "002085",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそう思った時、悠里のテレパシーが頭の中に響いた。"
+  },
+  "002112": {
+    "context": "002112",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《ダメだよひこりん！　それじゃ同じ事の繰り返しになっちゃう！》"
+  },
+  "002120": {
+    "context": "002120",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《あの子が――被験体Ｎがやったことは、隊長さんの記憶をメチャクチャに歪めたって事だけ！》"
+  },
+  "002147": {
+    "context": "002147",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《そこを修復するんだよ！　本来の記憶の形に！》"
+  },
+  "002208": {
+    "context": "002208",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002217": {
+    "context": "002217",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬のうちにそれだけのメッセージが、夏彦の脳内に流し込まれる。"
+  },
+  "002223": {
+    "context": "002223",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そんな！？　あの悪意にさらされながら、記憶修復なんてできるのか！？）"
+  },
+  "002228": {
+    "context": "002228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし確かに、再び記憶を消してしまったら、真相の解明は遠のく気もする。"
+  },
+  "002233": {
+    "context": "002233",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が迫ってくる。もう迷っている時間はない！"
+  },
+  "002240": {
+    "context": "002240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は――"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x02",
+    "string": "@ignore"
+  },
+  "002327": {
+    "context": "002327",
+    "code": "0x02",
+    "string": "@ignore"
+  },
+  "002436": {
+    "context": "002436",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――渡瀬の記憶に、もう一度潜った。"
+  },
+  "002486": {
+    "context": "002486",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（でも歪められた記憶を修復するって、どうやって……！）"
+  },
+  "002492": {
+    "context": "002492",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬の記憶のどの部分が、歪められているかわからないのに！）"
+  },
+  "002497": {
+    "context": "002497",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の記憶群を前に、夏彦は途方に暮れる。"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがその時、再び悠里の声が聞こえた。"
+  },
+  "002571": {
+    "context": "002571",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《聞いて、ひこりん！　センシズシンパシーで捏造された記憶には、１つの特徴があるの！》"
+  },
+  "002579": {
+    "context": "002579",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《センシズシンパシーを使ったコミュニケーターの心の一部が、記憶の中に紛れ込んでしまうという特徴が！》"
+  },
+  "002587": {
+    "context": "002587",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《そのせいで歪められた記憶の中には、現実とは違った光景が現れるんだよ！》"
+  },
+  "002595": {
+    "context": "002595",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "《ひこりんも覚えがあるんじゃない！？》"
+  },
+  "002600": {
+    "context": "002600",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われて思い出した。"
+  },
+  "002659": {
+    "context": "002659",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（――そうだ、確か悠里がぼくの記憶を修復した時――）"
+  },
+  "002664": {
+    "context": "002664",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はしばしば、『ありえないもの』を見た。"
+  },
+  "002718": {
+    "context": "002718",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "壊れてないはずの時計がいつの間にか壊れてたり、あるいはその逆だったり。"
+  },
+  "002724": {
+    "context": "002724",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（ぼくが渡瀬の記憶を操作した時もそうだった……）"
+  },
+  "002730": {
+    "context": "002730",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬のデジタル時計が、ぼくの腕時計に変わっていた）"
+  },
+  "002745": {
+    "context": "002745",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ならば、さきほどまで見てきた渡瀬の記憶の中には、不自然な点があるはずだ。"
+  },
+  "002751": {
+    "context": "002751",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（思い出せ！　おかしな点、奇妙な箇所、ありえない記憶はなんだ！？）"
+  },
+  "002756": {
+    "context": "002756",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は必死で考え――そして思いついた。"
+  },
+  "002762": {
+    "context": "002762",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（そうだ！　渡瀬の記憶の中には――）"
+  },
+  "002768": {
+    "context": "002768",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（なぜか何度も『花の香り』が漂っていた！）"
+  },
+  "002773": {
+    "context": "002773",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "冷静に考えると、明らかにおかしい。"
+  },
+  "002826": {
+    "context": "002826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれは被験体Ｎの部屋の香りだ。"
+  },
+  "002831": {
+    "context": "002831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それがどうして何度も、渡瀬の記憶の中に現れるのか――"
+  },
+  "002836": {
+    "context": "002836",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの香りが漂っていた箇所の記憶が、被験体Ｎによって改竄されていたからだ！"
+  },
+  "002842": {
+    "context": "002842",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬の心を狂わせたのは、コミュニケーターに対する憎悪……）"
+  },
+  "002906": {
+    "context": "002906",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（被験体Ｎは恐らく、記憶操作によって、渡瀬の憎悪を増幅していたんだろう）"
+  },
+  "002912": {
+    "context": "002912",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だったらその憎悪を相殺するような感情を、渡瀬の心に送り込めば――！）"
+  },
+  "002963": {
+    "context": "002963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あるいは、渡瀬は本来の彼に戻るかもしれない！"
+  },
+  "002968": {
+    "context": "002968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その事に気付いた瞬間、夏彦は己のやるべき事を悟った。"
+  },
+  "003024": {
+    "context": "003024",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《そうだ……あの時、悠里がぼくにしてくれた事を……！》"
+  },
+  "003029": {
+    "context": "003029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里は夏彦の記憶を何度も遡って、記憶を修復して――"
+  },
+  "003079": {
+    "context": "003079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして夏彦を、精神崩壊の危機から救ってくれた。"
+  },
+  "003090": {
+    "context": "003090",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《だから、今度は、ぼくが……》"
+  },
+  "003147": {
+    "context": "003147",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ぼくが渡瀬の記憶を遡って……！》"
+  },
+  "003158": {
+    "context": "003158",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬を悪意から、救うんだ！》"
+  },
+  "003163": {
+    "context": "003163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦は決意した。"
+  },
+  "003168": {
+    "context": "003168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悪意に取り憑かれた相棒を救おうと。"
+  },
+  "003173": {
+    "context": "003173",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "検索条件は、『花の香りがする記憶』。"
+  },
+  "003178": {
+    "context": "003178",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして『コミュニケーターに対する憎悪を覚えた時の記憶』だ。"
+  },
+  "003183": {
+    "context": "003183",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを全て修復すれば、渡瀬はきっと元に戻る！"
+  },
+  "003194": {
+    "context": "003194",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《渡瀬……！　お前の心から、悪意が消えるまで――》"
+  },
+  "003205": {
+    "context": "003205",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ぼくは何度でも、お前の時間を巻き戻す！！》"
+  },
+  "003416": {
+    "context": "003416",
+    "code": "0x85",
+    "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "003595": {
+    "context": "003595",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003597": {
+    "context": "003597",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003599": {
+    "context": "003599",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003601": {
+    "context": "003601",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003603": {
+    "context": "003603",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "003653": {
+    "context": "003653",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

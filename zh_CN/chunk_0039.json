@@ -1,0 +1,1242 @@
+{
+  "000055": {
+    "context": "000055",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――第５エリア外周棟・地下２階――"
+  },
+  "000075": {
+    "context": "000075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "苦労してたどり着いたそこは、地下１階と同じようなつくりになっていた。"
+  },
+  "000080": {
+    "context": "000080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "廊下には研究室が並んでいる。"
+  },
+  "000085": {
+    "context": "000085",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見がその一室に目を止め、呟いた。"
+  },
+  "000150": {
+    "context": "000150",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「『脳科学実験室』……？」"
+  },
+  "000155": {
+    "context": "000155",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その部屋の前にかけられたプレートを見ると、確かにそう書いてあった。"
+  },
+  "000160": {
+    "context": "000160",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時、部屋の中から声が聞こえた。"
+  },
+  "000171": {
+    "context": "000171",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「――君の身のためを思って忠告しているのだよ」"
+  },
+  "000182": {
+    "context": "000182",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「ご、ごめんなさい……」"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多と恵那の声だった。どうやらもう合流できたらしい。"
+  },
+  "000210": {
+    "context": "000210",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは勇んで、その部屋に入った。"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそこには再会を喜んでいるというよりは、どこか険悪な雰囲気があった。"
+  },
+  "000314": {
+    "context": "000314",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多が恵那を睨みつけている。"
+  },
+  "000325": {
+    "context": "000325",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お、おい、今度は何事だ？」"
+  },
+  "000354": {
+    "context": "000354",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あぁ君たちか。いや……椿山さんがこの部屋にある機材やらを、いじくり回していたからね」"
+  },
+  "000383": {
+    "context": "000383",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「だから謝っているでしょう……『脳科学実験室』という部屋名が気になったんですもの」"
+  },
+  "000388": {
+    "context": "000388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われて、渡瀬もふとその事が気にかかった。"
+  },
+  "000399": {
+    "context": "000399",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そういや、妙だなおっさん。『原子力』の研究に『脳科学』って、何か関係あるのか？」"
+  },
+  "000428": {
+    "context": "000428",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「あるとも。そもそもこのラボの正式名称は『原子力生物学機構・第６研究所』――」"
+  },
+  "000439": {
+    "context": "000439",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「原子力科学と生物学を、同時に研究しているんだ。だからこそＡＤのような薬品も開発できたのだよ」"
+  },
+  "000450": {
+    "context": "000450",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なるほどな……おっさんはどっちの研究をしてたんだ？」"
+  },
+  "000479": {
+    "context": "000479",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「申し訳ないが、その手の質問には一切答えられない」"
+  },
+  "000490": {
+    "context": "000490",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え、なんでだ？」"
+  },
+  "000519": {
+    "context": "000519",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「守秘義務というヤツだ。部外者の君たちに、研究内容を漏らすわけにはいかないのさ」"
+  },
+  "000548": {
+    "context": "000548",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「国策に関わる研究もあるからね。例外は認められない。単独で探るなどもっての他だ」"
+  },
+  "000579": {
+    "context": "000579",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「わかります。ですが――捜索のために研究室に入るのは、認めて頂けますね？」"
+  },
+  "000608": {
+    "context": "000608",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「今さら何を？　状況が状況だ、もちろん認めるとも」"
+  },
+  "000637": {
+    "context": "000637",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「だが……第５エリアから先は、機密のレベルも極めて高い」"
+  },
+  "000666": {
+    "context": "000666",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ここから生きて出る事ができたとしても、ここで見たことを外で公言しない方がいいだろう」"
+  },
+  "000677": {
+    "context": "000677",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「思いもよらないトラブルに、巻き込まれる可能性があるからね……」"
+  },
+  "000682": {
+    "context": "000682",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "宇喜多の言葉は、どこか真に迫るものがあった。"
+  },
+  "000693": {
+    "context": "000693",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……その辺の事は、脱出後に考えよう。今はまずＡＤの捜索だ」"
+  },
+  "000736": {
+    "context": "000736",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は空恐ろしいものを感じながら、皆と一緒にその部屋を捜索した。"
+  },
+  "000741": {
+    "context": "000741",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "捜索していると確かに、その部屋にある大型機材が目についた。風見も訝しげに呟く。"
+  },
+  "000806": {
+    "context": "000806",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ＭＲＩ装置、ＣＴスキャナ……それにこっちは、脳波計測器ですか？」"
+  },
+  "000835": {
+    "context": "000835",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「ほう、ずいぶん詳しいんだね？」"
+  },
+  "000846": {
+    "context": "000846",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「ええ、救急の資格も持ってますので。隊長も救急の知識はありましたよ？」"
+  },
+  "000877": {
+    "context": "000877",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしも簡単な手術くらいなら、できる自信はあるよ。まぁやったら犯罪だけど」"
+  },
+  "000920": {
+    "context": "000920",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな事を言いつつ探したが、ＡＤは見つからなかった。"
+  },
+  "000925": {
+    "context": "000925",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてユウリが声を上げる。"
+  },
+  "000990": {
+    "context": "000990",
+    "code": "0x45",
+    "developer_comment": "ユウリ",
+    "string": "「あの……なんかこの部屋、何もない気がします」"
+  },
+  "001020": {
+    "context": "001020",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「僕もそう思う。他の部屋を捜索しようじゃないか」"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだな……じゃあ地下２階も例によって、２チームに分かれて捜索しよう」"
+  },
+  "001062": {
+    "context": "001062",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いいですね。では組み合わせはさきほどのままで……」"
+  },
+  "001067": {
+    "context": "001067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見がそう言いかけた時、渡瀬は声を上げた。"
+  },
+  "001078": {
+    "context": "001078",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、それじゃちょっと効率が悪い」"
+  },
+  "001089": {
+    "context": "001089",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「内周棟の方が外周棟より狭いんだし、４人と２人で分かれよう」"
+  },
+  "001100": {
+    "context": "001100",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「内周棟は、オレと守部で調べるよ」"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え？」"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、洵と恵那が目を見開いた。"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「あら……じゃあ私は橘さんのチームに入ればいいのかしら？」"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そうですね、いいと思います」"
+  },
+  "001200": {
+    "context": "001200",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だな。守部もいいな？」"
+  },
+  "001246": {
+    "context": "001246",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「う、うん」"
+  },
+  "001280": {
+    "context": "001280",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれこれ話し合ってる時間がもったいない。"
+  },
+  "001285": {
+    "context": "001285",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は早々に結論を出し、洵と共に部屋を飛び出した。"
+  },
+  "001392": {
+    "context": "001392",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "廊下を走りながら、洵が尋ねてくる。"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねーねー隊長、どうしてあんな提案したの？」"
+  },
+  "001494": {
+    "context": "001494",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？　まぁ大した理由じゃないさ」"
+  },
+  "001505": {
+    "context": "001505",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリが疲れてそうだったのと……それとお前となら２人でも、上手く連携取って捜索をこなせると思ってな」"
+  },
+  "001534": {
+    "context": "001534",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ほほーぅ？　大きく出たねぇ、そろそろ勘が戻ってきた？」"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「記憶は戻らんが、勘の方は多少はな」"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「いいねぇ、頼りにしとくよ」"
+  },
+  "001588": {
+    "context": "001588",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え？　気が利かないなぁ、お前も」"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ユウリがだいぶ疲れてそうだったからだよ。だったら人手を増やして、楽させてやろうと思ってな」"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あ、そうか……」"
+  },
+  "001639": {
+    "context": "001639",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それに先生だったら、子供の扱いにも慣れてるだろ？　うまく気遣ってくれそうだ」"
+  },
+  "001668": {
+    "context": "001668",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「へぇ～。隊長ってば、ユウリちゃんにはやっさしーね。このロリコン！」"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「うるせぇ」"
+  },
+  "001748": {
+    "context": "001748",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな事を言い合いながら、内周棟に向かう連絡通路に差し掛かると――"
+  },
+  "001810": {
+    "context": "001810",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0003 002680"
+  },
+  "001821": {
+    "context": "001821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "プロキオンが、激しく警告音を鳴らした。"
+  },
+  "001826": {
+    "context": "001826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "数値は――『８６５０ｍＳｖ』！"
+  },
+  "001855": {
+    "context": "001855",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「汚染区域！？」"
+  },
+  "001866": {
+    "context": "001866",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「まずい、下がるぞ！」"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはとっさに連絡通路から出て、ゲートを閉めた。"
+  },
+  "001970": {
+    "context": "001970",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ゲートが閉まると音も消えたが、開ければまた鳴り出すだろう。"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は歯噛みし、同時に思う。"
+  },
+  "002046": {
+    "context": "002046",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "考えてみれば、この廊下の先にある『第５エリア内周棟・地下２階』は――"
+  },
+  "002051": {
+    "context": "002051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "前にあの少女が逃げ込んだ、汚染区域の隣に位置する。"
+  },
+  "002057": {
+    "context": "002057",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（じゃあ２つの棟が丸々、汚染されていたってわけか……）"
+  },
+  "002091": {
+    "context": "002091",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ここを捜索するのは、むろん危険だ。また倒れる可能性だってある。"
+  },
+  "002096": {
+    "context": "002096",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が逡巡していると――"
+  },
+  "002161": {
+    "context": "002161",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「どうしたの隊長？」"
+  },
+  "002172": {
+    "context": "002172",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「い、いや……汚染区域を捜索したいと言ったら……お前、止めるか？」"
+  },
+  "002201": {
+    "context": "002201",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0002 003339"
+  },
+  "002212": {
+    "context": "002212",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「な、なんでそんな事を！？」"
+  },
+  "002223": {
+    "context": "002223",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なぁ守部、思い出してくれ。第４エリアで会った少女の事を」"
+  },
+  "002252": {
+    "context": "002252",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ルイーズちゃんの事？」"
+  },
+  "002263": {
+    "context": "002263",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだ。あの少女が消息を絶った場所は――」"
+  },
+  "002268": {
+    "context": "002268",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はＰＤＡを取り出し、地図を片手に説明をした。"
+  },
+  "002318": {
+    "context": "002318",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「第４エリア内周棟・地下２階だ」"
+  },
+  "002329": {
+    "context": "002329",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「もし彼女がセキュリティカードを持っていたとしたら、隣の第５エリアに逃げた可能性がある」"
+  },
+  "002340": {
+    "context": "002340",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「つまり、この連絡通路の先だね……」"
+  },
+  "002351": {
+    "context": "002351",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ。だがどちらのエリアも汚染区域だ。それを知らずに徘徊していたとしたら――」"
+  },
+  "002362": {
+    "context": "002362",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あの時の隊長と同じく、気を失って倒れているって事も考えられる？」"
+  },
+  "002373": {
+    "context": "002373",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そうだ。仮に気絶して倒れていたら……もう手遅れかもしれないが……」"
+  },
+  "002384": {
+    "context": "002384",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だからって放っておくわけにはいかない、違うか？」"
+  },
+  "002395": {
+    "context": "002395",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「確かに……それにＡＤも探さなきゃいけないし……」"
+  },
+  "002400": {
+    "context": "002400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵はしばらく考え込んでいたが――やがて意を決したように言った。"
+  },
+  "002430": {
+    "context": "002430",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……よし、隊長。捜索するならあたしも行くよ」"
+  },
+  "002441": {
+    "context": "002441",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「え、お前も！？」"
+  },
+  "002491": {
+    "context": "002491",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ただし３分間だけね。時間を限定して、大急ぎで回ろう」"
+  },
+  "002513": {
+    "context": "002513",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「地図を見る限り、部屋は６部屋。だったら２人で、１部屋１分ずつ回れば――」"
+  },
+  "002524": {
+    "context": "002524",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちょ、ちょっと待て！　危険だぞ！？」"
+  },
+  "002553": {
+    "context": "002553",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なに言ってんの！　隊長１人で行くほうが危険じゃん！」"
+  },
+  "002559": {
+    "context": "002559",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0027 000910"
+  },
+  "002575": {
+    "context": "002575",
+    "code": "0x04",
+    "string": "@ignore"
+  },
+  "002577": {
+    "context": "002577",
+    "code": "0x55",
+    "string": "@import 0028 000155"
+  },
+  "002585": {
+    "context": "002585",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が言うのも正論だった。時間が限定されているならば、人手は多い方がいい。"
+  },
+  "002596": {
+    "context": "002596",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……よし、守部。一緒に行こう」"
+  },
+  "002625": {
+    "context": "002625",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん！　副隊長にはナイショね！」"
+  },
+  "002630": {
+    "context": "002630",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは２人で、連絡通路に向き合った。"
+  },
+  "002641": {
+    "context": "002641",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「時計をタイマーに切り替え、３分にセットしよう」"
+  },
+  "002670": {
+    "context": "002670",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん！　アラームが鳴ったら、捜索途中でもここに戻ってくるように！」"
+  },
+  "002681": {
+    "context": "002681",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、それじゃ――行くぞ！」"
+  },
+  "002729": {
+    "context": "002729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは同時に駆け出し、内周棟に飛び込んで行った。"
+  },
+  "002827": {
+    "context": "002827",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "内周棟はひどく焼け焦げていた。"
+  },
+  "002832": {
+    "context": "002832",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ここからは時間との戦いだ。しかし――"
+  },
+  "002948": {
+    "context": "002948",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に頭が鈍く痛んだ。"
+  },
+  "002954": {
+    "context": "002954",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ちッ、またか！？）"
+  },
+  "002959": {
+    "context": "002959",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "以前、汚染区域に入った時と同様、頭痛と皮膚の痺れを感じる。"
+  },
+  "002965": {
+    "context": "002965",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（――構ってられるか！）"
+  },
+  "002970": {
+    "context": "002970",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそれに耐え、通路を駆け抜けた。"
+  },
+  "003058": {
+    "context": "003058",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部！　真ん中の部屋で落ち合おう！」"
+  },
+  "003069": {
+    "context": "003069",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0004 000716"
+  },
+  "003074": {
+    "context": "003074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "十字路で、洵と二手に別れた。"
+  },
+  "003167": {
+    "context": "003167",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "右端の部屋に着き、そこに飛び込む。"
+  },
+  "003172": {
+    "context": "003172",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "通路と同じく、焼け焦げた部屋。そこに渡瀬は声をかける。"
+  },
+  "003183": {
+    "context": "003183",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「誰かいるか！？　いたら返事してくれ！」"
+  },
+  "003188": {
+    "context": "003188",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが返事は無かった。ＡＤも見つからない。"
+  },
+  "003193": {
+    "context": "003193",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は１分でそれを確認し、部屋を飛び出した。"
+  },
+  "003241": {
+    "context": "003241",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "即座にその隣の部屋に入る。"
+  },
+  "003290": {
+    "context": "003290",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそこにも何もない。"
+  },
+  "003296": {
+    "context": "003296",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（要救助者がいないのは、幸か不幸か……！）"
+  },
+  "003301": {
+    "context": "003301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もしここで要救助者が倒れていたら、確実に致命的な被曝をしているだろう。"
+  },
+  "003306": {
+    "context": "003306",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう思いつつ、部屋を飛び出した。"
+  },
+  "003362": {
+    "context": "003362",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとちょうど洵が駆け寄ってくるのが見えた。"
+  },
+  "003373": {
+    "context": "003373",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部！　そっちはどうだ！？」"
+  },
+  "003410": {
+    "context": "003410",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「３部屋回ったけど、何もなかったよ！」"
+  },
+  "003421": {
+    "context": "003421",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「こっちもだ！　じゃあ残るはこの部屋だけか！」"
+  },
+  "003426": {
+    "context": "003426",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って、最後に残った部屋を見た。"
+  },
+  "003431": {
+    "context": "003431",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "扉に何かプレートがかかっている。"
+  },
+  "003436": {
+    "context": "003436",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "煤けていてよく読めないが――"
+  },
+  "003447": {
+    "context": "003447",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『Ｄｒ．Ｍｉｙｏｋｏ　Ｔｅｎｋａｗａ』？」"
+  },
+  "003452": {
+    "context": "003452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その名を見た時、渡瀬の脳裏に蘇るものがあった。"
+  },
+  "003520": {
+    "context": "003520",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0009 000493"
+  },
+  "003531": {
+    "context": "003531",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0009 000505"
+  },
+  "003612": {
+    "context": "003612",
+    "code": "0x45",
+    "developer_comment": "宇喜多",
+    "string": "「――少年の母親も、この施設に勤めていてね――」"
+  },
+  "003693": {
+    "context": "003693",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ここって、夏彦くんのママの研究室じゃない！？」"
+  },
+  "003704": {
+    "context": "003704",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なるほど、ここが――」"
+  },
+  "003709": {
+    "context": "003709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がそう言いかけた瞬間、"
+  },
+  "004013": {
+    "context": "004013",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（っ！？）"
+  },
+  "004018": {
+    "context": "004018",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――一瞬、目の前に奇妙な光景が明滅した。"
+  },
+  "004023": {
+    "context": "004023",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "誰かが涙を流しているような――"
+  },
+  "004028": {
+    "context": "004028",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は嫌な予感を感じ、声を上げた。"
+  },
+  "004039": {
+    "context": "004039",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……守部、入るぞ！」"
+  },
+  "004068": {
+    "context": "004068",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん！」"
+  },
+  "004073": {
+    "context": "004073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言って２人で、部屋に飛び込む。"
+  },
+  "004123": {
+    "context": "004123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そこは他の部屋と違い、火災の影響を受けていなかった。"
+  },
+  "004189": {
+    "context": "004189",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ルイーズちゃん！　いたら返事して！」"
+  },
+  "004194": {
+    "context": "004194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が叫ぶが、要救助者の姿はない。"
+  },
+  "004200": {
+    "context": "004200",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（さっきの光景は、単なるオレの妄想か？）"
+  },
+  "004205": {
+    "context": "004205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いつつ、部屋を見回した時――"
+  },
+  "004212": {
+    "context": "004212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "腕時計のアラームが鳴った。"
+  },
+  "004258": {
+    "context": "004258",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "004270": {
+    "context": "004270",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちっ、もうか！」"
+  },
+  "004299": {
+    "context": "004299",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「戻ろう隊長！　３分経ったら戻るって約束したじゃん！」"
+  },
+  "004304": {
+    "context": "004304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は一瞬、逡巡した。"
+  },
+  "004309": {
+    "context": "004309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "要救助者がいないことを確認できたのはいいが、ＡＤの捜索はできていないのだ。"
+  },
+  "004314": {
+    "context": "004314",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほど見た奇妙な幻影も、何か気になる。"
+  },
+  "004367": {
+    "context": "004367",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "004373": {
+    "context": "004373",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（このまま戻っていいのか！？）"
+  },
+  "004390": {
+    "context": "004390",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（いや、せっかくここまで来たんだから……！）"
+  },
+  "004395": {
+    "context": "004395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は意を決し、洵に言った。"
+  },
+  "004405": {
+    "context": "004405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0039 004395"
+  },
+  "004418": {
+    "context": "004418",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部、お前は先に戻れ！」"
+  },
+  "004447": {
+    "context": "004447",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え！？　隊長は！？」"
+  },
+  "004458": {
+    "context": "004458",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「オレはこの部屋をもう少し調べてから戻る！　ここには何かありそうな気がするんだ！」"
+  },
+  "004463": {
+    "context": "004463",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言い捨て、部屋の捜索を始めた。"
+  },
+  "004492": {
+    "context": "004492",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「なに言ってんの隊長！？　これ以上汚染区域にいたら――」"
+  },
+  "004503": {
+    "context": "004503",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いいから早く行け！　オレの自己満足のためにやってんだから！」"
+  },
+  "004532": {
+    "context": "004532",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0005 004861"
+  },
+  "004543": {
+    "context": "004543",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「……じゃああたしも残る！」"
+  },
+  "004554": {
+    "context": "004554",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0008 000483"
+  },
+  "004559": {
+    "context": "004559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『バカか！　戻れ！』と言おうとしたが、"
+  },
+  "004570": {
+    "context": "004570",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「普段の隊長は、メチャメチャ勘が鋭かったんだ！　その隊長が言うんなら、きっと何かあるんだよ！」"
+  },
+  "004575": {
+    "context": "004575",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵は止める間もなく、部屋の捜索を始めた。"
+  },
+  "004586": {
+    "context": "004586",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ちっ、じゃああと３０秒だけな！」"
+  },
+  "004621": {
+    "context": "004621",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "言い争ってる暇は無い。渡瀬は『何か』を探し、机の陰を覗き込む。"
+  },
+  "004626": {
+    "context": "004626",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そこで渡瀬は、要救助者の代わりに――"
+  },
+  "004670": {
+    "context": "004670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "鉄の箱を見つけた。"
+  },
+  "004681": {
+    "context": "004681",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「め、メディカルボックスだ！」"
+  },
+  "004713": {
+    "context": "004713",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ホントだ！　中身は！？」"
+  },
+  "004718": {
+    "context": "004718",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が開けると、その中には――……"
+  },
+  "004723": {
+    "context": "004723",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＡＤが５本詰まっていた。"
+  },
+  "004752": {
+    "context": "004752",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「や、やったぁ！」"
+  },
+  "004763": {
+    "context": "004763",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「よし、上出来だ！　外周棟に戻ろう！」"
+  },
+  "004792": {
+    "context": "004792",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うんっ！」"
+  },
+  "004798": {
+    "context": "004798",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちはメディカルボックスを掴み、そして部屋を飛び出した。"
+  },
+  "004804": {
+    "context": "004804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが妄想に囚われ、命を危険にさらすわけにはいかない。"
+  },
+  "004815": {
+    "context": "004815",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……よし、戻ろう！」"
+  },
+  "004844": {
+    "context": "004844",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「了解！　じゃあ急いで！」"
+  },
+  "004849": {
+    "context": "004849",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちは連れ立って、その部屋を飛び出した。"
+  },
+  "004910": {
+    "context": "004910",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

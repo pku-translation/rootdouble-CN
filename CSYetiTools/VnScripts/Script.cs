@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Text;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -28,13 +29,9 @@ namespace CsYetiTools.VnScripts
 
         private readonly Dictionary<string, int> _labelBackward = new Dictionary<string, int>();
 
-        private int _stringStart;
-
-        private List<(int offset, string content)> _stringList = new List<(int, string)>();
-
         private int _index;
 
-        public Script(byte[] bytes, ScriptFooter footer, bool isStringPooled, bool allowError = false)
+        public Script(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
         {
             if (bytes.Length % 16 != 0) throw new InvalidDataException($"{nameof(bytes)} length is not times of 16");
 
@@ -62,20 +59,20 @@ namespace CsYetiTools.VnScripts
             var codeEnd = footerStart - 1; // FooterSeparator
             var stringTableEnd = codeEnd;
 
-            using var reader = new BinaryReader(new MemoryStream(bytes));
+            using var stream = new BinaryStream(bytes, encoding ?? Utils.Cp932);
 
             // header
             var maybeEntries = new List<CodeAddressData>();
-            var firstCodeOffset = reader.ReadInt32();
+            var firstCodeOffset = stream.ReadInt32LE();
             int currentOffset = 0;
             maybeEntries.Add(new CodeAddressData(currentOffset, firstCodeOffset));
-            while (reader.BaseStream.Position <= firstCodeOffset - 4)
+            while (stream.Position <= firstCodeOffset - 4)
             {
-                var offset = reader.ReadInt32();
+                var offset = stream.ReadInt32LE();
                 currentOffset += 4;
-                if (offset < reader.BaseStream.Position)
+                if (offset < stream.Position)
                 {
-                    reader.BaseStream.Seek(-4, SeekOrigin.Current);
+                    stream.Seek(-4);
                     break;
                 }
                 if (offset < firstCodeOffset)
@@ -84,66 +81,64 @@ namespace CsYetiTools.VnScripts
                 }
                 maybeEntries.Add(new CodeAddressData(currentOffset, offset));
             }
-            var maybeRemainBytes = reader.ReadBytesExact(firstCodeOffset - (int)(reader.BaseStream.Position));
+            var maybeRemainBytes = stream.ReadBytesExact(firstCodeOffset - (int)(stream.Position));
 
             // codes
             try
             {
-                while (reader.BaseStream.Position < codeEnd)
+                while (stream.Position < codeEnd)
                 {
-                    var opCode = OpCode.GetNextCode(reader, _codes, isStringPooled);
+                    var opCode = OpCode.GetNextCode(stream, _codes, isStringPooled);
                     if (isStringPooled && opCode is StringCode strCode)
                     {
-                        // there are two {[55] ""} referring [0x00] at the end of header.
                         var refOffset = strCode.ContentOffset.AbsoluteOffset;
                         if (refOffset > strCode.Offset && codeEnd > refOffset)
                         {
                             codeEnd = refOffset;
                         }
 
-                        var pos = reader.BaseStream.Position;
-                        reader.BaseStream.Position = refOffset;
-                        strCode.Content = Utils.ReadStringZ(reader);
+                        var pos = stream.Position;
+                        stream.Position = refOffset;
+                        strCode.Content = stream.ReadStringZ();
 
-                        if (refOffset > strCode.Offset && stringTableEnd < reader.BaseStream.Position)
+                        if (refOffset > strCode.Offset && stringTableEnd < stream.Position)
                         {
                             Console.WriteLine($"strange code: ");
                             Console.Write($"    {strCode.Index}: {strCode}");
-                            stringTableEnd = (int)reader.BaseStream.Position;
+                            stringTableEnd = (int)stream.Position;
                         }
 
-                        reader.BaseStream.Position = pos;
+                        stream.Position = pos;
                     }
                     _codes.Add(opCode);
                 }
 
                 if (isStringPooled)
                 {
-                    _stringStart = (int)reader.BaseStream.Position;
-                    if (_stringStart != codeEnd) throw new InvalidDataException($"string start ({_stringStart}) != code end ({codeEnd})");
+                    var stringStart = (int)stream.Position;
+                    if (stringStart != codeEnd) throw new InvalidDataException($"string start ({stringStart}) != code end ({codeEnd})");
                     if (stringTableEnd != footerStart - 1)
                     {
                         Console.WriteLine($"[{footer}]: {stringTableEnd} != {footerStart - 1}");
                     }
-                    while (reader.BaseStream.Position < stringTableEnd)
+                    while (stream.Position < stringTableEnd)
                     {
-                        var pos = (int)reader.BaseStream.Position;
-                        var content = Utils.ReadStringZ(reader);
-                        _stringList.Add((pos, content));
+                        var pos = (int)stream.Position;
+                        var content = stream.ReadStringZ();
                     }
                 }
-                if (reader.BaseStream.Position < stringTableEnd)
+                if (stream.Position < stringTableEnd)
                 {
-                    throw new InvalidDataException($"Read string table causes pos({reader.BaseStream.Position} != {stringTableEnd})");
+                    throw new InvalidDataException($"Read string table causes pos({stream.Position} != {stringTableEnd})");
                 }
 
-                var separator = reader.ReadByte();
+                var separator = stream.ReadByte();
                 if (separator != FooterSeparator) throw new InvalidDataException($"Separator != {separator}");
 
-                var footerBytes = ScriptFooter.ReadFrom(reader);
+                var footerBytes = ScriptFooter.ReadFrom(stream);
                 if (!footerBytes.Equals(footer)) throw new InvalidDataException($"Footer [{footerBytes}] != [{footer}]");
 
-                var fillBytes = reader.ReadToEnd();
+                var fillBytes = stream.ReadToEnd();
                 if (fillBytes.Length >= 16 || fillBytes.Any(b => b != 0x00))
                 {
                     throw new InvalidDataException("Invalid fill bytes: " + Utils.BytesToTextLines(fillBytes));
@@ -154,7 +149,7 @@ namespace CsYetiTools.VnScripts
                 if (allowError)
                 {
                     ParseError = allowError.ToString();
-                    UnparsedBytes = reader.ReadToEnd();
+                    UnparsedBytes = stream.ReadToEnd();
                 }
                 else
                 {
@@ -277,6 +272,9 @@ namespace CsYetiTools.VnScripts
         public IEnumerable<OpCode> Codes
             => _codes.ToArray();
 
+        public OpCode GetCodeAt(int index)
+            => _codes[index];
+
         public IEnumerable<T> GetCodes<T>() where T : OpCode
         {
             return Codes.OfType<T>();
@@ -286,9 +284,6 @@ namespace CsYetiTools.VnScripts
         {
             return Codes.Where(c => c.Code == code).OfType<T>();
         }
-
-        public IReadOnlyList<(int offset, string content)> StringList
-            => _stringList.AsReadOnly();
 
         public class StringReferenceEntry
         {
@@ -334,30 +329,13 @@ namespace CsYetiTools.VnScripts
             if (strCodeList.Count != referenceList.Count)
                 throw new ArgumentException($"string-list length {strCodeList.Count} != reference-list length {referenceList.Count}");
 
-            string? prevString = null; // some adjacent string ([86] [85]) uses the same entry? (maybe debug)
-            int? prevOffset = null;
-            var currentOffset = _stringStart;
-            var newStringList = new List<(int offset, string content)>();
             foreach (var (code, refEntry) in strCodeList.Zip(referenceList))
             {
                 if (code.Code != refEntry.Code)
                     throw new ArgumentException(
                         $"string-list code {code.Code:X02} != reference-list code {refEntry.Code}");
                 code.Content = refEntry.Content;
-                if (refEntry.Content != prevString)
-                {
-                    code.ContentOffset.AbsoluteOffset = currentOffset;
-                    prevString = refEntry.Content;
-                    prevOffset = currentOffset;
-                    newStringList.Add((currentOffset, prevString));
-                    currentOffset += Utils.GetStringZByteCount(prevString);
-                }
-                else
-                {
-                    code.ContentOffset.AbsoluteOffset = prevOffset!.Value;
-                }
             }
-            _stringList = newStringList;
 
 #if DEBUG
             var bytes = ToRawBytes();
@@ -369,34 +347,55 @@ namespace CsYetiTools.VnScripts
 #endif
         }
 
-        public byte[] ToRawBytes()
+        public byte[] ToRawBytes(Encoding? encoding = null)
         {
-            using var ms = new MemoryStream();
-            using var writer = new BinaryWriter(ms);
+            using var stream = new BinaryStream(encoding ?? Utils.Cp932);
 
-            WriteTo(writer);
+            WriteTo(stream);
 
-            System.Diagnostics.Debug.Assert(ms.Length % 16 == 0);
-            return ms.ToArray();
+            System.Diagnostics.Debug.Assert(stream.Length % 16 == 0);
+            return stream.ToBytes();
         }
 
-        public void WriteTo(BinaryWriter writer)
+        public void WriteTo(IBinaryStream writer)
         {
             _header.WriteTo(writer);
+            var stringPool = new List<string>();
+            var stringOffsetTable = new Dictionary<string, int>();
             foreach (var code in _codes)
             {
+                code.Offset = (int)writer.Position;
                 code.WriteTo(writer);
+                if (_isStringPooled && code is StringCode strCode)
+                {
+                    var content = strCode.Content;
+                    if (stringPool.Count == 0 || stringPool.Last() != content)
+                    {
+                        stringPool.Add(content);
+                    }
+                }
             }
             if (_isStringPooled)
             {
-                foreach (var (_, content) in _stringList)
+                foreach (var s in stringPool)
                 {
-                    Utils.WriteStringZ(writer, content);
+                    if (stringOffsetTable.TryAdd(s, (int)writer.Position))
+                    {
+                        writer.WriteStringZ(s);
+                    }
                 }
+                var pos = writer.Position;
+                foreach (var code in _codes.OfType<StringCode>())
+                {
+                    code.ContentOffset.AbsoluteOffset = stringOffsetTable[code.Content];
+                    writer.Position = code.Offset;
+                    code.WriteTo(writer);
+                }
+                writer.Position = pos;
             }
             writer.Write(FooterSeparator);
             writer.Write(Footer.ToBytes());
-            var alignFillCount = 16 - writer.BaseStream.Position % 16;
+            var alignFillCount = 16 - writer.Position % 16;
             if (alignFillCount != 16)
             {
                 for (var i = 0; i < alignFillCount; ++i)
@@ -404,6 +403,12 @@ namespace CsYetiTools.VnScripts
                     writer.Write((byte)0x00);
                 }
             }
+        }
+
+        public void WriteToFile(string path, Encoding? encoding = null)
+        {
+            using var stream = BinaryStream.WriteFile(path, encoding ?? Utils.Cp932);
+            WriteTo(stream);
         }
 
         public void DumpText(TextWriter writer, bool header = true, bool footer = true)
@@ -473,7 +478,8 @@ namespace CsYetiTools.VnScripts
                 {
                     if (!scriptJumpCode.IsJump) continue;
 
-                    var prefix = code.Code switch {
+                    var prefix = code.Code switch
+                    {
                         0x02 => @"jump-script ",
                         0x04 => @"call-script ",
                         _ => throw new InvalidDataException($"Is [{code.Code:X02}] script-jump-code???"),
@@ -524,6 +530,37 @@ namespace CsYetiTools.VnScripts
             }
 
             return dict;
+        }
+
+        public void ApplyTranslations(IDictionary<int, string> translations, IDictionary<string, string> nameTable)
+        {
+            foreach (var (index, translation) in translations)
+            {
+                var code = GetCodeAt(index);
+                if (!(code is StringCode strCode))
+                {
+                    throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
+                }
+
+                if (strCode is ExtraDialogCode exDialog && exDialog.IsCharacter)
+                {
+                    throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
+                }
+
+                strCode.Content = translation;
+            }
+        }
+
+        public IEnumerable<char> EnumerateChars()
+        {
+            foreach (var code in GetCodes<StringCode>())
+            {
+                foreach (var c in code.Content) yield return c;
+            }
+            foreach (var code in GetCodes<DebugMenuCode>())
+            {
+                foreach (var c in code.EnumerateChars()) yield return c;
+            }
         }
     }
 }

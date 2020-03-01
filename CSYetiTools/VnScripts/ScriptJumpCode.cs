@@ -1,4 +1,5 @@
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -16,16 +17,16 @@ namespace CsYetiTools.VnScripts
         public bool IsJump
             => Unknown == 0;
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            TargetScript = reader.ReadInt16();
-            Unknown = reader.ReadInt16();
+            TargetScript = reader.ReadInt16LE();
+            Unknown = reader.ReadInt16LE();
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(TargetScript);
-            writer.Write(Unknown);
+            writer.WriteLE(TargetScript);
+            writer.WriteLE(Unknown);
         }
 
         protected override void DumpArgs(TextWriter writer)

@@ -82,6 +82,11 @@
     "developer_comment": "ましろ",
     "string": "「什么怎么了，刚不是夏彦你说的，让我把手给你看看的吗？」"
   },
+  "000452": {
+    "context": "000452",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "000463": {
     "context": "000463",
     "code": "0x45",
@@ -412,6 +417,11 @@
     "developer_comment": "夏彦",
     "string": "「说实话，我没有能够通过测试的自信。昨天不过是侥幸罢了」"
   },
+  "003206": {
+    "context": "003206",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "003235": {
     "context": "003235",
     "code": "0x45",
@@ -501,5 +511,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "然后夏彦和真白坐上校车，前往学校。"
+  },
+  "003685": {
+    "context": "003685",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

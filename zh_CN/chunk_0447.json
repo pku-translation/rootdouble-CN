@@ -1,0 +1,980 @@
+{
+  "000064": {
+    "context": "000064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――夏彦たちと触れ合う事で、コミュニケーターへの親愛の情を取り戻した恵那は――"
+  },
+  "000069": {
+    "context": "000069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000073"
+  },
+  "000074": {
+    "context": "000074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000078"
+  },
+  "000079": {
+    "context": "000079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000083"
+  },
+  "000141": {
+    "context": "000141",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000145"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000151"
+  },
+  "000153": {
+    "context": "000153",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000157"
+  },
+  "000158": {
+    "context": "000158",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000162"
+  },
+  "000163": {
+    "context": "000163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000167"
+  },
+  "000168": {
+    "context": "000168",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000172"
+  },
+  "000174": {
+    "context": "000174",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000178"
+  },
+  "000219": {
+    "context": "000219",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000223"
+  },
+  "000288": {
+    "context": "000288",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000292"
+  },
+  "000293": {
+    "context": "000293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000297"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000303"
+  },
+  "000305": {
+    "context": "000305",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000309"
+  },
+  "000310": {
+    "context": "000310",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000314"
+  },
+  "000315": {
+    "context": "000315",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000319"
+  },
+  "000320": {
+    "context": "000320",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000324"
+  },
+  "000325": {
+    "context": "000325",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000329"
+  },
+  "000330": {
+    "context": "000330",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000334"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000339"
+  },
+  "000340": {
+    "context": "000340",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000344"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000349"
+  },
+  "000350": {
+    "context": "000350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000354"
+  },
+  "000355": {
+    "context": "000355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000359"
+  },
+  "000360": {
+    "context": "000360",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000364"
+  },
+  "000366": {
+    "context": "000366",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000370"
+  },
+  "000372": {
+    "context": "000372",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000376"
+  },
+  "000378": {
+    "context": "000378",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000382"
+  },
+  "000383": {
+    "context": "000383",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000387"
+  },
+  "000388": {
+    "context": "000388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000392"
+  },
+  "000394": {
+    "context": "000394",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000398"
+  },
+  "000400": {
+    "context": "000400",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000404"
+  },
+  "000405": {
+    "context": "000405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000409"
+  },
+  "000410": {
+    "context": "000410",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000414"
+  },
+  "000415": {
+    "context": "000415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000419"
+  },
+  "000420": {
+    "context": "000420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000424"
+  },
+  "000425": {
+    "context": "000425",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000429"
+  },
+  "000430": {
+    "context": "000430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000434"
+  },
+  "000435": {
+    "context": "000435",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000439"
+  },
+  "000441": {
+    "context": "000441",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000445"
+  },
+  "000447": {
+    "context": "000447",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000451"
+  },
+  "000453": {
+    "context": "000453",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000457"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000462"
+  },
+  "000464": {
+    "context": "000464",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000468"
+  },
+  "000469": {
+    "context": "000469",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000473"
+  },
+  "000474": {
+    "context": "000474",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000478"
+  },
+  "000480": {
+    "context": "000480",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000484"
+  },
+  "000485": {
+    "context": "000485",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000489"
+  },
+  "000490": {
+    "context": "000490",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000494"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000500"
+  },
+  "000501": {
+    "context": "000501",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000505"
+  },
+  "000506": {
+    "context": "000506",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000510"
+  },
+  "000511": {
+    "context": "000511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000515"
+  },
+  "000555": {
+    "context": "000555",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000559"
+  },
+  "000560": {
+    "context": "000560",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000564"
+  },
+  "000641": {
+    "context": "000641",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000645"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はい」"
+  },
+  "000654": {
+    "context": "000654",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000658"
+  },
+  "000662": {
+    "context": "000662",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000666"
+  },
+  "000670": {
+    "context": "000670",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000674"
+  },
+  "000678": {
+    "context": "000678",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000682"
+  },
+  "000686": {
+    "context": "000686",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000690"
+  },
+  "000694": {
+    "context": "000694",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000698"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000706"
+  },
+  "000710": {
+    "context": "000710",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000714"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000722"
+  },
+  "000726": {
+    "context": "000726",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000730"
+  },
+  "000734": {
+    "context": "000734",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000738"
+  },
+  "000742": {
+    "context": "000742",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000746"
+  },
+  "000750": {
+    "context": "000750",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000754"
+  },
+  "000758": {
+    "context": "000758",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000762"
+  },
+  "000766": {
+    "context": "000766",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000770"
+  },
+  "000774": {
+    "context": "000774",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000778"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000788"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000796"
+  },
+  "000800": {
+    "context": "000800",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000804"
+  },
+  "000808": {
+    "context": "000808",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000812"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000817"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000825"
+  },
+  "000829": {
+    "context": "000829",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000833"
+  },
+  "000837": {
+    "context": "000837",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000841"
+  },
+  "000845": {
+    "context": "000845",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000849"
+  },
+  "000853": {
+    "context": "000853",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000857"
+  },
+  "000861": {
+    "context": "000861",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000865"
+  },
+  "000866": {
+    "context": "000866",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000870"
+  },
+  "000879": {
+    "context": "000879",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000883"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000891"
+  },
+  "000895": {
+    "context": "000895",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000899"
+  },
+  "000903": {
+    "context": "000903",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000907"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000915"
+  },
+  "000919": {
+    "context": "000919",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000923"
+  },
+  "000927": {
+    "context": "000927",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000931"
+  },
+  "000935": {
+    "context": "000935",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 000939"
+  },
+  "000943": {
+    "context": "000943",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000947"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000955"
+  },
+  "000959": {
+    "context": "000959",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0015 000688"
+  },
+  "000964": {
+    "context": "000964",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 000968"
+  },
+  "000972": {
+    "context": "000972",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000976"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000984"
+  },
+  "000988": {
+    "context": "000988",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 000992"
+  },
+  "000996": {
+    "context": "000996",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001000"
+  },
+  "001004": {
+    "context": "001004",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001008"
+  },
+  "001012": {
+    "context": "001012",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001016"
+  },
+  "001021": {
+    "context": "001021",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001025"
+  },
+  "001029": {
+    "context": "001029",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001033"
+  },
+  "001034": {
+    "context": "001034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001038"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001043"
+  },
+  "001044": {
+    "context": "001044",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001048"
+  },
+  "001049": {
+    "context": "001049",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001053"
+  },
+  "001054": {
+    "context": "001054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001058"
+  },
+  "001062": {
+    "context": "001062",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001066"
+  },
+  "001070": {
+    "context": "001070",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  "001078": {
+    "context": "001078",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001082"
+  },
+  "001086": {
+    "context": "001086",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001090"
+  },
+  "001094": {
+    "context": "001094",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001098"
+  },
+  "001102": {
+    "context": "001102",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001106"
+  },
+  "001110": {
+    "context": "001110",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001114"
+  },
+  "001123": {
+    "context": "001123",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001127"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001132"
+  },
+  "001136": {
+    "context": "001136",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001140"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001148"
+  },
+  "001152": {
+    "context": "001152",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001156"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001164"
+  },
+  "001168": {
+    "context": "001168",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001172"
+  },
+  "001178": {
+    "context": "001178",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001182"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001190"
+  },
+  "001194": {
+    "context": "001194",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001198"
+  },
+  "001202": {
+    "context": "001202",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001206"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001214"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001227"
+  },
+  "001231": {
+    "context": "001231",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001235"
+  },
+  "001236": {
+    "context": "001236",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001240"
+  },
+  "001244": {
+    "context": "001244",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001248"
+  },
+  "001249": {
+    "context": "001249",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001253"
+  },
+  "001262": {
+    "context": "001262",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001266"
+  },
+  "001270": {
+    "context": "001270",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0020 002151"
+  },
+  "001278": {
+    "context": "001278",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001282"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001290"
+  },
+  "001292": {
+    "context": "001292",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「……」"
+  },
+  "001300": {
+    "context": "001300",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001304"
+  },
+  "001308": {
+    "context": "001308",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001312"
+  },
+  "001316": {
+    "context": "001316",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001320"
+  },
+  "001324": {
+    "context": "001324",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001328"
+  },
+  "001332": {
+    "context": "001332",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001336"
+  },
+  "001340": {
+    "context": "001340",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001344"
+  },
+  "001353": {
+    "context": "001353",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0219 000566"
+  },
+  "001358": {
+    "context": "001358",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001362"
+  },
+  "001366": {
+    "context": "001366",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001370"
+  },
+  "001374": {
+    "context": "001374",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0347 001378"
+  },
+  "001382": {
+    "context": "001382",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001386"
+  },
+  "001390": {
+    "context": "001390",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001394"
+  },
+  "001398": {
+    "context": "001398",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0347 001402"
+  },
+  "001403": {
+    "context": "001403",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001407"
+  },
+  "001408": {
+    "context": "001408",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001412"
+  },
+  "001465": {
+    "context": "001465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001469"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001474"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001479"
+  },
+  "001481": {
+    "context": "001481",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001485"
+  },
+  "001489": {
+    "context": "001489",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001493"
+  },
+  "001497": {
+    "context": "001497",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0347 001501"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0347 001506"
+  }
+}

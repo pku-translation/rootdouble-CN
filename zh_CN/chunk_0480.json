@@ -1,0 +1,679 @@
+{
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000069"
+  },
+  "000070": {
+    "context": "000070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000074"
+  },
+  "000111": {
+    "context": "000111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000115"
+  },
+  "000116": {
+    "context": "000116",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000120"
+  },
+  "000124": {
+    "context": "000124",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000128"
+  },
+  "000132": {
+    "context": "000132",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000136"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000141"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000146"
+  },
+  "000147": {
+    "context": "000147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000151"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "@import 0373 000195"
+  },
+  "000254": {
+    "context": "000254",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0373 000258"
+  },
+  "000283": {
+    "context": "000283",
+    "code": "0x45",
+    "developer_comment": "少年",
+    "string": "@import 0373 000287"
+  },
+  "000312": {
+    "context": "000312",
+    "code": "0x45",
+    "developer_comment": "少女",
+    "string": "@import 0147 000423"
+  },
+  "000317": {
+    "context": "000317",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000321"
+  },
+  "000322": {
+    "context": "000322",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000326"
+  },
+  "000330": {
+    "context": "000330",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000334"
+  },
+  "000411": {
+    "context": "000411",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000415"
+  },
+  "000419": {
+    "context": "000419",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000423"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000431"
+  },
+  "000456": {
+    "context": "000456",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0039 004068"
+  },
+  "000461": {
+    "context": "000461",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000465"
+  },
+  "000551": {
+    "context": "000551",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000555"
+  },
+  "000556": {
+    "context": "000556",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000560"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000565"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000571"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000576"
+  },
+  "000577": {
+    "context": "000577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000581"
+  },
+  "000582": {
+    "context": "000582",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000586"
+  },
+  "000587": {
+    "context": "000587",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000591"
+  },
+  "000683": {
+    "context": "000683",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000687"
+  },
+  "000712": {
+    "context": "000712",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000716"
+  },
+  "000720": {
+    "context": "000720",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000724"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000753"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000758"
+  },
+  "000825": {
+    "context": "000825",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000829"
+  },
+  "000830": {
+    "context": "000830",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000834"
+  },
+  "000835": {
+    "context": "000835",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000839"
+  },
+  "000840": {
+    "context": "000840",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000844"
+  },
+  "000845": {
+    "context": "000845",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000849"
+  },
+  "000850": {
+    "context": "000850",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000854"
+  },
+  "000925": {
+    "context": "000925",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000929"
+  },
+  "000930": {
+    "context": "000930",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000934"
+  },
+  "000935": {
+    "context": "000935",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 000939"
+  },
+  "000943": {
+    "context": "000943",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000947"
+  },
+  "000972": {
+    "context": "000972",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000976"
+  },
+  "000983": {
+    "context": "000983",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 000987"
+  },
+  "000991": {
+    "context": "000991",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 000995"
+  },
+  "000996": {
+    "context": "000996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001000"
+  },
+  "001083": {
+    "context": "001083",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 001087"
+  },
+  "001091": {
+    "context": "001091",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001095"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001100"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001105"
+  },
+  "001107": {
+    "context": "001107",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001111"
+  },
+  "001113": {
+    "context": "001113",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001117"
+  },
+  "001118": {
+    "context": "001118",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001122"
+  },
+  "001123": {
+    "context": "001123",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001127"
+  },
+  "001128": {
+    "context": "001128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001132"
+  },
+  "001134": {
+    "context": "001134",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001138"
+  },
+  "001139": {
+    "context": "001139",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001143"
+  },
+  "001144": {
+    "context": "001144",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001148"
+  },
+  "001149": {
+    "context": "001149",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001153"
+  },
+  "001154": {
+    "context": "001154",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001158"
+  },
+  "001159": {
+    "context": "001159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001163"
+  },
+  "001164": {
+    "context": "001164",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001168"
+  },
+  "001169": {
+    "context": "001169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001173"
+  },
+  "001174": {
+    "context": "001174",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001178"
+  },
+  "001180": {
+    "context": "001180",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001184"
+  },
+  "001186": {
+    "context": "001186",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001190"
+  },
+  "001191": {
+    "context": "001191",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001195"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001219"
+  },
+  "001220": {
+    "context": "001220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001224"
+  },
+  "001228": {
+    "context": "001228",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0373 001232"
+  },
+  "001233": {
+    "context": "001233",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001237"
+  },
+  "001267": {
+    "context": "001267",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001271"
+  },
+  "001272": {
+    "context": "001272",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001276"
+  },
+  "001316": {
+    "context": "001316",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001320"
+  },
+  "001321": {
+    "context": "001321",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001325"
+  },
+  "001326": {
+    "context": "001326",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001330"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001361"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001372"
+  },
+  "001374": {
+    "context": "001374",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001378"
+  },
+  "001379": {
+    "context": "001379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001383"
+  },
+  "001404": {
+    "context": "001404",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001408"
+  },
+  "001465": {
+    "context": "001465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001469"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001539"
+  },
+  "001540": {
+    "context": "001540",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001544"
+  },
+  "001598": {
+    "context": "001598",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001602"
+  },
+  "001603": {
+    "context": "001603",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001607"
+  },
+  "001608": {
+    "context": "001608",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001612"
+  },
+  "001646": {
+    "context": "001646",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001650"
+  },
+  "001651": {
+    "context": "001651",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001655"
+  },
+  "001656": {
+    "context": "001656",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001660"
+  },
+  "001662": {
+    "context": "001662",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0373 001666"
+  },
+  "001674": {
+    "context": "001674",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001678"
+  },
+  "001767": {
+    "context": "001767",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0331 000738"
+  },
+  "001796": {
+    "context": "001796",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0331 000749"
+  },
+  "001825": {
+    "context": "001825",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0331 000778"
+  },
+  "001871": {
+    "context": "001871",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "001879": {
+    "context": "001879",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0331 000807"
+  },
+  "001884": {
+    "context": "001884",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001842"
+  },
+  "001892": {
+    "context": "001892",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0331 000841"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "@import 0331 000870"
+  },
+  "001926": {
+    "context": "001926",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001884"
+  },
+  "002011": {
+    "context": "002011",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて洵が、すんすんと鼻をひくつかせて言った。"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ねぇ、風見ちゃんっていい匂いするね？」"
+  },
+  "002048": {
+    "context": "002048",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え、そう？　香水とかはつけてないんだけど」"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「でも、お花の匂いがするよ」"
+  },
+  "002082": {
+    "context": "002082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言えば以前、凪沙にも同じ事を言われた。自分ではわからないのだが。"
+  },
+  "002090": {
+    "context": "002090",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「うーん、花に囲まれて働いてるからかしら」"
+  },
+  "002119": {
+    "context": "002119",
+    "code": "0x45",
+    "developer_comment": "凪沙",
+    "string": "「きっとお花の匂いが、お肌にしみこんでるんだね。すてきだね」"
+  },
+  "002124": {
+    "context": "002124",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "凪沙の子供らしい言葉に、風見は微笑む。"
+  },
+  "002129": {
+    "context": "002129",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それはほんの些細な、しかし暖かな思い出だった……。"
+  },
+  "002137": {
+    "context": "002137",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0373 001889"
+  }
+}

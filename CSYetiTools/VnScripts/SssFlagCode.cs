@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -17,24 +18,24 @@ namespace CsYetiTools.VnScripts
 
         public SssFlagCode() : base(0x89) { }
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            _flagIndex = reader.ReadInt16();
-            _sound = reader.ReadInt16();
+            _flagIndex = reader.ReadInt16LE();
+            _sound = reader.ReadInt16LE();
             _changes = new short[9];
             for (int i = 0; i < 9; ++i)
             {
-                _changes[i] = reader.ReadInt16();
+                _changes[i] = reader.ReadInt16LE();
             }
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_flagIndex);
-            writer.Write(_sound);
+            writer.WriteLE(_flagIndex);
+            writer.WriteLE(_sound);
             foreach (var change in _changes)
             {
-                writer.Write(change);
+                writer.WriteLE(change);
             }
         }
 

@@ -1,0 +1,3363 @@
+{
+  "000098": {
+    "context": "000098",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000107": {
+    "context": "000107",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――最愛の父を失った後、恵那は――"
+  },
+  "000112": {
+    "context": "000112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000070"
+  },
+  "000117": {
+    "context": "000117",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000075"
+  },
+  "000122": {
+    "context": "000122",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000080"
+  },
+  "000228": {
+    "context": "000228",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "父の持ち物は、全て残してあった。"
+  },
+  "000233": {
+    "context": "000233",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――休日にドライブに連れて行ってもらった、フランス製のスポーツカー。"
+  },
+  "000238": {
+    "context": "000238",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ジャズのレコードのコレクション。"
+  },
+  "000243": {
+    "context": "000243",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――教育書や思想書が大半を占める蔵書。万年筆。コーヒーサイフォン。"
+  },
+  "000248": {
+    "context": "000248",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それらはどれも、女の子の恵那には馴染みのないもので……しかし亡き父の心を知る、重要な手がかりだった。"
+  },
+  "000254": {
+    "context": "000254",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（私、ファザコンなのかしら）"
+  },
+  "000259": {
+    "context": "000259",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "古いジャズを聞きながら、ふとそんな事を思う。"
+  },
+  "000264": {
+    "context": "000264",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "時を経ても父の存在は薄れるばかりか、大きくなる一方だった。"
+  },
+  "000269": {
+    "context": "000269",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もし自分が恋をするなら、きっと間違いなく、父のような男性に惹かれるだろう。"
+  },
+  "000274": {
+    "context": "000274",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "優しさと、暖かさと、命に替えても人を護ろうとする意思を兼ね備えた男性――そんな男に、そうそう出会えるものではない。"
+  },
+  "000280": {
+    "context": "000280",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（……だから今は、お父さんの思い出に浸るだけで充分よ）"
+  },
+  "000286": {
+    "context": "000286",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "（私が大人になるまでは……）"
+  },
+  "000291": {
+    "context": "000291",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いながら恵那は、少しずつ成長していった。"
+  },
+  "000296": {
+    "context": "000296",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そしてその間、いつも恵那が願っていた事がある。"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは父と同じ、『コミュニケーターを護る仕事』に就く事だ。"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000107"
+  },
+  "000314": {
+    "context": "000314",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000112"
+  },
+  "000320": {
+    "context": "000320",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000118"
+  },
+  "000325": {
+    "context": "000325",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000123"
+  },
+  "000330": {
+    "context": "000330",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000128"
+  },
+  "000335": {
+    "context": "000335",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000133"
+  },
+  "000340": {
+    "context": "000340",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000138"
+  },
+  "000345": {
+    "context": "000345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000143"
+  },
+  "000351": {
+    "context": "000351",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000149"
+  },
+  "000356": {
+    "context": "000356",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000154"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000160"
+  },
+  "000367": {
+    "context": "000367",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000165"
+  },
+  "000410": {
+    "context": "000410",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000208"
+  },
+  "000415": {
+    "context": "000415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000213"
+  },
+  "000420": {
+    "context": "000420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000218"
+  },
+  "000425": {
+    "context": "000425",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000223"
+  },
+  "000430": {
+    "context": "000430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000228"
+  },
+  "000441": {
+    "context": "000441",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000239"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000365"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000370"
+  },
+  "000577": {
+    "context": "000577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000375"
+  },
+  "000585": {
+    "context": "000585",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000383"
+  },
+  "000593": {
+    "context": "000593",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000391"
+  },
+  "000668": {
+    "context": "000668",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000466"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "比嘉",
+    "string": "@import 0345 000479"
+  },
+  "000694": {
+    "context": "000694",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000492"
+  },
+  "000702": {
+    "context": "000702",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000500"
+  },
+  "000707": {
+    "context": "000707",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000505"
+  },
+  "000715": {
+    "context": "000715",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000513"
+  },
+  "000723": {
+    "context": "000723",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000521"
+  },
+  "000731": {
+    "context": "000731",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000529"
+  },
+  "000739": {
+    "context": "000739",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000537"
+  },
+  "000747": {
+    "context": "000747",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000545"
+  },
+  "000755": {
+    "context": "000755",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000553"
+  },
+  "000763": {
+    "context": "000763",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000561"
+  },
+  "000771": {
+    "context": "000771",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000569"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000582"
+  },
+  "000792": {
+    "context": "000792",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000590"
+  },
+  "000800": {
+    "context": "000800",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000598"
+  },
+  "000805": {
+    "context": "000805",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000603"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000611"
+  },
+  "000821": {
+    "context": "000821",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000619"
+  },
+  "000829": {
+    "context": "000829",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0025 000388"
+  },
+  "000834": {
+    "context": "000834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000632"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000640"
+  },
+  "000850": {
+    "context": "000850",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「え？」"
+  },
+  "000858": {
+    "context": "000858",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000656"
+  },
+  "000866": {
+    "context": "000866",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000664"
+  },
+  "000874": {
+    "context": "000874",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0026 003493"
+  },
+  "000879": {
+    "context": "000879",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000677"
+  },
+  "000887": {
+    "context": "000887",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000685"
+  },
+  "000895": {
+    "context": "000895",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000693"
+  },
+  "000903": {
+    "context": "000903",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000701"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000709"
+  },
+  "000916": {
+    "context": "000916",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000714"
+  },
+  "000924": {
+    "context": "000924",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000722"
+  },
+  "000932": {
+    "context": "000932",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000730"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000773"
+  },
+  "000980": {
+    "context": "000980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000778"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000783"
+  },
+  "000990": {
+    "context": "000990",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000788"
+  },
+  "000995": {
+    "context": "000995",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000793"
+  },
+  "001000": {
+    "context": "001000",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000798"
+  },
+  "001047": {
+    "context": "001047",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000845"
+  },
+  "001055": {
+    "context": "001055",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000853"
+  },
+  "001063": {
+    "context": "001063",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000861"
+  },
+  "001071": {
+    "context": "001071",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000869"
+  },
+  "001079": {
+    "context": "001079",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000877"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「……」"
+  },
+  "001090": {
+    "context": "001090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000888"
+  },
+  "001098": {
+    "context": "001098",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 000896"
+  },
+  "001106": {
+    "context": "001106",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "「違う」"
+  },
+  "001111": {
+    "context": "001111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000909"
+  },
+  "001124": {
+    "context": "001124",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000922"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000930"
+  },
+  "001140": {
+    "context": "001140",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000938"
+  },
+  "001148": {
+    "context": "001148",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 000946"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0021 001376"
+  },
+  "001175": {
+    "context": "001175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 000973"
+  },
+  "001222": {
+    "context": "001222",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001020"
+  },
+  "001230": {
+    "context": "001230",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001028"
+  },
+  "001238": {
+    "context": "001238",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001036"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001041"
+  },
+  "001248": {
+    "context": "001248",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001046"
+  },
+  "001253": {
+    "context": "001253",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001051"
+  },
+  "001258": {
+    "context": "001258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001056"
+  },
+  "001263": {
+    "context": "001263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001061"
+  },
+  "001268": {
+    "context": "001268",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001066"
+  },
+  "001273": {
+    "context": "001273",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001071"
+  },
+  "001278": {
+    "context": "001278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001076"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001081"
+  },
+  "001288": {
+    "context": "001288",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001086"
+  },
+  "001293": {
+    "context": "001293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001091"
+  },
+  "001298": {
+    "context": "001298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001096"
+  },
+  "001303": {
+    "context": "001303",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001101"
+  },
+  "001308": {
+    "context": "001308",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001106"
+  },
+  "001313": {
+    "context": "001313",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001111"
+  },
+  "001318": {
+    "context": "001318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001116"
+  },
+  "001323": {
+    "context": "001323",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001121"
+  },
+  "001328": {
+    "context": "001328",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001126"
+  },
+  "001333": {
+    "context": "001333",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001131"
+  },
+  "001338": {
+    "context": "001338",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001136"
+  },
+  "001343": {
+    "context": "001343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001141"
+  },
+  "001348": {
+    "context": "001348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001146"
+  },
+  "001353": {
+    "context": "001353",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001151"
+  },
+  "001358": {
+    "context": "001358",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001156"
+  },
+  "001363": {
+    "context": "001363",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001161"
+  },
+  "001368": {
+    "context": "001368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001166"
+  },
+  "001373": {
+    "context": "001373",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001171"
+  },
+  "001378": {
+    "context": "001378",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001176"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001181"
+  },
+  "001388": {
+    "context": "001388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001186"
+  },
+  "001393": {
+    "context": "001393",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001191"
+  },
+  "001398": {
+    "context": "001398",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001196"
+  },
+  "001403": {
+    "context": "001403",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001201"
+  },
+  "001446": {
+    "context": "001446",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001244"
+  },
+  "001452": {
+    "context": "001452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001250"
+  },
+  "001457": {
+    "context": "001457",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001255"
+  },
+  "001462": {
+    "context": "001462",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001260"
+  },
+  "001468": {
+    "context": "001468",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001266"
+  },
+  "001474": {
+    "context": "001474",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001272"
+  },
+  "001480": {
+    "context": "001480",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001278"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001322"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001327"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001335"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001343"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001356"
+  },
+  "001566": {
+    "context": "001566",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001364"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0002 005125"
+  },
+  "001579": {
+    "context": "001579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001377"
+  },
+  "001587": {
+    "context": "001587",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001385"
+  },
+  "001595": {
+    "context": "001595",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001393"
+  },
+  "001603": {
+    "context": "001603",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001401"
+  },
+  "001611": {
+    "context": "001611",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001409"
+  },
+  "001619": {
+    "context": "001619",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001417"
+  },
+  "001627": {
+    "context": "001627",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 001425"
+  },
+  "001635": {
+    "context": "001635",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001433"
+  },
+  "001684": {
+    "context": "001684",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001482"
+  },
+  "001692": {
+    "context": "001692",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001490"
+  },
+  "001700": {
+    "context": "001700",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001498"
+  },
+  "001708": {
+    "context": "001708",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 001506"
+  },
+  "001719": {
+    "context": "001719",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001517"
+  },
+  "001724": {
+    "context": "001724",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001522"
+  },
+  "001729": {
+    "context": "001729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001527"
+  },
+  "001824": {
+    "context": "001824",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001827": {
+    "context": "001827",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001625"
+  },
+  "001831": {
+    "context": "001831",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001834": {
+    "context": "001834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001632"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001841": {
+    "context": "001841",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001639"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001848": {
+    "context": "001848",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001646"
+  },
+  "001851": {
+    "context": "001851",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001649"
+  },
+  "001855": {
+    "context": "001855",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "001858": {
+    "context": "001858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "001861": {
+    "context": "001861",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001659"
+  },
+  "001865": {
+    "context": "001865",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001870": {
+    "context": "001870",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001668"
+  },
+  "001873": {
+    "context": "001873",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001671"
+  },
+  "001877": {
+    "context": "001877",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "001880": {
+    "context": "001880",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "001883": {
+    "context": "001883",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001681"
+  },
+  "001887": {
+    "context": "001887",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001890": {
+    "context": "001890",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001688"
+  },
+  "001894": {
+    "context": "001894",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001897": {
+    "context": "001897",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001695"
+  },
+  "001901": {
+    "context": "001901",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "001904": {
+    "context": "001904",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001702"
+  },
+  "001907": {
+    "context": "001907",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001709"
+  },
+  "001914": {
+    "context": "001914",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001712"
+  },
+  "001918": {
+    "context": "001918",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001716"
+  },
+  "001921": {
+    "context": "001921",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001719"
+  },
+  "001925": {
+    "context": "001925",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001928": {
+    "context": "001928",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001726"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "001935": {
+    "context": "001935",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001733"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "001942": {
+    "context": "001942",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001740"
+  },
+  "001945": {
+    "context": "001945",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001743"
+  },
+  "001949": {
+    "context": "001949",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001952": {
+    "context": "001952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001750"
+  },
+  "001955": {
+    "context": "001955",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001753"
+  },
+  "001965": {
+    "context": "001965",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001968": {
+    "context": "001968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001766"
+  },
+  "001972": {
+    "context": "001972",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001975": {
+    "context": "001975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001773"
+  },
+  "001979": {
+    "context": "001979",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001777"
+  },
+  "001982": {
+    "context": "001982",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001780"
+  },
+  "001986": {
+    "context": "001986",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001784"
+  },
+  "001990": {
+    "context": "001990",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001993": {
+    "context": "001993",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001791"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001794"
+  },
+  "002006": {
+    "context": "002006",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002009": {
+    "context": "002009",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001807"
+  },
+  "002013": {
+    "context": "002013",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002016": {
+    "context": "002016",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001814"
+  },
+  "002019": {
+    "context": "002019",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001817"
+  },
+  "002023": {
+    "context": "002023",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002026": {
+    "context": "002026",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001824"
+  },
+  "002029": {
+    "context": "002029",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001827"
+  },
+  "002033": {
+    "context": "002033",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002036": {
+    "context": "002036",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001834"
+  },
+  "002040": {
+    "context": "002040",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001838"
+  },
+  "002043": {
+    "context": "002043",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001841"
+  },
+  "002047": {
+    "context": "002047",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002050": {
+    "context": "002050",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001848"
+  },
+  "002054": {
+    "context": "002054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001852"
+  },
+  "002057": {
+    "context": "002057",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001855"
+  },
+  "002067": {
+    "context": "002067",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002070": {
+    "context": "002070",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001868"
+  },
+  "002074": {
+    "context": "002074",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001875"
+  },
+  "002080": {
+    "context": "002080",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001878"
+  },
+  "002084": {
+    "context": "002084",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002087": {
+    "context": "002087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001885"
+  },
+  "002090": {
+    "context": "002090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001888"
+  },
+  "002094": {
+    "context": "002094",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002097": {
+    "context": "002097",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001895"
+  },
+  "002101": {
+    "context": "002101",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002104": {
+    "context": "002104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001902"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "002111": {
+    "context": "002111",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001909"
+  },
+  "002114": {
+    "context": "002114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001912"
+  },
+  "002118": {
+    "context": "002118",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002121": {
+    "context": "002121",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001919"
+  },
+  "002125": {
+    "context": "002125",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001923"
+  },
+  "002128": {
+    "context": "002128",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001926"
+  },
+  "002138": {
+    "context": "002138",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002141": {
+    "context": "002141",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001939"
+  },
+  "002145": {
+    "context": "002145",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002148": {
+    "context": "002148",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001946"
+  },
+  "002152": {
+    "context": "002152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001950"
+  },
+  "002155": {
+    "context": "002155",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001953"
+  },
+  "002159": {
+    "context": "002159",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "002162": {
+    "context": "002162",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001960"
+  },
+  "002166": {
+    "context": "002166",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001964"
+  },
+  "002169": {
+    "context": "002169",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001967"
+  },
+  "002173": {
+    "context": "002173",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002176": {
+    "context": "002176",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001974"
+  },
+  "002179": {
+    "context": "002179",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001977"
+  },
+  "002183": {
+    "context": "002183",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002186": {
+    "context": "002186",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001984"
+  },
+  "002190": {
+    "context": "002190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 001988"
+  },
+  "002200": {
+    "context": "002200",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002203": {
+    "context": "002203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002001"
+  },
+  "002207": {
+    "context": "002207",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002210": {
+    "context": "002210",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002008"
+  },
+  "002213": {
+    "context": "002213",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002011"
+  },
+  "002217": {
+    "context": "002217",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002220": {
+    "context": "002220",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002018"
+  },
+  "002224": {
+    "context": "002224",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002022"
+  },
+  "002228": {
+    "context": "002228",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002231": {
+    "context": "002231",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002029"
+  },
+  "002235": {
+    "context": "002235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002033"
+  },
+  "002245": {
+    "context": "002245",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002248": {
+    "context": "002248",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002046"
+  },
+  "002252": {
+    "context": "002252",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002255": {
+    "context": "002255",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002053"
+  },
+  "002258": {
+    "context": "002258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002056"
+  },
+  "002262": {
+    "context": "002262",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002265": {
+    "context": "002265",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002063"
+  },
+  "002268": {
+    "context": "002268",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002066"
+  },
+  "002271": {
+    "context": "002271",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002069"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002278": {
+    "context": "002278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002076"
+  },
+  "002281": {
+    "context": "002281",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002079"
+  },
+  "002285": {
+    "context": "002285",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002288": {
+    "context": "002288",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002086"
+  },
+  "002291": {
+    "context": "002291",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002089"
+  },
+  "002301": {
+    "context": "002301",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002304": {
+    "context": "002304",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002102"
+  },
+  "002308": {
+    "context": "002308",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002311": {
+    "context": "002311",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002109"
+  },
+  "002315": {
+    "context": "002315",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002318": {
+    "context": "002318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002116"
+  },
+  "002321": {
+    "context": "002321",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002119"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002122"
+  },
+  "002328": {
+    "context": "002328",
+    "code": "0x85",
+    "string": "@import 0345 002126"
+  },
+  "002331": {
+    "context": "002331",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002129"
+  },
+  "002334": {
+    "context": "002334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002132"
+  },
+  "002338": {
+    "context": "002338",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002341": {
+    "context": "002341",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002139"
+  },
+  "002345": {
+    "context": "002345",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002348": {
+    "context": "002348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002146"
+  },
+  "002358": {
+    "context": "002358",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002361": {
+    "context": "002361",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002159"
+  },
+  "002365": {
+    "context": "002365",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002368": {
+    "context": "002368",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002166"
+  },
+  "002372": {
+    "context": "002372",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002375": {
+    "context": "002375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002173"
+  },
+  "002379": {
+    "context": "002379",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002382": {
+    "context": "002382",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002180"
+  },
+  "002386": {
+    "context": "002386",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002389": {
+    "context": "002389",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002187"
+  },
+  "002393": {
+    "context": "002393",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002397": {
+    "context": "002397",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002195"
+  },
+  "002400": {
+    "context": "002400",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002198"
+  },
+  "002404": {
+    "context": "002404",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002407": {
+    "context": "002407",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002205"
+  },
+  "002411": {
+    "context": "002411",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002414": {
+    "context": "002414",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002212"
+  },
+  "002418": {
+    "context": "002418",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002421": {
+    "context": "002421",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002219"
+  },
+  "002424": {
+    "context": "002424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002222"
+  },
+  "002428": {
+    "context": "002428",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002229"
+  },
+  "002435": {
+    "context": "002435",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002438": {
+    "context": "002438",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002236"
+  },
+  "002442": {
+    "context": "002442",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002445": {
+    "context": "002445",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002243"
+  },
+  "002449": {
+    "context": "002449",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002452": {
+    "context": "002452",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002250"
+  },
+  "002462": {
+    "context": "002462",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002465": {
+    "context": "002465",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002263"
+  },
+  "002469": {
+    "context": "002469",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002472": {
+    "context": "002472",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002270"
+  },
+  "002475": {
+    "context": "002475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002273"
+  },
+  "002479": {
+    "context": "002479",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002482": {
+    "context": "002482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002280"
+  },
+  "002492": {
+    "context": "002492",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002495": {
+    "context": "002495",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002293"
+  },
+  "002499": {
+    "context": "002499",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002502": {
+    "context": "002502",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002300"
+  },
+  "002505": {
+    "context": "002505",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002303"
+  },
+  "002509": {
+    "context": "002509",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002512": {
+    "context": "002512",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002310"
+  },
+  "002515": {
+    "context": "002515",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002313"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002522": {
+    "context": "002522",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002320"
+  },
+  "002532": {
+    "context": "002532",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002535": {
+    "context": "002535",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002333"
+  },
+  "002539": {
+    "context": "002539",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002542": {
+    "context": "002542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002340"
+  },
+  "002546": {
+    "context": "002546",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002549": {
+    "context": "002549",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002347"
+  },
+  "002552": {
+    "context": "002552",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002350"
+  },
+  "002556": {
+    "context": "002556",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002559": {
+    "context": "002559",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002357"
+  },
+  "002562": {
+    "context": "002562",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002360"
+  },
+  "002566": {
+    "context": "002566",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002569": {
+    "context": "002569",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002367"
+  },
+  "002572": {
+    "context": "002572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002370"
+  },
+  "002576": {
+    "context": "002576",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002579": {
+    "context": "002579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002377"
+  },
+  "002583": {
+    "context": "002583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002381"
+  },
+  "002587": {
+    "context": "002587",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002590": {
+    "context": "002590",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002388"
+  },
+  "002594": {
+    "context": "002594",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002597": {
+    "context": "002597",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002395"
+  },
+  "002607": {
+    "context": "002607",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002610": {
+    "context": "002610",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002408"
+  },
+  "002614": {
+    "context": "002614",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002617": {
+    "context": "002617",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002415"
+  },
+  "002620": {
+    "context": "002620",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002418"
+  },
+  "002624": {
+    "context": "002624",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002627": {
+    "context": "002627",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002425"
+  },
+  "002630": {
+    "context": "002630",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002428"
+  },
+  "002633": {
+    "context": "002633",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002431"
+  },
+  "002637": {
+    "context": "002637",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002640": {
+    "context": "002640",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002438"
+  },
+  "002643": {
+    "context": "002643",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002441"
+  },
+  "002647": {
+    "context": "002647",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002650": {
+    "context": "002650",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002448"
+  },
+  "002653": {
+    "context": "002653",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002451"
+  },
+  "002657": {
+    "context": "002657",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002660": {
+    "context": "002660",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002458"
+  },
+  "002663": {
+    "context": "002663",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002461"
+  },
+  "002667": {
+    "context": "002667",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002670": {
+    "context": "002670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002468"
+  },
+  "002674": {
+    "context": "002674",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002678": {
+    "context": "002678",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002476"
+  },
+  "002682": {
+    "context": "002682",
+    "code": "0x85",
+    "string": "@import 0345 002480"
+  },
+  "002685": {
+    "context": "002685",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002483"
+  },
+  "002689": {
+    "context": "002689",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002692": {
+    "context": "002692",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002490"
+  },
+  "002695": {
+    "context": "002695",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002493"
+  },
+  "002699": {
+    "context": "002699",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002702": {
+    "context": "002702",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002500"
+  },
+  "002706": {
+    "context": "002706",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002504"
+  },
+  "002709": {
+    "context": "002709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002507"
+  },
+  "002719": {
+    "context": "002719",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002722": {
+    "context": "002722",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002520"
+  },
+  "002726": {
+    "context": "002726",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002729": {
+    "context": "002729",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002527"
+  },
+  "002732": {
+    "context": "002732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002530"
+  },
+  "002736": {
+    "context": "002736",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002739": {
+    "context": "002739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002537"
+  },
+  "002742": {
+    "context": "002742",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002540"
+  },
+  "002746": {
+    "context": "002746",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002749": {
+    "context": "002749",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002547"
+  },
+  "002759": {
+    "context": "002759",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002762": {
+    "context": "002762",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002560"
+  },
+  "002766": {
+    "context": "002766",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002769": {
+    "context": "002769",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002567"
+  },
+  "002773": {
+    "context": "002773",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002776": {
+    "context": "002776",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002574"
+  },
+  "002779": {
+    "context": "002779",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002577"
+  },
+  "002783": {
+    "context": "002783",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002786": {
+    "context": "002786",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002584"
+  },
+  "002789": {
+    "context": "002789",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002587"
+  },
+  "002793": {
+    "context": "002793",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "002796": {
+    "context": "002796",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002594"
+  },
+  "002800": {
+    "context": "002800",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002598"
+  },
+  "002803": {
+    "context": "002803",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002601"
+  },
+  "002807": {
+    "context": "002807",
+    "code": "0x85",
+    "string": "@import 0345 002605"
+  },
+  "002810": {
+    "context": "002810",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002608"
+  },
+  "002814": {
+    "context": "002814",
+    "code": "0x85",
+    "string": "@import 0345 002612"
+  },
+  "002817": {
+    "context": "002817",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002615"
+  },
+  "002820": {
+    "context": "002820",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002618"
+  },
+  "002824": {
+    "context": "002824",
+    "code": "0x85",
+    "string": "@import 0345 002622"
+  },
+  "002827": {
+    "context": "002827",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002625"
+  },
+  "002831": {
+    "context": "002831",
+    "code": "0x85",
+    "string": "@import 0345 002629"
+  },
+  "002834": {
+    "context": "002834",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002632"
+  },
+  "002837": {
+    "context": "002837",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002635"
+  },
+  "002842": {
+    "context": "002842",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002845": {
+    "context": "002845",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002643"
+  },
+  "002849": {
+    "context": "002849",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002852": {
+    "context": "002852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "002856": {
+    "context": "002856",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002654"
+  },
+  "002860": {
+    "context": "002860",
+    "code": "0x85",
+    "string": "　%N　"
+  },
+  "002863": {
+    "context": "002863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002661"
+  },
+  "002867": {
+    "context": "002867",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002870": {
+    "context": "002870",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002668"
+  },
+  "002874": {
+    "context": "002874",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002877": {
+    "context": "002877",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002675"
+  },
+  "002881": {
+    "context": "002881",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002884": {
+    "context": "002884",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002682"
+  },
+  "002888": {
+    "context": "002888",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002891": {
+    "context": "002891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002689"
+  },
+  "002895": {
+    "context": "002895",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002898": {
+    "context": "002898",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002696"
+  },
+  "002902": {
+    "context": "002902",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002905": {
+    "context": "002905",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002703"
+  },
+  "002909": {
+    "context": "002909",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002912": {
+    "context": "002912",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002710"
+  },
+  "002916": {
+    "context": "002916",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002919": {
+    "context": "002919",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002717"
+  },
+  "002923": {
+    "context": "002923",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002721"
+  },
+  "002927": {
+    "context": "002927",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002930": {
+    "context": "002930",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002728"
+  },
+  "002933": {
+    "context": "002933",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002731"
+  },
+  "002943": {
+    "context": "002943",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002946": {
+    "context": "002946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002744"
+  },
+  "002950": {
+    "context": "002950",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002953": {
+    "context": "002953",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002751"
+  },
+  "002956": {
+    "context": "002956",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002754"
+  },
+  "002960": {
+    "context": "002960",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002963": {
+    "context": "002963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002761"
+  },
+  "002966": {
+    "context": "002966",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002764"
+  },
+  "002970": {
+    "context": "002970",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002973": {
+    "context": "002973",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002771"
+  },
+  "002976": {
+    "context": "002976",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002774"
+  },
+  "002980": {
+    "context": "002980",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002983": {
+    "context": "002983",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002781"
+  },
+  "002987": {
+    "context": "002987",
+    "code": "0x85",
+    "string": "　%N"
+  },
+  "002990": {
+    "context": "002990",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002788"
+  },
+  "002994": {
+    "context": "002994",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "002997": {
+    "context": "002997",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002795"
+  },
+  "003001": {
+    "context": "003001",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003004": {
+    "context": "003004",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002802"
+  },
+  "003007": {
+    "context": "003007",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002805"
+  },
+  "003011": {
+    "context": "003011",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003014": {
+    "context": "003014",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002812"
+  },
+  "003017": {
+    "context": "003017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002815"
+  },
+  "003021": {
+    "context": "003021",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003024": {
+    "context": "003024",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002822"
+  },
+  "003027": {
+    "context": "003027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002825"
+  },
+  "003031": {
+    "context": "003031",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002829"
+  },
+  "003034": {
+    "context": "003034",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002832"
+  },
+  "003038": {
+    "context": "003038",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003041": {
+    "context": "003041",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002839"
+  },
+  "003044": {
+    "context": "003044",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002842"
+  },
+  "003048": {
+    "context": "003048",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003051": {
+    "context": "003051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002849"
+  },
+  "003055": {
+    "context": "003055",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003058": {
+    "context": "003058",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002856"
+  },
+  "003062": {
+    "context": "003062",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003065": {
+    "context": "003065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002863"
+  },
+  "003069": {
+    "context": "003069",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003072": {
+    "context": "003072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "Ｎ化の原因が不明である以上、今後もアリスと同様の症状に陥った"
+  },
+  "003075": {
+    "context": "003075",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "コミュニケーターが現れるかもしれない。"
+  },
+  "003079": {
+    "context": "003079",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003082": {
+    "context": "003082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002880"
+  },
+  "003086": {
+    "context": "003086",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003089": {
+    "context": "003089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002887"
+  },
+  "003092": {
+    "context": "003092",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002890"
+  },
+  "003102": {
+    "context": "003102",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003105": {
+    "context": "003105",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002903"
+  },
+  "003109": {
+    "context": "003109",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003112": {
+    "context": "003112",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002910"
+  },
+  "003116": {
+    "context": "003116",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003119": {
+    "context": "003119",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002917"
+  },
+  "003123": {
+    "context": "003123",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003126": {
+    "context": "003126",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002924"
+  },
+  "003130": {
+    "context": "003130",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003133": {
+    "context": "003133",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0028 002373"
+  },
+  "003136": {
+    "context": "003136",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002934"
+  },
+  "003139": {
+    "context": "003139",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002937"
+  },
+  "003142": {
+    "context": "003142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002940"
+  },
+  "003145": {
+    "context": "003145",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002943"
+  },
+  "003149": {
+    "context": "003149",
+    "code": "0x85",
+    "string": "@import 0028 002373"
+  },
+  "003152": {
+    "context": "003152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002950"
+  },
+  "003156": {
+    "context": "003156",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003159": {
+    "context": "003159",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 002957"
+  },
+  "003234": {
+    "context": "003234",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003032"
+  },
+  "003239": {
+    "context": "003239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003037"
+  },
+  "003292": {
+    "context": "003292",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 003090"
+  },
+  "003300": {
+    "context": "003300",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003098"
+  },
+  "003308": {
+    "context": "003308",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003106"
+  },
+  "003316": {
+    "context": "003316",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003114"
+  },
+  "003324": {
+    "context": "003324",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003122"
+  },
+  "003332": {
+    "context": "003332",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003130"
+  },
+  "003340": {
+    "context": "003340",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003138"
+  },
+  "003348": {
+    "context": "003348",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003146"
+  },
+  "003356": {
+    "context": "003356",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003154"
+  },
+  "003364": {
+    "context": "003364",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 003162"
+  },
+  "003372": {
+    "context": "003372",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003170"
+  },
+  "003380": {
+    "context": "003380",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 003178"
+  },
+  "003388": {
+    "context": "003388",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003186"
+  },
+  "003396": {
+    "context": "003396",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003194"
+  },
+  "003404": {
+    "context": "003404",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003202"
+  },
+  "003473": {
+    "context": "003473",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003271"
+  },
+  "003481": {
+    "context": "003481",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003279"
+  },
+  "003489": {
+    "context": "003489",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003287"
+  },
+  "003497": {
+    "context": "003497",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003295"
+  },
+  "003505": {
+    "context": "003505",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003303"
+  },
+  "003513": {
+    "context": "003513",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003311"
+  },
+  "003560": {
+    "context": "003560",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003358"
+  },
+  "003568": {
+    "context": "003568",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003366"
+  },
+  "003615": {
+    "context": "003615",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0139 005920"
+  },
+  "003623": {
+    "context": "003623",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003421"
+  },
+  "003631": {
+    "context": "003631",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003429"
+  },
+  "003704": {
+    "context": "003704",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003502"
+  },
+  "003709": {
+    "context": "003709",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003507"
+  },
+  "003722": {
+    "context": "003722",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003520"
+  },
+  "003730": {
+    "context": "003730",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003528"
+  },
+  "003738": {
+    "context": "003738",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003536"
+  },
+  "003746": {
+    "context": "003746",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003544"
+  },
+  "003754": {
+    "context": "003754",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003552"
+  },
+  "003762": {
+    "context": "003762",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003560"
+  },
+  "003767": {
+    "context": "003767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003565"
+  },
+  "003775": {
+    "context": "003775",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 003573"
+  },
+  "003783": {
+    "context": "003783",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003581"
+  },
+  "003791": {
+    "context": "003791",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003589"
+  },
+  "003799": {
+    "context": "003799",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003597"
+  },
+  "003807": {
+    "context": "003807",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003605"
+  },
+  "003818": {
+    "context": "003818",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0027 000856"
+  },
+  "003826": {
+    "context": "003826",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「はい」"
+  },
+  "003831": {
+    "context": "003831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003629"
+  },
+  "003844": {
+    "context": "003844",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003642"
+  },
+  "003852": {
+    "context": "003852",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003650"
+  },
+  "003860": {
+    "context": "003860",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003658"
+  },
+  "003868": {
+    "context": "003868",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003666"
+  },
+  "003876": {
+    "context": "003876",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003674"
+  },
+  "003884": {
+    "context": "003884",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0002 002723"
+  },
+  "003892": {
+    "context": "003892",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003690"
+  },
+  "003900": {
+    "context": "003900",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003698"
+  },
+  "003908": {
+    "context": "003908",
+    "code": "0x45",
+    "developer_comment": "黒田",
+    "string": "@import 0345 003706"
+  },
+  "003918": {
+    "context": "003918",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0345 003716"
+  },
+  "003926": {
+    "context": "003926",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@import 0345 003724"
+  },
+  "004133": {
+    "context": "004133",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そうして記憶を遡り、様々なものに対する想いが強くなるに従い――"
+  },
+  "004138": {
+    "context": "004138",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那の心の奥底から、新たな記憶が湧き上がってきた。"
+  }
+}

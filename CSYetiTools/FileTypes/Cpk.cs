@@ -4,6 +4,7 @@ using System.Dynamic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.FileTypes
 {
@@ -87,24 +88,24 @@ namespace CsYetiTools.FileTypes
         private static byte[] ItocTag = ToBytes("ITOC");
         private static byte[] LaylaTag = ToBytes("CRILAYLA");
 
-        private static string PeekString(BinaryReader reader, long pos)
+        private static string PeekString(IBinaryStream reader, long pos)
         {
-            var oldPos = reader.BaseStream.Position;
-            reader.BaseStream.Position = pos;
+            var oldPos = reader.Position;
+            reader.Position = pos;
             var bytes = new List<byte>();
             byte c;
             while ((c = reader.ReadByte()) != 0) bytes.Add(c);
             var str = Encoding.ASCII.GetString(bytes.ToArray());
-            reader.BaseStream.Position = oldPos;
+            reader.Position = oldPos;
             return str;
         }
 
-        private static byte[] PeekBytes(BinaryReader reader, long pos, int size)
+        private static byte[] PeekBytes(IBinaryStream reader, long pos, int size)
         {
-            var oldPos = reader.BaseStream.Position;
-            reader.BaseStream.Position = pos;
+            var oldPos = reader.Position;
+            reader.Position = pos;
             var bytes = reader.ReadBytesExact(size);
-            reader.BaseStream.Position = oldPos;
+            reader.Position = oldPos;
             return bytes;
         }
 
@@ -129,11 +130,11 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        private static Byte[] ReadUtfPacket(BinaryReader reader)
+        private static Byte[] ReadUtfPacket(IBinaryStream reader)
         {
-            var unknown = reader.ReadUInt32(); // 0x000000FF
+            var unknown = reader.ReadUInt32LE(); // 0x000000FF
             if (unknown != 0x00000FFU) Console.WriteLine($"Unknown u32 {unknown} != 0x000000FF");
-            var size = reader.ReadInt64();
+            var size = reader.ReadInt64LE();
             if (size > int.MaxValue) throw new InvalidDataException($"Too large UTF size {size}");
             var utf = reader.ReadBytesExact((int)size);
             if (!utf.Take(4).SequenceEqual(UtfTag)) DecryptInPlace(utf);
@@ -142,19 +143,19 @@ namespace CsYetiTools.FileTypes
 
         private static UtfTable ParseUtf(byte[] utf)
         {
-            using var reader = new BinaryReader(new MemoryStream(utf));
-            CheckBytes(reader.ReadBytes(4), UtfTag, "UTF tag mismatch");
-            var tableSize = reader.ReadBEInt32();
+            using var reader = new BinaryStream(utf);
+            CheckBytes(reader.ReadBytesMax(4), UtfTag, "UTF tag mismatch");
+            var tableSize = reader.ReadInt32BE();
             if (tableSize + 8 != utf.Length) Console.WriteLine($"tableSize {tableSize} != {utf.Length - 8}?");
-            var rowsStart = reader.ReadBEInt32() + 8;
-            var textStart = reader.ReadBEInt32() + 8;
+            var rowsStart = reader.ReadInt32BE() + 8;
+            var textStart = reader.ReadInt32BE() + 8;
             var firstString = PeekString(reader, textStart);
             if (firstString != "<NULL>") Console.WriteLine("first string: " + firstString);
-            var dataStart = reader.ReadBEInt32() + 8;
-            var tableNameOffset = reader.ReadBEInt32();
-            var columnCount = reader.ReadBEInt16();
-            var rowSize = reader.ReadBEInt16();
-            var rowCount = reader.ReadBEInt32();
+            var dataStart = reader.ReadInt32BE() + 8;
+            var tableNameOffset = reader.ReadInt32BE();
+            var columnCount = reader.ReadInt16BE();
+            var rowSize = reader.ReadInt16BE();
+            var rowCount = reader.ReadInt32BE();
 
             object ReadCell(ColumnType type)
             {
@@ -162,15 +163,15 @@ namespace CsYetiTools.FileTypes
                 {
                     ColumnType.Byte => reader.ReadByte(),
                     ColumnType.SByte => reader.ReadSByte(),
-                    ColumnType.UInt16 => reader.ReadBEUInt16(),
-                    ColumnType.Int16 => reader.ReadBEInt16(),
-                    ColumnType.UInt32 => reader.ReadBEUInt32(),
-                    ColumnType.Int32 => reader.ReadBEInt32(),
-                    ColumnType.UInt64 => reader.ReadBEUInt64(),
-                    ColumnType.Int64 => reader.ReadBEInt64(),
-                    ColumnType.Single => reader.ReadBESingle(),
-                    ColumnType.String => PeekString(reader, reader.ReadBEInt32()),
-                    ColumnType.Bytes => PeekBytes(reader, dataStart + reader.ReadBEInt32(), reader.ReadBEInt32()),
+                    ColumnType.UInt16 => reader.ReadUInt16BE(),
+                    ColumnType.Int16 => reader.ReadInt16BE(),
+                    ColumnType.UInt32 => reader.ReadUInt32BE(),
+                    ColumnType.Int32 => reader.ReadInt32BE(),
+                    ColumnType.UInt64 => reader.ReadUInt64BE(),
+                    ColumnType.Int64 => reader.ReadInt64BE(),
+                    ColumnType.Single => throw new NotSupportedException("float not supported"),
+                    ColumnType.String => PeekString(reader, reader.ReadInt32BE()),
+                    ColumnType.Bytes => PeekBytes(reader, dataStart + reader.ReadInt32BE(), reader.ReadInt32BE()),
                     _ => throw new InvalidDataException($"Unknown cell type: {type}")
                 };
             }
@@ -184,11 +185,11 @@ namespace CsYetiTools.FileTypes
                 if (flag == 0)
                 {
                     Console.WriteLine("flag == 0");
-                    flag = reader.ReadBEInt32();
+                    flag = reader.ReadInt32BE();
                 }
                 var category = Utils.SafeCastEnum<ColumnCategory>((flag & 0xF0) >> 4);
                 var type = Utils.SafeCastEnum<ColumnType>(flag & 0x0F);
-                var nameOffset = reader.ReadBEInt32();
+                var nameOffset = reader.ReadInt32BE();
                 var name = PeekString(reader, textStart + nameOffset);
                 object? data = null;
                 if (category == ColumnCategory.Constant)
@@ -198,17 +199,17 @@ namespace CsYetiTools.FileTypes
                 }
                 columns.Add(new Column(category, type, name, data));
             }
-            if (reader.BaseStream.Position != rowsStart)
+            if (reader.Position != rowsStart)
             {
                 throw new InvalidDataException(
-                    $"Column not followed by row data: {reader.BaseStream.Position} => {rowsStart}");
+                    $"Column not followed by row data: {reader.Position} => {rowsStart}");
             }
 
             var rows = new List<dynamic>();
             for (int i = 0; i < rowCount; ++i)
             {
                 var row = new ExpandoObject();
-                reader.BaseStream.Position = rowsStart + rowSize * i;
+                reader.Position = rowsStart + rowSize * i;
                 foreach (var column in columns)
                 {
                     object? cell = column.Category switch
@@ -225,22 +226,22 @@ namespace CsYetiTools.FileTypes
                 }
                 rows.Add(row);
             }
-            if (reader.BaseStream.Position != textStart)
+            if (reader.Position != textStart)
             {
                 throw new InvalidDataException(
-                    $"Rows not followed by text data: {reader.BaseStream.Position} => {textStart}");
+                    $"Rows not followed by text data: {reader.Position} => {textStart}");
             }
 
             return new UtfTable(tableName, columns.ToArray(), rows.ToArray());
         }
 
         private static IEnumerable<(int id, ItocEntry entry)> ReadItoc(
-            BinaryReader reader,
+            IBinaryStream reader,
             long contentOffset,
             long itocOffset)
         {
-            reader.BaseStream.Position = itocOffset;
-            CheckBytes(reader.ReadBytes(4), ItocTag, "Itoc tag mismatch");
+            reader.Position = itocOffset;
+            CheckBytes(reader.ReadBytesMax(4), ItocTag, "Itoc tag mismatch");
 
             var table = ParseUtf(ReadUtfPacket(reader));
 
@@ -275,7 +276,7 @@ namespace CsYetiTools.FileTypes
             yield break;
         }
 
-        private Stream _stream;
+        private BinaryStream _stream;
 
         private List<ItocEntry> _itocEntries;
 
@@ -284,11 +285,10 @@ namespace CsYetiTools.FileTypes
 
         public Cpk(Stream stream)
         {
-            _stream = stream;
+            _stream = new BinaryStream(stream);
 
-            using var reader = new BinaryReader(stream, Encoding.Default, leaveOpen: true);
-            CheckBytes(reader.ReadBytes(4), FileTag, "File tag mismatch");
-            var headerTable = ParseUtf(ReadUtfPacket(reader));
+            CheckBytes(_stream.ReadBytesMax(4), FileTag, "File tag mismatch");
+            var headerTable = ParseUtf(ReadUtfPacket(_stream));
             var header = headerTable.Rows[0];
             var contentOffset = checked((long)header.ContentOffset);
             var align = checked((int)header.Align);
@@ -304,7 +304,7 @@ namespace CsYetiTools.FileTypes
             if (header.ItocOffset != null)
             {
                 var itocs = new SortedDictionary<int, ItocEntry>();
-                foreach (var (id, entry) in ReadItoc(reader, contentOffset, (long)header.ItocOffset))
+                foreach (var (id, entry) in ReadItoc(_stream, contentOffset, (long)header.ItocOffset))
                 {
                     itocs.Add(id, entry);
                 }
@@ -339,9 +339,9 @@ namespace CsYetiTools.FileTypes
 
         private static byte[] DecodeLayla(byte[] bytes)
         {
-            using var reader = new BinaryReader(new MemoryStream(bytes));
-            var rawSize = reader.ReadInt32();
-            var newSize = reader.ReadInt32();
+            using var reader = new BinaryStream(bytes);
+            var rawSize = reader.ReadInt32LE();
+            var newSize = reader.ReadInt32LE();
             var data = reader.ReadBytesExact(newSize);
             var prefix = reader.ReadToEnd();
 

@@ -1045,6 +1045,11 @@
     "developer_comment": "渡瀬",
     "string": "「好！那么——」"
   },
+  "004485": {
+    "context": "004485",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "004514": {
     "context": "004514",
     "code": "0x45",
@@ -1410,5 +1415,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑在心里暗暗发誓，跟着风见她们一起离开了简易基地。"
+  },
+  "005639": {
+    "context": "005639",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

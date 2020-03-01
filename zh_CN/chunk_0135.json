@@ -196,6 +196,11 @@
     "developer_comment": "",
     "string": "一刻也不想留在教室里的夏彦，牵起真白的手就往外走。"
   },
+  "001086": {
+    "context": "001086",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001101": {
     "context": "001101",
     "code": "0x45",
@@ -381,5 +386,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "一边聊着柴米油盐的话题，两人一边走出学校……"
+  },
+  "002044": {
+    "context": "002044",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

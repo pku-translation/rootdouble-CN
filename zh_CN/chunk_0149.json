@@ -222,6 +222,11 @@
     "developer_comment": "夏彦",
     "string": "「呃、嗯……」"
   },
+  "001230": {
+    "context": "001230",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "001259": {
     "context": "001259",
     "code": "0x45",
@@ -774,6 +779,11 @@
     "developer_comment": "",
     "string": "究竟是真不知道详细呢，还是不想回答呢——就连这个夏彦也不知道。"
   },
+  "003198": {
+    "context": "003198",
+    "code": "0x87",
+    "string": "@ignore"
+  },
   "003233": {
     "context": "003233",
     "code": "0x45",
@@ -791,6 +801,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「那、那真是抱歉……」"
+  },
+  "003285": {
+    "context": "003285",
+    "code": "0x04",
+    "string": "@ignore"
   },
   "003287": {
     "context": "003287",
@@ -952,5 +967,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "有什么东西在自己浑然不觉的暗处悄悄进行着的，这种不安……"
+  },
+  "003990": {
+    "context": "003990",
+    "code": "0x02",
+    "string": "@ignore"
   }
 }

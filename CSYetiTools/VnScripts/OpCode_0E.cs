@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
 {
@@ -22,15 +23,15 @@ namespace CsYetiTools.VnScripts
         public override int ArgLength
             => 4 + _branches.Length * 6;
 
-        protected override void ReadArgs(BinaryReader reader)
+        protected override void ReadArgs(IBinaryStream reader)
         {
-            _unknown1 = reader.ReadInt16();
-            _count = reader.ReadInt16();
+            _unknown1 = reader.ReadInt16LE();
+            _count = reader.ReadInt16LE();
             if (_count == InvalidCount)
             {
-                int size = TargetEndOffset - (int)reader.BaseStream.Position;
+                int size = TargetEndOffset - (int)reader.Position;
                 if (size < 0 || size % 6 != 0)
-                    throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.BaseStream.Position:X08}, {TargetEndOffset:X08}) (size={size})");
+                    throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.Position:X08}, {TargetEndOffset:X08}) (size={size})");
                 _branches = new (short prefix, CodeAddressData offset)[size / 6];
             }
             else
@@ -39,18 +40,18 @@ namespace CsYetiTools.VnScripts
             }
             for (int i = 0; i < _branches.Length; ++i)
             {
-                _branches[i].prefix = reader.ReadInt16();
-                _branches[i].offset = new CodeAddressData(_offset, reader.ReadInt32());
+                _branches[i].prefix = reader.ReadInt16LE();
+                _branches[i].offset = new CodeAddressData(Offset, reader.ReadInt32LE());
             }
         }
 
-        protected override void WriteArgs(BinaryWriter writer)
+        protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_unknown1);
-            writer.Write(_count);
+            writer.WriteLE(_unknown1);
+            writer.WriteLE(_count);
             for (int i = 0; i < _branches.Length; ++i)
             {
-                writer.Write(_branches[i].prefix);
+                writer.WriteLE(_branches[i].prefix);
                 WriteAddress(writer, _branches[i].offset);
             }
         }

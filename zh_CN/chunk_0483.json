@@ -1,0 +1,523 @@
+{
+  "000064": {
+    "context": "000064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000068"
+  },
+  "000069": {
+    "context": "000069",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000073"
+  },
+  "000074": {
+    "context": "000074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000078"
+  },
+  "000079": {
+    "context": "000079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000083"
+  },
+  "000084": {
+    "context": "000084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000088"
+  },
+  "000089": {
+    "context": "000089",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000093"
+  },
+  "000094": {
+    "context": "000094",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000098"
+  },
+  "000189": {
+    "context": "000189",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0376 000193"
+  },
+  "000197": {
+    "context": "000197",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0048 001821"
+  },
+  "000202": {
+    "context": "000202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000206"
+  },
+  "000248": {
+    "context": "000248",
+    "code": "0x87",
+    "string": "@ignore"
+  },
+  "000277": {
+    "context": "000277",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0376 000235"
+  },
+  "000288": {
+    "context": "000288",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0376 000246"
+  },
+  "000293": {
+    "context": "000293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000251"
+  },
+  "000298": {
+    "context": "000298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000256"
+  },
+  "000303": {
+    "context": "000303",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000261"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「隊長……ひとつお聞きしてもよろしいでしょうか？」"
+  },
+  "000419": {
+    "context": "000419",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ん、なんだ？」"
+  },
+  "000427": {
+    "context": "000427",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「もしですよ。もし隊長の周りに、コミュニケーターがいたとしたら……どう思われますか？」"
+  },
+  "000456": {
+    "context": "000456",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どう思うかって……うーむ、場合によりけりだな」"
+  },
+  "000485": {
+    "context": "000485",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「例えばそいつがエンパシーを使えるのに、それを俺には隠してたりしたら、ちょっと不気味に思うかもしれないな」"
+  },
+  "000493": {
+    "context": "000493",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そう、ですか……」"
+  },
+  "000522": {
+    "context": "000522",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「どうした橘、ひょっとしてエンパシー使えるのか？」"
+  },
+  "000530": {
+    "context": "000530",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ、いえ！　そんな事はないですけど……」"
+  },
+  "000559": {
+    "context": "000559",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「なんだ、それは残念だな」"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「え？」"
+  },
+  "000596": {
+    "context": "000596",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いやホラ、隊にエンパシー使える奴がいたら便利じゃないか。人命検索の時とか」"
+  },
+  "000607": {
+    "context": "000607",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「電波カメラやサーモグラフィなしでも、暗闇の中に人がいるかどうか確認できそうだ」"
+  },
+  "000615": {
+    "context": "000615",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「で、でも隊長、ＢＣはあまり好きではないのでは？」"
+  },
+  "000644": {
+    "context": "000644",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「仕事は別だよ。仕事以外じゃやめて欲しいがな」"
+  },
+  "000649": {
+    "context": "000649",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って笑った。"
+  },
+  "000683": {
+    "context": "000683",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（冗談だとは思うけど……ＢＣがあまり好きではないのは、本当みたいね）"
+  },
+  "000689": {
+    "context": "000689",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "（私に適性度があるという事も、隠しておいた方が良さそう……）"
+  },
+  "000694": {
+    "context": "000694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もっとも入隊する時に、遺伝子検査は受けているので、適性度Ｄである事は資料を見ればわかるだろう。"
+  },
+  "000699": {
+    "context": "000699",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬もすでに知っているかもしれない。だが風見は聞かれなければ、特に答えない事にした。"
+  },
+  "000704": {
+    "context": "000704",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もしこんな事で、渡瀬との関係がギクシャクしてしまったら嫌だと思ったのだ。"
+  },
+  "000712": {
+    "context": "000712",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000266"
+  },
+  "000718": {
+    "context": "000718",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0376 000272"
+  },
+  "000723": {
+    "context": "000723",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000277"
+  },
+  "000813": {
+    "context": "000813",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000367"
+  },
+  "000818": {
+    "context": "000818",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000372"
+  },
+  "000869": {
+    "context": "000869",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000423"
+  },
+  "000874": {
+    "context": "000874",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000428"
+  },
+  "000879": {
+    "context": "000879",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000433"
+  },
+  "000947": {
+    "context": "000947",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000501"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000506"
+  },
+  "000963": {
+    "context": "000963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 000335"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 000340"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 000345"
+  },
+  "000979": {
+    "context": "000979",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000533"
+  },
+  "001088": {
+    "context": "001088",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000642"
+  },
+  "001163": {
+    "context": "001163",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 000474"
+  },
+  "001171": {
+    "context": "001171",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002651"
+  },
+  "001179": {
+    "context": "001179",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002659"
+  },
+  "001187": {
+    "context": "001187",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002668"
+  },
+  "001193": {
+    "context": "001193",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0376 000747"
+  },
+  "001198": {
+    "context": "001198",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000752"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000757"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000762"
+  },
+  "001213": {
+    "context": "001213",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000767"
+  },
+  "001218": {
+    "context": "001218",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000772"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000777"
+  },
+  "001229": {
+    "context": "001229",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0376 000783"
+  },
+  "001235": {
+    "context": "001235",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0376 000789"
+  },
+  "001307": {
+    "context": "001307",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000861"
+  },
+  "001314": {
+    "context": "001314",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000868"
+  },
+  "001319": {
+    "context": "001319",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 000719"
+  },
+  "001324": {
+    "context": "001324",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000878"
+  },
+  "001329": {
+    "context": "001329",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000883"
+  },
+  "001334": {
+    "context": "001334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000888"
+  },
+  "001345": {
+    "context": "001345",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 000899"
+  },
+  "001408": {
+    "context": "001408",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002300"
+  },
+  "001416": {
+    "context": "001416",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002308"
+  },
+  "001424": {
+    "context": "001424",
+    "code": "0x45",
+    "developer_comment": "自動放送",
+    "string": "@import 0201 002316"
+  },
+  "001541": {
+    "context": "001541",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 001095"
+  },
+  "001564": {
+    "context": "001564",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 001118"
+  },
+  "001630": {
+    "context": "001630",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0376 001184"
+  },
+  "001635": {
+    "context": "001635",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 003219"
+  },
+  "001640": {
+    "context": "001640",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 003224"
+  },
+  "001709": {
+    "context": "001709",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "@import 0334 003282"
+  },
+  "001717": {
+    "context": "001717",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0334 003318"
+  },
+  "001722": {
+    "context": "001722",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 003323"
+  },
+  "001728": {
+    "context": "001728",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0334 003328"
+  },
+  "001984": {
+    "context": "001984",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0482 002456"
+  },
+  "001989": {
+    "context": "001989",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0482 002461"
+  },
+  "001994": {
+    "context": "001994",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0482 002466"
+  },
+  "001999": {
+    "context": "001999",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@import 0482 002471"
+  }
+}
