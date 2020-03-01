@@ -76,6 +76,26 @@ namespace CsYetiTools
             return reader.ReadBytes(checked((int)(reader.BaseStream.Length - reader.BaseStream.Position)));
         }
 
+        public static byte[] ReadBytes(this Stream stream, int count)
+        {
+            var data = new byte[count];
+            var read = stream.Read(data);
+            return data;
+        }
+
+        public static byte[] ReadBytesExact(this Stream stream, int count)
+        {
+            var data = new byte[count];
+            var read = stream.Read(data);
+            if (read != count) throw new InvalidDataException($"No enough data, {data.Length} read (need {count})");
+            return data;
+        }
+
+        public static byte[] ReadToEnd(this Stream stream)
+        {
+            return stream.ReadBytes(checked((int)(stream.Length - stream.Position)));
+        }
+
         public static IEnumerable<(int index, T element)> WithIndex<T>(this IEnumerable<T> source)
         {
             int i = 0;

@@ -143,15 +143,15 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        public static ExecutableStringPeeker FromFile(string path, SExpr rangesExpr, Encoding encoding)
+        public static ExecutableStringPeeker FromFile(FilePath path, SExpr rangesExpr, Encoding encoding)
         {
             using var file = File.OpenRead(path);
             return new ExecutableStringPeeker(file, rangesExpr, encoding);
         }
 
-        public static ExecutableStringPeeker FromFile(string path, Encoding encoding)
+        public static ExecutableStringPeeker FromFile(FilePath path, Encoding encoding)
         {
-            return FromFile(path, SExpr.ParseFile(Path.Combine(Path.GetDirectoryName(path)!, "exe_string_pool.ss")), encoding);
+            return FromFile(path, SExpr.ParseFile(path.Parent / "exe_string_pool.ss"), encoding);
         }
 
         public IEnumerable<string> Names
@@ -160,11 +160,11 @@ namespace CsYetiTools.FileTypes
         public List<StringSegment> Segments(string name)
             => _ranges.First(kv => kv.name == name).segments;
 
-        public void Modify(Stream stream, Encoding encoding, string stringPoolDirPath)
+        public void Modify(Stream stream, Encoding encoding, FilePath stringPoolDirPath)
         {
             foreach (var (name, segs) in _ranges)
             {
-                var sexprs = SExpr.ParseFile(Path.Combine(stringPoolDirPath, name + ".ss"));
+                var sexprs = SExpr.ParseFile(stringPoolDirPath / (name + ".ss"));
                 var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
                 if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
                 foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
@@ -197,14 +197,14 @@ namespace CsYetiTools.FileTypes
             writer.WriteLine(JsonConvert.SerializeObject(dict, Utils.JsonSettings));
         }
 
-        public void DumpTranslateSource(string dirPath, string stringPoolDirPath)
+        public void DumpTranslateSource(FilePath dirPath, FilePath stringPoolDirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
             foreach (var name in Names)
             {
-                var sexprs = SExpr.ParseFile(Path.Combine(stringPoolDirPath, name + ".ss"));
+                var sexprs = SExpr.ParseFile(stringPoolDirPath / (name + ".ss"));
                 var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
-                DumpTranslateSource(name, Path.Combine(dirPath, name.Replace('-', '_') + ".json"), references);
+                DumpTranslateSource(name, dirPath / (name.Replace('-', '_') + ".json"), references);
             }
         }
     }

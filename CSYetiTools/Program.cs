@@ -95,12 +95,9 @@ namespace CsYetiTools
             }
         }
 
-        private static string RelativePath(string path)
-            => Path.GetRelativePath(Directory.GetCurrentDirectory(), path);
-
-        public static SnPackage Load(string path, bool isStringPooled)
+        public static SnPackage Load(FilePath path, bool isStringPooled)
         {
-            path = RelativePath(path);
+            path = path.ToRelative();
             Console.Write("Loading package " + path + " ... ");
             Console.Out.Flush();
 
@@ -113,9 +110,9 @@ namespace CsYetiTools
             return package;
         }
 
-        public static void GenStringCompare(SnPackage package1, string? modifierPath1, SnPackage package2, string? modifierPath2, string outputDir)
+        public static void GenStringCompare(SnPackage package1, string? modifierPath1, SnPackage package2, string? modifierPath2, FilePath outputDir)
         {
-            outputDir = RelativePath(outputDir);
+            outputDir = outputDir.ToRelative();
             Console.WriteLine($"Gen string compare --> {outputDir}");
 
             void DumpText(string path, IEnumerable<VnScripts.Script.StringReferenceEntry> entries)
@@ -131,7 +128,7 @@ namespace CsYetiTools
 
             Utils.CreateOrClearDirectory(outputDir);
 
-            using var writer = new StreamWriter(Path.Combine(outputDir, "compare-result.txt"));
+            using var writer = new StreamWriter(outputDir / "compare-result.txt");
             int n = 0;
             foreach (var (i, (s1, s2)) in package1.Scripts.Zip(package2.Scripts).WithIndex())
             {
@@ -165,8 +162,8 @@ namespace CsYetiTools
                     ++n;
                     writer.WriteLine("========================================================");
                 }
-                DumpText(Path.Combine(outputDir, $"chunk_{i:0000}_ref.txt"), c1s);
-                DumpText(Path.Combine(outputDir, $"chunk_{i:0000}_steam.txt"), c2s);
+                DumpText(outputDir / $"chunk_{i:0000}_ref.txt", c1s);
+                DumpText(outputDir / $"chunk_{i:0000}_steam.txt", c2s);
             }
             writer.WriteLine($"{n} different files");
         }

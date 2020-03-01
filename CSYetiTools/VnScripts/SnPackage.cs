@@ -144,11 +144,11 @@ namespace CsYetiTools.VnScripts
             System.Diagnostics.Debug.Assert(bytes.SequenceEqual(ToRawBytes()));
         }
 
-        public static SnPackage CreateFrom(string dirPath, bool isStringPooled)
+        public static SnPackage CreateFrom(FilePath dirPath, bool isStringPooled)
         {
             if (!Directory.Exists(dirPath)) throw new ArgumentException($"Directory {dirPath} not exists!");
 
-            var footersPath = Path.Combine(dirPath, "footers");
+            var footersPath = dirPath / "footers";
             if (!File.Exists(footersPath)) throw new ArgumentException("File footers not exists!");
             var footers = new FootersChunk(File.ReadAllBytes(footersPath));
 
@@ -160,7 +160,7 @@ namespace CsYetiTools.VnScripts
             return new SnPackage(scripts, footers);
         }
 
-        public void Dump(string dirPath, bool isDumpBinary, bool isDumpScript)
+        public void Dump(FilePath dirPath, bool isDumpBinary, bool isDumpScript)
         {
             Utils.CreateOrClearDirectory(dirPath);
 
@@ -169,11 +169,11 @@ namespace CsYetiTools.VnScripts
                 Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    var path = Path.Combine(dirPath, $"chunk_{i:0000}.script");
+                    var path = dirPath / $"chunk_{i:0000}.script";
                     using var writer = new BinaryWriter(File.Create(path));
                     script.WriteTo(writer);
                 });
-                File.WriteAllBytes(Path.Combine(dirPath, $"footers"), Footers.ToBytes());
+                File.WriteAllBytes(dirPath / "footers", Footers.ToBytes());
             }
 
             if (isDumpScript)
@@ -182,7 +182,7 @@ namespace CsYetiTools.VnScripts
                 Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    script.DumpText(Path.Combine(dirPath, $"chunk_{i:0000}.script-dump.txt"));
+                    script.DumpText(dirPath / $"chunk_{i:0000}.script-dump.txt");
                     if (script.ParseError != null)
                     {
                         var errorInfo = $"Error parsing chunk_{i:0000}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
@@ -191,17 +191,17 @@ namespace CsYetiTools.VnScripts
                 });
                 if (errors.Count > 0)
                 {
-                    File.WriteAllLines(Path.Combine(dirPath, "parse_error.log"), errors);
+                    File.WriteAllLines(dirPath / "parse_error.log", errors);
                 }
             }
 
-            using (var writer = new StreamWriter(Path.Combine(dirPath, $"footers.txt")))
+            using (var writer = new StreamWriter(dirPath / $"footers.txt"))
             {
                 Footers.Dump(writer);
             }
         }
 
-        public void DumpTranslateSource(string dirPath)
+        public void DumpTranslateSource(FilePath dirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
 
@@ -216,7 +216,7 @@ namespace CsYetiTools.VnScripts
                 var content = JsonConvert.SerializeObject(script.GetTranslateSources(), Utils.JsonSettings);
                 names.UnionWith(script.GetCharacterNames());
 
-                using (var writer = new StreamWriter(Path.Combine(dirPath, $"chunk_{i:0000}.json"), false, Utils.Utf8))
+                using (var writer = new StreamWriter(dirPath / $"chunk_{i:0000}.json", false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
                     writer.Write(content);
@@ -227,7 +227,7 @@ namespace CsYetiTools.VnScripts
                 }
             }
 
-            using (var writer = new StreamWriter(Path.Combine(dirPath, "names.json"), false, Utils.Utf8))
+            using (var writer = new StreamWriter(dirPath / "names.json", false, Utils.Utf8))
             {
                 writer.NewLine = "\n";
                 using (var jsonWriter = new JsonTextWriter(writer))
@@ -244,7 +244,7 @@ namespace CsYetiTools.VnScripts
 
             if (errors.Count > 0)
             {
-                using var errorWriter = new StreamWriter(Path.Combine(dirPath, "parse_error.log"));
+                using var errorWriter = new StreamWriter(dirPath / "parse_error.log");
                 foreach (var error in errors)
                 {
                     errorWriter.WriteLine(error);

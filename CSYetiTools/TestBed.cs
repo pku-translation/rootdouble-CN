@@ -14,9 +14,9 @@ namespace CsYetiTools
 {
     class TestBed
     {
-        private static SnPackage Load(string path, bool isStringPooled)
+        private static SnPackage Load(FilePath path, bool isStringPooled)
         {
-            var rpath = Path.GetRelativePath(Directory.GetCurrentDirectory(), path);
+            var rpath = path.ToRelative();
             Console.Write("Loading package " + rpath + " ... ");
             Console.Out.Flush();
 
@@ -48,6 +48,28 @@ namespace CsYetiTools
             }
         }
 
+        private static long GetX(int i, long width, byte level)
+        {
+            int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
+            int v2 = i << v1;
+            int v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
+            return ((((level << 3) - 1) & ((v3 >> 1) ^ ((v3 ^ (v3 >> 1)) & 0xF))) >> v1)
+                + ((((((v2 >> 6) & 0xFF) + ((v3 >> (v1 + 5)) & 0xFE)) & 3)
+                    + (((v3 >> (v1 + 7)) % (((width + 31)) >> 5)) << 2)) << 3);
+        }
+        private static long GetY(int i, long width, byte level)
+        {
+            int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
+            int v2 = i << v1;
+            int v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
+            return ((v3 >> 4) & 1)
+                + ((((v3 & ((level << 6) - 1) & -0x20)
+                    + ((((v2 & 0x3F)
+                        + ((v2 >> 2) & 0xC0)) & 0xF) << 1)) >> (v1 + 3)) & -2)
+                + ((((v2 >> 10) & 2) + ((v3 >> (v1 + 6)) & 1)
+                    + (((v3 >> (v1 + 7)) / ((width + 31) >> 5)) << 2)) << 3);
+        }
+
         public static async Task Run()
         {
             await Task.Run(() => { });
@@ -59,39 +81,8 @@ namespace CsYetiTools
             // using var file = File.Create("jpexe");
             // stream.WriteTo(file);
 
-            // ----------------- sys --------------------------
-            // using var cpk = Cpk.FromFile("steam/sys.cpk");
-            // for (int i = 0; i < 16; ++i)
-            // {
-            //     Console.WriteLine($"# decoding sys.cpk {i}...");
-            //     SysCpkHelper.DumpContent(cpk, i, $"steam_sys/{i:0000}");
-            // }
-            //SysCpkHelper.DumpContent(cpk, 0, "steam_sys/test0");
-
-            // ----------------- bgs ---------------------------
-            using var cpk = Cpk.FromFile("steam/bgs.cpk");
-            Utils.CreateOrClearDirectory("steam_bgs");
-            foreach (var itoc in cpk.ItocEntries)
-            {
-                using var ms = new MemoryStream();
-                cpk.ExtractItoc(ms, itoc);
-                var data = ms.ToArray();
-                
-                if (data.Take(4).SequenceEqual(Xtx.FileTag))
-                {
-                    try {
-                        new Xtx(data).SaveTo($"steam_bgs/{itoc.Id:00000}.png");
-                    }
-                    catch (NotSupportedException exc)
-                    {
-                        Console.WriteLine(exc.Message);
-                    }
-                }
-                else
-                {
-                    Console.WriteLine($"Unknown itoc: [{Utils.BytesToHex(data.Take(16))}] ...");
-                }
-            }
+            var buffer = new MsbBitBuffer(new byte[]{ 0b10101111, 0b00001011, 0b00100101, 0b11111111 }, 31);
+            Console.WriteLine(Utils.BytesToHex(buffer.ToBytes()));
         }
     }
 }

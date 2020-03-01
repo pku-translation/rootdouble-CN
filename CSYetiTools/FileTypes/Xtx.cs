@@ -31,9 +31,9 @@ namespace CsYetiTools.FileTypes
 
         private int _alignedHeight;
 
-        private int _offsetX;
+        public int OffsetX { get; private set; }
 
-        private int _offsetY;
+        public int OffsetY { get; private set; }
 
         public int Format { get; private set; }
 
@@ -41,14 +41,26 @@ namespace CsYetiTools.FileTypes
 
         public void Dispose()
         {
-            if (Format == 1) ((Image<Bgr565>)Content).Dispose();
-            else if (Format == 2) ((Image<Bgra32>)Content).Dispose();
+            if (Format == 0)
+                ((Image<Bgra32>)Content).Dispose();
+            else if (Format == 1)
+                ((Image<Bgr565>)Content).Dispose();
+            else if (Format == 2)
+                ((Image<Bgra32>)Content).Dispose();
+            else
+                throw new InvalidDataException($"invalid format-type {Format}");
         }
 
         public void SaveTo(string path)
         {
-            if (Format == 1) ((Image<Bgr565>)Content).Save(path);
-            else if (Format == 2) ((Image<Bgra32>)Content).Save(path);
+            if (Format == 0)
+                ((Image<Bgra32>)Content).Save(path);
+            else if (Format == 1)
+                ((Image<Bgr565>)Content).Save(path);
+            else if (Format == 2)
+                ((Image<Bgra32>)Content).Save(path);
+            else
+                throw new InvalidDataException($"invalid format-type {Format}");
         }
 
         public Xtx(byte[] bytes)
@@ -63,16 +75,13 @@ namespace CsYetiTools.FileTypes
             _alignedHeight = reader.ReadBEInt32();
             Width = reader.ReadBEInt32();
             Height = reader.ReadBEInt32();
-            _offsetX = reader.ReadBEInt32();
-            _offsetY = reader.ReadBEInt32();
-            if (_offsetX != 0 || _offsetY != 0)
-            {
-                throw new NotSupportedException($"Non-zero offset ({_offsetX}, {_offsetY}) not supported");
-            }
+            OffsetX = reader.ReadBEInt32();
+            OffsetY = reader.ReadBEInt32();
 
             Content = Format switch
             {
-                //1 => DecodeFormat1(reader),
+                0 => DecodeFormat0(reader),
+                1 => DecodeFormat1(reader),
                 2 => DecodeFormat2(reader),
                 _ => throw new NotSupportedException($"Xtx format {Format} not supported"),
             };
@@ -100,15 +109,48 @@ namespace CsYetiTools.FileTypes
                     + (((v3 >> (v1 + 7)) / ((width + 31) >> 5)) << 2)) << 3);
         }
 
+        private Image<Bgra32> DecodeFormat0(BinaryReader reader)
+        {
+            var data = reader.ReadBytes(_alignedWidth * _alignedHeight * 4);
+            var pixels = new Bgra32[Width * Height];
+
+            foreach (var i in Utils.Range(_alignedWidth * _alignedHeight))
+            {
+                var x = GetX(i, _alignedWidth, 4);
+                var y = GetY(i, _alignedWidth, 4);
+                if (x >= Width || y >= Height) continue;
+
+                var src = i * 4;
+                pixels[x + y * Width] = new Bgra32(
+                    b: data[src + 3],
+                    g: data[src + 2],
+                    r: data[src + 1],
+                    a: data[src]
+                );
+            }
+            return Image.LoadPixelData(pixels, Width, Height);
+        }
+
         private Image<Bgr565> DecodeFormat1(BinaryReader reader)
         {
-            // BGR565
-            throw new NotImplementedException();
+            var data = reader.ReadBytes(_alignedWidth * _alignedHeight * 2);
+            var pixels = new Bgr565[Width * Height];
+            
+            foreach (var i in Utils.Range(_alignedWidth * _alignedHeight))
+            {
+                var x = GetX(i, _alignedWidth, 2);
+                var y = GetY(i, _alignedWidth, 2);
+                if (x >= Width || y >= Height) continue;
+                
+                var src = i * 2;
+
+                pixels[x + y * Width].PackedValue = checked((ushort)(data[src] | (data[src + 1] << 8)));
+            }
+            return Image.LoadPixelData(pixels, Width, Height);
         }
 
         private Image<Bgra32> DecodeFormat2(BinaryReader reader)
         {
-            // BGRA32
             var textureWidth = _alignedWidth / 4;
             var textureHeight = _alignedHeight / 4;
             var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight);

@@ -108,19 +108,6 @@ namespace CsYetiTools.FileTypes
             return bytes;
         }
 
-        private static void WriteBytesTo(Stream source, Stream dest, long count)
-        {
-            var buffer = new byte[4096];
-            while (count > 0)
-            {
-                var shouldRead = count < buffer.Length ? (int)count : buffer.Length;
-                var read = source.Read(buffer, 0, shouldRead);
-                dest.Write(buffer, 0, read);
-                if (read != shouldRead) return;
-                count -= read;
-            }
-        }
-
         private static void CheckBytes(IEnumerable<byte> data, byte[] target, string message)
         {
             var arr = data.ToList();
@@ -258,7 +245,7 @@ namespace CsYetiTools.FileTypes
             var table = ParseUtf(ReadUtfPacket(reader));
 
             if (table.Rows.Length == 0) yield break;
-            
+
             if (table.Name != "CpkItocInfo") throw new InvalidDataException($"Expact CpkItocInfo, find {table.Name}");
 
             if (table.Rows.Length > 1) Console.WriteLine("Multi-entry itoc?");
@@ -275,19 +262,19 @@ namespace CsYetiTools.FileTypes
                 int id = row.ID;
                 int fileSize = row.FileSize;
                 int extractSize = row.ExtractSize ?? fileSize;
-                yield return (id, new ItocEntry{ Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = true });
+                yield return (id, new ItocEntry { Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = true });
             }
             foreach (var row in dataH.Rows)
             {
                 int id = row.ID;
                 long fileSize = row.FileSize;
                 long extractSize = row.ExtractSize ?? fileSize;
-                yield return (id, new ItocEntry{ Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = false });
+                yield return (id, new ItocEntry { Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = false });
             }
 
             yield break;
         }
-        
+
         private Stream _stream;
 
         private List<ItocEntry> _itocEntries;
@@ -342,14 +329,69 @@ namespace CsYetiTools.FileTypes
             }
         }
 
+        private static IEnumerable<int> RepeatCounts()
+        {
+            yield return 2;
+            yield return 3;
+            yield return 5;
+            while (true) yield return 8;
+        }
+
+        private static byte[] DecodeLayla(byte[] bytes)
+        {
+            using var reader = new BinaryReader(new MemoryStream(bytes));
+            var rawSize = reader.ReadInt32();
+            var newSize = reader.ReadInt32();
+            var data = reader.ReadBytesExact(newSize);
+            var prefix = reader.ReadToEnd();
+
+            var bits = new MsbBitBuffer(data.Reverse());
+            var result = new List<byte>();
+            while (result.Count < rawSize)
+            {
+                if (bits.Get())
+                {
+                    var offset = (int)bits.Gets(13) + 3;
+                    var count = 3;
+                    foreach (var next in RepeatCounts())
+                    {
+                        var extra = bits.Gets(next);
+                        count += (int)extra;
+                        if (extra != (1uL << next) - 1)
+                            break;
+                    }
+                    while (count-- > 0)
+                        result.Add(result[result.Count - offset]);
+                }
+                else
+                {
+                    result.Add((byte)bits.Gets(8));
+                }
+            }
+            if (result.Count != rawSize) throw new InvalidDataException($"result({result.Count}) != {rawSize}");
+
+            return prefix.Concat(result.Reverse<byte>()).ToArray();
+        }
+
         public void ExtractItoc(Stream dest, ItocEntry entry)
         {
-            Span<byte> buffer = stackalloc byte[8];
-            _stream.Position = entry.Offset;
-            _stream.Read(buffer);
-            if (buffer.SequenceEqual(LaylaTag)) throw new NotSupportedException("Layla decrypt not supported");
-            dest.Write(buffer);
-            WriteBytesTo(_stream, dest, entry.FileSize - 8);
+            Span<byte> head = stackalloc byte[8];
+            byte[] data;
+            lock (_stream)
+            {
+                _stream.Position = entry.Offset;
+                _stream.Read(head);
+                data = _stream.ReadBytesExact((int)entry.FileSize - 8);
+            }
+            if (head.SequenceEqual(LaylaTag))
+            {
+                dest.Write(DecodeLayla(data));
+            }
+            else
+            {
+                dest.Write(head);
+                dest.Write(data);
+            }
         }
 
         public void ExtractItoc(string filePath, ItocEntry entry)
