@@ -232,6 +232,11 @@
     "developer_comment": "夏彦",
     "string": "（くっ……そんな事になったら、サリュやあの子だって……！）"
   },
+  "001242": {
+    "context": "001242",
+    "code": "0x87",
+    "string": "@sss-active Yellow [風見 洵 恵那]"
+  },
   "001247": {
     "context": "001247",
     "code": "0x45",
@@ -262,17 +267,32 @@
     "developer_comment": "",
     "string": "そして渡瀬は風見・宇喜多とチームを組み、脳科学実験室を後にした。"
   },
+  "001331": {
+    "context": "001331",
+    "code": "0x02",
+    "string": "jump-script 254"
+  },
   "001335": {
     "context": "001335",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして渡瀬は洵・宇喜多とチームを組み、脳科学実験室を後にした。"
   },
+  "001385": {
+    "context": "001385",
+    "code": "0x02",
+    "string": "jump-script 253"
+  },
   "001389": {
     "context": "001389",
     "code": "0x45",
     "developer_comment": "",
     "string": "そして渡瀬は恵那・宇喜多とチームを組み、脳科学実験室を後にした。"
+  },
+  "001439": {
+    "context": "001439",
+    "code": "0x02",
+    "string": "jump-script 252"
   },
   "001443": {
     "context": "001443",
@@ -310,6 +330,11 @@
     "developer_comment": "",
     "string": "――その申し入れは、すぐに受け入れられていた。"
   },
+  "001621": {
+    "context": "001621",
+    "code": "0x02",
+    "string": "jump-script 254"
+  },
   "001712": {
     "context": "001712",
     "code": "0x45",
@@ -339,6 +364,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "――その申し入れは、すぐに受け入れられていた。"
+  },
+  "001788": {
+    "context": "001788",
+    "code": "0x02",
+    "string": "jump-script 253"
   },
   "001889": {
     "context": "001889",
@@ -381,6 +411,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "３人は第５エリアをもう１度見回した後で、ファクトリーへと向かった。"
+  },
+  "001993": {
+    "context": "001993",
+    "code": "0x02",
+    "string": "jump-script 252"
   },
   "002085": {
     "context": "002085",
@@ -453,5 +488,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ともかくそれで、チーム分けは決定された。"
+  },
+  "002431": {
+    "context": "002431",
+    "code": "0x02",
+    "string": "jump-script 254"
   }
 }
