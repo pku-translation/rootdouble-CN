@@ -919,6 +919,11 @@
     "developer_comment": "",
     "string": "散っていく野次馬に混じり、遠くからじっとこちらを見ている。"
   },
+  "005350": {
+    "context": "005350",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ サリュ]"
+  },
   "005356": {
     "context": "005356",
     "code": "0x45",
@@ -1116,5 +1121,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "一度だけ振り返ってみたが、その時にはもう少女の姿は消えていた……。"
+  },
+  "006472": {
+    "context": "006472",
+    "code": "0x02",
+    "string": "jump-script 138"
   }
 }

@@ -76,6 +76,11 @@
     "developer_comment": "渡瀬",
     "string": "「おっさんは危ないから、ちょっと後ろで待っててくれ」"
   },
+  "000327": {
+    "context": "000327",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬]"
+  },
   "000363": {
     "context": "000363",
     "code": "0x45",
@@ -267,5 +272,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "背後で閃光が瞬いた。"
+  },
+  "001195": {
+    "context": "001195",
+    "code": "0x02",
+    "string": "jump-script 71"
   }
 }

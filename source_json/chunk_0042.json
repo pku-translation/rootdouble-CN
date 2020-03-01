@@ -136,6 +136,16 @@
     "developer_comment": "洵",
     "string": "「数値は――『３７１１ｍＳｖ』。まだ安全基準値内だね」"
   },
+  "000779": {
+    "context": "000779",
+    "code": "0x02",
+    "string": "jump-script 109"
+  },
+  "000823": {
+    "context": "000823",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 洵 恵那]"
+  },
   "000852": {
     "context": "000852",
     "code": "0x45",
@@ -165,6 +175,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "では誰と組むかだが――"
+  },
+  "000943": {
+    "context": "000943",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 洵 恵那 宇喜多 悠里]"
   },
   "000948": {
     "context": "000948",
@@ -244,6 +259,16 @@
     "developer_comment": "",
     "string": "風見の声をきっかけに、６人は２手に別れた。"
   },
+  "001294": {
+    "context": "001294",
+    "code": "0x04",
+    "string": "call-script 45"
+  },
+  "001295": {
+    "context": "001295",
+    "code": "0x02",
+    "string": "jump-script 47"
+  },
   "001355": {
     "context": "001355",
     "code": "0x45",
@@ -279,6 +304,16 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬の声をきっかけに、６人は２手に別れた。"
+  },
+  "001507": {
+    "context": "001507",
+    "code": "0x04",
+    "string": "call-script 44"
+  },
+  "001508": {
+    "context": "001508",
+    "code": "0x02",
+    "string": "jump-script 47"
   },
   "001568": {
     "context": "001568",
@@ -334,6 +369,16 @@
     "developer_comment": "",
     "string": "渡瀬の声をきっかけに、６人は２手に別れた。"
   },
+  "001759": {
+    "context": "001759",
+    "code": "0x04",
+    "string": "call-script 43"
+  },
+  "001760": {
+    "context": "001760",
+    "code": "0x02",
+    "string": "jump-script 47"
+  },
   "001821": {
     "context": "001821",
     "code": "0x45",
@@ -381,6 +426,16 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬と洵が歩き出したのをきっかけに、６人は２手に別れた。"
+  },
+  "002033": {
+    "context": "002033",
+    "code": "0x04",
+    "string": "call-script 44"
+  },
+  "002034": {
+    "context": "002034",
+    "code": "0x02",
+    "string": "jump-script 47"
   },
   "002095": {
     "context": "002095",
@@ -460,6 +515,16 @@
     "developer_comment": "",
     "string": "渡瀬の声をきっかけに、６人は２手に別れた。"
   },
+  "002410": {
+    "context": "002410",
+    "code": "0x04",
+    "string": "call-script 43"
+  },
+  "002411": {
+    "context": "002411",
+    "code": "0x02",
+    "string": "jump-script 47"
+  },
   "002421": {
     "context": "002421",
     "code": "0x45",
@@ -519,5 +584,15 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "後味の悪い空気を残したまま、風見の指示に従って、６人は２手に別れた。"
+  },
+  "002673": {
+    "context": "002673",
+    "code": "0x04",
+    "string": "call-script 45"
+  },
+  "002674": {
+    "context": "002674",
+    "code": "0x02",
+    "string": "jump-script 47"
   }
 }

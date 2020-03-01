@@ -1492,6 +1492,11 @@
     "developer_comment": "",
     "string": "夏彦はサリュとましろを椅子に座らせ、自分はその傍らに立った。"
   },
+  "002947": {
+    "context": "002947",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "002958": {
     "context": "002958",
     "code": "0x45",
@@ -2073,5 +2078,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "アリスの唸り声が、かすかに響くだけだった。"
+  },
+  "004345": {
+    "context": "004345",
+    "code": "0x02",
+    "string": "jump-script 174"
   }
 }

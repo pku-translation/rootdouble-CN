@@ -29,6 +29,16 @@
     "developer_comment": "",
     "string": "その刹那、以前聞いた言葉が脳裏にフラッシュバックする。"
   },
+  "000263": {
+    "context": "000263",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
+  "000309": {
+    "context": "000309",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "000320": {
     "context": "000320",
     "code": "0x45",
@@ -712,5 +722,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（先生に対する感情を、自然な形に調整すればいいんだろうけど……）"
+  },
+  "003870": {
+    "context": "003870",
+    "code": "0x04",
+    "string": "call-script 320"
   }
 }

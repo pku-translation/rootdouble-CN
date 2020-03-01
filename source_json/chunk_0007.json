@@ -766,6 +766,11 @@
     "developer_comment": "恵那",
     "string": "「なによ他人事みたいに。レスキュー隊ってのは、もっと要救助者に親身になるものじゃないの？」"
   },
+  "002808": {
+    "context": "002808",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "002819": {
     "context": "002819",
     "code": "0x45",
@@ -897,5 +902,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そして５人は、第３エリアへ進行した。"
+  },
+  "003412": {
+    "context": "003412",
+    "code": "0x02",
+    "string": "jump-script 8"
   }
 }

@@ -256,6 +256,11 @@
     "developer_comment": "サリュ",
     "string": "「特にない」"
   },
+  "001264": {
+    "context": "001264",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "001270": {
     "context": "001270",
     "code": "0x45",
@@ -592,6 +597,11 @@
     "developer_comment": "ましろ",
     "string": "「なに言ってんの、夏彦も一緒に選ぶんだよ」"
   },
+  "003127": {
+    "context": "003127",
+    "code": "0x87",
+    "string": "@sss-active yellow [サリュ]"
+  },
   "003156": {
     "context": "003156",
     "code": "0x45",
@@ -622,6 +632,11 @@
     "developer_comment": "",
     "string": "夏彦とサリュは、ましろに引きずられるように、その服屋に入って行った。"
   },
+  "003312": {
+    "context": "003312",
+    "code": "0x04",
+    "string": "call-script 158"
+  },
   "003395": {
     "context": "003395",
     "code": "0x45",
@@ -639,5 +654,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そして最も似合う服を選び抜き、それを買って店を出た。"
+  },
+  "003469": {
+    "context": "003469",
+    "code": "0x02",
+    "string": "jump-script 159"
   }
 }

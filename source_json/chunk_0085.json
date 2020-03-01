@@ -477,6 +477,11 @@
     "developer_comment": "",
     "string": "それを理解するには、知識が絶対的に足りていないような気がした。"
   },
+  "001475": {
+    "context": "001475",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 宇喜多 悠里]"
+  },
   "001480": {
     "context": "001480",
     "code": "0x45",
@@ -794,5 +799,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "――それは無残に破り捨てられた、恵那の置き手紙だった。"
+  },
+  "002420": {
+    "context": "002420",
+    "code": "0x02",
+    "string": "jump-script 86"
   }
 }

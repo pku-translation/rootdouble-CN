@@ -538,6 +538,11 @@
     "developer_comment": "",
     "string": "例の『非常用』のプレートを、じっと見つめている。"
   },
+  "002579": {
+    "context": "002579",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "002590": {
     "context": "002590",
     "code": "0x45",
@@ -718,6 +723,11 @@
     "developer_comment": "ユウリ",
     "string": "「きゃっ！」"
   },
+  "003309": {
+    "context": "003309",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 恵那]"
+  },
   "003346": {
     "context": "003346",
     "code": "0x45",
@@ -747,6 +757,11 @@
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「走って！　早く！」"
+  },
+  "003568": {
+    "context": "003568",
+    "code": "0x87",
+    "string": "@sss-active red [風見 恵那]"
   },
   "003573": {
     "context": "003573",
@@ -784,6 +799,11 @@
     "developer_comment": "",
     "string": "その思いが、渡瀬を階下へ向かわせた。"
   },
+  "003644": {
+    "context": "003644",
+    "code": "0x02",
+    "string": "jump-script 107"
+  },
   "003655": {
     "context": "003655",
     "code": "0x45",
@@ -807,5 +827,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "轟音と共に、階段が崩れ落ちた。"
+  },
+  "003785": {
+    "context": "003785",
+    "code": "0x02",
+    "string": "jump-script 38"
   }
 }

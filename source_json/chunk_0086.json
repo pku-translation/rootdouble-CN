@@ -136,6 +136,11 @@
     "developer_comment": "",
     "string": "歯噛みする渡瀬の横で、宇喜多が声を上げた。"
   },
+  "000412": {
+    "context": "000412",
+    "code": "0x87",
+    "string": "@sss-active blue [洵]"
+  },
   "000461": {
     "context": "000461",
     "code": "0x45",
@@ -483,6 +488,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おっさん！？」"
+  },
+  "001679": {
+    "context": "001679",
+    "code": "0x87",
+    "string": "@sss-active yellow [夏彦 ましろ サリュ]"
   },
   "001708": {
     "context": "001708",
@@ -837,5 +847,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちは駆け足で、風見のいる監視ルームへ向かった。"
+  },
+  "002769": {
+    "context": "002769",
+    "code": "0x02",
+    "string": "jump-script 87"
   }
 }

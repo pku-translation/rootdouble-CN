@@ -396,6 +396,11 @@
     "developer_comment": "",
     "string": "世に平穏が、戻って来つつあった……。"
   },
+  "002153": {
+    "context": "002153",
+    "code": "0x02",
+    "string": "jump-script 421"
+  },
   "002161": {
     "context": "002161",
     "code": "0x45",
@@ -407,5 +412,40 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "記憶の、断片だ。"
+  },
+  "002221": {
+    "context": "002221",
+    "code": "0x04",
+    "string": "call-script 415"
+  },
+  "002225": {
+    "context": "002225",
+    "code": "0x04",
+    "string": "call-script 417"
+  },
+  "002229": {
+    "context": "002229",
+    "code": "0x04",
+    "string": "call-script 416"
+  },
+  "002234": {
+    "context": "002234",
+    "code": "0x04",
+    "string": "call-script 418"
+  },
+  "002238": {
+    "context": "002238",
+    "code": "0x04",
+    "string": "call-script 419"
+  },
+  "002242": {
+    "context": "002242",
+    "code": "0x04",
+    "string": "call-script 420"
+  },
+  "002244": {
+    "context": "002244",
+    "code": "0x02",
+    "string": "jump-script 421"
   }
 }

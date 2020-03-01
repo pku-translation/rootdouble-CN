@@ -41,6 +41,11 @@
     "developer_comment": "渡瀬",
     "string": "「自分が誰で、ここがどこなのか……」"
   },
+  "000315": {
+    "context": "000315",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬]"
+  },
   "000323": {
     "context": "000323",
     "code": "0x45",
@@ -430,5 +435,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もう少し調整した方が良さそうだ……）"
+  },
+  "002299": {
+    "context": "002299",
+    "code": "0x04",
+    "string": "call-script 380"
   }
 }

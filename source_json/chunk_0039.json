@@ -322,6 +322,11 @@
     "developer_comment": "渡瀬",
     "string": "「だな。守部もいいな？」"
   },
+  "001246": {
+    "context": "001246",
+    "code": "0x87",
+    "string": "@sss-active blue [洵 悠里]"
+  },
   "001275": {
     "context": "001275",
     "code": "0x45",
@@ -616,6 +621,11 @@
     "developer_comment": "渡瀬",
     "string": "「え、お前も！？」"
   },
+  "002491": {
+    "context": "002491",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵]"
+  },
   "002502": {
     "context": "002502",
     "code": "0x45",
@@ -645,6 +655,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「――……」"
+  },
+  "002575": {
+    "context": "002575",
+    "code": "0x04",
+    "string": "call-script 40"
   },
   "002577": {
     "context": "002577",
@@ -987,6 +1002,11 @@
     "developer_comment": "",
     "string": "腕時計のアラームが鳴った。"
   },
+  "004258": {
+    "context": "004258",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬]"
+  },
   "004270": {
     "context": "004270",
     "code": "0x45",
@@ -1016,6 +1036,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "先ほど見た奇妙な幻影も、何か気になる。"
+  },
+  "004367": {
+    "context": "004367",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬]"
   },
   "004373": {
     "context": "004373",
@@ -1208,5 +1233,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちは連れ立って、その部屋を飛び出した。"
+  },
+  "004910": {
+    "context": "004910",
+    "code": "0x02",
+    "string": "jump-script 41"
   }
 }

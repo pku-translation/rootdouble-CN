@@ -526,6 +526,11 @@
     "developer_comment": "渡瀬",
     "string": "「え？」"
   },
+  "001261": {
+    "context": "001261",
+    "code": "0x02",
+    "string": "jump-script 112"
+  },
   "001271": {
     "context": "001271",
     "code": "0x45",
@@ -1172,6 +1177,11 @@
     "developer_comment": "",
     "string": "度重なる頭痛も、頻発する記憶障害も、全て渡瀬の脳に原因があるように思えた。"
   },
+  "002424": {
+    "context": "002424",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "002435": {
     "context": "002435",
     "code": "0x45",
@@ -1201,6 +1211,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それは自分が死ぬよりも、よほど恐ろしい事に思えた。"
+  },
+  "002476": {
+    "context": "002476",
+    "code": "0x04",
+    "string": "call-script 90"
   },
   "002478": {
     "context": "002478",
@@ -1350,6 +1365,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "恵那はそう言い残し、部屋を出て行った。"
+  },
+  "002870": {
+    "context": "002870",
+    "code": "0x02",
+    "string": "jump-script 119"
   },
   "002873": {
     "context": "002873",
@@ -1767,5 +1787,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそれに構わず、部屋を出た。"
+  },
+  "004258": {
+    "context": "004258",
+    "code": "0x02",
+    "string": "jump-script 91"
   }
 }

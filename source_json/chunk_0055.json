@@ -805,6 +805,11 @@
     "developer_comment": "",
     "string": "暗闇の中、ハシゴを登る。"
   },
+  "003251": {
+    "context": "003251",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "003257": {
     "context": "003257",
     "code": "0x45",
@@ -835,6 +840,11 @@
     "developer_comment": "",
     "string": "だがいない理由を考えても仕方がない。とにかく探さなければ。"
   },
+  "003422": {
+    "context": "003422",
+    "code": "0x87",
+    "string": "@sss-active red [悠里]"
+  },
   "003427": {
     "context": "003427",
     "code": "0x45",
@@ -852,6 +862,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（なのに登るのは平気なのか？　しかもオレが追いつけないほど早く登るなんて……？）"
+  },
+  "003451": {
+    "context": "003451",
+    "code": "0x02",
+    "string": "jump-script 117"
   },
   "003456": {
     "context": "003456",
@@ -1141,6 +1156,11 @@
     "developer_comment": "",
     "string": "その唇がかすかに動き、声が漏れる。"
   },
+  "004348": {
+    "context": "004348",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "004359": {
     "context": "004359",
     "code": "0x45",
@@ -1164,6 +1184,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "声をかけても、振り返りもしない。"
+  },
+  "004410": {
+    "context": "004410",
+    "code": "0x04",
+    "string": "call-script 56"
   },
   "004422": {
     "context": "004422",
@@ -1374,5 +1399,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "辛い過去にさいなまれる仲間の支えに、少しでもなりたいと思いながら……。"
+  },
+  "005057": {
+    "context": "005057",
+    "code": "0x02",
+    "string": "jump-script 57"
   }
 }

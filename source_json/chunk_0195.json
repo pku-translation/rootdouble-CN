@@ -10,6 +10,11 @@
     "developer_comment": "",
     "string": "空を見ると、雨はいつの間にか止んでいた。"
   },
+  "000130": {
+    "context": "000130",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ]"
+  },
   "000135": {
     "context": "000135",
     "code": "0x45",
@@ -244,6 +249,11 @@
     "developer_comment": "サリュ",
     "string": "「アリスより可愛い？」"
   },
+  "000757": {
+    "context": "000757",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "000768": {
     "context": "000768",
     "code": "0x45",
@@ -297,6 +307,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう問われた夏彦の胸には、あの夜の記憶が蘇っていた。"
+  },
+  "000996": {
+    "context": "000996",
+    "code": "0x04",
+    "string": "call-script 196"
   },
   "000998": {
     "context": "000998",
@@ -645,6 +660,11 @@
     "developer_comment": "ましろ",
     "string": "「そうだね、今日はもう遅いし……」"
   },
+  "002128": {
+    "context": "002128",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "002157": {
     "context": "002157",
     "code": "0x45",
@@ -842,5 +862,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちはサリュを連れて、その店に向かった。"
+  },
+  "002877": {
+    "context": "002877",
+    "code": "0x02",
+    "string": "jump-script 197"
   }
 }

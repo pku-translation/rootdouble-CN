@@ -921,5 +921,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "―…"
+  },
+  "002498": {
+    "context": "002498",
+    "code": "0x02",
+    "string": "jump-script 123"
   }
 }

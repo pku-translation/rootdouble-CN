@@ -100,6 +100,11 @@
     "developer_comment": "",
     "string": "だがそこにはユウリの姿がない。"
   },
+  "000464": {
+    "context": "000464",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "000481": {
     "context": "000481",
     "code": "0x45",
@@ -1119,5 +1124,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "地下１階に上がった。"
+  },
+  "004278": {
+    "context": "004278",
+    "code": "0x02",
+    "string": "jump-script 16"
   }
 }

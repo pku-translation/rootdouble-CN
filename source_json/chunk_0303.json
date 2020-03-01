@@ -83,6 +83,11 @@
     "developer_comment": "宇喜多",
     "string": "「超心研はＡを被験体として、テレパシーやエンパシーの発生原理について解明した」"
   },
+  "000331": {
+    "context": "000331",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里 夏彦 ましろ サリュ]"
+  },
   "000342": {
     "context": "000342",
     "code": "0x45",
@@ -712,5 +717,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はそう思いつつ、ひとまずその記憶を離れた……。"
+  },
+  "002859": {
+    "context": "002859",
+    "code": "0x04",
+    "string": "call-script 307"
   }
 }

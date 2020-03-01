@@ -298,6 +298,11 @@
     "developer_comment": "風見",
     "string": "「口答えするな、守部！」"
   },
+  "001304": {
+    "context": "001304",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見]"
+  },
   "001368": {
     "context": "001368",
     "code": "0x45",
@@ -393,6 +398,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「女にそんな無茶をさせられるか！」"
+  },
+  "001658": {
+    "context": "001658",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
   },
   "001687": {
     "context": "001687",
@@ -747,5 +757,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その低い声と共に、渡瀬たちはまた歩き出した。"
+  },
+  "003214": {
+    "context": "003214",
+    "code": "0x02",
+    "string": "jump-script 19"
   }
 }

@@ -763,5 +763,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「来てくれるかどうかは賭けだけど……とにかく、第３エリアに移動しよう」"
+  },
+  "003555": {
+    "context": "003555",
+    "code": "0x02",
+    "string": "jump-script 369"
   }
 }

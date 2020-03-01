@@ -219,7 +219,7 @@ namespace CsYetiTools.VnScripts
                 using (var writer = new StreamWriter(dirPath / $"chunk_{i:0000}.json", false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
-                    writer.Write(content);
+                    writer.WriteLine(content);
                 }
                 if (script.ParseError != null)
                 {

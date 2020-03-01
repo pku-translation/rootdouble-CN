@@ -1182,5 +1182,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "行く手に目的地が見えてきた。"
+  },
+  "002945": {
+    "context": "002945",
+    "code": "0x02",
+    "string": "jump-script 219"
   }
 }

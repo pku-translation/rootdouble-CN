@@ -166,6 +166,11 @@
     "developer_comment": "ましろ",
     "string": "「『ビヨびよ』の名台詞。アニメ版第１３話にて」"
   },
+  "000772": {
+    "context": "000772",
+    "code": "0x87",
+    "string": "@sss-active blue [夏彦 ましろ]"
+  },
   "000783": {
     "context": "000783",
     "code": "0x45",
@@ -651,5 +656,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "地図の向こうにあるものを見て、息を呑んだ。"
+  },
+  "003262": {
+    "context": "003262",
+    "code": "0x02",
+    "string": "jump-script 137"
   }
 }

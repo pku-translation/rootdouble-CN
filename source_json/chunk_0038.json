@@ -412,6 +412,11 @@
     "developer_comment": "ユウリ",
     "string": "「わたし……こんなとこ降りるなんて、無理です……」"
   },
+  "001923": {
+    "context": "001923",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "001953": {
     "context": "001953",
     "code": "0x45",
@@ -639,6 +644,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「よし。それじゃ行くぞユウリ」"
+  },
+  "002678": {
+    "context": "002678",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 悠里]"
   },
   "002710": {
     "context": "002710",
@@ -1251,5 +1261,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "地下２階へ進入した。"
+  },
+  "003918": {
+    "context": "003918",
+    "code": "0x02",
+    "string": "jump-script 39"
   }
 }

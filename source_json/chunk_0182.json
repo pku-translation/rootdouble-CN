@@ -478,6 +478,11 @@
     "developer_comment": "サリュ",
     "string": "「その望みはない。私は本当は適性度『Ｆ』で、能力も皆無」"
   },
+  "001233": {
+    "context": "001233",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "001241": {
     "context": "001241",
     "code": "0x45",
@@ -1276,6 +1281,11 @@
     "developer_comment": "夏彦",
     "string": "「ああ、きっとね」"
   },
+  "003384": {
+    "context": "003384",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "003413": {
     "context": "003413",
     "code": "0x45",
@@ -1413,5 +1423,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はサリュの申し出に、力強く答えた。"
+  },
+  "003806": {
+    "context": "003806",
+    "code": "0x02",
+    "string": "jump-script 183"
   }
 }

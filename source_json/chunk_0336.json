@@ -29,6 +29,11 @@
     "developer_comment": "",
     "string": "限られたＡＤ。上昇していく放射線量。脱出口は見つからず、状況は極めて厳しい。"
   },
+  "000275": {
+    "context": "000275",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵 恵那]"
+  },
   "000280": {
     "context": "000280",
     "code": "0x45",
@@ -382,5 +387,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（感情を調整して、元に戻さなきゃ！）"
+  },
+  "001877": {
+    "context": "001877",
+    "code": "0x04",
+    "string": "call-script 339"
   }
 }

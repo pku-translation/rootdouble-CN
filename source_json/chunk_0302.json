@@ -604,6 +604,11 @@
     "developer_comment": "悠里",
     "string": "《そこを修復するんだよ！　本来の記憶の形に！》"
   },
+  "002208": {
+    "context": "002208",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 悠里 夏彦]"
+  },
   "002217": {
     "context": "002217",
     "code": "0x45",
@@ -633,6 +638,16 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は――"
+  },
+  "002324": {
+    "context": "002324",
+    "code": "0x02",
+    "string": "jump-script 394"
+  },
+  "002327": {
+    "context": "002327",
+    "code": "0x02",
+    "string": "jump-script 393"
   },
   "002436": {
     "context": "002436",
@@ -890,5 +905,35 @@
     "context": "003416",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "003595": {
+    "context": "003595",
+    "code": "0x04",
+    "string": "call-script 303"
+  },
+  "003597": {
+    "context": "003597",
+    "code": "0x04",
+    "string": "call-script 304"
+  },
+  "003599": {
+    "context": "003599",
+    "code": "0x04",
+    "string": "call-script 305"
+  },
+  "003601": {
+    "context": "003601",
+    "code": "0x04",
+    "string": "call-script 306"
+  },
+  "003603": {
+    "context": "003603",
+    "code": "0x04",
+    "string": "call-script 308"
+  },
+  "003653": {
+    "context": "003653",
+    "code": "0x02",
+    "string": "jump-script 309"
   }
 }

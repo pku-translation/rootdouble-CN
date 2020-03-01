@@ -484,6 +484,11 @@
     "developer_comment": "渡瀬",
     "string": "「これが最後の選択だ。お前と俺の、どちらの主張を取るのか」"
   },
+  "001857": {
+    "context": "001857",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 夏彦]"
+  },
   "001868": {
     "context": "001868",
     "code": "0x45",
@@ -519,6 +524,21 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ぼくと渡瀬と、そして悠里の運命を……！）"
+  },
+  "002263": {
+    "context": "002263",
+    "code": "0x02",
+    "string": "jump-script 392"
+  },
+  "002267": {
+    "context": "002267",
+    "code": "0x02",
+    "string": "jump-script 410"
+  },
+  "002271": {
+    "context": "002271",
+    "code": "0x02",
+    "string": "jump-script 412"
   },
   "002279": {
     "context": "002279",
@@ -580,6 +600,11 @@
     "developer_comment": "",
     "string": "なのに不意打ちしなかったという事は――"
   },
+  "002442": {
+    "context": "002442",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 夏彦]"
+  },
   "002448": {
     "context": "002448",
     "code": "0x45",
@@ -609,5 +634,15 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（ぼくと渡瀬と、そして悠里の運命を……！）"
+  },
+  "002728": {
+    "context": "002728",
+    "code": "0x02",
+    "string": "jump-script 406"
+  },
+  "002732": {
+    "context": "002732",
+    "code": "0x02",
+    "string": "jump-script 408"
   }
 }

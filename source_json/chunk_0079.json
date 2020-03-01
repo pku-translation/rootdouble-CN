@@ -651,5 +651,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬と恵那は、同時に駆け出した。"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x02",
+    "string": "jump-script 80"
   }
 }

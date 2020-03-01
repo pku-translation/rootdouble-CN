@@ -352,9 +352,54 @@
     "developer_comment": "",
     "string": "風見の記憶に潜った。"
   },
+  "001542": {
+    "context": "001542",
+    "code": "0x04",
+    "string": "call-script 373"
+  },
+  "001543": {
+    "context": "001543",
+    "code": "0x04",
+    "string": "call-script 374"
+  },
+  "001544": {
+    "context": "001544",
+    "code": "0x04",
+    "string": "call-script 375"
+  },
+  "001545": {
+    "context": "001545",
+    "code": "0x04",
+    "string": "call-script 376"
+  },
   "001705": {
     "context": "001705",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "001882": {
+    "context": "001882",
+    "code": "0x04",
+    "string": "call-script 377"
+  },
+  "001884": {
+    "context": "001884",
+    "code": "0x04",
+    "string": "call-script 378"
+  },
+  "001886": {
+    "context": "001886",
+    "code": "0x04",
+    "string": "call-script 379"
+  },
+  "001888": {
+    "context": "001888",
+    "code": "0x04",
+    "string": "call-script 381"
+  },
+  "001892": {
+    "context": "001892",
+    "code": "0x02",
+    "string": "jump-script 382"
   }
 }

@@ -388,6 +388,11 @@
     "developer_comment": "",
     "string": "そして面体とボンベを右脇に抱え、左手には斧を持ち、渡瀬は風見に言った。"
   },
+  "001313": {
+    "context": "001313",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "001344": {
     "context": "001344",
     "code": "0x45",
@@ -405,6 +410,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「お前たちを置いていくのは、やっぱ怖いが……待っていてくれ」"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x04",
+    "string": "call-script 101"
   },
   "001385": {
     "context": "001385",
@@ -656,5 +666,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "皆を救うために、独り闇の中を――。"
+  },
+  "002450": {
+    "context": "002450",
+    "code": "0x02",
+    "string": "jump-script 126"
   }
 }

@@ -1300,6 +1300,11 @@
     "developer_comment": "恵那",
     "string": "「これほど綺麗に見える街だもの。護りたくなるわよね」"
   },
+  "004254": {
+    "context": "004254",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "004283": {
     "context": "004283",
     "code": "0x45",
@@ -1897,5 +1902,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "運転手はうなずき、そして目的地を入力した。"
+  },
+  "006033": {
+    "context": "006033",
+    "code": "0x02",
+    "string": "jump-script 208"
   }
 }

@@ -41,6 +41,11 @@
     "developer_comment": "渡瀬",
     "string": "「いや……その前に、１つ聞きたい事がある」"
   },
+  "000228": {
+    "context": "000228",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里 夏彦 ましろ サリュ]"
+  },
   "000257": {
     "context": "000257",
     "code": "0x45",
@@ -388,5 +393,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はそう思いつつ、ひとまずその記憶を離れた……。"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x04",
+    "string": "call-script 307"
   }
 }

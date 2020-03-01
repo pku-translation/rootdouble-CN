@@ -28,6 +28,11 @@
     "developer_comment": "夏彦",
     "string": "（あれ、ここは……？）"
   },
+  "000185": {
+    "context": "000185",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "000190": {
     "context": "000190",
     "code": "0x45",
@@ -562,6 +567,11 @@
     "developer_comment": "ましろ",
     "string": "「……うん」"
   },
+  "002123": {
+    "context": "002123",
+    "code": "0x87",
+    "string": "@sss-active blue [夏彦 ましろ]"
+  },
   "002134": {
     "context": "002134",
     "code": "0x45",
@@ -801,5 +811,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "３人はそう言って、がっちりと握手した。"
+  },
+  "002811": {
+    "context": "002811",
+    "code": "0x02",
+    "string": "jump-script 203"
   }
 }

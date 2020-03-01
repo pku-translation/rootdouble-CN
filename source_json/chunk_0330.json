@@ -88,6 +88,11 @@
     "developer_comment": "",
     "string": "洵はテロとは無関係そうだが、一応確認のため、今日までの記憶を見ておくべきだろう。"
   },
+  "000534": {
+    "context": "000534",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵 夏彦]"
+  },
   "000539": {
     "context": "000539",
     "code": "0x45",
@@ -184,14 +189,94 @@
     "developer_comment": "",
     "string": "そしてセンシズシンパシーを発動した。"
   },
+  "000917": {
+    "context": "000917",
+    "code": "0x04",
+    "string": "call-script 331"
+  },
+  "000918": {
+    "context": "000918",
+    "code": "0x04",
+    "string": "call-script 332"
+  },
+  "000919": {
+    "context": "000919",
+    "code": "0x04",
+    "string": "call-script 333"
+  },
+  "000920": {
+    "context": "000920",
+    "code": "0x04",
+    "string": "call-script 334"
+  },
   "001078": {
     "context": "001078",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
   },
+  "001256": {
+    "context": "001256",
+    "code": "0x04",
+    "string": "call-script 335"
+  },
+  "001258": {
+    "context": "001258",
+    "code": "0x04",
+    "string": "call-script 336"
+  },
+  "001260": {
+    "context": "001260",
+    "code": "0x04",
+    "string": "call-script 337"
+  },
+  "001262": {
+    "context": "001262",
+    "code": "0x04",
+    "string": "call-script 338"
+  },
+  "001264": {
+    "context": "001264",
+    "code": "0x04",
+    "string": "call-script 340"
+  },
+  "001268": {
+    "context": "001268",
+    "code": "0x04",
+    "string": "call-script 341"
+  },
   "001426": {
     "context": "001426",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x04",
+    "string": "call-script 335"
+  },
+  "001606": {
+    "context": "001606",
+    "code": "0x04",
+    "string": "call-script 336"
+  },
+  "001608": {
+    "context": "001608",
+    "code": "0x04",
+    "string": "call-script 337"
+  },
+  "001610": {
+    "context": "001610",
+    "code": "0x04",
+    "string": "call-script 338"
+  },
+  "001612": {
+    "context": "001612",
+    "code": "0x04",
+    "string": "call-script 342"
+  },
+  "001616": {
+    "context": "001616",
+    "code": "0x02",
+    "string": "jump-script 343"
   }
 }

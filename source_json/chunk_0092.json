@@ -400,6 +400,11 @@
     "developer_comment": "",
     "string": "不吉な予感を覚えながら、渡瀬が装置の裏をのぞき込むと、"
   },
+  "000811": {
+    "context": "000811",
+    "code": "0x04",
+    "string": "call-script 121"
+  },
   "000813": {
     "context": "000813",
     "code": "0x55",
@@ -890,5 +895,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "斧が渡瀬の脳天目掛け、振り下ろされた。"
+  },
+  "002796": {
+    "context": "002796",
+    "code": "0x02",
+    "string": "jump-script 93"
   }
 }

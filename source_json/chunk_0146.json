@@ -274,6 +274,11 @@
     "developer_comment": "ましろ",
     "string": "「悠里だって、後から引っ越してきたのに、すぐに仲良くなったもんね」"
   },
+  "001661": {
+    "context": "001661",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "001672": {
     "context": "001672",
     "code": "0x45",
@@ -375,6 +380,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう言われて、夏彦の記憶がにわかに蘇った。"
+  },
+  "002032": {
+    "context": "002032",
+    "code": "0x04",
+    "string": "call-script 147"
   },
   "002034": {
     "context": "002034",
@@ -758,5 +768,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "いつもは一度帰宅するましろも、時間が遅いのでそのまま天川家に直行する。"
+  },
+  "003706": {
+    "context": "003706",
+    "code": "0x02",
+    "string": "jump-script 148"
   }
 }

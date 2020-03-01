@@ -1,4 +1,9 @@
 {
+  "000003": {
+    "context": "000003",
+    "code": "0x04",
+    "string": "call-script 521"
+  },
   "000123": {
     "context": "000123",
     "code": "0x55",
@@ -105,6 +110,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "若干妙な気がしたが、他に合理的な説明はできない。"
+  },
+  "000810": {
+    "context": "000810",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ]"
   },
   "000815": {
     "context": "000815",
@@ -642,5 +652,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな会話を交わしつつ、夏彦たちは校舎に入っていった。"
+  },
+  "003338": {
+    "context": "003338",
+    "code": "0x02",
+    "string": "jump-script 133"
   }
 }

@@ -64,6 +64,11 @@
     "developer_comment": "",
     "string": "恵那が心配そうに、渡瀬の顔を覗きこんでいる。"
   },
+  "000382": {
+    "context": "000382",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "000393": {
     "context": "000393",
     "code": "0x45",
@@ -321,6 +326,11 @@
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「そんなわけにはいかないわよ。それに……」"
+  },
+  "001087": {
+    "context": "001087",
+    "code": "0x87",
+    "string": "@sss-active blue [宇喜多]"
   },
   "001116": {
     "context": "001116",
@@ -604,6 +614,11 @@
     "developer_comment": "恵那",
     "string": "「……っ」"
   },
+  "001776": {
+    "context": "001776",
+    "code": "0x04",
+    "string": "call-script 73"
+  },
   "001778": {
     "context": "001778",
     "code": "0x55",
@@ -705,6 +720,11 @@
     "developer_comment": "",
     "string": "渡瀬たちはそう言いながら、宇喜多が向かったという第１エリア方面に走った。"
   },
+  "002164": {
+    "context": "002164",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "002170": {
     "context": "002170",
     "code": "0x45",
@@ -794,5 +814,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬もようやくそれを理解し、第２エリアに向かった。"
+  },
+  "002548": {
+    "context": "002548",
+    "code": "0x02",
+    "string": "jump-script 76"
   }
 }

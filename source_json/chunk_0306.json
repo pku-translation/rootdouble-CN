@@ -23,6 +23,11 @@
     "developer_comment": "夏彦",
     "string": "（でも、それも記憶改竄によるものだとしたら……Ｑの本当の目的は？）"
   },
+  "000162": {
+    "context": "000162",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里 夏彦 ましろ サリュ]"
+  },
   "000177": {
     "context": "000177",
     "code": "0x45",
@@ -262,5 +267,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はそう思いつつ、ひとまずその記憶を離れた……。"
+  },
+  "001302": {
+    "context": "001302",
+    "code": "0x04",
+    "string": "call-script 307"
   }
 }

@@ -208,6 +208,11 @@
     "developer_comment": "",
     "string": "渡瀬は振り返り、風見に耳打ちした。"
   },
+  "000852": {
+    "context": "000852",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵]"
+  },
   "000863": {
     "context": "000863",
     "code": "0x45",
@@ -231,6 +236,11 @@
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「ああなってしまっては、おそらく私にも説得は無理でしょうから……！」"
+  },
+  "000947": {
+    "context": "000947",
+    "code": "0x04",
+    "string": "call-script 98"
   },
   "000949": {
     "context": "000949",
@@ -542,5 +552,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その声には、この絶望の中でなお、生き抜こうとする者の意思が滲んでいた。"
+  },
+  "001859": {
+    "context": "001859",
+    "code": "0x02",
+    "string": "jump-script 99"
   }
 }

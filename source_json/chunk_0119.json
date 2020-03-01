@@ -717,5 +717,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "棺もないこの施設の中では、これしか彼女を葬る術が思いつかなかったのだ……。"
+  },
+  "002851": {
+    "context": "002851",
+    "code": "0x02",
+    "string": "jump-script 120"
   }
 }

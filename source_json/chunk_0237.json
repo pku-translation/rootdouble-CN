@@ -478,6 +478,11 @@
     "developer_comment": "ましろ",
     "string": "「あんまりだよ、そんなの！」"
   },
+  "001088": {
+    "context": "001088",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "001117": {
     "context": "001117",
     "code": "0x45",
@@ -507,6 +512,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "だからこそ夏彦は――"
+  },
+  "001156": {
+    "context": "001156",
+    "code": "0x04",
+    "string": "call-script 238"
   },
   "001158": {
     "context": "001158",
@@ -911,5 +921,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "背後で気配がした。"
+  },
+  "002302": {
+    "context": "002302",
+    "code": "0x02",
+    "string": "jump-script 239"
   }
 }

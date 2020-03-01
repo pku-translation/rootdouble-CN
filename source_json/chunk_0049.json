@@ -4,6 +4,11 @@
     "code": "0x55",
     "string": "√After Chapter3"
   },
+  "000104": {
+    "context": "000104",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "000119": {
     "context": "000119",
     "code": "0x45",
@@ -21,6 +26,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "全身の骨が軋み、筋肉がガクガクと震えている。"
+  },
+  "000150": {
+    "context": "000150",
+    "code": "0x04",
+    "string": "call-script 50"
   },
   "000152": {
     "context": "000152",
@@ -560,5 +570,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ついに人が通れるほどの隙間ができた。"
+  },
+  "002534": {
+    "context": "002534",
+    "code": "0x02",
+    "string": "jump-script 51"
   }
 }

@@ -28,6 +28,11 @@
     "developer_comment": "",
     "string": "夏彦が大きな声で答えると、ましろがにやりと笑って囁く。"
   },
+  "000219": {
+    "context": "000219",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "000291": {
     "context": "000291",
     "code": "0x45",
@@ -675,5 +680,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それが一通り終わった頃、ちょうど終業のチャイムが鳴った……。"
+  },
+  "004138": {
+    "context": "004138",
+    "code": "0x02",
+    "string": "jump-script 156"
   }
 }

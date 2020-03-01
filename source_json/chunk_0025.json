@@ -502,6 +502,11 @@
     "developer_comment": "",
     "string": "速やかにそれを入手の上、投与をお願いします。"
   },
+  "001349": {
+    "context": "001349",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "001358": {
     "context": "001358",
     "code": "0x45",
@@ -820,6 +825,11 @@
     "developer_comment": "ユウリ",
     "string": "「だけど問題は、どうやってそこに入るかですね……」"
   },
+  "002455": {
+    "context": "002455",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 恵那]"
+  },
   "002484": {
     "context": "002484",
     "code": "0x45",
@@ -856,6 +866,11 @@
     "developer_comment": "渡瀬",
     "string": "「なぁ橘、通路の方に行ってみないか？　頑張ればなんとか消火できるかもしれないだろ？」"
   },
+  "002600": {
+    "context": "002600",
+    "code": "0x87",
+    "string": "@sss-active red [風見 恵那]"
+  },
   "002629": {
     "context": "002629",
     "code": "0x45",
@@ -873,6 +888,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "だがそれでも渡瀬は、そのまま主張を押し通した。"
+  },
+  "002651": {
+    "context": "002651",
+    "code": "0x02",
+    "string": "jump-script 105"
   },
   "002657": {
     "context": "002657",
@@ -1047,5 +1067,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちは制御室を後にした。"
+  },
+  "003217": {
+    "context": "003217",
+    "code": "0x02",
+    "string": "jump-script 26"
   }
 }

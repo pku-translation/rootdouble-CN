@@ -592,6 +592,11 @@
     "developer_comment": "",
     "string": "夏彦は、今まで見えなかったサリュの、内面を垣間見た気がした。"
   },
+  "002934": {
+    "context": "002934",
+    "code": "0x87",
+    "string": "@sss-active red [サリュ]"
+  },
   "002986": {
     "context": "002986",
     "code": "0x45",
@@ -970,6 +975,11 @@
     "developer_comment": "",
     "string": "そして『９月１６日』の情景に変わった。"
   },
+  "004824": {
+    "context": "004824",
+    "code": "0x02",
+    "string": "jump-script 233"
+  },
   "004829": {
     "context": "004829",
     "code": "0x45",
@@ -1264,6 +1274,11 @@
     "developer_comment": "ましろ",
     "string": "「で、どうかな？　それＳＦっぽいアイテムだし、響きも可愛いでしょ？」"
   },
+  "005939": {
+    "context": "005939",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "005968": {
     "context": "005968",
     "code": "0x45",
@@ -1341,6 +1356,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう言ったとき、夏彦の記憶が蘇った。"
+  },
+  "006270": {
+    "context": "006270",
+    "code": "0x04",
+    "string": "call-script 160"
   },
   "006272": {
     "context": "006272",
@@ -1430,6 +1450,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "なら帰ろうかと思った時、ましろが思いついたように声を上げた。"
+  },
+  "006913": {
+    "context": "006913",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
   },
   "006942": {
     "context": "006942",
@@ -1616,5 +1641,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は食事のメニューについて考えながら、２人の後を追った。"
+  },
+  "007680": {
+    "context": "007680",
+    "code": "0x02",
+    "string": "jump-script 161"
   }
 }

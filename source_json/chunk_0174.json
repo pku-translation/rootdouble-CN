@@ -766,6 +766,11 @@
     "developer_comment": "",
     "string": "苦い後悔が、夏彦の心を満たす。"
   },
+  "003080": {
+    "context": "003080",
+    "code": "0x87",
+    "string": "@sss-active blue [夏彦 ましろ]"
+  },
   "003091": {
     "context": "003091",
     "code": "0x45",
@@ -946,6 +951,11 @@
     "developer_comment": "",
     "string": "夏彦はそう思い、ふと夜空を見上げた。"
   },
+  "003659": {
+    "context": "003659",
+    "code": "0x87",
+    "string": "@sss-active yellow [サリュ]"
+  },
   "003664": {
     "context": "003664",
     "code": "0x45",
@@ -975,6 +985,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……長年一緒にいても、理解できない事はいくつもあるんだな……）"
+  },
+  "003697": {
+    "context": "003697",
+    "code": "0x04",
+    "string": "call-script 175"
   },
   "003699": {
     "context": "003699",
@@ -1088,5 +1103,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はかいつまんで、ましろとの会話について話した。"
+  },
+  "004070": {
+    "context": "004070",
+    "code": "0x02",
+    "string": "jump-script 176"
   }
 }

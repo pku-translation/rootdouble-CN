@@ -640,6 +640,11 @@
     "developer_comment": "宇喜多",
     "string": "「いや、そんなつもりはない！　子供たちにあんな残酷な事ができるわけはないだろう！」"
   },
+  "001886": {
+    "context": "001886",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那 宇喜多]"
+  },
   "001915": {
     "context": "001915",
     "code": "0x45",
@@ -813,5 +818,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "不意に、電子音が鳴り響いた。"
+  },
+  "002369": {
+    "context": "002369",
+    "code": "0x02",
+    "string": "jump-script 18"
   }
 }

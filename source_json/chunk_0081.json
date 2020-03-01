@@ -394,6 +394,11 @@
     "developer_comment": "恵那",
     "string": "「あの部屋の隅に、落ちていたの」"
   },
+  "001357": {
+    "context": "001357",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "001386": {
     "context": "001386",
     "code": "0x45",
@@ -676,6 +681,11 @@
     "developer_comment": "",
     "string": "洵と宇喜多と恵那の間で、鋭い視線が交錯する。"
   },
+  "002245": {
+    "context": "002245",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵 恵那 宇喜多]"
+  },
   "002250": {
     "context": "002250",
     "code": "0x45",
@@ -748,6 +758,11 @@
     "developer_comment": "",
     "string": "時間を浪費した末に、ようやく渡瀬は声を上げた。"
   },
+  "002456": {
+    "context": "002456",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 洵 恵那 宇喜多]"
+  },
   "002467": {
     "context": "002467",
     "code": "0x45",
@@ -795,6 +810,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "時間を浪費した末に、ようやく渡瀬は声を上げた。"
+  },
+  "002637": {
+    "context": "002637",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 洵 恵那 宇喜多]"
   },
   "002648": {
     "context": "002648",
@@ -856,6 +876,11 @@
     "developer_comment": "",
     "string": "時間を浪費した末に、ようやく渡瀬は声を上げた。"
   },
+  "002875": {
+    "context": "002875",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 洵 恵那 宇喜多]"
+  },
   "002886": {
     "context": "002886",
     "code": "0x45",
@@ -891,6 +916,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「違う、そうじゃない。そんな危険なもの、壊すか捨てるかするべきだと言ってるんだ」"
+  },
+  "003013": {
+    "context": "003013",
+    "code": "0x02",
+    "string": "jump-script 118"
   },
   "003024": {
     "context": "003024",
@@ -1191,5 +1221,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それが渡瀬には、皆の心をバラバラにするために用意された、誰かの罠のように思えた。"
+  },
+  "004085": {
+    "context": "004085",
+    "code": "0x02",
+    "string": "jump-script 82"
   }
 }

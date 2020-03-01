@@ -844,6 +844,16 @@
     "developer_comment": "",
     "string": "それは夏彦が、自ら禁じていた手段だった。"
   },
+  "003341": {
+    "context": "003341",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
+  },
+  "003388": {
+    "context": "003388",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
+  },
   "003393": {
     "context": "003393",
     "code": "0x45",
@@ -949,6 +959,16 @@
     "developer_comment": "",
     "string": "偶然に過ぎないのだろうが、誰かがそう命じた気さえした。"
   },
+  "003815": {
+    "context": "003815",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
+  },
+  "003862": {
+    "context": "003862",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
+  },
   "003882": {
     "context": "003882",
     "code": "0x45",
@@ -997,6 +1017,16 @@
     "developer_comment": "",
     "string": "決断を下した。"
   },
+  "004052": {
+    "context": "004052",
+    "code": "0x02",
+    "string": "jump-script 397"
+  },
+  "004059": {
+    "context": "004059",
+    "code": "0x02",
+    "string": "jump-script 399"
+  },
   "004088": {
     "context": "004088",
     "code": "0x45",
@@ -1008,5 +1038,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はとっさに悠里の手を握り、風見の記憶に潜った。"
+  },
+  "004300": {
+    "context": "004300",
+    "code": "0x02",
+    "string": "jump-script 385"
   }
 }

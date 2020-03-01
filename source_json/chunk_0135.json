@@ -196,6 +196,11 @@
     "developer_comment": "",
     "string": "居たたまれなくなった夏彦は、ましろの手を引っ張って教室を出た。"
   },
+  "001086": {
+    "context": "001086",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "001101": {
     "context": "001101",
     "code": "0x45",
@@ -381,5 +386,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "所帯じみた会話をしながら、２人は学校を出ていった……。"
+  },
+  "002044": {
+    "context": "002044",
+    "code": "0x02",
+    "string": "jump-script 136"
   }
 }

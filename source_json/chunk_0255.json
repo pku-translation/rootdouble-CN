@@ -799,5 +799,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "――そのまま近くのトイレに駆け込んでいた。"
+  },
+  "002108": {
+    "context": "002108",
+    "code": "0x02",
+    "string": "jump-script 256"
   }
 }

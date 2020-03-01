@@ -238,6 +238,11 @@
     "developer_comment": "",
     "string": "宇喜多とのやり取りを終え、渡瀬は急いで風見の元へ戻った。"
   },
+  "001026": {
+    "context": "001026",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "001068": {
     "context": "001068",
     "code": "0x45",
@@ -345,5 +350,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その体の重みを支えながら、渡瀬は手近な部屋へと急いだ。"
+  },
+  "001444": {
+    "context": "001444",
+    "code": "0x02",
+    "string": "jump-script 72"
   }
 }

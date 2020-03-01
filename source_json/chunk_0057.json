@@ -64,6 +64,11 @@
     "developer_comment": "",
     "string": "洵がそう言った時、宇喜多が声を上げた。"
   },
+  "000299": {
+    "context": "000299",
+    "code": "0x87",
+    "string": "@sss-active blue [宇喜多]"
+  },
   "000328": {
     "context": "000328",
     "code": "0x45",
@@ -369,6 +374,11 @@
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「我々職員に隠れて、何かしたい事があったんじゃないのか？」"
+  },
+  "001330": {
+    "context": "001330",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬]"
   },
   "001341": {
     "context": "001341",
@@ -1822,6 +1832,11 @@
     "developer_comment": "",
     "string": "渡瀬が頼み込むように言うと――ようやく宇喜多は、苦々しく言った。"
   },
+  "007574": {
+    "context": "007574",
+    "code": "0x87",
+    "string": "@sss-active blue [洵]"
+  },
   "007603": {
     "context": "007603",
     "code": "0x45",
@@ -2031,5 +2046,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそう思い、自分を無理やり納得させた。"
+  },
+  "008163": {
+    "context": "008163",
+    "code": "0x02",
+    "string": "jump-script 58"
   }
 }

@@ -35,6 +35,16 @@
     "developer_comment": "宇喜多",
     "string": "「……確かあの大きなタンクが、消火剤の詰まっているタンクだ。水や窒素ガスなども詰まっている」"
   },
+  "000175": {
+    "context": "000175",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見 洵]"
+  },
+  "000221": {
+    "context": "000221",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見 洵]"
+  },
   "000250": {
     "context": "000250",
     "code": "0x45",
@@ -766,5 +776,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もっと渡瀬に対する好意的な感情を注ぎ込まなきゃ、記憶は直りそうにないぞ！）"
+  },
+  "003763": {
+    "context": "003763",
+    "code": "0x04",
+    "string": "call-script 320"
   }
 }

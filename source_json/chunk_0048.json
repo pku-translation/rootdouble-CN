@@ -358,6 +358,11 @@
     "developer_comment": "恵那",
     "string": "「で、でも――どうやって！？」"
   },
+  "001120": {
+    "context": "001120",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 悠里]"
+  },
   "001125": {
     "context": "001125",
     "code": "0x45",
@@ -394,6 +399,11 @@
     "developer_comment": "",
     "string": "渡瀬は己の勘が命じるまま、瓦礫の外へ指示を飛ばした。"
   },
+  "001209": {
+    "context": "001209",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 悠里]"
+  },
   "001214": {
     "context": "001214",
     "code": "0x45",
@@ -417,6 +427,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘！　守部！　頼むから何とかしてくれ！」"
+  },
+  "001248": {
+    "context": "001248",
+    "code": "0x02",
+    "string": "jump-script 108"
   },
   "001253": {
     "context": "001253",
@@ -813,5 +828,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "瓦礫の下から抜け出した。"
+  },
+  "002164": {
+    "context": "002164",
+    "code": "0x02",
+    "string": "jump-script 49"
   }
 }

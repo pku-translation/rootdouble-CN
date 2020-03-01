@@ -327,5 +327,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "突如、部屋のドアが開いた。"
+  },
+  "001234": {
+    "context": "001234",
+    "code": "0x02",
+    "string": "jump-script 96"
   }
 }

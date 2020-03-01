@@ -202,6 +202,11 @@
     "developer_comment": "風見",
     "string": "「椿山さんは私が担ぎます！　隊長は――守部とユウリさんを！」"
   },
+  "000876": {
+    "context": "000876",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 風見]"
+  },
   "000882": {
     "context": "000882",
     "code": "0x45",
@@ -598,6 +603,11 @@
     "developer_comment": "",
     "string": "だが間に合わないではすまされない。間に合わせなければいけないのだ。"
   },
+  "002173": {
+    "context": "002173",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見 洵 恵那 宇喜多 悠里]"
+  },
   "002178": {
     "context": "002178",
     "code": "0x45",
@@ -633,6 +643,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その問いの答えは、渡瀬の中ですでに出ていた。"
+  },
+  "002265": {
+    "context": "002265",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見 洵 恵那 宇喜多 悠里]"
   },
   "002270": {
     "context": "002270",
@@ -706,6 +721,11 @@
     "developer_comment": "",
     "string": "渡瀬たちは倒れたメンバーを担いで部屋の奥へ進み、そこからハシゴを上にのぼった。"
   },
+  "002464": {
+    "context": "002464",
+    "code": "0x02",
+    "string": "jump-script 106"
+  },
   "002470": {
     "context": "002470",
     "code": "0x45",
@@ -747,5 +767,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "風見の止めるその声を、背中に聞きながら――。"
+  },
+  "002597": {
+    "context": "002597",
+    "code": "0x02",
+    "string": "jump-script 28"
   }
 }

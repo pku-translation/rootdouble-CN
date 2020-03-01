@@ -22,6 +22,11 @@
     "developer_comment": "",
     "string": "依然、予断を許さない状況が続く。"
   },
+  "000140": {
+    "context": "000140",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "000148": {
     "context": "000148",
     "code": "0x45",
@@ -609,5 +614,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう思いつつ、渡瀬たちは風見の背を追った。"
+  },
+  "002364": {
+    "context": "002364",
+    "code": "0x02",
+    "string": "jump-script 20"
   }
 }

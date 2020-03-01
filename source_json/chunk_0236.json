@@ -717,5 +717,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そのとき連絡通路を抜け、第６エリア外周棟に差し掛かった。"
+  },
+  "002634": {
+    "context": "002634",
+    "code": "0x02",
+    "string": "jump-script 237"
   }
 }

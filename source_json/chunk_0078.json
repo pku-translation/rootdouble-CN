@@ -166,6 +166,11 @@
     "developer_comment": "サリュ",
     "string": "「恵那こそなぜここにいるの？　昨日は、私たちの情報に耳を貸さなかったのに」"
   },
+  "000539": {
+    "context": "000539",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "000568": {
     "context": "000568",
     "code": "0x45",
@@ -441,5 +446,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そこにはもう、サリュの姿は無かった。"
+  },
+  "002010": {
+    "context": "002010",
+    "code": "0x02",
+    "string": "jump-script 79"
   }
 }

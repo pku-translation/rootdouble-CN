@@ -190,6 +190,11 @@
     "developer_comment": "渡瀬",
     "string": "（だ……ダメだ！）"
   },
+  "000779": {
+    "context": "000779",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見]"
+  },
   "000784": {
     "context": "000784",
     "code": "0x45",
@@ -225,6 +230,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「わ、わかった――」"
+  },
+  "000928": {
+    "context": "000928",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見]"
   },
   "000939": {
     "context": "000939",
@@ -297,6 +307,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "今も炎が噴出している、部屋の中へ突進した。"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x02",
+    "string": "jump-script 114"
   },
   "001180": {
     "context": "001180",

@@ -436,6 +436,11 @@
     "developer_comment": "",
     "string": "しかしエアダクトには、網がはめられていた。"
   },
+  "002619": {
+    "context": "002619",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 洵]"
+  },
   "002649": {
     "context": "002649",
     "code": "0x45",
@@ -627,5 +632,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "床に倒れている、洵の姿を発見した。"
+  },
+  "003519": {
+    "context": "003519",
+    "code": "0x02",
+    "string": "jump-script 27"
   }
 }

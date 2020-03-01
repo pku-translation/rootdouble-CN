@@ -781,6 +781,11 @@
     "developer_comment": "ましろ",
     "string": "「またこういう話したら、天川博士に言いつけるからね」"
   },
+  "002337": {
+    "context": "002337",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "002366": {
     "context": "002366",
     "code": "0x45",
@@ -912,5 +917,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は苦笑し、ましろの肩をぽんと叩いた。"
+  },
+  "002816": {
+    "context": "002816",
+    "code": "0x02",
+    "string": "jump-script 157"
   }
 }

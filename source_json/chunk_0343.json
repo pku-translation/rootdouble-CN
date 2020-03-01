@@ -610,6 +610,11 @@
     "developer_comment": "",
     "string": "確かにそうすれば、彼女の気持ちを理解できるだろう。"
   },
+  "002270": {
+    "context": "002270",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那 夏彦]"
+  },
   "002275": {
     "context": "002275",
     "code": "0x45",
@@ -742,6 +747,11 @@
     "developer_comment": "",
     "string": "恵那が『警察のようなもの』に所属している人間であれば、それに準じた理由なのだろうが――"
   },
+  "002646": {
+    "context": "002646",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那 夏彦]"
+  },
   "002652": {
     "context": "002652",
     "code": "0x45",
@@ -873,5 +883,45 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "センシズシンパシーを、発動した。"
+  },
+  "003126": {
+    "context": "003126",
+    "code": "0x04",
+    "string": "call-script 344"
+  },
+  "003127": {
+    "context": "003127",
+    "code": "0x04",
+    "string": "call-script 345"
+  },
+  "003128": {
+    "context": "003128",
+    "code": "0x04",
+    "string": "call-script 346"
+  },
+  "003129": {
+    "context": "003129",
+    "code": "0x04",
+    "string": "call-script 347"
+  },
+  "003130": {
+    "context": "003130",
+    "code": "0x04",
+    "string": "call-script 350"
+  },
+  "003131": {
+    "context": "003131",
+    "code": "0x04",
+    "string": "call-script 348"
+  },
+  "003133": {
+    "context": "003133",
+    "code": "0x04",
+    "string": "call-script 349"
+  },
+  "003137": {
+    "context": "003137",
+    "code": "0x02",
+    "string": "jump-script 351"
   }
 }

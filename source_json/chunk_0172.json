@@ -580,6 +580,11 @@
     "developer_comment": "宇喜多",
     "string": "「ともかく、我がラボはそのような体制のもとに原子炉を運用し、様々な研究を行っています」"
   },
+  "003354": {
+    "context": "003354",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ サリュ]"
+  },
   "003383": {
     "context": "003383",
     "code": "0x45",
@@ -1084,6 +1089,11 @@
     "developer_comment": "夏彦",
     "string": "「は、はい。ありがとうございます」"
   },
+  "005628": {
+    "context": "005628",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "005657": {
     "context": "005657",
     "code": "0x45",
@@ -1233,5 +1243,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちは慌てて、教室に戻った。"
+  },
+  "006312": {
+    "context": "006312",
+    "code": "0x02",
+    "string": "jump-script 173"
   }
 }

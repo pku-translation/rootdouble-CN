@@ -52,6 +52,11 @@
     "developer_comment": "",
     "string": "悠里はかすかに微笑んでうなずく。"
   },
+  "000197": {
+    "context": "000197",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "000226": {
     "context": "000226",
     "code": "0x45",
@@ -100,6 +105,11 @@
     "developer_comment": "",
     "string": "その正義感に従い、悠里を救ってあげようと思った時の事を――"
   },
+  "000329": {
+    "context": "000329",
+    "code": "0x04",
+    "string": "call-script 177"
+  },
   "000331": {
     "context": "000331",
     "code": "0x55",
@@ -122,6 +132,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里の言う通り、かつての自分には、そんなところがあったのだ。"
+  },
+  "000464": {
+    "context": "000464",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 夏彦]"
   },
   "000469": {
     "context": "000469",
@@ -284,6 +299,11 @@
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「９年前のあの日、ひこりんの時間は止まったの」"
+  },
+  "000861": {
+    "context": "000861",
+    "code": "0x87",
+    "string": "@sss-active red [ましろ]"
   },
   "000890": {
     "context": "000890",
@@ -453,6 +473,11 @@
     "developer_comment": "",
     "string": "――９月１６日の『現実』に戻った。"
   },
+  "001559": {
+    "context": "001559",
+    "code": "0x02",
+    "string": "jump-script 234"
+  },
   "001588": {
     "context": "001588",
     "code": "0x45",
@@ -524,5 +549,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そして『現実』に戻った。"
+  },
+  "002116": {
+    "context": "002116",
+    "code": "0x02",
+    "string": "jump-script 178"
   }
 }

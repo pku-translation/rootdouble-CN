@@ -220,6 +220,11 @@
     "developer_comment": "",
     "string": "そう言って制服のファスナーを下ろそうとした時、洵が声を上げた。"
   },
+  "000728": {
+    "context": "000728",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵]"
+  },
   "000787": {
     "context": "000787",
     "code": "0x45",
@@ -249,6 +254,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「落ち着けオレだ！　背中に怪我をしたお前を、手当てしようとしてたんだ！」"
+  },
+  "000873": {
+    "context": "000873",
+    "code": "0x04",
+    "string": "call-script 74"
   },
   "000909": {
     "context": "000909",
@@ -519,5 +529,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそう思い、宇喜多を追って第２エリアに向かった。"
+  },
+  "001837": {
+    "context": "001837",
+    "code": "0x02",
+    "string": "jump-script 76"
   }
 }

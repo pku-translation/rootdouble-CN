@@ -142,6 +142,11 @@
     "developer_comment": "",
     "string": "――このままでは、命を賭けた『椅子取りゲーム』が始まりかねない事に気付いたのだ。"
   },
+  "000725": {
+    "context": "000725",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵 恵那 宇喜多 夏彦 ましろ サリュ]"
+  },
   "000731": {
     "context": "000731",
     "code": "0x45",
@@ -502,6 +507,11 @@
     "developer_comment": "渡瀬",
     "string": "「そう言えばプロキオンを、第６エリアで見つけた。これを使えば３チームに分かれることができるが……？」"
   },
+  "001600": {
+    "context": "001600",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 洵 恵那]"
+  },
   "001659": {
     "context": "001659",
     "code": "0x45",
@@ -753,6 +763,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "先ほどの一件が後を引き、誰と組むべきかが思いつかない……。"
+  },
+  "002598": {
+    "context": "002598",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見 洵 恵那]"
   },
   "002718": {
     "context": "002718",
@@ -1394,6 +1409,11 @@
     "developer_comment": "",
     "string": "かすかな懸念を抱えたまま、第４エリア方面に向けて歩き出した。"
   },
+  "005018": {
+    "context": "005018",
+    "code": "0x02",
+    "string": "jump-script 65"
+  },
   "005021": {
     "context": "005021",
     "code": "0x45",
@@ -1459,6 +1479,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はかすかな懸念を抱えたまま、洵たちと連れ立って部屋を出た。"
+  },
+  "005287": {
+    "context": "005287",
+    "code": "0x02",
+    "string": "jump-script 62"
   },
   "005323": {
     "context": "005323",
@@ -1537,5 +1562,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はかすかな懸念を抱きつつ、恵那たちと連れ立って部屋を出た。"
+  },
+  "005566": {
+    "context": "005566",
+    "code": "0x02",
+    "string": "jump-script 59"
   }
 }

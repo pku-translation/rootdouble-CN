@@ -83,6 +83,11 @@
     "developer_comment": "",
     "string": "憎悪の矛先は即座に失われ――そして別の対象に向けられた。"
   },
+  "000291": {
+    "context": "000291",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里 夏彦 ましろ サリュ]"
+  },
   "000302": {
     "context": "000302",
     "code": "0x45",
@@ -448,5 +453,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はそう思いつつ、ひとまずその記憶を離れた……。"
+  },
+  "001556": {
+    "context": "001556",
+    "code": "0x04",
+    "string": "call-script 307"
   }
 }

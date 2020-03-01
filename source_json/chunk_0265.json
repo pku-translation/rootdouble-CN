@@ -189,5 +189,10 @@
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「物音がするから来てみれば、君らは何をやっているのかね？」"
+  },
+  "000800": {
+    "context": "000800",
+    "code": "0x02",
+    "string": "jump-script 266"
   }
 }

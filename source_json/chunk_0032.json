@@ -22,6 +22,11 @@
     "developer_comment": "",
     "string": "そして、ちょうどその時――ユウリが眼を覚まして呟いた。"
   },
+  "000146": {
+    "context": "000146",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "000213": {
     "context": "000213",
     "code": "0x45",
@@ -370,6 +375,11 @@
     "developer_comment": "渡瀬",
     "string": "「だけどみんな無理はするなよ、やばかったら言ってくれ」"
   },
+  "001504": {
+    "context": "001504",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵]"
+  },
   "001533": {
     "context": "001533",
     "code": "0x45",
@@ -405,6 +415,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その言葉に、皆がうなずく。"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x04",
+    "string": "call-script 34"
   },
   "001805": {
     "context": "001805",
@@ -799,6 +814,11 @@
     "developer_comment": "",
     "string": "ＡＤを投与していれば、恐らく耐えられる数値だった。"
   },
+  "002808": {
+    "context": "002808",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "002873": {
     "context": "002873",
     "code": "0x45",
@@ -901,6 +921,11 @@
     "developer_comment": "",
     "string": "確かに通路とエレベーターホールだけなら、２人でも充分だろう。"
   },
+  "003430": {
+    "context": "003430",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "003435": {
     "context": "003435",
     "code": "0x45",
@@ -924,6 +949,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "いつもうるさい恵那も、やけに静かだ。"
+  },
+  "003578": {
+    "context": "003578",
+    "code": "0x04",
+    "string": "call-script 33"
   },
   "003580": {
     "context": "003580",
@@ -1313,5 +1343,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "『Ｌｖ６』と書かれた、セキュリティカードが落ちていた。"
+  },
+  "004603": {
+    "context": "004603",
+    "code": "0x02",
+    "string": "jump-script 35"
   }
 }

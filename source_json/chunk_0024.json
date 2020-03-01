@@ -10,6 +10,11 @@
     "developer_comment": "",
     "string": "――非常階段を駆け降りると、"
   },
+  "000068": {
+    "context": "000068",
+    "code": "0x02",
+    "string": "jump-script 104"
+  },
   "000173": {
     "context": "000173",
     "code": "0x45",
@@ -39,6 +44,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「気遣い無用だ！　それよりオレに手伝える事はあるか！？」"
+  },
+  "000317": {
+    "context": "000317",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 風見 洵]"
   },
   "000346": {
     "context": "000346",
@@ -82,6 +92,11 @@
     "developer_comment": "",
     "string": "渡瀬はあえてその場に留まった。"
   },
+  "000466": {
+    "context": "000466",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見 洵]"
+  },
   "000471": {
     "context": "000471",
     "code": "0x45",
@@ -105,6 +120,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はあえてその場に留まった。"
+  },
+  "000505": {
+    "context": "000505",
+    "code": "0x02",
+    "string": "jump-script 115"
   },
   "000514": {
     "context": "000514",
@@ -376,6 +396,11 @@
     "developer_comment": "渡瀬",
     "string": "「お、おい……大丈夫なのか、橘！？」"
   },
+  "001750": {
+    "context": "001750",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵]"
+  },
   "001779": {
     "context": "001779",
     "code": "0x45",
@@ -567,5 +592,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は決意を改め、早足で制御室に向かった。"
+  },
+  "002352": {
+    "context": "002352",
+    "code": "0x02",
+    "string": "jump-script 25"
   }
 }

@@ -679,6 +679,11 @@
     "developer_comment": "",
     "string": "なぜか夏彦を、じーっと見ながら。"
   },
+  "002173": {
+    "context": "002173",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "002197": {
     "context": "002197",
     "code": "0x45",
@@ -1261,6 +1266,11 @@
     "developer_comment": "夏彦",
     "string": "「おいおいましろ、さっそくあだ名って……馴れ馴れし過ぎないか？」"
   },
+  "004636": {
+    "context": "004636",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ サリュ]"
+  },
   "004665": {
     "context": "004665",
     "code": "0x45",
@@ -1392,5 +1402,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ともかくそんな風にして、彼女はなし崩し的にましろと夏彦の『友達』になったのだった……。"
+  },
+  "005096": {
+    "context": "005096",
+    "code": "0x02",
+    "string": "jump-script 143"
   }
 }

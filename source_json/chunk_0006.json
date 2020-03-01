@@ -1045,6 +1045,11 @@
     "developer_comment": "渡瀬",
     "string": "「そうか！　だったら――」"
   },
+  "004485": {
+    "context": "004485",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 風見 洵]"
+  },
   "004514": {
     "context": "004514",
     "code": "0x45",
@@ -1410,5 +1415,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は自分にそう誓い、風見たちと共に簡易基地を後にした。"
+  },
+  "005639": {
+    "context": "005639",
+    "code": "0x02",
+    "string": "jump-script 7"
   }
 }

@@ -100,6 +100,11 @@
     "developer_comment": "",
     "string": "洵もやがて１階から戻ってきた。"
   },
+  "000420": {
+    "context": "000420",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 洵]"
+  },
   "000485": {
     "context": "000485",
     "code": "0x45",
@@ -255,5 +260,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはそう言って、次の捜索場所、第１エリアへ向かった。"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x02",
+    "string": "jump-script 64"
   }
 }

@@ -7,18 +7,6 @@ namespace CsYetiTools.VnScripts
 {
     public class CodeAddressData
     {
-        /*
-            seems if-else: 
-
-            756 | [0A] CE 80 07 00 ${code 760}
-            757 | [0C] 15 80 ${code 759}
-            758 | [89] 2 1 [ 0 0 1 0 0 0 0 0 0]
-            759 | [01] ${code 762}
-            760 | [0C] 15 80 ${code 762}
-            761 | [89] 3 0 [ 0 0 0 0 0 0 0 0 0]
-            762 | ...
-        */
-
         public CodeAddressData(int baseOffset = default, int absoluteOffset = default)
         {
             BaseOffset = baseOffset;

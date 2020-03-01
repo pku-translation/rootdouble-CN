@@ -322,6 +322,11 @@
     "developer_comment": "夏彦",
     "string": "「む、ムチャクチャ言うなぁ」"
   },
+  "001304": {
+    "context": "001304",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "001333": {
     "context": "001333",
     "code": "0x45",
@@ -891,6 +896,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「な、なに？」"
+  },
+  "004048": {
+    "context": "004048",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ]"
   },
   "004077": {
     "context": "004077",
@@ -1479,5 +1489,10 @@
     "code": "0x47",
     "developer_comment": "",
     "string": "――それはこの日から、６日後の朝だった。"
+  },
+  "006185": {
+    "context": "006185",
+    "code": "0x02",
+    "string": "jump-script 140"
   }
 }

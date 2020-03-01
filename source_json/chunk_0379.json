@@ -131,6 +131,11 @@
     "developer_comment": "風見",
     "string": "（耐えなきゃ……私が皆を引っ張らなきゃ……！）"
   },
+  "000586": {
+    "context": "000586",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬]"
+  },
   "000591": {
     "context": "000591",
     "code": "0x45",
@@ -550,5 +555,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もっとうまく感情を調整しなきゃいけないな）"
+  },
+  "002463": {
+    "context": "002463",
+    "code": "0x04",
+    "string": "call-script 380"
   }
 }

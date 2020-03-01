@@ -346,6 +346,11 @@
     "developer_comment": "風見",
     "string": "「……例えば、私との記憶はどうですか？　何か思い出せることはありませんか？」"
   },
+  "000947": {
+    "context": "000947",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "000952": {
     "context": "000952",
     "code": "0x45",
@@ -375,6 +380,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それきり風見は黙り込む。"
+  },
+  "000999": {
+    "context": "000999",
+    "code": "0x04",
+    "string": "call-script 75"
   },
   "001001": {
     "context": "001001",
@@ -566,5 +576,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は神妙にうなずくと、監視ルームを後にした。"
+  },
+  "001461": {
+    "context": "001461",
+    "code": "0x02",
+    "string": "jump-script 76"
   }
 }

@@ -550,6 +550,11 @@
     "developer_comment": "恵那",
     "string": "「人がまだ地下に残っているのに、勝手に隔壁を封鎖しておいて、しかも開けられない！」"
   },
+  "001842": {
+    "context": "001842",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那 宇喜多]"
+  },
   "001853": {
     "context": "001853",
     "code": "0x45",
@@ -627,6 +632,11 @@
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「私だけならまだしも、私の生徒まで閉じ込められているのに！」"
+  },
+  "002150": {
+    "context": "002150",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那 夏彦 ましろ サリュ]"
   },
   "002161": {
     "context": "002161",
@@ -1144,6 +1154,11 @@
     "developer_comment": "宇喜多",
     "string": "「う、うむ。全員で捜索しながら進んだ方が、効率がいいだろう」"
   },
+  "003745": {
+    "context": "003745",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 恵那 悠里]"
+  },
   "003774": {
     "context": "003774",
     "code": "0x45",
@@ -1401,5 +1416,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その声に従い、渡瀬たちは監視ルームを飛び出した。"
+  },
+  "004827": {
+    "context": "004827",
+    "code": "0x02",
+    "string": "jump-script 11"
   }
 }

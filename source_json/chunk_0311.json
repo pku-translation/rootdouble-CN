@@ -844,6 +844,11 @@
     "developer_comment": "",
     "string": "自分の能力を危険視するのは大事だが、今はその時じゃないかもしれない。"
   },
+  "002467": {
+    "context": "002467",
+    "code": "0x87",
+    "string": "@sss-active yellow [宇喜多 夏彦]"
+  },
   "002472": {
     "context": "002472",
     "code": "0x45",
@@ -891,6 +896,11 @@
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「その上で『花の香りがする記憶』を探して、修復すればいいと思う」"
+  },
+  "002665": {
+    "context": "002665",
+    "code": "0x87",
+    "string": "@sss-active yellow [宇喜多 夏彦]"
   },
   "002676": {
     "context": "002676",
@@ -988,14 +998,89 @@
     "developer_comment": "",
     "string": "センシズシンパシーを、発動した。"
   },
+  "003118": {
+    "context": "003118",
+    "code": "0x04",
+    "string": "call-script 312"
+  },
+  "003119": {
+    "context": "003119",
+    "code": "0x04",
+    "string": "call-script 313"
+  },
+  "003120": {
+    "context": "003120",
+    "code": "0x04",
+    "string": "call-script 314"
+  },
+  "003121": {
+    "context": "003121",
+    "code": "0x04",
+    "string": "call-script 315"
+  },
+  "003122": {
+    "context": "003122",
+    "code": "0x04",
+    "string": "call-script 316"
+  },
   "003280": {
     "context": "003280",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
   },
+  "003458": {
+    "context": "003458",
+    "code": "0x04",
+    "string": "call-script 317"
+  },
+  "003460": {
+    "context": "003460",
+    "code": "0x04",
+    "string": "call-script 318"
+  },
+  "003462": {
+    "context": "003462",
+    "code": "0x04",
+    "string": "call-script 319"
+  },
+  "003464": {
+    "context": "003464",
+    "code": "0x04",
+    "string": "call-script 321"
+  },
+  "003466": {
+    "context": "003466",
+    "code": "0x04",
+    "string": "call-script 322"
+  },
   "003624": {
     "context": "003624",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "003802": {
+    "context": "003802",
+    "code": "0x04",
+    "string": "call-script 317"
+  },
+  "003804": {
+    "context": "003804",
+    "code": "0x04",
+    "string": "call-script 318"
+  },
+  "003806": {
+    "context": "003806",
+    "code": "0x04",
+    "string": "call-script 319"
+  },
+  "003808": {
+    "context": "003808",
+    "code": "0x04",
+    "string": "call-script 323"
+  },
+  "003812": {
+    "context": "003812",
+    "code": "0x02",
+    "string": "jump-script 324"
   }
 }

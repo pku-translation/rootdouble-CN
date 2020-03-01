@@ -1048,6 +1048,11 @@
     "developer_comment": "",
     "string": "ましろの問いに、サリュは平然と答える。"
   },
+  "005053": {
+    "context": "005053",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "005064": {
     "context": "005064",
     "code": "0x45",
@@ -1905,5 +1910,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "休み時間は終了した。"
+  },
+  "009217": {
+    "context": "009217",
+    "code": "0x02",
+    "string": "jump-script 169"
   }
 }

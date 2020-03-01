@@ -34,6 +34,11 @@
     "developer_comment": "渡瀬",
     "string": "（あの扉の向こうには、今も死体が……！）"
   },
+  "000188": {
+    "context": "000188",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "000193": {
     "context": "000193",
     "code": "0x45",
@@ -608,5 +613,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはひとまず、その部屋を後にした。"
+  },
+  "001635": {
+    "context": "001635",
+    "code": "0x02",
+    "string": "jump-script 67"
   }
 }

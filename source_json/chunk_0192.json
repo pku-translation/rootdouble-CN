@@ -514,6 +514,11 @@
     "developer_comment": "悠里",
     "string": "「わたしは頭数に入ってないと思うし、おうちの中にいれば大丈夫だよ」"
   },
+  "001447": {
+    "context": "001447",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "001453": {
     "context": "001453",
     "code": "0x45",
@@ -567,6 +572,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう思う夏彦の脳裏に、１０年前の出来事がよぎった。"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x04",
+    "string": "call-script 193"
   },
   "001588": {
     "context": "001588",
@@ -950,5 +960,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "点けっ放しのテレビの音声が、部屋の中からかすかに漏れ、やがてそれも遠くなっていった。"
+  },
+  "002805": {
+    "context": "002805",
+    "code": "0x02",
+    "string": "jump-script 194"
   }
 }

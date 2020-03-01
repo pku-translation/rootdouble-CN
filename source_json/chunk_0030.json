@@ -370,6 +370,11 @@
     "developer_comment": "",
     "string": "恵那は俯いて、ぽつりと呟いた。"
   },
+  "001304": {
+    "context": "001304",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵 恵那]"
+  },
   "001335": {
     "context": "001335",
     "code": "0x45",
@@ -628,6 +633,11 @@
     "developer_comment": "恵那",
     "string": "「そういう人がいざという時に頑張ったりすると、余計に素敵に見えるものでしょ？」"
   },
+  "002267": {
+    "context": "002267",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "002278": {
     "context": "002278",
     "code": "0x45",
@@ -790,6 +800,11 @@
     "developer_comment": "洵",
     "string": "「そのせいでせっかくこんな美人なのに、いまいちモテないんだよ」"
   },
+  "002671": {
+    "context": "002671",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "002682": {
     "context": "002682",
     "code": "0x45",
@@ -807,6 +822,11 @@
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「椿山さんも、守部の与太話に乗らないように」"
+  },
+  "002725": {
+    "context": "002725",
+    "code": "0x04",
+    "string": "call-script 31"
   },
   "002727": {
     "context": "002727",
@@ -896,5 +916,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "皆を現実に引き戻すかのように、宇喜多の声が聞こえた。"
+  },
+  "002903": {
+    "context": "002903",
+    "code": "0x02",
+    "string": "jump-script 32"
   }
 }

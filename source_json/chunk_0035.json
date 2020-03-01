@@ -88,6 +88,11 @@
     "developer_comment": "渡瀬",
     "string": "「しかし、橘……」"
   },
+  "000437": {
+    "context": "000437",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "000466": {
     "context": "000466",
     "code": "0x45",
@@ -225,6 +230,11 @@
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（くそ……オレはなんて言えば……！）"
+  },
+  "000784": {
+    "context": "000784",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 風見 洵]"
   },
   "000789": {
     "context": "000789",
@@ -610,6 +620,11 @@
     "developer_comment": "渡瀬",
     "string": "「よし。じゃあせっかく手に入れたＬｖ６のカード――それを使って、前に進もう」"
   },
+  "001943": {
+    "context": "001943",
+    "code": "0x87",
+    "string": "@sss-active blue [洵]"
+  },
   "001954": {
     "context": "001954",
     "code": "0x45",
@@ -765,5 +780,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そうしてそのエレベーターホールは、彼のかりそめの墓となった……。"
+  },
+  "002492": {
+    "context": "002492",
+    "code": "0x02",
+    "string": "jump-script 36"
   }
 }

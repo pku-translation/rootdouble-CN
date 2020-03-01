@@ -226,6 +226,11 @@
     "developer_comment": "夏彦",
     "string": "「家でのんびりしてれば、危険な目に遭うことなんかないから」"
   },
+  "001310": {
+    "context": "001310",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 夏彦 ましろ]"
+  },
   "001339": {
     "context": "001339",
     "code": "0x45",
@@ -897,5 +902,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな平穏な時間を、夏彦はとても心地よく感じていた……。"
+  },
+  "004771": {
+    "context": "004771",
+    "code": "0x02",
+    "string": "jump-script 139"
   }
 }

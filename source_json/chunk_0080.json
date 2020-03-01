@@ -598,6 +598,11 @@
     "developer_comment": "",
     "string": "扉が通路に倒れ込み、その向こうに廊下が見えた。"
   },
+  "002293": {
+    "context": "002293",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "002304": {
     "context": "002304",
     "code": "0x45",
@@ -681,5 +686,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "――その時が訪れた。"
+  },
+  "002672": {
+    "context": "002672",
+    "code": "0x02",
+    "string": "jump-script 81"
   }
 }

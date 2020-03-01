@@ -124,6 +124,11 @@
     "developer_comment": "渡瀬",
     "string": "「こ、ここは……？　なんで先生が……？」"
   },
+  "000423": {
+    "context": "000423",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "000428": {
     "context": "000428",
     "code": "0x45",
@@ -244,6 +249,11 @@
     "developer_comment": "渡瀬",
     "string": "「ない……」"
   },
+  "000660": {
+    "context": "000660",
+    "code": "0x87",
+    "string": "@sss-active yellow [恵那]"
+  },
   "000707": {
     "context": "000707",
     "code": "0x45",
@@ -273,6 +283,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "真相はわからない。"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x04",
+    "string": "call-script 23"
   },
   "000785": {
     "context": "000785",
@@ -584,5 +599,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その声を背に聞きながら、渡瀬は非常階段に向けて駆け出した。"
+  },
+  "001770": {
+    "context": "001770",
+    "code": "0x02",
+    "string": "jump-script 24"
   }
 }

@@ -357,5 +357,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "不意に部屋の外で、物音が聞こえた。"
+  },
+  "001588": {
+    "context": "001588",
+    "code": "0x02",
+    "string": "jump-script 190"
   }
 }

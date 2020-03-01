@@ -1163,6 +1163,11 @@
     "developer_comment": "洵",
     "string": "「あたしさ、『ヒーロー』になりたかったんだよね」"
   },
+  "003216": {
+    "context": "003216",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "003227": {
     "context": "003227",
     "code": "0x45",
@@ -1403,6 +1408,11 @@
     "developer_comment": "ましろ",
     "string": "「そ、そうだったんですか！　お時間取らせてすみません！」"
   },
+  "004223": {
+    "context": "004223",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "004252": {
     "context": "004252",
     "code": "0x45",
@@ -1468,6 +1478,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ふとした拍子に、また夏彦の記憶の扉が開いた――。"
+  },
+  "004511": {
+    "context": "004511",
+    "code": "0x04",
+    "string": "call-script 171"
   },
   "004513": {
     "context": "004513",
@@ -1605,5 +1620,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちは、慌てて屋上に向かった……。"
+  },
+  "005044": {
+    "context": "005044",
+    "code": "0x02",
+    "string": "jump-script 172"
   }
 }

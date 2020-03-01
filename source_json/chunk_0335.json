@@ -77,6 +77,11 @@
     "developer_comment": "恵那",
     "string": "「ふんっ！　レスキューってのも案外、使えないのね！」"
   },
+  "000462": {
+    "context": "000462",
+    "code": "0x87",
+    "string": "@sss-active yellow [洵 恵那]"
+  },
   "000473": {
     "context": "000473",
     "code": "0x45",
@@ -346,5 +351,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もっと先生に対する好意的感情を、注ぎ込まなきゃまずいか……）"
+  },
+  "001992": {
+    "context": "001992",
+    "code": "0x04",
+    "string": "call-script 339"
   }
 }

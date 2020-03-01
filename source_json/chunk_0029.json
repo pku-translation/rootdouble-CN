@@ -190,6 +190,11 @@
     "developer_comment": "渡瀬",
     "string": "「そうなのか……悪いが、その事も全く覚えていない……」"
   },
+  "000669": {
+    "context": "000669",
+    "code": "0x87",
+    "string": "@sss-active blue [宇喜多]"
+  },
   "000698": {
     "context": "000698",
     "code": "0x45",
@@ -490,6 +495,11 @@
     "developer_comment": "",
     "string": "――ハシゴ付近まで戻ると、風見が声をかけてきた。"
   },
+  "001614": {
+    "context": "001614",
+    "code": "0x87",
+    "string": "@sss-active blue [洵]"
+  },
   "001679": {
     "context": "001679",
     "code": "0x45",
@@ -681,5 +691,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはラボ内の消火が完了するまでの間、休息を取ることにした。"
+  },
+  "002392": {
+    "context": "002392",
+    "code": "0x02",
+    "string": "jump-script 30"
   }
 }

@@ -1,4 +1,9 @@
 {
+  "000091": {
+    "context": "000091",
+    "code": "0x04",
+    "string": "call-script 521"
+  },
   "000166": {
     "context": "000166",
     "code": "0x55",
@@ -9,6 +14,11 @@
     "code": "0x45",
     "developer_comment": "男",
     "string": "「待ってろ！　今、助けてやる！」"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 洵]"
   },
   "000234": {
     "context": "000234",
@@ -70,6 +80,11 @@
     "developer_comment": "男",
     "string": "「いや、オレに任せろ！」"
   },
+  "000487": {
+    "context": "000487",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 洵]"
+  },
   "000492": {
     "context": "000492",
     "code": "0x45",
@@ -117,6 +132,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "すぐに女隊員が、男を押しのけるように室内へ飛び込む。"
+  },
+  "000678": {
+    "context": "000678",
+    "code": "0x02",
+    "string": "jump-script 102"
   },
   "000687": {
     "context": "000687",
@@ -970,6 +990,11 @@
     "developer_comment": "",
     "string": "彼女はさきほどの薬を手に、説明を続ける。"
   },
+  "004163": {
+    "context": "004163",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "004285": {
     "context": "004285",
     "code": "0x45",
@@ -1018,6 +1043,11 @@
     "developer_comment": "",
     "string": "どこか現実離れした薬のような気がしたが……彼女の落ち着きぶりを見る限り、本当なのだろう。"
   },
+  "004416": {
+    "context": "004416",
+    "code": "0x87",
+    "string": "@sss-active red [風見]"
+  },
   "004421": {
     "context": "004421",
     "code": "0x45",
@@ -1053,6 +1083,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "やはりどこか現実離れした薬のような気がしたが……そこまで言うのなら、信じる他ない。"
+  },
+  "004526": {
+    "context": "004526",
+    "code": "0x02",
+    "string": "jump-script 113"
   },
   "004536": {
     "context": "004536",
@@ -1257,5 +1292,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "男たちはその後を追った。"
+  },
+  "005177": {
+    "context": "005177",
+    "code": "0x02",
+    "string": "jump-script 5"
   }
 }

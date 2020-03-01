@@ -466,31 +466,59 @@ namespace CsYetiTools.VnScripts
 
             var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
 
-            foreach (var code in Codes.OfType<StringCode>())
+            foreach (var code in Codes)
             {
                 var index = $"{code.Index:000000}";
-                if (code is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
+                if (code is ScriptJumpCode scriptJumpCode)
                 {
-                    currentName = code.Content;
-                }
-                else if (code is DialogCode || code is ExtraDialogCode)
-                {
+                    if (!scriptJumpCode.IsJump) continue;
+
+                    var prefix = code.Code switch {
+                        0x02 => @"jump-script ",
+                        0x04 => @"call-script ",
+                        _ => throw new InvalidDataException($"Is [{code.Code:X02}] script-jump-code???"),
+                    };
                     dict.Add(index, new Transifex.TranslationInfo
                     {
                         Context = index,
                         Code = $"0x{code.Code:X2}",
-                        DeveloperComment = currentName ?? "",
-                        String = code.Content
+                        String = prefix + scriptJumpCode.TargetScript,
                     });
-                    currentName = null;
                 }
-                else
+                else if (code is StringCode strCode)
+                {
+                    if (strCode is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
+                    {
+                        currentName = strCode.Content;
+                    }
+                    else if (strCode is DialogCode || strCode is ExtraDialogCode)
+                    {
+                        dict.Add(index, new Transifex.TranslationInfo
+                        {
+                            Context = index,
+                            Code = $"0x{strCode.Code:X2}",
+                            DeveloperComment = currentName ?? "",
+                            String = strCode.Content
+                        });
+                        currentName = null;
+                    }
+                    else
+                    {
+                        dict.Add(index, new Transifex.TranslationInfo
+                        {
+                            Context = index,
+                            Code = $"0x{strCode.Code:X2}",
+                            String = strCode.Content
+                        });
+                    }
+                }
+                else if (code is SssInputCode sssInputCode)
                 {
                     dict.Add(index, new Transifex.TranslationInfo
                     {
                         Context = index,
-                        Code = $"0x{code.Code:X2}",
-                        @String = code.Content
+                        Code = $"0x{sssInputCode.Code:X2}",
+                        String = $"@sss-active {sssInputCode.TypeName.ToLower()} [{" ".Join(sssInputCode.EnumerateNames())}]"
                     });
                 }
             }

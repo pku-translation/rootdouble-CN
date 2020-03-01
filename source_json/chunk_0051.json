@@ -64,6 +64,11 @@
     "developer_comment": "",
     "string": "問題のゲートが通れるようになった事で、みんなの表情は明るかった。"
   },
+  "000453": {
+    "context": "000453",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵 恵那 悠里]"
+  },
   "000458": {
     "context": "000458",
     "code": "0x45",
@@ -729,5 +734,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはただ呆然と、そこに立ち尽くしていた……。"
+  },
+  "002554": {
+    "context": "002554",
+    "code": "0x02",
+    "string": "jump-script 52"
   }
 }

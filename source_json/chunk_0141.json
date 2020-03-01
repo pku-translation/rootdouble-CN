@@ -82,6 +82,11 @@
     "developer_comment": "ましろ",
     "string": "「何だっけって、手ー見せてみろって言ったの夏彦でしょ？」"
   },
+  "000452": {
+    "context": "000452",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "000463": {
     "context": "000463",
     "code": "0x45",
@@ -412,6 +417,11 @@
     "developer_comment": "夏彦",
     "string": "「正直言って、受かる自信がないよ。昨日のはまぐれなんだって」"
   },
+  "003206": {
+    "context": "003206",
+    "code": "0x87",
+    "string": "@sss-active blue [夏彦 ましろ]"
+  },
   "003235": {
     "context": "003235",
     "code": "0x45",
@@ -501,5 +511,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そして夏彦たちはそれに乗り込み、学校へ向かった。"
+  },
+  "003685": {
+    "context": "003685",
+    "code": "0x02",
+    "string": "jump-script 142"
   }
 }

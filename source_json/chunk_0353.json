@@ -532,6 +532,11 @@
     "developer_comment": "",
     "string": "だが悠里は慌てて首を振った。"
   },
+  "002050": {
+    "context": "002050",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里 サリュ]"
+  },
   "002077": {
     "context": "002077",
     "code": "0x45",
@@ -1119,5 +1124,55 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦は悠里と手を繋ぎ、センシズシンパシーを試みた。"
+  },
+  "004178": {
+    "context": "004178",
+    "code": "0x04",
+    "string": "call-script 354"
+  },
+  "004182": {
+    "context": "004182",
+    "code": "0x04",
+    "string": "call-script 355"
+  },
+  "004183": {
+    "context": "004183",
+    "code": "0x04",
+    "string": "call-script 356"
+  },
+  "004184": {
+    "context": "004184",
+    "code": "0x04",
+    "string": "call-script 357"
+  },
+  "004185": {
+    "context": "004185",
+    "code": "0x04",
+    "string": "call-script 358"
+  },
+  "004186": {
+    "context": "004186",
+    "code": "0x04",
+    "string": "call-script 359"
+  },
+  "004187": {
+    "context": "004187",
+    "code": "0x04",
+    "string": "call-script 360"
+  },
+  "004188": {
+    "context": "004188",
+    "code": "0x04",
+    "string": "call-script 361"
+  },
+  "004190": {
+    "context": "004190",
+    "code": "0x04",
+    "string": "call-script 362"
+  },
+  "004194": {
+    "context": "004194",
+    "code": "0x02",
+    "string": "jump-script 363"
   }
 }

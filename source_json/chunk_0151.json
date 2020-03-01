@@ -370,6 +370,11 @@
     "developer_comment": "夏彦",
     "string": "「え？　悠里もか……」"
   },
+  "001558": {
+    "context": "001558",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "001587": {
     "context": "001587",
     "code": "0x45",
@@ -399,6 +404,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "時間が溶けるような感覚と共に、悠里と初めて逢った日の記憶が思い出された――"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x04",
+    "string": "call-script 152"
   },
   "001779": {
     "context": "001779",
@@ -572,6 +582,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "脆く壊れそうな悠里の心を、あらゆる悪意から護るための。"
+  },
+  "002635": {
+    "context": "002635",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 夏彦 サリュ]"
   },
   "002640": {
     "context": "002640",
@@ -825,6 +840,11 @@
     "developer_comment": "悠里",
     "string": "「ううん。わたしもひこりんと同じく、さっき会ったばっかりだよ」"
   },
+  "003404": {
+    "context": "003404",
+    "code": "0x87",
+    "string": "@sss-active red [サリュ]"
+  },
   "003433": {
     "context": "003433",
     "code": "0x45",
@@ -998,6 +1018,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "目の前の景色が、変わった。"
+  },
+  "004160": {
+    "context": "004160",
+    "code": "0x02",
+    "string": "jump-script 232"
   },
   "004171": {
     "context": "004171",
@@ -1190,5 +1215,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それを、開けた。"
+  },
+  "005207": {
+    "context": "005207",
+    "code": "0x02",
+    "string": "jump-script 153"
   }
 }

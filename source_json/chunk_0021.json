@@ -340,6 +340,11 @@
     "developer_comment": "渡瀬",
     "string": "「落ち着け、そんなに警戒しなくていい！　オレたちは君を助けに来たんだ！」"
   },
+  "001738": {
+    "context": "001738",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "001749": {
     "context": "001749",
     "code": "0x45",
@@ -555,6 +560,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "しかも連絡通路に入るなり、警告が鳴ったと言う事は――"
+  },
+  "003030": {
+    "context": "003030",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 サリュ]"
   },
   "003036": {
     "context": "003036",
@@ -933,5 +943,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "―…"
+  },
+  "004289": {
+    "context": "004289",
+    "code": "0x02",
+    "string": "jump-script 22"
   }
 }

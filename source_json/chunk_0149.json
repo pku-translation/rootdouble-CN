@@ -222,6 +222,11 @@
     "developer_comment": "夏彦",
     "string": "「う、ん……」"
   },
+  "001230": {
+    "context": "001230",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ サリュ]"
+  },
   "001259": {
     "context": "001259",
     "code": "0x45",
@@ -774,6 +779,11 @@
     "developer_comment": "",
     "string": "本当に詳しい事を知らないのか、あるいは答える気がないのか――それさえ夏彦にはわからなかった。"
   },
+  "003198": {
+    "context": "003198",
+    "code": "0x87",
+    "string": "@sss-active yellow [サリュ]"
+  },
   "003233": {
     "context": "003233",
     "code": "0x45",
@@ -791,6 +801,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そ、それは申し訳ない……」"
+  },
+  "003285": {
+    "context": "003285",
+    "code": "0x04",
+    "string": "call-script 150"
   },
   "003287": {
     "context": "003287",
@@ -952,5 +967,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "自分の預かり知らないところで、少しずつ何かが進行しているような、そんな不安を……。"
+  },
+  "003990": {
+    "context": "003990",
+    "code": "0x02",
+    "string": "jump-script 151"
   }
 }

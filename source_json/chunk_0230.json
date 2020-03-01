@@ -742,6 +742,11 @@
     "developer_comment": "",
     "string": "そして悠里の幻影が消失した場所。"
   },
+  "002448": {
+    "context": "002448",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "002453": {
     "context": "002453",
     "code": "0x45",
@@ -789,6 +794,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "――それは彼女の、生前の記憶――"
+  },
+  "002591": {
+    "context": "002591",
+    "code": "0x04",
+    "string": "call-script 231"
   },
   "002593": {
     "context": "002593",
@@ -890,5 +900,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "未来に向けて。"
+  },
+  "003093": {
+    "context": "003093",
+    "code": "0x02",
+    "string": "jump-script 236"
   }
 }

@@ -77,6 +77,16 @@
     "developer_comment": "恵那",
     "string": "「私も、もう少し休んだら問題なさそうだわ」"
   },
+  "000446": {
+    "context": "000446",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 洵 恵那]"
+  },
+  "000492": {
+    "context": "000492",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 洵 恵那]"
+  },
   "000503": {
     "context": "000503",
     "code": "0x45",
@@ -970,5 +980,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（それを考慮して、感情を調整すればいいのかな……？）"
+  },
+  "004685": {
+    "context": "004685",
+    "code": "0x04",
+    "string": "call-script 339"
   }
 }

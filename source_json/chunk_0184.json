@@ -148,6 +148,11 @@
     "developer_comment": "夏彦",
     "string": "「何？」"
   },
+  "000567": {
+    "context": "000567",
+    "code": "0x87",
+    "string": "@sss-active blue [夏彦 ましろ]"
+  },
   "000596": {
     "context": "000596",
     "code": "0x45",
@@ -405,5 +410,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦たちはそれに乗り込み、学校に向かった。"
+  },
+  "001426": {
+    "context": "001426",
+    "code": "0x02",
+    "string": "jump-script 185"
   }
 }

@@ -226,6 +226,11 @@
     "developer_comment": "",
     "string": "恐怖心に煽られ、渡瀬の身に凶暴な力が満ちた。"
   },
+  "000630": {
+    "context": "000630",
+    "code": "0x02",
+    "string": "jump-script 122"
+  },
   "000633": {
     "context": "000633",
     "code": "0x45",
@@ -660,5 +665,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "それは渡瀬の、心の底からの言葉だった。"
+  },
+  "002069": {
+    "context": "002069",
+    "code": "0x02",
+    "string": "jump-script 95"
   }
 }

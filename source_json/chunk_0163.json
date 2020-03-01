@@ -58,6 +58,11 @@
     "developer_comment": "サリュ",
     "string": "「それに、明日も会える」"
   },
+  "000518": {
+    "context": "000518",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "000547": {
     "context": "000547",
     "code": "0x45",
@@ -346,6 +351,11 @@
     "developer_comment": "",
     "string": "だが廊下に続く扉の前で、立ち止まって呟く。"
   },
+  "002120": {
+    "context": "002120",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "002131": {
     "context": "002131",
     "code": "0x45",
@@ -598,6 +608,11 @@
     "developer_comment": "夏彦",
     "string": "「むーじゃないよ、部屋はこっちだってば」"
   },
+  "003187": {
+    "context": "003187",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "003216": {
     "context": "003216",
     "code": "0x45",
@@ -688,6 +703,11 @@
     "developer_comment": "夏彦",
     "string": "（っていうかこれは、多分甘えているんだろうな……）"
   },
+  "003531": {
+    "context": "003531",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "003536": {
     "context": "003536",
     "code": "0x45",
@@ -717,6 +737,11 @@
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「すー、すー……」"
+  },
+  "003729": {
+    "context": "003729",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
   },
   "003734": {
     "context": "003734",
@@ -879,6 +904,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里と出会って、１ヶ月ほど経った頃の出来事だった。"
+  },
+  "004566": {
+    "context": "004566",
+    "code": "0x04",
+    "string": "call-script 164"
   },
   "004568": {
     "context": "004568",
@@ -1230,6 +1260,11 @@
     "developer_comment": "",
     "string": "そして『９月１６日』の情景に変わった。"
   },
+  "005784": {
+    "context": "005784",
+    "code": "0x02",
+    "string": "jump-script 233"
+  },
   "005787": {
     "context": "005787",
     "code": "0x45",
@@ -1391,5 +1426,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "視界はぼやけ、目の前の風景が歪み――"
+  },
+  "006451": {
+    "context": "006451",
+    "code": "0x02",
+    "string": "jump-script 165"
   }
 }

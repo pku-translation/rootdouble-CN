@@ -4,6 +4,11 @@
     "code": "0x55",
     "string": "√Before Chapter1"
   },
+  "000121": {
+    "context": "000121",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 ましろ]"
+  },
   "000130": {
     "context": "000130",
     "code": "0x45",
@@ -845,5 +850,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな事を言い合いつつ、夏彦たちは購買に向かった。"
+  },
+  "002297": {
+    "context": "002297",
+    "code": "0x02",
+    "string": "jump-script 135"
   }
 }

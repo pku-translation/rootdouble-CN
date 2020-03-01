@@ -1468,6 +1468,16 @@
     "developer_comment": "",
     "string": "２．『当事者である、夏彦・渡瀬・宇喜多が残る』"
   },
+  "005935": {
+    "context": "005935",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見 洵 恵那 宇喜多 悠里 夏彦 ましろ サリュ]"
+  },
+  "005981": {
+    "context": "005981",
+    "code": "0x87",
+    "string": "@sss-active red [渡瀬 風見 宇喜多 悠里 夏彦]"
+  },
   "006019": {
     "context": "006019",
     "code": "0x45",
@@ -1503,6 +1513,21 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "『切り捨てる者を誰にするのか』、選ぶ瞬間がすぐ傍まで来ている……！"
+  },
+  "006216": {
+    "context": "006216",
+    "code": "0x02",
+    "string": "jump-script 403"
+  },
+  "006221": {
+    "context": "006221",
+    "code": "0x02",
+    "string": "jump-script 404"
+  },
+  "006226": {
+    "context": "006226",
+    "code": "0x02",
+    "string": "jump-script 401"
   },
   "006242": {
     "context": "006242",
@@ -1671,5 +1696,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「９人全員で、生き残る！！」"
+  },
+  "006858": {
+    "context": "006858",
+    "code": "0x02",
+    "string": "jump-script 388"
   }
 }

@@ -850,6 +850,11 @@
     "developer_comment": "渡瀬",
     "string": "（閉じ込められている９人のうち、誰がその可能性が高いんだ……？）"
   },
+  "003815": {
+    "context": "003815",
+    "code": "0x87",
+    "string": "@sss-active blue [宇喜多]"
+  },
   "003967": {
     "context": "003967",
     "code": "0x45",
@@ -874,6 +879,11 @@
     "developer_comment": "渡瀬",
     "string": "（だが、おっさんはラボの職員だ。テロリストを中に迎え入れる事だってたやすい……）"
   },
+  "004037": {
+    "context": "004037",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
+  },
   "004043": {
     "context": "004043",
     "code": "0x45",
@@ -891,6 +901,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その疑惑が、さらなる疑惑を呼ぶ。"
+  },
+  "004103": {
+    "context": "004103",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那]"
   },
   "004109": {
     "context": "004109",
@@ -922,6 +937,11 @@
     "developer_comment": "渡瀬",
     "string": "（考えてみれば先生は、ここにいる理由が薄い……『職員に呼び出された』と言っていたが、本当かどうかはわからない）"
   },
+  "004203": {
+    "context": "004203",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵]"
+  },
   "004208": {
     "context": "004208",
     "code": "0x45",
@@ -933,6 +953,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "信用できる理由が希薄なのだ。"
+  },
+  "004262": {
+    "context": "004262",
+    "code": "0x87",
+    "string": "@sss-active blue [風見 洵]"
   },
   "004267": {
     "context": "004267",
@@ -1059,5 +1084,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ユウリがいなくなっている事に。"
+  },
+  "004555": {
+    "context": "004555",
+    "code": "0x02",
+    "string": "jump-script 55"
   }
 }

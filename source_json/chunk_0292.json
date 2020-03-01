@@ -777,5 +777,55 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦はそう思いつつ、その中の最も古い記憶を覗き込んだ。"
+  },
+  "002867": {
+    "context": "002867",
+    "code": "0x04",
+    "string": "call-script 293"
+  },
+  "002868": {
+    "context": "002868",
+    "code": "0x04",
+    "string": "call-script 294"
+  },
+  "002869": {
+    "context": "002869",
+    "code": "0x04",
+    "string": "call-script 295"
+  },
+  "002870": {
+    "context": "002870",
+    "code": "0x04",
+    "string": "call-script 296"
+  },
+  "002871": {
+    "context": "002871",
+    "code": "0x04",
+    "string": "call-script 297"
+  },
+  "002872": {
+    "context": "002872",
+    "code": "0x04",
+    "string": "call-script 298"
+  },
+  "002873": {
+    "context": "002873",
+    "code": "0x04",
+    "string": "call-script 299"
+  },
+  "002874": {
+    "context": "002874",
+    "code": "0x04",
+    "string": "call-script 300"
+  },
+  "002875": {
+    "context": "002875",
+    "code": "0x04",
+    "string": "call-script 301"
+  },
+  "002879": {
+    "context": "002879",
+    "code": "0x02",
+    "string": "jump-script 302"
   }
 }

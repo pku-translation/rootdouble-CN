@@ -95,6 +95,16 @@
     "developer_comment": "洵",
     "string": "「だけど……あたし、現場で同僚を失ったの……今日が初めてなんだよ……」"
   },
+  "000435": {
+    "context": "000435",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 洵 恵那 宇喜多 悠里]"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 洵 恵那 宇喜多 悠里]"
+  },
   "000492": {
     "context": "000492",
     "code": "0x45",
@@ -958,5 +968,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（もっとレスキュー隊らしい心情に、調整しなければまずいか……？）"
+  },
+  "004231": {
+    "context": "004231",
+    "code": "0x04",
+    "string": "call-script 339"
   }
 }

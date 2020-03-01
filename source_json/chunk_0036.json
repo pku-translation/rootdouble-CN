@@ -154,6 +154,11 @@
     "developer_comment": "宇喜多",
     "string": "「僕ら『ジュニアフェロー』、つまり通常研究員が出入りする実験室より、遥かに高度な設備が整っている区画だ」"
   },
+  "000796": {
+    "context": "000796",
+    "code": "0x87",
+    "string": "@sss-active blue [風見]"
+  },
   "000841": {
     "context": "000841",
     "code": "0x45",
@@ -255,6 +260,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そこを歩きながら、恵那が独り言のように呟いた。"
+  },
+  "001383": {
+    "context": "001383",
+    "code": "0x87",
+    "string": "@sss-active blue [恵那 夏彦 ましろ サリュ]"
   },
   "001394": {
     "context": "001394",
@@ -837,5 +847,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはそう言って、医務室を後にした。"
+  },
+  "003387": {
+    "context": "003387",
+    "code": "0x02",
+    "string": "jump-script 37"
   }
 }

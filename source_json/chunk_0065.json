@@ -328,6 +328,11 @@
     "developer_comment": "",
     "string": "渡瀬は、その崩れた天井が気になった。"
   },
+  "001115": {
+    "context": "001115",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "001126": {
     "context": "001126",
     "code": "0x45",
@@ -483,5 +488,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬たちはそう言って、連絡通路を後にした。"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x02",
+    "string": "jump-script 66"
   }
 }

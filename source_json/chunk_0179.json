@@ -136,6 +136,11 @@
     "developer_comment": "悠里",
     "string": "「そうだけど……」"
   },
+  "000557": {
+    "context": "000557",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里 夏彦 ましろ]"
+  },
   "000586": {
     "context": "000586",
     "code": "0x45",
@@ -393,5 +398,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな彼を悠里は、ただ無言で見つめていた。"
+  },
+  "001297": {
+    "context": "001297",
+    "code": "0x02",
+    "string": "jump-script 180"
   }
 }

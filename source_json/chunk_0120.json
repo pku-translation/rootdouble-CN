@@ -351,5 +351,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "ゲートを、開けた。"
+  },
+  "000966": {
+    "context": "000966",
+    "code": "0x02",
+    "string": "jump-script 92"
   }
 }

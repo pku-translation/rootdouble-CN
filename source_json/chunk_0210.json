@@ -136,6 +136,11 @@
     "developer_comment": "",
     "string": "もちろん、家に帰る事もできるのだ。"
   },
+  "000373": {
+    "context": "000373",
+    "code": "0x87",
+    "string": "@sss-active yellow [サリュ]"
+  },
   "000384": {
     "context": "000384",
     "code": "0x45",
@@ -165,6 +170,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "この日初めてなされた穏やかな会話に、夏彦は微笑んだ。"
+  },
+  "000471": {
+    "context": "000471",
+    "code": "0x04",
+    "string": "call-script 211"
   },
   "000473": {
     "context": "000473",
@@ -566,6 +576,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「そ、それが……？」"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
   },
   "001643": {
     "context": "001643",
@@ -1124,5 +1139,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "背後で聞き覚えのある声がした。"
+  },
+  "003496": {
+    "context": "003496",
+    "code": "0x02",
+    "string": "jump-script 212"
   }
 }

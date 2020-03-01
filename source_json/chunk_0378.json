@@ -71,6 +71,11 @@
     "developer_comment": "",
     "string": "風見はその言葉に、頭を殴られたようなショックを感じた。"
   },
+  "000527": {
+    "context": "000527",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬]"
+  },
   "000532": {
     "context": "000532",
     "code": "0x45",
@@ -334,5 +339,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（感情を調整すれば、記憶も元に戻るはずだよな……）"
+  },
+  "001485": {
+    "context": "001485",
+    "code": "0x04",
+    "string": "call-script 380"
   }
 }

@@ -694,6 +694,11 @@
     "developer_comment": "",
     "string": "夏彦としては、どうしてもそれは看過できないのだ。"
   },
+  "002079": {
+    "context": "002079",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 夏彦]"
+  },
   "002144": {
     "context": "002144",
     "code": "0x45",
@@ -735,6 +740,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "『本当にいいのか？』という疑問が、頭をかすめた。"
+  },
+  "002326": {
+    "context": "002326",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 夏彦]"
   },
   "002331": {
     "context": "002331",
@@ -1953,5 +1963,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦と渡瀬はそう言葉を交わし、そしてがっしりと手を握り合った。"
+  },
+  "006388": {
+    "context": "006388",
+    "code": "0x02",
+    "string": "jump-script 310"
   }
 }

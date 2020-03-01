@@ -280,6 +280,11 @@
     "developer_comment": "渡瀬",
     "string": "「無線？」"
   },
+  "001017": {
+    "context": "001017",
+    "code": "0x87",
+    "string": "@sss-active yellow [風見]"
+  },
   "001046": {
     "context": "001046",
     "code": "0x45",
@@ -843,5 +848,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "はっとして振り返ると、宇喜多が渡瀬を睨みつけていた。"
+  },
+  "002546": {
+    "context": "002546",
+    "code": "0x02",
+    "string": "jump-script 88"
   }
 }

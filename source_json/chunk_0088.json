@@ -118,6 +118,11 @@
     "developer_comment": "",
     "string": "それは死体を発見したショックで、呆然としてたからだと思っていたが――"
   },
+  "000394": {
+    "context": "000394",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 宇喜多]"
+  },
   "000423": {
     "context": "000423",
     "code": "0x45",
@@ -460,6 +465,11 @@
     "developer_comment": "宇喜多",
     "string": "「そう考えた君は、今回の事件を機に、計画を実行に移した」"
   },
+  "001585": {
+    "context": "001585",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬]"
+  },
   "001614": {
     "context": "001614",
     "code": "0x45",
@@ -567,6 +577,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "風見と眼が合った。風見は困惑の表情を浮かべていた。"
+  },
+  "001974": {
+    "context": "001974",
+    "code": "0x87",
+    "string": "@sss-active blue [渡瀬 風見 洵]"
   },
   "001985": {
     "context": "001985",
@@ -898,6 +913,16 @@
     "developer_comment": "",
     "string": "ここで何を言っても、空虚な言葉になるだろう。"
   },
+  "002766": {
+    "context": "002766",
+    "code": "0x02",
+    "string": "jump-script 110"
+  },
+  "002782": {
+    "context": "002782",
+    "code": "0x02",
+    "string": "jump-script 111"
+  },
   "002802": {
     "context": "002802",
     "code": "0x45",
@@ -1224,5 +1249,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は恵那の腕を引き、その部屋を飛び出した。"
+  },
+  "004238": {
+    "context": "004238",
+    "code": "0x02",
+    "string": "jump-script 89"
   }
 }

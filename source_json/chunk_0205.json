@@ -328,6 +328,11 @@
     "developer_comment": "夏彦",
     "string": "「……ちょうどいい、勝手知ったる基地だし。ちょっとここで休んでいこう」"
   },
+  "001102": {
+    "context": "001102",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ]"
+  },
   "001131": {
     "context": "001131",
     "code": "0x45",
@@ -1150,6 +1155,11 @@
     "developer_comment": "ましろ",
     "string": "「そうそう、こんなのただの噂だって！」"
   },
+  "003697": {
+    "context": "003697",
+    "code": "0x87",
+    "string": "@sss-active yellow [ましろ]"
+  },
   "003735": {
     "context": "003735",
     "code": "0x45",
@@ -1209,6 +1219,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう思うと、また子供の頃の記憶が想起された。"
+  },
+  "003901": {
+    "context": "003901",
+    "code": "0x04",
+    "string": "call-script 206"
   },
   "003903": {
     "context": "003903",
@@ -1424,6 +1439,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "タクシーの貸切などはしたことがないが、なりふり構っている場合ではない。"
+  },
+  "004558": {
+    "context": "004558",
+    "code": "0x87",
+    "string": "@sss-active blue [ましろ サリュ]"
   },
   "004587": {
     "context": "004587",
@@ -1820,5 +1840,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "運転手が自動運転装置にそう命じると、タクシーは軽快に走り出した。"
+  },
+  "005848": {
+    "context": "005848",
+    "code": "0x02",
+    "string": "jump-script 207"
   }
 }

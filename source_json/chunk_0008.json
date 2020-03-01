@@ -544,6 +544,11 @@
     "developer_comment": "恵那",
     "string": "「あの人『ここで待ってなさい！』とか言って、さっさとどこかに行っちゃったわ。全く冗談じゃないわよ」"
   },
+  "001985": {
+    "context": "001985",
+    "code": "0x87",
+    "string": "@sss-active blue [宇喜多]"
+  },
   "002014": {
     "context": "002014",
     "code": "0x45",
@@ -735,5 +740,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "するとモニターに、監視カメラの映像が映し出された。"
+  },
+  "002712": {
+    "context": "002712",
+    "code": "0x02",
+    "string": "jump-script 9"
   }
 }

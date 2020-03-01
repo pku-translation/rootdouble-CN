@@ -340,6 +340,11 @@
     "developer_comment": "サリュ",
     "string": "「その後も度々、私の両親と連絡を取り、私の存在を知ったらしい」"
   },
+  "001131": {
+    "context": "001131",
+    "code": "0x87",
+    "string": "@sss-active yellow [サリュ]"
+  },
   "001160": {
     "context": "001160",
     "code": "0x45",
@@ -369,6 +374,11 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「だからこんな中途半端な時期に、急に転校してきたのか……」"
+  },
+  "001291": {
+    "context": "001291",
+    "code": "0x04",
+    "string": "call-script 199"
   },
   "001293": {
     "context": "001293",
@@ -957,6 +967,11 @@
     "developer_comment": "サリュ",
     "string": "「実は……さっきからとても物凄く非常に眠い」"
   },
+  "003038": {
+    "context": "003038",
+    "code": "0x87",
+    "string": "@sss-active blue [サリュ]"
+  },
   "003049": {
     "context": "003049",
     "code": "0x45",
@@ -1179,6 +1194,11 @@
     "developer_comment": "夏彦",
     "string": "（公衆電話はと……）"
   },
+  "003625": {
+    "context": "003625",
+    "code": "0x87",
+    "string": "@sss-active blue [悠里]"
+  },
   "003630": {
     "context": "003630",
     "code": "0x45",
@@ -1359,6 +1379,11 @@
     "developer_comment": "夏彦",
     "string": "「まぁ心配する事はないけどさ、ちょっと今日は帰れそうにないんだ」"
   },
+  "004283": {
+    "context": "004283",
+    "code": "0x87",
+    "string": "@sss-active yellow [悠里]"
+  },
   "004294": {
     "context": "004294",
     "code": "0x45",
@@ -1448,6 +1473,11 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "そう答える夏彦の胸に、遠い日の情景が蘇った。"
+  },
+  "004591": {
+    "context": "004591",
+    "code": "0x04",
+    "string": "call-script 200"
   },
   "004593": {
     "context": "004593",
@@ -1778,6 +1808,11 @@
     "developer_comment": "",
     "string": "あたりの情景は、幻のように消えた。"
   },
+  "005707": {
+    "context": "005707",
+    "code": "0x02",
+    "string": "jump-script 235"
+  },
   "005716": {
     "context": "005716",
     "code": "0x45",
@@ -1981,5 +2016,10 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "完全な静寂の中、夏彦の意識は――９月１６日に戻った。"
+  },
+  "006607": {
+    "context": "006607",
+    "code": "0x02",
+    "string": "jump-script 201"
   }
 }

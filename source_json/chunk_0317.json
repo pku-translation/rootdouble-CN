@@ -71,6 +71,16 @@
     "developer_comment": "宇喜多",
     "string": "「君が何か知ってるんじゃないのか！？　言え、言うんだ！」"
   },
+  "000493": {
+    "context": "000493",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 恵那 悠里]"
+  },
+  "000539": {
+    "context": "000539",
+    "code": "0x87",
+    "string": "@sss-active yellow [渡瀬 恵那 悠里]"
+  },
   "000544": {
     "context": "000544",
     "code": "0x45",
@@ -502,5 +512,10 @@
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（くそ、もっと渡瀬に対する好意的な感情を注ぎ込まなきゃダメか？）"
+  },
+  "003417": {
+    "context": "003417",
+    "code": "0x04",
+    "string": "call-script 320"
   }
 }

@@ -824,5 +824,35 @@
     "code": "0x45",
     "developer_comment": "",
     "string": "その１つを、夏彦はそっと覗きこんだ。"
+  },
+  "002519": {
+    "context": "002519",
+    "code": "0x04",
+    "string": "call-script 225"
+  },
+  "002520": {
+    "context": "002520",
+    "code": "0x04",
+    "string": "call-script 226"
+  },
+  "002521": {
+    "context": "002521",
+    "code": "0x04",
+    "string": "call-script 227"
+  },
+  "002522": {
+    "context": "002522",
+    "code": "0x04",
+    "string": "call-script 228"
+  },
+  "002523": {
+    "context": "002523",
+    "code": "0x04",
+    "string": "call-script 229"
+  },
+  "002576": {
+    "context": "002576",
+    "code": "0x02",
+    "string": "jump-script 230"
   }
 }
