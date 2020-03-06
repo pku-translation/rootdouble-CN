@@ -1,10 +1,10 @@
 . $PSScriptRoot/Defines.ps1
 
-pushd $DataRoot
+Push-Location $DataRoot
 
 try {
     & dotnet run -p $PSScriptRoot/../CsYetiTools -c Release -- testbed
 }
 finally {
-    popd
+    Pop-Location
 }

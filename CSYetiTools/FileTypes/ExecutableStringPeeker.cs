@@ -224,9 +224,10 @@ namespace CsYetiTools.FileTypes
 
             foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
             {
-                var trans = translations[i].Trim();
-                if (trans == "@en") { trans = seg.Content; }
-                else if (trans == "@cp" || trans == "@jp") { trans = references[i]; }
+                var trans = translations[i];
+                var trimmed = trans.Trim();
+                if (trimmed == "@en") { trans = seg.Content; }
+                else if (trimmed == "@cp" || trimmed == "@jp") { trans = references[i]; }
 
                 seg.Content = trans;
             }

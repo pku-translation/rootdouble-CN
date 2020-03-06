@@ -181,7 +181,7 @@ namespace CsYetiTools.FileTypes
                     switch (entry.Content)
                     {
                         case Xtx xtx:
-                            xtx.SaveTo(path);
+                            xtx.SaveTextureTo(path);
                             break;
                         case byte[] bytes:
                             File.WriteAllBytes(path, bytes);
@@ -217,7 +217,7 @@ namespace CsYetiTools.FileTypes
                     switch (content)
                     {
                         case Xtx xtx:
-                            xtx.SaveTo(path);
+                            xtx.SaveTextureTo(path);
                             break;
                         case byte[] bytes:
                             File.WriteAllBytes(path, bytes);

@@ -28,10 +28,16 @@ namespace CsYetiTools
         public const int MbHeight = MbYCount * CellSize;
 
         public static IReadOnlyList<int> RawSjisTable = (
-            from leading in Range(0x81, 0xa0).Concat(Range(0xe0, 0xec))
+            from leading in Range(0x81, 0xa1).Concat(Range(0xe0, 0xec))
             from tail in Range(0x40, 0x7f).Concat(Range(0x80, 0xfd))
             select ((leading << 8) | tail)
-        ).Take(128 * 64).ToList().AsReadOnly();
+        ).Take(DbXCount * DbYCount).ToList().AsReadOnly();
+
+        // 84FC~85A0 (index: 751~847) for single-byte, banned
+        private static int MbRangeStart = 751;
+        private static int MbRangeEnd = 847;
+        // private static int MbCodeStart = 0x84FC;
+        // private static int MbCodeEnd = 0x85A0;
 
         public static IReadOnlyList<int?> RawSjisReverseTable;
 
@@ -40,14 +46,7 @@ namespace CsYetiTools
             var list = Enumerable.Repeat<int?>(null, ReverseMax - ReverseMin).ToList();
             for (int i = 0; i < RawSjisTable.Count; ++i)
             {
-                if (RawSjisTable[i] < ReverseMin)
-                {
-                    throw new ArgumentException($"{RawSjisTable[i]} < {ReverseMin}");
-                }
-                if (RawSjisTable[i] >= ReverseMax)
-                {
-                    throw new ArgumentException($"{RawSjisTable[i]} >= {ReverseMax}");
-                }
+                if (i >= MbRangeStart && i < MbRangeEnd) continue;
                 list[RawSjisTable[i] - ReverseMin] = i;
             }
             RawSjisReverseTable = list.AsReadOnly();
@@ -61,15 +60,27 @@ namespace CsYetiTools
 
         private int _maxChar;
 
-
         private const int ReverseMin = 0x8000;
+
         private const int ReverseMax = 0xED00;
 
         private const int SingleByteMax = 0x80;
 
+        public IEnumerable<char> Chars
+            => _chars.AsEnumerable();
+
         public FontMapping(IEnumerable<char> chars)
         {
-            _chars = chars.Where(c => c >= SingleByteMax).Distinct().OrderBy(c => c).ToArray();
+            var charSet = chars.Where(c => c >= SingleByteMax).Distinct().OrderBy(c => c).ToArray();
+            if (charSet.Length <= MbRangeStart)
+            {
+                _chars = charSet;
+            }
+            else
+            {
+                _chars = charSet.Take(MbRangeStart).Concat(Repeat('·', MbRangeEnd - MbRangeStart)).Concat(charSet.Skip(MbRangeStart)).ToArray();
+            }
+
             _minChar = _chars[0];
             _maxChar = _chars[^1] + 1;
 
@@ -83,18 +94,21 @@ namespace CsYetiTools
             {
                 if (char.IsSurrogate(c)) throw new ArgumentException(InvalidCharMessage);
 
+                if (i >= MbRangeStart && i < MbRangeEnd) continue;
+
                 _reverseTable[c - _minChar] = i;
             }
+
         }
 
-        private void ForeachChars(Image img, Action<char, PointF, IImageProcessingContext> operation)
+        private static void ForeachChars(Image img, char[] chars, Action<char, PointF, IImageProcessingContext> operation)
         {
             var i = 0;
             foreach (var y in Range(0, DbYCount))
             {
                 foreach (var x in Range(0, DbXCount))
                 {
-                    var chr = _chars[i];
+                    var chr = chars[i];
 
                     if (chr == '\u3000')
                     {
@@ -102,32 +116,96 @@ namespace CsYetiTools
                         continue; // why ImageSharp handle this as unknown symbol?
                     }
 
-                    img.Mutate(ctx => operation(chr, new PointF(48 * x + 24, 48 * y + 24), ctx));
-                    if (++i >= _chars.Length) return;
+                    img.Mutate(ctx => operation(chr, new PointF(CellSize * x, CellSize * y), ctx));
+                    if (++i >= chars.Length) return;
                 }
             }
         }
 
-        public Image<Bgra32> GenerateTexture()
+        public Image<Bgra32> GenerateTexture(bool drawGlyphBorder = false)
         {
             var img = new Image<Bgra32>(DbWidth, DbHeight);
             try
             {
                 var fonts = new FontCollection();
                 var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
-                var font = new Font(fontFamily, 42);
+                var font = new Font(fontFamily, 40);
                 var renderOptions = new RendererOptions(font);
+                var textGraphicsOptions = new TextGraphicsOptions
+                {
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    VerticalAlignment = VerticalAlignment.Center,
+                };
+
+                var graphicsOptions = new GraphicsOptions
+                {
+                    Antialias = false,
+                };
+
+                var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
+                
+                ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, outlinePen, point + new PointF(22, 20)));
+
+                img.Mutate(ctx => ctx.GaussianBlur(0.5f));
+
+                ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
+
+                if (drawGlyphBorder)
+                {
+                    ForeachChars(img, _chars, (chr, point, ctx) => {
+                        ctx.DrawPolygon(graphicsOptions, Color.White, 1.0f
+                            ,point + new PointF(0, 1)
+                            ,point + new PointF(44, 1)
+                            ,point + new PointF(44, 45)
+                            ,point + new PointF(0, 45)
+                        );
+                    });
+                }
+
+                return img;
+            }
+            catch
+            {
+                img.Dispose();
+                throw;
+            }
+        }
+
+        public Image<Bgra32> GenerateCodeTestTexture()
+        {
+            var img = new Image<Bgra32>(DbWidth, DbHeight);
+            try
+            {
+                var fonts = new FontCollection();
+                var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
+                var font = new Font(fontFamily, 25);
+                var renderOptions = new RendererOptions(font);
+
+                var graphicsOptions = new GraphicsOptions();
+                graphicsOptions.Antialias = false;
+
                 var textGraphicsOptions = new TextGraphicsOptions();
                 textGraphicsOptions.HorizontalAlignment = HorizontalAlignment.Center;
                 textGraphicsOptions.VerticalAlignment = VerticalAlignment.Center;
 
                 var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
-                
-                ForeachChars(img, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, outlinePen, point));
 
-                img.Mutate(ctx => ctx.GaussianBlur(0.5f));
+                ForeachChars(img, _chars, (chr, point, ctx) => {
+                    ctx.DrawPolygon(graphicsOptions, Color.White, 1.0f
+                        ,point + new PointF(0, 1)
+                        ,point + new PointF(45, 1)
+                        ,point + new PointF(45, 46)
+                        ,point + new PointF(0, 46)
+                    );
+                    var s = ((short)chr).ToHex();
 
-                ForeachChars(img, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, Color.White, point));
+                    var mid = point + new PointF(23, 23);
+
+                    ctx.DrawText(textGraphicsOptions, s[0].ToString(), font, Color.White, mid + new PointF(-10, -10));
+                    ctx.DrawText(textGraphicsOptions, s[1].ToString(), font, Color.White, mid + new PointF(8, -10));
+                    ctx.DrawText(textGraphicsOptions, s[2].ToString(), font, Color.White, mid + new PointF(-10, 10));
+                    ctx.DrawText(textGraphicsOptions, s[3].ToString(), font, Color.White, mid + new PointF(8, 10));
+                });
 
                 return img;
             }

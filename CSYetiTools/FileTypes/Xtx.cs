@@ -48,9 +48,14 @@ namespace CsYetiTools.FileTypes
             Content.Dispose();
         }
 
-        public void SaveTo(string path)
+        public void SaveTextureTo(FilePath path)
         {
             Content.Save(path);
+        }
+
+        public void SaveBinaryTo(FilePath path)
+        {
+            File.WriteAllBytes(path, ToBytes());
         }
 
         private static int GetX(int i, int width, byte level)
@@ -285,7 +290,7 @@ namespace CsYetiTools.FileTypes
             };
         }
 
-        public Xtx(Image image, int format, bool fontAtlas = false, int offsetX = 0, int offsetY = 0)
+        private Xtx(Image image, int format, bool fontAtlas = false, int offsetX = 0, int offsetY = 0)
         {
             Format = format;
             IsFontAtlas = fontAtlas;
@@ -326,6 +331,13 @@ namespace CsYetiTools.FileTypes
             OffsetX = offsetX;
             OffsetY = offsetY;
         }
+
+        public Xtx(Image image, int format, int offsetX = 0, int offsetY = 0)
+            : this(image, format, fontAtlas: false, offsetX, offsetY)
+        { }
+
+        public static Xtx CreateFont(Image image, int offsetX = 0, int offsetY = 0)
+            => new Xtx(image, format: 1, fontAtlas: true, offsetX, offsetY);
 
         public byte[] ToBytes()
         {

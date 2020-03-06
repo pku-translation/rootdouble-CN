@@ -15,6 +15,6 @@ $isFont = if ($font) { "true" } else { "false" }
 
 var img = SixLabors.ImageSharp.Image.Load(System.IO.File.ReadAllBytes("$in"));
 var xtx = new CsYetiTools.FileTypes.Xtx(img, $format, $isFont);
-System.IO.File.WriteAllBytes("$out", xtx.ToBytes());
+xtx.SaveBinaryTo("$out");
 
 "@

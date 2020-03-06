@@ -354,11 +354,12 @@ namespace CsYetiTools.VnScripts
                         foreach (var (k, v) in translations)
                         {
                             var index = int.Parse(k);
-                            var translation = v.String.Trim();
-                            if (translation == "@ignore") continue;
-                            if (translation.StartsWith("@import"))
+                            var translation = v.String;
+                            var trimmed = translation.Trim();
+                            if (trimmed == "@ignore") continue;
+                            if (trimmed.StartsWith("@import"))
                             {
-                                var segs = translation.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                                var segs = trimmed.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                                 var targetChunk = int.Parse(segs[1]);
                                 var targetIndex = int.Parse(segs[2]);
                                 if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent))

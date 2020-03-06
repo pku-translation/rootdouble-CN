@@ -42,6 +42,13 @@ namespace CsYetiTools
         public FilePath ToAbsolute()
             => Path.GetFullPath(_path);
 
+        public FilePath FromEnvironment(string key)
+        {
+            var value = Environment.GetEnvironmentVariable(key);
+            if (value == null) throw new ArgumentException($"Cannot find env variable \"{key}\"");
+            return value;
+        }
+
         public override string ToString()
         {
             return _path.Replace("\\", "/");

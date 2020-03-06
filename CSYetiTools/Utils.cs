@@ -13,7 +13,7 @@ namespace CsYetiTools
         public static readonly Encoding Cp932 = CodePagesEncodingProvider.Instance.GetEncoding(932, new EncoderExceptionFallback(), new DecoderExceptionFallback())
             ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
         public static readonly Encoding Cp936 = CodePagesEncodingProvider.Instance.GetEncoding(936, new EncoderExceptionFallback(), new DecoderExceptionFallback())
-            ?? throw new InvalidOperationException("Cannot get encoding of code page 932");
+            ?? throw new InvalidOperationException("Cannot get encoding of code page 936");
         public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false, /*throwOnInvalidBytes: */ true);
         
         public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
@@ -56,7 +56,7 @@ namespace CsYetiTools
 
         public static byte ParseByte(string input)
         {
-            input = input.Trim();
+            input = input.Trim(' ');
             if (input.StartsWith("0x") || input.StartsWith(@"\x"))
             {
                 input = input.Substring(2);
@@ -241,6 +241,20 @@ namespace CsYetiTools
             }
         }
 
+        public static IEnumerable<T> Repeat<T>(T elem, int count)
+        {
+            for (int i = 0; i < count; ++i) yield return elem;
+        }
+
+        public static IEnumerable<T> Generate<T>(Func<T> func, int count)
+        {
+            for (int i = 0; i < count; ++i) yield return func();
+        }
+
+        public static IEnumerable<T> Generate<T>(Func<int, T> func, int count)
+        {
+            for (int i = 0; i < count; ++i) yield return func(i);
+        }
         
         private static readonly byte[] MsbTable =
         {

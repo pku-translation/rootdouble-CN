@@ -9,6 +9,8 @@ using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.CodeAnalysis.CSharp;
 using System.Text.RegularExpressions;
+using CsYetiTools.FileTypes;
+using SixLabors.ImageSharp;
 
 namespace CsYetiTools
 {
@@ -62,8 +64,13 @@ namespace CsYetiTools
                 var script = CSharpScript.Create(scriptText,
                     ScriptOptions.Default
                         .AddReferences(typeof(Program).Assembly)
-                        .AddImports(typeof(Program).Namespace, typeof(Program).FullName, typeof(SnPackage).Namespace)
-                        .AddImports()
+                        .AddImports("CsYetiTools"
+                                  , "CsYetiTools.IO"
+                                  , "CsYetiTools.FileTypes"
+                                  , "CsYetiTools.VnScripts"
+                                  , typeof(Utils).FullName
+                                  , typeof(Program).FullName
+                        )
                         .WithCheckOverflow(true)
                         .WithFileEncoding(Encoding.UTF8)
                         .WithLanguageVersion(LanguageVersion.CSharp8));
@@ -310,6 +317,55 @@ namespace CsYetiTools
                     }
                 }
             }
+        }
+
+        public static void ReleaseTranslation(
+            FilePath executable,
+            FilePath executableStringPool,
+            SnPackage snPackage,
+            FilePath translationSourceDir,
+            FilePath translationDir,
+            FilePath releaseDir,
+            bool dumpFontTexture = false)
+        {
+            Console.Write("Translating executable... "); Console.Out.Flush();
+            var exePeeker = Utils.Time(() => {
+                var peeker = ExecutableStringPeeker.FromFile(executable, Utils.Cp932);
+                peeker.ApplyTranslations(translationDir / "sys", executableStringPool);
+                return peeker;
+            });
+
+            Console.Write("Translating sn-package... "); Console.Out.Flush();
+            Utils.Time(() => {
+                
+                snPackage.ApplyTranslations(translationSourceDir, translationDir);
+                return snPackage;
+            });
+
+            var dbChars = snPackage.EnumerateChars().Concat(exePeeker.EnumerateChars()).Where(c => c >= 0x80).Distinct().Ordered().ToArray();
+            Console.WriteLine($"Double-byte code used: {dbChars.Length}");
+            
+            Console.Write("Generating font... "); Console.Out.Flush();
+            var fontMapping = new FontMapping(dbChars);
+
+            var pair = Utils.Time(() => {
+                var texture = fontMapping.GenerateTexture();
+                var xtx = Xtx.CreateFont(texture);
+                return (texture, xtx);
+            });
+            using var xtx = pair.xtx;
+            using var texture = pair.texture;
+            
+            using var exeStream = new MemoryStream(File.ReadAllBytes(executable));
+            exePeeker.Modify(exeStream, fontMapping);
+
+            Utils.CreateOrClearDirectory(releaseDir);
+            Utils.CreateOrClearDirectory(releaseDir / "data");
+
+            File.WriteAllBytes(releaseDir / "rwxe.exe", exeStream.ToArray());
+            snPackage.WriteTo(releaseDir / "data/sn.bin", fontMapping);
+            xtx.SaveBinaryTo(releaseDir / "data/font48.xtx");
+            if (dumpFontTexture) texture.Save(releaseDir / "font.png");
         }
     }
 }

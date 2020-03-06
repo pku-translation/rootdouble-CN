@@ -549,6 +549,14 @@ namespace CsYetiTools.VnScripts
 
                 strCode.Content = translation;
             }
+
+            foreach (var code in _codes.OfType<ExtraDialogCode>().Where(c => c.IsCharacter))
+            {
+                if (nameTable.TryGetValue(code.Content, out var translated))
+                {
+                    code.Content = translated;
+                }
+            }
         }
 
         public IEnumerable<char> EnumerateChars()
