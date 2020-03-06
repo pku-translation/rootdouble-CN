@@ -12,7 +12,8 @@ ReleaseTranslation(
     snPackage: package,
     translationSourceDir: "../source_json/",
     translationDir: "../zh_CN/",
-    releaseDir: "release/"
+    releaseDir: "release/",
+    true
 );
 
 "@

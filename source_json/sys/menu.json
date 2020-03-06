@@ -627,12 +627,18 @@
     "context": "000B7964",
     "developer_comment": "？？？？？？？？？？",
     "character_limit": 11,
-    "string": "？？？？？"
+    "string": "？？？？？？？？？？"
   },
   "0105": {
     "context": "000B7958",
     "developer_comment": "？？？？？",
     "character_limit": 5,
-    "string": "？？？？？？？？？？"
+    "string": "？？？？？"
+  },
+  "0106": {
+    "context": "000B7DAC",
+    "developer_comment": "♪",
+    "character_limit": 1,
+    "string": "♪"
   }
 }
