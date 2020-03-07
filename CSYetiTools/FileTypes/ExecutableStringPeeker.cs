@@ -243,10 +243,17 @@ namespace CsYetiTools.FileTypes
                 var path = translationDirPath / (name.Replace('-', '_') + ".json");
                 if (File.Exists(path))
                 {
-                    var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
-                    var translations = dict.Values.Select(info => info.String).ToList();
+                    try
+                    {
+                        var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
+                        var translations = dict.Values.Select(info => info.String).ToList();
 
-                    ApplyTranslations(name, references, translations);
+                        ApplyTranslations(name, references, translations);
+                    }
+                    catch (Exception exc)
+                    {
+                        throw new InvalidDataException($"Error loading {path}", exc);
+                    }
                 }
             }
         }
