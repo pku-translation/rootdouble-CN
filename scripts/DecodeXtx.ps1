@@ -12,7 +12,7 @@ $isFont = if ($font) { "true" } else { "false" }
 
 & $RunCsx @"
 
-var xtx = new CsYetiTools.FileTypes.Xtx(System.IO.File.ReadAllBytes("$in"), $isFont);
+var xtx = new Xtx(System.IO.File.ReadAllBytes("$in"), $isFont);
 xtx.SaveTextureTo("$out");
 
 "@

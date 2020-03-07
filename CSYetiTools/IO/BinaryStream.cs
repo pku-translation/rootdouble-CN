@@ -203,9 +203,9 @@ namespace CsYetiTools.IO
         public long ReadInt64BE()
         {
             FillBuffer(8);
-            uint hi = (uint)(_buffer[7] | _buffer[6] << 8 |
+            uint lo = (uint)(_buffer[7] | _buffer[6] << 8 |
                              _buffer[5] << 16 | _buffer[4] << 24);
-            uint lo = (uint)(_buffer[3] | _buffer[2] << 8 |
+            uint hi = (uint)(_buffer[3] | _buffer[2] << 8 |
                              _buffer[1] << 16 | _buffer[0] << 24);
             return (long)((ulong)hi) << 32 | lo;
         }
@@ -213,9 +213,9 @@ namespace CsYetiTools.IO
         public ulong ReadUInt64BE()
         {
             FillBuffer(8);
-            uint hi = (uint)(_buffer[7] | _buffer[6] << 8 |
+            uint lo = (uint)(_buffer[7] | _buffer[6] << 8 |
                              _buffer[5] << 16 | _buffer[4] << 24);
-            uint lo = (uint)(_buffer[3] | _buffer[2] << 8 |
+            uint hi = (uint)(_buffer[3] | _buffer[2] << 8 |
                              _buffer[1] << 16 | _buffer[0] << 24);
             return (ulong)((ulong)hi) << 32 | lo;
         }

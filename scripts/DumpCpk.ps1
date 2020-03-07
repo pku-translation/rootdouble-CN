@@ -12,8 +12,8 @@ if (Test-Path env:RW_ROOT) {
     
     & $RunCsx @"
 
-    var cpk = CsYetiTools.FileTypes.Cpk.FromFile("$path");
-    CsYetiTools.FileTypes.CpkHelper.DumpCpk(cpk, "$outputDir")
+    var cpk = Cpk.FromFile("$path");
+    CpkHelper.DumpCpk(cpk, "$outputDir")
     
 "@
 

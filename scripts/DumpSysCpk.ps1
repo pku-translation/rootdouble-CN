@@ -10,8 +10,8 @@ if (Test-Path env:RW_ROOT) {
    $path = $path.replace("\", "/")
    
    & $RunCsx @"
-   var cpk = CsYetiTools.FileTypes.Cpk.FromFile("$path");
-   CsYetiTools.FileTypes.CpkHelper.DumpSys(cpk, "$outputDir");
+   var cpk = Cpk.FromFile("$path");
+   CpkHelper.DumpSys(cpk, "$outputDir");
 
 "@
 
