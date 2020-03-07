@@ -177,7 +177,7 @@
     "context": "000C02BC",
     "developer_comment": "♪: ----------",
     "character_limit": 7,
-    "string": "♪：——————"
+    "string": "@en"
   },
   "0030": {
     "context": "000C02A8",
@@ -393,7 +393,7 @@
     "context": "000C0114",
     "developer_comment": " / ",
     "character_limit": 1,
-    "string": "/"
+    "string": " /"
   },
   "0066": {
     "context": "000C0110",
@@ -489,7 +489,7 @@
     "context": "000BD6C0",
     "developer_comment": "in [\"TITLE_NAME\"].",
     "character_limit": 9,
-    "string": "在「\"TITLE_NAME\"」"
+    "string": "在「"TITLE_NAME"」"
   },
   "0082": {
     "context": "000BD670",
@@ -633,6 +633,12 @@
     "context": "000B7958",
     "developer_comment": "？？？？？",
     "character_limit": 5,
+    "string": "@cp"
+  },
+  "0106": {
+    "context": "000B7DAC",
+    "developer_comment": "♪",
+    "character_limit": 1,
     "string": "@cp"
   }
 }
