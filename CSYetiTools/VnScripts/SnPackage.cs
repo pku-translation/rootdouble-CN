@@ -71,13 +71,12 @@ namespace CsYetiTools.VnScripts
 
             public byte[] ToBytes()
             {
-                using var ms = new MemoryStream();
-                using var writer = new BinaryWriter(ms);
+                using var writer = new BinaryStream();
                 foreach (var footer in _footers)
                 {
                     footer.WriteTo(writer);
                 }
-                return ms.ToArray();
+                return writer.ToBytes();
             }
 
             public void Dump(TextWriter writer)

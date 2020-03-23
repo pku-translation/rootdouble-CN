@@ -115,22 +115,6 @@ namespace CsYetiTools
             }
         }
 
-        // public static IEnumerable<(T1, T2)> ZipTuple<T1, T2>(this IEnumerable<T1> seq1, IEnumerable<T2> seq2)
-        // {
-        //     using var e1 = seq1.GetEnumerator();
-        //     using var e2 = seq2.GetEnumerator();
-        //     while (e1.MoveNext() && e2.MoveNext())
-        //         yield return (e1.Current, e2.Current);
-        // }
-        // public static IEnumerable<(T1, T2, T3)> ZipTuple<T1, T2, T3>(this IEnumerable<T1> seq1, IEnumerable<T2> seq2, IEnumerable<T3> seq3)
-        // {
-        //     using var e1 = seq1.GetEnumerator();
-        //     using var e2 = seq2.GetEnumerator();
-        //     using var e3 = seq3.GetEnumerator();
-        //     while (e1.MoveNext() && e2.MoveNext() && e3.MoveNext())
-        //         yield return (e1.Current, e2.Current, e3.Current);
-        // }
-
         public static Match? TryMatch(this Regex regex, string content)
         {
             try
@@ -143,65 +127,5 @@ namespace CsYetiTools
             }
         }
         
-        public static void WriteBE(this BinaryWriter writer, Int16 i)
-        {
-            writer.Write((byte)(i >> 8));
-            writer.Write((byte)(i & 0xFF));
-        }
-
-        public static void WriteBE(this BinaryWriter writer, UInt16 i)
-        {
-            writer.Write((byte)(i >> 8));
-            writer.Write((byte)(i & 0xFF));
-        }
-
-        public static void WriteBE(this BinaryWriter writer, Int32 i)
-        {
-            writer.Write((byte)((i >> 0x18) & 0xFF));
-            writer.Write((byte)((i >> 0x10) & 0xFF));
-            writer.Write((byte)((i >> 0x08) & 0xFF));
-            writer.Write((byte)(i & 0xFF));
-        }
-        
-        public static void WriteBE(this BinaryWriter writer, UInt32 i)
-        {
-            writer.Write((byte)((i >> 0x18) & 0xFF));
-            writer.Write((byte)((i >> 0x10) & 0xFF));
-            writer.Write((byte)((i >> 0x08) & 0xFF));
-            writer.Write((byte)(i & 0xFF));
-        }
-
-        public static void WriteBE(this BinaryWriter writer, Int64 i)
-        {
-            writer.Write((byte)((i >> 0x38) & 0xFF));
-            writer.Write((byte)((i >> 0x30) & 0xFF));
-            writer.Write((byte)((i >> 0x28) & 0xFF));
-            writer.Write((byte)((i >> 0x20) & 0xFF));
-            writer.Write((byte)((i >> 0x18) & 0xFF));
-            writer.Write((byte)((i >> 0x10) & 0xFF));
-            writer.Write((byte)((i >> 0x08) & 0xFF));
-            writer.Write((byte)(i & 0xFF));
-        }
-        
-        public static void WriteBE(this BinaryWriter writer, UInt64 i)
-        {
-            writer.Write((byte)((i >> 0x38) & 0xFF));
-            writer.Write((byte)((i >> 0x30) & 0xFF));
-            writer.Write((byte)((i >> 0x28) & 0xFF));
-            writer.Write((byte)((i >> 0x20) & 0xFF));
-            writer.Write((byte)((i >> 0x18) & 0xFF));
-            writer.Write((byte)((i >> 0x10) & 0xFF));
-            writer.Write((byte)((i >> 0x08) & 0xFF));
-            writer.Write((byte)(i & 0xFF));
-        }
-
-        public static void Seek(this BinaryReader reader, long offset, SeekOrigin origin = SeekOrigin.Begin)
-        {
-            reader.BaseStream.Seek(offset, origin);
-        }
-        public static void Seek(this BinaryReader reader, ulong offset, SeekOrigin origin = SeekOrigin.Begin)
-        {
-            reader.BaseStream.Seek(checked((long)offset), origin);
-        }
     }
 }

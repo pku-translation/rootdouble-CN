@@ -1,7 +1,7 @@
 . $PSScriptRoot/Defines.ps1
 
-pushd $DataRoot
+Push-Location $DataRoot
 
 & dotnet run -p $PSScriptRoot/../CsYetiTools -c Release -- benchmark
 
-popd
+Pop-Location

@@ -341,11 +341,10 @@ namespace CsYetiTools.FileTypes
 
         public byte[] ToBytes()
         {
-            using var ms = new MemoryStream();
-            using var writer = new BinaryWriter(ms);
+            using var writer = new BinaryStream();
 
             writer.Write(FileTag);
-            writer.Write(Format);
+            writer.WriteLE(Format);
 
             writer.WriteBE(_alignedWidth);
             writer.WriteBE(_alignedHeight);
@@ -362,9 +361,7 @@ namespace CsYetiTools.FileTypes
                 _ => throw new NotSupportedException($"Xtx format {Format} not supported"),
             });
 
-            writer.Flush();
-
-            return ms.ToArray();
+            return writer.ToBytes();
         }
 
     }

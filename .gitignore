@@ -9,10 +9,10 @@
 /data/*/**
 !/data/*/sn.bin
 !/data/*/executable
-!/data/*/exe_string_pool.ss
+!/data/*/exe_string_pool.sexp
 !/data/string_pool/*
 
-!/data/string_list_modifiers.ss
+!/data/string_list_modifiers.sexp
 !/data/fonts/SourceHanSansSC-Regular.ttf
 
 # env

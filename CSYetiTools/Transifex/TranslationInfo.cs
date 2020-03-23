@@ -1,3 +1,5 @@
+using Untitled.Sexp;
+
 namespace CsYetiTools.Transifex
 {
     public class TranslationInfo
@@ -10,7 +12,7 @@ namespace CsYetiTools.Transifex
 
         public override string ToString()
         {
-            return $"<TranslationInfo> \"{SExpr.EscapeString(String)}\"";
+            return $"<TranslationInfo> " + SexpConvert.Serialize(String);
         }
     }
 }

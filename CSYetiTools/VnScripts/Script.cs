@@ -182,14 +182,13 @@ namespace CsYetiTools.VnScripts
 
             if (entryCount >= 0)
             {
-                using var ms = new MemoryStream();
-                using var headerRemainWriter = new BinaryWriter(ms);
+                using var headerRemainWriter = new BinaryStream();
                 for (int i = entryCount; i < maybeEntries.Count; ++i)
                 {
-                    headerRemainWriter.Write(maybeEntries[i].AbsoluteOffset);
+                    headerRemainWriter.WriteLE(maybeEntries[i].AbsoluteOffset);
                 }
                 headerRemainWriter.Write(maybeRemainBytes);
-                _header = new ScriptHeader(maybeEntries.Take(entryCount), ms.ToArray());
+                _header = new ScriptHeader(maybeEntries.Take(entryCount), headerRemainWriter.ToBytes());
             }
             else
             {

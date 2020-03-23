@@ -1,5 +1,5 @@
 using System;
-using System.IO;
+using CsYetiTools.IO;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 
@@ -20,7 +20,7 @@ namespace CsYetiTools.FileTypes
                 a: Lerp(c1.A, c2.A, t1, t2)
             );
 
-        private static void DecodeU8Alpha(BinaryReader reader, Span<byte> span)
+        private static void DecodeU8Alpha(IBinaryStream reader, Span<byte> span)
         {
             Span<byte> alpha = stackalloc byte[8];
             alpha[0] = reader.ReadByte();
@@ -50,18 +50,18 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        private static void DecodeBgr565(BinaryReader reader, Span<Bgra32> span)
+        private static void DecodeBgr565(IBinaryStream reader, Span<Bgra32> span)
         {
             var c565 = new Bgr565();
             Span<Bgra32> c = stackalloc Bgra32[4];
-            c565.PackedValue = reader.ReadUInt16();
+            c565.PackedValue = reader.ReadUInt16LE();
             c[0].FromVector4(c565.ToVector4());
-            c565.PackedValue = reader.ReadUInt16();
+            c565.PackedValue = reader.ReadUInt16LE();
             c[1].FromVector4(c565.ToVector4());
             c[2] = Lerp(c[0], c[1], 2, 1);
             c[3] = Lerp(c[0], c[1], 1, 2);
 
-            var b32 = reader.ReadUInt32();
+            var b32 = reader.ReadUInt32LE();
             for (int i = 0; i < 16; ++i)
             {
                 span[i] = c[(int)(b32 & 0b11)];
@@ -72,7 +72,7 @@ namespace CsYetiTools.FileTypes
         public static Bgra32[] Decode(byte[] bytes, int width, int height)
         {
             var pixels = new Bgra32[width * height];
-            using var reader = new BinaryReader(new MemoryStream(bytes));
+            using var reader = new BinaryStream(bytes);
             Span<byte> alphas = stackalloc byte[16];
             Span<Bgra32> colors = stackalloc Bgra32[16];
 

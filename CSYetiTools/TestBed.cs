@@ -31,29 +31,13 @@ namespace CsYetiTools
             return package;
         }
 
-        private static void SaveModifiers(string file, IDictionary<int, StringListModifier[]> modifiers)
-        {
-            using (var writer = new StreamWriter(file))
-            {
-                foreach (var (k, v) in modifiers)
-                {
-                    writer.WriteLine();
-                    writer.WriteLine($"(script {k}");
-                    foreach (var m in v.SkipLast(1))
-                    {
-                        writer.Write("    ");
-                        writer.WriteLine(m.ToSExpr().ToString("    "));
-                    }
-                    writer.Write("    "); writer.Write(v.Last().ToSExpr().ToString("    "));
-                    writer.WriteLine(")");
-                }
-            }
-        }
-
         public static async Task Run()
         {
             await Task.Run(() => { });
 
+            Load("ps3/sn.bin", false).Dump("ps3_sn", false, true);
+
+            
         }
     }
 }

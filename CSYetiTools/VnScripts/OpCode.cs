@@ -98,7 +98,7 @@ namespace CsYetiTools.VnScripts
                     0x17 => 4,
                     0x18 => 4,
                     0x19 => 8,
-                    0x1A => 4,
+                    0x1A => 4,  // BG
                     0x1B => 0,
                     0x1C => 0,
                     0x1D => 6,

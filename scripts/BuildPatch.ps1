@@ -4,7 +4,7 @@
 
 var package = Load("steam/sn.bin", true);
 var jpPackage = Load("psv/sn.bin", false);
-package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.ss"));
+package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
 
 ReleaseTranslation(
     executable: "steam/executable",

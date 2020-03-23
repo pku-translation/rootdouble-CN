@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Untitled.Sexp;
+using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.FileTypes
 {
@@ -53,7 +55,7 @@ namespace CsYetiTools.FileTypes
                     {
                         var color = Console.ForegroundColor;
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"\"{content.Replace("\"", "\\\"")}\" length > \"{Content.Replace("\"", "\\\"")}\", use source");
+                        Console.WriteLine($"{Offset:X08}: \"{content.Replace("\"", "\\\"")}\" length > \"{Content.Replace("\"", "\\\"")}\" (limit: {Length}), use source");
                         Console.ForegroundColor = color;
                         content = Content;
                         bytes = encoding.GetBytes(content.Replace("\n", "%N"));
@@ -90,7 +92,7 @@ namespace CsYetiTools.FileTypes
                         var newString = encoding.GetString(bytes);
                         var color = Console.ForegroundColor;
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"trunked \"{content.Replace("\"", "\\\"")}\"(\"{Content.Replace("\"", "\\\"")}\") to {newString.Replace("\"", "\\\"")}");
+                        Console.WriteLine($"{Offset:X08}: trunked \"{content.Replace("\"", "\\\"")}\"(\"{Content.Replace("\"", "\\\"")}\") to {newString.Replace("\"", "\\\"")}");
                         Console.ForegroundColor = color;
                     }
                 }
@@ -106,44 +108,38 @@ namespace CsYetiTools.FileTypes
 
     public class ExecutableStringPeeker
     {
+#nullable disable
+        [SexpAsList]
         private class StringSegmentRange
         {
-            public string Name { get; set; }
+            public Symbol Id { get; set; }
 
-            public List<(int begin, int end)> Ranges { get; set; }
-
-            public StringSegmentRange(string name, IEnumerable<(int begin, int end)> ranges)
-            {
-                Name = name;
-                Ranges = ranges.ToList();
-            }
+            public List<Pair> Ranges { get; set; }
         }
+#nullable enable
 
         private List<(string name, List<StringSegment> segments)> _ranges { get; } = new List<(string, List<StringSegment>)>();
 
-        public ExecutableStringPeeker(Stream stream, SExpr rangesExpr, Encoding encoding)
+        public ExecutableStringPeeker(Stream stream, SValue rangesExpr, Encoding encoding)
         {
             var ranges = rangesExpr.AsEnumerable()
-                .Select(expr => new StringSegmentRange(
-                    expr.Car.AsSymbol(),
-                    expr.Cdr.AsEnumerable().Select(arg => (arg.Car.AsInt(), arg.Cdr.Car.AsInt()))
-                ));
+                .Select(expr => SexpConvert.ToObject<StringSegmentRange>(expr));
             foreach (var range in ranges)
             {
                 var segments = new List<StringSegment>();
                 foreach (var (begin, end) in range.Ranges)
                 {
-                    stream.Position = begin;
-                    while (stream.Position < end)
+                    stream.Position = begin.AsInt();
+                    while (stream.Position < end.AsInt())
                     {
-                        segments.Add(StringSegment.FromStream(stream, end, encoding));
+                        segments.Add(StringSegment.FromStream(stream, end.AsInt(), encoding));
                     }
                 }
-                _ranges.Add((range.Name, segments));
+                _ranges.Add((range.Id.Name, segments));
             }
         }
 
-        public static ExecutableStringPeeker FromFile(FilePath path, SExpr rangesExpr, Encoding encoding)
+        public static ExecutableStringPeeker FromFile(FilePath path, SValue rangesExpr, Encoding encoding)
         {
             using var file = File.OpenRead(path);
             return new ExecutableStringPeeker(file, rangesExpr, encoding);
@@ -151,7 +147,7 @@ namespace CsYetiTools.FileTypes
 
         public static ExecutableStringPeeker FromFile(FilePath path, Encoding encoding)
         {
-            return FromFile(path, SExpr.ParseFile(path.Parent / "exe_string_pool.ss"), encoding);
+            return FromFile(path, Sexp.ParseFile(path.Parent / "exe_string_pool.sexp"), encoding);
         }
 
         public IEnumerable<string> Names
@@ -164,8 +160,7 @@ namespace CsYetiTools.FileTypes
         {
             foreach (var (name, segs) in _ranges)
             {
-                var sexprs = SExpr.ParseFile(stringPoolDirPath / (name + ".ss"));
-                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
+                var references = LoadReferences(stringPoolDirPath, name);
                 if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
                 foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
                 {
@@ -210,10 +205,16 @@ namespace CsYetiTools.FileTypes
             Utils.CreateOrClearDirectory(dirPath);
             foreach (var name in Names)
             {
-                var sexprs = SExpr.ParseFile(stringPoolDirPath / (name + ".ss"));
-                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
+                var references = LoadReferences(stringPoolDirPath, name);
                 DumpTranslateSource(name, dirPath / (name.Replace('-', '_') + ".json"), references);
             }
+        }
+
+        private static List<string> LoadReferences(FilePath stringPoolDirPath, string name)
+        {
+            using var reader = new StreamReader(stringPoolDirPath / (name + ".sexp"), Encoding.UTF8, true);
+            var sexpReader = new SexpTextReader(reader);
+            return sexpReader.ReadAll().Select(exp => "\n".Join(exp.AsEnumerable<string>())).ToList();
         }
 
         private void ApplyTranslations(string name, IList<string> references, IList<string> translations)
@@ -237,9 +238,7 @@ namespace CsYetiTools.FileTypes
         {
             foreach (var name in Names)
             {
-                var sexprs = SExpr.ParseFile(referenceStringPoolPath / (name + ".ss"));
-                var references = sexprs.AsEnumerable().Select(exp => "\n".Join(exp.AsEnumerable().Select(e => e.AsString()))).ToList();
-
+                var references = LoadReferences(referenceStringPoolPath, name);
                 var path = translationDirPath / (name.Replace('-', '_') + ".json");
                 if (File.Exists(path))
                 {

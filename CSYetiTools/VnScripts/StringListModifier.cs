@@ -1,9 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Untitled.Sexp;
+using Untitled.Sexp.Attributes;
+using Untitled.Sexp.Conversion;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpCustomTypeResolver(typeof(StringListModifierResolver))]
     public abstract class StringListModifier
     {
         // { (script <index> {<instruction>}) }
@@ -13,73 +18,46 @@ namespace CsYetiTools.VnScripts
         // insert: (++ <index> <code> <content>)
         // copy:   (<+ <index> <index> [<code>])
 
-
+        public class StringListModifierResolver : LookupTypeResolver
+        {
+            public StringListModifierResolver()
+            {
+                AddGeneral(Symbol.FromString("->"), typeof(Recode));
+                AddGeneral(Symbol.FromString("<-"), typeof(ConcatCodes));
+                AddGeneral(Symbol.FromString("--"), typeof(DropCodes));
+                AddGeneral(Symbol.FromString("++"), typeof(InsertCode));
+                AddGeneral(Symbol.FromString("<+"), typeof(CopyCode));
+            }
+        }
 
         public static IDictionary<int, StringListModifier[]> LoadFile(string path)
         {
-            var rootList = SExpr.ParseFile(path);
-            var result = new Dictionary<int, StringListModifier[]>();
-            foreach (var root in rootList.AsEnumerable())
-            {
-                var rootConsumer = new SExprConsumer(root);
-                if (rootConsumer.TakeSymbol() != "script") throw new ArgumentException($"Invalid script value {root}");
-                int script = rootConsumer.TakeInt();
-
-                var modifiers = new List<StringListModifier>();
-                foreach (var expr in rootConsumer.TakeRest())
-                {
-                    var consumer = new SExprConsumer(expr);
-
-                    var op = consumer.TakeSymbol();
-
-                    modifiers.Add(op switch
-                    {
-                        "->" => new Recode(consumer),
-                        "<-" => new ConcatCodes(consumer),
-                        "--" => new DropCodes(consumer),
-                        "++" => new InsertCode(consumer),
-                        "<+" => new CopyCode(consumer),
-                        _ => throw new ArgumentException($"Unknown operation: {op}")
-                    });
-                }
-                result.Add(script, modifiers.ToArray());
-            }
-            return result;
+            var sexp = Sexp.ParseFile(path);
+            return SexpConvert.ToObject<Dictionary<int, StringListModifier[]>>(sexp);
         }
 
         public abstract void Modify(IDictionary<int, Script.StringReferenceEntry> table);
-
-        public abstract SExpr ToSExpr();
     }
 
+    [SexpAsList]
     public class Recode : StringListModifier
     {
         public int Index;
+
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         public byte Code;
-        public Recode(SExprConsumer consumer)
-        {
-            Index = consumer.TakeInt();
-            Code = (byte)consumer.TakeInt();
-        }
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             table[Index].Code = Code;
         }
-
-        public override SExpr ToSExpr()
-            => SExpr.List(SExpr.Symbol("->"), Index, SExpr.Int(Code, SExprIntFormat.Hex));
     }
 
+    [SexpAsList]
     public class ConcatCodes : StringListModifier
     {
         public int Index;
-        public List<int> Sources;
-        public ConcatCodes(SExprConsumer consumer)
-        {
-            Index = consumer.TakeInt();
-            Sources = consumer.TakeRest().Select(s => s.AsInt()).ToList();
-        }
+        public List<int> Sources = new List<int>();
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
@@ -93,70 +71,47 @@ namespace CsYetiTools.VnScripts
                 }
             }
         }
-
-        public override SExpr ToSExpr()
-            => SExpr.Symbol("<-").Concat(SExpr.Int(Index).Concat(SExpr.List(Sources.Select(i => SExpr.Int(i)))));
     }
 
+    [SexpAsList]
     public class DropCodes : StringListModifier
     {
-        public List<int> Indices;
-        public DropCodes(SExprConsumer consumer)
-        {
-            Indices = consumer.TakeRest().Select(s => s.AsInt()).ToList();
-        }
+        public List<int> Indices = new List<int>();
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             foreach (var idx in Indices) table.Remove(idx);
         }
-
-        public override SExpr ToSExpr()
-            => SExpr.Symbol("--").Concat(SExpr.List(Indices.Select(i => SExpr.Int(i))));
     }
 
+    [SexpAsList]
     public class InsertCode : StringListModifier
     {
         public int Index;
+
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         public byte Code;
-        public string Content;
-        public InsertCode(SExprConsumer consumer)
-        {
-            Index = consumer.TakeInt();
-            Code = (byte)consumer.TakeInt();
-            Content = consumer.TakeString();
-        }
+
+        public string Content = "";
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             table.Add(Index, new Script.StringReferenceEntry(Index, Code, Content));
         }
-
-        public override SExpr ToSExpr()
-            => SExpr.List(SExpr.Symbol("++"), Index, SExpr.Int(Code, SExprIntFormat.Hex), Content);
     }
-
+    
+    [SexpAsList]
     public class CopyCode : StringListModifier
     {
         public int Index;
         public int SourceIndex;
-        public byte? Code;
-        public CopyCode(SExprConsumer consumer)
-        {
-            Index = consumer.TakeInt();
-            SourceIndex = consumer.TakeInt();
-            if (!consumer.IsEmpty)
-                Code = (byte)consumer.TakeInt();
-        }
 
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
+        public byte Code;
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             var source = table[SourceIndex];
-            table.Add(Index, new Script.StringReferenceEntry(Index, Code ?? source.Code, source.Content));
+            table.Add(Index, new Script.StringReferenceEntry(Index, Code, source.Content));
         }
-
-        public override SExpr ToSExpr()
-            => Code != null ? SExpr.List(SExpr.Symbol("<+"), Index, SourceIndex, SExpr.Int(Code.Value, SExprIntFormat.Hex))
-                             : SExpr.List(SExpr.Symbol("<+"), Index, SourceIndex);
     }
 }

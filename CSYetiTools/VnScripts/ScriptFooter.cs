@@ -42,12 +42,12 @@ namespace CsYetiTools.VnScripts
             };
         }
 
-        public void WriteTo(BinaryWriter writer)
+        public void WriteTo(IBinaryStream writer)
         {
-            writer.Write(IndexedDialogCount);
-            writer.Write(Unknown);
-            writer.Write(FlagCodeCount);
-            writer.Write(ScriptIndex);
+            writer.WriteLE(IndexedDialogCount);
+            writer.WriteLE(Unknown);
+            writer.WriteLE(FlagCodeCount);
+            writer.WriteLE(ScriptIndex);
         }
         
         public override string ToString()
