@@ -8,103 +8,103 @@
     "context": "000061",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――第６エリア内周棟・地下２階――"
+    "string": "——第 6 区域内环楼、地下 2 层——"
   },
   "000066": {
     "context": "000066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこはつい１時間ほど前にも、捜索した場所だった。"
+    "string": "那边是大约 1 小时前，就已经搜索过的地方。"
   },
   "000071": {
     "context": "000071",
     "code": "0x45",
     "developer_comment": "",
-    "string": "並んでいる扉の１つを開けて、中に入ると――"
+    "string": "打开并列的门扉中的一扇，走进去以后——"
   },
   "000115": {
     "context": "000115",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこには大きな研究室があった。"
+    "string": "这是一间巨大的研究室。"
   },
   "000120": {
     "context": "000120",
     "code": "0x45",
     "developer_comment": "",
-    "string": "死角も多く、人が倒れてたり隠れてたりしていても、すぐにはわかりにくいだろう。"
+    "string": "有很多死角，即使有人倒下或藏在哪里，也难以马上发现吧。"
   },
   "000200": {
     "context": "000200",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「いないとは思うが、一応探そう」"
+    "string": "「虽然我觉得不在，但姑且先搜索一下吧」"
   },
   "000211": {
     "context": "000211",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「えぇ」"
+    "string": "「嗯」"
   },
   "000222": {
     "context": "000222",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0049 002378"
+    "string": "「明白」"
   },
   "000265": {
     "context": "000265",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言って渡瀬たちは、その部屋の捜索を始めた。"
+    "string": "说完，渡濑他们就开始搜索这个房间。"
   },
   "000270": {
     "context": "000270",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがユウリたちはおろか、ＡＤも見つからない。"
+    "string": "但别说悠里他们了，连 AD 都没有找到。"
   },
   "000276": {
     "context": "000276",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ちっ。だったら代わりに、脱出に関する情報を何か得られないか？）"
+    "string": "（啧。那么另一方面，有没有可能得到跟逃生相关的信息？）"
   },
   "000281": {
     "context": "000281",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそう思った時――部屋の奥にいた恵那が声を上げた。"
+    "string": "当渡濑产生这种想法时——房间内侧的惠那喊了出来。"
   },
   "000292": {
     "context": "000292",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「あら……これ、何かしら」"
+    "string": "「啊……这，是什么」"
   },
   "000303": {
     "context": "000303",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0012 006275"
+    "string": "「怎么了？」"
   },
   "000363": {
     "context": "000363",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が駆け寄ると、恵那はホワイトボードを指差した。"
+    "string": "渡濑走过来，惠那就指着白板。"
   },
   "000368": {
     "context": "000368",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこにはこう書いてある。"
+    "string": "那里写着："
   },
   "000406": {
     "context": "000406",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――催涙雨から、彦星と鳥の羽の橋へ――"
+    "string": "@need-review ——催泪雨发，牛郎星、鸟的羽之桥收——"
   },
   "000409": {
     "context": "000409",
@@ -115,31 +115,31 @@
     "context": "000412",
     "code": "0x45",
     "developer_comment": "",
-    "string": "あなたたちは逃げられたの？"
+    "string": "你们逃离了吗？"
   },
   "000415": {
     "context": "000415",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それともまだ、ここにいるの？"
+    "string": "还是说，仍然在这里？"
   },
   "000418": {
     "context": "000418",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いくら歩き回っても会えないと言う事は、%Nもうここにはいないのかもしれない。"
+    "string": "即使走了这么多次也见不到的话，%N可能已经不在这里了吧。"
   },
   "000421": {
     "context": "000421",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だけど残っているとしたら、一刻も早く合流したい。"
+    "string": "但如果还留在这里，希望及早会合。"
   },
   "000424": {
     "context": "000424",
     "code": "0x45",
     "developer_comment": "",
-    "string": "もしあなたたちがこれを読んだなら、以下の問いに答えて。"
+    "string": "如果你们读到这个，请回答下面的问题。"
   },
   "000427": {
     "context": "000427",
@@ -150,25 +150,25 @@
     "context": "000430",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『シリウスは、あの満月の夜、檻から抜け出す事ができた？』"
+    "string": "“Sirius 在那个满月之夜，成功从牢笼中逃脱了吗？”"
   },
   "000462": {
     "context": "000462",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……なんだこれ」"
+    "string": "「……这什么东西」"
   },
   "000467": {
     "context": "000467",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは例えば会議中に、議論の内容を記した文章などではなさそうに見えた。"
+    "string": "看起来也不像是会议中，记录讨论内容的文章之类的东西。"
   },
   "000496": {
     "context": "000496",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「う、ん……誰かから誰かに当てた、私信のようだけど……」"
+    "string": "「唔，嗯……有点像谁给谁写的，私信之类的……」"
   },
   "000507": {
     "context": "000507",
@@ -180,49 +180,49 @@
     "context": "000536",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「ホラ、私がさっき書いた置き手紙みたいな」"
+    "string": "「对啊，就像我刚才写的放在那边的信一样」"
   },
   "000547": {
     "context": "000547",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「そうか……『シリウス』と言えば、オレたちレスキュー隊の名称だが……」"
+    "string": "「这样吗……但“Sirius”的话，是我们救援队的名字……」"
   },
   "000558": {
     "context": "000558",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「まさかこれって、オレたちの事か？」"
+    "string": "「难道这，是指我们吗？」"
   },
   "000587": {
     "context": "000587",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そう考えると、この『隔壁が閉鎖されたラボに閉じ込められた』って状況は、檻のようにも思えるわね……」"
+    "string": "「这么考虑的话，这个“被隔离墙封闭在 LABO 中”的情况，确实就像是牢笼一样呢……」"
   },
   "000616": {
     "context": "000616",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「でも『満月の夜』というのは何かしら？　今日は確か満月じゃないし、そもそもまだ夜ではないわよ」"
+    "string": "「但“满月之夜”是指什么呢？今天也不是满月，说到底根本不是晚上啊」"
   },
   "000627": {
     "context": "000627",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「うーむ……何だろうなぁ」"
+    "string": "「唔嗯……是什么呢」"
   },
   "000632": {
     "context": "000632",
     "code": "0x45",
     "developer_comment": "",
-    "string": "全く意味がわからなかった。"
+    "string": "完全搞不懂。"
   },
   "000637": {
     "context": "000637",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――だが、なぜかその文章を見ているうち――"
+    "string": "——但，不知为什么看到这篇文章的时候——"
   },
   "000643": {
     "context": "000643",
@@ -234,217 +234,217 @@
     "context": "000648",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不意に奇妙な感情が湧いてきた。"
+    "string": "忽然间奇妙的感情从心中涌出。"
   },
   "000653": {
     "context": "000653",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは決して、不快なものではない。"
+    "string": "这绝不是不快的感情。"
   },
   "000658": {
     "context": "000658",
     "code": "0x45",
     "developer_comment": "",
-    "string": "懐かしいような、ほっとしたような、胸を締め付けられるような……そんな温かで切ない感情だ。"
+    "string": "仿佛有些怀念，有些轻松下来，胸口发紧的……这样温馨而难过的感情。"
   },
   "000687": {
     "context": "000687",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……？　どうしたの隊長さん」"
+    "string": "「……？怎么了队长」"
   },
   "000698": {
     "context": "000698",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「いや……よくわからないんだが……」"
+    "string": "「没什么……不是很清楚，但……」"
   },
   "000703": {
     "context": "000703",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそう言った時、背後で宇喜多の声がした。"
+    "string": "渡濑说到这里，背后响起了宇喜多的声音。"
   },
   "000714": {
     "context": "000714",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「――今度は何をやっているのかね？」"
+    "string": "「——这回又是在做什么？」"
   },
   "000760": {
     "context": "000760",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あ、あぁ。先生が妙な文章を見つけてな」"
+    "string": "「啊，对。是老师发现了奇怪的文章」"
   },
   "000789": {
     "context": "000789",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「宇喜多さん、意味わかる？」"
+    "string": "「宇喜多，能看明白吗？」"
   },
   "000818": {
     "context": "000818",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0017 002099"
+    "string": "「唔……」"
   },
   "000823": {
     "context": "000823",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多はホワイトボードを一瞥し、それからため息をついた。"
+    "string": "宇喜多瞥了一眼白板， 然后发出了叹息。"
   },
   "000852": {
     "context": "000852",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「僕には意味がわからんが……それより、こんな事をしている暇はあるのかね？」"
+    "string": "「我也不明白……比起这个，我们有做这事的时间吗？」"
   },
   "000863": {
     "context": "000863",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「いやしかし、気になるじゃないか」"
+    "string": "「但，不是很令人在意吗」"
   },
   "000892": {
     "context": "000892",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そうよ。もしかしたら、鳥羽さんか三ノ宮さんが残した書置きかもしれないのに」"
+    "string": "「对啊。或许是，鸟羽或者三之宫写下的字条呢」"
   },
   "000921": {
     "context": "000921",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「書き置き？　バカな」"
+    "string": "「字条？怎么可能」"
   },
   "000932": {
     "context": "000932",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「だとしたらどうして、こんなわけのわからない文章にするのかね」"
+    "string": "「如果是，那为什么是这么意义不明的文章」"
   },
   "000961": {
     "context": "000961",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「じゃあなんなのよ？」"
+    "string": "「那是什么啊？」"
   },
   "000990": {
     "context": "000990",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「僕に聞かれても、わかるわけがないだろう」"
+    "string": "「你问我，我哪能明白啊」"
   },
   "001019": {
     "context": "001019",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「というかこんな下らない事に、いちいちとらわれるんじゃない。捜索がさっぱり進まないじゃないか」"
+    "string": "「不对，不要被这么无聊的事情绊住脚啊。搜索不是完全没有进展吗」"
   },
   "001048": {
     "context": "001048",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0002 002723"
+    "string": "「……」"
   },
   "001053": {
     "context": "001053",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の言葉には、いちいち険があった。"
+    "string": " 宇喜多的话逐渐变得带刺起来。"
   },
   "001058": {
     "context": "001058",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那が不機嫌そうに黙り込む。"
+    "string": "惠那也不高兴地沉默了。"
   },
   "001064": {
     "context": "001064",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……まずいな。おっさんのせいで、さっきからギスギスしっ放しだ……）"
+    "string": "@need-review （……不妙啊。因为大叔的话，刚才开始她的态度就一直带刺了……）"
   },
   "001069": {
     "context": "001069",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だからと言って、怒鳴って黙らせるわけにもいかない。先ほど揉めたばかりなのだ。"
+    "string": "但就算是这样，也不能怒吼叫宇喜多闭嘴。刚刚才发生过争吵。"
   },
   "001074": {
     "context": "001074",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はあえて気安い感じで言う。"
+    "string": "渡濑硬着头皮说着调解的话。"
   },
   "001085": {
     "context": "001085",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ま、これについてはおっさんの言う通りかもな。なぁ先生？」"
+    "string": "「嘛，关于这个事情是大叔说得对。是吧老师？」"
   },
   "001114": {
     "context": "001114",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「えっ……？」"
+    "string": "「欸……？」"
   },
   "001125": {
     "context": "001125",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「この文章の事は頭に留めおいて、ひとまず捜索を続けるとしようぜ」"
+    "string": "「这个文章就先记在脑子里，我们先继续搜索吧」"
   },
   "001130": {
     "context": "001130",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が言うと、恵那はますます眉根を寄せたが――やがて鼻を鳴らして言った。"
+    "string": "随着渡濑的话，惠那的眉毛愈发皱紧起来——但最后还是用鼻子哼了一声说道。"
   },
   "001159": {
     "context": "001159",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……わかったわよ。そうするわ」"
+    "string": "「……知道了啦。就这样吧」"
   },
   "001164": {
     "context": "001164",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉を聞いて、渡瀬はほっと安堵の息をつく。"
+    "string": "听到这句话，渡濑安心地长舒一口气。"
   },
   "001169": {
     "context": "001169",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――しかし同時に彼は気付いていた。"
+    "string": "——但他同时也注意到了一件事。"
   },
   "001174": {
     "context": "001174",
     "code": "0x45",
     "developer_comment": "",
-    "string": "この素人２人を連れて捜索を行うのが、非常に難しいという事に。"
+    "string": "带着这两个业余人士进行搜索，是非常困难的。"
   },
   "001180": {
     "context": "001180",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……いや、愚痴るな……）"
+    "string": "（……不，别抱怨……）"
   },
   "001186": {
     "context": "001186",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（オレがもっとしっかりしよう。２人をいがみ合わせないようにしながら、捜索をこなすんだ）"
+    "string": "（让我来做得更好吧。注意不让他们互相敌视，继续搜索工作）"
   },
   "001229": {
     "context": "001229",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は内心でそう決意しつつ、恵那たちと共にその部屋を出た。"
+    "string": "渡濑心中这么下定决心，跟惠那他们一道离开了这个房间。"
   },
   "001240": {
     "context": "001240",

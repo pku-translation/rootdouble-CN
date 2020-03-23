@@ -8,19 +8,19 @@
     "context": "000152",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――第１エリア地下２階、内周棟――"
+    "string": "——第 1 区域地下 2 层、内环楼——"
   },
   "000157": {
     "context": "000157",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その一室に、渡瀬は負傷した洵を横たえた。"
+    "string": "在其中的一个房间里，渡濑让负伤的洵横卧下来。"
   },
   "000168": {
     "context": "000168",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「大丈夫か守部！　聞こえてるか！？」"
+    "string": "「没事吧守部！听得到吗？！」"
   },
   "000174": {
     "context": "000174",
@@ -32,61 +32,61 @@
     "context": "000179",
     "code": "0x45",
     "developer_comment": "",
-    "string": "声をかけても、洵は目を覚まさなかった。"
+    "string": "即使这么喊她，她也没能醒来。"
   },
   "000184": {
     "context": "000184",
     "code": "0x45",
     "developer_comment": "",
-    "string": "背の傷から血が溢れているのが、服越しにわかる。"
+    "string": "隔着衣服就能看出她背上的伤口仍然在流血。"
   },
   "000195": {
     "context": "000195",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「くそ、早く手当てしなければ……！」"
+    "string": "「糟了，不赶紧治疗的话……！」"
   },
   "000200": {
     "context": "000200",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言った時、宇喜多が張り詰めた声を上げた。"
+    "string": "这么说的时候，宇喜多用紧张的声音说道。"
   },
   "000283": {
     "context": "000283",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「よ……よし、隊長さん！　だったら君が守部くんを手当てしている間に、僕が捜索を続けておこう！」"
+    "string": "「好……好了，队长！这样的话在你为守部治疗的时候，我继续搜索吧！」"
   },
   "000294": {
     "context": "000294",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0004 003503"
+    "string": "「什么！？」"
   },
   "000323": {
     "context": "000323",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「さっき隊長さんが聞いたと言う『足音』、それを確認したいんだよ」"
+    "string": "「想要确认一下，刚才队长说自己听到的“脚步声”」"
   },
   "000334": {
     "context": "000334",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「隊長さんは、守部さんの治療に専念したまえ」"
+    "string": "「队长，就专心治疗守部吧」"
   },
   "000345": {
     "context": "000345",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ダメだおっさん！　単独行動は危険過ぎる！」"
+    "string": "「不行啊大叔！单独行动太危险了！」"
   },
   "000374": {
     "context": "000374",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「それはわかるが、捜索の手を止めるのも危険だろう！？　時間は常に出血し続けているんだぞ！」"
+    "string": "@need-review 「我知道，但搜索停滞了也很危险吧？！时间可是不断流逝的！」"
   },
   "000385": {
     "context": "000385",
@@ -98,127 +98,127 @@
     "context": "000390",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の言う事はもっともだった。"
+    "string": "宇喜多说的也有道理。"
   },
   "000395": {
     "context": "000395",
     "code": "0x45",
     "developer_comment": "",
-    "string": "黙り込む渡瀬に、宇喜多はなおも続ける。"
+    "string": "对着沉默的渡濑，宇喜多又继续说道。"
   },
   "000424": {
     "context": "000424",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「隊長さん。確かに君たちから見れば、僕はただの素人かもしれない」"
+    "string": "「队长，确实你们看起来或许我就是个普通人」"
   },
   "000435": {
     "context": "000435",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「だが僕だって、みんなを救いたいという気持ちは同じだ」"
+    "string": "「但即使我也一样想要拯救大家」"
   },
   "000446": {
     "context": "000446",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……しかし、だったらオレが行くべきだと……」"
+    "string": "「……但是，这样的话应该由我去……」"
   },
   "000475": {
     "context": "000475",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「いや、傷の手当は君が適役だ。守部くんが目覚めた時、君がそばにいた方が彼女も安心するだろう」"
+    "string": "「不，处理伤口更适合你。守部醒来的时候，有你在旁边的话她也会更安心的吧」"
   },
   "000486": {
     "context": "000486",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「それに僕は、君たちよりもこのラボに慣れているからね。１人だってそうそうヘマはしないさ」"
+    "string": "「而且我比你们，更加习惯这个 LABO，一个人也不会怎么犯傻的」"
   },
   "000509": {
     "context": "000509",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多はそう言って笑った。"
+    "string": "宇喜多笑着说。"
   },
   "000514": {
     "context": "000514",
     "code": "0x45",
     "developer_comment": "",
-    "string": "強がっているようにも見えるが――渡瀬はその言葉を信じる事にした。"
+    "string": "看起来有点像逞强——但渡濑还是相信了他说的话。"
   },
   "000525": {
     "context": "000525",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「わかった……だがあまり遠くに行くんじゃないぞ」"
+    "string": "「我明白了……但是别去太远啊」"
   },
   "000530": {
     "context": "000530",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は宇喜多に、予備のプロキオンを渡した。"
+    "string": "渡濑把备用的 Procyon，递给了宇喜多。"
   },
   "000559": {
     "context": "000559",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「では第１エリアは僕が捜索を済ませておこう。後ほど第２エリアで落ち合おうじゃないか」"
+    "string": "「那么第 1 区域就让我来搜索完吧。之后在第 2 区域碰头如何」"
   },
   "000570": {
     "context": "000570",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あぁ……くれぐれも気をつけろよ、おっさん」"
+    "string": "「好……千万小心啊大叔」"
   },
   "000581": {
     "context": "000581",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「承知した」"
+    "string": "「知道了」"
   },
   "000601": {
     "context": "000601",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多はそう言うと、早足で研究室を出て行った。"
+    "string": "宇喜多说着，快步走出了研究室。"
   },
   "000646": {
     "context": "000646",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は洵と２人きりになった。"
+    "string": "只剩下渡濑和洵单独在一起了。"
   },
   "000651": {
     "context": "000651",
     "code": "0x45",
     "developer_comment": "",
-    "string": "さっそく彼女の背に目を向ける。"
+    "string": "赶紧看向了她的背。"
   },
   "000657": {
     "context": "000657",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（カイローンを塗りたいが……塗るには、服を脱がすしかない……）"
+    "string": "（想涂喀戎……但要涂的话，就得脱掉她的衣服……）"
   },
   "000662": {
     "context": "000662",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は一瞬ためらった後、洵の体をわずかに起こし――"
+    "string": "渡濑犹豫了一瞬，然后轻轻抬高了洵的身体——"
   },
   "000673": {
     "context": "000673",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「すまん、守部」"
+    "string": "「抱歉，守部」"
   },
   "000678": {
     "context": "000678",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言って制服のファスナーを下ろそうとした時、洵が声を上げた。"
+    "string": "说着，正要拉下制服的拉链的时候，洵发出了声音。"
   },
   "000728": {
     "context": "000728",
@@ -229,31 +229,31 @@
     "context": "000787",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ぎゃっ！！」"
+    "string": "「呀！」"
   },
   "000798": {
     "context": "000798",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「わっ！？」"
+    "string": "「哇？！」"
   },
   "000842": {
     "context": "000842",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「だ、誰！？　なにやってんの！」"
+    "string": "「谁，谁？！在做什么！」"
   },
   "000847": {
     "context": "000847",
     "code": "0x45",
     "developer_comment": "",
-    "string": "じたばたと暴れる洵に、渡瀬は慌てて答えた。"
+    "string": "洵闹腾起来，渡濑慌忙答道。"
   },
   "000858": {
     "context": "000858",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「落ち着けオレだ！　背中に怪我をしたお前を、手当てしようとしてたんだ！」"
+    "string": "「冷静，是我！你背上有伤，我正要处理！」"
   },
   "000873": {
     "context": "000873",
@@ -264,91 +264,91 @@
     "context": "000909",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「服を脱がして！？　隊長だからって越権行為だよ、この弩エロ！」"
+    "string": "「脱了衣服处理？！就算是队长也是越权行为啊大色狼！」"
   },
   "000920": {
     "context": "000920",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「弩エロだと！？　お前意外と元気だな、心配して損したぜ！」"
+    "string": "「我大色狼？！你丫挺有精神嘛，真是白担心了！」"
   },
   "000949": {
     "context": "000949",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「なに勝手なこと言ってんだよ！　だいたい服脱がさなくても、傷のとこだけハサミで切って開けばいいじゃん！」"
+    "string": "「说什么怪话啊！而且不用脱衣服，只是用剪刀剪开伤口的位置不就好了吗！」"
   },
   "000960": {
     "context": "000960",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「む……それもそうだな」"
+    "string": "「唔……说的也是」"
   },
   "001003": {
     "context": "001003",
     "code": "0x45",
     "developer_comment": "",
-    "string": "室内の机を調べると、ハサミはすぐに見つかった。"
+    "string": "查看了一下室内的桌子，马上就找到了剪刀。"
   },
   "001014": {
     "context": "001014",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あったぞ、守部。こっちに背中を向けてくれ」"
+    "string": "「找到了，守部。背转过来」"
   },
   "001080": {
     "context": "001080",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「余計なところ切るんじゃないよ」"
+    "string": "「别剪了其他地方哦」"
   },
   "001085": {
     "context": "001085",
     "code": "0x45",
     "developer_comment": "",
-    "string": "レスキュー服にハサミを入れると、直径２センチほどの傷口があらわになった。"
+    "string": "把剪刀插进救援服剪开，直径 2cm 的伤口露了出来。"
   },
   "001090": {
     "context": "001090",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこにカイローンを塗りこむと、洵がびくんと身を震わせた。"
+    "string": "把喀戎涂上去，洵的身体颤了一下。"
   },
   "001154": {
     "context": "001154",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ふぁっ」"
+    "string": "「哇」"
   },
   "001165": {
     "context": "001165",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ちょっと動くなって！」"
+    "string": "「喂，别动啊！」"
   },
   "001194": {
     "context": "001194",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「で、でも……くすぐったくて……」"
+    "string": "「但，但是……好痒……」"
   },
   "001205": {
     "context": "001205",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「優しくしてるんじゃないかよ。とにかくもう少し我慢しろ」"
+    "string": "「不是因为我在尽量温柔做嘛，总之给我忍一下」"
   },
   "001210": {
     "context": "001210",
     "code": "0x45",
     "developer_comment": "",
-    "string": "カイローンを半分使い、ようやく洵の傷はふさがった。"
+    "string": "用掉了喀戎的一半，总算是把洵的伤口覆盖上了。"
   },
   "001266": {
     "context": "001266",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ふぅ……これで、ひとまず安心だな」"
+    "string": "「呼……这样就暂时安心了」"
   },
   "001295": {
     "context": "001295",
@@ -360,79 +360,79 @@
     "context": "001300",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが手当てが終わったと言うのに、洵は暗い表情を浮かべていた。"
+    "string": "但明明说了处理完毕，洵却露出了沉重的表情。"
   },
   "001311": {
     "context": "001311",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「どうしたんだ守部、そんな顔して？　傷が痛むか？」"
+    "string": "「怎么了洵，这种表情？伤口还痛吗？」"
   },
   "001340": {
     "context": "001340",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ううん、そうじゃないけど……」"
+    "string": "「不，不是这样……」"
   },
   "001345": {
     "context": "001345",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵はそう呟いてから、室内を見回して続けた。"
+    "string": "洵这么自语，然后环视周围。"
   },
   "001374": {
     "context": "001374",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ところで隊長、宇喜多さんは？」"
+    "string": "「说起来队长，宇喜多呢？」"
   },
   "001385": {
     "context": "001385",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「オレが手当てをしている間に捜索を進めるというから、先に行かせたよ」"
+    "string": "「他说要在我处理伤口的时候继续搜索，就先让他走了」"
   },
   "001414": {
     "context": "001414",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「え……１人で？」"
+    "string": "「欸……一个人？」"
   },
   "001419": {
     "context": "001419",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、洵の表情が険しくなった。"
+    "string": "听到这句话，洵的表情变得僵硬起来。"
   },
   "001430": {
     "context": "001430",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「なにやってんの隊長？　素人を単独行動させるなんて、危険でしょ？」"
+    "string": "「你在做什么啊队长？让业余人士单独行动，很危险的吧？」"
   },
   "001441": {
     "context": "001441",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「オレもそう言ったんだが、聞かなくてな」"
+    "string": "「我也这么说过了，他不听」"
   },
   "001470": {
     "context": "001470",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「だったら隊長も早く追いなよ。あたしも行くから」"
+    "string": "「那队长赶紧去追他啊。我也去」"
   },
   "001502": {
     "context": "001502",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言って立ち上がろうとする洵だったが、その脚はふらついていた。"
+    "string": "这么说着洵站了起来，却脚步蹒跚起来。"
   },
   "001513": {
     "context": "001513",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「いや、お前は頭を打ったばかりだ。ここで少し休んでからにしろ」"
+    "string": "「不，你刚刚头被打到。你就在这里稍微休息一下吧」"
   },
   "001537": {
     "context": "001537",
@@ -444,13 +444,13 @@
     "context": "001542",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵は一瞬ためらったが、すぐにうなずいた。"
+    "string": "洵犹豫了一瞬，但马上点了点头。"
   },
   "001553": {
     "context": "001553",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「オレは第２エリア方面に向かう。回復したら追ってきてくれ」"
+    "string": "「我往第 2 区域那边去。你身体恢复了的话就追上来吧」"
   },
   "001582": {
     "context": "001582",
@@ -462,73 +462,73 @@
     "context": "001593",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あ、それと守部……」"
+    "string": "「啊，还有，守部……」"
   },
   "001604": {
     "context": "001604",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0012 006275"
+    "string": "「怎么？」"
   },
   "001615": {
     "context": "001615",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「さっきは助けてくれて、ありがとな」"
+    "string": "「刚才，谢了」"
   },
   "001620": {
     "context": "001620",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、洵はようやく微笑んだ。"
+    "string": "听到这句话，洵终于露出了微笑。"
   },
   "001649": {
     "context": "001649",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「んーん、気にしないで」"
+    "string": "「嗯——不，不用谢」"
   },
   "001654": {
     "context": "001654",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はその言葉に笑みを返し、研究室を後にした。"
+    "string": "渡濑笑了笑作为回应，离开了研究室。"
   },
   "001751": {
     "context": "001751",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――渡瀬は宇喜多を探し、第１エリア内を一回りした。"
+    "string": "——渡濑为了寻找宇喜多，在第 1 区域内到处走着。"
   },
   "001756": {
     "context": "001756",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、宇喜多の姿はない。"
+    "string": "但，哪里都没有宇喜多的踪影。"
   },
   "001767": {
     "context": "001767",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おっさん！　いるか！？」"
+    "string": "「大叔！在不在？！」"
   },
   "001772": {
     "context": "001772",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう声を張り上げても、答えはない。"
+    "string": "这么叫喊，也没有回答。"
   },
   "001778": {
     "context": "001778",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（先に行ったのか……）"
+    "string": "（去前面了吗……）"
   },
   "001826": {
     "context": "001826",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はそう思い、宇喜多を追って第２エリアに向かった。"
+    "string": "渡濑想着，为了追上宇喜多往第 2 区域去了。"
   },
   "001837": {
     "context": "001837",

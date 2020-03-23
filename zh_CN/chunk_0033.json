@@ -8,67 +8,67 @@
     "context": "000106",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……どうした先生。やっぱり生徒が心配か？」"
+    "string": "「……怎么了老师。果然还是在担心学生吗？」"
   },
   "000141": {
     "context": "000141",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0020 002151"
+    "string": "「嗯……」"
   },
   "000152": {
     "context": "000152",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「大丈夫だよ。監視カメラの映像によれば、彼らは第５エリア以降にいる可能性が高い」"
+    "string": "「没事的。从监控的录像来看，他们在第 5 区域以后的可能性很高」"
   },
   "000163": {
     "context": "000163",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「このエリアの火災に巻き込まれたりはしてないはずだ」"
+    "string": "「这个区域的火灾应该不会影响到他们的」"
   },
   "000168": {
     "context": "000168",
     "code": "0x45",
     "developer_comment": "",
-    "string": "自分に言い聞かせるように、渡瀬は言う。"
+    "string": "就像是说给自己听的一样，渡濑说道。"
   },
   "000173": {
     "context": "000173",
     "code": "0x45",
     "developer_comment": "",
-    "string": "つい１時間ほど前、ここで恵那の生徒と遭遇した事実については、あえて話題に出さなかった。"
+    "string": "他没有提起差不多 1 小时前在这里遇到了惠那学生的事实。"
   },
   "000178": {
     "context": "000178",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが恵那は沈んだ表情で言う。"
+    "string": "但是惠那阴着脸，说道。"
   },
   "000207": {
     "context": "000207",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……火も心配だけど、それだけじゃないわ」"
+    "string": "「……我不只是在担心火灾」"
   },
   "000218": {
     "context": "000218",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「え？」"
+    "string": "「诶？」"
   },
   "000229": {
     "context": "000229",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「やっぱり放射線の事が気にかかるの……」"
+    "string": "「果然还是在担心辐射的问题……」"
   },
   "000258": {
     "context": "000258",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「だってさっきプロキオンの数値は、５０００ｍＳｖを超えていたじゃない？」"
+    "string": "「因为刚刚 Procyon 的数值显示，这里已经超过了 5000 mSv 对吧？」"
   },
   "000269": {
     "context": "000269",
@@ -80,13 +80,13 @@
     "context": "000298",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「なんだか実感が湧かないけど……これって本来なら、とんでもなく異常な数値でしょう」"
+    "string": "「不知道为什么没有实感……这本来是很异常的数值吧」"
   },
   "000309": {
     "context": "000309",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「ＡＤでも被曝を防ぎきれるかわからないんだし……」"
+    "string": "「也不知道 AD 能不能防住这个照射……」"
   },
   "000315": {
     "context": "000315",
@@ -98,37 +98,37 @@
     "context": "000320",
     "code": "0x45",
     "developer_comment": "",
-    "string": "４０００ｍＳｖ～８０００ｍＳｖの『第１危険基準値』は、『ＡＤ投与の上でも、長時間の被曝は望ましくない』とされている。"
+    "string": "4000 mSv ～ 8000 mSv 是“第一危险范围”，表示“即使注射了 AD ，也不建议长时间被辐射”。"
   },
   "000331": {
     "context": "000331",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……要救助者だけじゃなく、オレたちもあまり長居はしない方がいいか」"
+    "string": "「……不止是被困人员，我们最好也不要在这里久留」"
   },
   "000360": {
     "context": "000360",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そうね。特に私と橘さんは……」"
+    "string": "「是的。特别是我和橘……」"
   },
   "000371": {
     "context": "000371",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「え？　橘はわかるが、どうして先生も――」"
+    "string": "「诶？橘我知道，为什么老师也——」"
   },
   "000400": {
     "context": "000400",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「忘れたの、隊長さん？」"
+    "string": "「忘了吗，队长？」"
   },
   "000411": {
     "context": "000411",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「私は隊長さんたちに会うまで、ＡＤなしで過ごしてたのよ」"
+    "string": "「我和队长你们相遇之前，都没有打 AD」"
   },
   "000422": {
     "context": "000422",
@@ -140,144 +140,144 @@
     "context": "000427",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言われて愕然とした。"
+    "string": "渡濑听到这句话，愣住了。"
   },
   "000432": {
     "context": "000432",
     "code": "0x45",
     "developer_comment": "",
-    "string": "考えてみればそうだった。恵那は渡瀬たちに会うまで、メルトダウンが起きている事さえ知らなかったのだ。"
+    "string": "想想就发现确实是这样。惠那和渡濑他们相遇之前，并不知道发生了堆芯熔毁。"
   },
   "000461": {
     "context": "000461",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「プロキオンの数値がまだ低い頃だから、累計被曝量は大した事ないと思うけど……」"
+    "string": "「那个时候 Procyon 显示的数值很低，所以累计照射应该不大……」"
   },
   "000472": {
     "context": "000472",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「い、いや待て先生！　そうは言うが、用心するに越した事はないんじゃないか！？」"
+    "string": "「不，等一下老师！话虽这么说，还是小心点为好！？」"
   },
   "000483": {
     "context": "000483",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘に言って、このエリアの捜索から外れてもらうとか――」"
+    "string": "「你应该告诉橘，然后从这个区域的搜索中离开，或者——」"
   },
   "000512": {
     "context": "000512",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「あら、冗談じゃないわよ。みんなが頑張ってるのに、私だけ休んでられないわ」"
+    "string": "「啊呀，别开玩笑了。明明大家都在努力，我一个人休息怎么行」"
   },
   "000523": {
     "context": "000523",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 002723"
+    "string": "「……」"
   },
   "000528": {
     "context": "000528",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は恵那の顔をまじまじと見た。"
+    "string": "渡濑盯着惠那的脸。"
   },
   "000533": {
     "context": "000533",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ただの口うるさい女だと思っていたが――"
+    "string": "他本以为她只是个话很多的女人，但是——"
   },
   "000544": {
     "context": "000544",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……先生。あんた、凄いな……」"
+    "string": "「……老师。你真厉害……」"
   },
   "000573": {
     "context": "000573",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「え、何が？」"
+    "string": "「诶，为什么？」"
   },
   "000584": {
     "context": "000584",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なんていうか、芯が強いって言うか……とにかく凄い女だ」"
+    "string": "「怎么说呢，应该说内心很坚强还是……总之是很厉害的女性」"
   },
   "000613": {
     "context": "000613",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「ふっ、もしかして惚れそう？」"
+    "string": "「呵，难道是迷上我了？」"
   },
   "000624": {
     "context": "000624",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ちょっとな」"
+    "string": "「有一点」"
   },
   "000653": {
     "context": "000653",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0005 000751"
+    "string": "「……」"
   },
   "000658": {
     "context": "000658",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那は一瞬、黙りこくった。"
+    "string": "惠那一瞬间沉默了。"
   },
   "000687": {
     "context": "000687",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……って隊長さん、冗談言ってる場合じゃないでしょ。今どういう状況かわかってる？」"
+    "string": "「……队长，这不是开玩笑的时候吧。你知道现在是什么情况吗？」"
   },
   "000698": {
     "context": "000698",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なに？　先に冗談言ったのは先生だろ」"
+    "string": "「什么？是老师先开玩笑的吧」"
   },
   "000727": {
     "context": "000727",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「え、あ、そうね……わかったわよ、自重するわよ」"
+    "string": "「诶，啊，说的对……知道了，我会注意言辞的」"
   },
   "000732": {
     "context": "000732",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那はそう言って目を逸らした。"
+    "string": "说着，惠那移开了目光。"
   },
   "000761": {
     "context": "000761",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「下らない話はヤメにして、捜索に邁進しましょ」"
+    "string": "「别说这些没用的了，我们继续努力搜索吧」"
   },
   "000772": {
     "context": "000772",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0028 001735"
+    "string": "「嗯，好」"
   },
   "000777": {
     "context": "000777",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬も少し反省し、そして捜索に集中した。"
+    "string": "渡濑也反省了一下，然后继续集中精神搜索。"
   },
   "000822": {
     "context": "000822",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――そうこうしているうちに通路の捜索は終わり、エレベーターホールが見えてきた。"
+    "string": "——就这样，通道的搜索结束了，他们看到了电梯间。"
   }
 }

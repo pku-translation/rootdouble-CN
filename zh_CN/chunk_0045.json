@@ -8,37 +8,37 @@
     "context": "000060",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬と風見は、まず内周棟地下２階に足を踏み入れた。"
+    "string": "渡濑和风见，先去了内环楼的地下二层。"
   },
   "000163": {
     "context": "000163",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「このエリアに、あの子たちがいるんだな……」"
+    "string": "「那几个孩子，就在这个区域啊……」"
   },
   "000192": {
     "context": "000192",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「そう信じたいところです」"
+    "string": "「但愿如此啊」"
   },
   "000242": {
     "context": "000242",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0043 000224"
+    "string": "渡濑他们一边交谈着，一边快速地搜索着各个房间。"
   },
   "000285": {
     "context": "000285",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0043 000267"
+    "string": "相信着在某处一定有被困人员。"
   },
   "000352": {
     "context": "000352",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが――"
+    "string": "但是——"
   },
   "000457": {
     "context": "000457",
@@ -56,13 +56,13 @@
     "context": "000533",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「お待ち下さい、地下１階を探してみましょう」"
+    "string": "「等等，我们找找地下一层吧」"
   },
   "000538": {
     "context": "000538",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見に言われ、階段室に向かったが――"
+    "string": "风见这么说着，走向了楼梯间，但——"
   },
   "000583": {
     "context": "000583",
@@ -86,13 +86,13 @@
     "context": "000635",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「参りましたね。ファクトリーは吹き抜け状になってるから、階段はここしかないのに……」"
+    "string": "「糟糕。因为 Factory 是贯通两层的设计，所以楼梯就只有这里才有了……」"
   },
   "000664": {
     "context": "000664",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「またエレベーターシャフトを使いますか？」"
+    "string": "「再走一次电梯井吗？」"
   },
   "000675": {
     "context": "000675",
@@ -116,7 +116,7 @@
     "context": "000751",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「これでなんとか登れないもんかな？」"
+    "string": "「这个好像能爬上去吧？」"
   },
   "000786": {
     "context": "000786",
@@ -146,19 +146,19 @@
     "context": "000900",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「えぇ、我々なら問題なく登れる高さです」"
+    "string": "「是，我们的话应该能轻松爬这种高度」"
   },
   "000929": {
     "context": "000929",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「隊長はロープ登はんは、特にお得意でしたからね」"
+    "string": "「队长你可是特别擅长攀绳的」"
   },
   "000940": {
     "context": "000940",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「そうなのか？　ならちょうどいい」"
+    "string": "「是吗？那正好」"
   },
   "000983": {
     "context": "000983",
@@ -206,13 +206,13 @@
     "context": "001210",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこに足を踏み入れた途端、風見が声を上げた。"
+    "string": "脚刚踏进这间房间，风见大声喊道。"
   },
   "001275": {
     "context": "001275",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あ……プロキオンがありますね」"
+    "string": "「啊……这里有 Procyon」"
   },
   "001286": {
     "context": "001286",
@@ -236,25 +236,25 @@
     "context": "001429",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「プロキオンはラボから支給されたものです。施設内にあってもおかしくありません」"
+    "string": "「Procyon 是 LABO 配给的。设施里即使有也不奇怪」"
   },
   "001440": {
     "context": "001440",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「そうか。いずれにしろいいものを見つけたな。これからは３チームに分かれられる」"
+    "string": "「明白了。不管怎么说，发现了好东西呢。这样一来就能分三队行动了」"
   },
   "001469": {
     "context": "001469",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「えぇ。そんな事態が今後あるかはわかりませんが」"
+    "string": "「是。虽说现在还不知道会不会遇到这种事态」"
   },
   "001474": {
     "context": "001474",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それでも渡瀬たちは、一応プロキオンを持っていく事にした。"
+    "string": "尽管如此渡濑他们，还是决定先拿上 Procyon。"
   },
   "001479": {
     "context": "001479",
@@ -278,7 +278,7 @@
     "context": "001524",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「防災マニュアル？　前にユウリさんが見つけたあれでしょうか？」"
+    "string": "「防灾手册？ 是之前悠里找到的那个吗？」"
   },
   "001535": {
     "context": "001535",
@@ -290,7 +290,7 @@
     "context": "001540",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬と風見は、頭を寄せてそれを読む。"
+    "string": "渡濑和风见把头凑在一起阅读这本册子。"
   },
   "001545": {
     "context": "001545",
@@ -418,7 +418,7 @@
     "context": "001701",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「『安全区域まで避難する事ができる』とは、もしかして……！」"
+    "string": "「“可以朝安全区域逃生”，难道是说……！」"
   },
   "001712": {
     "context": "001712",
@@ -430,7 +430,7 @@
     "context": "001735",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬と風見は顔を見合わせた。頬にひりつくような笑みが浮かぶ。"
+    "string": "渡濑和风见看向对方。两人的脸上露出大大的笑容。"
   },
   "001740": {
     "context": "001740",
@@ -442,25 +442,25 @@
     "context": "001751",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「それってどこにあると思う！？」"
+    "string": "「但是货梯在哪里呢！？」"
   },
   "001780": {
     "context": "001780",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「さっきは気づきませんでしたが、あの焼け爛れたファクトリーのどこかにあるんでしょう」"
+    "string": "「虽说刚刚没有注意到，但应该在那个被烧毁的 Factory 里吧」"
   },
   "001809": {
     "context": "001809",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「しかし先に、要救助者の捜索です。脱出口が見つかっても、要救助者を確保してなきゃ無意味ですから」"
+    "string": "「但是首先，要搜索被困人员。即使找到了逃生口，如果没法确保被困人员的安全就没有意义了」"
   },
   "001820": {
     "context": "001820",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だな！」"
+    "string": "「是啊！」"
   },
   "001825": {
     "context": "001825",
@@ -502,25 +502,25 @@
     "context": "002086",
     "code": "0x45",
     "developer_comment": "",
-    "string": "通路を引き返しながら、渡瀬は首を傾げた。"
+    "string": "在回来的路上，渡濑微倾着头。"
   },
   "002097": {
     "context": "002097",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おかしいな……要救助者がどこにもいないとは」"
+    "string": "「奇怪了……哪里都找不到被困人员啊」"
   },
   "002126": {
     "context": "002126",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「確かに妙ですね。しかしファクトリーにいるのかもしれません」"
+    "string": "「确实奇怪。说不定有可能在 Factory 里」"
   },
   "002155": {
     "context": "002155",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我々も戻って、向こうの捜索を手伝いましょう」"
+    "string": "「我们也回去，帮他们一起搜索吧」"
   },
   "002166": {
     "context": "002166",
@@ -532,7 +532,7 @@
     "context": "002171",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0020 000145"
+    "string": "渡濑这么说着的时候，"
   },
   "002198": {
     "context": "002198",
@@ -550,13 +550,13 @@
     "context": "002244",
     "code": "0x45",
     "developer_comment": "",
-    "string": "はっとして下を見ると――"
+    "string": "渡濑急忙向下面看去——"
   },
   "002249": {
     "context": "002249",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の足元の床に、ヒビが入っていた。"
+    "string": "风见脚下的地板，正在微微颤动。"
   },
   "002255": {
     "context": "002255",
@@ -580,31 +580,31 @@
     "context": "002338",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「っ！」"
+    "string": "「！」"
   },
   "002343": {
     "context": "002343",
     "code": "0x45",
     "developer_comment": "",
-    "string": "異変に気づき、風見もとっさに反応しようとした。"
+    "string": "注意到这异动，风见急忙想要做出反应。"
   },
   "002348": {
     "context": "002348",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その直後、風見の足元は崩落した。"
+    "string": "——就在那时，风见脚下的地板崩塌了。"
   },
   "002464": {
     "context": "002464",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘っ！」"
+    "string": "「橘！」"
   },
   "002469": {
     "context": "002469",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はとっさに手を伸ばし、風見の腕を掴んだ。"
+    "string": "渡濑迅速地伸出手，抓住了风见的手臂。"
   },
   "002481": {
     "context": "002481",
@@ -616,13 +616,13 @@
     "context": "002487",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ぐぅっ！！）"
+    "string": "（呜！！）"
   },
   "002492": {
     "context": "002492",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそれに耐え、風見の腕を握り締める。"
+    "string": "但是他忍住剧痛，紧紧地抓住了风见的手臂。"
   },
   "002497": {
     "context": "002497",
@@ -634,7 +634,7 @@
     "context": "002571",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の顔が、その向こうに見えた。"
+    "string": "风见的脸出现在另一头。"
   },
   "002582": {
     "context": "002582",
@@ -646,85 +646,85 @@
     "context": "002593",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「危ないところだったな、橘？」"
+    "string": "「真是危险啊，橘？」"
   },
   "002604": {
     "context": "002604",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「た、隊長……！」"
+    "string": "「队，队长……！」"
   },
   "002615": {
     "context": "002615",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「とっさに反応できて良かったぜ」"
+    "string": "「幸亏我反应快啊」"
   },
   "002626": {
     "context": "002626",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「実際たいしたもんだよな、この笠鷺渡瀬って奴の身体はさ」"
+    "string": "「笠鹭渡濑这家伙的身体，还真是相当不错啊」"
   },
   "002671": {
     "context": "002671",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言うと、風見はふっと笑った。"
+    "string": "这么说着，风见不由得笑了出来。"
   },
   "002682": {
     "context": "002682",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「隊長は、記憶喪失でも、やっぱり私たちの隊長なんですね……」"
+    "string": "「队长你，就算是失忆了，果然也还是我们的队长啊……」"
   },
   "002693": {
     "context": "002693",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「みたいだな……だが、感心するのは後だ」"
+    "string": "「看上去是啊……不过，之后再感叹吧」"
   },
   "002704": {
     "context": "002704",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「引き上げるから、そっちの手も貸してくれ」"
+    "string": "「我现在拉你上来，你另一只手给我」"
   },
   "002715": {
     "context": "002715",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「はい……」"
+    "string": "「好……」"
   },
   "002720": {
     "context": "002720",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は風見の両手を掴み、そのまま一気に引き上げた。"
+    "string": "渡濑抓住风见的两只手，然后一鼓作气拉了起来。"
   },
   "002785": {
     "context": "002785",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あ、ありがとうございました、隊長……」"
+    "string": "「非常感谢，队长……」"
   },
   "002796": {
     "context": "002796",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「怪我は無いか？」"
+    "string": "「没受伤吧？」"
   },
   "002807": {
     "context": "002807",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0004 005112"
+    "string": "「是，是的……」"
   },
   "002818": {
     "context": "002818",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「そうか、よかった。しかし……」"
+    "string": "「是吗，那太好了。但是……」"
   },
   "002823": {
     "context": "002823",
@@ -736,13 +736,13 @@
     "context": "002834",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「第６エリアは、よほど火災によるダメージがひどかったんだな」"
+    "string": "「看来第 6 区域受到火灾的损害非常严重啊」"
   },
   "002863": {
     "context": "002863",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「そうですね……他の皆さんは無事でしょうか？」"
+    "string": "「是啊……其他人都平安无事吗？」"
   },
   "002874": {
     "context": "002874",
@@ -754,6 +754,6 @@
     "context": "002879",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬たちはそう言って、また駆け出した。"
+    "string": "渡濑他们这么说道，再次跑了起来。"
   }
 }
