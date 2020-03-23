@@ -15,17 +15,26 @@ namespace CsYetiTools.FileTypes
         public int Offset { get; set; }
         public int Length { get; set; }
         public string Content { get; set; }
+        public bool EscapeLinefeed { get; set; }
 
-        public StringSegment(int offset, int length, string content)
+        public StringSegment(int offset, int length, string content, bool escapeLinefeed)
         {
             Offset = offset;
             Length = length;
-            Content = content.Replace("%N", "\n");
+            EscapeLinefeed = escapeLinefeed;
+            if (escapeLinefeed)
+            {
+                Content = content.Replace("%N", "\n");
+            }
+            else
+            {
+                Content = content;
+            }
 
             if (Length % 4 != 0) throw new ArgumentException($"0x{Offset:X08}: {Length} is not multiple of 4");
         }
 
-        public static StringSegment FromStream(Stream stream, int maxOffset, Encoding encoding)
+        public static StringSegment FromStream(Stream stream, int maxOffset, Encoding encoding, bool escapeLinefeed)
         {
             var offset = (int)stream.Position;
             var bytes = new List<byte>();
@@ -36,18 +45,19 @@ namespace CsYetiTools.FileTypes
             }
             while (stream.Position < maxOffset && stream.Peek() == 0) stream.ReadByte();
             var length = (int)(stream.Position - offset);
-            return new StringSegment(offset, length, encoding.GetString(bytes.ToArray()));
+            return new StringSegment(offset, length, encoding.GetString(bytes.ToArray()), escapeLinefeed);
         }
 
-        public void Modify(Stream stream, Encoding encoding, string? replacement, bool throwIfLengthError)
+        public void Modify(Stream stream, Encoding encoding, string? replacement, bool escapeLinefeed, bool throwIfLengthError)
         {
             var content = replacement ?? Content;
-            var bytes = encoding.GetBytes(content.Replace("\n", "%N"));
+            if (escapeLinefeed) content = content.Replace("\n", "%N");
+            var bytes =  encoding.GetBytes(content);
             if (bytes.Length + 1 > Length)
             {
                 if (throwIfLengthError)
                 {
-                    throw new InvalidOperationException($"\"{content.Replace("\"", "\\\"")}\" length > {Length - 1}");
+                    throw new InvalidOperationException($"{new SValue(content)} length > {Length - 1}");
                 }
                 else
                 {
@@ -55,10 +65,10 @@ namespace CsYetiTools.FileTypes
                     {
                         var color = Console.ForegroundColor;
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"{Offset:X08}: \"{content.Replace("\"", "\\\"")}\" length > \"{Content.Replace("\"", "\\\"")}\" (limit: {Length}), use source");
+                        Console.WriteLine($"{Offset:X08}: {new SValue(content)} length > {new SValue(Content)} (limit: {Length}), use source");
                         Console.ForegroundColor = color;
                         content = Content;
-                        bytes = encoding.GetBytes(content.Replace("\n", "%N"));
+                        bytes = encoding.GetBytes(content);
                     }
                     else
                     {
@@ -92,7 +102,7 @@ namespace CsYetiTools.FileTypes
                         var newString = encoding.GetString(bytes);
                         var color = Console.ForegroundColor;
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"{Offset:X08}: trunked \"{content.Replace("\"", "\\\"")}\"(\"{Content.Replace("\"", "\\\"")}\") to {newString.Replace("\"", "\\\"")}");
+                        Console.WriteLine($"{Offset:X08}: trunked (limit: {Length}) {new SValue(content)}({new SValue(Content)}) to {new SValue(newString)}");
                         Console.ForegroundColor = color;
                     }
                 }
@@ -114,11 +124,27 @@ namespace CsYetiTools.FileTypes
         {
             public Symbol Id { get; set; }
 
+            public bool EscapeLinefeed { get; set; }
+
             public List<Pair> Ranges { get; set; }
         }
 #nullable enable
 
-        private List<(string name, List<StringSegment> segments)> _ranges { get; } = new List<(string, List<StringSegment>)>();
+        private class SegmentGroup
+        {
+            public string Name { get; set; }
+            public bool EscapeLinefeed { get; set; }
+            public List<StringSegment> Segments { get; set; }
+
+            public SegmentGroup(string name, bool escapeLinefeed, IEnumerable<StringSegment> segments)
+            {
+                Name = name;
+                EscapeLinefeed = escapeLinefeed;
+                Segments = segments.ToList();
+            }
+        }
+
+        private List<SegmentGroup> _rangeGroups { get; } = new List<SegmentGroup>();
 
         public ExecutableStringPeeker(Stream stream, SValue rangesExpr, Encoding encoding)
         {
@@ -132,10 +158,10 @@ namespace CsYetiTools.FileTypes
                     stream.Position = begin.AsInt();
                     while (stream.Position < end.AsInt())
                     {
-                        segments.Add(StringSegment.FromStream(stream, end.AsInt(), encoding));
+                        segments.Add(StringSegment.FromStream(stream, end.AsInt(), encoding, range.EscapeLinefeed));
                     }
                 }
-                _ranges.Add((range.Id.Name, segments));
+                _rangeGroups.Add(new SegmentGroup(range.Id.Name, range.EscapeLinefeed, segments));
             }
         }
 
@@ -151,31 +177,34 @@ namespace CsYetiTools.FileTypes
         }
 
         public IEnumerable<string> Names
-            => _ranges.Select(kv => kv.name);
+            => _rangeGroups.Select(group => group.Name);
 
         public List<StringSegment> Segments(string name)
-            => _ranges.First(kv => kv.name == name).segments;
+            => _rangeGroups.First(group => group.Name == name).Segments;
 
         public void Modify(Stream stream, Encoding encoding, FilePath stringPoolDirPath)
         {
-            foreach (var (name, segs) in _ranges)
+            foreach (var group in _rangeGroups)
             {
+                var name = group.Name;
+                var segs = group.Segments;
                 var references = LoadReferences(stringPoolDirPath, name);
                 if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
                 foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
                 {
-                    seg.Modify(stream, encoding, references[i], false);
+                    seg.Modify(stream, encoding, references[i], group.EscapeLinefeed, false);
                 }
             }
         }
 
         public void Modify(Stream stream, Encoding encoding)
         {
-            foreach (var (name, segs) in _ranges)
+            foreach (var group in _rangeGroups)
             {
-                foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
+                var name = group.Name;
+                foreach (var (i, seg) in group.Segments.Reverse<StringSegment>().WithIndex())
                 {
-                    seg.Modify(stream, encoding, null, false);
+                    seg.Modify(stream, encoding, null, group.EscapeLinefeed, false);
                 }
             }
         }
@@ -259,9 +288,9 @@ namespace CsYetiTools.FileTypes
 
         public IEnumerable<char> EnumerateChars()
         {
-            foreach (var (name, segs) in _ranges)
+            foreach (var group in _rangeGroups)
             {
-                foreach (var seg in segs)
+                foreach (var seg in group.Segments)
                 {
                     foreach (var c in seg.Content) yield return c;
                 }
