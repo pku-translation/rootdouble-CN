@@ -8,13 +8,13 @@
     "context": "000057",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――それからは怒涛のごとく、様々な事が起きた。"
+    "string": "——那之后，各种各样的事情像潮水一般涌来。"
   },
   "000192": {
     "context": "000192",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「恵那……あの『隊長』という男には気をつけて。あの男は危険」"
+    "string": "@need-review （一致性问题，chunk78和82）「惠那……要小心那个叫“队长”的人。那个人很危险。」"
   },
   "000290": {
     "context": "000290",
@@ -26,7 +26,7 @@
     "context": "000319",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「っ！」"
+    "string": "@Import 0021 002933"
   },
   "000381": {
     "context": "000381",
@@ -44,7 +44,7 @@
     "context": "000466",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人は慌てて後を追ったが、そこにサリュの姿はなく――"
+    "string": "2 人急忙追赶，但是纱瑠不见了——"
   },
   "000528": {
     "context": "000528",
@@ -62,7 +62,7 @@
     "context": "000610",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそこで見つけたのは、サリュのものと思しき血痕で――"
+    "string": "但是在那里发现了，以为是纱瑠留下的血迹——"
   },
   "000676": {
     "context": "000676",
@@ -80,7 +80,7 @@
     "context": "000805",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして、２人が駆け込んだ先にあったのは――"
+    "string": "之后，在2人追赶到的地方看到的是——"
   },
   "000855": {
     "context": "000855",
@@ -104,19 +104,19 @@
     "context": "000970",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人は何者かの手によって、非常階段フロアに閉じ込められた。"
+    "string": "2 人被什么人，关在了安全梯层里了。"
   },
   "001014": {
     "context": "001014",
     "code": "0x45",
     "developer_comment": "",
-    "string": "さらに渡瀬は、消火器に隠されていた『時限爆弾』を発見した。"
+    "string": "渡濑又在灭火器里找到了隐藏的定时炸弹。"
   },
   "001158": {
     "context": "001158",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐに爆弾のタイマーが始動する。"
+    "string": "炸弹的定时器立刻开始读秒。"
   },
   "001226": {
     "context": "001226",
@@ -128,19 +128,19 @@
     "context": "001252",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は必死で叫んだが、扉は開かない。"
+    "string": "渡濑拼命地喊着，但是门也没开。"
   },
   "001258": {
     "context": "001258",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（も、もうダメだ――ッ！）"
+    "string": "（没，没救了——！）"
   },
   "001263": {
     "context": "001263",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦もそう思った時、"
+    "string": "夏彦这么想的时候，"
   },
   "001339": {
     "context": "001339",
@@ -152,19 +152,19 @@
     "context": "001428",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（っ！！！？？？）"
+    "string": "（？？？！！！）"
   },
   "001434": {
     "context": "001434",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（な、なんで先生が銃を！？）"
+    "string": "（为，为什么老师有枪？！）"
   },
   "001439": {
     "context": "001439",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は愕然とした、が――恵那は平然と声を上げる。"
+    "string": "夏彦震惊了——但老师冷静地说。"
   },
   "001450": {
     "context": "001450",
@@ -182,13 +182,13 @@
     "context": "001581",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那の声に従って、渡瀬が防火扉を蹴り倒す。"
+    "string": "遵从惠那的指示，渡濑踹倒了防火门。"
   },
   "001641": {
     "context": "001641",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして２人は爆弾から逃げたが――"
+    "string": "之后2人虽然逃离了炸弹——"
   },
   "001785": {
     "context": "001785",
@@ -200,7 +200,7 @@
     "context": "001796",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――結局、爆発は起こらなかった。"
+    "string": "——结果，没有发生爆炸。"
   },
   "001808": {
     "context": "001808",
