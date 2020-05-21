@@ -8,19 +8,19 @@
     "context": "000066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那を気絶させた渡瀬は、そのままラボの中心部に向けて歩き出した。"
+    "string": "窒息了惠那的渡濑，就这么走向了LABO的中心部。"
   },
   "000071": {
     "context": "000071",
     "code": "0x45",
     "developer_comment": "",
-    "string": "どうやらたった１人で、原子炉エリアで起きている火災を止めるつもりらしい。"
+    "string": "大概打算独自一人，扑灭核反应堆区域燃烧着的大火。"
   },
   "000076": {
     "context": "000076",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そんな彼を、夏彦は必死に引き止めようとした。"
+    "string": "@need-review 夏彦拼命地阻止这么做的他。"
   },
   "000087": {
     "context": "000087",
@@ -44,7 +44,7 @@
     "context": "000120",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「誰かがやらなきゃだめなんだよ」"
+    "string": "「不由某个人去做的话就不行」"
   },
   "000131": {
     "context": "000131",
@@ -74,7 +74,7 @@
     "context": "000169",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が独り言のように呟く。夏彦はそれを黙って聞いた。"
+    "string": "渡濑自言自语地说。夏彦沉默地听。"
   },
   "000180": {
     "context": "000180",
@@ -104,7 +104,7 @@
     "context": "000224",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ユウリが瓦礫に潰されそうになれば、身を呈して庇って……」"
+    "string": "@Import 0091 001197"
   },
   "000235": {
     "context": "000235",
@@ -116,13 +116,13 @@
     "context": "000240",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそう言った時――"
+    "string": "渡濑这么说的时候——"
   },
   "000415": {
     "context": "000415",
     "code": "0x45",
     "developer_comment": "",
-    "string": "再び睡魔が、夏彦の意識を侵食し始める。"
+    "string": "睡意再次开始侵蚀夏彦的意识。"
   },
   "000421": {
     "context": "000421",
@@ -134,19 +134,19 @@
     "context": "000426",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今度はきっと耐えられない。"
+    "string": "这次肯定忍耐不了。"
   },
   "000431": {
     "context": "000431",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恐らく夏彦は、もうすぐ消えるのだろう。"
+    "string": "恐怕夏彦不久就要消失了吧。"
   },
   "000436": {
     "context": "000436",
     "code": "0x45",
     "developer_comment": "",
-    "string": "霞みゆく聴覚に、渡瀬の声が響く。"
+    "string": "朦胧的听觉中，响起了渡濑的声音。"
   },
   "000447": {
     "context": "000447",
@@ -182,19 +182,19 @@
     "context": "000490",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の無言の決意が、夏彦の意識にも伝わってきた。"
+    "string": "渡濑无言的决心，夏彦的意识也感受到了。"
   },
   "000495": {
     "context": "000495",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこに『嘘』や『見栄』や『強がり』はなく。"
+    "string": "那里没有“谎言”“虚荣”或“逞强”。"
   },
   "000500": {
     "context": "000500",
     "code": "0x45",
     "developer_comment": "",
-    "string": "あるのは純粋に『みんなを救いたい』という想いだけで。"
+    "string": "只有纯粹的“想救大家”的想法。"
   },
   "000511": {
     "context": "000511",
@@ -206,31 +206,31 @@
     "context": "000516",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう言った時、ついにタイムリミットが――……"
+    "string": "夏彦这么说的时候，终于时限——"
   },
   "000522": {
     "context": "000522",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ああ、くそ……）"
+    "string": "（啊，可恶……）"
   },
   "000527": {
     "context": "000527",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は毒づいた。毒づかずにはいられなかった。"
+    "string": "@need-review 夏彦咒骂了。忍不住咒骂。"
   },
   "000533": {
     "context": "000533",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……お前が初めから、そういう奴だったら良かったのに）"
+    "string": "（……要是你一开始就是这样的人的话就好了）"
   },
   "000539": {
     "context": "000539",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（お前が正義のレスキュー隊員だったなら、ぼくもましろもサリュも、あんな目に遭わなくてすんだのに……！）"
+    "string": "@need-review（要是你是正义的救援队员的话，真白和纱瑠和我，不遭遇那样的事情也可以解决了……）"
   },
   "000689": {
     "context": "000689",
@@ -248,31 +248,31 @@
     "context": "000851",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（――どうしてなんだよ、渡瀬……？）"
+    "string": "（——为什么，渡濑……？）"
   },
   "000857": {
     "context": "000857",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（どうしてお前は、テロリストだったんだ？）"
+    "string": "（为什么，你是恐怖分子？）"
   },
   "000862": {
     "context": "000862",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は、ただその事だけが悔しかった。"
+    "string": "夏彦只对那件事不甘心。"
   },
   "001030": {
     "context": "001030",
     "code": "0x45",
     "developer_comment": "",
-    "string": "遠くで渡瀬の声が響く。"
+    "string": "远处响起了渡濑的声音。"
   },
   "001041": {
     "context": "001041",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――わかったろ？　わかったらもう黙っていてくれ」"
+    "string": "「——明白了吗？明白了的话就别说了」"
   },
   "001052": {
     "context": "001052",
@@ -284,37 +284,37 @@
     "context": "001058",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……オーケー、わかったよ）"
+    "string": "（……OK，明白了）"
   },
   "001063": {
     "context": "001063",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は心静かに想った。"
+    "string": "夏彦冷静地想。"
   },
   "001069": {
     "context": "001069",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あとはあんたに任せるよ）"
+    "string": "（剩下的就交给你了）"
   },
   "001075": {
     "context": "001075",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（サリュの事も、あの子の事も、先生の事も、全部あんたに任せるからさ……）"
+    "string": "（纱瑠，那个孩子，老师，全都交给你了……）"
   },
   "001081": {
     "context": "001081",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……だから、ほんと頼んだぜ）"
+    "string": "（……所以，真的拜托了）"
   },
   "001087": {
     "context": "001087",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（なぁ、渡瀬……）"
+    "string": "（渡濑……）"
   },
   "001143": {
     "context": "001143",
