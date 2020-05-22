@@ -8,13 +8,13 @@
     "context": "000086",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがその１つ１つに、いちいち脅えてなどいられない。"
+    "string": "但是不能对每一个门都逐一地感到威胁。"
   },
   "000097": {
     "context": "000097",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「とにかく捜索を急ごう。かなり部屋数があるからな」"
+    "string": "「总之要快点搜索。还有很多的房间」"
   },
   "000141": {
     "context": "000141",
@@ -26,7 +26,7 @@
     "context": "000187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "外周棟の端にある部屋の前で――風見が消火ホースを構え、扉に向ける。"
+    "string": "@import 0012 002477"
   },
   "000231": {
     "context": "000231",
@@ -44,7 +44,7 @@
     "context": "000272",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「了解。じゃあ開けるね！」"
+    "string": "「明白。那么要开门了！」"
   },
   "000277": {
     "context": "000277",
@@ -56,13 +56,13 @@
     "context": "000344",
     "code": "0x45",
     "developer_comment": "",
-    "string": "扉の向こうは、雑然とした研究室だった。"
+    "string": "门里面是杂乱的研究室。"
   },
   "000355": {
     "context": "000355",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……どうやら、火の気はないようだな？」"
+    "string": "「……看起来，不像有火的样子？」"
   },
   "000420": {
     "context": "000420",
@@ -74,7 +74,7 @@
     "context": "000450",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ではＡＤ等の捜索を。３０秒でいきましょう」"
+    "string": "「那么搜索 AD。30 秒内完成」"
   },
   "000510": {
     "context": "000510",
@@ -86,13 +86,13 @@
     "context": "000560",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ん！？　これがメディカルボックスか！？」"
+    "string": "「嗯！？这是医疗箱吧！？」"
   },
   "000569": {
     "context": "000569",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しかし――中身は空。すでに誰かが持ち去った後のようだった。"
+    "string": "但是——里面空空如也。看起来有人已经拿走了里面的东西。"
   },
   "000580": {
     "context": "000580",
@@ -116,103 +116,103 @@
     "context": "000689",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬たちはその後も次々と、部屋の捜索を行なった。"
+    "string": "众人在这之后也逐个进行了房间的搜索。"
   },
   "000694": {
     "context": "000694",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがＡＤや要救助者はおろか、煙の出所さえわからぬまま捜索は進み――"
+    "string": "但是没找到 AD 和被困人员，也没有找到烟的来源，就这样继续搜索——"
   },
   "000699": {
     "context": "000699",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はいつしか、炎の脅威を忘れていた。"
+    "string": "渡濑不知不觉间忘记了火焰的威胁。"
   },
   "000751": {
     "context": "000751",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「次の部屋でラストだ！　開けるぞ！」"
+    "string": "「下一个房间就是最后一个了！要开门了！」"
   },
   "000780": {
     "context": "000780",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「いけません、隊長！　熱反応の確認を――」"
+    "string": "「不行，队长！要确认热度反应——」"
   },
   "000785": {
     "context": "000785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の警告が耳に届く。"
+    "string": "风见的警告传到了耳边。"
   },
   "000819": {
     "context": "000819",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがその時には、渡瀬は扉の開閉ボタンに触れ――"
+    "string": "但是就在这时，渡濑触碰到了开门按钮——"
   },
   "000893": {
     "context": "000893",
     "code": "0x45",
     "developer_comment": "",
-    "string": "かすかな駆動音を上げ、扉が開く。"
+    "string": "微弱的驱动声响起，门打开了。"
   },
   "000898": {
     "context": "000898",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その直後。"
+    "string": "——紧接着。"
   },
   "000975": {
     "context": "000975",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ひどく奇妙な音がした。"
+    "string": "非常奇妙的声音响起。"
   },
   "000980": {
     "context": "000980",
     "code": "0x45",
     "developer_comment": "",
-    "string": "同時に、空気が吸い込まれるような感触があった。"
+    "string": "同时，他感到仿佛空气被吸进去一般。"
   },
   "000986": {
     "context": "000986",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0043 002412"
+    "string": "（是什么！？）"
   },
   "000991": {
     "context": "000991",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は室内に視線を向けた。"
+    "string": "渡濑看向了房间里。"
   },
   "000996": {
     "context": "000996",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして渡瀬が見たものは――"
+    "string": "然后渡濑看到的是——"
   },
   "001139": {
     "context": "001139",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――噴き出して来た炎の渦だった。"
+    "string": "——喷涌而出的火焰旋涡。"
   },
   "001150": {
     "context": "001150",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0003 002680"
+    "string": "「！？」"
   },
   "001155": {
     "context": "001155",
     "code": "0x45",
     "developer_comment": "",
-    "string": "刹那、脳内に記憶が瞬く。"
+    "string": "瞬间，脑中记忆闪过。"
   },
   "001255": {
     "context": "001255",
@@ -242,13 +242,13 @@
     "context": "001426",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（あ、）"
+    "string": "（啊、）"
   },
   "001431": {
     "context": "001431",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思った一瞬後、渡瀬は灼熱に包まれていた。"
+    "string": "这么想着的下一瞬间，渡濑被烈焰吞没了。"
   },
   "001582": {
     "context": "001582",
@@ -259,7 +259,7 @@
     "context": "001585",
     "code": "0x45",
     "developer_comment": "",
-    "string": "√A バッドエンド2【注意力なき者】"
+    "string": "√A Bad End 2【疏忽大意】"
   },
   "001588": {
     "context": "001588",
@@ -270,7 +270,7 @@
     "context": "001591",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見と洵の説明を、渡瀬が真剣に聞いていなかった場合の結末。"
+    "string": "对于风见和洵的说明，渡濑没有真的听进去的时候的结局。"
   },
   "001594": {
     "context": "001594",
@@ -281,6 +281,6 @@
     "context": "001597",
     "code": "0x45",
     "developer_comment": "",
-    "string": "このエンディング直前に入力できるセンシズで、風見と洵と渡瀬をとても高く設定したら、この結末は回避できたかもしれない。"
+    "string": "在这个结局前一个 Senses 输入中，给风见和洵和渡濑设定得相当高的话，或许就能避开这个结局了。"
   }
 }
