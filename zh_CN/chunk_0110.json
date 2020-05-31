@@ -8,13 +8,13 @@
     "context": "000084",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それでも何かを言おうとした――その時。"
+    "string": "@import 0088 002802"
   },
   "000113": {
     "context": "000113",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……隊長、あなたは本当に記憶を失っているのですか？」"
+    "string": "「……队长，你真的失忆了吗？」"
   },
   "000124": {
     "context": "000124",
@@ -26,301 +26,301 @@
     "context": "000153",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「申し訳ありません。ですが守部の言ったように、あなたの行動は不可解すぎるのです」"
+    "string": "「很抱歉。但是就像守部说的一样，你的行动太难理解了」"
   },
   "000164": {
     "context": "000164",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あなたはあの時、堂島と桧山に呼ばれて地下に降りたと仰っていましたが――」"
+    "string": "「你那个时候，你说你那个时候是被堂岛和桧山喊到地下来的，但是——」"
   },
   "000175": {
     "context": "000175",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「通常そうした場合、あなたは私と守部に現場へ向かうよう指示しなければならなかったはずなのです」"
+    "string": "「通常这种情况，你应该必须指示我和守部去现场才对」"
   },
   "000204": {
     "context": "000204",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ですが、あなたはそうしなかった」"
+    "string": "「但是，你并没有这样做」"
   },
   "000215": {
     "context": "000215",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「隊長、お答え下さい。あなたはなぜ指揮所を離れ、そして１人で地下に降りたのですか？」"
+    "string": "「队长，请你回答。你为什么离开了指挥所，然后一个人来到地下？」"
   },
   "000220": {
     "context": "000220",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の怜悧な目が、渡瀬の胸に突き刺さる。"
+    "string": "风见伶俐的目光，像是要刺破渡濑的胸口一般。"
   },
   "000231": {
     "context": "000231",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0015 001749"
+    "string": "「那，那个……」"
   },
   "000236": {
     "context": "000236",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は必死に、その時の状況を詳しく思い出そうとした。"
+    "string": "渡濑拼命地仔细回想那时的情况。"
   },
   "000241": {
     "context": "000241",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが何もわからない。その部分の記憶は、すっぽりと抜け落ちたままだった。"
+    "string": "但是什么也想不起来。那个部分的记忆全部都丢掉了。"
   },
   "000247": {
     "context": "000247",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0014 002122"
+    "string": "「…………」"
   },
   "000276": {
     "context": "000276",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……答え、られないのですか？」"
+    "string": "「……没有，办法回答吗？」"
   },
   "000287": {
     "context": "000287",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「す、すまない……」"
+    "string": "「对，对不起……」"
   },
   "000316": {
     "context": "000316",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「…………わかりました」"
+    "string": "「…………明白了」"
   },
   "000339": {
     "context": "000339",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は深い溜め息をつき、そして洵に目配せ送りながら言う。"
+    "string": "风见深深地叹了一口气，然后给洵递了一个眼色，说道。"
   },
   "000350": {
     "context": "000350",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「守部、何か縛るモノを用意して下さい。これから隊長を拘束します」"
+    "string": "「守部，麻烦准备个什么能捆住人的东西。然后把队长控制起来」"
   },
   "000361": {
     "context": "000361",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0005 003761"
+    "string": "「诶……？」"
   },
   "000366": {
     "context": "000366",
     "code": "0x45",
     "developer_comment": "",
-    "string": "コウソク？"
+    "string": "控制？"
   },
   "000371": {
     "context": "000371",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬には一瞬、その言葉の意味が理解できなかった。"
+    "string": "渡濑一瞬间没能理解这句话的意思。"
   },
   "000376": {
     "context": "000376",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その内に、洵がコントロールパネルの下から１本のケーブルを引っ張り出す。"
+    "string": "在这个时间里，洵从控制板下面拽出了一根电线。"
   },
   "000421": {
     "context": "000421",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「……宇喜多さん、これ使ってもいいよね？」"
+    "string": "「……宇喜多，我用这个可以吗？」"
   },
   "000432": {
     "context": "000432",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「ああ、この際かまわんだろう」"
+    "string": "「嗯，这种时候不用在意」"
   },
   "000437": {
     "context": "000437",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の返答を受け、洵がそのケーブルをアーミーナイフで切り離す。"
+    "string": "得到宇喜多的回答，洵把这条电线用军刀切了下来。"
   },
   "000442": {
     "context": "000442",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは人を縛るのに、充分な長さを持っていた。"
+    "string": "这跟电线的长度足够把人绑起来。"
   },
   "000448": {
     "context": "000448",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……まさか……！）"
+    "string": "（……难道……！）"
   },
   "000459": {
     "context": "000459",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「じょ、冗談だろ……？」"
+    "string": "「开，开玩笑的吧……？」"
   },
   "000464": {
     "context": "000464",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると風見が冷徹な目で、渡瀬の顔を見つめて言う。"
+    "string": "然后风见用冷澈的目光看着渡濑的脸，说道。"
   },
   "000493": {
     "context": "000493",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ただでさえ何が起こっているかわからないこの状況で、あなたの存在は著しく秩序を乱しています」"
+    "string": "「本来就是不知道发生了什么的情况，你的存在严重地影响了秩序」"
   },
   "000504": {
     "context": "000504",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「よって容疑が晴れるまで、あなたの身柄を拘束させていただきます」"
+    "string": "「所以在你洗清嫌疑之前，我们要先把你捆起来」"
   },
   "000553": {
     "context": "000553",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――そして渡瀬はケーブルで身体を拘束され、第２エリア外周棟・地下２階の研究室に連行された。"
+    "string": "——然后渡濑被电线绑住，带着朝第 2 区域外环楼、地下 2 层的研究所走去。"
   },
   "000631": {
     "context": "000631",
     "code": "0x45",
     "developer_comment": "",
-    "string": "後ろ手に縛られたまま、渡瀬は風見を見据えて言う。"
+    "string": "风见看着手被绑在身后的渡濑，说道。"
   },
   "000643": {
     "context": "000643",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……ここに私の分のＡＤも置いていきます。その姿勢のままでも、ＡＤの投与は可能ですよね？」"
+    "string": "「……我把我那一份的 AD 放在这里。即使保持这个姿势，你也可以注射 AD 的吧？」"
   },
   "000649": {
     "context": "000649",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それがせめてもの慈悲だと言うように、風見がＡＤを床に置く。"
+    "string": "风见说着，像是最低限度的慈悲一样，把 AD 放在了地板上。"
   },
   "000654": {
     "context": "000654",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の手は後ろで縛られていたが、確かにＡＤを投与することはできそうだった。"
+    "string": "虽然渡濑的手被绑在了身后，但是确实可以自己给自己注射 AD。"
   },
   "000659": {
     "context": "000659",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが渡瀬にとって、そんなことはどうでもよかった。"
+    "string": "但是对于渡濑来说，这种事情怎么样都好。"
   },
   "000671": {
     "context": "000671",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘……本当にこれで良かったのか？」"
+    "string": "「橘……真的这样就好了吗？」"
   },
   "000676": {
     "context": "000676",
     "code": "0x45",
     "developer_comment": "",
-    "string": "切実な願いを込め、渡瀬は風見の目を見つめた。"
+    "string": "带着真切的希望，渡濑看着风见的眼睛，说道。"
   },
   "000705": {
     "context": "000705",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「隊長、そんな目で私を見ないで下さい……」"
+    "string": "「队长，请不要用那种眼神看我……」"
   },
   "000716": {
     "context": "000716",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「もし隊長の容疑が晴れるようなことがあれば、すぐに拘束を解きに来ますから……」"
+    "string": "「如果找到了什么东西洗清了队长的嫌疑的话，我会马上来解开你的绳子的……」"
   },
   "000749": {
     "context": "000749",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見はそう言うと、逃げるように研究室から出て行った。"
+    "string": "风见说完，像是逃跑一般离开了研究室。"
   },
   "000754": {
     "context": "000754",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして他のメンバーも――"
+    "string": "然后其他的成员也——"
   },
   "000813": {
     "context": "000813",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「隔壁が開くまで、せいぜいじっとしているんだな」"
+    "string": "「在隔离墙打开之前，你就尽管待着吧」"
   },
   "000824": {
     "context": "000824",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「隊長、変なこと考えないでよ？　もうこれ以上、隊長にひどいことしたくないからさ」"
+    "string": "「队长，不要有奇怪的想法哦？我不想再对队长做过分的事情了」"
   },
   "000835": {
     "context": "000835",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「隊長さん…………ごめんなさい」"
+    "string": "「队长…………抱歉」"
   },
   "000941": {
     "context": "000941",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――渡瀬は研究室に、たった１人取り残された。"
+    "string": "——渡濑一个人留在了实验室里。"
   },
   "000952": {
     "context": "000952",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……ちくしょう……！」"
+    "string": "「……可恶……！」"
   },
   "000957": {
     "context": "000957",
     "code": "0x45",
     "developer_comment": "",
-    "string": "思わずそんな言葉がもれる。"
+    "string": "下意识地说出了口。"
   },
   "000962": {
     "context": "000962",
     "code": "0x45",
     "developer_comment": "",
-    "string": "これまで様々な苦難を乗り越えてきた仲間たちから見放され、まるで世界から切り離されたような気分だった。"
+    "string": "被至今为止一起经历过各种各样苦难的伙伴们抛弃，感觉就像是被从世界剥离开来一样。"
   },
   "000967": {
     "context": "000967",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが渡瀬にも、彼らの不安は理解できた。"
+    "string": "但是渡濑，也理解他们的不安。"
   },
   "000972": {
     "context": "000972",
     "code": "0x45",
     "developer_comment": "",
-    "string": "記憶を失う前の渡瀬の行動は、やはり不自然過ぎたのだ。"
+    "string": "失忆之前的渡濑的行动，毕竟还是太过于不自然了。"
   },
   "000977": {
     "context": "000977",
     "code": "0x45",
     "developer_comment": "",
-    "string": "特にユウリの一件は、致命的な出来事だった。"
+    "string": "特别是悠里的事情，对他而言是致命的。"
   },
   "001074": {
     "context": "001074",
@@ -332,85 +332,85 @@
     "context": "001134",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見が見せた冷たい眼差しが、脳裏に焼きついている。"
+    "string": "风见看向他冰冷的眼神，现在依旧烙印在脑海里。"
   },
   "001140": {
     "context": "001140",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（だが……オレはどうすれば良かったんだ……？）"
+    "string": "（但是……我该怎么做才好呢……？）"
   },
   "001145": {
     "context": "001145",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは答えの出ない問いだった。"
+    "string": "这是一个无法回答的问题。"
   },
   "001150": {
     "context": "001150",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そうして悶々と考え続けている内に、時はいたずらに過ぎて行き――"
+    "string": "就这样，在渡濑闷闷不乐地思考着的时候，时间白白地流逝——"
   },
   "001207": {
     "context": "001207",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――約１時間後。"
+    "string": "——大概一小时以后。"
   },
   "001212": {
     "context": "001212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "再びＡＤの投与時間が来たが、風見たちは戻ってこなかった。"
+    "string": "到了再次注射 AD 的时间，众人也没有回来。"
   },
   "001220": {
     "context": "001220",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「――主電源及び予備電源が、停止しました」"
+    "string": "「——主电源和预备电源，停止」"
   },
   "001228": {
     "context": "001228",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「非常用電源に移行します」"
+    "string": "「切换至紧急电源」"
   },
   "001233": {
     "context": "001233",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると、アナウンスとともに突然周囲が暗くなって渡瀬を戸惑わせた。"
+    "string": "然后和广播同时，周围突然暗了下来，渡濑感到非常疑惑。"
   },
   "001244": {
     "context": "001244",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いったい、外で何が起きているのか……？"
+    "string": "外面到底在发生什么……？"
   },
   "001294": {
     "context": "001294",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――２時間後。"
+    "string": "——两小时后。"
   },
   "001299": {
     "context": "001299",
     "code": "0x45",
     "developer_comment": "",
-    "string": "放射線被曝の影響か、渡瀬はすでに何度か吐いていた。"
+    "string": "受到了辐射的影响，渡濑已经呕吐了很多次了。"
   },
   "001311": {
     "context": "001311",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――１時間後。"
+    "string": "——一小时后。"
   },
   "001316": {
     "context": "001316",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は要救助者のため、そして自らの潔白を示すため、ＡＤを投与せずに温存した。"
+    "string": "@need-review 渡濑为了被困人员，还有为了证明自己的清白，没有使用 AD，还保留着。"
   },
   "001324": {
     "context": "001324",
@@ -446,91 +446,91 @@
     "context": "001403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "放射線被曝の影響か、渡瀬はすでに２度ほど吐いていた。"
+    "string": "受到了辐射的影响，渡濑已经呕吐了两次左右。"
   },
   "001409": {
     "context": "001409",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それでも嘔吐感が消える事はなく、頭痛と肌の痺れも、時を追うごとにひどくなって行く。"
+    "string": "尽管这样，呕吐感还是没有消失，头痛和皮肤麻痹随着时间推移越来越严重。"
   },
   "001415": {
     "context": "001415",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（くそ……いい加減うんざりしてきたぜ……）"
+    "string": "（可恶……我已经受够了……）"
   },
   "001421": {
     "context": "001421",
     "code": "0x45",
     "developer_comment": "",
-    "string": "声を出す気力も無く、渡瀬が胸中でそう毒づいた時――"
+    "string": "连说话的力气都没有，渡濑在内心里暗暗诅咒的时候——"
   },
   "001440": {
     "context": "001440",
     "code": "0x45",
     "developer_comment": "",
-    "string": "どこからか聞こえて来たその音に、渡瀬の全身が総毛立つ。"
+    "string": "不知道哪里传来的声音，让渡濑全身汗毛直立。"
   },
   "001452": {
     "context": "001452",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（今のは――銃声っ！？）"
+    "string": "（刚刚的是——枪声！？）"
   },
   "001458": {
     "context": "001458",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（なんだ！？　外で何が起こったんだ！？）"
+    "string": "（怎么了！？外面到底发生了什么！？）"
   },
   "001463": {
     "context": "001463",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不安が急速に、渡瀬の心を埋め尽くす。"
+    "string": "不安快速地占据渡濑的整个内心。"
   },
   "001474": {
     "context": "001474",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おい、誰か近くにいないのか！　誰かここを開けてくれ！」"
+    "string": "「喂，有人在附近吗！谁来开开门啊！」"
   },
   "001479": {
     "context": "001479",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は急き立てられたように、外に向かって叫んでいた。"
+    "string": "渡濑像是被催促着一般，朝着外面喊道。"
   },
   "001484": {
     "context": "001484",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると、程なくして――"
+    "string": "然后，没过多久——"
   },
   "001537": {
     "context": "001537",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――ドアの向こうに、現れたのは洵だった。"
+    "string": "——洵出现在了门的另外一边。"
   },
   "001566": {
     "context": "001566",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「隊長ぉ……」"
+    "string": "「队长……」"
   },
   "001571": {
     "context": "001571",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ふらふらとした足取りで、洵が部屋に入って来る。"
+    "string": "洵脚步不稳地走进了房间。"
   },
   "001582": {
     "context": "001582",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「守部、何があったんだ！？　さっきの銃声は何だったんだ！？」"
+    "string": "「守部，发生什么了！？刚刚的枪声是怎么回事！？」"
   },
   "001649": {
     "context": "001649",
@@ -542,97 +542,97 @@
     "context": "001660",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが洵はそれに答えずに、渡瀬の拘束をアーミーナイフで切った。"
+    "string": "但是洵没有回答，用军刀切断了绑住渡濑的电线。"
   },
   "001665": {
     "context": "001665",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵の顔色が、ありえないほどに青白い。"
+    "string": "洵的脸色，不可思议地发白。"
   },
   "001670": {
     "context": "001670",
     "code": "0x45",
     "developer_comment": "",
-    "string": "息遣いも苦しげで、どうも普通の状態とは思えない。"
+    "string": "呼吸也很困难，怎么也不觉得是正常的状态。"
   },
   "001681": {
     "context": "001681",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「も、守部……？」"
+    "string": "「守，守部……？」"
   },
   "001686": {
     "context": "001686",
     "code": "0x45",
     "developer_comment": "",
-    "string": "心配になって渡瀬がそう声をかけた時――"
+    "string": "渡濑正担心地说着的时候——"
   },
   "001715": {
     "context": "001715",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「ぅ……」"
+    "string": "「唔……」"
   },
   "001766": {
     "context": "001766",
     "code": "0x45",
     "developer_comment": "",
-    "string": "前のめりに倒れてきた洵を、渡瀬はとっさに抱き止めた。"
+    "string": "洵朝前倒下，渡濑急忙抱住了她。"
   },
   "001777": {
     "context": "001777",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「お、おい」"
+    "string": "「喂，喂」"
   },
   "001782": {
     "context": "001782",
     "code": "0x45",
     "developer_comment": "",
-    "string": "手の平が、べっとりと何かで濡れた。"
+    "string": "手掌似乎被什么东西弄湿了。"
   },
   "001858": {
     "context": "001858",
     "code": "0x45",
     "developer_comment": "",
-    "string": "血だ。それも大量の。"
+    "string": "是血。而且是大量的血。"
   },
   "001863": {
     "context": "001863",
     "code": "0x45",
     "developer_comment": "",
-    "string": "見ると背中が大きく切り裂かれ、血で真っ赤に染まっている。"
+    "string": "能看到洵的背上有一道巨大的割裂伤，被血染的通红。"
   },
   "001878": {
     "context": "001878",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「守部……お前……！？」"
+    "string": "「守部……你……！？」"
   },
   "001889": {
     "context": "001889",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「……隊、ちょ……にげ、て……」"
+    "string": "「……队，长……快，逃……」"
   },
   "001900": {
     "context": "001900",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「……あの、子が…………」"
+    "string": "「……她，是…………」"
   },
   "001905": {
     "context": "001905",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言って、洵はこひゅうと息を吐いた。"
+    "string": "说着，洵吐出了一口气。"
   },
   "001910": {
     "context": "001910",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして、そのまま動かなくなった。"
+    "string": "然后，就再也不动了。"
   },
   "001921": {
     "context": "001921",
@@ -644,67 +644,67 @@
     "context": "001926",
     "code": "0x45",
     "developer_comment": "",
-    "string": "声をかけたが返事がない。"
+    "string": "喊她也没有反应。"
   },
   "001931": {
     "context": "001931",
     "code": "0x45",
     "developer_comment": "",
-    "string": "守部の身体から、急速に体温が失われていくのがわかる。"
+    "string": "他发现守部的身体，正在快速地变冷。"
   },
   "001942": {
     "context": "001942",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「守部！　しっかりしろ！　守部！」"
+    "string": "「守部！振作一点！守部！」"
   },
   "001947": {
     "context": "001947",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが洵は動かない。"
+    "string": "但是洵一动不动。"
   },
   "001958": {
     "context": "001958",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「う、嘘だろ……――悪い冗談なら止めてくれ！」"
+    "string": "@need-review 「开，开玩笑吧……这种恶作剧快停下啊！」"
   },
   "001963": {
     "context": "001963",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は祈るような思いで、洵のバイタルチェッカーを確認した。"
+    "string": "渡濑祈求般地想着，确认了一下洵的生命体征监测仪。"
   },
   "002060": {
     "context": "002060",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――オールレッド。"
+    "string": "——状态全红。"
   },
   "002065": {
     "context": "002065",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは『死亡』を意味するサインだった。"
+    "string": "这是意味着“死亡”的信号。"
   },
   "002092": {
     "context": "002092",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「守部……そんな……」"
+    "string": "「守部……怎么会……」"
   },
   "002103": {
     "context": "002103",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「どうして……？」"
+    "string": "「为什么……？」"
   },
   "002114": {
     "context": "002114",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「どうして、こんなことに……？」"
+    "string": "「为什么，会这样……？」"
   },
   "002125": {
     "context": "002125",
@@ -734,445 +734,445 @@
     "context": "002154",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「…………くそ……」"
+    "string": "「…………可恶……」"
   },
   "002165": {
     "context": "002165",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――くそっ！　誰が守部をこんな目にっ！」"
+    "string": "「——可恶！是谁把守部变成这样的！」"
   },
   "002216": {
     "context": "002216",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はわけもわからぬまま、部屋の外へ飛び出した。"
+    "string": "@need-review 渡濑还是什么也不知道，跑出了房间。"
   },
   "002222": {
     "context": "002222",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（――何があったんだ！？）"
+    "string": "（——到底发生了什么！？）"
   },
   "002228": {
     "context": "002228",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（オレが閉じ込められている間に、このラボでいったい何が！？）"
+    "string": "（在我被关起来的时间里，这个 LABO 里到底发生了什么！？）"
   },
   "002277": {
     "context": "002277",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして当てもなく走り、連絡通路に差しかかった時――"
+    "string": "然后他随意地跑着，在走到连接通道附近的时候——"
   },
   "002282": {
     "context": "002282",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はそこで、背中を壁にもたせて座り込んでいる宇喜多を発見した。"
+    "string": "渡濑在那里，看到了背靠着墙壁坐着的宇喜多。"
   },
   "002287": {
     "context": "002287",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ぞくりと嫌な予感がした。"
+    "string": "他有一种不好的预感。"
   },
   "002292": {
     "context": "002292",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の前に広がっている血溜りが見えたのだ。"
+    "string": "宇喜多前面有一大片血泊。"
   },
   "002303": {
     "context": "002303",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――おっさん！」"
+    "string": "「大叔！」"
   },
   "002308": {
     "context": "002308",
     "code": "0x45",
     "developer_comment": "",
-    "string": "駆け寄って、渡瀬は宇喜多の肩に触れた。"
+    "string": "渡濑跑到宇喜多身边，碰了一下他的肩膀。"
   },
   "002313": {
     "context": "002313",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると宇喜多の身体は、何の抵抗もなく横に傾いて行き――"
+    "string": "然后宇喜多的身体，没有抵抗地朝地面上倒下——"
   },
   "002324": {
     "context": "002324",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多は右肩から胸にかけて、大きく切り裂かれていた。"
+    "string": "宇喜多从右肩到胸口，有一道巨大的割裂伤。"
   },
   "002335": {
     "context": "002335",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おっさん！　おい！　しっかりしてくれ！」"
+    "string": "「大叔！喂！振作一点！」"
   },
   "002340": {
     "context": "002340",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが宇喜多からの返答はなく――"
+    "string": "但是宇喜多没有回答——"
   },
   "002345": {
     "context": "002345",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ふと見ると、宇喜多が手に何かを握っている。"
+    "string": "渡濑忽然注意到，宇喜多的手上握着什么东西。"
   },
   "002448": {
     "context": "002448",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なっ！？　どうして、おっさんがこんなものを！？」"
+    "string": "「什！？为什么，大叔会有这种东西！？」"
   },
   "002453": {
     "context": "002453",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは恵那が所持していた物と、まったく別タイプの拳銃だった。"
+    "string": "这不是惠那拿着的那一把，是另外一个型号的手枪。"
   },
   "002474": {
     "context": "002474",
     "code": "0x45",
     "developer_comment": "",
-    "string": "周囲を見回せば、壁や床に銃弾が跳ねた痕がある。"
+    "string": "@need-review 朝四周看的话，能看到墙壁和地板上有弹痕。"
   },
   "002485": {
     "context": "002485",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「それじゃあ、さっきの銃声は――！？」"
+    "string": "「所以，刚刚的枪声就是——！？」"
   },
   "002490": {
     "context": "002490",
     "code": "0x45",
     "developer_comment": "",
-    "string": "おそらく宇喜多が拳銃で、何者かに応戦したのだろう。"
+    "string": "恐怕宇喜多用手枪，迎战了什么东西吧。"
   },
   "002495": {
     "context": "002495",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、宇喜多は敵わなかったのだ。"
+    "string": "但是，宇喜多无法匹敌。"
   },
   "002500": {
     "context": "002500",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ほぼ一撃で、宇喜多は斬り殺されていた。"
+    "string": "对方只用了一下，就斩杀了宇喜多。"
   },
   "002505": {
     "context": "002505",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてその傷口は、洵の背中にあったものと同じだった。"
+    "string": "然后这个伤口，和洵背上的伤口是一样的。"
   },
   "002511": {
     "context": "002511",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ということは、おっさんは洵を逃がすためにここで戦って！？）"
+    "string": "（所以说，大叔是为了让洵逃走才在这里战斗的吗！？）"
   },
   "002517": {
     "context": "002517",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（だが素人とは言え、銃を持ったおっさんを相手にこんな真似ができる奴なんて……！？）"
+    "string": "@need-review （但是即使大叔是一般人，面对战胜拿着枪的大叔能做出这种事情的家伙是谁……！？）"
   },
   "002523": {
     "context": "002523",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ッ――まさか！）"
+    "string": "（——难道！）"
   },
   "002528": {
     "context": "002528",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そのとき渡瀬の脳裏に、いくつもの死の光景が甦る。"
+    "string": "就在这时，渡濑的脑中出现了数个死亡的场景。"
   },
   "002817": {
     "context": "002817",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（あの５人を殺した犯人が、動き出したってのか！？）"
+    "string": "（杀死那五个人的犯人，开始行动了吗！？）"
   },
   "002822": {
     "context": "002822",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてその犯人が、宇喜多と洵を殺したという事は――"
+    "string": "然后，那个犯人杀死了宇喜多和洵，说明——"
   },
   "002828": {
     "context": "002828",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ちくしょう！　オレたちを皆殺しにするつもりなのか！？）"
+    "string": "（可恶！他是要杀死我们所有人吗！？）"
   },
   "002833": {
     "context": "002833",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はそこではっと気づく。"
+    "string": "渡濑突然注意到了。"
   },
   "002844": {
     "context": "002844",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――だとしたら、橘と先生も危ない！」"
+    "string": "「——这样的话，橘和老师很危险！」"
   },
   "002849": {
     "context": "002849",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は宇喜多の亡骸をその場に残し、連絡通路を駆け抜けた。"
+    "string": "渡濑把宇喜多的尸体留在这里，沿着连接通道飞奔。"
   },
   "002904": {
     "context": "002904",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、そこで渡瀬を待ちうけていたのは――"
+    "string": "但是，在前面等着渡濑的是——"
   },
   "002917": {
     "context": "002917",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「な……っ！」"
+    "string": "「什……！」"
   },
   "002922": {
     "context": "002922",
     "code": "0x45",
     "developer_comment": "",
-    "string": "内周棟に足を踏み入れた瞬間、渡瀬は言葉を失った。"
+    "string": "踏入内环楼的瞬间，渡濑一时失语。"
   },
   "002966": {
     "context": "002966",
     "code": "0x45",
     "developer_comment": "",
-    "string": "床一面に広がる血――。"
+    "string": "铺满地板的血迹——"
   },
   "002971": {
     "context": "002971",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その中に風見が仰向けに倒れている。"
+    "string": "风见仰面倒在里面。"
   },
   "002992": {
     "context": "002992",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0106 000942"
+    "string": "「——橘！？」"
   },
   "002997": {
     "context": "002997",
     "code": "0x45",
     "developer_comment": "",
-    "string": "駆け寄り、風見を抱き起こす。"
+    "string": "渡濑跑过去抱起风见。"
   },
   "003002": {
     "context": "003002",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は胸を、縦に大きく切り裂かれていた。"
+    "string": "风见的胸口上，有一道纵向的巨大割裂伤。"
   },
   "003007": {
     "context": "003007",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵や宇喜多と同じ傷だ。"
+    "string": "和洵还有宇喜多一样的伤口。"
   },
   "003012": {
     "context": "003012",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこから溢れ出す血が、まだ温かい。"
+    "string": "从里面流出的鲜血，还是热的。"
   },
   "003148": {
     "context": "003148",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ぅ……わ、ワタせ……？」"
+    "string": "「……渡，渡濑……？」"
   },
   "003153": {
     "context": "003153",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は、まだかすかに息があった。"
+    "string": "风见，还一息尚存。"
   },
   "003164": {
     "context": "003164",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘っ！　待ってろ、今すぐ治療してやるからな！」"
+    "string": "「橘！坚持一下，我现在就给你治疗！」"
   },
   "003169": {
     "context": "003169",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが声が届いていないのか、うわ言のように風見が言う。"
+    "string": "但是就像听不见一样，风见意识朦胧地说道。"
   },
   "003180": {
     "context": "003180",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ワタ、せ……ごめんな、さい……」"
+    "string": "「渡，渡濑……对不，起……」"
   },
   "003191": {
     "context": "003191",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あなたの、こと……もっと信じて、あげられ、なくて……」"
+    "string": "「我，如果……再多，相信你，一点的话……」"
   },
   "003196": {
     "context": "003196",
     "code": "0x45",
     "developer_comment": "",
-    "string": "口を動かすほどに、風見から生気が抜けていくのがわかる。"
+    "string": "越是说话，风见的生命越是暗淡。"
   },
   "003207": {
     "context": "003207",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘、もういい！　もういいから、それ以上しゃべるんじゃねえ！」"
+    "string": "「橘，可以了！可以了所以，别再说话了！」"
   },
   "003218": {
     "context": "003218",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あぁ……見えない……」"
+    "string": "「啊……看不见……」"
   },
   "003229": {
     "context": "003229",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ねぇ……どこに、いるの……？」"
+    "string": "「我说……我在，哪里……？」"
   },
   "003240": {
     "context": "003240",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「い、いや……私もう……１人になんか、なりたく、ない……」"
+    "string": "「不，不要……我不想……再，一个人了……」"
   },
   "003245": {
     "context": "003245",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は急速に、視力を失いつつあるようだった。"
+    "string": "风见的视力快速地消退。"
   },
   "003256": {
     "context": "003256",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘！　オレはここだ！　ここにいるぞ！」"
+    "string": "「橘！我在这里！在这里啊！」"
   },
   "003261": {
     "context": "003261",
     "code": "0x45",
     "developer_comment": "",
-    "string": "必死にそう呼びかけながら、渡瀬が風見の瞳をのぞきこむ。"
+    "string": "渡濑一边拼命地喊着，一边看着风见的眼睛。"
   },
   "003306": {
     "context": "003306",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが風見の瞳は、意味もなく天井を見上げ――"
+    "string": "但是风见的眼睛，毫无意义地看着天花板——"
   },
   "003311": {
     "context": "003311",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると風見の瞳の中で、何かが不意に瞬いた。"
+    "string": "然后风见的眼中，忽然闪过了什么东西。"
   },
   "003317": {
     "context": "003317",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（金色の……？）"
+    "string": "（金色的……？）"
   },
   "003322": {
     "context": "003322",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそれを認識した――まさにその時。"
+    "string": "渡濑看出了这个——就在这时。"
   },
   "003494": {
     "context": "003494",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0106 004683"
+    "string": "「！！！？？？」"
   },
   "003499": {
     "context": "003499",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脳天を襲った衝撃が、渡瀬の全てを激震させた。"
+    "string": "头顶受到了冲击，渡濑整个人颤抖了一下。"
   },
   "003504": {
     "context": "003504",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――直後、脳が錯乱した。"
+    "string": "——然后，大脑错乱了。"
   },
   "003510": {
     "context": "003510",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（割れた　頭が）"
+    "string": "（头被 切开了）"
   },
   "003515": {
     "context": "003515",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脳が"
+    "string": "头被"
   },
   "003520": {
     "context": "003520",
     "code": "0x45",
     "developer_comment": "",
-    "string": "（やられた）やられた"
+    "string": "（被打了）被打了"
   },
   "003525": {
     "context": "003525",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ノウが"
+    "string": "大脑被"
   },
   "003530": {
     "context": "003530",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――割らレた！"
+    "string": "——切开了！"
   },
   "003541": {
     "context": "003541",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あ、あああ、おううう……」"
+    "string": "「啊，啊啊啊，噢噢噢噢……」"
   },
   "003546": {
     "context": "003546",
     "code": "0x45",
     "developer_comment": "",
-    "string": "口から奇妙な音がもれる。"
+    "string": "嘴里发出了奇妙的声音。"
   },
   "003551": {
     "context": "003551",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そのとき脳から何かが引き抜かれ、ずちゃっという嫌な音がした。"
+    "string": "@need-review 就在这时，脑中有什么东西被拿出去一样，发出了令人讨厌的声音。"
   },
   "003556": {
     "context": "003556",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして再び――"
+    "string": "然后再次——"
   },
   "003748": {
     "context": "003748",
@@ -1183,7 +1183,7 @@
     "context": "003749",
     "code": "0x47",
     "developer_comment": "",
-    "string": "―戦った？　俺が―――…子ども―…高校生？"
+    "string": "—战斗？我——…孩子—…高中生？"
   },
   "003781": {
     "context": "003781",
@@ -1199,7 +1199,7 @@
     "context": "003811",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは閃光のように甦った記憶。"
+    "string": "这是如闪光一般复苏的记忆。"
   },
   "004003": {
     "context": "004003",
@@ -1210,7 +1210,7 @@
     "context": "004004",
     "code": "0x47",
     "developer_comment": "",
-    "string": "――撃った…銃で――…（彼女を）彼を…―俺が――……？"
+    "string": "——射击…用枪——…（她）他…—我——…？"
   },
   "004036": {
     "context": "004036",
@@ -1226,7 +1226,7 @@
     "context": "004066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いつの記憶かはわからない。"
+    "string": "不知道是何时的记忆。"
   },
   "004258": {
     "context": "004258",
@@ -1237,7 +1237,7 @@
     "context": "004259",
     "code": "0x47",
     "developer_comment": "",
-    "string": "……―アイツが―…――脳を……―やられた！"
+    "string": "……—那家伙—…——大脑……—打了！"
   },
   "004291": {
     "context": "004291",
@@ -1253,25 +1253,25 @@
     "context": "004321",
     "code": "0x45",
     "developer_comment": "",
-    "string": "刹那、渡瀬の脳が奇跡的に正常な思考を取り戻す。"
+    "string": "瞬间，渡濑的大脑奇迹般地恢复了正常的思考。"
   },
   "004327": {
     "context": "004327",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（――このままだと、橘まで殺される！）"
+    "string": "（——这样下去的话，连橘也会被杀掉的！）"
   },
   "004332": {
     "context": "004332",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして渡瀬が風見を庇うため、彼女をきつく抱き締めた時――"
+    "string": "然后渡濑为了保护风见，用力抱住她的时候——"
   },
   "004448": {
     "context": "004448",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最後の衝撃が、彼の意識を粉砕した。"
+    "string": "最后的冲击，粉碎了他的意识。"
   },
   "004574": {
     "context": "004574",
@@ -1282,7 +1282,7 @@
     "context": "004577",
     "code": "0x45",
     "developer_comment": "",
-    "string": "√A バッドエンド9【疑われし者】"
+    "string": "√A Bad End 6【可疑之人】"
   },
   "004580": {
     "context": "004580",
@@ -1293,7 +1293,7 @@
     "context": "004583",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見からの信頼が低く、疑いを晴らせなかった場合の結末。"
+    "string": "风见的信赖太低，无法洗清自己的嫌疑的情况下的结局。"
   },
   "004586": {
     "context": "004586",
@@ -1304,12 +1304,12 @@
     "context": "004589",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ここまでの過程で、風見の好感度を高めておくか、"
+    "string": "在至今为止的过程中，提高风见的好感度，"
   },
   "004592": {
     "context": "004592",
     "code": "0x45",
     "developer_comment": "",
-    "string": "このエンディング直前に入力できるセンシズで、渡瀬よりも風見と洵を高く設定したら、この結末は回避できたかもしれない。"
+    "string": "或者在这个结局前一个 Senses 输入中，把风见和洵设置得比渡濑高的话，或许就能避开这个结局了。"
   }
 }
