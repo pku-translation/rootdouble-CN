@@ -36,8 +36,8 @@ namespace CsYetiTools
             await Task.Run(() => { });
 
             Load("ps3/sn.bin", false).Dump("ps3_sn", false, true);
-
-            
+            //Load("psv/sn.bin", false).Dump("psv_sn", true, true);
+            //Load("steam/sn.bin", true).Dump("steam_sn", true, true);
         }
     }
 }

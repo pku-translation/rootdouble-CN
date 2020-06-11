@@ -12,7 +12,7 @@ namespace CsYetiTools.IO
         private char[] _largeCharBuffer = new char[256];
         private byte[] _largeByteBuffer = new byte[256];
 
-        private Encoding _encoding;
+        public Encoding Encoding { get; }
 
         public long Position
         {
@@ -239,11 +239,11 @@ namespace CsYetiTools.IO
             }
             try
             {
-                return _encoding.GetString(buffer, 0, count);
+                return Encoding.GetString(buffer, 0, count);
             }
             catch (DecoderFallbackException exc)
             {
-                throw new InvalidDataException($"Cannot decode using {_encoding.EncodingName}, data=[{Utils.BytesToHex(buffer)}]", exc);
+                throw new InvalidDataException($"Cannot decode using {Encoding.EncodingName}, data=[{Utils.BytesToHex(buffer)}]", exc);
             }
         }
 
@@ -408,16 +408,16 @@ namespace CsYetiTools.IO
         public void WriteStringZ(string s)
         {
             if (_stream == null) throw DisposedException();
-            var maxCount = _encoding.GetMaxByteCount(s.Length);
+            var maxCount = Encoding.GetMaxByteCount(s.Length);
             var buffer = maxCount > _largeByteBuffer.Length ? new byte[maxCount] : _largeByteBuffer;
-            var count = _encoding.GetBytes(s, 0, s.Length, buffer, 0);
+            var count = Encoding.GetBytes(s, 0, s.Length, buffer, 0);
             _stream.Write(buffer, 0, count);
             _stream.WriteByte(0x00);
         }
 
         public int GetStringZByteCount(string s)
         {
-            return _encoding.GetByteCount(s) + 1;
+            return Encoding.GetByteCount(s) + 1;
         }
 
         public byte[] ToBytes()
@@ -430,7 +430,7 @@ namespace CsYetiTools.IO
         public BinaryStream(Stream stream, Encoding? encoding = null)
         {
             _stream = stream;
-            _encoding = encoding ?? Utils.Utf8;
+            Encoding = encoding ?? Utils.Utf8;
         }
 
         public BinaryStream(byte[] bytes, Encoding? encoding = null)

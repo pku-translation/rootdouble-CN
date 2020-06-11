@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public sealed class ScriptHeader
     {
-        public CodeAddressData[] Entries { get; set; }
+        [SexpListFormatting()]
+        public LabelReference[] Entries { get; set; }
 
+        [SexpBytesFormatting(Radix = NumberRadix.Hexadecimal, LineLimit = 16)]
         public byte[] RemainBytes { get; set; }
 
-        public ScriptHeader(IEnumerable<CodeAddressData> entries, IEnumerable<byte> bytes)
+        public ScriptHeader(IEnumerable<LabelReference> entries, IEnumerable<byte> bytes)
         {
             Entries = entries.ToArray();
             RemainBytes = bytes.ToArray();

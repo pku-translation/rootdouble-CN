@@ -124,7 +124,7 @@ namespace CsYetiTools
 
             void DumpText(string path, IEnumerable<VnScripts.Script.StringReferenceEntry> entries)
             {
-                using var writer = new StreamWriter(path);
+                using var writer = Utils.CreateStreamWriter(path);
                 foreach (var (i, entry) in entries.WithIndex())
                 {
                     writer.WriteLine($"{i,3}: {entry.Index,4}| [{entry.Code:X02}] [{entry.Content}]");
@@ -135,7 +135,7 @@ namespace CsYetiTools
 
             Utils.CreateOrClearDirectory(outputDir);
 
-            using var writer = new StreamWriter(outputDir / "compare-result.txt");
+            using var writer = Utils.CreateStreamWriter(outputDir / "compare-result.txt");
             int n = 0;
             foreach (var (i, (s1, s2)) in package1.Scripts.Zip(package2.Scripts).WithIndex())
             {
@@ -326,7 +326,8 @@ namespace CsYetiTools
             FilePath translationSourceDir,
             FilePath translationDir,
             FilePath releaseDir,
-            bool dumpFontTexture = false)
+            bool dumpFontTexture = false,
+            bool debugChunkNum = false)
         {
             Console.Write("Translating executable... "); Console.Out.Flush();
             var exePeeker = Utils.Time(() => {
@@ -338,7 +339,7 @@ namespace CsYetiTools
             Console.Write("Translating sn-package... "); Console.Out.Flush();
             Utils.Time(() => {
                 
-                snPackage.ApplyTranslations(translationSourceDir, translationDir);
+                snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum);
                 return snPackage;
             });
 

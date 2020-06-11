@@ -1,43 +1,50 @@
 using System.Collections.Generic;
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class OpCode_0C_0D : OpCode, IHasAddress
     {
-        private byte _unknown1;
-        private byte _unknown2;
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
+        private byte Unknown1 { get; set; }
 
-        public CodeAddressData TargetOffset { get; set; } = new CodeAddressData();
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
+        private byte Unknown2 { get; set; }
 
+        public LabelReference TargetOffset { get; set; } = new LabelReference();
+
+        public OpCode_0C_0D() { }
         public OpCode_0C_0D(byte code) : base(code) { }
 
-        public override int ArgLength
+        public override int GetArgLength(IBinaryStream stream)
             => 6;
 
         protected override void ReadArgs(IBinaryStream reader)
         {
-            _unknown1 = reader.ReadByte();
-            _unknown2 = reader.ReadByte();
+            Unknown1 = reader.ReadByte();
+            Unknown2 = reader.ReadByte();
             TargetOffset = ReadAddress(reader);
         }
 
         protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_unknown1);
-            writer.Write(_unknown2);
+            writer.Write(Unknown1);
+            writer.Write(Unknown2);
             WriteAddress(writer, TargetOffset);
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(_unknown1.ToHex());
-            writer.Write(' '); writer.Write(_unknown2.ToHex());
-            writer.Write(' '); writer.Write(TargetOffset);
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     writer.Write(' '); writer.Write(_unknown1.ToHex());
+        //     writer.Write(' '); writer.Write(_unknown2.ToHex());
+        //     writer.Write(' '); writer.Write(TargetOffset);
+        // }
         
-        public IEnumerable<CodeAddressData> GetAddresses()
+        public IEnumerable<LabelReference> GetAddresses()
         {
             yield return TargetOffset;
         }

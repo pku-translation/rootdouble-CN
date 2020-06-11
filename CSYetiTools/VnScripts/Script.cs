@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Text;
 using CsYetiTools.IO;
+using Untitled.Sexp;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
@@ -25,13 +27,9 @@ namespace CsYetiTools.VnScripts
 
         private readonly List<OpCode> _codes = new List<OpCode>();
 
-        private readonly SortedDictionary<int, string> _labelForward = new SortedDictionary<int, string>();
-
-        private readonly Dictionary<string, int> _labelBackward = new Dictionary<string, int>();
-
         private int _index;
 
-        public Script(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
+        private Script(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
         {
             if (bytes.Length % 16 != 0) throw new InvalidDataException($"{nameof(bytes)} length is not times of 16");
 
@@ -62,10 +60,10 @@ namespace CsYetiTools.VnScripts
             using var stream = new BinaryStream(bytes, encoding ?? Utils.Cp932);
 
             // header
-            var maybeEntries = new List<CodeAddressData>();
+            var maybeEntries = new List<LabelReference>();
             var firstCodeOffset = stream.ReadInt32LE();
             int currentOffset = 0;
-            maybeEntries.Add(new CodeAddressData(currentOffset, firstCodeOffset));
+            maybeEntries.Add(new LabelReference(currentOffset, firstCodeOffset));
             while (stream.Position <= firstCodeOffset - 4)
             {
                 var offset = stream.ReadInt32LE();
@@ -79,7 +77,7 @@ namespace CsYetiTools.VnScripts
                 {
                     firstCodeOffset = offset;
                 }
-                maybeEntries.Add(new CodeAddressData(currentOffset, offset));
+                maybeEntries.Add(new LabelReference(currentOffset, offset));
             }
             var maybeRemainBytes = stream.ReadBytesExact(firstCodeOffset - (int)(stream.Position));
 
@@ -162,24 +160,10 @@ namespace CsYetiTools.VnScripts
             {
                 codeDict.Add(code.Offset, code);
             }
-            foreach (var code in _codes)
-            {
-                if (code is IHasAddress addressCode)
-                {
-                    foreach (var address in addressCode.GetAddresses())
-                    {
-                        if (codeDict.TryGetValue(address.AbsoluteOffset, out var targetCode))
-                        {
-                            address.TargetCodeIndex = targetCode.Index;
-                            address.TargetCodeRelativeIndex = targetCode.Index - code.Index;
-                        }
-                    }
-                }
-            }
 
             // header
             var entryCount = maybeEntries.FindIndex(e => !codeDict.ContainsKey(e.AbsoluteOffset));
-
+                    
             if (entryCount >= 0)
             {
                 using var headerRemainWriter = new BinaryStream();
@@ -196,50 +180,77 @@ namespace CsYetiTools.VnScripts
             }
 
             // labels
+            var labelForward = new SortedDictionary<int, string>();
             var entryIndex = 0;
             foreach (var entry in _header.Entries)
             {
-                if (_labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName))
+                if (labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName))
                 {
                     entry.TargetLabel = entryName;
                 }
                 else
                 {
-                    var entryLabelName = $"Entry-{entryIndex++:00}";
+                    var entryLabelName = $"entry-{entryIndex++:00}";
                     entry.TargetLabel = entryLabelName;
-                    _labelForward.Add(entry.AbsoluteOffset, entryLabelName);
-                    _labelBackward.Add(entryLabelName, entry.AbsoluteOffset);
+                    labelForward.Add(entry.AbsoluteOffset, entryLabelName);
                 }
             }
             foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
             {
-                if (_labelForward.TryGetValue(address.AbsoluteOffset, out var label))
+                if (labelForward.TryGetValue(address.AbsoluteOffset, out var label))
                 {
                     address.TargetLabel = label;
                 }
                 else
                 {
-                    _labelForward.Add(address.AbsoluteOffset, "");
+                    labelForward.Add(address.AbsoluteOffset, "");
                 }
             }
-            var labelOffsets = _labelForward.Keys.ToList();
+            var labelOffsets = labelForward.Keys.ToList();
             if (labelOffsets.Count >= 10000) throw new InvalidDataException($"Too many labels: {labelOffsets.Count}");
             var labelIndex = 1;
             foreach (var offset in labelOffsets)
             {
-                if (string.IsNullOrWhiteSpace(_labelForward[offset]))
+                if (string.IsNullOrWhiteSpace(labelForward[offset]))
                 {
-                    var labelName = $"Label-{labelIndex++:0000}";
-                    _labelForward[offset] = labelName;
-                    _labelBackward.Add(labelName, offset);
+                    var labelName = $"label-{labelIndex++:0000}";
+                    labelForward[offset] = labelName;
                 }
             }
             foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
             {
-                address.TargetLabel = _labelForward[address.AbsoluteOffset];
+                address.TargetLabel = labelForward[address.AbsoluteOffset];
             }
+            
+        }
 
-            System.Diagnostics.Debug.Assert(ToRawBytes().SequenceEqual(bytes), "Rawbytes not sequence-equal to original.");
+        public static Script ParseBytes(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
+        {
+            var script = new Script(bytes, footer, isStringPooled, encoding, allowError);
+
+            #if DEBUG
+
+            //System.Diagnostics.Debug.Assert(ToRawBytes().SequenceEqual(bytes), $"Rawbytes of script {_index} not sequence-equal to original.");
+            var raw1 = script.ToRawBytes();
+            var reparse = new Script(raw1, footer, isStringPooled, encoding, allowError);
+            var raw2 = reparse.ToRawBytes();
+            if (!raw1.SequenceEqual(raw2))
+            {
+                var index =  raw1.Zip(raw2, (a, b) => (a != b)).WithIndex().First(x => x.element).index;
+                var count = raw1.Zip(raw2, (a, b) => a != b).Count(p => p);
+
+                var sb = new StringBuilder();
+                sb.AppendLine($"Rawbytes of script {script._index} not sequence-equal to original at 0x{index:X08} ({count} diffs)");
+                sb.AppendLine($"-------- Origin --------");
+                Utils.BytesToTextLines(bytes.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
+                sb.AppendLine($"-------- Result --------");
+                Utils.BytesToTextLines(raw1.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
+
+                Console.WriteLine(sb.ToString());
+            }
+            #endif
+
+            return script;
         }
 
         public string? ParseError;
@@ -412,41 +423,49 @@ namespace CsYetiTools.VnScripts
 
         public void DumpText(TextWriter writer, bool header = true, bool footer = true)
         {
-            if (header)
-            {
-                writer.WriteLine("* * * Header * * *");
-                _header.Dump(writer);
-                writer.WriteLine();
-            }
+            // if (header)
+            // {
+            //     writer.WriteLine("* * * Header * * *");
+            //     _header.Dump(writer);
+            //     writer.WriteLine();
+            // }
 
-            writer.WriteLine("* * * Scripts * * *");
+            // writer.WriteLine("* * * Scripts * * *");
 
-            foreach (var (i, code) in _codes.WithIndex())
-            {
-                if (_labelForward.TryGetValue(code.Offset, out var label))
-                {
-                    writer.Write("#");
-                    writer.WriteLine(label);
-                }
-                //writer.Write($"{i,4} | 0x{code.Offset:X08}: ");
-                writer.Write("  ");
-                code.Dump(writer);
-                writer.WriteLine();
-            }
-            writer.WriteLine();
+            // foreach (var (i, code) in _codes.WithIndex())
+            // {
+            //     if (_labelForward.TryGetValue(code.Offset, out var label))
+            //     {
+            //         writer.Write("#");
+            //         writer.WriteLine(label);
+            //     }
+            //     //writer.Write($"{i,4} | 0x{code.Offset:X08}: ");
+            //     writer.Write("  ");
+            //     code.Dump(writer);
+            //     writer.WriteLine();
+            // }
+            // writer.WriteLine();
 
 
-            if (footer)
-            {
-                writer.WriteLine("* * * Footer * * *");
-                writer.WriteLine(Footer);
-            }
+            // if (footer)
+            // {
+            //     writer.WriteLine("* * * Footer * * *");
+            //     writer.WriteLine(Footer);
+            // }
+
+            var sexpWriter = new SexpTextWriter(writer);
+            sexpWriter.Settings.SeparatorType = WriterSeparatorType.DoubleNewline;
+
+            var headerSexp = SexpConvert.ToValue(_header, new ListFormatting{ LineBreakIndex = 0 });
+            sexpWriter.Write(SValue.List(SValue.Symbol("header"), headerSexp));
+
+            var opcodesSexp = SexpConvert.ToValue(_codes, new ListFormatting{ LineBreakIndex = 0 });
+            sexpWriter.Write(SValue.List(SValue.Symbol("codes"), opcodesSexp));
         }
 
-        public void DumpText(string path, Encoding? encoding = null, bool header = true, bool footer = true)
+        public void DumpText(string path, bool header = true, bool footer = true)
         {
-            if (encoding == null) encoding = Utils.Utf8;
-            using var writer = new StreamWriter(path, false, encoding);
+            using var writer = Utils.CreateStreamWriter(path);
             DumpText(writer, header, footer);
         }
 

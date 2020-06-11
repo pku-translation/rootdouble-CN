@@ -4,6 +4,6 @@ namespace CsYetiTools.VnScripts
 {
     public interface IHasAddress
     {
-        IEnumerable<CodeAddressData> GetAddresses();
+        IEnumerable<LabelReference> GetAddresses();
     }
 }

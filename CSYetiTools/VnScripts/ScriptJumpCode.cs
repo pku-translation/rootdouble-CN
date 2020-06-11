@@ -1,8 +1,10 @@
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class ScriptJumpCode : OpCode
     {
         public short TargetScript { get; set; }
@@ -11,9 +13,10 @@ namespace CsYetiTools.VnScripts
 
         public ScriptJumpCode(byte op) : base(op) { }
 
-        public override int ArgLength
+        public override int GetArgLength(IBinaryStream stream)
             => 4;
 
+        [SexpIgnore]
         public bool IsJump
             => Unknown == 0;
 
@@ -29,10 +32,10 @@ namespace CsYetiTools.VnScripts
             writer.WriteLE(Unknown);
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(TargetScript);
-            writer.Write(' '); writer.Write(Unknown);
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     writer.Write(' '); writer.Write(TargetScript);
+        //     writer.Write(' '); writer.Write(Unknown);
+        // }
     }
 }

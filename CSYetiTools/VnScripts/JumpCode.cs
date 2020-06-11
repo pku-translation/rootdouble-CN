@@ -1,16 +1,20 @@
 using System.Collections.Generic;
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class JumpCode : OpCode, IHasAddress
     {
-        public CodeAddressData TargetAddress { get; set; } = new CodeAddressData();
+        public LabelReference TargetAddress { get; set; } = new LabelReference();
+
+        public JumpCode() { }
 
         public JumpCode(byte op) : base(op) { }
 
-        public override int ArgLength
+        public override int GetArgLength(IBinaryStream stream)
             => 4;
 
         protected override void ReadArgs(IBinaryStream reader)
@@ -23,12 +27,12 @@ namespace CsYetiTools.VnScripts
             WriteAddress(writer, TargetAddress);
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(TargetAddress);
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     writer.Write(' '); writer.Write(TargetAddress);
+        // }
 
-        public IEnumerable<CodeAddressData> GetAddresses()
+        public IEnumerable<LabelReference> GetAddresses()
         {
             yield return TargetAddress;
         }

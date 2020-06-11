@@ -13,6 +13,7 @@ ReleaseTranslation(executable: "steam/executable"
                  , translationDir: "../zh_CN/"
                  , releaseDir: "release/"
                  //, dumpFontTexture: false
+                 , debugChunkNum: true
 );
 
 "@

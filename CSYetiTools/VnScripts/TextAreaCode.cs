@@ -1,8 +1,10 @@
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class TextAreaCode : OpCode
     {
 
@@ -27,13 +29,15 @@ namespace CsYetiTools.VnScripts
 
         public TextAreaCode() : base(0x68) { }
 
+        [SexpIgnore]
         public bool IsEnArea
             => AreaIndex == 0x0A && X == 100 && Y == 16 && Width == 1080 && Height == 96;
 
+        [SexpIgnore]
         public bool IsJpArea
             => AreaIndex == 0x0A && X == 100 && Y == 24 && Width == 1080 && Height == 96;
 
-        public override int ArgLength
+        public override int GetArgLength(IBinaryStream streamS)
             => 10;
         
         protected override void ReadArgs(IBinaryStream reader)
@@ -54,13 +58,13 @@ namespace CsYetiTools.VnScripts
             writer.WriteLE(Height);
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(AreaIndex.ToHex());
-            writer.Write(' '); writer.Write(X);
-            writer.Write(' '); writer.Write(Y);
-            writer.Write(' '); writer.Write(Width);
-            writer.Write(' '); writer.Write(Height);
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     writer.Write(' '); writer.Write(AreaIndex.ToHex());
+        //     writer.Write(' '); writer.Write(X);
+        //     writer.Write(' '); writer.Write(Y);
+        //     writer.Write(' '); writer.Write(Width);
+        //     writer.Write(' '); writer.Write(Height);
+        // }
     }
 }

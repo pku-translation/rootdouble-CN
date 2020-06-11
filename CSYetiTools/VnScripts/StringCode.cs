@@ -1,5 +1,6 @@
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.VnScripts
 {
@@ -11,18 +12,20 @@ namespace CsYetiTools.VnScripts
 
         public string Content { get; set; } = "";
 
-        public CodeAddressData ContentOffset { get; set; } = new CodeAddressData();
+        [SexpIgnore]
+        public LabelReference ContentOffset { get; set; } = new LabelReference();
 
+        [SexpIgnore]
         public bool IsOffset { get; set; }
 
-        protected int ContentLength
-            => IsOffset ? 4 : Utils.GetStringZByteCount(Content);
+        protected int GetContentLength(IBinaryStream stream)
+            => IsOffset ? 4 : stream.GetStringZByteCount(Content);
         
         protected void ReadString(IBinaryStream reader)
         {
             if (IsOffset)
             {
-                ContentOffset = new CodeAddressData(Offset, reader.ReadInt32LE());
+                ContentOffset = new LabelReference(Offset, reader.ReadInt32LE());
             }
             else
             {

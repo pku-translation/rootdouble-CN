@@ -26,15 +26,20 @@ namespace CsYetiTools
             NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
         };
 
+        private static readonly JsonSerializer DefaultJsonSerializer = JsonSerializer.CreateDefault(JsonSettings);
+
         public static string SerializeJson(object obj)
-            => JsonConvert.SerializeObject(obj, JsonSettings);
-        
+        {
+            using var writer = new StringWriter(new StringBuilder(256));
+            DefaultJsonSerializer.Serialize(writer, obj);
+            return writer.ToString();
+        }
+
         public static void SerializeJsonToFile(object obj, FilePath path)
         {
-            var str = SerializeJson(obj);
-            using var file = new StreamWriter(path, false, Utf8);
-            file.NewLine = "\n";
-            file.WriteLine(str);
+            using var writer = Utils.CreateStreamWriter(path);
+            DefaultJsonSerializer.Serialize(writer, obj);
+            writer.WriteLine();
         }
 
         public static T DeserializeJson<T>(string value)
@@ -164,6 +169,25 @@ namespace CsYetiTools
             {
                 dirInfo.Create();
             }
+        }
+
+        public static StreamWriter CreateStreamWriter(string path)
+        {
+            var writer = new StreamWriter(path, false, Utf8);
+            writer.NewLine = "\n";
+            return writer;
+        }
+        
+        public static void WriteAllText(string path, string text)
+        {
+            using var writer = Utils.CreateStreamWriter(path);
+            writer.Write(text);
+        }
+
+        public static void WriteAllLines(string path, IEnumerable<string> lines)
+        {
+            using var writer = Utils.CreateStreamWriter(path);
+            foreach (var line in lines) writer.WriteLine(line);
         }
 
         public static void Time(Action action, string format = "{0}")

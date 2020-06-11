@@ -132,15 +132,13 @@ namespace CsYetiTools.VnScripts
 
                 Parallel.For(0, _scripts.Length, i =>
                 {
-                    _scripts[i] = new Script(chunks[i], footers[i], isStringPooled);
+                    _scripts[i] = Script.ParseBytes(chunks[i], footers[i], isStringPooled);
                 });
             }
             catch (IndexOutOfRangeException)
             {
                 throw new ArgumentException("Incomplete file");
             }
-
-            System.Diagnostics.Debug.Assert(bytes.SequenceEqual(ToRawBytes()));
         }
 
         public static SnPackage CreateFrom(FilePath dirPath, bool isStringPooled)
@@ -153,7 +151,7 @@ namespace CsYetiTools.VnScripts
 
             var scripts = Directory.GetFiles(dirPath, "*.script")
                 .OrderBy(o => o)
-                .Select((file, i) => new Script(File.ReadAllBytes(file), footers[i], isStringPooled))
+                .Select((file, i) => Script.ParseBytes(File.ReadAllBytes(file), footers[i], isStringPooled))
                 .ToArray();
 
             return new SnPackage(scripts, footers);
@@ -180,7 +178,7 @@ namespace CsYetiTools.VnScripts
                 Parallel.ForEach(_scripts.WithIndex(), entry =>
                 {
                     var (i, script) = entry;
-                    script.DumpText(dirPath / $"chunk_{i:0000}.script-dump.txt");
+                    script.DumpText(dirPath / $"chunk_{i:0000}.script-dump.sexp");
                     if (script.ParseError != null)
                     {
                         var errorInfo = $"Error parsing chunk_{i:0000}: \r\n" + script.ParseError + "\r\n-------------------------------------------------------\r\n";
@@ -189,11 +187,11 @@ namespace CsYetiTools.VnScripts
                 });
                 if (errors.Count > 0)
                 {
-                    File.WriteAllLines(dirPath / "parse_error.log", errors);
+                    Utils.WriteAllLines(dirPath / "parse_error.log", errors);
                 }
             }
 
-            using (var writer = new StreamWriter(dirPath / $"footers.txt"))
+            using (var writer = Utils.CreateStreamWriter(dirPath / $"footers.txt"))
             {
                 Footers.Dump(writer);
             }
@@ -289,9 +287,8 @@ namespace CsYetiTools.VnScripts
                 }
             }
 
-            using (var writer = new StreamWriter(dirPath / "names.json", false, Utils.Utf8))
+            using (var writer = Utils.CreateStreamWriter(dirPath / "names.json"))
             {
-                writer.NewLine = "\n";
                 using (var jsonWriter = new JsonTextWriter(writer))
                 {
                     jsonWriter.Formatting = Formatting.Indented;
@@ -306,7 +303,7 @@ namespace CsYetiTools.VnScripts
 
             if (errors.Count > 0)
             {
-                using var errorWriter = new StreamWriter(dirPath / "parse_error.log");
+                using var errorWriter = Utils.CreateStreamWriter(dirPath / "parse_error.log");
                 foreach (var error in errors)
                 {
                     errorWriter.WriteLine(error);
@@ -314,7 +311,7 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        public void ApplyTranslations(FilePath sourceDir, FilePath translationDir)
+        public void ApplyTranslations(FilePath sourceDir, FilePath translationDir, bool debugChunkNum = false)
         {
             var sourceNamesPath = sourceDir / "names.json";
             var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
@@ -368,6 +365,10 @@ namespace CsYetiTools.VnScripts
                             }
                             else
                             {
+                                if (debugChunkNum)
+                                {
+                                    translation = $"[{i:0000}] " + translation;
+                                }
                                 translationTable.Add(index, translation);
                             }
                         }

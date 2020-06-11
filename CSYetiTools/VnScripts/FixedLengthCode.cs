@@ -1,24 +1,30 @@
 using System.IO;
 using CsYetiTools.IO;
+using Untitled.Sexp.Attributes;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class FixedLengthCode : OpCode
     {
-        protected int _argLength;
+        [SexpBytesFormatting(Radix = NumberRadix.Hexadecimal)]
         protected byte[] _args = System.Array.Empty<byte>();
 
         public FixedLengthCode(byte code, int argLength) : base(code)
         {
-            _argLength = argLength;
+            _args = new byte[argLength];
         }
 
-        public override int ArgLength
-            => _argLength;
+        public FixedLengthCode()
+        { }
+
+        public override int GetArgLength(IBinaryStream stream)
+            => _args.Length;
 
         protected override void ReadArgs(IBinaryStream reader)
         {
-            _args = reader.ReadBytesExact(_argLength);
+            _args = reader.ReadBytesExact(_args.Length);
         }
 
         protected override void WriteArgs(IBinaryStream writer)
@@ -26,13 +32,13 @@ namespace CsYetiTools.VnScripts
             writer.Write(_args);
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            foreach (var arg in _args)
-            {
-                writer.Write(' ');
-                writer.Write(arg.ToHex());
-            }
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     foreach (var arg in _args)
+        //     {
+        //         writer.Write(' ');
+        //         writer.Write(arg.ToHex());
+        //     }
+        // }
     }
 }

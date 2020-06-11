@@ -2,35 +2,43 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using CsYetiTools.IO;
+using Untitled.Sexp;
+using Untitled.Sexp.Attributes;
+using Untitled.Sexp.Formatting;
 
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class DebugMenuCode : OpCode, IHasAddress
     {
+        [SexpAsList]
         private class Choice
         {
             public const int PrefixLength = 6;
 
+            [SexpBytesFormatting(Radix = NumberRadix.Hexadecimal)]
             public byte[] Prefix = new byte[PrefixLength];
 
-            public CodeAddressData Offset = new CodeAddressData();
+            public LabelReference Offset = new LabelReference();
 
             public string Title = "";
 
-            public int Length
-                => PrefixLength + 4 + Utils.GetStringZByteCount(Title);
+            public int GetLength(IBinaryStream stream)
+                => PrefixLength + 4 + stream.GetStringZByteCount(Title);
         }
 
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         private short _arg1;
 
+        [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         private short _arg2;
 
         private Choice[] _choices = System.Array.Empty<Choice>();
 
-        public DebugMenuCode(byte code) : base(code) { }
+        public DebugMenuCode() : base(0x32) { }
 
-        public override int ArgLength
-            => 2 + 2 + 2 + _choices.Sum(c => c.Length);
+        public override int GetArgLength(IBinaryStream stream)
+            => 2 + 2 + 2 + _choices.Sum(c => c.GetLength(stream));
 
         protected override void ReadArgs(IBinaryStream reader)
         {
@@ -62,25 +70,25 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(_arg1.ToHex());
-            writer.Write(" choices:(short)"); writer.Write(_choices.Length);
-            writer.Write(' '); writer.Write(_arg2.ToHex());
-            writer.Write(" [");
-            int index = 0;
-            foreach (var choice in _choices)
-            {
-                writer.WriteLine();
-                writer.Write("                "); writer.Write(index++.ToString().PadLeft(3));
-                writer.Write(": "); writer.Write(Utils.BytesToHex(choice.Prefix));
-                writer.Write(' '); writer.Write(choice.Offset.ToString());
-                writer.Write(" \""); writer.Write(choice.Title); writer.Write("\"");
-            }
-            writer.Write(" ]");
-        }
+        // protected override void DumpArgs(TextWriter writer)
+        // {
+        //     writer.Write(' '); writer.Write(_arg1.ToHex());
+        //     writer.Write(" choices:(short)"); writer.Write(_choices.Length);
+        //     writer.Write(' '); writer.Write(_arg2.ToHex());
+        //     writer.Write(" [");
+        //     int index = 0;
+        //     foreach (var choice in _choices)
+        //     {
+        //         writer.WriteLine();
+        //         writer.Write("                "); writer.Write(index++.ToString().PadLeft(3));
+        //         writer.Write(": "); writer.Write(Utils.BytesToHex(choice.Prefix));
+        //         writer.Write(' '); writer.Write(choice.Offset.ToString());
+        //         writer.Write(" \""); writer.Write(choice.Title); writer.Write("\"");
+        //     }
+        //     writer.Write(" ]");
+        // }
 
-        public IEnumerable<CodeAddressData> GetAddresses()
+        public IEnumerable<LabelReference> GetAddresses()
         {
             foreach (var choice in _choices)
             {

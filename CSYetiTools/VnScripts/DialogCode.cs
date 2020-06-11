@@ -1,5 +1,8 @@
+using Untitled.Sexp.Attributes;
+
 namespace CsYetiTools.VnScripts
 {
+    [SexpAsList]
     public class DialogCode : FixedLengthStringCode
     {
         /*************************************************************
@@ -15,6 +18,7 @@ namespace CsYetiTools.VnScripts
         *************************************************************/
         public DialogCode() : base(0x45) { }
 
+        [SexpIgnore]
         public bool IsIndexed
         {
             get
@@ -24,10 +28,10 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        protected override void DumpArgs(System.IO.TextWriter writer)
-        {
-            writer.Write(" <Dialog>");
-            base.DumpArgs(writer);
-        }
+        // protected override void DumpArgs(System.IO.TextWriter writer)
+        // {
+        //     writer.Write(" <Dialog>");
+        //     base.DumpArgs(writer);
+        // }
     }
 }
