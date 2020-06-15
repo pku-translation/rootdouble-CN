@@ -274,7 +274,9 @@ namespace CsYetiTools.FileTypes
                     try
                     {
                         var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
-                        var translations = dict.Values.Select(info => info.String).ToList();
+                        var offsets = new HashSet<int>(_rangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
+                        var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))
+                            .Select(kv => kv.Value.String).ToList();
 
                         ApplyTranslations(name, references, translations);
                     }

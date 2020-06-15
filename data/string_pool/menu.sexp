@@ -123,46 +123,46 @@
 ; Senses input active
 ("センシズ受付開始")
 
-; ERROR : GET_SYSTEM 使用回数 over
-; 
-("ERROR : GET_SYSTEM 使用回数 over")
+; ; ERROR : GET_SYSTEM 使用回数 over
+; ; 
+; ("ERROR : GET_SYSTEM 使用回数 over")
 
-; シェラ
-("シェラ")
+; ; シェラ
+; ("シェラ")
 
-; シェス
-("シェス")
+; ; シェス
+; ("シェス")
 
-; 《
-("《")
+; ; 《
+; ("《")
 
-; （
-("（")
+; ; （
+; ("（")
 
-; %
-("%")
+; ; %
+; ("%")
 
-; 
-; 
-(""
- "")
+; ; 
+; ; 
+; (""
+;  "")
 
-; miss code : %d
-; 
-("miss code : %d"
- "")
+; ; miss code : %d
+; ; 
+; ("miss code : %d"
+;  "")
 
-; 　　　⑳
-("　　　⑳")
+; ; 　　　⑳
+; ("　　　⑳")
 
-; SCENE: 
-("SCENE: ")
+; ; SCENE: 
+; ("SCENE: ")
 
-; 『
-("『")
+; ; 『
+; ("『")
 
-; 「「
-("「「")
+; ; 「「
+; ("「「")
 
 ; TIP [%s] has been added.
 ("TIPS追加【%s】")

@@ -12,7 +12,7 @@ ReleaseTranslation(executable: "steam/executable"
                  , translationSourceDir: "../source_json/"
                  , translationDir: "../zh_CN/"
                  , releaseDir: "release/"
-                 //, dumpFontTexture: false
+                 // , dumpFontTexture: true
 );
 
 "@

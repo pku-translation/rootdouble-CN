@@ -98,11 +98,11 @@ namespace CsYetiTools.VnScripts
             _scripts = scripts;
         }
 
-        public SnPackage(string filename, bool isStringPooled)
-            : this(File.ReadAllBytes(filename), isStringPooled)
+        public SnPackage(string filename, bool isStringPooled, Encoding? encoding = null)
+            : this(File.ReadAllBytes(filename), isStringPooled, encoding)
         { }
 
-        public SnPackage(byte[] data, bool isStringPooled)
+        public SnPackage(byte[] data, bool isStringPooled, Encoding? encoding = null)
         {
             var decodedSize = BitConverter.ToInt32(data);
             var bytes = LZSS.Decode(data.Skip(4)).ToArray();
@@ -132,7 +132,7 @@ namespace CsYetiTools.VnScripts
 
                 Parallel.For(0, _scripts.Length, i =>
                 {
-                    _scripts[i] = Script.ParseBytes(chunks[i], footers[i], isStringPooled);
+                    _scripts[i] = Script.ParseBytes(chunks[i], footers[i], isStringPooled, encoding);
                 });
             }
             catch (IndexOutOfRangeException)
@@ -211,6 +211,11 @@ namespace CsYetiTools.VnScripts
         {
             using var stream = File.Create(path);
             WriteTo(stream, encoding);
+        }
+
+        public void WriteChunk(string path, int chunkIndex, Encoding? encoding = null)
+        {
+            Scripts[chunkIndex].WriteToFile(path, encoding);
         }
 
         public IReadOnlyList<Script> Scripts
