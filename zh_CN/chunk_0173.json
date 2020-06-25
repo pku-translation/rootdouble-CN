@@ -2,7 +2,7 @@
   "000039": {
     "context": "000039",
     "code": "0x55",
-    "string": "@import 0166 000042"
+    "string": "@auto-import 0166 000042"
   },
   "000059": {
     "context": "000059",
@@ -154,7 +154,7 @@
   "000515": {
     "context": "000515",
     "code": "0x86",
-    "string": "@import 0173 000498"
+    "string": "@auto-import 0173 000498"
   },
   "000520": {
     "context": "000520",
@@ -214,12 +214,12 @@
   "000607": {
     "context": "000607",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "000608": {
     "context": "000608",
     "code": "0x86",
-    "string": "@import 0173 000591"
+    "string": "@auto-import 0173 000591"
   },
   "000649": {
     "context": "000649",
@@ -259,7 +259,7 @@
   "000688": {
     "context": "000688",
     "code": "0x86",
-    "string": "@import 0173 000676"
+    "string": "@auto-import 0173 000676"
   },
   "000699": {
     "context": "000699",
@@ -339,7 +339,7 @@
   "000789": {
     "context": "000789",
     "code": "0x86",
-    "string": "@import 0173 000777"
+    "string": "@auto-import 0173 000777"
   },
   "000801": {
     "context": "000801",
@@ -379,12 +379,12 @@
   "000847": {
     "context": "000847",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "000848": {
     "context": "000848",
     "code": "0x86",
-    "string": "@import 0173 000831"
+    "string": "@auto-import 0173 000831"
   },
   "000853": {
     "context": "000853",
@@ -434,7 +434,7 @@
   "000896": {
     "context": "000896",
     "code": "0x86",
-    "string": "@import 0173 000884"
+    "string": "@auto-import 0173 000884"
   },
   "000904": {
     "context": "000904",
@@ -474,7 +474,7 @@
   "000943": {
     "context": "000943",
     "code": "0x86",
-    "string": "@import 0134 001273"
+    "string": "@auto-import 0134 001273"
   },
   "000944": {
     "context": "000944",
@@ -499,7 +499,7 @@
   "000971": {
     "context": "000971",
     "code": "0x86",
-    "string": "@import 0134 001295"
+    "string": "@auto-import 0134 001295"
   },
   "000972": {
     "context": "000972",
@@ -519,7 +519,7 @@
   "000995": {
     "context": "000995",
     "code": "0x86",
-    "string": "@import 0173 000983"
+    "string": "@auto-import 0173 000983"
   },
   "001011": {
     "context": "001011",
@@ -559,7 +559,7 @@
   "001049": {
     "context": "001049",
     "code": "0x86",
-    "string": "@import 0173 001037"
+    "string": "@auto-import 0173 001037"
   },
   "001055": {
     "context": "001055",
@@ -654,7 +654,7 @@
   "001152": {
     "context": "001152",
     "code": "0x86",
-    "string": "@import 0134 001295"
+    "string": "@auto-import 0134 001295"
   },
   "001153": {
     "context": "001153",
@@ -679,7 +679,7 @@
   "001177": {
     "context": "001177",
     "code": "0x86",
-    "string": "@import 0134 001322"
+    "string": "@auto-import 0134 001322"
   },
   "001178": {
     "context": "001178",
@@ -764,7 +764,7 @@
   "001251": {
     "context": "001251",
     "code": "0x86",
-    "string": "@import 0173 001239"
+    "string": "@auto-import 0173 001239"
   },
   "001258": {
     "context": "001258",
@@ -779,7 +779,7 @@
   "001270": {
     "context": "001270",
     "code": "0x86",
-    "string": "@import 0173 001258"
+    "string": "@auto-import 0173 001258"
   },
   "001282": {
     "context": "001282",
@@ -814,7 +814,7 @@
   "001328": {
     "context": "001328",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "001329": {
     "context": "001329",
@@ -829,12 +829,12 @@
   "001345": {
     "context": "001345",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "001346": {
     "context": "001346",
     "code": "0x86",
-    "string": "@import 0173 001334"
+    "string": "@auto-import 0173 001334"
   },
   "001355": {
     "context": "001355",
@@ -869,7 +869,7 @@
   "001398": {
     "context": "001398",
     "code": "0x86",
-    "string": "@import 0173 001381"
+    "string": "@auto-import 0173 001381"
   },
   "001408": {
     "context": "001408",
@@ -889,7 +889,7 @@
   "001430": {
     "context": "001430",
     "code": "0x85",
-    "string": "@import 0173 001408"
+    "string": "@auto-import 0173 001408"
   },
   "001446": {
     "context": "001446",
@@ -934,7 +934,7 @@
   "001483": {
     "context": "001483",
     "code": "0x86",
-    "string": "@import 0173 001471"
+    "string": "@auto-import 0173 001471"
   },
   "001492": {
     "context": "001492",
@@ -1129,7 +1129,7 @@
   "001720": {
     "context": "001720",
     "code": "0x85",
-    "string": "@import 0173 001698"
+    "string": "@auto-import 0173 001698"
   },
   "001736": {
     "context": "001736",
@@ -1139,7 +1139,7 @@
   "001737": {
     "context": "001737",
     "code": "0x86",
-    "string": "@import 0173 001710"
+    "string": "@auto-import 0173 001710"
   },
   "001744": {
     "context": "001744",
@@ -1154,7 +1154,7 @@
   "001756": {
     "context": "001756",
     "code": "0x86",
-    "string": "@import 0173 001744"
+    "string": "@auto-import 0173 001744"
   },
   "001764": {
     "context": "001764",
@@ -1169,7 +1169,7 @@
   "001776": {
     "context": "001776",
     "code": "0x86",
-    "string": "@import 0173 001764"
+    "string": "@auto-import 0173 001764"
   },
   "001784": {
     "context": "001784",
@@ -1179,12 +1179,12 @@
   "001800": {
     "context": "001800",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "001801": {
     "context": "001801",
     "code": "0x86",
-    "string": "@import 0173 001784"
+    "string": "@auto-import 0173 001784"
   },
   "001806": {
     "context": "001806",
@@ -1199,7 +1199,7 @@
   "001819": {
     "context": "001819",
     "code": "0x86",
-    "string": "@import 0134 001273"
+    "string": "@auto-import 0134 001273"
   },
   "001820": {
     "context": "001820",
@@ -1294,7 +1294,7 @@
   "001924": {
     "context": "001924",
     "code": "0x86",
-    "string": "@import 0173 001912"
+    "string": "@auto-import 0173 001912"
   },
   "001931": {
     "context": "001931",
@@ -1309,7 +1309,7 @@
   "001944": {
     "context": "001944",
     "code": "0x86",
-    "string": "@import 0134 001295"
+    "string": "@auto-import 0134 001295"
   },
   "001945": {
     "context": "001945",
@@ -1329,7 +1329,7 @@
   "001977": {
     "context": "001977",
     "code": "0x86",
-    "string": "@import 0134 001322"
+    "string": "@auto-import 0134 001322"
   },
   "001978": {
     "context": "001978",
@@ -1705,7 +1705,7 @@
     "context": "003427",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0173 003066"
+    "string": "@auto-import 0173 003066"
   },
   "003438": {
     "context": "003438",
@@ -1717,13 +1717,13 @@
     "context": "003443",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0173 003127"
+    "string": "@auto-import 0173 003127"
   },
   "003448": {
     "context": "003448",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0173 003132"
+    "string": "@auto-import 0173 003132"
   },
   "003499": {
     "context": "003499",
@@ -1735,25 +1735,25 @@
     "context": "003510",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0173 003154"
+    "string": "@auto-import 0173 003154"
   },
   "003521": {
     "context": "003521",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0173 003205"
+    "string": "@auto-import 0173 003205"
   },
   "003532": {
     "context": "003532",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0173 003216"
+    "string": "@auto-import 0173 003216"
   },
   "003543": {
     "context": "003543",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0173 003227"
+    "string": "@auto-import 0173 003227"
   },
   "003554": {
     "context": "003554",
@@ -1831,7 +1831,7 @@
     "context": "003800",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0077 000485"
+    "string": "@auto-import 0077 000489"
   },
   "003805": {
     "context": "003805",
