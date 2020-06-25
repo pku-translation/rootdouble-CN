@@ -2,7 +2,7 @@
   "000060": {
     "context": "000060",
     "code": "0x55",
-    "string": "@import 0003 000047"
+    "string": "@auto-import 0003 000047"
   },
   "000065": {
     "context": "000065",
@@ -26,7 +26,7 @@
     "context": "000127",
     "code": "0x45",
     "developer_comment": "女隊員",
-    "string": "@import 0004 004656"
+    "string": "@auto-import 0004 004656"
   },
   "000138": {
     "context": "000138",
@@ -38,7 +38,7 @@
     "context": "000167",
     "code": "0x45",
     "developer_comment": "女隊員",
-    "string": "@import 0004 004696"
+    "string": "@auto-import 0004 004696"
   },
   "000212": {
     "context": "000212",
@@ -50,13 +50,13 @@
     "context": "000223",
     "code": "0x45",
     "developer_comment": "女隊員",
-    "string": "@import 0004 004763"
+    "string": "@auto-import 0004 004763"
   },
   "000273": {
     "context": "000273",
     "code": "0x45",
     "developer_comment": "女隊員",
-    "string": "@import 0004 004813"
+    "string": "@auto-import 0004 004813"
   },
   "000297": {
     "context": "000297",
@@ -481,7 +481,7 @@
   "001969": {
     "context": "001969",
     "code": "0x85",
-    "string": "@import 0102 001086"
+    "string": "@auto-import 0102 001086"
   },
   "001972": {
     "context": "001972",
@@ -498,7 +498,7 @@
     "context": "001978",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不相信 AD 的说明的情况下的结局。"
+    "string": "不相信 AD 的说明的结果。"
   },
   "001981": {
     "context": "001981",
