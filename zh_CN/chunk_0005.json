@@ -2,7 +2,7 @@
   "000008": {
     "context": "000008",
     "code": "0x55",
-    "string": "@import 0003 000047"
+    "string": "@auto-import 0003 000047"
   },
   "000022": {
     "context": "000022",
@@ -175,7 +175,7 @@
     "context": "000840",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0005 000658"
+    "string": "@auto-import 0005 000658"
   },
   "000904": {
     "context": "000904",
@@ -277,13 +277,13 @@
     "context": "001340",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0005 001122"
+    "string": "@auto-import 0005 001122"
   },
   "001395": {
     "context": "001395",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0005 001177"
+    "string": "@auto-import 0005 001177"
   },
   "001406": {
     "context": "001406",
@@ -295,7 +295,7 @@
     "context": "001435",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0005 001206"
+    "string": "@auto-import 0005 001206"
   },
   "001446": {
     "context": "001446",
@@ -774,7 +774,7 @@
     "context": "003700",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0005 003329"
+    "string": "@auto-import 0005 003329"
   },
   "003705": {
     "context": "003705",
@@ -786,7 +786,7 @@
     "context": "003710",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0005 003339"
+    "string": "@auto-import 0005 003339"
   },
   "003721": {
     "context": "003721",
@@ -828,19 +828,19 @@
     "context": "003887",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0005 003516"
+    "string": "@auto-import 0005 003516"
   },
   "003892": {
     "context": "003892",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0005 003521"
+    "string": "@auto-import 0005 003521"
   },
   "003957": {
     "context": "003957",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0005 003586"
+    "string": "@auto-import 0005 003586"
   },
   "003968": {
     "context": "003968",
