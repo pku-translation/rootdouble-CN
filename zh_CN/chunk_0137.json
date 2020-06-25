@@ -2,7 +2,7 @@
   "000007": {
     "context": "000007",
     "code": "0x55",
-    "string": "@import 0131 000221"
+    "string": "@auto-import 0131 000221"
   },
   "000041": {
     "context": "000041",
@@ -269,7 +269,7 @@
   "001711": {
     "context": "001711",
     "code": "0x86",
-    "string": "@import 0137 001709"
+    "string": "@auto-import 0137 001709"
   },
   "001824": {
     "context": "001824",
@@ -605,7 +605,7 @@
     "context": "003317",
     "code": "0x45",
     "developer_comment": "女性隊員２",
-    "string": "@import 0003 002748"
+    "string": "@auto-import 0003 002748"
   },
   "003501": {
     "context": "003501",
