@@ -2,7 +2,7 @@
   "000069": {
     "context": "000069",
     "code": "0x55",
-    "string": "@import 0028 000155"
+    "string": "@auto-import 0028 000155"
   },
   "000090": {
     "context": "000090",
@@ -133,7 +133,7 @@
     "context": "000576",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0032 000368"
+    "string": "@auto-import 0032 000368"
   },
   "000605": {
     "context": "000605",
@@ -424,7 +424,7 @@
   "001805": {
     "context": "001805",
     "code": "0x55",
-    "string": "@import 0028 000155"
+    "string": "@auto-import 0028 000155"
   },
   "001857": {
     "context": "001857",
@@ -958,7 +958,7 @@
   "003580": {
     "context": "003580",
     "code": "0x55",
-    "string": "@import 0028 000155"
+    "string": "@auto-import 0028 000155"
   },
   "003629": {
     "context": "003629",

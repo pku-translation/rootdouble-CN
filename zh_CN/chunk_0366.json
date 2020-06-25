@@ -2,7 +2,7 @@
   "000051": {
     "context": "000051",
     "code": "0x55",
-    "string": "@import 0364 000095"
+    "string": "@auto-import 0364 000095"
   },
   "000063": {
     "context": "000063",
@@ -56,7 +56,7 @@
     "context": "000215",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0131 000375"
+    "string": "@auto-import 0131 000375"
   },
   "000220": {
     "context": "000220",
@@ -74,7 +74,7 @@
     "context": "000242",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0035 001507"
+    "string": "@auto-import 0035 001507"
   },
   "000253": {
     "context": "000253",
@@ -302,7 +302,7 @@
     "context": "000820",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0011 001630"
+    "string": "@auto-import 0011 001630"
   },
   "000825": {
     "context": "000825",
@@ -410,7 +410,7 @@
     "context": "001201",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0366 000733"
+    "string": "@auto-import 0366 000733"
   },
   "001209": {
     "context": "001209",

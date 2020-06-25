@@ -2,7 +2,7 @@
   "000007": {
     "context": "000007",
     "code": "0x55",
-    "string": "@import 0216 000053"
+    "string": "@auto-import 0216 000053"
   },
   "000023": {
     "context": "000023",
@@ -140,7 +140,7 @@
     "context": "000336",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "@import 0175 000662"
+    "string": "@auto-import 0175 000662"
   },
   "000341": {
     "context": "000341",
@@ -421,7 +421,7 @@
   "000939": {
     "context": "000939",
     "code": "0x86",
-    "string": "@import 0219 000937"
+    "string": "@auto-import 0219 000937"
   },
   "000968": {
     "context": "000968",
@@ -612,7 +612,7 @@
   "001706": {
     "context": "001706",
     "code": "0x86",
-    "string": "@import 0219 001704"
+    "string": "@auto-import 0219 001704"
   },
   "001739": {
     "context": "001739",
@@ -627,7 +627,7 @@
   "001741": {
     "context": "001741",
     "code": "0x86",
-    "string": "@import 0219 001739"
+    "string": "@auto-import 0219 001739"
   },
   "001770": {
     "context": "001770",
@@ -837,7 +837,7 @@
     "context": "002541",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0057 004756"
+    "string": "@auto-import 0057 004774"
   },
   "002546": {
     "context": "002546",
@@ -879,7 +879,7 @@
     "context": "002630",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0057 004767"
+    "string": "@auto-import 0057 004785"
   },
   "002635": {
     "context": "002635",

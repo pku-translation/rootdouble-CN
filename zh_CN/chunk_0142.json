@@ -233,7 +233,7 @@
   "000431": {
     "context": "000431",
     "code": "0x86",
-    "string": "@import 0142 000419"
+    "string": "@auto-import 0142 000419"
   },
   "000437": {
     "context": "000437",
@@ -248,7 +248,7 @@
   "000449": {
     "context": "000449",
     "code": "0x86",
-    "string": "@import 0142 000437"
+    "string": "@auto-import 0142 000437"
   },
   "000461": {
     "context": "000461",
@@ -268,7 +268,7 @@
   "000476": {
     "context": "000476",
     "code": "0x86",
-    "string": "@import 0134 001043"
+    "string": "@auto-import 0134 001043"
   },
   "000477": {
     "context": "000477",
@@ -288,7 +288,7 @@
   "000504": {
     "context": "000504",
     "code": "0x86",
-    "string": "@import 0142 000487"
+    "string": "@auto-import 0142 000487"
   },
   "000509": {
     "context": "000509",

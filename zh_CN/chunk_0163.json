@@ -2,7 +2,7 @@
   "000078": {
     "context": "000078",
     "code": "0x55",
-    "string": "@import 0154 000080"
+    "string": "@auto-import 0154 000080"
   },
   "000086": {
     "context": "000086",
@@ -79,13 +79,13 @@
     "context": "000687",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0159 003894"
+    "string": "@auto-import 0159 003894"
   },
   "000731": {
     "context": "000731",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0159 003963"
+    "string": "@auto-import 0159 003963"
   },
   "000742": {
     "context": "000742",
@@ -522,13 +522,13 @@
     "context": "002725",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0163 002377"
+    "string": "@auto-import 0163 002377"
   },
   "002730": {
     "context": "002730",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0163 002382"
+    "string": "@auto-import 0163 002382"
   },
   "002741": {
     "context": "002741",
@@ -724,19 +724,19 @@
     "context": "003657",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0163 003448"
+    "string": "@auto-import 0163 003448"
   },
   "003668": {
     "context": "003668",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0163 003459"
+    "string": "@auto-import 0163 003459"
   },
   "003679": {
     "context": "003679",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0163 003470"
+    "string": "@auto-import 0163 003470"
   },
   "003729": {
     "context": "003729",
@@ -747,7 +747,7 @@
     "context": "003734",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0163 003475"
+    "string": "@auto-import 0163 003475"
   },
   "003739": {
     "context": "003739",
@@ -1102,7 +1102,7 @@
   "005128": {
     "context": "005128",
     "code": "0x86",
-    "string": "@import 0163 005118"
+    "string": "@auto-import 0163 005118"
   },
   "005142": {
     "context": "005142",
@@ -1168,7 +1168,7 @@
     "context": "005396",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0021 001376"
+    "string": "@auto-import 0021 001376"
   },
   "005407": {
     "context": "005407",
@@ -1186,7 +1186,7 @@
     "context": "005441",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004518"
+    "string": "@auto-import 0159 004518"
   },
   "005452": {
     "context": "005452",
@@ -1204,43 +1204,43 @@
     "context": "005486",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004545"
+    "string": "@auto-import 0159 004545"
   },
   "005491": {
     "context": "005491",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004550"
+    "string": "@auto-import 0159 004550"
   },
   "005502": {
     "context": "005502",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0159 004561"
+    "string": "@auto-import 0159 004561"
   },
   "005531": {
     "context": "005531",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0159 004590"
+    "string": "@auto-import 0159 004590"
   },
   "005560": {
     "context": "005560",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0159 004601"
+    "string": "@auto-import 0159 004601"
   },
   "005589": {
     "context": "005589",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0159 004630"
+    "string": "@auto-import 0159 004630"
   },
   "005595": {
     "context": "005595",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004635"
+    "string": "@auto-import 0159 004635"
   },
   "005651": {
     "context": "005651",
@@ -1252,13 +1252,13 @@
     "context": "005656",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004696"
+    "string": "@auto-import 0159 004696"
   },
   "005661": {
     "context": "005661",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0159 004701"
+    "string": "@auto-import 0159 004701"
   },
   "005784": {
     "context": "005784",

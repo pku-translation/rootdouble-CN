@@ -293,7 +293,7 @@
     "context": "000958",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0313 000912"
+    "string": "@auto-import 0313 000912"
   },
   "000961": {
     "context": "000961",
@@ -305,7 +305,7 @@
     "context": "000964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0313 000918"
+    "string": "@auto-import 0313 000918"
   },
   "000968": {
     "context": "000968",
@@ -363,7 +363,7 @@
     "context": "000995",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0313 000935"
+    "string": "@auto-import 0313 000935"
   },
   "001024": {
     "context": "001024",
@@ -556,7 +556,7 @@
   "001442": {
     "context": "001442",
     "code": "0x85",
-    "string": "@import 0028 002373"
+    "string": "@auto-import 0028 002373"
   },
   "001445": {
     "context": "001445",
@@ -601,7 +601,7 @@
   "001469": {
     "context": "001469",
     "code": "0x85",
-    "string": "@import 0028 002373"
+    "string": "@auto-import 0028 002373"
   },
   "001472": {
     "context": "001472",
@@ -652,7 +652,7 @@
   "001499": {
     "context": "001499",
     "code": "0x85",
-    "string": "@import 0028 002373"
+    "string": "@auto-import 0028 002373"
   },
   "001502": {
     "context": "001502",
@@ -716,7 +716,7 @@
     "context": "001644",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "@import 0313 000319"
+    "string": "@auto-import 0313 000319"
   },
   "001687": {
     "context": "001687",
@@ -878,7 +878,7 @@
     "context": "002045",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0092 001251"
+    "string": "@auto-import 0092 001300"
   },
   "002050": {
     "context": "002050",
@@ -890,7 +890,7 @@
     "context": "002088",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0032 002035"
+    "string": "@auto-import 0032 002035"
   },
   "002092": {
     "context": "002092",
@@ -901,7 +901,7 @@
     "context": "002095",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0032 002041"
+    "string": "@auto-import 0032 002041"
   },
   "002098": {
     "context": "002098",
@@ -930,7 +930,7 @@
     "context": "002110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0032 002047"
+    "string": "@auto-import 0032 002047"
   },
   "002114": {
     "context": "002114",
@@ -941,7 +941,7 @@
     "context": "002117",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009535"
+    "string": "@auto-import 0221 009573"
   },
   "002120": {
     "context": "002120",
@@ -952,13 +952,13 @@
     "context": "002123",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009538"
+    "string": "@auto-import 0221 009576"
   },
   "002126": {
     "context": "002126",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009541"
+    "string": "@auto-import 0221 009579"
   },
   "002130": {
     "context": "002130",
@@ -969,7 +969,7 @@
     "context": "002133",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009545"
+    "string": "@auto-import 0221 009583"
   },
   "002136": {
     "context": "002136",
@@ -991,7 +991,7 @@
     "context": "002145",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009551"
+    "string": "@auto-import 0221 009589"
   },
   "002148": {
     "context": "002148",
@@ -1002,7 +1002,7 @@
     "context": "002151",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009554"
+    "string": "@auto-import 0221 009592"
   },
   "002155": {
     "context": "002155",
@@ -1013,7 +1013,7 @@
     "context": "002158",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0221 009557"
+    "string": "@auto-import 0221 009595"
   },
   "002161": {
     "context": "002161",
@@ -1113,7 +1113,7 @@
     "context": "002466",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "@import 0313 000375"
+    "string": "@auto-import 0313 000375"
   },
   "002555": {
     "context": "002555",

@@ -27,19 +27,19 @@
     "context": "000217",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001253"
+    "string": "@auto-import 0239 001253"
   },
   "000228": {
     "context": "000228",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001264"
+    "string": "@auto-import 0239 001264"
   },
   "000257": {
     "context": "000257",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0239 001275"
+    "string": "@auto-import 0239 001275"
   },
   "000262": {
     "context": "000262",
@@ -57,37 +57,37 @@
     "context": "000278",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001305"
+    "string": "@auto-import 0239 001305"
   },
   "000289": {
     "context": "000289",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001316"
+    "string": "@auto-import 0239 001316"
   },
   "000300": {
     "context": "000300",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001327"
+    "string": "@auto-import 0239 001327"
   },
   "000311": {
     "context": "000311",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001338"
+    "string": "@auto-import 0239 001338"
   },
   "000322": {
     "context": "000322",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001368"
+    "string": "@auto-import 0239 001368"
   },
   "000333": {
     "context": "000333",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 001379"
+    "string": "@auto-import 0239 001379"
   },
   "000338": {
     "context": "000338",
@@ -135,13 +135,13 @@
     "context": "000508",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 003579"
+    "string": "@auto-import 0239 003579"
   },
   "000519": {
     "context": "000519",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0239 003608"
+    "string": "@auto-import 0239 003608"
   },
   "000524": {
     "context": "000524",
@@ -153,13 +153,13 @@
     "context": "000535",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0110 000952"
+    "string": "@auto-import 0110 000952"
   },
   "000546": {
     "context": "000546",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0239 003681"
+    "string": "@auto-import 0239 003681"
   },
   "000551": {
     "context": "000551",
@@ -393,7 +393,7 @@
     "context": "001024",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0300 002010"
+    "string": "@auto-import 0300 002010"
   },
   "001035": {
     "context": "001035",
@@ -429,7 +429,7 @@
     "context": "001089",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0188 001806"
+    "string": "@auto-import 0188 001806"
   },
   "001094": {
     "context": "001094",
@@ -519,7 +519,7 @@
     "context": "001275",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0088 001149"
+    "string": "@auto-import 0088 001149"
   },
   "001304": {
     "context": "001304",
@@ -633,7 +633,7 @@
     "context": "001535",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0026 003493"
+    "string": "@auto-import 0026 003493"
   },
   "001546": {
     "context": "001546",
@@ -723,7 +723,7 @@
     "context": "001802",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0017 000599"
+    "string": "@auto-import 0017 000599"
   },
   "001831": {
     "context": "001831",
@@ -951,7 +951,7 @@
     "context": "002597",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0223 000465"
+    "string": "@auto-import 0223 000465"
   },
   "002688": {
     "context": "002688",
@@ -1197,13 +1197,13 @@
     "context": "003398",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0012 005314"
+    "string": "@auto-import 0012 005314"
   },
   "003403": {
     "context": "003403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0214 005265"
+    "string": "@auto-import 0214 005265"
   },
   "003434": {
     "context": "003434",
@@ -1233,7 +1233,7 @@
     "context": "003494",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0019 002063"
+    "string": "@auto-import 0019 002063"
   },
   "003499": {
     "context": "003499",
@@ -1299,7 +1299,7 @@
     "context": "004044",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0259 002135"
+    "string": "@auto-import 0259 002169"
   },
   "004064": {
     "context": "004064",
@@ -1344,7 +1344,7 @@
   "004271": {
     "context": "004271",
     "code": "0x86",
-    "string": "@import 0308 004269"
+    "string": "@auto-import 0308 004269"
   },
   "004320": {
     "context": "004320",
@@ -1410,7 +1410,7 @@
     "context": "004791",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0308 003656"
+    "string": "@auto-import 0308 003656"
   },
   "004957": {
     "context": "004957",
@@ -1422,13 +1422,13 @@
     "context": "004986",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0291 001375"
+    "string": "@auto-import 0291 001375"
   },
   "005015": {
     "context": "005015",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0291 001458"
+    "string": "@auto-import 0291 001458"
   },
   "005191": {
     "context": "005191",
@@ -1464,7 +1464,7 @@
     "context": "005253",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0012 005419"
+    "string": "@auto-import 0012 005419"
   },
   "005328": {
     "context": "005328",
@@ -1494,7 +1494,7 @@
     "context": "005449",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "@import 0026 003493"
+    "string": "@auto-import 0026 003493"
   },
   "005454": {
     "context": "005454",
@@ -1674,7 +1674,7 @@
     "context": "006013",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0089 001845"
+    "string": "@auto-import 0089 001845"
   },
   "006018": {
     "context": "006018",

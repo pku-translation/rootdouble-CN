@@ -1,0 +1,396 @@
+{
+  "000050": {
+    "context": "000050",
+    "code": "0x55",
+    "string": "@auto-import 0402 000092"
+  },
+  "000086": {
+    "context": "000086",
+    "code": "0x85",
+    "string": "@auto-import 0084 002400"
+  },
+  "000090": {
+    "context": "000090",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "【――琴乃悠里との記憶――】"
+  },
+  "000170": {
+    "context": "000170",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――例の事件から、ほぼ１年が過ぎたある日の事――"
+  },
+  "000175": {
+    "context": "000175",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは長い隠遁生活を終え、鹿鳴市に戻ってきた。"
+  },
+  "000293": {
+    "context": "000293",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たち４人と天川博士は、家から少し離れたところで、車を降りた。"
+  },
+  "000298": {
+    "context": "000298",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "家の周りに万が一、怪しい人間が張っていないか警戒したのだ。"
+  },
+  "000334": {
+    "context": "000334",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……うん、不審な人物はいないようね」"
+  },
+  "000339": {
+    "context": "000339",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "博士が周囲を見回して言う。"
+  },
+  "000368": {
+    "context": "000368",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「さっ、行きましょう皆」"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "４人",
+    "string": "@import 0169 001641"
+  },
+  "000390": {
+    "context": "000390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "久しぶりの故郷に、夏彦たちは嬉々として言う。"
+  },
+  "000395": {
+    "context": "000395",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "少し歩くと、１年ぶりの我が家が見えてきた。"
+  },
+  "000425": {
+    "context": "000425",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「天川家か……何もかもみな懐かしい……」"
+  },
+  "000455": {
+    "context": "000455",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん。わずか１週間しかいなかったけど、この家こそが私の帰る場所」"
+  },
+  "000466": {
+    "context": "000466",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それにしても、あれからもう１年かぁ」"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうだね～、あっという間だったね」"
+  },
+  "000525": {
+    "context": "000525",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「皆、この１年の感想は？」"
+  },
+  "000536": {
+    "context": "000536",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「まぁ楽しかったよ。サリュに勉強教えてもらったりして、毎日合宿みたいでさ」"
+  },
+  "000565": {
+    "context": "000565",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「おかげで苦手な科目もバッチリです。私就職決まってるから関係ないけど」"
+  },
+  "000594": {
+    "context": "000594",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私も超科局の局員と、より格闘技術を磨く事ができた」"
+  },
+  "000623": {
+    "context": "000623",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「それぞれ成果があったようね。悠里ちゃんは？」"
+  },
+  "000652": {
+    "context": "000652",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうだ悠里、ここのところ部屋にこもってたみたいだけど……」"
+  },
+  "000681": {
+    "context": "000681",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ん？　ふふふ……実はようやく、その成果が完成したの」"
+  },
+  "000710": {
+    "context": "000710",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ひこりん、ましろん、サリュちゃん、博士。わたしからのプレゼントです」"
+  },
+  "000717": {
+    "context": "000717",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里はそう言って、鞄から取り出したのは――"
+  },
+  "000814": {
+    "context": "000814",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「マフラー？」"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「昨日、全員分が編みあがったの」"
+  },
+  "000863": {
+    "context": "000863",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ラボの中でも編んでたんだけど、爆発で焼けちゃったから」"
+  },
+  "000874": {
+    "context": "000874",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、そう言えば……」"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "幻影の悠里も、マフラーを編んでいた。"
+  },
+  "000946": {
+    "context": "000946",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あれは現実の悠里も、マフラーを編んでいたからだったのだろうか。"
+  },
+  "001003": {
+    "context": "001003",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「マフラーが完成したら、博士を通じてひこりんに渡すつもりだったの。２年越しの悲願がかなったよ」"
+  },
+  "001014": {
+    "context": "001014",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「残念ながら、七夕には間に合わなかったけどね」"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「七夕？　どうして夏にマフラーが……」"
+  },
+  "001036": {
+    "context": "001036",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……あっ」"
+  },
+  "001041": {
+    "context": "001041",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里の言葉の真意に気付き、夏彦は空を見上げた。"
+  },
+  "001090": {
+    "context": "001090",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "頭上には満天の星空が広がっている。"
+  },
+  "001095": {
+    "context": "001095",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "１１年前も見上げた空。"
+  },
+  "001142": {
+    "context": "001142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを見た夏彦は、あの夜の事を思い出した。"
+  },
+  "001207": {
+    "context": "001207",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――幼い頃、悠里を連れて家出をした夜。"
+  },
+  "001212": {
+    "context": "001212",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "博士に家に連れ戻される途中、夏彦たちは星を見上げた。"
+  },
+  "001261": {
+    "context": "001261",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "天の川に隔てられた、織姫と彦星。"
+  },
+  "001266": {
+    "context": "001266",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは悠里と夏彦を象徴しているようで……"
+  },
+  "001271": {
+    "context": "001271",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分の無力を思い知った彼に、悠里は微笑んで言ったのだ。"
+  },
+  "001340": {
+    "context": "001340",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@auto-import 0231 000711"
+  },
+  "001369": {
+    "context": "001369",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@auto-import 0231 000722"
+  },
+  "001477": {
+    "context": "001477",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――その後、２人は本当に離れ離れになった。"
+  },
+  "001482": {
+    "context": "001482",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして悠里は、１年に１度きりの逢瀬を糧に、あの暗い地下施設で、夏彦を待ち続けていたのだ。"
+  },
+  "001487": {
+    "context": "001487",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そんな未来をまだ知らない彼は、彼女を見つめて言う。"
+  },
+  "001541": {
+    "context": "001541",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0231 000904"
+  },
+  "001552": {
+    "context": "001552",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え？」"
+  },
+  "001563": {
+    "context": "001563",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0231 000926"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0231 000937"
+  },
+  "001618": {
+    "context": "001618",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は彼女を見つめながら、密かに決意した。"
+  },
+  "001623": {
+    "context": "001623",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0231 000989"
+  },
+  "001628": {
+    "context": "001628",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0231 000994"
+  },
+  "001634": {
+    "context": "001634",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0231 001000"
+  },
+  "001640": {
+    "context": "001640",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0231 001006"
+  },
+  "001689": {
+    "context": "001689",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――あの夜の誓いを、夏彦はようやく果たした。"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里を救い、そして一緒にこの家に、帰って来る事ができたのだ。"
+  },
+  "001738": {
+    "context": "001738",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は悠里の編んだマフラーを、受け取って言う。"
+  },
+  "001749": {
+    "context": "001749",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おかえり、悠里」"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ただいま！」"
+  },
+  "001804": {
+    "context": "001804",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼女はにっこりと笑い、そう答える。"
+  },
+  "001809": {
+    "context": "001809",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは夜空に光る織姫より、ずっと明るい笑顔だった。"
+  }
+}

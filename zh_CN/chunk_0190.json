@@ -2,7 +2,7 @@
   "000041": {
     "context": "000041",
     "code": "0x55",
-    "string": "@import 0179 000042"
+    "string": "@auto-import 0179 000042"
   },
   "000064": {
     "context": "000064",
@@ -74,7 +74,7 @@
     "context": "000218",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0137 005673"
+    "string": "@auto-import 0137 005673"
   },
   "000223": {
     "context": "000223",
@@ -254,7 +254,7 @@
     "context": "000449",
     "code": "0x45",
     "developer_comment": "警備員",
-    "string": "@import 0057 005311"
+    "string": "@auto-import 0057 005329"
   },
   "000508": {
     "context": "000508",

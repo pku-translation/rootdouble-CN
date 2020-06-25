@@ -2,13 +2,13 @@
   "000044": {
     "context": "000044",
     "code": "0x55",
-    "string": "@import 0288 000139"
+    "string": "@auto-import 0288 000139"
   },
   "000056": {
     "context": "000056",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005704"
+    "string": "@auto-import 0002 005704"
   },
   "000061": {
     "context": "000061",
@@ -218,7 +218,7 @@
     "context": "000684",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0051 000171"
+    "string": "@auto-import 0051 000171"
   },
   "000689": {
     "context": "000689",
@@ -422,7 +422,7 @@
     "context": "001253",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0290 002202"
+    "string": "@auto-import 0290 002202"
   },
   "001264": {
     "context": "001264",
@@ -590,7 +590,7 @@
     "context": "001844",
     "code": "0x45",
     "developer_comment": "夏彦・渡瀬",
-    "string": "@import 0004 003503"
+    "string": "@auto-import 0004 003503"
   },
   "001855": {
     "context": "001855",
@@ -900,13 +900,13 @@
     "context": "002846",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "@import 0308 003335"
+    "string": "@auto-import 0308 003335"
   },
   "002876": {
     "context": "002876",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "@import 0308 003372"
+    "string": "@auto-import 0308 003372"
   },
   "002893": {
     "context": "002893",
@@ -1254,7 +1254,7 @@
     "context": "004167",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0056 000215"
+    "string": "@auto-import 0056 000215"
   },
   "004172": {
     "context": "004172",
@@ -1680,7 +1680,7 @@
     "context": "005649",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0006 002098"
+    "string": "@auto-import 0006 002098"
   },
   "005654": {
     "context": "005654",
@@ -1878,13 +1878,13 @@
     "context": "006167",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0309 006014"
+    "string": "@auto-import 0309 006014"
   },
   "006178": {
     "context": "006178",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0309 006025"
+    "string": "@auto-import 0309 006025"
   },
   "006189": {
     "context": "006189",
@@ -1896,7 +1896,7 @@
     "context": "006212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0309 006070"
+    "string": "@auto-import 0309 006070"
   },
   "006217": {
     "context": "006217",

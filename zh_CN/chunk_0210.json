@@ -2,7 +2,7 @@
   "000046": {
     "context": "000046",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "000062": {
     "context": "000062",
@@ -179,7 +179,7 @@
   "000473": {
     "context": "000473",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "000480": {
     "context": "000480",
@@ -455,7 +455,7 @@
     "context": "001236",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0009 002182"
+    "string": "@auto-import 0009 002182"
   },
   "001241": {
     "context": "001241",
@@ -497,7 +497,7 @@
     "context": "001355",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0201 002161"
+    "string": "@auto-import 0201 002161"
   },
   "001384": {
     "context": "001384",
@@ -592,7 +592,7 @@
     "context": "001672",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0041 000188"
+    "string": "@auto-import 0041 000188"
   },
   "001701": {
     "context": "001701",
@@ -670,7 +670,7 @@
     "context": "001926",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0210 001809"
+    "string": "@auto-import 0210 001809"
   },
   "001937": {
     "context": "001937",
@@ -742,13 +742,13 @@
     "context": "002180",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0172 000706"
+    "string": "@auto-import 0172 000706"
   },
   "002284": {
     "context": "002284",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0053 000078"
+    "string": "@auto-import 0053 000078"
   },
   "002289": {
     "context": "002289",
@@ -838,7 +838,7 @@
     "context": "002624",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0139 002120"
+    "string": "@auto-import 0139 002120"
   },
   "002629": {
     "context": "002629",
@@ -874,13 +874,13 @@
     "context": "002865",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0201 002308"
+    "string": "@auto-import 0201 002308"
   },
   "002873": {
     "context": "002873",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0201 002316"
+    "string": "@auto-import 0201 002316"
   },
   "002878": {
     "context": "002878",

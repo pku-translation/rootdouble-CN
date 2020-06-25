@@ -1,0 +1,976 @@
+{
+  "000044": {
+    "context": "000044",
+    "code": "0x55",
+    "string": "@auto-import 0384 000140"
+  },
+  "000055": {
+    "context": "000055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は夏彦たちに、爆弾についての詳細を聞かせた。"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "解体が不可能な理由と、隔壁開放時刻がずれた理由。"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0387 000072"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0005 004135"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞き終えた夏彦たちは、震える声で口々に言った。"
+  },
+  "000171": {
+    "context": "000171",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「じゃあこのままここにいたら、みんな死んでしまうんですか！？」"
+  },
+  "000200": {
+    "context": "000200",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「じゃ、じゃあ、脱出方法を考えなきゃ！」"
+  },
+  "000229": {
+    "context": "000229",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「む、無茶よ……私たちが６時間も探して、何も見つけられなかったのに……！」"
+  },
+  "000235": {
+    "context": "000235",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "000240": {
+    "context": "000240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はその問いに、黙り込んだ。"
+  },
+  "000246": {
+    "context": "000246",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（確かに無茶だ……！）"
+  },
+  "000251": {
+    "context": "000251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もう時間はほとんどない。"
+  },
+  "000256": {
+    "context": "000256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まして記憶喪失になった風見を抱えて、何かできるとも思えない。"
+  },
+  "000365": {
+    "context": "000365",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……それでも、どうにかしなければ……）"
+  },
+  "000371": {
+    "context": "000371",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（爆弾の件は、俺に責任がある）"
+  },
+  "000377": {
+    "context": "000377",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ここにいる皆を救わなくては……！）"
+  },
+  "000384": {
+    "context": "000384",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "時刻は『１８：０２』。"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発まで、あと１５分しかない。"
+  },
+  "000394": {
+    "context": "000394",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "先ほどＺｅｒｏエリアで、渡瀬はある方法を思いついていたのだが――"
+  },
+  "000400": {
+    "context": "000400",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……この状況で、例の方法を提案するのは危険だ）"
+  },
+  "000406": {
+    "context": "000406",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ますます皆を混乱させるだけだ）"
+  },
+  "000411": {
+    "context": "000411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思い、それを断念した。"
+  },
+  "000416": {
+    "context": "000416",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦が苦々しく、渡瀬に問う。"
+  },
+  "000445": {
+    "context": "000445",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「渡瀬……どうするつもりなんだ？」"
+  },
+  "000456": {
+    "context": "000456",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……とにかく、ここにいたらみんな死んじまう」"
+  },
+  "000467": {
+    "context": "000467",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「少しでも安全なところに避難しよう」"
+  },
+  "000496": {
+    "context": "000496",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「安全なところ？」"
+  },
+  "000501": {
+    "context": "000501",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はうなずいて答えた。"
+  },
+  "000512": {
+    "context": "000512",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「爆弾はＺｅｒｏエリアに仕掛けられている」"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そこで発生した爆風が、どんな風に拡散するのかは予測不能だが――」"
+  },
+  "000534": {
+    "context": "000534",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「爆心地から一番遠い場所、つまり第２エリア非常階段の隔壁の前に行けば、少しだけ生存率は上がるはずだ」"
+  },
+  "000563": {
+    "context": "000563",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そこに行けば、生き残れるのか！？」"
+  },
+  "000574": {
+    "context": "000574",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わからん、が……それに賭けるしかないだろう」"
+  },
+  "000638": {
+    "context": "000638",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0002 002723"
+  },
+  "000643": {
+    "context": "000643",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他にいい場所が思いつかない。"
+  },
+  "000648": {
+    "context": "000648",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "焦りと混乱が、渡瀬の判断力を奪っていた。"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皆も不安げだが、渋々と頷く。"
+  },
+  "000664": {
+    "context": "000664",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……移動するなら早い方がいい。行こう」"
+  },
+  "000693": {
+    "context": "000693",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「うん……ほら、お姉ちゃん」"
+  },
+  "000722": {
+    "context": "000722",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あ……は、はい……」"
+  },
+  "000735": {
+    "context": "000735",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵が風見の手を取って、歩き出す。"
+  },
+  "000740": {
+    "context": "000740",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬たちもそれに続いた。"
+  },
+  "000847": {
+    "context": "000847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そして渡瀬たち９人は、隔壁の前に辿り着いた。"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "時刻は『１８：０８』。"
+  },
+  "000857": {
+    "context": "000857",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発まであと９分。"
+  },
+  "000862": {
+    "context": "000862",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時間を渡瀬たちは、恐怖に耐えて待ち続けた。"
+  },
+  "000867": {
+    "context": "000867",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心を押し潰されるような沈黙の中、やがて風見の声が響く。"
+  },
+  "000896": {
+    "context": "000896",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@auto-import 0016 000838"
+  },
+  "000907": {
+    "context": "000907",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@auto-import 0127 001315"
+  },
+  "000936": {
+    "context": "000936",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私、あなたと、あなたには……少し、見覚えがあるんですけど……」"
+  },
+  "000941": {
+    "context": "000941",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は渡瀬と洵を見て、呟いた。"
+  },
+  "000970": {
+    "context": "000970",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……あなたたちは、私の……？」"
+  },
+  "000975": {
+    "context": "000975",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その問いに、洵が答える。"
+  },
+  "001005": {
+    "context": "001005",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「あたしはお姉ちゃんの……妹だよ」"
+  },
+  "001040": {
+    "context": "001040",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@auto-import 0055 004625"
+  },
+  "001069": {
+    "context": "001069",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「じゃあ、あなたは……？」"
+  },
+  "001074": {
+    "context": "001074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう問われた渡瀬は、彼女から目を逸らした。"
+  },
+  "001085": {
+    "context": "001085",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……俺は、お前に……」"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや、お前たち全員に、酷い事をした男だ」"
+  },
+  "001125": {
+    "context": "001125",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「酷い事、ですか？」"
+  },
+  "001136": {
+    "context": "001136",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@auto-import 0018 000655"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「俺は私怨から、この施設を破壊しようとした」"
+  },
+  "001158": {
+    "context": "001158",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それで俺が仕掛けた爆弾が、いま爆発しようとしてるんだ」"
+  },
+  "001169": {
+    "context": "001169",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だが、誤算があり……お前たちを巻き込んでしまったんだよ」"
+  },
+  "001198": {
+    "context": "001198",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@auto-import 0085 002400"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が渡瀬を見て、愕然とした声を上げる。"
+  },
+  "001232": {
+    "context": "001232",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたは、そんな事をする人じゃないでしょう？」"
+  },
+  "001243": {
+    "context": "001243",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わからないだろ、そんな事。君は記憶を失ってるんだから」"
+  },
+  "001298": {
+    "context": "001298",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「いいえ、わかります」"
+  },
+  "001327": {
+    "context": "001327",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「確かに私、全てを忘れてしまって……はっきりした事は言えないけど……」"
+  },
+  "001356": {
+    "context": "001356",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「なんとなく、覚えているんです」"
+  },
+  "001367": {
+    "context": "001367",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたがとても優しくて、正義感が強い人だって事……」"
+  },
+  "001373": {
+    "context": "001373",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "001406": {
+    "context": "001406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は何も言えなかった。"
+  },
+  "001411": {
+    "context": "001411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "他の皆も、誰も何も言わなかった。"
+  },
+  "001417": {
+    "context": "001417",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（俺が優しい……？　正義感が強いだって？）"
+  },
+  "001423": {
+    "context": "001423",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（その結果が、この有様だ……！）"
+  },
+  "001428": {
+    "context": "001428",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は後悔した。"
+  },
+  "001483": {
+    "context": "001483",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "亘が死に、その死の真相を知り――"
+  },
+  "001535": {
+    "context": "001535",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今日、この瞬間に至るまでの全てを。"
+  },
+  "001551": {
+    "context": "001551",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（他にやり方はあったのか……！？）"
+  },
+  "001557": {
+    "context": "001557",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（皆が不幸にならない、正しい道が――）"
+  },
+  "001562": {
+    "context": "001562",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思った時、渡瀬の頭に閃くものがあった。"
+  },
+  "001568": {
+    "context": "001568",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（そうだ、せめて俺が――）"
+  },
+  "001574": {
+    "context": "001574",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（爆風をこちら側に、少しでも届きにくくすれば！）"
+  },
+  "001579": {
+    "context": "001579",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは絶望の中で浮かんだ、一縷の希望だった。"
+  },
+  "001584": {
+    "context": "001584",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆風というものは、基本的に『遮蔽物の無い方向』に拡散する。"
+  },
+  "001589": {
+    "context": "001589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ならば、いま皆がいるこの第２エリアの反対側――"
+  },
+  "001594": {
+    "context": "001594",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "第５エリア側に逃がせば、ほんの少しだけ生存率は上がるだろう。"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "とはいえほとんど成功の見込みがない計画だ。"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがそれにすがるしかない。"
+  },
+  "001609": {
+    "context": "001609",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう思い、声を上げた。"
+  },
+  "001638": {
+    "context": "001638",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部、悪い……俺、用事ができた」"
+  },
+  "001667": {
+    "context": "001667",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「え？」"
+  },
+  "001678": {
+    "context": "001678",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「風見たちの事、よろしく頼む」"
+  },
+  "001689": {
+    "context": "001689",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前たちは、絶対に来るなよ」"
+  },
+  "001718": {
+    "context": "001718",
+    "code": "0x45",
+    "developer_comment": "洵",
+    "string": "「ちょ、ちょっと隊長！？」"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「なにをするつもりだ、渡瀬！」"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "洵たちが止める声も聞かず――"
+  },
+  "001811": {
+    "context": "001811",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は非常階段を駆け下りた。"
+  },
+  "001876": {
+    "context": "001876",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそのまま全速力で、Ｎエリアにやってきた。"
+  },
+  "001881": {
+    "context": "001881",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "周囲にある６つのセキュリティゲートを睨む。"
+  },
+  "001893": {
+    "context": "001893",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（爆風はＺｅｒｏエリアから上がってきて、Ｎエリアで全方向に拡散していく！）"
+  },
+  "001899": {
+    "context": "001899",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（だったらＮエリアにあるゲートのうち、第５エリア方面のゲートだけ開いておけばいい！）"
+  },
+  "001915": {
+    "context": "001915",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は第５エリア方面に続く、ゲートの前に歩み寄った。"
+  },
+  "001922": {
+    "context": "001922",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "時計を見ると、時刻は『１８：１５』。"
+  },
+  "001927": {
+    "context": "001927",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発まであと２分。"
+  },
+  "001932": {
+    "context": "001932",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あとは爆発のタイミングに合わせて、このゲートを開けばいい。"
+  },
+  "001937": {
+    "context": "001937",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もっともそうすれば渡瀬は、確実に死ぬだろう。"
+  },
+  "001942": {
+    "context": "001942",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆心地の直上にいるのだから。"
+  },
+  "001948": {
+    "context": "001948",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ふん……それもいいさ）"
+  },
+  "001953": {
+    "context": "001953",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は自嘲気味に笑う。"
+  },
+  "001958": {
+    "context": "001958",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ふと数時間前の事を思い出した。"
+  },
+  "001963": {
+    "context": "001963",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まだ記憶を取り戻す前。"
+  },
+  "002017": {
+    "context": "002017",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの時も皆を救うため、Ｎエリアに単身やってきた。"
+  },
+  "002022": {
+    "context": "002022",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皆を救うためなら、命などいらないと思って。"
+  },
+  "002027": {
+    "context": "002027",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その哀れなほど真っ直ぐな気持ちが、今の渡瀬にはまぶしく感じられた。"
+  },
+  "002043": {
+    "context": "002043",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（……あの時の俺に戻るだけだ）"
+  },
+  "002049": {
+    "context": "002049",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（ようやく、あの時の気持ちに……）"
+  },
+  "002054": {
+    "context": "002054",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0127 003549"
+  },
+  "002059": {
+    "context": "002059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に背後で声がした。"
+  },
+  "002072": {
+    "context": "002072",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「あの……」"
+  },
+  "002098": {
+    "context": "002098",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 005125"
+  },
+  "002135": {
+    "context": "002135",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "振り返るとそこに、風見が立っていた。"
+  },
+  "002140": {
+    "context": "002140",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は目を丸くして叫ぶ。"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「ばっ……馬鹿野郎！　どうして来た！？」"
+  },
+  "002181": {
+    "context": "002181",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「よくわからないけど……あなたの事が心配で、追ってきました」"
+  },
+  "002192": {
+    "context": "002192",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前が来たら意味ないんだよ！」"
+  },
+  "002203": {
+    "context": "002203",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「守部は止めなかったのか！？」"
+  },
+  "002232": {
+    "context": "002232",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「振りほどいてきました。いけませんでしたか……？」"
+  },
+  "002258": {
+    "context": "002258",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0002 002723"
+  },
+  "002263": {
+    "context": "002263",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は息を呑み、それからもう１度時計を見た。"
+  },
+  "002270": {
+    "context": "002270",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発までわずか２３秒。"
+  },
+  "002275": {
+    "context": "002275",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今からじゃ、皆のもとに戻る事はできそうにないが――"
+  },
+  "002286": {
+    "context": "002286",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「戻れ風見！　お前は生きろ！」"
+  },
+  "002343": {
+    "context": "002343",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「嫌です」"
+  },
+  "002354": {
+    "context": "002354",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「うるせぇ、戻れ！　俺と一緒に死んじまうぞ！？」"
+  },
+  "002383": {
+    "context": "002383",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……いいんです」"
+  },
+  "002388": {
+    "context": "002388",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は渡瀬に、すがるように言う。"
+  },
+  "002417": {
+    "context": "002417",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「目を覚ましていきなり、死ぬとか生きるといわれても、実感がわきません」"
+  },
+  "002446": {
+    "context": "002446",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「だけど、この気持ちだけは……なぜかはっきりしているんです」"
+  },
+  "002475": {
+    "context": "002475",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「死ぬなら、あなたと死にたいって」"
+  },
+  "002501": {
+    "context": "002501",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0057 007432"
+  },
+  "002506": {
+    "context": "002506",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は悲痛に顔を歪める。"
+  },
+  "002511": {
+    "context": "002511",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "爆発までもう時間がない。"
+  },
+  "002522": {
+    "context": "002522",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が止む無く、第５エリア方面のゲートを開いた時――"
+  },
+  "002567": {
+    "context": "002567",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同時に下方から、轟音が響いた。"
+  },
+  "002578": {
+    "context": "002578",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「――来た！！」"
+  },
+  "002637": {
+    "context": "002637",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@import 0040 000198"
+  },
+  "002642": {
+    "context": "002642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見がびくっと身を震わせる。"
+  },
+  "002649": {
+    "context": "002649",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は彼女の腕を掴み、引き寄せた。"
+  },
+  "002821": {
+    "context": "002821",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――巨大な熱が、Ｚｅｒｏエリアから上がってくるのがわかる。"
+  },
+  "002826": {
+    "context": "002826",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "死が地の底から這い上がってくる。"
+  },
+  "002831": {
+    "context": "002831",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それがＮエリアを満たすまでの、ほんのわずかな一瞬。"
+  },
+  "002836": {
+    "context": "002836",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "永劫にも引き伸ばされた刹那に――"
+  },
+  "002841": {
+    "context": "002841",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は、風見を抱きしめた。"
+  },
+  "003095": {
+    "context": "003095",
+    "code": "0x85",
+    "string": "@auto-import 0102 001086"
+  },
+  "003098": {
+    "context": "003098",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "√D バッドエンド5【抹消されし忠実家】"
+  },
+  "003101": {
+    "context": "003101",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003104": {
+    "context": "003104",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の記憶を消してしまった場合の結末。"
+  },
+  "003107": {
+    "context": "003107",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003110": {
+    "context": "003110",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "このエンディング直前に入力できるセンシズで、渡瀬と風見の身を案じる設定ができれば、この結末は回避できたかもしれない。"
+  }
+}

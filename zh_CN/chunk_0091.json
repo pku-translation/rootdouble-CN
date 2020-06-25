@@ -2,7 +2,7 @@
   "000069": {
     "context": "000069",
     "code": "0x55",
-    "string": "@import 0089 000103"
+    "string": "@auto-import 0089 000103"
   },
   "000136": {
     "context": "000136",
@@ -35,7 +35,7 @@
   "000245": {
     "context": "000245",
     "code": "0x86",
-    "string": "@import 0091 000243"
+    "string": "@auto-import 0091 000243"
   },
   "000260": {
     "context": "000260",
@@ -50,7 +50,7 @@
   "000262": {
     "context": "000262",
     "code": "0x86",
-    "string": "@import 0091 000260"
+    "string": "@auto-import 0091 000260"
   },
   "000291": {
     "context": "000291",
@@ -140,7 +140,7 @@
   "000508": {
     "context": "000508",
     "code": "0x86",
-    "string": "@import 0091 000506"
+    "string": "@auto-import 0091 000506"
   },
   "000523": {
     "context": "000523",
@@ -155,7 +155,7 @@
   "000525": {
     "context": "000525",
     "code": "0x86",
-    "string": "@import 0091 000523"
+    "string": "@auto-import 0091 000523"
   },
   "000559": {
     "context": "000559",
@@ -218,7 +218,7 @@
   "000654": {
     "context": "000654",
     "code": "0x86",
-    "string": "@import 0091 000652"
+    "string": "@auto-import 0091 000652"
   },
   "000669": {
     "context": "000669",
@@ -233,7 +233,7 @@
   "000671": {
     "context": "000671",
     "code": "0x86",
-    "string": "@import 0091 000669"
+    "string": "@auto-import 0091 000669"
   },
   "000686": {
     "context": "000686",
@@ -248,7 +248,7 @@
   "000688": {
     "context": "000688",
     "code": "0x86",
-    "string": "@import 0091 000686"
+    "string": "@auto-import 0091 000686"
   },
   "000716": {
     "context": "000716",
@@ -352,7 +352,7 @@
   "000941": {
     "context": "000941",
     "code": "0x86",
-    "string": "@import 0091 000939"
+    "string": "@auto-import 0091 000939"
   },
   "000969": {
     "context": "000969",
@@ -604,7 +604,7 @@
   "001839": {
     "context": "001839",
     "code": "0x86",
-    "string": "@import 0091 001837"
+    "string": "@auto-import 0091 001837"
   },
   "001873": {
     "context": "001873",

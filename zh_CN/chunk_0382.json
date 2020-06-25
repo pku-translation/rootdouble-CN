@@ -1,0 +1,684 @@
+{
+  "000057": {
+    "context": "000057",
+    "code": "0x55",
+    "string": "@auto-import 0364 000095"
+  },
+  "000076": {
+    "context": "000076",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ああああああっ！！」"
+  },
+  "000081": {
+    "context": "000081",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――現実に戻って来た夏彦は、思わず叫んでいた。"
+  },
+  "000086": {
+    "context": "000086",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが驚いて声を上げる。"
+  },
+  "000151": {
+    "context": "000151",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「ど、どうしたの夏彦！？」"
+  },
+  "000162": {
+    "context": "000162",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「わ、わからない！」"
+  },
+  "000191": {
+    "context": "000191",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わからないけど……センシズシンパシーの最中に、橘さんが話しかけてきた……！？」"
+  },
+  "000220": {
+    "context": "000220",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「どういう事！？　悪意の消去は終わったの！？」"
+  },
+  "000231": {
+    "context": "000231",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お、終わってません……」"
+  },
+  "000260": {
+    "context": "000260",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしたちにも、何が起きたか……」"
+  },
+  "000343": {
+    "context": "000343",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦たちは戸惑い、風見を見る。"
+  },
+  "000348": {
+    "context": "000348",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その時――風見が冷たい声で言った。"
+  },
+  "000378": {
+    "context": "000378",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「……不用意すぎですよ、２人とも」"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「人の心に潜ると言う事は、自らも心をさらしてしまうという事なのに」"
+  },
+  "000400": {
+    "context": "000400",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「おかげで、ずっと知りたかった事がわかりました」"
+  },
+  "000430": {
+    "context": "000430",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「し、知りたかった事って……！？」"
+  },
+  "000465": {
+    "context": "000465",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あの娘が――あなたたちが被験体Ｎと呼ぶ娘が、なぜここで死んでいたかという事です」"
+  },
+  "000494": {
+    "context": "000494",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「答えはあなたたちの記憶の中にありました」"
+  },
+  "000523": {
+    "context": "000523",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あの子は……ずっとこの施設の中に、閉じ込められていたんですね」"
+  },
+  "000567": {
+    "context": "000567",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0003 002680"
+  },
+  "000572": {
+    "context": "000572",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は驚愕した。なぜ風見がそれを知っているのか！？"
+  },
+  "000578": {
+    "context": "000578",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（橘さんは、ＢＣが使えないはずなのに――！）"
+  },
+  "000583": {
+    "context": "000583",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0076 003320"
+  },
+  "000588": {
+    "context": "000588",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦の脳裏に、ある考えがよぎった。"
+  },
+  "000599": {
+    "context": "000599",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0017 000599"
+  },
+  "000605": {
+    "context": "000605",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は過去に、ＢＣを使えた事はない。"
+  },
+  "000610": {
+    "context": "000610",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "昔から適性度が低かったからだ。"
+  },
+  "000615": {
+    "context": "000615",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "適性度は先天的なもので、通常変わるものではない。"
+  },
+  "000621": {
+    "context": "000621",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（だけど、それを覆す状況が１つだけある！）"
+  },
+  "000675": {
+    "context": "000675",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは夏彦たちが幼い頃、ラボに忍び込んだ時と同じ状況。"
+  },
+  "000727": {
+    "context": "000727",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ＷＸ粒子が蔓延する環境下、つまり――"
+  },
+  "000738": {
+    "context": "000738",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「『今日、この施設の中では、適性度の上昇が起こりうる』……！」"
+  },
+  "000743": {
+    "context": "000743",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、皆がはっと息を呑んだ。"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「橘さん、あなたまさか……」"
+  },
+  "000765": {
+    "context": "000765",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ＢＣに目覚めたんですか！？」"
+  },
+  "000853": {
+    "context": "000853",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「はい。その使い方も全て、いま天川くんから教えて頂きました」"
+  },
+  "000858": {
+    "context": "000858",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は微笑んで、そう答えた。"
+  },
+  "000863": {
+    "context": "000863",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それは美しく、しかしどこか禍々しく――見る者をぞっとさせる微笑だった。"
+  },
+  "000874": {
+    "context": "000874",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「で、でもいくら適性度が上がったからって……どうしてこんな短時間で、センシズシンパシーまで！？」"
+  },
+  "000903": {
+    "context": "000903",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そのやり方は、この子に教えてもらいました」"
+  },
+  "000929": {
+    "context": "000929",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@import 0004 002426"
+  },
+  "000934": {
+    "context": "000934",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見は自分の傍の、何もない空間を見て答えた。"
+  },
+  "000939": {
+    "context": "000939",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らく彼女の眼にはそこに、被験体Ｎの幻が見えているのだろう。"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「そしてあなたの記憶を読む事で、全てを知る事ができました」"
+  },
+  "000997": {
+    "context": "000997",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「全ての元凶が誰なのか。あの子の死の原因を作ったのは……」"
+  },
+  "001026": {
+    "context": "001026",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「やはり渡瀬と、宇喜多さんだったんですね」"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見の濁った目に、殺意の光が宿る。"
+  },
+  "001101": {
+    "context": "001101",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "同時に恵那が拳銃を取り出した。"
+  },
+  "001112": {
+    "context": "001112",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "「橘さん！　動かないで！」"
+  },
+  "001117": {
+    "context": "001117",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが次の瞬間――脳を震えさせるような、凄まじい声が響き渡った。"
+  },
+  "001188": {
+    "context": "001188",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "《全員動くなッ！！！》"
+  },
+  "001241": {
+    "context": "001241",
+    "code": "0x45",
+    "developer_comment": "夏彦たち",
+    "string": "「ぎッ！」"
+  },
+  "001246": {
+    "context": "001246",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声に、風見以外の全員が叫び声を上げる。"
+  },
+  "001251": {
+    "context": "001251",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見に銃を向けていた恵那も、頭を押さえてうずくまる。"
+  },
+  "001256": {
+    "context": "001256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これは夏彦が以前、渡瀬に襲われた時、彼を足止めするのに使った方法――"
+  },
+  "001277": {
+    "context": "001277",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（大出力のテレパシーで、脳にダメージを！？）"
+  },
+  "001350": {
+    "context": "001350",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう悟った時、風見が恵那に掴みかかり、"
+  },
+  "001455": {
+    "context": "001455",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "@auto-import 0209 001620"
+  },
+  "001493": {
+    "context": "001493",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思い切り投げ飛ばした。"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "@auto-import 0093 001880"
+  },
+  "001529": {
+    "context": "001529",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恵那は背中から床に叩きつけられ、バウンドした。"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "間髪入れず風見が、恵那の拳銃を取り上げる。"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして頭の痛みに呻く夏彦たちを見据えた。"
+  },
+  "001588": {
+    "context": "001588",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（さ、最悪だ……！　悪意に感染している橘さんが、ＢＣに目覚めるなんて！）"
+  },
+  "001594": {
+    "context": "001594",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（心を繋いだら、逆に悪意にやられる可能性が高い……！）"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は風見が、とてつもなく危険な存在になってしまった事を悟った。"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "卓越したＢＣ能力。レスキュー隊員として鍛え上げられた肉体。そして銃。"
+  },
+  "001609": {
+    "context": "001609",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "勝てる道理は、何もなかった。"
+  },
+  "001614": {
+    "context": "001614",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが風見は、夏彦たちに言う。"
+  },
+  "001643": {
+    "context": "001643",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「あなたたちは殺しませんよ」"
+  },
+  "001654": {
+    "context": "001654",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0060 001114"
+  },
+  "001683": {
+    "context": "001683",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「私の目的は、別のところにあります。あなたたちとは全く無関係の事です」"
+  },
+  "001694": {
+    "context": "001694",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「邪魔さえしなければ、手出しはしません」"
+  },
+  "001723": {
+    "context": "001723",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "「その大切な女の子たちを、しっかり護ってあげて下さい」"
+  },
+  "001734": {
+    "context": "001734",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0026 003493"
+  },
+  "001739": {
+    "context": "001739",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "戸惑う夏彦をよそに、風見は――"
+  },
+  "001767": {
+    "context": "001767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "監視ルームを、出て行ってしまった。"
+  },
+  "001838": {
+    "context": "001838",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……後には夏彦・悠里・ましろ、そして床に倒れている恵那だけが残された。"
+  },
+  "001843": {
+    "context": "001843",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "金縛りが解けたように、ましろが言う。"
+  },
+  "001872": {
+    "context": "001872",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「な……なんなの！？　今のなんだったの！？」"
+  },
+  "001901": {
+    "context": "001901",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「『目的は別のところにある』ってなんの事！？」"
+  },
+  "001906": {
+    "context": "001906",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦も痺れた頭で考えた。"
+  },
+  "001911": {
+    "context": "001911",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『あなたたちは殺さない』という事は――"
+  },
+  "001922": {
+    "context": "001922",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「やっぱり渡瀬を、殺そうとしてるのか！？」"
+  },
+  "001951": {
+    "context": "001951",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「で、でも、さっき副隊長さん言ってたよ？」"
+  },
+  "001980": {
+    "context": "001980",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「『全ての元凶が誰なのか。やはり渡瀬と宇喜多さんだったんですね』って！」"
+  },
+  "002009": {
+    "context": "002009",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの言い方じゃ、宇喜多さんの事も恨んでるみたいじゃない！？」"
+  },
+  "002020": {
+    "context": "002020",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0021 000547"
+  },
+  "002074": {
+    "context": "002074",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "さきほど風見は渡瀬の首を絞めながら、『渡瀬の名誉を護るために殺す』と言っていた。"
+  },
+  "002079": {
+    "context": "002079",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが、目的が変わったように思える。"
+  },
+  "002084": {
+    "context": "002084",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "風見が宇喜多の名誉を護るために、わざわざ殺人を犯すとは思えない。"
+  },
+  "002169": {
+    "context": "002169",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（考えろ、どうしてあの２人が狙われる！？）"
+  },
+  "002175": {
+    "context": "002175",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（渡瀬とおじさんの共通点、それはＱのメンバーであるって事だ！）"
+  },
+  "002181": {
+    "context": "002181",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（橘さんには、Ｑを恨む動機があるのか！？）"
+  },
+  "002276": {
+    "context": "002276",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、待て……あの人はこうも言っていた」"
+  },
+  "002287": {
+    "context": "002287",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「『あの子の死の原因を作ったのは、渡瀬とおじさん』って」"
+  },
+  "002316": {
+    "context": "002316",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "@auto-import 0041 000188"
+  },
+  "002327": {
+    "context": "002327",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それを繋ぎ合わせると――橘さんは、被験体Ｎの仇を取ろうとしているのか！？」"
+  },
+  "002356": {
+    "context": "002356",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「で、でもどうして！？」"
+  },
+  "002385": {
+    "context": "002385",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あの人、被験体Ｎって子と、どんな関係なの！？」"
+  },
+  "002390": {
+    "context": "002390",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう問われた瞬間、夏彦は――"
+  },
+  "002401": {
+    "context": "002401",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0004 003271"
+  },
+  "002406": {
+    "context": "002406",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ようやく気付いた。"
+  },
+  "002565": {
+    "context": "002565",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――被験体たちの名前の、あまりに単純な法則性。"
+  },
+  "002762": {
+    "context": "002762",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そして、被験体Ｎ自身さえも誤解している事――。"
+  },
+  "002767": {
+    "context": "002767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "震える声が、夏彦の口から漏れる。"
+  },
+  "002778": {
+    "context": "002778",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そ、そういう事だったのか……！」"
+  },
+  "002864": {
+    "context": "002864",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「え？」"
+  },
+  "002875": {
+    "context": "002875",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……わかったんだよ……」"
+  },
+  "002886": {
+    "context": "002886",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「被験体Ｎの、正体が」"
+  },
+  "002897": {
+    "context": "002897",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの娘は、ラボの中で生まれた子供なんかじゃない……！」"
+  },
+  "002957": {
+    "context": "002957",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを知ってしまった夏彦は――"
+  },
+  "002962": {
+    "context": "002962",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "真実のあまりの残酷さに、絶望した。"
+  },
+  "003014": {
+    "context": "003014",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

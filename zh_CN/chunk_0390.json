@@ -1,0 +1,618 @@
+{
+  "000050": {
+    "context": "000050",
+    "code": "0x55",
+    "string": "@auto-import 0384 000140"
+  },
+  "000062": {
+    "context": "000062",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――かくして夏彦たちは、ラボからの脱出に成功した。"
+  },
+  "000067": {
+    "context": "000067",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "皆もう疲れ果て、体はボロボロだったが――"
+  },
+  "000072": {
+    "context": "000072",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それでも９人全員が、無事生還できたのだ！"
+  },
+  "000137": {
+    "context": "000137",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……ありがとう、渡瀬」"
+  },
+  "000142": {
+    "context": "000142",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦は渡瀬に、そう言った。"
+  },
+  "000153": {
+    "context": "000153",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「何度ももうダメかと思ったけど……お前のおかげで、助かったよ！」"
+  },
+  "000217": {
+    "context": "000217",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@import 0005 000751"
+  },
+  "000240": {
+    "context": "000240",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が照れたように、目を逸らす。"
+  },
+  "000269": {
+    "context": "000269",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……言っただろ、礼を言われる資格はないって」"
+  },
+  "000299": {
+    "context": "000299",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うぅん、わたしからも言わせてもらいます」"
+  },
+  "000333": {
+    "context": "000333",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ありがとうございます、隊長さん」"
+  },
+  "000362": {
+    "context": "000362",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「隊長さんのおかげで、わたしたち本当に……」"
+  },
+  "000385": {
+    "context": "000385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "また泣きそうになる悠里を見て、渡瀬が頭をかく。"
+  },
+  "000414": {
+    "context": "000414",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だからいいって、俺は約束を守っただけなんだから！」"
+  },
+  "000443": {
+    "context": "000443",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ははっ、照れてんのかお前？」"
+  },
+  "000472": {
+    "context": "000472",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「そんなんじゃねぇよ、ガキ」"
+  },
+  "000477": {
+    "context": "000477",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は目を逸らし、それからぽつりと呟いた。"
+  },
+  "000506": {
+    "context": "000506",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……脱出できたのは、全員の力だ」"
+  },
+  "000517": {
+    "context": "000517",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「爆発まであと１０分ってところで、皆が心を１つにできた」"
+  },
+  "000546": {
+    "context": "000546",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「いや……その前からすでに、心はまとまり始めてたのかもな」"
+  },
+  "000575": {
+    "context": "000575",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……お前のＢＣのおかげで」"
+  },
+  "000586": {
+    "context": "000586",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そりゃ違うよ、渡瀬」"
+  },
+  "000591": {
+    "context": "000591",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦ははっきりと否定する。"
+  },
+  "000602": {
+    "context": "000602",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくがした事は、無差別テレパシーを使って、皆に『事実』を教えただけだ」"
+  },
+  "000613": {
+    "context": "000613",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それで皆は、他の皆の気持ちを知って、お互いのために動こうとしてくれたけど……」"
+  },
+  "000624": {
+    "context": "000624",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「でもそれは、ＢＣを使わなくたってできる事だろ」"
+  },
+  "000653": {
+    "context": "000653",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……そう思うか？」"
+  },
+  "000664": {
+    "context": "000664",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうだよ。時間がなかったから、あんな方法を取ったけど――」"
+  },
+  "000675": {
+    "context": "000675",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「本当は時間をかけて話し合って、何度も会って、そうやって触れ合っていくうちに……いつかわかりあえるはずなんだよ」"
+  },
+  "000686": {
+    "context": "000686",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ＢＣを使わなくても、きっとな」"
+  },
+  "000691": {
+    "context": "000691",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そうあって欲しいと、夏彦は願っていた。"
+  },
+  "000696": {
+    "context": "000696",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると傍らの悠里もうなずく。"
+  },
+  "000725": {
+    "context": "000725",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしもそう思います、隊長さん」"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしたち９人の間には、たくさんの対立がありました」"
+  },
+  "000783": {
+    "context": "000783",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「でもそのほとんどはね、ＢＣなしに解決できたんですよ？」"
+  },
+  "000812": {
+    "context": "000812",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……っ。確かにな……」"
+  },
+  "000823": {
+    "context": "000823",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そう、例えば洵さんと先生」"
+  },
+  "000852": {
+    "context": "000852",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あぁ。あの２人最初は仲悪かったのに、いつの間にかケンカしなくなったよな？」"
+  },
+  "000863": {
+    "context": "000863",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな」"
+  },
+  "000886": {
+    "context": "000886",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、３人は笑い合った。"
+  },
+  "000915": {
+    "context": "000915",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「隊長さんと、宇喜多さんもそうですよね」"
+  },
+  "000926": {
+    "context": "000926",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そういえばそうだな」"
+  },
+  "000937": {
+    "context": "000937",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「渡瀬が記憶を失ってからは、お互いに疑うわ言い合いするわ……」"
+  },
+  "000966": {
+    "context": "000966",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「それ言ったら、俺と悠里もそうさ」"
+  },
+  "000995": {
+    "context": "000995",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「最初はなんで嫌われてんのかわかんなくて、悩んでたもんなぁ」"
+  },
+  "001006": {
+    "context": "001006",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そりゃ自業自得だろ？」"
+  },
+  "001035": {
+    "context": "001035",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうですよ、最初は怖かったんですよ？」"
+  },
+  "001064": {
+    "context": "001064",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「わ……悪い」"
+  },
+  "001093": {
+    "context": "001093",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「いいえー、もう許しました」"
+  },
+  "001122": {
+    "context": "001122",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ちょっと首絞められたくらい、みんなが受けた傷に比べれば、どうってことないですもん」"
+  },
+  "001133": {
+    "context": "001133",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あれ、悠里、なんか強くなったなぁ」"
+  },
+  "001162": {
+    "context": "001162",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そうかな？　でもひこりんほどじゃないよ」"
+  },
+  "001185": {
+    "context": "001185",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その言葉に、また笑い声が起こる。"
+  },
+  "001214": {
+    "context": "001214",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「懐かしいな……それもこれも、ずっと昔の事みたいだぜ」"
+  },
+  "001225": {
+    "context": "001225",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうだな……ほんの９時間の間の出来事だけど、９人分の人生を、まるごと覗き込んできたようなもんだからな」"
+  },
+  "001230": {
+    "context": "001230",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言ってから、夏彦はふと気付いた。"
+  },
+  "001235": {
+    "context": "001235",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "レスキューヘリに乗ったはずのましろたちに、迎えに来させようと。"
+  },
+  "001246": {
+    "context": "001246",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「おっと、ましろたちに連絡しなきゃ」"
+  },
+  "001275": {
+    "context": "001275",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「こんな時こそ、テレパシーを使おうよ」"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「だな。超長距離テレパシーが、最後まで役に立つとはね」"
+  },
+  "001394": {
+    "context": "001394",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "夏彦はうなずいて、ましろにテレパシーを送った。"
+  },
+  "001405": {
+    "context": "001405",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ましろ、聞こえるか？》"
+  },
+  "001416": {
+    "context": "001416",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《ぼくたち、脱出できたぞ！》"
+  },
+  "001427": {
+    "context": "001427",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《いま鹿鳴湖のほとりにいる。できればヘリで迎えにきてくれ！》"
+  },
+  "001432": {
+    "context": "001432",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――ましろからの返事はなかった。"
+  },
+  "001470": {
+    "context": "001470",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らくましろのテレパシーの有効範囲外にいるんだろう。"
+  },
+  "001475": {
+    "context": "001475",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが夏彦は、自分のテレパシーが、彼女にちゃんと届いた事を信じた。"
+  },
+  "001486": {
+    "context": "001486",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「渡瀬、いまヘリを呼んだ」"
+  },
+  "001497": {
+    "context": "001497",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「それに乗ればもう心配ない。保安六課の手の届かない、安全なところまで逃げよう」"
+  },
+  "001526": {
+    "context": "001526",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@auto-import 0025 000388"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「これで本当に、終わりか……」"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬がラボの方に目をやった。"
+  },
+  "001576": {
+    "context": "001576",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ラボのある方角に、煙がたなびいている。"
+  },
+  "001581": {
+    "context": "001581",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恐らくテトリル爆弾の影響だろう。"
+  },
+  "001586": {
+    "context": "001586",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いまラボの周辺は、大騒ぎになっているに違いない。"
+  },
+  "001617": {
+    "context": "001617",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……俺たち、全員生きて出る事ができたんだな」"
+  },
+  "001646": {
+    "context": "001646",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「はい、皆さんのおかげで」"
+  },
+  "001657": {
+    "context": "001657",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「９分の１は、お前のおかげでな」"
+  },
+  "001686": {
+    "context": "001686",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@auto-import 0038 003049"
+  },
+  "001691": {
+    "context": "001691",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬が沈んだ声で言う。"
+  },
+  "001714": {
+    "context": "001714",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その声の調子が気になった。"
+  },
+  "001728": {
+    "context": "001728",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……どうした、渡瀬？　傷が痛むのか？」"
+  },
+  "001752": {
+    "context": "001752",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……」"
+  },
+  "001757": {
+    "context": "001757",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬は答えず、逆に問いを返した。"
+  },
+  "001788": {
+    "context": "001788",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……なぁ、夏彦、悠里」"
+  },
+  "001799": {
+    "context": "001799",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「覚えてるか？　俺が悪意を消去された直後の事」"
+  },
+  "001810": {
+    "context": "001810",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0005 003761"
+  },
+  "001846": {
+    "context": "001846",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの時に交わした、約束の事だよ」"
+  },
+  "001851": {
+    "context": "001851",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0126 001223"
+  },
+  "001856": {
+    "context": "001856",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に月に雲がかかり、渡瀬の顔が闇に沈んだ。"
+  },
+  "001873": {
+    "context": "001873",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「お……覚えてるけど……」"
+  },
+  "001903": {
+    "context": "001903",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……それが、どうかしたんですか……？」"
+  },
+  "001938": {
+    "context": "001938",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「あの時、俺は言ったな？」"
+  },
+  "001965": {
+    "context": "001965",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬の声に、夏彦の心臓がどくんと鳴る。"
+  },
+  "001976": {
+    "context": "001976",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『全員の脱出に協力する代わり』に」"
+  },
+  "002026": {
+    "context": "002026",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「『この事件が終わったら、悠里をＱに連れて行く』って」"
+  },
+  "002043": {
+    "context": "002043",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「……俺は約束を守った」"
+  },
+  "002054": {
+    "context": "002054",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「だから、今度は……」"
+  },
+  "002059": {
+    "context": "002059",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "渡瀬はそう言って――"
+  },
+  "002151": {
+    "context": "002151",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「お前たちが、約束を守る番だ」"
+  },
+  "002200": {
+    "context": "002200",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――懐から銃を、取り出した。"
+  },
+  "002258": {
+    "context": "002258",
+    "code": "0x02",
+    "string": "@ignore"
+  }
+}

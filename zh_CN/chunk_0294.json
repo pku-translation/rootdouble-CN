@@ -273,7 +273,7 @@
     "context": "000886",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0294 000886"
+    "string": "「はぁ……心の声ねぇ……？」"
   },
   "000915": {
     "context": "000915",
@@ -405,7 +405,7 @@
     "context": "001438",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "@import 0084 001049"
+    "string": "@auto-import 0084 001043"
   },
   "001449": {
     "context": "001449",
@@ -417,7 +417,7 @@
     "context": "001478",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "@import 0077 000613"
+    "string": "@auto-import 0077 000633"
   },
   "001489": {
     "context": "001489",
@@ -951,7 +951,7 @@
     "context": "002899",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0087 002427"
+    "string": "@auto-import 0087 002427"
   },
   "002910": {
     "context": "002910",
@@ -1113,7 +1113,7 @@
     "context": "003477",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "@import 0220 003114"
+    "string": "@auto-import 0220 003114"
   },
   "003482": {
     "context": "003482",
@@ -1245,6 +1245,6 @@
     "context": "003831",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0271 000169"
+    "string": "@auto-import 0271 000169"
   }
 }

@@ -51,7 +51,7 @@
     "context": "000201",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0048 001821"
+    "string": "@auto-import 0048 001821"
   },
   "000206": {
     "context": "000206",
@@ -153,19 +153,19 @@
     "context": "000517",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 000335"
+    "string": "@auto-import 0334 000335"
   },
   "000522": {
     "context": "000522",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 000340"
+    "string": "@auto-import 0334 000340"
   },
   "000527": {
     "context": "000527",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 000345"
+    "string": "@auto-import 0334 000345"
   },
   "000533": {
     "context": "000533",
@@ -183,25 +183,25 @@
     "context": "000717",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 000474"
+    "string": "@auto-import 0334 000474"
   },
   "000725": {
     "context": "000725",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 002651"
+    "string": "@auto-import 0002 002651"
   },
   "000733": {
     "context": "000733",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 002659"
+    "string": "@auto-import 0002 002659"
   },
   "000741": {
     "context": "000741",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 002668"
+    "string": "@auto-import 0002 002668"
   },
   "000747": {
     "context": "000747",
@@ -273,7 +273,7 @@
     "context": "000873",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 000719"
+    "string": "@auto-import 0334 000719"
   },
   "000878": {
     "context": "000878",
@@ -303,19 +303,19 @@
     "context": "000962",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0201 002300"
+    "string": "@auto-import 0201 002300"
   },
   "000970": {
     "context": "000970",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0201 002308"
+    "string": "@auto-import 0201 002308"
   },
   "000978": {
     "context": "000978",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0201 002316"
+    "string": "@auto-import 0201 002316"
   },
   "001095": {
     "context": "001095",
@@ -339,55 +339,55 @@
     "context": "001189",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003219"
+    "string": "@auto-import 0334 003219"
   },
   "001194": {
     "context": "001194",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003224"
+    "string": "@auto-import 0334 003224"
   },
   "001263": {
     "context": "001263",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0334 003282"
+    "string": "@auto-import 0334 003282"
   },
   "001271": {
     "context": "001271",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0334 003318"
+    "string": "@auto-import 0334 003318"
   },
   "001276": {
     "context": "001276",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003323"
+    "string": "@auto-import 0334 003323"
   },
   "001282": {
     "context": "001282",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003328"
+    "string": "@auto-import 0334 003328"
   },
   "001313": {
     "context": "001313",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003358"
+    "string": "@auto-import 0334 003358"
   },
   "001318": {
     "context": "001318",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003363"
+    "string": "@auto-import 0334 003363"
   },
   "001324": {
     "context": "001324",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0334 003369"
+    "string": "@auto-import 0334 003369"
   },
   "001330": {
     "context": "001330",
@@ -417,12 +417,12 @@
     "context": "001413",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0334 003451"
+    "string": "@auto-import 0334 003451"
   },
   "001418": {
     "context": "001418",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0322 002119"
+    "string": "@auto-import 0322 002119"
   }
 }

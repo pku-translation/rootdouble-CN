@@ -1,0 +1,753 @@
+{
+  "000044": {
+    "context": "000044",
+    "code": "0x55",
+    "string": "@auto-import 0402 000092"
+  },
+  "000055": {
+    "context": "000055",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "————"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0003 000068"
+  },
+  "000077": {
+    "context": "000077",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@auto-import 0003 000089"
+  },
+  "000082": {
+    "context": "000082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0003 000094"
+  },
+  "000087": {
+    "context": "000087",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0003 000099"
+  },
+  "000093": {
+    "context": "000093",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@auto-import 0003 000105"
+  },
+  "000098": {
+    "context": "000098",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思い出せるものは何もない。"
+  },
+  "000104": {
+    "context": "000104",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@auto-import 0003 000127"
+  },
+  "000109": {
+    "context": "000109",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0003 000132"
+  },
+  "000114": {
+    "context": "000114",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて誰のものとも知れない声が、意識の片隅で囁いた。"
+  },
+  "000119": {
+    "context": "000119",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ただ一言、『目覚めろ』と――"
+  },
+  "000130": {
+    "context": "000130",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「……」"
+  },
+  "000141": {
+    "context": "000141",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@auto-import 0131 000375"
+  },
+  "000204": {
+    "context": "000204",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……――どこか知らない場所で、オレは目覚めた。"
+  },
+  "000210": {
+    "context": "000210",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@import 0060 000643"
+  },
+  "000216": {
+    "context": "000216",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "（ここは、どこだ……？）"
+  },
+  "000227": {
+    "context": "000227",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう思いながら周囲を見回す。どうやらベッドの上に寝かされているようだ。"
+  },
+  "000232": {
+    "context": "000232",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "清潔そうな白いシーツに、漂う消毒液の香り……どうやら、どこかの病室らしい。"
+  },
+  "000237": {
+    "context": "000237",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると２人の女が、オレの顔を覗き込んで来た。"
+  },
+  "000301": {
+    "context": "000301",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@auto-import 0003 000951"
+  },
+  "000313": {
+    "context": "000313",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「よ、よかったぁ！　隊長、あたしの事わかる？」"
+  },
+  "000318": {
+    "context": "000318",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうやら２人は、オレの事を知ってるようだった。"
+  },
+  "000323": {
+    "context": "000323",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがオレには、全く見覚えがない。"
+  },
+  "000337": {
+    "context": "000337",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「あんたたちは……？」"
+  },
+  "000348": {
+    "context": "000348",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「いや、それよりここはどこなんだ……？」"
+  },
+  "000359": {
+    "context": "000359",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "オレがそう尋ねると、たちまち２人の表情がひきつった。"
+  },
+  "000371": {
+    "context": "000371",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「た、隊長……ッ！」"
+  },
+  "000383": {
+    "context": "000383",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「や……やっぱりまた、記憶喪失に……！？」"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "（記憶喪失……？）"
+  },
+  "000438": {
+    "context": "000438",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言われ、オレは自分の事について考えた。"
+  },
+  "000443": {
+    "context": "000443",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だが――頭の中が、すっぽりと空白になっている。"
+  },
+  "000448": {
+    "context": "000448",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "オレは愕然とし、慌てて２人に質問した。"
+  },
+  "000487": {
+    "context": "000487",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「なんだこれ、どういう事だ！？　何も覚えてない！」"
+  },
+  "000498": {
+    "context": "000498",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "@import 0005 000751"
+  },
+  "000509": {
+    "context": "000509",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「あ、あんたたちは知ってるのか！？　オレはいったい誰なんだ！？」"
+  },
+  "000554": {
+    "context": "000554",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その問いに、少しの沈黙の後、２人が答える。"
+  },
+  "000598": {
+    "context": "000598",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「あなたは……レスキュー隊の隊長です」"
+  },
+  "000609": {
+    "context": "000609",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「レスキュー……？」"
+  },
+  "000620": {
+    "context": "000620",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「そう……任務中に怪我を負い、この病院に担ぎ込まれたのです」"
+  },
+  "000631": {
+    "context": "000631",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「恐らくその時の怪我がもとで、記憶を失ってしまったのでしょう……」"
+  },
+  "000660": {
+    "context": "000660",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「隊長はね、みんなを助けるために、命がけで頑張ったんだよ」"
+  },
+  "000671": {
+    "context": "000671",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「ガスの中に飛び込んだり……崩れてきた天井から、身を挺して女の子を護ったり」"
+  },
+  "000682": {
+    "context": "000682",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「オレが、そんな事を……？」"
+  },
+  "000711": {
+    "context": "000711",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「ええ……あなたは、レスキュー隊員の鑑のような人でしたから」"
+  },
+  "000722": {
+    "context": "000722",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@auto-import 0026 003493"
+  },
+  "000727": {
+    "context": "000727",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その２人の言葉に、オレはなぜか違和感を覚えた。"
+  },
+  "000732": {
+    "context": "000732",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "どうもしっくりこないのだ。"
+  },
+  "000738": {
+    "context": "000738",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "（オレが……レスキュー隊の隊長……？）"
+  },
+  "000744": {
+    "context": "000744",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "（――いや！　違う気がする！）"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "何かをやり遂げられなかったという実感が、強烈に沸き起こる。"
+  },
+  "000760": {
+    "context": "000760",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「……なあ２人とも、正直に話してくれないか？」"
+  },
+  "000804": {
+    "context": "000804",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「え？」"
+  },
+  "000815": {
+    "context": "000815",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「オレはそんな、立派な奴じゃないだろう？」"
+  },
+  "000826": {
+    "context": "000826",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「なにかもっと……いや、上手く言えないが……！」"
+  },
+  "000855": {
+    "context": "000855",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「な、なに言ってるのさ！」"
+  },
+  "000884": {
+    "context": "000884",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「そうですよ！　あなたは正真正銘、レスキュー隊の隊長です！」"
+  },
+  "000889": {
+    "context": "000889",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――取り繕うように言う２人を見て、オレは確信した。"
+  },
+  "000894": {
+    "context": "000894",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『この２人は嘘をついている』と。"
+  },
+  "000952": {
+    "context": "000952",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると、その瞬間――"
+  },
+  "001026": {
+    "context": "001026",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@auto-import 0111 002328"
+  },
+  "001031": {
+    "context": "001031",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "一瞬、過去に見たと思しき情景が明滅した。"
+  },
+  "001039": {
+    "context": "001039",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "（そうだ！　オレはあいつのために――何かをしなければならなかったんだ！）"
+  },
+  "001096": {
+    "context": "001096",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その衝動に突き動かされ、オレはベッドから飛び降りた。"
+  },
+  "001132": {
+    "context": "001132",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「ちょっ、どこに行くの！？」"
+  },
+  "001147": {
+    "context": "001147",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その問いに答えず、裸足のまま駆け出す。"
+  },
+  "001152": {
+    "context": "001152",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "すると部屋の出入り口の前に、黒スーツの男が立ちはだかった。"
+  },
+  "001160": {
+    "context": "001160",
+    "code": "0x45",
+    "developer_comment": "黒スーツの男１",
+    "string": "「おい貴様！　止まるんだ！」"
+  },
+  "001165": {
+    "context": "001165",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "男が懐に手を入れたが、"
+  },
+  "001176": {
+    "context": "001176",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「どけぇっ！」"
+  },
+  "001202": {
+    "context": "001202",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "オレはとっさに、男を殴り飛ばしていた。"
+  },
+  "001210": {
+    "context": "001210",
+    "code": "0x45",
+    "developer_comment": "黒スーツの男１",
+    "string": "「ぐあっ！」"
+  },
+  "001215": {
+    "context": "001215",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "その勢いのまま、扉を開ける。"
+  },
+  "001257": {
+    "context": "001257",
+    "code": "0x45",
+    "developer_comment": "女２",
+    "string": "「隊長、ダメだったら！」"
+  },
+  "001286": {
+    "context": "001286",
+    "code": "0x45",
+    "developer_comment": "女１",
+    "string": "「待って！　行かないで、渡瀬！」"
+  },
+  "001292": {
+    "context": "001292",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "２人の制止を振り切り、オレは部屋を飛び出した。"
+  },
+  "001349": {
+    "context": "001349",
+    "code": "0x45",
+    "developer_comment": "黒スーツの男１",
+    "string": "「待て！」"
+  },
+  "001357": {
+    "context": "001357",
+    "code": "0x45",
+    "developer_comment": "黒スーツの男２",
+    "string": "「逃がすな！」"
+  },
+  "001365": {
+    "context": "001365",
+    "code": "0x45",
+    "developer_comment": "黒スーツの男３",
+    "string": "「何をしている、追え！」"
+  },
+  "001370": {
+    "context": "001370",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "廊下にも黒いスーツの男が２人いた。それもオレは強引に振り切る。"
+  },
+  "001375": {
+    "context": "001375",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "状況がよくわからない。なぜ黒ずくめの男たちが、オレを追っているんだろう。"
+  },
+  "001380": {
+    "context": "001380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だがとにかくオレは、外を目指して走る。"
+  },
+  "001430": {
+    "context": "001430",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがてようやく出口を見つけ、病院の外に出た時――"
+  },
+  "001444": {
+    "context": "001444",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「隊長さん！　止まりなさい！」"
+  },
+  "001449": {
+    "context": "001449",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "不意に響いた鋭い声に、オレは足を止めた。"
+  },
+  "001610": {
+    "context": "001610",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "振り返るとそこに、女が立っていた。"
+  },
+  "001615": {
+    "context": "001615",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "物々しい格好の男たちを引き連れている。"
+  },
+  "001626": {
+    "context": "001626",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「なんだ……？　もしかしてさっきの連中は、あんたの差し金か？」"
+  },
+  "001637": {
+    "context": "001637",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「冗談言わないで。あんな連中と、私たちを一緒にしないでちょうだい」"
+  },
+  "001648": {
+    "context": "001648",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「ふん、まあなんだっていい。どうせあんたも、オレの事を捕まえに来たんだろ？」"
+  },
+  "001659": {
+    "context": "001659",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「違うわ。私はあなたを、保護しに来たのよ」"
+  },
+  "001670": {
+    "context": "001670",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@auto-import 0217 000630"
+  },
+  "001675": {
+    "context": "001675",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "オレが戸惑っていると、女は男たちを下がらせた。"
+  },
+  "001737": {
+    "context": "001737",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「どう？　これなら少しは警戒心を解いてくれる？」"
+  },
+  "001748": {
+    "context": "001748",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「多少はな……じゃあついでに１つ、聞いてもいいか？」"
+  },
+  "001759": {
+    "context": "001759",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "@import 0012 006275"
+  },
+  "001770": {
+    "context": "001770",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「さっきあんた、オレのことを『隊長さん』と呼んだろう？」"
+  },
+  "001781": {
+    "context": "001781",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「あんたもオレが何者なのか知っているんだな？」"
+  },
+  "001792": {
+    "context": "001792",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「ええ、よく知っているわ。記憶喪失の時のあなたも、そうじゃない時のあなたも」"
+  },
+  "001803": {
+    "context": "001803",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「それにあなたの人生についても、調べさせてもらったわ」"
+  },
+  "001814": {
+    "context": "001814",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「だったら教えてくれ。オレが何者なのか」"
+  },
+  "001825": {
+    "context": "001825",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「なにか使命があったはずなのに……それが何だったのかも、オレは忘れちまってるみたいなんだ」"
+  },
+  "001836": {
+    "context": "001836",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「おぼろげにしか思い出せない……オレが何をしなければならないのか……」"
+  },
+  "001841": {
+    "context": "001841",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "するとオレの言葉に、女はかすかに微笑んだ。"
+  },
+  "001852": {
+    "context": "001852",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「――それは知らない方が、いいかもしれないわよ」"
+  },
+  "001863": {
+    "context": "001863",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@auto-import 0056 000215"
+  },
+  "001874": {
+    "context": "001874",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「記憶を取り戻してしまったら、今のあなたは消えてなくなるかもしれない」"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「それに私とも、敵同士になるかもしれない」"
+  },
+  "001896": {
+    "context": "001896",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「知ってしまったら、もう後戻りはできないのよ。あなたはそれでも後悔しない？」"
+  },
+  "001907": {
+    "context": "001907",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "@import 0005 000751"
+  },
+  "001912": {
+    "context": "001912",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "女の静かな問いに、オレは息を呑む。"
+  },
+  "001917": {
+    "context": "001917",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "以前にも似たようなことがあった気がした。"
+  },
+  "001922": {
+    "context": "001922",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0218 002183"
+  },
+  "001933": {
+    "context": "001933",
+    "code": "0x45",
+    "developer_comment": "オレ",
+    "string": "「……構わない。何も知らずに生きていくよりは、きっといいはずだ」"
+  },
+  "001985": {
+    "context": "001985",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「そう……今のあなたなら、きっとそう言うんじゃないかと思ったわ」"
+  },
+  "001996": {
+    "context": "001996",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「では話してあげましょう。あなたがどんな人間で、どのように生きてきたのかを……」"
+  },
+  "002007": {
+    "context": "002007",
+    "code": "0x45",
+    "developer_comment": "？？",
+    "string": "「これから私が語るのが、あなたの『真実』よ」"
+  },
+  "002059": {
+    "context": "002059",
+    "code": "0x85",
+    "string": "@auto-import 0028 002373"
+  },
+  "002064": {
+    "context": "002064",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――そして女は語り始めた。"
+  },
+  "002068": {
+    "context": "002068",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002073": {
+    "context": "002073",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ある男の３２年間の人生と、%Nそして彼女たちと共に過ごした、９時間の物語を。"
+  },
+  "002077": {
+    "context": "002077",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002082": {
+    "context": "002082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞き終え、俺は気づく……！%Nまだ何も終わっていないという事に。"
+  },
+  "002086": {
+    "context": "002086",
+    "code": "0x85",
+    "string": "　"
+  },
+  "002091": {
+    "context": "002091",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "胸の奥で熱い火が、静かに燃え始めた気がした。"
+  }
+}

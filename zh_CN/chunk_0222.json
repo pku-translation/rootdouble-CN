@@ -2,7 +2,7 @@
   "000050": {
     "context": "000050",
     "code": "0x55",
-    "string": "@import 0216 000053"
+    "string": "@auto-import 0216 000053"
   },
   "000054": {
     "context": "000054",
@@ -113,7 +113,7 @@
   "001152": {
     "context": "001152",
     "code": "0x86",
-    "string": "@import 0222 001150"
+    "string": "@auto-import 0222 001150"
   },
   "001167": {
     "context": "001167",
@@ -128,7 +128,7 @@
   "001169": {
     "context": "001169",
     "code": "0x86",
-    "string": "@import 0222 001167"
+    "string": "@auto-import 0222 001167"
   },
   "001186": {
     "context": "001186",
@@ -163,7 +163,7 @@
   "001209": {
     "context": "001209",
     "code": "0x86",
-    "string": "@import 0222 001207"
+    "string": "@auto-import 0222 001207"
   },
   "001224": {
     "context": "001224",
@@ -178,6 +178,6 @@
   "001226": {
     "context": "001226",
     "code": "0x86",
-    "string": "@import 0222 001224"
+    "string": "@auto-import 0222 001224"
   }
 }

@@ -2,7 +2,7 @@
   "000045": {
     "context": "000045",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "000063": {
     "context": "000063",
@@ -32,7 +32,7 @@
     "context": "000189",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0173 003927"
+    "string": "@auto-import 0173 003927"
   },
   "000218": {
     "context": "000218",
@@ -62,7 +62,7 @@
     "context": "000331",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0024 002092"
+    "string": "@auto-import 0024 002092"
   },
   "000380": {
     "context": "000380",

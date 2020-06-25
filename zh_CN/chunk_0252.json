@@ -2,7 +2,7 @@
   "000039": {
     "context": "000039",
     "code": "0x55",
-    "string": "@import 0248 000102"
+    "string": "@auto-import 0248 000102"
   },
   "000056": {
     "context": "000056",
@@ -20,7 +20,7 @@
     "context": "000113",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0060 000292"
+    "string": "@auto-import 0060 000292"
   },
   "000173": {
     "context": "000173",
@@ -32,7 +32,7 @@
     "context": "000211",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000406"
+    "string": "@auto-import 0060 000406"
   },
   "000214": {
     "context": "000214",
@@ -43,31 +43,31 @@
     "context": "000217",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000412"
+    "string": "@auto-import 0060 000412"
   },
   "000220": {
     "context": "000220",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000415"
+    "string": "@auto-import 0060 000415"
   },
   "000223": {
     "context": "000223",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000418"
+    "string": "@auto-import 0060 000418"
   },
   "000226": {
     "context": "000226",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000421"
+    "string": "@auto-import 0060 000421"
   },
   "000229": {
     "context": "000229",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000424"
+    "string": "@auto-import 0060 000424"
   },
   "000232": {
     "context": "000232",
@@ -78,19 +78,19 @@
     "context": "000235",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000430"
+    "string": "@auto-import 0060 000430"
   },
   "000267": {
     "context": "000267",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0060 000462"
+    "string": "@auto-import 0060 000462"
   },
   "000296": {
     "context": "000296",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0060 000496"
+    "string": "@auto-import 0060 000496"
   },
   "000301": {
     "context": "000301",
@@ -162,7 +162,7 @@
     "context": "000442",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0060 000430"
+    "string": "@auto-import 0060 000430"
   },
   "000447": {
     "context": "000447",

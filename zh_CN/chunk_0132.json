@@ -7,7 +7,7 @@
   "000123": {
     "context": "000123",
     "code": "0x55",
-    "string": "@import 0131 000221"
+    "string": "@auto-import 0131 000221"
   },
   "000131": {
     "context": "000131",
@@ -477,7 +477,7 @@
   "002534": {
     "context": "002534",
     "code": "0x86",
-    "string": "@import 0132 002500"
+    "string": "@auto-import 0132 002500"
   },
   "002569": {
     "context": "002569",

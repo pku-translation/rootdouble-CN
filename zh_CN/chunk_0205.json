@@ -2,7 +2,7 @@
   "000145": {
     "context": "000145",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "000157": {
     "context": "000157",
@@ -50,7 +50,7 @@
     "context": "000231",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0027 001899"
+    "string": "@auto-import 0027 001899"
   },
   "000236": {
     "context": "000236",
@@ -284,7 +284,7 @@
     "context": "000955",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0015 002528"
+    "string": "@auto-import 0015 002528"
   },
   "000984": {
     "context": "000984",
@@ -433,7 +433,7 @@
     "context": "001385",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0195 001586"
+    "string": "@auto-import 0195 001586"
   },
   "001396": {
     "context": "001396",
@@ -1051,7 +1051,7 @@
     "context": "003236",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0084 003169"
+    "string": "@auto-import 0084 003203"
   },
   "003241": {
     "context": "003241",
@@ -1228,7 +1228,7 @@
   "003903": {
     "context": "003903",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "003987": {
     "context": "003987",
@@ -1515,7 +1515,7 @@
     "context": "004776",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0058 001339"
+    "string": "@auto-import 0058 001339"
   },
   "004805": {
     "context": "004805",
@@ -1569,7 +1569,7 @@
     "context": "004940",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0205 004810"
+    "string": "@auto-import 0205 004810"
   },
   "004998": {
     "context": "004998",
@@ -1689,7 +1689,7 @@
     "context": "005334",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0011 001416"
+    "string": "@auto-import 0011 001416"
   },
   "005345": {
     "context": "005345",
@@ -1827,7 +1827,7 @@
     "context": "005816",
     "code": "0x45",
     "developer_comment": "運転手",
-    "string": "@import 0205 005422"
+    "string": "@auto-import 0205 005422"
   },
   "005824": {
     "context": "005824",
@@ -1839,7 +1839,7 @@
     "context": "005836",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0205 005435"
+    "string": "@auto-import 0205 005435"
   },
   "005848": {
     "context": "005848",

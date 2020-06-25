@@ -1,0 +1,943 @@
+{
+  "000049": {
+    "context": "000049",
+    "code": "0x55",
+    "string": "@auto-import 0402 000092"
+  },
+  "000060": {
+    "context": "000060",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――『ぼく』は、悠里たちと一緒に――"
+  },
+  "000065": {
+    "context": "000065",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "鹿鳴公園に向かっていた。"
+  },
+  "000104": {
+    "context": "000104",
+    "code": "0x85",
+    "string": "@auto-import 0084 002400"
+  },
+  "000108": {
+    "context": "000108",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "【――天川夏彦の今――】"
+  },
+  "000190": {
+    "context": "000190",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくらはここしばらく、マスコミなどの目を逃れるため、隠遁生活を送っていた。"
+  },
+  "000195": {
+    "context": "000195",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "しかし世の混乱が収まったのを機に、久々に鹿鳴市に帰ってきていたのだ。"
+  },
+  "000200": {
+    "context": "000200",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それに、今日はあの子の一周忌だ。"
+  },
+  "000205": {
+    "context": "000205",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "墓参りに行こうという目的もあった。"
+  },
+  "000234": {
+    "context": "000234",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うーん、いい天気だね～……」"
+  },
+  "000239": {
+    "context": "000239",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里がうっとりと、目を細める。"
+  },
+  "000244": {
+    "context": "000244",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろとサリュと母さんがそれに答えた。"
+  },
+  "000273": {
+    "context": "000273",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「平和だねぇ、１年前の出来事が嘘みたいだね～」"
+  },
+  "000302": {
+    "context": "000302",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「同意……ここしばらく平和すぎて、退屈だけど」"
+  },
+  "000331": {
+    "context": "000331",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「タフね、優衣。元気が余ってるなら、私の仕事を手伝って欲しいくらいだわ」"
+  },
+  "000360": {
+    "context": "000360",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「超科局との折衝や各方面とのやりとりで、またしても３日完徹なのよ」"
+  },
+  "000389": {
+    "context": "000389",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「さすがに疲れてきたわ、私もそろそろ年だし……」"
+  },
+  "000400": {
+    "context": "000400",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ごめんよ母さん……これからはぼくらも総出で手伝うから」"
+  },
+  "000429": {
+    "context": "000429",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「無論」"
+  },
+  "000458": {
+    "context": "000458",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「私も料理とかやりますよ～」"
+  },
+  "000487": {
+    "context": "000487",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わ、わたしも何か頑張ります！」"
+  },
+  "000516": {
+    "context": "000516",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あら、冗談よ。子供は学校行きなさい」"
+  },
+  "000545": {
+    "context": "000545",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「あなたたちを、そういう当たり前の生活ができるようにするため、私は頑張ってるんだから」"
+  },
+  "000556": {
+    "context": "000556",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0025 000388"
+  },
+  "000561": {
+    "context": "000561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "つくづく偉大な母だと思う。"
+  },
+  "000566": {
+    "context": "000566",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "これほどまでに愛情深く、有能で、強く気高い人の息子である事は、正直言って誇らしい。"
+  },
+  "000571": {
+    "context": "000571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――だけどいつまでも甘えてちゃ駄目だ。"
+  },
+  "000588": {
+    "context": "000588",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "《悠里、ましろ、サリュ。母さんが駄目だって言っても手伝おうな》"
+  },
+  "000678": {
+    "context": "000678",
+    "code": "0x85",
+    "string": "《もちろん！》"
+  },
+  "000679": {
+    "context": "000679",
+    "code": "0x86",
+    "string": "悠里"
+  },
+  "000680": {
+    "context": "000680",
+    "code": "0x86",
+    "string": "@auto-import 0422 000678"
+  },
+  "000695": {
+    "context": "000695",
+    "code": "0x85",
+    "string": "《あったぼうよ》"
+  },
+  "000696": {
+    "context": "000696",
+    "code": "0x86",
+    "string": "ましろ"
+  },
+  "000697": {
+    "context": "000697",
+    "code": "0x86",
+    "string": "@auto-import 0422 000695"
+  },
+  "000749": {
+    "context": "000749",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん」"
+  },
+  "000754": {
+    "context": "000754",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう言ってぼくらは、笑みを交わした。"
+  },
+  "000806": {
+    "context": "000806",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やがて公園についた。"
+  },
+  "000811": {
+    "context": "000811",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "鹿鳴霊園に続く遊歩道を歩きながら、悠里が呟く。"
+  },
+  "000842": {
+    "context": "000842",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それにしても、懐かしいね……」"
+  },
+  "000853": {
+    "context": "000853",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「そうか……１０年ぶりになるんだな、悠里がここを歩くのは」"
+  },
+  "000882": {
+    "context": "000882",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うん」"
+  },
+  "000911": {
+    "context": "000911",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ねぇ、覚えてるひこりん？　１年前、ラボの中で再会した時、わたしが言った事」"
+  },
+  "000922": {
+    "context": "000922",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「覚えてるよ。『いつかみんなで、この公園を一緒に歩きたい』って」"
+  },
+  "000951": {
+    "context": "000951",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うん……願いが叶って、ホントに良かった……」"
+  },
+  "000956": {
+    "context": "000956",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "目を潤ませる悠里に、ましろたちが微笑む。"
+  },
+  "000985": {
+    "context": "000985",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「……これからはいくらでも歩けるよ、悠里」"
+  },
+  "001014": {
+    "context": "001014",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「そう、散歩なら何度でも付き合う」"
+  },
+  "001025": {
+    "context": "001025",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……だな」"
+  },
+  "001030": {
+    "context": "001030",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくもその言葉にうなずいた。"
+  },
+  "001035": {
+    "context": "001035",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――３人ともこの街に戻って来られた事を嬉しく思っているようだ。"
+  },
+  "001189": {
+    "context": "001189",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "この街では辛い事も起きたけど、懐かしい想い出もたくさんある。"
+  },
+  "001194": {
+    "context": "001194",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろが愛し、サリュが居場所を見つけ、そして悠里が自由に歩く事を望んだこの街。"
+  },
+  "001199": {
+    "context": "001199",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくらは生きて、ここに帰って来る事ができた。"
+  },
+  "001204": {
+    "context": "001204",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "自分の意思で、行く場所を決められる。それは当たり前の事かも知れないけど――"
+  },
+  "001209": {
+    "context": "001209",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "やっぱり幸せだった。"
+  },
+  "001254": {
+    "context": "001254",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「……なぁ、皆」"
+  },
+  "001283": {
+    "context": "001283",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「なぁに？」"
+  },
+  "001294": {
+    "context": "001294",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ぼくら、生きてるんだな」"
+  },
+  "001305": {
+    "context": "001305",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「自由を自分たちの手で、勝ち取る事ができたんだな」"
+  },
+  "001335": {
+    "context": "001335",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「ん。そうしみじみ言われると、感慨深いけど」"
+  },
+  "001371": {
+    "context": "001371",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……そうね。本当にみんなよく生還してくれたわ……」"
+  },
+  "001400": {
+    "context": "001400",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「９人の力と、天川博士のおかげだねぇ」"
+  },
+  "001405": {
+    "context": "001405",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "そう、そして誰より『あいつ』のおかげだ。照れくさいから、口にはしないけど。"
+  },
+  "001410": {
+    "context": "001410",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あいつに対するぼくの感情は、今もそう変わってない。"
+  },
+  "001415": {
+    "context": "001415",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "恩も感じているし、尊敬すべき相棒だったけど――背格好から考え方まで何もかもが違う、まずもって理解し合えない間柄なのだ。"
+  },
+  "001420": {
+    "context": "001420",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくがそう思った時、悠里がふっと微笑んで言う。"
+  },
+  "001449": {
+    "context": "001449",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うぅん、ひょっとしたら……」"
+  },
+  "001478": {
+    "context": "001478",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わたしたちの力だけじゃないかもよ」"
+  },
+  "001537": {
+    "context": "001537",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「え？」"
+  },
+  "001542": {
+    "context": "001542",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくらがきょとんとすると、悠里は遠くを見て言った。"
+  },
+  "001571": {
+    "context": "001571",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ね、皆、覚えてない？」"
+  },
+  "001582": {
+    "context": "001582",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの時、ラボの中でさ、爆発まであと１０分ってところで……」"
+  },
+  "001593": {
+    "context": "001593",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「すっごいフラッシュバックが起きたじゃない？」"
+  },
+  "001604": {
+    "context": "001604",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、忘れるわけないよ」"
+  },
+  "001633": {
+    "context": "001633",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「あれ不思議だったねー。なんだったんだろうね」"
+  },
+  "001662": {
+    "context": "001662",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「なんにせよ助かった。偶然にも、あの中に脱出方法があったから」"
+  },
+  "001691": {
+    "context": "001691",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それがさ、偶然じゃないのかもしれないよ」"
+  },
+  "001696": {
+    "context": "001696",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "悠里がそう言うと、母さんがうなずいた。"
+  },
+  "001725": {
+    "context": "001725",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「その件については、私も悠里ちゃんから聞いたわ」"
+  },
+  "001736": {
+    "context": "001736",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「過去に使ったＢＣが、連続で戻ってきたんですってね」"
+  },
+  "001747": {
+    "context": "001747",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0028 001735"
+  },
+  "001776": {
+    "context": "001776",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「しかもその中には、意味のある情報が含まれていたとなると……」"
+  },
+  "001787": {
+    "context": "001787",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「……あるいはその時、ラボの中には、何らかの『意識』が生まれていたのかもしれないわ」"
+  },
+  "001816": {
+    "context": "001816",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「意識？　ですか？」"
+  },
+  "001845": {
+    "context": "001845",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「実はあの日、私と悠里ちゃんは、そういう実験をしようと思っていたのよ」"
+  },
+  "001856": {
+    "context": "001856",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ＢＣによって発生する情報エネルギーを滞留・集積させる事によって、そこに意識は発生し得るかという実験」"
+  },
+  "001885": {
+    "context": "001885",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「わかりやすくいえば、魂を作る実験だよ」"
+  },
+  "001914": {
+    "context": "001914",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「魂……」"
+  },
+  "001925": {
+    "context": "001925",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「母さんはできたと思うかい？」"
+  },
+  "001954": {
+    "context": "001954",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「まぁ今となってはわからないわ。検証しようもないし」"
+  },
+  "001965": {
+    "context": "001965",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "@auto-import 0146 002593"
+  },
+  "001994": {
+    "context": "001994",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「でもひこりん、わたし思うんだけど――」"
+  },
+  "002006": {
+    "context": "002006",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの時、やっぱりその何かは、ラボの中にいた気がするんだ」"
+  },
+  "002035": {
+    "context": "002035",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「６時頃にＷＸ粒子増幅器が動き始めてから、それはラボの中にずっと漂っていたと思う」"
+  },
+  "002046": {
+    "context": "002046",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「最初はただ空っぽの魂で、意思も何もなくて、その場で起きている出来事を見ている事しかできなかったんだけどさ」"
+  },
+  "002057": {
+    "context": "002057",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「少しずつわたしたちのＢＣを受け取って、その中に情報を蓄えていってさ」"
+  },
+  "002068": {
+    "context": "002068",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そして、その情報エネルギーがいっぱいになった時――」"
+  },
+  "002097": {
+    "context": "002097",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「意識を持つ、魂さんが生まれたんじゃないかな」"
+  },
+  "002126": {
+    "context": "002126",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「生まれて、どうなったの？」"
+  },
+  "002155": {
+    "context": "002155",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「その魂さんがね、わたしたちを最後に助けてくれた気がするの」"
+  },
+  "002166": {
+    "context": "002166",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「脱出口を見つけてくれて、それをわたしたちに伝えようとして……」"
+  },
+  "002195": {
+    "context": "002195",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「それで、あのフラッシュバックが起きたって？」"
+  },
+  "002224": {
+    "context": "002224",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「そう。ほら魂さんは、わたしたちに意思を伝える手段がないでしょ？」"
+  },
+  "002253": {
+    "context": "002253",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「だからそれまで得た情報を切り貼りして、脱出口を示してくれたんじゃないかな～って……」"
+  },
+  "002282": {
+    "context": "002282",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「悠里はロマンちゃんだねぇ。そういうの嫌いじゃないけどさ」"
+  },
+  "002311": {
+    "context": "002311",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「私はやはり、単なる偶然だと思う」"
+  },
+  "002340": {
+    "context": "002340",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「私はどちらとも言えないわね。いずれ再現実験を行うまでは」"
+  },
+  "002369": {
+    "context": "002369",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「うぅ～……」"
+  },
+  "002374": {
+    "context": "002374",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "３人に拒否され、悠里はしょんぼりした。"
+  },
+  "002379": {
+    "context": "002379",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "助けを求めるように、ぼくを見る。"
+  },
+  "002408": {
+    "context": "002408",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……ね、ひこりんはどう思う？」"
+  },
+  "002419": {
+    "context": "002419",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「あの時、誰かが助けてくれたような気がしなかった？」"
+  },
+  "002424": {
+    "context": "002424",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくはその問いに、微笑んで答えた。"
+  },
+  "002435": {
+    "context": "002435",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あぁ、もちろんそう思うよ」"
+  },
+  "002464": {
+    "context": "002464",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「ほんと？」"
+  },
+  "002493": {
+    "context": "002493",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「やれやれ、夏彦は悠里の意見ならなんでも全肯定なんだねぇ」"
+  },
+  "002522": {
+    "context": "002522",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「やれやれ」"
+  },
+  "002551": {
+    "context": "002551",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「やれやれだわ」"
+  },
+  "002562": {
+    "context": "002562",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いやいやいや、ぼくもずっとそう考えていたんだよ」"
+  },
+  "002573": {
+    "context": "002573",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「あの時、確かに何かがぼくらを手助けしてくれたって」"
+  },
+  "002602": {
+    "context": "002602",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「そうですか、まぁそういう事にしときましょうか」"
+  },
+  "002670": {
+    "context": "002670",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ましろのその言葉に、皆が笑った。"
+  },
+  "002677": {
+    "context": "002677",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくも笑いながら、密かに思う。"
+  },
+  "002682": {
+    "context": "002682",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――悠里の意見には賛成だが、実は１つだけ意見が違うところがあった。"
+  },
+  "002842": {
+    "context": "002842",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "手助けしてくれたのは、最後のフラッシュバックの時だけなのだろうか？"
+  },
+  "002847": {
+    "context": "002847",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もっと早くから、手助けしてくれてたんじゃないだろうか……？"
+  },
+  "002899": {
+    "context": "002899",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "思えば誰かを『疑う』とか『信じる』とか、そういう大事な決断をしようとした時。"
+  },
+  "002904": {
+    "context": "002904",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "なんとなく、漠然とした『想い』みたいなものが、ぼくの背中を押してくれた気がする。"
+  },
+  "002980": {
+    "context": "002980",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "まぁそんな事を言っても誰にも伝わらないだろうし、ひとまず胸の中にしまっておくけれど。"
+  },
+  "003009": {
+    "context": "003009",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「……でもさ、みんな」"
+  },
+  "003020": {
+    "context": "003020",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「ん？」"
+  },
+  "003049": {
+    "context": "003049",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「もし、本当に魂さんが生まれていたとしたら……」"
+  },
+  "003060": {
+    "context": "003060",
+    "code": "0x45",
+    "developer_comment": "悠里",
+    "string": "「それはどこに行っちゃったのかな？」"
+  },
+  "003090": {
+    "context": "003090",
+    "code": "0x45",
+    "developer_comment": "ましろ",
+    "string": "「うーん、仮に生まれていたとしてもだよ。あの時、ラボは爆発しちゃったし……」"
+  },
+  "003121": {
+    "context": "003121",
+    "code": "0x45",
+    "developer_comment": "サリュ",
+    "string": "「その時に消えてしまったのでは？」"
+  },
+  "003162": {
+    "context": "003162",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "「ＢＣ粒子のエネルギーは、減衰していくからね」"
+  },
+  "003173": {
+    "context": "003173",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「いや、もしかすると――」"
+  },
+  "003184": {
+    "context": "003184",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "「絶縁体が破壊されると共に、ラボの外に出て、今もどこかを漂ってるかもしれないよ」"
+  },
+  "003247": {
+    "context": "003247",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "ぼくはそう言って、空を見上げた。"
+  },
+  "003322": {
+    "context": "003322",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――いつか先生が、授業で言っていた。"
+  },
+  "003327": {
+    "context": "003327",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "『あらゆるエネルギーは、触れ合えば入り混じる』と。"
+  },
+  "003332": {
+    "context": "003332",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "だったらＢＣ粒子のエネルギーは減衰しても、消えてなくなるわけじゃない。"
+  },
+  "003380": {
+    "context": "003380",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "薄暗いラボから解き放たれ、世界の隅々にまで拡散したのかもしれない。"
+  },
+  "003385": {
+    "context": "003385",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もっともそうだとしたら、その魂の意思も薄れていくだろう。"
+  },
+  "003436": {
+    "context": "003436",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "もうぼくらに語りかける事も、恐らくない。"
+  },
+  "003441": {
+    "context": "003441",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あの９時間の間だけ成立した、とても頼りない通信なのだ。"
+  },
+  "003485": {
+    "context": "003485",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "……だけどそれは、ぼくらに大切なものを残した。"
+  },
+  "003490": {
+    "context": "003490",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "あのとき生まれた魂が、ぼくらに伝えたのは――"
+  },
+  "003495": {
+    "context": "003495",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "人と人を繋げたいと思う『意思』。"
+  },
+  "003500": {
+    "context": "003500",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "心を分かち合い、共に歩こうとする想いだ。"
+  },
+  "003556": {
+    "context": "003556",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "――それは通信が途絶えても、きっと消えはしないはずだ。"
+  },
+  "003561": {
+    "context": "003561",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "触れ合った者たちの心に、これからも。"
+  },
+  "003566": {
+    "context": "003566",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "想いは決して、失われる事なく――"
+  },
+  "003571": {
+    "context": "003571",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "いつまでもそこに、残り続ける。"
+  },
+  "003734": {
+    "context": "003734",
+    "code": "0x85",
+    "string": "――『XTEND EPISODE』解放。"
+  },
+  "003736": {
+    "context": "003736",
+    "code": "0x85",
+    "string": "EXTRAで選べるモードが追加されました。"
+  },
+  "003757": {
+    "context": "003757",
+    "code": "0x85",
+    "string": "√DのAnswerモードが開放されました。"
+  },
+  "003759": {
+    "context": "003759",
+    "code": "0x85",
+    "string": "√Dのセンシズの入力画面で【Answer】を選択すると、"
+  },
+  "003761": {
+    "context": "003761",
+    "code": "0x85",
+    "string": "@auto-import 0129 001192"
+  }
+}

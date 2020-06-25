@@ -2,7 +2,7 @@
   "000044": {
     "context": "000044",
     "code": "0x55",
-    "string": "@import 0179 000042"
+    "string": "@auto-import 0179 000042"
   },
   "000055": {
     "context": "000055",
@@ -176,7 +176,7 @@
     "context": "000472",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0054 001378"
+    "string": "@auto-import 0054 001378"
   },
   "000483": {
     "context": "000483",
@@ -386,7 +386,7 @@
     "context": "000958",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0098 001103"
+    "string": "@auto-import 0098 001103"
   },
   "000963": {
     "context": "000963",
@@ -488,7 +488,7 @@
     "context": "001214",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0160 001986"
+    "string": "@auto-import 0160 001986"
   },
   "001219": {
     "context": "001219",
@@ -722,7 +722,7 @@
     "context": "001685",
     "code": "0x45",
     "developer_comment": "警備員",
-    "string": "@import 0003 001621"
+    "string": "@auto-import 0003 001621"
   },
   "001690": {
     "context": "001690",
@@ -854,7 +854,7 @@
     "context": "001871",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0190 001229"
+    "string": "@auto-import 0190 001229"
   },
   "001932": {
     "context": "001932",

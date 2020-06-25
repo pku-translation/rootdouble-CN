@@ -2,7 +2,7 @@
   "000069": {
     "context": "000069",
     "code": "0x55",
-    "string": "@import 0179 000042"
+    "string": "@auto-import 0179 000042"
   },
   "000077": {
     "context": "000077",
@@ -338,7 +338,7 @@
     "context": "001165",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0041 000188"
+    "string": "@auto-import 0041 000188"
   },
   "001331": {
     "context": "001331",
@@ -542,13 +542,13 @@
     "context": "001927",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0158 001274"
+    "string": "@auto-import 0158 001274"
   },
   "001938": {
     "context": "001938",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0098 001103"
+    "string": "@auto-import 0098 001103"
   },
   "001949": {
     "context": "001949",
@@ -848,7 +848,7 @@
     "context": "003005",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0041 000188"
+    "string": "@auto-import 0041 000188"
   },
   "003010": {
     "context": "003010",
@@ -908,7 +908,7 @@
     "context": "003129",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0154 001030"
+    "string": "@auto-import 0154 001030"
   },
   "003189": {
     "context": "003189",
@@ -938,7 +938,7 @@
     "context": "003239",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0024 002121"
+    "string": "@auto-import 0024 002121"
   },
   "003268": {
     "context": "003268",
@@ -1256,7 +1256,7 @@
     "context": "004087",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0038 002013"
+    "string": "@auto-import 0038 002013"
   },
   "004092": {
     "context": "004092",
@@ -1304,7 +1304,7 @@
     "context": "004277",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0014 002122"
+    "string": "@auto-import 0014 002122"
   },
   "004306": {
     "context": "004306",
@@ -1460,7 +1460,7 @@
     "context": "004678",
     "code": "0x45",
     "developer_comment": "夏彦・悠里",
-    "string": "@import 0172 005096"
+    "string": "@auto-import 0172 005096"
   },
   "004713": {
     "context": "004713",

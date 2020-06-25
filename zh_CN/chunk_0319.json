@@ -43,7 +43,7 @@
     "context": "000320",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "@import 0313 000375"
+    "string": "@auto-import 0313 000375"
   },
   "000344": {
     "context": "000344",
@@ -103,7 +103,7 @@
     "context": "001078",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0317 001166"
+    "string": "@auto-import 0317 001166"
   },
   "001334": {
     "context": "001334",
@@ -139,13 +139,13 @@
     "context": "001630",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0317 001166"
+    "string": "@auto-import 0317 001166"
   },
   "001700": {
     "context": "001700",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0039 000182"
+    "string": "@auto-import 0039 000182"
   },
   "001705": {
     "context": "001705",
@@ -157,7 +157,7 @@
     "context": "001741",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0039 000325"
+    "string": "@auto-import 0039 000325"
   },
   "001747": {
     "context": "001747",
@@ -181,13 +181,13 @@
     "context": "001774",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000666"
+    "string": "@auto-import 0039 000666"
   },
   "001785": {
     "context": "001785",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000677"
+    "string": "@auto-import 0039 000677"
   },
   "001790": {
     "context": "001790",
@@ -199,7 +199,7 @@
     "context": "001874",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0319 000748"
+    "string": "@auto-import 0319 000748"
   },
   "001879": {
     "context": "001879",
@@ -211,25 +211,25 @@
     "context": "001915",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0319 000790"
+    "string": "@auto-import 0319 000790"
   },
   "001944": {
     "context": "001944",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0319 000821"
+    "string": "@auto-import 0319 000821"
   },
   "002001": {
     "context": "002001",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0319 000905"
+    "string": "@auto-import 0319 000905"
   },
   "002030": {
     "context": "002030",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0319 000936"
+    "string": "@auto-import 0319 000936"
   },
   "002041": {
     "context": "002041",
@@ -247,19 +247,19 @@
     "context": "002081",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000637"
+    "string": "@auto-import 0039 000637"
   },
   "002092": {
     "context": "002092",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000666"
+    "string": "@auto-import 0039 000666"
   },
   "002103": {
     "context": "002103",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000677"
+    "string": "@auto-import 0039 000677"
   },
   "002108": {
     "context": "002108",
@@ -277,7 +277,7 @@
     "context": "002148",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0088 001149"
+    "string": "@auto-import 0088 001149"
   },
   "002177": {
     "context": "002177",
@@ -331,19 +331,19 @@
     "context": "002439",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0078 000739"
+    "string": "@auto-import 0078 000739"
   },
   "002450": {
     "context": "002450",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0319 001334"
+    "string": "@auto-import 0319 001334"
   },
   "002461": {
     "context": "002461",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0319 001350"
+    "string": "@auto-import 0319 001350"
   },
   "002486": {
     "context": "002486",
@@ -355,13 +355,13 @@
     "context": "002515",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0319 001432"
+    "string": "@auto-import 0319 001432"
   },
   "002550": {
     "context": "002550",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0319 001488"
+    "string": "@auto-import 0319 001488"
   },
   "002561": {
     "context": "002561",
@@ -571,7 +571,7 @@
     "context": "003226",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0005 004245"
+    "string": "@auto-import 0005 004245"
   },
   "003231": {
     "context": "003231",
@@ -583,7 +583,7 @@
     "context": "003288",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0319 000905"
+    "string": "@auto-import 0319 000905"
   },
   "003299": {
     "context": "003299",
@@ -607,13 +607,13 @@
     "context": "003332",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000666"
+    "string": "@auto-import 0039 000666"
   },
   "003343": {
     "context": "003343",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0039 000677"
+    "string": "@auto-import 0039 000677"
   },
   "003348": {
     "context": "003348",
@@ -679,7 +679,7 @@
     "context": "003728",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0317 003273"
+    "string": "@auto-import 0317 003285"
   },
   "003734": {
     "context": "003734",
@@ -703,7 +703,7 @@
     "context": "003780",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0317 003273"
+    "string": "@auto-import 0317 003285"
   },
   "003786": {
     "context": "003786",

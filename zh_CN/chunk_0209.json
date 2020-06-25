@@ -2,7 +2,7 @@
   "000045": {
     "context": "000045",
     "code": "0x55",
-    "string": "@import 0202 000094"
+    "string": "@auto-import 0202 000094"
   },
   "000067": {
     "context": "000067",
@@ -146,7 +146,7 @@
     "context": "000503",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0007 001119"
+    "string": "@auto-import 0007 001119"
   },
   "000532": {
     "context": "000532",
@@ -179,7 +179,7 @@
   "000674": {
     "context": "000674",
     "code": "0x86",
-    "string": "@import 0209 000672"
+    "string": "@auto-import 0209 000672"
   },
   "000692": {
     "context": "000692",
@@ -307,13 +307,13 @@
     "context": "001126",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0207 003525"
+    "string": "@auto-import 0207 003525"
   },
   "001137": {
     "context": "001137",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0207 003536"
+    "string": "@auto-import 0207 003536"
   },
   "001243": {
     "context": "001243",
@@ -479,7 +479,7 @@
     "context": "001884",
     "code": "0x45",
     "developer_comment": "警備員",
-    "string": "@import 0014 000552"
+    "string": "@auto-import 0014 000552"
   },
   "001889": {
     "context": "001889",
@@ -497,7 +497,7 @@
     "context": "001983",
     "code": "0x45",
     "developer_comment": "警備員",
-    "string": "@import 0070 000787"
+    "string": "@auto-import 0070 000787"
   },
   "001988": {
     "context": "001988",
@@ -947,7 +947,7 @@
     "context": "003204",
     "code": "0x45",
     "developer_comment": "保安課員",
-    "string": "@import 0008 000483"
+    "string": "@auto-import 0008 000483"
   },
   "003209": {
     "context": "003209",
