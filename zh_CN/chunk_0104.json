@@ -2,7 +2,7 @@
   "000107": {
     "context": "000107",
     "code": "0x55",
-    "string": "@import 0017 000136"
+    "string": "@auto-import 0017 000136"
   },
   "000111": {
     "context": "000111",
@@ -44,7 +44,7 @@
     "context": "000151",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0024 000178"
+    "string": "@auto-import 0024 000178"
   },
   "000156": {
     "context": "000156",
@@ -56,7 +56,7 @@
     "context": "000192",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0024 000216"
+    "string": "@auto-import 0024 000216"
   },
   "000236": {
     "context": "000236",
@@ -122,7 +122,7 @@
     "context": "000493",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0024 000781"
+    "string": "@auto-import 0024 000781"
   },
   "000498": {
     "context": "000498",
@@ -146,7 +146,7 @@
     "context": "000627",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0024 000931"
+    "string": "@auto-import 0024 000931"
   },
   "000632": {
     "context": "000632",
@@ -272,7 +272,7 @@
     "context": "001244",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0018 001807"
+    "string": "@auto-import 0018 001807"
   },
   "001273": {
     "context": "001273",
@@ -284,13 +284,13 @@
     "context": "001308",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0018 001876"
+    "string": "@auto-import 0018 001876"
   },
   "001319": {
     "context": "001319",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0018 001887"
+    "string": "@auto-import 0018 001887"
   },
   "001389": {
     "context": "001389",
@@ -331,7 +331,7 @@
   "001689": {
     "context": "001689",
     "code": "0x85",
-    "string": "@import 0102 001086"
+    "string": "@auto-import 0102 001086"
   },
   "001692": {
     "context": "001692",
@@ -348,7 +348,7 @@
     "context": "001698",
     "code": "0x45",
     "developer_comment": "",
-    "string": "太过担心风见的身体，渡濑的 AD 注射不足的情况下的结局。"
+    "string": "太过担心风见的身体，渡濑的 AD 注射不足的结果。"
   },
   "001701": {
     "context": "001701",
