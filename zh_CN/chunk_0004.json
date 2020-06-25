@@ -7,7 +7,7 @@
   "000166": {
     "context": "000166",
     "code": "0x55",
-    "string": "@import 0003 000047"
+    "string": "@auto-import 0003 000047"
   },
   "000183": {
     "context": "000183",
@@ -54,7 +54,7 @@
     "context": "000358",
     "code": "0x45",
     "developer_comment": "男",
-    "string": "「……知道了，拜托了！」"
+    "string": "「……好吧，拜托了！」"
   },
   "000363": {
     "context": "000363",
@@ -131,7 +131,7 @@
     "context": "000670",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0004 000397"
+    "string": "@auto-import 0004 000397"
   },
   "000678": {
     "context": "000678",
