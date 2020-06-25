@@ -2,7 +2,7 @@
   "000046": {
     "context": "000046",
     "code": "0x55",
-    "string": "@import 0248 000102"
+    "string": "@auto-import 0248 000102"
   },
   "000059": {
     "context": "000059",
@@ -32,43 +32,43 @@
     "context": "000132",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001365"
+    "string": "@auto-import 0076 001365"
   },
   "000137": {
     "context": "000137",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001370"
+    "string": "@auto-import 0076 001370"
   },
   "000142": {
     "context": "000142",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001375"
+    "string": "@auto-import 0076 001375"
   },
   "000147": {
     "context": "000147",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001380"
+    "string": "@auto-import 0076 001380"
   },
   "000152": {
     "context": "000152",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001385"
+    "string": "@auto-import 0076 001385"
   },
   "000157": {
     "context": "000157",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001390"
+    "string": "@auto-import 0076 001390"
   },
   "000162": {
     "context": "000162",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001395"
+    "string": "@auto-import 0076 001395"
   },
   "000168": {
     "context": "000168",
@@ -98,7 +98,7 @@
     "context": "000229",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001502"
+    "string": "@auto-import 0076 001502"
   },
   "000232": {
     "context": "000232",
@@ -115,37 +115,37 @@
     "context": "000238",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001511"
+    "string": "@auto-import 0076 001511"
   },
   "000241": {
     "context": "000241",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001514"
+    "string": "@auto-import 0076 001514"
   },
   "000244": {
     "context": "000244",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001517"
+    "string": "@auto-import 0076 001517"
   },
   "000247": {
     "context": "000247",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001520"
+    "string": "@auto-import 0076 001520"
   },
   "000250": {
     "context": "000250",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001523"
+    "string": "@auto-import 0076 001523"
   },
   "000253": {
     "context": "000253",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001526"
+    "string": "@auto-import 0076 001526"
   },
   "000257": {
     "context": "000257",
@@ -156,31 +156,31 @@
     "context": "000260",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001533"
+    "string": "@auto-import 0076 001533"
   },
   "000263": {
     "context": "000263",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001536"
+    "string": "@auto-import 0076 001536"
   },
   "000266": {
     "context": "000266",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001539"
+    "string": "@auto-import 0076 001539"
   },
   "000269": {
     "context": "000269",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001542"
+    "string": "@auto-import 0076 001542"
   },
   "000272": {
     "context": "000272",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001545"
+    "string": "@auto-import 0076 001545"
   },
   "000275": {
     "context": "000275",
@@ -216,7 +216,7 @@
     "context": "000364",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001642"
+    "string": "@auto-import 0076 001642"
   },
   "000367": {
     "context": "000367",
@@ -227,13 +227,13 @@
     "context": "000370",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001648"
+    "string": "@auto-import 0076 001648"
   },
   "000373": {
     "context": "000373",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001651"
+    "string": "@auto-import 0076 001651"
   },
   "000376": {
     "context": "000376",
@@ -244,67 +244,67 @@
     "context": "000379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001642"
+    "string": "@auto-import 0076 001657"
   },
   "000382": {
     "context": "000382",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001660"
+    "string": "@auto-import 0076 001660"
   },
   "000385": {
     "context": "000385",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001663"
+    "string": "@auto-import 0076 001663"
   },
   "000395": {
     "context": "000395",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001658"
+    "string": "@auto-import 0076 001673"
   },
   "000398": {
     "context": "000398",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001676"
+    "string": "@auto-import 0076 001676"
   },
   "000401": {
     "context": "000401",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001679"
+    "string": "@auto-import 0076 001679"
   },
   "000404": {
     "context": "000404",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001682"
+    "string": "@auto-import 0076 001682"
   },
   "000407": {
     "context": "000407",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001685"
+    "string": "@auto-import 0076 001685"
   },
   "000410": {
     "context": "000410",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001688"
+    "string": "@auto-import 0076 001688"
   },
   "000413": {
     "context": "000413",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001691"
+    "string": "@auto-import 0076 001691"
   },
   "000416": {
     "context": "000416",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001694"
+    "string": "@auto-import 0076 001694"
   },
   "000443": {
     "context": "000443",
@@ -340,49 +340,49 @@
     "context": "000511",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001788"
+    "string": "@auto-import 0076 001803"
   },
   "000514": {
     "context": "000514",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001806"
+    "string": "@auto-import 0076 001806"
   },
   "000517": {
     "context": "000517",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001809"
+    "string": "@auto-import 0076 001809"
   },
   "000520": {
     "context": "000520",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001812"
+    "string": "@auto-import 0076 001812"
   },
   "000524": {
     "context": "000524",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001882"
+    "string": "@auto-import 0076 001897"
   },
   "000527": {
     "context": "000527",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001900"
+    "string": "@auto-import 0076 001900"
   },
   "000530": {
     "context": "000530",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001903"
+    "string": "@auto-import 0076 001903"
   },
   "000533": {
     "context": "000533",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001906"
+    "string": "@auto-import 0076 001906"
   },
   "000536": {
     "context": "000536",
@@ -393,13 +393,13 @@
     "context": "000539",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001897"
+    "string": "@auto-import 0076 001912"
   },
   "000542": {
     "context": "000542",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001915"
+    "string": "@auto-import 0076 001915"
   },
   "000545": {
     "context": "000545",
@@ -410,61 +410,61 @@
     "context": "000548",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001906"
+    "string": "@auto-import 0076 001921"
   },
   "000558": {
     "context": "000558",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001916"
+    "string": "@auto-import 0076 001931"
   },
   "000561": {
     "context": "000561",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001934"
+    "string": "@auto-import 0076 001934"
   },
   "000564": {
     "context": "000564",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001937"
+    "string": "@auto-import 0076 001937"
   },
   "000567": {
     "context": "000567",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001940"
+    "string": "@auto-import 0076 001940"
   },
   "000577": {
     "context": "000577",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001935"
+    "string": "@auto-import 0076 001950"
   },
   "000580": {
     "context": "000580",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001953"
+    "string": "@auto-import 0076 001953"
   },
   "000583": {
     "context": "000583",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001956"
+    "string": "@auto-import 0076 001956"
   },
   "000586": {
     "context": "000586",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001959"
+    "string": "@auto-import 0076 001959"
   },
   "000589": {
     "context": "000589",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0076 001962"
+    "string": "@auto-import 0076 001962"
   },
   "000617": {
     "context": "000617",
@@ -488,13 +488,13 @@
     "context": "000685",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 002002"
+    "string": "@auto-import 0076 002017"
   },
   "000715": {
     "context": "000715",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 002215"
+    "string": "@auto-import 0076 002230"
   },
   "000744": {
     "context": "000744",
@@ -506,25 +506,25 @@
     "context": "000755",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 002260"
+    "string": "@auto-import 0076 002275"
   },
   "000784": {
     "context": "000784",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 002289"
+    "string": "@auto-import 0076 002304"
   },
   "000795": {
     "context": "000795",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 002300"
+    "string": "@auto-import 0076 002315"
   },
   "000824": {
     "context": "000824",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 002329"
+    "string": "@auto-import 0076 002344"
   },
   "000835": {
     "context": "000835",
@@ -575,7 +575,7 @@
   "001314": {
     "context": "001314",
     "code": "0x86",
-    "string": "@import 0255 001312"
+    "string": "@auto-import 0255 001312"
   },
   "001331": {
     "context": "001331",
@@ -641,12 +641,12 @@
   "001508": {
     "context": "001508",
     "code": "0x85",
-    "string": "@import 0240 003063"
+    "string": "@auto-import 0240 003063"
   },
   "001510": {
     "context": "001510",
     "code": "0x85",
-    "string": "@import 0240 003065"
+    "string": "@auto-import 0240 003065"
   },
   "001511": {
     "context": "001511",
@@ -656,17 +656,17 @@
   "001512": {
     "context": "001512",
     "code": "0x86",
-    "string": "@import 0240 003067"
+    "string": "@auto-import 0240 003067"
   },
   "001527": {
     "context": "001527",
     "code": "0x85",
-    "string": "@import 0240 003082"
+    "string": "@auto-import 0240 003082"
   },
   "001529": {
     "context": "001529",
     "code": "0x85",
-    "string": "@import 0240 003084"
+    "string": "@auto-import 0240 003084"
   },
   "001530": {
     "context": "001530",
@@ -676,17 +676,17 @@
   "001531": {
     "context": "001531",
     "code": "0x86",
-    "string": "@import 0240 003086"
+    "string": "@auto-import 0240 003086"
   },
   "001546": {
     "context": "001546",
     "code": "0x85",
-    "string": "@import 0240 003101"
+    "string": "@auto-import 0240 003101"
   },
   "001548": {
     "context": "001548",
     "code": "0x85",
-    "string": "@import 0240 003103"
+    "string": "@auto-import 0240 003103"
   },
   "001549": {
     "context": "001549",
@@ -696,7 +696,7 @@
   "001550": {
     "context": "001550",
     "code": "0x86",
-    "string": "@import 0240 003105"
+    "string": "@auto-import 0240 003105"
   },
   "001578": {
     "context": "001578",
@@ -720,7 +720,7 @@
     "context": "001739",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 003422"
+    "string": "@auto-import 0076 003437"
   },
   "001744": {
     "context": "001744",
@@ -756,37 +756,37 @@
     "context": "001944",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 003537"
+    "string": "@auto-import 0076 003552"
   },
   "001955": {
     "context": "001955",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 003548"
+    "string": "@auto-import 0076 003563"
   },
   "001984": {
     "context": "001984",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 003577"
+    "string": "@auto-import 0076 003592"
   },
   "001995": {
     "context": "001995",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 003588"
+    "string": "@auto-import 0076 003603"
   },
   "002006": {
     "context": "002006",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0076 003599"
+    "string": "@auto-import 0076 003614"
   },
   "002035": {
     "context": "002035",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0076 003628"
+    "string": "@auto-import 0076 003643"
   },
   "002090": {
     "context": "002090",

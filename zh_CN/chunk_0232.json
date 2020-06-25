@@ -548,13 +548,13 @@
     "context": "002643",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005838"
+    "string": "@auto-import 0002 005838"
   },
   "002648": {
     "context": "002648",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005843"
+    "string": "@auto-import 0002 005843"
   },
   "002653": {
     "context": "002653",
@@ -571,7 +571,7 @@
   "002792": {
     "context": "002792",
     "code": "0x85",
-    "string": "@import 0102 001086"
+    "string": "@auto-import 0102 001086"
   },
   "002795": {
     "context": "002795",

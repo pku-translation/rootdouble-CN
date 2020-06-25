@@ -2,13 +2,13 @@
   "000008": {
     "context": "000008",
     "code": "0x55",
-    "string": "@import 0236 000071"
+    "string": "@auto-import 0236 000071"
   },
   "000025": {
     "context": "000025",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005704"
+    "string": "@auto-import 0002 005704"
   },
   "000030": {
     "context": "000030",
@@ -176,7 +176,7 @@
     "context": "000855",
     "code": "0x45",
     "developer_comment": "？？",
-    "string": "@import 0227 001238"
+    "string": "@auto-import 0227 001238"
   },
   "000924": {
     "context": "000924",
@@ -224,17 +224,17 @@
     "context": "001010",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0129 001026"
+    "string": "@auto-import 0129 001026"
   },
   "001140": {
     "context": "001140",
     "code": "0x85",
-    "string": "@import 0129 001156"
+    "string": "@auto-import 0129 001156"
   },
   "001142": {
     "context": "001142",
     "code": "0x85",
-    "string": "@import 0129 001158"
+    "string": "@auto-import 0129 001158"
   },
   "001172": {
     "context": "001172",
@@ -249,6 +249,6 @@
   "001176": {
     "context": "001176",
     "code": "0x85",
-    "string": "@import 0129 001192"
+    "string": "@auto-import 0129 001192"
   }
 }

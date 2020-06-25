@@ -2,7 +2,7 @@
   "000013": {
     "context": "000013",
     "code": "0x55",
-    "string": "@import 0131 000221"
+    "string": "@auto-import 0131 000221"
   },
   "000021": {
     "context": "000021",
@@ -1233,7 +1233,7 @@
   "005285": {
     "context": "005285",
     "code": "0x86",
-    "string": "@import 0139 005275"
+    "string": "@auto-import 0139 005275"
   },
   "005295": {
     "context": "005295",
@@ -1248,7 +1248,7 @@
   "005305": {
     "context": "005305",
     "code": "0x86",
-    "string": "@import 0139 005295"
+    "string": "@auto-import 0139 005295"
   },
   "005325": {
     "context": "005325",
@@ -1488,7 +1488,7 @@
     "context": "006086",
     "code": "0x47",
     "developer_comment": "",
-    "string": "——这是从今天算起，6 天后的早晨。"
+    "string": "——那是从今天算起，6 天后的早晨。"
   },
   "006185": {
     "context": "006185",

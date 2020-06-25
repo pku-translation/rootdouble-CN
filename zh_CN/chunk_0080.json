@@ -2,7 +2,7 @@
   "000051": {
     "context": "000051",
     "code": "0x55",
-    "string": "@import 0069 000136"
+    "string": "@auto-import 0069 000136"
   },
   "000066": {
     "context": "000066",
@@ -512,7 +512,7 @@
     "context": "001867",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑就像自暴自弃一样，全力撞着防火门。"
+    "string": "渡濑自暴自弃地用身体冲撞防火门。"
   },
   "001878": {
     "context": "001878",
@@ -655,7 +655,7 @@
     "context": "002568",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为了保护她，整个人扑倒在通道身上。"
+    "string": "为了保护她，渡濑整个人扑倒在通道上。"
   },
   "002575": {
     "context": "002575",
@@ -673,7 +673,7 @@
     "context": "002643",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0080 002552"
+    "string": "@auto-import 0080 002552"
   },
   "002650": {
     "context": "002650",

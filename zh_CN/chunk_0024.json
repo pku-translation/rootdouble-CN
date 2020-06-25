@@ -2,7 +2,7 @@
   "000053": {
     "context": "000053",
     "code": "0x55",
-    "string": "@import 0017 000136"
+    "string": "@auto-import 0017 000136"
   },
   "000061": {
     "context": "000061",
@@ -119,7 +119,7 @@
     "context": "000497",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0024 000417"
+    "string": "@auto-import 0024 000417"
   },
   "000505": {
     "context": "000505",

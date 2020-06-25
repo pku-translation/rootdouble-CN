@@ -2,7 +2,7 @@
   "000076": {
     "context": "000076",
     "code": "0x55",
-    "string": "@import 0131 000221"
+    "string": "@auto-import 0131 000221"
   },
   "000084": {
     "context": "000084",
@@ -35,7 +35,7 @@
   "000127": {
     "context": "000127",
     "code": "0x86",
-    "string": "@import 0140 000117"
+    "string": "@auto-import 0140 000117"
   },
   "000137": {
     "context": "000137",
@@ -50,7 +50,7 @@
   "000147": {
     "context": "000147",
     "code": "0x86",
-    "string": "@import 0140 000137"
+    "string": "@auto-import 0140 000137"
   },
   "000410": {
     "context": "000410",
@@ -548,7 +548,7 @@
   "004526": {
     "context": "004526",
     "code": "0x86",
-    "string": "@import 0140 004509"
+    "string": "@auto-import 0140 004509"
   },
   "004540": {
     "context": "004540",
@@ -710,7 +710,7 @@
     "context": "005241",
     "code": "0x47",
     "developer_comment": "",
-    "string": "——这是从今天算起，5 天前的早晨。 "
+    "string": "——那是从今天算起，5 天前的早晨。 "
   },
   "005340": {
     "context": "005340",

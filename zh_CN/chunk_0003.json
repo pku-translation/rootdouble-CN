@@ -863,7 +863,7 @@
   "003841": {
     "context": "003841",
     "code": "0x86",
-    "string": "@import 0003 003839"
+    "string": "@auto-import 0003 003839"
   },
   "003856": {
     "context": "003856",
@@ -878,7 +878,7 @@
   "003858": {
     "context": "003858",
     "code": "0x86",
-    "string": "@import 0003 003856"
+    "string": "@auto-import 0003 003856"
   },
   "003886": {
     "context": "003886",
@@ -953,7 +953,7 @@
   "003999": {
     "context": "003999",
     "code": "0x86",
-    "string": "@import 0003 003997"
+    "string": "@auto-import 0003 003997"
   },
   "004027": {
     "context": "004027",

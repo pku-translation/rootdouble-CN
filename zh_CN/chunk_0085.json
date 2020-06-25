@@ -2,7 +2,7 @@
   "000046": {
     "context": "000046",
     "code": "0x55",
-    "string": "@import 0069 000136"
+    "string": "@auto-import 0069 000136"
   },
   "000058": {
     "context": "000058",
@@ -35,7 +35,7 @@
   "000128": {
     "context": "000128",
     "code": "0x86",
-    "string": "@import 0085 000126"
+    "string": "@auto-import 0085 000126"
   },
   "000143": {
     "context": "000143",
@@ -103,7 +103,7 @@
     "context": "000352",
     "code": "0x45",
     "developer_comment": "",
-    "string": "到了 Factory，看到了洵、惠那，和宇喜多的身影。"
+    "string": "到了 Factory，看到洵、惠那和宇喜多的身影。"
   },
   "000447": {
     "context": "000447",
@@ -301,7 +301,7 @@
     "context": "001159",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑难以置信道。"
+    "string": "渡濑难以置信地喃喃。"
   },
   "001170": {
     "context": "001170",
@@ -738,7 +738,7 @@
     "context": "002247",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而相对的，渡濑他们看到了——难以置信的事情。"
+    "string": "而相对地，渡濑他们看到了——难以置信的事情。"
   },
   "002303": {
     "context": "002303",
@@ -768,7 +768,7 @@
     "context": "002383",
     "code": "0x45",
     "developer_comment": "",
-    "string": "放在脑科学实验室的 AD。"
+    "string": "放在脑科学实验室的 AD，"
   },
   "002389": {
     "context": "002389",
@@ -786,7 +786,7 @@
     "context": "002405",
     "code": "0x45",
     "developer_comment": "",
-    "string": "相对的是撕碎的纸片，散乱在地板上。"
+    "string": "取而代之的是撕碎的纸片，散乱在地板上。"
   },
   "002410": {
     "context": "002410",
@@ -798,7 +798,7 @@
     "context": "002415",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——这是被残酷地撕碎丢弃的，惠那的信。"
+    "string": "——这是被撕成破烂的，惠那留下的信。"
   },
   "002420": {
     "context": "002420",

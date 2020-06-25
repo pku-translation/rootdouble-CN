@@ -2,7 +2,7 @@
   "000087": {
     "context": "000087",
     "code": "0x55",
-    "string": "@import 0069 000136"
+    "string": "@auto-import 0069 000136"
   },
   "000097": {
     "context": "000097",
@@ -38,7 +38,7 @@
     "context": "000158",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0073 000564"
+    "string": "@auto-import 0073 000564"
   },
   "000263": {
     "context": "000263",
@@ -80,13 +80,13 @@
     "context": "000314",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无论去到这个设施里的哪里，照射已经都超过了第 1 危险范围了。"
+    "string": "无论去到这个设施里的哪里，照射都超过了第 1 危险范围。"
   },
   "000319": {
     "context": "000319",
     "code": "0x45",
     "developer_comment": "",
-    "string": "之前风见用不完全的 AD 撑了一小时，那个时候她就已经说她身体不舒服了。"
+    "string": "之前风见用不完全的 AD 撑了一小时，那个时候她也说她身体不舒服。"
   },
   "000324": {
     "context": "000324",
@@ -128,7 +128,7 @@
     "context": "000361",
     "code": "0x45",
     "developer_comment": "",
-    "string": "异常的事情一个接一个的发生。"
+    "string": "异常的事情一个接一个地发生。"
   },
   "000366": {
     "context": "000366",
@@ -241,7 +241,7 @@
     "context": "000756",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「但是我不认为这是夏彦他们擅自拿走了 AD」"
+    "string": "「但是我不认为这是夏彦君他们擅自拿走了 AD」"
   },
   "000767": {
     "context": "000767",
@@ -325,7 +325,7 @@
     "context": "001026",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0086 000956"
+    "string": "@auto-import 0086 000956"
   },
   "001055": {
     "context": "001055",
@@ -337,7 +337,7 @@
     "context": "001084",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0086 001014"
+    "string": "@auto-import 0086 001014"
   },
   "001096": {
     "context": "001096",
@@ -516,7 +516,7 @@
     "context": "001795",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@need-review 「你上个星期，才被我们救了吧！？真好意思这么说我们呢！」"
+    "string": "「你上个星期，才被我们救了吧！？真好意思这么说我们呢！」"
   },
   "001824": {
     "context": "001824",
@@ -780,7 +780,7 @@
     "context": "002563",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0086 002511"
+    "string": "@auto-import 0086 002511"
   },
   "002592": {
     "context": "002592",
@@ -840,7 +840,7 @@
     "context": "002709",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「为了看到能使我们相信同伴的证据，出发吧」"
+    "string": "「为了寻找能使我们相信同伴的证据，出发吧」"
   },
   "002758": {
     "context": "002758",

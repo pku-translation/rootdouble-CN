@@ -2,7 +2,7 @@
   "000047": {
     "context": "000047",
     "code": "0x55",
-    "string": "@import 0069 000136"
+    "string": "@auto-import 0069 000136"
   },
   "000062": {
     "context": "000062",
@@ -146,7 +146,7 @@
     "context": "000460",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多点了点头，离开了楼梯间。"
+    "string": "宇喜多点点头，离开了楼梯间。"
   },
   "000471": {
     "context": "000471",
@@ -158,7 +158,7 @@
     "context": "000476",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑很快爬上了绳子，来到了楼上。"
+    "string": "渡濑很快借用绳子，爬到了楼上。"
   },
   "000580": {
     "context": "000580",
@@ -182,7 +182,7 @@
     "context": "000693",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就在没找到 AD 的过程中，时间正在流逝。"
+    "string": "AD 同样没找到，只有时间不断流逝。"
   },
   "000704": {
     "context": "000704",
@@ -230,7 +230,7 @@
     "context": "000784",
     "code": "0x45",
     "developer_comment": "",
-    "string": "上面正显示着像是正在被编辑的文本文件一样的东西。"
+    "string": "上面显示着的东西，似乎是个正在被编辑的文本文件。"
   },
   "000822": {
     "context": "000822",
@@ -376,7 +376,7 @@
     "context": "000935",
     "code": "0x45",
     "developer_comment": "",
-    "string": "尽管如此不知为何，看到这些文字的瞬间——未知的恶寒在他身上游走。"
+    "string": "尽管如此，却不知道为什么，看到这些文字的瞬间——未知的恶寒在他身上游走。"
   },
   "000946": {
     "context": "000946",
@@ -388,7 +388,7 @@
     "context": "000994",
     "code": "0x45",
     "developer_comment": "",
-    "string": "低声自言自语的同时——渡濑的脑中，闪过了奇妙的景象。"
+    "string": "自言自语的同时——渡濑的脑中，闪过了奇妙的景象。"
   },
   "001042": {
     "context": "001042",
@@ -403,7 +403,7 @@
   "001053": {
     "context": "001053",
     "code": "0x85",
-    "string": "@import 0084 001043"
+    "string": "@auto-import 0084 001043"
   },
   "001116": {
     "context": "001116",
@@ -418,7 +418,7 @@
   "001125": {
     "context": "001125",
     "code": "0x85",
-    "string": "@import 0084 001117"
+    "string": "@auto-import 0084 001117"
   },
   "001188": {
     "context": "001188",
@@ -433,7 +433,7 @@
   "001197": {
     "context": "001197",
     "code": "0x85",
-    "string": "@import 0084 001189"
+    "string": "@auto-import 0084 001189"
   },
   "001260": {
     "context": "001260",
@@ -448,7 +448,7 @@
   "001269": {
     "context": "001269",
     "code": "0x85",
-    "string": "@import 0084 001261"
+    "string": "@auto-import 0084 001261"
   },
   "001365": {
     "context": "001365",
@@ -472,7 +472,7 @@
     "context": "001380",
     "code": "0x45",
     "developer_comment": "",
-    "string": "明明没有什么理由，他却感到呆在这个地方非常恐怖，像是要呕吐一般地不快……"
+    "string": "明明没有什么理由，他却感到呆在这个地方非常恐怖，不快得简直要吐出来……"
   },
   "001440": {
     "context": "001440",
@@ -484,7 +484,7 @@
     "context": "001445",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑像是逃走一般，离开了那个房间。"
+    "string": "渡濑离开那个房间，逃走了。"
   },
   "001495": {
     "context": "001495",
@@ -544,7 +544,7 @@
     "context": "001698",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001682"
+    "string": "@auto-import 0055 001682"
   },
   "001757": {
     "context": "001757",
@@ -586,37 +586,37 @@
     "context": "001867",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001635"
+    "string": "@auto-import 0055 001738"
   },
   "001896": {
     "context": "001896",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001669"
+    "string": "@auto-import 0055 001772"
   },
   "001925": {
     "context": "001925",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001703"
+    "string": "@auto-import 0055 001806"
   },
   "001936": {
     "context": "001936",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0055 001769"
+    "string": "@auto-import 0055 001872"
   },
   "001965": {
     "context": "001965",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001813"
+    "string": "@auto-import 0055 001916"
   },
   "001976": {
     "context": "001976",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001824"
+    "string": "@auto-import 0055 001927"
   },
   "001987": {
     "context": "001987",
@@ -628,25 +628,25 @@
     "context": "002006",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001859"
+    "string": "@auto-import 0055 001962"
   },
   "002017": {
     "context": "002017",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0055 001870"
+    "string": "@auto-import 0055 001973"
   },
   "002022": {
     "context": "002022",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0055 001875"
+    "string": "@auto-import 0055 001978"
   },
   "002134": {
     "context": "002134",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0055 002460"
+    "string": "@auto-import 0055 002563"
   },
   "002200": {
     "context": "002200",
@@ -664,13 +664,13 @@
     "context": "002216",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0055 002194"
+    "string": "@auto-import 0055 002297"
   },
   "002227": {
     "context": "002227",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0055 002264"
+    "string": "@auto-import 0055 002367"
   },
   "002292": {
     "context": "002292",
@@ -764,7 +764,7 @@
   "002481": {
     "context": "002481",
     "code": "0x85",
-    "string": "@import 0084 002400"
+    "string": "@auto-import 0084 002400"
   },
   "002485": {
     "context": "002485",
@@ -775,7 +775,7 @@
   "002562": {
     "context": "002562",
     "code": "0x85",
-    "string": "@import 0084 002400"
+    "string": "@auto-import 0084 002400"
   },
   "002566": {
     "context": "002566",
@@ -786,7 +786,7 @@
   "002643": {
     "context": "002643",
     "code": "0x85",
-    "string": "@import 0084 002400"
+    "string": "@auto-import 0084 002400"
   },
   "002647": {
     "context": "002647",
@@ -1043,7 +1043,7 @@
   "003566": {
     "context": "003566",
     "code": "0x85",
-    "string": "@import 0006 004118"
+    "string": "@auto-import 0006 004118"
   },
   "003567": {
     "context": "003567",
@@ -1053,7 +1053,7 @@
   "003568": {
     "context": "003568",
     "code": "0x86",
-    "string": "@import 0006 004118"
+    "string": "@auto-import 0006 004118"
   },
   "003596": {
     "context": "003596",
@@ -1071,7 +1071,7 @@
     "context": "003681",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0005 001538"
+    "string": "@auto-import 0005 001538"
   },
   "003745": {
     "context": "003745",
@@ -1101,19 +1101,19 @@
     "context": "003826",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0038 003005"
+    "string": "@auto-import 0038 003005"
   },
   "003837": {
     "context": "003837",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0038 003016"
+    "string": "@auto-import 0038 003016"
   },
   "003848": {
     "context": "003848",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0038 003136"
+    "string": "@auto-import 0038 003136"
   },
   "003853": {
     "context": "003853",
@@ -1137,13 +1137,13 @@
     "context": "003914",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "@import 0048 000779"
+    "string": "@auto-import 0048 000779"
   },
   "003925": {
     "context": "003925",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0048 000855"
+    "string": "@auto-import 0048 000855"
   },
   "003930": {
     "context": "003930",
@@ -1215,7 +1215,7 @@
     "context": "004072",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那时的话的意思也好，恐怖的原因也好，她对面渡濑时候的想法也好，一句话也没说——"
+    "string": "那时的话的意思也好，恐怖的原因也好，她对面渡濑时候的想法也好，一句都没说出来——"
   },
   "004077": {
     "context": "004077",

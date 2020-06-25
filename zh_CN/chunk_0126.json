@@ -2,7 +2,7 @@
   "000098": {
     "context": "000098",
     "code": "0x55",
-    "string": "@import 0125 000046"
+    "string": "@auto-import 0125 000046"
   },
   "000113": {
     "context": "000113",
@@ -404,13 +404,13 @@
     "context": "001319",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0110 001220"
+    "string": "@auto-import 0110 001220"
   },
   "001327": {
     "context": "001327",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "@import 0110 001228"
+    "string": "@auto-import 0110 001228"
   },
   "001338": {
     "context": "001338",

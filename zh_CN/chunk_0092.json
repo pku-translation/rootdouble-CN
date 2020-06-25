@@ -2,7 +2,7 @@
   "000065": {
     "context": "000065",
     "code": "0x55",
-    "string": "@import 0089 000103"
+    "string": "@auto-import 0089 000103"
   },
   "000079": {
     "context": "000079",
@@ -50,7 +50,7 @@
     "context": "000173",
     "code": "0x45",
     "developer_comment": "",
-    "string": "门的那边是——微微响着机械声的，巨大的一间大厅。"
+    "string": "门的那边是——微微响着机械声的，一间巨大的大厅。"
   },
   "000184": {
     "context": "000184",
@@ -92,7 +92,7 @@
     "context": "000258",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑丢开水带，巡视着四周。"
+    "string": "渡濑丢开水带，巡视四周。"
   },
   "000263": {
     "context": "000263",
@@ -116,7 +116,7 @@
     "context": "000328",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑摇摇晃晃的靠近那个装置。"
+    "string": "渡濑摇摇晃晃地靠近那个装置。"
   },
   "000333": {
     "context": "000333",
@@ -140,13 +140,13 @@
     "context": "000398",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「说起来，刚才老师找到的文件上写着……！？」"
+    "string": "「说起来，刚才老师给我看的文件上写着……！？」"
   },
   "000403": {
     "context": "000403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑拼命回响着刚刚才看过的文件内容。"
+    "string": "渡濑拼命回想刚刚才看过的文件内容。"
   },
   "000409": {
     "context": "000409",
@@ -200,7 +200,7 @@
     "context": "000455",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是——感觉答案就在这里。"
+    "string": "但是——他感觉答案就在这里。"
   },
   "000466": {
     "context": "000466",
@@ -284,7 +284,7 @@
     "context": "000559",
     "code": "0x45",
     "developer_comment": "",
-    "string": "是表明，不惜欺骗城里的所有人，也要伪装成这样的意义吗？"
+    "string": "是表明，不惜欺骗城里的所有人，也有伪装成这样的意义吗？"
   },
   "000564": {
     "context": "000564",
@@ -314,7 +314,7 @@
     "context": "000667",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而且毫无来由的，身体开始颤抖。"
+    "string": "而且毫无来由地，身体开始颤抖。"
   },
   "000673": {
     "context": "000673",
@@ -332,7 +332,7 @@
     "context": "000689",
     "code": "0x45",
     "developer_comment": "",
-    "string": "视线在四周徘徊，试图找到出口。"
+    "string": "视线在四周徘徊，试图寻找出口。"
   },
   "000694": {
     "context": "000694",
@@ -408,7 +408,7 @@
   "000813": {
     "context": "000813",
     "code": "0x55",
-    "string": "@import 0089 000103"
+    "string": "@auto-import 0089 000103"
   },
   "000936": {
     "context": "000936",
@@ -486,7 +486,7 @@
     "context": "001045",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0052 000743"
+    "string": "@auto-import 0052 000743"
   },
   "001050": {
     "context": "001050",
@@ -510,7 +510,7 @@
     "context": "001066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0052 000743"
+    "string": "@auto-import 0052 000743"
   },
   "001071": {
     "context": "001071",
@@ -636,19 +636,19 @@
     "context": "001709",
     "code": "0x45",
     "developer_comment": "？？",
-    "string": "@import 0002 005102"
+    "string": "@auto-import 0002 005102"
   },
   "001714": {
     "context": "001714",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005107"
+    "string": "@auto-import 0002 005107"
   },
   "001719": {
     "context": "001719",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005117"
+    "string": "@auto-import 0002 005117"
   },
   "001730": {
     "context": "001730",
@@ -660,133 +660,133 @@
     "context": "001804",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005199"
+    "string": "@auto-import 0002 005199"
   },
   "001815": {
     "context": "001815",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005207"
+    "string": "@auto-import 0002 005207"
   },
   "001820": {
     "context": "001820",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005212"
+    "string": "@auto-import 0002 005212"
   },
   "001831": {
     "context": "001831",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005225"
+    "string": "@auto-import 0002 005225"
   },
   "001842": {
     "context": "001842",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005233"
+    "string": "@auto-import 0002 005233"
   },
   "001847": {
     "context": "001847",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005238"
+    "string": "@auto-import 0002 005238"
   },
   "001853": {
     "context": "001853",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005244"
+    "string": "@auto-import 0002 005244"
   },
   "001858": {
     "context": "001858",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005249"
+    "string": "@auto-import 0002 005249"
   },
   "001938": {
     "context": "001938",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005326"
+    "string": "@auto-import 0002 005326"
   },
   "001943": {
     "context": "001943",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005331"
+    "string": "@auto-import 0002 005331"
   },
   "001954": {
     "context": "001954",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005339"
+    "string": "@auto-import 0002 005339"
   },
   "001959": {
     "context": "001959",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005344"
+    "string": "@auto-import 0002 005344"
   },
   "001964": {
     "context": "001964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005349"
+    "string": "@auto-import 0002 005349"
   },
   "001975": {
     "context": "001975",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005357"
+    "string": "@auto-import 0002 005357"
   },
   "002029": {
     "context": "002029",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005411"
+    "string": "@auto-import 0002 005411"
   },
   "002034": {
     "context": "002034",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005416"
+    "string": "@auto-import 0002 005416"
   },
   "002039": {
     "context": "002039",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005421"
+    "string": "@auto-import 0002 005421"
   },
   "002088": {
     "context": "002088",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005470"
+    "string": "@auto-import 0002 005470"
   },
   "002143": {
     "context": "002143",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005525"
+    "string": "@auto-import 0002 005525"
   },
   "002192": {
     "context": "002192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005574"
+    "string": "@auto-import 0002 005574"
   },
   "002244": {
     "context": "002244",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0002 005626"
+    "string": "@auto-import 0002 005626"
   },
   "002255": {
     "context": "002255",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005634"
+    "string": "@auto-import 0002 005634"
   },
   "002329": {
     "context": "002329",

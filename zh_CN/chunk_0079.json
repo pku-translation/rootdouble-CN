@@ -2,7 +2,7 @@
   "000046": {
     "context": "000046",
     "code": "0x55",
-    "string": "@import 0069 000136"
+    "string": "@auto-import 0069 000136"
   },
   "000061": {
     "context": "000061",
@@ -56,7 +56,7 @@
     "context": "000328",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「确实说过……队长，对刚才的话有头绪吗？」"
+    "string": "「她确实这么说了……队长，你对刚才的话有头绪吗？」"
   },
   "000339": {
     "context": "000339",
@@ -320,7 +320,7 @@
     "context": "000997",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但我可是救援队员啊？明明这样，却说我对她做过什么？」"
+    "string": "「但我可是救援队员啊？能对她做出什么事情呢？」"
   },
   "001026": {
     "context": "001026",
@@ -368,7 +368,7 @@
     "context": "001303",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「老师，去追她吧！能找到她的话，直接问她！」"
+    "string": "「老师，去追她吧！能找到她的话，就可以直接问她！」"
   },
   "001335": {
     "context": "001335",
@@ -494,13 +494,13 @@
     "context": "001604",
     "code": "0x45",
     "developer_comment": "",
-    "string": "惠那不安地点了点头，然后和渡濑一起跑了出去。"
+    "string": "惠那不安地点点头，然后和渡濑一起跑了出去。"
   },
   "001634": {
     "context": "001634",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0079 001335"
+    "string": "@auto-import 0079 001335"
   },
   "001645": {
     "context": "001645",
@@ -512,7 +512,7 @@
     "context": "001656",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0079 001357"
+    "string": "@auto-import 0079 001357"
   },
   "001667": {
     "context": "001667",
@@ -530,19 +530,19 @@
     "context": "001678",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0079 001378"
+    "string": "@auto-import 0079 001378"
   },
   "001707": {
     "context": "001707",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0079 001407"
+    "string": "@auto-import 0079 001407"
   },
   "001718": {
     "context": "001718",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0079 001418"
+    "string": "@auto-import 0079 001418"
   },
   "001747": {
     "context": "001747",
@@ -584,43 +584,43 @@
     "context": "001831",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0022 001466"
+    "string": "@auto-import 0022 001466"
   },
   "001836": {
     "context": "001836",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0079 001503"
+    "string": "@auto-import 0079 001503"
   },
   "001865": {
     "context": "001865",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0079 001532"
+    "string": "@auto-import 0079 001532"
   },
   "001876": {
     "context": "001876",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0017 001664"
+    "string": "@auto-import 0017 001664"
   },
   "001881": {
     "context": "001881",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0079 001548"
+    "string": "@auto-import 0079 001548"
   },
   "001887": {
     "context": "001887",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0079 001554"
+    "string": "@auto-import 0079 001554"
   },
   "001892": {
     "context": "001892",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0079 001559"
+    "string": "@auto-import 0079 001559"
   },
   "001903": {
     "context": "001903",
@@ -632,13 +632,13 @@
     "context": "001932",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "@import 0015 001866"
+    "string": "@auto-import 0015 001866"
   },
   "001937": {
     "context": "001937",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0079 001604"
+    "string": "@auto-import 0079 001604"
   },
   "001967": {
     "context": "001967",
