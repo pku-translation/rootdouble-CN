@@ -188,7 +188,7 @@
     "context": "001147",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0020 001921"
+    "string": "@auto-import 0020 001921"
   },
   "001161": {
     "context": "001161",
@@ -218,7 +218,7 @@
     "context": "001286",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0038 003295"
+    "string": "@auto-import 0038 003295"
   },
   "001384": {
     "context": "001384",
@@ -562,7 +562,7 @@
     "context": "002255",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0043 002458"
+    "string": "@auto-import 0043 002458"
   },
   "002280": {
     "context": "002280",

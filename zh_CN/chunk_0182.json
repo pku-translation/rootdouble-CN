@@ -146,13 +146,13 @@
     "context": "000517",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0005 000751"
+    "string": "@auto-import 0005 000751"
   },
   "000525": {
     "context": "000525",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "000530": {
     "context": "000530",
@@ -302,7 +302,7 @@
     "context": "000857",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "000886": {
     "context": "000886",
@@ -757,7 +757,7 @@
     "context": "002028",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「え？」"
+    "string": "@auto-import 0005 001803"
   },
   "002039": {
     "context": "002039",
@@ -1015,7 +1015,7 @@
     "context": "002798",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「え」"
+    "string": "@auto-import 0157 000847"
   },
   "002806": {
     "context": "002806",
@@ -1087,7 +1087,7 @@
     "context": "002967",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「違う」"
+    "string": "@auto-import 0156 001283"
   },
   "002975": {
     "context": "002975",
@@ -1332,7 +1332,7 @@
     "context": "003561",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0145 001855"
+    "string": "@auto-import 0145 001855"
   },
   "003569": {
     "context": "003569",

@@ -116,7 +116,7 @@
     "context": "000406",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0203 000173"
+    "string": "@auto-import 0203 000173"
   },
   "000417": {
     "context": "000417",
@@ -176,7 +176,7 @@
     "context": "000634",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "000645": {
     "context": "000645",
@@ -356,7 +356,7 @@
     "context": "001392",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005125"
+    "string": "@auto-import 0002 005125"
   },
   "001479": {
     "context": "001479",
@@ -608,7 +608,7 @@
     "context": "002464",
     "code": "0x45",
     "developer_comment": "全員",
-    "string": "@import 0002 005125"
+    "string": "@auto-import 0002 005125"
   },
   "002469": {
     "context": "002469",
@@ -620,7 +620,7 @@
     "context": "002527",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0122 000722"
+    "string": "@auto-import 0122 000722"
   },
   "002532": {
     "context": "002532",
@@ -686,7 +686,7 @@
     "context": "005338",
     "code": "0x45",
     "developer_comment": "",
-    "string": "消えた。"
+    "string": "@auto-import 0117 001141"
   },
   "005425": {
     "context": "005425",
@@ -722,7 +722,7 @@
     "context": "005508",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "@import 0015 001533"
+    "string": "@auto-import 0015 001533"
   },
   "005537": {
     "context": "005537",
@@ -878,7 +878,7 @@
     "context": "006126",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0138 001339"
+    "string": "@auto-import 0138 001339"
   },
   "006131": {
     "context": "006131",
@@ -986,7 +986,7 @@
     "context": "006456",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "006514": {
     "context": "006514",

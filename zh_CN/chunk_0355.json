@@ -45,7 +45,7 @@
     "context": "000126",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0021 003823"
+    "string": "@auto-import 0021 003823"
   },
   "000131": {
     "context": "000131",
@@ -183,7 +183,7 @@
     "context": "000548",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「はい」"
+    "string": "@auto-import 0168 006282"
   },
   "000560": {
     "context": "000560",
@@ -201,7 +201,7 @@
     "context": "000587",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0012 004312"
+    "string": "@auto-import 0012 004312"
   },
   "000592": {
     "context": "000592",
@@ -285,7 +285,7 @@
     "context": "000762",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「了解」"
+    "string": "@auto-import 0042 001211"
   },
   "000773": {
     "context": "000773",
@@ -597,7 +597,7 @@
     "context": "001342",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「そう」"
+    "string": "@auto-import 0142 003739"
   },
   "001347": {
     "context": "001347",

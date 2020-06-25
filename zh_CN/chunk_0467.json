@@ -315,13 +315,13 @@
     "context": "000953",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「亘」"
+    "string": "@auto-import 0295 000957"
   },
   "000989": {
     "context": "000989",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "@import 0012 006275"
+    "string": "@auto-import 0012 006275"
   },
   "001000": {
     "context": "001000",
@@ -435,7 +435,7 @@
     "context": "001348",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0060 000643"
+    "string": "@auto-import 0060 000643"
   },
   "001354": {
     "context": "001354",
@@ -555,7 +555,7 @@
     "context": "001729",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "001734": {
     "context": "001734",
@@ -657,7 +657,7 @@
     "context": "001910",
     "code": "0x45",
     "developer_comment": "",
-    "string": "死ぬ。"
+    "string": "@auto-import 0295 001913"
   },
   "001915": {
     "context": "001915",
@@ -933,7 +933,7 @@
     "context": "002789",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005125"
+    "string": "@auto-import 0002 005125"
   },
   "002841": {
     "context": "002841",
@@ -1035,7 +1035,7 @@
     "context": "003160",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「亘」"
+    "string": "@auto-import 0295 000957"
   },
   "003165": {
     "context": "003165",
@@ -1077,7 +1077,7 @@
     "context": "003220",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0002 005125"
+    "string": "@auto-import 0002 005125"
   },
   "003281": {
     "context": "003281",
@@ -1244,7 +1244,7 @@
   "003768": {
     "context": "003768",
     "code": "0x85",
-    "string": "　%N"
+    "string": "@auto-import 0025 001143"
   },
   "003771": {
     "context": "003771",
@@ -1272,7 +1272,7 @@
     "context": "003785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0295 003789"
+    "string": "鹿鳴市立病院を始め、一般家屋、公共施設、雑居ビル、そして渡瀬たち家族の住むマンションなど、"
   },
   "003788": {
     "context": "003788",
@@ -1283,7 +1283,7 @@
   "003792": {
     "context": "003792",
     "code": "0x85",
-    "string": "　%N"
+    "string": "@auto-import 0025 001143"
   },
   "003795": {
     "context": "003795",
@@ -1450,7 +1450,7 @@
     "context": "004178",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0295 004182"
+    "string": "@auto-import 0060 000643"
   },
   "004189": {
     "context": "004189",
@@ -1552,7 +1552,7 @@
     "context": "004307",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0295 004311"
+    "string": "@auto-import 0004 001422"
   },
   "004315": {
     "context": "004315",

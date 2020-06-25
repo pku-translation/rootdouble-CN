@@ -89,7 +89,7 @@
   "000378": {
     "context": "000378",
     "code": "0x86",
-    "string": "@import 0091 000376"
+    "string": "@auto-import 0091 000376"
   },
   "000406": {
     "context": "000406",
@@ -337,7 +337,7 @@
   "000924": {
     "context": "000924",
     "code": "0x86",
-    "string": "@import 0091 000922"
+    "string": "@auto-import 0091 000922"
   },
   "000939": {
     "context": "000939",

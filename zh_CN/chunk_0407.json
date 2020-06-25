@@ -98,7 +98,7 @@
     "context": "000210",
     "code": "0x45",
     "developer_comment": "オレ",
-    "string": "@import 0060 000643"
+    "string": "@auto-import 0060 000643"
   },
   "000216": {
     "context": "000216",
@@ -212,7 +212,7 @@
     "context": "000498",
     "code": "0x45",
     "developer_comment": "女１",
-    "string": "@import 0005 000751"
+    "string": "@auto-import 0005 000751"
   },
   "000509": {
     "context": "000509",
@@ -320,7 +320,7 @@
     "context": "000804",
     "code": "0x45",
     "developer_comment": "女２",
-    "string": "「え？」"
+    "string": "@auto-import 0005 001803"
   },
   "000815": {
     "context": "000815",
@@ -578,7 +578,7 @@
     "context": "001759",
     "code": "0x45",
     "developer_comment": "？？",
-    "string": "@import 0012 006275"
+    "string": "@auto-import 0012 006275"
   },
   "001770": {
     "context": "001770",
@@ -662,7 +662,7 @@
     "context": "001907",
     "code": "0x45",
     "developer_comment": "オレ",
-    "string": "@import 0005 000751"
+    "string": "@auto-import 0005 000751"
   },
   "001912": {
     "context": "001912",

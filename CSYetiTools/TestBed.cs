@@ -48,8 +48,8 @@ namespace CsYetiTools
             //Load("steam/sn.bin", true).Dump("steam_sn", true, true);
 
             var package = Load("steam/sn.bin", true);
-            // var jpPackage = Load("psv/sn.bin", false);
-            // package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
+            var jpPackage = Load("psv/sn.bin", false);
+            package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
         }
     }
 }

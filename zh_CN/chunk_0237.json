@@ -254,7 +254,7 @@
     "context": "000588",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0020 002151"
+    "string": "@auto-import 0020 002151"
   },
   "000599": {
     "context": "000599",
@@ -290,7 +290,7 @@
     "context": "000660",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "000665": {
     "context": "000665",
@@ -338,13 +338,13 @@
     "context": "000743",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0176 001030"
+    "string": "@auto-import 0176 001030"
   },
   "000754": {
     "context": "000754",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「え？」"
+    "string": "@auto-import 0005 001803"
   },
   "000765": {
     "context": "000765",
@@ -362,7 +362,7 @@
     "context": "000787",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "000798": {
     "context": "000798",
@@ -493,7 +493,7 @@
     "context": "001128",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@import 0002 002723"
+    "string": "@auto-import 0002 002723"
   },
   "001133": {
     "context": "001133",
@@ -623,7 +623,7 @@
     "context": "001378",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0014 001929"
+    "string": "@auto-import 0014 001929"
   },
   "001383": {
     "context": "001383",
@@ -693,7 +693,7 @@
   "001679": {
     "context": "001679",
     "code": "0x86",
-    "string": "ましろ"
+    "string": "@auto-import 0132 002533"
   },
   "001680": {
     "context": "001680",
@@ -726,12 +726,12 @@
   "001814": {
     "context": "001814",
     "code": "0x86",
-    "string": "ましろ"
+    "string": "@auto-import 0132 002533"
   },
   "001815": {
     "context": "001815",
     "code": "0x86",
-    "string": "@import 0237 001813"
+    "string": "@auto-import 0237 001813"
   },
   "001843": {
     "context": "001843",
@@ -753,7 +753,7 @@
   "001926": {
     "context": "001926",
     "code": "0x86",
-    "string": "ましろ"
+    "string": "@auto-import 0132 002533"
   },
   "001927": {
     "context": "001927",
@@ -848,7 +848,7 @@
     "context": "002117",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「っ！」"
+    "string": "@auto-import 0006 003976"
   },
   "002143": {
     "context": "002143",

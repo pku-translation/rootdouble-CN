@@ -440,7 +440,7 @@
     "context": "002076",
     "code": "0x45",
     "developer_comment": "全員",
-    "string": "@import 0002 002801"
+    "string": "@auto-import 0002 002801"
   },
   "002099": {
     "context": "002099",
@@ -518,13 +518,13 @@
     "context": "002475",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0039 004068"
+    "string": "@auto-import 0039 004068"
   },
   "002511": {
     "context": "002511",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@import 0196 000804"
+    "string": "@auto-import 0196 000804"
   },
   "002524": {
     "context": "002524",
@@ -636,7 +636,7 @@
     "context": "002938",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@import 0014 001929"
+    "string": "@auto-import 0014 001929"
   },
   "002943": {
     "context": "002943",
@@ -744,7 +744,7 @@
     "context": "003477",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「え？」"
+    "string": "@auto-import 0005 001803"
   },
   "003488": {
     "context": "003488",

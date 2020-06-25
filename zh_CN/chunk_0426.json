@@ -351,7 +351,7 @@
     "context": "000718",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0064 000701"
+    "string": "@auto-import 0064 000701"
   },
   "000723": {
     "context": "000723",
@@ -405,7 +405,7 @@
     "context": "000790",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@import 0002 002723"
+    "string": "@auto-import 0002 002723"
   },
   "000795": {
     "context": "000795",

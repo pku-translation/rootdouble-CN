@@ -375,7 +375,7 @@
     "context": "001410",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0015 003040"
+    "string": "@auto-import 0015 003040"
   },
   "001415": {
     "context": "001415",
@@ -687,7 +687,7 @@
     "context": "002418",
     "code": "0x45",
     "developer_comment": "",
-    "string": "本棚、"
+    "string": "@auto-import 0300 002422"
   },
   "002434": {
     "context": "002434",
@@ -843,7 +843,7 @@
     "context": "002873",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「！！」"
+    "string": "@auto-import 0005 004726"
   },
   "002878": {
     "context": "002878",
@@ -1041,7 +1041,7 @@
     "context": "003312",
     "code": "0x45",
     "developer_comment": "江里口",
-    "string": "@import 0002 002723"
+    "string": "@auto-import 0002 002723"
   },
   "003317": {
     "context": "003317",
@@ -1611,7 +1611,7 @@
     "context": "004888",
     "code": "0x45",
     "developer_comment": "桧山",
-    "string": "「！！」"
+    "string": "@auto-import 0005 004726"
   },
   "004927": {
     "context": "004927",
@@ -1641,7 +1641,7 @@
     "context": "005013",
     "code": "0x45",
     "developer_comment": "桧山",
-    "string": "「！！」"
+    "string": "@auto-import 0005 004726"
   },
   "005018": {
     "context": "005018",
@@ -1659,13 +1659,13 @@
     "context": "005103",
     "code": "0x45",
     "developer_comment": "柏木",
-    "string": "「っ」"
+    "string": "@auto-import 0144 001355"
   },
   "005111": {
     "context": "005111",
     "code": "0x45",
     "developer_comment": "桧山",
-    "string": "@import 0015 001533"
+    "string": "@auto-import 0015 001533"
   },
   "005211": {
     "context": "005211",
@@ -1839,7 +1839,7 @@
     "context": "005744",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@import 0004 002426"
+    "string": "@auto-import 0004 002426"
   },
   "005767": {
     "context": "005767",
