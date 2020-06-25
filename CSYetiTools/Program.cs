@@ -369,7 +369,7 @@ namespace CsYetiTools
             if (dumpFontTexture) texture.Save(releaseDir / "font.png");
         }
 
-        public static async Task DownloadTranslations(SnPackage package, FilePath translationDir, string projectSlug, string chunkFormatter, string? token = null)
+        public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
         {
             var client = new Transifex.TransifexClient(token);
             var project = client.Project(projectSlug);
@@ -384,7 +384,19 @@ namespace CsYetiTools
                     writer.NewLine = "\n";
                     writer.Write(raw);
                 }
-                Console.WriteLine($"Chunk {chunkIndex:0000} downloaded");
+                Console.WriteLine($"chunk {chunkIndex:0000} downloaded");
+            }
+
+            foreach (var name in peeker.Names)
+            {
+                var resource = project.Resource(string.Format(sysFormatter, name.Replace('_', '-')));
+                var raw = await resource.GetRawTranslations("zh_CN");
+                using (var writer = new StreamWriter(translationDir / "sys" / $"{name.Replace('-', '_')}.json", false, Utils.Utf8))
+                {
+                    writer.NewLine = "\n";
+                    writer.Write(raw);
+                }
+                Console.WriteLine($"sys/{name} downloaded");
             }
         }
     }
