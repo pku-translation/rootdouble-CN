@@ -344,13 +344,13 @@
     "context": "002597",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0156 001911"
+    "string": "@auto-import 0156 001911"
   },
   "002641": {
     "context": "002641",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@import 0156 001955"
+    "string": "@auto-import 0156 001955"
   },
   "002679": {
     "context": "002679",
@@ -807,7 +807,7 @@
   "007144": {
     "context": "007144",
     "code": "0x86",
-    "string": "@import 0165 007140"
+    "string": "@auto-import 0165 007140"
   },
   "007204": {
     "context": "007204",
