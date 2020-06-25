@@ -196,7 +196,7 @@ namespace CsYetiTools
             var client = new Transifex.TransifexClient(token);
             var project = client.Project(projectSlug);
 
-            var regex = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
+            var filterReg = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
 
             var dupDict = new Dictionary<string, DupEntry>();
 
@@ -210,13 +210,13 @@ namespace CsYetiTools
                     if (code is ExtraDialogCode exDialog && !exDialog.IsDialog) continue;
 
                     var content = code.Content;
-                    if (regex.IsMatch(code.Content))
+                    if (filterReg.IsMatch(code.Content))
                     {
                         if (dupDict.TryGetValue(content, out var entry))
                         {
 
                             ++entry.DupCounter;
-                            dict.Add(code.Index, $"@import {entry.Chunk:0000} {entry.Index:000000}");
+                            dict.Add(code.Index, $"@auto-import {entry.Chunk:0000} {entry.Index:000000}");
                         }
                         else
                         {
@@ -240,7 +240,7 @@ namespace CsYetiTools
                         {
                             if (currentTranslations.TryGetValue(k, out var currentTranslation)
                                 && !string.IsNullOrWhiteSpace(currentTranslation.Translation)
-                                && !currentTranslation.Translation.StartsWith("@import"))
+                                && !currentTranslation.Translation.StartsWith("@auto-import"))
                             {
                                 Console.WriteLine($"    skip: [{currentTranslation.Key}] {currentTranslation.User} => {currentTranslation.Translation}");
                                 continue;
@@ -336,12 +336,12 @@ namespace CsYetiTools
                 return peeker;
             });
 
-            Console.Write("Translating sn-package... "); Console.Out.Flush();
+            Console.WriteLine("Translating sn-package... ");
             Utils.Time(() => {
                 
                 snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum);
                 return snPackage;
-            });
+            }, "Translated sn-package in {0}");
 
             var dbChars = snPackage.EnumerateChars().Concat(exePeeker.EnumerateChars()).Where(c => c >= 0x80).Distinct().Ordered().ToArray();
             Console.WriteLine($"Double-byte code used: {dbChars.Length}");
@@ -367,6 +367,25 @@ namespace CsYetiTools
             snPackage.WriteTo(releaseDir / "data/sn.bin", fontMapping);
             xtx.SaveBinaryTo(releaseDir / "data/font48.xtx");
             if (dumpFontTexture) texture.Save(releaseDir / "font.png");
+        }
+
+        public static async Task DownloadTranslations(SnPackage package, FilePath translationDir, string projectSlug, string chunkFormatter, string? token = null)
+        {
+            var client = new Transifex.TransifexClient(token);
+            var project = client.Project(projectSlug);
+
+            foreach (var (chunkIndex, script) in package.Scripts.WithIndex())
+            {
+                if (script.Footer.ScriptIndex < 0) continue;
+                var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
+                var raw = await resource.GetRawTranslations("zh_CN");
+                using (var writer = new StreamWriter(translationDir / $"chunk_{chunkIndex:0000}.json", false, Utils.Utf8))
+                {
+                    writer.NewLine = "\n";
+                    writer.Write(raw);
+                }
+                Console.WriteLine($"Chunk {chunkIndex:0000} downloaded");
+            }
         }
     }
 }

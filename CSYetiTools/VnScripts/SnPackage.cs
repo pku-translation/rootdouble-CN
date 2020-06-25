@@ -358,24 +358,35 @@ namespace CsYetiTools.VnScripts
                             var translation = v.String;
                             var trimmed = translation.Trim();
                             if (trimmed == "@ignore") continue;
-                            if (trimmed.StartsWith("@import"))
+                            if (trimmed.StartsWith("@import") || trimmed.StartsWith("@auto-import"))
                             {
+                                var importingInfo = trimmed.StartsWith("@import") ? "importing" : "auto-importing";
                                 var segs = trimmed.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                                 var targetChunk = int.Parse(segs[1]);
                                 var targetIndex = int.Parse(segs[2]);
                                 if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent))
                                 {
                                     translationTable.Add(index, targetContent);
+                                    continue;
                                 }
-                            }
-                            else
-                            {
-                                if (debugChunkNum)
+                                else if (targetChunk == i && targetIndex == index)
                                 {
-                                    translation = $"[{i:0000}] " + translation;
+                                    Utils.PrintError($"[{i:0000}:{k}] {importingInfo} self");
                                 }
-                                translationTable.Add(index, translation);
+                                else if (targetChunk > i || (targetChunk == i && targetIndex > index))
+                                {
+                                    Utils.PrintError($"[{i:0000}:{k}] forward {importingInfo}");
+                                }
+                                else
+                                {
+                                    Utils.PrintError($"[{i:0000}:{k}] {importingInfo} unknown source {targetChunk:0000}:{targetIndex:000000}");
+                                }
                             }
+                            if (debugChunkNum)
+                            {
+                                translation = $"[{i:0000}] " + translation;
+                            }
+                            translationTable.Add(index, translation);
                         }
                     }
                     catch (Exception exc)

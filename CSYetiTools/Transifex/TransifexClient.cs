@@ -56,6 +56,9 @@ namespace CsYetiTools.Transifex
             _resourceSlug = resourceSlug;
         }
 
+        public Task<string> GetRawTranslations(string language, TranslationMode mode = TranslationMode.Default)
+            => _client.GetRawTranslations(_projectSlug, _resourceSlug, language, mode);
+
         public Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string language, TranslationMode mode = TranslationMode.Default)
             => _client.GetTranslations(_projectSlug, _resourceSlug, language, mode);
 
@@ -150,15 +153,24 @@ namespace CsYetiTools.Transifex
         public Task<ResourceInfo> GetResource(string projectSlug, string resourceSlug)
             => Get<ResourceInfo>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug));
         
-
-        public async Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
+        public async Task<string> GetRawTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
         {
             var response = await Get<WrappedResponse>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "/")
                 .SetQueryParam("mode", mode.ToString().ToLower()));
             if (response.Mimetype != "application/json")
                 throw new FormatException("Response is not json");
-            return JsonConvert.DeserializeObject<SortedDictionary<string, TranslationInfo>>(response.Content, Utils.JsonSettings)!;
+            return response.Content;
         }
+
+        public async Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
+            => JsonConvert.DeserializeObject<SortedDictionary<string, TranslationInfo>>(await GetRawTranslations(projectSlug, resourceSlug, language, mode), Utils.JsonSettings)!;
+        // {
+        //     var response = await Get<WrappedResponse>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "/")
+        //         .SetQueryParam("mode", mode.ToString().ToLower()));
+        //     if (response.Mimetype != "application/json")
+        //         throw new FormatException("Response is not json");
+        //     return JsonConvert.DeserializeObject<SortedDictionary<string, TranslationInfo>>(response.Content, Utils.JsonSettings)!;
+        // }
 
         public async Task<TranslationStringInfo[]> GetTranslationStrings(string projectSlug, string resourceSlug, string language, string? key = null, string? context = null)
         {

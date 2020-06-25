@@ -63,10 +63,7 @@ namespace CsYetiTools.FileTypes
                 {
                     if (content.Length == bytes.Length || Length <= 5) // all single-byte means maybe english, or too short.
                     {
-                        var color = Console.ForegroundColor;
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"{Offset:X08}: {new SValue(content)} length > {new SValue(Content)} (limit: {Length}), use source");
-                        Console.ForegroundColor = color;
+                        Utils.PrintError($"{Offset:X08}: {new SValue(content)} length > {new SValue(Content)} (limit: {Length}), use source");
                         content = Content;
                         bytes = encoding.GetBytes(content);
                     }
@@ -100,10 +97,7 @@ namespace CsYetiTools.FileTypes
                         if (bytes.Length + 1 > Length)
                             throw new InvalidProgramException("???");
                         var newString = encoding.GetString(bytes);
-                        var color = Console.ForegroundColor;
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"{Offset:X08}: trunked (limit: {Length}) {new SValue(content)}({new SValue(Content)}) to {new SValue(newString)}");
-                        Console.ForegroundColor = color;
+                        Utils.PrintError($"{Offset:X08}: trunked (limit: {Length}) {new SValue(content)}({new SValue(Content)}) to {new SValue(newString)}");
                     }
                 }
             }
@@ -274,9 +268,10 @@ namespace CsYetiTools.FileTypes
                     try
                     {
                         var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
-                        var offsets = new HashSet<int>(_rangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
-                        var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))
-                            .Select(kv => kv.Value.String).ToList();
+                        var translations = dict.Values.Select(info => info.String).ToList();
+                        // var offsets = new HashSet<int>(_rangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
+                        // var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))
+                        //     .Select(kv => kv.Value.String).ToList();
 
                         ApplyTranslations(name, references, translations);
                     }

@@ -15,7 +15,15 @@ namespace CsYetiTools
         public static readonly Encoding Cp936 = CodePagesEncodingProvider.Instance.GetEncoding(936, new EncoderExceptionFallback(), new DecoderExceptionFallback())
             ?? throw new InvalidOperationException("Cannot get encoding of code page 936");
         public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false, /*throwOnInvalidBytes: */ true);
-        
+
+        public static void PrintError(string error)
+        {
+            var color = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(error);
+            Console.ForegroundColor = color;
+        }
+
         public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
         {
             ContractResolver = new DefaultContractResolver
@@ -177,7 +185,7 @@ namespace CsYetiTools
             writer.NewLine = "\n";
             return writer;
         }
-        
+
         public static void WriteAllText(string path, string text)
         {
             using var writer = Utils.CreateStreamWriter(path);
@@ -233,7 +241,7 @@ namespace CsYetiTools
 
         public static IEnumerable<int> Range(int count)
             => Enumerable.Range(0, count);
-            
+
         public static IEnumerable<int> Range(int start, int end)
             => Enumerable.Range(start, end - start);
 
@@ -279,7 +287,7 @@ namespace CsYetiTools
         {
             for (int i = 0; i < count; ++i) yield return func(i);
         }
-        
+
         private static readonly byte[] MsbTable =
         {
             0,1,2,2,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
