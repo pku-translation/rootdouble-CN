@@ -2,7 +2,7 @@
   "000060": {
     "context": "000060",
     "code": "0x55",
-    "string": "@import 0028 000155"
+    "string": "@auto-import 0028 000155"
   },
   "000076": {
     "context": "000076",
@@ -236,7 +236,7 @@
     "context": "000591",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@import 0037 003468"
+    "string": "@auto-import 0037 003468"
   },
   "000651": {
     "context": "000651",
@@ -253,7 +253,7 @@
   "000750": {
     "context": "000750",
     "code": "0x85",
-    "string": "@import 0102 001086"
+    "string": "@auto-import 0102 001086"
   },
   "000753": {
     "context": "000753",
@@ -270,7 +270,7 @@
     "context": "000759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无视了风见的警告，太过于关心惠那的情况下的结局。"
+    "string": "无视了风见的警告，太过于关心惠那的结果。"
   },
   "000762": {
     "context": "000762",
@@ -281,6 +281,6 @@
     "context": "000765",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0105 002396"
+    "string": "@auto-import 0105 002396"
   }
 }
