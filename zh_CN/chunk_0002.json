@@ -23,13 +23,13 @@
     "context": "000376",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——那声巨响，犹如宣告终结的钟声一般——"
+    "string": "——那声轰鸣，犹如宣告着终结的钟声一般——"
   },
   "000381": {
     "context": "000381",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在拂晓的研究所中回响。"
+    "string": "震响在拂晓的研究所中。"
   },
   "000489": {
     "context": "000489",
@@ -71,7 +71,7 @@
     "context": "000721",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——响声远没有结束。"
+    "string": "——一波未平，一波又起。"
   },
   "000906": {
     "context": "000906",
@@ -83,7 +83,7 @@
     "context": "000911",
     "code": "0x45",
     "developer_comment": "",
-    "string": "伴随着断断续续的响声，地面开始晃动。"
+    "string": "伴随着一阵接着一阵的巨响，地面也开始剧烈摇晃。"
   },
   "001098": {
     "context": "001098",
@@ -95,7 +95,7 @@
     "context": "001103",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脸上吹来的气浪，和人群的呼喊声——"
+    "string": "扑面而来的气浪，还有人群的呼喊声——"
   },
   "001194": {
     "context": "001194",
@@ -107,25 +107,25 @@
     "context": "001283",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「设施内的安全系统即将转为“避难模式”。除 N 区域外，开放所有区域大门」"
+    "string": "「设施内的安全系统转为“避难模式”。除 N 区域之外的所有门禁均已开启」"
   },
   "001288": {
     "context": "001288",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——在场的所有人，没有人知道。"
+    "string": "——在场的所有人里，没有一个人清楚——"
   },
   "001293": {
     "context": "001293",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这里到底在发生些什么。"
+    "string": "这里到底发生了什么事情。"
   },
   "001298": {
     "context": "001298",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在众人困惑和喧哗时，断断续续的声音响起。"
+    "string": "困惑而骚动着的众人，听到了断断续续的播报："
   },
   "001309": {
     "context": "001309",
@@ -149,7 +149,7 @@
     "context": "001327",
     "code": "0x45",
     "developer_comment": "",
-    "string": "是宣告毁灭的声音。"
+    "string": "也是毁灭的宣言。"
   },
   "001420": {
     "context": "001420",
@@ -174,19 +174,19 @@
   "001733": {
     "context": "001733",
     "code": "0x86",
-    "string": "——爆炸事故，发生了——"
+    "string": "——发生了一起爆炸事故——"
   },
   "001925": {
     "context": "001925",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「重复一遍。设施内的安全系统转为“避难模式”。除 N 区域外，开放所有区域大门。各位员工请冷静地向地面疏散」"
+    "string": "「重复一遍。设施内的安全系统转为“避难模式”。除 N 区域之外的所有门禁均已开启。各位员工，请冷静有序地向地面上疏散」"
   },
   "001930": {
     "context": "001930",
     "code": "0x45",
     "developer_comment": "",
-    "string": "广播中的警报疯狂地响起。"
+    "string": "广播像是发狂了一般地播送着警告。"
   },
   "001974": {
     "context": "001974",
@@ -222,31 +222,31 @@
     "context": "002068",
     "code": "0x45",
     "developer_comment": "研究員２",
-    "string": "「电梯全部停止运行！已经没有办法疏散了！」"
+    "string": "「电梯全都停了！没办法疏散了！」"
   },
   "002076": {
     "context": "002076",
     "code": "0x45",
     "developer_comment": "研究員３",
-    "string": "「不可能……怎么会发生这样的事情！」"
+    "string": "「不可能……怎么会这样！」"
   },
   "002084": {
     "context": "002084",
     "code": "0x45",
     "developer_comment": "研究員２",
-    "string": "「总……总而言之，快点撤离！」"
+    "string": "「总……总而言之，赶紧撤离啊！」"
   },
   "002089": {
     "context": "002089",
     "code": "0x45",
     "developer_comment": "",
-    "string": "突然，像是要盖住人们的喧闹一般，冷静的声音响起。"
+    "string": "突然，像是要镇住这片喧闹似的，一个冷静的声音出现了："
   },
   "002188": {
     "context": "002188",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「大家，请冷静一下！」"
+    "string": "「各位，请镇静下来！」"
   },
   "002197": {
     "context": "002197",
@@ -258,13 +258,13 @@
     "context": "002208",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「忘了吗？在发生意外的时候，系统会立即通知本辖区的消防局」"
+    "string": "「忘了吗？在发生意外的时候，系统会立即通报本辖区的消防局」"
   },
   "002219": {
     "context": "002219",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「几分钟之内，救援队肯定能来」"
+    "string": "「几分钟之内，救援队肯定会到」"
   },
   "002227": {
     "context": "002227",
@@ -288,7 +288,7 @@
     "context": "002326",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「是我们市的骄傲，救援队中的精锐」"
+    "string": "「是我市的骄傲，救援队中的精锐」"
   },
   "002507": {
     "context": "002507",
@@ -312,7 +312,7 @@
     "context": "002589",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在穿着防护服的队员面前，站着一位穿着同样的衣服的男子。"
+    "string": "在穿着防护服的队员面前，站着一位同样装束的男子。"
   },
   "002643": {
     "context": "002643",
@@ -324,19 +324,19 @@
     "context": "002651",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「现在还有无数的人留在 LABO 里面！」"
+    "string": "「现在还有无数的人滞留在 LABO 里面！」"
   },
   "002659": {
     "context": "002659",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「但是，因为这个设施的性质——这不是通常的救援行动」"
+    "string": "「不过，考虑到这个设施的性质——这不是普通的救援行动」"
   },
   "002668": {
     "context": "002668",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「没人知道这个地方可能发生什么。任何意外情况都可能发生」"
+    "string": "「没人知道这个地方会发生什么。任何意外情况都有可能」"
   },
   "002723": {
     "context": "002723",
@@ -348,7 +348,7 @@
     "context": "002728",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一个看起来像新人的少女，在防护服里紧张得屏住呼吸。"
+    "string": "一位像是新队员的少女，在防护服里紧张得屏住了呼吸。"
   },
   "002733": {
     "context": "002733",
@@ -366,7 +366,7 @@
     "context": "002767",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「但你们首先是个人，然后才是救援队的队员」 "
+    "string": "「但你们首先是人，其次才是救援队员」"
   },
   "002775": {
     "context": "002775",
@@ -384,25 +384,25 @@
     "context": "002801",
     "code": "0x45",
     "developer_comment": "隊員たち",
-    "string": "「是！」"
+    "string": "「明白！」"
   },
   "002856": {
     "context": "002856",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——接着，他们冲进了现场。 "
+    "string": "——于是，他们冲进了现场。"
   },
   "002861": {
     "context": "002861",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他们还不知道，迎接他们的会是什么。"
+    "string": "他们还不知道，等待着他们的会是什么。"
   },
   "002866": {
     "context": "002866",
     "code": "0x45",
     "developer_comment": "",
-    "string": "后来被称为“Sirius 漫长的一天”的行动——"
+    "string": "事后被称作“Sirius 漫长的一天”的行动——"
   },
   "002871": {
     "context": "002871",
@@ -426,7 +426,7 @@
     "context": "002989",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——他们有一个信念。"
+    "string": "——他们有一个信念："
   },
   "002994": {
     "context": "002994",
@@ -438,31 +438,31 @@
     "context": "002999",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是——事情的发展远超他们的想象。"
+    "string": "然而——事态远超他们的设想。"
   },
   "003004": {
     "context": "003004",
     "code": "0x45",
     "developer_comment": "",
-    "string": "预料之外的困难，多次向他们袭来。"
+    "string": "预料之外的困难，一再向他们袭来。"
   },
   "003116": {
     "context": "003116",
     "code": "0x45",
     "developer_comment": "女性隊員１",
-    "string": "「守部！地下还有人在——！」"
+    "string": "「守部！还有人在地下——！」"
   },
   "003124": {
     "context": "003124",
     "code": "0x45",
     "developer_comment": "女性隊員２",
-    "string": "「唔……出，出发吧，副队长！」"
+    "string": "「呃……出，出发吧，副队长！」"
   },
   "003163": {
     "context": "003163",
     "code": "0x45",
     "developer_comment": "隊員１",
-    "string": "「笠鹭，快点到地下来！」"
+    "string": "「笠鹭，马上到地下来！」"
   },
   "003171": {
     "context": "003171",
@@ -474,7 +474,7 @@
     "context": "003179",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「知道了，在那等着！」"
+    "string": "「我知道了，你在那等着！」"
   },
   "003306": {
     "context": "003306",
@@ -492,7 +492,7 @@
     "context": "003347",
     "code": "0x45",
     "developer_comment": "女性隊員１",
-    "string": "「有点奇怪……队长怎么了……！？」"
+    "string": "「奇怪了……队长怎么了……！？」"
   },
   "003561": {
     "context": "003561",
@@ -504,13 +504,13 @@
     "context": "003569",
     "code": "0x45",
     "developer_comment": "隊員２",
-    "string": "「刚刚提到的两人就关在这前面吗？」"
+    "string": "「刚刚提到的两人就关在那边吗？」"
   },
   "003577": {
     "context": "003577",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「是的……所以前进吧」"
+    "string": "「是的……所以过去吧」"
   },
   "003703": {
     "context": "003703",
@@ -528,43 +528,43 @@
     "context": "003837",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——然而，这份决心也惨遭践踏——"
+    "string": "——然而，这份决意被踏得粉碎——"
   },
   "003923": {
     "context": "003923",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「不可能……竟然没有人在！？」"
+    "string": "「不可能……谁都不在！？」"
   },
   "003931": {
     "context": "003931",
     "code": "0x45",
     "developer_comment": "隊員１",
-    "string": "「我们是不是被骗了！？」"
+    "string": "「我们被骗了！？」"
   },
   "003939": {
     "context": "003939",
     "code": "0x45",
     "developer_comment": "隊員２",
-    "string": "「为什么……谁会这么做！？」"
+    "string": "「为什么……谁干的！？」"
   },
   "003991": {
     "context": "003991",
     "code": "0x45",
     "developer_comment": "隊員２",
-    "string": "「可恶……为什么会遇到这种事……！」"
+    "string": "「可恶……怎么会有这种事……！」"
   },
   "003999": {
     "context": "003999",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「你们先别不甘心，现在不是后悔的时候」"
+    "string": "「先不要后悔，现在不是后悔的时候」"
   },
   "004050": {
     "context": "004050",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「任务……还没有结束呢」"
+    "string": "「任务……还没有完成呢」"
   },
   "004070": {
     "context": "004070",
@@ -588,13 +588,13 @@
     "context": "004251",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「不然还能怎么办！后面就交给你们了！」"
+    "string": "「不然还能怎么办！后面的事情就交给你们了！」"
   },
   "004259": {
     "context": "004259",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「如果我 20 分钟没回来的话，你们就别管我先走！」"
+    "string": "「如果 20 分钟后我还没回来的话，你们就先走，别管我！」"
   },
   "004305": {
     "context": "004305",
@@ -636,7 +636,7 @@
     "context": "004535",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——然后，他找到了一位少女——"
+    "string": "——于是，他找到了一位少女——"
   },
   "004592": {
     "context": "004592",
@@ -654,19 +654,19 @@
     "context": "004755",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「一定，在这前面……！」"
+    "string": "「一定，就在那边……！」"
   },
   "004828": {
     "context": "004828",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——忍耐着痛苦，继续往前走——"
+    "string": "——忍受着痛苦，继续前进着——"
   },
   "004877": {
     "context": "004877",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——然后，在任务的最后——"
+    "string": "——然后，作为任务的结局——"
   },
   "004954": {
     "context": "004954",
@@ -702,7 +702,7 @@
     "context": "005107",
     "code": "0x45",
     "developer_comment": "",
-    "string": "怪物看着他，笑了。"
+    "string": "怪物看着他，笑着。"
   },
   "005112": {
     "context": "005112",
@@ -714,7 +714,7 @@
     "context": "005117",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无法形容的恐惧冻结他脊椎的那一刻——"
+    "string": "难以言喻的恐惧冻结了脊髓的那一瞬——"
   },
   "005125": {
     "context": "005125",
@@ -726,25 +726,25 @@
     "context": "005199",
     "code": "0x45",
     "developer_comment": "",
-    "string": "像是大脑被捏碎一样的剧痛，向他袭来。"
+    "string": "大脑被捏碎般的剧痛向他袭来。"
   },
   "005207": {
     "context": "005207",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「啊啊啊！！」"
+    "string": "「呃……啊啊啊！！」"
   },
   "005212": {
     "context": "005212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "男子从未经历过这样的剧痛，发出了尖叫。"
+    "string": "在这从未体验过的剧痛中，他大声惨叫。"
   },
   "005217": {
     "context": "005217",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他不知道疼痛的来由，陷入了巨大的混乱。"
+    "string": "来历不明的疼痛让他心里一片混乱。"
   },
   "005225": {
     "context": "005225",
@@ -774,13 +774,13 @@
     "context": "005249",
     "code": "0x45",
     "developer_comment": "",
-    "string": "即使如此，他也努力坚持完成任务，在他想要发起挑战的时候——"
+    "string": "然后，就在他为了完成自己的任务，将要发起反抗的时候——"
   },
   "005326": {
     "context": "005326",
     "code": "0x45",
     "developer_comment": "隊長",
-    "string": "「！！！」"
+    "string": "「呃！！！」"
   },
   "005331": {
     "context": "005331",
@@ -798,13 +798,13 @@
     "context": "005344",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他捂着头，向后退去。"
+    "string": "他捂住头，退却着。"
   },
   "005349": {
     "context": "005349",
     "code": "0x45",
     "developer_comment": "",
-    "string": "怪物表情变得狰狞，眼神锐利地瞪着他。"
+    "string": "怪物的表情狰狞了起来，锐利的目光笔直地向他刺去。"
   },
   "005357": {
     "context": "005357",
@@ -816,19 +816,19 @@
     "context": "005411",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他不顾一切地跑了出去。"
+    "string": "他不顾一切地逃了出去。"
   },
   "005416": {
     "context": "005416",
     "code": "0x45",
     "developer_comment": "",
-    "string": "逃不掉就会被杀，自己会消失的。"
+    "string": "逃不掉的话就会被它杀死。会死。"
   },
   "005421": {
     "context": "005421",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他抱住疼痛不已的头，拼命朝外逃去。"
+    "string": "他抱着剧痛中的头颅，拼命地奔逃着。"
   },
   "005470": {
     "context": "005470",
@@ -840,19 +840,19 @@
     "context": "005525",
     "code": "0x45",
     "developer_comment": "",
-    "string": "到怪物的力量触及不到的地方去。"
+    "string": "逃到怪物的力量触及不到的地方为止。"
   },
   "005574": {
     "context": "005574",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而，这也是徒劳——"
+    "string": "然而，这也是徒劳的——"
   },
   "005626": {
     "context": "005626",
     "code": "0x45",
     "developer_comment": "",
-    "string": "身上突然出现剧痛的同时，他眼前一闪。"
+    "string": "突然出现在身上的疼痛，还有眼前的闪光——"
   },
   "005634": {
     "context": "005634",
@@ -864,13 +864,13 @@
     "context": "005689",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——这就是他最后感觉到的东西。"
+    "string": "——这就是他最后的所知所觉。"
   },
   "005694": {
     "context": "005694",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就像是被突然关掉电源一般，"
+    "string": "像是被拉下了闸门一般地，"
   },
   "005699": {
     "context": "005699",
@@ -906,7 +906,7 @@
     "context": "005838",
     "code": "0x45",
     "developer_comment": "",
-    "string": "醒来吧，听到这样的呼唤。"
+    "string": "“醒来吧”，听到了这样的呼唤。"
   },
   "005843": {
     "context": "005843",
@@ -918,13 +918,13 @@
     "context": "005848",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在粉饰的坟墓下，他听到了那声音……"
+    "string": "在粉饰的坟墓里，他听到了这样的话语……"
   },
   "005853": {
     "context": "005853",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后时间，开始流动。"
+    "string": "于是时间，开始流动。"
   },
   "005919": {
     "context": "005919",
