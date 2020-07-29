@@ -8,19 +8,19 @@
     "context": "000067",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――鹿鳴学園のような特科学校は、第２・第４土曜日も、フルタイムで授業がある。"
+    "string": "——鹿鸣学园这样的特科学校，每个月的第 2、4 个周六，也是全天制上课的。"
   },
   "000072": {
     "context": "000072",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は午後の授業のために、購買でパンを買い、教室でそれを食べた。"
+    "string": "夏彦为了下午的课程，去小卖部买了面包在教室吃了。"
   },
   "000077": {
     "context": "000077",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュと２人で、ぼそぼそと。"
+    "string": "跟纱瑠一起静静吃着。"
   },
   "000083": {
     "context": "000083",
@@ -38,133 +38,133 @@
     "context": "000118",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……カツサンド、うまい？」"
+    "string": "「……肉排三明治，好吃吗？」"
   },
   "000147": {
     "context": "000147",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0144 000247"
+    "string": "「一般」"
   },
   "000158": {
     "context": "000158",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0022 001466"
+    "string": "「这样……」"
   },
   "000163": {
     "context": "000163",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ムードメーカーであるましろがいないと、会話が盛り上がらないようだ。"
+    "string": "没有真白创造气氛，对话似乎就没法活跃起来。"
   },
   "000169": {
     "context": "000169",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（まさかこんな形で、ましろのありがたみを知る事になるとは……）"
+    "string": "（没想到通过这种方式，知道了真白的好……）"
   },
   "000174": {
     "context": "000174",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0140 004396"
+    "string": "夏彦这么想着的时候——"
   },
   "000186": {
     "context": "000186",
     "code": "0x45",
     "developer_comment": "",
-    "string": "教室の壁に備え付けられたスピーカーから、校内放送を告げる音が鳴った。"
+    "string": "教室墙壁上的扬声器传出了校内通知的声音。"
   },
   "000194": {
     "context": "000194",
     "code": "0x45",
     "developer_comment": "男性教師",
-    "string": "「……き、緊急放送です」"
+    "string": "「……紧，紧急通知」"
   },
   "000202": {
     "context": "000202",
     "code": "0x45",
     "developer_comment": "男性教師",
-    "string": "「先ほど、この校舎内に、危険物が仕掛けられたとの通報がありました……！」"
+    "string": "@need-review 「刚才，有人报警，校园内被安装了危险品……！」"
   },
   "000210": {
     "context": "000210",
     "code": "0x45",
     "developer_comment": "男性教師",
-    "string": "「生徒の皆様は、落ち着いて教員の指導に従い、ただちに校庭に避難してください」"
+    "string": "「各位学生，冷静跟随教员的指令，迅速前往操场避难」"
   },
   "000221": {
     "context": "000221",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0017 001342"
+    "string": "「——？！」"
   },
   "000226": {
     "context": "000226",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は息を呑む。"
+    "string": "夏彦屏住了呼吸。"
   },
   "000231": {
     "context": "000231",
     "code": "0x45",
     "developer_comment": "",
-    "string": "同時にクラス全体に動揺が走った。"
+    "string": "同时，动摇传遍了整个班级。"
   },
   "000251": {
     "context": "000251",
     "code": "0x45",
     "developer_comment": "男子生徒１",
-    "string": "「危険物！？　マジかよ？」"
+    "string": "「危险物品？真的假的？」"
   },
   "000259": {
     "context": "000259",
     "code": "0x45",
     "developer_comment": "男子生徒２",
-    "string": "「お、おいこれ……ニュースでやってた、一連の騒ぎと関係あんじゃねぇの……？」"
+    "string": "「喂，喂这个……跟新闻提到的一系列骚乱有关吧……？」"
   },
   "000267": {
     "context": "000267",
     "code": "0x45",
     "developer_comment": "女子生徒１",
-    "string": "「やだ、何それ！　なんでうちの学校が狙われるの！？」"
+    "string": "「别吧，这什么意思！为什么要盯上我们的学校啊？！」"
   },
   "000272": {
     "context": "000272",
     "code": "0x45",
     "developer_comment": "",
-    "string": "どよめきがさらに生徒たちの不安を煽り、教室がにわかに騒がしくなる。"
+    "string": "这些声音更加煽动了学生们的不安，教室突然变得骚乱起来。"
   },
   "000283": {
     "context": "000283",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「危険物……だって？　一体何が……！」"
+    "string": "「危险品……？到底是什么……！」"
   },
   "000312": {
     "context": "000312",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「全校生徒を避難させなければならないという事は、ガスもしくは爆弾だと思う」"
+    "string": "「必须让全校师生避难的情况下，我觉得是瓦斯或是炸弹」"
   },
   "000323": {
     "context": "000323",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ばっ……！」"
+    "string": "「炸……！」"
   },
   "000328": {
     "context": "000328",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は言葉を失った。"
+    "string": "夏彦不由得沉默。"
   },
   "000334": {
     "context": "000334",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（まさか……ましろのヨタ話が、本当になったっていうのか？）"
+    "string": "（怎么可能……真白说的那些无稽之谈，真的发生了？）"
   },
   "000339": {
     "context": "000339",
