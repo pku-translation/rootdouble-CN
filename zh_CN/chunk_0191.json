@@ -62,13 +62,13 @@
     "context": "000359",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦给悠里讲了今天发生的事情。"
+    "string": "夏彦给悠里讲了今天发生的事情："
   },
   "000364": {
     "context": "000364",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今天早上真白没有来家里的理由。恐怖分子的存在。靠不住的警察和安保部。"
+    "string": "今天早上真白没有来家里的理由、恐怖分子的存在、靠不住的警察和安保部。"
   },
   "000369": {
     "context": "000369",
@@ -80,7 +80,7 @@
     "context": "000374",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里听完了话，平静地说道。"
+    "string": "悠里听完了话，平静地说道："
   },
   "000403": {
     "context": "000403",
@@ -212,217 +212,217 @@
     "context": "001066",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ひこりんサリュちゃん、がんばれ～。愛情は最良のスパイスだよぅ」"
+    "string": "「小彦纱瑠，加油～。爱是最好的调味料哦」"
   },
   "001072": {
     "context": "001072",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（それは料理ベタの言い訳だと思うけど……）"
+    "string": "（这不是不会做饭的人的借口吗……）"
   },
   "001083": {
     "context": "001083",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「まぁ半人前同士でも、合わせれば一人前になるさ」"
+    "string": "@need-review 「我说，就算是两个半吊子，合起来也能够格吧」"
   },
   "001112": {
     "context": "001112",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「料理は科学の実験と一緒。分量と時間さえ間違わなければおいしくなる……はず」"
+    "string": "「做饭和科学实验一样。如果分量和时间没弄错的话就做得好吃……大概」"
   },
   "001117": {
     "context": "001117",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そんな希望的観測の元に、食材を切り始める。"
+    "string": "带着这种希望，他们开始切食材。"
   },
   "001299": {
     "context": "001299",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが一番最初の段階で、２人はいきなりつまづいた。"
+    "string": "但是就在第一步，两人就陷入了困境。"
   },
   "001310": {
     "context": "001310",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「サリュ、米研いでくれ」"
+    "string": "「纱瑠，把米淘一下」"
   },
   "001339": {
     "context": "001339",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「トグ？」"
+    "string": "「淘一下？」"
   },
   "001350": {
     "context": "001350",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あぁ、洗うって事」"
+    "string": "「啊，就是说洗一下」"
   },
   "001379": {
     "context": "001379",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0067 000363"
+    "string": "「知道了」"
   },
   "001384": {
     "context": "001384",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュはそう答えるや、台所洗剤を手に取った。"
+    "string": "纱瑠回答完，拿起了厨房洗涤剂。"
   },
   "001395": {
     "context": "001395",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あー待て、洗うってそういう意味じゃないよ！　もっとこう、水でショキショキと！」"
+    "string": "「喂等一下，洗不是这个意思！是要这样，用水刷拉哗啦地淘！」"
   },
   "001424": {
     "context": "001424",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「初期暑気？」"
+    "string": "「刷拉哗……啦……？」"
   },
   "001429": {
     "context": "001429",
     "code": "0x45",
     "developer_comment": "",
-    "string": "大事なパートナーなのに、意思の疎通すらままならない。"
+    "string": "明明是重要的伙伴，却没有办法说明意思。"
   },
   "001435": {
     "context": "001435",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（前途多難にもほどがある……）"
+    "string": "（未来一片黑暗……）"
   },
   "001575": {
     "context": "001575",
     "code": "0x45",
     "developer_comment": "",
-    "string": "さらにおかずを作る段階でも、さまざまな問題が発生する。"
+    "string": "终于到了做配菜的环节，又发生了各种各样的问题。"
   },
   "001586": {
     "context": "001586",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「サリュ、味噌汁が辛くなりすぎた。水足してくれ」"
+    "string": "「纱瑠，味增汤味道太重了。加点水」"
   },
   "001597": {
     "context": "001597",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0049 002378"
+    "string": "「明白」"
   },
   "001602": {
     "context": "001602",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュはそう答えるや、どんぶりに水を汲んで鍋の中に放り込む。"
+    "string": "纱瑠回答完，舀了一大碗水加进了锅里。"
   },
   "001613": {
     "context": "001613",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あーダメだってサリュ！　そんな大雑把なやり方じゃ！」"
+    "string": "「啊不行纱瑠！不能这么随便！」"
   },
   "001642": {
     "context": "001642",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「そ、そうなの？」"
+    "string": "「是，是这样吗？」"
   },
   "001653": {
     "context": "001653",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「さっき分量が大事だって、自分で言ってただろ？　ちゃんと計らなきゃ」"
+    "string": "「你刚刚自己也说了，分量很重要的话不是吗？必须要好好量才行」"
   },
   "001682": {
     "context": "001682",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「でも薄める水の量なんて、レシピには書いていない。勘を信じるしかない」"
+    "string": "「但是菜谱上面没有说加多少水稀释，只能靠直觉」"
   },
   "001711": {
     "context": "001711",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「大体、料理用語は表現が曖昧すぎる。ひとつまみとか、何？」"
+    "string": "「而且，菜谱上面的用语都太模糊了。一撮是多少？」"
   },
   "001722": {
     "context": "001722",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「いや『何？』って言われても……」"
+    "string": "「这让我怎么解释……」"
   },
   "001727": {
     "context": "001727",
     "code": "0x45",
     "developer_comment": "",
-    "string": "レシピをＰＤＡで確認しながら作っても、不思議と味は予想を外れ、その修正にまた一苦労した。"
+    "string": "就算是一边看着 PDA 上面的菜谱一边做的菜，味道还是有些超出想象，修改味道又花了很多功夫。"
   },
   "001874": {
     "context": "001874",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それからさらに小一時間も食材と格闘し――"
+    "string": "然后又跟食材战斗了差不多一小时——"
   },
   "001885": {
     "context": "001885",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「よし、出来た！」"
+    "string": "「好，做完了！」"
   },
   "001890": {
     "context": "001890",
     "code": "0x45",
     "developer_comment": "",
-    "string": "どうにかこうにか料理は完成した。"
+    "string": "不管怎么说，饭终于是做好了。"
   },
   "001895": {
     "context": "001895",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちが、味噌汁と肉野菜炒めをそれぞれ皿によそい、食卓に運ぶ。"
+    "string": "夏彦二人把味增汤和蔬菜炒肉装在不同的盘子里，端上了桌。"
   },
   "001906": {
     "context": "001906",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「おーいましろに悠里、メシできたよ」"
+    "string": "「喂——真白、悠里，饭做好了哦」"
   },
   "001935": {
     "context": "001935",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「私なりに、一生懸命がんばった……つもり」"
+    "string": "「我也用自己的方法，拼命努力……试过了」"
   },
   "002007": {
     "context": "002007",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ひこりん、サリュちゃん、お疲れさま～」"
+    "string": "「小彦，小纱瑠，辛苦你们了～」"
   },
   "002089": {
     "context": "002089",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「あ、ありがとう２人とも」"
+    "string": "「谢，谢谢你们两位」"
   },
   "002094": {
     "context": "002094",
     "code": "0x45",
     "developer_comment": "",
-    "string": "嬉しそうに言うましろの前にも、皿を並べる。"
+    "string": "真白开心地说道。两人也往她面前摆好盘子。"
   },
   "002283": {
     "context": "002283",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「それじゃみんな、手を合わせて――」"
+    "string": "「那么大家一起，双手合十——」"
   },
   "002326": {
     "context": "002326",
@@ -434,145 +434,145 @@
     "context": "002331",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉と共に、それぞれ目の前の皿に手を伸ばす。"
+    "string": "说着，大家都把筷子伸向面前的菜。"
   },
   "002336": {
     "context": "002336",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがすぐに、サリュが泣きそうな声で行った。"
+    "string": "但是马上，纱瑠就带着哭腔说道："
   },
   "002365": {
     "context": "002365",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……やっぱりこのスープは美味ではない」"
+    "string": "「……这个汤果然不好喝」"
   },
   "002394": {
     "context": "002394",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「私が分量を間違えたせい……！」"
+    "string": "「都是因为我弄错了分量……！」"
   },
   "002405": {
     "context": "002405",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「え！？　そんなバカな！？」"
+    "string": "「诶！？不可能啊！？」"
   },
   "002410": {
     "context": "002410",
     "code": "0x45",
     "developer_comment": "",
-    "string": "驚いた夏彦が慌てて味噌汁を口に含む。"
+    "string": "夏彦很惊讶，急忙喝了一口味增汤。"
   },
   "002415": {
     "context": "002415",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそれは普通に美味しかった。"
+    "string": "味道还是可以的。"
   },
   "002426": {
     "context": "002426",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「大丈夫だよ、美味しいよサリュ？」"
+    "string": "「没关系的，很好喝啊纱瑠？」"
   },
   "002505": {
     "context": "002505",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「そうだよ～。心配しなくていいよ～」"
+    "string": "「是啊～。不需要担心的～」"
   },
   "002585": {
     "context": "002585",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「でもましろに比べると全然だめ」"
+    "string": "「但是跟真白做的比就完全不行」"
   },
   "002596": {
     "context": "002596",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「いや、それを言い出したらぼくの肉野菜炒めもそうだぜ？」"
+    "string": "「不，你这么说的话我做的蔬菜炒肉也是一样的啊？」"
   },
   "002607": {
     "context": "002607",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「普段、いかに美味しいものを食べていたのかと思い知らされたよ。ぼくも全く未熟だ」"
+    "string": "「我现在知道了平时我们吃的东西有多美味了。我还是没有做饭的经验啊」"
   },
   "002636": {
     "context": "002636",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「いや、それを言ったら私の方が未熟……」"
+    "string": "「不，这么说来的话是我更没有经验……」"
   },
   "002647": {
     "context": "002647",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「いやいや、ぼくの方が……」"
+    "string": "「不不不，还是我……」"
   },
   "002652": {
     "context": "002652",
     "code": "0x45",
     "developer_comment": "",
-    "string": "互いに謙遜し、庇いあう２人。"
+    "string": "两个人互相谦让着。"
   },
   "002657": {
     "context": "002657",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そのやりとりを見て、ましろがにっこりと笑った。"
+    "string": "看到这一幕，真白甜甜地笑了。"
   },
   "002686": {
     "context": "002686",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「安心して、どっちも美味しいから。ホントにありがとう２人とも」"
+    "string": "「放心吧，哪一个做的都很好吃。真的很谢谢你们两个」"
   },
   "002715": {
     "context": "002715",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「そ、そう……安堵した」"
+    "string": "「这样吗……那我就放心了」"
   },
   "002726": {
     "context": "002726",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……ははっ。いいもんだな、こうして料理を褒めてもらうって」"
+    "string": "「……哈哈哈。听到有人这样夸奖我做的菜，真好啊」"
   },
   "002755": {
     "context": "002755",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「そそ。私がこの役目を嫌がらない理由もわかったでしょ？」"
+    "string": "「是啊。所以你知道为什么我不讨厌这个差事了吗？」"
   },
   "002760": {
     "context": "002760",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう話す３人を、悠里が微笑んで見つめている。"
+    "string": "悠里微笑地看着他们三个人聊天。"
   },
   "002765": {
     "context": "002765",
     "code": "0x45",
     "developer_comment": "",
-    "string": "気づけば料理はごく簡素だが、いつもの温かい食卓に戻っていた。"
+    "string": "@need-review 虽然饭菜很朴素，但是回过神来，他们又找回了一直以来餐桌上的温暖。"
   },
   "002771": {
     "context": "002771",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0137 001133"
+    "string": "但是就在这时——"
   },
   "002906": {
     "context": "002906",
     "code": "0x45",
     "developer_comment": "",
-    "string": "穏やかな雰囲気を破るような、インターフォンの音が鳴り響いた。"
+    "string": "像是要打破这份安宁一般，家里的内线电话响了。"
   },
   "002920": {
     "context": "002920",
