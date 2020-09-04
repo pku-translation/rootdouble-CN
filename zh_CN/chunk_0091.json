@@ -499,13 +499,13 @@
     "context": "001303",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@need-review 在失去记忆的状态下，犹如忽然出生在这个地狱一般的环境里一样的存在。"
+    "string": "在失去记忆的状态下，犹如忽然出生在这个地狱一般的环境里一样的存在。# review"
   },
   "001308": {
     "context": "001308",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@need-review 不知道自己是谁，灵魂被单单给与了“拯救生命”这样的使命。"
+    "string": "不知道自己是谁，灵魂被单单给与了“拯救生命”这样的使命。# review"
   },
   "001313": {
     "context": "001313",
@@ -712,7 +712,7 @@
     "context": "002209",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@need-review 「……我做好准备了」"
+    "string": "「……我有思想准备了」"
   },
   "002214": {
     "context": "002214",
