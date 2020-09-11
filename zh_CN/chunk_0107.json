@@ -14,19 +14,19 @@
     "context": "000090",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见悲痛的声音从后面传来。"
+    "string": "风见悲痛的声音从身后传来。"
   },
   "000096": {
     "context": "000096",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（没问题的！我的身体能力，在崩塌之前应该可以抵达下面的！）"
+    "string": "（没问题的！以我的身体能力，在崩塌之前应该可以抵达下面的！）"
   },
   "000101": {
     "context": "000101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑坚信着这一点朝楼下跑去，就在这时——"
+    "string": "渡濑坚信着这一点，向楼下跑去，就在这时——"
   },
   "000106": {
     "context": "000106",
@@ -44,13 +44,13 @@
     "context": "000117",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑注意到没有踩到地板的感觉，急忙眼睛朝下看去。"
+    "string": "没有踩到台阶的感觉——他急忙向下方看去。"
   },
   "000122": {
     "context": "000122",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看到的是，比渡濑早一步落下去的楼梯的残骸。"
+    "string": "看到的是，比他早一步落下去的楼梯的残骸。"
   },
   "000190": {
     "context": "000190",
@@ -80,7 +80,7 @@
     "context": "000256",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑急忙用手抓住栏杆。"
+    "string": "渡濑急忙抓住栏杆。"
   },
   "000261": {
     "context": "000261",
@@ -92,19 +92,19 @@
     "context": "000287",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在挂在栏杆的渡濑眼前是噩梦般的场景，钢架、钢板、钢筋接连被压碎。"
+    "string": "渡濑虽然身子挂在栏杆上，眼前却是一片噩梦般的场景：钢架，钢板，还有钢筋，都在相互挤压着落了下去。"
   },
   "000292": {
     "context": "000292",
     "code": "0x45",
     "developer_comment": "",
-    "string": "整个视野全都是一片崩溃的景象。"
+    "string": "视野里，全都是崩溃的景象。"
   },
   "000303": {
     "context": "000303",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——紧接着，世界一下子沉了下去。"
+    "string": "——随即，世界也猛然沉了下去。"
   },
   "000314": {
     "context": "000314",
@@ -116,25 +116,25 @@
     "context": "000364",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后，崩塌开始了。"
+    "string": "就这样，崩塌开始了。"
   },
   "000376": {
     "context": "000376",
     "code": "0x45",
     "developer_comment": "",
-    "string": "螺丝和螺母被弹飞。"
+    "string": "螺丝与螺母崩了出来，四处飞散着。"
   },
   "000381": {
     "context": "000381",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无数的瓦砾落下。"
+    "string": "不计其数的瓦砾，争先恐后地坠落着。"
   },
   "000386": {
     "context": "000386",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑就在这中间。"
+    "string": "而渡濑，就在它们中间。"
   },
   "000397": {
     "context": "000397",
@@ -188,13 +188,13 @@
     "context": "000468",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不，有什么东西穿透了他的胸腔。"
+    "string": "不，是有什么东西穿透了他的胸腔。"
   },
   "000473": {
     "context": "000473",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——我被贯穿了吗？# review"
+    "string": "——我被砸穿了吗？"
   },
   "000478": {
     "context": "000478",
@@ -206,31 +206,31 @@
     "context": "000487",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那里无情地落下瓦砾。"
+    "string": "瓦砾无情地坠落着。"
   },
   "000492": {
     "context": "000492",
     "code": "0x45",
     "developer_comment": "",
-    "string": "手被撞烂了，"
+    "string": "手砸烂了，"
   },
   "000497": {
     "context": "000497",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脚被撞烂了，"
+    "string": "脚砸烂了，"
   },
   "000502": {
     "context": "000502",
     "code": "0x45",
     "developer_comment": "",
-    "string": "肩膀被撞烂了，"
+    "string": "肩膀砸烂了，"
   },
   "000507": {
     "context": "000507",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后——"
+    "string": "紧接着——"
   },
   "000591": {
     "context": "000591",
@@ -242,13 +242,13 @@
     "context": "000651",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脑中回想起风见的声音的下一瞬间——"
+    "string": "脑内回放起风见的话语——"
   },
   "000656": {
     "context": "000656",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——最后，头被撞烂了。"
+    "string": "——而下一瞬，头也砸烂了。"
   },
   "000750": {
     "context": "000750",
@@ -270,7 +270,7 @@
     "context": "000759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无视了风见的警告，太过于关心惠那的结果。"
+    "string": "无视风见的警告，过于关心惠那的结果。"
   },
   "000762": {
     "context": "000762",
