@@ -26,7 +26,7 @@
     "context": "000112",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「没想到楼梯竟然会塌掉……」"
+    "string": "「楼梯竟然会塌掉……」"
   },
   "000142": {
     "context": "000142",
@@ -38,19 +38,19 @@
     "context": "000147",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听宇喜多这么一说，渡濑向楼梯间里看了看。"
+    "string": "听宇喜多这么一说，渡濑向楼梯间那边看了一眼。"
   },
   "000195": {
     "context": "000195",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是塌掉的楼梯堵住了门，看起来是过不去了。"
+    "string": "垮塌的楼梯把门都堵死了，显然进都进不去了。"
   },
   "000206": {
     "context": "000206",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「喂——老师！听得见吗——！」"
+    "string": "「喂——老师！能听到吗——！」"
   },
   "000211": {
     "context": "000211",
@@ -62,7 +62,7 @@
     "context": "000216",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来是为了搜索，进到某个房间去了。"
+    "string": "大概是为了搜索，进到某个房间里了吧。"
   },
   "000271": {
     "context": "000271",
@@ -80,25 +80,25 @@
     "context": "000330",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「没办法啊，那我们从内环楼的安全梯下去跟她汇合吧！」"
+    "string": "「现在也没办法啦，我们从内环楼的安全梯下去跟她汇合吧！」"
   },
   "000352": {
     "context": "000352",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们点点头，向内环楼前进。"
+    "string": "其他人点了点头，向内环楼走去。"
   },
   "000400": {
     "context": "000400",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是，内环楼的安全梯也——"
+    "string": "然而，内环楼的安全梯也——"
   },
   "000444": {
     "context": "000444",
     "code": "0x45",
     "developer_comment": "",
-    "string": "同样塌掉了。"
+    "string": "同样已经崩塌了。"
   },
   "000500": {
     "context": "000500",
@@ -128,7 +128,7 @@
     "context": "000630",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见分别在地图上两个楼梯的位置打上了×记号。"
+    "string": "风见在地图里这两处楼梯的位置上，各打了一个“×”。"
   },
   "000645": {
     "context": "000645",
@@ -140,7 +140,7 @@
     "context": "000660",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们点点头，向第 6 区域出发了。"
+    "string": "渡濑等人点了点头，向第 6 区域走去。"
   },
   "000757": {
     "context": "000757",
@@ -152,7 +152,7 @@
     "context": "000762",
     "code": "0x45",
     "developer_comment": "",
-    "string": "往第 6 区域的门禁出现了故障。"
+    "string": "通往第 6 区域的门禁出现了故障。"
   },
   "000813": {
     "context": "000813",
@@ -164,13 +164,13 @@
     "context": "000824",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「真是倒霉啊……试试外环楼那边的路吧」"
+    "string": "「真是倒霉啊……试试外环楼那边吧」"
   },
   "000870": {
     "context": "000870",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑在 PDA 的地图上，又加了个×，向外环楼前进。"
+    "string": "渡濑在 PDA 的地图上，又加了个“×”，然后来到了外环楼。"
   },
   "000918": {
     "context": "000918",
@@ -182,31 +182,31 @@
     "context": "000964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "天花板和墙壁塌下来，完全堵住了道路。"
+    "string": "塌下来的天花板与墙壁，把通道堵得严严实实的。"
   },
   "000969": {
     "context": "000969",
     "code": "0x45",
     "developer_comment": "",
-    "string": "尽管如此，天花板上的洞却没有连接到地面。"
+    "string": "瓦砾堆到了这边还没塌陷的天花板上，因而也不可能从瓦砾上面翻过去。"
   },
   "000980": {
     "context": "000980",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「喂，喂……这是不是不太妙？」"
+    "string": "「喂，喂……情况是不是有点不妙啊？」"
   },
   "001016": {
     "context": "001016",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「呜……」"
+    "string": "「呃……」"
   },
   "001021": {
     "context": "001021",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见咬了咬牙，看向 PDA。"
+    "string": "风见咬了咬牙，看向了 PDA："
   },
   "001072": {
     "context": "001072",
@@ -242,7 +242,7 @@
     "context": "001127",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「那就是，难道说！？」"
+    "string": "「这，难道说！？」"
   },
   "001138": {
     "context": "001138",
@@ -254,19 +254,19 @@
     "context": "001143",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑狠狠地咬了咬牙。"
+    "string": "渡濑狠狠地咬着牙。"
   },
   "001148": {
     "context": "001148",
     "code": "0x45",
     "developer_comment": "",
-    "string": "能前进的道路，全都被破坏了。"
+    "string": "前进的道路，全都阻断了。"
   },
   "001194": {
     "context": "001194",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我有些担心老师……只能想点办法下到楼下去啊」"
+    "string": "「我有些担心老师……想点办法下到楼下去吧」"
   },
   "001205": {
     "context": "001205",
@@ -278,13 +278,13 @@
     "context": "001234",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「不，让所有人通过污染区域太冒险了」"
+    "string": "「不，让所有人通过污染区域的话，实在太冒险了」"
   },
   "001265": {
     "context": "001265",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「怎，怎么办啊……」"
+    "string": "「那，那怎么办啊……」"
   },
   "001294": {
     "context": "001294",
@@ -296,13 +296,13 @@
     "context": "001299",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多用十分困扰的声音说道——"
+    "string": "宇喜多无计可施地念叨着——"
   },
   "001304": {
     "context": "001304",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到他说的，渡濑好像突然想到了什么。"
+    "string": "而这让渡濑灵光一现："
   },
   "001315": {
     "context": "001315",
@@ -332,7 +332,7 @@
     "context": "001475",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把大家带到的地方，是电梯间。"
+    "string": "目的地，是电梯间。"
   },
   "001540": {
     "context": "001540",
@@ -350,67 +350,67 @@
     "context": "001632",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把手放在电梯门上，强行打开了。"
+    "string": "渡濑抓着电梯门，把它强行扒开了。"
   },
   "001675": {
     "context": "001675",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——电梯的轿厢，好像上到了地面上去。"
+    "string": "——电梯的轿厢，好像位于地面以上。"
   },
   "001680": {
     "context": "001680",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑向电梯井里面看去，然后说道。"
+    "string": "渡濑观察了一下电梯井的构造，然后说道："
   },
   "001691": {
     "context": "001691",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……好，果然是这样！」"
+    "string": "「……好的，果然是这样！」"
   },
   "001696": {
     "context": "001696",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那里有类似梯子的东西。"
+    "string": "里面有类似梯子的东西。"
   },
   "001733": {
     "context": "001733",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「这是维修用的……确实用这个的话，好像能下得去」"
+    "string": "「这处梯子是用于电梯维护的……是啊，我们应该可以用它爬下去」"
   },
   "001763": {
     "context": "001763",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「好像还挺深的，大家没问题吗？」"
+    "string": "「似乎还挺深的，大家没问题吗？」"
   },
   "001793": {
     "context": "001793",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「嗯，好像能下得去……只要不往下看的话」"
+    "string": "「嗯，应该没问题……只要不往下看的话」"
   },
   "001843": {
     "context": "001843",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好。那，我们依次下去」"
+    "string": "「好。那我们依次下去吧」"
   },
   "001848": {
     "context": "001848",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是就在这时，悠里青着脸说道。"
+    "string": "然而，渡濑话音刚落，悠里就青着脸说道："
   },
   "001877": {
     "context": "001877",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「我……让我从这里下去，肯定做不到……」"
+    "string": "「我……让我这样爬下去，肯定是做不到的……」"
   },
   "001923": {
     "context": "001923",
@@ -427,7 +427,7 @@
     "context": "001984",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「是啊，悠里也加油吧？」"
+    "string": "「是呀，加油吧悠里妹妹？」"
   },
   "002013": {
     "context": "002013",
@@ -439,19 +439,19 @@
     "context": "002018",
     "code": "0x45",
     "developer_comment": "",
-    "string": "可是也不能把悠里放在这。"
+    "string": "不管怎么说，不能把悠里单独留在这里。"
   },
   "002023": {
     "context": "002023",
     "code": "0x45",
     "developer_comment": "",
-    "string": "再继续分开的话过于危险。"
+    "string": "再继续分散的话，实在过于危险。"
   },
   "002041": {
     "context": "002041",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好。你一个人下不去的话，我背你的话可以吗？」"
+    "string": "「那好。一个人下不去的话，我背你的话可以吗？」"
   },
   "002070": {
     "context": "002070",
@@ -463,7 +463,7 @@
     "context": "002075",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里睁大了眼睛，紧紧盯着渡濑。"
+    "string": "悠里睁大了眼睛，直直地看着渡濑。"
   },
   "002081": {
     "context": "002081",
@@ -475,19 +475,19 @@
     "context": "002086",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑一瞬紧张了起来，而悠里在稍稍犹豫之后——"
+    "string": "渡濑一下子紧张了起来，但悠里却在片刻的犹豫之后——"
   },
   "002091": {
     "context": "002091",
     "code": "0x45",
     "developer_comment": "",
-    "string": "小小地点了下头。"
+    "string": "小小地点了点头："
   },
   "002120": {
     "context": "002120",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「我知道了……那就拜托您了」"
+    "string": "「那就……拜托您了」"
   },
   "002131": {
     "context": "002131",
@@ -499,7 +499,7 @@
     "context": "002146",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「悠里，无论如何都不行吗？」"
+    "string": "「悠里，无论如何都做不到吗？」"
   },
   "002152": {
     "context": "002152",
@@ -517,13 +517,13 @@
     "context": "002168",
     "code": "0x45",
     "developer_comment": "",
-    "string": "没时间浪费在这些事情上了——渡濑正这样想着，洵却出声说道。"
+    "string": "没时间浪费在这些事情上了——渡濑正这样想着，洵却出声说道："
   },
   "002197": {
     "context": "002197",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「那悠里，让队长背你怎么样啊？」"
+    "string": "「那么悠里妹妹，让队长背你下去行不行呀？」"
   },
   "002226": {
     "context": "002226",
@@ -535,7 +535,7 @@
     "context": "002255",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「他背你就能放心了吧。队长怎么样？」"
+    "string": "「他来背你的话就能安心了吧。队长你觉得怎么样？」"
   },
   "002266": {
     "context": "002266",
@@ -547,7 +547,7 @@
     "context": "002271",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑瞥了一眼悠里。"
+    "string": "渡濑向悠里那边瞥了一眼。"
   },
   "002277": {
     "context": "002277",
@@ -559,25 +559,25 @@
     "context": "002282",
     "code": "0x45",
     "developer_comment": "",
-    "string": "虽然这么想，但是意外地悠里点了点头。"
+    "string": "虽然渡濑是这么想的，但意外地，悠里点了点头："
   },
   "002311": {
     "context": "002311",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「我知道了……那，就拜托您了」"
+    "string": "「我明白了……那，就拜托您了」"
   },
   "002322": {
     "context": "002322",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好，好！交给我吧！」"
+    "string": "「好，好的！交给我吧！」"
   },
   "002351": {
     "context": "002351",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「那我先下去，为以防万一先在下面等着」"
+    "string": "「那我先下去，为了以防万一先在底下等着」"
   },
   "002380": {
     "context": "002380",
@@ -601,19 +601,19 @@
     "context": "002443",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后渡濑他们，就从电梯井成功地下到了地下 2 层。"
+    "string": "就这样，渡濑一行开始通过电梯井前往地下 2 层。"
   },
   "002486": {
     "context": "002486",
     "code": "0x45",
     "developer_comment": "",
-    "string": "首先是洵和宇喜多下去，然后是风见跟着。"
+    "string": "首先下去的是洵和宇喜多，然后是风见。"
   },
   "002491": {
     "context": "002491",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最后从下面传来了洵他们的声音。"
+    "string": "不一会儿，下面传来了洵和宇喜多的声音："
   },
   "002528": {
     "context": "002528",
@@ -625,25 +625,25 @@
     "context": "002558",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「你们也要快点来啊」"
+    "string": "「你们也要快点过来啊」"
   },
   "002588": {
     "context": "002588",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「明白。那队长，请」"
+    "string": "「明白。那么队长，请」"
   },
   "002621": {
     "context": "002621",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到这个，就轮到渡濑和悠里了。"
+    "string": "然后风见的指令也通过电梯井传了上来——现在轮到渡濑和悠里了。"
   },
   "002632": {
     "context": "002632",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好。那我们走吧悠里」"
+    "string": "「好。那我们下去吧，悠里」"
   },
   "002678": {
     "context": "002678",
@@ -666,13 +666,13 @@
     "context": "002720",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑将身体用绳子固定好，纵身投入电梯井。"
+    "string": "渡濑将身体用绳子固定好，纵身钻入了电梯井。"
   },
   "002803": {
     "context": "002803",
     "code": "0x45",
     "developer_comment": "",
-    "string": "慢慢地爬下梯子。"
+    "string": "然后一步一步地，顺着梯子向下爬去。"
   },
   "002808": {
     "context": "002808",
@@ -708,37 +708,37 @@
     "context": "002862",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里没有回答。"
+    "string": "悠里没有回应，"
   },
   "002867": {
     "context": "002867",
     "code": "0x45",
     "developer_comment": "",
-    "string": "只是像是为了忍住恐怖，紧紧地抱住了渡濑的脖子。"
+    "string": "只是一动不动地，紧紧地抱着渡濑的脖子。"
   },
   "002872": {
     "context": "002872",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑尽量让身体不晃动，慢慢地在电梯井里向下爬。"
+    "string": "在昏暗的电梯井里，渡濑慢慢地向下爬着，尽量让自己的身体不要晃动。"
   },
   "002877": {
     "context": "002877",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——终于，悠里小声说道。"
+    "string": "——终于，悠里小声说道："
   },
   "002886": {
     "context": "002886",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑尽量让身体不晃动，慢慢地在电梯井里向下爬。"
+    "string": "渡濑尽量让自己的身体不要晃动，在电梯井里慢慢地向下爬着。"
   },
   "002891": {
     "context": "002891",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——终于，悠里小声说道。"
+    "string": "——终于，悠里小声说道："
   },
   "002908": {
     "context": "002908",
@@ -762,7 +762,7 @@
     "context": "002935",
     "code": "0x45",
     "developer_comment": "",
-    "string": "被这么问的时候，渡濑以前隐隐作痛的肋骨突然抽痛——但他丝毫不把痛楚表现在脸上。"
+    "string": "悠里这样一问，渡濑那根时常隐隐作痛的肋骨又突然疼了起来——但他一点都没有让这分疼痛表现在脸上。"
   },
   "002946": {
     "context": "002946",
@@ -774,25 +774,25 @@
     "context": "002957",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「……呵」"
+    "string": "「……嘻」"
   },
   "002962": {
     "context": "002962",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑好像觉得悠里在背上稍稍笑了笑。"
+    "string": "背上的悠里，好像轻轻地笑了一声。"
   },
   "002967": {
     "context": "002967",
     "code": "0x45",
     "developer_comment": "",
-    "string": "沉默再次降临。"
+    "string": "然后，又是一阵沉默。"
   },
   "002972": {
     "context": "002972",
     "code": "0x45",
     "developer_comment": "",
-    "string": "像是讨厌这样，她又开口说道。"
+    "string": "像是讨厌这分沉默似的，悠里再度开口说道："
   },
   "002983": {
     "context": "002983",
@@ -804,13 +804,13 @@
     "context": "002994",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯，你随便问」"
+    "string": "「嗯，随便问吧」"
   },
   "003005": {
     "context": "003005",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「队长你……总是，特别关照我……」"
+    "string": "「队长……好像总是，特别关心我……」"
   },
   "003016": {
     "context": "003016",
@@ -828,25 +828,25 @@
     "context": "003038",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「怎么会！当然没有……但是为什么，会对素不相识的我这样？」"
+    "string": "「怎么会！当然没有……但是为什么，会对素不相识的我这么关心呢？」"
   },
   "003049": {
     "context": "003049",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我想想……」"
+    "string": "「我想一下啊……」"
   },
   "003054": {
     "context": "003054",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里第一次这样积极向渡濑搭话，这让他有点高兴。"
+    "string": "悠里这么积极地向他搭话，可还是破天荒头一遭——渡濑对此挺高兴的。"
   },
   "003059": {
     "context": "003059",
     "code": "0x45",
     "developer_comment": "",
-    "string": "所以渡濑稍微想了想，诚实地说道。"
+    "string": "他稍微一想，便诚实地回答道："
   },
   "003070": {
     "context": "003070",
