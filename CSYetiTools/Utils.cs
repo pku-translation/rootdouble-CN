@@ -16,12 +16,17 @@ namespace CsYetiTools
             ?? throw new InvalidOperationException("Cannot get encoding of code page 936");
         public static readonly Encoding Utf8 = new UTF8Encoding(/*encoderShouldEmitUTF8Identifier: */false, /*throwOnInvalidBytes: */ true);
 
+        public static void PrintColored(ConsoleColor color, string msg)
+        {
+            var oldColor = Console.ForegroundColor;
+            Console.ForegroundColor = color;
+            Console.WriteLine(msg);
+            Console.ForegroundColor = oldColor;
+        }
+
         public static void PrintError(string error)
         {
-            var color = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(error);
-            Console.ForegroundColor = color;
+            PrintColored(ConsoleColor.Red, error);
         }
 
         public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings

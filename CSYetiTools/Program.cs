@@ -91,11 +91,8 @@ namespace CsYetiTools
                 catch (CompilationErrorException exc)
                 {
                     Console.WriteLine("Compile error in input: ");
-                    var color = Console.ForegroundColor;
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine(scriptText);
-                    Console.ForegroundColor = color;
-                    Console.WriteLine(exc);
+                    Utils.PrintColored(ConsoleColor.Blue, scriptText);
+                    Utils.PrintError(exc.ToString());
                     return;
                 }
 
@@ -289,11 +286,11 @@ namespace CsYetiTools
                     {
                         case SssInputCode si:
                         case ScriptJumpCode c when c.IsJump:
-                        {
-                            var keyStr = code.Index.ToString("000000");
-                            ignores.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
-                        }
-                        break;
+                            {
+                                var keyStr = code.Index.ToString("000000");
+                                ignores.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
+                            }
+                            break;
                     }
                 }
                 if (ignores.Count > 0)
@@ -330,33 +327,36 @@ namespace CsYetiTools
             bool debugChunkNum = false)
         {
             Console.Write("Translating executable... "); Console.Out.Flush();
-            var exePeeker = Utils.Time(() => {
+            var exePeeker = Utils.Time(() =>
+            {
                 var peeker = ExecutableStringPeeker.FromFile(executable, Utils.Cp932);
                 peeker.ApplyTranslations(translationDir / "sys", executableStringPool);
                 return peeker;
             });
 
             Console.WriteLine("Translating sn-package... ");
-            Utils.Time(() => {
-                
+            Utils.Time(() =>
+            {
+
                 snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum);
                 return snPackage;
             }, "Translated sn-package in {0}");
 
             var dbChars = snPackage.EnumerateChars().Concat(exePeeker.EnumerateChars()).Where(c => c >= 0x80).Distinct().Ordered().ToArray();
             Console.WriteLine($"Double-byte code used: {dbChars.Length}");
-            
+
             Console.Write("Generating font... "); Console.Out.Flush();
             var fontMapping = new FontMapping(dbChars);
 
-            var pair = Utils.Time(() => {
+            var pair = Utils.Time(() =>
+            {
                 var texture = fontMapping.GenerateTexture();
                 var xtx = Xtx.CreateFont(texture);
                 return (texture, xtx);
             });
             using var xtx = pair.xtx;
             using var texture = pair.texture;
-            
+
             using var exeStream = new MemoryStream(File.ReadAllBytes(executable));
             exePeeker.Modify(exeStream, fontMapping);
 
@@ -378,7 +378,19 @@ namespace CsYetiTools
             {
                 if (script.Footer.ScriptIndex < 0) continue;
                 var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
-                var raw = await resource.GetRawTranslations("zh_CN");
+                string raw;
+                while (true)
+                {
+                    try
+                    {
+                        raw = await resource.GetRawTranslations("zh_CN");
+                        break;
+                    }
+                    catch (Flurl.Http.FlurlHttpTimeoutException)
+                    {
+                        Console.WriteLine($"chunk {chunkIndex:0000} timeout, retrying");
+                    }
+                }
                 using (var writer = new StreamWriter(translationDir / $"chunk_{chunkIndex:0000}.json", false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
@@ -390,13 +402,156 @@ namespace CsYetiTools
             foreach (var name in peeker.Names)
             {
                 var resource = project.Resource(string.Format(sysFormatter, name.Replace('_', '-')));
-                var raw = await resource.GetRawTranslations("zh_CN");
+                string raw;
+                while (true)
+                {
+                    try
+                    {
+                        raw = await resource.GetRawTranslations("zh_CN");
+                        break;
+                    }
+                    catch (Flurl.Http.FlurlHttpTimeoutException)
+                    {
+                        Console.WriteLine($"sys/{name} timeout, retrying");
+                    }
+                }
                 using (var writer = new StreamWriter(translationDir / "sys" / $"{name.Replace('-', '_')}.json", false, Utils.Utf8))
                 {
                     writer.NewLine = "\n";
                     writer.Write(raw);
                 }
                 Console.WriteLine($"sys/{name} downloaded");
+            }
+        }
+
+        private static void WritePOSeg(TextWriter writer, string key, string value)
+        {
+            var lines = value.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+            if (lines.Length > 1)
+            {
+                writer.WriteLine($"{key} \"\"");
+                foreach (var line in lines)
+                {
+                    writer.WriteLine($"\"{line.Replace("\"", "\\\"")}\\n\"");
+                }
+            }
+            else
+            {
+                writer.WriteLine($"{key} \"{lines[0].Replace("\"", "\\\"")}\"");
+            }
+        }
+
+        private static void WritePO(
+            FilePath path,
+            string prefix,
+            IEnumerable<Transifex.TranslationStringInfo> stringInfos,
+            Func<Transifex.TranslationStringInfo, string> textSelector,
+            Func<Transifex.TranslationStringInfo, string?>? contextSelector = null)
+        {
+            using var writer = new StreamWriter(path, false, Utils.Utf8);
+            writer.NewLine = "\n";
+            WritePO(writer, prefix, stringInfos, textSelector, contextSelector);
+        }
+
+        private static void WritePO(
+            TextWriter writer,
+            string prefix,
+            IEnumerable<Transifex.TranslationStringInfo> stringInfos,
+            Func<Transifex.TranslationStringInfo, string> textSelector,
+            Func<Transifex.TranslationStringInfo, string?>? commentSelector = null)
+        {
+            foreach (var info in stringInfos)
+            {
+                var key = info.Key;
+
+                var text = textSelector(info);
+                var comment = commentSelector?.Invoke(info);
+
+                writer.WriteLine();
+                if (!string.IsNullOrWhiteSpace(comment)) writer.WriteLine($"# {comment}");
+                WritePOSeg(writer, "msgid", prefix + ":" + key);
+                WritePOSeg(writer, "msgstr", text);
+            }
+        }
+
+        public static async Task GeneratePOs(FilePath outputDir, SnPackage jpPackage, SnPackage enPackage, string projectSlug, string chunkFormatter)
+        {
+            var client = new Transifex.TransifexClient();
+            var project = client.Project(projectSlug);
+
+            Utils.CreateOrClearDirectory(outputDir / "ja/chunk");
+            Utils.CreateOrClearDirectory(outputDir / "zh-Hans/chunk");
+            Utils.CreateOrClearDirectory(outputDir / "en/chunk");
+            foreach (var (chunkIndex, script) in jpPackage.Scripts.WithIndex())
+            {
+                if (script.Footer.ScriptIndex < 0) continue;
+                var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
+
+                var jaSources = script.GetTranslateSources();
+                var enSources = enPackage.Scripts[chunkIndex].GetTranslateSources();
+
+                var indexStr = $"{chunkIndex:0000}";
+
+                Console.WriteLine($"Generate chunk {indexStr} ...");
+
+                Transifex.TranslationStringInfo[] infos;
+                while (true)
+                {
+                    try
+                    {
+                        infos = await resource.GetTranslationStrings("zh_CN");
+                        break;
+                    }
+                    catch (Flurl.Http.FlurlHttpTimeoutException)
+                    {
+                        Console.WriteLine($"chunk {indexStr} timeout, retrying");
+                    }
+                }
+
+                foreach (var info in infos)
+                {
+                    WritePO(outputDir / "ja/chunk" / $"{indexStr}.po", indexStr, infos, info => info.SourceString, info => info.Comment);
+                    WritePO(outputDir / "zh-Hans/chunk" / $"{indexStr}.po", indexStr, infos, info => info.Translation, info => info.Comment);
+                    WritePO(outputDir / "en/chunk" / $"{indexStr}.po", indexStr, infos, info => enSources[info.Key].String, info => info.Comment);
+                }
+            }
+
+        }
+
+        public static async Task GenerateSysPOs(FilePath outputDir, ExecutableStringPeeker peeker, string projectSlug, string sysFormatter)
+        {
+            var client = new Transifex.TransifexClient();
+            var project = client.Project(projectSlug);
+
+            Utils.CreateOrClearDirectory(outputDir / "ja/sys");
+            Utils.CreateOrClearDirectory(outputDir / "zh-Hans/sys");
+            Utils.CreateOrClearDirectory(outputDir / "en/sys");
+            foreach (var name in peeker.Names)
+            {
+                var resource = project.Resource(string.Format(sysFormatter, name.Replace('_', '-')));
+
+                Console.WriteLine($"Generate {name} ...");
+
+                Transifex.TranslationStringInfo[] infos;
+                while (true)
+                {
+                    try
+                    {
+                        infos = await resource.GetTranslationStrings("zh_CN");
+                        break;
+                    }
+                    catch (Flurl.Http.FlurlHttpTimeoutException)
+                    {
+                        Console.WriteLine($"sys/{name} timeout, retrying");
+                    }
+                }
+
+                foreach (var info in infos)
+                {
+                    WritePO(outputDir / "ja/sys" / (name + ".po"), name, infos, info => info.SourceString);
+                    WritePO(outputDir / "zh-Hans/sys" / (name + ".po"), name, infos, info => info.Translation);
+                    WritePO(outputDir / "en/sys" / (name + ".po"), name, infos, info => info.Comment);
+                }
             }
         }
     }
