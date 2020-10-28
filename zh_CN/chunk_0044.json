@@ -8,13 +8,13 @@
     "context": "000060",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑和洵首先进入了内环楼地下 2 层。"
+    "string": "渡濑和洵首先来到了内环楼地下 2 层。"
   },
   "000163": {
     "context": "000163",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「这些孩子们肯定在这个区域吧……」"
+    "string": "「那几个孩子，应该就在这个区域里吧……」"
   },
   "000174": {
     "context": "000174",
@@ -56,7 +56,7 @@
     "context": "000515",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不，等等……我们找找地下 1 层吧」"
+    "string": "「等一下，我们去地下 1 层找找吧」"
   },
   "000520": {
     "context": "000520",
@@ -86,13 +86,13 @@
     "context": "000617",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「糟糕啦。因为 Factory 是贯通两层的设计，所以楼梯就只有这里才有了……」"
+    "string": "「麻烦了。Factory 那边是两层贯通的设计，也就是说，楼梯只有这一处……」"
   },
   "000646": {
     "context": "000646",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「又要走电梯井了吗？」"
+    "string": "「又要走电梯井了？」"
   },
   "000657": {
     "context": "000657",
@@ -140,31 +140,31 @@
     "context": "000853",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好，可以上去了！」"
+    "string": "「好的，能行！」"
   },
   "000882": {
     "context": "000882",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「Nice 队长！我们来比赛爬绳子吧！」"
+    "string": "「队长干得好！我们来比赛爬绳子吧！」"
   },
   "000893": {
     "context": "000893",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「只有一根绳子怎么比啊？就正常地爬上去就好了」"
+    "string": "「只有一根绳子，怎么比啊？普通地爬上去吧」"
   },
   "000922": {
     "context": "000922",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「什么呀，真是没劲」"
+    "string": "「什么呀，好无聊」"
   },
   "000965": {
     "context": "000965",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他们一边聊着，一边爬上了绳子。"
+    "string": "两人就这样一边交谈，一边沿着绳索向上攀爬。"
   },
   "001009": {
     "context": "001009",
@@ -206,13 +206,13 @@
     "context": "001192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脚刚踏进这间房间，洵大声喊道。"
+    "string": "一进门，洵就叫道："
   },
   "001257": {
     "context": "001257",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「什么！有 Procyon ！？」"
+    "string": "「哦呀！有 Procyon！？」"
   },
   "001268": {
     "context": "001268",
@@ -224,7 +224,7 @@
     "context": "001366",
     "code": "0x45",
     "developer_comment": "",
-    "string": "能看见房屋的一角放着一个他们很熟悉的机器。"
+    "string": "房间的一角，确实放着一台他们很熟悉的机器。"
   },
   "001382": {
     "context": "001382",
@@ -236,13 +236,13 @@
     "context": "001411",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「Procyon 是 LABO 给的。设施里即使有也不奇怪」"
+    "string": "「Procyon 就是 LABO 给的嘛。设施里有也不奇怪」"
   },
   "001422": {
     "context": "001422",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「明白了。不管怎么说，发现了好东西呢」"
+    "string": "「也是。不管怎么说，发现了好东西呢」"
   },
   "001451": {
     "context": "001451",
@@ -266,31 +266,31 @@
     "context": "001466",
     "code": "0x45",
     "developer_comment": "",
-    "string": "虽然没有找到 AD——但是渡濑注意到了一本被扔在桌子上面的册子。"
+    "string": "虽然没有找到 AD——但是渡濑注意到了一本扔在桌上的小册子："
   },
   "001477": {
     "context": "001477",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……嗯？“防灾手册”？」"
+    "string": "「……嗯？《防灾手册》？」"
   },
   "001506": {
     "context": "001506",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「防灾手册，是之前悠里找到的那个吗？」"
+    "string": "「防灾手册？就是之前悠里找到的那个吗？」"
   },
   "001517": {
     "context": "001517",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不，有细微的差别。上面写着“第 5、第 6 区域员工用”」"
+    "string": "「不，有细微的差别。这本册子上写着“第 5、第 6 区域员工专用”」"
   },
   "001522": {
     "context": "001522",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑和洵把头凑在一起阅读这本册子。"
+    "string": "渡濑与洵凑在一起，读着册子里的内容。"
   },
   "001527": {
     "context": "001527",
@@ -430,7 +430,7 @@
     "context": "001717",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑和洵看向对方。两人的脸上露出大大的笑容。"
+    "string": "两人相互看了看，脸上一下子绽开了笑容："
   },
   "001722": {
     "context": "001722",
@@ -442,25 +442,25 @@
     "context": "001751",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「但是，货梯在哪里呢！？」"
+    "string": "「问题是，货梯在哪里呢！？」"
   },
   "001762": {
     "context": "001762",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我刚刚也没有注意到……应该在那个被烧毁的 Factory 里吧」"
+    "string": "「我之前也没有注意到……应该就在那个烧毁了的 Factory 里吧？」"
   },
   "001773": {
     "context": "001773",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但是首先还是要搜索被困人员！即使找到了逃生口，如果没法确保被困人员的安全就没有意义了！」"
+    "string": "「但我们首先要搜索被困人员！即使找到了逃生口，如果没法确保被困人员的安全，就没有意义了！」"
   },
   "001802": {
     "context": "001802",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「说得对！」"
+    "string": "「说的对！」"
   },
   "001807": {
     "context": "001807",
@@ -502,13 +502,13 @@
     "context": "002068",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在回来的路上，洵微倾着头。"
+    "string": "在往回走的路上，洵微倾着头："
   },
   "002079": {
     "context": "002079",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「奇怪了……哪里都找不到夏彦他们」"
+    "string": "「奇怪了……哪里都没看到夏彦他们」"
   },
   "002090": {
     "context": "002090",
@@ -532,7 +532,7 @@
     "context": "002135",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0020 000145"
+    "string": "渡濑正说着一半，"
   },
   "002162": {
     "context": "002162",
@@ -556,7 +556,7 @@
     "context": "002242",
     "code": "0x45",
     "developer_comment": "",
-    "string": "两人惊讶地向下看去——洵脚下的地板正在微微颤动。"
+    "string": "两人惊讶地低头看去——洵脚下的地板，正在微微颤动。"
   },
   "002248": {
     "context": "002248",
@@ -580,13 +580,13 @@
     "context": "002325",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵立即尝试从那里跳开。"
+    "string": "洵立刻就反应过来，想要从那里跳开。"
   },
   "002330": {
     "context": "002330",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是——就在那时，洵脚下的地板崩塌了。"
+    "string": "然而——就在那一刻，她脚下的地板崩塌了。"
   },
   "002454": {
     "context": "002454",
@@ -604,7 +604,7 @@
     "context": "002482",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他迅速地伸出手，抓住了洵的手臂。"
+    "string": "渡濑迅速伸出手去，一把抓住了洵的手臂。"
   },
   "002494": {
     "context": "002494",
@@ -616,13 +616,13 @@
     "context": "002500",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（咳！！）"
+    "string": "（呃！！）"
   },
   "002505": {
     "context": "002505",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是他忍住剧痛，紧紧地抓住了洵的手臂。"
+    "string": "他忍着剧痛，紧紧地握着洵的手臂。"
   },
   "002510": {
     "context": "002510",
@@ -670,7 +670,7 @@
     "context": "002650",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「是啊，太可怕了。你的重量把路都压垮了」"
+    "string": "「是啊，太可怕了。你的体重把路都压垮了」"
   },
   "002701": {
     "context": "002701",
@@ -682,7 +682,7 @@
     "context": "002712",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「哈哈哈，开玩笑的。我要拉你上去了，所以把你另一只手给我」"
+    "string": "「哈哈哈，开玩笑的。我要拉你上来了，另一只手也给我」"
   },
   "002723": {
     "context": "002723",
@@ -700,7 +700,7 @@
     "context": "002793",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……守部，你有受伤吗？」"
+    "string": "「……守部，有没有受伤？」"
   },
   "002822": {
     "context": "002822",
@@ -712,19 +712,19 @@
     "context": "002833",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这样啊。话说回来——」"
+    "string": "「这样嘛。话说回来——」"
   },
   "002838": {
     "context": "002838",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看向了地板崩塌的道路。"
+    "string": "渡濑看着崩塌了的地面，"
   },
   "002849": {
     "context": "002849",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「看来第 6 区域受到火灾的损害非常严重啊……」"
+    "string": "「看来第 6 区域里，火灾造成了非常严重的损害啊……」"
   },
   "002878": {
     "context": "002878",
@@ -742,6 +742,6 @@
     "context": "002894",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们点了点头，一起沿着道路奔跑。"
+    "string": "两人点了点头，一齐在通道中跑了起来。"
   }
 }

@@ -8,19 +8,19 @@
     "context": "000028",
     "code": "0x45",
     "developer_comment": "",
-    "string": "从楼梯间通过绳子，下到地下 2 层——"
+    "string": "两人顺着楼梯间里的绳索，下到地下 2 层——"
   },
   "000078": {
     "context": "000078",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一回到 Factory，大家就马上跑了过来。"
+    "string": "一回到 Factory，众人就马上围了上来："
   },
   "000161": {
     "context": "000161",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「队长！怎么样了！？」"
+    "string": "「队长！出什么事了！？」"
   },
   "000172": {
     "context": "000172",
@@ -38,13 +38,13 @@
     "context": "000214",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「话说回来，大家找到被困人员了吗？」"
+    "string": "「话说回来，各位见到被困人员了吗？」"
   },
   "000243": {
     "context": "000243",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「这个……没找到啊」"
+    "string": "「这个……没见到啊」"
   },
   "000324": {
     "context": "000324",
@@ -68,13 +68,13 @@
     "context": "000377",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「话说回来，被困人员找到了吗？」"
+    "string": "「话说回来，大家见到被困人员了吗？」"
   },
   "000406": {
     "context": "000406",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「那个……没找到啊」"
+    "string": "「这个……没见到」"
   },
   "000487": {
     "context": "000487",
@@ -98,7 +98,7 @@
     "context": "000540",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「话说回来，大家找到那些孩子们了吗？」"
+    "string": "「话说回来，大家见到那些孩子了吗？」"
   },
   "000569": {
     "context": "000569",
@@ -110,31 +110,31 @@
     "context": "000691",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「每个角落都找遍了，但是完全没发现被困人员的身影」"
+    "string": "「每个角落都找遍了，但是完全没看到被困人员的身影」"
   },
   "000702": {
     "context": "000702",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「那个，他们也不在内环楼吗……？」"
+    "string": "「那个，他们也不在内环楼里吗……？」"
   },
   "000713": {
     "context": "000713",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯，我们这边也没遇到人」"
+    "string": "「嗯，我们这边也没见到任何人」"
   },
   "000718": {
     "context": "000718",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们，已经搜索完 LABO 里面所有的区域了。"
+    "string": "算下来，渡濑一行六人已经搜遍了 LABO 里的所有区域。"
   },
   "000723": {
     "context": "000723",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是，哪里都没有被困人员。甚至连尸体都没发现。"
+    "string": "然而，哪里都没有被困人员。甚至连尸体都没发现。"
   },
   "000734": {
     "context": "000734",
@@ -152,19 +152,19 @@
     "context": "000776",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「那些孩子们是已经从货梯出去了！」"
+    "string": "「那些孩子已经通过货梯逃出去了！」"
   },
   "000808": {
     "context": "000808",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「这么想确实合理……！」"
+    "string": "「这么一想确实合理……！」"
   },
   "000813": {
     "context": "000813",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听了渡濑这话，洵他们露出讶异的表情。"
+    "string": "两人之间的对话让洵等人一脸疑惑："
   },
   "000842": {
     "context": "000842",
@@ -176,19 +176,19 @@
     "context": "000871",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「在 Factory 的某处，好像有能上到地面的电梯」"
+    "string": "「Factory 之中的某个地方，好像有能上到地面的电梯」"
   },
   "000882": {
     "context": "000882",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「来，你们看这个！」"
+    "string": "「来，大家看看这个！」"
   },
   "000887": {
     "context": "000887",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑这样说着，让大家看刚才拿到的防灾手册。"
+    "string": "渡濑一边说着，一边取出刚拿到的防灾手册，翻到了货梯那一页。"
   },
   "000916": {
     "context": "000916",
@@ -200,73 +200,73 @@
     "context": "000945",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「确实，这样好像可以……！」"
+    "string": "「看来，确实是个办法……！」"
   },
   "000956": {
     "context": "000956",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「是吧？ 我说各位，在 Factory 里，有没有类似的电梯？」"
+    "string": "「是吧？我说各位，Factory 里，有没有看到像是电梯的东西？」"
   },
   "000985": {
     "context": "000985",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「没找到啊……说不定，是那个吧！」"
+    "string": "「没看到啊……莫不是，那个东西！」"
   },
   "001070": {
     "context": "001070",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵回头看向 Factory 的一角。"
+    "string": "洵回头望向 Factory 的一角。"
   },
   "001075": {
     "context": "001075",
     "code": "0x45",
     "developer_comment": "",
-    "string": "视线的前方——Factory 最里面靠墙的地方，不知为何有着一道门禁。"
+    "string": "沿着她的视线看去——Factory 最里面靠墙的地方，不知为何有着一道门禁。"
   },
   "001091": {
     "context": "001091",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……为什么这种地方，会有门禁？」"
+    "string": "「……为什么这个地方，会有门禁？」"
   },
   "001120": {
     "context": "001120",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「门禁的位置不太自然，我们也觉得有些在意……」"
+    "string": "「门禁的位置不太自然，我们也觉得有些奇怪的……」"
   },
   "001131": {
     "context": "001131",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「卡槽完全烧毁了，进不去里面啊」"
+    "string": "「只是卡槽完全烧毁了，我们也进不去啊」"
   },
   "001161": {
     "context": "001161",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「不过，Factory 里面还没找过的地方就只有那道门里面了」"
+    "string": "「不过，Factory 里面还没找过的地方，就只剩那道门里面了」"
   },
   "001190": {
     "context": "001190",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「如果有货梯的话，就一定是在那边！」"
+    "string": "「如果有货梯的话，一定就在那道门禁里面！」"
   },
   "001220": {
     "context": "001220",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「啊，对啊！ 这样才合理啊！」"
+    "string": "「啊，对啊！这样就说得通了！」"
   },
   "001225": {
     "context": "001225",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听了渡濑这话，风见他们露出讶异的表情。"
+    "string": "两人之间的对话让风见等人一脸疑惑："
   },
   "001254": {
     "context": "001254",
@@ -278,7 +278,7 @@
     "context": "001283",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「在 Factory 的某处，好像有能上到地面的电梯！」"
+    "string": "「Factory 之中的某个地方，好像有能上到地面的电梯！」"
   },
   "001294": {
     "context": "001294",
@@ -308,19 +308,19 @@
     "context": "001368",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「是吧！？ 我说各位，在 Factory 里，有没有类似的电梯？」"
+    "string": "「是吧！？我说各位，Factory 里，有没有看到像是电梯的东西？」"
   },
   "001397": {
     "context": "001397",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「好像没找到……说不定，也许是那个」"
+    "string": "「好像没见到……说不定，是那个东西吧」"
   },
   "001482": {
     "context": "001482",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见回头看向 Factory 的一角。"
+    "string": "风见回头望向 Factory 的一角。"
   },
   "001487": {
     "context": "001487",
@@ -338,13 +338,13 @@
     "context": "001532",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「感觉有些奇怪，我们也觉得很在意……」"
+    "string": "「门禁的位置不太自然，我们也觉得有些奇怪……」"
   },
   "001543": {
     "context": "001543",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「由于卡槽被完全烧毁，无法进入里面，于是放弃了搜索」"
+    "string": "「只是卡槽完全烧毁了，我们进不去，只好放弃了搜索」"
   },
   "001573": {
     "context": "001573",
@@ -458,7 +458,7 @@
     "context": "001996",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「如果有货梯的话，一定是在那边呀！」"
+    "string": "「如果有货梯的话，一定就在那道门禁里面哪！」"
   },
   "002045": {
     "context": "002045",
@@ -470,37 +470,37 @@
     "context": "002051",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们不禁露出笑脸。"
+    "string": "众人的脸上，都浮现出了笑容。"
   },
   "002056": {
     "context": "002056",
     "code": "0x45",
     "developer_comment": "",
-    "string": "AD 只剩下六支。但是如果能逃出去的话，就不再需要 AD 了。"
+    "string": "AD 现在只剩下六支了。但是，外面不需要 AD，如果马上能逃出去，AD 不足就不再是个问题了。"
   },
   "002061": {
     "context": "002061",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这充满苦难的旅途，终于要告一段落了！"
+    "string": "看来这段充满苦难的旅途，终于要结束了！"
   },
   "002072": {
     "context": "002072",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好！想想办法把那道门打开吧！」"
+    "string": "「好！想办法把门打开吧！」"
   },
   "002137": {
     "context": "002137",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「像之前那样通过通风管道过去对面可以吗？」"
+    "string": "「像之前那样，从通风管道爬过去？」"
   },
   "002167": {
     "context": "002167",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「很遗憾，天花板太高了，所以进不去通风管道」"
+    "string": "「很遗憾，天花板太高了，上不到通风管道那里」"
   },
   "002178": {
     "context": "002178",
@@ -542,37 +542,37 @@
     "context": "002337",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「……怎么样才能把这扇门打开呢……？」"
+    "string": "「……怎样才能打开这道门呢……？」"
   },
   "002342": {
     "context": "002342",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里这么说着，看向渡濑。"
+    "string": "悠里说着，看向了渡濑。"
   },
   "002348": {
     "context": "002348",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（明明，出口就在眼前…！）"
+    "string": "（出口，明明就在眼前…！）"
   },
   "002354": {
     "context": "002354",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（就算是为了救那孩子……也一定要把那扇门打开！）"
+    "string": "（就算是为了把她救出去……也得把这道门打开啊！）"
   },
   "002359": {
     "context": "002359",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0016 001198"
+    "string": "就在渡濑想着这些的时候——"
   },
   "002385": {
     "context": "002385",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——突然，响起了奇怪的声音。"
+    "string": "——听到了一阵诡异的声音。"
   },
   "002438": {
     "context": "002438",
