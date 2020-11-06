@@ -14,7 +14,7 @@
     "context": "000157",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑跑入其中一个房间，把负伤的洵平放在地面上。"
+    "string": "渡濑跑入其中一间研究室，把负伤的洵平放在地面上。"
   },
   "000168": {
     "context": "000168",
@@ -32,31 +32,31 @@
     "context": "000179",
     "code": "0x45",
     "developer_comment": "",
-    "string": "即使这么喊她，她也没能醒来。"
+    "string": "渡濑出声喊道，但洵并没有任何反应。"
   },
   "000184": {
     "context": "000184",
     "code": "0x45",
     "developer_comment": "",
-    "string": "隔着衣服就能看出她背上的伤口仍然在流血。"
+    "string": "隔着衣服也能看出来，鲜血仍在不断地从她后背的伤口中涌了出来。"
   },
   "000195": {
     "context": "000195",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「糟了，不赶紧治疗的话……！」"
+    "string": "「情况不妙，不赶紧治疗的话……！」"
   },
   "000200": {
     "context": "000200",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么说的时候，宇喜多用紧张的声音说道。"
+    "string": "这时，宇喜多战战兢兢地插话道："
   },
   "000283": {
     "context": "000283",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「好……好了，队长！这样的话在你为守部治疗的时候，我继续搜索吧！」"
+    "string": "「那……那这样，队长！你留在这里救治守部，我回去继续搜索！」"
   },
   "000294": {
     "context": "000294",
@@ -68,25 +68,25 @@
     "context": "000323",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「想要确认一下，刚才队长说自己听到的“脚步声”」"
+    "string": "「队长刚才说听到了“脚步声”，我想确认一下」"
   },
   "000334": {
     "context": "000334",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「队长，就专心治疗守部吧」"
+    "string": "「队长，你就专心救治守部吧」"
   },
   "000345": {
     "context": "000345",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不行啊大叔！单独行动太危险了！」"
+    "string": "「大叔，不行！单独行动太危险了！」"
   },
   "000374": {
     "context": "000374",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「我知道，但搜索停滞了也很危险吧？！时间可是不断流逝的！」# review"
+    "string": "「这我知道，但停止搜索也很危险吧！？时间上的出血可一直都在持续啊！」"
   },
   "000385": {
     "context": "000385",
@@ -98,115 +98,115 @@
     "context": "000390",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多说的也有道理。"
+    "string": "宇喜多说的确实在理。"
   },
   "000395": {
     "context": "000395",
     "code": "0x45",
     "developer_comment": "",
-    "string": "对着沉默的渡濑，宇喜多又继续说道。"
+    "string": "渡濑一时说不出话来。而宇喜多又补充道："
   },
   "000424": {
     "context": "000424",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「队长，确实你们看起来或许我就是个普通人」"
+    "string": "「队长，我明白，在你们眼中我大概就是个普通人」"
   },
   "000435": {
     "context": "000435",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「但即使我也一样想要拯救大家」"
+    "string": "「虽然如此，我也跟你们一样，想要把大家都救出去啊」"
   },
   "000446": {
     "context": "000446",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……但是，这样的话应该由我去……」"
+    "string": "「……但是，那样的话我去搜索才对……」"
   },
   "000475": {
     "context": "000475",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「不，处理伤口更适合你。守部醒来的时候，有你在旁边的话她也会更安心的吧」"
+    "string": "「不，伤口由你来处理更合适。守部醒来的时候，身旁是你才会让她安心吧」"
   },
   "000486": {
     "context": "000486",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「而且我比你们，更加习惯这个 LABO，一个人也不会怎么犯傻的」"
+    "string": "「另外相比于你们，我更熟悉这间 LABO，就算是一个人也不会出岔子的」"
   },
   "000509": {
     "context": "000509",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多笑着说。"
+    "string": "宇喜多说完笑了笑。"
   },
   "000514": {
     "context": "000514",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来有点像逞强——但渡濑还是相信了他说的话。"
+    "string": "看起来像是在逞强——但渡濑还是选择相信他所说的。"
   },
   "000525": {
     "context": "000525",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我明白了……但是别去太远啊」"
+    "string": "「那好……不过别走太远」"
   },
   "000530": {
     "context": "000530",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把备用的 Procyon，递给了宇喜多。"
+    "string": "渡濑把那台备用的 Procyon 交给了宇喜多。"
   },
   "000559": {
     "context": "000559",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「那么第 1 区域就让我来搜索完吧。之后在第 2 区域碰头如何」"
+    "string": "「那么，第 1 区域剩下的部分就交给我来搜索吧。然后我们去第 2 区域会合怎么样」"
   },
   "000570": {
     "context": "000570",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好……千万小心啊大叔」"
+    "string": "「好……一定要小心啊，大叔」"
   },
   "000581": {
     "context": "000581",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「知道了」"
+    "string": "「明白了」"
   },
   "000601": {
     "context": "000601",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多说着，快步走出了研究室。"
+    "string": "宇喜多说完，快步走出了研究室。"
   },
   "000646": {
     "context": "000646",
     "code": "0x45",
     "developer_comment": "",
-    "string": "只剩下渡濑和洵单独在一起了。"
+    "string": "房间里只剩下渡濑和洵两人了。"
   },
   "000651": {
     "context": "000651",
     "code": "0x45",
     "developer_comment": "",
-    "string": "赶紧看向了她的背。"
+    "string": "渡濑立即打量了一下她后背上的伤势。"
   },
   "000657": {
     "context": "000657",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（想涂喀戎……但要涂的话，就得脱掉她的衣服……）"
+    "string": "（涂喀戎吧……但那就需要先把衣服脱掉……）"
   },
   "000662": {
     "context": "000662",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑犹豫了一瞬，然后轻轻抬高了洵的身体——"
+    "string": "渡濑犹豫了一下，微微抬起了她的身体——"
   },
   "000673": {
     "context": "000673",
@@ -218,7 +218,7 @@
     "context": "000678",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说着，正要拉下制服的拉链的时候，洵发出了声音。"
+    "string": "一边说着，一边打算拉开她制服的拉链——就在这时，洵突然叫道："
   },
   "000728": {
     "context": "000728",
@@ -241,19 +241,19 @@
     "context": "000842",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「谁，谁？！在做什么！」"
+    "string": "「谁，什么人？！在干什么呀！」"
   },
   "000847": {
     "context": "000847",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵闹腾起来，渡濑慌忙答道。"
+    "string": "洵胡乱挣扎了起来。渡濑赶紧解释道："
   },
   "000858": {
     "context": "000858",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「冷静，是我！你背上有伤，我正要处理！」"
+    "string": "「别慌，是我！你后背受伤了，我正要处理！」"
   },
   "000873": {
     "context": "000873",
