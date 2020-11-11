@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using CsYetiTools.IO;
 using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Advanced;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using static CsYetiTools.Utils;
@@ -82,8 +81,8 @@ namespace CsYetiTools.FileTypes
 
         private static int GetAlignedSize(int size, int format)
         {
-            // var trunked = 1 << (Msb(size) - 1);
-            // var aligned = trunked == size ? size : trunked << 1;
+            // var truncated = 1 << (Msb(size) - 1);
+            // var aligned = truncated == size ? size : truncated << 1;
             // return aligned < 0x80 ? 0x80 : aligned;
 
             var cell = format switch
@@ -227,7 +226,10 @@ namespace CsYetiTools.FileTypes
         {
             var data = new byte[_alignedWidth * _alignedHeight * 2];
             var img = (Image<Bgra4444>)Content;
-            var pixels = img.GetPixelSpan();
+            if (!img.TryGetSinglePixelSpan(out var pixels))
+            {
+                throw new InvalidOperationException("Cannot get image pixels as a single span");
+            }
             var encodedWidth = Width / 4;
             var encodedHeight = Height;
             

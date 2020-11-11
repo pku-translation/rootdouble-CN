@@ -10,7 +10,6 @@ using CsYetiTools.FileTypes;
 using CsYetiTools.VnScripts;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
-using SixLabors.Primitives;
 using static CsYetiTools.Utils;
 
 namespace CsYetiTools

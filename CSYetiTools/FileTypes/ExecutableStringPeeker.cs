@@ -97,7 +97,7 @@ namespace CsYetiTools.FileTypes
                         if (bytes.Length + 1 > Length)
                             throw new InvalidProgramException("???");
                         var newString = encoding.GetString(bytes);
-                        Utils.PrintError($"{Offset:X08}: trunked (limit: {Length}) {new SValue(content)}({new SValue(Content)}) to {new SValue(newString)}");
+                        Utils.PrintError($"{Offset:X08}: truncated (limit: {Length}) {new SValue(content)}({new SValue(Content)}) to {new SValue(newString)}");
                     }
                 }
             }

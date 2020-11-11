@@ -6,9 +6,9 @@ using CsYetiTools.FileTypes;
 using CsYetiTools.VnScripts;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Drawing.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
-using SixLabors.Primitives;
 using static CsYetiTools.Utils;
 
 namespace CsYetiTools
@@ -131,19 +131,21 @@ namespace CsYetiTools
                 var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
                 var font = new Font(fontFamily, 40);
                 var renderOptions = new RendererOptions(font);
-                var textGraphicsOptions = new TextGraphicsOptions
-                {
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    VerticalAlignment = VerticalAlignment.Center,
-                };
 
-                var graphicsOptions = new GraphicsOptions
-                {
-                    Antialias = false,
-                };
+                var graphicsOptions = new GraphicsOptions { Antialias = true, };
+
+                var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
+
+                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions,
+                    new TextOptions
+                    {
+                        HorizontalAlignment = HorizontalAlignment.Center,
+                        VerticalAlignment = VerticalAlignment.Center,
+                    }
+                );
 
                 var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
-                
+
                 ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, outlinePen, point + new PointF(22, 20)));
 
                 img.Mutate(ctx => ctx.GaussianBlur(0.5f));
@@ -152,12 +154,13 @@ namespace CsYetiTools
 
                 if (drawGlyphBorder)
                 {
-                    ForeachChars(img, _chars, (chr, point, ctx) => {
-                        ctx.DrawPolygon(graphicsOptions, Color.White, 1.0f
-                            ,point + new PointF(0, 1)
-                            ,point + new PointF(44, 1)
-                            ,point + new PointF(44, 45)
-                            ,point + new PointF(0, 45)
+                    ForeachChars(img, _chars, (chr, point, ctx) =>
+                    {
+                        ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
+                            , point + new PointF(0, 1)
+                            , point + new PointF(44, 1)
+                            , point + new PointF(44, 45)
+                            , point + new PointF(0, 45)
                         );
                     });
                 }
@@ -181,21 +184,25 @@ namespace CsYetiTools
                 var font = new Font(fontFamily, 25);
                 var renderOptions = new RendererOptions(font);
 
-                var graphicsOptions = new GraphicsOptions();
-                graphicsOptions.Antialias = false;
+                var graphicsOptions = new GraphicsOptions { Antialias = true };
 
-                var textGraphicsOptions = new TextGraphicsOptions();
-                textGraphicsOptions.HorizontalAlignment = HorizontalAlignment.Center;
-                textGraphicsOptions.VerticalAlignment = VerticalAlignment.Center;
+                var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
+
+                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions, new TextOptions
+                {
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    VerticalAlignment = VerticalAlignment.Center
+                });
 
                 var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
 
-                ForeachChars(img, _chars, (chr, point, ctx) => {
-                    ctx.DrawPolygon(graphicsOptions, Color.White, 1.0f
-                        ,point + new PointF(0, 1)
-                        ,point + new PointF(45, 1)
-                        ,point + new PointF(45, 46)
-                        ,point + new PointF(0, 46)
+                ForeachChars(img, _chars, (chr, point, ctx) =>
+                {
+                    ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
+                        , point + new PointF(0, 1)
+                        , point + new PointF(45, 1)
+                        , point + new PointF(45, 46)
+                        , point + new PointF(0, 46)
                     );
                     var s = ((short)chr).ToHex();
 
