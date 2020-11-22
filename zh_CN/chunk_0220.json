@@ -14,31 +14,31 @@
     "context": "000206",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は足を掬われ、その場に倒れた。"
+    "string": "夏彦一个没踩稳，摔倒在地。"
   },
   "000219": {
     "context": "000219",
     "code": "0x45",
     "developer_comment": "",
-    "string": "手首のところで、びきっと何かが壊れる音がした。"
+    "string": "手腕处喀吱一声，有什么东西碎裂了。# review: 手表？不是的话不能用“碎裂”，得开游戏确定一下"
   },
   "000224": {
     "context": "000224",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが音は１つに留まらない。"
+    "string": "声音不止这一出。"
   },
   "000393": {
     "context": "000393",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@auto-import 0130 000602"
+    "string": "「呀啊！」"
   },
   "000398": {
     "context": "000398",
     "code": "0x45",
     "developer_comment": "",
-    "string": "傍らのましろが声を上げる。"
+    "string": "旁边还有真白发出声音。"
   },
   "000566": {
     "context": "000566",
@@ -50,25 +50,25 @@
     "context": "000571",
     "code": "0x45",
     "developer_comment": "",
-    "string": "床から振動が伝わってくるのを感じた。"
+    "string": "地面传来震动感。# chunk 130"
   },
   "000746": {
     "context": "000746",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "「な……なんだ、今の音は」"
+    "string": "「这……这声音是怎么回事」"
   },
   "000751": {
     "context": "000751",
     "code": "0x45",
     "developer_comment": "",
-    "string": "警備員が呆然と呟く。"
+    "string": "警卫愣愣地嘀咕。"
   },
   "000756": {
     "context": "000756",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが夏彦たちにはわかっていた。"
+    "string": "而夏彦等人则知道这是什么。"
   },
   "000803": {
     "context": "000803",
@@ -86,7 +86,7 @@
     "context": "000819",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、夏彦は歯噛みする。"
+    "string": "听着这些的话，夏彦牙关紧咬。# chunk 130"
   },
   "000830": {
     "context": "000830",
@@ -98,7 +98,7 @@
     "context": "000835",
     "code": "0x45",
     "developer_comment": "",
-    "string": "痛みに耐えて立ち上がり、言葉を搾り出す。"
+    "string": "他忍住痛苦，挤出声音说："
   },
   "000846": {
     "context": "000846",
@@ -140,37 +140,37 @@
     "context": "000899",
     "code": "0x45",
     "developer_comment": "",
-    "string": "自動化されていると思しき防災システムが、狂ったように警告放送を流す。"
+    "string": "自动化的防灾系统失控般地播放出警告。"
   },
   "000904": {
     "context": "000904",
     "code": "0x45",
     "developer_comment": "",
-    "string": "機械的で無機質な声。とりとめもなく、断片的な情報。"
+    "string": "机械而不含感情的声音中，夹杂着零零碎碎的信息。"
   },
   "000909": {
     "context": "000909",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しかしそれでもこの施設に、未曾有の危機が訪れた事だけは、はっきりとわかる。"
+    "string": "从这些信息也看得出来，显然这座设施正面临着前所未有的危机。"
   },
   "000915": {
     "context": "000915",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（――９年前と同じだ！）"
+    "string": "（……九年前也是这样！）"
   },
   "000921": {
     "context": "000921",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あの時も、こんな風に警報が鳴って――！）"
+    "string": "（当时的警报，就是这种感觉——！）"
   },
   "000926": {
     "context": "000926",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう思った時、また記憶が蘇った。"
+    "string": "想到这里，又有一段记忆复苏了。# 之后一段文本在过去和现在的边界有点模糊，务必开着游戏认真检查有没有搞错的"
   },
   "001039": {
     "context": "001039",
@@ -182,43 +182,43 @@
     "context": "001047",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「――ただいま地下２階第３エリアで、火災が発生しました」"
+    "string": "「——探测到在地下 2 层第 3 区域起火」"
   },
   "001055": {
     "context": "001055",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「――ただいま地下１階第５エリアで、火災が発生しました」"
+    "string": "「——探测到在地下 1 层第 5 区域起火」"
   },
   "001060": {
     "context": "001060",
     "code": "0x45",
     "developer_comment": "",
-    "string": "鉄扉の前にたたずむ夏彦と悠里は、その警報を聞いたのだ。"
+    "string": "夏彦和悠里呆站在铁门前，听到了这些警报。"
   },
   "001071": {
     "context": "001071",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「な、なんだ！？　なにがおこったんだ！？」"
+    "string": "「怎、怎么了？！发生了什么？！」"
   },
   "001137": {
     "context": "001137",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「かさい……火事だよ！　このしたで火事がおきてる！」"
+    "string": "「是火灾……起火了！在下面，起火了！」"
   },
   "001148": {
     "context": "001148",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「火事！？」"
+    "string": "「起火了？！」"
   },
   "001153": {
     "context": "001153",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう叫んだとき、自動放送が続けて言った。"
+    "string": "夏彦惊叫的同时，自动播报还在继续："
   },
   "001161": {
     "context": "001161",
@@ -236,19 +236,19 @@
     "context": "001272",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（――そういう事か！）"
+    "string": "（——原来是这样！）"
   },
   "001277": {
     "context": "001277",
     "code": "0x45",
     "developer_comment": "",
-    "string": "あの時は火災警報のみだったが、状況は酷似している。"
+    "string": "当时只是有火灾警报，但情况是极为类似的。"
   },
   "001282": {
     "context": "001282",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦が気づいた時、９年前と同じ放送が聞こえた。"
+    "string": "回过神来，夏彦又听到了和九年前一样的播报。"
   },
   "001290": {
     "context": "001290",
@@ -266,145 +266,145 @@
     "context": "001303",
     "code": "0x45",
     "developer_comment": "",
-    "string": "同時にエントランス奥の、鉄扉が開放された。"
+    "string": "同时，入口内侧的铁门开启了。"
   },
   "001430": {
     "context": "001430",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――そして９年前も同様に、鉄扉が開放された。"
+    "string": "——九年前，铁门也是这样开启的。"
   },
   "001441": {
     "context": "001441",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「火事って……母さんが、ちかにいるのに……！？」"
+    "string": "「着火了吗……可是妈妈还在地下……？！）"
   },
   "001470": {
     "context": "001470",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ど、どうしようひこりん……！」"
+    "string": "「小彦……怎么办呀……！」"
   },
   "001481": {
     "context": "001481",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「た……たすけにいかなきゃ！」"
+    "string": "「我……我要去帮妈妈！」"
   },
   "001492": {
     "context": "001492",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「悠里はここでまってろ！」"
+    "string": "「悠里就在这里等着！」"
   },
   "001497": {
     "context": "001497",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はそう叫んで、扉の向こうに駆け込んだ。"
+    "string": "夏彦一声叫喊，冲进了铁门。"
   },
   "001612": {
     "context": "001612",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「まずい……行かなきゃまずい！」"
+    "string": "「得赶紧过去……不然就糟了！」"
   },
   "001617": {
     "context": "001617",
     "code": "0x45",
     "developer_comment": "",
-    "string": "走り出そうとする夏彦の腕を、警備員が掴んだ。"
+    "string": "夏彦正要冲出去的时候，警卫抓住了他。"
   },
   "001625": {
     "context": "001625",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "「ちょっと待て君！　まずいってどういう事だ！？」"
+    "string": "「你给我等等！你说的“糟”是什么意思？！」"
   },
   "001636": {
     "context": "001636",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「警備員さん、ぼくらに構ってる場合じゃありません！」"
+    "string": "「保安叔叔，别把时间浪费在我们身上了，还有更重要的事！」"
   },
   "001644": {
     "context": "001644",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "@auto-import 0004 003503"
+    "string": "「什么？！」"
   },
   "001655": {
     "context": "001655",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「これはテロです！　すぐに警察と消防を呼んで下さい！」"
+    "string": "「这是恐怖袭击！赶紧叫警察和消防队！」"
   },
   "001663": {
     "context": "001663",
     "code": "0x45",
     "developer_comment": "警備員２",
-    "string": "「て、テロだって！？　まさか――……！？」"
+    "string": "「恐、恐怖袭击？！这怎么可能……？！」"
   },
   "001719": {
     "context": "001719",
     "code": "0x45",
     "developer_comment": "",
-    "string": "愕然とする警備員の腕を振り払い、夏彦は駆け出す。"
+    "string": "趁着警卫没反应过来，夏彦甩开他跑了出去。"
   },
   "001725": {
     "context": "001725",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（テロリストは、内通者に施設内で騒ぎを起こさせ、ゲートを開放させたんだ！）"
+    "string": "（恐怖分子让内应在设施里面引发混乱，从而把门打开！）"
   },
   "001731": {
     "context": "001731",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（このままじゃ９年前の繰り返し――いや、あの時より遥かにひどい事になる！）"
+    "string": "（照这样下去就是重蹈九年前的覆辙——不，结果会比那次惨烈得多！）"
   },
   "001767": {
     "context": "001767",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「待って夏彦、どこ行くの！？」"
+    "string": "「等等，夏彦你要去哪？！」"
   },
   "001778": {
     "context": "001778",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「地下だ！」"
+    "string": "「去地下！」"
   },
   "001814": {
     "context": "001814",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「地下って、いま爆発が――」"
+    "string": "「可是现在还有爆炸——」"
   },
   "001825": {
     "context": "001825",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「２人は着いて来るな、ここから絶対動くな！！」"
+    "string": "「你们俩不要跟来，绝对不要离开这里！！」"
   },
   "001890": {
     "context": "001890",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それだけ言い残し、夏彦は鉄扉の向こうに飛び込んだ。"
+    "string": "撂下这番话，夏彦冲进了铁门。"
   },
   "002006": {
     "context": "002006",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして手近な階段室を探し、それを駆け降りる。"
+    "string": "他寻找附近的楼梯间，从那里跑到地下。"
   },
   "002110": {
     "context": "002110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "階段を降りきるなり、どこかでラボ職員たちの叫びが聞こえた。"
+    "string": "刚跑完楼梯，他就听到 LABO 工作人员的叫喊："
   },
   "002118": {
     "context": "002118",
@@ -428,25 +428,25 @@
     "context": "002139",
     "code": "0x45",
     "developer_comment": "",
-    "string": "地下フロアはすでに、凄まじい混乱に包まれていた。"
+    "string": "地下楼层已经乱作一团。"
   },
   "002144": {
     "context": "002144",
     "code": "0x45",
     "developer_comment": "",
-    "string": "誰もここで何が起こっているのか、理解できてないようだ。"
+    "string": "似乎没有人搞清楚这里发生了什么。"
   },
   "002176": {
     "context": "002176",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（テロリストはどこだ！？　どこに爆弾を仕掛けてるんだ！？）"
+    "string": "（恐怖分子在哪？！他们在哪设了炸弹？！）"
   },
   "002190": {
     "context": "002190",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思ってあたりを見回した時、"
+    "string": "于是，夏彦环顾四周，"
   },
   "002201": {
     "context": "002201",
@@ -458,217 +458,217 @@
     "context": "002239",
     "code": "0x45",
     "developer_comment": "",
-    "string": "背後に、ましろとサリュがいる事に気付いた。"
+    "string": "他发现真白和纱瑠就在他身后。"
   },
   "002250": {
     "context": "002250",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「な……何やってるんだ！？　なんで着いて来たんだ！」"
+    "string": "「你……你们搞什么？！怎么跟来了啊！」"
   },
   "002279": {
     "context": "002279",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「そりゃこっちのセリフだよ！　１人でどこに行くのさ！？」"
+    "string": "「我还要问你呢！一个人要到哪去？！」"
   },
   "002290": {
     "context": "002290",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「単独行動は危険！」"
+    "string": "「单独行动有危险！」"
   },
   "002301": {
     "context": "002301",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「そんな事はわかってるよ！　でも――」"
+    "string": "「废话，我也知道！问题是——」"
   },
   "002306": {
     "context": "002306",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう言いかけた瞬間、"
+    "string": "夏彦还没说完，"
   },
   "002311": {
     "context": "002311",
     "code": "0x45",
     "developer_comment": "",
-    "string": "またも過去の出来事が――！"
+    "string": "过去的事情又出现了——！"
   },
   "002418": {
     "context": "002418",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――あの時も同じだった。"
+    "string": "——那会儿也是的。"
   },
   "002423": {
     "context": "002423",
     "code": "0x45",
     "developer_comment": "",
-    "string": "待っていろと言ったのに、悠里もついてきてしまった。"
+    "string": "叫悠里等着，可她还是跟来了。"
   },
   "002488": {
     "context": "002488",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「悠里、きちゃだめだよ！　火事がおきてるんだぞ！？」"
+    "string": "「悠里，别跟过来呀！下面可是起火了！」"
   },
   "002499": {
     "context": "002499",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「わ、わたしだって、はかせ助けたいもん……！」"
+    "string": "「我、我也想要救博士嘛……！」"
   },
   "002528": {
     "context": "002528",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ひこりんやはかせが危ない目にあってるのに、ひとりでまってるのやだもん！」"
+    "string": "「小彦和博士都有危险，我怎么能一个人等着呀！」"
   },
   "002539": {
     "context": "002539",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "002544": {
     "context": "002544",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里の声はいつもと違っていた。"
+    "string": "悠里的声音不同以往。·"
   },
   "002549": {
     "context": "002549",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そんな力強い彼女の声を聞くのは初めてだった。"
+    "string": "夏彦是第一次听见她说得如此坚定。"
   },
   "002554": {
     "context": "002554",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だから、９年前の夏彦は――"
+    "string": "结果就是，九年前的夏彦——"
   },
   "002565": {
     "context": "002565",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……わかった……」"
+    "string": "「……好吧……」"
   },
   "002570": {
     "context": "002570",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう答えてしまったのだ。"
+    "string": "不幸地做出了这样的回答。"
   },
   "002581": {
     "context": "002581",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「じゃあ、いっしょにいこう！　２人で母さんをたすけよう！」"
+    "string": "「那就一起去吧！我们两个去救妈妈！」"
   },
   "002610": {
     "context": "002610",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@auto-import 0039 004068"
+    "string": "「嗯！」"
   },
   "002748": {
     "context": "002748",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（――どうしてこんなに、何もかも符合するんだ！？）"
+    "string": "（——为什么会这么如出一辙啊？！）"
   },
   "002753": {
     "context": "002753",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ただの偶然ではなく、運命じみたものを感じる。"
+    "string": "不像是单纯的偶然，倒像是命运的感觉。"
   },
   "002759": {
     "context": "002759",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（９年前は、あれからどうなった！？）"
+    "string": "（九年前在那之后怎么了来着？！）"
   },
   "002764": {
     "context": "002764",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その事を思い出そうとした時、再び激しい頭痛が走った。"
+    "string": "正要往下想，夏彦又感到一阵强烈的头痛。"
   },
   "002801": {
     "context": "002801",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0069 000424"
+    "string": "「好痛！」"
   },
   "002830": {
     "context": "002830",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「夏彦、また頭痛！？」"
+    "string": "「夏彦，又头疼了？！」"
   },
   "002841": {
     "context": "002841",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぎ……ぐ、ぅうぅううッ……！」"
+    "string": "「呃……唔唔唔……！」# review: 听游戏语音吧"
   },
   "002870": {
     "context": "002870",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「大丈夫夏彦！？　しっかりして！」"
+    "string": "「夏彦没事吧？！振作点！」"
   },
   "002907": {
     "context": "002907",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0178 000668"
+    "string": "「……」"
   },
   "002912": {
     "context": "002912",
     "code": "0x45",
     "developer_comment": "",
-    "string": "あまりの頭痛に、吐き気すら湧いてきた。"
+    "string": "夏彦疼得甚至想吐。"
   },
   "002917": {
     "context": "002917",
     "code": "0x45",
     "developer_comment": "",
-    "string": "記憶が刺激されるたび、この痛みが襲ってくる。"
+    "string": "每逢记忆受到刺激，这股痛楚都会袭来。"
   },
   "002923": {
     "context": "002923",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（く、そ……！　そんなにぼくは、過去の事を思い出したくないのか！？）"
+    "string": "（可……恶……！我就这么不想回忆起过去吗？！）"
   },
   "002929": {
     "context": "002929",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あれから何が起きたのかなんて、わかりきってるじゃないか！）"
+    "string": "（之后发生了什么，那不是显而易见的吗！）"
   },
   "002934": {
     "context": "002934",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里と共に火に巻かれ、死にかけたのだ。"
+    "string": "——和悠里一起卷入火灾，几近死亡。"
   },
   "002940": {
     "context": "002940",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（でも、その恐怖に屈するわけには……！）"
+    "string": "（但我绝不能屈服于恐惧……！）"
   },
   "002945": {
     "context": "002945",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思った時、すぐ近くで爆発音が聞こえた。"
+    "string": "这时，附近传来了爆炸声。"
   },
   "003013": {
     "context": "003013",
@@ -680,25 +680,25 @@
     "context": "003098",
     "code": "0x45",
     "developer_comment": "",
-    "string": "とっさに夏彦はましろたちを庇う。"
+    "string": "夏彦慌忙护住真白和纱瑠。"
   },
   "003103": {
     "context": "003103",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一瞬遅れて熱風が吹きぬけ、"
+    "string": "下一秒，吹来热浪，"
   },
   "003114": {
     "context": "003114",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あっ！！」"
+    "string": "「啊！！」"
   },
   "003191": {
     "context": "003191",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちは弾き飛ばされた。"
+    "string": "夏彦他们被吹飞了。"
   },
   "003302": {
     "context": "003302",
@@ -722,115 +722,115 @@
     "context": "003352",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「だ、大丈夫か２人とも！？」"
+    "string": "「你、你们俩，都没事吧？！」"
   },
   "003357": {
     "context": "003357",
     "code": "0x45",
     "developer_comment": "",
-    "string": "折り重なるように倒れた夏彦たちは、よろよろと身を起こす。"
+    "string": "夏彦等人一个接一个地摔倒在地，然后晃晃悠悠地站了起来。"
   },
   "003394": {
     "context": "003394",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……う、ん……」"
+    "string": "「……嗯……」"
   },
   "003431": {
     "context": "003431",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「だ、大丈夫……！」"
+    "string": "「没、没事……！」"
   },
   "003436": {
     "context": "003436",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人はうめいたが、どうやら怪我はないようだ。"
+    "string": "两个人话说得不利索，不过看上去没有受伤。# review"
   },
   "003442": {
     "context": "003442",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（よかった……！）"
+    "string": "（太好了……！）"
   },
   "003447": {
     "context": "003447",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思いつつ、夏彦は爆発が起きた場所を探す。"
+    "string": "夏彦一边松了口气，一边寻找发生爆炸的地方。"
   },
   "003452": {
     "context": "003452",
     "code": "0x45",
     "developer_comment": "",
-    "string": "爆発音は、さきほど降りてきた階段の方から聞こえて――"
+    "string": "爆炸声是从刚刚下来的楼梯那儿传来的——"
   },
   "003463": {
     "context": "003463",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「――まさか！？」"
+    "string": "「啊，该不是——？！」"
   },
   "003468": {
     "context": "003468",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦ははっとして、階段室に駆け込んだ。"
+    "string": "夏彦一惊，赶紧冲到楼梯间去。"
   },
   "003517": {
     "context": "003517",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しかし、"
+    "string": "然而，"
   },
   "003618": {
     "context": "003618",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……くそ！！」"
+    "string": "「……靠！！」"
   },
   "003623": {
     "context": "003623",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこにあったのは、崩れた階段の残骸だった。"
+    "string": "楼梯间里只有楼梯崩塌后的残骸。"
   },
   "003634": {
     "context": "003634",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「階段が壊されたの！？」"
+    "string": "「楼梯坏了吗？！」"
   },
   "003645": {
     "context": "003645",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「誰もいなかったのに、なぜ……！？」"
+    "string": "「明明没人的，为什么……？！」"
   },
   "003656": {
     "context": "003656",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ちくしょう、全部奴らの仕業だ！」"
+    "string": "「――可恶！全部都是，那些家伙干的好事！」# chunk 130"
   },
   "003661": {
     "context": "003661",
     "code": "0x45",
     "developer_comment": "",
-    "string": "超心研の時と同じ手口に違いない。"
+    "string": "肯定没错，手段就和超心研那时一样。"
   },
   "003666": {
     "context": "003666",
     "code": "0x45",
     "developer_comment": "",
-    "string": "内通者が時限爆弾を運び込み、施設内にセットしておいたのだ――それも恐らく、かなり多数。"
+    "string": "内应搬来定时炸弹，事先设在设施里——而且炸弹的数量恐怕还相当可观。"
   },
   "003672": {
     "context": "003672",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（逃げ道が潰された……！　地下に閉じ込められた！）"
+    "string": "（退路断了……！我们被关在地下了！）"
   },
   "003683": {
     "context": "003683",
@@ -848,13 +848,13 @@
     "context": "004000",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は歯噛みし、腕時計を見た。"
+    "string": "夏彦牙关紧咬，看向手表。"
   },
   "004005": {
     "context": "004005",
     "code": "0x45",
     "developer_comment": "",
-    "string": "自分たちに残された時間は、どのくらいあるのだろうかと思ったのだが――"
+    "string": "他想知道的是，所剩的时间，究竟还剩多少——# chunk 130"
   },
   "004016": {
     "context": "004016",
@@ -866,13 +866,13 @@
     "context": "004021",
     "code": "0x45",
     "developer_comment": "",
-    "string": "時計はいつの間にか壊れていた。"
+    "string": "手表不知什么时候坏掉了。"
   },
   "004026": {
     "context": "004026",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最初の爆発で倒れた時に、床にぶつけてしまったらしい。"
+    "string": "似乎是第一场爆炸的时候，他摔倒在地给磕坏的。"
   },
   "004031": {
     "context": "004031",
@@ -884,7 +884,7 @@
     "context": "004036",
     "code": "0x45",
     "developer_comment": "",
-    "string": "生涯忘れられない時刻になりそうだった。"
+    "string": "那将是他终生难忘的时刻。# chunk 130"
   },
   "004090": {
     "context": "004090",
@@ -902,7 +902,7 @@
     "context": "004208",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がよろよろと歩き出そうとすると、ましろが手を掴んだ。"
+    "string": "夏彦正要摇摇晃晃地迈出一步的时候，真白拉住了他的手。# chunk 130"
   },
   "004219": {
     "context": "004219",
@@ -968,13 +968,13 @@
     "context": "004471",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ましろが夏彦の頬を張ったのだ。"
+    "string": "是真白扇了夏彦一巴掌。# chunk 130"
   },
   "004482": {
     "context": "004482",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "004493": {
     "context": "004493",
@@ -986,7 +986,7 @@
     "context": "004498",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉が、夏彦の胸をえぐる。"
+    "string": "那句话像是在夏彦的心里挖了个洞。# chunk 130"
   },
   "004588": {
     "context": "004588",
@@ -998,7 +998,7 @@
     "context": "004599",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0012 004043"
+    "string": "「！？」"
   },
   "004628": {
     "context": "004628",
@@ -1016,31 +1016,31 @@
     "context": "004662",
     "code": "0x45",
     "developer_comment": "",
-    "string": "懇願するましろの声が、夏彦の心を揺らす。"
+    "string": "少女恳求的声音，动摇了夏彦的心。# chunk 130"
   },
   "004667": {
     "context": "004667",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――９年前の事故をなぞるように、今また事態が進行している。"
+    "string": "——情况正沿着九年前的事故那样发展下去。"
   },
   "004672": {
     "context": "004672",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はもう、あの時の過ちを繰り返したくはないと思っていた。"
+    "string": "夏彦不想再重新犯下那时的错误了。"
   },
   "004677": {
     "context": "004677",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２度と自分のせいで、大切な人を苦しめたくはないと――。"
+    "string": "不能连着两次因为自己，而让重要的人受苦——"
   },
   "004682": {
     "context": "004682",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思った彼は、搾り出すように言う。"
+    "string": "这么想着，他挤出声音说道："
   },
   "004693": {
     "context": "004693",
@@ -1052,79 +1052,79 @@
     "context": "004731",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、ましろたちは安堵の表情を浮かべた。"
+    "string": "听到那句话，气他两人露出安心的神情。"
   },
   "004742": {
     "context": "004742",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくが先頭に立つ。サリュは１番後ろについてくれ」"
+    "string": "「我跑前面，纱瑠跟在最后」"
   },
   "004753": {
     "context": "004753",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……テロリストにでくわすことを想定しておこう」"
+    "string": "「……我们可能会遇到恐怖分子，要做好准备」"
   },
   "004782": {
     "context": "004782",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0042 001211"
+    "string": "「好的」"
   },
   "004811": {
     "context": "004811",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@auto-import 0039 001275"
+    "string": "「嗯、嗯」"
   },
   "005011": {
     "context": "005011",
     "code": "0x45",
     "developer_comment": "",
-    "string": "３人は緊張した面持ちで駆け出した。"
+    "string": "三人神情紧张地奔跑起来。"
   },
   "005092": {
     "context": "005092",
     "code": "0x45",
     "developer_comment": "",
-    "string": "走りながら、壊れた腕時計をちらりと見る。"
+    "string": "夏彦一边跑，一边瞥了眼坏掉的手表。"
   },
   "005097": {
     "context": "005097",
     "code": "0x45",
     "developer_comment": "",
-    "string": "母からもらった、唯一のプレゼントを。"
+    "string": "那是母亲给他的唯一的礼物。"
   },
   "005103": {
     "context": "005103",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……逃げる前に、しなくちゃならない事がある）"
+    "string": "（……逃跑之前，还有一件不得不做的事）"
   },
   "005108": {
     "context": "005108",
     "code": "0x45",
     "developer_comment": "",
-    "string": "母は恐らく、まだ研究所の中にいる。"
+    "string": "母亲恐怕还在研究所中。"
   },
   "005114": {
     "context": "005114",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（テロの阻止には間に合わなかったけど、せめてましろとサリュと……）"
+    "string": "（虽然没来得及阻止恐怖袭击，不过至少也要让真白、纱瑠……）"
   },
   "005119": {
     "context": "005119",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして母くらいは、逃がしてやりたい。"
+    "string": "还有妈妈逃出去。"
   },
   "005124": {
     "context": "005124",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はそう思っていた。"
+    "string": "这就是夏彦的想法。"
   },
   "005238": {
     "context": "005238",
@@ -1142,31 +1142,31 @@
     "context": "005278",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「いや、さすがに細かく覚えては――」"
+    "string": "「呃，这么久远的事，实在是记不太清了——」"
   },
   "005307": {
     "context": "005307",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「なら先に調べるべき。闇雲に逃げるのは危険」"
+    "string": "「那就应该先对此进行调查。盲目逃跑太危险了」# chunk 130"
   },
   "005312": {
     "context": "005312",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュはそう言って、手近な部屋に駆け込んだ。"
+    "string": "纱瑠说完，冲进了附近的房间。"
   },
   "005574": {
     "context": "005574",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこは誰もいない研究室だった。"
+    "string": "那是一个没有人在的研究室。"
   },
   "005674": {
     "context": "005674",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュは電源が入ったままのＰＣを探し、そこにアリスを接続する。"
+    "string": "纱瑠找到一个开着的电脑，并把爱丽丝接了上去。"
   },
   "005685": {
     "context": "005685",
@@ -1178,7 +1178,7 @@
     "context": "005781",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「今、この施設内の地図を検索する。あるかどうかわからないけど」"
+    "string": "「现在，正在查找这座设施的内部地图。虽然不知道有没有」# chunk 130"
   },
   "005811": {
     "context": "005811",
@@ -1190,25 +1190,25 @@
     "context": "005822",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「全ネットワークからファイル名検索」"
+    "string": "「全网搜索文件名」"
   },
   "005833": {
     "context": "005833",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「検索優先度高『地図』『マップ』『ＭＡＰ』、検索優先度低『施設』『ラボ』『ＬＡＢ』」"
+    "string": "「高优先级搜索“地图”“MAP”，低优先级搜索“设施”“LABO”“LAB”」"
   },
   "005844": {
     "context": "005844",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「パスワード付きのファイル及びフォルダは、パスワードを照合の後アクセス」"
+    "string": "「若文件及文件夹设有密码，验证密码后访问」"
   },
   "005855": {
     "context": "005855",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「当該ファイルは全てダウンロード。以上命令」"
+    "string": "「下载符合条件的所有文件夹。指令结束」"
   },
   "005881": {
     "context": "005881",
@@ -1220,61 +1220,61 @@
     "context": "005886",
     "code": "0x45",
     "developer_comment": "",
-    "string": "アリスの背中が開き、液晶が露出する。"
+    "string": "爱丽丝的后背展开，露出液晶面板。"
   },
   "005891": {
     "context": "005891",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこに次々とダウンロードされた画像が表示され、それをサリュが指先で選別する。"
+    "string": "面板上一个接一个地显示出下载得到的图像，纱瑠用手指操作，从中挑选。"
   },
   "005920": {
     "context": "005920",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「お願い、あって……！」"
+    "string": "「拜托了，要有啊……！」"
   },
   "005925": {
     "context": "005925",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ましろが祈るように言った直後、サリュが目を見開いた。"
+    "string": "真白祈祷一般地说完，纱瑠紧接着睁大了眼睛。"
   },
   "005955": {
     "context": "005955",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「――あった。多分これ」"
+    "string": "「——有了，应该就是这个」"
   },
   "005960": {
     "context": "005960",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちが液晶を覗き込むと、そこに六角形の地図が表示されていた。"
+    "string": "夏彦等人看向液晶屏：上面显示着一张六边形地图。"
   },
   "006178": {
     "context": "006178",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あぁ……間違いないな！」"
+    "string": "「嗯……确实没错！」"
   },
   "006183": {
     "context": "006183",
     "code": "0x45",
     "developer_comment": "",
-    "string": "地上部分と同じく、地下も六角形――６つのエリアに分かれているらしい。"
+    "string": "地下是和地上部分一样的六边形，分成了六个区域。"
   },
   "006196": {
     "context": "006196",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュは地図の上部を指差して言う。"
+    "string": "纱瑠指着地图的上半部分说道："
   },
   "006207": {
     "context": "006207",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「エントランスの位置から察するに、私たちの現在地はこの『第１エリア外周棟・地下１階』」"
+    "string": "「从入口的位置来看，我们的位置是这里——“第 1 区域外环楼、地下 1 层”」"
   },
   "006253": {
     "context": "006253",
@@ -1292,7 +1292,7 @@
     "context": "006277",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ましろの言う通り、各棟に１つずつ、非常階段とエレベーターがあるらしい。"
+    "string": "真白说的没错，每个区域的内外环楼各有一个安全梯和电梯。"
   },
   "006399": {
     "context": "006399",
@@ -1304,31 +1304,31 @@
     "context": "006404",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちはうなずきあい、部屋を飛び出した。"
+    "string": "众人相互点点头，然后冲出房间。"
   },
   "006453": {
     "context": "006453",
     "code": "0x45",
     "developer_comment": "",
-    "string": "連絡通路を渡り、内周棟に向かう。"
+    "string": "他们沿着连接通道，往内环楼方向前进。"
   },
   "006458": {
     "context": "006458",
     "code": "0x45",
     "developer_comment": "",
-    "string": "通路の途中には警備員の言っていた『セキュリティゲート』らしきものがあったが、開きっ放しになっていた。"
+    "string": "路上他们遇上了警卫所说的“门禁”，都敞开着。"
   },
   "006463": {
     "context": "006463",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、内周棟に行くと――"
+    "string": "等他们到了内环楼——"
   },
   "006771": {
     "context": "006771",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこは火に包まれていた。"
+    "string": "却发现那里一片火海。"
   },
   "006782": {
     "context": "006782",
@@ -1340,13 +1340,13 @@
     "context": "006793",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「爆発の影響で……！？」"
+    "string": "「是爆炸的影响……？！」"
   },
   "006804": {
     "context": "006804",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「いや、いくらなんでも早すぎる。燃焼剤入りの爆弾もあるのかもしれない」"
+    "string": "「不，影响不会那么快的，可能炸弹里加入了燃烧剂」# review: 助燃剂？我不确定"
   },
   "006815": {
     "context": "006815",
@@ -1364,25 +1364,25 @@
     "context": "006831",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はましろたちの手を引き、通路を引き返した。"
+    "string": "夏彦牵起两人的手原路返回。"
   },
   "006946": {
     "context": "006946",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――逃げ道が早くも潰されつつある。"
+    "string": "——没过多久，退路就开始渐渐断绝。"
   },
   "006957": {
     "context": "006957",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ましろ、サリュ！　地図にはエレベーターも載っていた！　一応使えるか試してみてくれ！」"
+    "string": "「真白、纱瑠！地图上写了电梯！去试试能不能用吧！」"
   },
   "006968": {
     "context": "006968",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「夏彦は！？」"
+    "string": "「夏彦你呢？！」"
   },
   "006979": {
     "context": "006979",
@@ -1400,25 +1400,25 @@
     "context": "007116",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちは一時的に二手に分れた。"
+    "string": "三人暂时兵分两路。"
   },
   "007186": {
     "context": "007186",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（まずは避難経路の確保だ。向こうの非常階段が無事なら、ましろたちを逃がす事ができる！）"
+    "string": "（先是确保避难通道。如果那边的安全梯还能用的话，就能让真白她们逃出去了！）"
   },
   "007191": {
     "context": "007191",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はそう思い、第２エリアに続く連絡通路に足を踏み入れ――"
+    "string": "于是，夏彦迈进了通往第 2 区域的连接通道——"
   },
   "007261": {
     "context": "007261",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして、目を疑った。"
+    "string": "而后，他擦了擦自己的眼睛。# review"
   },
   "007274": {
     "context": "007274",
@@ -1430,13 +1430,13 @@
     "context": "007358",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこには、彼女がいたのだ。"
+    "string": "是她——"
   },
   "007363": {
     "context": "007363",
     "code": "0x45",
     "developer_comment": "",
-    "string": "家で帰りを待っているはずの悠里が。"
+    "string": "按说应该在家等着的悠里。"
   },
   "007587": {
     "context": "007587",
@@ -1448,31 +1448,31 @@
     "context": "007690",
     "code": "0x45",
     "developer_comment": "",
-    "string": "かすれた声が口から漏れる。"
+    "string": "口中漏出沙哑的声音。"
   },
   "007785": {
     "context": "007785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "目に映っているものが、夏彦には信じられなかった。"
+    "string": "夏彦不敢相信自己的眼睛。"
   },
   "007791": {
     "context": "007791",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（家から一歩も出られないはずなのに……！？）"
+    "string": "（她不是一步都走不出家门的吗……？！）"
   },
   "007796": {
     "context": "007796",
     "code": "0x45",
     "developer_comment": "",
-    "string": "驚愕とともに夏彦が、彼女の姿を見据えると――"
+    "string": "出于惊讶，夏彦目不转睛地看着她——# chunk 130"
   },
   "007825": {
     "context": "007825",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……ひこりん……」"
+    "string": "「……小彦……」"
   },
   "007854": {
     "context": "007854",
@@ -1484,7 +1484,7 @@
     "context": "007859",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悲しげにそう呟いた。"
+    "string": "悠里悲伤地小声说道。# chunk 130"
   },
   "007870": {
     "context": "007870",
@@ -1502,13 +1502,13 @@
     "context": "007886",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦が問いかけた直後、なぜか――"
+    "string": "夏彦刚刚问完，突然间——"
   },
   "008230": {
     "context": "008230",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不意にここ数日の記憶が、脳裏をよぎった。"
+    "string": "这几天的记忆，不知为何闪过脑海。"
   },
   "008579": {
     "context": "008579",
@@ -1520,31 +1520,31 @@
     "context": "008923",
     "code": "0x45",
     "developer_comment": "",
-    "string": "まるで走馬灯のように、９月１０日から今日までの映像が早回しのように見え――"
+    "string": "走马灯一般，快进过 9 月 10 日至今的影像——"
   },
   "009267": {
     "context": "009267",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0054 003603"
+    "string": "而后，又消失不见了。"
   },
   "009352": {
     "context": "009352",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（な……なんだ！？）"
+    "string": "（怎……怎么回事？！）"
   },
   "009357": {
     "context": "009357",
     "code": "0x45",
     "developer_comment": "",
-    "string": "何が起こったのかわからなかった。"
+    "string": "不知道发生了什么。"
   },
   "009362": {
     "context": "009362",
     "code": "0x45",
     "developer_comment": "",
-    "string": "戸惑う夏彦を、悠里が見つめる。"
+    "string": "而悠里注视着困惑的夏彦。"
   },
   "009391": {
     "context": "009391",
@@ -1556,43 +1556,43 @@
     "context": "009396",
     "code": "0x45",
     "developer_comment": "",
-    "string": "表情はどこか悲しげで、しかし吹っ切れたような微笑だった。"
+    "string": "她脸上的表情似乎有些悲伤，却又是如释重负般的微笑 。# chunk 130"
   },
   "009402": {
     "context": "009402",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（そういう事って、何が……！？）"
+    "string": "（这样，是怎样……？！）"
   },
   "009407": {
     "context": "009407",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今のやりとりは、明らかにおかしかった。"
+    "string": "刚刚的对话明显不太对。"
   },
   "009412": {
     "context": "009412",
     "code": "0x45",
     "developer_comment": "",
-    "string": "まるで悠里が夏彦の心を読んだようだった。"
+    "string": "就好像悠里读出了夏彦的心一样。"
   },
   "009417": {
     "context": "009417",
     "code": "0x45",
     "developer_comment": "",
-    "string": "数日前にもそんな場面があった。"
+    "string": "几天前，也有一次这样的场面。"
   },
   "009423": {
     "context": "009423",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（もしかして悠里は、やっぱり――）"
+    "string": "（悠里她该不会是——）"
   },
   "009502": {
     "context": "009502",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそう思った時、２人の傍らで閃光が瞬いた。"
+    "string": "在他思考的时候，一道闪光在两人旁边绽放。# chunk 130"
   },
   "009626": {
     "context": "009626",
@@ -1622,31 +1622,31 @@
     "context": "009771",
     "code": "0x45",
     "developer_comment": "",
-    "string": "床に叩きつけられるまでのほんの刹那。"
+    "string": "即将撞到地面的那一刹那——# chunk 130"
   },
   "009776": {
     "context": "009776",
     "code": "0x45",
     "developer_comment": "",
-    "string": "あの朝の情景が脳裏に浮かんだ。"
+    "string": "夏彦的脑海中出现了那天早上的情景。"
   },
   "010045": {
     "context": "010045",
     "code": "0x47",
     "developer_comment": "",
-    "string": "今日から６日前。２０３０年、９月１０日。"
+    "string": "从今天算起的六天前，2030 年，9 月 10 日。"
   },
   "010147": {
     "context": "010147",
     "code": "0x47",
     "developer_comment": "",
-    "string": "まだ何もかもが平穏だったあの日の記憶が――"
+    "string": "那一天，一切都还在平稳之中。"
   },
   "010307": {
     "context": "010307",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……恐ろしい出来事は、テレビの向こうでしか起きないわけじゃないの」"
+    "string": "「……可怕的事件，并不会单单只发生在电视里啊」# chunk 131"
   },
   "010391": {
     "context": "010391",
@@ -1664,19 +1664,19 @@
     "context": "010568",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「やっぱり平穏が１番だよ。自分から危険に踏み込む事はないって」"
+    "string": "「果然平安才是最重要的。我不会再做什么让自己陷入危险的事情了」# chunk 138"
   },
   "010681": {
     "context": "010681",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その記憶の果て、９月１０日の終わりに。"
+    "string": "——那段记忆的尽头，是 9 月 10 日的最后。"
   },
   "010686": {
     "context": "010686",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里は夏彦を見つめて言った。"
+    "string": "悠里注视着夏彦说："
   },
   "010849": {
     "context": "010849",
@@ -1700,13 +1700,13 @@
     "context": "010876",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その事を思い出しながら―――"
+    "string": "——想着这些事情——"
   },
   "010881": {
     "context": "010881",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は、気を失った。"
+    "string": "夏彦失去了意识。"
   },
   "010953": {
     "context": "010953",
