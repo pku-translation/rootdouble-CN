@@ -92,7 +92,7 @@
     "context": "000376",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……夏-彦-君？」"
+    "string": "「……夏彦？」"
   },
   "000387": {
     "context": "000387",
@@ -164,7 +164,7 @@
     "context": "000616",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「并没有那种事情哦。喂喂，来一起玩啦」"
+    "string": "「有什么好怕的嘛。喂喂，来一起玩啦」"
   },
   "000645": {
     "context": "000645",
@@ -206,7 +206,7 @@
     "context": "000770",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但只是在草坪上跳来跳去，就让悠里的脸上浮现出了笑容。"
+    "string": "但只是在草坪上跳来跳去，悠里就展露出了笑容。"
   },
   "000860": {
     "context": "000860",
@@ -218,7 +218,7 @@
     "context": "000871",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「不是这样哦——夏彦君才是，跳房子也好 S 字合战也好，都擅长得多哦」"
+    "string": "「不是这样哦——夏彦才是，跳房子也好 S 字合战也好，都比我厉害多啦」"
   },
   "000882": {
     "context": "000882",
@@ -236,13 +236,13 @@
     "context": "000952",
     "code": "0x45",
     "developer_comment": "",
-    "string": "两人并排坐在草地上。"
+    "string": "两人并排坐到了草地上。"
   },
   "001037": {
     "context": "001037",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦一边深呼吸，一边问悠里。"
+    "string": "夏彦一边稍事休息，一边问悠里："
   },
   "001048": {
     "context": "001048",
@@ -284,7 +284,7 @@
     "context": "001138",
     "code": "0x45",
     "developer_comment": "",
-    "string": "母亲说过这座城里 Communicator 的数量远比其它城市多得多。"
+    "string": "母亲说过这座城里 Communicator 的数量要比其它城市多得多。"
   },
   "001149": {
     "context": "001149",
@@ -296,7 +296,7 @@
     "context": "001178",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「欸？夏、夏彦君也是 Communicator 吗？」"
+    "string": "「欸？夏、夏彦也是 Communicator 吗？」"
   },
   "001189": {
     "context": "001189",
@@ -314,7 +314,7 @@
     "context": "001229",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「欸嘿，一样哒」"
+    "string": "「哈哈，一样呢」"
   },
   "001252": {
     "context": "001252",
@@ -326,13 +326,13 @@
     "context": "001263",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「还有呢，不只有我哦。我认识的真白那家伙也是，她还炫耀自己适应性高」"
+    "string": "「还有呢，不只有我哦。我还认识个叫真白的家伙，老是在炫耀自己适应性高」"
   },
   "001274": {
     "context": "001274",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「这座城里 Communicator 很多的哦。所以见到也很正常的」"
+    "string": "「这座城里 Communicator 很多的哦，随随便便就能见得到」"
   },
   "001285": {
     "context": "001285",
@@ -344,7 +344,7 @@
     "context": "001314",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「夏彦君也是吗？」"
+    "string": "「夏彦也是吗？」"
   },
   "001325": {
     "context": "001325",
@@ -416,13 +416,13 @@
     "context": "001566",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「才第一次来这里，就和夏彦君交上了朋友……」"
+    "string": "「才第一次来这里，就和夏彦交上了朋友……」"
   },
   "001571": {
     "context": "001571",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说到这里，悠里露出了好像一下子注意到什么的表情。"
+    "string": "说到这里，悠里忽然露出了好像注意到什么的表情。"
   },
   "001600": {
     "context": "001600",
@@ -440,7 +440,7 @@
     "context": "001640",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「为什么夏彦君，要和我说话呢？」"
+    "string": "「为什么夏彦，要和我说话呢？」"
   },
   "001669": {
     "context": "001669",
@@ -452,13 +452,13 @@
     "context": "001680",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「欸～？嗯…那是……」"
+    "string": "「欸～？嗯…那是因为……」"
   },
   "001709": {
     "context": "001709",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「那是……？」"
+    "string": "「那是因为……？」"
   },
   "001720": {
     "context": "001720",
@@ -500,6 +500,6 @@
     "context": "001851",
     "code": "0x47",
     "developer_comment": "",
-    "string": "因为他希望能一起陪着她——"
+    "string": "他希望去陪伴她——"
   }
 }
