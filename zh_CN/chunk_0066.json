@@ -32,7 +32,7 @@
     "context": "000142",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（那扇门后面，现在也倒着尸体……！）"
+    "string": "（那道门里，尸体现在还……！）"
   },
   "000188": {
     "context": "000188",
@@ -43,19 +43,19 @@
     "context": "000193",
     "code": "0x45",
     "developer_comment": "",
-    "string": "想起那个凄惨的光景，身体不禁变得僵硬。"
+    "string": "想到房间里的惨状，身体都僵住了。"
   },
   "000198": {
     "context": "000198",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但渡濑没有表现出来，只是说道。"
+    "string": "但渡濑尽量不让它表现出来，镇定地说道："
   },
   "000209": {
     "context": "000209",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……稍微等下」"
+    "string": "「……稍等一下」"
   },
   "000239": {
     "context": "000239",
@@ -67,25 +67,25 @@
     "context": "000250",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我觉得不在里面……姑且也搜下吧」"
+    "string": "「虽然应该不在里面……以防万一」"
   },
   "000263": {
     "context": "000263",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这时，感觉到旁边风见肩膀的微微颤抖。"
+    "string": "这时他注意到，旁边的风见好像在微微地颤抖着。"
   },
   "000268": {
     "context": "000268",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑担心起她来。"
+    "string": "渡濑马上就担心起她来："
   },
   "000279": {
     "context": "000279",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……橘，你不去也行。我去确认那个房间」"
+    "string": "「……橘，你不去也行。我一个人确认一下就好」"
   },
   "000308": {
     "context": "000308",
@@ -97,13 +97,13 @@
     "context": "000313",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑走近正面的房间，打开了门。"
+    "string": "渡濑走了过去，打开了房门。# 下一句在另一分支"
   },
   "000321": {
     "context": "000321",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说着，渡濑走近那扇门——"
+    "string": "渡濑一边说着，一边走了过去——"
   },
   "000350": {
     "context": "000350",
@@ -115,13 +115,13 @@
     "context": "000355",
     "code": "0x45",
     "developer_comment": "",
-    "string": "接连不断地看见同僚的尸体，风见一定很难受吧。"
+    "string": "让她再看到一具同事的遗体，确实也挺难受的吧。"
   },
   "000366": {
     "context": "000366",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……说的也是。这次我一个人确认吧」"
+    "string": "「……说的也是。我一个人进去就行」"
   },
   "000395": {
     "context": "000395",
@@ -133,13 +133,13 @@
     "context": "000400",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑责备着考虑不周的自己，打开了正面房间的门。"
+    "string": "渡濑暗自责骂着自己的考虑不周，打开了房门。"
   },
   "000446": {
     "context": "000446",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这里的光景与那时候没有任何区别。"
+    "string": "房间里的样子，仍和当时一模一样。"
   },
   "000452": {
     "context": "000452",
@@ -151,19 +151,19 @@
     "context": "000457",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但一眼就知道，没有被困人员。"
+    "string": "而被困人员，也明显都不在这里。"
   },
   "000462": {
     "context": "000462",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑赶紧离开了房间。"
+    "string": "渡濑一刻也不愿多留。"
   },
   "000506": {
     "context": "000506",
     "code": "0x45",
     "developer_comment": "",
-    "string": "离开房间，风见用有些胆怯的眼神看着渡濑。"
+    "string": "走出房间，风见好像仍有些害怕地看了过来："
   },
   "000571": {
     "context": "000571",
@@ -175,25 +175,25 @@
     "context": "000582",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯，没事的……没有被困人员」"
+    "string": "「嗯，没关系的……里面没有被困人员」"
   },
   "000612": {
     "context": "000612",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「也是吧。在那样的房间里待着，活人也会变得奇怪了」"
+    "string": "「也是吧。待在那样的房间里，活着的人也会疯掉吧」"
   },
   "000617": {
     "context": "000617",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多的言行中有种让人不安的气息——渡濑没去管它。"
+    "string": "宇喜多的样子似乎有哪里不大对劲——不过渡濑没去管它。"
   },
   "000628": {
     "context": "000628",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「总之这一栋只有两个房间。搜索下一个房间吧」"
+    "string": "「说回来，这个地方只有两个房间。我们去搜索另一间吧」"
   },
   "000657": {
     "context": "000657",
@@ -205,7 +205,7 @@
     "context": "000662",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑他们这么说着，向那个房间走去。"
+    "string": "说罢，三人朝剩下的那个房间走去。"
   },
   "000707": {
     "context": "000707",
@@ -217,19 +217,19 @@
     "context": "000712",
     "code": "0x45",
     "developer_comment": "",
-    "string": "有很多死角，即使有人倒下或藏在哪里，也难以马上发现。"
+    "string": "视野死角很多，即使有人倒在或者藏在那里，也难以马上发现吧。"
   },
   "000723": {
     "context": "000723",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这里的话或许……？」"
+    "string": "「这里的话，说不定……？」"
   },
   "000794": {
     "context": "000794",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「嗯，注意一下物体背面吧」"
+    "string": "「嗯，注意一下各种东西的后面吧」"
   },
   "000824": {
     "context": "000824",
@@ -241,55 +241,55 @@
     "context": "000867",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说完，渡濑他们就开始搜索这个房间。"
+    "string": "说完，渡濑一行开始了搜索。"
   },
   "000872": {
     "context": "000872",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但别说悠里他们了，连 AD 都没有找到。"
+    "string": "但别说悠里他们了，连 AD 都没找到一支。"
   },
   "000878": {
     "context": "000878",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（咕……这样的话顺便……）"
+    "string": "（啧……算了，顺便……）"
   },
   "000883": {
     "context": "000883",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑决定寻找“信息”。"
+    "string": "渡濑决定找一找有没有什么用得上的“信息”。"
   },
   "000888": {
     "context": "000888",
     "code": "0x45",
     "developer_comment": "",
-    "string": "房间深处散落着文书。"
+    "string": "房间的里面，散落着一些文件。"
   },
   "000893": {
     "context": "000893",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这些文书中或许写着渡濑他们不知道的逃脱路线。"
+    "string": "里面说不定有一些线索，能提示渡濑一行还有别的逃生路线。"
   },
   "000899": {
     "context": "000899",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（能找到什么吗……？）"
+    "string": "（找找看吧……？）"
   },
   "000904": {
     "context": "000904",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑独自走入房间深处，一张张把文书拾起来读。"
+    "string": "渡濑一个人走了过去，把那些文件逐一捡了起来，翻看着。"
   },
   "000909": {
     "context": "000909",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但那里写着的只有——"
+    "string": "不过里面写着的是——"
   },
   "000947": {
     "context": "000947",
@@ -317,7 +317,7 @@
     "context": "000957",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——Senior Fellow 养成研讨班 参加者募集——"
+    "string": "——Senior Fellow 培养讨论班 报名通知——"
   },
   "000960": {
     "context": "000960",
@@ -334,7 +334,7 @@
     "context": "000964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——美夜子博士 FanClub  集合通知——"
+    "string": "——美夜子博士 Fan Club 集合通知——"
   },
   "000967": {
     "context": "000967",
@@ -368,7 +368,7 @@
     "context": "000978",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——特监对象 Na 2 号  第 3 次定期报告书——"
+    "string": "——特监对象 Na 2 号  第 3 次定期报告——"
   },
   "000981": {
     "context": "000981",
@@ -385,7 +385,7 @@
     "context": "000985",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——关于纸媒体的废除——"
+    "string": "——停止印发纸质文件——"
   },
   "000988": {
     "context": "000988",
@@ -402,43 +402,43 @@
     "context": "001015",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——全都是对于渡濑来说怎么样都好的，或是完全不懂的东西。"
+    "string": "——全都是这种，要么无关紧要，要么不知所云的东西。"
   },
   "001020": {
     "context": "001020",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而且日期都一样很早。"
+    "string": "而且都是好几年以前的。"
   },
   "001026": {
     "context": "001026",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（感觉无法期待啊……）"
+    "string": "（感觉指望不上啊……）"
   },
   "001031": {
     "context": "001031",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么想着，又拿起了一张。"
+    "string": "想着这些，他又拿起一份文件："
   },
   "001042": {
     "context": "001042",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯……《NBC 发生时  警备手册》？」"
+    "string": "「嗯……《NBC 发生时的警备手册》？」"
   },
   "001047": {
     "context": "001047",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在旁边的风见看到了手册说道。"
+    "string": "听到这句话，一旁的风见也凑了过来："
   },
   "001113": {
     "context": "001113",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「队长，在看什么？」"
+    "string": "「队长，你看的什么？」"
   },
   "001124": {
     "context": "001124",
@@ -456,61 +456,61 @@
     "context": "001164",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「比如说 NBC 灾害的时候，是指核、细菌、化学物质引起的灾害的总称」"
+    "string": "「比如“NBC 灾害”这个词，就是指由核、细菌和化学物质所导致的灾害的统称」# 在 chunk 172 有类似的句子"
   },
   "001169": {
     "context": "001169",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来是类似这次事故的时候用的，记录了警备方法有关事项的小册子。"
+    "string": "也就是说，这个小册子里所记录的，应该是类似今天这种事故发生时的警备方案。"
   },
   "001175": {
     "context": "001175",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（但这种状况下的话，我感觉比起警备更应该避难……）"
+    "string": "（不过现在这种状况还是先别管什么警备了，避难更重要吧……）"
   },
   "001180": {
     "context": "001180",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑这么想着的时候，背后传来了声音。"
+    "string": "正想着这些，背后传来了宇喜多的声音："
   },
   "001236": {
     "context": "001236",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「你们两个，在做什么？！」"
+    "string": "「你们两个，在干什么？！」"
   },
   "001241": {
     "context": "001241",
     "code": "0x45",
     "developer_comment": "",
-    "string": "猛然回头，看到了宇喜多生气的表情。"
+    "string": "渡濑吓了一跳，一回头，就看到宇喜多一脸不快地站在后面。"
   },
   "001252": {
     "context": "001252",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「啊，不是，以为会有逃生路线的线索」"
+    "string": "「啊，不是，觉得可能有逃生路线的线索」"
   },
   "001281": {
     "context": "001281",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「不是做这种事的时候吧？」"
+    "string": "「现在没工夫做这些事情吧？」"
   },
   "001310": {
     "context": "001310",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「而且这个设施的书籍，全都是很老的东西了。九年前决定废除纸媒体，进行完全的信息化」"
+    "string": "「而且，这间设施里的纸质文件都是很老的东西了。大约九年前就决定停止印发纸质文件，全部电子化了」"
   },
   "001321": {
     "context": "001321",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「虽然书籍没有被废弃，姑且还留在这里，但这么老的东西，没有什么有价值的信息」"
+    "string": "「虽然现在还剩下一些在那之前印发的，但时代那么久远，也不会有什么有用的信息了」"
   },
   "001332": {
     "context": "001332",
@@ -522,31 +522,31 @@
     "context": "001343",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「只有防灾手册是假设紧急情况，印刷了最新的东西发布的」"
+    "string": "「只有防灾手册，因为是灾难发生时要用的，所以最新版会以纸质手册的形式发到大家手上」"
   },
   "001354": {
     "context": "001354",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「但包括手册，本来这个设施所有的东西都是作为机密的」"
+    "string": "「不过包含它在内，这间设施里所有的东西原本都是机密」"
   },
   "001383": {
     "context": "001383",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「之前也说过的吧？机密不应该知道，会成为麻烦的源泉」"
+    "string": "「之前我也说过吧？机密尽量别碰，会惹大麻烦的」"
   },
   "001412": {
     "context": "001412",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「但这个非常事态下，说这些——」"
+    "string": "「但现在是特殊情况啊，说这些——」"
   },
   "001441": {
     "context": "001441",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「这不是简单的威胁或者玩笑！我是为了你们的人身安全着想才说的！」"
+    "string": "「我这不是在威胁或者开玩笑！我是在为你们的人身安全着想！」"
   },
   "001452": {
     "context": "001452",
@@ -558,31 +558,31 @@
     "context": "001481",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「……不要小看国家运营的研究设施」"
+    "string": "「……关乎国家运转的研究机构，还是不要小看吧」"
   },
   "001510": {
     "context": "001510",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「如果你还想要生还之后平稳地生活……！」"
+    "string": "「只要你们出去以后，还想平稳地生活下去……！」"
   },
   "001515": {
     "context": "001515",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么说着的宇喜多的眼神中有着非常的压力。"
+    "string": "宇喜多的目光里，不知为何有一股压力。"
   },
   "001520": {
     "context": "001520",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就像在说，世上还有比如今更恐怖的事态——"
+    "string": "就像在说，世上还有比现状更恐怖的事态——"
   },
   "001525": {
     "context": "001525",
     "code": "0x45",
     "developer_comment": "",
-    "string": "被那目光所震慑，渡濑不由自主地回答了。"
+    "string": "渡濑完全被镇住了，反射般地答道："
   },
   "001536": {
     "context": "001536",
@@ -594,7 +594,7 @@
     "context": "001547",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这个房间的搜索终止，继续前进吧」"
+    "string": "「这个房间的搜索就到此为止，我们继续前进吧」"
   },
   "001576": {
     "context": "001576",
@@ -606,13 +606,13 @@
     "context": "001581",
     "code": "0x45",
     "developer_comment": "",
-    "string": "尽管有种难以释怀的感觉……"
+    "string": "尽管有一种难以释怀的感觉……"
   },
   "001586": {
     "context": "001586",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但渡濑他们还是先离开了这个房间。"
+    "string": "渡濑一行还是暂且离开了这个房间。"
   },
   "001635": {
     "context": "001635",
