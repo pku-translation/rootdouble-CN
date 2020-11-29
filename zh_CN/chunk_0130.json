@@ -286,7 +286,7 @@
     "context": "003212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "像是要给予致命一击般，新的宣告开始了。"
+    "string": "像是要给他们致命一击般，新的宣告开始了。"
   },
   "003311": {
     "context": "003311",
@@ -382,13 +382,13 @@
     "context": "003679",
     "code": "0x45",
     "developer_comment": "",
-    "string": "逃生通道被断绝了。"
+    "string": "逃生通道被切断了。"
   },
   "003684": {
     "context": "003684",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为什么事态会变成这样已经无从而知。"
+    "string": "为什么会变成这样已经无从而知。"
   },
   "003689": {
     "context": "003689",
@@ -430,7 +430,7 @@
     "context": "003946",
     "code": "0x45",
     "developer_comment": "",
-    "string": "旁边的少女发出悲鸣。"
+    "string": "旁边的少女悲伤地喊道。"
   },
   "003969": {
     "context": "003969",
@@ -484,13 +484,13 @@
     "context": "004430",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦正要迈出一步的时候，少女拉住了他的手。"
+    "string": "夏彦正要迈出脚步的时候，少女拉住了他的手。"
   },
   "004441": {
     "context": "004441",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「等一下，夏彦！这种状况下你要去哪儿？！」"
+    "string": "「等一下，夏彦！现在这样的状况下你要去哪里？！」"
   },
   "004452": {
     "context": "004452",
@@ -556,7 +556,7 @@
     "context": "004769",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "004780": {
     "context": "004780",
@@ -580,7 +580,7 @@
     "context": "004936",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0012 004043"
+    "string": "「！？」"
   },
   "004965": {
     "context": "004965",
@@ -604,13 +604,13 @@
     "context": "005023",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0014 002122"
+    "string": "「…………」"
   },
   "005047": {
     "context": "005047",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0058 003767"
+    "string": "「………」"
   },
   "005053": {
     "context": "005053",
@@ -640,7 +640,7 @@
     "context": "005292",
     "code": "0x45",
     "developer_comment": "",
-    "string": "之后他们还将反复回想起的，漫长的一天——"
+    "string": "之后他们还将无数次回想起的，漫长的一天——"
   },
   "005297": {
     "context": "005297",
@@ -664,7 +664,7 @@
     "context": "005483",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「应该先对此进行调查。盲目逃跑太危险了」"
+    "string": "「应该先调查这里。盲目逃跑太危险了」"
   },
   "005871": {
     "context": "005871",
@@ -844,7 +844,7 @@
     "context": "008240",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……是这样……」"
+    "string": "「……是这样……」# 参照 chunk 220, chunk 283/514 悠里的心理活动"
   },
   "008245": {
     "context": "008245",
