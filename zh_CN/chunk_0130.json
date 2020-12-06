@@ -40,13 +40,13 @@
     "context": "000504",
     "code": "0x45",
     "developer_comment": "少年",
-    "string": "@auto-import 0027 001049"
+    "string": "「啊！？」"
   },
   "000509": {
     "context": "000509",
     "code": "0x45",
     "developer_comment": "",
-    "string": "少年因惊讶而屏住气。"
+    "string": "少年吓得屏住了呼吸。"
   },
   "000602": {
     "context": "000602",
@@ -64,13 +64,13 @@
     "context": "000651",
     "code": "0x45",
     "developer_comment": "少女２",
-    "string": "「咕……！」"
+    "string": "「呃……！」"
   },
   "000656": {
     "context": "000656",
     "code": "0x45",
     "developer_comment": "",
-    "string": "地面传来震动感。"
+    "string": "地面传来震感。"
   },
   "000845": {
     "context": "000845",
@@ -100,13 +100,13 @@
     "context": "000980",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……我们，没能赶上」"
+    "string": "「……我们，来晚了」"
   },
   "000985": {
     "context": "000985",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那句话，被尖锐的警报声盖过去了。"
+    "string": "就连那句话，也被尖锐的警报声所掩盖。"
   },
   "002220": {
     "context": "002220",
@@ -124,13 +124,13 @@
     "context": "002236",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「各位员工，请冷静前往地上避难」"
+    "string": "「各位员工，请冷静前往地上撤离」"
   },
   "002357": {
     "context": "002357",
     "code": "0x45",
     "developer_comment": "",
-    "string": "零碎的信息让每个人都不知所措。"
+    "string": "零散破碎的信息让所有人不知所措。"
   },
   "002365": {
     "context": "002365",
@@ -142,19 +142,19 @@
     "context": "002373",
     "code": "0x45",
     "developer_comment": "研究員２",
-    "string": "「我也不知道！好像什么爆炸了的样子……？」"
+    "string": "「不知道，什么东西爆炸了吗……？」"
   },
   "002381": {
     "context": "002381",
     "code": "0x45",
     "developer_comment": "研究員３",
-    "string": "「是说爆炸吗！？这个设施里！？」"
+    "string": "「是说爆炸吗！？在这个设施里！？」"
   },
   "002386": {
     "context": "002386",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就像是回答这些疑问一般，播报持续着。"
+    "string": "就像是回答这些疑问一般，广播还在继续。"
   },
   "002486": {
     "context": "002486",
@@ -172,7 +172,7 @@
     "context": "002508",
     "code": "0x45",
     "developer_comment": "男職員",
-    "string": "「已知情况是，设施内十个地点同时发生了爆炸，并因此导致起火！」"
+    "string": "「已知情况是，设施内十个地点同时发生了爆炸，并且引发了火灾！」"
   },
   "002519": {
     "context": "002519",
@@ -196,19 +196,19 @@
     "context": "002625",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在一群战栗的男人旁边，一名女科学家嘟哝说："
+    "string": "在一群战栗的男人旁边，一名女科学家低声说道："
   },
   "002714": {
     "context": "002714",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「没事的……！这个设施配备有双重、三重的防灾系统」"
+    "string": "「没事的……！这个设施配备有多层的防灾系统」"
   },
   "002725": {
     "context": "002725",
     "code": "0x45",
     "developer_comment": "女科学者",
-    "string": "「无论发生什么，按道理都不会发展成为大规模灾害」"
+    "string": "「无论发生什么，按理说都不会变为大规模灾害」"
   },
   "002754": {
     "context": "002754",
@@ -220,7 +220,7 @@
     "context": "002759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那声音如此平稳，仿佛要给予害怕的人们勇气一般。"
+    "string": "她的声音非常沉稳，想要给予害怕的人们勇气。"
   },
   "002877": {
     "context": "002877",
@@ -262,7 +262,7 @@
     "context": "003078",
     "code": "0x45",
     "developer_comment": "職員２",
-    "string": "「那是嘴上说一句就完事的！靠人力去灭火！」"
+    "string": "「不是嘴上说一句就完事的！快用人力灭火！」"
   },
   "003086": {
     "context": "003086",
@@ -286,7 +286,7 @@
     "context": "003212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "像是要给予致命一击般，新的宣告开始了。"
+    "string": "像是要给他们致命一击般，新的宣告开始了。"
   },
   "003311": {
     "context": "003311",
@@ -382,13 +382,13 @@
     "context": "003679",
     "code": "0x45",
     "developer_comment": "",
-    "string": "逃生通道被断绝了。"
+    "string": "逃生通道被切断了。"
   },
   "003684": {
     "context": "003684",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为什么事态会变成这样已经无从而知。"
+    "string": "为什么会变成这样已经无从而知。"
   },
   "003689": {
     "context": "003689",
@@ -430,7 +430,7 @@
     "context": "003946",
     "code": "0x45",
     "developer_comment": "",
-    "string": "旁边的少女发出悲鸣。"
+    "string": "旁边的少女悲伤地喊道。"
   },
   "003969": {
     "context": "003969",
@@ -478,19 +478,19 @@
     "context": "004317",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但即便如此，到这里来也是有意义的。"
+    "string": "即便如此，到这里来也是有意义的。"
   },
   "004430": {
     "context": "004430",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦正要迈出一步的时候，少女拉住了他的手。"
+    "string": "夏彦正要迈出脚步的时候，少女拉住了他的手。"
   },
   "004441": {
     "context": "004441",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「等一下，夏彦！这种状况下你要去哪儿？！」"
+    "string": "「等一下，夏彦！现在这样的状况下你要去哪里？！」"
   },
   "004452": {
     "context": "004452",
@@ -556,7 +556,7 @@
     "context": "004769",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "004780": {
     "context": "004780",
@@ -580,7 +580,7 @@
     "context": "004936",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0012 004043"
+    "string": "「！？」"
   },
   "004965": {
     "context": "004965",
@@ -604,13 +604,13 @@
     "context": "005023",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0014 002122"
+    "string": "「…………」"
   },
   "005047": {
     "context": "005047",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0058 003767"
+    "string": "「………」"
   },
   "005053": {
     "context": "005053",
@@ -640,7 +640,7 @@
     "context": "005292",
     "code": "0x45",
     "developer_comment": "",
-    "string": "之后他们还将反复回想起的，漫长的一天——"
+    "string": "之后他们还将无数次回想起的，漫长的一天——"
   },
   "005297": {
     "context": "005297",
@@ -664,7 +664,7 @@
     "context": "005483",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「应该先对此进行调查。盲目逃跑太危险了」"
+    "string": "「应该先调查这里。盲目逃跑太危险了」"
   },
   "005871": {
     "context": "005871",
@@ -676,7 +676,7 @@
     "context": "005967",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「现在，正在查找这座设施的内部地图」"
+    "string": "「现在，我在查找这座设施的内部地图」"
   },
   "006185": {
     "context": "006185",
@@ -718,7 +718,7 @@
     "context": "006879",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「我去确认连接“第 2 区域”的通道是否完好！」"
+    "string": "「我去检查连接“第 2 区域”的通道是否完好！」"
   },
   "006908": {
     "context": "006908",
@@ -844,7 +844,7 @@
     "context": "008240",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……是这样……」"
+    "string": "「……是这样……」# 参照 chunk 220, chunk 283/514 悠里的心理活动"
   },
   "008245": {
     "context": "008245",

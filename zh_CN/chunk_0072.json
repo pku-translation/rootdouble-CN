@@ -8,19 +8,19 @@
     "context": "000068",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最近的房间就是监控室。"
+    "string": "离得最近的房间，是一间监控室。"
   },
   "000073": {
     "context": "000073",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑让风见躺在地板上。"
+    "string": "渡濑让风见平躺在地板上。"
   },
   "000084": {
     "context": "000084",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「抱歉，要把裤子卷起来了」"
+    "string": "「抱歉，我要把裤腿卷上去了」"
   },
   "000151": {
     "context": "000151",
@@ -38,7 +38,7 @@
     "context": "000161",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把风见的裤子卷起来，"
+    "string": "渡濑把风见的裤腿卷了上去，"
   },
   "000172": {
     "context": "000172",
@@ -56,31 +56,31 @@
     "context": "000182",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见雪白的腿上，已经被血染红。"
+    "string": "雪白的小腿，已被鲜血染红。"
   },
   "000187": {
     "context": "000187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "伤口虽不深，但伤到的范围很大。"
+    "string": "伤口虽然不深，但很长。"
   },
   "000193": {
     "context": "000193",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（能用喀戎治疗吗……！？）"
+    "string": "（涂喀戎管用吗……！？"
   },
   "000198": {
     "context": "000198",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不可能的。就算涂上了也会被血冲走。"
+    "string": "不行，涂不上去，会被涌出来的鲜血冲开的。"
   },
   "000209": {
     "context": "000209",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘，我们去医务室！ 在那里应该能进行治疗的！」"
+    "string": "「橘，去医务室吧！那边应该有办法治疗！」"
   },
   "000220": {
     "context": "000220",
@@ -92,31 +92,31 @@
     "context": "000357",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见抓住渡濑的袖子说道。"
+    "string": "风见拉住了渡濑的袖子，"
   },
   "000368": {
     "context": "000368",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「动脉好像没事……在这里治疗就足够了」"
+    "string": "「动脉好像没事……那么不用过去，这里就能治」"
   },
   "000379": {
     "context": "000379",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但是，不缝上伤口的话……！」"
+    "string": "「但是，伤口必须缝上……！」"
   },
   "000390": {
     "context": "000390",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「缝合伤口需要相当的时间和技术……所以，先用这个」"
+    "string": "「手动缝合伤口不仅要花不少时间，而且也需要一定的技术……所以，用它吧」"
   },
   "000395": {
     "context": "000395",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见这么说道，从胸前的口袋拿出了什么东西。"
+    "string": "风见说着，从胸前的口袋里取出了一个东西。"
   },
   "000406": {
     "context": "000406",
@@ -128,7 +128,7 @@
     "context": "000417",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「这是医疗用的皮肤缝合器……用这个堵住伤口吧」"
+    "string": "「用于医疗的，皮肤缝合器……就用它缝合伤口吧」"
   },
   "000428": {
     "context": "000428",
@@ -140,7 +140,7 @@
     "context": "000439",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「快，快点……血还在流……！」"
+    "string": "「快，快点……血还在往外流……！」"
   },
   "000450": {
     "context": "000450",
@@ -152,13 +152,13 @@
     "context": "000455",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑下定决心，接过皮肤缝合器。"
+    "string": "渡濑一咬牙，接过皮肤缝合器，"
   },
   "000460": {
     "context": "000460",
     "code": "0x45",
     "developer_comment": "",
-    "string": "把那个对准风见的伤口。"
+    "string": "对准了风见的伤口。"
   },
   "000471": {
     "context": "000471",
@@ -170,13 +170,13 @@
     "context": "000482",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……那我用了」"
+    "string": "「……我上了」"
   },
   "000508": {
     "context": "000508",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑将皮肤缝合器的针插入伤口——"
+    "string": "渡濑说完，按下了机关。一道缝合针刺了进去——"
   },
   "000559": {
     "context": "000559",
@@ -188,7 +188,7 @@
     "context": "000564",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见的表情因为痛苦而扭曲。"
+    "string": "风见的面容，一下子就扭曲了。"
   },
   "000575": {
     "context": "000575",
@@ -206,49 +206,49 @@
     "context": "000591",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见闭着眼点点头。"
+    "string": "风见闭着眼睛，点了点头。"
   },
   "000596": {
     "context": "000596",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑横下一条心，把针一个接一个缝进伤口。"
+    "string": "渡濑心一横，把缝合针一道接一道地钉了上去。"
   },
   "000622": {
     "context": "000622",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——用五根针，缝上了伤口。"
+    "string": "——五针下去，伤口才算合上了。"
   },
   "000627": {
     "context": "000627",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后毫不节省地用上半管喀戎涂在伤口上。"
+    "string": "他马上抓起喀戎，毫不吝惜地涂了半管上去。"
   },
   "000632": {
     "context": "000632",
     "code": "0x45",
     "developer_comment": "",
-    "string": "终于止住了出血。"
+    "string": "不一会儿，出血终于止住了。"
   },
   "000643": {
     "context": "000643",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「——好，搞定了！」"
+    "string": "「——好了，弄完了！」"
   },
   "000654": {
     "context": "000654",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「呼、呼……！」"
+    "string": "「哈、哈……！」"
   },
   "000659": {
     "context": "000659",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见好像很疼似的喘着气。"
+    "string": "风见疼得直喘气。"
   },
   "000670": {
     "context": "000670",
@@ -266,25 +266,25 @@
     "context": "000692",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「有点……但是，还在承受范围内」"
+    "string": "「有点……不过，还在承受范围内」"
   },
   "000703": {
     "context": "000703",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「是吗……太好了」"
+    "string": "「这样吗……那就好」"
   },
   "000748": {
     "context": "000748",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑这么说道，风见微微一笑。"
+    "string": "渡濑稍稍有点放心了。风见也微微地笑着说道：# review：我觉得渡濑应该在这里出一下场，所以自己写了点。"
   },
   "000759": {
     "context": "000759",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「总觉得，很怀念啊……」"
+    "string": "「总觉得，有点怀念哪……」"
   },
   "000770": {
     "context": "000770",
@@ -296,43 +296,43 @@
     "context": "000781",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「啊，不是……想起了我刚加入 Sirius 时候的事」"
+    "string": "「呃，那个……想起我刚入队的时候了」"
   },
   "000792": {
     "context": "000792",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我经常像这样受伤，然后被队长训呢」"
+    "string": "「那时我总是毛手毛脚地伤到自己，然后挨队长训」"
   },
   "000803": {
     "context": "000803",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「在我的新人时期，经常被你说“你这么靠不住真是看不下去”」"
+    "string": "「“你这么靠不住，真是看不下去”——队长总是这么教训我这个新人」"
   },
   "000814": {
     "context": "000814",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「诶……我还真是想不到橘也有这样的时候啊」"
+    "string": "「嘿……我还真没想到橘也有这样的时代啊」"
   },
   "000819": {
     "context": "000819",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑事不关己地这样说道，"
+    "string": "渡濑应和道，好像事不关己似的。"
   },
   "000864": {
     "context": "000864",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见的表情一下子沉了下来。"
+    "string": "风见的表情，一下子就暗淡了下去："
   },
   "000875": {
     "context": "000875",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「队长……你真的不记得了吗？」"
+    "string": "「队长……真的，记不起来了吗？」"
   },
   "000886": {
     "context": "000886",
@@ -344,7 +344,7 @@
     "context": "000897",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……比如说，和我一起的记忆呢？有没有想起来点什么？」"
+    "string": "「……比如，跟我在一起的事情？有没有想起些什么？」"
   },
   "000947": {
     "context": "000947",
@@ -361,13 +361,13 @@
     "context": "000957",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是渡濑老实答道。"
+    "string": "但渡濑，只是坦率地回答道："
   },
   "000968": {
     "context": "000968",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……抱歉。我真的，什么都想不起来」"
+    "string": "「……抱歉。我真的，什么都没想起来」"
   },
   "000979": {
     "context": "000979",
@@ -379,7 +379,7 @@
     "context": "000984",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见之后就一直沉默着。"
+    "string": "一时间，沉默笼罩着两人。"
   },
   "000999": {
     "context": "000999",
@@ -395,43 +395,43 @@
     "context": "001009",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑一时觉得，一定要对风见说点什么才行——"
+    "string": "不知为何，渡濑感觉必须跟风见说些什么，然而——"
   },
   "001014": {
     "context": "001014",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但她微笑着说道。"
+    "string": "最先开口的，是风见：# 画面完全是苦瓜脸……"
   },
   "001025": {
     "context": "001025",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……失忆之前的队长，平常就是个很严厉的人……」"
+    "string": "「……队长在失忆之前，平日里非常严厉……」"
   },
   "001036": {
     "context": "001036",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「但在我像这样受伤的时候，会以各种各样的方式关照我」"
+    "string": "「但像今天这样，在我受伤的时候，也给了我很多的照顾」"
   },
   "001047": {
     "context": "001047",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「真的吗？」"
+    "string": "「还有这么一回事？」"
   },
   "001058": {
     "context": "001058",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「嗯。想起这种事，说来有些难为情……」"
+    "string": "「嗯。这些事情，想起来也挺不好意思的……」"
   },
   "001069": {
     "context": "001069",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我心里其实有点小高兴的」"
+    "string": "「不过，其实心里也有点开心」"
   },
   "001075": {
     "context": "001075",
@@ -443,25 +443,25 @@
     "context": "001080",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见这直率的话，让渡濑不禁害羞起来。"
+    "string": "风见直率的话语，让渡濑也有点不好意思了："
   },
   "001091": {
     "context": "001091",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……只要你愿意，我会这样一直陪着你的……」"
+    "string": "「……只要你希望，我就会一直陪着你的……」"
   },
   "001102": {
     "context": "001102",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「不，虽然这提案相当有魅力——现在的情况可不允许我们这样」"
+    "string": "「算了，虽然你这么说我挺开心的——现在的状况可不允许啊」"
   },
   "001113": {
     "context": "001113",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「也，也是啊。那我们差不多也重新开始搜素吧」"
+    "string": "「也，也是啊。我差不多也该重新开始搜索了」"
   },
   "001124": {
     "context": "001124",
@@ -473,13 +473,13 @@
     "context": "001175",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「好痛！」 "
+    "string": "「疼！」 "
   },
   "001186": {
     "context": "001186",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「别勉强自己。在这稍微休息一会吧」"
+    "string": "「别勉强自己。先在这里稍微休息一会吧」"
   },
   "001237": {
     "context": "001237",
@@ -491,37 +491,37 @@
     "context": "001248",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不，不行。现在的你就是“你这么靠不住真是看不下去”」"
+    "string": "「别逞强了。你现在的样子，就属于“这么靠不住，真是看不下去”的那种」"
   },
   "001253": {
     "context": "001253",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为了阻止要强的风见，借用了从前的自己所说的话。"
+    "string": "为了让要强的风见安心养伤，渡濑搬出了她的原话。"
   },
   "001258": {
     "context": "001258",
     "code": "0x45",
     "developer_comment": "",
-    "string": "正因如此，这话看来是传达到了风见的心里。"
+    "string": "风见一下子就被说动了："
   },
   "001309": {
     "context": "001309",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……我明白了。就如队长所言吧」"
+    "string": "「……我明白了。就听你的吧」"
   },
   "001320": {
     "context": "001320",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「恢复之后，就回到脑科学实验室去。在那里和其他人汇合吧」"
+    "string": "「恢复了之后，就直接回脑科学实验室吧。我们都在那里集合」"
   },
   "001331": {
     "context": "001331",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「在此之前，看看现在还没坏掉的监控摄像头，确认有没有被困人员」"
+    "string": "「在那之前，你不妨注意一下现在还有影象的监控画面，看看有没有被困人员」"
   },
   "001342": {
     "context": "001342",
@@ -539,7 +539,7 @@
     "context": "001352",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见这时说道。"
+    "string": "这时，风见开口道："
   },
   "001363": {
     "context": "001363",
@@ -557,7 +557,7 @@
     "context": "001379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑回头看去，风见略微沉默一下——然后说道。"
+    "string": "渡濑回过头来。但片刻的沉默之后，风见只是一笑："
   },
   "001390": {
     "context": "001390",
@@ -575,7 +575,7 @@
     "context": "001406",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑老实地点点头，离开了监控室。"
+    "string": "渡濑老实地点了点头，离开了监控室。"
   },
   "001461": {
     "context": "001461",
