@@ -8,7 +8,7 @@
     "context": "000187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——两名救援队队员大显身手，漂亮地消灭了火灾。"
+    "string": "——两名救援队队员大显身手，漂亮地扑灭了火灾。"
   },
   "000216": {
     "context": "000216",
@@ -44,7 +44,7 @@
     "context": "000391",
     "code": "0x45",
     "developer_comment": "",
-    "string": "可是悠里应该是在九年前就死了才对。"
+    "string": "可是悠里应该在九年前就死了才对。"
   },
   "000397": {
     "context": "000397",
@@ -110,7 +110,7 @@
     "context": "000611",
     "code": "0x45",
     "developer_comment": "３人",
-    "string": "@auto-import 0002 003339"
+    "string": "@import 0004 001965"
   },
   "000616": {
     "context": "000616",
@@ -236,7 +236,7 @@
     "context": "001082",
     "code": "0x45",
     "developer_comment": "",
-    "string": "想到这儿，夏彦想起前些日子听到的说法。"
+    "string": "想到这儿，夏彦想起前些日子听到的说法:"
   },
   "001172": {
     "context": "001172",
@@ -278,7 +278,7 @@
     "context": "001423",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……所以我的意识目前还留在这里）"
+    "string": "（……所以我的意识目前存留在这里）"
   },
   "001429": {
     "context": "001429",
@@ -368,13 +368,13 @@
     "context": "001903",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在副队长讲解的时候，她对男人这么说道。"
+    "string": "在副队长讲解的时候，她对男人这么说道："
   },
   "001914": {
     "context": "001914",
     "code": "0x45",
     "developer_comment": "副隊長",
-    "string": "「核反应堆，在差不多 2 小时前——“堆芯熔毁”了」 "
+    "string": "「核反应堆，在差不多 2 小时前——“堆芯熔毁”了」 # chunk 4"
   },
   "002001": {
     "context": "002001",
@@ -410,7 +410,7 @@
     "context": "002039",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在夏彦被无力感所折磨的时候，男人确认自己的口袋。"
+    "string": "在夏彦被无力感所折磨的时候，男人检查了一遍自己的口袋。"
   },
   "002044": {
     "context": "002044",
@@ -446,7 +446,7 @@
     "context": "002361",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0021 003823"
+    "string": "（？！）"
   },
   "002413": {
     "context": "002413",
@@ -488,7 +488,7 @@
     "context": "002543",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这时，夏彦强烈地希望。"
+    "string": "这时，夏彦强烈地希望："
   },
   "002587": {
     "context": "002587",
@@ -506,7 +506,7 @@
     "context": "002656",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（还……还不想消失……！！）"
+    "string": "（我还……还不想消失……！！）"
   },
   "002670": {
     "context": "002670",
@@ -518,7 +518,7 @@
     "context": "002684",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦的意识埋没在了黑暗之中。"
+    "string": "夏彦的意识淹没在了黑暗之中。"
   },
   "002740": {
     "context": "002740",
