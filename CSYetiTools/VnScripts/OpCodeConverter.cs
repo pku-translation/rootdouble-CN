@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using Untitled.Sexp;
 using Untitled.Sexp.Conversion;
 
@@ -13,8 +12,7 @@ namespace CsYetiTools.VnScripts
         private static readonly Dictionary<Type, Symbol> BackwardTable = new Dictionary<Type, Symbol>();
 
         private static readonly SortedDictionary<byte, (string name, Type type)> GeneralTypeTable
-            = new SortedDictionary<byte, (string name, Type type)>
-            {
+            = new SortedDictionary<byte, (string name, Type type)> {
                 [0x01] = ("jump", typeof(JumpCode)),
                 [0x02] = ("script-jump", typeof(ScriptJumpCode)),
                 [0x03] = ("jump", typeof(JumpCode)),
@@ -55,47 +53,44 @@ namespace CsYetiTools.VnScripts
         public override bool CanConvert(Type type)
             => type == typeof(OpCode);
 
-        public override object? ToObject(SValue value)
+        public override object ToObject(SValue value)
         {
             throw new InvalidOperationException();
         }
 
         public override object? ToObjectWithTypeCheck(SValue value)
         {
-            if (value.IsSymbol)
-            {
+            if (value.IsSymbol) {
                 return new OpCodeLabel(value.AsSymbol().Name);
             }
             if (!value.IsPair) throw new ArgumentException($"Cannot convert {value} to OpCode");
             var (car, cdr) = value.AsPair();
             var id = car.AsSymbol();
 
-            if (ForwardTable.TryGetValue(id, out var type))
-            {
+            if (ForwardTable.TryGetValue(id, out var type)) {
                 return SexpConvert.GetConverter(type).ToObject(cdr);
             }
 
             var name = id.Name;
             var i = name.LastIndexOf('-');
             if (i < 0) throw new ArgumentException($"Cannot convert {value} to OpCode");
-            var prefix = name[0..i];
-            var code = Convert.ToByte(name[(i + 1)..^0], 16);
-            if (GeneralTypeTable.TryGetValue(code, out var pair))
-            {
+            var prefix = name[..i];
+            var code = Convert.ToByte(name[(i + 1)..], 16);
+            if (GeneralTypeTable.TryGetValue(code, out var pair)) {
                 if (pair.name != prefix) throw new ArgumentException($"Cannot convert {value} to OpCode");
                 var opCode = (OpCode)SexpConvert.GetConverter(pair.type).ToObject(cdr)!;
                 opCode.Code = code;
                 return opCode;
             }
 
-            if (OpCode.FixedLengthCodeTable.TryGetValue(code, out var length))
+            if (!OpCode.FixedLengthCodeTable.TryGetValue(code, out _))
+                throw new ArgumentException($"Cannot convert {value} to OpCode");
             {
                 var opCode = (OpCode)SexpConvert.GetConverter(typeof(FixedLengthCode)).ToObject(cdr)!;
                 opCode.Code = code;
                 return opCode;
             }
 
-            throw new ArgumentException($"Cannot convert {value} to OpCode");
         }
 
         public override SValue ToValue(object obj)
@@ -105,42 +100,35 @@ namespace CsYetiTools.VnScripts
 
         public override SValue ToValueWithTypeCheck(Type type, object? obj)
         {
-            if (obj == null) return SValue.Null;
+            if (obj is null) return SValue.Null;
 
-            if (obj is OpCodeLabel label)
-            {
+            if (obj is OpCodeLabel label) {
                 return SValue.Symbol(label.Name);
             }
-            if (obj is OpCode opCode)
-            {
-                try
-                {
-                    if (OpCode.FixedLengthCodeTable.TryGetValue(opCode.Code, out var length))
-                    {
-                        return SValue.Cons(
-                            SValue.Symbol("code-" + opCode.Code.ToString("x02")),
-                            SexpConvert.GetConverter(typeof(FixedLengthCode)).ToValue(opCode)
-                        );
-                    }
-                    if (GeneralTypeTable.TryGetValue(opCode.Code, out var pair))
-                    {
-                        return SValue.Cons(
-                            SValue.Symbol(pair.name + "-" + opCode.Code.ToString("x02")),
-                            SexpConvert.GetConverter(pair.type).ToValue(opCode)
-                        );
-                    }
-                    if (BackwardTable.TryGetValue(opCode.GetType(), out var name))
-                    {
-                        return SValue.Cons(
-                            name,
-                            SexpConvert.GetConverter(opCode.GetType()).ToValue(opCode)
-                        );
-                    }
+            if (!(obj is OpCode opCode)) throw new ArgumentException($"Cannot convert {obj.GetType()} to SValue");
+
+            try {
+                if (OpCode.FixedLengthCodeTable.TryGetValue(opCode.Code, out _)) {
+                    return SValue.Cons(
+                        SValue.Symbol("code-" + opCode.Code.ToString("x02")),
+                        SexpConvert.GetConverter(typeof(FixedLengthCode)).ToValue(opCode)
+                    );
                 }
-                catch (Exception exc)
-                {
-                    throw new InvalidCastException($"Cannot convert {obj.GetType()}", exc);
+                if (GeneralTypeTable.TryGetValue(opCode.Code, out var pair)) {
+                    return SValue.Cons(
+                        SValue.Symbol(pair.name + "-" + opCode.Code.ToString("x02")),
+                        SexpConvert.GetConverter(pair.type).ToValue(opCode)
+                    );
                 }
+                if (BackwardTable.TryGetValue(opCode.GetType(), out var name)) {
+                    return SValue.Cons(
+                        name,
+                        SexpConvert.GetConverter(opCode.GetType()).ToValue(opCode)
+                    );
+                }
+            }
+            catch (Exception exc) {
+                throw new InvalidCastException($"Cannot convert {obj.GetType()}", exc);
             }
 
             throw new ArgumentException($"Cannot convert {obj.GetType()} to SValue");

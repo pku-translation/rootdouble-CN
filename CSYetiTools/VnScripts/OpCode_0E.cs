@@ -12,7 +12,7 @@ namespace CsYetiTools.VnScripts
     {
         // if _count == InvalidCount then the size of _remain will be determined by previous 0C/0D?
         private const short InvalidCount = unchecked((short)0x80CB);
-        
+
         [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         private ushort _unknown1;
 
@@ -21,8 +21,8 @@ namespace CsYetiTools.VnScripts
         [SexpAsList]
         private class Branch
         {
-            public short Prefix;
-            public LabelReference Offset = new LabelReference();
+            public short Prefix { get; }
+            public LabelReference Offset { get; }
 
             public Branch(short prefix, LabelReference offset)
             {
@@ -51,19 +51,16 @@ namespace CsYetiTools.VnScripts
         {
             _unknown1 = reader.ReadUInt16LE();
             _count = reader.ReadInt16LE();
-            if (_count == InvalidCount)
-            {
-                int size = TargetEndOffset - (int)reader.Position;
+            if (_count == InvalidCount) {
+                var size = TargetEndOffset - (int)reader.Position;
                 if (size < 0 || size % 6 != 0)
                     throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.Position:X08}, {TargetEndOffset:X08}) (size={size})");
                 _branches = new Branch[size / 6];
             }
-            else
-            {
+            else {
                 _branches = new Branch[_count];
             }
-            for (int i = 0; i < _branches.Length; ++i)
-            {
+            foreach (var i in .._branches.Length) {
                 var prefix = reader.ReadInt16LE();
                 var offset = ReadAddress(reader);
                 _branches[i] = new Branch(prefix, offset);
@@ -74,42 +71,37 @@ namespace CsYetiTools.VnScripts
         {
             writer.WriteLE(_unknown1);
             writer.WriteLE(_count);
-            for (int i = 0; i < _branches.Length; ++i)
-            {
-                writer.WriteLE(_branches[i].Prefix);
-                WriteAddress(writer, _branches[i].Offset);
+            foreach (var (prefix, offset) in _branches) {
+                writer.WriteLE(prefix);
+                WriteAddress(writer, offset);
             }
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(_unknown1.ToHex());
-        //     if (_count == InvalidCount)
-        //     {
-        //         writer.Write(' '); writer.Write(InvalidCount.ToHex());
-        //     }
-        //     else
-        //     {
-        //         writer.Write(" (short)"); writer.Write(_count);
-        //     }
-        //     writer.Write(" [");
-        //     foreach (var (i, branch) in _branches.WithIndex())
-        //     {
-        //         writer.WriteLine();
-        //             writer.Write("                ");
-        //             writer.Write(i.ToString().PadLeft(3));
-        //             writer.Write(": ");
-        //             writer.Write(branch.prefix.ToString("X04"));
-        //             writer.Write(": ");
-        //             writer.Write(branch.offset.ToString());
-        //     }
-        //     writer.Write(" ]");
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(_unknown1.ToHex());
+            if (_count == InvalidCount) {
+                writer.Write(' '); writer.Write(InvalidCount.ToHex());
+            }
+            else {
+                writer.Write(" (short)"); writer.Write(_count);
+            }
+            writer.Write(" [");
+            foreach (var (i, (prefix, offset)) in _branches.WithIndex()) {
+                writer.WriteLine();
+                writer.Write("                ");
+                writer.Write(i.ToString().PadLeft(3));
+                writer.Write(": ");
+                writer.Write(prefix.ToString("X04"));
+                writer.Write(": ");
+                writer.Write(offset.ToString());
+            }
+            writer.Write(" ]");
+        }
 
         public IEnumerable<LabelReference> GetAddresses()
         {
-            foreach (var (prefix, offset) in _branches)
-            {
+            foreach (var (_, offset) in _branches) {
                 yield return offset;
             }
         }

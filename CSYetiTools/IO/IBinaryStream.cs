@@ -1,5 +1,4 @@
 using System;
-using System.Text;
 
 namespace CsYetiTools.IO
 {
@@ -52,6 +51,6 @@ namespace CsYetiTools.IO
         void WriteBE(ulong l);
         void WriteStringZ(string s);
         int GetStringZByteCount(string s);
-        
+
     }
 }

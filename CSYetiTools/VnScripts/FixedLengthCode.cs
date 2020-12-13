@@ -9,36 +9,32 @@ namespace CsYetiTools.VnScripts
     public class FixedLengthCode : OpCode
     {
         [SexpBytesFormatting(Radix = NumberRadix.Hexadecimal)]
-        protected byte[] _args = System.Array.Empty<byte>();
+        protected byte[] Args;
 
         public FixedLengthCode(byte code, int argLength) : base(code)
         {
-            _args = new byte[argLength];
+            Args = new byte[argLength];
         }
 
-        public FixedLengthCode()
-        { }
-
         public override int GetArgLength(IBinaryStream stream)
-            => _args.Length;
+            => Args.Length;
 
         protected override void ReadArgs(IBinaryStream reader)
         {
-            _args = reader.ReadBytesExact(_args.Length);
+            Args = reader.ReadBytesExact(Args.Length);
         }
 
         protected override void WriteArgs(IBinaryStream writer)
         {
-            writer.Write(_args);
+            writer.Write(Args);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     foreach (var arg in _args)
-        //     {
-        //         writer.Write(' ');
-        //         writer.Write(arg.ToHex());
-        //     }
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            foreach (var arg in Args) {
+                writer.Write(' ');
+                writer.Write(arg.ToHex());
+            }
+        }
     }
 }

@@ -30,12 +30,12 @@ namespace CsYetiTools.VnScripts
             WriteAddress(writer, TargetAddress);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(Utils.BytesToHex(_prefix));
-        //     writer.Write(' '); writer.Write(TargetAddress);
-        // }
-        
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(Utils.BytesToHex(Prefix));
+            writer.Write(' '); writer.Write(TargetAddress);
+        }
+
         public IEnumerable<LabelReference> GetAddresses()
         {
             yield return TargetAddress;

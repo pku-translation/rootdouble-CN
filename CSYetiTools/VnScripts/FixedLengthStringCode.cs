@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using CsYetiTools.IO;
 using Untitled.Sexp;
-using Untitled.Sexp.Attributes;
 using Untitled.Sexp.Conversion;
 using Untitled.Sexp.Formatting;
 using Untitled.Sexp.Utilities;
@@ -18,14 +17,14 @@ namespace CsYetiTools.VnScripts
 
             protected abstract FixedLengthStringCode CreateInstance();
 
-            public override object? ToObject(SValue value)
+            public override object ToObject(SValue value)
             {
                 var opCode = CreateInstance();
                 var (car, cdr) = value.AsPair();
                 opCode.Short1 = (short)car;
                 (car, cdr) = cdr.AsPair();
                 opCode.Short2 = (short)car;
-                (car, cdr) = cdr.AsPair();
+                (_, cdr) = cdr.AsPair();
                 opCode.Content = cdr.AsString();
                 return opCode;
             }
@@ -33,10 +32,12 @@ namespace CsYetiTools.VnScripts
             public override SValue ToValue(object obj)
             {
                 var opCode = (FixedLengthStringCode)obj;
-                var builder  =new ListBuilder();
-                builder.Add(new SValue(opCode.Short1, new NumberFormatting{ Radix = NumberRadix.Hexadecimal}));
-                builder.Add(new SValue(opCode.Short2, new NumberFormatting{ Radix = NumberRadix.Hexadecimal}));
-                builder.Add(opCode.Content);
+                var builder = new ListBuilder
+                {
+                    new SValue(opCode.Short1, new NumberFormatting { Radix = NumberRadix.Hexadecimal }),
+                    new SValue(opCode.Short2, new NumberFormatting { Radix = NumberRadix.Hexadecimal }),
+                    opCode.Content
+                };
                 return builder.ToValue();
             }
         }
@@ -64,11 +65,11 @@ namespace CsYetiTools.VnScripts
             WriteString(writer);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(Short1);
-        //     writer.Write(' '); writer.Write(Short2);
-        //     writer.Write(' '); writer.Write(ContentToString());
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(Short1);
+            writer.Write(' '); writer.Write(Short2);
+            writer.Write(' '); writer.Write(ContentToString());
+        }
     }
 }

@@ -1,4 +1,3 @@
-using Untitled.Sexp;
 using Untitled.Sexp.Attributes;
 
 namespace CsYetiTools.VnScripts
@@ -11,7 +10,7 @@ namespace CsYetiTools.VnScripts
             protected override DynamicLengthStringCode CreateInstance()
                 => new ExtraDialogCode();
         }
-        
+
         public DirectiveMessageCode() : base(0x85) { }
     }
 }

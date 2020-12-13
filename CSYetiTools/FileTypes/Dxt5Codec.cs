@@ -1,6 +1,5 @@
 using System;
 using CsYetiTools.IO;
-using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 
 namespace CsYetiTools.FileTypes
@@ -25,25 +24,21 @@ namespace CsYetiTools.FileTypes
             Span<byte> alpha = stackalloc byte[8];
             alpha[0] = reader.ReadByte();
             alpha[1] = reader.ReadByte();
-            if (alpha[0] > alpha[1])
-            {
-                for (int i = 1; i < 7; ++i) alpha[i + 1] = Lerp(alpha[0], alpha[1], 7 - i, i);
+            if (alpha[0] > alpha[1]) {
+                for (var i = 1; i < 7; ++i) alpha[i + 1] = Lerp(alpha[0], alpha[1], 7 - i, i);
             }
-            else
-            {
-                for (int i = 1; i < 5; ++i) alpha[i + 1] = Lerp(alpha[0], alpha[1], 5 - i, i);
+            else {
+                for (var i = 1; i < 5; ++i) alpha[i + 1] = Lerp(alpha[0], alpha[1], 5 - i, i);
                 alpha[6] = 0x00;
                 alpha[7] = 0xFF;
             }
-            int index = 0;
-            for (int i = 0; i < 2; ++i)
-            {
+            var index = 0;
+            for (var i = 0; i < 2; ++i) {
                 int b24 = reader.ReadByte();
                 b24 |= reader.ReadByte() << 8;
                 b24 |= reader.ReadByte() << 16;
 
-                for (int j = 0; j < 8; ++j)
-                {
+                for (var j = 0; j < 8; ++j) {
                     span[index++] = alpha[b24 & 0b111];
                     b24 >>= 3;
                 }
@@ -62,8 +57,7 @@ namespace CsYetiTools.FileTypes
             c[3] = Lerp(c[0], c[1], 1, 2);
 
             var b32 = reader.ReadUInt32LE();
-            for (int i = 0; i < 16; ++i)
-            {
+            for (var i = 0; i < 16; ++i) {
                 span[i] = c[(int)(b32 & 0b11)];
                 b32 >>= 2;
             }
@@ -76,15 +70,12 @@ namespace CsYetiTools.FileTypes
             Span<byte> alphas = stackalloc byte[16];
             Span<Bgra32> colors = stackalloc Bgra32[16];
 
-            foreach (var blockY in Utils.Range(0, height, 4))
-            {
-                foreach (var blockX in Utils.Range(0, width, 4))
-                {
+            foreach (var blockY in Utils.Range(0, height, 4)) {
+                foreach (var blockX in Utils.Range(0, width, 4)) {
                     DecodeU8Alpha(reader, alphas);
                     DecodeBgr565(reader, colors);
 
-                    for (int i = 0; i < 16; ++i)
-                    {
+                    for (var i = 0; i < 16; ++i) {
                         colors[i].A = alphas[i];
                         var x = i % 4 + blockX;
                         var y = i / 4 + blockY;

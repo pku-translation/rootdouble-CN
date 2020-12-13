@@ -18,7 +18,7 @@ namespace CsYetiTools.Transifex
         private static System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create();
         public string SourceEntityHash { get; set; } = "";
         public string Translation { get; set; } = "";
-        public string? User { get; set; } = null;
+        public string? User { get; set; }
 
         public TranslationStringsPutInfo()
         {
@@ -29,9 +29,8 @@ namespace CsYetiTools.Transifex
         {
             var data = md5.ComputeHash(Utils.Utf8.GetBytes(key + ":" + context));
             var builder = new StringBuilder();
-            for (int i = 0; i < data.Length; i++)
-            {
-                builder.Append(data[i].ToString("x2"));
+            foreach (var b in data) {
+                builder.Append(b.ToString("x2"));
             }
             SourceEntityHash = builder.ToString();
             Translation = translation;

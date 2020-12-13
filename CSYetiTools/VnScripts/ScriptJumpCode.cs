@@ -32,10 +32,10 @@ namespace CsYetiTools.VnScripts
             writer.WriteLE(Unknown);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(TargetScript);
-        //     writer.Write(' '); writer.Write(Unknown);
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(TargetScript);
+            writer.Write(' '); writer.Write(Unknown);
+        }
     }
 }

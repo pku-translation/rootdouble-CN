@@ -55,18 +55,16 @@ namespace CsYetiTools.FileTypes
         //   14      1       Tips
         //   15      1       RAM tutorial
 
-        private static SysCpkEntry HandleXTX(FilePath path, byte[] data)
+        private static SysCpkEntry HandleXtx(FilePath path, byte[] data)
         {
-            try
-            {
+            try {
                 return new SysCpkEntry(
                     CpkFileType.Xtx,
                     path + ".png",
                     new Xtx(data)
                 );
             }
-            catch (NotSupportedException exc)
-            {
+            catch (NotSupportedException exc) {
                 Console.WriteLine(exc.Message);
                 return new SysCpkEntry(
                     CpkFileType.Unknown,
@@ -76,7 +74,7 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        private static SysCpkEntry HandleHCA(FilePath path, byte[] data)
+        private static SysCpkEntry HandleHca(FilePath path, byte[] data)
         {
             // not implemented
             return new SysCpkEntry(CpkFileType.Unknown, path + ".hca", data);
@@ -85,8 +83,8 @@ namespace CsYetiTools.FileTypes
         private static SysCpkEntry HandleSingleFile(FilePath path, byte[] data)
         {
             var flag = data.Take(4).ToArray();
-            if (flag.SequenceEqual(Xtx.FileTag)) return HandleXTX(path, data);
-            if (flag.SequenceEqual(Hca.FileTag)) return HandleHCA(path, data);
+            if (flag.SequenceEqual(Xtx.FileTag)) return HandleXtx(path, data);
+            if (flag.SequenceEqual(Hca.FileTag)) return HandleHca(path, data);
 
             return new SysCpkEntry(CpkFileType.Unknown, path + ".dump", data);
         }
@@ -106,29 +104,23 @@ namespace CsYetiTools.FileTypes
             var headers = new List<(int offset, int size, int unknown1, int unknown2)> { firstEntry };
 
             // guess content
-            if (firstEntry.unknown1 == 0 && firstEntry.unknown2 == 0)
-            {
-                while (reader.Position < firstEntry.offset)
-                {
+            if (firstEntry.unknown1 == 0 && firstEntry.unknown2 == 0) {
+                while (reader.Position < firstEntry.offset) {
                     headers.Add((reader.ReadInt32LE(), reader.ReadInt32LE(), reader.ReadInt32LE(), reader.ReadInt32LE()));
                 }
-                foreach (var (i, header) in headers.WithIndex())
-                {
+                foreach (var (i, header) in headers.WithIndex()) {
                     var bytes = reader.ReadBytesExact(header.size);
                     foreach (var subFile in HandleNested(path / i.ToString("0000"), bytes))
                         yield return subFile;
                 }
             }
-            else
-            {
+            else {
                 // single file
                 SysCpkEntry entry;
-                try
-                {
+                try {
                     entry = HandleSingleFile(path, data);
                 }
-                catch (Exception exc)
-                {
+                catch (Exception exc) {
                     File.WriteAllBytes(path + ".dump", data);
                     throw new InvalidDataException($"{path} failed to load.", exc);
                 }
@@ -138,29 +130,24 @@ namespace CsYetiTools.FileTypes
 
         public static IEnumerable<SysCpkEntry> EnumerateSysFiles(Cpk cpk, int index)
         {
-            if (cpk.ItocEntries.Count != 16)
-            {
+            if (cpk.ItocEntries.Count != 16) {
                 throw new InvalidDataException($"{cpk.ItocEntries.Count} != 16");
             }
 
             byte[] data;
-            using (var ms = new MemoryStream())
-            {
+            using (var ms = new MemoryStream()) {
                 cpk.ExtractItoc(ms, cpk.ItocEntries[index]);
-                if (index != 1) // lzss
-                {
+                if (index != 1) { // lzss
                     Span<byte> span = stackalloc byte[4];
                     ms.Position = 0;
                     ms.Read(span);
-                    int size = BitConverter.ToInt32(span);
+                    var size = BitConverter.ToInt32(span);
                     data = LZSS.Decode(ms.StreamAsIEnumerable()).ToArray();
-                    if (data.Length != size)
-                    {
+                    if (data.Length != size) {
                         throw new InvalidDataException($"itoc {index} decoded size {data.Length} != {size}");
                     }
                 }
-                else
-                {
+                else {
                     data = new byte[ms.Length];
                     ms.Position = 0;
                     ms.Read(data);
@@ -171,15 +158,12 @@ namespace CsYetiTools.FileTypes
 
         public static void DumpSys(Cpk cpk, int index, FilePath dirPath)
         {
-            Parallel.ForEach(EnumerateSysFiles(cpk, index), entry =>
-            {
-                try
-                {
+            Parallel.ForEach(EnumerateSysFiles(cpk, index), entry => {
+                try {
                     var path = dirPath / entry.Path;
                     var parent = path.Parent;
                     if (!Directory.Exists(parent)) Directory.CreateDirectory(parent);
-                    switch (entry.Content)
-                    {
+                    switch (entry.Content) {
                         case Xtx xtx:
                             xtx.SaveTextureTo(path);
                             break;
@@ -190,8 +174,7 @@ namespace CsYetiTools.FileTypes
                             throw new InvalidDataException($"Unknonw content type: {entry.Content.GetType().FullName}");
                     }
                 }
-                finally
-                {
+                finally {
                     entry.Dispose();
                 }
             });
@@ -200,8 +183,7 @@ namespace CsYetiTools.FileTypes
         public static void DumpSys(Cpk cpk, FilePath dirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
-            Parallel.For(0, 16, i =>
-            {
+            Parallel.For(0, 16, i => {
                 Console.WriteLine($"Dumping: {i:00} ... ");
                 DumpSys(cpk, i, dirPath / $"{i:00}");
             });
@@ -212,10 +194,8 @@ namespace CsYetiTools.FileTypes
             void HandleContent(FilePath path, object content)
             {
                 Console.WriteLine($"Dumping: {path} ... ");
-                try
-                {
-                    switch (content)
-                    {
+                try {
+                    switch (content) {
                         case Xtx xtx:
                             xtx.SaveTextureTo(path);
                             break;
@@ -226,15 +206,13 @@ namespace CsYetiTools.FileTypes
                             throw new InvalidDataException($"Unknonw content type: {content.GetType().FullName}");
                     }
                 }
-                catch (NotSupportedException exc)
-                {
+                catch (NotSupportedException exc) {
                     Console.WriteLine(exc.Message);
                 }
             }
 
             Utils.CreateOrClearDirectory(dirPath);
-            Parallel.ForEach(cpk.ItocEntries, itoc =>
-            {
+            Parallel.ForEach(cpk.ItocEntries, itoc => {
                 var itocStr = "Itoc" + itoc.Id.ToString(cpk.ItocEntries.Count > 10000 ? "000000" : "0000");
 
                 using var ms = new MemoryStream();
@@ -242,27 +220,22 @@ namespace CsYetiTools.FileTypes
                 var data = ms.ToArray();
 
                 var files = HandleNested("", data).ToList();
-                try
-                {
-                    if (files.Count > 1)
-                    {
+                try {
+                    if (files.Count > 1) {
                         var itocDirPath = dirPath / itocStr;
                         Utils.CreateOrClearDirectory(itocDirPath);
-                        foreach (var entry in files)
-                        {
+                        foreach (var entry in files) {
                             var path = itocDirPath / entry.Path;
                             HandleContent(path, entry.Content);
                         }
                     }
-                    else
-                    {
+                    else {
                         var entry = files.First();
                         var path = dirPath / (itocStr + "_" + entry.Path);
                         HandleContent(path, entry.Content);
                     }
                 }
-                finally
-                {
+                finally {
                     foreach (var entry in files) entry.Dispose();
                 }
             });

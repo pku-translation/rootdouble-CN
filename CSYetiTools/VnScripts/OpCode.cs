@@ -18,9 +18,9 @@ namespace CsYetiTools.VnScripts
             public override bool CanConvert(Type type)
                 => type == typeof(LabelReference);
 
-            public override object? ToObject(SValue value)
+            public override object ToObject(SValue value)
             {
-                return new LabelReference{ TargetLabel = value.AsSymbol().Name };
+                return new LabelReference { TargetLabel = value.AsSymbol().Name };
             }
 
             public override SValue ToValue(object obj)
@@ -49,8 +49,7 @@ namespace CsYetiTools.VnScripts
 
         public override string ToString()
         {
-            if (TargetLabel != null)
-            {
+            if (TargetLabel != null) {
                 return $"${TargetLabel}";
             }
             return $"$0x{AbsoluteOffset:X8}";
@@ -65,7 +64,7 @@ namespace CsYetiTools.VnScripts
             public override bool CanConvert(Type type)
                 => type == typeof(OpCodeLabel);
 
-            public override object? ToObject(SValue value)
+            public override object ToObject(SValue value)
             {
                 return new OpCodeLabel(value.AsSymbol().Name);
             }
@@ -80,7 +79,7 @@ namespace CsYetiTools.VnScripts
 
         public override int GetArgLength(IBinaryStream stream) => 0;
 
-        public OpCodeLabel(string name, int offset = 0)
+        public OpCodeLabel(string name, int offset = 0) : base(0)
         {
             Name = name;
             Offset = offset;
@@ -94,13 +93,17 @@ namespace CsYetiTools.VnScripts
 
         protected override void WriteArgs(IBinaryStream writer)
         { }
+
+        protected override void DumpArgs(TextWriter writer)
+        {
+            throw new NotSupportedException();
+        }
     }
 
     [SexpCustomConverter(typeof(OpCodeConverter))]
     public abstract class OpCode
     {
-        internal static SortedDictionary<byte, int> FixedLengthCodeTable = new SortedDictionary<byte, int>
-        {
+        internal static SortedDictionary<byte, int> FixedLengthCodeTable = new SortedDictionary<byte, int> {
             [0x05] = 0, // return? end-block?
 
             [0x10] = 4,
@@ -213,12 +216,10 @@ namespace CsYetiTools.VnScripts
 
         private static OpCode CreateOpCode(byte op)
         {
-            if (FixedLengthCodeTable.TryGetValue(op, out var length))
-            {
+            if (FixedLengthCodeTable.TryGetValue(op, out var length)) {
                 return new FixedLengthCode(op, length);
             }
-            return op switch
-            {
+            return op switch {
                 0x00 => new ZeroCode(),  // empty block
 
                 0x01 => new JumpCode(op),            // jump to address?
@@ -268,32 +269,27 @@ namespace CsYetiTools.VnScripts
 
             var op = reader.ReadByte();
 
-            try
-            {
+            try {
                 var opCode = CreateOpCode(op);
 
                 opCode.Offset = offset;
                 opCode.Index = prevCodes.Count;
 
-                if (opCode is OpCode_0E scopedCode)
-                {
+                if (opCode is OpCode_0E scopedCode) {
                     if (prevCodes.Count > 0
                         && prevCodes.Last() is OpCode_0C_0D scopeCode
-                        && scopeCode.TargetOffset.AbsoluteOffset != 0)
-                    {
+                        && scopeCode.TargetOffset.AbsoluteOffset != 0) {
                         scopedCode.TargetEndOffset = scopeCode.TargetOffset.AbsoluteOffset;
                     }
                 }
-                else if (opCode is StringCode strCode)
-                {
+                else if (opCode is StringCode strCode) {
                     strCode.IsOffset = isStringPooled;
                 }
                 opCode.ReadArgs(reader);
 
 #if DEBUG
                 // check parse result
-                if (!(opCode is TitleCode))
-                {
+                if (!(opCode is TitleCode)) {
                     reader.Seek(-opCode.GetTotalLength(reader));
                     var opBytes = reader.ReadBytesMax(opCode.GetTotalLength(reader));
                     System.Diagnostics.Debug.Assert(opBytes.SequenceEqual(opCode.ToBytes()), $"OpCode 0x{op:X02} parsing is invalid, raw=[{Utils.BytesToHex(opBytes)}, parsed=[{Utils.BytesToHex(opCode.ToBytes())}]");
@@ -302,8 +298,7 @@ namespace CsYetiTools.VnScripts
 
                 return opCode;
             }
-            catch (Exception exc)
-            {
+            catch (Exception exc) {
                 reader.Position = offset;
                 var buffer = reader.ReadBytesMax(64);
                 var context = string.Join(Environment.NewLine, Utils.BytesToTextLines(buffer, offset));
@@ -339,13 +334,13 @@ namespace CsYetiTools.VnScripts
             WriteArgs(writer);
         }
 
-        protected OpCode(byte code = 0)
+        protected OpCode(byte code)
         {
             Code = code;
         }
 
         public override string ToString()
-            => SexpConvert.Serialize<OpCode>(this);
+            => SexpConvert.Serialize(this);
 
         protected LabelReference ReadAddress(IBinaryStream reader)
         {
@@ -354,8 +349,7 @@ namespace CsYetiTools.VnScripts
 
         protected void WriteAddress(IBinaryStream writer, LabelReference address)
         {
-            if (address.BaseOffset != Offset)
-            {
+            if (address.BaseOffset != Offset) {
                 throw new InvalidOperationException($"Writing address data with {nameof(address.BaseOffset)}(0x{address.BaseOffset:X08}) != {Offset}");
             }
             writer.WriteLE(address.AbsoluteOffset);
@@ -364,6 +358,8 @@ namespace CsYetiTools.VnScripts
         protected abstract void ReadArgs(IBinaryStream reader);
 
         protected abstract void WriteArgs(IBinaryStream writer);
+
+        protected abstract void DumpArgs(TextWriter writer);
 
     }
 }

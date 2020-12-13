@@ -17,8 +17,7 @@ namespace CsYetiTools.FileTypes
         private static void CheckBytes(IEnumerable<byte> data, byte[] target, string message)
         {
             var arr = data.ToList();
-            if (!arr.SequenceEqual(target))
-            {
+            if (!arr.SequenceEqual(target)) {
                 throw new InvalidDataException(
                     $"{message}: [{BytesToHex(arr)}] != [{BytesToHex(target)}]");
             }
@@ -30,9 +29,9 @@ namespace CsYetiTools.FileTypes
 
         public bool IsFontAtlas { get; private set; }
 
-        private int _alignedWidth;
+        private readonly int _alignedWidth;
 
-        private int _alignedHeight;
+        private readonly int _alignedHeight;
 
         public int OffsetX { get; private set; }
 
@@ -59,18 +58,18 @@ namespace CsYetiTools.FileTypes
 
         private static int GetX(int i, int width, byte level)
         {
-            int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
-            int v2 = i << v1;
-            int v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
+            var v1 = (level >> 2) + (level >> 1 >> (level >> 2));
+            var v2 = i << v1;
+            var v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
             return ((((level << 3) - 1) & ((v3 >> 1) ^ ((v3 ^ (v3 >> 1)) & 0xF))) >> v1)
                 + ((((((v2 >> 6) & 0xFF) + ((v3 >> (v1 + 5)) & 0xFE)) & 3)
                     + (((v3 >> (v1 + 7)) % (((width + 31)) >> 5)) << 2)) << 3);
         }
         private static int GetY(int i, int width, byte level)
         {
-            int v1 = (level >> 2) + (level >> 1 >> (level >> 2));
-            int v2 = i << v1;
-            int v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
+            var v1 = (level >> 2) + (level >> 1 >> (level >> 2));
+            var v2 = i << v1;
+            var v3 = (v2 & 0x3F) + ((v2 >> 2) & 0x1C0) + ((v2 >> 3) & 0x1FFFFE00);
             return ((v3 >> 4) & 1)
                 + ((((v3 & ((level << 6) - 1) & -0x20)
                     + ((((v2 & 0x3F)
@@ -85,8 +84,7 @@ namespace CsYetiTools.FileTypes
             // var aligned = truncated == size ? size : truncated << 1;
             // return aligned < 0x80 ? 0x80 : aligned;
 
-            var cell = format switch
-            {
+            var cell = format switch {
                 0 => 0x20,
                 1 => 0x10,
                 2 => 0x80,
@@ -104,8 +102,7 @@ namespace CsYetiTools.FileTypes
             var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight * 4);
             var pixels = new Bgra32[Width * Height];
 
-            foreach (var i in Range(_alignedWidth * _alignedHeight))
-            {
+            foreach (var i in Range(_alignedWidth * _alignedHeight)) {
                 var x = GetX(i, _alignedWidth, 4);
                 var y = GetY(i, _alignedWidth, 4);
                 if (x >= Width || y >= Height) continue;
@@ -131,8 +128,7 @@ namespace CsYetiTools.FileTypes
             var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight * 2);
             var pixels = new Bgr565[Width * Height];
 
-            foreach (var i in Range(_alignedWidth * _alignedHeight))
-            {
+            foreach (var i in Range(_alignedWidth * _alignedHeight)) {
                 var x = GetX(i, _alignedWidth, 2);
                 var y = GetY(i, _alignedWidth, 2);
                 if (x >= Width || y >= Height) continue;
@@ -155,14 +151,12 @@ namespace CsYetiTools.FileTypes
             var textureHeight = _alignedHeight / 4;
             var data = reader.ReadBytesExact(_alignedWidth * _alignedHeight);
             var decrypted = new byte[data.Length];
-            int src = 0;
-            foreach (var i in Range(textureWidth * textureHeight))
-            {
+            var src = 0;
+            foreach (var i in Range(textureWidth * textureHeight)) {
                 var x = GetX(i, textureWidth, 16);
                 var y = GetY(i, textureWidth, 16);
                 var dst = (x + y * textureWidth) * 16;
-                foreach (var j in Range(8))
-                {
+                foreach (var _ in Range(8)) {
                     decrypted[dst + 1] = data[src];
                     decrypted[dst] = data[src + 1];
                     dst += 2;
@@ -171,7 +165,7 @@ namespace CsYetiTools.FileTypes
             }
             var pixels = Dxt5Codec.Decode(decrypted, _alignedWidth, _alignedHeight);
 
-            var image = Image.LoadPixelData<Bgra32>(pixels, _alignedWidth, _alignedHeight);
+            var image = Image.LoadPixelData(pixels, _alignedWidth, _alignedHeight);
             image.Mutate(x => x.Crop(Width, Height));
 
             return image;
@@ -195,8 +189,7 @@ namespace CsYetiTools.FileTypes
             var encodedHeight = Height;
             var pixels = new Bgra4444[Width * Height];
 
-            foreach (var i in Range(_alignedWidth * _alignedHeight))
-            {
+            foreach (var i in Range(_alignedWidth * _alignedHeight)) {
                 var absX = GetX(i, _alignedWidth, 2);
                 var absY = GetY(i, _alignedWidth, 2);
                 if (absX >= encodedWidth || absY >= encodedHeight) continue;
@@ -226,15 +219,13 @@ namespace CsYetiTools.FileTypes
         {
             var data = new byte[_alignedWidth * _alignedHeight * 2];
             var img = (Image<Bgra4444>)Content;
-            if (!img.TryGetSinglePixelSpan(out var pixels))
-            {
+            if (!img.TryGetSinglePixelSpan(out var pixels)) {
                 throw new InvalidOperationException("Cannot get image pixels as a single span");
             }
             var encodedWidth = Width / 4;
             var encodedHeight = Height;
-            
-            foreach (var i in Range(_alignedWidth * _alignedHeight))
-            {
+
+            foreach (var i in Range(_alignedWidth * _alignedHeight)) {
                 var absX = GetX(i, _alignedWidth, 2);
                 var absY = GetY(i, _alignedWidth, 2);
                 if (absX >= encodedWidth || absY >= encodedHeight) continue;
@@ -278,13 +269,11 @@ namespace CsYetiTools.FileTypes
             OffsetX = reader.ReadInt32BE();
             OffsetY = reader.ReadInt32BE();
 
-            if (GetAlignedSize(Width, Format) != _alignedWidth || GetAlignedSize(Height, Format) != _alignedHeight)
-            {
+            if (GetAlignedSize(Width, Format) != _alignedWidth || GetAlignedSize(Height, Format) != _alignedHeight) {
                 throw new NotSupportedException($"{Format} ({Width:X}x{Height:X}) -> ({_alignedWidth:X}x{_alignedHeight:X}), not ({GetAlignedSize(Width, Format):X}x{GetAlignedSize(Height, Format):X})");
             }
 
-            Content = Format switch
-            {
+            Content = Format switch {
                 0 => DecodeFormat0(reader),
                 1 => fontAtlas ? (Image)DecodeFont(reader) : (Image)DecodeFormat1(reader),
                 2 => DecodeFormat2(reader),
@@ -296,26 +285,21 @@ namespace CsYetiTools.FileTypes
         {
             Format = format;
             IsFontAtlas = fontAtlas;
-            if (fontAtlas)
-            {
-                if (Width % BlockSize != 0 && Height % BlockSize != 0)
-                {
+            if (fontAtlas) {
+                if (Width % BlockSize != 0 && Height % BlockSize != 0) {
                     throw new InvalidDataException("Font width/height is not multiple of 48");
                 }
             }
-            switch (format)
-            {
+            switch (format) {
                 case 0:
                     if (fontAtlas) throw new ArgumentException("Font atlas format must be 1");
                     Content = image is Image<Bgra32> ? image : image.CloneAs<Bgra32>();
                     break;
                 case 1:
-                    if (fontAtlas)
-                    {
+                    if (fontAtlas) {
                         Content = image is Image<Bgra4444> ? image : image.CloneAs<Bgra4444>();
                     }
-                    else
-                    {
+                    else {
                         Content = image is Image<Bgr565> ? image : image.CloneAs<Bgr565>();
                     }
                     break;
@@ -355,8 +339,7 @@ namespace CsYetiTools.FileTypes
             writer.WriteBE(OffsetX);
             writer.WriteBE(OffsetY);
 
-            writer.Write(Format switch
-            {
+            writer.Write(Format switch {
                 0 => EncodeFormat0(),
                 1 => IsFontAtlas ? EncodeFont() : EncodeFormat1(),
                 2 => EncodeFormat2(),

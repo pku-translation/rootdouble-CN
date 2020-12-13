@@ -28,10 +28,10 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        // protected override void DumpArgs(System.IO.TextWriter writer)
-        // {
-        //     writer.Write(" <Dialog>");
-        //     base.DumpArgs(writer);
-        // }
+        protected override void DumpArgs(System.IO.TextWriter writer)
+        {
+            writer.Write(" <Dialog>");
+            base.DumpArgs(writer);
+        }
     }
 }

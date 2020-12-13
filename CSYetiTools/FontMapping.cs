@@ -13,9 +13,9 @@ using static CsYetiTools.Utils;
 
 namespace CsYetiTools
 {
-    public class FontMapping : System.Text.Encoding
+    public class FontMapping : Encoding
     {
-        private static string InvalidCharMessage = "Only BMP scalar values supported";
+        private const string InvalidCharMessage = "Only BMP scalar values supported";
 
         public const int CellSize = 48;
         public const int DbXCount = 128;
@@ -30,35 +30,36 @@ namespace CsYetiTools
         public static IReadOnlyList<int> RawSjisTable = (
             from leading in Range(0x81, 0xa1).Concat(Range(0xe0, 0xec))
             from tail in Range(0x40, 0x7f).Concat(Range(0x80, 0xfd))
-            select ((leading << 8) | tail)
+            select (leading << 8) | tail
         ).Take(DbXCount * DbYCount).ToList().AsReadOnly();
 
         // 84FC~85A0 (index: 751~847) for single-byte, banned
-        private static int MbRangeStart = 751;
-        private static int MbRangeEnd = 847;
+        private const int MbRangeStart = 751;
+
+        private const int MbRangeEnd = 847;
+
         // private static int MbCodeStart = 0x84FC;
         // private static int MbCodeEnd = 0x85A0;
 
-        public static IReadOnlyList<int?> RawSjisReverseTable;
+        private static readonly IReadOnlyList<int?> RawSjisReverseTable;
 
         static FontMapping()
         {
             var list = Enumerable.Repeat<int?>(null, ReverseMax - ReverseMin).ToList();
-            for (int i = 0; i < RawSjisTable.Count; ++i)
-            {
+            foreach (var i in ..RawSjisTable.Count) {
                 if (i >= MbRangeStart && i < MbRangeEnd) continue;
                 list[RawSjisTable[i] - ReverseMin] = i;
             }
             RawSjisReverseTable = list.AsReadOnly();
         }
 
-        private char[] _chars;
+        private readonly char[] _chars;
 
-        private int?[] _reverseTable;
+        private readonly int?[] _reverseTable;
 
-        private int _minChar;
+        private readonly int _minChar;
 
-        private int _maxChar;
+        private readonly int _maxChar;
 
         private const int ReverseMin = 0x8000;
 
@@ -72,26 +73,22 @@ namespace CsYetiTools
         public FontMapping(IEnumerable<char> chars)
         {
             var charSet = chars.Where(c => c >= SingleByteMax).Distinct().OrderBy(c => c).ToArray();
-            if (charSet.Length <= MbRangeStart)
-            {
+            if (charSet.Length <= MbRangeStart) {
                 _chars = charSet;
             }
-            else
-            {
+            else {
                 _chars = charSet.Take(MbRangeStart).Concat(Repeat('·', MbRangeEnd - MbRangeStart)).Concat(charSet.Skip(MbRangeStart)).ToArray();
             }
 
             _minChar = _chars[0];
             _maxChar = _chars[^1] + 1;
 
-            if (_chars.Length > RawSjisTable.Count)
-            {
+            if (_chars.Length > RawSjisTable.Count) {
                 throw new ArgumentException($"Too many chars: {_chars.Length} > {RawSjisTable.Count}");
             }
 
             _reverseTable = new int?[_maxChar - _minChar];
-            foreach (var (i, c) in _chars.WithIndex())
-            {
+            foreach (var (i, c) in _chars.WithIndex()) {
                 if (char.IsSurrogate(c)) throw new ArgumentException(InvalidCharMessage);
 
                 if (i >= MbRangeStart && i < MbRangeEnd) continue;
@@ -104,14 +101,11 @@ namespace CsYetiTools
         private static void ForeachChars(Image img, char[] chars, Action<char, PointF, IImageProcessingContext> operation)
         {
             var i = 0;
-            foreach (var y in Range(0, DbYCount))
-            {
-                foreach (var x in Range(0, DbXCount))
-                {
+            foreach (var y in Range(0, DbYCount)) {
+                foreach (var x in Range(0, DbXCount)) {
                     var chr = chars[i];
 
-                    if (chr == '\u3000')
-                    {
+                    if (chr == '\u3000') {
                         ++i;
                         continue; // why ImageSharp handle this as unknown symbol?
                     }
@@ -125,20 +119,17 @@ namespace CsYetiTools
         public Image<Bgra32> GenerateTexture(bool drawGlyphBorder = false)
         {
             var img = new Image<Bgra32>(DbWidth, DbHeight);
-            try
-            {
+            try {
                 var fonts = new FontCollection();
                 var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
                 var font = new Font(fontFamily, 40);
-                var renderOptions = new RendererOptions(font);
 
-                var graphicsOptions = new GraphicsOptions { Antialias = true, };
+                var graphicsOptions = new GraphicsOptions { Antialias = true };
 
                 var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
 
                 var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions,
-                    new TextOptions
-                    {
+                    new TextOptions {
                         HorizontalAlignment = HorizontalAlignment.Center,
                         VerticalAlignment = VerticalAlignment.Center,
                     }
@@ -152,10 +143,8 @@ namespace CsYetiTools
 
                 ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
 
-                if (drawGlyphBorder)
-                {
-                    ForeachChars(img, _chars, (chr, point, ctx) =>
-                    {
+                if (drawGlyphBorder) {
+                    ForeachChars(img, _chars, (chr, point, ctx) => {
                         ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
                             , point + new PointF(0, 1)
                             , point + new PointF(44, 1)
@@ -167,8 +156,7 @@ namespace CsYetiTools
 
                 return img;
             }
-            catch
-            {
+            catch {
                 img.Dispose();
                 throw;
             }
@@ -177,28 +165,24 @@ namespace CsYetiTools
         public Image<Bgra32> GenerateCodeTestTexture()
         {
             var img = new Image<Bgra32>(DbWidth, DbHeight);
-            try
-            {
+            try {
                 var fonts = new FontCollection();
                 var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
                 var font = new Font(fontFamily, 25);
-                var renderOptions = new RendererOptions(font);
 
                 var graphicsOptions = new GraphicsOptions { Antialias = true };
 
                 var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
 
-                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions, new TextOptions
-                {
+                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions, new TextOptions {
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Center
                 });
 
-                var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
+                var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 1f);
 
-                ForeachChars(img, _chars, (chr, point, ctx) =>
-                {
-                    ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
+                ForeachChars(img, _chars, (chr, point, ctx) => {
+                    ctx.DrawPolygon(shapeGraphiocsOptions, outlinePen
                         , point + new PointF(0, 1)
                         , point + new PointF(45, 1)
                         , point + new PointF(45, 46)
@@ -216,8 +200,7 @@ namespace CsYetiTools
 
                 return img;
             }
-            catch
-            {
+            catch {
                 img.Dispose();
                 throw;
             }
@@ -226,20 +209,16 @@ namespace CsYetiTools
         public override int GetByteCount(char[] chars, int index, int count)
         {
             var result = 0;
-            for (int i = 0; i < count; ++i)
-            {
+            foreach (var i in ..count) {
                 var c = chars[index];
                 if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
-                if (c < SingleByteMax)
-                {
+                if (c < SingleByteMax) {
                     ++result;
                 }
-                else if (c < _minChar || c >= _maxChar || _reverseTable[c - _minChar] == null)
-                {
+                else if (c < _minChar || c >= _maxChar || _reverseTable[c - _minChar] == null) {
                     throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
                 }
-                else
-                {
+                else {
                     result += 2;
                 }
                 ++index;
@@ -251,20 +230,16 @@ namespace CsYetiTools
         {
             var index = byteIndex;
 
-            for (int i = 0; i < charCount; ++i)
-            {
+            foreach (var i in ..charCount) {
                 var c = chars[charIndex];
                 if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
-                if (c < SingleByteMax)
-                {
+                if (c < SingleByteMax) {
                     bytes[index++] = (byte)c;
                 }
-                else if (c < _minChar || c >= _maxChar || !(_reverseTable[c - _minChar] is int revIndex))
-                {
+                else if (c < _minChar || c >= _maxChar || !(_reverseTable[c - _minChar] is { } revIndex)) {
                     throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
                 }
-                else
-                {
+                else {
                     var code = RawSjisTable[revIndex];
                     bytes[index++] = (byte)(code >> 8);
                     bytes[index++] = (byte)(code & 0xFF);
@@ -278,30 +253,25 @@ namespace CsYetiTools
         {
             var result = 0;
             int? leading = null;
-            for (int i = 0; i < count; ++i)
-            {
+            foreach (var i in ..count) {
                 var b = bytes[index];
-                if (leading != null)
-                {
+                if (leading != null) {
                     var composed = (leading.Value << 8) | b;
-                    if (composed < ReverseMin || composed >= ReverseMax || RawSjisReverseTable[composed - ReverseMin] == null)
-                    {
+                    if (composed < ReverseMin || composed >= ReverseMax || RawSjisReverseTable[composed - ReverseMin] == null) {
                         throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()} at {index - 1}, out of range", bytes[(i - 1)..(i + 1)], index - 1);
                     }
                     ++result;
                     leading = null;
                 }
-                else if (b < SingleByteMax)
-                {
+                else if (b < SingleByteMax) {
                     ++result;
                 }
-                else
-                {
+                else {
                     leading = b;
                 }
                 ++index;
             }
-            if (leading != null) throw new DecoderFallbackException($"Unexpected ending", new[] { (byte)leading.Value }, index - 1);
+            if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
             return result;
         }
 
@@ -309,30 +279,25 @@ namespace CsYetiTools
         {
             var index = charIndex;
             int? leading = null;
-            for (int i = 0; i < byteCount; ++i)
-            {
+            foreach (var i in ..byteCount) {
                 var b = bytes[byteIndex];
-                if (leading != null)
-                {
+                if (leading != null) {
                     var composed = (leading.Value << 8) | b;
-                    if (composed < ReverseMin || composed >= ReverseMax || !(RawSjisReverseTable[composed - ReverseMin] is int reverseIndex))
-                    {
+                    if (composed < ReverseMin || composed >= ReverseMax || !(RawSjisReverseTable[composed - ReverseMin] is { } reverseIndex)) {
                         throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()}, out of range", bytes[(i - 1)..(i + 1)], byteIndex - 1);
                     }
                     chars[index++] = _chars[reverseIndex];
                     leading = null;
                 }
-                else if (b < SingleByteMax)
-                {
+                else if (b < SingleByteMax) {
                     chars[index++] = (char)b;
                 }
-                else
-                {
+                else {
                     leading = b;
                 }
                 ++byteIndex;
             }
-            if (leading != null) throw new DecoderFallbackException($"Unexpected ending", new[] { (byte)leading.Value }, index - 1);
+            if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
             return index - charIndex;
         }
 

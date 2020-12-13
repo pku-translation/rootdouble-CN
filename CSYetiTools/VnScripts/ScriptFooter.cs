@@ -1,5 +1,4 @@
 using System;
-using System.IO;
 using CsYetiTools.IO;
 
 namespace CsYetiTools.VnScripts
@@ -12,15 +11,10 @@ namespace CsYetiTools.VnScripts
     
      */
 
-    public sealed class ScriptFooter : IEquatable<ScriptFooter>
+    public sealed record ScriptFooter(int IndexedDialogCount, int Unknown, int FlagCodeCount, int ScriptIndex)
     {
-        public int IndexedDialogCount { get; set; }
-        
-        public int Unknown { get; set; }
-
-        public int FlagCodeCount { get; set; }
-
-        public int ScriptIndex { get; set; }
+        public static readonly ScriptFooter Zero = new ScriptFooter(0, 0, 0, 0);
+        public static readonly ScriptFooter End = new ScriptFooter(-1, 0, 0, 0);
 
         public byte[] ToBytes()
         {
@@ -34,12 +28,7 @@ namespace CsYetiTools.VnScripts
 
         public static ScriptFooter ReadFrom(IBinaryStream stream)
         {
-            return new ScriptFooter {
-                IndexedDialogCount = stream.ReadInt32LE(),
-                Unknown = stream.ReadInt32LE(),
-                FlagCodeCount = stream.ReadInt32LE(),
-                ScriptIndex = stream.ReadInt32LE(),
-            };
+            return new ScriptFooter(stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE());
         }
 
         public void WriteTo(IBinaryStream writer)
@@ -49,31 +38,20 @@ namespace CsYetiTools.VnScripts
             writer.WriteLE(FlagCodeCount);
             writer.WriteLE(ScriptIndex);
         }
-        
+
         public override string ToString()
         {
             return $"{IndexedDialogCount,6} {Unknown,6} {FlagCodeCount,6} {ScriptIndex,6}";
         }
 
-        public ScriptFooter Clone()
+        public static ScriptFooter operator +(ScriptFooter lhs, ScriptFooter rhs)
         {
-            return new ScriptFooter
-            {
-                IndexedDialogCount = IndexedDialogCount,
-                Unknown = Unknown,
-                FlagCodeCount = FlagCodeCount,
-                ScriptIndex = ScriptIndex,
-            };
-        }
-
-        public bool Equals(ScriptFooter? other)
-        {
-            if (!(other is ScriptFooter footer)) return false;
-
-            return IndexedDialogCount == footer.IndexedDialogCount
-                && Unknown == footer.Unknown
-                && FlagCodeCount == footer.FlagCodeCount
-                && ScriptIndex == footer.ScriptIndex;
+            return new ScriptFooter(
+                lhs.IndexedDialogCount + rhs.IndexedDialogCount,
+                lhs.Unknown + rhs.Unknown,
+                lhs.FlagCodeCount + rhs.FlagCodeCount,
+                lhs.ScriptIndex + rhs.ScriptIndex
+            );
         }
     }
 }

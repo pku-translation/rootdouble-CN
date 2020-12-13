@@ -39,7 +39,7 @@ namespace CsYetiTools.VnScripts
 
         public override int GetArgLength(IBinaryStream streamS)
             => 10;
-        
+
         protected override void ReadArgs(IBinaryStream reader)
         {
             AreaIndex = reader.ReadInt16LE();
@@ -58,13 +58,13 @@ namespace CsYetiTools.VnScripts
             writer.WriteLE(Height);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(AreaIndex.ToHex());
-        //     writer.Write(' '); writer.Write(X);
-        //     writer.Write(' '); writer.Write(Y);
-        //     writer.Write(' '); writer.Write(Width);
-        //     writer.Write(' '); writer.Write(Height);
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(AreaIndex.ToHex());
+            writer.Write(' '); writer.Write(X);
+            writer.Write(' '); writer.Write(Y);
+            writer.Write(' '); writer.Write(Width);
+            writer.Write(' '); writer.Write(Height);
+        }
     }
 }

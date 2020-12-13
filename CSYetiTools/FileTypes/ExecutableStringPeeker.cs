@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using JetBrains.Annotations;
 using Untitled.Sexp;
 using Untitled.Sexp.Attributes;
 
@@ -22,14 +21,7 @@ namespace CsYetiTools.FileTypes
             Offset = offset;
             Length = length;
             EscapeLinefeed = escapeLinefeed;
-            if (escapeLinefeed)
-            {
-                Content = content.Replace("%N", "\n");
-            }
-            else
-            {
-                Content = content;
-            }
+            Content = escapeLinefeed ? content.Replace("%N", "\n") : content;
 
             if (Length % 4 != 0) throw new ArgumentException($"0x{Offset:X08}: {Length} is not multiple of 4");
         }
@@ -39,8 +31,7 @@ namespace CsYetiTools.FileTypes
             var offset = (int)stream.Position;
             var bytes = new List<byte>();
             int b;
-            while ((b = stream.ReadByte()) > 0)
-            {
+            while ((b = stream.ReadByte()) > 0) {
                 bytes.Add((byte)b);
             }
             while (stream.Position < maxOffset && stream.Peek() == 0) stream.ReadByte();
@@ -52,41 +43,32 @@ namespace CsYetiTools.FileTypes
         {
             var content = replacement ?? Content;
             if (escapeLinefeed) content = content.Replace("\n", "%N");
-            var bytes =  encoding.GetBytes(content);
-            if (bytes.Length + 1 > Length)
-            {
-                if (throwIfLengthError)
-                {
+            var bytes = encoding.GetBytes(content);
+            if (bytes.Length + 1 > Length) {
+                if (throwIfLengthError) {
                     throw new InvalidOperationException($"{new SValue(content)} length > {Length - 1}");
                 }
-                else
-                {
-                    if (content.Length == bytes.Length || Length <= 5) // all single-byte means maybe english, or too short.
-                    {
+                else {
+                    if (content.Length == bytes.Length || Length <= 5) { // too short.
                         Utils.PrintError($"{Offset:X08}: {new SValue(content)} length > {new SValue(Content)} (limit: {Length}), use source");
                         content = Content;
                         bytes = encoding.GetBytes(content);
                     }
-                    else
-                    {
+                    else {
                         var byteList = new List<byte>();
                         var chars1 = new char[1];
                         var chars2 = new char[2];
-                        foreach (var c in content)
-                        {
+                        foreach (var c in content) {
                             byte[] newBytes;
-                            if (char.IsHighSurrogate(c))
-                            {
+                            if (char.IsHighSurrogate(c)) {
                                 chars2[0] = c;
                                 continue;
                             }
-                            else if (char.IsLowSurrogate(c))
-                            {
+                            else if (char.IsLowSurrogate(c)) {
                                 chars2[1] = c;
                                 newBytes = encoding.GetBytes(chars2);
                             }
-                            else
-                            {
+                            else {
                                 chars1[0] = c;
                                 newBytes = encoding.GetBytes(chars1);
                             }
@@ -103,8 +85,7 @@ namespace CsYetiTools.FileTypes
             }
             stream.Position = Offset;
             stream.Write(bytes);
-            for (int i = bytes.Length; i < Length; ++i)
-            {
+            foreach (var _ in bytes.Length..Length) {
                 stream.WriteByte(0);
             }
         }
@@ -113,22 +94,23 @@ namespace CsYetiTools.FileTypes
     public class ExecutableStringPeeker
     {
 #nullable disable
+        [UsedImplicitly]
         [SexpAsList]
         private class StringSegmentRange
         {
-            public Symbol Id { get; set; }
+            [UsedImplicitly] public Symbol Id { get; set; }
 
-            public bool EscapeLinefeed { get; set; }
+            [UsedImplicitly] public bool EscapeLinefeed { get; set; }
 
-            public List<Pair> Ranges { get; set; }
+            [UsedImplicitly] public List<Pair> Ranges { get; set; }
         }
 #nullable enable
 
         private class SegmentGroup
         {
-            public string Name { get; set; }
-            public bool EscapeLinefeed { get; set; }
-            public List<StringSegment> Segments { get; set; }
+            public string Name { get; }
+            public bool EscapeLinefeed { get; }
+            public List<StringSegment> Segments { get; }
 
             public SegmentGroup(string name, bool escapeLinefeed, IEnumerable<StringSegment> segments)
             {
@@ -138,24 +120,21 @@ namespace CsYetiTools.FileTypes
             }
         }
 
-        private List<SegmentGroup> _rangeGroups { get; } = new List<SegmentGroup>();
+        private List<SegmentGroup> RangeGroups { get; } = new List<SegmentGroup>();
 
         public ExecutableStringPeeker(Stream stream, SValue rangesExpr, Encoding encoding)
         {
             var ranges = rangesExpr.AsEnumerable()
-                .Select(expr => SexpConvert.ToObject<StringSegmentRange>(expr));
-            foreach (var range in ranges)
-            {
+                .Select(SexpConvert.ToObject<StringSegmentRange>);
+            foreach (var range in ranges) {
                 var segments = new List<StringSegment>();
-                foreach (var (begin, end) in range.Ranges)
-                {
+                foreach (var (begin, end) in range.Ranges) {
                     stream.Position = begin.AsInt();
-                    while (stream.Position < end.AsInt())
-                    {
+                    while (stream.Position < end.AsInt()) {
                         segments.Add(StringSegment.FromStream(stream, end.AsInt(), encoding, range.EscapeLinefeed));
                     }
                 }
-                _rangeGroups.Add(new SegmentGroup(range.Id.Name, range.EscapeLinefeed, segments));
+                RangeGroups.Add(new SegmentGroup(range.Id.Name, range.EscapeLinefeed, segments));
             }
         }
 
@@ -171,21 +150,19 @@ namespace CsYetiTools.FileTypes
         }
 
         public IEnumerable<string> Names
-            => _rangeGroups.Select(group => group.Name);
+            => RangeGroups.Select(group => group.Name);
 
         public List<StringSegment> Segments(string name)
-            => _rangeGroups.First(group => group.Name == name).Segments;
+            => RangeGroups.First(group => group.Name == name).Segments;
 
         public void Modify(Stream stream, Encoding encoding, FilePath stringPoolDirPath)
         {
-            foreach (var group in _rangeGroups)
-            {
+            foreach (var group in RangeGroups) {
                 var name = group.Name;
                 var segs = group.Segments;
                 var references = LoadReferences(stringPoolDirPath, name);
                 if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
-                foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
-                {
+                foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex()) {
                     seg.Modify(stream, encoding, references[i], group.EscapeLinefeed, false);
                 }
             }
@@ -193,11 +170,8 @@ namespace CsYetiTools.FileTypes
 
         public void Modify(Stream stream, Encoding encoding)
         {
-            foreach (var group in _rangeGroups)
-            {
-                var name = group.Name;
-                foreach (var (i, seg) in group.Segments.Reverse<StringSegment>().WithIndex())
-                {
+            foreach (var group in RangeGroups) {
+                foreach (var (_, seg) in group.Segments.Reverse<StringSegment>().WithIndex()) {
                     seg.Modify(stream, encoding, null, group.EscapeLinefeed, false);
                 }
             }
@@ -209,10 +183,8 @@ namespace CsYetiTools.FileTypes
             if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
 
             var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
-            foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
-            {
-                dict.Add(i.ToString("0000"), new Transifex.TranslationInfo
-                {
+            foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex()) {
+                dict.Add(i.ToString("0000"), new Transifex.TranslationInfo {
                     String = references[i],
                     Context = seg.Offset.ToString("X08"),
                     DeveloperComment = seg.Content,
@@ -226,8 +198,7 @@ namespace CsYetiTools.FileTypes
         public void DumpTranslateSource(FilePath dirPath, FilePath stringPoolDirPath)
         {
             Utils.CreateOrClearDirectory(dirPath);
-            foreach (var name in Names)
-            {
+            foreach (var name in Names) {
                 var references = LoadReferences(stringPoolDirPath, name);
                 DumpTranslateSource(name, dirPath / (name.Replace('-', '_') + ".json"), references);
             }
@@ -246,8 +217,7 @@ namespace CsYetiTools.FileTypes
             if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
             if (segs.Count != translations.Count) throw new ArgumentException($"{name}: translations({references.Count}) doesnt match segs({segs.Count})");
 
-            foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex())
-            {
+            foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex()) {
                 var trans = translations[i];
                 var trimmed = trans.Trim();
                 if (trimmed == "@en") { trans = seg.Content; }
@@ -259,24 +229,20 @@ namespace CsYetiTools.FileTypes
 
         public void ApplyTranslations(FilePath translationDirPath, FilePath referenceStringPoolPath)
         {
-            foreach (var name in Names)
-            {
+            foreach (var name in Names) {
                 var references = LoadReferences(referenceStringPoolPath, name);
                 var path = translationDirPath / (name.Replace('-', '_') + ".json");
-                if (File.Exists(path))
-                {
-                    try
-                    {
+                if (File.Exists(path)) {
+                    try {
                         var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
                         var translations = dict.Values.Select(info => info.String).ToList();
-                        // var offsets = new HashSet<int>(_rangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
+                        // var offsets = new HashSet<int>(RangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
                         // var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))
                         //     .Select(kv => kv.Value.String).ToList();
 
                         ApplyTranslations(name, references, translations);
                     }
-                    catch (Exception exc)
-                    {
+                    catch (Exception exc) {
                         throw new InvalidDataException($"Error loading {path}", exc);
                     }
                 }
@@ -285,10 +251,8 @@ namespace CsYetiTools.FileTypes
 
         public IEnumerable<char> EnumerateChars()
         {
-            foreach (var group in _rangeGroups)
-            {
-                foreach (var seg in group.Segments)
-                {
+            foreach (var group in RangeGroups) {
+                foreach (var seg in group.Segments) {
                     foreach (var c in seg.Content) yield return c;
                 }
             }

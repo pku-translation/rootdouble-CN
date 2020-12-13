@@ -1,11 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Flurl;
-using Flurl.Util;
 using Flurl.Http;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 
 namespace CsYetiTools.Transifex
 {
@@ -21,9 +19,9 @@ namespace CsYetiTools.Transifex
 
     public class ProjectApi
     {
-        private TransifexClient _client;
+        private readonly TransifexClient _client;
 
-        private string _projectSlug;
+        private readonly string _projectSlug;
 
         public ProjectApi(TransifexClient client, string projectSlug)
         {
@@ -43,12 +41,12 @@ namespace CsYetiTools.Transifex
 
     public class ResourceApi
     {
-        private TransifexClient _client;
+        private readonly TransifexClient _client;
 
-        private string _projectSlug;
+        private readonly string _projectSlug;
 
-        private string _resourceSlug;
-        
+        private readonly string _resourceSlug;
+
         public ResourceApi(TransifexClient client, string projectSlug, string resourceSlug)
         {
             _client = client;
@@ -73,31 +71,29 @@ namespace CsYetiTools.Transifex
         public Task<string> Test(string url, object args)
             => _client.ResourceTest(_projectSlug, _resourceSlug, url, args);
 
-
     }
 
     public class TransifexClient : IDisposable
     {
+        [UsedImplicitly]
         private class WrappedResponse
         {
             public string Mimetype { get; set; } = "";
             public string Content { get; set; } = "";
         }
 
-        private static string BaseUrl = "https://www.transifex.com/api/2/";
+        private const string BaseUrl = "https://www.transifex.com/api/2/";
 
-        private static int Timeout = 30;
+        private const int Timeout = 30;
 
-        private FlurlClient _flurlClient;
+        private readonly FlurlClient _flurlClient;
 
         public TransifexClient(string? apiToken = null)
         {
-            if (string.IsNullOrWhiteSpace(apiToken))
-            {
+            if (string.IsNullOrWhiteSpace(apiToken)) {
                 apiToken = Environment.GetEnvironmentVariable("TX_TOKEN");
             }
-            if (string.IsNullOrWhiteSpace(apiToken))
-            {
+            if (string.IsNullOrWhiteSpace(apiToken)) {
                 throw new ArgumentException("No API token found, please use env TX_TOKEN to specify API token.");
             }
 
@@ -114,13 +110,13 @@ namespace CsYetiTools.Transifex
         {
             _flurlClient.Dispose();
         }
-        
-        private Task<string> Get(IFlurlRequest request)
+
+        private static Task<string> Get(IFlurlRequest request)
         {
             return request.GetStringAsync();
         }
 
-        private async Task<T> Get<T>(IFlurlRequest request)
+        private static async Task<T> Get<T>(IFlurlRequest request)
         {
             return JsonConvert.DeserializeObject<T>(await request.GetStringAsync(), Utils.JsonSettings)!;
         }
@@ -142,7 +138,7 @@ namespace CsYetiTools.Transifex
             => Put(request, JsonConvert.SerializeObject(data, Utils.JsonSettings), "application/json");
 
         public Task<ProjectInfo[]> GetProjects(int start = 1, int? end = 500)
-            => Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start = start, end = end }));
+            => Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start, end }));
 
         public Task<ProjectInfo> GetProject(string slug)
             => Get<ProjectInfo>(_flurlClient.Request(BaseUrl, "project", slug).SetQueryParam("details"));
@@ -152,7 +148,7 @@ namespace CsYetiTools.Transifex
 
         public Task<ResourceInfo> GetResource(string projectSlug, string resourceSlug)
             => Get<ResourceInfo>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug));
-        
+
         public async Task<string> GetRawTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
         {
             var response = await Get<WrappedResponse>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "/")

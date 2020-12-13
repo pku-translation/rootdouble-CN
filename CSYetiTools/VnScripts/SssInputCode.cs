@@ -37,14 +37,12 @@ namespace CsYetiTools.VnScripts
             if (type < 0 || type >= TypeNames.Length) throw new InvalidDataException("$Invalid SssInputCode type {_type}");
             Type = (SssType)type;
             var ennegrams = new List<short[]>();
-            while (true)
-            {
+            while (true) {
                 var s = reader.ReadInt16LE();
                 if (s == -1) break;
                 var ennegram = new short[9];
                 ennegram[0] = s;
-                for (int i = 1; i < 9; ++i)
-                {
+                foreach (var i in 1..9) {
                     ennegram[i] = reader.ReadInt16LE();
                 }
                 ennegrams.Add(ennegram);
@@ -55,38 +53,33 @@ namespace CsYetiTools.VnScripts
         protected override void WriteArgs(IBinaryStream writer)
         {
             writer.WriteLE((short)Type);
-            foreach (var ennegram in Ennegrams)
-            {
-                foreach (var elem in ennegram)
-                {
+            foreach (var ennegram in Ennegrams) {
+                foreach (var elem in ennegram) {
                     writer.WriteLE(elem);
                 }
             }
             writer.WriteLE((short)-1);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.WriteLine(TypeNames[_type]);
-        //     writer.Write("               Active:   [ ");
-        //     foreach (var elem in _ennegrams[0])
-        //     {
-        //         writer.Write(elem); writer.Write(' ');
-        //     }
-        //     writer.Write("]");
-        //     for (int i = 1; i < _ennegrams.Length; ++i)
-        //     {
-        //         writer.WriteLine();
-        //         writer.Write("               Answer ");
-        //         writer.Write(i);
-        //         writer.Write(": [ ");
-        //         foreach (var elem in _ennegrams[i])
-        //         {
-        //             writer.Write(elem); writer.Write(' ');
-        //         }
-        //         writer.Write("]");
-        //     }
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.WriteLine(TypeNames[(int)Type]);
+            writer.Write("               Active:   [ ");
+            foreach (var elem in Ennegrams[0]) {
+                writer.Write(elem); writer.Write(' ');
+            }
+            writer.Write("]");
+            foreach (var i in 1..Ennegrams.Length) {
+                writer.WriteLine();
+                writer.Write("               Answer ");
+                writer.Write(i);
+                writer.Write(": [ ");
+                foreach (var elem in Ennegrams[i]) {
+                    writer.Write(elem); writer.Write(' ');
+                }
+                writer.Write("]");
+            }
+        }
 
         [SexpIgnore]
         public string TypeName
@@ -94,8 +87,7 @@ namespace CsYetiTools.VnScripts
 
         public IEnumerable<string> EnumerateNames()
         {
-            for (int i = 0; i < 9; ++i)
-            {
+            for (var i = 0; i < 9; ++i) {
                 if (Ennegrams[0][i] != 0) yield return Names[i];
             }
         }

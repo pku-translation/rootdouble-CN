@@ -17,7 +17,6 @@ namespace CsYetiTools.VnScripts
 
         public LabelReference TargetOffset { get; set; } = new LabelReference();
 
-        public OpCode_0C_0D() { }
         public OpCode_0C_0D(byte code) : base(code) { }
 
         public override int GetArgLength(IBinaryStream stream)
@@ -37,13 +36,13 @@ namespace CsYetiTools.VnScripts
             WriteAddress(writer, TargetOffset);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(_unknown1.ToHex());
-        //     writer.Write(' '); writer.Write(_unknown2.ToHex());
-        //     writer.Write(' '); writer.Write(TargetOffset);
-        // }
-        
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(Unknown1.ToHex());
+            writer.Write(' '); writer.Write(Unknown2.ToHex());
+            writer.Write(' '); writer.Write(TargetOffset);
+        }
+
         public IEnumerable<LabelReference> GetAddresses()
         {
             yield return TargetOffset;

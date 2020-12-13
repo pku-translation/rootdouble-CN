@@ -16,10 +16,10 @@ namespace CsYetiTools.VnScripts
         // Short2: may be voice index, -1 indicates no voice
         public NovelCode() : base(0x86) { }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(" <Novel>");
-        //     base.DumpArgs(writer);
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(" <Novel>");
+            base.DumpArgs(writer);
+        }
     }
 }

@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using Untitled.Sexp;
 using Untitled.Sexp.Attributes;
 using Untitled.Sexp.Conversion;
@@ -62,11 +60,9 @@ namespace CsYetiTools.VnScripts
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
             var target = table[Index];
-            foreach (var source in Sources)
-            {
+            foreach (var source in Sources) {
                 table.Remove(source, out var entry);
-                if (entry != null)
-                {
+                if (entry != null) {
                     target.Content += entry.Content.Trim();
                 }
             }
@@ -99,7 +95,7 @@ namespace CsYetiTools.VnScripts
             table.Add(Index, new Script.StringReferenceEntry(Index, Code, Content));
         }
     }
-    
+
     [SexpAsList]
     public class CopyCode : StringListModifier
     {

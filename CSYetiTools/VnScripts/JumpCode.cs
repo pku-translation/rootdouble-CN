@@ -10,8 +10,6 @@ namespace CsYetiTools.VnScripts
     {
         public LabelReference TargetAddress { get; set; } = new LabelReference();
 
-        public JumpCode() { }
-
         public JumpCode(byte op) : base(op) { }
 
         public override int GetArgLength(IBinaryStream stream)
@@ -27,10 +25,10 @@ namespace CsYetiTools.VnScripts
             WriteAddress(writer, TargetAddress);
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(TargetAddress);
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(TargetAddress);
+        }
 
         public IEnumerable<LabelReference> GetAddresses()
         {

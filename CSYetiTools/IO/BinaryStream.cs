@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
@@ -8,15 +7,14 @@ namespace CsYetiTools.IO
     public class BinaryStream : IBinaryStream
     {
         private Stream? _stream;
-        private byte[] _buffer = new byte[16];
-        private char[] _largeCharBuffer = new char[256];
-        private byte[] _largeByteBuffer = new byte[256];
+        private readonly byte[] _buffer = new byte[16];
+        private readonly byte[] _largeByteBuffer = new byte[256];
 
         public Encoding Encoding { get; }
 
         public long Position
         {
-            get => _stream == null ? throw DisposedException() : _stream.Position;
+            get => _stream?.Position ?? throw DisposedException();
             set
             {
                 if (_stream == null) throw DisposedException();
@@ -25,18 +23,17 @@ namespace CsYetiTools.IO
         }
 
         public long Length
-            => _stream == null ? throw DisposedException() : _stream.Length;
+            => _stream?.Length ?? throw DisposedException();
 
-        public bool CanSeek => throw new NotImplementedException();
+        public bool CanSeek => true;
 
-        public bool CanRead => throw new NotImplementedException();
+        public bool CanRead => true;
 
-        public bool CanWrite => throw new NotImplementedException();
+        public bool CanWrite => true;
 
         protected virtual void Dispose(bool disposing)
         {
-            if (disposing)
-            {
+            if (disposing) {
                 var copyOfStream = _stream;
                 _stream = null;
                 copyOfStream?.Close();
@@ -121,7 +118,7 @@ namespace CsYetiTools.IO
         {
             if (_stream == null) throw DisposedException();
 
-            int b = _stream.ReadByte();
+            var b = _stream.ReadByte();
             if (b == -1)
                 throw new EndOfStreamException();
             return (byte)b;
@@ -147,7 +144,7 @@ namespace CsYetiTools.IO
         public int ReadInt32LE()
         {
             FillBuffer(4);
-            return (int)(_buffer[0] | _buffer[1] << 8 | _buffer[2] << 16 | _buffer[3] << 24);
+            return _buffer[0] | _buffer[1] << 8 | _buffer[2] << 16 | _buffer[3] << 24;
         }
 
         public virtual uint ReadUInt32LE()
@@ -159,21 +156,21 @@ namespace CsYetiTools.IO
         public long ReadInt64LE()
         {
             FillBuffer(8);
-            uint lo = (uint)(_buffer[0] | _buffer[1] << 8 |
+            var lo = (uint)(_buffer[0] | _buffer[1] << 8 |
                              _buffer[2] << 16 | _buffer[3] << 24);
-            uint hi = (uint)(_buffer[4] | _buffer[5] << 8 |
+            var hi = (uint)(_buffer[4] | _buffer[5] << 8 |
                              _buffer[6] << 16 | _buffer[7] << 24);
-            return (long)((ulong)hi) << 32 | lo;
+            return (long)hi << 32 | lo;
         }
 
         public ulong ReadUInt64LE()
         {
             FillBuffer(8);
-            uint lo = (uint)(_buffer[0] | _buffer[1] << 8 |
+            var lo = (uint)(_buffer[0] | _buffer[1] << 8 |
                              _buffer[2] << 16 | _buffer[3] << 24);
-            uint hi = (uint)(_buffer[4] | _buffer[5] << 8 |
+            var hi = (uint)(_buffer[4] | _buffer[5] << 8 |
                              _buffer[6] << 16 | _buffer[7] << 24);
-            return ((ulong)hi) << 32 | lo;
+            return (ulong)hi << 32 | lo;
         }
 
         public short ReadInt16BE()
@@ -191,7 +188,7 @@ namespace CsYetiTools.IO
         public int ReadInt32BE()
         {
             FillBuffer(4);
-            return (int)(_buffer[3] | _buffer[2] << 8 | _buffer[1] << 16 | _buffer[0] << 24);
+            return _buffer[3] | _buffer[2] << 8 | _buffer[1] << 16 | _buffer[0] << 24;
         }
 
         public uint ReadUInt32BE()
@@ -203,46 +200,42 @@ namespace CsYetiTools.IO
         public long ReadInt64BE()
         {
             FillBuffer(8);
-            uint lo = (uint)(_buffer[7] | _buffer[6] << 8 |
+            var lo = (uint)(_buffer[7] | _buffer[6] << 8 |
                              _buffer[5] << 16 | _buffer[4] << 24);
-            uint hi = (uint)(_buffer[3] | _buffer[2] << 8 |
+            var hi = (uint)(_buffer[3] | _buffer[2] << 8 |
                              _buffer[1] << 16 | _buffer[0] << 24);
-            return (long)((ulong)hi) << 32 | lo;
+            return (long)hi << 32 | lo;
         }
 
         public ulong ReadUInt64BE()
         {
             FillBuffer(8);
-            uint lo = (uint)(_buffer[7] | _buffer[6] << 8 |
+            var lo = (uint)(_buffer[7] | _buffer[6] << 8 |
                              _buffer[5] << 16 | _buffer[4] << 24);
-            uint hi = (uint)(_buffer[3] | _buffer[2] << 8 |
+            var hi = (uint)(_buffer[3] | _buffer[2] << 8 |
                              _buffer[1] << 16 | _buffer[0] << 24);
-            return (ulong)((ulong)hi) << 32 | lo;
+            return (ulong)hi << 32 | lo;
         }
 
         public string ReadStringZ()
         {
             if (_stream == null) throw DisposedException();
             var buffer = _largeByteBuffer;
-            int count = 0;
+            var count = 0;
             int b;
-            while ((b = _stream.ReadByte()) != 0)
-            {
+            while ((b = _stream.ReadByte()) != 0) {
                 if (b < 0) throw new EndOfStreamException();
-                if (count == buffer.Length)
-                {
+                if (count == buffer.Length) {
                     var newBuffer = new byte[buffer.Length * 4];
                     Array.Copy(buffer, newBuffer, buffer.Length);
                     buffer = newBuffer;
                 }
                 buffer[count++] = (byte)b;
             }
-            try
-            {
+            try {
                 return Encoding.GetString(buffer, 0, count);
             }
-            catch (DecoderFallbackException exc)
-            {
+            catch (DecoderFallbackException exc) {
                 throw new InvalidDataException($"Cannot decode using {Encoding.EncodingName}, data=[{Utils.BytesToHex(buffer)}]", exc);
             }
         }
@@ -450,6 +443,6 @@ namespace CsYetiTools.IO
         {
             return new BinaryStream(File.Create(path), encoding);
         }
-        
+
     }
 }

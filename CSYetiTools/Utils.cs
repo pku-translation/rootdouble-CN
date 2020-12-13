@@ -29,14 +29,12 @@ namespace CsYetiTools
             PrintColored(ConsoleColor.Red, error);
         }
 
-        public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings
-        {
-            ContractResolver = new DefaultContractResolver
-            {
+        public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings {
+            ContractResolver = new DefaultContractResolver {
                 NamingStrategy = new SnakeCaseNamingStrategy(false, false)
             },
             Formatting = Formatting.Indented,
-            NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
+            NullValueHandling = NullValueHandling.Ignore
         };
 
         private static readonly JsonSerializer DefaultJsonSerializer = JsonSerializer.CreateDefault(JsonSettings);
@@ -75,13 +73,11 @@ namespace CsYetiTools
         public static byte ParseByte(string input)
         {
             input = input.Trim(' ');
-            if (input.StartsWith("0x") || input.StartsWith(@"\x"))
-            {
+            if (input.StartsWith("0x") || input.StartsWith(@"\x")) {
                 input = input.Substring(2);
             }
 
-            if (input.Length != 2)
-            {
+            if (input.Length != 2) {
                 throw new ArgumentException($"{input} is not a valid byte.");
             }
             return byte.Parse(input, System.Globalization.NumberStyles.HexNumber);
@@ -104,12 +100,10 @@ namespace CsYetiTools
         public static string BytesToHex(IEnumerator<byte> enumerator)
         {
             var builder = new StringBuilder();
-            if (enumerator.MoveNext())
-            {
+            if (enumerator.MoveNext()) {
                 builder.Append(enumerator.Current.ToHex());
             }
-            while (enumerator.MoveNext())
-            {
+            while (enumerator.MoveNext()) {
                 builder.Append(' ').Append(enumerator.Current.ToHex());
             }
             return builder.ToString();
@@ -123,12 +117,10 @@ namespace CsYetiTools
         public static string BytesToHex(Span<byte> span)
         {
             var builder = new StringBuilder();
-            if (span.Length > 0)
-            {
+            if (span.Length > 0) {
                 builder.Append(span[0].ToHex());
             }
-            for (int i = 1; i < span.Length; ++i)
-            {
+            for (var i = 1; i < span.Length; ++i) {
                 builder.Append(' ').Append(span[i].ToHex());
             }
             return builder.ToString();
@@ -150,18 +142,14 @@ namespace CsYetiTools
                 else return string.Join(' ', buffer.Take(position));
             }
 
-            if (lineOffset != extraStart)
-            {
-                for (; position < extraStart - lineOffset; ++position)
-                {
+            if (lineOffset != extraStart) {
+                for (; position < extraStart - lineOffset; ++position) {
                     buffer[position] = "  ";
                 }
             }
-            foreach (var b in bytes)
-            {
+            foreach (var b in bytes) {
                 buffer[position++] = b.ToHex();
-                if (position == rowSize)
-                {
+                if (position == rowSize) {
                     yield return CurrentLine();
                     lineOffset += rowSize;
                     position = 0;
@@ -173,33 +161,29 @@ namespace CsYetiTools
         public static void CreateOrClearDirectory(string dirPath)
         {
             var dirInfo = new DirectoryInfo(dirPath);
-            if (dirInfo.Exists)
-            {
+            if (dirInfo.Exists) {
                 foreach (var file in dirInfo.GetFiles()) file.Delete();
                 foreach (var subDir in dirInfo.GetDirectories()) subDir.Delete(true);
             }
-            else
-            {
+            else {
                 dirInfo.Create();
             }
         }
 
         public static StreamWriter CreateStreamWriter(string path)
         {
-            var writer = new StreamWriter(path, false, Utf8);
-            writer.NewLine = "\n";
-            return writer;
+            return new StreamWriter(path, false, Utf8) { NewLine = "\n" };
         }
 
         public static void WriteAllText(string path, string text)
         {
-            using var writer = Utils.CreateStreamWriter(path);
+            using var writer = CreateStreamWriter(path);
             writer.Write(text);
         }
 
         public static void WriteAllLines(string path, IEnumerable<string> lines)
         {
-            using var writer = Utils.CreateStreamWriter(path);
+            using var writer = CreateStreamWriter(path);
             foreach (var line in lines) writer.WriteLine(line);
         }
 
@@ -226,10 +210,9 @@ namespace CsYetiTools
         {
             var buffer1 = new byte[4096];
             var buffer2 = new byte[4096];
-            while (true)
-            {
-                int read1 = stream1.Read(buffer1, 0, buffer1.Length);
-                int read2 = stream2.Read(buffer2, 0, buffer2.Length);
+            while (true) {
+                var read1 = stream1.Read(buffer1, 0, buffer1.Length);
+                stream2.Read(buffer2, 0, buffer2.Length);
                 if (!buffer1.SequenceEqual(buffer2)) return false;
                 if (read1 != buffer1.Length) break;
             }
@@ -252,45 +235,39 @@ namespace CsYetiTools
 
         public static IEnumerable<int> Range(int start, int end, int step)
         {
-            if (start == end)
-            {
+            if (start == end) {
 
             }
-            else if (start < end && step > 0)
-            {
-                while (start < end)
-                {
+            else if (start < end && step > 0) {
+                while (start < end) {
                     yield return start;
                     start += step;
                 }
             }
-            else if (start > end && step < 0)
-            {
-                while (start > end)
-                {
+            else if (start > end && step < 0) {
+                while (start > end) {
                     yield return start;
                     start += step;
                 }
             }
-            else
-            {
+            else {
                 throw new ArgumentException($"Invalid range ({start}, {end}, {step})");
             }
         }
 
         public static IEnumerable<T> Repeat<T>(T elem, int count)
         {
-            for (int i = 0; i < count; ++i) yield return elem;
+            for (var i = 0; i < count; ++i) yield return elem;
         }
 
         public static IEnumerable<T> Generate<T>(Func<T> func, int count)
         {
-            for (int i = 0; i < count; ++i) yield return func();
+            for (var i = 0; i < count; ++i) yield return func();
         }
 
         public static IEnumerable<T> Generate<T>(Func<int, T> func, int count)
         {
-            for (int i = 0; i < count; ++i) yield return func(i);
+            for (var i = 0; i < count; ++i) yield return func(i);
         }
 
         private static readonly byte[] MsbTable =
@@ -307,7 +284,7 @@ namespace CsYetiTools
 
         public static int Msb(int x)
         {
-            int a = x <= 0xffff ? (x <= 0xff ? 0 : 8) : (x <= 0xffffff ? 16 : 24);
+            var a = x <= 0xffff ? (x <= 0xff ? 0 : 8) : (x <= 0xffffff ? 16 : 24);
             return MsbTable[x >> a] + a;
         }
 

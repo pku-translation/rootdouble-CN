@@ -21,14 +21,12 @@ namespace CsYetiTools.VnScripts
         {
             var builder = new StringBuilder();
             builder.AppendLine(Message);
-            if (!string.IsNullOrWhiteSpace(ScriptContext))
-            {
+            if (!string.IsNullOrWhiteSpace(ScriptContext)) {
                 builder.AppendLine("------ context --------");
                 builder.AppendLine(ScriptContext);
                 builder.AppendLine("-----------------------");
             }
-            if (InnerException != null)
-            {
+            if (InnerException != null) {
                 builder.AppendLine(InnerException.ToString());
             }
             return builder.ToString();

@@ -1,4 +1,3 @@
-using System.IO;
 using CsYetiTools.IO;
 using Untitled.Sexp.Attributes;
 
@@ -20,33 +19,29 @@ namespace CsYetiTools.VnScripts
 
         protected int GetContentLength(IBinaryStream stream)
             => IsOffset ? 4 : stream.GetStringZByteCount(Content);
-        
+
         protected void ReadString(IBinaryStream reader)
         {
-            if (IsOffset)
-            {
+            if (IsOffset) {
                 ContentOffset = new LabelReference(Offset, reader.ReadInt32LE());
             }
-            else
-            {
+            else {
                 Content = reader.ReadStringZ();
             }
         }
 
         protected void WriteString(IBinaryStream writer)
         {
-            if (IsOffset)
-            {
+            if (IsOffset) {
                 WriteAddress(writer, ContentOffset);
             }
-            else
-            {
+            else {
                 writer.WriteStringZ(Content);
             }
         }
 
         protected string ContentToString()
             => "\"" + Content.Replace("\"", "\\\"").Replace("\n", "\\n") + "\"";
-            //=> IsOffset ? $"0x{ContentOffset:X08} \"{Content}\"" : ("\"" + Content + "\"");
+        //=> IsOffset ? $"0x{ContentOffset:X08} \"{Content}\"" : ("\"" + Content + "\"");
     }
 }

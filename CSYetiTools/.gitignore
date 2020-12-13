@@ -31,5 +31,6 @@ msbuild.wrn
 bin/
 obj/
 
-# Visual Studio
+# IDE
 .vs/
+.idea/

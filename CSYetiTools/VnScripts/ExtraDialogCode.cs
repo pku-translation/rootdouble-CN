@@ -34,10 +34,10 @@ namespace CsYetiTools.VnScripts
         public bool IsCharacter
             => Short1 == 0x0D;
 
-        // protected override void DumpArgs(System.IO.TextWriter writer)
-        // {
-        //     writer.Write(IsCharacter ? " <Character>" : " <ExDialog>");
-        //     base.DumpArgs(writer);
-        // }
+        protected override void DumpArgs(System.IO.TextWriter writer)
+        {
+            writer.Write(IsCharacter ? " <Character>" : " <ExDialog>");
+            base.DumpArgs(writer);
+        }
     }
 }

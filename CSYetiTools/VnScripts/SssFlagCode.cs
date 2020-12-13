@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using CsYetiTools.IO;
 using Untitled.Sexp.Attributes;
 
@@ -24,33 +25,27 @@ namespace CsYetiTools.VnScripts
         {
             FlagIndex = reader.ReadInt16LE();
             Sound = reader.ReadInt16LE();
-            Changes = new short[9];
-            for (int i = 0; i < 9; ++i)
-            {
-                Changes[i] = reader.ReadInt16LE();
-            }
+            Changes = Utils.Generate(() => reader.ReadInt16LE(), 9).ToArray();
         }
 
         protected override void WriteArgs(IBinaryStream writer)
         {
             writer.WriteLE(FlagIndex);
             writer.WriteLE(Sound);
-            foreach (var change in Changes)
-            {
+            foreach (var change in Changes) {
                 writer.WriteLE(change);
             }
         }
 
-        // protected override void DumpArgs(TextWriter writer)
-        // {
-        //     writer.Write(' '); writer.Write(_flagIndex);
-        //     writer.Write(' '); writer.Write(_sound);
-        //     writer.Write(" [");
-        //     foreach (var change in _changes)
-        //     {
-        //         writer.Write(' '); writer.Write(change.ToString().PadLeft(2));
-        //     }
-        //     writer.Write(" ]");
-        // }
+        protected override void DumpArgs(TextWriter writer)
+        {
+            writer.Write(' '); writer.Write(FlagIndex);
+            writer.Write(' '); writer.Write(Sound);
+            writer.Write(" [");
+            foreach (var change in Changes) {
+                writer.Write(' '); writer.Write(change.ToString().PadLeft(2));
+            }
+            writer.Write(" ]");
+        }
     }
 }

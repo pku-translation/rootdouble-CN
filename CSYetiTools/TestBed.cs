@@ -1,20 +1,12 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using CsYetiTools.FileTypes;
 using CsYetiTools.VnScripts;
-using SixLabors.Fonts;
-using SixLabors.ImageSharp;
-using static CsYetiTools.Utils;
 
 namespace CsYetiTools
 {
-    class TestBed
+    internal class TestBed
     {
         private static SnPackage Load(FilePath path, bool isStringPooled)
         {
@@ -22,13 +14,7 @@ namespace CsYetiTools
             Console.Write("Loading package " + rpath + " ... ");
             Console.Out.Flush();
 
-            var stopwatch = new System.Diagnostics.Stopwatch();
-            stopwatch.Start();
-            var package = new SnPackage(path, isStringPooled);
-            stopwatch.Stop();
-
-            Console.WriteLine($"{stopwatch.Elapsed.TotalMilliseconds} ms");
-            return package;
+            return Utils.Time(() => new SnPackage(path, isStringPooled));
         }
 
         class DupEntry
@@ -46,9 +32,8 @@ namespace CsYetiTools
             //Load("psv/sn.bin", false).Dump("psv_sn", true, true);
             //Load("steam/sn.bin", true).Dump("steam_sn", true, true);
 
-            var package = Load("steam/sn.bin", true);
-            var jpPackage = Load("psv/sn.bin", false);
-            package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
+            //var jpPackage = Load("psv/sn.bin", false);
+            //package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
         }
     }
 }

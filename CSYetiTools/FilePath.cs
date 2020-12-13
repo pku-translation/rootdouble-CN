@@ -5,7 +5,7 @@ namespace CsYetiTools
 {
     public class FilePath
     {
-        private string _path;
+        private readonly string _path;
 
         public FilePath(string path)
         {
@@ -18,10 +18,10 @@ namespace CsYetiTools
         public static implicit operator string(FilePath path)
             => path._path;
 
-        public static FilePath operator / (FilePath path1, FilePath path2)
+        public static FilePath operator /(FilePath path1, FilePath path2)
             => Path.Combine(path1, path2);
 
-        public static FilePath operator + (FilePath path1, FilePath path2)
+        public static FilePath operator +(FilePath path1, FilePath path2)
             => path1._path + path2._path;
 
         public FilePath Parent
@@ -29,7 +29,7 @@ namespace CsYetiTools
 
         public FilePath FileName
             => Path.GetFileName(_path);
-        
+
         public FilePath Extention
             => Path.GetExtension(_path);
 

@@ -23,11 +23,11 @@ namespace CsYetiTools.VnScripts
 
         private readonly bool _isStringPooled;
 
-        private ScriptHeader _header;
+        private readonly ScriptHeader _header;
 
         private readonly List<OpCode> _codes = new List<OpCode>();
 
-        private int _index;
+        private readonly int _index;
 
         private Script(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
         {
@@ -40,14 +40,12 @@ namespace CsYetiTools.VnScripts
             int FindFooterStart()
             {
                 var fBytes = footer.ToBytes();
-                for (int i = 0; i < 16; ++i) // max fill 0x00 bytes
-                {
-                    if (bytes[(bytes.Length - i - 16)..(bytes.Length - i)].SequenceEqual(fBytes))
+                foreach (var i in ..16) { // max fill 0x00 bytes
+                    if (bytes[^(i + 16)..^i].SequenceEqual(fBytes))
                         return bytes.Length - i - 16;
                 }
-                for (int i = 0; i < 16; ++i) // max fill 0x00 bytes
-                {
-                    Console.WriteLine($"compare [{Utils.BytesToHex(bytes[(bytes.Length - i - 16)..(bytes.Length - i)])}] with [{Utils.BytesToHex(fBytes)}]");
+                foreach (var i in ..16) { // max fill 0x00 bytes
+                    Console.WriteLine($"compare [{Utils.BytesToHex(bytes[^(i + 16)..^i])}] with [{Utils.BytesToHex(fBytes)}]");
                 }
                 throw new InvalidDataException($"Cannot locate footer [{footer}] in script");
             }
@@ -62,19 +60,16 @@ namespace CsYetiTools.VnScripts
             // header
             var maybeEntries = new List<LabelReference>();
             var firstCodeOffset = stream.ReadInt32LE();
-            int currentOffset = 0;
+            var currentOffset = 0;
             maybeEntries.Add(new LabelReference(currentOffset, firstCodeOffset));
-            while (stream.Position <= firstCodeOffset - 4)
-            {
+            while (stream.Position <= firstCodeOffset - 4) {
                 var offset = stream.ReadInt32LE();
                 currentOffset += 4;
-                if (offset < stream.Position)
-                {
+                if (offset < stream.Position) {
                     stream.Seek(-4);
                     break;
                 }
-                if (offset < firstCodeOffset)
-                {
+                if (offset < firstCodeOffset) {
                     firstCodeOffset = offset;
                 }
                 maybeEntries.Add(new LabelReference(currentOffset, offset));
@@ -82,16 +77,12 @@ namespace CsYetiTools.VnScripts
             var maybeRemainBytes = stream.ReadBytesExact(firstCodeOffset - (int)(stream.Position));
 
             // codes
-            try
-            {
-                while (stream.Position < codeEnd)
-                {
+            try {
+                while (stream.Position < codeEnd) {
                     var opCode = OpCode.GetNextCode(stream, _codes, isStringPooled);
-                    if (isStringPooled && opCode is StringCode strCode)
-                    {
+                    if (isStringPooled && opCode is StringCode strCode) {
                         var refOffset = strCode.ContentOffset.AbsoluteOffset;
-                        if (refOffset > strCode.Offset && codeEnd > refOffset)
-                        {
+                        if (refOffset > strCode.Offset && codeEnd > refOffset) {
                             codeEnd = refOffset;
                         }
 
@@ -99,9 +90,8 @@ namespace CsYetiTools.VnScripts
                         stream.Position = refOffset;
                         strCode.Content = stream.ReadStringZ();
 
-                        if (refOffset > strCode.Offset && stringTableEnd < stream.Position)
-                        {
-                            Console.WriteLine($"strange code: ");
+                        if (refOffset > strCode.Offset && stringTableEnd < stream.Position) {
+                            Console.WriteLine("strange code: ");
                             Console.Write($"    {strCode.Index}: {strCode}");
                             stringTableEnd = (int)stream.Position;
                         }
@@ -111,22 +101,17 @@ namespace CsYetiTools.VnScripts
                     _codes.Add(opCode);
                 }
 
-                if (isStringPooled)
-                {
+                if (isStringPooled) {
                     var stringStart = (int)stream.Position;
                     if (stringStart != codeEnd) throw new InvalidDataException($"string start ({stringStart}) != code end ({codeEnd})");
-                    if (stringTableEnd != footerStart - 1)
-                    {
+                    if (stringTableEnd != footerStart - 1) {
                         Console.WriteLine($"[{footer}]: {stringTableEnd} != {footerStart - 1}");
                     }
-                    while (stream.Position < stringTableEnd)
-                    {
-                        var pos = (int)stream.Position;
-                        var content = stream.ReadStringZ();
+                    while (stream.Position < stringTableEnd) {
+                        stream.ReadStringZ();
                     }
                 }
-                if (stream.Position < stringTableEnd)
-                {
+                if (stream.Position < stringTableEnd) {
                     throw new InvalidDataException($"Read string table causes pos({stream.Position} != {stringTableEnd})");
                 }
 
@@ -137,118 +122,101 @@ namespace CsYetiTools.VnScripts
                 if (!footerBytes.Equals(footer)) throw new InvalidDataException($"Footer [{footerBytes}] != [{footer}]");
 
                 var fillBytes = stream.ReadToEnd();
-                if (fillBytes.Length >= 16 || fillBytes.Any(b => b != 0x00))
-                {
+                if (fillBytes.Length >= 16 || fillBytes.Any(b => b != 0x00)) {
                     throw new InvalidDataException("Invalid fill bytes: " + Utils.BytesToTextLines(fillBytes));
                 }
             }
-            catch (Exception exc)
-            {
-                if (allowError)
-                {
+            catch (Exception exc) {
+                if (allowError) {
                     ParseError = allowError.ToString();
                     UnparsedBytes = stream.ReadToEnd();
                 }
-                else
-                {
+                else {
                     ExceptionDispatchInfo.Capture(exc).Throw();
                 }
             }
 
             var codeDict = new SortedDictionary<int, OpCode>();
-            foreach (var code in _codes)
-            {
+            foreach (var code in _codes) {
                 codeDict.Add(code.Offset, code);
             }
 
             // header
             var entryCount = maybeEntries.FindIndex(e => !codeDict.ContainsKey(e.AbsoluteOffset));
-                    
-            if (entryCount >= 0)
-            {
+
+            if (entryCount >= 0) {
                 using var headerRemainWriter = new BinaryStream();
-                for (int i = entryCount; i < maybeEntries.Count; ++i)
-                {
+                foreach (var i in entryCount..maybeEntries.Count) {
                     headerRemainWriter.WriteLE(maybeEntries[i].AbsoluteOffset);
                 }
                 headerRemainWriter.Write(maybeRemainBytes);
                 _header = new ScriptHeader(maybeEntries.Take(entryCount), headerRemainWriter.ToBytes());
             }
-            else
-            {
+            else {
                 _header = new ScriptHeader(maybeEntries, maybeRemainBytes);
             }
 
             // labels
             var labelForward = new SortedDictionary<int, string>();
             var entryIndex = 0;
-            foreach (var entry in _header.Entries)
-            {
-                if (labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName))
-                {
+            foreach (var entry in _header.Entries) {
+                if (labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName)) {
                     entry.TargetLabel = entryName;
                 }
-                else
-                {
+                else {
                     var entryLabelName = $"entry-{entryIndex++:00}";
                     entry.TargetLabel = entryLabelName;
                     labelForward.Add(entry.AbsoluteOffset, entryLabelName);
                 }
             }
-            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
-            {
-                if (labelForward.TryGetValue(address.AbsoluteOffset, out var label))
-                {
+            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses())) {
+                if (labelForward.TryGetValue(address.AbsoluteOffset, out var label)) {
                     address.TargetLabel = label;
                 }
-                else
-                {
+                else {
                     labelForward.Add(address.AbsoluteOffset, "");
                 }
             }
             var labelOffsets = labelForward.Keys.ToList();
             if (labelOffsets.Count >= 10000) throw new InvalidDataException($"Too many labels: {labelOffsets.Count}");
             var labelIndex = 1;
-            foreach (var offset in labelOffsets)
-            {
-                if (string.IsNullOrWhiteSpace(labelForward[offset]))
-                {
+            foreach (var offset in labelOffsets) {
+                if (string.IsNullOrWhiteSpace(labelForward[offset])) {
                     var labelName = $"label-{labelIndex++:0000}";
                     labelForward[offset] = labelName;
                 }
             }
-            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses()))
-            {
+            foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses())) {
                 address.TargetLabel = labelForward[address.AbsoluteOffset];
             }
-            
+
         }
 
         public static Script ParseBytes(byte[] bytes, ScriptFooter footer, bool isStringPooled, Encoding? encoding = null, bool allowError = false)
         {
             var script = new Script(bytes, footer, isStringPooled, encoding, allowError);
 
-            #if DEBUG
+#if DEBUG
+            if (!isStringPooled) {
+                //System.Diagnostics.Debug.Assert(ToRawBytes().SequenceEqual(bytes), $"Rawbytes of script {_index} not sequence-equal to original.");
+                var raw1 = bytes;
+                var reparse = new Script(script.ToRawBytes(), footer, isStringPooled, encoding, allowError);
+                var raw2 = reparse.ToRawBytes();
+                if (!raw1.SequenceEqual(raw2)) {
+                    var index = raw1.Zip(raw2, (a, b) => (a != b)).WithIndex().First(x => x.element).index;
+                    var count = raw1.Zip(raw2, (a, b) => a != b).Count(p => p);
 
-            //System.Diagnostics.Debug.Assert(ToRawBytes().SequenceEqual(bytes), $"Rawbytes of script {_index} not sequence-equal to original.");
-            var raw1 = script.ToRawBytes();
-            var reparse = new Script(raw1, footer, isStringPooled, encoding, allowError);
-            var raw2 = reparse.ToRawBytes();
-            if (!raw1.SequenceEqual(raw2))
-            {
-                var index =  raw1.Zip(raw2, (a, b) => (a != b)).WithIndex().First(x => x.element).index;
-                var count = raw1.Zip(raw2, (a, b) => a != b).Count(p => p);
+                    var sb = new StringBuilder();
+                    sb.AppendLine($"Rawbytes of script {script._index} not sequence-equal to original at 0x{index:X08} ({count} diffs)");
+                    sb.AppendLine("-------- Origin --------");
+                    Utils.BytesToTextLines(raw1.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
+                    sb.AppendLine("-------- Result --------");
+                    Utils.BytesToTextLines(raw2.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
 
-                var sb = new StringBuilder();
-                sb.AppendLine($"Rawbytes of script {script._index} not sequence-equal to original at 0x{index:X08} ({count} diffs)");
-                sb.AppendLine($"-------- Origin --------");
-                Utils.BytesToTextLines(bytes.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
-                sb.AppendLine($"-------- Result --------");
-                Utils.BytesToTextLines(raw1.Skip(index - 16).Take(128), index - 16).ForEach(s => sb.AppendLine(s));
-
-                Console.WriteLine(sb.ToString());
+                    Console.WriteLine(sb.ToString());
+                }
             }
-            #endif
+#endif
 
             return script;
         }
@@ -264,18 +232,13 @@ namespace CsYetiTools.VnScripts
         {
             get
             {
-                int dialogCounter = 0;
-                foreach (var code in Codes)
-                {
-                    if (code is DialogCode dialogCode && dialogCode.IsIndexed) ++dialogCounter;
-                    else if (code is ExtraDialogCode exDialogCode && exDialogCode.IsDialog) ++dialogCounter;
+                var dialogCounter = 0;
+                foreach (var code in Codes) {
+                    if ((code is DialogCode dialogCode && dialogCode.IsIndexed)
+                         || (code is ExtraDialogCode exDialogCode && exDialogCode.IsDialog))
+                        ++dialogCounter;
                 }
-                return new ScriptFooter
-                {
-                    IndexedDialogCount = dialogCounter,
-                    FlagCodeCount = GetCodes<SssFlagCode>().Count(),
-                    ScriptIndex = _index,
-                };
+                return new ScriptFooter(dialogCounter, 0, GetCodes<SssFlagCode>().Count(), _index);
             }
         }
 
@@ -319,12 +282,8 @@ namespace CsYetiTools.VnScripts
         {
             if (modifiers == null) return GenerateStringReferenceList();
 
-            var list = GenerateStringReferenceList();
-            var dict = new SortedDictionary<int, StringReferenceEntry>();
-            foreach (var entry in list) dict.Add(entry.Index, entry);
+            var dict = GenerateStringReferenceList().ToSortedDictionary(entry => entry.Index);
             foreach (var modifier in modifiers) modifier.Modify(dict);
-
-            list = dict.Values.OrderBy(entry => entry.Index).ToList();
             return dict.Values.ToList();
         }
 
@@ -339,8 +298,7 @@ namespace CsYetiTools.VnScripts
             if (strCodeList.Count != referenceList.Count)
                 throw new ArgumentException($"string-list length {strCodeList.Count} != reference-list length {referenceList.Count}");
 
-            foreach (var (code, refEntry) in strCodeList.Zip(referenceList))
-            {
+            foreach (var (code, refEntry) in strCodeList.Zip(referenceList)) {
                 if (code.Code != refEntry.Code)
                     throw new ArgumentException(
                         $"string-list code {code.Code:X02} != reference-list code {refEntry.Code}");
@@ -350,8 +308,7 @@ namespace CsYetiTools.VnScripts
 #if DEBUG
             var bytes = ToRawBytes();
             var script = new Script(bytes, Footer, isStringPooled: true);
-            if (!script.ToRawBytes().SequenceEqual(bytes))
-            {
+            if (!script.ToRawBytes().SequenceEqual(bytes)) {
                 throw new ArgumentException("error");
             }
 #endif
@@ -372,31 +329,24 @@ namespace CsYetiTools.VnScripts
             _header.WriteTo(writer);
             var stringPool = new List<string>();
             var stringOffsetTable = new Dictionary<string, int>();
-            foreach (var code in _codes)
-            {
+            foreach (var code in _codes) {
                 code.Offset = (int)writer.Position;
                 code.WriteTo(writer);
-                if (_isStringPooled && code is StringCode strCode)
-                {
+                if (_isStringPooled && code is StringCode strCode) {
                     var content = strCode.Content;
-                    if (stringPool.Count == 0 || stringPool.Last() != content)
-                    {
+                    if (stringPool.Count == 0 || stringPool.Last() != content) {
                         stringPool.Add(content);
                     }
                 }
             }
-            if (_isStringPooled)
-            {
-                foreach (var s in stringPool)
-                {
-                    if (stringOffsetTable.TryAdd(s, (int)writer.Position))
-                    {
+            if (_isStringPooled) {
+                foreach (var s in stringPool) {
+                    if (stringOffsetTable.TryAdd(s, (int)writer.Position)) {
                         writer.WriteStringZ(s);
                     }
                 }
                 var pos = writer.Position;
-                foreach (var code in _codes.OfType<StringCode>())
-                {
+                foreach (var code in _codes.OfType<StringCode>()) {
                     code.ContentOffset.AbsoluteOffset = stringOffsetTable[code.Content];
                     writer.Position = code.Offset;
                     code.WriteTo(writer);
@@ -406,10 +356,8 @@ namespace CsYetiTools.VnScripts
             writer.Write(FooterSeparator);
             writer.Write(Footer.ToBytes());
             var alignFillCount = 16 - writer.Position % 16;
-            if (alignFillCount != 16)
-            {
-                for (var i = 0; i < alignFillCount; ++i)
-                {
+            if (alignFillCount != 16) {
+                for (var i = 0; i < alignFillCount; ++i) {
                     writer.Write((byte)0x00);
                 }
             }
@@ -453,13 +401,14 @@ namespace CsYetiTools.VnScripts
             //     writer.WriteLine(Footer);
             // }
 
-            var sexpWriter = new SexpTextWriter(writer);
-            sexpWriter.Settings.SeparatorType = WriterSeparatorType.DoubleNewline;
+            var sexpWriter = new SexpTextWriter(writer) {
+                Settings = { SeparatorType = WriterSeparatorType.DoubleNewline }
+            };
 
-            var headerSexp = SexpConvert.ToValue(_header, new ListFormatting{ LineBreakIndex = 0 });
+            var headerSexp = SexpConvert.ToValue(_header, new ListFormatting { LineBreakIndex = 0 });
             sexpWriter.Write(SValue.List(SValue.Symbol("header"), headerSexp));
 
-            var opcodesSexp = SexpConvert.ToValue(_codes, new ListFormatting{ LineBreakIndex = 0 });
+            var opcodesSexp = SexpConvert.ToValue(_codes, new ListFormatting { LineBreakIndex = 0 });
             sexpWriter.Write(SValue.List(SValue.Symbol("codes"), opcodesSexp));
         }
 
@@ -472,11 +421,8 @@ namespace CsYetiTools.VnScripts
         public HashSet<string> GetCharacterNames()
         {
             var names = new HashSet<string>();
-            foreach (var code in Codes.OfType<StringCode>())
-            {
-                var index = $"{code.Index:000000}";
-                if (code is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
-                {
+            foreach (var code in Codes.OfType<StringCode>()) {
+                if (code is ExtraDialogCode dialogCode && dialogCode.IsCharacter) {
                     names.Add(code.Content);
                 }
             }
@@ -489,36 +435,28 @@ namespace CsYetiTools.VnScripts
 
             var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
 
-            foreach (var code in Codes)
-            {
+            foreach (var code in Codes) {
                 var index = $"{code.Index:000000}";
-                if (code is ScriptJumpCode scriptJumpCode)
-                {
+                if (code is ScriptJumpCode scriptJumpCode) {
                     if (!scriptJumpCode.IsJump) continue;
 
-                    var prefix = code.Code switch
-                    {
+                    var prefix = code.Code switch {
                         0x02 => @"jump-script ",
                         0x04 => @"call-script ",
                         _ => throw new InvalidDataException($"Is [{code.Code:X02}] script-jump-code???"),
                     };
-                    dict.Add(index, new Transifex.TranslationInfo
-                    {
+                    dict.Add(index, new Transifex.TranslationInfo {
                         Context = index,
                         Code = $"0x{code.Code:X2}",
                         String = prefix + scriptJumpCode.TargetScript,
                     });
                 }
-                else if (code is StringCode strCode)
-                {
-                    if (strCode is ExtraDialogCode dialogCode && dialogCode.IsCharacter)
-                    {
+                else if (code is StringCode strCode) {
+                    if (strCode is ExtraDialogCode dialogCode && dialogCode.IsCharacter) {
                         currentName = strCode.Content;
                     }
-                    else if (strCode is DialogCode || strCode is ExtraDialogCode)
-                    {
-                        dict.Add(index, new Transifex.TranslationInfo
-                        {
+                    else if (strCode is DialogCode || strCode is ExtraDialogCode) {
+                        dict.Add(index, new Transifex.TranslationInfo {
                             Context = index,
                             Code = $"0x{strCode.Code:X2}",
                             DeveloperComment = currentName ?? "",
@@ -526,20 +464,16 @@ namespace CsYetiTools.VnScripts
                         });
                         currentName = null;
                     }
-                    else
-                    {
-                        dict.Add(index, new Transifex.TranslationInfo
-                        {
+                    else {
+                        dict.Add(index, new Transifex.TranslationInfo {
                             Context = index,
                             Code = $"0x{strCode.Code:X2}",
                             String = strCode.Content
                         });
                     }
                 }
-                else if (code is SssInputCode sssInputCode)
-                {
-                    dict.Add(index, new Transifex.TranslationInfo
-                    {
+                else if (code is SssInputCode sssInputCode) {
+                    dict.Add(index, new Transifex.TranslationInfo {
                         Context = index,
                         Code = $"0x{sssInputCode.Code:X2}",
                         String = $"@sss-active {sssInputCode.TypeName.ToLower()} [{" ".Join(sssInputCode.EnumerateNames())}]"
@@ -552,26 +486,21 @@ namespace CsYetiTools.VnScripts
 
         public void ApplyTranslations(IDictionary<int, string> translations, IDictionary<string, string> nameTable)
         {
-            foreach (var (index, translation) in translations)
-            {
+            foreach (var (index, translation) in translations) {
                 var code = GetCodeAt(index);
-                if (!(code is StringCode strCode))
-                {
+                if (!(code is StringCode strCode)) {
                     throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
                 }
 
-                if (strCode is ExtraDialogCode exDialog && exDialog.IsCharacter)
-                {
+                if (strCode is ExtraDialogCode exDialog && exDialog.IsCharacter) {
                     throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
                 }
 
                 strCode.Content = translation;
             }
 
-            foreach (var code in _codes.OfType<ExtraDialogCode>().Where(c => c.IsCharacter))
-            {
-                if (nameTable.TryGetValue(code.Content, out var translated))
-                {
+            foreach (var code in _codes.OfType<ExtraDialogCode>().Where(c => c.IsCharacter)) {
+                if (nameTable.TryGetValue(code.Content, out var translated)) {
                     code.Content = translated;
                 }
             }
@@ -579,12 +508,10 @@ namespace CsYetiTools.VnScripts
 
         public IEnumerable<char> EnumerateChars()
         {
-            foreach (var code in GetCodes<StringCode>())
-            {
+            foreach (var code in GetCodes<StringCode>()) {
                 foreach (var c in code.Content) yield return c;
             }
-            foreach (var code in GetCodes<DebugMenuCode>())
-            {
+            foreach (var code in GetCodes<DebugMenuCode>()) {
                 foreach (var c in code.EnumerateChars()) yield return c;
             }
         }

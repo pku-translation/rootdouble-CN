@@ -83,10 +83,10 @@ namespace CsYetiTools.FileTypes
 
         private static byte[] ToBytes(string input)
             => Encoding.UTF8.GetBytes(input);
-        private static byte[] FileTag = ToBytes("CPK ");
-        private static byte[] UtfTag = ToBytes("@UTF");
-        private static byte[] ItocTag = ToBytes("ITOC");
-        private static byte[] LaylaTag = ToBytes("CRILAYLA");
+        private static readonly byte[] FileTag = ToBytes("CPK ");
+        private static readonly byte[] UtfTag = ToBytes("@UTF");
+        private static readonly byte[] ItocTag = ToBytes("ITOC");
+        private static readonly byte[] LaylaTag = ToBytes("CRILAYLA");
 
         private static string PeekString(IBinaryStream reader, long pos)
         {
@@ -112,8 +112,7 @@ namespace CsYetiTools.FileTypes
         private static void CheckBytes(IEnumerable<byte> data, byte[] target, string message)
         {
             var arr = data.ToList();
-            if (!arr.SequenceEqual(target))
-            {
+            if (!arr.SequenceEqual(target)) {
                 throw new InvalidDataException(
                     $"{message}: [{Utils.BytesToHex(arr)}] != [{Utils.BytesToHex(target)}]");
             }
@@ -122,9 +121,8 @@ namespace CsYetiTools.FileTypes
         private static void DecryptInPlace(byte[] data)
         {
             Console.WriteLine("Decrypt");
-            int m = 0x655f;
-            for (int i = 0; i < data.Length; ++i)
-            {
+            var m = 0x655f;
+            for (var i = 0; i < data.Length; ++i) {
                 data[i] ^= (byte)(m & 0xFF);
                 m *= 0x4115;
             }
@@ -159,8 +157,7 @@ namespace CsYetiTools.FileTypes
 
             object ReadCell(ColumnType type)
             {
-                return type switch
-                {
+                return type switch {
                     ColumnType.Byte => reader.ReadByte(),
                     ColumnType.SByte => reader.ReadSByte(),
                     ColumnType.UInt16 => reader.ReadUInt16BE(),
@@ -179,11 +176,9 @@ namespace CsYetiTools.FileTypes
             var tableName = PeekString(reader, textStart + tableNameOffset);
 
             var columns = new List<Column>();
-            for (int i = 0; i < columnCount; ++i)
-            {
+            for (var i = 0; i < columnCount; ++i) {
                 int flag = reader.ReadByte();
-                if (flag == 0)
-                {
+                if (flag == 0) {
                     Console.WriteLine("flag == 0");
                     flag = reader.ReadInt32BE();
                 }
@@ -192,42 +187,34 @@ namespace CsYetiTools.FileTypes
                 var nameOffset = reader.ReadInt32BE();
                 var name = PeekString(reader, textStart + nameOffset);
                 object? data = null;
-                if (category == ColumnCategory.Constant)
-                {
+                if (category == ColumnCategory.Constant) {
                     data = ReadCell(type);
                     Console.WriteLine($"Constant column data: {name} = {data}");
                 }
                 columns.Add(new Column(category, type, name, data));
             }
-            if (reader.Position != rowsStart)
-            {
-                throw new InvalidDataException(
-                    $"Column not followed by row data: {reader.Position} => {rowsStart}");
+            if (reader.Position != rowsStart) {
+                throw new InvalidDataException($"Column not followed by row data: {reader.Position} => {rowsStart}");
             }
 
             var rows = new List<dynamic>();
-            for (int i = 0; i < rowCount; ++i)
-            {
+            for (var i = 0; i < rowCount; ++i) {
                 var row = new ExpandoObject();
                 reader.Position = rowsStart + rowSize * i;
-                foreach (var column in columns)
-                {
-                    object? cell = column.Category switch
-                    {
+                foreach (var column in columns) {
+                    var cell = column.Category switch {
                         ColumnCategory.Empty => null,
                         ColumnCategory.Constant => column.Data,
                         ColumnCategory.Row => ReadCell(column.Type),
                         _ => throw new InvalidDataException($"Invalid column category {column.Category}")
                     };
-                    if (!row.TryAdd(column.Name, cell))
-                    {
+                    if (!row.TryAdd(column.Name, cell)) {
                         throw new InvalidDataException($"Cannot add cell {cell} to {row}");
                     }
                 }
                 rows.Add(row);
             }
-            if (reader.Position != textStart)
-            {
+            if (reader.Position != textStart) {
                 throw new InvalidDataException(
                     $"Rows not followed by text data: {reader.Position} => {textStart}");
             }
@@ -237,7 +224,6 @@ namespace CsYetiTools.FileTypes
 
         private static IEnumerable<(int id, ItocEntry entry)> ReadItoc(
             IBinaryStream reader,
-            long contentOffset,
             long itocOffset)
         {
             reader.Position = itocOffset;
@@ -253,32 +239,26 @@ namespace CsYetiTools.FileTypes
 
             var info = table.Rows.First();
 
-            var filesL = checked((int)info.FilesL);
-            var filesH = checked((int)info.FilesL);
             var dataL = ParseUtf((byte[])info.DataL);
             var dataH = ParseUtf((byte[])info.DataH);
 
-            foreach (var row in dataL.Rows)
-            {
+            foreach (var row in dataL.Rows) {
                 int id = row.ID;
                 int fileSize = row.FileSize;
-                int extractSize = row.ExtractSize ?? fileSize;
+                int extractSize = row.ExtractSize;
                 yield return (id, new ItocEntry { Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = true });
             }
-            foreach (var row in dataH.Rows)
-            {
+            foreach (var row in dataH.Rows) {
                 int id = row.ID;
                 long fileSize = row.FileSize;
-                long extractSize = row.ExtractSize ?? fileSize;
+                long extractSize = row.ExtractSize;
                 yield return (id, new ItocEntry { Id = id, FileSize = fileSize, ExtractSize = extractSize, Low = false });
             }
-
-            yield break;
         }
 
-        private BinaryStream _stream;
+        private readonly BinaryStream _stream;
 
-        private List<ItocEntry> _itocEntries;
+        private readonly List<ItocEntry> _itocEntries;
 
         public IReadOnlyList<ItocEntry> ItocEntries
             => _itocEntries.AsReadOnly();
@@ -290,27 +270,23 @@ namespace CsYetiTools.FileTypes
             CheckBytes(_stream.ReadBytesMax(4), FileTag, "File tag mismatch");
             var headerTable = ParseUtf(ReadUtfPacket(_stream));
             var header = headerTable.Rows[0];
-            var contentOffset = checked((long)header.ContentOffset);
-            var align = checked((int)header.Align);
+            var contentOffset = (long)header.ContentOffset;
+            var align = (int)header.Align;
 
             //Console.WriteLine(headerTable.Columns.First(c => c.Name == "ContentSize").Type);
             //Console.WriteLine(header.ContentSize);
 
-            if (header.TocOffset != null)
-            {
+            if (header.TocOffset != null) {
                 throw new InvalidOperationException("Toc not support");
             }
 
-            if (header.ItocOffset != null)
-            {
+            if (header.ItocOffset != null) {
                 var itocs = new SortedDictionary<int, ItocEntry>();
-                foreach (var (id, entry) in ReadItoc(_stream, contentOffset, (long)header.ItocOffset))
-                {
+                foreach (var (id, entry) in ReadItoc(_stream, (long)header.ItocOffset)) {
                     itocs.Add(id, entry);
                 }
-                long offset = contentOffset;
-                foreach (var (id, entry) in itocs)
-                {
+                var offset = contentOffset;
+                foreach (var (_, entry) in itocs) {
                     var size = entry.FileSize;
                     entry.Offset = offset;
                     offset += size;
@@ -318,13 +294,11 @@ namespace CsYetiTools.FileTypes
                 }
                 _itocEntries = new List<ItocEntry>(itocs.Values);
             }
-            else
-            {
+            else {
                 _itocEntries = new List<ItocEntry>();
             }
 
-            if (header.EtocOffset != null)
-            {
+            if (header.EtocOffset != null) {
                 throw new InvalidOperationException("Etoc not support");
             }
         }
@@ -335,6 +309,7 @@ namespace CsYetiTools.FileTypes
             yield return 3;
             yield return 5;
             while (true) yield return 8;
+            // ReSharper disable once IteratorNeverReturns
         }
 
         private static byte[] DecodeLayla(byte[] bytes)
@@ -347,24 +322,20 @@ namespace CsYetiTools.FileTypes
 
             var bits = new MsbBitBuffer(data.Reverse());
             var result = new List<byte>();
-            while (result.Count < rawSize)
-            {
-                if (bits.Get())
-                {
+            while (result.Count < rawSize) {
+                if (bits.Get()) {
                     var offset = (int)bits.Gets(13) + 3;
                     var count = 3;
-                    foreach (var next in RepeatCounts())
-                    {
+                    foreach (var next in RepeatCounts()) {
                         var extra = bits.Gets(next);
                         count += (int)extra;
                         if (extra != (1uL << next) - 1)
                             break;
                     }
                     while (count-- > 0)
-                        result.Add(result[result.Count - offset]);
+                        result.Add(result[^offset]);
                 }
-                else
-                {
+                else {
                     result.Add((byte)bits.Gets(8));
                 }
             }
@@ -377,18 +348,15 @@ namespace CsYetiTools.FileTypes
         {
             Span<byte> head = stackalloc byte[8];
             byte[] data;
-            lock (_stream)
-            {
+            lock (_stream) {
                 _stream.Position = entry.Offset;
                 _stream.Read(head);
                 data = _stream.ReadBytesExact((int)entry.FileSize - 8);
             }
-            if (head.SequenceEqual(LaylaTag))
-            {
+            if (head.SequenceEqual(LaylaTag)) {
                 dest.Write(DecodeLayla(data));
             }
-            else
-            {
+            else {
                 dest.Write(head);
                 dest.Write(data);
             }

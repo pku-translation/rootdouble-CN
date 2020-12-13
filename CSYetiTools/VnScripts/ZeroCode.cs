@@ -16,7 +16,7 @@ namespace CsYetiTools.VnScripts
             public override bool CanConvert(Type type)
                 => type == typeof(ZeroCode);
 
-            public override object? ToObject(SValue value)
+            public override object ToObject(SValue value)
                 => new ZeroCode();
 
             public override SValue ToValue(object obj)
@@ -31,7 +31,7 @@ namespace CsYetiTools.VnScripts
 
         protected override void WriteArgs(IBinaryStream writer) { }
 
-        //protected override void DumpArgs(TextWriter writer) { }
+        protected override void DumpArgs(TextWriter writer) { }
 
     }
 }
