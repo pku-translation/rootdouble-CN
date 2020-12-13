@@ -364,7 +364,11 @@ namespace CsYetiTools.VnScripts
                                 var segs = trimmed.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                                 var targetChunk = int.Parse(segs[1]);
                                 var targetIndex = int.Parse(segs[2]);
-                                if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent))
+                                if (targetChunk < 0 || targetChunk >= translationTables.Length)
+                                {
+                                    Utils.PrintError($"[{i:0000}:{k}] {trimmed}, target chunk index out of range");
+                                }
+                                else if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent))
                                 {
                                     translationTable.Add(index, targetContent);
                                     continue;
