@@ -14,19 +14,19 @@
     "context": "000067",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑和宇喜多两个人搜索了这个地方。"
+    "string": "渡濑和宇喜多两个人，把这里搜索了一遍。"
   },
   "000072": {
     "context": "000072",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是……这里什么也没有找到。"
+    "string": "不过……什么也没找到。"
   },
   "000083": {
     "context": "000083",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……没有啊」"
+    "string": "「……不在啊」"
   },
   "000148": {
     "context": "000148",
@@ -44,73 +44,73 @@
     "context": "000164",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说着，他们朝安全梯前进。"
+    "string": "说完，他们朝楼梯间走去。"
   },
   "000208": {
     "context": "000208",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在昏暗的楼梯间里——里面的楼梯已经崩塌了。"
+    "string": "昏暗的楼梯间里——安全梯早就崩塌了。"
   },
   "000213": {
     "context": "000213",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是之前来到这里布置的绳子，现在也还在这里。"
+    "string": "不过，之前来这里时绑了一根绳索，现在也依旧还在。"
   },
   "000249": {
     "context": "000249",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「这个……要去上面一层，不从这个绳子爬上去就不行吗？」"
+    "string": "「这……就是说，想上楼的话，就得沿着这根绳子跑上去？」"
   },
   "000260": {
     "context": "000260",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯。大叔，你能爬吗？」"
+    "string": "「是的。大叔，你能行吗？」"
   },
   "000289": {
     "context": "000289",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「不，不行的。我完全没有能爬上去的信心……！」"
+    "string": "「这……肯定不行吧。完全不觉得我能爬上去……！」"
   },
   "000300": {
     "context": "000300",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「没办法。那我来背你——」"
+    "string": "「没办法。那我背你吧——」"
   },
   "000305": {
     "context": "000305",
     "code": "0x45",
     "developer_comment": "",
-    "string": "正说着的时候，渡濑突然注意到了。"
+    "string": "正说着，渡濑发现了一个问题："
   },
   "000310": {
     "context": "000310",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他已经积累了很多疲劳。现在这个状态，他还能背着宇喜多爬上这个绳子吗？"
+    "string": "这段时间他又积累了不少疲劳。现在这个状态，他还能背着宇喜多沿着绳索爬上去吗？"
   },
   "000318": {
     "context": "000318",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（也发生了之前那种事情啊……如果背着大叔的时候摔下来的话，两个人都会受重伤）"
+    "string": "（刚才就发生过那种事情啊……如果我背着大叔一起摔下来，受重伤的就是两个人了）"
   },
   "000325": {
     "context": "000325",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（万一，两个人一起摔下来，都受到重伤的话……）"
+    "string": "（万一，两个人一起摔下来了，我们都会受重伤 的……）"
   },
   "000336": {
     "context": "000336",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不行……比起背着大叔上去，还是别这样比较安全」"
+    "string": "「算了……还是别这么干比较保险」"
   },
   "000365": {
     "context": "000365",
@@ -122,19 +122,19 @@
     "context": "000376",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这次我一个人去吧」"
+    "string": "「我一个人上去吧」"
   },
   "000387": {
     "context": "000387",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「大叔就去 Factory，帮守部他们搜索」"
+    "string": "「大叔你回 Factory，去帮守部和老师一起搜索吧」"
   },
   "000416": {
     "context": "000416",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「明白了。那一会就在 Factory 碰头吧」"
+    "string": "「好的。那么，之后我们就在 Factory 碰头吧」"
   },
   "000427": {
     "context": "000427",
@@ -146,7 +146,7 @@
     "context": "000460",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多点点头，离开了楼梯间。"
+    "string": "宇喜多点了点头，离开了楼梯间。"
   },
   "000471": {
     "context": "000471",
@@ -158,7 +158,7 @@
     "context": "000476",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑很快借用绳子，爬到了楼上。"
+    "string": "渡濑沿着绳索，干脆利落地爬到了地下 1 层。"
   },
   "000580": {
     "context": "000580",
