@@ -887,13 +887,13 @@
     "context": "001895",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「这个文档的标题，应该是“事态 N 的规格变更请求书”吧，总之——"
+    "string": "「这个文档的标题，倒是能认出来应该是“事态 N 的规格变更请求书”，但——"
   },
   "001906": {
     "context": "001906",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「后面也尽是这种基本没法读的文章。所有的都是」"
+    "string": "「后面的内容就全是这种没法看懂的东西了。其他文档也一样」"
   },
   "001935": {
     "context": "001935",
@@ -1055,7 +1055,7 @@
     "context": "002122",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这两个词语，一下子就让渡濑动摇了。"
+    "string": "看到这两个词，渡濑瞬间就动摇了。"
   },
   "002127": {
     "context": "002127",
@@ -1097,7 +1097,7 @@
     "context": "002219",
     "code": "0x45",
     "developer_comment": "",
-    "string": "头上一阵剧痛。"
+    "string": "脑袋里一阵剧痛。"
   },
   "002224": {
     "context": "002224",
@@ -1393,31 +1393,31 @@
     "context": "002924",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「他们因为枪的事情，对老师你抱有相当大的怀疑」"
+    "string": "「因为手枪那件事，他们几个已经对你起了疑心了」"
   },
   "002935": {
     "context": "002935",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「现在出去的话，不知道会被怎么对待」"
+    "string": "「现在出面的话，难保他们不会把你怎么样」"
   },
   "002964": {
     "context": "002964",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「但是……这样的话怎么办才好？」"
+    "string": "「但是……那你说怎么办才好？」"
   },
   "002975": {
     "context": "002975",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「这种情况下，AD 也好，被困人员也好，逃生出口也好，都搜索不了了不是吗？」"
+    "string": "「现在这种状况，我们根本没法搜索 AD、被困人员或者逃生出口不是吗？」"
   },
   "003004": {
     "context": "003004",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「如果我不说服大家的话，就没办法了！」"
+    "string": "「我不去说服他们，就什么都做不了啊！」"
   },
   "003015": {
     "context": "003015",
@@ -1429,121 +1429,121 @@
     "context": "003020",
     "code": "0x45",
     "developer_comment": "",
-    "string": "现在的状况，确实非常绝望。"
+    "string": "眼下的状况，确实很绝望。"
   },
   "003025": {
     "context": "003025",
     "code": "0x45",
     "developer_comment": "",
-    "string": "即使可以说服洵他们，也解决不了 AD 不足的问题。"
+    "string": "就算说服了洵和宇喜多，AD 不足的问题也依旧没有解决。"
   },
   "003030": {
     "context": "003030",
     "code": "0x45",
     "developer_comment": "",
-    "string": "再过一小时的话，所有人都会被照射。"
+    "string": "再过不到 1 个小时，所有人都会受到照射的。"
   },
   "003035": {
     "context": "003035",
     "code": "0x45",
     "developer_comment": "",
-    "string": "之前的 5 小时，都是尽力努力过来的，但是——"
+    "string": "之前的 5 个小时，是他们拼尽了全力才熬过来的，但——"
   },
   "003041": {
     "context": "003041",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（思考一下的话，这么多的问题，任何一个都还没解决……！）"
+    "string": "（现在一想，各种各样的问题，可一个都没有解决啊……！）"
   },
   "003046": {
     "context": "003046",
     "code": "0x45",
     "developer_comment": "",
-    "string": "找不到被困人员。悠里也还是不见。"
+    "string": "被困人员没找到。悠里也逃掉了。"
   },
   "003051": {
     "context": "003051",
     "code": "0x45",
     "developer_comment": "",
-    "string": "拿着枪的凶手，现在可能也还躲在某个地方。"
+    "string": "拿着枪的凶手，或许就藏在哪里。"
   },
   "003056": {
     "context": "003056",
     "code": "0x45",
     "developer_comment": "",
-    "string": "应该值得信任的同伴，应该救援的对象，现在变成了渡濑的敌人。"
+    "string": "本应相互依靠的伙伴，相互帮助的队友，现在也与他为敌了。# review：魔改大法好"
   },
   "003067": {
     "context": "003067",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但是，即使没有办法说服……有能让大家活下去的方法就好了」"
+    "string": "「不过，如果有什么不用说服他们……也能让大家都活下去的办法就好了」"
   },
   "003096": {
     "context": "003096",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「当然是这样！但是，你觉得这种方法存在吗！？」"
+    "string": "「这是当然的了！但是，你觉得能有吗！？」"
   },
   "003101": {
     "context": "003101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他不觉得有。通常的办法是不可能的。"
+    "string": "他不觉得能有。普通的办法是绝无可能的。"
   },
   "003106": {
     "context": "003106",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果有这样的办法的话，应该早就已经试过了。"
+    "string": "如果真有，他应该早就试过了。"
   },
   "003112": {
     "context": "003112",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（但是，之前考虑的办法都不行……！）"
+    "string": "（但是，就算之前想到的办法都不行……！）"
   },
   "003118": {
     "context": "003118",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（直到现在都没有想到的方法……）"
+    "string": "（现在还没有想到的办法……）"
   },
   "003124": {
     "context": "003124",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（意味着承受本可以避免的风险……意味着把自己的生命放进危险之中……）"
+    "string": "（敢于冲进本可回避的险境里……敢于暴露在危及自身生命的威胁下……）"
   },
   "003130": {
     "context": "003130",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（有了这样的觉悟，才能采取的方法……！）"
+    "string": "（必须有这种觉悟，才能成立的办法……！）"
   },
   "003135": {
     "context": "003135",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么思考着的渡濑的脑中——"
+    "string": "想到这里，渡濑的脑海中——"
   },
   "003140": {
     "context": "003140",
     "code": "0x45",
     "developer_comment": "",
-    "string": "响起了他听过的话语。"
+    "string": "响起了以前听过的话语："
   },
   "003290": {
     "context": "003290",
     "code": "0x45",
     "developer_comment": "司令長",
-    "string": "「目前看来在核反应堆的所在地“N 区域”，现在大规模的火灾还在继续燃烧——」"
+    "string": "「核反应堆所在的“N 区域”里，大火目前仍在持续——」"
   },
   "003298": {
     "context": "003298",
     "code": "0x45",
     "developer_comment": "司令長",
-    "string": "「因此安全系统失控了，没有办法从外面来操作」"
+    "string": "「因此安全系统失控了，外界几乎没法操作」"
   },
   "003394": {
     "context": "003394",
@@ -1555,25 +1555,25 @@
     "context": "003399",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这个瞬间，他的脑中闪过一个方法。"
+    "string": "这一刻，他想到了。"
   },
   "003404": {
     "context": "003404",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他的脸上自然地出现了痉挛般的笑容。"
+    "string": "他的嘴角，不禁绷起了笑意。"
   },
   "003433": {
     "context": "003433",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「想，想到什么了吗？」"
+    "string": "「怎，怎么了？」"
   },
   "003438": {
     "context": "003438",
     "code": "0x45",
     "developer_comment": "",
-    "string": "惠那惊讶地问道，渡濑压低声音回答。"
+    "string": "渡濑压低了声音，回答道："
   },
   "003449": {
     "context": "003449",
@@ -1585,7 +1585,7 @@
     "context": "003460",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我想到了一个能解决所有问题的办法」# referenced by chunk 261"
+    "string": "「我想到了。有一个办法，能解决所有问题」# referenced by chunk 261"
   },
   "003489": {
     "context": "003489",
@@ -1597,25 +1597,25 @@
     "context": "003500",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「答案，从最开始就出现了……」"
+    "string": "「这个答案，最开始就出现了……」"
   },
   "003511": {
     "context": "003511",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我在很久之前就知道了，能救所有人的办法」"
+    "string": "「能让所有人都得救的办法，我很早就知道了」"
   },
   "003540": {
     "context": "003540",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「是……是什么！？」"
+    "string": "「这……什么意思！？」"
   },
   "003569": {
     "context": "003569",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「那你为什么，一直隐瞒到了现在啊！」"
+    "string": "「那为什么，你现在才说啊！」"
   },
   "003580": {
     "context": "003580",
@@ -1639,19 +1639,19 @@
     "context": "003654",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不能这么大声说话……被守部他们听到就完了」"
+    "string": "「声音别这么大……被守部他们听到就完了」"
   },
   "003683": {
     "context": "003683",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「真的……有这样的办法吗？」"
+    "string": "「真的……有这种办法？」"
   },
   "003694": {
     "context": "003694",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嗯，我只告诉老师。你听好了」"
+    "string": "「嗯，我只跟老师你讲。耳朵稍微凑过来一下」"
   },
   "003723": {
     "context": "003723",
@@ -1663,31 +1663,31 @@
     "context": "003750",
     "code": "0x45",
     "developer_comment": "",
-    "string": "惠那惊讶地走到渡濑身边。"
+    "string": "惠那不解地走了过来。"
   },
   "003755": {
     "context": "003755",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把嘴巴凑到惠那耳边——"
+    "string": "渡濑凑到惠那的耳朵旁边——"
   },
   "003766": {
     "context": "003766",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「听好了老师，这个办法是……」"
+    "string": "「听好了老师，这个办法就是……」"
   },
   "003777": {
     "context": "003777",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「让我献出生命」"
+    "string": "「我自己，献出生命」"
   },
   "003782": {
     "context": "003782",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他小声地告诉了她这个方法。"
+    "string": "渡濑压低了声音，道出了这样一句。"
   },
   "003811": {
     "context": "003811",
@@ -1699,25 +1699,25 @@
     "context": "003816",
     "code": "0x45",
     "developer_comment": "",
-    "string": "惠那睁大了双眼。"
+    "string": "惠那震惊了。"
   },
   "003821": {
     "context": "003821",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这一瞬间，渡濑绕到了她身后，用手臂环住了她的脖子。"
+    "string": "就在这一刻，渡濑绕到了惠那身后，勒住了她的脖子。"
   },
   "003885": {
     "context": "003885",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「咳！」"
+    "string": "「呃！」"
   },
   "003931": {
     "context": "003931",
     "code": "0x45",
     "developer_comment": "",
-    "string": "惠那发出了痛苦的声音。渡濑没有理会，继续勒她的脖颈。"
+    "string": "惠那疼得叫了一声。但渡濑并未理会，紧紧地勒着她。"
   },
   "003995": {
     "context": "003995",
@@ -1729,13 +1729,13 @@
     "context": "004006",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……对不起」"
+    "string": "「……抱歉」"
   },
   "004017": {
     "context": "004017",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「告诉老师的话，你就会阻止我吧？所以说很抱歉，请在这里稍微睡一会吧」"
+    "string": "「说出来的话，老师你就会阻止我对吧？所以对不起了，请在这里稍微睡一会儿吧」"
   },
   "004081": {
     "context": "004081",
@@ -1747,18 +1747,18 @@
     "context": "004086",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不久，惠那的身体变得无力。"
+    "string": "不一会儿，惠那的身体失去了力气。"
   },
   "004106": {
     "context": "004106",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑把她的身体平放在地板上。"
+    "string": "渡濑把她平放在地板上。"
   },
   "004164": {
     "context": "004164",
     "code": "0x85",
-    "string": "『你……你在做什么！』"
+    "string": "『你……你在干什么！』"
   },
   "004165": {
     "context": "004165",
@@ -1774,19 +1774,19 @@
     "context": "004194",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脑中，又响起了一直以来的那个声音。"
+    "string": "他的脑海里，又出现了熟悉的幻听。"
   },
   "004199": {
     "context": "004199",
     "code": "0x45",
     "developer_comment": "",
-    "string": "已经不值得吃惊了。"
+    "string": "甚至都不觉得吃惊。"
   },
   "004204": {
     "context": "004204",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑没有理会这个，离开了房间。"
+    "string": "渡濑无视了它，离开了房间。"
   },
   "004258": {
     "context": "004258",
