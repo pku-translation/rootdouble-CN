@@ -122,7 +122,7 @@
     "context": "000474",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「正因如此，我也为了把她们救出去而赌上了自己的性命。但你居然……！」"
+    "string": "「正因如此，为了把她们救出去，我也赌上了自己的性命。但你居然……！」"
   },
   "000503": {
     "context": "000503",
@@ -152,73 +152,73 @@
     "context": "000704",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多拿着的手枪，就是之前惠那手上的那把。"
+    "string": "这把手枪，正是惠那之前拿着的那把。"
   },
   "000709": {
     "context": "000709",
     "code": "0x45",
     "developer_comment": "",
-    "string": "本来应该由宇喜多、洵、惠那分开保管的，但是——"
+    "string": "它应该已经被拆成了三份，由宇喜多、洵和惠那分别保管着，但为什么——"
   },
   "000720": {
     "context": "000720",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「大叔，你是要虚张声势吗！？这把枪是没有弹匣的花架子吧！？」# review"
+    "string": "「大叔，你是在虚张声势吧！？这把枪没装弹匣，只是个空壳对吧！？」"
   },
   "000731": {
     "context": "000731",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「虚张声势？看你还不知道吧」"
+    "string": "「虚张声势？看来你还没搞清楚状况嘛」"
   },
   "000742": {
     "context": "000742",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「没有弹匣但是有子弹，枪还是可以开火的。只不过是一发一发打」"
+    "string": "「就算没装弹匣，枪里只要有子弹就能用。只是一次只能打一枪而已」"
   },
   "000753": {
     "context": "000753",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「子弹这种东西哪里……！？」"
+    "string": "「子弹…你是从哪里搞到的……！？」"
   },
   "000764": {
     "context": "000764",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「有没有呢」"
+    "string": "「那么」"
   },
   "000769": {
     "context": "000769",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多的表情，看起来不像是在虚张声势。"
+    "string": "从宇喜多的表情来看，不像在虚张声势。"
   },
   "000780": {
     "context": "000780",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「……笑我是脆弱的正义吧。但这就是我的选择」# review"
+    "string": "「……笑话我，觉得它不过是脆弱的正义而已，那都随你便。反正，这就是我的选择」"
   },
   "000791": {
     "context": "000791",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「只要杀了你就能结束这个状况的话，我会这么做」"
+    "string": "「既然把你杀了就可以结束现在这种状况，那我当然要这么干」"
   },
   "000802": {
     "context": "000802",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「一生中一次的话，就算弄脏自己的手也……！」# review"
+    "string": "「一辈子就干一次的话，就算让自己的手染上罪恶……！」"
   },
   "000807": {
     "context": "000807",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——不知道话语的意思。他的表情有疯狂之色。"
+    "string": "——听不懂他在说什么。他的脸上，已经尽是疯狂之色了。"
   },
   "000818": {
     "context": "000818",
@@ -230,31 +230,31 @@
     "context": "000829",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「等一下大叔，在你开枪之前先听我说！」"
+    "string": "「等一下，大叔，开枪前先听我说句话！」"
   },
   "000840": {
     "context": "000840",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「你可能还不知道，N 区域里并没有核反应堆存在！」"
+    "string": "「你可能还不知道，N 区域里并没有核反应堆！」"
   },
   "000851": {
     "context": "000851",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「所以说我们从一开始，就不需要害怕辐射！」"
+    "string": "「所以，我们没必要担心辐射，从一开始就没必要！」"
   },
   "000856": {
     "context": "000856",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果宇喜多是因为恐惧辐射而越轨的话，这样应该就能恢复正常了。"
+    "string": "如果宇喜多是因为害怕辐射而变得不正常的，这句话应该能让他恢复理性吧。"
   },
   "000861": {
     "context": "000861",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是——"
+    "string": "然而——"
   },
   "000911": {
     "context": "000911",
@@ -266,7 +266,7 @@
     "context": "000922",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「到了这个时候，还在说这种话……？」"
+    "string": "「死到临头了，还说这种胡话吗……？」"
   },
   "000933": {
     "context": "000933",
@@ -278,7 +278,7 @@
     "context": "000944",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「哼，怎么样都好了。反正——」"
+    "string": "「算了随你便吧。反正——」"
   },
   "000994": {
     "context": "000994",
@@ -296,19 +296,19 @@
     "context": "001016",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「去死，叛徒！」"
+    "string": "「去死吧，叛徒！」"
   },
   "001021": {
     "context": "001021",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多用手扣动扳机。渡濑绷紧了全身。"
+    "string": "扣在扳机上的手指开始移动。渡濑绷紧了身体。"
   },
   "001026": {
     "context": "001026",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——就在这个瞬间。"
+    "string": "——就在这一瞬，"
   },
   "001109": {
     "context": "001109",
@@ -320,7 +320,7 @@
     "context": "001226",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多射出的子弹，在渡濑背后的墙上开了一个洞。"
+    "string": "宇喜多打出的子弹，在渡濑背后的墙上开了一个洞。"
   },
   "001315": {
     "context": "001315",
@@ -332,79 +332,79 @@
     "context": "001320",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在风见和他打斗的时候，渡濑也从怀里掏出手枪。"
+    "string": "趁着风见的干扰，渡濑也从怀里掏出了手枪。"
   },
   "001349": {
     "context": "001349",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「什！？」"
+    "string": "「这！？」"
   },
   "001403": {
     "context": "001403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看到渡濑指过来的枪口，宇喜多慌忙转身。"
+    "string": "看到黑洞洞的枪口指向他自己，宇喜多转身就跑。"
   },
   "001408": {
     "context": "001408",
     "code": "0x45",
     "developer_comment": "",
-    "string": "虽然这是射击宇喜多的背部的机会——但是渡濑没有扣动扳机。"
+    "string": "虽说有机会打他后背——但渡濑并没有扣下扳机。"
   },
   "001413": {
     "context": "001413",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说白了，他也不知道这个手枪里面有没有子弹。"
+    "string": "说到底，渡濑并不清楚这把枪里还有没有子弹。"
   },
   "001418": {
     "context": "001418",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多消失在了门的另外一边。"
+    "string": "宇喜多消失在了房门的另一侧。"
   },
   "001423": {
     "context": "001423",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后，那边只有声音传来——"
+    "string": "然后，传来了这样两句——"
   },
   "001552": {
     "context": "001552",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「终于露出本性了，队长！」"
+    "string": "「你终于亮出獠牙了，队长！」"
   },
   "001563": {
     "context": "001563",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「但是我一定会制裁你的！给我记住了！」# referenced by chunk 266"
+    "string": "「不过，你就等着我的制裁吧！给我记住了！」# referenced by chunk 266"
   },
   "001604": {
     "context": "001604",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多的脚步声朝着第 4 区域的一侧离去。"
+    "string": "宇喜多的脚步声，向第 4 区域那边远去了。"
   },
   "001653": {
     "context": "001653",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「可恶！大叔那个家伙怎么了！？」"
+    "string": "「可恶！这个大叔，怎么了啊！？」"
   },
   "001658": {
     "context": "001658",
     "code": "0x45",
     "developer_comment": "",
-    "string": "即使渡濑有可疑的点，宇喜多的行动也太过于极端了。"
+    "string": "虽说渡濑身上确实有疑点，但宇喜多的举动明显过于极端。"
   },
   "001663": {
     "context": "001663",
     "code": "0x45",
     "developer_comment": "",
-    "string": "回过神来，风见看着渡濑的手枪。"
+    "string": "回过神来，渡濑发现风见正盯着他手里的枪。"
   },
   "001728": {
     "context": "001728",
@@ -416,13 +416,13 @@
     "context": "001739",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「啊，话说回来刚刚忘记说了」"
+    "string": "「啊，说起来，刚才忘了提了」"
   },
   "001750": {
     "context": "001750",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这是我在 N 区域捡的。落在了夏彦身边」"
+    "string": "「我在 N 区域捡到的。它就掉在夏彦旁边」"
   },
   "001779": {
     "context": "001779",
@@ -434,73 +434,73 @@
     "context": "001784",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来风见害怕手枪的样子。"
+    "string": "风见好像被这把枪吓到了。"
   },
   "001789": {
     "context": "001789",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑急忙把手枪收进怀里，转移话题。"
+    "string": "渡濑急忙把手枪塞回怀里，岔开了话题："
   },
   "001800": {
     "context": "001800",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「总而言之，我们要快点离开这里」"
+    "string": "「总之，我们赶紧转移吧」"
   },
   "001811": {
     "context": "001811",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「既然大叔已经知道了，我们一直留在这里会很危险」"
+    "string": "「既然被大叔发现了，继续留在这里很危险」"
   },
   "001816": {
     "context": "001816",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦的输血尚未结束，纱瑠也还没有苏醒的样子。"
+    "string": "夏彦还没输完血，纱瑠也依旧不省人事。"
   },
   "001821": {
     "context": "001821",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果再发生刚刚那样的袭击的话，他们也有受到危害的危险。"
+    "string": "如果再次遇到刚才那种袭击，他们两个可能也会受到波及。"
   },
   "001832": {
     "context": "001832",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……而且，老师也很危险」"
+    "string": "「……另外，老师也危险了」"
   },
   "001861": {
     "context": "001861",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「你是说椿山吗？这么说来的话她在哪里？」"
+    "string": "「椿山？说起来她在哪里？」"
   },
   "001872": {
     "context": "001872",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我把她放在了第 2 区域的一个小房间里。看大叔那个样子，说不定也会袭击老师」"
+    "string": "「我把她留在第 2 区域的一个小房间里了。看大叔那个样子，搞不好也会袭击她」"
   },
   "001883": {
     "context": "001883",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……明白了。那么一边保持天川同学的输血继续，一边和椿山汇合吧」"
+    "string": "「……我明白了。那我们就一边继续给天川输血，一边去跟椿山会合吧」"
   },
   "001888": {
     "context": "001888",
     "code": "0x45",
     "developer_comment": "",
-    "string": "把血袋和输血工具绑在夏彦的身上。"
+    "string": "两人把血袋与输血器具绑到了夏彦身上。"
   },
   "001893": {
     "context": "001893",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后渡濑背着夏彦、风见背着纱瑠，离开了医务室。"
+    "string": "然后，渡濑背着夏彦，风见背着纱瑠，走出了医务室。"
   },
   "001951": {
     "context": "001951",
