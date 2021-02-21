@@ -39,7 +39,7 @@
     "context": "000184",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑摆摆手说。"
+    "string": "渡濑摆摆手说："
   },
   "000195": {
     "context": "000195",
@@ -69,7 +69,7 @@
     "context": "000251",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「弟弟也开始讨厌起这个笨的要命的姐姐了吧……？」 #review で　弟的に"
+    "string": "「弟弟也开始讨厌起这个笨得要命的姐姐了吧……？」"
   },
   "000262": {
     "context": "000262",
@@ -99,7 +99,7 @@
     "context": "000318",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「但是，不要再强硬地邀请我了。渡濑挺懒的……」 #review し"
+    "string": "「不过，我不会再强硬地邀请你了，看你也嫌麻烦……」"
   },
   "000329": {
     "context": "000329",
@@ -111,13 +111,13 @@
     "context": "000340",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「你的梦想什么的，我也稍微有点想要陪着一起试试了」"
+    "string": "「是我稍微想陪你试试你那个梦想什么的了」"
   },
   "000369": {
     "context": "000369",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "@auto-import 0005 003761"
+    "string": "「诶……？」"
   },
   "000374": {
     "context": "000374",
@@ -177,7 +177,7 @@
     "context": "000504",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「你……你有这么佩服我吗？」"
+    "string": "「你……你对我评价这么高吗？」"
   },
   "000515": {
     "context": "000515",
@@ -243,7 +243,7 @@
     "context": "000667",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「话虽如此，可要去找想做的事，也得等到脚治好之后了」"
+    "string": "「话虽如此，可要去找想做的事，也得等到腿治好之后了」"
   },
   "000696": {
     "context": "000696",
@@ -267,7 +267,7 @@
     "context": "000747",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「你说什么？你还是先关心一下你自己的男朋友吧」"
+    "string": "「你说什么？你才该先找个男朋友吧」"
   },
   "000770": {
     "context": "000770",
@@ -327,7 +327,7 @@
     "context": "001004",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「等脚治好了，我们再一起跑步吧。需要的话，我会一直奉陪到你成为救援队员为止的」"
+    "string": "「等腿治好了，我们再一起跑步吧。需要的话，我会一直奉陪到你成为救援队员为止的」"
   },
   "001009": {
     "context": "001009",
@@ -363,7 +363,7 @@
     "context": "001118",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后，在亘来探望的那一天的八天后的晚上——"
+    "string": "然后，在亘来探望的那一天之后第八天的晚上——"
   },
   "001123": {
     "context": "001123",
@@ -411,7 +411,7 @@
     "context": "001305",
     "code": "0x45",
     "developer_comment": "",
-    "string": "很快，渡濑就被火焰重重包围，滚滚的浓烟充斥着他的四周——"
+    "string": "很快，渡濑就被火焰重重包围，四周全是滚滚的浓烟——"
   },
   "001329": {
     "context": "001329",
@@ -549,7 +549,7 @@
     "context": "001634",
     "code": "0x45",
     "developer_comment": "",
-    "string": "火势已经烧到了走廊上。"
+    "string": "火焰已经烧到了走廊上。"
   },
   "001732": {
     "context": "001732",
@@ -597,7 +597,7 @@
     "context": "001810",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而，不管渡濑怎么叫，也没有人来。按紧集呼叫也没有任何回应。"
+    "string": "然而，不管渡濑怎么叫，也没有人来。按护士铃也没有回应。"
   },
   "001823": {
     "context": "001823",
@@ -639,7 +639,7 @@
     "context": "001896",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一声爆破声传来。火势快要逼近那里了吗。"
+    "string": "一声爆破声传来。看来火势已经近在咫尺了。"
   },
   "001902": {
     "context": "001902",
@@ -663,7 +663,7 @@
     "context": "001918",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その実感がひたひたと、渡瀬の心に迫ってきた。"
+    "string": "不祥的预感迅速爬满了渡濑的全身。#review"
   },
   "001944": {
     "context": "001944",
@@ -705,7 +705,7 @@
     "context": "002068",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑心中一惊，回头只见亘正站在门口，准备冲进病房。"
+    "string": "渡濑心中一惊，回头一看，只见亘正站在门口，正准备冲进病房。"
   },
   "002079": {
     "context": "002079",
@@ -747,7 +747,7 @@
     "context": "002205",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑借了亘的肩膀，逃出了病房。"
+    "string": "渡濑借着亘的肩膀，逃出了病房。"
   },
   "002309": {
     "context": "002309",
@@ -789,7 +789,7 @@
     "context": "002416",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这样的火焰重，背着不能走路的渡濑，她的体力也已经消耗了不少吧。"
+    "string": "在这样的火焰中，她还要带着不能走路的渡濑一起走，体力也已经消耗了不少吧。"
   },
   "002422": {
     "context": "002422",
@@ -843,265 +843,265 @@
     "context": "002498",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそう呟いた瞬間、亘の目に光が灯った。"
+    "string": "听到渡濑的低语，亘的眼睛里瞬间燃起了斗志。"
   },
   "002554": {
     "context": "002554",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「渡瀬！　諦めちゃダメ！」"
+    "string": "「不要放弃！渡濑！」"
   },
   "002565": {
     "context": "002565",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「最期の瞬間まで、あがいて、あがいて……」"
+    "string": "「我们要拼命地挣扎，挣扎到最后一刻……」"
   },
   "002576": {
     "context": "002576",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「死ぬのは、それからにしよう！」"
+    "string": "「要死的话，也要等那时候再死！」# 这两句不要和 chunk 97 某处相差太远"
   },
   "002581": {
     "context": "002581",
     "code": "0x45",
     "developer_comment": "",
-    "string": "亘はそう叫ぶや、渡瀬の腕を抱えなおし――"
+    "string": "话音刚落，亘重新夹紧了渡濑的手臂——"
   },
   "002586": {
     "context": "002586",
     "code": "0x45",
     "developer_comment": "",
-    "string": "猛然と、駆け出した。"
+    "string": "一口气飞奔了出去。"
   },
   "002638": {
     "context": "002638",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがてまだ無事な非常階段を発見した。"
+    "string": "很快，他们发现了依旧能用的安全梯。"
   },
   "002643": {
     "context": "002643",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それを駆け降りると――病院の裏口が見えてきた。"
+    "string": "冲下安全梯——就看到了医院的后门。"
   },
   "002723": {
     "context": "002723",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「わ、渡瀬、出口だよ！」"
+    "string": "「渡、渡濑，是出口！」"
   },
   "002734": {
     "context": "002734",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0012 005419"
+    "string": "「啊……啊！」"
   },
   "002739": {
     "context": "002739",
     "code": "0x45",
     "developer_comment": "",
-    "string": "裏口はもうすぐそこだった。"
+    "string": "后门近在眼前。"
   },
   "002744": {
     "context": "002744",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いつの間にか消防のサイレンの音が聞こえる。"
+    "string": "不知从何时起，外面传来了消防车的警报声。"
   },
   "002750": {
     "context": "002750",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（助かった……！）"
+    "string": "（得救了……！）"
   },
   "002755": {
     "context": "002755",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思い、亘と共に裏口をくぐろうとした時――"
+    "string": "正当渡濑放下心来，准备和亘一起冲出后门时——"
   },
   "002781": {
     "context": "002781",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人の頭上で、みしりという、不気味な音が聞こえた。"
+    "string": "两人的头上，响起了一阵嘎吱嘎吱的响声，让人不禁毛骨悚然。"
   },
   "002792": {
     "context": "002792",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0002 005125"
+    "string": "「！！」"
   },
   "002844": {
     "context": "002844",
     "code": "0x45",
     "developer_comment": "",
-    "string": "はっとして見上げると、天井に亀裂が入っていた。"
+    "string": "渡濑吓得一抬头，只见天花板上逐渐出现了龟裂。"
   },
   "002849": {
     "context": "002849",
     "code": "0x45",
     "developer_comment": "",
-    "string": "亀裂は一瞬にして拡がり、コンクリート製の天井が大きくたわむ。"
+    "string": "龟裂瞬间扩大，混凝土制的天花板出现了巨大的变形。"
   },
   "002855": {
     "context": "002855",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（崩れる！？）"
+    "string": "（要塌了！？）"
   },
   "002860": {
     "context": "002860",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がそう思った瞬間、"
+    "string": "就在渡濑这么想着的一瞬间——"
   },
   "002871": {
     "context": "002871",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「渡瀬ッ！！」"
+    "string": "「渡濑！！」"
   },
   "002883": {
     "context": "002883",
     "code": "0x45",
     "developer_comment": "",
-    "string": "亘が渡瀬を、裏口の方に突き飛ばした。"
+    "string": "亘把渡濑朝后门的方向猛地撞了过去。"
   },
   "003003": {
     "context": "003003",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0236 001116"
+    "string": "「呜哇！！」"
   },
   "003008": {
     "context": "003008",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は屋外に倒れこんだ。"
+    "string": "渡濑倒在了医院外面。"
   },
   "003013": {
     "context": "003013",
     "code": "0x45",
     "developer_comment": "",
-    "string": "目に見えたのは、満天の星空。"
+    "string": "眼前看到的，是满天的星空。"
   },
   "003018": {
     "context": "003018",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして耳に聞こえたのは――"
+    "string": "耳朵听到的却是——"
   },
   "003055": {
     "context": "003055",
     "code": "0x45",
     "developer_comment": "",
-    "string": "何かが崩壊する、轟音だった。"
+    "string": "有什么东西倒塌了的轰鸣。"
   },
   "003066": {
     "context": "003066",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「え…………？」"
+    "string": "「诶…………？」"
   },
   "003131": {
     "context": "003131",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は裏口から、病院の中を見る。"
+    "string": "渡濑从后门往医院里面看去。"
   },
   "003136": {
     "context": "003136",
     "code": "0x45",
     "developer_comment": "",
-    "string": "先ほどまで渡瀬と亘が立っていたところに、火の着いた瓦礫の山があった。"
+    "string": "刚才渡濑和亘站着的位置，如今已经掩埋在了燃烧的瓦砾堆下。"
   },
   "003147": {
     "context": "003147",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「わ……亘？」"
+    "string": "「亘……亘？」"
   },
   "003152": {
     "context": "003152",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――返事はなかった。"
+    "string": "——没有回应。"
   },
   "003163": {
     "context": "003163",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0295 000957"
+    "string": "「亘」"
   },
   "003168": {
     "context": "003168",
     "code": "0x45",
     "developer_comment": "",
-    "string": "返事はなかった。"
+    "string": "没有回应。"
   },
   "003179": {
     "context": "003179",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0294 003389"
+    "string": "「亘！！」"
   },
   "003185": {
     "context": "003185",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は叫んで、瓦礫の山に這い寄った。"
+    "string": "渡濑嘶吼着爬到了瓦砾堆旁边。"
   },
   "003196": {
     "context": "003196",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「亘！　いるんだろ返事してくれ！！」"
+    "string": "「亘！你在吧，快回答我！！」"
   },
   "003207": {
     "context": "003207",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「亘！！　亘！！！」"
+    "string": "「亘！！亘！！！」"
   },
   "003212": {
     "context": "003212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがてその叫びの返事として――"
+    "string": "不久，作为对渡濑的回应——"
   },
   "003223": {
     "context": "003223",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0002 005125"
+    "string": "「！！」"
   },
   "003284": {
     "context": "003284",
     "code": "0x45",
     "developer_comment": "",
-    "string": "瓦礫の下から、一筋血が流れ出してきた。"
+    "string": "瓦砾山下，一条细细的血河流了出来。"
   },
   "003295": {
     "context": "003295",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あ、ああ、ああぁぁあああ……！」"
+    "string": "「啊、啊、啊啊啊啊啊啊……！」"
   },
   "003306": {
     "context": "003306",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「嘘だろやめてくれよなんでこんな……」"
+    "string": "「是骗我的吧，别这样，为什么会……」"
   },
   "003352": {
     "context": "003352",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は虚ろにつぶやき、闇雲に瓦礫をどけ始めた。"
+    "string": "伴随着空虚的低语，渡濑开始胡乱地翻动起眼前的瓦砾。"
   },
   "003363": {
     "context": "003363",
@@ -1113,144 +1113,144 @@
     "context": "003368",
     "code": "0x45",
     "developer_comment": "",
-    "string": "瓦礫は炎で熱され、触れれば火傷するほど熱い。"
+    "string": "瓦砾在火焰的炙烤下，热得只要一碰就就能把人烧伤。"
   },
   "003373": {
     "context": "003373",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが構わずに、渡瀬は瓦礫を掴んでは投げ捨てる。"
+    "string": "但渡濑已经不在乎这些了，他将瓦砾一个个地抓起，然后丢到一边。"
   },
   "003378": {
     "context": "003378",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――やがて背後で声がした。"
+    "string": "——过了一会儿，背后传来了一个声音。"
   },
   "003386": {
     "context": "003386",
     "code": "0x45",
     "developer_comment": "？？",
-    "string": "「要救助者がいたぞ！」"
+    "string": "「发现被困人员！」"
   },
   "003391": {
     "context": "003391",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恐らく消防隊員だろう。"
+    "string": "恐怕是消防队员吧。"
   },
   "003396": {
     "context": "003396",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は振り返りもせずに、亘の救助を続ける。"
+    "string": "渡濑头也不回，继续埋头救亘。"
   },
   "003404": {
     "context": "003404",
     "code": "0x45",
     "developer_comment": "消防隊員",
-    "string": "「き、君……！？　何をやっているんだ！？」"
+    "string": "「你、你……！？到底是在干什么！？」"
   },
   "003409": {
     "context": "003409",
     "code": "0x45",
     "developer_comment": "",
-    "string": "消防隊員が異変を感じたらしく、渡瀬に駆け寄ってきた。"
+    "string": "消防队员似乎感到有些不对劲，跑到了渡濑身边。"
   },
   "003417": {
     "context": "003417",
     "code": "0x45",
     "developer_comment": "消防隊員",
-    "string": "「危険だ、下がれ！　火に巻かれるぞ！」"
+    "string": "「太危险了，快退下！你会被火卷进去的！」"
   },
   "003444": {
     "context": "003444",
     "code": "0x45",
     "developer_comment": "",
-    "string": "消防隊員が渡瀬の肩を掴む。"
+    "string": "消防队员抓住了渡濑的肩膀。"
   },
   "003450": {
     "context": "003450",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はその手を振り払って叫んだ。"
+    "string": "但渡濑迅速甩开了他的手，叫喊道："
   },
   "003461": {
     "context": "003461",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「邪魔すんな！！　亘が瓦礫の下にいるんだ！」"
+    "string": "「别妨碍我！亘还在这堆瓦砾下面！」"
   },
   "003469": {
     "context": "003469",
     "code": "0x45",
     "developer_comment": "消防隊員",
-    "string": "「なっ……！　この下に……！？」"
+    "string": "「什……！在这下面……！？」"
   },
   "003477": {
     "context": "003477",
     "code": "0x45",
     "developer_comment": "消防隊員",
-    "string": "「い、いや、だったら救助は我々が行う！！」"
+    "string": "「不、不行，即使这样，救援也应该交给我们！！」"
   },
   "003488": {
     "context": "003488",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あああうるせぇ！！　あんたらじゃ頼りにならねぇ！！」"
+    "string": "「啊啊吵死了！！你们这些靠不住的东西！！」"
   },
   "003499": {
     "context": "003499",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あんたらがすぐ来なかったから！　亘は……亘はッ！！」"
+    "string": "「都怪你们没有快点过来！亘……亘才！！」"
   },
   "003555": {
     "context": "003555",
     "code": "0x45",
     "developer_comment": "",
-    "string": "錯乱した渡瀬の絶叫が、夜空に響き渡った。"
+    "string": "悲恸的咆哮响彻夜空，渡濑整个人已经陷入了混乱。"
   },
   "003560": {
     "context": "003560",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――やがて渡瀬は取り押さえられた。"
+    "string": "——过了一会儿，渡濑被消防队员们制伏了。"
   },
   "003565": {
     "context": "003565",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして亘は消防隊員たちの手で、瓦礫の下から引き出されたが――"
+    "string": "亘也被消防队员们从瓦砾堆下拉了出来——"
   },
   "003626": {
     "context": "003626",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その時にはすでに、彼女は息絶えていた……。"
+    "string": "然而此时的她，已经没有了呼吸……"
   },
   "003683": {
     "context": "003683",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――『鹿鳴市同時多発火災』――"
+    "string": "——“鹿鸣市连环火灾”——"
   },
   "003688": {
     "context": "003688",
     "code": "0x45",
     "developer_comment": "",
-    "string": "この夜起きた出来事は、後にそう呼ばれた。"
+    "string": "人们这样称呼这一晚发生的悲剧。"
   },
   "003771": {
     "context": "003771",
     "code": "0x85",
-    "string": "@auto-import 0025 001143"
+    "string": "　%N"
   },
   "003774": {
     "context": "003774",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２０１４年、９月１６日。"
+    "string": "2014 年，9 月 16 日"
   },
   "003778": {
     "context": "003778",
@@ -1261,7 +1261,7 @@
     "context": "003781",
     "code": "0x45",
     "developer_comment": "",
-    "string": "鹿鳴市中の実に１５箇所で、同時に火災が発生したのだ。"
+    "string": "这一天，鹿鸣市内的足足 15 个地方，同时发生了火灾。"
   },
   "003785": {
     "context": "003785",
@@ -1272,263 +1272,263 @@
     "context": "003788",
     "code": "0x45",
     "developer_comment": "",
-    "string": "鹿鳴市立病院を始め、一般家屋、公共施設、雑居ビル、そして渡瀬たち家族の住むマンションなど、様々な建物に無差別に火が放たれ、"
+    "string": "犯人对各种各样的建筑物进行了不加区别的纵火，遭到纵火的建筑以鹿鸣市立医院为首，还包括了一般住房、公共设施、混居房，以及渡濑的家人们居住的公寓。"
   },
   "003791": {
     "context": "003791",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一夜のうちにそれらは焼け落ちた。"
+    "string": "一夜之间，这些建筑物全部被烧毁。"
   },
   "003795": {
     "context": "003795",
     "code": "0x85",
-    "string": "@auto-import 0025 001143"
+    "string": "　%N"
   },
   "003798": {
     "context": "003798",
     "code": "0x45",
     "developer_comment": "",
-    "string": "死者１１８名。"
+    "string": "死者 118 人。"
   },
   "003801": {
     "context": "003801",
     "code": "0x45",
     "developer_comment": "",
-    "string": "重軽傷者２３２名。"
+    "string": "伤者 232 人。"
   },
   "003805": {
     "context": "003805",
     "code": "0x85",
-    "string": "@auto-import 0102 001086"
+    "string": "　%N　%N　%N"
   },
   "003808": {
     "context": "003808",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてその死者の中には、亘のみならず……"
+    "string": "而在这些死者中，不仅包括亘……"
   },
   "003812": {
     "context": "003812",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0102 001086"
+    "string": "还包括了渡濑的双亲。"
   },
   "003883": {
     "context": "003883",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐに犯人は捕まった。"
+    "string": "犯人很快就被逮捕了。"
   },
   "003888": {
     "context": "003888",
     "code": "0x45",
     "developer_comment": "",
-    "string": "街に放火したのは、ある過激派集団だったらしい。"
+    "string": "纵火的似乎是某个激进派团体。"
   },
   "003893": {
     "context": "003893",
     "code": "0x45",
     "developer_comment": "",
-    "string": "急速に増えつつあるコミュニケーターに対し、示威行動を行ったのだという。"
+    "string": "他们对 Communicator 的快速增加而感到不满，所以采取了示威行动。"
   },
   "003898": {
     "context": "003898",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが渡瀬は、そんな事に興味はなかった。"
+    "string": "不过，渡濑对这些事情提不起丝毫的兴趣。"
   },
   "003903": {
     "context": "003903",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一夜にして全てを失った事を、ただ受け止められずにいた。"
+    "string": "只是一晚上，他就失去了所有，他的心里还无法接受这一切。"
   },
   "003959": {
     "context": "003959",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――それから２ヵ月後。"
+    "string": "——两个月后。"
   },
   "003964": {
     "context": "003964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は焼け落ちた病院跡に佇んでいた。"
+    "string": "渡濑独自站在烧毁了的医院遗址里。"
   },
   "003970": {
     "context": "003970",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……ここで、亘が……）"
+    "string": "（……亘就是在这儿……）"
   },
   "003975": {
     "context": "003975",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思っても、もはや涙も出なかった。"
+    "string": "就算心里无限悲痛，眼泪却早已流干了。"
   },
   "003980": {
     "context": "003980",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脚のギプスはすでに取れていたが、心の傷は癒えないままだ。"
+    "string": "脚伤早已治好，心伤却难以愈合。"
   },
   "004035": {
     "context": "004035",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……別れ際に、言葉も交わせなかったな……）"
+    "string": "（……离别的时候，我都没能和她多说几句话……）"
   },
   "004041": {
     "context": "004041",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（どうして俺なんかのために、あいつは……）"
+    "string": "（为什么那家伙，会为了我这种人……）"
   },
   "004046": {
     "context": "004046",
     "code": "0x45",
     "developer_comment": "",
-    "string": "家族がみな死んだのに、自分だけが生き残った事が辛かった。"
+    "string": "明明家人都死去了，自己一个人却留了下来，老天爷太不讲道理了。"
   },
   "004051": {
     "context": "004051",
     "code": "0x45",
     "developer_comment": "",
-    "string": "生きている事を苦痛にさえ感じていた。"
+    "string": "对现在的渡濑来说，就连活着都是一种痛苦。"
   },
   "004120": {
     "context": "004120",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……亘はやりたい事があって、夢があって、それに向けて生きていた……）"
+    "string": "（……亘有想做的事，她有梦想，而且为了这梦想一直在努力……）"
   },
   "004126": {
     "context": "004126",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（なのにどうして、あいつじゃなく……未来に何の望みも持ってない俺が、生き残ったんだ……？）"
+    "string": "（可为什么，活着的不是她……而是这个对未来什么期望都没有的我呢……？）"
   },
   "004142": {
     "context": "004142",
     "code": "0x45",
     "developer_comment": "",
-    "string": "この２ヶ月、その問いがずっと頭を巡っていた。"
+    "string": "两个月以来，这一疑问一直在渡濑的脑中挥之不去。"
   },
   "004147": {
     "context": "004147",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ここに来れば答えが見つかるかとも思ったが、むろんそんな事はない。"
+    "string": "他指望来到这里就能找到答案，但这当然是不可能的。"
   },
   "004153": {
     "context": "004153",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（亘、教えてくれ……）"
+    "string": "（亘，告诉我……）"
   },
   "004159": {
     "context": "004159",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（俺はこれから、どうすればいい……？）"
+    "string": "（我该怎么办……？）"
   },
   "004164": {
     "context": "004164",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0275 000992"
+    "string": "正当渡濑沉浸在思绪中时——"
   },
   "004175": {
     "context": "004175",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不意に携帯が鳴った。"
+    "string": "手机忽然响了起来。"
   },
   "004181": {
     "context": "004181",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0060 000643"
+    "string": "（……？）"
   },
   "004192": {
     "context": "004192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はのろのろと電話に出る。"
+    "string": "渡濑慢吞吞地接了电话。"
   },
   "004197": {
     "context": "004197",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると聞き覚えのある声が聞こえてきた。"
+    "string": "一个熟悉的声音从电话那头传了过来。"
   },
   "004205": {
     "context": "004205",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「お世話になっております。鹿鳴市役所厚生課の、藤本です」"
+    "string": "「承蒙关照，我是鹿鸣市厚生课的藤本」 #review:不知道厚生课怎么翻"
   },
   "004216": {
     "context": "004216",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あ……どうも」"
+    "string": "「啊……你好」"
   },
   "004221": {
     "context": "004221",
     "code": "0x45",
     "developer_comment": "",
-    "string": "例の火災の後、被害者たちに対し、市の厚生課が様々な便宜を図ってくれた。"
+    "string": "那起火灾之后，市厚生课为被害者们提供了各种各样的便利。"
   },
   "004226": {
     "context": "004226",
     "code": "0x45",
     "developer_comment": "",
-    "string": "骨折中の渡瀬に対しては、病院の移送や緒手続きなど――"
+    "string": "例如他们帮助身患骨折的渡濑进行了医院的转移以及各种手续的办理—— #review"
   },
   "004231": {
     "context": "004231",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の担当者である厚生課員が、電話の向こうで言う。"
+    "string": "电话对面的正是负责帮助渡濑的厚生课职员，他接着说道："
   },
   "004239": {
     "context": "004239",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「……今回の事件を受け、我が鹿鳴市は被害者遺族に、できる限りの援助を行う事を決定しました」"
+    "string": "「……关于此次事件，我们鹿鸣市政府决定对受害者家属提供尽可能的援助」"
   },
   "004248": {
     "context": "004248",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「犯罪被害者等支援条例に基づき、未成年者に対しては、住居の提供と生活保護の支給を行います」"
+    "string": "「基于犯罪被害者等支援法规，我们将为未成年人提供住所及其他必须的生活保障」 #review"
   },
   "004259": {
     "context": "004259",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0012 001127"
+    "string": "「非常感谢」"
   },
   "004264": {
     "context": "004264",
     "code": "0x45",
     "developer_comment": "",
-    "string": "沈痛な声で言う職員に、渡瀬は淡々と答えた。"
+    "string": "职员的声音充满沉痛，渡濑的回答却十分冷淡。"
   },
   "004269": {
     "context": "004269",
     "code": "0x45",
     "developer_comment": "",
-    "string": "職員はわずかな沈黙の後、静かな口調で言う。"
+    "string": "短暂的沉默过后，职员用平静的口吻说道："
   },
   "004277": {
     "context": "004277",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「……我々は君の生活と将来に、不安を与えないよう取り計らうつもりです」"
+    "string": "「……我们希望能为你的现在与将来，尽可能地扫除障碍」"
   },
   "004288": {
     "context": "004288",
@@ -1540,90 +1540,90 @@
     "context": "004296",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「例えば君が高校に復学し、さらに大学への進学を望むなら、その支援をします」"
+    "string": "「比如你想重新回高中复课，甚至进一步地想进入大学深造的话，我们都会支援你」"
   },
   "004304": {
     "context": "004304",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「自立を望むのなら、望む仕事に就けるようサポートします」"
+    "string": "「如果你渴望自立的话，我们也会帮助你找到你想要的工作」"
   },
   "004310": {
     "context": "004310",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0004 001422"
+    "string": "「……」"
   },
   "004318": {
     "context": "004318",
     "code": "0x45",
     "developer_comment": "厚生課員",
-    "string": "「……君は、今後どうするつもりですか？」"
+    "string": "「……今后，你想干什么？」"
   },
   "004323": {
     "context": "004323",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう聞かれた時――"
+    "string": "面对着这个问题——"
   },
   "004328": {
     "context": "004328",
     "code": "0x45",
     "developer_comment": "",
-    "string": "亘の言葉が、耳に蘇った。"
+    "string": "亘的话，在渡濑耳边复苏了："
   },
   "004404": {
     "context": "004404",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「――命を救うって事は、その人の未来を護るって事だよ」"
+    "string": "「——救人就是保护那个人的未来」# chunk 294"
   },
   "004415": {
     "context": "004415",
     "code": "0x45",
     "developer_comment": "亘",
-    "string": "「それってすごく尊いことなんじゃないかなぁって思って……」"
+    "string": "「我觉得这是件特别可贵的事情……」"
   },
   "004431": {
     "context": "004431",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉を思い出した瞬間。"
+    "string": "在渡濑回想起这些话的那一瞬间——"
   },
   "004436": {
     "context": "004436",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の口から、ひとりでに声が溢れていた。"
+    "string": "答案自然地从渡濑的口中吐了出来。"
   },
   "004447": {
     "context": "004447",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……俺は……」"
+    "string": "「……我……」"
   },
   "004458": {
     "context": "004458",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「俺は、レスキュー隊員になります」"
+    "string": "「我想成为救援队员」"
   },
   "004463": {
     "context": "004463",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――亘に命を救われた自分が、せめてもの恩返しをするとしたら、それしかない。"
+    "string": "——对拯救了自己的亘，这是渡濑能想到的唯一的报恩了。"
   },
   "004469": {
     "context": "004469",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（亘の夢を、継ごう……）"
+    "string": "（亘的梦想，就由我来继承……）"
   },
   "004474": {
     "context": "004474",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは彼が、己の生き方を決めた瞬間だった。"
+    "string": "这一刻，笠鹫渡濑决定了自己要走的人生路。"
   }
 }
