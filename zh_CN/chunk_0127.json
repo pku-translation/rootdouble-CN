@@ -1028,7 +1028,7 @@
     "context": "003334",
     "code": "0x45",
     "developer_comment": "",
-    "string": "能打开这道门禁的，只有渡濑手里的“等级 N”的门禁卡！"
+    "string": "能打开这道门禁的，只有渡濑手里的“等级 N”门禁卡！"
   },
   "003355": {
     "context": "003355",
@@ -1058,7 +1058,7 @@
     "context": "003527",
     "code": "0x45",
     "developer_comment": "",
-    "string": "应该是那个“WX 粒子”的影响吧，身体里出现了一阵奇怪的感觉，指尖也开始痉挛。"
+    "string": "应该是那个“WX 粒子”的影响吧，身体里闪过一阵异样的感觉，指尖开始痉挛。"
   },
   "003532": {
     "context": "003532",
@@ -1070,31 +1070,31 @@
     "context": "003538",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（有等级 N 门禁卡的，只有我……）"
+    "string": "（手里有等级 N 门禁卡的，只有我一个人……）"
   },
   "003544": {
     "context": "003544",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（如果这扇门关上了的话，就能阻止那些家伙的追击了！）"
+    "string": "（只要这道门关上了，那群家伙就都追不进来了！）"
   },
   "003549": {
     "context": "003549",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么想着的时候，"
+    "string": "但就在此时，"
   },
   "003554": {
     "context": "003554",
     "code": "0x45",
     "developer_comment": "",
-    "string": "还开着的门的另一边，"
+    "string": "洞开的门禁的另一侧，"
   },
   "003715": {
     "context": "003715",
     "code": "0x45",
     "developer_comment": "",
-    "string": "拿着灭火器的风见出现了。"
+    "string": "出现了拿着灭火器的，风见的身影。"
   },
   "003721": {
     "context": "003721",
@@ -1106,85 +1106,85 @@
     "context": "003726",
     "code": "0x45",
     "developer_comment": "",
-    "string": "她的目光穿透了渡濑。"
+    "string": "她的目光，贯穿了渡濑。"
   },
   "003731": {
     "context": "003731",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后风见——"
+    "string": "紧接着——"
   },
   "003767": {
     "context": "003767",
     "code": "0x45",
     "developer_comment": "",
-    "string": "猛然朝着渡濑的方向冲了过来！"
+    "string": "她瞄准渡濑，猛冲了过来！"
   },
   "003827": {
     "context": "003827",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「关门！快点！」"
+    "string": "「赶紧，关上啊！」"
   },
   "003832": {
     "context": "003832",
     "code": "0x45",
     "developer_comment": "",
-    "string": "门开始慢慢地关上。但是来不及。"
+    "string": "门禁开始缓缓关闭。但明显来不及了。"
   },
   "003839": {
     "context": "003839",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见穿过了门，"
+    "string": "风见穿过门禁，"
   },
   "003898": {
     "context": "003898",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后用灭火器，朝渡濑的头部挥下。"
+    "string": "举起灭火器，对着渡濑的头部砸了下来。"
   },
   "003930": {
     "context": "003930",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「咳！！」"
+    "string": "「呃！！」"
   },
   "003935": {
     "context": "003935",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑的眼中闪过了火花。"
+    "string": "渡濑眼冒金星。"
   },
   "003959": {
     "context": "003959",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他失去了平衡感，身体向旁边倾倒。"
+    "string": "他失去了平衡感，开始斜着倾倒。"
   },
   "004005": {
     "context": "004005",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（这，这样下去会被杀掉的……！）"
+    "string": "（这，这样下去我会被杀掉的……！）"
   },
   "004011": {
     "context": "004011",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（如果我死在这里的话……夏彦就糟了！）"
+    "string": "（如果我死在这里了……夏彦也会遭殃的！）"
   },
   "004016": {
     "context": "004016",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这个愿望，让渡濑四分五裂的精神又重新凝结在了一起。"
+    "string": "这个念头，让渡濑维系住了快要中断的意识。"
   },
   "004021": {
     "context": "004021",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后渡濑，用尽最后的力气——"
+    "string": "然后，他拼尽了最后的力气——"
   },
   "004041": {
     "context": "004041",
@@ -1208,13 +1208,13 @@
     "context": "004132",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见的呻吟声传来，和门彻底关上，几乎在同一时间。"
+    "string": "风见的惨叫声传入耳中。几乎与此同时，门禁彻底关上了。"
   },
   "004180": {
     "context": "004180",
     "code": "0x45",
     "developer_comment": "",
-    "string": "门的另外一边传来了声音。"
+    "string": "风见的叫喊，透过门板传了进来："
   },
   "004191": {
     "context": "004191",
@@ -1232,25 +1232,25 @@
     "context": "004212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这个声音越来越远。"
+    "string": "风见的声音，好像越来越遥远了。"
   },
   "004217": {
     "context": "004217",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑的头痛和身体的痉挛，迅速变得严重。"
+    "string": "头痛急剧恶化，身体的痉挛也一下子严重了起来。"
   },
   "004223": {
     "context": "004223",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（—— AD ·失效了吗！？）"
+    "string": "（—— AD ·的药效过了吗！？）"
   },
   "004228": {
     "context": "004228",
     "code": "0x45",
     "developer_comment": "",
-    "string": "想到这个的瞬间，他浑身失去了力量。"
+    "string": "发觉这一点的时候，他感觉全身的力气都被抽走了。"
   },
   "004308": {
     "context": "004308",
@@ -1268,43 +1268,43 @@
     "context": "004318",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑想要对抗这种感觉——"
+    "string": "渡濑试图与之抗衡——"
   },
   "004369": {
     "context": "004369",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——却没法忍耐。"
+    "string": "——但完全做不到。"
   },
   "004374": {
     "context": "004374",
     "code": "0x45",
     "developer_comment": "",
-    "string": "地板越来越近。"
+    "string": "地板压了过来。"
   },
   "004379": {
     "context": "004379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不行——要倒下去了！"
+    "string": "不行了——要倒了！"
   },
   "004403": {
     "context": "004403",
     "code": "0x45",
     "developer_comment": "",
-    "string": "和倒下同时，渡濑背上夏彦的重量消失了。"
+    "string": "他倒在了地板上。与此同时，背上夏彦的重量消失了。"
   },
   "004408": {
     "context": "004408",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来是不小心把他扔到了旁边去。"
+    "string": "倒下的时候，好像把他横着甩出去了。"
   },
   "004413": {
     "context": "004413",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是渡濑已经，无能为力了。"
+    "string": "只是渡濑现在，已经什么也做不到了。"
   },
   "004418": {
     "context": "004418",
