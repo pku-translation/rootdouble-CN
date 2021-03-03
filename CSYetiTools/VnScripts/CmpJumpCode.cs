@@ -6,13 +6,13 @@ using Untitled.Sexp.Attributes;
 namespace CsYetiTools.VnScripts
 {
     [SexpAsList]
-    public class PrefixedAddressCode : OpCode, IHasAddress
+    public class CmpJumpCode : OpCode, IHasAddress
     {
         public byte[] Prefix { get; set; } = new byte[4];
 
         public LabelReference TargetAddress { get; set; } = new LabelReference();
 
-        public PrefixedAddressCode(byte op) : base(op)
+        public CmpJumpCode(byte op) : base(op)
         { }
 
         public override int GetArgLength(IBinaryStream stream)

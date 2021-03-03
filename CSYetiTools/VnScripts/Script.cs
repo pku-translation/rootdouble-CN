@@ -437,8 +437,7 @@ namespace CsYetiTools.VnScripts
 
             foreach (var code in Codes) {
                 var index = $"{code.Index:000000}";
-                if (code is ScriptJumpCode scriptJumpCode) {
-                    if (!scriptJumpCode.IsJump) continue;
+                if (code is ScriptJumpCode scriptJumpCode && scriptJumpCode.TargetScript > 1) {
 
                     var prefix = code.Code switch {
                         0x02 => @"jump-script ",

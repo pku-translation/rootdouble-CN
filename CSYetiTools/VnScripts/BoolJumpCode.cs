@@ -7,7 +7,7 @@ using Untitled.Sexp.Formatting;
 namespace CsYetiTools.VnScripts
 {
     [SexpAsList]
-    public class OpCode_0C_0D : OpCode, IHasAddress
+    public class BoolJumpCode : OpCode, IHasAddress
     {
         [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         private byte Unknown1 { get; set; }
@@ -17,7 +17,7 @@ namespace CsYetiTools.VnScripts
 
         public LabelReference TargetOffset { get; set; } = new LabelReference();
 
-        public OpCode_0C_0D(byte code) : base(code) { }
+        public BoolJumpCode(byte code) : base(code) { }
 
         public override int GetArgLength(IBinaryStream stream)
             => 6;

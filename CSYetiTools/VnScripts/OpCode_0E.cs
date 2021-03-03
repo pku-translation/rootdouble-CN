@@ -10,8 +10,8 @@ namespace CsYetiTools.VnScripts
     [SexpAsList]
     public sealed class OpCode_0E : OpCode, IHasAddress
     {
-        // if _count == InvalidCount then the size of _remain will be determined by previous 0C/0D?
-        private const short InvalidCount = unchecked((short)0x80CB);
+        // if _count == RuntimeCount then the size of _remain will be determined at runtime
+        private const short RuntimeCount = unchecked((short)0x80CB);
 
         [SexpNumberFormatting(Radix = NumberRadix.Hexadecimal)]
         private ushort _unknown1;
@@ -51,7 +51,7 @@ namespace CsYetiTools.VnScripts
         {
             _unknown1 = reader.ReadUInt16LE();
             _count = reader.ReadInt16LE();
-            if (_count == InvalidCount) {
+            if (_count == RuntimeCount) {
                 var size = TargetEndOffset - (int)reader.Position;
                 if (size < 0 || size % 6 != 0)
                     throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.Position:X08}, {TargetEndOffset:X08}) (size={size})");
@@ -80,8 +80,8 @@ namespace CsYetiTools.VnScripts
         protected override void DumpArgs(TextWriter writer)
         {
             writer.Write(' '); writer.Write(_unknown1.ToHex());
-            if (_count == InvalidCount) {
-                writer.Write(' '); writer.Write(InvalidCount.ToHex());
+            if (_count == RuntimeCount) {
+                writer.Write(' '); writer.Write(RuntimeCount.ToHex());
             }
             else {
                 writer.Write(" (short)"); writer.Write(_count);

@@ -244,7 +244,7 @@ namespace CsYetiTools
                 foreach (var code in script.Codes) {
                     switch (code) {
                         case SssInputCode:
-                        case ScriptJumpCode c when c.IsJump: {
+                        case ScriptJumpCode c: {
                                 var keyStr = code.Index.ToString("000000");
                                 ignores.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
                             }
@@ -313,10 +313,46 @@ namespace CsYetiTools
             Utils.CreateOrClearDirectory(releaseDir);
             Utils.CreateOrClearDirectory(releaseDir / "data");
 
-            File.WriteAllBytes(releaseDir / "rwxe.exe", exeStream.ToArray());
+            var exeBytes = exeStream.ToArray();
+            PatchExe(exeBytes);
+            File.WriteAllBytes(releaseDir / "rwxe.exe", exeBytes);
             snPackage.WriteTo(releaseDir / "data/sn.bin", fontMapping);
             xtx.SaveBinaryTo(releaseDir / "data/font48.xtx");
             if (dumpFontTexture) texture.Save(releaseDir / "font.png");
+        }
+
+        private static void PatchExe(byte[] bytes)
+        {
+            // lea edx,[eax*8+0] -> lea edx,[eax*4+0]
+            PatchExeByte(bytes, 0x28679, 0xC5, 0x85); // 45
+            PatchExeByte(bytes, 0x2a4f9, 0xC5, 0x85); // 85
+
+            // sub edx,eax -> add edx,eax
+            PatchExeByte(bytes, 0x2867e, 0x2B, 0x03); // 45
+            PatchExeByte(bytes, 0x2a4fe, 0x2B, 0x03); // 85
+
+            // lea edx,[ebx*8+0] -> lea edx,[ebx*4+0]
+            PatchExeByte(bytes, 0x29b6f, 0xDD, 0x9D); // 47
+
+            // sub edx,ebx -> add edx,ebx
+            PatchExeByte(bytes, 0x29b74, 0x2B, 0x03); // 47
+
+            // fmul qword ptr ds:004EED78h (28.0) -> fmul qword ptr ds:004EEDF8h (32.0)
+            PatchExeByte(bytes, 0x2845f, 0x78, 0xF8); // 45
+            PatchExeByte(bytes, 0x287e3, 0x78, 0xF8); // 45
+            PatchExeByte(bytes, 0x2a5c9, 0x78, 0xF8); // 85
+
+            // fmul qword ptr ds:004EED70h (14.0) -> fmul qword ptr ds:004EEFB8h (10.0)
+            PatchExeByte(bytes, 0xbd9a, 0x70, 0xB8); // backlog
+            PatchExeByte(bytes, 0xbd9b, 0xED, 0xEF); // backlog
+        }
+
+        private static void PatchExeByte(byte[] bytes, int offset, byte rawValue, byte patchValue)
+        {
+            if (bytes[offset] != rawValue) {
+                throw new InvalidOperationException($"Failed to patch bytes[{offset:x}h] ({rawValue:X2} -> {patchValue:X2}), raw = {bytes[offset]:X2}");
+            }
+            bytes[offset] = patchValue;
         }
 
         public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)

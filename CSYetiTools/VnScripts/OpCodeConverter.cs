@@ -15,16 +15,16 @@ namespace CsYetiTools.VnScripts
             = new SortedDictionary<byte, (string name, Type type)> {
                 [0x01] = ("jump", typeof(JumpCode)),
                 [0x02] = ("script-jump", typeof(ScriptJumpCode)),
-                [0x03] = ("jump", typeof(JumpCode)),
-                [0x04] = ("script-jump", typeof(ScriptJumpCode)),
-                [0x06] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x07] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x08] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x09] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x0A] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x0B] = ("addressed", typeof(PrefixedAddressCode)),
-                [0x0C] = ("code-0c", typeof(OpCode_0C_0D)),
-                [0x0D] = ("code-0d", typeof(OpCode_0C_0D)),
+                [0x03] = ("call", typeof(JumpCode)),
+                [0x04] = ("script-call", typeof(ScriptJumpCode)),
+                [0x06] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x07] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x08] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x09] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x0A] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x0B] = ("cmp-jump", typeof(CmpJumpCode)),
+                [0x0C] = ("bool-jump", typeof(BoolJumpCode)),
+                [0x0D] = ("bool-jump", typeof(BoolJumpCode)),
             };
 
         static OpCodeConverter()

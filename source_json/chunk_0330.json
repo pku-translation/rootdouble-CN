@@ -214,6 +214,16 @@
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
   },
+  "001193": {
+    "context": "001193",
+    "code": "0x04",
+    "string": "call-script 270"
+  },
+  "001251": {
+    "context": "001251",
+    "code": "0x04",
+    "string": "call-script 270"
+  },
   "001256": {
     "context": "001256",
     "code": "0x04",
@@ -248,6 +258,16 @@
     "context": "001426",
     "code": "0x85",
     "string": "悪意に汚染された記憶が浄化されました"
+  },
+  "001541": {
+    "context": "001541",
+    "code": "0x04",
+    "string": "call-script 270"
+  },
+  "001599": {
+    "context": "001599",
+    "code": "0x04",
+    "string": "call-script 270"
   },
   "001604": {
     "context": "001604",

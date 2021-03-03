@@ -104,19 +104,19 @@ namespace CsYetiTools.VnScripts
     public abstract class OpCode
     {
         internal static SortedDictionary<byte, int> FixedLengthCodeTable = new SortedDictionary<byte, int> {
-            [0x05] = 0, // return? end-block?
 
-            [0x10] = 4,
-            [0x11] = 4,
-            [0x12] = 4,
-            [0x13] = 4,
-            [0x14] = 4,
-            [0x15] = 4,
-            [0x16] = 4,
-            [0x17] = 4,
-            [0x18] = 4,
-            [0x19] = 8,
-            [0x1A] = 4,  // BG
+            [0x10] = 4, // set %1 = %2
+            [0x11] = 4, // set %1 = %1 + %2
+            [0x12] = 4, // set %1 = %1 - %2
+            [0x13] = 4, // set %1 = %1 * %2
+            [0x14] = 4, // set %1 = %1 / %2
+            [0x15] = 4, // set %1 = %1 % %2
+            [0x16] = 4, // set %1 = %1 & %2
+            [0x17] = 4, // set %1 = %1 | %2
+            [0x18] = 4, // set %1 = rand() % %2
+            [0x19] = 8, // set %1 = ?? (not found in this game)
+
+            [0x1A] = 4, // BG
             [0x1B] = 0,
             [0x1C] = 0,
             [0x1D] = 6,
@@ -222,24 +222,24 @@ namespace CsYetiTools.VnScripts
             return op switch {
                 0x00 => new ZeroCode(),  // empty block
 
-                0x01 => new JumpCode(op),            // jump to address?
-                0x02 => new ScriptJumpCode(0x02),       // script jump?
-                0x03 => new JumpCode(op),            // jump to address?
-                0x04 => new ScriptJumpCode(0x04),       // script jump or else?
-                // 0x05 => new FixedLengthCode(op, 0),     // return? end-block?
-                0x06 => new PrefixedAddressCode(op), // invoke?
-                0x07 => new PrefixedAddressCode(op),
-                0x08 => new PrefixedAddressCode(op),
-                0x09 => new PrefixedAddressCode(op),
-                0x0A => new PrefixedAddressCode(op), // scope?
-                0x0B => new PrefixedAddressCode(op), // scope?
+                0x01 => new JumpCode(op),               // jump address
+                0x02 => new ScriptJumpCode(0x02),       // script jump
+                0x03 => new JumpCode(op),               // call address
+                0x04 => new ScriptJumpCode(0x04),       // script call
+                0x05 => new FixedLengthCode(op, 0),     // return
+                0x06 => new CmpJumpCode(op),            // jump if %1 == %2
+                0x07 => new CmpJumpCode(op),            // jump if %1 != %2
+                0x08 => new CmpJumpCode(op),            // jump if %1 > %2
+                0x09 => new CmpJumpCode(op),            // jump if %1 >= %2
+                0x0A => new CmpJumpCode(op),            // jump if %1 < %2
+                0x0B => new CmpJumpCode(op),            // jump if %1 <= %2
 
-                0x0C => new OpCode_0C_0D(op),           // scope with sub codes?
-                0x0D => new OpCode_0C_0D(op),           // scope with sub codes?
+                0x0C => new BoolJumpCode(op),           // jump if not %1
+                0x0D => new BoolJumpCode(op),           // jump if %1
 
-                0x0E => new OpCode_0E(),                // scoped by 0C/0D when count == 0x80CB ?
-                                                        // all these scopes are: [0D] 15 80 0x${code +2} and [0C] 5B 80 0x${code +2}
-                                                        // and [0E]s are always [0E] 80 80 CB 80
+                0x0E => new OpCode_0E(),                // switch jump if %1 equals case value (size = %2)
+                                                        // ending of runtime sized [0E] need to be guessed
+                                                        // in this game these [0E]s are always [0E] 80 80 CB 80
 
                 0x32 => new DebugMenuCode(),            // debug menu?
 
@@ -254,7 +254,7 @@ namespace CsYetiTools.VnScripts
                                                          // [85] 0A 00 FF FF is message-box?
                 0x86 => new NovelCode(),                 // novel
 
-                0x87 => new SssInputCode(),              // センシズ受付開始？
+                0x87 => new SssInputCode(),              // センシズ受付開始
                 0x88 => new SssHideCode(),               // センシズ受付終了？
                 0x89 => new SssFlagCode(),               // センシズフラッグ？
 
@@ -277,7 +277,7 @@ namespace CsYetiTools.VnScripts
 
                 if (opCode is OpCode_0E scopedCode) {
                     if (prevCodes.Count > 0
-                        && prevCodes.Last() is OpCode_0C_0D scopeCode
+                        && prevCodes.Last() is BoolJumpCode scopeCode
                         && scopeCode.TargetOffset.AbsoluteOffset != 0) {
                         scopedCode.TargetEndOffset = scopeCode.TargetOffset.AbsoluteOffset;
                     }
