@@ -38,73 +38,73 @@
     "context": "000184",
     "code": "0x45",
     "developer_comment": "自動放送",
-    "string": "「以后，将切换至不间断电源系统……」"
+    "string": "「现在，将切换至不间断电源系统……」# review：不确定「以降」怎么翻合适。"
   },
   "000195": {
     "context": "000195",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「——……呜，啊……！」"
+    "string": "「——……呜，呃……！」"
   },
   "000200": {
     "context": "000200",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听着冰冷的机械合成音，渡濑睁开了双眼。"
+    "string": "听到冷冰冰的合成音，渡濑睁开了双眼。"
   },
   "000254": {
     "context": "000254",
     "code": "0x45",
     "developer_comment": "",
-    "string": "站起身来看了看，却发现四周已经陷入黑暗。"
+    "string": "起身环顾，四周一片黑暗。"
   },
   "000265": {
     "context": "000265",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……怎么回事……？停电吗？」"
+    "string": "「……怎么回事……？停电了？」"
   },
   "000270": {
     "context": "000270",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑摇了摇正疼着的头，看了眼手表。"
+    "string": "渡濑晃了晃疼痛不已的头部，看了一眼手表。"
   },
   "000281": {
     "context": "000281",
     "code": "0x45",
     "developer_comment": "",
-    "string": "微微发光的液晶屏上显示出的时间是“17:50”。"
+    "string": "微微发光的液晶屏上显示的时间，是“17:50”。"
   },
   "000286": {
     "context": "000286",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看起来渡濑已经昏过去超过两小时了。"
+    "string": "看样子，渡濑昏睡了超过两个半小时。"
   },
   "000297": {
     "context": "000297",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我……怎么会……？」"
+    "string": "「我……怎么了……？」"
   },
   "000302": {
     "context": "000302",
     "code": "0x45",
     "developer_comment": "",
-    "string": "到被打到后脑，然后晕过去为止都还记得。"
+    "string": "这时他想起来，自己被打到了后脑部，晕过去了。# review：考虑到后文，我决定魔改。"
   },
   "000307": {
     "context": "000307",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后，也记得打的人是洵。"
+    "string": "打他的人是洵。"
   },
   "000312": {
     "context": "000312",
     "code": "0x45",
     "developer_comment": "",
-    "string": "终于，像是被包了一层膜一般暧昧不清的思绪，开始渐渐变得鲜明——"
+    "string": "然后，像是隔了一层毛玻璃一般模糊的记忆，一个接一个地鲜明了起来——"
   },
   "000442": {
     "context": "000442",
@@ -128,19 +128,19 @@
     "context": "000533",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（是的……然后，我之后确实听到的是……）"
+    "string": "（是这么回事……还有，之后我听到的声音……）"
   },
   "000638": {
     "context": "000638",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「是，动力切割机的……！」"
+    "string": "「那个，是动力切割机的……！」"
   },
   "000649": {
     "context": "000649",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「为什么会有那种声音……？」"
+    "string": "「当时，为什么会出现这个声音……？」"
   },
   "000660": {
     "context": "000660",
@@ -152,13 +152,13 @@
     "context": "000671",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「守部那家伙，拿着那种东西去打大叔了吗！？」"
+    "string": "「守部那家伙，就拿着这种东西去打大叔了吗！？」"
   },
   "000676": {
     "context": "000676",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑注意到这件事，愕然震惊。"
+    "string": "发觉到这个事实，渡濑愕然了。"
   },
   "000681": {
     "context": "000681",
@@ -170,37 +170,37 @@
     "context": "000686",
     "code": "0x45",
     "developer_comment": "",
-    "string": "放眼看去，那里已经开始渗血了。"
+    "string": "低头看去，那里正在往外渗血。"
   },
   "000691": {
     "context": "000691",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那是被宇喜多击中的伤口。"
+    "string": "那里中了宇喜多一弹。"
   },
   "000702": {
     "context": "000702",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「傻瓜！大叔可是有枪的啊！」"
+    "string": "「傻瓜！大叔手里有枪啊！」"
   },
   "000707": {
     "context": "000707",
     "code": "0x45",
     "developer_comment": "",
-    "string": "“手枪”和“动力切割机”——。"
+    "string": "“手枪”对“动力切割机”——"
   },
   "000712": {
     "context": "000712",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不管怎么想，洵都是处于压倒性的不利。"
+    "string": "不用说，洵处于压倒性的不利之中。"
   },
   "000717": {
     "context": "000717",
     "code": "0x45",
     "developer_comment": "",
-    "string": "转眼一看，渡濑的手枪就掉在身旁。"
+    "string": "渡濑拿着的手枪，此时就掉在近旁。"
   },
   "000728": {
     "context": "000728",
@@ -212,49 +212,49 @@
     "context": "000733",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是里面没有子弹，渡濑现在已经手无寸铁。"
+    "string": "然而子弹已经打光了。渡濑已经没有武器了。"
   },
   "000738": {
     "context": "000738",
     "code": "0x45",
     "developer_comment": "",
-    "string": "被打到的头，还感觉摇摇晃晃的。"
+    "string": "被打到的头部，现在还晕晕乎乎的。"
   },
   "000744": {
     "context": "000744",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（但是要是这样放着不管的话，连守部都会被大叔……！）"
+    "string": "（但如果再这么放着不管，守部也会被大叔……！）"
   },
   "000749": {
     "context": "000749",
     "code": "0x45",
     "developer_comment": "",
-    "string": "已经不想再看到伙伴和无辜者的死亡了。"
+    "string": "已经不想再次目睹同伴的死亡了，已经不想再次目睹无辜者的死亡了。"
   },
   "000754": {
     "context": "000754",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑扶着墙把自己撑起来——"
+    "string": "渡濑扶着墙，站起了身来——"
   },
   "000759": {
     "context": "000759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "拖着身体，强行迈出步子。"
+    "string": "拖着身体，走了出去。"
   },
   "000803": {
     "context": "000803",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——终于到了某个连接通道的时候。"
+    "string": "——走了一会儿，来到了不知哪处连接通道。"
   },
   "000808": {
     "context": "000808",
     "code": "0x45",
     "developer_comment": "",
-    "string": "好像看见前面有什么倒在地上的东西。"
+    "string": "前面好像有什么东西横在地上。"
   },
   "000819": {
     "context": "000819",
@@ -266,7 +266,7 @@
     "context": "000824",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑正定睛看去的时候，鼻子却闻到了铁锈一般的气味。"
+    "string": "渡濑正要定睛看去，突然闻到了一股铁锈味。"
   },
   "000830": {
     "context": "000830",
@@ -278,13 +278,13 @@
     "context": "000842",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——血的气味。"
+    "string": "——是血的气味。"
   },
   "000847": {
     "context": "000847",
     "code": "0x45",
     "developer_comment": "",
-    "string": "注意到周围飘荡着的这个，一股恶寒爬上了渡濑的背脊。"
+    "string": "发觉到四周漂浮着这股味道，渡濑感觉后背一阵恶寒。"
   },
   "000853": {
     "context": "000853",
