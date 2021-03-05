@@ -8,25 +8,25 @@
     "context": "000074",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「——抱歉，我回来晚了」"
+    "string": "「——抱歉，我晚了一点」"
   },
   "000079": {
     "context": "000079",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一回到引擎室，渡濑就跑到风见身边。"
+    "string": "一回到引擎室，渡濑就跑到风见面前。"
   },
   "000147": {
     "context": "000147",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「队长！怎么回事，这个防护服是什么！？」"
+    "string": "「队长！这件防护服，是怎么回事！？」"
   },
   "000158": {
     "context": "000158",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这是把多个防护服完好的部分组合起来的」"
+    "string": "「我把两件防护服上完好的部分给接起来了」"
   },
   "000187": {
     "context": "000187",
@@ -38,13 +38,13 @@
     "context": "000192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见像是被打动一样的说道，渡濑对着她点了点头。"
+    "string": "风见佩服不已地说道。渡濑点了点头。"
   },
   "000203": {
     "context": "000203",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……橘，这样终于可以逃生了」"
+    "string": "「……橘，这样一来终于能逃出去了」"
   },
   "000232": {
     "context": "000232",
@@ -56,49 +56,49 @@
     "context": "000237",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见点点头，手指指向了天花板附近的管道。"
+    "string": "风见点了点头，然后指着天花板下方的管道说道："
   },
   "000266": {
     "context": "000266",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……从设计图来看，里面那根管子像是排水管」"
+    "string": "「……从图上来看，好像里面那根是排水管道」"
   },
   "000295": {
     "context": "000295",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「如果搞错了破坏了进水管的话，这个 LABO 就会被水淹没。一定要注意」"
+    "string": "「如果弄错了，把取水管凿开了，这间 LABO 自己就会被淹没的。别弄错了」"
   },
   "000306": {
     "context": "000306",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我知道……都到这一步了，我不会犯这样的错误的」"
+    "string": "「好的……都到这一步了，我可不会犯那种低级错误的」"
   },
   "000317": {
     "context": "000317",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「首先要破坏过滤系统。稍微等我一下」"
+    "string": "「首先是破坏过滤装置。稍微等我一会儿」"
   },
   "000354": {
     "context": "000354",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑握着斧头，走到了过滤系统边上。"
+    "string": "渡濑握着斧头，走到过滤装置前面。"
   },
   "000359": {
     "context": "000359",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后狠狠地朝控制板挥下斧头。"
+    "string": "然后对着控制板，狠狠地砸了下去。"
   },
   "000518": {
     "context": "000518",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在不知道打击了多少次以后，能听到安静的水流声停止了。"
+    "string": "几斧头之后，之前一直持续着的水流声停止了。"
   },
   "000530": {
     "context": "000530",
@@ -110,13 +110,13 @@
     "context": "000564",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「这样就可以进入管道了……！」"
+    "string": "「这样一来就能进入管道了……！」"
   },
   "000569": {
     "context": "000569",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑点点头，转身面对风见。"
+    "string": "渡濑点点头，转向了风见："
   },
   "000580": {
     "context": "000580",
@@ -134,25 +134,25 @@
     "context": "000602",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我和你，你觉得应该让谁去？」"
+    "string": "「你觉得，我们两个里，应该让谁去？」"
   },
   "000613": {
     "context": "000613",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「即使留在这里，也会受到 WX 粒子的威胁的吧。但是……」"
+    "string": "「就算留在这里，过几分钟也会身处 WX 粒子的危害之下了吧……」"
   },
   "000618": {
     "context": "000618",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到这个问题，风见毫不犹豫地回答了。"
+    "string": "对于这个问题，风见毫不犹豫地回答道："
   },
   "000647": {
     "context": "000647",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我觉得我应该去」"
+    "string": "「我觉得应该让我去」"
   },
   "000658": {
     "context": "000658",
@@ -164,49 +164,49 @@
     "context": "000669",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「因为比起留在这里，进入管道必然更加危险」"
+    "string": "「相比于留在这里，进入管道可是有切实的危险的」"
   },
   "000698": {
     "context": "000698",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「在满是热水的管道内，还要行走 500 米……！」"
+    "string": "「在充满热水的管道里，走上 500 米……！」"
   },
   "000709": {
     "context": "000709",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「气瓶里的空气够不够，这一点也真的很微妙……」"
+    "string": "「气瓶里空气够不够，也真的很微妙……」"
   },
   "000738": {
     "context": "000738",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我不能让你去这种地方」"
+    "string": "「我不能让你冒这个险」"
   },
   "000743": {
     "context": "000743",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见盯着渡濑。"
+    "string": "风见直视着渡濑。"
   },
   "000748": {
     "context": "000748",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑微笑着说道。"
+    "string": "但渡濑却微微一笑："
   },
   "000759": {
     "context": "000759",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……就知道你会这样回答」"
+    "string": "「……我就知道你会这么回答」"
   },
   "000770": {
     "context": "000770",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但是，橘。这样是不行的」"
+    "string": "「不过啊，橘，那是不行的」"
   },
   "000799": {
     "context": "000799",
@@ -224,19 +224,19 @@
     "context": "000821",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这样的腿，能在狭窄的管道里走 500 米吗？」"
+    "string": "「你打算靠它，在 1 米粗的管道里爬上 500 米吗？」"
   },
   "000850": {
     "context": "000850",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「不，这种程度的伤……我之前都把天川同学他们带到这里了」"
+    "string": "「没事的，这种轻伤……我们都把天川他们带过来了」"
   },
   "000861": {
     "context": "000861",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「但是，速度应该还是会稍微降低。这样的话存活率仍然会下降」"
+    "string": "「但是，移动速度还是有些许的下降对吧。那也就意味着，存活率下降了」"
   },
   "000890": {
     "context": "000890",
@@ -248,37 +248,37 @@
     "context": "000901",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「在进入管道的那个人的肩上，压着的是这个设施里所有人的性命」"
+    "string": "「进入管道的那个人肩上，背负的可是设施里所有人的性命啊」"
   },
   "000912": {
     "context": "000912",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这样的话，成功率能提高一点是一点对吧？」"
+    "string": "「这样一来，成功率能提高一点算一点对吧？」"
   },
   "000923": {
     "context": "000923",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「所以说，橘——」"
+    "string": "「所以，橘——」"
   },
   "000934": {
     "context": "000934",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「管道，让我进去吧」"
+    "string": "「管道，由我进入」"
   },
   "000939": {
     "context": "000939",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑直白地说道。"
+    "string": "渡濑说得很直白，"
   },
   "000950": {
     "context": "000950",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……这是命令。不允许违背」"
+    "string": "「……这是命令，不允许反对」"
   },
   "000979": {
     "context": "000979",
@@ -302,7 +302,7 @@
     "context": "001043",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「喂喂，你刚刚说什么？真不像你啊」"
+    "string": "「喂喂，你在说什么啊？太不像你了」"
   },
   "001072": {
     "context": "001072",
@@ -314,19 +314,19 @@
     "context": "001083",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我在最开始的时候，非常地无力，一直被你们帮助」"
+    "string": "「最开始的时候，我什么都做不到，一直在单方面地受你帮助」"
   },
   "001094": {
     "context": "001094",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我一直想要被你所认同」"
+    "string": "「我很想得到你的认同，一直都很想」"
   },
   "001105": {
     "context": "001105",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「所以说最后的时候，让我表现一下吧」"
+    "string": "「所以，最后时刻让我表现一把吧」"
   },
   "001129": {
     "context": "001129",
@@ -338,31 +338,31 @@
     "context": "001134",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见低下头，沉默不语——"
+    "string": "风见低着头，一言不发——"
   },
   "001163": {
     "context": "001163",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……好」"
+    "string": "「……好的」"
   },
   "001168": {
     "context": "001168",
     "code": "0x45",
     "developer_comment": "",
-    "string": "像是放弃了一般，点了点头。"
+    "string": "她终究还是放弃了，点了点头。"
   },
   "001173": {
     "context": "001173",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑安心下来，然后说道。"
+    "string": "渡濑放心了。他接着说道："
   },
   "001184": {
     "context": "001184",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「好的，那么下一个是进入的准备！请帮我穿上防护服」"
+    "string": "「那好，接下来就是进入管道的准备工作了！帮我穿上防护服吧」"
   },
   "001213": {
     "context": "001213",
@@ -380,13 +380,13 @@
     "context": "001258",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见把面罩和气瓶安装好。"
+    "string": "风见则把气瓶与面罩连上了。"
   },
   "001263": {
     "context": "001263",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑右臂夹着面罩和气瓶，左手拿着斧头，对风见说道。"
+    "string": "然后，渡濑右手夹着面罩与气瓶，左手握着斧头，对风见说道："
   },
   "001313": {
     "context": "001313",
@@ -403,13 +403,13 @@
     "context": "001355",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我从这里逃生以后，就呼叫救援」"
+    "string": "「我逃出去之后，马上呼叫增援」"
   },
   "001366": {
     "context": "001366",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「虽然还是害怕把你们丢在这里……但是请等着我」"
+    "string": "「让大家留在这里，还是挺可怕的……但是，请大家等着我」"
   },
   "001383": {
     "context": "001383",
@@ -425,25 +425,25 @@
     "context": "001393",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见的眼睛，看着渡濑。"
+    "string": "风见的眼睛，注视着渡濑："
   },
   "001422": {
     "context": "001422",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「……我会等你的」"
+    "string": "「……我等着你」"
   },
   "001427": {
     "context": "001427",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那双眼睛里，不知道为什么透出了寂寞的神色。"
+    "string": "她的目光里，不知为何，隐隐透着些寂寞。"
   },
   "001432": {
     "context": "001432",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑用笑容回音，然后戴上了面罩。"
+    "string": "渡濑回以一笑，然后戴上了面罩："
   },
   "001449": {
     "context": "001449",
@@ -455,31 +455,31 @@
     "context": "001460",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后渡濑高喊了一声，开始爬梯子。"
+    "string": "一声呼号过后，渡濑开始沿着梯子向上攀爬。"
   },
   "001598": {
     "context": "001598",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——登上排水管道上面，然后拿起斧头。"
+    "string": "——他爬到排水管道旁边，然后抡起了斧头，"
   },
   "001603": {
     "context": "001603",
     "code": "0x45",
     "developer_comment": "",
-    "string": "将其狠狠地朝管子挥下。"
+    "string": "狠狠地砸到了管道的上表面。"
   },
   "001675": {
     "context": "001675",
     "code": "0x45",
     "developer_comment": "",
-    "string": "火花闪过，管子上开了一个小洞。"
+    "string": "火花四溅，管道上开了一个小洞。"
   },
   "001680": {
     "context": "001680",
     "code": "0x45",
     "developer_comment": "",
-    "string": "管子又硬又厚，只用一下的话，没有办法打开足够人通过的洞。"
+    "string": "管壁又硬又厚，仅凭一击是不可能开出容人进入的缺口的。"
   },
   "001691": {
     "context": "001691",
@@ -491,43 +491,43 @@
     "context": "001717",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑发出怒吼，不停地挥下斧头。"
+    "string": "渡濑怒吼着，一次又一次地挥动着斧头。"
   },
   "001743": {
     "context": "001743",
     "code": "0x45",
     "developer_comment": "",
-    "string": "每一次挥舞，都用出了浑身的力量。"
+    "string": "每一击，都用上了全身的力气。"
   },
   "001769": {
     "context": "001769",
     "code": "0x45",
     "developer_comment": "",
-    "string": "包含了一定要逃出去的愿望。"
+    "string": "寄宿着“一定要逃出去”的意志。"
   },
   "001795": {
     "context": "001795",
     "code": "0x45",
     "developer_comment": "",
-    "string": "慢慢地，那个洞越来越大。"
+    "string": "渐渐地，缺口越来越大。"
   },
   "001806": {
     "context": "001806",
     "code": "0x45",
     "developer_comment": "",
-    "string": "从管子里喷出了蒸气，还有少量的热水溢出来。"
+    "string": "管道内部喷出了蒸汽，还溢出了少许热水。"
   },
   "001817": {
     "context": "001817",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是量很少。水流确实是停止的。"
+    "string": "但是量很少。里面的水确实没在流动。"
   },
   "001922": {
     "context": "001922",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无数次地挥下斧头以后——终于，斧刃的部分坏了。"
+    "string": "不知挥舞了多少次斧头——终于，斧刃损坏了。"
   },
   "001933": {
     "context": "001933",
@@ -545,31 +545,31 @@
     "context": "001943",
     "code": "0x45",
     "developer_comment": "",
-    "string": "上面开好了一个足够渡濑钻入管道的大洞。"
+    "string": "管壁上的缺口，已然足够渡濑通过。"
   },
   "001954": {
     "context": "001954",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……好的！」"
+    "string": "「……好了！」"
   },
   "002064": {
     "context": "002064",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑从管子上往下看。"
+    "string": "渡濑回头向下方望去。"
   },
   "002069": {
     "context": "002069",
     "code": "0x45",
     "developer_comment": "",
-    "string": "只见风见正在担心地仰望着他。"
+    "string": "只见风见也正担心地仰望着他。"
   },
   "002080": {
     "context": "002080",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘，管道上开出洞了！」"
+    "string": "「橘，管道上的缺口，我开完了！」"
   },
   "002091": {
     "context": "002091",
@@ -581,7 +581,7 @@
     "context": "002096",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说完以后，从下面传来了声音。"
+    "string": "渡濑说完，下方传来了回应声："
   },
   "002107": {
     "context": "002107",
@@ -593,13 +593,13 @@
     "context": "002118",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「请一定，要回来啊！」"
+    "string": "「请你一定，平安归来啊！」"
   },
   "002171": {
     "context": "002171",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「刚才的约定，请一定要遵守啊！」"
+    "string": "「刚才那个约定，请一定要实现啊！」"
   },
   "002182": {
     "context": "002182",
@@ -617,37 +617,37 @@
     "context": "002248",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑点点头，然后钻进了洞里。"
+    "string": "渡濑点了点头，然后跨进了管道里。"
   },
   "002253": {
     "context": "002253",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这是这个设施里剩下的，最后的逃生出口。"
+    "string": "跨进了这间设施仅存的，最后一个逃生出口之中。"
   },
   "002258": {
     "context": "002258",
     "code": "0x45",
     "developer_comment": "",
-    "string": "钻到满是热水的管道里。"
+    "string": "跨进了充满热水的管道之中。"
   },
   "002324": {
     "context": "002324",
     "code": "0x45",
     "developer_comment": "",
-    "string": "管道里一片漆黑。"
+    "string": "水管里，一片漆黑。"
   },
   "002329": {
     "context": "002329",
     "code": "0x45",
     "developer_comment": "",
-    "string": "热量透过防护服传来。"
+    "string": "热量穿过防护服，透了进来。"
   },
   "002334": {
     "context": "002334",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这里面走 500 米的话，就能到达鹿鸣湖。"
+    "string": "只要能走完这 500 米的路，就能抵达鹿鸣湖了。"
   },
   "002340": {
     "context": "002340",
@@ -659,13 +659,13 @@
     "context": "002389",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——渡濑坚定决心，迈步向前。"
+    "string": "——渡濑下定决心，迈出了第一步。"
   },
   "002394": {
     "context": "002394",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为了拯救大家，在黑暗中独行——"
+    "string": "为了把所有人都救出去，他独自一人，在黑暗中前行——"
   },
   "002450": {
     "context": "002450",
