@@ -279,7 +279,8 @@ namespace CsYetiTools
             FilePath translationDir,
             FilePath releaseDir,
             bool dumpFontTexture = false,
-            bool debugChunkNum = false)
+            bool debugChunkNum = false,
+            bool debugSource = false)
         {
             Console.Write("Translating executable... "); Console.Out.Flush();
             var exePeeker = Utils.Time(() => {
@@ -290,7 +291,7 @@ namespace CsYetiTools
 
             Console.Write("Translating sn-package... "); Console.Out.Flush();
             Utils.Time(() => {
-                snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum);
+                snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum, debugSource);
                 return snPackage;
             });
 

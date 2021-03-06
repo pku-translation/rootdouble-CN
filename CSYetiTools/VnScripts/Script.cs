@@ -483,7 +483,8 @@ namespace CsYetiTools.VnScripts
             return dict;
         }
 
-        public void ApplyTranslations(IDictionary<int, string> translations, IDictionary<string, string> nameTable)
+        public void ApplyTranslations(IDictionary<int, string> translations, IDictionary<string, string> nameTable,
+            string? prefix = null, bool debugSource = false)
         {
             foreach (var (index, translation) in translations) {
                 var code = GetCodeAt(index);
@@ -495,7 +496,9 @@ namespace CsYetiTools.VnScripts
                     throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
                 }
 
-                strCode.Content = translation;
+                strCode.Content = debugSource
+                    ? prefix + translation + "%N" + prefix + strCode.Content
+                    : prefix + translation;
             }
 
             foreach (var code in _codes.OfType<ExtraDialogCode>().Where(c => c.IsCharacter)) {

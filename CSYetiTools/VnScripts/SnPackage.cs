@@ -269,7 +269,8 @@ namespace CsYetiTools.VnScripts
             }
         }
 
-        public void ApplyTranslations(FilePath sourceDir, FilePath translationDir, bool debugChunkNum = false)
+        public void ApplyTranslations(FilePath sourceDir, FilePath translationDir,
+            bool debugChunkNum = false, bool debugSource = false)
         {
             var sourceNamesPath = sourceDir / "names.json";
             var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
@@ -326,9 +327,6 @@ namespace CsYetiTools.VnScripts
                                     Utils.PrintError($"[{i:0000}:{k}] {importingInfo} unknown source {targetChunk:0000}:{targetIndex:000000}");
                                 }
                             }
-                            if (debugChunkNum) {
-                                translation = $"[{i:0000}] " + translation;
-                            }
                             translationTable.Add(index, translation);
                         }
                     }
@@ -340,7 +338,8 @@ namespace CsYetiTools.VnScripts
 
             foreach (var (i, script) in _scripts.WithIndex()) {
                 try {
-                    script.ApplyTranslations(translationTables[i], nameTable);
+                    script.ApplyTranslations(translationTables[i], nameTable,
+                        debugChunkNum ? $"[{i:0000}] ": null, debugSource);
                 }
                 catch (Exception exc) {
                     throw new InvalidDataException($"Error translating chunk_{i:0000}", exc);
