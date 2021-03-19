@@ -79,19 +79,19 @@
     "context": "000631",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0186 000330"
+    "string": "「啊，算是吧……」#以下部分在引用原文部分对应不上，不知道有没有该一致性的地方"
   },
   "000672": {
     "context": "000672",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「本当かね？」"
+    "string": "「真的吗？」"
   },
   "000728": {
     "context": "000728",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なあ、おっさん。あんたまだ、俺が記憶喪失かどうか疑ってるんじゃないだろうな？」"
+    "string": "「我说大叔。你现在都还在怀疑我是不是真的失忆了吗」"
   },
   "000795": {
     "context": "000795",
@@ -103,31 +103,31 @@
     "context": "001066",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0172 006009"
+    "string": "「算是吧」"
   },
   "001082": {
     "context": "001082",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0081 001386"
+    "string": "@auto-import 0318 000672"
   },
   "001138": {
     "context": "001138",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おっさんよ、なんだその質問？」"
+    "string": "「大叔，你为什么会这么问呢？」"
   },
   "001154": {
     "context": "001154",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0005 001803"
+    "string": "「诶？」"
   },
   "001210": {
     "context": "001210",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「まるで腹を探るみてぇじゃねぇかよ……なんか言いたい事でもあんのか？」"
+    "string": "「你就好像是在试探我一样……是不是有什么话想说？」"
   },
   "001277": {
     "context": "001277",
@@ -145,223 +145,223 @@
     "context": "001377",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その口ぶりには、不審な点は見受けられなかった。"
+    "string": "宇喜多没在他的话里找到疑点。"
   },
   "001450": {
     "context": "001450",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（隊長さんの言葉を信じるなら、どうやら橘さんたちも、彼の記憶喪失を疑ってないらしいな……）"
+    "string": "（如果我相信队长的话的话，估计橘她们也不会怀疑他的失忆吧……）"
   },
   "001456": {
     "context": "001456",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（隊長さんの言動に不審点があれば、橘さんたちが気付くはずだ）"
+    "string": "（如果队长的说话做事有疑点的话，橘她们应该会注意到）"
   },
   "001462": {
     "context": "001462",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（という事は、どうやら隊長さんは本当に……！？）"
+    "string": "（怎么回事，看起来队长是真的……！？）"
   },
   "001467": {
     "context": "001467",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこまで考えて、宇喜多はようやく渡瀬の記憶喪失を確信した。"
+    "string": "想到这里，宇喜多终于是确定了渡濑已经失忆了。"
   },
   "001473": {
     "context": "001473",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（だが、どうして隊長さんは記憶喪失になったんだ！？　まさか、誰かに頭を殴られて！？）"
+    "string": "（但是，为什么队长会失忆呢！？该不会是头被人打了吧！？）"
   },
   "001479": {
     "context": "001479",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（だとすると、隊長さんを殴った可能性があるのは――）"
+    "string": "（这样的话，有机会攻击队长的人——）"
   },
   "001484": {
     "context": "001484",
     "code": "0x45",
     "developer_comment": "",
-    "string": "思いつくのは唯１人。"
+    "string": "能想到的只有一个人。"
   },
   "001540": {
     "context": "001540",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（――この場にいない、『桧山隊員』が全ての元凶なのか！？）"
+    "string": "（——现在不在这里的，“桧山队员”是这一切的元凶！？）"
   },
   "001545": {
     "context": "001545",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その結論に辿り着き、宇喜多の心は震撼した。"
+    "string": "得出了结论，宇喜多吃了一惊。"
   },
   "001550": {
     "context": "001550",
     "code": "0x45",
     "developer_comment": "",
-    "string": "もし桧山がＱから別命を受けていたのだとしたら――！"
+    "string": "如果桧山从 Q 那里接到了不同的指令的话——！"
   },
   "001615": {
     "context": "001615",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多は桧山に連れ去られた被験体Ｎの無事を、祈らずにはいられなかった。"
+    "string": "宇喜多不得不祈祷被桧山带走的实验对象 N 平安无事。"
   },
   "001665": {
     "context": "001665",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ともかく無事に消火システムを作動させ、宇喜多らはラボの捜索を再開した。"
+    "string": "不管怎样，他们顺利地打开了灭火系统，然后继续对 LABO 的搜索。"
   },
   "001670": {
     "context": "001670",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして第４エリア外周棟の、地下２階に辿り着いた時――"
+    "string": "然后在他们到达第 4 区域外环楼的地下 2 层的时候——"
   },
   "001784": {
     "context": "001784",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0186 000330"
+    "string": "@import 0318 000631"
   },
   "001795": {
     "context": "001795",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0318 000672"
+    "string": "「真的吗？」"
   },
   "001800": {
     "context": "001800",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多がそう言うと――渡瀬は低い声で言った。"
+    "string": "听到宇喜多的话——渡濑低声说道。"
   },
   "001829": {
     "context": "001829",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なあ、おっさん。あんたまだ、オレが記憶喪失かどうか疑ってるんじゃないだろうな？」"
+    "string": "@import 0318 000728"
   },
   "001855": {
     "context": "001855",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「っ！？　い、いやそんな事は……」"
+    "string": "「！？不，没这种事……」"
   },
   "001884": {
     "context": "001884",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「まぁ、疑う気持ちもわかるがな……」"
+    "string": "「嗯，我能理解你的怀疑……」"
   },
   "001913": {
     "context": "001913",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「しかし橘たちも、オレが記憶喪失だと認めているんだ」"
+    "string": "「但是橘她们都已经认为我失忆了」"
   },
   "001924": {
     "context": "001924",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「もしオレの言動行動に不審なところがあったとしたら、橘か守部が気付くだろ？」"
+    "string": "「如果我说话做事有疑点的话，橘和守部会注意到的吧？」#对照本 chunk 27 行"
   },
   "001935": {
     "context": "001935",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「まぁ、確かに……」"
+    "string": "「嗯，确实……」"
   },
   "001946": {
     "context": "001946",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「オレの事は信じられなくても、橘たちの事は信じてもいいんじゃないか？」"
+    "string": "「就算你不相信我，不应该相信橘她们吗？」"
   },
   "001957": {
     "context": "001957",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「……うむ、そうだな」"
+    "string": "「……唔，说的没错」"
   },
   "002036": {
     "context": "002036",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多はそう答えたが――内心では別の事を考えていた。"
+    "string": "宇喜多嘴上这样答道——但是心里却在想着别的事情。"
   },
   "002094": {
     "context": "002094",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（……橘さんたちは、隊長さんの部下だ。態度から察するに、敬愛の念もあるだろう……）"
+    "string": "（……橘她们是队长的部下。从她们的态度上来看，她们对队长非常尊敬……）"
   },
   "002100": {
     "context": "002100",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（そんな彼女たちなら、隊長さんの言う事を、無条件に信じてしまうんじゃないか？）"
+    "string": "（如果是这样的话，她们是不是会无条件相信队长的话？）"
   },
   "002105": {
     "context": "002105",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう、風見や洵がなんと言っていても、それが渡瀬の記憶喪失を否定する材料にはなりえないのだ。"
+    "string": "没错，不管风见和洵说什么，都无法作为否定渡濑失忆的根据。#review"
   },
   "002170": {
     "context": "002170",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（しかしなぜ同僚をたばかってまで、隊長さんは記憶喪失のフリをしているんだ）"
+    "string": "（但是为什么还没跟同伴商量好，队长就装作失忆了呢）#review"
   },
   "002176": {
     "context": "002176",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（もしや何も知らない態を装い、僕を陥れようというのではないだろうな？）"
+    "string": "（该不会是装作什么都不知道的样子来陷害我吧？）"
   },
   "002182": {
     "context": "002182",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（こうなったら皆に聞いてみるか。『隊長さんの記憶喪失は、実は演技だと思わないかね？』と）"
+    "string": "（这样的话就去问问其他人吧。“你觉得队长失忆是真的还是装的”）"
   },
   "002187": {
     "context": "002187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しかしその考えを、宇喜多はすぐに否定した。"
+    "string": "但是宇喜多马上就否定了这个想法。"
   },
   "002192": {
     "context": "002192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そんな事をすれば渡瀬自身も、他のメンバーから追及される事は目に見えている。"
+    "string": "如果这样做的话，很明显渡濑自己也会被其他的成员追究。"
   },
   "002198": {
     "context": "002198",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（くっ……なんという気持ちの悪い状況だ）"
+    "string": "（咳……真是难受的状况）"
   },
   "002204": {
     "context": "002204",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（だが――とにかく今は、姿の見えない桧山を探すことを優先しよう）"
+    "string": "（但是——总而言之现在应该优先去找到失踪的桧山）"
   },
   "002210": {
     "context": "002210",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（おそらく彼が、被験体Ｎと一緒にいるはずだ）"
+    "string": "（恐怕他现在正和实验对象 N 在一起）"
   },
   "002282": {
     "context": "002282",
@@ -385,13 +385,13 @@
     "context": "002362",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0081 001386"
+    "string": "@import 0381 001795"
   },
   "002367": {
     "context": "002367",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多がそう言った瞬間――渡瀬がくっと笑った。"
+    "string": "听到宇喜多的话——渡濑笑了一下。"
   },
   "002396": {
     "context": "002396",
@@ -403,7 +403,7 @@
     "context": "002407",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0005 001803"
+    "string": "「诶？」"
   },
   "002438": {
     "context": "002438",
@@ -415,253 +415,253 @@
     "context": "002464",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0005 004726"
+    "string": "「！！」"
   },
   "002475": {
     "context": "002475",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の微笑には、禍々しいものが浮かんでいた。"
+    "string": "渡濑的微笑里带着不祥的气息。#review"
   },
   "002504": {
     "context": "002504",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ひょっとしてあんた、俺の記憶喪失を疑ってんじゃねぇだろうな？」"
+    "string": "「该不会，你在怀疑我是不是失忆了吧？」"
   },
   "002515": {
     "context": "002515",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あえて、嘘をついていると？」"
+    "string": "「我有必要撒谎吗？」#review"
   },
   "002526": {
     "context": "002526",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「い、いや、まさかそんな……」"
+    "string": "「没，没有，我没这么……」"
   },
   "002555": {
     "context": "002555",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「馬鹿くせぇ。そんなわきゃねぇだろう」"
+    "string": "「开什么玩笑。我怎么可能在撒谎」"
   },
   "002566": {
     "context": "002566",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だいたいそんな事して、俺になんのメリットがあるんだ？」"
+    "string": "「而且这么做我有什么好处？」"
   },
   "002595": {
     "context": "002595",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「賢いその頭で考えてみろよ。学者サンなんだろ、あんた」"
+    "string": "「用你聪明的脑瓜好好想想。你这家伙，是科学家没错吧」"
   },
   "002606": {
     "context": "002606",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「う、く……」"
+    "string": "「额，唔……」"
   },
   "002635": {
     "context": "002635",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「答えられないのか？　じゃあ――」"
+    "string": "「答不上来对吧？那么——」"
   },
   "002646": {
     "context": "002646",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「あんたはなんの根拠もなく、俺を疑ったって事だな？」"
+    "string": "「你什么证据也没有，就怀疑我吗？」"
   },
   "002697": {
     "context": "002697",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がゆっくりと宇喜多に歩み寄ってくる。"
+    "string": "渡濑慢慢地走向宇喜多。"
   },
   "002702": {
     "context": "002702",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多は思わず後ずさった。"
+    "string": "宇喜多下意识地向后退去。"
   },
   "002728": {
     "context": "002728",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがすぐに背中が何かにぶつかり、それ以上は下がれなくなった。"
+    "string": "但是很快背后好像有什么东西挡住了他，没有办法继续后退了。"
   },
   "002757": {
     "context": "002757",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……おいおっさん。学校で習わなかったか？」"
+    "string": "「……喂大叔。你在学校没有学过吗？」"
   },
   "002768": {
     "context": "002768",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「『人を疑うのは、よくない事です』ってよ」"
+    "string": "「“怀疑别人是不好的”」"
   },
   "002797": {
     "context": "002797",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「俺はほんのちょっぴりムカついてんだぜ？　いつもいつも、あんたに疑うような目で見られてよ」"
+    "string": "「我稍稍有点生气了哦？你一直用怀疑的眼神看着我」"
   },
   "002808": {
     "context": "002808",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「いや、違うんだ！　僕はただ……」"
+    "string": "「不，不是这样的！我只是……」"
   },
   "002837": {
     "context": "002837",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0145 001855"
+    "string": "「只是？」"
   },
   "002848": {
     "context": "002848",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「き……君が心配なだけなんだよ」"
+    "string": "「担……担心你而已」"
   },
   "002853": {
     "context": "002853",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多は卑屈な笑みを浮かべて言う。"
+    "string": "宇喜多卑微地笑着，回答道。"
   },
   "002858": {
     "context": "002858",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると渡瀬は破顔した。"
+    "string": "然后渡濑露出了笑容。"
   },
   "002915": {
     "context": "002915",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「はっ！　そうかそうか、俺が心配だったか！」"
+    "string": "「哈！这样啊，原来你在担心我啊！」"
   },
   "002926": {
     "context": "002926",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「そ、そうとも」"
+    "string": "「是，没错」"
   },
   "002955": {
     "context": "002955",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ならいいけどな。疑われてたらどうしようと思ってたんだ」"
+    "string": "「那就好。我还在想如果被怀疑的话该怎么办呢」"
   },
   "002984": {
     "context": "002984",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だって堂島みたいなゴツイ男を素手で殺せるのは、俺くらいだもんなぁ？」"
+    "string": "「因为要徒手杀死堂岛那样强大的男人的，只有我了对吧？」"
   },
   "003010": {
     "context": "003010",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0224 001208"
+    "string": "「唔……」"
   },
   "003039": {
     "context": "003039",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「でもな、それはありえねぇよ。俺は何しろ記憶喪失だし、あいつを殺す動機なんかない」"
+    "string": "「但是，那是不可能的。我已经什么都不记得了，所以没有杀死他的动机」"
   },
   "003050": {
     "context": "003050",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「違うか、おっさん？」"
+    "string": "「没错吧，大叔？」"
   },
   "003061": {
     "context": "003061",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "@auto-import 0024 002092"
+    "string": "「啊，嗯……」"
   },
   "003090": {
     "context": "003090",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おう、それでいい。それじゃさっさと消火システムを起動するぞ」"
+    "string": "「嗯，这就好。那我们快点启动灭火系统吧」"
   },
   "003101": {
     "context": "003101",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「さ、案内してくれ」"
+    "string": "「来，给我带路吧」"
   },
   "003106": {
     "context": "003106",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言う渡瀬は、もういつもの渡瀬に戻っていた。"
+    "string": "渡濑用平时的声音说道。"
   },
   "003117": {
     "context": "003117",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「わ、わかった。こっちだ」"
+    "string": "「明，明白了。这边走」"
   },
   "003139": {
     "context": "003139",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう答えて歩き出しつつも、宇喜多は恐怖に足が震えていた。"
+    "string": "说着，宇喜多迈出了脚步。他的双脚因为恐怖而颤抖着。"
   },
   "003144": {
     "context": "003144",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――さきほど渡瀬に迫られた時――"
+    "string": "——刚刚被渡濑威胁的时候——"
   },
   "003199": {
     "context": "003199",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ふと、中学時代にクラスにいた不良の事を思い出した。"
+    "string": "他回忆起了中学的时候班上的不良少年。"
   },
   "003204": {
     "context": "003204",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いつもは朗らかで優しげでもあったが、キレると何をするのかわからない男だった。"
+    "string": "一个平时很开朗热情的少年，但是一旦生气就不知道他会做些什么。"
   },
   "003209": {
     "context": "003209",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多は彼に何度か因縁をつけられたが、その時と同様、生きた心地がしなかった。"
+    "string": "#草我不会了"
   },
   "003241": {
     "context": "003241",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（隊長さんが記憶喪失でもそうでなくとも……やっぱりどこか、危険な気がする……！）"
+    "string": "（不管队长有没有失忆……总觉得他很危险……！）"
   },
   "003247": {
     "context": "003247",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（この男、何が目的なんだ……？）"
+    "string": "（这个男的到底有什么目的……？）"
   },
   "003252": {
     "context": "003252",
     "code": "0x45",
     "developer_comment": "",
-    "string": "疑心は恐怖と共に、宇喜多の中で強くなっていった。"
+    "string": "怀疑和恐惧在宇喜多的内心里越来越强。"
   },
   "003317": {
     "context": "003317",
@@ -673,7 +673,7 @@
     "context": "003323",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（姿の見えない桧山を探すことを優先しよう）"
+    "string": "（现在应该优先去找到失踪的桧山）#本 chunk 60 行"
   },
   "003329": {
     "context": "003329",
@@ -685,61 +685,61 @@
     "context": "003334",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――だがその後、渡瀬は全くおかしな挙動を見せなかった。"
+    "string": "——但是在这之后，渡濑完全没有可疑的举动。"
   },
   "003406": {
     "context": "003406",
     "code": "0x45",
     "developer_comment": "",
-    "string": "消火システムも作動させ、宇喜多らはラボの捜索を再開する。"
+    "string": "打开了灭火系统以后，他们继续对 LABO 的搜索。"
   },
   "003411": {
     "context": "003411",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが第４エリア外周棟の、地下２階に辿り着いた時――"
+    "string": "但是在他们到达第 4 区域外环楼的地下 2 层的时候——#本 chunk 38 行"
   },
   "003501": {
     "context": "003501",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おっさん、聞いてくれ……桧山の死体が見つかった」"
+    "string": "「大叔，听我说……找到桧山的尸体了」"
   },
   "003512": {
     "context": "003512",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「なっ……そ、それは本当かね……！？」"
+    "string": "「什么……这，这是真的吗……！？」"
   },
   "003517": {
     "context": "003517",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不意に告げられた言葉に、宇喜多は混乱した。"
+    "string": "突然听到这个消息，宇喜多有些混乱。"
   },
   "003572": {
     "context": "003572",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（しかし、それでは誰が堂島やあの２名の研究員を……？）"
+    "string": "（但是，这样的话是谁把堂岛和两位研究员……？）"
   },
   "003578": {
     "context": "003578",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（いや……それともやはり桧山が犯人で、３人を殺した際に手傷を負い、そのあと火に巻かれて死んだのか……？）"
+    "string": "（不……还是说桧山是凶手，在杀死三人的时候受了伤，然后卷入火中死了吗……？）"
   },
   "003583": {
     "context": "003583",
     "code": "0x45",
     "developer_comment": "",
-    "string": "考えれば考えるほど、わけがわからなくなってくる。"
+    "string": "宇喜多不管怎么想都想不明白。"
   },
   "003600": {
     "context": "003600",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それでも宇喜多は、被験体Ｎや夏彦たちの捜索を、諦めるわけにはいかなかった……。"
+    "string": "尽管如此，宇喜多还是无法放弃对实验对象 N 和夏彦他们的搜索……"
   },
   "003631": {
     "context": "003631",
@@ -751,13 +751,13 @@
     "context": "003637",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……これでいいのかな？　多少は修復できた感じはするけど……）"
+    "string": "#import 0317 003291"
   },
   "003643": {
     "context": "003643",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（渡瀬以外の人にも、もっと信頼の感情を注ぎ込まなきゃまずいか……？）"
+    "string": "（是不是应该对渡濑以外的人，再多倾注一些信任呢……）#这个需要每个结尾都一致吗"
   },
   "003677": {
     "context": "003677",
@@ -769,13 +769,13 @@
     "context": "003683",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（なんだこれ！？　まるで渡瀬がチンピラじゃないか！）"
+    "string": "（这怎么回事！？就好像渡濑是个小混混一样！）"
   },
   "003689": {
     "context": "003689",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（もっと渡瀬に対する好意的な感情を注ぎ込まなきゃ、記憶は直りそうにないぞ！）"
+    "string": "（如果不对渡濑倾注更多善意，记忆就没法修复！）"
   },
   "003763": {
     "context": "003763",
