@@ -1,17 +1,18 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using CsYetiTools.FileTypes;
-using CsYetiTools.VnScripts;
+using CSYetiTools.Base;
+using CSYetiTools.FileTypes;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
-using static CsYetiTools.Utils;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using CSYetiTools.VnScripts;
+using static CSYetiTools.Base.Utils;
 
-namespace CsYetiTools
+namespace CSYetiTools
 {
     public class FontMapping : Encoding
     {
@@ -27,7 +28,7 @@ namespace CsYetiTools
         public const int MbWidth = MbXCount * CellSize;
         public const int MbHeight = MbYCount * CellSize;
 
-        public static IReadOnlyList<int> RawSjisTable = (
+        public static readonly IReadOnlyList<int> RawSjisTable = (
             from leading in Range(0x81, 0xa1).Concat(Range(0xe0, 0xec))
             from tail in Range(0x40, 0x7f).Concat(Range(0x80, 0xfd))
             select (leading << 8) | tail

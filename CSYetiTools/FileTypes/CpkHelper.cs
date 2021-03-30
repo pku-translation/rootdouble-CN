@@ -1,11 +1,13 @@
+using CSYetiTools.Base;
+using CSYetiTools.Base.IO;
+using CSYetiTools;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
-using CsYetiTools.IO;
 
-namespace CsYetiTools.FileTypes
+namespace CSYetiTools.FileTypes
 {
     public enum CpkFileType
     {

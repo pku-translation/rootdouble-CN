@@ -1,10 +1,9 @@
+using CSYetiTools.Base;
+using CSYetiTools.VnScripts;
 using System;
-using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
-using CsYetiTools.VnScripts;
 
-namespace CsYetiTools
+namespace CSYetiTools
 {
     internal class TestBed
     {

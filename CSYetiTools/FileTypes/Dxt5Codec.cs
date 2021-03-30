@@ -1,8 +1,9 @@
-using System;
-using CsYetiTools.IO;
+using CSYetiTools.Base;
+using CSYetiTools.Base.IO;
 using SixLabors.ImageSharp.PixelFormats;
+using System;
 
-namespace CsYetiTools.FileTypes
+namespace CSYetiTools.FileTypes
 {
     public static class Dxt5Codec
     {

@@ -3,7 +3,7 @@
 Push-Location $DataRoot
 
 try {
-    & dotnet run -p $PSScriptRoot/../CsYetiTools -c Release -- testbed
+    & dotnet run -p $PSScriptRoot/../CSYetiTools -c Release -- testbed
 }
 finally {
     Pop-Location

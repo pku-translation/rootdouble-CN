@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using CSYetiTools.Base;
+using CSYetiTools.Base.Transifex;
+using CSYetiTools.FileTypes;
+using System;
 using System.Text;
+using CSYetiTools.VnScripts;
 using System.Threading.Tasks;
-using CsYetiTools.VnScripts;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
+using System.IO;
 using Microsoft.CodeAnalysis.CSharp;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
-using CsYetiTools.FileTypes;
 using SixLabors.ImageSharp;
 
-namespace CsYetiTools
+namespace CSYetiTools
 {
     public static class Program
     {
@@ -35,9 +37,9 @@ namespace CsYetiTools
                     await TestBed.Run();
                     Console.WriteLine($"Done in {stopwatch.ElapsedMilliseconds} ms");
                 }
-                else if (args[0] == "benchmark") {
-                    Benchmarks.Run();
-                }
+                // else if (args[0] == "benchmark") {
+                //     Benchmarks.Run();
+                // }
                 else {
                     Console.WriteLine($"Unknown command \"{args[0]}\"");
                 }
@@ -56,10 +58,10 @@ namespace CsYetiTools
                 var script = CSharpScript.Create(scriptText,
                     ScriptOptions.Default
                         .AddReferences(typeof(Program).Assembly)
-                        .AddImports("CsYetiTools"
-                                  , "CsYetiTools.IO"
-                                  , "CsYetiTools.FileTypes"
-                                  , "CsYetiTools.VnScripts"
+                        .AddImports("CSYetiTools"
+                                  , "CSYetiTools.Base.IO"
+                                  , "CSYetiTools.FileTypes"
+                                  , "CSYetiTools.VnScripts"
                                   , typeof(Utils).FullName
                                   , typeof(Program).FullName
                         )
@@ -164,7 +166,7 @@ namespace CsYetiTools
             SnPackage package, string filterPattern,
             string projectSlug, string chunkFormatter, string? token = null)
         {
-            var client = new Transifex.TransifexClient(token);
+            var client = new TransifexClient(token);
             var project = client.Project(projectSlug);
 
             var filterReg = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
@@ -193,12 +195,12 @@ namespace CsYetiTools
                 if (dict.Count > 0) {
                     var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
                     try {
-                        var currentTranslations = new SortedDictionary<int, Transifex.TranslationStringInfo>();
+                        var currentTranslations = new SortedDictionary<int, TranslationStringInfo>();
                         foreach (var trans in await resource.GetTranslationStrings("zh_CN")) {
                             currentTranslations.Add(int.Parse(trans.Key), trans);
                         }
                         Console.WriteLine($"chunk {chunkIndex}");
-                        var imports = new List<Transifex.TranslationStringsPutInfo>();
+                        var imports = new List<TranslationStringsPutInfo>();
                         foreach (var (k, _) in dict) {
                             if (currentTranslations.TryGetValue(k, out var currentTranslation)
                                 && !string.IsNullOrWhiteSpace(currentTranslation.Translation)
@@ -207,7 +209,7 @@ namespace CsYetiTools
                                 continue;
                             }
                             var keyStr = k.ToString("000000");
-                            imports.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, dict[k], ""));
+                            imports.Add(new TranslationStringsPutInfo(keyStr, keyStr, dict[k], ""));
                         }
                         if (imports.Count == 0) {
                             Console.WriteLine("Empty");
@@ -233,20 +235,20 @@ namespace CsYetiTools
             SnPackage package,
             string projectSlug, string chunkFormatter, string? token = null)
         {
-            var client = new Transifex.TransifexClient(token);
+            var client = new TransifexClient(token);
             var project = client.Project(projectSlug);
 
             foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
                 if (script.Footer.ScriptIndex < 0) continue;
 
-                var ignores = new List<Transifex.TranslationStringsPutInfo>();
+                var ignores = new List<TranslationStringsPutInfo>();
 
                 foreach (var code in script.Codes) {
                     switch (code) {
                         case SssInputCode:
                         case ScriptJumpCode c: {
                                 var keyStr = code.Index.ToString("000000");
-                                ignores.Add(new Transifex.TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
+                                ignores.Add(new TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
                             }
                             break;
                     }
@@ -358,7 +360,7 @@ namespace CsYetiTools
 
         public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
         {
-            var client = new Transifex.TransifexClient(token);
+            var client = new TransifexClient(token);
             var project = client.Project(projectSlug);
 
             foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
@@ -418,9 +420,9 @@ namespace CsYetiTools
         private static void WritePo(
             FilePath path,
             string prefix,
-            IEnumerable<Transifex.TranslationStringInfo> stringInfos,
-            Func<Transifex.TranslationStringInfo, string> textSelector,
-            Func<Transifex.TranslationStringInfo, string?>? contextSelector = null)
+            IEnumerable<TranslationStringInfo> stringInfos,
+            Func<TranslationStringInfo, string> textSelector,
+            Func<TranslationStringInfo, string?>? contextSelector = null)
         {
             using var writer = new StreamWriter(path, false, Utils.Utf8) { NewLine = "\n" };
             WritePo(writer, prefix, stringInfos, textSelector, contextSelector);
@@ -429,9 +431,9 @@ namespace CsYetiTools
         private static void WritePo(
             TextWriter writer,
             string prefix,
-            IEnumerable<Transifex.TranslationStringInfo> stringInfos,
-            Func<Transifex.TranslationStringInfo, string> textSelector,
-            Func<Transifex.TranslationStringInfo, string?>? commentSelector = null)
+            IEnumerable<TranslationStringInfo> stringInfos,
+            Func<TranslationStringInfo, string> textSelector,
+            Func<TranslationStringInfo, string?>? commentSelector = null)
         {
             foreach (var info in stringInfos) {
                 var key = info.Key;
@@ -448,7 +450,7 @@ namespace CsYetiTools
 
         public static async Task GeneratePOs(FilePath outputDir, SnPackage jpPackage, SnPackage enPackage, string projectSlug, string chunkFormatter)
         {
-            var client = new Transifex.TransifexClient();
+            var client = new TransifexClient();
             var project = client.Project(projectSlug);
 
             Utils.CreateOrClearDirectory(outputDir / "ja/chunk");
@@ -465,7 +467,7 @@ namespace CsYetiTools
 
                 Console.WriteLine($"Generate chunk {indexStr} ...");
 
-                Transifex.TranslationStringInfo[] infos;
+                TranslationStringInfo[] infos;
                 while (true) {
                     try {
                         infos = await resource.GetTranslationStrings("zh_CN");
@@ -485,7 +487,7 @@ namespace CsYetiTools
 
         public static async Task GenerateSysPOs(FilePath outputDir, ExecutableStringPeeker peeker, string projectSlug, string sysFormatter)
         {
-            var client = new Transifex.TransifexClient();
+            var client = new TransifexClient();
             var project = client.Project(projectSlug);
 
             Utils.CreateOrClearDirectory(outputDir / "ja/sys");
@@ -496,7 +498,7 @@ namespace CsYetiTools
 
                 Console.WriteLine($"Generate {name} ...");
 
-                Transifex.TranslationStringInfo[] infos;
+                TranslationStringInfo[] infos;
                 while (true) {
                     try {
                         infos = await resource.GetTranslationStrings("zh_CN");

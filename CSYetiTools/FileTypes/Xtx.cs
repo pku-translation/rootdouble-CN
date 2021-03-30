@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using CsYetiTools.IO;
+using CSYetiTools.Base;
+using CSYetiTools.Base.IO;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
-using static CsYetiTools.Utils;
+using static CSYetiTools.Base.Utils;
 
-namespace CsYetiTools.FileTypes
+namespace CSYetiTools.FileTypes
 {
     public sealed class Xtx : IDisposable
     {

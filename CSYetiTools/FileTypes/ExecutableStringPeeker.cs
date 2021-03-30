@@ -1,13 +1,15 @@
+using CSYetiTools.Base;
+using CSYetiTools.Base.Transifex;
+using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using JetBrains.Annotations;
 using Untitled.Sexp;
 using Untitled.Sexp.Attributes;
 
-namespace CsYetiTools.FileTypes
+namespace CSYetiTools.FileTypes
 {
     public class StringSegment
     {
@@ -182,9 +184,9 @@ namespace CsYetiTools.FileTypes
             var segs = Segments(name);
             if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
 
-            var dict = new SortedDictionary<string, Transifex.TranslationInfo>();
+            var dict = new SortedDictionary<string, TranslationInfo>();
             foreach (var (i, seg) in segs.Reverse<StringSegment>().WithIndex()) {
-                dict.Add(i.ToString("0000"), new Transifex.TranslationInfo {
+                dict.Add(i.ToString("0000"), new TranslationInfo {
                     String = references[i],
                     Context = seg.Offset.ToString("X08"),
                     DeveloperComment = seg.Content,
@@ -234,7 +236,7 @@ namespace CsYetiTools.FileTypes
                 var path = translationDirPath / (name.Replace('-', '_') + ".json");
                 if (File.Exists(path)) {
                     try {
-                        var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, Transifex.TranslationInfo>>(path);
+                        var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, TranslationInfo>>(path);
                         var translations = dict.Values.Select(info => info.String).ToList();
                         // var offsets = new HashSet<int>(RangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
                         // var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))

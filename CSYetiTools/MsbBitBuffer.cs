@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CsYetiTools
+namespace CSYetiTools
 {
     public class MsbBitBuffer
     {
