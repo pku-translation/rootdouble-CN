@@ -14,7 +14,7 @@ namespace CSYetiTools.VnScripts
 
             public byte[] Prefix = new byte[PrefixLength];
 
-            public LabelReference Offset = new LabelReference();
+            public LabelReference Offset = new();
 
             public string Title = "";
 

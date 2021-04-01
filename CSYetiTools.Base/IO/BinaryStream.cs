@@ -48,7 +48,7 @@ namespace CSYetiTools.Base.IO
 
         protected ObjectDisposedException DisposedException()
         {
-            return new ObjectDisposedException("Stream is disposed");
+            return new("Stream is disposed");
         }
 
         private void FillBuffer(int count)
@@ -436,12 +436,12 @@ namespace CSYetiTools.Base.IO
 
         public static BinaryStream ReadFile(FilePath path, Encoding? encoding = null)
         {
-            return new BinaryStream(File.OpenRead(path), encoding);
+            return new(File.OpenRead(path), encoding);
         }
 
         public static BinaryStream WriteFile(FilePath path, Encoding? encoding = null)
         {
-            return new BinaryStream(File.Create(path), encoding);
+            return new(File.Create(path), encoding);
         }
 
     }

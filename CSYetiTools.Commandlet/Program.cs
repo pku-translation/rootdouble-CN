@@ -1,20 +1,21 @@
-﻿using CSYetiTools.Base;
-using CSYetiTools.Base.Transifex;
-using CSYetiTools.FileTypes;
-using System;
-using System.Text;
-using CSYetiTools.VnScripts;
-using System.Threading.Tasks;
+﻿using JetBrains.Annotations;
+using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
-using System.IO;
-using Microsoft.CodeAnalysis.CSharp;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 using SixLabors.ImageSharp;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using CSYetiTools.Base;
+using CSYetiTools.Commandlet.FileTypes;
+using CSYetiTools.VnScripts;
+using CSYetiTools.VnScripts.Transifex;
 
-namespace CSYetiTools
+namespace CSYetiTools.Commandlet
 {
     public static class Program
     {
@@ -58,16 +59,17 @@ namespace CSYetiTools
                 var script = CSharpScript.Create(scriptText,
                     ScriptOptions.Default
                         .AddReferences(typeof(Program).Assembly)
-                        .AddImports("CSYetiTools"
+                        .AddImports("CSYetiTools.Base"
                                   , "CSYetiTools.Base.IO"
-                                  , "CSYetiTools.FileTypes"
+                                  , "CSYetiTools.Commandlet"
+                                  , "CSYetiTools.Commandlet.FileTypes"
                                   , "CSYetiTools.VnScripts"
                                   , typeof(Utils).FullName
                                   , typeof(Program).FullName
                         )
                         .WithCheckOverflow(true)
                         .WithFileEncoding(Encoding.UTF8)
-                        .WithLanguageVersion(LanguageVersion.CSharp8));
+                        .WithLanguageVersion(LanguageVersion.LatestMajor));
                 try {
                     var stopwatch = new System.Diagnostics.Stopwatch();
                     stopwatch.Start();
@@ -89,6 +91,7 @@ namespace CSYetiTools
             }
         }
 
+        [UsedImplicitly]
         public static SnPackage Load(FilePath path, bool isStringPooled)
         {
             path = path.ToRelative();
@@ -162,6 +165,7 @@ namespace CSYetiTools
             public int DupCounter { get; set; }
         }
 
+        [UsedImplicitly]
         private static async Task FillTransifexDuplicatedStrings(
             SnPackage package, string filterPattern,
             string projectSlug, string chunkFormatter, string? token = null)
@@ -178,7 +182,7 @@ namespace CSYetiTools
 
                 var dict = new SortedDictionary<int, string>();
                 foreach (var code in script.Codes.OfType<StringCode>()) {
-                    if (code is ExtraDialogCode exDialog && !exDialog.IsDialog) continue;
+                    if (code is ExtraDialogCode {IsDialog: false}) continue;
 
                     var content = code.Content;
                     if (filterReg.IsMatch(code.Content)) {
@@ -231,6 +235,7 @@ namespace CSYetiTools
             Console.WriteLine($"{dupDict.Sum(entry => entry.Value.DupCounter)} dups of {dupDict.Count} strings");
         }
 
+        [UsedImplicitly]
         public static async Task FillTransifexIgnores(
             SnPackage package,
             string projectSlug, string chunkFormatter, string? token = null)
@@ -246,7 +251,7 @@ namespace CSYetiTools
                 foreach (var code in script.Codes) {
                     switch (code) {
                         case SssInputCode:
-                        case ScriptJumpCode c: {
+                        case ScriptJumpCode: {
                                 var keyStr = code.Index.ToString("000000");
                                 ignores.Add(new TranslationStringsPutInfo(keyStr, keyStr, "@ignore", ""));
                             }
@@ -273,6 +278,7 @@ namespace CSYetiTools
             }
         }
 
+        [UsedImplicitly]
         public static void ReleaseTranslation(
             FilePath executable,
             FilePath executableStringPool,
@@ -358,6 +364,7 @@ namespace CSYetiTools
             bytes[offset] = patchValue;
         }
 
+        [UsedImplicitly]
         public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
         {
             var client = new TransifexClient(token);
@@ -448,6 +455,7 @@ namespace CSYetiTools
             }
         }
 
+        [UsedImplicitly]
         public static async Task GeneratePOs(FilePath outputDir, SnPackage jpPackage, SnPackage enPackage, string projectSlug, string chunkFormatter)
         {
             var client = new TransifexClient();
@@ -485,6 +493,7 @@ namespace CSYetiTools
 
         }
 
+        [UsedImplicitly]
         public static async Task GenerateSysPOs(FilePath outputDir, ExecutableStringPeeker peeker, string projectSlug, string sysFormatter)
         {
             var client = new TransifexClient();

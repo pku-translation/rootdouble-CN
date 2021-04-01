@@ -1,9 +1,9 @@
+using System;
+using SixLabors.ImageSharp.PixelFormats;
 using CSYetiTools.Base;
 using CSYetiTools.Base.IO;
-using SixLabors.ImageSharp.PixelFormats;
-using System;
 
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public static class Dxt5Codec
     {
@@ -13,7 +13,7 @@ namespace CSYetiTools.FileTypes
             => checked((byte)((a1 * t1 + a2 * t2) / (t1 + t2)));
 
         private static Bgra32 Lerp(Bgra32 c1, Bgra32 c2, double t1, double t2)
-            => new Bgra32(
+            => new(
                 r: Lerp(c1.R, c2.R, t1, t2),
                 g: Lerp(c1.G, c2.G, t1, t2),
                 b: Lerp(c1.B, c2.B, t1, t2),

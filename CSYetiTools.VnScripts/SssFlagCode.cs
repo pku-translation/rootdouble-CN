@@ -25,7 +25,7 @@ namespace CSYetiTools.VnScripts
         {
             FlagIndex = reader.ReadInt16LE();
             Sound = reader.ReadInt16LE();
-            Changes = Utils.Generate(() => reader.ReadInt16LE(), 9).ToArray();
+            Changes = Utils.Generate(reader.ReadInt16LE, 9).ToArray();
         }
 
         protected override void WriteArgs(IBinaryStream writer)

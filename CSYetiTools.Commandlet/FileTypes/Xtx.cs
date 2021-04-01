@@ -1,15 +1,15 @@
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using CSYetiTools.Base;
 using CSYetiTools.Base.IO;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
 using static CSYetiTools.Base.Utils;
 
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public sealed class Xtx : IDisposable
     {
@@ -324,7 +324,7 @@ namespace CSYetiTools.FileTypes
         { }
 
         public static Xtx CreateFont(Image image, int offsetX = 0, int offsetY = 0)
-            => new Xtx(image, format: 1, fontAtlas: true, offsetX, offsetY);
+            => new(image, format: 1, fontAtlas: true, offsetX, offsetY);
 
         public byte[] ToBytes()
         {

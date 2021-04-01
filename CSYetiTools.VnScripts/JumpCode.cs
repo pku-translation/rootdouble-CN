@@ -6,7 +6,7 @@ namespace CSYetiTools.VnScripts
 {
     public class JumpCode : OpCode, IHasAddress
     {
-        public LabelReference TargetAddress { get; set; } = new LabelReference();
+        public LabelReference TargetAddress { get; set; } = new();
 
         protected override string CodeName => "jump";
 

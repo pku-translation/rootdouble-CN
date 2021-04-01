@@ -4,10 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CSYetiTools;
 using CSYetiTools.Base;
 using CSYetiTools.Base.IO;
-using CSYetiTools.Base.Transifex;
+using CSYetiTools.VnScripts.Transifex;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -73,7 +72,7 @@ namespace CSYetiTools.VnScripts
         private readonly Script[] _scripts;
 
         public FootersChunk Footers
-            => new FootersChunk(_scripts.Select(s => s.Footer));
+            => new(_scripts.Select(s => s.Footer));
 
         private SnPackage(Script[] scripts)
         {

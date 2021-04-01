@@ -1,13 +1,13 @@
-using CSYetiTools.Base;
-using CSYetiTools.Base.IO;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using CSYetiTools.Base;
+using CSYetiTools.Base.IO;
 
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public sealed class Cpk : IDisposable
     {
@@ -40,10 +40,10 @@ namespace CSYetiTools.FileTypes
 
         private class Column
         {
-            public ColumnCategory Category { get; set; }
-            public ColumnType Type { get; set; }
-            public string Name { get; set; }
-            public object? Data { get; set; }
+            public ColumnCategory Category { get; }
+            public ColumnType Type { get; }
+            public string Name { get; }
+            public object? Data { get; }
 
             public Column(ColumnCategory category, ColumnType type, string name, object? data = null)
             {
@@ -59,9 +59,9 @@ namespace CSYetiTools.FileTypes
 
         private class UtfTable
         {
-            public string Name { get; set; }
-            public Column[] Columns { get; set; }
-            public dynamic[] Rows { get; set; }
+            public string Name { get; }
+            public Column[] Columns { get; }
+            public dynamic[] Rows { get; }
             public UtfTable(string name, Column[] columns, dynamic[] rows)
             {
                 Name = name;
@@ -371,7 +371,7 @@ namespace CSYetiTools.FileTypes
 
         public static Cpk FromFile(string path)
         {
-            return new Cpk(File.OpenRead(path));
+            return new(File.OpenRead(path));
         }
 
         public void Dispose()

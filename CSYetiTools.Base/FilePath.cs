@@ -13,7 +13,7 @@ namespace CSYetiTools.Base
         }
 
         public static implicit operator FilePath(string path)
-            => new FilePath(path);
+            => new(path);
 
         public static implicit operator string(FilePath path)
             => path._path;

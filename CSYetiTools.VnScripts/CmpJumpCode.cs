@@ -6,11 +6,11 @@ namespace CSYetiTools.VnScripts
 {
     public abstract class CmpJumpCode : OpCode, IHasAddress
     {
-        public ScriptArgument Arg1 { get; set; } = new ScriptArgument();
+        public ScriptArgument Arg1 { get; set; } = new();
 
-        public ScriptArgument Arg2 { get; set; } = new ScriptArgument();
+        public ScriptArgument Arg2 { get; set; } = new();
 
-        public LabelReference TargetAddress { get; set; } = new LabelReference();
+        public LabelReference TargetAddress { get; set; } = new();
 
         public override int GetArgLength(IBinaryStream stream)
             => 4 + 4;

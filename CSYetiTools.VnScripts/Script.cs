@@ -6,7 +6,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using CSYetiTools.Base;
 using CSYetiTools.Base.IO;
-using CSYetiTools.Base.Transifex;
+using CSYetiTools.VnScripts.Transifex;
 
 namespace CSYetiTools.VnScripts
 {
@@ -25,9 +25,9 @@ namespace CSYetiTools.VnScripts
 
         private readonly ScriptHeader _header;
 
-        private readonly SortedDictionary<int, string> _labelForward = new SortedDictionary<int, string>();
+        private readonly SortedDictionary<int, string> _labelTable = new();
 
-        private readonly List<OpCode> _codes = new List<OpCode>();
+        private readonly List<OpCode> _codes = new();
 
         private readonly int _index;
 
@@ -159,36 +159,35 @@ namespace CSYetiTools.VnScripts
             }
 
             // labels
-            _labelForward = new SortedDictionary<int, string>();
             var entryIndex = 0;
             foreach (var entry in _header.Entries) {
-                if (_labelForward.TryGetValue(entry.AbsoluteOffset, out var entryName)) {
+                if (_labelTable.TryGetValue(entry.AbsoluteOffset, out var entryName)) {
                     entry.TargetLabel = entryName;
                 }
                 else {
                     var entryLabelName = $"entry-{entryIndex++:00}";
                     entry.TargetLabel = entryLabelName;
-                    _labelForward.Add(entry.AbsoluteOffset, entryLabelName);
+                    _labelTable.Add(entry.AbsoluteOffset, entryLabelName);
                 }
             }
             foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses())) {
-                if (_labelForward.TryGetValue(address.AbsoluteOffset, out var label)) {
+                if (_labelTable.TryGetValue(address.AbsoluteOffset, out var label)) {
                     address.TargetLabel = label;
                 }
                 else {
-                    _labelForward.Add(address.AbsoluteOffset, "");
+                    _labelTable.Add(address.AbsoluteOffset, "");
                 }
             }
-            var labelOffsets = _labelForward.Keys.ToList();
+            var labelOffsets = _labelTable.Keys.ToList();
             if (labelOffsets.Count >= 10000) throw new InvalidDataException($"Too many labels: {labelOffsets.Count}");
             foreach (var offset in labelOffsets) {
-                if (string.IsNullOrWhiteSpace(_labelForward[offset])) {
+                if (string.IsNullOrWhiteSpace(_labelTable[offset])) {
                     var labelName = $"label-{offset:x08}";
-                    _labelForward[offset] = labelName;
+                    _labelTable[offset] = labelName;
                 }
             }
             foreach (var address in _codes.OfType<IHasAddress>().SelectMany(c => c.GetAddresses())) {
-                address.TargetLabel = _labelForward[address.AbsoluteOffset];
+                address.TargetLabel = _labelTable[address.AbsoluteOffset];
             }
 
         }
@@ -258,6 +257,9 @@ namespace CSYetiTools.VnScripts
         {
             return Codes.Where(c => c.Code == code).OfType<T>();
         }
+
+        public IEnumerable<int> LabelOffsets
+            => _labelTable.Keys;
 
         public class StringReferenceEntry
         {
@@ -381,9 +383,9 @@ namespace CSYetiTools.VnScripts
 
             writer.WriteLine("* * * Scripts * * *");
 
-            foreach (var (i, code) in _codes.WithIndex())
+            foreach (var code in _codes)
             {
-                if (_labelForward.TryGetValue(code.Offset, out var label))
+                if (_labelTable.TryGetValue(code.Offset, out var label))
                 {
                     writer.Write("#");
                     writer.WriteLine(label);

@@ -1,4 +1,4 @@
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public class Hca
     {

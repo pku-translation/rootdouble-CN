@@ -55,7 +55,7 @@ namespace CSYetiTools.VnScripts
     public class ConcatCodes : StringListModifier
     {
         public int Index;
-        public List<int> Sources = new List<int>();
+        public List<int> Sources = new();
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {
@@ -72,7 +72,7 @@ namespace CSYetiTools.VnScripts
     [SexpAsList]
     public class DropCodes : StringListModifier
     {
-        public List<int> Indices = new List<int>();
+        public List<int> Indices = new();
 
         public override void Modify(IDictionary<int, Script.StringReferenceEntry> table)
         {

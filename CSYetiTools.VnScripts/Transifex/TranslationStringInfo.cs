@@ -1,6 +1,7 @@
+using CSYetiTools.Base;
 using System.Text;
 
-namespace CSYetiTools.Base.Transifex
+namespace CSYetiTools.VnScripts.Transifex
 {
     public class TranslationStringInfo
     {

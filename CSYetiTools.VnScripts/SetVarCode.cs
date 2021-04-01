@@ -5,9 +5,9 @@ namespace CSYetiTools.VnScripts
 {
     public abstract class SetVarCode : OpCode
     {
-        public ScriptArgument Arg { get; set; } = new ScriptArgument();
+        public ScriptArgument Arg { get; set; } = new();
 
-        public ScriptArgument Value { get; set; } = new ScriptArgument();
+        public ScriptArgument Value { get; set; } = new();
 
         protected override string CodeName => "set";
 

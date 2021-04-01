@@ -10,9 +10,9 @@ namespace CSYetiTools.VnScripts
     {
         // if _count is runtime then the size of _remain will be determined at runtime (in this game always [CB 80])
 
-        public ScriptArgument Arg { get; set; } = new ScriptArgument();
+        public ScriptArgument Arg { get; set; } = new();
 
-        public ScriptArgument Count { get; set; } = new ScriptArgument();
+        public ScriptArgument Count { get; set; } = new();
 
         private class Branch
         {

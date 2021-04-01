@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CSYetiTools.BranchViewer": {
+      "commandName": "Project",
+      "commandLineArgs": "../data/graphs",
+      "workingDirectory": "./"
+    }
+  }
+}

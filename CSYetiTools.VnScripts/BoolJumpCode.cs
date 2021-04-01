@@ -6,9 +6,9 @@ namespace CSYetiTools.VnScripts
 {
     public abstract class BoolJumpCode : OpCode, IHasAddress
     {
-        public ScriptArgument Arg { get; set; } = new ScriptArgument();
+        public ScriptArgument Arg { get; set; } = new();
 
-        public LabelReference TargetOffset { get; set; } = new LabelReference();
+        public LabelReference TargetAddress { get; set; } = new();
 
         public override int GetArgLength(IBinaryStream stream)
             => 6;
@@ -16,24 +16,24 @@ namespace CSYetiTools.VnScripts
         protected override void ReadArgs(IBinaryStream reader)
         {
             Arg = ReadArgument(reader);
-            TargetOffset = ReadAddress(reader);
+            TargetAddress = ReadAddress(reader);
         }
 
         protected override void WriteArgs(IBinaryStream writer)
         {
             WriteArgument(writer, Arg);
-            WriteAddress(writer, TargetOffset);
+            WriteAddress(writer, TargetAddress);
         }
 
         protected override void DumpArgs(TextWriter writer)
         {
             writer.Write(' '); writer.Write(Arg.ToString());
-            writer.Write(' '); writer.Write(TargetOffset);
+            writer.Write(' '); writer.Write(TargetAddress);
         }
 
         public IEnumerable<LabelReference> GetAddresses()
         {
-            yield return TargetOffset;
+            yield return TargetAddress;
         }
     }
 

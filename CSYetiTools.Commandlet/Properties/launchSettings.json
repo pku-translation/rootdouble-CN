@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CSYetiTools.Commandlet": {
+      "commandName": "Project",
+      "commandLineArgs": "testbed",
+      "workingDirectory": "../data"
+    }
+  }
+}

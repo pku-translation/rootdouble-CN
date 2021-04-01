@@ -1,6 +1,6 @@
 using Untitled.Sexp;
 
-namespace CSYetiTools.Base.Transifex
+namespace CSYetiTools.VnScripts.Transifex
 {
     public class TranslationInfo
     {

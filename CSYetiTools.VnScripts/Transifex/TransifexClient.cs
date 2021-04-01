@@ -1,11 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using CSYetiTools.Base;
 using Flurl.Http;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace CSYetiTools.Base.Transifex
+namespace CSYetiTools.VnScripts.Transifex
 {
     public enum TranslationMode
     {
@@ -30,7 +31,7 @@ namespace CSYetiTools.Base.Transifex
         }
 
         public ResourceApi Resource(string resourceSlug)
-            => new ResourceApi(_client, _projectSlug, resourceSlug);
+            => new(_client, _projectSlug, resourceSlug);
 
         public Task<ResourceInfo[]> GetResources(string projectSlug)
             => _client.GetResources(projectSlug);
@@ -101,10 +102,10 @@ namespace CSYetiTools.Base.Transifex
         }
 
         public ProjectApi Project(string projectSlug)
-            => new ProjectApi(this, projectSlug);
+            => new(this, projectSlug);
 
         public ResourceApi Resource(string projectSlug, string resourceSlug)
-            => new ResourceApi(this, projectSlug, resourceSlug);
+            => new(this, projectSlug, resourceSlug);
 
         public void Dispose()
         {

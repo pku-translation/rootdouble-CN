@@ -65,7 +65,7 @@ namespace CSYetiTools.VnScripts
 
     public abstract class OpCode
     {
-        internal static SortedDictionary<byte, int> FixedLengthCodeTable = new SortedDictionary<byte, int> {
+        internal static SortedDictionary<byte, int> FixedLengthCodeTable = new() {
 
             [0x1A] = 4, // BG
             [0x1B] = 0,
@@ -177,7 +177,7 @@ namespace CSYetiTools.VnScripts
                 0x02 => new ScriptJumpCode(),           // script jump
                 0x03 => new CallCode(),                 // call address
                 0x04 => new ScriptCallCode(),           // script call
-                0x05 => new FixedLengthCode(0),         // return
+                0x05 => new ReturnCode(),               // return
                 0x06 => new JumpIfEqCode(),             // jump if %1 == %2
                 0x07 => new JumpIfNotEqCode(),          // jump if %1 != %2
                 0x08 => new JumpIfGtCode(),             // jump if %1 > %2
@@ -239,8 +239,8 @@ namespace CSYetiTools.VnScripts
                 if (opCode is SwitchCode scopedCode) {
                     if (prevCodes.Count > 0
                         && prevCodes.Last() is BoolJumpCode scopeCode
-                        && scopeCode.TargetOffset.AbsoluteOffset != 0) {
-                        scopedCode.TargetEndOffset = scopeCode.TargetOffset.AbsoluteOffset;
+                        && scopeCode.TargetAddress.AbsoluteOffset != 0) {
+                        scopedCode.TargetEndOffset = scopeCode.TargetAddress.AbsoluteOffset;
                     }
                 }
                 else if (opCode is StringCode strCode) {
@@ -296,12 +296,12 @@ namespace CSYetiTools.VnScripts
 
         protected LabelReference ReadAddress(IBinaryStream reader)
         {
-            return new LabelReference(Offset, reader.ReadInt32LE());
+            return new(Offset, reader.ReadInt32LE());
         }
 
         protected ScriptArgument ReadArgument(IBinaryStream reader)
         {
-            return new ScriptArgument(reader);
+            return new(reader);
         }
 
         protected void WriteAddress(IBinaryStream writer, LabelReference address)
@@ -329,5 +329,11 @@ namespace CSYetiTools.VnScripts
 
         protected abstract void DumpArgs(TextWriter writer);
 
+        public override string ToString()
+        {
+            using var writer = new StringWriter();
+            Dump(writer);
+            return writer.ToString();
+        }
     }
 }

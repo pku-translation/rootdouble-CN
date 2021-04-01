@@ -1,9 +1,10 @@
-using CSYetiTools.Base;
-using CSYetiTools.VnScripts;
 using System;
 using System.Threading.Tasks;
+using CSYetiTools.Base;
+using CSYetiTools.VnScripts;
+using System.Collections.Generic;
 
-namespace CSYetiTools
+namespace CSYetiTools.Commandlet
 {
     internal class TestBed
     {
@@ -31,8 +32,18 @@ namespace CSYetiTools
             //Load("psv/sn.bin", false).Dump("psv_sn", true, true);
             //Load("steam/sn.bin", true).Dump("steam_sn", true, true);
 
-            //var jpPackage = Load("psv/sn.bin", false);
-            //package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
+            var package = Load("steam/sn.bin", true);
+            var jpPackage = Load("psv/sn.bin", false);
+            package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
+            package.ApplyTranslations("../source_json/", "../zh_CN/", true);
+
+            //var graphs = new List<RawGraph>();
+            //foreach (var (i, script) in package.Scripts.WithIndex()) {
+            //    graphs.Add(new RawGraph(i, script));
+            //}
+
+            //new RawGraph(337, package.Scripts[337]).ToGraph().Save("test337.yaml");
+            RawGraph.LoadPackage(package, false).WithIndex().ForEach(p => p.element?.Save($"graphs/{p.index:0000}.yaml"));
         }
     }
 }

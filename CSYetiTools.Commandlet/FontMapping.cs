@@ -1,5 +1,3 @@
-using CSYetiTools.Base;
-using CSYetiTools.FileTypes;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing.Processing;
@@ -9,10 +7,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using CSYetiTools.Base;
+using CSYetiTools.Commandlet.FileTypes;
 using CSYetiTools.VnScripts;
 using static CSYetiTools.Base.Utils;
 
-namespace CSYetiTools
+namespace CSYetiTools.Commandlet
 {
     public class FontMapping : Encoding
     {
@@ -145,7 +145,7 @@ namespace CSYetiTools
                 ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
 
                 if (drawGlyphBorder) {
-                    ForeachChars(img, _chars, (chr, point, ctx) => {
+                    ForeachChars(img, _chars, (_, point, ctx) => {
                         ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
                             , point + new PointF(0, 1)
                             , point + new PointF(44, 1)
@@ -210,7 +210,7 @@ namespace CSYetiTools
         public override int GetByteCount(char[] chars, int index, int count)
         {
             var result = 0;
-            foreach (var i in ..count) {
+            foreach (var _ in ..count) {
                 var c = chars[index];
                 if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
                 if (c < SingleByteMax) {
@@ -231,7 +231,7 @@ namespace CSYetiTools
         {
             var index = byteIndex;
 
-            foreach (var i in ..charCount) {
+            foreach (var _ in ..charCount) {
                 var c = chars[charIndex];
                 if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
                 if (c < SingleByteMax) {

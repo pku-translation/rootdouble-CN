@@ -8,7 +8,7 @@ namespace CSYetiTools.VnScripts
     {
         public string Content { get; set; } = "";
 
-        public LabelReference ContentOffset { get; set; } = new LabelReference();
+        public LabelReference ContentOffset { get; set; } = new();
 
         public bool IsOffset { get; set; }
 

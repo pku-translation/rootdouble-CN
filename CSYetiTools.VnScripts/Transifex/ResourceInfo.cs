@@ -1,6 +1,6 @@
 using System;
 
-namespace CSYetiTools.Base.Transifex
+namespace CSYetiTools.VnScripts.Transifex
 {
     public class ResourceInfo
     {

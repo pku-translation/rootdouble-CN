@@ -13,8 +13,8 @@ namespace CSYetiTools.VnScripts
 
     public sealed record ScriptFooter(int IndexedDialogCount, int Unknown, int FlagCodeCount, int ScriptIndex)
     {
-        public static readonly ScriptFooter Zero = new ScriptFooter(0, 0, 0, 0);
-        public static readonly ScriptFooter End = new ScriptFooter(-1, 0, 0, 0);
+        public static readonly ScriptFooter Zero = new(0, 0, 0, 0);
+        public static readonly ScriptFooter End = new(-1, 0, 0, 0);
 
         public byte[] ToBytes()
         {
@@ -28,7 +28,7 @@ namespace CSYetiTools.VnScripts
 
         public static ScriptFooter ReadFrom(IBinaryStream stream)
         {
-            return new ScriptFooter(stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE());
+            return new(stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE(), stream.ReadInt32LE());
         }
 
         public void WriteTo(IBinaryStream writer)
@@ -46,7 +46,7 @@ namespace CSYetiTools.VnScripts
 
         public static ScriptFooter operator +(ScriptFooter lhs, ScriptFooter rhs)
         {
-            return new ScriptFooter(
+            return new(
                 lhs.IndexedDialogCount + rhs.IndexedDialogCount,
                 lhs.Unknown + rhs.Unknown,
                 lhs.FlagCodeCount + rhs.FlagCodeCount,

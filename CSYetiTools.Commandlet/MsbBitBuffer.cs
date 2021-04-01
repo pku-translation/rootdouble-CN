@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CSYetiTools
+namespace CSYetiTools.Commandlet
 {
     public class MsbBitBuffer
     {
@@ -9,7 +9,7 @@ namespace CSYetiTools
             0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01
         };
 
-        private readonly List<bool> _bools = new List<bool>();
+        private readonly List<bool> _bools = new();
 
         private int _position;
 

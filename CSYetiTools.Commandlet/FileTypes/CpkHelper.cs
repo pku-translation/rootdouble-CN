@@ -1,13 +1,12 @@
-using CSYetiTools.Base;
-using CSYetiTools.Base.IO;
-using CSYetiTools;
 using System;
-using System.Linq;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
+using CSYetiTools.Base;
+using CSYetiTools.Base.IO;
 
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public enum CpkFileType
     {
@@ -79,7 +78,7 @@ namespace CSYetiTools.FileTypes
         private static SysCpkEntry HandleHca(FilePath path, byte[] data)
         {
             // not implemented
-            return new SysCpkEntry(CpkFileType.Unknown, path + ".hca", data);
+            return new(CpkFileType.Unknown, path + ".hca", data);
         }
 
         private static SysCpkEntry HandleSingleFile(FilePath path, byte[] data)

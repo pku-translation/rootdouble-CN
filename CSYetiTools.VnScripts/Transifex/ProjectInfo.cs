@@ -1,6 +1,6 @@
 using System;
 
-namespace CSYetiTools.Base.Transifex
+namespace CSYetiTools.VnScripts.Transifex
 {
     public class ProjectInfo
     {
@@ -14,6 +14,6 @@ namespace CSYetiTools.Base.Transifex
         public string Description { get; set; } = "";
         public string SourceLanguageCode { get; set; } = "";
         public string[] Teams { get; set; } = Array.Empty<string>();
-        public TeamInfo Team { get; set; } = new TeamInfo();
+        public TeamInfo Team { get; set; } = new();
     }
 }

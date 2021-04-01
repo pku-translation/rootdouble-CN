@@ -1,5 +1,3 @@
-using CSYetiTools.Base;
-using CSYetiTools.Base.Transifex;
 using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
@@ -8,8 +6,10 @@ using System.Linq;
 using System.Text;
 using Untitled.Sexp;
 using Untitled.Sexp.Attributes;
+using CSYetiTools.Base;
+using CSYetiTools.VnScripts.Transifex;
 
-namespace CSYetiTools.FileTypes
+namespace CSYetiTools.Commandlet.FileTypes
 {
     public class StringSegment
     {
@@ -122,7 +122,7 @@ namespace CSYetiTools.FileTypes
             }
         }
 
-        private List<SegmentGroup> RangeGroups { get; } = new List<SegmentGroup>();
+        private List<SegmentGroup> RangeGroups { get; } = new();
 
         public ExecutableStringPeeker(Stream stream, SValue rangesExpr, Encoding encoding)
         {

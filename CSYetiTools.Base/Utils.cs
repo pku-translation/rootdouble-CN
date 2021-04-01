@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using System.Threading.Tasks;
 
 namespace CSYetiTools.Base
 {
@@ -29,7 +30,7 @@ namespace CSYetiTools.Base
             PrintColored(ConsoleColor.Red, error);
         }
 
-        public static readonly JsonSerializerSettings JsonSettings = new JsonSerializerSettings {
+        public static readonly JsonSerializerSettings JsonSettings = new() {
             ContractResolver = new DefaultContractResolver {
                 NamingStrategy = new SnakeCaseNamingStrategy(false, false)
             },
@@ -74,7 +75,7 @@ namespace CSYetiTools.Base
         {
             input = input.Trim(' ');
             if (input.StartsWith("0x") || input.StartsWith(@"\x")) {
-                input = input.Substring(2);
+                input = input[2..];
             }
 
             if (input.Length != 2) {
@@ -172,7 +173,7 @@ namespace CSYetiTools.Base
 
         public static StreamWriter CreateStreamWriter(string path)
         {
-            return new StreamWriter(path, false, Utf8) { NewLine = "\n" };
+            return new(path, false, Utf8) { NewLine = "\n" };
         }
 
         public static void WriteAllText(string path, string text)
@@ -268,6 +269,25 @@ namespace CSYetiTools.Base
         public static IEnumerable<T> Generate<T>(Func<int, T> func, int count)
         {
             for (var i = 0; i < count; ++i) yield return func(i);
+        }
+
+        public static List<T> ParallelGenerateList<T>(Func<int, T> func, int count)
+        {
+            var list = new List<T>(count);
+            for (var i = 0; i < count; ++i) { list.Add(default!); }
+            Parallel.For(0, count, i => {
+                list[i] = func(i);
+            });
+            return list;
+        }
+
+        public static T[] ParallelGenerateArray<T>(Func<int, T> func, int count)
+        {
+            var array = new T[count];
+            Parallel.For(0, count, i => {
+                array[i] = func(i);
+            });
+            return array;
         }
 
         private static readonly byte[] MsbTable =
