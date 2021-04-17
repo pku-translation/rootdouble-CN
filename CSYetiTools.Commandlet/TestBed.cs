@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using CSYetiTools.Base;
 using CSYetiTools.VnScripts;
 using System.Collections.Generic;
+using System.IO;
 
 namespace CSYetiTools.Commandlet
 {
@@ -35,15 +36,13 @@ namespace CSYetiTools.Commandlet
             var package = Load("steam/sn.bin", true);
             var jpPackage = Load("psv/sn.bin", false);
             package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_modifiers.sexp"));
-            package.ApplyTranslations("../source_json/", "../zh_CN/", true);
+            var mem = new MemoryStream();
+            package.WriteTo(mem);
+            var cnPackage = new SnPackage(mem.ToArray(), true);
+            cnPackage.ApplyTranslations("../source_json/", "../zh_CN/", true);
 
-            //var graphs = new List<RawGraph>();
-            //foreach (var (i, script) in package.Scripts.WithIndex()) {
-            //    graphs.Add(new RawGraph(i, script));
-            //}
-
-            //new RawGraph(337, package.Scripts[337]).ToGraph().Save("test337.yaml");
-            RawGraph.LoadPackage(package, false).WithIndex().ForEach(p => p.element?.Save($"graphs/{p.index:0000}.yaml"));
+            var sceneTitles = await File.ReadAllLinesAsync("scene_titles");
+            RawGraph.LoadPackage(cnPackage, package, sceneTitles).WithIndex().ForEach(p => p.element?.Save($"graphs/{p.index:0000}.yaml"));
         }
     }
 }

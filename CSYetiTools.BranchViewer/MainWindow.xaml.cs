@@ -38,8 +38,8 @@ namespace CSYetiTools.BranchViewer
 
         private class NavigateTarget
         {
-            public int Index { get; set; }
-            public Point ScrollOffset { get; set; }
+            public int Index { get; init; }
+            public Point? ScrollOffset { get; set; }
         }
 
         public MainWindow(FilePath dataFolder)
@@ -100,7 +100,7 @@ namespace CSYetiTools.BranchViewer
 
             var currentIndex = 0;
             foreach (var (key, graph) in _graphTable) {
-                GraphList.Items.Add(new GraphItem($"[{key:0000}]", graph));
+                GraphList.Items.Add(new GraphItem($"[{key:0000}] {graph.SceneTitle}", graph));
                 _indexTable.Add(graph.Index, currentIndex++);
             }
 
@@ -109,7 +109,7 @@ namespace CSYetiTools.BranchViewer
             _dataFolder = null;
 
             if (_graphTable.Count > 0) {
-                NavigateTo(new NavigateTarget { Index = 0, ScrollOffset = new Point() }, false);
+                NavigateTo(new NavigateTarget {Index = 0, ScrollOffset = new Point()}, false);
             }
         }
 
@@ -158,18 +158,16 @@ namespace CSYetiTools.BranchViewer
         private static Hyperlink CreateHyperlink(string content, Action onClick)
         {
             var hyperlink = new Hyperlink {Inlines = {content}, Tag = "Hyper"};
-            hyperlink.Click += (sender, args) => {
-                onClick();
-            };
+            hyperlink.Click += (_, _) => onClick();
             return hyperlink;
         }
 
-        private UIElement CreateNode(Node node, ICollection<int> entryIndices, Color color)
+        private UIElement CreateNode(Node node, ICollection<int> entryIndices)
         {
             const int textWidth = 500;
-            const int linkWidth = 100;
+            const int linkWidth = 120;
             var border = new Border {
-                Background = new SolidColorBrush(color),
+                Background = new SolidColorBrush(SystemColors.WindowFrameBrush.Color) {Opacity = 0.4},
                 BorderBrush = SystemColors.ActiveBorderBrush,
                 BorderThickness = new Thickness(2),
                 CornerRadius = new CornerRadius(5),
@@ -194,29 +192,35 @@ namespace CSYetiTools.BranchViewer
                 });
             }
             foreach (var content in node.Contents) {
-                var t = content switch {
+                stackPanel.Children.Add(new Separator());
+                stackPanel.Children.Add(content switch {
                     TextContent {Character: { } ch} text =>
                         new TextBlock {
                             Inlines = {
                                 new Run("【" + ch + "】") {FontWeight = FontWeights.Bold}, new LineBreak(), text.Content
                             },
+                            ToolTip = text.RawContent,
                             TextWrapping = TextWrapping.Wrap
                         },
                     TextContent text =>
-                        new TextBlock {Text = text.Content, TextWrapping = TextWrapping.Wrap},
+                        new TextBlock {
+                            Text = text.Content, ToolTip = text.RawContent, TextWrapping = TextWrapping.Wrap,
+                        },
                     JumpContent jump =>
                         new TextBlock {
-                            Inlines = { CreateHyperlink($"<jump {jump.Script}[{jump.Entry}]>", () => NavigateTo(new NavigateTarget {
-                                Index = _indexTable[jump.Script]
-                            }, false)) },
+                            Inlines = {
+                                CreateHyperlink($"<jump {jump.Script}[{jump.Entry}]>",
+                                    () => NavigateTo(new NavigateTarget {Index = _indexTable[jump.Script]}, false))
+                            },
                             FontWeight = FontWeights.Bold,
                             HorizontalAlignment = HorizontalAlignment.Center
                         },
                     CallContent call =>
                         new TextBlock {
-                            Inlines = { CreateHyperlink($"<call {call.Script}[{call.Entry}]>", () => NavigateTo(new NavigateTarget {
-                                Index = _indexTable[call.Script]
-                            }, false)) },
+                            Inlines = {
+                                CreateHyperlink($"<call {call.Script}[{call.Entry}]>",
+                                    () => NavigateTo(new NavigateTarget {Index = _indexTable[call.Script]}, false))
+                            },
                             FontWeight = FontWeights.Bold,
                             HorizontalAlignment = HorizontalAlignment.Center
                         },
@@ -227,9 +231,7 @@ namespace CSYetiTools.BranchViewer
                             HorizontalAlignment = HorizontalAlignment.Center
                         },
                     _ => throw new ArgumentOutOfRangeException()
-                };
-                stackPanel.Children.Add(new Separator());
-                stackPanel.Children.Add(t);
+                });
             }
 
             border.Child = stackPanel;
@@ -245,15 +247,13 @@ namespace CSYetiTools.BranchViewer
             GraphList.ScrollIntoView(GraphList.SelectedItem);
             var item = (GraphItem)GraphList.SelectedItem;
             var graph = item.Graph;
-            var bg = SystemColors.WindowFrameBrush.Color;
-            bg.A = 100;
 
             var searchingTable = new Dictionary<int, SearchingNode>();
 
             foreach (var (offset, node) in graph.NodeTable) {
                 var entryIndices = Enumerable.Range(0, graph.Entries.Count).Where(i => graph.Entries[i] == offset)
                     .ToList();
-                var nodeElement = CreateNode(node, entryIndices, bg);
+                var nodeElement = CreateNode(node, entryIndices);
                 var size = nodeElement.RenderSize;
                 searchingTable.Add(offset,
                     new SearchingNode {
@@ -319,7 +319,6 @@ namespace CSYetiTools.BranchViewer
                     node.Position = new Point(x, y + (height - node.Size.Height) / 2);
                     Canvas.SetLeft(node.Element, node.Position.X);
                     Canvas.SetTop(node.Element, node.Position.Y);
-                    GraphCanvas.Children.Add(node.Element);
                     x += node.Size.Width + xSpace * 2;
                 }
                 y += sizes[level].Height + ySpace * 2;
@@ -331,24 +330,43 @@ namespace CSYetiTools.BranchViewer
                     var a = new Point(node.Position.X + node.Size.Width / 2, node.Position.Y + node.Size.Height);
                     var b = new Point(adjNode.Position.X + adjNode.Size.Width / 2, adjNode.Position.Y);
                     var scale = a.Y < b.Y ? 2 : 4;
-                    var p1 = new Point(a.X, a.Y + scale * ySpace);
-                    var p2 = new Point(b.X, b.Y - scale * ySpace);
+                    var pa = new Point(a.X, a.Y + scale * ySpace);
+                    var pb = new Point(b.X, b.Y - scale * ySpace);
                     var path = new System.Windows.Shapes.Path {
-                        IsHitTestVisible = false,
-                        StrokeThickness = 2.5,
-                        Data = new PathGeometry(new[] {
-                            new PathFigure(a, new List<PathSegment> {new BezierSegment(p1, p2, b, true)}, false)
-                        })
+                        IsHitTestVisible = false, StrokeThickness = 2.5, Opacity = 0.8
                     };
-                    path.SetResourceReference(Shape.StrokeProperty, AdonisUI.Brushes.AccentHighlightBrush);
+                    var segments = new List<PathSegment>();
+                    if (a.Y > b.Y && Math.Abs(a.X - b.X) <= 5) {
+                        var dx = a.X > canvasWidth / 2 ? -30.0 : 30.0;
+                        segments.Add(new BezierSegment(new Point(pa.X + dx, pa.Y), new Point(pb.X + dx, pb.Y), b,
+                            true));
+                    }
+                    else {
+                        segments.Add(new BezierSegment(pa, pb, b, true));
+                    }
+                    path.Data = new PathGeometry(new[] {new PathFigure(a, segments, false)});
+                    path.SetResourceReference(Shape.StrokeProperty, AdonisUI.Brushes.AccentBrush);
                     GraphCanvas.Children.Add(path);
                 }
             }
 
+            foreach (var node in searchingTable.Values) {
+                GraphCanvas.Children.Add(node.Element);
+            }
+
             GraphCanvas.Width = canvasWidth;
             GraphCanvas.Height = canvasHeight;
-            GraphScroll.ScrollToHorizontalOffset(target.ScrollOffset.X);
-            GraphScroll.ScrollToVerticalOffset(target.ScrollOffset.Y);
+            if (target.ScrollOffset is { } o) {
+                GraphScroll.ScrollToHorizontalOffset(o.X);
+                GraphScroll.ScrollToVerticalOffset(o.Y);
+            }
+            else {
+                var x = (canvasWidth - GraphScroll.ViewportWidth) / 2;
+                GraphScroll.ScrollToHorizontalOffset(x);
+                GraphScroll.ScrollToVerticalOffset(0);
+                target.ScrollOffset = new Point(x, 0);
+            }
+            SceneTitleText.Text = graph.SceneTitle;
 
             BackButton.IsEnabled = _currentNavigate > 0;
             ForwardButton.IsEnabled = _currentNavigate + 1 < _navigateQueue.Count;
@@ -357,10 +375,10 @@ namespace CSYetiTools.BranchViewer
         private void GraphList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (!_forbidListEvent) {
-                NavigateTo(new NavigateTarget {Index = GraphList.SelectedIndex, ScrollOffset = new Point()}, true);
+                NavigateTo(new NavigateTarget {Index = GraphList.SelectedIndex}, true);
             }
         }
-        
+
         private void Theme_Click(object sender, RoutedEventArgs e)
         {
             _darkTheme = !_darkTheme;
@@ -386,10 +404,10 @@ namespace CSYetiTools.BranchViewer
 
         private void GraphScroll_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.OriginalSource is Run {Parent: Hyperlink link}) {
+            if (e.OriginalSource is Run {Parent: Hyperlink}) {
                 return;
             }
-            else if (FindVisualParent<ScrollBar>((DependencyObject)e.OriginalSource) != null) {
+            if (FindVisualParent<ScrollBar>((DependencyObject)e.OriginalSource) != null) {
                 return;
             }
             _scrollMousePoint = e.GetPosition(GraphScroll);
@@ -407,9 +425,6 @@ namespace CSYetiTools.BranchViewer
             var vOff = _vOffset + (_scrollMousePoint.Y - e.GetPosition(GraphScroll).Y);
             GraphScroll.ScrollToHorizontalOffset(hOff);
             GraphScroll.ScrollToVerticalOffset(vOff);
-            if (_currentNavigate >= 0 && _currentNavigate < _navigateQueue.Count) {
-                _navigateQueue[_currentNavigate].ScrollOffset = new Point(hOff, vOff);
-            }
         }
 
         private void GraphScroll_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -417,7 +432,8 @@ namespace CSYetiTools.BranchViewer
             GraphScroll.ReleaseMouseCapture();
         }
 
-        private static TParentItem? FindVisualParent<TParentItem>(DependencyObject obj) where TParentItem : DependencyObject
+        private static TParentItem? FindVisualParent<TParentItem>(DependencyObject obj)
+            where TParentItem : DependencyObject
         {
             DependencyObject? parent = obj;
             do {
@@ -428,7 +444,14 @@ namespace CSYetiTools.BranchViewer
             } while (parent != null && parent is not TParentItem);
             return (TParentItem?)parent;
         }
+
         #endregion
 
+        private void GraphScroll_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            if (_currentNavigate >= 0 && _currentNavigate < _navigateQueue.Count) {
+                _navigateQueue[_currentNavigate].ScrollOffset = new Point(e.HorizontalOffset, e.VerticalOffset);
+            }
+        }
     }
 }

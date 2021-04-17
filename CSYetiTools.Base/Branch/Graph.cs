@@ -6,6 +6,7 @@ namespace CSYetiTools.Base.Branch
     public class Graph
     {
         public int Index { get; init; }
+        public string SceneTitle { get; init; } = "";
         public List<int> Entries { get; init; } = new();
         public SortedDictionary<int, Node> NodeTable { get; init; } = new();
 

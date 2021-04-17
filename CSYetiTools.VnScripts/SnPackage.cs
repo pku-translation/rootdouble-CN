@@ -323,7 +323,7 @@ namespace CSYetiTools.VnScripts
                                     Utils.PrintError($"[{i:0000}:{k}] {importingInfo} self");
                                 }
                                 else if (targetChunk > i || (targetChunk == i && targetIndex > index)) {
-                                    Utils.PrintError($"[{i:0000}:{k}] forward {importingInfo}");
+                                    Utils.PrintError($"[{i:0000}:{k}] forward {importingInfo} {targetChunk:0000}:{targetIndex:000000}");
                                 }
                                 else {
                                     Utils.PrintError($"[{i:0000}:{k}] {importingInfo} unknown source {targetChunk:0000}:{targetIndex:000000}");

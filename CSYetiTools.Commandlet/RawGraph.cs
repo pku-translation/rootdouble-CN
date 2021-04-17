@@ -14,10 +14,14 @@ namespace CSYetiTools.Commandlet
         private readonly List<int> _entires = new();
 
         public int Index { get; }
+        public string SceneTitle { get; }
 
-        public RawGraph(int index, Script script)
+        private RawGraph(int index, IList<string> sceneTitles, Script script, Script referenceScript)
         {
             Index = index;
+            var scriptIndex = script.Footer.ScriptIndex;
+
+            SceneTitle = scriptIndex >= 0 ? sceneTitles[scriptIndex] : "<no-title>";
             foreach (var offset in script.LabelOffsets) {
                 _nodeTable.Add(offset, new RawNode {Offset = offset});
             }
@@ -33,7 +37,7 @@ namespace CSYetiTools.Commandlet
                 if (extraStart) {
                     extraStart = false;
                     if (!_nodeTable.ContainsKey(code.Offset)) {
-                        _nodeTable.Add(code.Offset, new RawNode { Offset = code.Offset});
+                        _nodeTable.Add(code.Offset, new RawNode {Offset = code.Offset});
                     }
                 }
                 if (_nodeTable.TryGetValue(code.Offset, out var nextNode)) {
@@ -53,7 +57,8 @@ namespace CSYetiTools.Commandlet
                     case ScriptJumpCode scriptJump: {
                         currentNode.Next = null;
                         currentNode.AutoNext = false;
-                        currentNode.Contents.Add(new JumpContent(code.Index, scriptJump.TargetScript, scriptJump.TargetEntryIndex));
+                        currentNode.Contents.Add(new JumpContent(code.Index, scriptJump.TargetScript,
+                            scriptJump.TargetEntryIndex));
                         break;
                     }
                     case CallCode /*call*/: {
@@ -69,7 +74,8 @@ namespace CSYetiTools.Commandlet
                         if (scriptCall.TargetScript <= 1) {
                             continue;
                         }
-                        currentNode.Contents.Add(new CallContent(code.Index, scriptCall.TargetScript, scriptCall.TargetEntryIndex));
+                        currentNode.Contents.Add(new CallContent(code.Index, scriptCall.TargetScript,
+                            scriptCall.TargetEntryIndex));
                         break;
                     }
                     case ReturnCode: {
@@ -97,7 +103,9 @@ namespace CSYetiTools.Commandlet
                         break;
                     }
                     case DialogCode dialog: {
-                        currentNode.Contents.Add(new TextContent(code.Index, currentCharacter, dialog.Content));
+                        var raw = (DialogCode)referenceScript.GetCodeAt(dialog.Index);
+                        currentNode.Contents.Add(new TextContent(code.Index, currentCharacter, dialog.Content,
+                            raw.Content));
                         currentCharacter = null;
                         break;
                     }
@@ -106,25 +114,31 @@ namespace CSYetiTools.Commandlet
                             currentCharacter = extraDialog.Content;
                         }
                         else {
-                            currentNode.Contents.Add(new TextContent(code.Index, currentCharacter, extraDialog.Content));
+                            var raw = (ExtraDialogCode)referenceScript.GetCodeAt(extraDialog.Index);
+                            currentNode.Contents.Add(new TextContent(code.Index, currentCharacter, extraDialog.Content,
+                                raw.Content));
                             currentCharacter = null;
                         }
                         break;
                     }
                     case TitleCode title: {
-                        currentNode.Contents.Add(new TextContent(code.Index, null, $"<title: {title.Content}>"));
+                        currentNode.Contents.Add(new TextContent(code.Index, null, $"<title: {title.Content}>", null));
                         break;
                     }
                     case TextAreaCode textArea: {
-                        currentNode.Contents.Add(new TextContent(code.Index, null, $"<area: {textArea.X}, {textArea.Y}, {textArea.Width}, {textArea.Height}>"));
+                        currentNode.Contents.Add(new TextContent(code.Index, null,
+                            $"<area: {textArea.X}, {textArea.Y}, {textArea.Width}, {textArea.Height}>", null));
                         break;
                     }
                     case DirectiveMessageCode directiveMessage: {
-                        currentNode.Contents.Add(new TextContent(code.Index, null, directiveMessage.Content));
+                        var raw = (DirectiveMessageCode)referenceScript.GetCodeAt(directiveMessage.Index);
+                        currentNode.Contents.Add(new TextContent(code.Index, null, directiveMessage.Content,
+                            raw.Content));
                         break;
                     }
                     case NovelCode novel: {
-                        currentNode.Contents.Add(new TextContent(code.Index, null, novel.Content));
+                        var raw = (NovelCode)referenceScript.GetCodeAt(novel.Index);
+                        currentNode.Contents.Add(new TextContent(code.Index, null, novel.Content, raw.Content));
                         break;
                     }
                     case SssInputCode /*sssInput*/: {
@@ -145,7 +159,7 @@ namespace CSYetiTools.Commandlet
                 _nodeTable[entry].IsEntry = true;
             }
             foreach (var node in _nodeTable.Values) {
-                if (node.Next is {} next) {
+                if (node.Next is { } next) {
                     node.Adjacents.Add(next);
                 }
             }
@@ -194,7 +208,7 @@ namespace CSYetiTools.Commandlet
             foreach (var node in _nodeTable.Values) {
                 Dfs(node);
             }
-            
+
             var emptyOffsets = _nodeTable.Values
                 .Where(x => !x.IsImportant)
                 .Select(x => x.Offset)
@@ -290,13 +304,16 @@ namespace CSYetiTools.Commandlet
             return modified;
         }
 
-        public static List<Graph?> LoadPackage(SnPackage package, bool parallel = true)
+        public static List<Graph?> LoadPackage(SnPackage package, SnPackage referencePackage,
+            IList<string> sceneTitles,
+            bool parallel = true)
         {
             Graph? CreateGraph(int i)
             {
                 var script = package.Scripts[i];
+                var refScript = referencePackage.Scripts[i];
                 if (script.Footer.ScriptIndex < 0) { return null; }
-                var raw = new RawGraph(i, script);
+                var raw = new RawGraph(i, sceneTitles, script, refScript);
                 return raw.ToGraph();
             }
             return parallel
@@ -306,7 +323,7 @@ namespace CSYetiTools.Commandlet
 
         public Graph ToGraph()
         {
-            var graph = new Graph {Index = Index};
+            var graph = new Graph {Index = Index, SceneTitle = SceneTitle};
             foreach (var (offset, node)in _nodeTable) {
                 graph.NodeTable.Add(offset, new Node {
                     Offset = node.Offset,
@@ -315,7 +332,7 @@ namespace CSYetiTools.Commandlet
                     DebugInfo = node.DebugInfo,
                 });
             }
-            foreach(var entry in _entires) {
+            foreach (var entry in _entires) {
                 graph.Entries.Add(entry);
             }
             return graph;

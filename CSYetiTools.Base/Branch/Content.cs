@@ -15,16 +15,19 @@ namespace CSYetiTools.Base.Branch
         public string? Character { get; set; }
         [YamlMember(Order = 2, DefaultValuesHandling = DefaultValuesHandling.OmitDefaults)]
         public string Content { get; set; } = null!;
+        [YamlMember(Order = 3, DefaultValuesHandling = DefaultValuesHandling.OmitDefaults)]
+        public string? RawContent { get; set; }
 
         [UsedImplicitly]
         public TextContent()
         { }
 
-        public TextContent(int index, string? character, string content)
+        public TextContent(int index, string? character, string content, string? rawContent)
         {
             Index = index;
             Character = character;
             Content = content;
+            RawContent = rawContent;
         }
     }
     

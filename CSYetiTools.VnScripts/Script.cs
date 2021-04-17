@@ -234,8 +234,8 @@ namespace CSYetiTools.VnScripts
             {
                 var dialogCounter = 0;
                 foreach (var code in Codes) {
-                    if ((code is DialogCode dialogCode && dialogCode.IsIndexed)
-                         || (code is ExtraDialogCode exDialogCode && exDialogCode.IsDialog))
+                    if ((code is DialogCode {IsIndexed: true})
+                         || (code is ExtraDialogCode {IsDialog: true}))
                         ++dialogCounter;
                 }
                 return new ScriptFooter(dialogCounter, 0, GetCodes<SssFlagCode>().Count(), _index);

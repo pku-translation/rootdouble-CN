@@ -977,7 +977,7 @@
 ("一殺多生")
 
 ; BETWEEN MALICE AND DECEIT
-("Believe that")
+("悪意と欺瞞の狭間で")
 
 ; Jun Moribe
 ("守部洵")
