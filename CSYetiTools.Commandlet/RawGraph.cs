@@ -89,6 +89,13 @@ namespace CSYetiTools.Commandlet
                         extraStart = true;
                         break;
                     }
+                    case SwitchCode switchCode: {
+                        foreach (var branch in switchCode.Branches) {
+                            currentNode.Adjacents.Add(branch.Offset.AbsoluteOffset);
+                        }
+                        extraStart = true;
+                        break;
+                    }
                     case DialogCode dialog: {
                         currentNode.Contents.Add(new TextContent(code.Index, currentCharacter, dialog.Content));
                         currentCharacter = null;

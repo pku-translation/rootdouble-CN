@@ -14,50 +14,50 @@ namespace CSYetiTools.VnScripts
 
         public ScriptArgument Count { get; set; } = new();
 
-        private class Branch
+        public class Branch
         {
-            public short Prefix { get; }
+            public ScriptArgument Arg { get; }
             public LabelReference Offset { get; }
 
-            public Branch(short prefix, LabelReference offset)
+            public Branch(ScriptArgument arg, LabelReference offset)
             {
-                Prefix = prefix;
+                Arg = arg;
                 Offset = offset;
             }
 
-            public void Deconstruct(out short prefix, out LabelReference offset)
+            public void Deconstruct(out ScriptArgument arg, out LabelReference offset)
             {
-                prefix = Prefix;
+                arg = Arg;
                 offset = Offset;
             }
         }
 
-        private Branch[] _branches = Array.Empty<Branch>();
+        public Branch[] Branches = Array.Empty<Branch>();
 
         public int TargetEndOffset { get; set; }
 
         protected override string CodeName => "switch";
 
         public override int GetArgLength(IBinaryStream stream)
-            => 4 + _branches.Length * 6;
+            => 4 + Branches.Length * 6;
 
         protected override void ReadArgs(IBinaryStream reader)
         {
             Arg = ReadArgument(reader);
             Count = ReadArgument(reader);
             if (Count.IsConst) {
-                _branches = new Branch[Count.ConstValue];
+                Branches = new Branch[Count.ConstValue];
             }
             else {
                 var size = TargetEndOffset - (int)reader.Position;
                 if (size < 0 || size % 6 != 0)
                     throw new ArgumentException($"Scoped op-code 0E with invalid range [{(int)reader.Position:X08}, {TargetEndOffset:X08}) (size={size})");
-                _branches = new Branch[size / 6];
+                Branches = new Branch[size / 6];
             }
-            foreach (var i in .._branches.Length) {
-                var prefix = reader.ReadInt16LE();
+            foreach (var i in ..Branches.Length) {
+                var arg = ReadArgument(reader);
                 var offset = ReadAddress(reader);
-                _branches[i] = new Branch(prefix, offset);
+                Branches[i] = new Branch(arg, offset);
             }
         }
 
@@ -65,8 +65,8 @@ namespace CSYetiTools.VnScripts
         {
             WriteArgument(writer, Arg);
             WriteArgument(writer, Count);
-            foreach (var (prefix, offset) in _branches) {
-                writer.WriteLE(prefix);
+            foreach (var (arg, offset) in Branches) {
+                WriteArgument(writer, arg);
                 WriteAddress(writer, offset);
             }
         }
@@ -76,12 +76,12 @@ namespace CSYetiTools.VnScripts
             writer.Write(' '); writer.Write(Arg);
             writer.Write(' '); writer.Write(Count);
             writer.Write(" [");
-            foreach (var (i, (prefix, offset)) in _branches.WithIndex()) {
+            foreach (var (i, (arg, offset)) in Branches.WithIndex()) {
                 writer.WriteLine();
                 writer.Write("                ");
                 writer.Write(i.ToString().PadLeft(3));
                 writer.Write(": ");
-                writer.Write(prefix.ToString("X04"));
+                writer.Write(arg);
                 writer.Write(": ");
                 writer.Write(offset.ToString());
             }
@@ -90,7 +90,7 @@ namespace CSYetiTools.VnScripts
 
         public IEnumerable<LabelReference> GetAddresses()
         {
-            foreach (var (_, offset) in _branches) {
+            foreach (var (_, offset) in Branches) {
                 yield return offset;
             }
         }
