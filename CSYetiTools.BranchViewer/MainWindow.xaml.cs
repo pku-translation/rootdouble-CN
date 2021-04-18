@@ -36,10 +36,14 @@ namespace CSYetiTools.BranchViewer
 
         private bool _forbidListEvent;
 
+        private readonly double[] _scaleLevels = {0.125, 0.25, 0.5, 1, 2, 4, 8};
+        private readonly int _centerLevel = 3;
+
         private class NavigateTarget
         {
             public int Index { get; init; }
             public Point? ScrollOffset { get; set; }
+            public int? ScaleLevel { get; set; }
         }
 
         public MainWindow(FilePath dataFolder)
@@ -97,11 +101,18 @@ namespace CSYetiTools.BranchViewer
                 }
                 LoadingProgressBar.Value = (double)i / entries.Count * 100;
             }
-
-            var currentIndex = 0;
-            foreach (var (key, graph) in _graphTable) {
+            
+            foreach (var (i, (key, graph)) in _graphTable.WithIndex()) {
                 GraphList.Items.Add(new GraphItem($"[{key:0000}] {graph.SceneTitle}", graph));
-                _indexTable.Add(graph.Index, currentIndex++);
+                _indexTable.Add(graph.Index, i);
+            }
+
+            var query = from entry in _graphTable
+                let count = entry.Value.NodeTable.Values.Sum(node => node.Adjacents.Count)
+                orderby count descending
+                select new {Name = $"[{entry.Key:0000}] {entry.Value.SceneTitle}", Count = count};
+            foreach (var (i, s) in query.TakeWhile(s => s.Count > 5).WithIndex()) {
+                Debug.WriteLine($"#{i:000}: {s.Name} ({s.Count})");
             }
 
             LoadingGrid.Visibility = Visibility.Hidden;
@@ -115,6 +126,17 @@ namespace CSYetiTools.BranchViewer
 
         private readonly List<NavigateTarget> _navigateQueue = new();
         private int _currentNavigate = -1;
+
+        private void NavigateToScript(int script)
+        {
+            if (_indexTable.TryGetValue(script, out var index)) {
+                NavigateTo(new NavigateTarget {Index = index}, false);
+            }
+            else {
+                MessageBox.Show(this, $"Script {index:0000} data not found", "Error", MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+            }
+        }
 
         private void NavigateTo(NavigateTarget target, bool fromList)
         {
@@ -209,8 +231,7 @@ namespace CSYetiTools.BranchViewer
                     JumpContent jump =>
                         new TextBlock {
                             Inlines = {
-                                CreateHyperlink($"<jump {jump.Script}[{jump.Entry}]>",
-                                    () => NavigateTo(new NavigateTarget {Index = _indexTable[jump.Script]}, false))
+                                CreateHyperlink($"<jump {jump.Script}[{jump.Entry}]>", () => NavigateToScript(jump.Script))
                             },
                             FontWeight = FontWeights.Bold,
                             HorizontalAlignment = HorizontalAlignment.Center
@@ -218,8 +239,7 @@ namespace CSYetiTools.BranchViewer
                     CallContent call =>
                         new TextBlock {
                             Inlines = {
-                                CreateHyperlink($"<call {call.Script}[{call.Entry}]>",
-                                    () => NavigateTo(new NavigateTarget {Index = _indexTable[call.Script]}, false))
+                                CreateHyperlink($"<call {call.Script}[{call.Entry}]>", () => NavigateToScript(call.Script))
                             },
                             FontWeight = FontWeights.Bold,
                             HorizontalAlignment = HorizontalAlignment.Center
@@ -247,9 +267,9 @@ namespace CSYetiTools.BranchViewer
             GraphList.ScrollIntoView(GraphList.SelectedItem);
             var item = (GraphItem)GraphList.SelectedItem;
             var graph = item.Graph;
-
+            
+            // BFS for node y-positioning
             var searchingTable = new Dictionary<int, SearchingNode>();
-
             foreach (var (offset, node) in graph.NodeTable) {
                 var entryIndices = Enumerable.Range(0, graph.Entries.Count).Where(i => graph.Entries[i] == offset)
                     .ToList();
@@ -265,7 +285,6 @@ namespace CSYetiTools.BranchViewer
                         Color = SearchingColor.White
                     });
             }
-
             var queue = new Queue<SearchingNode>();
             var maxLevel = 0;
             foreach (var node in searchingTable.Values) {
@@ -295,11 +314,14 @@ namespace CSYetiTools.BranchViewer
                     }
                 }
             }
+
             var tower = Enumerable.Range(0, maxLevel + 1).Select(_ => new List<SearchingNode>()).ToList();
             var sizes = Enumerable.Repeat(new Size(), maxLevel + 1).ToList();
             foreach (var node in searchingTable.Values) {
                 tower[node.Level].Add(node);
             }
+
+            // position all levels
             var xSpace = 50.0;
             var ySpace = 50.0;
             for (var level = 0; level <= maxLevel; ++level) {
@@ -324,14 +346,15 @@ namespace CSYetiTools.BranchViewer
                 y += sizes[level].Height + ySpace * 2;
             }
 
+            // add arrows
             foreach (var node in searchingTable.Values) {
                 foreach (var adj in node.Node.Adjacents) {
                     var adjNode = searchingTable[adj];
                     var a = new Point(node.Position.X + node.Size.Width / 2, node.Position.Y + node.Size.Height);
                     var b = new Point(adjNode.Position.X + adjNode.Size.Width / 2, adjNode.Position.Y);
-                    var scale = a.Y < b.Y ? 2 : 4;
-                    var pa = new Point(a.X, a.Y + scale * ySpace);
-                    var pb = new Point(b.X, b.Y - scale * ySpace);
+                    var ratio = a.Y < b.Y ? 2 : 4;
+                    var pa = new Point(a.X, a.Y + ratio * ySpace);
+                    var pb = new Point(b.X, b.Y - ratio * ySpace);
                     var path = new System.Windows.Shapes.Path {
                         IsHitTestVisible = false, StrokeThickness = 2.5, Opacity = 0.8
                     };
@@ -350,26 +373,35 @@ namespace CSYetiTools.BranchViewer
                 }
             }
 
+            // add nodes
             foreach (var node in searchingTable.Values) {
                 GraphCanvas.Children.Add(node.Element);
             }
 
+            // scroll and scale
             GraphCanvas.Width = canvasWidth;
             GraphCanvas.Height = canvasHeight;
-            if (target.ScrollOffset is { } o) {
-                GraphScroll.ScrollToHorizontalOffset(o.X);
-                GraphScroll.ScrollToVerticalOffset(o.Y);
-            }
-            else {
-                var x = (canvasWidth - GraphScroll.ViewportWidth) / 2;
-                GraphScroll.ScrollToHorizontalOffset(x);
-                GraphScroll.ScrollToVerticalOffset(0);
-                target.ScrollOffset = new Point(x, 0);
-            }
-            SceneTitleText.Text = graph.SceneTitle;
 
+            if (target.ScaleLevel is not { } l) {
+                l = _centerLevel;
+                target.ScaleLevel = _centerLevel;
+            }
+            var scale = _scaleLevels[l];
+            GraphScale.ScaleX = scale;
+            GraphScale.ScaleY = scale;
+            if (target.ScrollOffset is not { } o) {
+                o = new Point((canvasWidth - GraphScroll.ViewportWidth) / 2, 0);
+                target.ScrollOffset = o;
+            }
+            GraphScroll.ScrollToHorizontalOffset(o.X);
+            GraphScroll.ScrollToVerticalOffset(o.Y);
+
+            // misc
+            SceneTitleText.Text = graph.SceneTitle;
             BackButton.IsEnabled = _currentNavigate > 0;
             ForwardButton.IsEnabled = _currentNavigate + 1 < _navigateQueue.Count;
+            
+            GC.Collect();
         }
 
         private void GraphList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -384,6 +416,7 @@ namespace CSYetiTools.BranchViewer
             _darkTheme = !_darkTheme;
             ResourceLocator.SetColorScheme(Application.Current.Resources,
                 _darkTheme ? ResourceLocator.DarkColorScheme : ResourceLocator.LightColorScheme);
+            SetGraph();
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -451,6 +484,40 @@ namespace CSYetiTools.BranchViewer
         {
             if (_currentNavigate >= 0 && _currentNavigate < _navigateQueue.Count) {
                 _navigateQueue[_currentNavigate].ScrollOffset = new Point(e.HorizontalOffset, e.VerticalOffset);
+            }
+        }
+
+        private void GraphScroll_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            if (!Keyboard.IsKeyDown(Key.LeftCtrl) && !Keyboard.IsKeyDown(Key.RightCtrl)) {
+                return;
+            }
+
+            if (_currentNavigate < 0 || _currentNavigate >= _navigateQueue.Count) {
+                return;
+            }
+
+            e.Handled = true;
+
+            var target = _navigateQueue[_currentNavigate];
+            if (target.ScaleLevel is { } l) {
+                var l1 = e.Delta > 0 ? Math.Min(l + 1, _scaleLevels.Length - 1) : Math.Max(l - 1, 0);
+                if (l == l1) {
+                    return;
+                }
+                var position = e.GetPosition(GraphCanvas);
+                var position2 = e.GetPosition(GraphScroll);
+                var scale = _scaleLevels[l1];
+                GraphScale.ScaleX = scale;
+                GraphScale.ScaleY = scale;
+                GraphScroll.ScrollToHorizontalOffset(position.X * scale - position2.X);
+                GraphScroll.ScrollToVerticalOffset(position.Y * scale - position2.Y);
+                target.ScaleLevel = l1;
+            }
+            else {
+                MessageBox.Show(this, "Scale level not initialized", "Warning", MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+                target.ScaleLevel = _centerLevel;
             }
         }
     }

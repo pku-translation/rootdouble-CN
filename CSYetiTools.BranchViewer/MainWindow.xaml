@@ -21,11 +21,13 @@
                 </Grid.ColumnDefinitions>
                 <DockPanel Grid.Column="0" Background="{DynamicResource {x:Static adonisUi:Brushes.Layer1BackgroundBrush}}">
                     <ToolBarPanel DockPanel.Dock="Top">
-                        <ToolBar Height="30" ToolBarTray.IsLocked="True" OverflowMode="Never">
-                            <Button Name="BackButton" Width="30" Height="30" Click="Back_Click">&lt;</Button>
-                            <Button Name="ForwardButton" Width="30" Height="30" Click="Forward_Click">&gt;</Button>
-                            <Button Click="Theme_Click">Theme</Button>
-                        </ToolBar>
+                        <ToolBarTray>
+                            <ToolBar Height="30" ToolBarTray.IsLocked="True" OverflowMode="Never">
+                                <Button Name="BackButton" Width="30" Height="30" Click="Back_Click">&lt;</Button>
+                                <Button Name="ForwardButton" Width="30" Height="30" Click="Forward_Click">&gt;</Button>
+                                <Button Click="Theme_Click">Theme</Button>
+                            </ToolBar>
+                        </ToolBarTray>
                     </ToolBarPanel>
                     <TextBlock Background="Transparent" DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="20" Margin="5">Scripts</TextBlock>
                     <ListBox Name="GraphList" SelectionChanged="GraphList_SelectionChanged">
@@ -48,8 +50,13 @@
                         PreviewMouseLeftButtonDown="GraphScroll_PreviewMouseLeftButtonDown"
                         PreviewMouseMove="GraphScroll_PreviewMouseMove"
                         PreviewMouseLeftButtonUp="GraphScroll_PreviewMouseLeftButtonUp"
+                        PreviewMouseWheel="GraphScroll_PreviewMouseWheel"
                         ScrollChanged="GraphScroll_ScrollChanged">
-                        <Canvas Name="GraphCanvas" Width="Auto" Height="Auto"/>
+                        <Canvas Name="GraphCanvas" Width="Auto" Height="Auto">
+                            <Canvas.LayoutTransform>
+                                <ScaleTransform x:Name="GraphScale"/>
+                            </Canvas.LayoutTransform>
+                        </Canvas>
                     </ScrollViewer>
                 </DockPanel>
             </Grid>
