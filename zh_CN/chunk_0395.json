@@ -146,7 +146,7 @@
     "context": "000445",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多再一次，对她们嘀咕。"
+    "string": "宇喜多再一次，对她们嘀咕："
   },
   "000456": {
     "context": "000456",
@@ -290,7 +290,7 @@
     "context": "000851",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "（……！然而他还有失去记忆的嫌疑……） #review 嫌疑（？）"
+    "string": "（……！然而他的失忆还有疑点……）"
   },
   "000857": {
     "context": "000857",
@@ -443,13 +443,13 @@
     "context": "001538",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「明明你都对我使用了共感」"
+    "string": "「明明你都和我产生了共情」"
   },
   "001549": {
     "context": "001549",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「什——你说我对你使用了共感？！」"
+    "string": "「这——你说我对你产生了共情？！」"
   },
   "001578": {
     "context": "001578",
@@ -473,13 +473,13 @@
     "context": "001629",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「那么，为什么会变成这样？……没错，因为有背叛者」"
+    "string": "「那么，为什么会变成这样？……没错，因为有叛徒」"
   },
   "001640": {
     "context": "001640",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「那么，背叛者是谁呢？」"
+    "string": "「那么，叛徒是谁呢？」"
   },
   "001669": {
     "context": "001669",
@@ -503,7 +503,7 @@
     "context": "001868",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「队长他，背叛了宇喜多」"
+    "string": "「是队长他，背叛了宇喜多」"
   },
   "001897": {
     "context": "001897",
@@ -587,7 +587,7 @@
     "context": "002237",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「胸口痛吧？」"
+    "string": "「心疼吧？」"
   },
   "002248": {
     "context": "002248",
@@ -599,19 +599,19 @@
     "context": "002277",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「それもわかるが、しかし――君にとって本当に大切なものはなんなのか、考えてみたまえ」"
+    "string": "「这我也是知道的，然而——对你来说真正重要的是什么，好好想想吧」"
   },
   "002288": {
     "context": "002288",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「隊長さんの事を案じるという事は、つまり被験体ＹⅡの事をないがしろにするのと、同じなのだよ」"
+    "string": "「担心队长，也就和蔑视实验对象 YⅡ，是一样的」"
   },
   "002299": {
     "context": "002299",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「君はそれでいいのかね？」"
+    "string": "「你觉得这样就好吗？」"
   },
   "002310": {
     "context": "002310",
@@ -623,517 +623,517 @@
     "context": "002315",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言われて、夏彦はさらに悩む。"
+    "string": "听到这话，夏彦更加烦恼了。"
   },
   "002369": {
     "context": "002369",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（悠里はぼくのために、９年間もこの薄暗い地下に幽閉された……）"
+    "string": "（悠里为了我，9 年来一直被幽禁在这昏暗的地下……）"
   },
   "002375": {
     "context": "002375",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（なのに……ここまで来て、渡瀬の身を案じてたら……）"
+    "string": "（即使这样……我还是来到了这里，担心起渡濑来的话……）"
   },
   "002381": {
     "context": "002381",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（それは、悠里に対する裏切りになるんじゃないのか……！？）"
+    "string": "（那不就，相当于是背叛了悠里吗……？！）"
   },
   "002437": {
     "context": "002437",
     "code": "0x45",
     "developer_comment": "",
-    "string": "思考が徐々に、何かに染まっていく。"
+    "string": "思考逐渐地被什么侵染了。"
   },
   "002442": {
     "context": "002442",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが何に染まっているのかわからない。"
+    "string": "然而并不知道侵染思考的东西是什么。"
   },
   "002447": {
     "context": "002447",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼女はさらに続ける。"
+    "string": "她继续说着："
   },
   "002477": {
     "context": "002477",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「……時には心を鬼にしなければ、大切なものは護れない」"
+    "string": "「……有些时候不让内心变成恶鬼的话，就保护不了重要的东西」"
   },
   "002488": {
     "context": "002488",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「宇喜多も僕もそう思ったのだが――君は、どうかな？」"
+    "string": "「我也好宇喜多也罢都这么认为，然而——你，是怎么想的？」"
   },
   "002499": {
     "context": "002499",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼ……ぼくは……！」"
+    "string": "「我……我……！」"
   },
   "002529": {
     "context": "002529",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「答えてくれ、君はどうしたいんだね？」"
+    "string": "「回答我，你想要怎么做？」"
   },
   "002540": {
     "context": "002540",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくは――！」"
+    "string": "「我要——！」"
   },
   "002545": {
     "context": "002545",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう答えようとした時、"
+    "string": "夏彦正要回答的时候，"
   },
   "002602": {
     "context": "002602",
     "code": "0x45",
     "developer_comment": "",
-    "string": "頭の中で、悠里の声が聞こえた。"
+    "string": "脑中，响起了悠里的声音："
   },
   "002629": {
     "context": "002629",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《待って、ひこりん！　その子の言葉に、耳を貸しちゃダメ！》"
+    "string": "『等下，小彦！不可以听那孩子的话！』"
   },
   "002640": {
     "context": "002640",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0139 003135"
+    "string": "「悠、悠里……！」"
   },
   "002646": {
     "context": "002646",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はその声に、問いを返した。"
+    "string": "听到这声，夏彦回应道。"
   },
   "002657": {
     "context": "002657",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……どうして、ダメなんだ？」"
+    "string": "「……为什么，不可以？」"
   },
   "002668": {
     "context": "002668",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「被験体Ｎは、間違った事は言っていないだろ……？」"
+    "string": "「实验对象 N，没有说错什么吧……？」"
   },
   "002696": {
     "context": "002696",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《え……！？》"
+    "string": "『欸……？！』"
   },
   "002707": {
     "context": "002707",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「君はこのままじゃ、ラボを脱出しても、自由になれないんだぞ？」"
+    "string": "「就这么下去的话，你即便从 LABO 逃出，也是没法恢复自由的吧？」"
   },
   "002719": {
     "context": "002719",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「渡瀬に連れて行かれて、Ｑに入れられて……」"
+    "string": "「会被渡濑带走，成为 Q 的一员……」"
   },
   "002730": {
     "context": "002730",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「そうなったら、色んな危険な目にも遭うだろう。もちろん家に帰ることなんてできない」"
+    "string": "「之后还会遇到各种各样的危险的吧。不用说家也是回不了了的」"
   },
   "002741": {
     "context": "002741",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「もう１度聞くよ、悠里は本当にそれでいいのか？」"
+    "string": "「我再问一次，悠里真的觉得这样就好吗？」"
   },
   "002769": {
     "context": "002769",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《っ……》"
+    "string": "『……』"
   },
   "002780": {
     "context": "002780",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……そんなわけ、ないよな」"
+    "string": "「……不是这样的吧」"
   },
   "002791": {
     "context": "002791",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「自由になって、ぼくと一緒に、家に帰りたいよな」"
+    "string": "「你想要变得自由，和我一起回家的对吧」"
   },
   "002819": {
     "context": "002819",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《……………うん》"
+    "string": "『…………嗯』"
   },
   "002830": {
     "context": "002830",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「悠里、ぼくはそのためなら、どんな事だってするよ」"
+    "string": "「悠里，为了这个愿望，我会不择手段」"
   },
   "002842": {
     "context": "002842",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「君のためなら、どんな事だってしてあげる」"
+    "string": "「为了你，我什么都可以去做」"
   },
   "002853": {
     "context": "002853",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「だから――これからぼくのやる事を、止めないでくれないか……？」"
+    "string": "「因此——接下来我准备做的事情，可以不要阻止吗……？」"
   },
   "002859": {
     "context": "002859",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう尋ねると、悠里は――"
+    "string": "听到这个问题，悠里——"
   },
   "002864": {
     "context": "002864",
     "code": "0x45",
     "developer_comment": "",
-    "string": "長い沈黙の末、答えた。"
+    "string": "在长长的沉默后，回答道。"
   },
   "002892": {
     "context": "002892",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《……そう、だね……そうだね、ひこりん》"
+    "string": "『……是、这样……是这样的，小彦』"
   },
   "002920": {
     "context": "002920",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《わたし、ずっと間違ってた……自分が損をしても、みんなが幸せであれば、それでいいなんて……》"
+    "string": "『我一直搞错了……只要大家都能幸福，即使我要失去些什么也没事……』"
   },
   "002928": {
     "context": "002928",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《本当は……そんなの絶対、嘘なのに……》"
+    "string": "『事实上……这明明是，彻头彻尾的谎言……』"
   },
   "002956": {
     "context": "002956",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《わたしだって本当は、人並みに幸せになりたいのに……！》"
+    "string": "『明明我真的也想，像大家一样变得幸福的……！』"
   },
   "002967": {
     "context": "002967",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「大丈夫、わかってるよ悠里」"
+    "string": "「没事的悠里，我知道的」"
   },
   "002979": {
     "context": "002979",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「だからぼくは、君の幸せのために――」"
+    "string": "「正因此，我要为了你的幸福——」"
   },
   "002990": {
     "context": "002990",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「渡瀬と戦うよ。宇喜多のおじさんみたいに」"
+    "string": "「和渡濑战斗。像宇喜多叔叔一样」"
   },
   "003018": {
     "context": "003018",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《……ありがとう、ひこりん》"
+    "string": "『……谢谢你，小彦』"
   },
   "003101": {
     "context": "003101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その声にうなずき、夏彦は被験体Ｎを見据えた。"
+    "string": "夏彦点头回应这声，然后定睛看着实验对象 N。"
   },
   "003113": {
     "context": "003113",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……被験体Ｎ……」"
+    "string": "「……实验对象 N……」"
   },
   "003124": {
     "context": "003124",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「すまなかった。君の言う通りだ」"
+    "string": "「抱歉。你说的是对的」"
   },
   "003154": {
     "context": "003154",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「そうか……ようやくわかってくれたか」"
+    "string": "「是吧……你终于明白了吗」"
   },
   "003159": {
     "context": "003159",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言って彼女は、嬉しそうに微笑んだ。"
+    "string": "她说道，露出了似乎有些开心的微笑。"
   },
   "003189": {
     "context": "003189",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「では現実に帰りたまえ。『それ』をするのは、肉体を持つ君の役目だ」"
+    "string": "「那就回到现实中去吧。完成“那件事”，是拥有肉体的你的使命」"
   },
   "003200": {
     "context": "003200",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0018 000655"
+    "string": "「嗯……」"
   },
   "003230": {
     "context": "003230",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「頼むぞ、君の正義を貫いてくれ」"
+    "string": "「交给你了，贯彻你的正义吧」"
   },
   "003295": {
     "context": "003295",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その声を聞きながら、夏彦は――"
+    "string": "听到这声，夏彦——"
   },
   "003300": {
     "context": "003300",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多に対するセンシズシンパシーを解いた。"
+    "string": "结束了与宇喜多的感觉同调。"
   },
   "003374": {
     "context": "003374",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その頃、現実世界では――"
+    "string": "——这时，现实世界——"
   },
   "003379": {
     "context": "003379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が固い表情で、夏彦と悠里を見つめていた。"
+    "string": "渡濑表情僵硬地，看着夏彦和悠里。"
   },
   "003384": {
     "context": "003384",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人が宇喜多の記憶修復を始めてから、すでに３分以上が経過している。"
+    "string": "从两人对宇喜多进行记忆修复开始，已经过了至少三分钟了。"
   },
   "003389": {
     "context": "003389",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しかしまだ夏彦と悠里に、目覚めの気配はない。"
+    "string": "然而夏彦和悠里，还没有醒过来的迹象。"
   },
   "003395": {
     "context": "003395",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（大丈夫なのか……？）"
+    "string": "（没事吧……？）"
   },
   "003400": {
     "context": "003400",
     "code": "0x45",
     "developer_comment": "",
-    "string": "立ったままぴくりとも動かない２人を見ている内に、渡瀬はだんだん不安になってきた。"
+    "string": "看着站着纹丝不动的两人，渡濑渐渐不安起来。"
   },
   "003405": {
     "context": "003405",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0064 000499"
+    "string": "然而，就在这时——"
   },
   "003462": {
     "context": "003462",
     "code": "0x45",
     "developer_comment": "３人",
-    "string": "@auto-import 0004 001422"
+    "string": "「……」"
   },
   "003467": {
     "context": "003467",
     "code": "0x45",
     "developer_comment": "",
-    "string": "まるで計ったように、３人が同時に眼を開けた。"
+    "string": "就像约好的一样，三人同时睁开了眼。"
   },
   "003480": {
     "context": "003480",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……お、終わったのか？」"
+    "string": "「……结、结束了吗？」"
   },
   "003485": {
     "context": "003485",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は夏彦に問いかけた。"
+    "string": "渡濑向夏彦询问道。"
   },
   "003515": {
     "context": "003515",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが夏彦は何も答えない。ただじっと渡瀬の顔を見つめてくる。"
+    "string": "然而夏彦一个字也没回答，只是死死盯着渡濑的脸。"
   },
   "003526": {
     "context": "003526",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「お、おい……どうしたんだ？」"
+    "string": "「喂、喂……怎么了？」"
   },
   "003551": {
     "context": "003551",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0004 001422"
+    "string": "「……」"
   },
   "003556": {
     "context": "003556",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがて悠里が、ぽつりと言った。"
+    "string": "终于悠里小声说道。"
   },
   "003586": {
     "context": "003586",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……隊長さん、ごめんなさい」"
+    "string": "「……抱歉了，队长」"
   },
   "003597": {
     "context": "003597",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「やっぱりわたし、隊長さんと一緒には行きたくないです」"
+    "string": "「我果然还是不想和队长一起走」"
   },
   "003608": {
     "context": "003608",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0301 002354"
+    "string": "「什、你说什么？！」"
   },
   "003638": {
     "context": "003638",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「悪いがね、隊長さん。君に悠里くんは渡さない。そういう事になったのだよ」"
+    "string": "「抱歉了呢，队长。我不会把悠里交给你。就是这样了」"
   },
   "003649": {
     "context": "003649",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0005 004861"
+    "string": "「……！」"
   },
   "003660": {
     "context": "003660",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「な、夏彦……これは、どういう事なんだ！？」"
+    "string": "「夏、夏彦……这是，怎么回事？！」"
   },
   "003665": {
     "context": "003665",
     "code": "0x45",
     "developer_comment": "",
-    "string": "戦慄しながら問いかける。"
+    "string": "渡濑颤栗着询问道。"
   },
   "003788": {
     "context": "003788",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると夏彦は立ち上がり、渡瀬の手首を掴んで言った。"
+    "string": "于是夏彦突然动作起来，抓住渡濑的手腕说。"
   },
   "003819": {
     "context": "003819",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「どうもこうもないだろう？　ぼくとお前は、初めから敵同士だったはずじゃないか？」"
+    "string": "「没什么怎么回事吧？你我二人，从一开始就应该是敌人不是吗」"
   },
   "003824": {
     "context": "003824",
     "code": "0x45",
     "developer_comment": "",
-    "string": "刹那、渡瀬の背筋は凍りついた。"
+    "string": "刹那，渡濑的脊背像冰一样发凉。"
   },
   "003829": {
     "context": "003829",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちの眼に宿る、禍々しい光に気付いたのだ。"
+    "string": "他注意到夏彦他们眼中寄宿着的不祥的光芒。"
   },
   "003840": {
     "context": "003840",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ま、まさかお前ら……全員、悪意に！？」"
+    "string": "「该、该不会你们……全都，被恶意？！」"
   },
   "003873": {
     "context": "003873",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「消えてくれ、渡瀬。今度こそ永遠に」"
+    "string": "「去死吧，渡濑。这次是万劫不复」"
   },
   "003884": {
     "context": "003884",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「や、やめろ――ッ！！」"
+    "string": "「住、住手——！！」"
   },
   "003889": {
     "context": "003889",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が絶叫した、その瞬間――"
+    "string": "渡濑惨叫着的这一瞬——"
   },
   "003951": {
     "context": "003951",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――彼の人格を形成していた、全ての記憶が消滅した。"
+    "string": "——形成他的人格的全部记忆，灰飞烟灭了。"
   },
   "004165": {
     "context": "004165",
     "code": "0x45",
     "developer_comment": "",
-    "string": "……その後……"
+    "string": "……这之后……"
   },
   "004170": {
     "context": "004170",
     "code": "0x45",
     "developer_comment": "",
-    "string": "気絶した渡瀬を、夏彦たちは見下ろしていた。"
+    "string": "夏彦等人俯视着昏过去的渡濑。"
   },
   "004260": {
     "context": "004260",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐに夏彦が無言で、渡瀬の懐から銃を奪う。"
+    "string": "很快夏彦无言地，从渡濑怀中夺过手枪。"
   },
   "004287": {
     "context": "004287",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてその狙いを、渡瀬の頭に定め――"
+    "string": "然后把准星瞄准渡濑的头——"
   },
   "004554": {
     "context": "004554",
@@ -1144,7 +1144,7 @@
     "context": "004557",
     "code": "0x45",
     "developer_comment": "",
-    "string": "√D バッドエンド3【悪意根深き批評家】"
+    "string": "√D Bad End 3【恶意根植的批评家】"
   },
   "004560": {
     "context": "004560",
@@ -1155,7 +1155,7 @@
     "context": "004563",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の悪意の除去が不十分だった場合の結末。"
+    "string": "宇喜多的恶意排除不完全时的结果。"
   },
   "004566": {
     "context": "004566",
@@ -1166,6 +1166,6 @@
     "context": "004569",
     "code": "0x45",
     "developer_comment": "",
-    "string": "RAM SYSTEMで、宇喜多の記憶を充分に修復できていたら、この結末は回避できたかもしれない。"
+    "string": "RAM 系统中，对宇喜多的记忆进行充分的修复的话，或许就能避开这个结局了。 # review：RAM SYSTEM x"
   }
 }
