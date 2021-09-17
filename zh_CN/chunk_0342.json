@@ -110,7 +110,7 @@
     "context": "000568",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はその死体に語りかける。"
+    "string": "@import 0340 000568"
   },
   "000579": {
     "context": "000579",
@@ -206,7 +206,7 @@
     "context": "000850",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「でもあたしの肉体は、もう死んでいる。洵の記憶の中に残したあたしの名残も、あんたが消した」"
+    "string": "@import 0340 000890"
   },
   "000861": {
     "context": "000861",
@@ -218,13 +218,13 @@
     "context": "000872",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「お前が洵さんの心の中にいる限り、洵さんは洵さんじゃなくなっちゃうんだ」"
+    "string": "@import 0340 002430"
   },
   "000901": {
     "context": "000901",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「へぇ？　まるで悪霊みたいな言い草だね。洵にあたしが取り憑いていたとでも？」"
+    "string": "「诶？就好像我是个恶灵一样，真的好笑。你是说我附身在洵身上吗？」"
   },
   "000912": {
     "context": "000912",
@@ -266,25 +266,25 @@
     "context": "000996",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「『普通の洵』？　なにそれ？　あんたに洵の何がわかるの？」"
+    "string": "「『平时的洵』？你在说什么？你又懂洵什么？」"
   },
   "001007": {
     "context": "001007",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「わかるさ。ぼくは渡瀬や洵さん自身の記憶を通じて、洵さんに接してきた」"
+    "string": "「我懂的。我通过渡濑和洵自己的记忆，和洵相处到了现在」"
   },
   "001018": {
     "context": "001018",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「いつもの洵さんは、明るくて強くて、正義感に満ちていて……」"
+    "string": "「洵一直以来都是热情而强大，充满正义感的……」"
   },
   "001029": {
     "context": "001029",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……ぼくは洵さんに、元に戻ってもらいたいだけなんだ」"
+    "string": "「……我希望洵能回到原来的样子」"
   },
   "001034": {
     "context": "001034",
@@ -296,109 +296,109 @@
     "context": "001045",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「お前を消去する事が、お前を殺す事だとしたら……」"
+    "string": "「如果消除掉你就是杀了你的话……」"
   },
   "001056": {
     "context": "001056",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくは何度でも、その罪をかぶってやる」"
+    "string": "「我会接受这一份罪恶，无论多少次」"
   },
   "001079": {
     "context": "001079",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう告げる夏彦を、被験体Ｎが睨みつける。"
+    "string": "说完，夏彦盯着实验对象 N。"
   },
   "001090": {
     "context": "001090",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「そうかい……じゃあ、これはあたしとあんたの殺し合いだね」"
+    "string": "「明白了……那么，我们二人便是不死不休了啊」"
   },
   "001101": {
     "context": "001101",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「あたしの悪意があんたの心を破壊するのが早いか、あんたがあたしを消去するのが早いか――」"
+    "string": "「是我的恶意先摧毁掉你的心灵呢，还是你先把我消除掉呢——」"
   },
   "001130": {
     "context": "001130",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "「試してみようか！」"
+    "string": "「来较量较量吧！」"
   },
   "001135": {
     "context": "001135",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼女がそう叫んだ瞬間、暴風のような悪意が押し寄せてきた。"
+    "string": "她喊出口的瞬间，如同狂风一般的恶意朝着夏彦袭来。"
   },
   "001203": {
     "context": "001203",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵の心の中にある、諸々の負の感情。"
+    "string": "这些是洵心中各种各样的负面感情。"
   },
   "001236": {
     "context": "001236",
     "code": "0x45",
     "developer_comment": "",
-    "string": "怒りや嫉妬心といった、醜い心。"
+    "string": "充满愤怒和嫉妒的丑陋的心灵。"
   },
   "001269": {
     "context": "001269",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それが何十倍にも増幅され、夏彦の心をも侵食する。"
+    "string": "这一切都被增幅了数十倍以后，开始侵蚀夏彦的心灵。"
   },
   "001303": {
     "context": "001303",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（くッ……！）"
+    "string": "（咳……！）"
   },
   "001336": {
     "context": "001336",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は一瞬ひるんだが――"
+    "string": "夏彦退缩了一瞬，但是——"
   },
   "001341": {
     "context": "001341",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐに悠里の声が、頭の中に響いた。"
+    "string": "片刻之后，悠里的声音在他的脑中响起。"
   },
   "001413": {
     "context": "001413",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《大丈夫だよひこりん！　隊長さんの時と同じ！》"
+    "string": "『没问题的小彦！跟之前队长的时候一样！』"
   },
   "001421": {
     "context": "001421",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《わたしがついていれば、ひこりんの心は壊れない！》"
+    "string": "『只要我在这里，小彦的心灵就不会被摧毁』"
   },
   "001429": {
     "context": "001429",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《悪意に負けることなんてないはずだよ！》"
+    "string": "『你绝不会输给恶意的！』"
   },
   "001435": {
     "context": "001435",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あ、ああ！）"
+    "string": "（嗯，好！）"
   },
   "001498": {
     "context": "001498",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里の言葉が、夏彦の心を強くした。"
+    "string": "悠里的话坚定了夏彦的内心。"
   },
   "001503": {
     "context": "001503",
@@ -410,36 +410,36 @@
     "context": "001508",
     "code": "0x45",
     "developer_comment": "",
-    "string": "力の限り願った。被験体Ｎが消滅する事を。"
+    "string": "尽力希望着，消灭掉实验对象 N。#review"
   },
   "001583": {
     "context": "001583",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "@auto-import 0002 005125"
+    "string": "「！！」"
   },
   "001588": {
     "context": "001588",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その瞬間、被験体Ｎの悲鳴が響いた気がした。"
+    "string": "这个瞬间，夏彦似乎听到了实验对象 N 的悲鸣。"
   },
   "001594": {
     "context": "001594",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（や……やったか？）"
+    "string": "（成……成功了？）"
   },
   "001693": {
     "context": "001693",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう思った時……"
+    "string": "夏彦正想着的时候……"
   },
   "001698": {
     "context": "001698",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵の心を支配していた、莫大な悪意が消えていくのが、はっきりと感じられた。"
+    "string": "他清楚地感觉到，支配着洵的内心的巨大恶意，正在消失。"
   }
 }
