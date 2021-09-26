@@ -27,7 +27,7 @@
     "context": "000086",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦对这个词语产生了怀疑。"
+    "string": "夏彦对这个词语感到诧异。"
   },
   "000091": {
     "context": "000091",
@@ -39,7 +39,7 @@
     "context": "000120",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「优衣，出来了」"
+    "string": "「优衣，出来」"
   },
   "000126": {
     "context": "000126",
@@ -63,7 +63,7 @@
     "context": "000177",
     "code": "0x45",
     "developer_comment": "",
-    "string": "纱瑠对进入房间的天川博士回答道。#review"
+    "string": "纱瑠对进入房间的天川博士问道："
   },
   "000185": {
     "context": "000185",
@@ -405,7 +405,7 @@
     "context": "000997",
     "code": "0x45",
     "developer_comment": "",
-    "string": "只要能自由地操作脑中的 BC 粒子，就可以做到这样的事情。"
+    "string": "只要能自由地操作脑中的 BC 粒子，这样的事情就轻而易举。"
   },
   "001002": {
     "context": "001002",
@@ -429,7 +429,7 @@
     "context": "001017",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这是绝对不会被发现的，非常高效的记忆窃取。#review"
+    "string": "这是绝对不会被发现的，非常高效的技术篡夺。"
   },
   "001022": {
     "context": "001022",
@@ -441,7 +441,7 @@
     "context": "001028",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "（仔细构筑的系统……）"
+    "string": "（很精巧的系统……）"
   },
   "001033": {
     "context": "001033",
@@ -531,7 +531,7 @@
     "context": "001103",
     "code": "0x45",
     "developer_comment": "",
-    "string": "除了自由以外的所有东西。"
+    "string": "——除了自由以外的所有东西。"
   },
   "001187": {
     "context": "001187",
@@ -729,7 +729,7 @@
     "context": "001734",
     "code": "0x45",
     "developer_comment": "",
-    "string": "7 岁的时候，她解开了全世界数学家都在挑战的 zeta 素数之谜，并证明了黎曼猜想。"
+    "string": "7 岁的时候，她解开了全世界数学家都在挑战的 zeta 函数之谜，并证明了黎曼猜想。"
   },
   "001740": {
     "context": "001740",
@@ -771,6 +771,6 @@
     "context": "001825",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不知何时，这已经成为了她存在的证明。#review"
+    "string": "不知何时，她甚至觉得那些是她存在的证明。"
   }
 }
