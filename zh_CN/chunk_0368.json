@@ -224,13 +224,13 @@
     "context": "000743",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这么说来的话确实是可以让他显示能量。#review"
+    "string": "这么说来确实是有那些东西。"
   },
   "000798": {
     "context": "000798",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后上面显示的数值逐渐从 2788 mSv，2787 mSv，2786 mSv，下降着。"
+    "string": "然后上面显示的数值逐渐下降：2788 mSv，2787 mSv，2786 mSv。"
   },
   "000803": {
     "context": "000803",
@@ -618,7 +618,7 @@
     "context": "002863",
     "code": "0x45",
     "developer_comment": "",
-    "string": "“正在关闭违法登录的信号源”#review"
+    "string": "“关闭非法登录的信号源”#review"
   },
   "002899": {
     "context": "002899",
