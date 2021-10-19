@@ -9,13 +9,13 @@
     "context": "000072",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュが過ごした『今日』の情景が、断片的に浮かんでは消えた。"
+    "string": "他看到纱瑠度过的“今天”画面的片段在眼前闪现。"
   },
   "000140": {
     "context": "000140",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ラボに侵入し、そこでテロリストに遭遇した時、サリュはとっさに叫んだ。"
+    "string": "潜入 LABO，遇到恐怖分子的时候，纱瑠立即喊道。"
   },
   "000148": {
     "context": "000148",
@@ -51,7 +51,7 @@
     "context": "000242",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュはもっとも合理的な判断をした。"
+    "string": "纱瑠做出了最合理的判断。"
   },
   "000337": {
     "context": "000337",
@@ -69,7 +69,7 @@
     "context": "000353",
     "code": "0x45",
     "developer_comment": "",
-    "string": "３人目のテロリストは、防護服を脱ぎ捨てて言う。"
+    "string": "@import 0361 000843"
   },
   "000427": {
     "context": "000427",
@@ -117,7 +117,7 @@
     "context": "000510",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "000515": {
     "context": "000515",
@@ -159,7 +159,7 @@
     "context": "000683",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0077 000202"
+    "string": "@import 0361 001173"
   },
   "000688": {
     "context": "000688",
@@ -231,7 +231,7 @@
     "context": "000876",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0012 005314"
+    "string": "@import 0361 001893"
   },
   "000888": {
     "context": "000888",
@@ -309,66 +309,66 @@
     "context": "001099",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "（メルトダウンを阻止しなければ……！）"
+    "string": "@import 0237 002027"
   },
   "001104": {
     "context": "001104",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュはそう思い、１人ラボに残って、テロリストと戦う事を決めた。"
+    "string": "想到这里，纱瑠决定一个人留在 LABO 里与恐怖分子战斗。"
   },
   "001109": {
     "context": "001109",
     "code": "0x45",
     "developer_comment": "",
-    "string": "たくさんの想い出ができた、この街を護るために。"
+    "string": "为了保护这个充满回忆的城市。"
   },
   "001114": {
     "context": "001114",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦とましろという、大切な友達を護るために――。"
+    "string": "为了保护夏彦和真白这些重要的朋友——"
   },
   "001143": {
     "context": "001143",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0021 004273"
+    "string": "——……"
   },
   "001148": {
     "context": "001148",
     "code": "0x45",
     "developer_comment": "",
-    "string": "……サリュの記憶の中に、怪しいところは一切なかった。"
+    "string": "……纱瑠的记忆中毫无疑点。"
   },
   "001153": {
     "context": "001153",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それ以降にも、改竄されている疑いのある記憶はない。"
+    "string": "在这之外，也没有任何疑似被改写的记忆。"
   },
   "001159": {
     "context": "001159",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（サリュは本当にぼくらの事を、大切に思ってくれてたんだな……）"
+    "string": "（纱瑠真的很重视我们……）"
   },
   "001164": {
     "context": "001164",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は彼女の想いに、胸が締め付けられる思いがした。"
+    "string": "看到她的想法，夏彦感觉胸口一紧。"
   },
   "001170": {
     "context": "001170",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（とにかくサリュが悪意に感染してなくて、本当に良かった）"
+    "string": "（总之，纱瑠没有被恶意感染真是太好了）"
   },
   "001175": {
     "context": "001175",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はそう思いつつ、サリュの記憶の確認を終えた。"
+    "string": "夏彦这样想着，结束了对纱瑠记忆的检查。"
   }
 }

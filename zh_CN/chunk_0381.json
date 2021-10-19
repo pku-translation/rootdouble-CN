@@ -3,13 +3,13 @@
     "context": "000065",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――夏彦は、風見の記憶を読み進めた。"
+    "string": "——夏彦继续阅读着风见的记忆。"
   },
   "000074": {
     "context": "000074",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見たちが搬出リフトの前に行き、被験体Ｎの死体を発見するまで。"
+    "string": "一直到风见众人来到了货梯前，发现了实验对象 N 的尸体。"
   },
   "000080": {
     "context": "000080",
@@ -27,7 +27,7 @@
     "context": "000110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――一足先に小部屋に入った洵が叫ぶ。"
+    "string": "——刚进入小房间的洵尖叫着。"
   },
   "000118": {
     "context": "000118",
@@ -39,19 +39,19 @@
     "context": "000123",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見たちが息を呑み、洵の後を追うと――"
+    "string": "众人倒吸了一口凉气，跟着洵进入了房间——"
   },
   "000221": {
     "context": "000221",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこには、見知らぬ少女の死体があった。"
+    "string": "里面是一具未曾谋面的少女的尸体。"
   },
   "000226": {
     "context": "000226",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――風見たちは呆然と、そこに立ち尽くしていた。"
+    "string": "——众人只是呆呆地、一动不动地愣在那里。"
   },
   "000231": {
     "context": "000231",
@@ -63,7 +63,7 @@
     "context": "000236",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがて風見は――"
+    "string": "@import 0052 000248"
   },
   "000244": {
     "context": "000244",
@@ -141,13 +141,13 @@
     "context": "000511",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――夏彦は風見の目を通じ、その光景を見ていた。"
+    "string": "——夏彦通过风见的双眼看到了那一幕。"
   },
   "000517": {
     "context": "000517",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ここで橘さんは悪意に感染した……）"
+    "string": "（从这里开始，风见就被恶意感染了……）"
   },
   "000523": {
     "context": "000523",
@@ -165,31 +165,31 @@
     "context": "000534",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思ったが――被験体Ｎは、まだ現れなかった。"
+    "string": "虽然他这么想着但是——实验对象 N 却还没出现。"
   },
   "000672": {
     "context": "000672",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――…Ａ―…――…時間―…」"
+    "string": "「——…A——…——…时间了…」#0052 000890 下同"
   },
   "000680": {
     "context": "000680",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――……―たちも投与……―」"
+    "string": "「——……——赶快注射……——」"
   },
   "000685": {
     "context": "000685",
     "code": "0x45",
     "developer_comment": "",
-    "string": "背後で渡瀬が何か言った気がしたが、無視した。"
+    "string": "身后的渡濑似乎说了什么话，但是风见没有在意。"
   },
   "000690": {
     "context": "000690",
     "code": "0x45",
     "developer_comment": "",
-    "string": "心肺蘇生を行う手に、力がこもる。"
+    "string": "她只是继续用力地做着心肺复苏。"
   },
   "000695": {
     "context": "000695",
@@ -219,25 +219,25 @@
     "context": "000715",
     "code": "0x45",
     "developer_comment": "",
-    "string": "心臓マッサージ１５回。人工呼吸２回――"
+    "string": "心脏按压 15 次。人工呼吸 2 次——"
   },
   "000723": {
     "context": "000723",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0037 001648"
+    "string": "（……！）"
   },
   "000754": {
     "context": "000754",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがて見知らぬ少女に、失った者の面影が重なった。"
+    "string": "忽然，未曾谋面的少女，和某个逝者的身影重合了。"
   },
   "000759": {
     "context": "000759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "思わず口をついて、声が漏れる。"
+    "string": "她下意识地说道。"
   },
   "000767": {
     "context": "000767",
@@ -255,7 +255,7 @@
     "context": "000780",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その瞬間、傍らの洵が息を呑む。"
+    "string": "听到这句话的瞬间，身旁的洵屏住了呼吸。"
   },
   "000788": {
     "context": "000788",
@@ -267,19 +267,19 @@
     "context": "000796",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「この子は、――…よ……！」"
+    "string": "「这孩子，——……啊……！」"
   },
   "000801": {
     "context": "000801",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、風見の思考は停止していた。"
+    "string": "但是，风见已经停止了思考。"
   },
   "000806": {
     "context": "000806",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵の声も遠く聞こえ、意味を結ばない。"
+    "string": "洵的声音仿佛非常遥远且无法理解。"
   },
   "000838": {
     "context": "000838",
@@ -291,25 +291,25 @@
     "context": "000844",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（お願い、蘇って……！）"
+    "string": "（拜托了，要醒过来啊……！）"
   },
   "000850": {
     "context": "000850",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ようやく会えたのに……こんなの、嫌よ！）"
+    "string": "（明明好不容易才见面的……我不想变成这样！）"
   },
   "000855": {
     "context": "000855",
     "code": "0x45",
     "developer_comment": "",
-    "string": "思考が散り散りになり、まとまらない。"
+    "string": "她的思维越来越发散，无法统一。"
   },
   "000860": {
     "context": "000860",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0137 001133"
+    "string": "但就在这时——"
   },
   "000869": {
     "context": "000869",
@@ -321,13 +321,13 @@
     "context": "000898",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0006 003976"
+    "string": "「！」"
   },
   "000903": {
     "context": "000903",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵の声が、風見を現実に引き戻した。"
+    "string": "洵的声音把风见拉回了现实。"
   },
   "000911": {
     "context": "000911",
@@ -339,49 +339,49 @@
     "context": "000916",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がかすれた声で言うのを聞いて、風見は愕然とした。"
+    "string": "听到渡濑沙哑的声音，风见愣住了。"
   },
   "000922": {
     "context": "000922",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（あ……）"
+    "string": "（啊……）"
   },
   "000928": {
     "context": "000928",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（……いま、私……久しぶりに、正気を失って……？）"
+    "string": "（……我刚刚……久违的，又失去了理智吗……？）"
   },
   "000933": {
     "context": "000933",
     "code": "0x45",
     "developer_comment": "",
-    "string": "凪沙の死から９年経ち、心神喪失が再発する事もないと思っていたが――"
+    "string": "凪沙已经去世了 9 年了，她本以为不会再失去理智了，但是——"
   },
   "000939": {
     "context": "000939",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（いけない……冷静に、ならなければ……）"
+    "string": "（不行的……要冷静，冷静下来……）"
   },
   "000947": {
     "context": "000947",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（冷静に、冷静に、冷静に……）"
+    "string": "（冷静，冷静，冷静……）"
   },
   "000953": {
     "context": "000953",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（この子は凪沙じゃないんだから……）"
+    "string": "（毕竟她不是凪沙……）"
   },
   "001024": {
     "context": "001024",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は深く息をつき、ゆっくりと、渡瀬の方を振り向いて言う。"
+    "string": "风见深呼吸了一口，然后缓缓地转向渡濑，说道："
   },
   "001032": {
     "context": "001032",
@@ -399,13 +399,13 @@
     "context": "001045",
     "code": "0x45",
     "developer_comment": "",
-    "string": "いつも通りの自分を演じたつもりだった。"
+    "string": "她想要表现成平时的自己。"
   },
   "001050": {
     "context": "001050",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがなぜか皆、風見を見て、怯えたような表情を浮かべる。"
+    "string": "但是不知为何，周围的人看着风见，都露出了害怕的表情。"
   },
   "001079": {
     "context": "001079",
@@ -429,53 +429,53 @@
     "context": "001121",
     "code": "0x45",
     "developer_comment": "",
-    "string": "内心の変調を見破られないよう、風見は冷静に言葉を重ねた。"
+    "string": "风见冷静地回答着，不想让他人看出她内心的变化。"
   },
   "001164": {
     "context": "001164",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが胸の内には、陰鬱な気持ちが渦巻いていた。"
+    "string": "但是在她的心中，阴郁的感情正在聚集。"
   },
   "001170": {
     "context": "001170",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（この子は凪沙じゃない……）"
+    "string": "（她不是凪沙……）"
   },
   "001176": {
     "context": "001176",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（だけど、この事故の犠牲者である事は間違いない）"
+    "string": "（但是，毫无疑问她也是这次事故的牺牲者）"
   },
   "001182": {
     "context": "001182",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（また１人……犠牲者を出してしまった……！）"
+    "string": "（又出现了……一位牺牲者……！）"
   },
   "001187": {
     "context": "001187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思いつつ、小部屋を出ようとする風見の背後で――"
+    "string": "她一边思考着，一边想要离开这个房间——"
   },
   "001192": {
     "context": "001192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不意に、声がした。"
+    "string": "忽然，身后传来了声音。"
   },
   "001251": {
     "context": "001251",
     "code": "0x85",
-    "string": "《……行っちゃうの？》"
+    "string": "『……你要走了吗？』"
   },
   "001252": {
     "context": "001252",
     "code": "0x86",
-    "string": "@auto-import 0077 000488"
+    "string": "？？"
   },
   "001253": {
     "context": "001253",
@@ -486,31 +486,31 @@
     "context": "001299",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「？！」"
+    "string": "「！？」"
   },
   "001310": {
     "context": "001310",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見ははっとして振り返った。"
+    "string": "风见猛地回头。"
   },
   "001315": {
     "context": "001315",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一瞬、少女が生き返ったのだと思って――"
+    "string": "一瞬间，她以为少女活了过来——"
   },
   "001365": {
     "context": "001365",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそこには、少女の死体があるだけだった。"
+    "string": "但是看到的依然不过是那位少女的尸体。"
   },
   "001370": {
     "context": "001370",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その体は、先ほどまでと同じく、生命を全く感じられない。"
+    "string": "那句尸体和之前一样，看上去毫无生气。"
   },
   "001378": {
     "context": "001378",
@@ -522,31 +522,31 @@
     "context": "001383",
     "code": "0x45",
     "developer_comment": "",
-    "string": "声をかけても、答えはなかった。"
+    "string": "没有人回答她。"
   },
   "001389": {
     "context": "001389",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（……気のせい、気のせいよ……）"
+    "string": "（……只是错觉，错觉……）"
   },
   "001395": {
     "context": "001395",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（今の私は冷静じゃない……！　願望が現実を歪ませたんだわ……）"
+    "string": "（我现在太不冷静了……！不能混淆了愿望和现实……）"
   },
   "001400": {
     "context": "001400",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見はそう自分に言い聞かせ、死体から目を逸らした。"
+    "string": "风见自言自语道，把视线从尸体上移开。"
   },
   "001429": {
     "context": "001429",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その記憶を読んで、夏彦は戸惑っていた。"
+    "string": "——看到这段记忆，夏彦非常惊讶。"
   },
   "001435": {
     "context": "001435",
@@ -558,73 +558,73 @@
     "context": "001441",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（これ、橘さんの、本物の記憶なのか！？）"
+    "string": "（这，是橘自己真实的记忆吗！？）"
   },
   "001446": {
     "context": "001446",
     "code": "0x45",
     "developer_comment": "",
-    "string": "被験体Ｎは、この時まで生きていて、皆の記憶操作を行った。"
+    "string": "实验对象 N 直到那时都还活着，对大家进行了记忆操作。"
   },
   "001451": {
     "context": "001451",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だから風見の記憶が歪められているとしたら、この時点より前の記憶が歪められているという事になる。"
+    "string": "所以说如果风见的记忆被修改了话，就一定是这个时间节点之前的记忆。"
   },
   "001456": {
     "context": "001456",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、この記憶の中では、花の香りはしなかった。"
+    "string": "但是，这段记忆中并没有花香。"
   },
   "001461": {
     "context": "001461",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして渡瀬たちの心の中にいたような、『被験体Ｎの魂』も現れなかった。"
+    "string": "而且在渡濑众人的心中出现过的“实验对象 N 的灵魂”也没有出现。"
   },
   "001467": {
     "context": "001467",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……どういう事なんだ……）"
+    "string": "（……到底是怎么回事……）"
   },
   "001473": {
     "context": "001473",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あいつは、もっと先の記憶にいるのか……？）"
+    "string": "（那个家伙在更靠后的记忆里吗……？）"
   },
   "001478": {
     "context": "001478",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はわけがわからないまま、さらに記憶を読み進めた。"
+    "string": "夏彦不明白，继续阅读着记忆。"
   },
   "001521": {
     "context": "001521",
     "code": "0x45",
     "developer_comment": "",
-    "string": "次に異様な事が起きたのは、もう少し先の記憶――"
+    "string": "下一次出现异样的是稍微靠后一点的记忆——"
   },
   "001526": {
     "context": "001526",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里が消えた直後の事だ。"
+    "string": "那是在悠里消失之后。"
   },
   "001604": {
     "context": "001604",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――突如逃げ出したユウリを、風見たちは見つける事ができなかった。"
+    "string": "——风见众人没有找到突然逃跑的悠里。"
   },
   "001609": {
     "context": "001609",
     "code": "0x45",
     "developer_comment": "",
-    "string": "傍らの渡瀬が、心配げに言う。"
+    "string": "风见身旁的渡濑担心地说道。"
   },
   "001638": {
     "context": "001638",
@@ -642,7 +642,7 @@
     "context": "001675",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「もっともユウリは、カードを隠し持っていたように、ＡＤも隠し持っている可能性は――……」"
+    "string": "「不过，既然悠里似乎藏着门禁卡，那同时藏着 AD 的可能性也是——……」#0055 004265"
   },
   "001681": {
     "context": "001681",
@@ -654,13 +654,13 @@
     "context": "001686",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の声が、また遠くなった。"
+    "string": "渡濑的声音又逐渐远去。"
   },
   "001720": {
     "context": "001720",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（どうして……？　こんな危険な状況なのに、１人でどこかへ行くなんて……！）"
+    "string": "（怎么回事……？明明这么危险，为什么要一个人跑掉呢……！）"
   },
   "001728": {
     "context": "001728",
@@ -672,23 +672,23 @@
     "context": "001733",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう呟き、風見は駆け出す。"
+    "string": "一边喃喃自语，风见一边向前跑去。"
   },
   "001738": {
     "context": "001738",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その耳に、またさきほどの声が聞こえた。"
+    "string": "——忽然，她又听到了之前一样的声音。"
   },
   "001795": {
     "context": "001795",
     "code": "0x85",
-    "string": "《……早く探さなきゃ……》"
+    "string": "『……必须快点找到她……』#这个有前文吗，下同"
   },
   "001796": {
     "context": "001796",
     "code": "0x86",
-    "string": "@auto-import 0077 000488"
+    "string": "？？"
   },
   "001797": {
     "context": "001797",
@@ -698,12 +698,12 @@
   "001812": {
     "context": "001812",
     "code": "0x85",
-    "string": "《あの子も私みたいに、死んじゃうよ……？》"
+    "string": "『不然她就会像我一样死掉的哦……？』"
   },
   "001813": {
     "context": "001813",
     "code": "0x86",
-    "string": "@auto-import 0077 000488"
+    "string": "？？"
   },
   "001814": {
     "context": "001814",
@@ -714,52 +714,52 @@
     "context": "001845",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "001850": {
     "context": "001850",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは頭の中から響く声のように思えた。"
+    "string": "这个声音仿佛是直接在她脑中响起的。"
   },
   "001855": {
     "context": "001855",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は奥歯を噛み、密かに思う。"
+    "string": "风见咬了咬牙，思考着。"
   },
   "001861": {
     "context": "001861",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（……わかってるわよ……）"
+    "string": "（……我明白了……）"
   },
   "001867": {
     "context": "001867",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（幻聴なのね、これ……？）"
+    "string": "（这个，是幻听吧……？）"
   },
   "001873": {
     "context": "001873",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（あなたを救えなかった罪悪感が、ありもしない声を聞かせているのね？）"
+    "string": "（是没能救下你的罪恶感，让我听到这个声音的，对吧？）"
   },
   "001928": {
     "context": "001928",
     "code": "0x85",
-    "string": "@auto-import 0091 001263"
+    "string": "『……』"
   },
   "001929": {
     "context": "001929",
     "code": "0x86",
-    "string": "@auto-import 0077 000488"
+    "string": "？？"
   },
   "001930": {
     "context": "001930",
     "code": "0x86",
-    "string": "@auto-import 0091 001263"
+    "string": "『……』"
   },
   "001958": {
     "context": "001958",
@@ -771,305 +771,305 @@
     "context": "001963",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は罪悪感に耐えつつ、心の中で続けた。"
+    "string": "风见忍耐着心中的罪恶感，继续思考着。"
   },
   "001969": {
     "context": "001969",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ごめんなさい……本当に、ごめんなさい……）"
+    "string": "（非常抱歉……真的，非常抱歉……）"
   },
   "001975": {
     "context": "001975",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（全てが終わったら、あなたをちゃんと弔うから……今だけは、責めないで……）"
+    "string": "（在一切都结束以后，我会为你祭奠的……所以现在请原谅我吧……）"
   },
   "001980": {
     "context": "001980",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――だが、幻聴はもう聞こえなかった。"
+    "string": "——但是，她没有再次听到幻听。"
   },
   "001985": {
     "context": "001985",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見はそれに安堵すると同時に――"
+    "string": "风见感到一些安心，但同时——"
   },
   "001990": {
     "context": "001990",
     "code": "0x45",
     "developer_comment": "",
-    "string": "かすかな寂しさを、感じていた。"
+    "string": "也感到了一些寂寞。"
   },
   "002059": {
     "context": "002059",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ちょ、ちょっと待ってくれ！）"
+    "string": "（等等，等一下！）"
   },
   "002065": {
     "context": "002065",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（おかしいぞこれ！　何が起きてるんだ！？）"
+    "string": "（这个很奇怪啊！到底发生了什么！？）"
   },
   "002070": {
     "context": "002070",
     "code": "0x45",
     "developer_comment": "",
-    "string": "愕然とする夏彦の頭に、悠里の声が響く。"
+    "string": "悠里的声音在惊讶地夏彦脑中响起。"
   },
   "002097": {
     "context": "002097",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《へ、変だよひこりん！　なんか変！》"
+    "string": "『很奇怪啊小彦！不知道为什么，但是很奇怪！』"
   },
   "002103": {
     "context": "002103",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あぁ！　幻聴ってなんだ！？　なんでこんな事が起こる！？）"
+    "string": "（嗯！这个幻听是什么！？为什么会这样！？）"
   },
   "002130": {
     "context": "002130",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《まさかＮちゃんが、テレパシーを……！？》"
+    "string": "『该不会是 N 的传心吧……！？』"
   },
   "002157": {
     "context": "002157",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《ひこりんが、隊長さんにテレパシーを使っていたみたいに！？》"
+    "string": "『就像小彦对队长使用的传心一样！？』"
   },
   "002163": {
     "context": "002163",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（いや、それはありえない！）"
+    "string": "（不，不可能的！）"
   },
   "002169": {
     "context": "002169",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（被験体Ｎは、もう死んでいるんだから……ありえないはずなんだ……！）"
+    "string": "（实验对象 N 已经死了……所以不可能是这样的……！）"
   },
   "002202": {
     "context": "002202",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてこの記憶の中にも、花の香りはしなかった。"
+    "string": "而且这段记忆里也没有花香。"
   },
   "002207": {
     "context": "002207",
     "code": "0x45",
     "developer_comment": "",
-    "string": "記憶操作でもない、テレパシーでもない、不可解な現象――"
+    "string": "不是记忆操作，也不是传心，这个事情无法理解——"
   },
   "002212": {
     "context": "002212",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが夏彦は、その現象を良く知っている。"
+    "string": "但是，夏彦很了解这个现象。#review"
   },
   "002218": {
     "context": "002218",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（まさか、橘さんは……！）"
+    "string": "（该不会，橘……！）"
   },
   "002223": {
     "context": "002223",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の心に、１つの疑惑が生まれた。"
+    "string": "夏彦心中出现了一个疑惑。"
   },
   "002268": {
     "context": "002268",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてもう少し先の時点では――"
+    "string": "再稍微后面一点的时候——"
   },
   "002273": {
     "context": "002273",
     "code": "0x45",
     "developer_comment": "",
-    "string": "さらに異様な事が起きた。"
+    "string": "也发生了奇怪的事情。"
   },
   "002348": {
     "context": "002348",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見が足を怪我して、監視ルームにいた時の事。"
+    "string": "那时风见的腿受伤了，正呆在监控室里。"
   },
   "002353": {
     "context": "002353",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼女は１人、モニターを眺めていた。"
+    "string": "她一个人看着显示器。"
   },
   "002358": {
     "context": "002358",
     "code": "0x45",
     "developer_comment": "",
-    "string": "体が回復するまでの間、モニターをチェックしておこうと思っていたのだが――"
+    "string": "一边等待着身体恢复，一边检查着显示器的画面中有没有奇怪的事情——"
   },
   "002363": {
     "context": "002363",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その作業には、まるで力が入らなかった。"
+    "string": "但是她的精力完全没有放在这上面。"
   },
   "002369": {
     "context": "002369",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（人殺しが施設内に、いるかもしれないなんて……！）"
+    "string": "（杀人凶手说不定就在设施里……！）"
   },
   "002374": {
     "context": "002374",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の心には、怯えと恐怖が浮かんでいた。"
+    "string": "风见的心中感到害怕和恐惧。"
   },
   "002379": {
     "context": "002379",
     "code": "0x45",
     "developer_comment": "",
-    "string": "初めて体験するＮ災害への出場とは言え、いつも通り人命救助に専心すればいいと思っていた。"
+    "string": "她本以为在第一次经历的 N 灾害中出勤，也会和平时一样只需要专心拯救人的生命就好。"
   },
   "002384": {
     "context": "002384",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、状況は急速に変わりつつある。"
+    "string": "但是，状况飞速地发生着改变。"
   },
   "002389": {
     "context": "002389",
     "code": "0x45",
     "developer_comment": "",
-    "string": "搬出リフトが破壊されていたとわかった時、恵那が言っていた。"
+    "string": "在知道了货梯被破坏的时候，惠那说过："
   },
   "002394": {
     "context": "002394",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『これはただの災害じゃない。誰かが意図的に起こした事だ』と。"
+    "string": "“这根本不是什么单纯的事故。这是有人故意引起的”。#前半句在0054，后半句没找到"
   },
   "002399": {
     "context": "002399",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵も言っていた。『街にテロリストが入り込んでいた』と。"
+    "string": "洵也说过，“这个城市里说不定有恐怖分子渗透进来了”。#0054 但是不是原句"
   },
   "002404": {
     "context": "002404",
     "code": "0x45",
     "developer_comment": "",
-    "string": "正直、風見も２人の意見には、同意するところもあったが――"
+    "string": "其实，风见也认为两个人说的是对的，但是——"
   },
   "002409": {
     "context": "002409",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それはおくびにも出さず、否定し続けていた。"
+    "string": "但是她对此只字不提，只是不停地否认着。"
   },
   "002415": {
     "context": "002415",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（この極めて厳しい状況下、一番怖いのは、皆が疑心暗鬼に陥る事……！）"
+    "string": "（在这种极端严峻的情况下，最可怕的就是大家陷入疑神疑鬼……！）"
   },
   "002421": {
     "context": "002421",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（力を合わせなければ、生き残れないかもしれないのに……）"
+    "string": "（因为如果我们不集合力量的话，可能就没法生存下去……）"
   },
   "002426": {
     "context": "002426",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが施設内に９人しかいない以上、恵那たちの考えをつきつめていけば、やがて１つの疑惑につきあたってしまう。"
+    "string": "但是设施里只有 9 个人，如果在惠那二人的想法的基础上继续思考的话，就会出现一个疑问。"
   },
   "002431": {
     "context": "002431",
     "code": "0x45",
     "developer_comment": "",
-    "string": "即ち、『私たちの中に、犯人がいる』という考え――"
+    "string": "也就是，“凶手在我们之中”——"
   },
   "002436": {
     "context": "002436",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だからこそ風見は、殺人者の存在など、認めるわけにはいかなかったのだ。"
+    "string": "所以说风见才会无法承认存在凶手。"
   },
   "002442": {
     "context": "002442",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（でも、だったら……あの少女は誰に殺されたの？）"
+    "string": "（但是，如果是这样的话……那个少女是谁杀死的呢？）"
   },
   "002448": {
     "context": "002448",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ユウリさんは、どうして姿を消したの？）"
+    "string": "（悠里为什么会消失？）"
   },
   "002454": {
     "context": "002454",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（本当に犯人は、すでに逃げたの……？）"
+    "string": "（真凶已经逃走了吗……？）"
   },
   "002459": {
     "context": "002459",
     "code": "0x45",
     "developer_comment": "",
-    "string": "疑問が湧き上がり、心を満たす。"
+    "string": "她的心中满是疑问。"
   },
   "002464": {
     "context": "002464",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は頭を振って、それを否定した。"
+    "string": "风见摇摇头，否定了这些想法。"
   },
   "002470": {
     "context": "002470",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ダメよ、こんな事を考えちゃ！）"
+    "string": "（不行，不能想这些！）"
   },
   "002476": {
     "context": "002476",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（私は今、心のバランスが崩れてる！　こんな思考に支配されたら、それこそ危険――）"
+    "string": "（刚刚我内心的平衡就崩溃了！如果继续这样思考的话，就危险了——）"
   },
   "002481": {
     "context": "002481",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見がそう思った時。"
+    "string": "风见真这么想着的时候。"
   },
   "002486": {
     "context": "002486",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――背後で声がした。"
+    "string": "——背后传来了一个声音。"
   },
   "002544": {
     "context": "002544",
     "code": "0x85",
-    "string": "《本当にそれでいいの？》"
+    "string": "『这样就没问题了吗？』"
   },
   "002545": {
     "context": "002545",
     "code": "0x86",
-    "string": "@auto-import 0077 000488"
+    "string": "？？"
   },
   "002546": {
     "context": "002546",
@@ -1080,13 +1080,13 @@
     "context": "002577",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0012 004043"
+    "string": "「！？」"
   },
   "002582": {
     "context": "002582",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見ははっとして、振り返り――"
+    "string": "风见猛然回头——"
   },
   "002605": {
     "context": "002605",
@@ -1098,7 +1098,7 @@
     "context": "002619",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ひっ……！」"
+    "string": "「咦……！」"
   },
   "002624": {
     "context": "002624",
@@ -1110,169 +1110,169 @@
     "context": "002629",
     "code": "0x45",
     "developer_comment": "",
-    "string": "部屋の隅に、先ほどリフトの前で死んでいた少女が立っていた。"
+    "string": "刚刚在货梯面前死去的少女，正站在房间的一角。"
   },
   "002637": {
     "context": "002637",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あ、あなたは……！」"
+    "string": "「你，你是……！」"
   },
   "002642": {
     "context": "002642",
     "code": "0x45",
     "developer_comment": "",
-    "string": "驚愕に言葉を失う風見に、彼女が言う。"
+    "string": "风见惊讶地说不出话来。那位少女回答道。"
   },
   "002700": {
     "context": "002700",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《……驚かして、ごめんね》"
+    "string": "『……抱歉吓到你了』"
   },
   "002708": {
     "context": "002708",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《あなたが間違った方向に進もうとしているから、見ていられなくなって……》"
+    "string": "『我不能看着你一直往错误的方向走……』"
   },
   "002713": {
     "context": "002713",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは先ほど聞こえた幻聴と、同じ声だった。"
+    "string": "这和之前的幻听是一样的声音。"
   },
   "002718": {
     "context": "002718",
     "code": "0x45",
     "developer_comment": "",
-    "string": "信じがたい思いが押し寄せる。"
+    "string": "风见心中涌上一个难以置信的想法。"
   },
   "002726": {
     "context": "002726",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ゆ、幽霊……！？」"
+    "string": "「幽，幽灵……！？」"
   },
   "002753": {
     "context": "002753",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《そのようなものかもね……自分でもよくわからないの》"
+    "string": "『可能跟幽灵差不多吧……我自己也不太清楚』"
   },
   "002761": {
     "context": "002761",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「わからないって……！」"
+    "string": "「不太清楚……！」"
   },
   "002767": {
     "context": "002767",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（幽霊じゃないとしたら――幻覚！？）"
+    "string": "（不是幽灵的话——幻觉！？）"
   },
   "002773": {
     "context": "002773",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（だとしたら、私の精神はそこまで……！）"
+    "string": "（如果是这样的话，我的精神已经到了这个地步吗……！）"
   },
   "002778": {
     "context": "002778",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそれは幽霊や幻覚などといった、曖昧な存在だとは思えなかった。"
+    "string": "但是她觉得这不是幽灵或者幻觉这样虚幻的存在。"
   },
   "002783": {
     "context": "002783",
     "code": "0x45",
     "developer_comment": "",
-    "string": "混乱する風見に、少女が続ける。"
+    "string": "少女对着混乱的风见继续说道。"
   },
   "002810": {
     "context": "002810",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《そんなに怯えないで……私、あなたの力になりたいの》"
+    "string": "『不要这么害怕……我只是想帮你』"
   },
   "002818": {
     "context": "002818",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ど、どうして？」"
+    "string": "「为，为什么？」"
   },
   "002845": {
     "context": "002845",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《それもわからないけど、あなたが気に入ったのかも》"
+    "string": "『我也不知道为什么，可能是对你有好感吧』"
   },
   "002853": {
     "context": "002853",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0003 001012"
+    "string": "「……？」"
   },
   "002880": {
     "context": "002880",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《とにかくあなたに教えておきたい事があるの。生き残るためには、周りを疑わなきゃだめだって》"
+    "string": "『总之我想告诉你一件事。为了活下来，必须要怀疑周围的人』"
   },
   "002888": {
     "context": "002888",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「疑う？　誰を？」"
+    "string": "「怀疑？谁？」"
   },
   "002896": {
     "context": "002896",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《自分以外の皆を……特に、そう、渡瀬さんをね》"
+    "string": "『自己以外的所有人……特别是，那个叫渡濑的』"
   },
   "002904": {
     "context": "002904",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0088 003177"
+    "string": "「你，你在说什么啊！？」"
   },
   "002931": {
     "context": "002931",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《自分でもわかってるんじゃないかな……？》"
+    "string": "『你自己心里不是也明白吗……？』"
   },
   "002939": {
     "context": "002939",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《あの人の記憶喪失には、不自然な点があるって》"
+    "string": "『那个人的失忆有不自然的地方』"
   },
   "002947": {
     "context": "002947",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あ、それは……！」"
+    "string": "「啊，那个……！」"
   },
   "002974": {
     "context": "002974",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《私ね、思うんだけど……ひょっとしたら、犯人って……》"
+    "string": "『我只是觉得……说不定，凶手……』"
   },
   "003001": {
     "context": "003001",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《渡瀬さんなんじゃないかなぁ？》"
+    "string": "『可能就是渡濑呢？』"
   },
   "003009": {
     "context": "003009",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「止めて！　どうしてそんな事を言うの！」"
+    "string": "「住口！你为什么要这么说！」"
   },
   "003014": {
     "context": "003014",
@@ -1440,19 +1440,19 @@
     "context": "003438",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は表情も感情も殺し、静かに答える。"
+    "string": "风见面无表情，毫无感情地回答道。"
   },
   "003443": {
     "context": "003443",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬たちには、今の出来事を、絶対に知られたくなかった。"
+    "string": "绝对不能让渡濑他们知道刚刚发生的事情。"
   },
   "003615": {
     "context": "003615",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0058 000669"
+    "string": "（……！！）"
   },
   "003620": {
     "context": "003620",
@@ -1464,133 +1464,133 @@
     "context": "003625",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里の虚ろな声が聞こえる。"
+    "string": "他听见了悠里虚无缥缈的声音。"
   },
   "003652": {
     "context": "003652",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《こ、これって、橘さん……まさか、ひこりんと同じく……》"
+    "string": "『这，这个，橘……该不会，跟小彦一样吧……』"
   },
   "003658": {
     "context": "003658",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0374 001413"
+    "string": "（嗯……）"
   },
   "003663": {
     "context": "003663",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は呆然と答える。"
+    "string": "夏彦呆呆地回答道。"
   },
   "003669": {
     "context": "003669",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（橘さんは、この時……被験体Ｎの幻を見ていたんだ）"
+    "string": "（橘在那时……看到了实验对象 N 的幻影）"
   },
   "003674": {
     "context": "003674",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――９年間、夏彦が悠里の幻を見続けてきたように。"
+    "string": "——就像这 9 年中，夏彦一直看到了悠里的幻影一样。"
   },
   "003679": {
     "context": "003679",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこにいるとしか思えない、実在感を伴った幻覚を、風見もずっと見ていたのだ。"
+    "string": "风见一直看到了这个带着真实感的幻象，而且她并不认为这是幻象。#review"
   },
   "003685": {
     "context": "003685",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（で、でもどうして橘さんだけが幻を……）"
+    "string": "（但，但是为什么只有橘看得到这个幻象……）"
   },
   "003691": {
     "context": "003691",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（渡瀬の時とかと、全然違うじゃないか！？）"
+    "string": "（这和渡濑的反应完全不一样啊！？）"
   },
   "003696": {
     "context": "003696",
     "code": "0x45",
     "developer_comment": "",
-    "string": "被験体Ｎの口調も、風見のものとは違っていた。"
+    "string": "实验对象 N 的说话方式和风见相差很远。"
   },
   "003701": {
     "context": "003701",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里の幻が、夏彦の口調で喋ってはいなかったように。"
+    "string": "就像悠里的幻象不会用夏彦的说话方式说话一样。"
   },
   "003728": {
     "context": "003728",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《そう言えばひこりんの時と、条件はよく似てるよね……》"
+    "string": "『这么说来的话，小彦的情况和她有些相似……』"
   },
   "003736": {
     "context": "003736",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《副隊長さんは過去に妹さんを亡くして、自失状態に陥った事があって――その上で、記憶操作を受けたんだから》"
+    "string": "『副队长因为妹妹过去去世了，所以失去了理智——然后在此基础上接受了记忆操作』"
   },
   "003744": {
     "context": "003744",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《幻を見るようになっても、おかしくないのかも……？》"
+    "string": "『所以对她来说看到幻象也并不奇怪吧……？』"
   },
   "003750": {
     "context": "003750",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（いや……それだけじゃ説明がつかない気がする……！）"
+    "string": "（不……总觉得不只是这个原因……！）"
   },
   "003755": {
     "context": "003755",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが明確な答えは出ない。"
+    "string": "但是他没法给出明确的答案。"
   },
   "003760": {
     "context": "003760",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はさらに記憶を読み進める。"
+    "string": "夏彦继续往下读。"
   },
   "003830": {
     "context": "003830",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして次に、幻影が現れたのは――"
+    "string": "然后下一次幻影出现——"
   },
   "003890": {
     "context": "003890",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見たちが、Ｎエリアで火災が起きていない事に気付き、"
+    "string": "是在风见众人注意到 N 区域没有发生火灾的时候。"
   },
   "003950": {
     "context": "003950",
     "code": "0x45",
     "developer_comment": "",
-    "string": "排水パイプからの脱出を試み――"
+    "string": "他们尝试着从排水管道逃生——"
   },
   "003995": {
     "context": "003995",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そしてそれに、失敗した後。"
+    "string": "然后失败了以后。"
   },
   "004055": {
     "context": "004055",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『渡瀬はテロリストだ』と、サリュに言われた時の事だった。"
+    "string": "纱瑠说“渡濑是恐怖分子”的时候。"
   },
   "004093": {
     "context": "004093",
@@ -1602,13 +1602,13 @@
     "context": "004098",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は思わず、サリュを力いっぱい振りほどいた。"
+    "string": "风见下意识地用力甩开了纱瑠。"
   },
   "004208": {
     "context": "004208",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "@auto-import 0017 001742"
+    "string": "「！」"
   },
   "004289": {
     "context": "004289",
@@ -1620,19 +1620,19 @@
     "context": "004435",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬がサリュに駆け寄り、容態を確認する。"
+    "string": "@import 0127 001150 #少个急忙，差不多"
   },
   "004441": {
     "context": "004441",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（あ、あ……私、なんて事を……！）"
+    "string": "（啊，啊……我，怎么会做出这种事……！）"
   },
   "004446": {
     "context": "004446",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は呆然と、渡瀬たちに歩み寄った。"
+    "string": "风见呆呆地走到渡濑他们身边。"
   },
   "004454": {
     "context": "004454",
@@ -1656,43 +1656,43 @@
     "context": "004496",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その事には安堵しつつも――"
+    "string": "她一边感到安心——"
   },
   "004501": {
     "context": "004501",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は先ほどのサリュの言葉を、思い返していた。"
+    "string": "一边回过头来思考刚刚纱瑠说的话。"
   },
   "004506": {
     "context": "004506",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『この男は、テロリスト。私たちは昨夜も今朝も、この男の襲撃を受けた』"
+    "string": "“这个男的，是恐怖分子。昨天晚上，还有今天早上，我们都被他袭击了”#0127 000625 下同"
   },
   "004511": {
     "context": "004511",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『ここで起こっていることは、全部あの男のせい』"
+    "string": "“这里发生的所有事情，全部是他一手造成的”"
   },
   "004516": {
     "context": "004516",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『あなたにだって、思い当たることはいくつもあるはず』"
+    "string": "“你自己，应该也有所察觉了吧”"
   },
   "004521": {
     "context": "004521",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その言葉が心を深く抉る。"
+    "string": "——这段话深深地刺入了风见的内心。#review"
   },
   "004526": {
     "context": "004526",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見の体が、恐怖に震え始めた。"
+    "string": "风见的身体开始因为恐惧而颤抖。"
   },
   "004555": {
     "context": "004555",
@@ -1704,13 +1704,13 @@
     "context": "004560",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が戸惑うように問う。"
+    "string": "渡濑有些困惑。"
   },
   "004565": {
     "context": "004565",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見は身の震えを抑え、彼に答えようと思った。"
+    "string": "风见抑制住自己的颤抖，回复道。"
   },
   "004573": {
     "context": "004573",
@@ -1722,29 +1722,29 @@
     "context": "004578",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『あなたを信じます』"
+    "string": "“我相信你”"
   },
   "004583": {
     "context": "004583",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言いたかった。"
+    "string": "她本想这么说。"
   },
   "004588": {
     "context": "004588",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0064 000499"
+    "string": "然而，就在这时——"
   },
   "004717": {
     "context": "004717",
     "code": "0x85",
-    "string": "《信じちゃダメだよ》"
+    "string": "『不能相信他』"
   },
   "004718": {
     "context": "004718",
     "code": "0x86",
-    "string": "被験体Ｎ"
+    "string": "实验对象 N "
   },
   "004719": {
     "context": "004719",
@@ -1755,187 +1755,187 @@
     "context": "004747",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0308 001058"
+    "string": "这样的声音，在她的脑中响起。"
   },
   "004830": {
     "context": "004830",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0037 001648"
+    "string": "（……！）"
   },
   "004835": {
     "context": "004835",
     "code": "0x45",
     "developer_comment": "",
-    "string": "気付けば風見のすぐそばに、先ほどの少女が立っていた。"
+    "string": "回过神来，风见发现之前的那位少女正站在她身边。"
   },
   "004840": {
     "context": "004840",
     "code": "0x45",
     "developer_comment": "",
-    "string": "少女は風見と共に、渡瀬を見据えて言う。"
+    "string": "少女和风见一起盯着渡濑，说道。"
   },
   "004854": {
     "context": "004854",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《三ノ宮って子の言う通りだよ……》"
+    "string": "『那个叫三之宫的女孩说的对……』"
   },
   "004868": {
     "context": "004868",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《テロリストは実在したの。そして渡瀬さんは、テロリストだったんだよ》"
+    "string": "『恐怖分子是存在的。然后，渡濑就是恐怖分子』"
   },
   "004873": {
     "context": "004873",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉を聞いた瞬間、風見の脳内に思考が明滅した。"
+    "string": "听到这句话的瞬间，风见的脑中闪过许多画面。"
   },
   "004885": {
     "context": "004885",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（そう言えば近頃、街で『ＢＣ排斥派団体』が、騒ぎを起こしていた……！）"
+    "string": "（这么说来的话，最近城市里有个“BC 排斥派团体”引起了很多事件……！）#review"
   },
   "004891": {
     "context": "004891",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ずっと昔、鹿鳴市同時多発火災を起こした人たちが、もう１度テロを……）"
+    "string": "（很久很久之前引起鹿鸣市连环火灾的人又要再次发动恐怖袭击……）"
   },
   "004897": {
     "context": "004897",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（でもだったらどうして、ＢＣ排斥派がこの施設を狙うの？）"
+    "string": "（但如果这样说的话，为什么 BC 排斥派会攻击这个设施？）"
   },
   "004902": {
     "context": "004902",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その問いに、傍らの少女が答える。"
+    "string": "身旁的少女回答了这个问题。"
   },
   "004929": {
     "context": "004929",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《ねぇ、ここには原子炉はなかったよね》"
+    "string": "『我说，这里并没有核反应堆』"
   },
   "004937": {
     "context": "004937",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《ここが原子力研究所じゃないとしたら、なんなのかな……？》"
+    "string": "『如果这里不是核能研究所的话，会是什么呢……？』"
   },
   "004945": {
     "context": "004945",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《この街で、原子力と双璧をなす、重要な産業……それはなんだったかな？》"
+    "string": "『这个城市和核能并称的两大重要产业……另一个是什么呢？』"
   },
   "004951": {
     "context": "004951",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう問われた瞬間、風見は気付いた。"
+    "string": "说到这里，风见也明白了。"
   },
   "004957": {
     "context": "004957",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（まさか、ここは……）"
+    "string": "（该不会，这里是……）"
   },
   "004963": {
     "context": "004963",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（ＢＣの研究所なの！？）"
+    "string": "（BC 研究所吧！？）"
   },
   "004996": {
     "context": "004996",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう言えば、渡瀬はＢＣを嫌っていた。"
+    "string": "话又说回来，渡濑讨厌 BC。"
   },
   "005001": {
     "context": "005001",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見もそのせいで、彼とはほとんどＢＣの話ができなかった。"
+    "string": "因此，风见也不怎么跟他提起 BC 的话题。"
   },
   "005006": {
     "context": "005006",
     "code": "0x45",
     "developer_comment": "",
-    "string": "自分にわずかながら、適性度がある事も――そして、妹の事も。"
+    "string": "她没有提到自己拥有适应性，虽然很少——也没有提妹妹的事情。"
   },
   "005012": {
     "context": "005012",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（渡瀬は何らかの理由から、ＢＣへの憎悪を昂ぶらせ、テロリストとなり……この施設を狙った！？）"
+    "string": "（因为某种原因，渡濑对 BC 的厌恶加深了，然后他成为了恐怖分子……袭击了这个设施！？）"
   },
   "005018": {
     "context": "005018",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（それを止めようとした堂島さんと桧山さんを、殺害した！？）"
+    "string": "（他还杀害了想要阻止他的堂岛和桧山！？）"
   },
   "005024": {
     "context": "005024",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（さらに研究員や、あの少女も巻き添えに……！？）"
+    "string": "（还把研究员和那个少女也卷入其中了……！？）"
   },
   "005029": {
     "context": "005029",
     "code": "0x45",
     "developer_comment": "",
-    "string": "信じたくはない考えだった。"
+    "string": "她不愿意相信这一点。"
   },
   "005034": {
     "context": "005034",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそうでなければ、なぜサリュは渡瀬をテロリストだなどと言ったのだろうか？"
+    "string": "但是如果不是这样的话，为什么纱瑠说渡濑是恐怖分子呢？"
   },
   "005039": {
     "context": "005039",
     "code": "0x45",
     "developer_comment": "",
-    "string": "なぜ渡瀬は銃を持っていたのだろうか？"
+    "string": "为什么渡濑会拿着一把手枪呢？"
   },
   "005044": {
     "context": "005044",
     "code": "0x45",
     "developer_comment": "",
-    "string": "なぜ彼は嘘をついたのだろうか？"
+    "string": "为什么他会撒谎呢？"
   },
   "005049": {
     "context": "005049",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――明確な回答は、何一つ思いつかなかった。"
+    "string": "——她想不到能回答这些问题的答案。"
   },
   "005055": {
     "context": "005055",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（彼が犯行を行ったとしたら、記憶を失う前――）"
+    "string": "（他是在失忆之前犯下的罪行——）"
   },
   "005061": {
     "context": "005061",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（記憶を失って、自分の罪も忘れてしまっているの……？）"
+    "string": "（然后他失忆了，忘记了自己的罪行吗……？）"
   },
   "005066": {
     "context": "005066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思う風見を、渡瀬が怯えたように見る。"
+    "string": "想到这里，风见害怕地看着渡濑。"
   },
   "005095": {
     "context": "005095",
@@ -1965,31 +1965,31 @@
     "context": "005187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――その通りだった。"
+    "string": "——说的没错。"
   },
   "005192": {
     "context": "005192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "厳しくて、優しくて、いつも人の命を護るために戦い続けてきた彼。"
+    "string": "严肃而温柔，一直以来都为了保护人的生命而奋斗。"
   },
   "005197": {
     "context": "005197",
     "code": "0x45",
     "developer_comment": "",
-    "string": "凪沙の死に胸を痛め、風見に強い生き方を教えてくれた、真のレスキュー隊員だったはずの渡瀬。"
+    "string": "教会了因为凪沙的死而悲痛不已的风见如何坚强地活下去，渡濑本应当是一位真正的救援队员。"
   },
   "005203": {
     "context": "005203",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（私の英雄は……人殺しだったの？）"
+    "string": "（我的英雄……杀了人吗？）"
   },
   "005208": {
     "context": "005208",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それでも風見は最後に、渡瀬に尋ねた。"
+    "string": "尽管如此，风见还是最后向渡濑提了一个问题。"
   },
   "005216": {
     "context": "005216",
@@ -2037,7 +2037,7 @@
     "context": "005335",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0015 000688"
+    "string": "「……！」"
   },
   "005343": {
     "context": "005343",
@@ -2097,97 +2097,97 @@
     "context": "005412",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――しかし、その信義は――"
+    "string": "——但是，这份信念——"
   },
   "005417": {
     "context": "005417",
     "code": "0x45",
     "developer_comment": "",
-    "string": "少女の一言で、砕け散った。"
+    "string": "被少女的一句话打碎了。"
   },
   "005450": {
     "context": "005450",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《……でも、裏切られちゃったね》"
+    "string": "『……但是，他背叛了你啊』"
   },
   "005458": {
     "context": "005458",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《犯人は、この人だったんだよ》"
+    "string": "『凶手就是这个人』"
   },
   "005464": {
     "context": "005464",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0037 001648"
+    "string": "（……！）"
   },
   "005472": {
     "context": "005472",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《ねぇ、この事実に気付いているのは、あなただけだよね……？》"
+    "string": "『我说，意识到这个事实的，只有你一个哦……？』"
   },
   "005499": {
     "context": "005499",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《彼をここで裁いてしまえば、罪は明るみに出ないよ》"
+    "string": "『如果你在这里杀死他的话，就没有人会知道他的罪行』"
   },
   "005507": {
     "context": "005507",
     "code": "0x45",
     "developer_comment": "被験体Ｎ",
-    "string": "《この人はレスキュー隊長笠鷺渡瀬として、ここで死ぬべきなんじゃ……？》"
+    "string": "『你不觉得他应该作为救援队队长笠鹭渡濑死在这里吗……？』"
   },
   "005512": {
     "context": "005512",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉は、風見の心の一番深いところまで届いた。"
+    "string": "这句话触碰到了风见的内心深处。"
   },
   "005518": {
     "context": "005518",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（そうだわ……）"
+    "string": "（没错……）"
   },
   "005524": {
     "context": "005524",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "（彼の名誉を護るためにも、いっそ私が――！）"
+    "string": "（我来保护他的名誉——！）#review"
   },
   "005529": {
     "context": "005529",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思った瞬間、風見の心は――"
+    "string": "这么想的瞬间，风见的内心——"
   },
   "005534": {
     "context": "005534",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悪意の闇に沈んだ。"
+    "string": "堕入了恶意的深渊。"
   },
   "005633": {
     "context": "005633",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――同時に、風見の記憶の中で流れていた時間が、停止した。"
+    "string": "——与此同时，风见记忆中流动的时间停止了。"
   },
   "005638": {
     "context": "005638",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それからは彼女の支離滅裂な思考が、断片的に伝わってくる。"
+    "string": "从这里以后，就只能看到零碎的，她的支离破碎的思考了。#review"
   },
   "005695": {
     "context": "005695",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あなたは道を違えてしまった……」"
+    "string": "「你走上了歧途……」"
   },
   "005754": {
     "context": "005754",
@@ -2205,55 +2205,55 @@
     "context": "005869",
     "code": "0x45",
     "developer_comment": "",
-    "string": "怒り、悲しみ、殺意、その他のありとあらゆる負の感情。"
+    "string": "愤怒，悲伤，杀意，以及其他的负面情绪。"
   },
   "005874": {
     "context": "005874",
     "code": "0x45",
     "developer_comment": "",
-    "string": "壮絶な悪意の渦の中、夏彦は呆然と佇んでいた。"
+    "string": "在这样强烈的恶意的漩涡之中，夏彦呆呆地伫立着。"
   },
   "005880": {
     "context": "005880",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ど……どうすればいいんだ！？）"
+    "string": "（该……该怎么办才好……！？）"
   },
   "005886": {
     "context": "005886",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（どうすれば橘さんを救えるんだ！？）"
+    "string": "（怎么才能拯救橘！？）"
   },
   "005939": {
     "context": "005939",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《ひこりん、慌てちゃダメ！》"
+    "string": "『小彦，别着急』"
   },
   "005966": {
     "context": "005966",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《副隊長さんがこんな状態になったのは、Ｎちゃんの魂が、どこかにあるからだよ！》"
+    "string": "『副队长变成这样，说明 N 的灵魂就在这里』"
   },
   "005974": {
     "context": "005974",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《この人は他の人より強く、悪意に感染しちゃっただけ！》"
+    "string": "『橘只是比其他人遭受了更加强烈的恶意感染！』"
   },
   "006001": {
     "context": "006001",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《なんとかＮちゃんを探して、消去しよう！》"
+    "string": "『想办法找到 N，然后消除掉她！』"
   },
   "006007": {
     "context": "006007",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あ、ああ！　それじゃさらに記憶を探って――）"
+    "string": "（嗯，好！那我再继续搜索记忆——）"
   },
   "006012": {
     "context": "006012",
@@ -2265,17 +2265,17 @@
     "context": "006017",
     "code": "0x45",
     "developer_comment": "",
-    "string": "頭の中に――"
+    "string": "他的脑中——"
   },
   "006075": {
     "context": "006075",
     "code": "0x85",
-    "string": "《やめて下さい》"
+    "string": "『住手』"
   },
   "006076": {
     "context": "006076",
     "code": "0x86",
-    "string": "@auto-import 0052 001546"
+    "string": "风见"
   },
   "006077": {
     "context": "006077",
@@ -2286,180 +2286,180 @@
     "context": "006139",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼女の声が響いた。"
+    "string": "听到了她的声音。"
   },
   "006145": {
     "context": "006145",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0021 003823"
+    "string": "（！？）"
   },
   "006150": {
     "context": "006150",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは、被験体Ｎの声ではなかった。"
+    "string": "这不是实验对象 N 的声音。"
   },
   "006155": {
     "context": "006155",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今、夏彦が心を繋いでいた相手――"
+    "string": "刚刚，是和夏彦连心的人——"
   },
   "006161": {
     "context": "006161",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（橘さんの声！？）"
+    "string": "（橘的声音！？）"
   },
   "006194": {
     "context": "006194",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《ど……どうして！？》"
+    "string": "『怎……怎么回事？』"
   },
   "006199": {
     "context": "006199",
     "code": "0x45",
     "developer_comment": "",
-    "string": "センシズシンパシーの使用中に、相手が逆に話しかけてくることなど、今までには１度もなかった。"
+    "string": "刚刚是夏彦第一次在使用感觉同调的时候，接收到对方反向传过来的信息。"
   },
   "006204": {
     "context": "006204",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそれだけではない。さらに奇妙な現象が続く。"
+    "string": "但还不仅仅是这样。这样神奇的现象还在继续发生。"
   },
   "006558": {
     "context": "006558",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（――なんだ！？）"
+    "string": "（——怎么了！？）"
   },
   "006563": {
     "context": "006563",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の脳裏に、今まで見聞きしたものが明滅したのだ。"
+    "string": "迄今为止的经历像走马灯一样在夏彦的脑中闪现。"
   },
   "006892": {
     "context": "006892",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その現象には覚えがあった。"
+    "string": "夏彦对这个现象有印象。"
   },
   "007220": {
     "context": "007220",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今朝ラボを訪れた直後、悠里に記憶を読まれた時に発生した、高速のフラッシュバック。"
+    "string": "在今天早上来到 LABO 以后，阅读悠里的记忆时候发生的，高速闪回。"
   },
   "007271": {
     "context": "007271",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（どうしてぼくの記憶が――！？）"
+    "string": "（我的记忆为什么会——！？）"
   },
   "007276": {
     "context": "007276",
     "code": "0x45",
     "developer_comment": "",
-    "string": "何が起きているかまるでわからない。"
+    "string": "他不知道发生了什么。"
   },
   "007281": {
     "context": "007281",
     "code": "0x45",
     "developer_comment": "",
-    "string": "愕然とする夏彦に、風見が続ける。"
+    "string": "风见继续对惊讶的夏彦说道。"
   },
   "007319": {
     "context": "007319",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "《……そういう事だったんですね》"
+    "string": "『……原来是这样吗』"
   },
   "007325": {
     "context": "007325",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0037 001648"
+    "string": "（……！）"
   },
   "007330": {
     "context": "007330",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それはあの時の悠里の言葉と同じだった。"
+    "string": "这句话和之前悠里说的一样。"
   },
   "007335": {
     "context": "007335",
     "code": "0x45",
     "developer_comment": "",
-    "string": "強烈な不安が、夏彦を襲う。"
+    "string": "夏彦感到强烈的不安。"
   },
   "007362": {
     "context": "007362",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "《天川くん、あなたあの子を消すつもりだったんですね……！？》"
+    "string": "『天川，你想要消除掉她，对吗……！？』"
   },
   "007370": {
     "context": "007370",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "《でもそれは、あの子を殺すのと同じですよ》"
+    "string": "『但是这和杀掉她是一样的』"
   },
   "007397": {
     "context": "007397",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "《あなたに、そんな権利があるのですか……？》"
+    "string": "『你有这个权力吗……？』"
   },
   "007405": {
     "context": "007405",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "《答えてください、天川くん！》"
+    "string": "『回答我，天川！』"
   },
   "007461": {
     "context": "007461",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その声と共に、凄まじい悪意が押し寄せて来た！"
+    "string": "伴随着这个声音，强烈的恶意朝他袭来！"
   },
   "007518": {
     "context": "007518",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0084 001610"
+    "string": "（！！）"
   },
   "007574": {
     "context": "007574",
     "code": "0x45",
     "developer_comment": "",
-    "string": "たちまちのうちに、夏彦の心が侵食されていく。"
+    "string": "转眼间，夏彦的心就被侵蚀了。"
   },
   "007631": {
     "context": "007631",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あ、あ、あ……）"
+    "string": "（啊，啊，啊……）"
   },
   "007684": {
     "context": "007684",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして夏彦は、身の危険を感じ――"
+    "string": "夏彦感觉到了危险——"
   },
   "007690": {
     "context": "007690",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あああああああああッ！！）"
+    "string": "（啊啊啊啊啊啊啊啊啊！！）"
   },
   "007695": {
     "context": "007695",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見との心の繋がりを、切断した。"
+    "string": "切断了与风见的连心。"
   }
 }
