@@ -176,7 +176,7 @@
     "context": "001088",
     "code": "0x45",
     "developer_comment": "",
-    "string": "真白六人面前响起了电子音。#这该是个什么声音"
+    "string": "真白六人面前响起了电子音。#这该是个什么声音  # 应该是嘀嘀嘀的声音，以演出为准"
   },
   "001120": {
     "context": "001120",
@@ -236,7 +236,7 @@
     "context": "001350",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "『我能联系上救援队的人！』"
+    "string": "『我已经跟救援队的人讲好了！』"
   },
   "001376": {
     "context": "001376",
@@ -254,19 +254,19 @@
     "context": "001407",
     "code": "0x45",
     "developer_comment": "",
-    "string": "博士的声音充满着交集，看样子情况非常紧迫。"
+    "string": "博士的声音充满着焦急，看样子情况非常紧迫。"
   },
   "001480": {
     "context": "001480",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「我们走！去入口处！」"
+    "string": "「我们走！跑去入口处！」"
   },
   "001507": {
     "context": "001507",
     "code": "0x45",
     "developer_comment": "",
-    "string": "伴随着真白的声音，众人朝前跑去"
+    "string": "伴随着真白的声音，众人朝前跑去。"
   },
   "001558": {
     "context": "001558",
@@ -1751,54 +1751,54 @@
     "context": "006596",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "《酸素が無いのか！？　だったらぼくの酸素を分けて――》"
+    "string": "『氧气用完了吗！？那就拿一些我的氧气用——』"
   },
   "006607": {
     "context": "006607",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《よせ、そんな気遣いは無用だ！》"
+    "string": "『别，没必要担心我！』"
   },
   "006618": {
     "context": "006618",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0091 000376"
+    "string": "『什么！？』"
   },
   "006629": {
     "context": "006629",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《お前は、『要救助者』なんだ……現場で、俺が助けてもらうわけにはいかない》"
+    "string": "『你是“被困人员”……在现场接受我的帮助就行了』#review"
   },
   "006634": {
     "context": "006634",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう心の中で告げると、夏彦が黙り込む。"
+    "string": "渡濑在心中回答了夏彦，夏彦陷入了沉默。"
   },
   "006639": {
     "context": "006639",
     "code": "0x45",
     "developer_comment": "",
-    "string": "しばしの沈黙の後、彼は渡瀬に続けた。"
+    "string": "短暂的沉默过后，夏彦继续对渡濑说道。"
   },
   "006650": {
     "context": "006650",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "《頑張ろう、渡瀬……！　きっとあと少しだ！》"
+    "string": "『撑住，渡濑……！还剩一点就到了！』"
   },
   "006661": {
     "context": "006661",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《ああ！》"
+    "string": "『嗯嗯！』"
   },
   "006719": {
     "context": "006719",
     "code": "0x85",
-    "string": "《頑張れ、きっとあと少しだ！》"
+    "string": "『加油，还剩一点就到了！』"
   },
   "006720": {
     "context": "006720",
@@ -1814,73 +1814,73 @@
     "context": "006771",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《あぁ……あぁ！》"
+    "string": "『嗯……嗯！』"
   },
   "006837": {
     "context": "006837",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はボンベに残されたわずかな酸素を、貪欲に吸収しながら――"
+    "string": "渡濑一边贪婪地吸收着气瓶里所剩无几的氧气——"
   },
   "006842": {
     "context": "006842",
     "code": "0x45",
     "developer_comment": "",
-    "string": "体に鞭打ち、また歩き出した。"
+    "string": "一边鞭策着自己的身体向前走去。"
   },
   "006926": {
     "context": "006926",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……くそ、こいつはいつもいいタイミングで……）"
+    "string": "（……可恶，这个家伙每次抓的时机都这么好……）#review"
   },
   "006932": {
     "context": "006932",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（俺にハッパをかけやがる……！）"
+    "string": "（在鞭策我这件事情上……！）#review"
   },
   "006999": {
     "context": "006999",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今日、幾度となく耳にした声。"
+    "string": "今天不知道听到了多少次的声音。"
   },
   "007004": {
     "context": "007004",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは渡瀬の勇気を、何度も奮い立たせてきた。"
+    "string": "这个声音给予了渡濑勇气，让他每一次都能重新振作起来。"
   },
   "007011": {
     "context": "007011",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（だから俺は、皆を救おうと思ったのか……？）"
+    "string": "（所以说，我才想要拯救所有人的吗……？）"
   },
   "007017": {
     "context": "007017",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（こいつに導かれるままに……）"
+    "string": "（因为一直被他引导着……）"
   },
   "007024": {
     "context": "007024",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0243 000474"
+    "string": "（……不对……！）"
   },
   "007029": {
     "context": "007029",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ふと、かつて悠里と交わした会話を思い出した。"
+    "string": "忽然，他想起来了和悠里的一段对话。"
   },
   "007091": {
     "context": "007091",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「――サードマン現象？」"
+    "string": "「——第三人现象？」"
   },
   "007102": {
     "context": "007102",
@@ -1934,435 +1934,435 @@
     "context": "007190",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「隊長さんの心の中には、『人を助けなきゃ』っていう強い想いがあったんじゃ――」"
+    "string": "「队长的心里，有着“一定要救人”的，强烈的感情吧——」"
   },
   "007238": {
     "context": "007238",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――『サードマン現象』。"
+    "string": "——“第三人现象”。"
   },
   "007243": {
     "context": "007243",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その正体は恐らく、心の中にある強い想い。"
+    "string": "这个现象的真实原因应该是心中强烈的愿望。"
   },
   "007249": {
     "context": "007249",
     "code": "0x45",
     "developer_comment": "",
-    "string": "誰かを助けたいという気持ち――"
+    "string": "想要帮助其他人的愿望——"
   },
   "007255": {
     "context": "007255",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……そうだ、それに従って、俺はずっと進んできた）"
+    "string": "（……是这样啊，我就是跟随着这个愿望的指引，一直前进的）"
   },
   "007262": {
     "context": "007262",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（記憶を取り戻すと共に消えた、もう１人の『オレ』も……！）"
+    "string": "（另一个“我”，伴随着取回记忆而一起消失了……！）"
   },
   "007267": {
     "context": "007267",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の想いが伝わったというだけではない。"
+    "string": "这不仅仅是夏彦传播给他的。"
   },
   "007273": {
     "context": "007273",
     "code": "0x45",
     "developer_comment": "",
-    "string": "亘が、風見が、洵が、恵那が、宇喜多が、悠里が、ましろが、サリュが――"
+    "string": "是亘，风见，洵，惠那，宇喜多，悠里，真白，纱瑠——"
   },
   "007278": {
     "context": "007278",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして渡瀬が接してきたあらゆる人間の想いが、今では心の中で入り混じり、１つの意思を形作っている。"
+    "string": "还有其他渡濑曾经遇到过的人，他们的想法在渡濑的心中混合，成为了一个意志。"
   },
   "007284": {
     "context": "007284",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『生きろ』と。"
+    "string": "“活下来”的意志。"
   },
   "007289": {
     "context": "007289",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして『救え』と――。"
+    "string": "还有“拯救”的意志——"
   },
   "007296": {
     "context": "007296",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（……立ち止まるな、意識を繋げ……！）"
+    "string": "（……不要停下来！维持住意识……！）"
   },
   "007302": {
     "context": "007302",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（ここで俺が倒れたら、後ろにいる２人は進めなくなるんだ！）"
+    "string": "（如果我在这里倒下的话，后面的两个人就没法前进了！）"
   },
   "007308": {
     "context": "007308",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それだけを思い、渡瀬は前進した。"
+    "string": "渡濑心中只想着这一点，继续向前行进。"
   },
   "007313": {
     "context": "007313",
     "code": "0x45",
     "developer_comment": "",
-    "string": "己の使命を果たすために――……"
+    "string": "为了完成自己的使命——……"
   },
   "007412": {
     "context": "007412",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――目の前の渡瀬の歩みは、ひどく頼りなかった。"
+    "string": "——夏彦看着眼前的渡濑步伐变得不稳。"
   },
   "007417": {
     "context": "007417",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は手を伸ばし、渡瀬の背を押した。"
+    "string": "夏彦伸出手去，推着渡濑的背。"
   },
   "007435": {
     "context": "007435",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "《頑張れ……頑張れ渡瀬！》"
+    "string": "『加油……加油渡濑！』"
   },
   "007440": {
     "context": "007440",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると渡瀬は無言で、手を後ろに回し、夏彦の手を握った。"
+    "string": "渡濑沉默着，把手伸到背后握住夏彦的手。"
   },
   "007500": {
     "context": "007500",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は安堵し、悠里にテレパシーを送る。"
+    "string": "夏彦放心下来，对悠里使用了传心。"
   },
   "007511": {
     "context": "007511",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "《悠里、ついてきてるか！？》"
+    "string": "『悠里，你跟得上我们吗！？』"
   },
   "007539": {
     "context": "007539",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "《うん！　ここにいるよ！》"
+    "string": "『嗯！我就在这里哦！』"
   },
   "007544": {
     "context": "007544",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐに背中に、悠里の手が触れた。"
+    "string": "夏彦的后背立即感受到了悠里的手。"
   },
   "007610": {
     "context": "007610",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は右手を後ろに伸ばし、彼女の手を握る。"
+    "string": "夏彦把右手向后伸去，握住了她的手。"
   },
   "007615": {
     "context": "007615",
     "code": "0x45",
     "developer_comment": "",
-    "string": "水の冷たい感触の中、２人の体温を感じた。"
+    "string": "在冰冷的水中，他们感受着对方的体温。"
   },
   "007621": {
     "context": "007621",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――光無き闇の中。"
+    "string": "——在没有一丝光线的黑暗中。"
   },
   "007626": {
     "context": "007626",
     "code": "0x45",
     "developer_comment": "",
-    "string": "前後の感覚も、自分さえも見失ってしまうほどの、圧倒的な暗黒の中。"
+    "string": "在感觉不到前后，仿佛连自己都找不到的碾压般的黑暗之中"
   },
   "007632": {
     "context": "007632",
     "code": "0x45",
     "developer_comment": "",
-    "string": "繋いだ手の感触が、夏彦の意識を確かにする。"
+    "string": "只有紧握着的手的触感，维持着夏彦的意识。"
   },
   "007637": {
     "context": "007637",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこから、命の温もりが伝わってきた。"
+    "string": "从紧握着的手中，传来了生命的温暖。"
   },
   "007643": {
     "context": "007643",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『独りではない』という想いが、胸を満たす。"
+    "string": "他的心中充满了“自己并非孤身一人”的感觉。"
   },
   "007648": {
     "context": "007648",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ただ、そこに彼と彼女がいるだけで。"
+    "string": "只因为，悠里和他都在这里。"
   },
   "007654": {
     "context": "007654",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は前に進む事ができた。"
+    "string": "夏彦朝前走着。"
   },
   "007659": {
     "context": "007659",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0002 005704"
+    "string": "——————"
   },
   "007664": {
     "context": "007664",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0332 002063"
+    "string": "———……"
   },
   "007670": {
     "context": "007670",
     "code": "0x45",
     "developer_comment": "",
-    "string": "……どれくらい歩いただろう？"
+    "string": "——到底走了多久呢？"
   },
   "007675": {
     "context": "007675",
     "code": "0x45",
     "developer_comment": "",
-    "string": "やがて、不意に――！"
+    "string": "忽然之间——！"
   },
   "007735": {
     "context": "007735",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦を取り囲んでいた閉塞感が、突如として消失した。"
+    "string": "一直包围着夏彦的密闭感突然消失了。"
   },
   "007741": {
     "context": "007741",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0021 003823"
+    "string": "（！？）"
   },
   "007746": {
     "context": "007746",
     "code": "0x45",
     "developer_comment": "",
-    "string": "パイプを抜けたのだ！"
+    "string": "他们走出了管子！"
   },
   "007751": {
     "context": "007751",
     "code": "0x45",
     "developer_comment": "",
-    "string": "鹿鳴湖の湖水の真っ只中に、夏彦は放り出された。"
+    "string": "夏彦被丢在了鹿鸣湖湖水正中央。"
   },
   "007758": {
     "context": "007758",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（あっ！）"
+    "string": "（啊！）"
   },
   "007763": {
     "context": "007763",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その拍子に、酸素呼吸器が口から外れてしまった。"
+    "string": "就在这时，氧气呼吸器从口中掉了出去。"
   },
   "007770": {
     "context": "007770",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（まずい、早く陸に上がらないと！）"
+    "string": "（糟了，我必须马上回到岸上！）"
   },
   "007776": {
     "context": "007776",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（でも、どっちが陸だ！？）"
+    "string": "（但是，哪边是陆地！？）"
   },
   "007781": {
     "context": "007781",
     "code": "0x45",
     "developer_comment": "",
-    "string": "方向感覚を失い、夏彦は焦ったが――"
+    "string": "夏彦因失去了方向感而感到焦急——"
   },
   "007786": {
     "context": "007786",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――繋いだ手は、離れてはいなかった。"
+    "string": "——但是他没有放开紧握着的手。"
   },
   "007791": {
     "context": "007791",
     "code": "0x45",
     "developer_comment": "",
-    "string": "暗い水の中に、かすかにオレンジ色の制服が見える。"
+    "string": "在漆黑的水中，夏彦隐隐约约看到了橙色的制服。"
   },
   "007797": {
     "context": "007797",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は夏彦の左手を握ったまま、水上目指して泳ぎ出した。"
+    "string": "渡濑握住了夏彦的左手，朝水上游去。"
   },
   "007802": {
     "context": "007802",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は安堵し、もう片方の手を握り締める。"
+    "string": "夏彦放下心来，紧紧地握住了他的另一只手。"
   },
   "007807": {
     "context": "007807",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里と繋いだ、右の手を。"
+    "string": "牵着悠里的右手。"
   },
   "007813": {
     "context": "007813",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――彼女と出会ってから、何度この手を握っただろう。"
+    "string": "——从和她再会开始，到底和她牵了多少次手呢。"
   },
   "007818": {
     "context": "007818",
     "code": "0x45",
     "developer_comment": "",
-    "string": "今度こそ、離さない。"
+    "string": "这一次，他不会再放手了。"
   },
   "007824": {
     "context": "007824",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう誓ったとき、頭上に光が見えてきた。"
+    "string": "夏彦在心中暗暗发誓，就在这时，他的头上出现了亮光。"
   },
   "007830": {
     "context": "007830",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0201 000077"
+    "string": "（——……）"
   },
   "007836": {
     "context": "007836",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして夏彦たちは、水面から顔を出し――"
+    "string": "然后，三人把头伸出了水面——"
   },
   "007907": {
     "context": "007907",
     "code": "0x45",
     "developer_comment": "",
-    "string": "陸地に、上がった。"
+    "string": "来到了陆地上。"
   },
   "007918": {
     "context": "007918",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「ぶはああああっ！！　はぁっ！　はぁっ！　はぁっ……！」"
+    "string": "「咳哈啊啊啊啊！！哈！哈！哈……！」"
   },
   "007923": {
     "context": "007923",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は湖から上がるなり、激しく息をついた。"
+    "string": "渡濑一从水里出来，就剧烈地呼吸着。"
   },
   "007934": {
     "context": "007934",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「はあああっ……！」"
+    "string": "「哈啊啊啊……！」"
   },
   "007980": {
     "context": "007980",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦も大きく息を吸い、そして傍らの２人を見る。"
+    "string": "夏彦也大口呼吸着，然后看向了身边的两个人。"
   },
   "008018": {
     "context": "008018",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこには渡瀬と、悠里がいた。"
+    "string": "渡濑和悠里。"
   },
   "008023": {
     "context": "008023",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼女は酸素呼吸器を外し、夏彦たちに言う。"
+    "string": "悠里也取下了氧气呼吸器，对夏彦二人说道。"
   },
   "008052": {
     "context": "008052",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ひこりん、隊長さん……」"
+    "string": "「小彦，队长……」"
   },
   "008063": {
     "context": "008063",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ここ……外なんだね……？」"
+    "string": "「这里……是外面吗……？」"
   },
   "008092": {
     "context": "008092",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「外に、出られたんですね！」"
+    "string": "「我们出来了，对吧！」"
   },
   "008115": {
     "context": "008115",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その瞳には湖水に混じり、大粒の涙が……。"
+    "string": "她的眼中，大大的泪珠与湖水混杂在一起……"
   },
   "008144": {
     "context": "008144",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0011 001630"
+    "string": "「……嗯」"
   },
   "008155": {
     "context": "008155",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「そうだよ、悠里……！」"
+    "string": "「没错，悠里……！」"
   },
   "008259": {
     "context": "008259",
     "code": "0x85",
-    "string": "「ぼくたちは、生き残ったんだ！！」"
+    "string": "「我们活下来了！！」"
   },
   "008261": {
     "context": "008261",
     "code": "0x85",
-    "string": "「俺たちは、生き残ったんだ！」"
+    "string": "「我们活下来了！」"
   },
   "008262": {
     "context": "008262",
     "code": "0x86",
-    "string": "夏彦・渡瀬"
+    "string": "夏彦、渡濑"
   },
   "008263": {
     "context": "008263",
     "code": "0x86",
-    "string": "「ぼくたちは、生き残ったんだ！！」%N「俺たちは、生き残ったんだ！」"
+    "string": "「我们活下来了！！」%N「我们活下来了！」"
   },
   "008272": {
     "context": "008272",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――夏彦と渡瀬の歓声が、夜空に響き渡った。"
+    "string": "——夏彦和渡濑兴奋的喊声响彻夜空。"
   },
   "008323": {
     "context": "008323",
