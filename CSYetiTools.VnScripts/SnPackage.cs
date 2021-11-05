@@ -310,10 +310,17 @@ namespace CSYetiTools.VnScripts
                             if (trimmed.StartsWith("@import") || trimmed.StartsWith("@auto-import")) {
                                 var importingInfo = trimmed.StartsWith("@import") ? "importing" : "auto-importing";
                                 var segs = trimmed.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                                var targetChunk = int.Parse(segs[1]);
-                                var targetIndex = int.Parse(segs[2]);
-                                if (targetChunk < 0 || targetChunk >= translationTables.Length) {
-                                    Utils.PrintError($"[{i:0000}:{k}] {trimmed}, target chunk index out of range");
+                                if (segs.Length < 3) {
+                                    Utils.PrintError($"[{i:0000}:{k}] '{trimmed}': invalid import syntax");
+                                }
+                                else if (!int.TryParse(segs[1], out var targetChunk)) {
+                                    Utils.PrintError($"[{i:0000}:{k}] '{trimmed}': invalid target chunk");
+                                }
+                                else if (!int.TryParse(segs[2], out var targetIndex)) {
+                                    Utils.PrintError($"[{i:0000}:{k}] '{trimmed}': invalid target index");
+                                }
+                                else if (targetChunk < 0 || targetChunk >= translationTables.Length) {
+                                    Utils.PrintError($"[{i:0000}:{k}] '{trimmed}': target chunk index out of range");
                                 }
                                 else if (translationTables[targetChunk].TryGetValue(targetIndex, out var targetContent)) {
                                     translationTable.Add(index, targetContent);
