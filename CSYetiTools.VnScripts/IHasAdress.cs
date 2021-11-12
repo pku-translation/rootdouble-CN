@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 
-namespace CSYetiTools.VnScripts
+namespace CSYetiTools.VnScripts;
+
+public interface IHasAddress
 {
-    public interface IHasAddress
-    {
-        IEnumerable<LabelReference> GetAddresses();
-    }
+    IEnumerable<LabelReference> GetAddresses();
 }

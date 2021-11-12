@@ -1,19 +1,18 @@
 using System;
 
-namespace CSYetiTools.VnScripts.Transifex
+namespace CSYetiTools.VnScripts.Transifex;
+
+public class ProjectInfo
 {
-    public class ProjectInfo
+    public class TeamInfo
     {
-        public class TeamInfo
-        {
-            public int Id { get; set; } = 0;
-            public string Name { get; set; } = "";
-        }
+        public int Id { get; set; } = 0;
         public string Name { get; set; } = "";
-        public string Slug { get; set; } = "";
-        public string Description { get; set; } = "";
-        public string SourceLanguageCode { get; set; } = "";
-        public string[] Teams { get; set; } = Array.Empty<string>();
-        public TeamInfo Team { get; set; } = new();
     }
+    public string Name { get; set; } = "";
+    public string Slug { get; set; } = "";
+    public string Description { get; set; } = "";
+    public string SourceLanguageCode { get; set; } = "";
+    public string[] Teams { get; set; } = Array.Empty<string>();
+    public TeamInfo Team { get; set; } = new();
 }

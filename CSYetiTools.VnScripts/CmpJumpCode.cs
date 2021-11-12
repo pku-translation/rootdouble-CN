@@ -2,68 +2,67 @@ using System.Collections.Generic;
 using System.IO;
 using CSYetiTools.Base.IO;
 
-namespace CSYetiTools.VnScripts
+namespace CSYetiTools.VnScripts;
+
+public abstract class CmpJumpCode : OpCode, IHasAddress
 {
-    public abstract class CmpJumpCode : OpCode, IHasAddress
+    public ScriptArgument Arg1 { get; set; } = new();
+
+    public ScriptArgument Arg2 { get; set; } = new();
+
+    public LabelReference TargetAddress { get; set; } = new();
+
+    public override int GetArgLength(IBinaryStream stream)
+        => 4 + 4;
+
+    protected override void ReadArgs(IBinaryStream reader)
     {
-        public ScriptArgument Arg1 { get; set; } = new();
-
-        public ScriptArgument Arg2 { get; set; } = new();
-
-        public LabelReference TargetAddress { get; set; } = new();
-
-        public override int GetArgLength(IBinaryStream stream)
-            => 4 + 4;
-
-        protected override void ReadArgs(IBinaryStream reader)
-        {
-            Arg1 = ReadArgument(reader);
-            Arg2 = ReadArgument(reader);
-            TargetAddress = ReadAddress(reader);
-        }
-
-        protected override void WriteArgs(IBinaryStream writer)
-        {
-            WriteArgument(writer, Arg1);
-            WriteArgument(writer, Arg2);
-            WriteAddress(writer, TargetAddress);
-        }
-
-        protected override void DumpArgs(TextWriter writer)
-        {
-            writer.Write(' '); writer.Write(Arg1);
-            writer.Write(' '); writer.Write(Arg2);
-            writer.Write(' '); writer.Write(TargetAddress);
-        }
-
-        public IEnumerable<LabelReference> GetAddresses()
-        {
-            yield return TargetAddress;
-        }
+        Arg1 = ReadArgument(reader);
+        Arg2 = ReadArgument(reader);
+        TargetAddress = ReadAddress(reader);
     }
 
-    public class JumpIfEqCode : CmpJumpCode
+    protected override void WriteArgs(IBinaryStream writer)
     {
-        protected override string CodeName => "jump-if:==";
+        WriteArgument(writer, Arg1);
+        WriteArgument(writer, Arg2);
+        WriteAddress(writer, TargetAddress);
     }
-    public class JumpIfNotEqCode : CmpJumpCode
+
+    protected override void DumpArgs(TextWriter writer)
     {
-        protected override string CodeName => "jump-if:!=";
+        writer.Write(' '); writer.Write(Arg1);
+        writer.Write(' '); writer.Write(Arg2);
+        writer.Write(' '); writer.Write(TargetAddress);
     }
-    public class JumpIfGtCode : CmpJumpCode
+
+    public IEnumerable<LabelReference> GetAddresses()
     {
-        protected override string CodeName => "jump-if:>";
+        yield return TargetAddress;
     }
-    public class JumpIfGteCode : CmpJumpCode
-    {
-        protected override string CodeName => "jump-if:>=";
-    }
-    public class JumpIfLtCode : CmpJumpCode
-    {
-        protected override string CodeName => "jump-if:<";
-    }
-    public class JumpIfLteCode : CmpJumpCode
-    {
-        protected override string CodeName => "jump-if:<=";
-    }
+}
+
+public class JumpIfEqCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:==";
+}
+public class JumpIfNotEqCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:!=";
+}
+public class JumpIfGtCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:>";
+}
+public class JumpIfGteCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:>=";
+}
+public class JumpIfLtCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:<";
+}
+public class JumpIfLteCode : CmpJumpCode
+{
+    protected override string CodeName => "jump-if:<=";
 }

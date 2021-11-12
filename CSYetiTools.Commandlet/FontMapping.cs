@@ -12,314 +12,309 @@ using CSYetiTools.Commandlet.FileTypes;
 using CSYetiTools.VnScripts;
 using static CSYetiTools.Base.Utils;
 
-namespace CSYetiTools.Commandlet
+namespace CSYetiTools.Commandlet;
+
+public class FontMapping : Encoding
 {
-    public class FontMapping : Encoding
+    private const string InvalidCharMessage = "Only BMP scalar values supported";
+
+    public const int CellSize = 48;
+    public const int DbXCount = 128;
+    public const int DbYCount = 64;
+    public const int MbXCount = 64;
+    public const int MbYCount = 4;
+    public const int DbWidth = DbXCount * CellSize;
+    public const int DbHeight = DbYCount * CellSize;
+    public const int MbWidth = MbXCount * CellSize;
+    public const int MbHeight = MbYCount * CellSize;
+
+    public static readonly IReadOnlyList<int> RawSjisTable = (
+        from leading in Range(0x81, 0xa1).Concat(Range(0xe0, 0xec))
+        from tail in Range(0x40, 0x7f).Concat(Range(0x80, 0xfd))
+        select (leading << 8) | tail
+    ).Take(DbXCount * DbYCount).ToList().AsReadOnly();
+
+    // 84FC~85A0 (index: 751~847) for single-byte, banned
+    private const int MbRangeStart = 751;
+
+    private const int MbRangeEnd = 847;
+
+    // private static int MbCodeStart = 0x84FC;
+    // private static int MbCodeEnd = 0x85A0;
+
+    private static readonly IReadOnlyList<int?> RawSjisReverseTable;
+
+    static FontMapping()
     {
-        private const string InvalidCharMessage = "Only BMP scalar values supported";
+        var list = Enumerable.Repeat<int?>(null, ReverseMax - ReverseMin).ToList();
+        foreach (var i in ..RawSjisTable.Count) {
+            if (i >= MbRangeStart && i < MbRangeEnd) continue;
+            list[RawSjisTable[i] - ReverseMin] = i;
+        }
+        RawSjisReverseTable = list.AsReadOnly();
+    }
 
-        public const int CellSize = 48;
-        public const int DbXCount = 128;
-        public const int DbYCount = 64;
-        public const int MbXCount = 64;
-        public const int MbYCount = 4;
-        public const int DbWidth = DbXCount * CellSize;
-        public const int DbHeight = DbYCount * CellSize;
-        public const int MbWidth = MbXCount * CellSize;
-        public const int MbHeight = MbYCount * CellSize;
+    private readonly char[] _chars;
 
-        public static readonly IReadOnlyList<int> RawSjisTable = (
-            from leading in Range(0x81, 0xa1).Concat(Range(0xe0, 0xec))
-            from tail in Range(0x40, 0x7f).Concat(Range(0x80, 0xfd))
-            select (leading << 8) | tail
-        ).Take(DbXCount * DbYCount).ToList().AsReadOnly();
+    private readonly int?[] _reverseTable;
 
-        // 84FC~85A0 (index: 751~847) for single-byte, banned
-        private const int MbRangeStart = 751;
+    private readonly int _minChar;
 
-        private const int MbRangeEnd = 847;
+    private readonly int _maxChar;
 
-        // private static int MbCodeStart = 0x84FC;
-        // private static int MbCodeEnd = 0x85A0;
+    private const int ReverseMin = 0x8000;
 
-        private static readonly IReadOnlyList<int?> RawSjisReverseTable;
+    private const int ReverseMax = 0xED00;
 
-        static FontMapping()
-        {
-            var list = Enumerable.Repeat<int?>(null, ReverseMax - ReverseMin).ToList();
-            foreach (var i in ..RawSjisTable.Count) {
-                if (i >= MbRangeStart && i < MbRangeEnd) continue;
-                list[RawSjisTable[i] - ReverseMin] = i;
-            }
-            RawSjisReverseTable = list.AsReadOnly();
+    private const int SingleByteMax = 0x80;
+
+    public IEnumerable<char> Chars
+        => _chars.AsEnumerable();
+
+    public FontMapping(IEnumerable<char> chars)
+    {
+        var charSet = chars.Where(c => c >= SingleByteMax).Distinct().OrderBy(c => c).ToArray();
+        if (charSet.Length <= MbRangeStart) {
+            _chars = charSet;
+        }
+        else {
+            _chars = charSet.Take(MbRangeStart).Concat(Repeat('·', MbRangeEnd - MbRangeStart)).Concat(charSet.Skip(MbRangeStart)).ToArray();
         }
 
-        private readonly char[] _chars;
+        _minChar = _chars[0];
+        _maxChar = _chars[^1] + 1;
 
-        private readonly int?[] _reverseTable;
+        if (_chars.Length > RawSjisTable.Count) {
+            throw new ArgumentException($"Too many chars: {_chars.Length} > {RawSjisTable.Count}");
+        }
 
-        private readonly int _minChar;
+        _reverseTable = new int?[_maxChar - _minChar];
+        foreach (var (i, c) in _chars.WithIndex()) {
+            if (char.IsSurrogate(c)) throw new ArgumentException(InvalidCharMessage);
 
-        private readonly int _maxChar;
+            if (i >= MbRangeStart && i < MbRangeEnd) continue;
 
-        private const int ReverseMin = 0x8000;
+            _reverseTable[c - _minChar] = i;
+        }
 
-        private const int ReverseMax = 0xED00;
+    }
 
-        private const int SingleByteMax = 0x80;
+    private static void ForeachChars(Image img, char[] chars, Action<char, PointF, IImageProcessingContext> operation)
+    {
+        var i = 0;
+        foreach (var y in Range(0, DbYCount)) {
+            foreach (var x in Range(0, DbXCount)) {
+                var chr = chars[i];
 
-        public IEnumerable<char> Chars
-            => _chars.AsEnumerable();
+                if (chr == '\u3000') {
+                    ++i;
+                    continue; // why ImageSharp handle this as unknown symbol?
+                }
 
-        public FontMapping(IEnumerable<char> chars)
-        {
-            var charSet = chars.Where(c => c >= SingleByteMax).Distinct().OrderBy(c => c).ToArray();
-            if (charSet.Length <= MbRangeStart) {
-                _chars = charSet;
+                img.Mutate(ctx => operation(chr, new PointF(CellSize * x, CellSize * y), ctx));
+                if (++i >= chars.Length) return;
+            }
+        }
+    }
+
+    public Image<Bgra32> GenerateTexture(bool drawGlyphBorder = false)
+    {
+        var img = new Image<Bgra32>(DbWidth, DbHeight);
+        try {
+            var fonts = new FontCollection();
+            var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
+            var font = new Font(fontFamily, 40);
+
+            var drawingOptions = new DrawingOptions {
+                GraphicsOptions = { Antialias = true },
+                TextOptions = {
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    VerticalAlignment = VerticalAlignment.Center,
+                }
+            };
+
+            var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
+
+            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, chr.ToString(), font, outlinePen, point + new PointF(22, 20)));
+
+            img.Mutate(ctx => ctx.GaussianBlur(0.5f));
+
+            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
+
+            if (drawGlyphBorder) {
+                ForeachChars(img, _chars, (_, point, ctx) => {
+                    ctx.DrawPolygon(drawingOptions, Color.White, 1.0f
+                        , point + new PointF(0, 1)
+                        , point + new PointF(44, 1)
+                        , point + new PointF(44, 45)
+                        , point + new PointF(0, 45)
+                    );
+                });
+            }
+
+            return img;
+        }
+        catch {
+            img.Dispose();
+            throw;
+        }
+    }
+
+    public Image<Bgra32> GenerateCodeTestTexture()
+    {
+        var img = new Image<Bgra32>(DbWidth, DbHeight);
+        try {
+            var fonts = new FontCollection();
+            var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
+            var font = new Font(fontFamily, 25);
+
+            var drawingOptions = new DrawingOptions {
+                GraphicsOptions = { Antialias = true },
+                TextOptions = {
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    VerticalAlignment = VerticalAlignment.Center,
+                }
+            };
+
+            var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 1f);
+
+            ForeachChars(img, _chars, (chr, point, ctx) => {
+                ctx.DrawPolygon(drawingOptions, outlinePen
+                    , point + new PointF(0, 1)
+                    , point + new PointF(45, 1)
+                    , point + new PointF(45, 46)
+                    , point + new PointF(0, 46)
+                );
+                var s = ((short)chr).ToHex();
+
+                var mid = point + new PointF(23, 23);
+
+                ctx.DrawText(drawingOptions, s[0].ToString(), font, Color.White, mid + new PointF(-10, -10));
+                ctx.DrawText(drawingOptions, s[1].ToString(), font, Color.White, mid + new PointF(8, -10));
+                ctx.DrawText(drawingOptions, s[2].ToString(), font, Color.White, mid + new PointF(-10, 10));
+                ctx.DrawText(drawingOptions, s[3].ToString(), font, Color.White, mid + new PointF(8, 10));
+            });
+
+            return img;
+        }
+        catch {
+            img.Dispose();
+            throw;
+        }
+    }
+
+    public override int GetByteCount(char[] chars, int index, int count)
+    {
+        var result = 0;
+        foreach (var _ in ..count) {
+            var c = chars[index];
+            if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
+            if (c < SingleByteMax) {
+                ++result;
+            }
+            else if (c < _minChar || c >= _maxChar || _reverseTable[c - _minChar] == null) {
+                throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
             }
             else {
-                _chars = charSet.Take(MbRangeStart).Concat(Repeat('·', MbRangeEnd - MbRangeStart)).Concat(charSet.Skip(MbRangeStart)).ToArray();
+                result += 2;
             }
+            ++index;
+        }
+        return result;
+    }
 
-            _minChar = _chars[0];
-            _maxChar = _chars[^1] + 1;
+    public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
+    {
+        var index = byteIndex;
 
-            if (_chars.Length > RawSjisTable.Count) {
-                throw new ArgumentException($"Too many chars: {_chars.Length} > {RawSjisTable.Count}");
+        foreach (var _ in ..charCount) {
+            var c = chars[charIndex];
+            if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
+            if (c < SingleByteMax) {
+                bytes[index++] = (byte)c;
             }
-
-            _reverseTable = new int?[_maxChar - _minChar];
-            foreach (var (i, c) in _chars.WithIndex()) {
-                if (char.IsSurrogate(c)) throw new ArgumentException(InvalidCharMessage);
-
-                if (i >= MbRangeStart && i < MbRangeEnd) continue;
-
-                _reverseTable[c - _minChar] = i;
+            else if (c < _minChar || c >= _maxChar || !(_reverseTable[c - _minChar] is { } revIndex)) {
+                throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
             }
-
-        }
-
-        private static void ForeachChars(Image img, char[] chars, Action<char, PointF, IImageProcessingContext> operation)
-        {
-            var i = 0;
-            foreach (var y in Range(0, DbYCount)) {
-                foreach (var x in Range(0, DbXCount)) {
-                    var chr = chars[i];
-
-                    if (chr == '\u3000') {
-                        ++i;
-                        continue; // why ImageSharp handle this as unknown symbol?
-                    }
-
-                    img.Mutate(ctx => operation(chr, new PointF(CellSize * x, CellSize * y), ctx));
-                    if (++i >= chars.Length) return;
-                }
+            else {
+                var code = RawSjisTable[revIndex];
+                bytes[index++] = (byte)(code >> 8);
+                bytes[index++] = (byte)(code & 0xFF);
             }
+            ++charIndex;
         }
+        return index - byteIndex;
+    }
 
-        public Image<Bgra32> GenerateTexture(bool drawGlyphBorder = false)
-        {
-            var img = new Image<Bgra32>(DbWidth, DbHeight);
-            try {
-                var fonts = new FontCollection();
-                var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
-                var font = new Font(fontFamily, 40);
-
-                var graphicsOptions = new GraphicsOptions { Antialias = true };
-
-                var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
-
-                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions,
-                    new TextOptions {
-                        HorizontalAlignment = HorizontalAlignment.Center,
-                        VerticalAlignment = VerticalAlignment.Center,
-                    }
-                );
-
-                var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
-
-                ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, outlinePen, point + new PointF(22, 20)));
-
-                img.Mutate(ctx => ctx.GaussianBlur(0.5f));
-
-                ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(textGraphicsOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
-
-                if (drawGlyphBorder) {
-                    ForeachChars(img, _chars, (_, point, ctx) => {
-                        ctx.DrawPolygon(shapeGraphiocsOptions, Color.White, 1.0f
-                            , point + new PointF(0, 1)
-                            , point + new PointF(44, 1)
-                            , point + new PointF(44, 45)
-                            , point + new PointF(0, 45)
-                        );
-                    });
+    public override int GetCharCount(byte[] bytes, int index, int count)
+    {
+        var result = 0;
+        int? leading = null;
+        foreach (var i in ..count) {
+            var b = bytes[index];
+            if (leading != null) {
+                var composed = (leading.Value << 8) | b;
+                if (composed < ReverseMin || composed >= ReverseMax || RawSjisReverseTable[composed - ReverseMin] == null) {
+                    throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()} at {index - 1}, out of range", bytes[(i - 1)..(i + 1)], index - 1);
                 }
-
-                return img;
+                ++result;
+                leading = null;
             }
-            catch {
-                img.Dispose();
-                throw;
+            else if (b < SingleByteMax) {
+                ++result;
             }
-        }
-
-        public Image<Bgra32> GenerateCodeTestTexture()
-        {
-            var img = new Image<Bgra32>(DbWidth, DbHeight);
-            try {
-                var fonts = new FontCollection();
-                var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
-                var font = new Font(fontFamily, 25);
-
-                var graphicsOptions = new GraphicsOptions { Antialias = true };
-
-                var shapeGraphiocsOptions = new ShapeGraphicsOptions(graphicsOptions, new ShapeOptions());
-
-                var textGraphicsOptions = new TextGraphicsOptions(graphicsOptions, new TextOptions {
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    VerticalAlignment = VerticalAlignment.Center
-                });
-
-                var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 1f);
-
-                ForeachChars(img, _chars, (chr, point, ctx) => {
-                    ctx.DrawPolygon(shapeGraphiocsOptions, outlinePen
-                        , point + new PointF(0, 1)
-                        , point + new PointF(45, 1)
-                        , point + new PointF(45, 46)
-                        , point + new PointF(0, 46)
-                    );
-                    var s = ((short)chr).ToHex();
-
-                    var mid = point + new PointF(23, 23);
-
-                    ctx.DrawText(textGraphicsOptions, s[0].ToString(), font, Color.White, mid + new PointF(-10, -10));
-                    ctx.DrawText(textGraphicsOptions, s[1].ToString(), font, Color.White, mid + new PointF(8, -10));
-                    ctx.DrawText(textGraphicsOptions, s[2].ToString(), font, Color.White, mid + new PointF(-10, 10));
-                    ctx.DrawText(textGraphicsOptions, s[3].ToString(), font, Color.White, mid + new PointF(8, 10));
-                });
-
-                return img;
+            else {
+                leading = b;
             }
-            catch {
-                img.Dispose();
-                throw;
+            ++index;
+        }
+        if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
+        return result;
+    }
+
+    public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
+    {
+        var index = charIndex;
+        int? leading = null;
+        foreach (var i in ..byteCount) {
+            var b = bytes[byteIndex];
+            if (leading != null) {
+                var composed = (leading.Value << 8) | b;
+                if (composed < ReverseMin || composed >= ReverseMax || !(RawSjisReverseTable[composed - ReverseMin] is { } reverseIndex)) {
+                    throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()}, out of range", bytes[(i - 1)..(i + 1)], byteIndex - 1);
+                }
+                chars[index++] = _chars[reverseIndex];
+                leading = null;
             }
-        }
-
-        public override int GetByteCount(char[] chars, int index, int count)
-        {
-            var result = 0;
-            foreach (var _ in ..count) {
-                var c = chars[index];
-                if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
-                if (c < SingleByteMax) {
-                    ++result;
-                }
-                else if (c < _minChar || c >= _maxChar || _reverseTable[c - _minChar] == null) {
-                    throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
-                }
-                else {
-                    result += 2;
-                }
-                ++index;
+            else if (b < SingleByteMax) {
+                chars[index++] = (char)b;
             }
-            return result;
-        }
-
-        public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
-        {
-            var index = byteIndex;
-
-            foreach (var _ in ..charCount) {
-                var c = chars[charIndex];
-                if (char.IsSurrogate(c)) throw new EncoderFallbackException(InvalidCharMessage);
-                if (c < SingleByteMax) {
-                    bytes[index++] = (byte)c;
-                }
-                else if (c < _minChar || c >= _maxChar || !(_reverseTable[c - _minChar] is { } revIndex)) {
-                    throw new EncoderFallbackException($"Char [{c}] is not in the mapping");
-                }
-                else {
-                    var code = RawSjisTable[revIndex];
-                    bytes[index++] = (byte)(code >> 8);
-                    bytes[index++] = (byte)(code & 0xFF);
-                }
-                ++charIndex;
+            else {
+                leading = b;
             }
-            return index - byteIndex;
+            ++byteIndex;
         }
+        if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
+        return index - charIndex;
+    }
 
-        public override int GetCharCount(byte[] bytes, int index, int count)
-        {
-            var result = 0;
-            int? leading = null;
-            foreach (var i in ..count) {
-                var b = bytes[index];
-                if (leading != null) {
-                    var composed = (leading.Value << 8) | b;
-                    if (composed < ReverseMin || composed >= ReverseMax || RawSjisReverseTable[composed - ReverseMin] == null) {
-                        throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()} at {index - 1}, out of range", bytes[(i - 1)..(i + 1)], index - 1);
-                    }
-                    ++result;
-                    leading = null;
-                }
-                else if (b < SingleByteMax) {
-                    ++result;
-                }
-                else {
-                    leading = b;
-                }
-                ++index;
-            }
-            if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
-            return result;
-        }
+    public override int GetMaxByteCount(int charCount)
+    {
+        return charCount * 2;
+    }
 
-        public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
-        {
-            var index = charIndex;
-            int? leading = null;
-            foreach (var i in ..byteCount) {
-                var b = bytes[byteIndex];
-                if (leading != null) {
-                    var composed = (leading.Value << 8) | b;
-                    if (composed < ReverseMin || composed >= ReverseMax || !(RawSjisReverseTable[composed - ReverseMin] is { } reverseIndex)) {
-                        throw new DecoderFallbackException($"Cannot decode bytes {composed.ToHex()}, out of range", bytes[(i - 1)..(i + 1)], byteIndex - 1);
-                    }
-                    chars[index++] = _chars[reverseIndex];
-                    leading = null;
-                }
-                else if (b < SingleByteMax) {
-                    chars[index++] = (char)b;
-                }
-                else {
-                    leading = b;
-                }
-                ++byteIndex;
-            }
-            if (leading != null) throw new DecoderFallbackException("Unexpected ending", new[] { (byte)leading.Value }, index - 1);
-            return index - charIndex;
-        }
+    public override int GetMaxCharCount(int byteCount)
+    {
+        return byteCount;
+    }
 
-        public override int GetMaxByteCount(int charCount)
-        {
-            return charCount * 2;
-        }
+    public IEnumerable<char> GetAllCharacters()
+    {
+        return _chars;
+    }
 
-        public override int GetMaxCharCount(int byteCount)
-        {
-            return byteCount;
-        }
-
-        public IEnumerable<char> GetAllCharacters()
-        {
-            return _chars;
-        }
-
-        public static FontMapping CreateFrom(SnPackage package, ExecutableStringPeeker peeker)
-        {
-            throw new NotImplementedException();
-        }
+    public static FontMapping CreateFrom(SnPackage package, ExecutableStringPeeker peeker)
+    {
+        throw new NotImplementedException();
     }
 }
