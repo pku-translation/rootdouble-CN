@@ -472,15 +472,15 @@
     "string": "√B Bad End 4 【责怪他人之人的末路】"
   },
   "001355": {
-    "context": "001358",
+    "context": "001355",
     "code": "0x85",
-    "string": "真白和纱瑠的信赖关系太低的结果。"
+    "string": "　"
   },
   "001358": {
-    "context": "001364",
+    "context": "001358",
     "code": "0x45",
     "developer_comment": "",
-    "string": "至今为止的过程中，提高真白和纱瑠的好感度，%N或许就能避开这个结局了。"
+    "string": "真白和纱瑠的信赖关系太低的结果。"
   },
   "001361": {
     "context": "001361",
@@ -491,6 +491,6 @@
     "context": "001364",
     "code": "0x45",
     "developer_comment": "",
-    "string": "f37bbfd64a4bceed13ff21f9dbd8174e_tr"
+    "string": "至今为止的过程中，提高真白和纱瑠的好感度，%N或许就能避开这个结局了。"
   }
 }

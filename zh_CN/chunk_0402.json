@@ -88,26 +88,26 @@
     "string": "√D Normal End 1 【天狼的指引】"
   },
   "000436": {
-    "context": "000439",
+    "context": "000436",
     "code": "0x85",
-    "string": "救援队员 3 人留在 LABO 中的结果。"
+    "string": "　"
   },
   "000439": {
+    "context": "000439",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "救援队员 3 人留在 LABO 中的结果。"
+  },
+  "000442": {
+    "context": "000442",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000445": {
     "context": "000445",
     "code": "0x45",
     "developer_comment": "",
     "string": "在这个结局前一个 Senses 输入中，设定成其他可能性的话，或许就能避开这个结局了。#review"
-  },
-  "000442": {
-    "context": "000451",
-    "code": "0x85",
-    "string": "而且，如果详细阅读宇喜多、洵、惠那、纱瑠的 RAM 记忆的话，能够使 LABO 内的信息能量浓度上升到极高。#review"
-  },
-  "000445": {
-    "context": "000454",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "如果这样做的话，或许能够扩展至其他的结局。#review"
   },
   "000448": {
     "context": "000448",
@@ -118,12 +118,12 @@
     "context": "000451",
     "code": "0x45",
     "developer_comment": "",
-    "string": "b0874e67ea8f137fee85dcecfd8cb25c_tr"
+    "string": "而且，如果详细阅读宇喜多、洵、惠那、纱瑠的 RAM 记忆的话，能够使 LABO 内的信息能量浓度上升到极高。#review"
   },
   "000454": {
     "context": "000454",
     "code": "0x45",
     "developer_comment": "",
-    "string": "1110fda1a4fe7e4f69b6318f646f1942_tr"
+    "string": "如果这样做的话，或许能够扩展至其他的结局。#review"
   }
 }

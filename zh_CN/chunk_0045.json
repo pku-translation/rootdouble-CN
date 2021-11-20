@@ -305,455 +305,455 @@
     "string": "@auto-import 0043 001758"
   },
   "001586": {
-    "context": "001589",
+    "context": "001586",
     "code": "0x85",
-    "string": "@auto-import 0043 001764"
+    "string": "　"
   },
   "001589": {
+    "context": "001589",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0043 001764"
+  },
+  "001592": {
+    "context": "001592",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001595": {
     "context": "001595",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001770"
   },
-  "001592": {
+  "001598": {
     "context": "001598",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0043 001773"
   },
-  "001595": {
+  "001601": {
     "context": "001601",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001776"
   },
-  "001598": {
+  "001604": {
     "context": "001604",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001779"
   },
-  "001601": {
+  "001607": {
     "context": "001607",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001782"
   },
-  "001604": {
+  "001611": {
     "context": "001611",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "　%N"
   },
-  "001607": {
+  "001614": {
     "context": "001614",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001789"
   },
-  "001611": {
-    "context": "001620",
+  "001617": {
+    "context": "001617",
     "code": "0x85",
+    "string": "　"
+  },
+  "001620": {
+    "context": "001620",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0043 001795"
   },
-  "001614": {
+  "001623": {
     "context": "001623",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001798"
   },
-  "001617": {
+  "001626": {
     "context": "001626",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0043 001801"
   },
-  "001620": {
+  "001629": {
     "context": "001629",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001804"
   },
-  "001623": {
+  "001632": {
     "context": "001632",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001807"
   },
-  "001626": {
+  "001635": {
     "context": "001635",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001810"
   },
-  "001629": {
+  "001667": {
     "context": "001667",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 001842"
   },
-  "001632": {
+  "001672": {
     "context": "001672",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001847"
   },
-  "001635": {
+  "001701": {
     "context": "001701",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「“可以借此前往地面以上的安全区域”，难道是说……！」"
   },
-  "001667": {
+  "001712": {
     "context": "001712",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 001887"
   },
-  "001672": {
+  "001735": {
     "context": "001735",
     "code": "0x45",
     "developer_comment": "",
     "string": "两人相互看着对方，脸上一下子绽开了笑容："
   },
-  "001701": {
+  "001740": {
     "context": "001740",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 001897"
   },
-  "001712": {
+  "001751": {
     "context": "001751",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「那么，货梯在哪里呢！？」"
   },
-  "001735": {
+  "001780": {
     "context": "001780",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我之前也没有注意到……应该就在那个烧毁了的 Factory 里吧？」"
   },
-  "001740": {
+  "001809": {
     "context": "001809",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但是，我们首先要搜索被困人员。即使找到了逃生口，如果没法确保被困人员的安全，就没有意义了」"
   },
-  "001751": {
+  "001820": {
     "context": "001820",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「是啊！」"
   },
-  "001780": {
+  "001825": {
     "context": "001825",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002051"
   },
-  "001809": {
+  "001868": {
     "context": "001868",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002094"
   },
-  "001820": {
+  "001934": {
     "context": "001934",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 002160"
   },
-  "001825": {
+  "001977": {
     "context": "001977",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002203"
   },
-  "001868": {
+  "002022": {
     "context": "002022",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002248"
   },
-  "001934": {
+  "002027": {
     "context": "002027",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002253"
   },
-  "001977": {
+  "002086": {
     "context": "002086",
     "code": "0x45",
     "developer_comment": "",
     "string": "在往回走的路上，渡濑微倾着头："
   },
-  "002022": {
+  "002097": {
     "context": "002097",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「奇怪了……哪里都没看到被困人员」"
   },
-  "002027": {
+  "002126": {
     "context": "002126",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「确实奇怪。说不定他们在 Factory 里」"
   },
-  "002086": {
+  "002155": {
     "context": "002155",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我们也回去，帮他们一起搜索吧」"
   },
-  "002097": {
+  "002166": {
     "context": "002166",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 002374"
   },
-  "002126": {
+  "002171": {
     "context": "002171",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑正说着一半，"
   },
-  "002155": {
+  "002198": {
     "context": "002198",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002406"
   },
-  "002166": {
+  "002204": {
     "context": "002204",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 002412"
   },
-  "002171": {
+  "002244": {
     "context": "002244",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑急忙低头看去——"
   },
-  "002198": {
+  "002249": {
     "context": "002249",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见脚下的地板，正在微微颤动。"
   },
-  "002204": {
+  "002255": {
     "context": "002255",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 002458"
   },
-  "002244": {
+  "002280": {
     "context": "002280",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002483"
   },
-  "002249": {
+  "002305": {
     "context": "002305",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002508"
   },
-  "002255": {
+  "002338": {
     "context": "002338",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「！」"
   },
-  "002280": {
+  "002343": {
     "context": "002343",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见注意到异动，还没来得及做出反应——"
   },
-  "002305": {
+  "002348": {
     "context": "002348",
     "code": "0x45",
     "developer_comment": "",
     "string": "——她脚下的地板就崩塌了。"
   },
-  "002338": {
+  "002464": {
     "context": "002464",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘！」"
   },
-  "002343": {
+  "002469": {
     "context": "002469",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑迅速伸出手去，一把抓住了风见的手臂。"
   },
-  "002348": {
+  "002481": {
     "context": "002481",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002720"
   },
-  "002464": {
+  "002487": {
     "context": "002487",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（呃！！）"
   },
-  "002469": {
+  "002492": {
     "context": "002492",
     "code": "0x45",
     "developer_comment": "",
     "string": "他忍着剧痛，紧紧地握着风见的手臂。"
   },
-  "002481": {
+  "002497": {
     "context": "002497",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0043 002736"
   },
-  "002487": {
+  "002571": {
     "context": "002571",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见的脸出现在另一头。"
   },
-  "002492": {
+  "002582": {
     "context": "002582",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 002821"
   },
-  "002497": {
+  "002593": {
     "context": "002593",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「真是危险啊，橘？」"
   },
-  "002571": {
+  "002604": {
     "context": "002604",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「队，队长……！」"
   },
-  "002582": {
+  "002615": {
     "context": "002615",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「幸亏我反应快啊」"
   },
-  "002593": {
+  "002626": {
     "context": "002626",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「笠鹭渡濑这家伙的身体，还真是相当好用啊」"
   },
-  "002604": {
+  "002671": {
     "context": "002671",
     "code": "0x45",
     "developer_comment": "",
     "string": "此言一出，风见不禁笑了起来："
   },
-  "002615": {
+  "002682": {
     "context": "002682",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「队长你，就算是失忆了，果然也还是我们的队长啊……」"
   },
-  "002626": {
+  "002693": {
     "context": "002693",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「看样子是啊……不过，之后再感叹吧」"
   },
-  "002671": {
+  "002704": {
     "context": "002704",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我要拉你上来了，另一只手也给我」"
   },
-  "002682": {
+  "002715": {
     "context": "002715",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「好……」"
   },
-  "002693": {
+  "002720": {
     "context": "002720",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑抓着风见的双手，一鼓作气地把她拉了上来。"
   },
-  "002704": {
+  "002785": {
     "context": "002785",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「非常感谢，队长……」"
   },
-  "002715": {
+  "002796": {
     "context": "002796",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「没受伤吧？」"
   },
-  "002720": {
+  "002807": {
     "context": "002807",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「没，没有……」"
   },
-  "002785": {
+  "002818": {
     "context": "002818",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「是吗，那太好了。不过……」"
   },
-  "002796": {
+  "002823": {
     "context": "002823",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0044 002838"
   },
-  "002807": {
+  "002834": {
     "context": "002834",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「看来第 6 区域里，火灾造成了非常严重的损害啊」"
   },
-  "002818": {
+  "002863": {
     "context": "002863",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「是啊……其他人是不是都还平安无事呢？」"
   },
-  "002823": {
+  "002874": {
     "context": "002874",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0043 003046"
   },
-  "002834": {
-    "context": "002879",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "说完，两人再度跑了起来。"
-  },
-  "002863": {
-    "context": "002863",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "d06bb6573269acfef8c23e835d436e4d_tr"
-  },
-  "002874": {
-    "context": "002874",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "286c7041b91eccf963571b4e97053b5d_tr"
-  },
   "002879": {
     "context": "002879",
     "code": "0x45",
     "developer_comment": "",
-    "string": "7637c1a5dacf3943481a861b0b7f3e2e_tr"
+    "string": "说完，两人再度跑了起来。"
   }
 }

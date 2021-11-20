@@ -292,332 +292,331 @@
     "string": "不过里面写着的是——"
   },
   "000947": {
-    "context": "000950",
+    "context": "000947",
     "code": "0x85",
-    "string": "——第 3 区域职员亲和会 鹿鸣湖畔踏青邀请——"
+    "string": "　"
   },
   "000950": {
+    "context": "000950",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "——第 3 区域职员亲和会 鹿鸣湖畔踏青邀请——"
+  },
+  "000953": {
+    "context": "000953",
+    "code": "0x85",
+    "string": "　　　　　　　　　　　　"
+  },
+  "000954": {
     "context": "000954",
     "code": "0x45",
     "developer_comment": "",
     "string": "（2015 年  4 月）"
   },
-  "000953": {
+  "000957": {
     "context": "000957",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "——Senior Fellow 培养讨论班 报名通知——"
   },
-  "000954": {
+  "000960": {
+    "context": "000960",
+    "code": "0x85",
+    "string": "　　　　　　　　　　　　"
+  },
+  "000961": {
     "context": "000961",
     "code": "0x45",
     "developer_comment": "",
     "string": "（2016 年  4 月）"
   },
-  "000957": {
+  "000964": {
     "context": "000964",
     "code": "0x45",
     "developer_comment": "",
     "string": "——美夜子博士 Fan Club 集合通知——"
   },
-  "000960": {
-    "context": "000968",
+  "000967": {
+    "context": "000967",
     "code": "0x85",
+    "string": "　　　　　　　　　　　　"
+  },
+  "000968": {
+    "context": "000968",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "（2018 年  9 月）"
   },
-  "000961": {
+  "000971": {
     "context": "000971",
     "code": "0x45",
     "developer_comment": "",
     "string": "——“鹿鸣市七大不可思议”总结——"
   },
-  "000964": {
+  "000974": {
+    "context": "000974",
+    "code": "0x85",
+    "string": "　　　　　　　　　　　　"
+  },
+  "000975": {
     "context": "000975",
     "code": "0x45",
     "developer_comment": "",
     "string": "（2020 年  8 月）"
   },
-  "000967": {
+  "000978": {
     "context": "000978",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "——特监对象 Na 2 号  第 3 次定期报告——"
   },
-  "000968": {
+  "000981": {
+    "context": "000981",
+    "code": "0x85",
+    "string": "　　　　　　　　　　　　"
+  },
+  "000982": {
     "context": "000982",
     "code": "0x45",
     "developer_comment": "",
     "string": "（2021 年  8 月）"
   },
-  "000971": {
+  "000985": {
     "context": "000985",
     "code": "0x45",
     "developer_comment": "",
     "string": "——停止印发纸质文件——"
   },
-  "000974": {
-    "context": "000989",
+  "000988": {
+    "context": "000988",
     "code": "0x85",
+    "string": "　　　　　　　　　　"
+  },
+  "000989": {
+    "context": "000989",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "（2021 年  12 月）"
   },
-  "000975": {
+  "001015": {
     "context": "001015",
     "code": "0x45",
     "developer_comment": "",
     "string": "——全都是这种，要么无关紧要，要么不知所云的东西。"
   },
-  "000978": {
+  "001020": {
     "context": "001020",
     "code": "0x45",
     "developer_comment": "",
     "string": "而且都是好几年以前的。"
   },
-  "000981": {
+  "001026": {
     "context": "001026",
-    "code": "0x85",
-    "string": "（感觉指望不上啊……）",
-    "developer_comment": "渡瀬"
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "（感觉指望不上啊……）"
   },
-  "000982": {
+  "001031": {
     "context": "001031",
     "code": "0x45",
     "developer_comment": "",
     "string": "想着这些，他又拿起一份文件："
   },
-  "000985": {
+  "001042": {
     "context": "001042",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「嗯……《NBC 发生时的警备手册》？」"
   },
-  "000988": {
+  "001047": {
     "context": "001047",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "听到这句自言自语，旁边的风见也凑了过来："
   },
-  "000989": {
+  "001113": {
     "context": "001113",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「队长，你看的是什么？」"
   },
-  "001015": {
+  "001124": {
     "context": "001124",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「不太懂。NBC 是什么东西？」"
   },
-  "001020": {
+  "001153": {
     "context": "001153",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「啊，NBC 是“Nuclear”“Biological”“Chemical”的首字母」"
   },
-  "001026": {
+  "001164": {
     "context": "001164",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「比如“NBC 灾害”这个词，就是指由核、细菌和化学物质所导致的灾害的统称」# 在 chunk 172 有类似的句子"
   },
-  "001031": {
+  "001169": {
     "context": "001169",
     "code": "0x45",
     "developer_comment": "",
     "string": "也就是说，这个小册子里所记录的，应该是类似今天这种事故发生时的警备方案。"
   },
-  "001042": {
+  "001175": {
     "context": "001175",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（不过现在这种状况还是先别管什么警备了，避难更重要吧……）"
   },
-  "001047": {
+  "001180": {
     "context": "001180",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑正感慨着，背后却响起了宇喜多的声音："
   },
-  "001113": {
+  "001236": {
     "context": "001236",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「你们两个，在干什么？！」"
   },
-  "001124": {
+  "001241": {
     "context": "001241",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑吓了一跳，一回头，就看到宇喜多一脸不快地站在他们后面。"
   },
-  "001153": {
+  "001252": {
     "context": "001252",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「啊，不是，觉得可能有逃生路线的线索」"
   },
-  "001164": {
+  "001281": {
     "context": "001281",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「现在没工夫管这些事情吧？」"
   },
-  "001169": {
+  "001310": {
     "context": "001310",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「而且，这间设施里的纸质文件都是很老的东西了。大约九年前就决定停止印发纸质文件，全部电子化了」"
   },
-  "001175": {
+  "001321": {
     "context": "001321",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「虽然现在还剩下一些在那之前印发的，但时代那么久远，也不会有什么有用的信息了」"
   },
-  "001180": {
+  "001332": {
     "context": "001332",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「防灾手册呢？那个写了“2030 年版”的」"
   },
-  "001236": {
+  "001343": {
     "context": "001343",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「只有防灾手册，因为是灾难发生时会用到的，会以纸质手册的形式把最新版发到员工手上」"
   },
-  "001241": {
+  "001354": {
     "context": "001354",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「不过包含它在内，这间设施里所有的东西原本都是机密」"
   },
-  "001252": {
+  "001383": {
     "context": "001383",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「之前我也说过吧？机密尽量别碰，会惹大麻烦的」"
   },
-  "001281": {
+  "001412": {
     "context": "001412",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但现在是特殊情况啊，说这些——」"
   },
-  "001310": {
+  "001441": {
     "context": "001441",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「我这不是在威胁或者开玩笑！我是在为你们的人身安全着想！」"
   },
-  "001321": {
+  "001452": {
     "context": "001452",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「！！」"
   },
-  "001332": {
+  "001481": {
     "context": "001481",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……关乎国家运转的研究机构，还是不要小看吧」"
   },
-  "001343": {
+  "001510": {
     "context": "001510",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「只要你们出去以后，还想平稳地生活下去……！」"
   },
-  "001354": {
+  "001515": {
     "context": "001515",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多的目光里，不知为何有一股压力。"
   },
-  "001383": {
+  "001520": {
     "context": "001520",
     "code": "0x45",
     "developer_comment": "",
     "string": "就像在说，世上还有比现状更恐怖的事态——"
   },
-  "001412": {
+  "001525": {
     "context": "001525",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑完全被镇住了，反射般地答道："
   },
-  "001441": {
+  "001536": {
     "context": "001536",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我，我知道了……抱歉」"
   },
-  "001452": {
+  "001547": {
     "context": "001547",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这个房间的搜索就到此为止，我们继续前进吧」"
   },
-  "001481": {
+  "001576": {
     "context": "001576",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……嗯」"
   },
-  "001510": {
+  "001581": {
     "context": "001581",
     "code": "0x45",
     "developer_comment": "",
     "string": "尽管有一种难以释怀的感觉……"
   },
-  "001515": {
+  "001586": {
     "context": "001586",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑一行还是暂且离开了这个房间。"
   },
-  "001520": {
-    "context": "001635",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@ignore"
-  },
-  "001525": {
-    "context": "001525",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "1c44b9b56cd3ced51399873a7b19d017_tr"
-  },
-  "001536": {
-    "context": "001536",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "0b6f5cde40f9efaf4bbda0f03e7bc492_tr"
-  },
-  "001547": {
-    "context": "001547",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "e4265a3eb5094d43e0022479defeadca_tr"
-  },
-  "001576": {
-    "context": "001576",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "f88cbafa575b8b1b7cf479eab9c29fa2_tr"
-  },
-  "001581": {
-    "context": "001581",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "41ee3fcf279bfe6a763ad79432907343_tr"
-  },
-  "001586": {
-    "context": "001586",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "cc163f535542046258d809c852b5ab70_tr"
-  },
   "001635": {
     "context": "001635",
     "code": "0x02",
-    "string": "ae899255d100dc7c53e9bacea0a1f3bb_tr"
+    "string": "@ignore"
   }
 }

@@ -268,15 +268,15 @@
     "string": "√A Bad End 1【鲁莽之人】"
   },
   "001092": {
-    "context": "001095",
+    "context": "001092",
     "code": "0x85",
-    "string": "无视了女队员的警告的结果。"
+    "string": "　"
   },
   "001095": {
-    "context": "001101",
+    "context": "001095",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果在这个结局前一个 Senses 输入中，把女队员设置得比主人公高的话，或许就能避开这个结局了。"
+    "string": "无视了女队员的警告的结果。"
   },
   "001098": {
     "context": "001098",
@@ -287,6 +287,6 @@
     "context": "001101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "b26519515cf1edb7a00597cd8b789855_tr"
+    "string": "如果在这个结局前一个 Senses 输入中，把女队员设置得比主人公高的话，或许就能避开这个结局了。"
   }
 }

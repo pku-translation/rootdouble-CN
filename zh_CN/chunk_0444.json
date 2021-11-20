@@ -225,230 +225,230 @@
     "string": "@auto-import 0295 003781"
   },
   "000562": {
-    "context": "000565",
+    "context": "000562",
     "code": "0x85",
-    "string": "@auto-import 0344 000569"
+    "string": "　"
   },
   "000565": {
+    "context": "000565",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0344 000569"
+  },
+  "000568": {
     "context": "000568",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000572"
   },
-  "000568": {
+  "000572": {
     "context": "000572",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000572": {
+  "000575": {
     "context": "000575",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0295 003798"
   },
-  "000575": {
+  "000579": {
+    "context": "000579",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000582": {
     "context": "000582",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000586"
   },
-  "000579": {
+  "000585": {
     "context": "000585",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0344 000589"
   },
-  "000582": {
+  "000588": {
     "context": "000588",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000592"
   },
-  "000585": {
+  "000591": {
     "context": "000591",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000595"
   },
-  "000588": {
+  "000595": {
+    "context": "000595",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000598": {
     "context": "000598",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0080 002575"
   },
-  "000591": {
+  "000601": {
     "context": "000601",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000605"
   },
-  "000595": {
+  "000644": {
     "context": "000644",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000598": {
+  "000647": {
     "context": "000647",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000651"
   },
-  "000601": {
+  "000651": {
     "context": "000651",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000644": {
+  "000654": {
     "context": "000654",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0344 000658"
   },
-  "000647": {
+  "000657": {
     "context": "000657",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000661"
   },
-  "000651": {
+  "000661": {
     "context": "000661",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000654": {
+  "000664": {
     "context": "000664",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000668"
   },
-  "000657": {
+  "000667": {
     "context": "000667",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000671"
   },
-  "000661": {
+  "000787": {
     "context": "000787",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0344 000791"
   },
-  "000664": {
+  "000792": {
     "context": "000792",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000796"
   },
-  "000667": {
+  "000800": {
     "context": "000800",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "@auto-import 0344 000804"
   },
-  "000787": {
+  "000805": {
     "context": "000805",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000809"
   },
-  "000792": {
+  "000810": {
     "context": "000810",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000814"
   },
-  "000800": {
+  "000815": {
     "context": "000815",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000819"
   },
-  "000805": {
+  "000858": {
     "context": "000858",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000862"
   },
-  "000810": {
+  "000863": {
     "context": "000863",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000867"
   },
-  "000815": {
+  "000868": {
     "context": "000868",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000872"
   },
-  "000858": {
+  "000874": {
     "context": "000874",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "@auto-import 0344 000878"
   },
-  "000863": {
+  "000880": {
     "context": "000880",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "@auto-import 0344 000884"
   },
-  "000868": {
+  "000924": {
     "context": "000924",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000928"
   },
-  "000874": {
+  "000929": {
     "context": "000929",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000933"
   },
-  "000880": {
+  "000934": {
     "context": "000934",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000938"
   },
-  "000924": {
+  "000942": {
     "context": "000942",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "@auto-import 0344 000946"
   },
-  "000929": {
+  "000950": {
     "context": "000950",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "@auto-import 0344 000954"
   },
-  "000934": {
+  "000955": {
     "context": "000955",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0344 000959"
   },
-  "000942": {
-    "context": "000960",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0344 000964"
-  },
-  "000950": {
-    "context": "000950",
-    "code": "0x45",
-    "developer_comment": "恵那",
-    "string": "f5d66c7982a27b3027a5fe8ecbff30f4_tr"
-  },
-  "000955": {
-    "context": "000955",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "2f1eb754ef8aefb0773283f71e023c2a_tr"
-  },
   "000960": {
     "context": "000960",
     "code": "0x45",
     "developer_comment": "",
-    "string": "48c85512b9d8f9e5c920e5fc9bd88038_tr"
+    "string": "@auto-import 0344 000964"
   }
 }

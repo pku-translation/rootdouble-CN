@@ -742,15 +742,15 @@
     "string": "√D Bad End 1 【被抹杀的观察员】 #review 几个线的bad end名或许统一下比较好（？"
   },
   "002599": {
-    "context": "002602",
+    "context": "002599",
     "code": "0x85",
-    "string": "渡濑的记忆被消除的结果。"
+    "string": "　"
   },
   "002602": {
-    "context": "002608",
+    "context": "002602",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，对渡濑、夏彦和悠里——三人设定合适的平衡的话，或许就能避开这个结局了。"
+    "string": "渡濑的记忆被消除的结果。"
   },
   "002605": {
     "context": "002605",
@@ -761,6 +761,6 @@
     "context": "002608",
     "code": "0x45",
     "developer_comment": "",
-    "string": "a4e6d43c28280b584afa41a86de16e34_tr"
+    "string": "在这个结局前一个 Senses 输入中，对渡濑、夏彦和悠里——三人设定合适的平衡的话，或许就能避开这个结局了。"
   }
 }

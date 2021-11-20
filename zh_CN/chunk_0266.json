@@ -263,339 +263,335 @@
     "string": "@auto-import 0028 002446"
   },
   "001450": {
-    "context": "001453",
+    "context": "001450",
     "code": "0x85",
-    "string": "@auto-import 0099 000965"
+    "string": "　"
   },
   "001453": {
+    "context": "001453",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0099 000965"
+  },
+  "001456": {
+    "context": "001456",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001459": {
     "context": "001459",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 000971"
   },
-  "001456": {
+  "001462": {
     "context": "001462",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 000974"
   },
-  "001459": {
+  "001465": {
+    "context": "001465",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001468": {
     "context": "001468",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 000980"
   },
-  "001462": {
+  "001471": {
     "context": "001471",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 000983"
   },
-  "001465": {
+  "001474": {
     "context": "001474",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 000986"
   },
-  "001468": {
+  "001478": {
     "context": "001478",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 000990"
   },
-  "001471": {
+  "001481": {
+    "context": "001481",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001484": {
     "context": "001484",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 000996"
   },
-  "001474": {
+  "001487": {
+    "context": "001487",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001490": {
     "context": "001490",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001002"
   },
-  "001478": {
+  "001493": {
+    "context": "001493",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001496": {
     "context": "001496",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001008"
   },
-  "001481": {
-    "context": "001502",
+  "001499": {
+    "context": "001499",
     "code": "0x85",
+    "string": "　"
+  },
+  "001502": {
+    "context": "001502",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 001014"
   },
-  "001484": {
+  "001505": {
+    "context": "001505",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001508": {
     "context": "001508",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001020"
   },
-  "001487": {
+  "001512": {
     "context": "001512",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 001024"
   },
-  "001490": {
+  "001515": {
+    "context": "001515",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001518": {
     "context": "001518",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001030"
   },
-  "001493": {
-    "context": "001524",
+  "001521": {
+    "context": "001521",
     "code": "0x85",
+    "string": "　"
+  },
+  "001524": {
+    "context": "001524",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 001036"
   },
-  "001496": {
+  "001527": {
+    "context": "001527",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001530": {
     "context": "001530",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001042"
   },
-  "001499": {
-    "context": "001536",
+  "001533": {
+    "context": "001533",
     "code": "0x85",
+    "string": "　"
+  },
+  "001536": {
+    "context": "001536",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0099 001048"
   },
-  "001502": {
+  "001539": {
+    "context": "001539",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001542": {
     "context": "001542",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001054"
   },
-  "001505": {
+  "001546": {
     "context": "001546",
     "code": "0x85",
     "string": "@auto-import 0011 000328"
   },
-  "001508": {
+  "001549": {
     "context": "001549",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001061"
   },
-  "001512": {
+  "001552": {
+    "context": "001552",
+    "code": "0x85",
+    "string": "　"
+  },
+  "001555": {
     "context": "001555",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0099 001067"
   },
-  "001515": {
+  "001622": {
     "context": "001622",
-    "code": "0x85",
-    "string": "（这“WX 粒子增幅器”，是 N 区域里的那个机器吗……？）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（这“WX 粒子增幅器”，是 N 区域里的那个机器吗……？）"
   },
-  "001518": {
+  "001628": {
     "context": "001628",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（这样的话，LABO 里蔓延的不是辐射，%N而是这“WX 粒子”吗？）"
   },
-  "001521": {
+  "001633": {
     "context": "001633",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "——夏彦的意识里掠过许多疑问，但是渡濑要找的是别的东西。"
   },
-  "001524": {
+  "001644": {
     "context": "001644",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0099 001158"
   },
-  "001527": {
+  "001694": {
     "context": "001694",
-    "code": "0x85",
-    "string": "@auto-import 0099 001325",
-    "developer_comment": "渡瀬"
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "@auto-import 0099 001325"
   },
-  "001530": {
+  "001705": {
     "context": "001705",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0099 001341"
   },
-  "001533": {
+  "001830": {
     "context": "001830",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "停止冷却装置，穿过排水管和外面取得联系，把救援队引导到里面。"
   },
-  "001536": {
+  "001835": {
     "context": "001835",
     "code": "0x45",
     "developer_comment": "",
     "string": "那就是渡濑想到的，让所有人活下来的办法。"
   },
-  "001539": {
-    "context": "001840",
-    "code": "0x85",
-    "string": "于是渡濑汇集必要的道具，为了寻求救援，一个人在水管中游泳。"
-  },
-  "001542": {
-    "context": "001845",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "但是——"
-  },
-  "001546": {
-    "context": "001992",
-    "code": "0x85",
-    "string": "@auto-import 0126 000575",
-    "developer_comment": "渡瀬"
-  },
-  "001549": {
-    "context": "002060",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "@auto-import 0126 000660"
-  },
-  "001552": {
-    "context": "002089",
-    "code": "0x85",
-    "string": "@auto-import 0126 000694",
-    "developer_comment": "風見"
-  },
-  "001555": {
-    "context": "002100",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "@auto-import 0126 000705"
-  },
-  "001622": {
-    "context": "002111",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "@auto-import 0126 000716"
-  },
-  "001628": {
-    "context": "002140",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "@auto-import 0126 000745"
-  },
-  "001633": {
-    "context": "002145",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "——那个方法，最后以失败告终。"
-  },
-  "001644": {
-    "context": "002151",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "（可恶……明明以为总算看到希望了……！）"
-  },
-  "001694": {
-    "context": "002162",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "@auto-import 0126 000871"
-  },
-  "001705": {
-    "context": "002173",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "@auto-import 0126 000882"
-  },
-  "001830": {
-    "context": "002336",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "而在到达的隔离墙前，LABO 整体由主电源切换为应急电源的时候——"
-  },
-  "001835": {
-    "context": "002391",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "纱瑠醒过来，向风见表示敌意。# review"
-  },
   "001840": {
-    "context": "002441",
+    "context": "001840",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@ignore"
+    "string": "于是渡濑汇集必要的道具，为了寻求救援，一个人在水管中游泳。"
   },
   "001845": {
     "context": "001845",
     "code": "0x45",
     "developer_comment": "",
-    "string": "dab5f22616c8be76a7fe02e17fd7cc46_tr"
+    "string": "但是——"
   },
   "001992": {
     "context": "001992",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "6f43f2bcc4d9012efffd1a3dcd773995_tr"
+    "string": "@auto-import 0126 000575"
   },
   "002060": {
     "context": "002060",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "7f5fd699ac5d70008c20076886560082_tr"
+    "string": "@auto-import 0126 000660"
   },
   "002089": {
     "context": "002089",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "454877d7063465dfb6d6223279ffbc5c_tr"
+    "string": "@auto-import 0126 000694"
   },
   "002100": {
     "context": "002100",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "e8e14140f81a87f46fcd51c026bf80b6_tr"
+    "string": "@auto-import 0126 000705"
   },
   "002111": {
     "context": "002111",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "c730e3b362c56fa76ce33520475fe07d_tr"
+    "string": "@auto-import 0126 000716"
   },
   "002140": {
     "context": "002140",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "3fc4fc93014dfc5c92c7f40b00ff27b3_tr"
+    "string": "@auto-import 0126 000745"
   },
   "002145": {
     "context": "002145",
     "code": "0x45",
     "developer_comment": "",
-    "string": "4cbec431086e66a79b9a4f7516e3e2f1_tr"
+    "string": "——那个方法，最后以失败告终。"
   },
   "002151": {
     "context": "002151",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "3f55609d89a5f1f9d50e481a87bc2e7a_tr"
+    "string": "（可恶……明明以为总算看到希望了……！）"
   },
   "002162": {
     "context": "002162",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "53804be983565f5603468a33d0388732_tr"
+    "string": "@auto-import 0126 000871"
   },
   "002173": {
     "context": "002173",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "36d801fc72973c3f48763c724c0bbb7f_tr"
+    "string": "@auto-import 0126 000882"
   },
   "002336": {
     "context": "002336",
     "code": "0x45",
     "developer_comment": "",
-    "string": "293eefdbf7ff6b07ae1673e828582431_tr"
+    "string": "而在到达的隔离墙前，LABO 整体由主电源切换为应急电源的时候——"
   },
   "002391": {
     "context": "002391",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ff664fcd494703566e351e062cdeb798_tr"
+    "string": "纱瑠醒过来，向风见表示敌意。# review"
   },
   "002441": {
     "context": "002441",
     "code": "0x02",
-    "string": "b27c69ce9079828899c6c8540344f6f3_tr"
+    "string": "@ignore"
   }
 }

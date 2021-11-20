@@ -340,15 +340,15 @@
     "string": "√A Bad End 3【奉献之人】"
   },
   "001695": {
-    "context": "001698",
+    "context": "001695",
     "code": "0x85",
-    "string": "太过担心风见的身体，渡濑 AD 注射不足的结果。"
+    "string": "　"
   },
   "001698": {
-    "context": "001704",
+    "context": "001698",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在 10 点 16 分附近的 Senses 输入中，把渡濑设定得比风见高的话，或许就能避开这个结局了。"
+    "string": "太过担心风见的身体，渡濑 AD 注射不足的结果。"
   },
   "001701": {
     "context": "001701",
@@ -359,6 +359,6 @@
     "context": "001704",
     "code": "0x45",
     "developer_comment": "",
-    "string": "42a55b78bc4a9e3f791e656efdcc3fb6_tr"
+    "string": "在 10 点 16 分附近的 Senses 输入中，把渡濑设定得比风见高的话，或许就能避开这个结局了。"
   }
 }

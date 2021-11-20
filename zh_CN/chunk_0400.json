@@ -344,7 +344,7 @@
     "context": "001344",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「你本来能够用 BC 消除掉我姐姐的恶意的，对吧……？」"
+    "string": "「你本来应该用 BC 消除掉我姐姐的恶意的，对吧……？」"
   },
   "001355": {
     "context": "001355",
@@ -766,15 +766,15 @@
     "string": "√D Bad End 6【放弃希望的激情家】"
   },
   "002827": {
-    "context": "002830",
+    "context": "002827",
     "code": "0x85",
-    "string": "@auto-import 0394 001769"
+    "string": "　"
   },
   "002830": {
-    "context": "002836",
+    "context": "002830",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0398 003110"
+    "string": "@auto-import 0394 001769"
   },
   "002833": {
     "context": "002833",
@@ -785,6 +785,6 @@
     "context": "002836",
     "code": "0x45",
     "developer_comment": "",
-    "string": "00957e9e8ab25c75ea5463edcb4f9395_tr"
+    "string": "@auto-import 0398 003110"
   }
 }

@@ -1253,377 +1253,377 @@
     "string": "@auto-import 0295 003774"
   },
   "003775": {
-    "context": "003778",
+    "context": "003775",
     "code": "0x85",
-    "string": "@auto-import 0295 003781"
+    "string": "　"
   },
   "003778": {
+    "context": "003778",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0295 003781"
+  },
+  "003782": {
+    "context": "003782",
+    "code": "0x85",
+    "string": "　"
+  },
+  "003785": {
     "context": "003785",
     "code": "0x45",
     "developer_comment": "",
     "string": "鹿鳴市立病院を始め、一般家屋、公共施設、雑居ビル、そして渡瀬たち家族の住むマンションなど、"
   },
-  "003782": {
+  "003788": {
     "context": "003788",
-    "code": "0x85",
-    "string": "@auto-import 0344 000572"
-  },
-  "003785": {
-    "context": "003792",
     "code": "0x45",
     "developer_comment": "",
+    "string": "@auto-import 0344 000572"
+  },
+  "003792": {
+    "context": "003792",
+    "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "003788": {
+  "003795": {
     "context": "003795",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003798"
   },
-  "003792": {
+  "003798": {
     "context": "003798",
-    "code": "0x85",
-    "string": "@auto-import 0295 003801"
-  },
-  "003795": {
-    "context": "003802",
     "code": "0x45",
     "developer_comment": "",
+    "string": "@auto-import 0295 003801"
+  },
+  "003802": {
+    "context": "003802",
+    "code": "0x85",
     "string": "@auto-import 0102 001086"
   },
-  "003798": {
+  "003805": {
     "context": "003805",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003808"
   },
-  "003802": {
+  "003809": {
     "context": "003809",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0295 003812"
   },
-  "003805": {
+  "003880": {
     "context": "003880",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003883"
   },
-  "003809": {
+  "003885": {
     "context": "003885",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003888"
   },
-  "003880": {
+  "003890": {
     "context": "003890",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003893"
   },
-  "003885": {
+  "003895": {
     "context": "003895",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003898"
   },
-  "003890": {
+  "003900": {
     "context": "003900",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003903"
   },
-  "003895": {
+  "003956": {
     "context": "003956",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003959"
   },
-  "003900": {
+  "003961": {
     "context": "003961",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003964"
   },
-  "003956": {
+  "003967": {
     "context": "003967",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 003970"
   },
-  "003961": {
+  "003972": {
     "context": "003972",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003975"
   },
-  "003967": {
+  "003977": {
     "context": "003977",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 003980"
   },
-  "003972": {
+  "004032": {
     "context": "004032",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004035"
   },
-  "003977": {
+  "004038": {
     "context": "004038",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004041"
   },
-  "004032": {
+  "004043": {
     "context": "004043",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004046"
   },
-  "004038": {
+  "004048": {
     "context": "004048",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004051"
   },
-  "004043": {
+  "004117": {
     "context": "004117",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004120"
   },
-  "004048": {
+  "004123": {
     "context": "004123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004126"
   },
-  "004117": {
+  "004139": {
     "context": "004139",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004142"
   },
-  "004123": {
+  "004144": {
     "context": "004144",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004147"
   },
-  "004139": {
+  "004150": {
     "context": "004150",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004153"
   },
-  "004144": {
+  "004156": {
     "context": "004156",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004159"
   },
-  "004150": {
+  "004161": {
     "context": "004161",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0275 000992"
   },
-  "004156": {
+  "004172": {
     "context": "004172",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004175"
   },
-  "004161": {
+  "004178": {
     "context": "004178",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0060 000643"
   },
-  "004172": {
+  "004189": {
     "context": "004189",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004192"
   },
-  "004178": {
+  "004194": {
     "context": "004194",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004197"
   },
-  "004189": {
+  "004202": {
     "context": "004202",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004205"
   },
-  "004194": {
+  "004213": {
     "context": "004213",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004216"
   },
-  "004202": {
+  "004218": {
     "context": "004218",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004221"
   },
-  "004213": {
+  "004223": {
     "context": "004223",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004226"
   },
-  "004218": {
+  "004228": {
     "context": "004228",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004231"
   },
-  "004223": {
+  "004236": {
     "context": "004236",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004239"
   },
-  "004228": {
+  "004245": {
     "context": "004245",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004248"
   },
-  "004236": {
+  "004256": {
     "context": "004256",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0012 001127"
   },
-  "004245": {
+  "004261": {
     "context": "004261",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004264"
   },
-  "004256": {
+  "004266": {
     "context": "004266",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004269"
   },
-  "004261": {
+  "004274": {
     "context": "004274",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004277"
   },
-  "004266": {
+  "004285": {
     "context": "004285",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004288"
   },
-  "004274": {
+  "004293": {
     "context": "004293",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004296"
   },
-  "004285": {
+  "004301": {
     "context": "004301",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004304"
   },
-  "004293": {
+  "004307": {
     "context": "004307",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0004 001422"
   },
-  "004301": {
+  "004315": {
     "context": "004315",
     "code": "0x45",
     "developer_comment": "厚生課員",
     "string": "@auto-import 0295 004318"
   },
-  "004307": {
+  "004320": {
     "context": "004320",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004323"
   },
-  "004315": {
+  "004325": {
     "context": "004325",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004328"
   },
-  "004320": {
+  "004401": {
     "context": "004401",
     "code": "0x45",
     "developer_comment": "亘",
     "string": "@auto-import 0295 004404"
   },
-  "004325": {
+  "004412": {
     "context": "004412",
     "code": "0x45",
     "developer_comment": "亘",
     "string": "@auto-import 0295 004415"
   },
-  "004401": {
+  "004428": {
     "context": "004428",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004431"
   },
-  "004412": {
+  "004433": {
     "context": "004433",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004436"
   },
-  "004428": {
+  "004444": {
     "context": "004444",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004447"
   },
-  "004433": {
+  "004455": {
     "context": "004455",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004458"
   },
-  "004444": {
+  "004460": {
     "context": "004460",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0295 004463"
   },
-  "004455": {
+  "004466": {
     "context": "004466",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0295 004469"
   },
-  "004460": {
-    "context": "004471",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0295 004474"
-  },
-  "004466": {
-    "context": "004466",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "adc73a8165e01ea0fdba06b8b6d30e88_tr"
-  },
   "004471": {
     "context": "004471",
     "code": "0x45",
     "developer_comment": "",
-    "string": "4eb15a7f396274a412da198a27ce0bd1_tr"
+    "string": "@auto-import 0295 004474"
   }
 }

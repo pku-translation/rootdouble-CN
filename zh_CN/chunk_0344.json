@@ -225,230 +225,230 @@
     "string": "@auto-import 0295 003781"
   },
   "000566": {
-    "context": "000569",
+    "context": "000566",
     "code": "0x85",
-    "string": "从鹿鸣市立医院开始，后来是公共设施，混居房，公寓。"
+    "string": "　"
   },
   "000569": {
+    "context": "000569",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "从鹿鸣市立医院开始，后来是公共设施，混居房，公寓。"
+  },
+  "000572": {
     "context": "000572",
     "code": "0x45",
     "developer_comment": "",
     "string": "@import 0295 003795"
   },
-  "000572": {
+  "000576": {
     "context": "000576",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000576": {
+  "000579": {
     "context": "000579",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0295 003798"
   },
-  "000579": {
+  "000583": {
+    "context": "000583",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000586": {
     "context": "000586",
     "code": "0x45",
     "developer_comment": "",
     "string": "里面包括因为一氧化碳等气体中毒而死的死者 67 人，还有烧死的死者 34 人。"
   },
-  "000583": {
+  "000589": {
     "context": "000589",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "从高处坠落而死的死者 11 人。"
   },
-  "000586": {
+  "000592": {
     "context": "000592",
     "code": "0x45",
     "developer_comment": "",
     "string": "猝死 3 人。"
   },
-  "000589": {
+  "000595": {
     "context": "000595",
     "code": "0x45",
     "developer_comment": "",
     "string": "因为痛苦而自杀的死者 2 人。"
   },
-  "000592": {
+  "000599": {
+    "context": "000599",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000602": {
     "context": "000602",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0080 002575"
   },
-  "000595": {
+  "000605": {
     "context": "000605",
     "code": "0x45",
     "developer_comment": "",
     "string": "遭遇纵火犯，被捅死的死者 1 人。"
   },
-  "000599": {
+  "000648": {
     "context": "000648",
     "code": "0x85",
     "string": "　%N"
   },
-  "000602": {
+  "000651": {
     "context": "000651",
     "code": "0x45",
     "developer_comment": "",
     "string": "——被捅死的只是一个普通的公务员。"
   },
-  "000605": {
+  "000655": {
     "context": "000655",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "　%N"
   },
-  "000648": {
+  "000658": {
     "context": "000658",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "对于不认识这个人的人来说，"
   },
-  "000651": {
+  "000661": {
     "context": "000661",
     "code": "0x45",
     "developer_comment": "",
     "string": "他不过是当晚死去的 118 人之中的 1 个人而已。"
   },
-  "000655": {
+  "000665": {
     "context": "000665",
     "code": "0x85",
     "string": "　%N"
   },
-  "000658": {
+  "000668": {
     "context": "000668",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是对于惠那来说不一样。"
   },
-  "000661": {
+  "000671": {
     "context": "000671",
     "code": "0x45",
     "developer_comment": "",
     "string": "对于她来说，那个人是——无人可以取代的，她最喜欢的爸爸。"
   },
-  "000665": {
+  "000791": {
     "context": "000791",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "火灾过后几天。"
   },
-  "000668": {
+  "000796": {
     "context": "000796",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那一个人来到了爸爸的公司。"
   },
-  "000671": {
+  "000804": {
     "context": "000804",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「爸爸……」"
   },
-  "000791": {
+  "000809": {
     "context": "000809",
     "code": "0x45",
     "developer_comment": "",
     "string": "即使她这样喊着，也没有人回答她。"
   },
-  "000796": {
+  "000814": {
     "context": "000814",
     "code": "0x45",
     "developer_comment": "",
     "string": "她再也听不到那个温柔的声音了。"
   },
-  "000804": {
+  "000819": {
     "context": "000819",
     "code": "0x45",
     "developer_comment": "",
     "string": "葬礼那天不住流出的眼泪，又在脸上涌出。"
   },
-  "000809": {
+  "000862": {
     "context": "000862",
     "code": "0x45",
     "developer_comment": "",
     "string": "爸爸那天是为了保护某个人才被纵火犯杀死的。"
   },
-  "000814": {
+  "000867": {
     "context": "000867",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是惠那不知道那个人是谁。"
   },
-  "000819": {
+  "000872": {
     "context": "000872",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是就算什么也不知道，惠那也明白。"
   },
-  "000862": {
+  "000878": {
     "context": "000878",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "（爸爸一定是在保护一个超能力者……）"
   },
-  "000867": {
+  "000884": {
     "context": "000884",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "（不被坏人攻击……！）"
   },
-  "000872": {
+  "000928": {
     "context": "000928",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那看向天空。"
   },
-  "000878": {
+  "000933": {
     "context": "000933",
     "code": "0x45",
     "developer_comment": "",
     "string": "她也想要保护爸爸想要保护的东西。"
   },
-  "000884": {
+  "000938": {
     "context": "000938",
     "code": "0x45",
     "developer_comment": "",
     "string": "有朝一日一定要跟爸爸做一样的工作——"
   },
-  "000928": {
+  "000946": {
     "context": "000946",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「爸爸……我会遵守约定的」"
   },
-  "000933": {
+  "000954": {
     "context": "000954",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「在这之前，一定要在天国看着惠那啊」"
   },
-  "000938": {
+  "000959": {
     "context": "000959",
     "code": "0x45",
     "developer_comment": "",
     "string": "对于这么小的她来说，这个愿望过于宏大了。"
   },
-  "000946": {
-    "context": "000964",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "但是惠那擦干了眼泪，把这个愿望藏在了心中。"
-  },
-  "000954": {
-    "context": "000954",
-    "code": "0x45",
-    "developer_comment": "恵那",
-    "string": "ab91133269cac133de3998723da24493_tr"
-  },
-  "000959": {
-    "context": "000959",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "5b6d6124e55720f32ca93de6bdced89c_tr"
-  },
   "000964": {
     "context": "000964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "cacf252b07cb279df7ae1a12ce058fc1_tr"
+    "string": "但是惠那擦干了眼泪，把这个愿望藏在了心中。"
   }
 }

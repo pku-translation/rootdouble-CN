@@ -820,31 +820,31 @@
     "string": "√A Bad End 11【可恨之人】"
   },
   "002806": {
-    "context": "002809",
+    "context": "002806",
     "code": "0x85",
-    "string": "洵的信赖太低，导致她抱有杀意的结果。"
+    "string": "　"
   },
   "002809": {
-    "context": "002815",
+    "context": "002809",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在至今为止的过程中，提高洵的好感度，"
+    "string": "洵的信赖太低，导致她抱有杀意的结果。"
   },
   "002812": {
-    "context": "002818",
+    "context": "002812",
     "code": "0x85",
-    "string": "或者在这个结局前一个 Senses 输入中，把风见和洵设置得比渡濑高的话，或许就能避开这个结局了。 "
+    "string": "　"
   },
   "002815": {
     "context": "002815",
     "code": "0x45",
     "developer_comment": "",
-    "string": "7910129b6c8f64cb627f1854d796512d_tr"
+    "string": "在至今为止的过程中，提高洵的好感度，"
   },
   "002818": {
     "context": "002818",
     "code": "0x45",
     "developer_comment": "",
-    "string": "af71eff71511b860e43ee3ce9ce8e5a5_tr"
+    "string": "或者在这个结局前一个 Senses 输入中，把风见和洵设置得比渡濑高的话，或许就能避开这个结局了。 "
   }
 }

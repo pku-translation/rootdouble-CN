@@ -334,26 +334,26 @@
     "string": "――そうしてぼくは、渡瀬と共に歩み出した。"
   },
   "001132": {
-    "context": "001137",
+    "context": "001132",
     "code": "0x85",
-    "string": "大切な人々を護るために。%Nそして今まで踏みにじられてきた、あらゆる人々の仇を取るために。"
+    "string": "　"
   },
   "001137": {
-    "context": "001146",
+    "context": "001137",
     "code": "0x45",
     "developer_comment": "",
-    "string": "まだ何も終ってはいない。%N平穏を取り戻すその日まで、ぼくらの歩みは止まらない。"
+    "string": "大切な人々を護るために。%Nそして今まで踏みにじられてきた、あらゆる人々の仇を取るために。"
   },
   "001141": {
-    "context": "001155",
+    "context": "001141",
     "code": "0x85",
-    "string": "@auto-import 0407 002091"
+    "string": "　"
   },
   "001146": {
     "context": "001146",
     "code": "0x45",
     "developer_comment": "",
-    "string": "df65dc484cac0543f9eee5ccb2c60eda_tr"
+    "string": "まだ何も終ってはいない。%N平穏を取り戻すその日まで、ぼくらの歩みは止まらない。"
   },
   "001150": {
     "context": "001150",
@@ -364,6 +364,6 @@
     "context": "001155",
     "code": "0x45",
     "developer_comment": "",
-    "string": "93cf80aec7b2c7a2b307b79a3e7303f6_tr"
+    "string": "@auto-import 0407 002091"
   }
 }

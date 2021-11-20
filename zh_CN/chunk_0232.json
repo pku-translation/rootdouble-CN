@@ -580,31 +580,31 @@
     "string": "√B Bad End 1 【缺乏信任之人的末路】"
   },
   "002798": {
-    "context": "002801",
+    "context": "002798",
     "code": "0x85",
-    "string": "纱瑠的信赖关系不足的结果。"
+    "string": "　"
   },
   "002801": {
-    "context": "002807",
+    "context": "002801",
     "code": "0x45",
     "developer_comment": "",
-    "string": "至今为止的过程，提高纱瑠的好感度，"
+    "string": "纱瑠的信赖关系不足的结果。"
   },
   "002804": {
-    "context": "002810",
+    "context": "002804",
     "code": "0x85",
-    "string": "同时在这个结局前一个 Senses 输入中，给纱瑠设定得相当高的话，或许就能避开这个结局了。"
+    "string": "　"
   },
   "002807": {
     "context": "002807",
     "code": "0x45",
     "developer_comment": "",
-    "string": "bb02780e7e451b0165b00cd962beba61_tr"
+    "string": "至今为止的过程，提高纱瑠的好感度，"
   },
   "002810": {
     "context": "002810",
     "code": "0x45",
     "developer_comment": "",
-    "string": "7c42d46c9b9f99f7e10cd279e3eb445a_tr"
+    "string": "同时在这个结局前一个 Senses 输入中，给纱瑠设定得相当高的话，或许就能避开这个结局了。"
   }
 }

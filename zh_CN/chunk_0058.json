@@ -1202,372 +1202,370 @@
     "string": "天川同学 等："
   },
   "004438": {
-    "context": "004441",
+    "context": "004438",
     "code": "0x85",
-    "string": "今天我们，都挺倒霉的。"
+    "string": "　"
   },
   "004441": {
+    "context": "004441",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "今天我们，都挺倒霉的。"
+  },
+  "004444": {
     "context": "004444",
     "code": "0x45",
     "developer_comment": "",
     "string": "老师一直在找你们，但怎么也找不到。"
   },
-  "004444": {
+  "004447": {
     "context": "004447",
     "code": "0x45",
     "developer_comment": "",
     "string": "所以呢，如果你们看到了这封信，绝对要留在这里，不要到处乱跑。"
   },
-  "004447": {
+  "004450": {
     "context": "004450",
     "code": "0x45",
     "developer_comment": "",
     "string": "这里放着一些抗辐射药物“AD”。"
   },
-  "004450": {
+  "004453": {
     "context": "004453",
     "code": "0x45",
     "developer_comment": "",
     "string": "我们自己也在用，可以保护身体免受辐射危害。"
   },
-  "004453": {
+  "004456": {
     "context": "004456",
     "code": "0x45",
     "developer_comment": "",
     "string": "（※通过静脉注射，能发挥一个小时的效果）"
   },
-  "004456": {
+  "004459": {
     "context": "004459",
     "code": "0x45",
     "developer_comment": "",
     "string": "打上 AD，待在这个房间里等我们来救你们吧。"
   },
-  "004459": {
+  "004462": {
     "context": "004462",
     "code": "0x45",
     "developer_comment": "",
     "string": "我期待见到你们安好的样子。"
   },
-  "004462": {
+  "004465": {
+    "context": "004465",
+    "code": "0x85",
+    "string": "　　　　　　　　　　　　　　　　　　"
+  },
+  "004466": {
     "context": "004466",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那老师"
   },
-  "004465": {
+  "004496": {
     "context": "004496",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": " ——有点意外的，可爱的字迹，还有可爱的话语。"
   },
-  "004466": {
+  "004525": {
     "context": "004525",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……对吧？把它放在门口的话，跟他们错过的可能性又能降低一些了」"
   },
-  "004496": {
+  "004536": {
     "context": "004536",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「原来如此，这样就完美了」"
   },
-  "004525": {
+  "004565": {
     "context": "004565",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「好的，那我们来分一下装备吧」"
   },
-  "004536": {
+  "004608": {
     "context": "004608",
     "code": "0x45",
     "developer_comment": "",
     "string": "众人点头表示同意，开始把这几个小时里拿到的物资分成两份。"
   },
-  "004565": {
+  "004613": {
     "context": "004613",
     "code": "0x45",
     "developer_comment": "",
     "string": "首先，门禁卡——"
   },
-  "004608": {
+  "004618": {
     "context": "004618",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑带着刚刚拿到的等级 N 的门禁卡。"
   },
-  "004613": {
+  "004623": {
     "context": "004623",
     "code": "0x45",
     "developer_comment": "",
     "string": "而风见、洵、惠那和宇喜多，每人一张等级 6 的。"
   },
-  "004618": {
+  "004631": {
     "context": "004631",
     "code": "0x45",
     "developer_comment": "",
     "string": "然后是 Procyon——渡濑那一队拿两部，洵那一队拿一部……"
   },
-  "004623": {
+  "004636": {
     "context": "004636",
     "code": "0x45",
     "developer_comment": "",
     "string": "分配完物资之后，众人走出了研究室。"
   },
-  "004631": {
+  "004717": {
     "context": "004717",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我们往第 4 区域那边前进，守部和椿山你们就请往第 6 区域那边前进吧」"
   },
-  "004636": {
+  "004728": {
     "context": "004728",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我们的目的是“搜索 AD 和被困人员”，以及“寻找逃生出口”」"
   },
-  "004717": {
+  "004739": {
     "context": "004739",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「明白」"
   },
-  "004728": {
+  "004744": {
     "context": "004744",
     "code": "0x45",
     "developer_comment": "",
     "string": "——惠那把写好的信放在门口，回答道。"
   },
-  "004739": {
+  "004827": {
     "context": "004827",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「守部，老师就交给你了」"
   },
-  "004744": {
+  "004856": {
     "context": "004856",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「好的。你们也不要吵架，要齐心协力，一起搜索哦」"
   },
-  "004827": {
+  "004876": {
     "context": "004876",
     "code": "0x45",
     "developer_comment": "",
     "string": "说着，洵和惠那一道，向第 6 区域那边走去。"
   },
-  "004856": {
+  "004882": {
     "context": "004882",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（吵架……我又不想吵架，问题是……）"
   },
-  "004876": {
+  "004887": {
     "context": "004887",
     "code": "0x45",
     "developer_comment": "",
     "string": "本来是担心惠那遇到危险，提醒洵注意照应。"
   },
-  "004882": {
+  "004892": {
     "context": "004892",
     "code": "0x45",
     "developer_comment": "",
     "string": "现在被洵这么一说，多少又开始在意起来了——"
   },
-  "004887": {
+  "004937": {
     "context": "004937",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「你在干什么呢，队长？」"
   },
-  "004892": {
+  "004948": {
     "context": "004948",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我们也要出发了」"
   },
-  "004937": {
+  "004959": {
     "context": "004959",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「啊，好的」"
   },
-  "004948": {
+  "004964": {
     "context": "004964",
     "code": "0x45",
     "developer_comment": "",
     "string": "带着一点担忧，渡濑和风见、宇喜多一道，朝第 4 区域那边走去。"
   },
-  "004959": {
+  "005018": {
     "context": "005018",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x02",
     "string": "@ignore"
   },
-  "004964": {
+  "005021": {
     "context": "005021",
     "code": "0x45",
     "developer_comment": "",
     "string": "然后是 Procyon——渡濑那一队拿两部，风见那一队拿一部……"
   },
-  "005018": {
+  "005065": {
     "context": "005065",
-    "code": "0x02",
-    "string": "「那我们往第 6 区域那边前进，橘和老师你们往第 4 区域那边前进」",
-    "developer_comment": "渡瀬"
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那我们往第 6 区域那边前进，橘和老师你们往第 4 区域那边前进」"
   },
-  "005021": {
+  "005094": {
     "context": "005094",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「明白了。椿山，我们出发吧」"
   },
-  "005065": {
+  "005123": {
     "context": "005123",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「好的」"
   },
-  "005094": {
+  "005151": {
     "context": "005151",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那把写好的信放在门口，离开了研究室。"
   },
-  "005123": {
+  "005195": {
     "context": "005195",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「……那么，我们也出发吧」"
   },
-  "005151": {
+  "005206": {
     "context": "005206",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「好」"
   },
-  "005195": {
+  "005217": {
     "context": "005217",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……嗯」"
   },
-  "005206": {
+  "005222": {
     "context": "005222",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多的声音，不出预料地，有些冷冰冰的。"
   },
-  "005217": {
+  "005228": {
     "context": "005228",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（我得想点办法，把大叔的误会解开啊……）"
   },
-  "005222": {
+  "005233": {
     "context": "005233",
     "code": "0x45",
     "developer_comment": "",
     "string": "带着一点担忧，渡濑和洵、宇喜多一道，相继走出了研究室。"
   },
-  "005228": {
+  "005287": {
     "context": "005287",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x02",
     "string": "@ignore"
   },
-  "005233": {
+  "005323": {
     "context": "005323",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0058 005021"
   },
-  "005287": {
+  "005334": {
     "context": "005334",
-    "code": "0x02",
-    "string": "「那，我们往第 6 区域那边前进，橘和守部你们往第 4 区域那边前进」",
-    "developer_comment": "渡瀬"
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "「那，我们往第 6 区域那边前进，橘和守部你们往第 4 区域那边前进」"
   },
-  "005323": {
+  "005363": {
     "context": "005363",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「明白了。守部，我们出发吧」"
   },
-  "005334": {
+  "005392": {
     "context": "005392",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「了解」"
   },
-  "005363": {
+  "005420": {
     "context": "005420",
     "code": "0x45",
     "developer_comment": "",
     "string": "说着，两人朝第 4 区域那边走去。"
   },
-  "005392": {
+  "005431": {
     "context": "005431",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……那么，我们也该出发了」"
   },
-  "005420": {
+  "005475": {
     "context": "005475",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「是啊，在这里磨蹭也不是个事」"
   },
-  "005431": {
+  "005486": {
     "context": "005486",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「嗯……出发吧」"
   },
-  "005475": {
+  "005491": {
     "context": "005491",
     "code": "0x45",
     "developer_comment": "",
     "string": "——惠那一边回答道，一边把写好的信放在了门口。她的语气有点低落。"
   },
-  "005486": {
+  "005496": {
     "context": "005496",
     "code": "0x45",
     "developer_comment": "",
     "string": "气氛果然又微妙起来了。"
   },
-  "005491": {
+  "005502": {
     "context": "005502",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这两位，相性是不是很差啊……）"
   },
-  "005496": {
+  "005507": {
     "context": "005507",
     "code": "0x45",
     "developer_comment": "",
     "string": "回想起来，这几个小时里他们确实经常吵架。"
   },
-  "005502": {
+  "005512": {
     "context": "005512",
     "code": "0x45",
     "developer_comment": "",
     "string": "带着一点担忧，渡濑和惠那、宇喜多一道，相继走出了实验室。"
   },
-  "005507": {
-    "context": "005566",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@ignore"
-  },
-  "005512": {
-    "context": "005512",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "0cc72520ae8072cc73a7c3a8d4661d4e_tr"
-  },
   "005566": {
     "context": "005566",
     "code": "0x02",
-    "string": "d150c3d76da056d842be28d0009c50d2_tr"
+    "string": "@ignore"
   }
 }

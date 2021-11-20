@@ -1,145 +1,91 @@
 {
   "0000": {
     "context": "000B9640",
-    "developer_comment": "Change message display window opacity.
-
-The window will grow more transparent the closer it is to "Min", and vice-versa.",
+    "developer_comment": "Change message display window opacity.\n\nThe window will grow more transparent the closer it is to \"Min\", and vice-versa.",
     "character_limit": 61,
     "string": "调整文本框的不透明度。\n\n向“Min”的方向调整则文本框将更加透明。\n\n向“Max”的方向调整则文本框将更加不透明。"
   },
   "0001": {
     "context": "000B9578",
-    "developer_comment": "Change the speed messages display at.
-
-They will display slower the closer it is to "Min", and faster the closer it is to "Max".
-If you set it at its highest, text will be displayed all at once.",
+    "developer_comment": "Change the speed messages display at.\n\nThey will display slower the closer it is to \"Min\", and faster the closer it is to \"Max\".\nIf you set it at its highest, text will be displayed all at once.",
     "character_limit": 99,
     "string": "调整文本呈现速度。\n\n向“Min”的方向调整则将更慢呈现文本。\n\n向“Max”的方向调整则将更快呈现文本。\n\n设为最大值时，文本将整句呈现，而不是逐字显示。语音同步设为“ON”时除外。"
   },
   "0002": {
     "context": "000B94D8",
-    "developer_comment": "Change the speed messages display at during Auto Mode.
-
-They will take longer to display the closer it is to "Min", and shorter the closer it is to "Max".",
+    "developer_comment": "Change the speed messages display at during Auto Mode.\n\nThey will take longer to display the closer it is to \"Min\", and shorter the closer it is to \"Max\".",
     "character_limit": 79,
     "string": "调整自动模式的文本速度。\n\n向“Min”的方向调整则显示下一句前的等待时间更长。\n\n向“Max”的方向调整则显示下一句前的等待时间更短。"
   },
   "0003": {
     "context": "000B93E0",
-    "developer_comment": "Set how the game skips when you hold down the CTRL key.
-
-If set to "Pre-read only", it will only skip messages you've already read and will stop at previously unread messages.
-
-If set to "All", it will skip all messages, pre-read or otherwise.",
+    "developer_comment": "Set how the game skips when you hold down the CTRL key.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
     "character_limit": 123,
     "string": "设置 CTRL 键的跳过机制。\n\n设置为“已读”时，只会跳过此前已经呈现过的文本，未呈现过的文本不会被跳过。\n\n设置为“全部”时，所有文本无论此前呈现过与否都将被跳过。"
   },
   "0004": {
     "context": "000B92E8",
-    "developer_comment": "Set how the game skips when you press the Skip button.
-
-If set to "Pre-read only", it will only skip messages you've already read and will stop at previously unread messages.
-
-If set to "All", it will skip all messages, pre-read or otherwise.",
+    "developer_comment": "Set how the game skips when you press the Skip button.\n\nIf set to \"Pre-read only\", it will only skip messages you've already read and will stop at previously unread messages.\n\nIf set to \"All\", it will skip all messages, pre-read or otherwise.",
     "character_limit": 123,
     "string": "设置快进模式的跳过机制。\n\n设置为“已读”时，只会跳过此前已经呈现过的文本，未呈现过的文本不会被跳过。\n\n设置为“全部”时，所有文本无论此前呈现过与否都将被跳过。"
   },
   "0005": {
     "context": "000B9208",
-    "developer_comment": "Set whether the scene title appears when you change scenes.
-
-If set to "On", the scene title will display when you change scenes.
-
-If set to "Off", the scene title will not be displayed even if you change scenes.",
+    "developer_comment": "Set whether the scene title appears when you change scenes.\n\nIf set to \"On\", the scene title will display when you change scenes.\n\nIf set to \"Off\", the scene title will not be displayed even if you change scenes.",
     "character_limit": 111,
     "string": "设置是否在切换 Scene 时显示标题。\n\n设置为“ON”时，切换 Scene 将显示标题。\n\n设置为“OFF”时，切换 Scene 将不显示标题。"
   },
   "0006": {
     "context": "000B9180",
-    "developer_comment": "Set the volume of the game's BGM.
-
-The closer it is to "Min", the quieter it is.
-
-The closer it is to "Max", the louder it is.",
+    "developer_comment": "Set the volume of the game's BGM.\n\nThe closer it is to \"Min\", the quieter it is.\n\nThe closer it is to \"Max\", the louder it is.",
     "character_limit": 67,
     "string": "设置游戏背景音乐音量。\n\n向“Min”的方向调整则音量降低。\n\n向“Max”的方向调整则音量提高。"
   },
   "0007": {
     "context": "000B90E8",
-    "developer_comment": "Set the volume of the game's sound effects.
-
-The closer it is to "Min", the quieter they are.
-
-The closer it is to "Max", the louder they are.",
+    "developer_comment": "Set the volume of the game's sound effects.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
     "character_limit": 75,
     "string": "设置游戏音效音量。\n\n向“Min”的方向调整则音量降低。\n\n向“Max”的方向调整则音量提高。"
   },
   "0008": {
     "context": "000B9038",
-    "developer_comment": "Set the volume of the game's sound effects used in menu operation.
-
-The closer it is to "Min", the quieter they are.
-
-The closer it is to "Max", the louder they are.",
+    "developer_comment": "Set the volume of the game's sound effects used in menu operation.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
     "character_limit": 87,
     "string": "设置菜单操作音效的音量。\n\n向“Min”的方向调整则音量降低。\n\n向“Max”的方向调整则音量提高。"
   },
   "0009": {
     "context": "000B8FA8",
-    "developer_comment": "Set the volume of the game's voices.
-
-The closer it is to "Min", the quieter they are.
-
-The closer it is to "Max", the louder they are.",
+    "developer_comment": "Set the volume of the game's voices.\n\nThe closer it is to \"Min\", the quieter they are.\n\nThe closer it is to \"Max\", the louder they are.",
     "character_limit": 71,
     "string": "设置游戏语音音量。\n\n向“Min”的方向调整则音量降低。\n\n向“Max”的方向调整则音量提高。"
   },
   "0010": {
     "context": "000B8EF8",
-    "developer_comment": "Set whether or not a tutorial plays right before √A and √B's first Senses input.
-
-If set to "On", the tutorial plays.
-
-If set to "Off", the tutorial will not play.",
+    "developer_comment": "Set whether or not a tutorial plays right before √A and √B's first Senses input.\n\nIf set to \"On\", the tutorial plays.\n\nIf set to \"Off\", the tutorial will not play.",
     "character_limit": 87,
     "string": "设置是否在 √A 及 √B 路线最初的 Senses 输入前进入教程。\n\n设置为“ON”时，会进入教程。\n\n设置为“OFF”时，不会进入教程。"
   },
   "0011": {
     "context": "000B8E60",
-    "developer_comment": "Set whether a hint will display after Bad Endings.
-
-If set to "On", the hint will display.
-
-If set to "Off", the hint will not be displayed.",
+    "developer_comment": "Set whether a hint will display after Bad Endings.\n\nIf set to \"On\", the hint will display.\n\nIf set to \"Off\", the hint will not be displayed.",
     "character_limit": 75,
     "string": "设置是否在迎来坏结局时显示提示。\n\n设置为“ON”时，会显示提示。\n\n设置为“OFF”时，不会显示提示。"
   },
   "0012": {
     "context": "000B8DA8",
-    "developer_comment": "Set whether the results of a Senses input display.
-
-If set to "On", the results of a Senses decision will display on-screen.
-
-If set to "Off", the results will not display.",
+    "developer_comment": "Set whether the results of a Senses input display.\n\nIf set to \"On\", the results of a Senses decision will display on-screen.\n\nIf set to \"Off\", the results will not display.",
     "character_limit": 91,
     "string": "设置是否显示 Senses 输入的结果。\n\n设置为“ON”时，Senses 判定的结果将显示在画面上。\n\n设置为“OFF”时，结果不会显示。"
   },
   "0013": {
     "context": "000B8CF0",
-    "developer_comment": "Set whether a message giving you the option to cancel your Senses input before you set it.
-If set to "On", the message will display.
-
-If set to "Off", the message will not display.",
+    "developer_comment": "Set whether a message giving you the option to cancel your Senses input before you set it.\nIf set to \"On\", the message will display.\n\nIf set to \"Off\", the message will not display.",
     "character_limit": 91,
     "string": "设置是否在决定 Senses 输入时显示确认对话框。\n\n设置为“ON”时，会显示确认对话框。\n\n设置为“OFF”时，不会显示确认对话框。"
   },
   "0014": {
     "context": "000B8C48",
-    "developer_comment": "Set the game's screen mode.
-
-If set to "Window", the game will display in window-sized format.
-
-If set to "Full", the game will display in fullscreen format.",
+    "developer_comment": "Set the game's screen mode.\n\nIf set to \"Window\", the game will display in window-sized format.\n\nIf set to \"Full\", the game will display in fullscreen format.",
     "character_limit": 83,
     "string": "设置游戏窗口模式。\n\n设置为“窗口”时，游戏会以窗口模式显示。\n\n设置为“全屏”时，游戏会以全屏模式显示。"
   }

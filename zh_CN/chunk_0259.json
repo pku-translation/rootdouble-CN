@@ -35,697 +35,691 @@
     "string": "@auto-import 0084 000822"
   },
   "000255": {
-    "context": "000258",
+    "context": "000255",
     "code": "0x85",
-    "string": "@auto-import 0084 000828"
+    "string": "　"
   },
   "000258": {
+    "context": "000258",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0084 000828"
+  },
+  "000261": {
     "context": "000261",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000831"
   },
-  "000261": {
+  "000264": {
     "context": "000264",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000834"
   },
-  "000264": {
+  "000267": {
     "context": "000267",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000837"
   },
-  "000267": {
+  "000270": {
     "context": "000270",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000840"
   },
-  "000270": {
+  "000273": {
     "context": "000273",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000843"
   },
-  "000273": {
+  "000276": {
+    "context": "000276",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000279": {
     "context": "000279",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000849"
   },
-  "000276": {
+  "000283": {
     "context": "000283",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0084 000853"
   },
-  "000279": {
+  "000286": {
+    "context": "000286",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000289": {
     "context": "000289",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000859"
   },
-  "000283": {
+  "000292": {
     "context": "000292",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000862"
   },
-  "000286": {
+  "000295": {
     "context": "000295",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0084 000865"
   },
-  "000289": {
+  "000298": {
     "context": "000298",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000868"
   },
-  "000292": {
+  "000301": {
     "context": "000301",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000871"
   },
-  "000295": {
+  "000304": {
     "context": "000304",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000874"
   },
-  "000298": {
+  "000307": {
+    "context": "000307",
+    "code": "0x85",
+    "string": "　"
+  },
+  "000310": {
     "context": "000310",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000880"
   },
-  "000301": {
+  "000313": {
     "context": "000313",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000883"
   },
-  "000304": {
+  "000316": {
     "context": "000316",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0084 000886"
   },
-  "000307": {
+  "000350": {
     "context": "000350",
-    "code": "0x85",
-    "string": "（……这是什么？）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（……这是什么？）"
   },
-  "000310": {
+  "000356": {
     "context": "000356",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（实验对象？ IGF2R？ 观察对象？）"
   },
-  "000313": {
+  "000362": {
     "context": "000362",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（不，比起这个——）"
   },
-  "000316": {
+  "000367": {
     "context": "000367",
     "code": "0x45",
     "developer_comment": "",
     "string": " “　实验对象 Y　→　yu 号 （2030/09/10）　”"
   },
-  "000350": {
+  "000373": {
     "context": "000373",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（——说起 9 月 10 日的话，不就是我的日常开始变化的那天吗？！）"
   },
-  "000356": {
+  "000379": {
     "context": "000379",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（这个文件怎么回事？ 到底有什么意义呢？）"
   },
-  "000362": {
+  "000384": {
     "context": "000384",
     "code": "0x45",
     "developer_comment": "",
     "string": "从这份记述的不知何处感到一丝不祥的时候，"
   },
-  "000367": {
+  "000432": {
     "context": "000432",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑的脑中，突然闪过了奇妙的景象。"
   },
-  "000373": {
-    "context": "000480",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "？？"
-  },
-  "000379": {
-    "context": "000481",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 001043"
-  },
-  "000384": {
-    "context": "000491",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 001043"
-  },
-  "000432": {
-    "context": "000554",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "？？"
-  },
   "000480": {
+    "context": "000480",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000481": {
+    "context": "000481",
+    "code": "0x86",
+    "string": "@auto-import 0084 001043"
+  },
+  "000491": {
+    "context": "000491",
+    "code": "0x85",
+    "string": "@auto-import 0084 001043"
+  },
+  "000554": {
+    "context": "000554",
+    "code": "0x86",
+    "string": "？？"
+  },
+  "000555": {
     "context": "000555",
     "code": "0x86",
     "string": "@auto-import 0084 001117"
   },
-  "000481": {
+  "000563": {
     "context": "000563",
-    "code": "0x86",
+    "code": "0x85",
     "string": "@auto-import 0084 001117"
   },
-  "000491": {
+  "000626": {
     "context": "000626",
-    "code": "0x85",
+    "code": "0x86",
     "string": "？？"
   },
-  "000554": {
+  "000627": {
     "context": "000627",
     "code": "0x86",
     "string": "@auto-import 0084 001189"
   },
-  "000555": {
+  "000635": {
     "context": "000635",
-    "code": "0x86",
+    "code": "0x85",
     "string": "@auto-import 0084 001189"
   },
-  "000563": {
+  "000698": {
     "context": "000698",
-    "code": "0x85",
+    "code": "0x86",
     "string": "？？"
   },
-  "000626": {
+  "000699": {
     "context": "000699",
     "code": "0x86",
     "string": "@auto-import 0084 001261"
   },
-  "000627": {
+  "000707": {
     "context": "000707",
-    "code": "0x86",
+    "code": "0x85",
     "string": "@auto-import 0084 001261"
   },
-  "000635": {
+  "000804": {
     "context": "000804",
-    "code": "0x85",
-    "string": "（什么——记忆又……？！）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（什么——记忆又……？！）"
   },
-  "000698": {
+  "000810": {
     "context": "000810",
-    "code": "0x86",
-    "string": "（为什么？！ 是什么契机让渡濑的记忆恢复的？！）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（为什么？！ 是什么契机让渡濑的记忆恢复的？！）"
   },
-  "000699": {
+  "000815": {
     "context": "000815",
-    "code": "0x86",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "夏彦对这事端感到惊讶——一瞬间后，渡濑像是逃走一般，离开了那个房间。"
   },
-  "000707": {
+  "000865": {
     "context": "000865",
-    "code": "0x85",
-    "string": "（什么？！ 这，这家伙怎么了？！）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（什么？！ 这，这家伙怎么了？！）"
   },
-  "000804": {
+  "000870": {
     "context": "000870",
     "code": "0x45",
     "developer_comment": "",
     "string": "不知为何，渡濑他相当惊慌，不快感和愤怒翻滚在他的心里。"
   },
-  "000810": {
+  "000875": {
     "context": "000875",
     "code": "0x45",
     "developer_comment": "",
     "string": "接着脑海中，再次现出过去的记忆。"
   },
-  "000815": {
+  "000958": {
     "context": "000958",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "@auto-import 0055 001682"
   },
-  "000865": {
+  "001018": {
     "context": "001018",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（！ 刚才的，是我应该已经消除的记忆吧……！）"
   },
-  "000870": {
+  "001023": {
     "context": "001023",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是就像大坝决堤那样，那时的记忆逐渐复苏。"
   },
-  "000875": {
+  "001108": {
     "context": "001108",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "@auto-import 0055 001962"
   },
-  "000958": {
+  "001119": {
     "context": "001119",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "@auto-import 0055 001973"
   },
-  "001018": {
+  "001231": {
     "context": "001231",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0055 002563"
   },
-  "001023": {
+  "001303": {
     "context": "001303",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0055 002297"
   },
-  "001108": {
+  "001314": {
     "context": "001314",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0055 002367"
   },
-  "001119": {
+  "001379": {
     "context": "001379",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0084 002292"
   },
-  "001231": {
+  "001390": {
     "context": "001390",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "@auto-import 0084 002313"
   },
-  "001303": {
+  "001395": {
     "context": "001395",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑一边感到困惑，一边晃荡着走出了楼梯间。"
   },
-  "001314": {
+  "001439": {
     "context": "001439",
     "code": "0x45",
     "developer_comment": "",
     "string": "紧接着——"
   },
-  "001379": {
-    "context": "001477",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 002400"
-  },
-  "001390": {
-    "context": "001481",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 002404"
-  },
-  "001395": {
-    "context": "001558",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 002400"
-  },
-  "001439": {
-    "context": "001562",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@auto-import 0084 002485"
-  },
   "001477": {
-    "context": "001639",
+    "context": "001477",
     "code": "0x85",
     "string": "@auto-import 0084 002400"
   },
   "001481": {
+    "context": "001481",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@auto-import 0084 002404"
+  },
+  "001558": {
+    "context": "001558",
+    "code": "0x85",
+    "string": "@auto-import 0084 002400"
+  },
+  "001562": {
+    "context": "001562",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@auto-import 0084 002485"
+  },
+  "001639": {
+    "context": "001639",
+    "code": "0x85",
+    "string": "@auto-import 0084 002400"
+  },
+  "001643": {
     "context": "001643",
     "code": "0x47",
     "developer_comment": "",
     "string": "@auto-import 0084 002566"
   },
-  "001558": {
+  "001720": {
     "context": "001720",
     "code": "0x85",
     "string": "@auto-import 0084 002400"
   },
-  "001562": {
+  "001724": {
     "context": "001724",
     "code": "0x47",
     "developer_comment": "",
     "string": "@auto-import 0084 002647"
   },
-  "001639": {
+  "001831": {
     "context": "001831",
-    "code": "0x85",
-    "string": "（？！）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（？！）"
   },
-  "001643": {
+  "001837": {
     "context": "001837",
-    "code": "0x47",
+    "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（“实验对象们很危险”……这家伙，突然想什么呢……？）"
   },
-  "001720": {
+  "001842": {
     "context": "001842",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "夏彦对渡濑脑中浮现的那个想法感到困惑——"
   },
-  "001724": {
+  "001848": {
     "context": "001848",
-    "code": "0x47",
+    "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（难道说——！）"
   },
-  "001831": {
+  "001915": {
     "context": "001915",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（“实验对象”指的是她吗？！）"
   },
-  "001837": {
+  "001921": {
     "context": "001921",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（所以看到刚才的资料的时候，渡濑的记忆被触发了——？！）"
   },
-  "001842": {
+  "001926": {
     "context": "001926",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦急忙潜入渡濑的内心。"
   },
-  "001848": {
+  "002028": {
     "context": "002028",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "『实验对象们很危险……！"
   },
-  "001915": {
+  "002030": {
     "context": "002030",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "　实验对象们很危险……！"
   },
-  "001921": {
+  "002032": {
     "context": "002032",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "　　实验对象们很危险……！』"
   },
-  "001926": {
+  "002033": {
     "context": "002033",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x86",
     "string": "渡濑"
   },
-  "002028": {
+  "002034": {
     "context": "002034",
-    "code": "0x85",
+    "code": "0x86",
     "string": "『实验对象们很危险……！ 实验对象们很危险……！ 实验对象们很危险……！』"
   },
-  "002030": {
+  "002051": {
     "context": "002051",
     "code": "0x85",
     "string": "『什……什么东西！？这句话是怎么回事！？』"
   },
-  "002032": {
+  "002052": {
     "context": "002052",
-    "code": "0x85",
+    "code": "0x86",
     "string": "渡濑"
   },
-  "002033": {
+  "002053": {
     "context": "002053",
     "code": "0x86",
     "string": "@auto-import 0259 002051"
   },
-  "002034": {
+  "002068": {
     "context": "002068",
-    "code": "0x86",
+    "code": "0x85",
     "string": "『我不知道！不知道这样的话！！』"
   },
-  "002051": {
+  "002069": {
     "context": "002069",
-    "code": "0x85",
+    "code": "0x86",
     "string": "渡濑"
   },
-  "002052": {
+  "002070": {
     "context": "002070",
     "code": "0x86",
     "string": "@auto-import 0259 002068"
   },
-  "002053": {
+  "002099": {
     "context": "002099",
-    "code": "0x86",
-    "string": "（这是……！）",
-    "developer_comment": "夏彦"
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "（这是……！）"
   },
-  "002068": {
+  "002104": {
     "context": "002104",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "看得出渡濑正激烈地抵抗着心中涌现的憎恶。"
   },
-  "002069": {
+  "002109": {
     "context": "002109",
-    "code": "0x86",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "然而恐惧却缓缓变质，逐渐被漆黑的憎恶之情覆盖住了。"
   },
-  "002070": {
+  "002114": {
     "context": "002114",
-    "code": "0x86",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "憎恶进一步又化作杀意。"
   },
-  "002099": {
+  "002120": {
     "context": "002120",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（这样下去，又要变回那个时候的渡濑了！ 必须快点对渡濑的记忆做些什么！）"
   },
-  "002104": {
+  "002126": {
     "context": "002126",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……不，但是……！）"
   },
-  "002109": {
+  "002131": {
     "context": "002131",
     "code": "0x45",
     "developer_comment": "",
     "string": "考虑到消去记忆给渡濑带来的伤害，再次消去记忆可能会关乎渡濑的性命。"
   },
-  "002114": {
+  "002136": {
     "context": "002136",
     "code": "0x45",
     "developer_comment": "",
     "string": "而渡濑的死，也就意味着夏彦的消失。"
   },
-  "002120": {
+  "002142": {
     "context": "002142",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（那怎么办？！ 怎么样才能封住渡濑的憎恶？）"
   },
-  "002126": {
+  "002148": {
     "context": "002148",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（想想吧！ 一定有什么办法的！）"
   },
-  "002131": {
+  "002153": {
     "context": "002153",
     "code": "0x45",
     "developer_comment": "",
     "string": "——渡濑不知为何，对悠里感到恐惧，抱有憎恶和杀意。"
   },
-  "002136": {
+  "002158": {
     "context": "002158",
     "code": "0x45",
     "developer_comment": "",
     "string": "尽管渡濑平时担心她，时常保护着她。"
   },
-  "002142": {
+  "002163": {
     "context": "002163",
     "code": "0x45",
     "developer_comment": "",
     "string": "每当记忆快要恢复的时候，那恐惧、憎恶、杀意就会复苏。"
   },
-  "002148": {
+  "002169": {
     "context": "002169",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（那么干脆……）"
   },
-  "002153": {
+  "002175": {
     "context": "002175",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（让渡濑误以为“悠里已经死了”就好了？）"
   },
-  "002158": {
+  "002181": {
     "context": "002181",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（这样的话对她的恐惧也消失，憎恶和杀意必然也会……！）"
   },
-  "002163": {
+  "002186": {
     "context": "002186",
     "code": "0x45",
     "developer_comment": "",
     "string": "不知道会不会顺利。"
   },
-  "002169": {
+  "002191": {
     "context": "002191",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是照这样下去，渡濑的记忆真有可能会恢复。"
   },
-  "002175": {
+  "002196": {
     "context": "002196",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦没有办法，只能冒险采用那个方法了。"
   },
-  "002181": {
+  "002207": {
     "context": "002207",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "『往渡濑的记忆中，加入“悠里死亡”的记忆——！』"
   },
-  "002186": {
+  "002328": {
     "context": "002328",
     "code": "0x45",
     "developer_comment": "",
     "string": "——于是夏彦再次篡改了渡濑的记忆。"
   },
-  "002191": {
+  "002439": {
     "context": "002439",
     "code": "0x45",
     "developer_comment": "",
     "string": "那之后过了 5 分钟——"
   },
-  "002196": {
+  "002444": {
     "context": "002444",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑就像死了一样，在原地失神。"
   },
-  "002207": {
+  "002450": {
     "context": "002450",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（喂……难道说，不会就一直这么下去了吧……！）"
   },
-  "002328": {
+  "002455": {
     "context": "002455",
     "code": "0x45",
     "developer_comment": "",
     "string": "被不安感驱使着，夏彦对渡濑说："
   },
-  "002439": {
+  "002466": {
     "context": "002466",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0085 000126"
   },
-  "002444": {
+  "002477": {
     "context": "002477",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0085 000147"
   },
-  "002450": {
+  "002497": {
     "context": "002497",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「！！」"
   },
-  "002455": {
+  "002502": {
     "context": "002502",
     "code": "0x45",
     "developer_comment": "",
     "string": "被夏彦的声音摇动，渡濑恢复了意识。"
   },
-  "002466": {
+  "002507": {
     "context": "002507",
     "code": "0x45",
     "developer_comment": "",
     "string": "于是他跌跌撞撞地前往了其他人所在的 Factory。"
   },
-  "002477": {
+  "002513": {
     "context": "002513",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……看来不再继续摆弄渡濑的记忆比较好）"
   },
-  "002497": {
+  "002519": {
     "context": "002519",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（拜托，不要再恢复记忆了……！）"
   },
-  "002502": {
+  "002524": {
     "context": "002524",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦这么希望着。"
   },
-  "002507": {
+  "002567": {
     "context": "002567",
     "code": "0x45",
     "developer_comment": "",
     "string": "——但是夏彦的行为产生的失真，立刻暴露了。"
   },
-  "002513": {
-    "context": "002578",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "@ignore"
-  },
-  "002519": {
-    "context": "002519",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "773247590bc3672624effd5d5253583f_tr"
-  },
-  "002524": {
-    "context": "002524",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "3fbf4d5525cb2dae6b3aaecb75a1fb19_tr"
-  },
-  "002567": {
-    "context": "002567",
-    "code": "0x45",
-    "developer_comment": "",
-    "string": "e69cac3e1bbac4e3eb8fbe41729532d9_tr"
-  },
   "002578": {
     "context": "002578",
     "code": "0x02",
-    "string": "27d810f00ffa2a9bce1154ae889614b3_tr"
+    "string": "@ignore"
   }
 }
