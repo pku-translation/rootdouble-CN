@@ -598,31 +598,31 @@
     "string": "√B Bad End 3【不解风情之人的末路】"
   },
   "001760": {
-    "context": "001760",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001763": {
     "context": "001763",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "真白的信赖关系不足的结果。"
   },
-  "001766": {
-    "context": "001766",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001769": {
+  "001763": {
     "context": "001769",
     "code": "0x45",
     "developer_comment": "",
     "string": "至今为止的过程，提高真白的好感度，"
   },
+  "001766": {
+    "context": "001772",
+    "code": "0x85",
+    "string": "在这个结局前一个 Senses 输入中，把真白设定得相当高的话，或许就能避开这个结局了。"
+  },
+  "001769": {
+    "context": "001769",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "dc4d24c81b90b856e5afda809b553ea7_tr"
+  },
   "001772": {
     "context": "001772",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，把真白设定得相当高的话，或许就能避开这个结局了。"
+    "string": "ce57de55488f2e880fe36b10c63226fd_tr"
   }
 }

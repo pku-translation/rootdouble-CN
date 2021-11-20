@@ -120,690 +120,696 @@
     "string": "件名：鹿鳴市営団地ガス爆発事故について（７）"
   },
   "000289": {
-    "context": "000289",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000292": {
     "context": "000292",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "送信者：飛鳥井玲菜"
   },
-  "000296": {
-    "context": "000296",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000299": {
+  "000292": {
     "context": "000299",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0183 001124"
   },
-  "000303": {
-    "context": "000303",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000306": {
+  "000296": {
     "context": "000306",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "橘風見様"
   },
-  "000310": {
-    "context": "000310",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000313": {
+  "000299": {
     "context": "000313",
     "code": "0x45",
     "developer_comment": "",
     "string": "お疲れ様です。鹿鳴市東消防署火災調査員、飛鳥井です。"
   },
-  "000317": {
+  "000303": {
     "context": "000317",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "先日に引き続き、例の事故調査についてご報告致します。"
   },
-  "000321": {
-    "context": "000321",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000324": {
+  "000306": {
     "context": "000324",
     "code": "0x45",
     "developer_comment": "",
     "string": "現状で判明した事は、以下の通りです。"
   },
-  "000328": {
+  "000310": {
     "context": "000328",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000331": {
+  "000313": {
     "context": "000331",
     "code": "0x45",
     "developer_comment": "",
     "string": "①団地東棟の１階から６階部分までが半壊した原因について"
   },
-  "000335": {
-    "context": "000335",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000338": {
+  "000317": {
     "context": "000338",
     "code": "0x45",
     "developer_comment": "",
     "string": "これについては、恐らく原因はいくつもあります。"
   },
-  "000342": {
-    "context": "000342",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000345": {
+  "000321": {
     "context": "000345",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "まず考えられるのは、建物自体の老朽化、および剛性不足です。"
   },
-  "000349": {
-    "context": "000349",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000352": {
+  "000324": {
     "context": "000352",
     "code": "0x45",
     "developer_comment": "",
     "string": "鹿鳴市営団地は、鹿鳴市が政令指定機密都市になる前に建てられた、"
   },
-  "000355": {
+  "000328": {
     "context": "000355",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "古い建物です。"
   },
-  "000359": {
+  "000331": {
     "context": "000359",
     "code": "0x45",
     "developer_comment": "",
     "string": "事故当時、築４４年。法定耐用年数としてはギリギリです。"
   },
-  "000363": {
+  "000335": {
     "context": "000363",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000367": {
+  "000338": {
     "context": "000367",
     "code": "0x45",
     "developer_comment": "",
     "string": "さらには鉄筋の中抜き、シャブコンの使用など、"
   },
-  "000371": {
+  "000342": {
     "context": "000371",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "明らかな手抜き工事の痕跡が見られました。"
   },
-  "000375": {
-    "context": "000375",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000378": {
+  "000345": {
     "context": "000378",
     "code": "0x45",
     "developer_comment": "",
     "string": "そのため建物の強度が不足し、ガス爆発によって発生した衝撃に耐えられず、"
   },
-  "000381": {
+  "000349": {
     "context": "000381",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "半ば自重崩壊したものと考えられます。"
   },
-  "000385": {
+  "000352": {
     "context": "000385",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0025 001143"
   },
-  "000388": {
+  "000355": {
     "context": "000388",
     "code": "0x45",
     "developer_comment": "",
     "string": "②団地東棟全域に衝撃を与えるほどのガス爆発が起きた原因について"
   },
-  "000392": {
-    "context": "000392",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000395": {
+  "000359": {
     "context": "000395",
     "code": "0x45",
     "developer_comment": "",
     "string": "これについては当時の資料が不十分で、"
   },
-  "000398": {
+  "000363": {
     "context": "000398",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "調査に時間がかかっております。"
   },
-  "000402": {
-    "context": "000402",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000405": {
+  "000367": {
     "context": "000405",
     "code": "0x45",
     "developer_comment": "",
     "string": "しかしまず言えるのは、『爆発は１度ではなかった』という事です。"
   },
-  "000409": {
-    "context": "000409",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000412": {
+  "000371": {
     "context": "000412",
     "code": "0x45",
     "developer_comment": "",
     "string": "最初の爆発が起きたのは、恐らく東棟１階の住戸。"
   },
-  "000416": {
+  "000375": {
     "context": "000416",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "そこで発生した爆炎は、壁を突き破り、両隣の住戸に達しました。"
   },
-  "000420": {
-    "context": "000420",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000423": {
+  "000378": {
     "context": "000423",
     "code": "0x45",
     "developer_comment": "",
     "string": "また同時に天井を突き破り、上階の住戸にも達しました。"
   },
-  "000427": {
+  "000381": {
     "context": "000427",
     "code": "0x45",
     "developer_comment": "",
     "string": "以上、計４つの住戸が爆炎に飲まれた事になります。"
   },
-  "000431": {
+  "000385": {
     "context": "000431",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000434": {
+  "000388": {
     "context": "000434",
     "code": "0x45",
     "developer_comment": "",
     "string": "そのどれかで２度目のガス爆発が発生。"
   },
-  "000437": {
-    "context": "000437",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000440": {
+  "000392": {
     "context": "000440",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "続いて連鎖反応的に、いくつかの小爆発が起き――"
   },
-  "000444": {
+  "000395": {
     "context": "000444",
     "code": "0x45",
     "developer_comment": "",
     "string": "最終的には、あれほどの大規模な爆発をもたらしたものと思われます。"
   },
-  "000447": {
+  "000398": {
     "context": "000447",
     "code": "0x45",
     "developer_comment": "",
     "string": "（当時、団地近隣に住んでいた住人も、『複数の爆発音を聞いた』と証言しております）"
   },
-  "000451": {
+  "000402": {
     "context": "000451",
     "code": "0x85",
     "string": "@auto-import 0025 001143"
   },
-  "000454": {
+  "000405": {
     "context": "000454",
     "code": "0x45",
     "developer_comment": "",
     "string": "③当時の資料が不足している理由について"
   },
-  "000458": {
-    "context": "000458",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000461": {
+  "000409": {
     "context": "000461",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "申し訳ございません。これについては私にもわかりません。"
   },
-  "000465": {
-    "context": "000465",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000468": {
+  "000412": {
     "context": "000468",
     "code": "0x45",
     "developer_comment": "",
     "string": "当時すでに、鹿鳴市には火災調査員が複数名いたはずなのですが……"
   },
-  "000472": {
+  "000416": {
     "context": "000472",
     "code": "0x45",
     "developer_comment": "",
     "string": "信頼できる資料が非常に少ないです。"
   },
-  "000476": {
-    "context": "000476",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000479": {
+  "000420": {
     "context": "000479",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "当時の調査員たちの職務怠慢が原因と思われます。"
   },
-  "000483": {
+  "000423": {
     "context": "000483",
     "code": "0x45",
     "developer_comment": "",
     "string": "まことに面目ないです……。"
   },
-  "000487": {
+  "000427": {
     "context": "000487",
-    "code": "0x85",
-    "string": "@auto-import 0025 001143"
-  },
-  "000490": {
-    "context": "000490",
     "code": "0x45",
     "developer_comment": "",
+    "string": "@auto-import 0025 001143"
+  },
+  "000431": {
+    "context": "000490",
+    "code": "0x85",
     "string": "今回の調査報告は以上になります。"
   },
-  "000494": {
-    "context": "000494",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000497": {
+  "000434": {
     "context": "000497",
     "code": "0x45",
     "developer_comment": "",
     "string": "それと……残念な報告が１つ。"
   },
-  "000501": {
+  "000437": {
     "context": "000501",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "どうも私、救急に異動になりそうです。"
   },
-  "000505": {
-    "context": "000505",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000508": {
+  "000440": {
     "context": "000508",
     "code": "0x45",
     "developer_comment": "",
     "string": "いきなり司令から、そんなようなことを言われました。"
   },
-  "000512": {
-    "context": "000512",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000515": {
+  "000444": {
     "context": "000515",
     "code": "0x45",
     "developer_comment": "",
     "string": "異動になったら、"
   },
-  "000518": {
+  "000447": {
     "context": "000518",
     "code": "0x45",
     "developer_comment": "",
     "string": "火災調査員としての職務は続行できなくなりますが……"
   },
-  "000522": {
-    "context": "000522",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000525": {
+  "000451": {
     "context": "000525",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "先輩から頼まれたこの調査だけは、独自に続けていこうと思います。"
   },
-  "000529": {
+  "000454": {
     "context": "000529",
     "code": "0x45",
     "developer_comment": "",
     "string": "というわけで、引き続きよろしくお願いします。"
   },
-  "000608": {
+  "000458": {
     "context": "000608",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "@auto-import 0004 001422"
+    "code": "0x85",
+    "string": "@auto-import 0004 001422",
+    "developer_comment": "風見"
   },
-  "000613": {
+  "000461": {
     "context": "000613",
     "code": "0x45",
     "developer_comment": "",
     "string": "メールを読み終えた風見は、顔をしかめた。"
   },
-  "000618": {
+  "000465": {
     "context": "000618",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "ひとまずお礼の返信をして、それから考える。"
   },
-  "000624": {
+  "000468": {
     "context": "000624",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（複数の爆発……？　そんなことって、そうそう起こるかしら）"
   },
-  "000629": {
+  "000472": {
     "context": "000629",
     "code": "0x45",
     "developer_comment": "",
     "string": "もし本当に連鎖爆発が起きたとしたら、国内の災害史上最大規模の集合住宅ガス爆発事故という事になる。"
   },
-  "000634": {
+  "000476": {
     "context": "000634",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "防災研究のためには、重要な研究対象になるはずだ。"
   },
-  "000639": {
+  "000479": {
     "context": "000639",
     "code": "0x45",
     "developer_comment": "",
     "string": "なのにこの事故については、全国の消防組織から、半ば無視されているのだ。"
   },
-  "000644": {
+  "000483": {
     "context": "000644",
     "code": "0x45",
     "developer_comment": "",
     "string": "まるで腫れ物に触るように――。"
   },
-  "000650": {
+  "000487": {
     "context": "000650",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "（……それに、当時の資料が不足しているというのも気になるわ）"
+    "code": "0x85",
+    "string": "（……それに、当時の資料が不足しているというのも気になるわ）",
+    "developer_comment": "風見"
   },
-  "000656": {
+  "000490": {
     "context": "000656",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（もしかしてこれって本当は、資料が不足してるんじゃなくて――）"
   },
-  "000662": {
+  "000494": {
     "context": "000662",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "（資料が隠されているんじゃ？）"
+    "code": "0x85",
+    "string": "（資料が隠されているんじゃ？）",
+    "developer_comment": "風見"
   },
-  "000667": {
+  "000497": {
     "context": "000667",
     "code": "0x45",
     "developer_comment": "",
     "string": "なぜそんな事が起こるのか――そう考えると、ふと想起された記憶があった。"
   },
-  "000673": {
+  "000501": {
     "context": "000673",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（そう言えば昔、凪沙が言っていたわ……）"
   },
-  "000761": {
+  "000505": {
     "context": "000761",
-    "code": "0x45",
-    "developer_comment": "凪沙",
-    "string": "「――お姉ちゃん、この団地ってさ……」"
+    "code": "0x85",
+    "string": "「――お姉ちゃん、この団地ってさ……」",
+    "developer_comment": "凪沙"
   },
-  "000772": {
+  "000508": {
     "context": "000772",
     "code": "0x45",
     "developer_comment": "凪沙",
     "string": "「コミュニケーターが集められた、特別な団地なのかもしれないね」"
   },
-  "000780": {
+  "000512": {
     "context": "000780",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "「あら、どうしてそう思うの？」"
+    "code": "0x85",
+    "string": "「あら、どうしてそう思うの？」",
+    "developer_comment": "風見"
   },
-  "000809": {
+  "000515": {
     "context": "000809",
     "code": "0x45",
     "developer_comment": "凪沙",
     "string": "「おとなりのおばさんが、言ってたの。『うちの子がコミュニケーターだから、この団地に入れた』って」"
   },
-  "000820": {
+  "000518": {
     "context": "000820",
     "code": "0x45",
     "developer_comment": "凪沙",
     "string": "「『コミュニケーターがいるお家は、ちゅうせんがゆうりになる』って」"
   },
-  "000828": {
+  "000522": {
     "context": "000828",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "「あ……なるほど」"
+    "code": "0x85",
+    "string": "「あ……なるほど」",
+    "developer_comment": "風見"
   },
-  "000833": {
+  "000525": {
     "context": "000833",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう聞いて、風見もその意味を理解した。"
   },
-  "000838": {
+  "000529": {
     "context": "000838",
     "code": "0x45",
     "developer_comment": "",
     "string": "この団地は建物こそ古いが、部屋数は多い上、家賃はタダ同然だ。"
   },
-  "000843": {
+  "000608": {
     "context": "000843",
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな人気物件に、風見たちは抽選なしで入居できた。"
   },
-  "000848": {
+  "000613": {
     "context": "000848",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見たちに両親がいないため、優遇されたのだと思っていたのだが――"
   },
-  "000853": {
+  "000618": {
     "context": "000853",
     "code": "0x45",
     "developer_comment": "",
     "string": "どうやらコミュニケーターであるが故に、優遇されたという事らしい。"
   },
-  "000858": {
+  "000624": {
     "context": "000858",
     "code": "0x45",
     "developer_comment": "",
     "string": "鹿鳴市ならではの話だった。"
   },
-  "000949": {
+  "000629": {
     "context": "000949",
     "code": "0x45",
     "developer_comment": "",
     "string": "――つまりあの団地には、コミュニケーターが多数入居していた可能性が高い。"
   },
-  "000954": {
+  "000634": {
     "context": "000954",
     "code": "0x45",
     "developer_comment": "",
     "string": "そんな重要物件で起きた事故。仮にその原因が、団地管理者の過失などによるものだとしたら――"
   },
-  "000960": {
+  "000639": {
     "context": "000960",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（事故原因を隠蔽する事も、あり得る……？）"
   },
-  "000965": {
+  "000644": {
     "context": "000965",
     "code": "0x45",
     "developer_comment": "",
     "string": "やや突飛な想像にも思えたが、その可能性は０ではないだろう。"
   },
-  "000973": {
+  "000650": {
     "context": "000973",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「鹿鳴市営団地……私も自ら、あの事故について調べるべきかしら……」"
   },
-  "000978": {
+  "000656": {
     "context": "000978",
     "code": "0x45",
     "developer_comment": "",
     "string": "そう呟いた時、風見に声がかけられた。"
   },
-  "001007": {
+  "000662": {
     "context": "001007",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「おい橘、なにぼさっとしてる」"
   },
-  "001036": {
+  "000667": {
     "context": "001036",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「昨日頼んだ書類、できてるのか？」"
   },
-  "001044": {
+  "000673": {
     "context": "001044",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あ……は、はい。できてます」"
   },
-  "001073": {
+  "000761": {
     "context": "001073",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「そうか。じゃあ俺の机に置いとけ」"
   },
-  "001078": {
+  "000772": {
     "context": "001078",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬はそう言って、踵を返す。"
   },
-  "001086": {
+  "000780": {
     "context": "001086",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「あ、隊長、どこへ？」"
   },
-  "001115": {
+  "000809": {
     "context": "001115",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「定時だ。帰る」"
   },
-  "001166": {
+  "000820": {
     "context": "001166",
     "code": "0x45",
     "developer_comment": "",
     "string": "ぶっきらぼうな言葉を残し、彼は署内に入って行った。"
   },
-  "001172": {
+  "000828": {
     "context": "001172",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "@auto-import 0004 001422"
   },
-  "001177": {
+  "000833": {
     "context": "001177",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見は彼の背を、暗い気持ちで見つめていた。"
   },
-  "001182": {
+  "000838": {
     "context": "001182",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬は１年ほど前から、人が変わったように冷たくなった。"
   },
-  "001187": {
+  "000843": {
     "context": "001187",
     "code": "0x45",
     "developer_comment": "",
     "string": "さらにここ数日は、張り詰めたような雰囲気を漂わせている。"
   },
-  "001192": {
+  "000848": {
     "context": "001192",
     "code": "0x45",
     "developer_comment": "",
     "string": "何か悩みでもあるのだと思い、風見は何度も相談に乗ろうとしたが――"
   },
-  "001197": {
+  "000853": {
     "context": "001197",
     "code": "0x45",
     "developer_comment": "",
     "string": "そのたびに、拒絶された。"
   },
-  "001203": {
+  "000858": {
     "context": "001203",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "（……どうして渡瀬は、何も言ってくれないのかしら）"
   },
-  "001208": {
+  "000949": {
     "context": "001208",
     "code": "0x45",
     "developer_comment": "",
     "string": "風見にはわからない事ばかりだ。"
   },
-  "001213": {
+  "000954": {
     "context": "001213",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡瀬の考えも、９年前の事故の原因も。"
   },
-  "001218": {
+  "000960": {
     "context": "001218",
     "code": "0x45",
     "developer_comment": "",
     "string": "自分がどうしたいのかも、なぜこんなにも過去の事故にこだわってしまうのかも。"
   },
-  "001223": {
+  "000965": {
     "context": "001223",
     "code": "0x45",
     "developer_comment": "",
     "string": "だがそのどれにも、どことなく不吉な暗雲が立ち込めている気がした……。"
+  },
+  "000973": {
+    "context": "000973",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "3ee4499121f95bb0038946552e2b257d_tr"
+  },
+  "000978": {
+    "context": "000978",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "1df759281e9542a48385426c73f8db3f_tr"
+  },
+  "001007": {
+    "context": "001007",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "4277a77fdd3a6775b7daa6ec38828fca_tr"
+  },
+  "001036": {
+    "context": "001036",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "4bd595a1ffe897d991c2730b2f8203a8_tr"
+  },
+  "001044": {
+    "context": "001044",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "1fae069094a8edb50fe70fd9055543cb_tr"
+  },
+  "001073": {
+    "context": "001073",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "5cbf502852d0f91b0c2e5f99a569849e_tr"
+  },
+  "001078": {
+    "context": "001078",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "168b037257df466f7a91edf769e740f9_tr"
+  },
+  "001086": {
+    "context": "001086",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "7df2ddec1920609ca66935097d9395cf_tr"
+  },
+  "001115": {
+    "context": "001115",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "fd3d7a7c06e0ed6d607b182156802794_tr"
+  },
+  "001166": {
+    "context": "001166",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "a3f48a60274e027e50ca81580c24c199_tr"
+  },
+  "001172": {
+    "context": "001172",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "089cfae2fb9f1490bf1aabda1830fcc5_tr"
+  },
+  "001177": {
+    "context": "001177",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "151c5421d00cc5cc16907fb755558fd0_tr"
+  },
+  "001182": {
+    "context": "001182",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "632c48131e5a8717b9c280c0ba6c5ecd_tr"
+  },
+  "001187": {
+    "context": "001187",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "5262a32c5cec4643c11b15d2a36890ff_tr"
+  },
+  "001192": {
+    "context": "001192",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "b9eddda72c8d640aae2d509710f36870_tr"
+  },
+  "001197": {
+    "context": "001197",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "89cf0289b6e28b6aa6f8e26369d2e350_tr"
+  },
+  "001203": {
+    "context": "001203",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "e49fc9a38aa7ff6058fd2f68d8c14fb6_tr"
+  },
+  "001208": {
+    "context": "001208",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "047547ae6886f649f8e1136a72bf6296_tr"
+  },
+  "001213": {
+    "context": "001213",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "79935686e46b580acad412c3273890e7_tr"
+  },
+  "001218": {
+    "context": "001218",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "eee9e0209a1ccb81133868c27ebba8d5_tr"
+  },
+  "001223": {
+    "context": "001223",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "a2fadd814eddc444d516aada9b31f60e_tr"
   }
 }

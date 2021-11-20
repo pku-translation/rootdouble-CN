@@ -88,385 +88,385 @@
     "string": "『9 月 18 日　消防系统检查』"
   },
   "000334": {
-    "context": "000334",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000337": {
     "context": "000337",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "检查负责人（竹下/浦边/美园）：%N13:00 在引擎室集合。"
   },
-  "000340": {
+  "000337": {
     "context": "000340",
     "code": "0x45",
     "developer_comment": "",
     "string": "※检查前务必将系统手动停止"
   },
-  "000372": {
+  "000340": {
     "context": "000372",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……消防系统？难道是为了检查，才停止了吗？」"
   },
-  "000377": {
+  "000372": {
     "context": "000377",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见跑到他身边，伸头看向笔记本。"
   },
-  "000442": {
+  "000377": {
     "context": "000442",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不对，日期不一样。今天是 9 月 16 日——」"
   },
-  "000471": {
+  "000442": {
     "context": "000471",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但是去这个“引擎室”的话，说不定就能找到消防系统停止的原因」"
   },
-  "000482": {
+  "000471": {
     "context": "000482",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「你知道在哪吗？」"
   },
-  "000493": {
+  "000482": {
     "context": "000493",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不知道。希望之后的搜索能找到」"
   },
-  "000498": {
+  "000493": {
     "context": "000498",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是得到这个信息，也算是一点前进吧。"
   },
-  "000509": {
+  "000498": {
     "context": "000509",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「好，去下一个房间吧！」"
   },
-  "000514": {
+  "000509": {
     "context": "000514",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人正好用了 1 分钟搜索完这个房间，向下一个房间前进。"
   },
-  "000562": {
+  "000514": {
     "context": "000562",
     "code": "0x45",
     "developer_comment": "",
     "string": "他们出门回到通道，然后走向旁边的房间。"
   },
-  "000621": {
+  "000562": {
     "context": "000621",
     "code": "0x45",
     "developer_comment": "",
     "string": "但这不是个普通的房间，像是一个电梯间。"
   },
-  "000626": {
+  "000621": {
     "context": "000626",
     "code": "0x45",
     "developer_comment": "",
     "string": "没有发现被困人员。电梯的指示灯也都没亮着。"
   },
-  "000691": {
+  "000626": {
     "context": "000691",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「既然第 1、第 2 区域和这里的电梯都停了，那么 LABO 里的电梯应该是全停了吧」"
   },
-  "000721": {
+  "000691": {
     "context": "000721",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「那个，沿着电梯轴爬到地面上，可以吗……？」"
   },
-  "000750": {
+  "000721": {
     "context": "000750",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「很可惜，电梯轴和地上连接的地方有隔离墙」"
   },
-  "000761": {
+  "000750": {
     "context": "000761",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这也是核泄漏阻断系统的一部分……！」"
   },
-  "000766": {
+  "000761": {
     "context": "000766",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人放弃了不能动的电梯，继续前进。"
   },
-  "000809": {
+  "000766": {
     "context": "000809",
     "code": "0x45",
     "developer_comment": "",
     "string": "接下来是通向第 4 区域的连接通道。"
   },
-  "000857": {
+  "000809": {
     "context": "000857",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是这个通道，被堆积如山的瓦砾堵住了。"
   },
-  "000868": {
+  "000857": {
     "context": "000868",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这些瓦砾……是堆芯熔毁之前的爆炸造成的吗？」"
   },
-  "000933": {
+  "000868": {
     "context": "000933",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「恐怕是这样」"
   },
-  "000963": {
+  "000933": {
     "context": "000963",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「……看起来是过不去的」"
   },
-  "000968": {
+  "000963": {
     "context": "000968",
     "code": "0x45",
     "developer_comment": "",
     "string": "难得有张等级 4 的卡片，这下也没有意义了。"
   },
-  "000973": {
+  "000968": {
     "context": "000973",
     "code": "0x45",
     "developer_comment": "",
     "string": "要去第 4 区域的话，看来需要找别的路。"
   },
-  "001002": {
+  "000973": {
     "context": "001002",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「在这里待着也没什么用，继续走吧！」"
   },
-  "001045": {
+  "001002": {
     "context": "001045",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人回到第 3 区域，向 N 区域的方向前进。"
   },
-  "001088": {
+  "001045": {
     "context": "001088",
     "code": "0x45",
     "developer_comment": "",
     "string": "通向 N 区域的道路——"
   },
-  "001093": {
+  "001088": {
     "context": "001093",
     "code": "0x45",
     "developer_comment": "",
     "string": "门旁边有一个安全终端。"
   },
-  "001098": {
+  "001093": {
     "context": "001098",
     "code": "0x45",
     "developer_comment": "",
     "string": "终端上显示着——“Lv. N”。"
   },
-  "001109": {
+  "001098": {
     "context": "001109",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「等级 N……？」"
   },
-  "001174": {
+  "001109": {
     "context": "001174",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「看来要进入 N 区域的话，需要特别的卡片」"
   },
-  "001179": {
+  "001174": {
     "context": "001179",
     "code": "0x45",
     "developer_comment": "",
     "string": "N 区域也许是 LABO 里，安全等级最高的地方。"
   },
-  "001184": {
+  "001179": {
     "context": "001184",
     "code": "0x45",
     "developer_comment": "",
     "string": "据说就是由于 N 区域那边发生了火灾，才推迟了隔离墙的开放。"
   },
-  "001195": {
+  "001184": {
     "context": "001195",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……有什么办法进入 N 区域，扑灭火灾吗？」"
   },
-  "001224": {
+  "001195": {
     "context": "001224",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「你在说什么啊！那太危险了！」"
   },
-  "001253": {
+  "001224": {
     "context": "001253",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「就算能把火灭了，也会受到致死量的辐射照射吧」"
   },
-  "001264": {
+  "001253": {
     "context": "001264",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「是啊，可恶……！」"
   },
-  "001300": {
+  "001264": {
     "context": "001300",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑试着把 Procyon 向门前凑了凑——"
   },
-  "001317": {
+  "001300": {
     "context": "001317",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……什么！？」"
   },
-  "001322": {
+  "001317": {
     "context": "001322",
     "code": "0x45",
     "developer_comment": "",
     "string": "显示器上的数值，迅速上升。"
   },
-  "001333": {
+  "001322": {
     "context": "001333",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「“2406 mSv”！？」"
   },
-  "001369": {
+  "001333": {
     "context": "001369",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「一下子增加了快 1000――！」"
   },
-  "001405": {
+  "001369": {
     "context": "001405",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「危险，回来！！」"
   },
-  "001416": {
+  "001405": {
     "context": "001416",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「啊，好！」"
   },
-  "001481": {
+  "001416": {
     "context": "001481",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人慌忙跳了回来。"
   },
-  "001486": {
+  "001481": {
     "context": "001486",
     "code": "0x45",
     "developer_comment": "",
     "string": "Procyon 的数值马上恢复了原样。"
   },
-  "001497": {
+  "001486": {
     "context": "001497",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「隔着一扇门，都这么夸张的吗……！」"
   },
-  "001526": {
+  "001497": {
     "context": "001526",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……这扇门如果是铅之类的做的，应该能完全阻断射线……」"
   },
-  "001537": {
+  "001526": {
     "context": "001537",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不过周围的墙壁或者天花板之类的，可能有破损的地方」"
   },
-  "001542": {
+  "001537": {
     "context": "001542",
     "code": "0x45",
     "developer_comment": "",
     "string": "不管这扇门有多坚固，其他地方也可能存在缝隙。"
   },
-  "001547": {
+  "001542": {
     "context": "001547",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽然肉眼看不见，缝隙中会有放射尘和辐射泄露——"
   },
-  "001558": {
+  "001547": {
     "context": "001558",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……原来如此，所以数值在一点一点上升」"
   },
-  "001587": {
+  "001558": {
     "context": "001587",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不管怎么样，这扇门的另一侧，就是熔毁的核反应堆没错了」"
   },
-  "001592": {
+  "001587": {
     "context": "001592",
     "code": "0x45",
     "developer_comment": "",
     "string": "烈焰狂舞，射线交织的，死亡区域。"
   },
-  "001597": {
+  "001592": {
     "context": "001597",
     "code": "0x45",
     "developer_comment": "",
     "string": "门关着都这样，如果把门打开，无法想象会有多强的辐射袭来。"
   },
-  "001603": {
+  "001597": {
     "context": "001603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（确实，进入这里，是自杀行为吧……）"
   },
-  "001608": {
+  "001603": {
     "context": "001608",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见的话语将后怕着的渡濑拉回了现实："
   },
-  "001619": {
+  "001608": {
     "context": "001619",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「队长，总之内环楼的搜索就到此为止。我们去帮忙搜索外环楼吧」"
   },
-  "001630": {
+  "001619": {
     "context": "001630",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……好」"
   },
-  "001635": {
+  "001630": {
     "context": "001635",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人点头表示同意，向外环楼跑去。"
   },
+  "001635": {
+    "context": "001690",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
   "001690": {
     "context": "001690",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "dee4c06e850dfe5bef1e7719a3de1ca9_tr"
   }
 }

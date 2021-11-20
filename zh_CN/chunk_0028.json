@@ -674,249 +674,249 @@
     "string": "＜引擎室 工程师终端 菜单＞"
   },
   "002355": {
-    "context": "002355",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002358": {
     "context": "002358",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "·各种电子手册界面"
   },
-  "002361": {
-    "context": "002361",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002364": {
+  "002358": {
     "context": "002364",
     "code": "0x45",
     "developer_comment": "",
     "string": "·工作管理界面"
   },
-  "002367": {
-    "context": "002367",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002370": {
+  "002361": {
     "context": "002370",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "·编辑界面"
   },
-  "002373": {
+  "002364": {
     "context": "002373",
-    "code": "0x85",
-    "string": "　%N　%N"
-  },
-  "002376": {
-    "context": "002376",
     "code": "0x45",
     "developer_comment": "",
+    "string": "　%N　%N"
+  },
+  "002367": {
+    "context": "002376",
+    "code": "0x85",
     "string": "（请点击触摸面板）"
   },
-  "002402": {
+  "002370": {
     "context": "002402",
     "code": "0x45",
     "developer_comment": "",
     "string": "——看起来像是给引擎室的管理者使用的电子指南。"
   },
-  "002407": {
+  "002373": {
     "context": "002407",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "渡濑首先点击了触摸屏上的“各种电子指南画面”。随即画面一变："
   },
-  "002440": {
+  "002376": {
     "context": "002440",
     "code": "0x45",
     "developer_comment": "",
     "string": "＜各种电子手册界面　菜单＞"
   },
-  "002443": {
-    "context": "002443",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002446": {
+  "002402": {
     "context": "002446",
     "code": "0x45",
     "developer_comment": "",
     "string": " “WX 粒子增幅器 使用手册”"
   },
-  "002449": {
+  "002407": {
     "context": "002449",
     "code": "0x45",
     "developer_comment": "",
     "string": "“过滤系统 维护手册”"
   },
-  "002452": {
+  "002440": {
     "context": "002452",
     "code": "0x45",
     "developer_comment": "",
     "string": "“强制循环泵 维护手册”"
   },
-  "002455": {
+  "002443": {
     "context": "002455",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "“管道 维护与检修手册”"
   },
-  "002458": {
+  "002446": {
     "context": "002458",
     "code": "0x45",
     "developer_comment": "",
     "string": "“配电箱 使用手册”"
   },
-  "002461": {
+  "002449": {
     "context": "002461",
     "code": "0x45",
     "developer_comment": "",
     "string": "“干燥机 使用手册”"
   },
-  "002464": {
+  "002452": {
     "context": "002464",
     "code": "0x45",
     "developer_comment": "",
     "string": "“全自动除尘 维修与使用手册”"
   },
-  "002467": {
+  "002455": {
     "context": "002467",
     "code": "0x45",
     "developer_comment": "",
     "string": "………"
   },
-  "002470": {
+  "002458": {
     "context": "002470",
     "code": "0x45",
     "developer_comment": "",
     "string": "……"
   },
-  "002473": {
+  "002461": {
     "context": "002473",
     "code": "0x45",
     "developer_comment": "",
     "string": "…"
   },
-  "002505": {
+  "002464": {
     "context": "002505",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「只看标题的话，搞不懂里面到底是什么内容……」"
   },
-  "002534": {
+  "002467": {
     "context": "002534",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「这个“WX 粒子增幅器 使用手册”是什么？」"
   },
-  "002539": {
+  "002470": {
     "context": "002539",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见按下按钮，画面又发生了变化。"
   },
-  "002583": {
+  "002473": {
     "context": "002583",
     "code": "0x45",
     "developer_comment": "",
     "string": "一个圆筒状机器的图像映入眼帘，而手册的目录也随之出现。"
   },
-  "002588": {
+  "002505": {
     "context": "002588",
     "code": "0x45",
     "developer_comment": "",
     "string": "但从目录来看，没发现什么值得注意的条目。"
   },
-  "002618": {
+  "002534": {
     "context": "002618",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……好像和灭火系统没什么关系啊」"
   },
-  "002629": {
+  "002539": {
     "context": "002629",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「可恶，没有灭火系统的手册吗？」"
   },
-  "002634": {
+  "002583": {
     "context": "002634",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑正要点击触摸面板，就在这时——"
   },
-  "002717": {
+  "002588": {
     "context": "002717",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「等，等一下……」"
   },
-  "002722": {
+  "002618": {
     "context": "002722",
     "code": "0x45",
     "developer_comment": "",
     "string": "坐在旁边的宇喜多挤出了声音。"
   },
-  "002733": {
+  "002629": {
     "context": "002733",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「宇喜多？你还好吗？」"
   },
-  "002804": {
+  "002634": {
     "context": "002804",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「啊，嗯……还行吧」"
   },
-  "002809": {
+  "002717": {
     "context": "002809",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多站了起来，晃了晃头，说道。"
   },
-  "002838": {
+  "002722": {
     "context": "002838",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……话说回来，我知道灭火系统在哪里。刚进研究所的时候，我在这里参观学习过」"
   },
-  "002867": {
+  "002733": {
     "context": "002867",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「在里面。我带你去」"
   },
-  "002878": {
+  "002804": {
     "context": "002878",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「明白了，帮大忙了」"
   },
-  "002907": {
+  "002809": {
     "context": "002907",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「那么辛苦你了」"
   },
-  "002912": {
+  "002838": {
     "context": "002912",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多点点头，步履蹒跚地走了出去。"
   },
-  "002917": {
+  "002867": {
     "context": "002917",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑踩着相似的步伐跟在后面。"
   },
+  "002878": {
+    "context": "002972",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "002907": {
+    "context": "002907",
+    "code": "0x45",
+    "developer_comment": "風見",
+    "string": "b1a2400764fac8e40d799c1dd1257585_tr"
+  },
+  "002912": {
+    "context": "002912",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "8657652c3b666e6149653e9558ccac15_tr"
+  },
+  "002917": {
+    "context": "002917",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "01be20c998fbe8eb0287bd1c52a3aaa5_tr"
+  },
   "002972": {
     "context": "002972",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "fecdf0d0869e5229b6bbc948f0c4d3a0_tr"
   }
 }

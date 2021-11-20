@@ -898,31 +898,31 @@
     "string": "√A Bad End 10【杀人之人】"
   },
   "002898": {
-    "context": "002898",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002901": {
     "context": "002901",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "惠那的信赖太低，导致她不帮渡濑说话的结果。"
   },
-  "002904": {
-    "context": "002904",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002907": {
+  "002901": {
     "context": "002907",
     "code": "0x45",
     "developer_comment": "",
     "string": "在至今为止的过程中，提高惠那的好感度，"
   },
+  "002904": {
+    "context": "002910",
+    "code": "0x85",
+    "string": "或者在这个结局前一个 Senses 输入中，把风见和洵设置得比渡濑高的话，或许就能避开这个结局了。 "
+  },
+  "002907": {
+    "context": "002907",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "b1a2400764fac8e40d799c1dd1257585_tr"
+  },
   "002910": {
     "context": "002910",
     "code": "0x45",
     "developer_comment": "",
-    "string": "或者在这个结局前一个 Senses 输入中，把风见和洵设置得比渡濑高的话，或许就能避开这个结局了。 "
+    "string": "e0ddf24fd2d307d8e6942e2bf51121cb_tr"
   }
 }

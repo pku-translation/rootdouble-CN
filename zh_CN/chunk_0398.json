@@ -952,15 +952,15 @@
     "string": "√D Bad End 5【被抹杀的忠实家】"
   },
   "003101": {
-    "context": "003101",
+    "context": "003104",
     "code": "0x85",
-    "string": "　"
+    "string": "风见的记忆被消除的结果。"
   },
   "003104": {
-    "context": "003104",
+    "context": "003110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见的记忆被消除的结果。"
+    "string": "在这个结局前一个 Senses 输入中，设定成关心渡濑和风见的身体的话，或许就能避开这个结局了。#review"
   },
   "003107": {
     "context": "003107",
@@ -971,6 +971,6 @@
     "context": "003110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，设定成关心渡濑和风见的身体的话，或许就能避开这个结局了。#review"
+    "string": "bac2e98297c265c8fd1c392ac09e850b_tr"
   }
 }

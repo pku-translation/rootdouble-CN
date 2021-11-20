@@ -587,896 +587,896 @@
     "string": "“信息力场假说入门”"
   },
   "001505": {
-    "context": "001505",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001508": {
     "context": "001508",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜序文＞"
   },
-  "001511": {
+  "001508": {
     "context": "001511",
     "code": "0x45",
     "developer_comment": "",
     "string": "根据现代物理学，一切自然现象均可解释为四种基本相互作用的结果。"
   },
-  "001514": {
+  "001511": {
     "context": "001514",
     "code": "0x45",
     "developer_comment": "",
     "string": "不过实际上，仍有宇宙的加速膨胀等诸多现象，不能归因于这四种基本相互作用。"
   },
-  "001517": {
+  "001514": {
     "context": "001517",
     "code": "0x45",
     "developer_comment": "",
     "string": "近年来的高精度观测表明，宇宙的膨胀速度是随着时间的流逝而加速的。"
   },
-  "001520": {
+  "001517": {
     "context": "001520",
     "code": "0x45",
     "developer_comment": "",
     "string": "为了解释这一现象，学术界提出了一个假说，认为存在着“暗能量”这种未知的能量（其可提供与万有引力相对的斥力）。"
   },
-  "001523": {
+  "001520": {
     "context": "001523",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果暗能量存在的话，它的具体原理是什么？"
   },
-  "001526": {
+  "001523": {
     "context": "001526",
     "code": "0x45",
     "developer_comment": "",
     "string": "关于这一点，目前有很多种说法，但每一种都仅仅是推测而已。"
   },
-  "001530": {
+  "001526": {
     "context": "001530",
-    "code": "0x85",
-    "string": "　%N"
-  },
-  "001533": {
-    "context": "001533",
     "code": "0x45",
     "developer_comment": "",
+    "string": "　%N"
+  },
+  "001530": {
+    "context": "001533",
+    "code": "0x85",
     "string": "本人从粒子物理学研究者的角度出发，针对这一相互作用进行了一些研究，并提出了如下假说："
   },
-  "001536": {
+  "001533": {
     "context": "001536",
     "code": "0x45",
     "developer_comment": "",
     "string": "它就是“信息”。"
   },
-  "001539": {
+  "001536": {
     "context": "001539",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果存在第五种相互作用，那它很有可能就是“信息”。"
   },
-  "001542": {
+  "001539": {
     "context": "001542",
     "code": "0x45",
     "developer_comment": "",
     "string": "本书找到了信息量与能量的等价关系，并给出了换算公式，%N由它推导出的结果"
   },
-  "001545": {
+  "001542": {
     "context": "001545",
     "code": "0x45",
     "developer_comment": "",
     "string": "与宇宙膨胀速度的数值漂亮地吻合。"
   },
-  "001548": {
+  "001545": {
     "context": "001548",
     "code": "0x45",
     "developer_comment": "",
     "string": "也就是说——"
   },
-  "001577": {
+  "001548": {
     "context": "001577",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……？？？）"
   },
-  "001582": {
+  "001577": {
     "context": "001582",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑完全没看懂写的是什么。"
   },
-  "001588": {
+  "001582": {
     "context": "001588",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（第五种相互作用？信息？暗能量？这都是什么……）"
   },
-  "001593": {
+  "001588": {
     "context": "001593",
     "code": "0x45",
     "developer_comment": "",
     "string": "为何这本书让自己感到如此强烈的不安呢？渡濑自己也不是很明白。"
   },
-  "001599": {
+  "001593": {
     "context": "001599",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（多心了吗……？）"
   },
-  "001604": {
+  "001599": {
     "context": "001604",
     "code": "0x45",
     "developer_comment": "",
     "string": "一边想着这些事，一边哗啦啦地往后翻着。"
   },
-  "001642": {
+  "001604": {
     "context": "001642",
     "code": "0x45",
     "developer_comment": "",
     "string": "——基于这一理论，可以推导出这样一条结论："
   },
-  "001645": {
-    "context": "001645",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001648": {
+  "001642": {
     "context": "001648",
     "code": "0x45",
     "developer_comment": "",
     "string": "· 信息本身可以独立存在，%N无需借助其他几种相互作用来传递。"
   },
-  "001651": {
+  "001645": {
     "context": "001651",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "· 例如，人类的思考也是一种“信息”，%N无需转化为其他媒介（电信号等），即可直接与他人沟通。"
   },
-  "001654": {
-    "context": "001654",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001657": {
+  "001648": {
     "context": "001657",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽然用了上面这些极端的现象来阐述，但这就是“信息力场假说”的框架。"
   },
-  "001660": {
+  "001651": {
     "context": "001660",
     "code": "0x45",
     "developer_comment": "",
     "string": "信息力场，指的是（作为第五种相互作用与能量的）“信息”的作用场。"
   },
-  "001663": {
+  "001654": {
     "context": "001663",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "以人脑为例，思考产生的“信息力场”，或许就是“意识”。 "
   },
-  "001673": {
+  "001657": {
     "context": "001673",
     "code": "0x45",
     "developer_comment": "",
     "string": "关于“意识”的产生过程，目前尚未有明确的解释。"
   },
-  "001676": {
+  "001660": {
     "context": "001676",
     "code": "0x45",
     "developer_comment": "",
     "string": "我们仅仅知道，“无数的记忆”亦即“信息的碎片”，%N经由“突触上传递的电信号”发生了相互作用，"
   },
-  "001679": {
+  "001663": {
     "context": "001679",
     "code": "0x45",
     "developer_comment": "",
     "string": "进而在脑内产生了意识。"
   },
-  "001682": {
+  "001673": {
     "context": "001682",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而，基于前文所提出的假说，这里还可以得到另一条推论："
   },
-  "001685": {
+  "001676": {
     "context": "001685",
     "code": "0x45",
     "developer_comment": "",
     "string": "既然信息可以独立存在，那么意识就不一定只会在脑内产生。"
   },
-  "001688": {
+  "001679": {
     "context": "001688",
     "code": "0x45",
     "developer_comment": "",
     "string": "一定量的信息积聚起来，产生相互作用，就可能产生意识。"
   },
-  "001691": {
+  "001682": {
     "context": "001691",
     "code": "0x45",
     "developer_comment": "",
     "string": "更进一步地说，如果可以控制信息——"
   },
-  "001694": {
+  "001685": {
     "context": "001694",
     "code": "0x45",
     "developer_comment": "",
     "string": "人工地“制造意识”，也是有可能的。"
   },
-  "001721": {
+  "001688": {
     "context": "001721",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……这说的都是些什么啊）"
   },
-  "001727": {
+  "001691": {
     "context": "001727",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这位名为“天川美夜子”的，到底在研究些什么啊……？）"
   },
-  "001732": {
+  "001694": {
     "context": "001732",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽然顶着“粒子物理学研究者”的头衔，但这些东西读起来，感觉更像是在讲生物学。"
   },
-  "001738": {
+  "001721": {
     "context": "001738",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（话说回来，“制造意识”……）"
   },
-  "001744": {
+  "001727": {
     "context": "001744",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这种事情，有什么意义吗……？）"
   },
-  "001750": {
+  "001732": {
     "context": "001750",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（研究如何制造意识，跟核科学，又有什么关系呢……？）"
   },
-  "001755": {
+  "001738": {
     "context": "001755",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽然读不懂，但已经隐隐觉得有点恐怖了。"
   },
-  "001760": {
+  "001744": {
     "context": "001760",
     "code": "0x45",
     "developer_comment": "",
     "string": "当他看到下一页的时候——"
   },
-  "001765": {
+  "001750": {
     "context": "001765",
     "code": "0x45",
     "developer_comment": "",
     "string": "他一下子，屏住了呼吸。"
   },
-  "001803": {
+  "001755": {
     "context": "001803",
     "code": "0x45",
     "developer_comment": "",
     "string": "……至此“信息力场假说”介绍完毕。这一假说本身，以及它的诸多推论，目前都还无法证实。"
   },
-  "001806": {
+  "001760": {
     "context": "001806",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而这一假说，以完全出乎本人意料的形式，重新得到了重视。"
   },
-  "001809": {
+  "001765": {
     "context": "001809",
     "code": "0x45",
     "developer_comment": "",
     "string": "其原因在于，近几年突然发生的社会巨变，"
   },
-  "001812": {
+  "001803": {
     "context": "001812",
     "code": "0x45",
     "developer_comment": "",
     "string": "亦即，“BC”的显现。"
   },
-  "001844": {
+  "001806": {
     "context": "001844",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「BC……？！」"
   },
-  "001849": {
+  "001809": {
     "context": "001849",
     "code": "0x45",
     "developer_comment": "",
     "string": "说起来，惠那之前也提到过这件事。"
   },
-  "001854": {
+  "001812": {
     "context": "001854",
     "code": "0x45",
     "developer_comment": "",
     "string": "说过什么“能用传心的人最近可不罕见”"
   },
-  "001859": {
+  "001844": {
     "context": "001859",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑继续读了下去："
   },
-  "001897": {
+  "001849": {
     "context": "001897",
     "code": "0x45",
     "developer_comment": "",
     "string": "这几年来，“BC”这一能力在社会上得到了广泛的认知。"
   },
-  "001900": {
+  "001854": {
     "context": "001900",
     "code": "0x45",
     "developer_comment": "",
     "string": "因此，对“信息”的存在方式及其传递方法的思考，%N也可以说发生了巨大的变化。"
   },
-  "001903": {
+  "001859": {
     "context": "001903",
     "code": "0x45",
     "developer_comment": "",
     "string": "而我们，也找到了不计其数的人，拥有这种在过去难以想象的能力。"
   },
-  "001906": {
+  "001897": {
     "context": "001906",
     "code": "0x45",
     "developer_comment": "",
     "string": "可称作“BC”的能力，大致分为以下两种："
   },
-  "001909": {
-    "context": "001909",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001912": {
+  "001900": {
     "context": "001912",
     "code": "0x45",
     "developer_comment": "",
     "string": "其中一种，是直接向其他人心中传达声音的“传心”。"
   },
-  "001915": {
+  "001903": {
     "context": "001915",
     "code": "0x45",
     "developer_comment": "",
     "string": "而另一种，是能够听到他人心声的“读心”。"
   },
-  "001918": {
-    "context": "001918",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001921": {
+  "001906": {
     "context": "001921",
     "code": "0x45",
     "developer_comment": "",
     "string": "这是针对以上两类能力的，%N极为简化的描述。"
   },
-  "001931": {
+  "001909": {
     "context": "001931",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "使用 BC 的时候，使用者并未将“思考信息”转化为其他媒介。"
   },
-  "001934": {
+  "001912": {
     "context": "001934",
     "code": "0x45",
     "developer_comment": "",
     "string": "而是以基本粒子的形式，直接发送至对方的大脑中，进行交互。"
   },
-  "001937": {
+  "001915": {
     "context": "001937",
     "code": "0x45",
     "developer_comment": "",
     "string": "这与我在“信息力场假说”之中，所提出的推论一致。"
   },
-  "001940": {
+  "001918": {
     "context": "001940",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "BC （超心理学），以及粒子物理学，这两个完全无关的学科，就这样联系起来了。"
   },
-  "001950": {
+  "001921": {
     "context": "001950",
     "code": "0x45",
     "developer_comment": "",
     "string": "此外，传心的使用者本就不多，而读心的使用者则更为罕见。"
   },
-  "001953": {
+  "001931": {
     "context": "001953",
     "code": "0x45",
     "developer_comment": "",
     "string": "不过事情的重要性并不取决于实例的多寡。"
   },
-  "001956": {
+  "001934": {
     "context": "001956",
     "code": "0x45",
     "developer_comment": "",
     "string": "读心的能力，是实际存在的。"
   },
-  "001959": {
+  "001937": {
     "context": "001959",
     "code": "0x45",
     "developer_comment": "",
     "string": "有那么一批人能够观测他人的“心之声”。也就是说，“心之声”不再是只有本人才能感知的“信息”。"
   },
-  "001962": {
+  "001940": {
     "context": "001962",
     "code": "0x45",
     "developer_comment": "",
     "string": "这就是 21 世纪发生的最初的，也是最大的范式转移。"
   },
-  "001989": {
+  "001950": {
     "context": "001989",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这……这是？！）"
   },
-  "001994": {
+  "001953": {
     "context": "001994",
     "code": "0x45",
     "developer_comment": "",
     "string": "里面写着的，尽是些难以置信的内容。"
   },
-  "001999": {
+  "001956": {
     "context": "001999",
     "code": "0x45",
     "developer_comment": "",
     "string": "“直接向其他人的脑中传达声音的能力”，这个之前倒是有所耳闻。"
   },
-  "002004": {
+  "001959": {
     "context": "002004",
     "code": "0x45",
     "developer_comment": "",
     "string": "问题是另一种能力。"
   },
-  "002017": {
+  "001962": {
     "context": "002017",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「“读取人心的能力”……？！」"
   },
-  "002022": {
+  "001989": {
     "context": "002022",
     "code": "0x45",
     "developer_comment": "",
     "string": "说起来，那时惠那确实说过："
   },
-  "002134": {
+  "001994": {
     "context": "002134",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「是一种跟远处的人相互传达想法的能力，除此之外别无他用」"
   },
-  "002194": {
+  "001999": {
     "context": "002194",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这么回事吗……“相互传达想法”，不就是不仅可以传出去，也可以读进来吗！）"
   },
-  "002200": {
+  "002004": {
     "context": "002200",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（那么，这本书里写的东西就不是编造出来的——！）"
   },
-  "002230": {
+  "002017": {
     "context": "002230",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「老，老师……这里写的是真的吗？」"
   },
-  "002259": {
+  "002022": {
     "context": "002259",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「诶？」"
   },
-  "002264": {
+  "002134": {
     "context": "002264",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那也凑了过来，看向那本书。"
   },
-  "002275": {
+  "002194": {
     "context": "002275",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这个，读心的能力……真的存在吗？」"
   },
-  "002304": {
+  "002200": {
     "context": "002304",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「嗯，是啊。我之前没说吗」"
   },
-  "002315": {
+  "002230": {
     "context": "002315",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「“所谓 BC，是一种能跟远处的人相互传达想法的能力，除此之外没有作用”，这么说的吧」"
   },
-  "002344": {
+  "002259": {
     "context": "002344",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「不只是单方向地把自己的心声传递过去。读取过来也是可以的」"
   },
-  "002355": {
+  "002264": {
     "context": "002355",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……！」"
   },
-  "002440": {
+  "002275": {
     "context": "002440",
     "code": "0x45",
     "developer_comment": "",
     "string": "扫了一眼书架，不少书的标题里都有“BC”一词。"
   },
-  "002445": {
+  "002304": {
     "context": "002445",
     "code": "0x45",
     "developer_comment": "",
     "string": "这么看来，这确实是颇具普遍性的东西。"
   },
-  "002450": {
+  "002315": {
     "context": "002450",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽说出现率极低，但世上确实存在着“能够读取人心的人”。"
   },
-  "002455": {
+  "002344": {
     "context": "002455",
     "code": "0x45",
     "developer_comment": "",
     "string": "这时——他终于明白了不安的真相。"
   },
-  "002461": {
+  "002355": {
     "context": "002461",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这么回事吗，我……）"
   },
-  "002467": {
+  "002440": {
     "context": "002467",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（我在害怕，这个读心的能力吗……？！）"
   },
-  "002472": {
+  "002445": {
     "context": "002472",
     "code": "0x45",
     "developer_comment": "",
     "string": "更详细的原因还不清楚。"
   },
-  "002477": {
+  "002450": {
     "context": "002477",
     "code": "0x45",
     "developer_comment": "",
     "string": "记忆丧失前，也许遇到过非常可怕的事情。"
   },
-  "002482": {
+  "002455": {
     "context": "002482",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是，就算不是那样——大概也没几个人，会觉得被其他人看到内心也无关紧要。"
   },
-  "002488": {
+  "002461": {
     "context": "002488",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（说来，现在也有可能……）"
   },
-  "002494": {
+  "002467": {
     "context": "002494",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（自己“害怕被读心”的念头，可能也正被谁读取着——？！）"
   },
-  "002499": {
+  "002472": {
     "context": "002499",
     "code": "0x45",
     "developer_comment": "",
     "string": "——脑海里闪过了跳跃性的思考，渡濑不禁打了个冷战。"
   },
-  "002611": {
+  "002477": {
     "context": "002611",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「还有不知道为什么，能用 BC 的大部分是小孩，能用这个的大人相对来说少得多」"
   },
-  "002672": {
+  "002482": {
     "context": "002672",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果洵所说的属实，渡濑等五个“大人”之中，应该是没有 Communicator 的。"
   },
-  "002678": {
+  "002488": {
     "context": "002678",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（但是，“孩子们”那边呢……？）"
   },
-  "002683": {
+  "002494": {
     "context": "002683",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦呢？真白呢？纱瑠呢？"
   },
-  "002688": {
+  "002499": {
     "context": "002688",
     "code": "0x45",
     "developer_comment": "",
     "string": "还有——悠里呢？"
   },
-  "002696": {
+  "002611": {
     "context": "002696",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……老师说过，“夏彦他们能使用传心”）"
   },
-  "002702": {
+  "002672": {
     "context": "002702",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（那么当然有可能，他们也同样能使用读心吧……？）"
   },
-  "002728": {
+  "002678": {
     "context": "002728",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑难以抑制这个疑问。"
   },
-  "002739": {
+  "002683": {
     "context": "002739",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……老师，我还有一个问题」"
   },
-  "002750": {
+  "002688": {
     "context": "002750",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「那几个孩子，有读心能力吗？」"
   },
-  "002779": {
+  "002696": {
     "context": "002779",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「诶……？没有的」"
   },
-  "002808": {
+  "002702": {
     "context": "002808",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「鸟羽可以很自由地使用传心，不过另外两人对 BC 相当不擅长……」"
   },
-  "002814": {
+  "002728": {
     "context": "002814",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（真的吗……？）"
   },
-  "002825": {
+  "002739": {
     "context": "002825",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「我说，怎么了？」"
   },
-  "002830": {
+  "002750": {
     "context": "002830",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那觉得有些奇怪。但渡濑只是默不作声地继续思考着。"
   },
-  "002873": {
+  "002779": {
     "context": "002873",
     "code": "0x45",
     "developer_comment": "",
     "string": "回想起来，有好几件事都有些可疑："
   },
-  "002903": {
+  "002808": {
     "context": "002903",
     "code": "0x45",
     "developer_comment": "",
     "string": "为何悠里，要躲着渡濑他们几个？"
   },
-  "002941": {
+  "002814": {
     "context": "002941",
     "code": "0x45",
     "developer_comment": "",
     "string": "为何纱瑠，一见到渡濑他们几个就立刻逃掉了？"
   },
-  "003027": {
+  "002825": {
     "context": "003027",
     "code": "0x45",
     "developer_comment": "",
     "string": "他们三位被困人员，为何现在都还没能找到？"
   },
-  "003245": {
+  "002830": {
     "context": "003245",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（如果这些孩子，有读取人心的能力……）"
   },
-  "003251": {
+  "002873": {
     "context": "003251",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（他们之所以会躲着我们……说不定就是因为我们几个里，有人对他们抱有恶意……！）# referenced by chunk 255"
   },
-  "003256": {
+  "002903": {
     "context": "003256",
     "code": "0x45",
     "developer_comment": "",
     "string": "简直难以置信——但这样一切都能解释通了。"
   },
-  "003261": {
+  "002941": {
     "context": "003261",
     "code": "0x45",
     "developer_comment": "",
     "string": "——那么，抱有恶意的是谁？"
   },
-  "003266": {
+  "003027": {
     "context": "003266",
     "code": "0x45",
     "developer_comment": "",
     "string": "首先，可以确定渡濑不是。这一点他自己很清楚。"
   },
-  "003272": {
+  "003245": {
     "context": "003272",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（那也就是说，是在另外四个人里……？）"
   },
-  "003277": {
+  "003251": {
     "context": "003277",
     "code": "0x45",
     "developer_comment": "",
     "string": "一旦产生这样的想法，便不禁觉得每个人都可疑了起来。"
   },
-  "003282": {
+  "003256": {
     "context": "003282",
     "code": "0x45",
     "developer_comment": "",
     "string": "心里的不安迅速膨胀着，心跳也越来越快。"
   },
-  "003287": {
+  "003261": {
     "context": "003287",
     "code": "0x45",
     "developer_comment": "",
     "string": "怀疑招致着新的怀疑——甚至很快又掉转了枪口："
   },
-  "003293": {
+  "003266": {
     "context": "003293",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（不对……或许，正相反？）"
   },
-  "003299": {
+  "003272": {
     "context": "003299",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（如果抱有恶意的，反而是他们几个孩子呢？）"
   },
-  "003304": {
+  "003277": {
     "context": "003304",
     "code": "0x45",
     "developer_comment": "",
     "string": "能够读取人心的几个孩子，出于某种动机，要把渡濑他们逼至绝境。"
   },
-  "003309": {
+  "003282": {
     "context": "003309",
     "code": "0x45",
     "developer_comment": "",
     "string": "这或许是荒诞不经的臆想，但——"
   },
-  "003315": {
+  "003287": {
     "context": "003315",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（如果真是这样的话……他们几个，我们对付得来吗……？）"
   },
-  "003320": {
+  "003293": {
     "context": "003320",
     "code": "0x45",
     "developer_comment": "",
     "string": "刚一想到这里，"
   },
-  "003421": {
+  "003299": {
     "context": "003421",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「！」"
   },
-  "003426": {
+  "003304": {
     "context": "003426",
     "code": "0x45",
     "developer_comment": "",
     "string": "突如其来的头痛，让渡濑叫了出来。"
   },
-  "003437": {
+  "003309": {
     "context": "003437",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「啊……呜……！」"
   },
-  "003442": {
+  "003315": {
     "context": "003442",
     "code": "0x45",
     "developer_comment": "",
     "string": "头晕得厉害，意识也越飘越远。"
   },
-  "003453": {
+  "003320": {
     "context": "003453",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（糟……糟了……！）"
   },
-  "003510": {
+  "003421": {
     "context": "003510",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑跌跌撞撞地，跑出了资料室。"
   },
-  "003516": {
+  "003426": {
     "context": "003516",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那吓了一跳，连忙问道："
   },
-  "003552": {
+  "003437": {
     "context": "003552",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「怎么了，队长？！」"
   },
-  "003563": {
+  "003442": {
     "context": "003563",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「不，没……就是突然觉得难受……！」"
   },
-  "003592": {
+  "003453": {
     "context": "003592",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「诶？！没事吧？！」"
   },
-  "003603": {
+  "003510": {
     "context": "003603",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「抱，抱歉……我去趟厕所……！」"
   },
-  "003614": {
+  "003516": {
     "context": "003614",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「老师你就先待在这里……！」"
   },
-  "003643": {
+  "003552": {
     "context": "003643",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「等，等一下，队长？！」"
   },
-  "003698": {
+  "003563": {
     "context": "003698",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那关切地问道，但渡濑已然冲出了资料室。"
   },
+  "003592": {
+    "context": "003711",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "003603": {
+    "context": "003603",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "749b5a71d27f696022cdadcc1cc7d85a_tr"
+  },
+  "003614": {
+    "context": "003614",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "71111effa469d89323b08c5fdac8c9ae_tr"
+  },
+  "003643": {
+    "context": "003643",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "5e07719d5a0237cbfd09a95f67e71ab2_tr"
+  },
+  "003698": {
+    "context": "003698",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "627288c69d39f3cb4a93c336c1a61f52_tr"
+  },
   "003711": {
     "context": "003711",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "07abe8b7779afffe31de4a34f75362b0_tr"
   }
 }

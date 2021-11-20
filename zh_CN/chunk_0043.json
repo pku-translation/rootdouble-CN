@@ -374,461 +374,461 @@
     "string": "《防灾手册（2030 年版 / 第 5、第 6 区域员工专用）》"
   },
   "001761": {
-    "context": "001761",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001764": {
     "context": "001764",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜发生事故时的逃生通道＞"
   },
-  "001767": {
-    "context": "001767",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001770": {
+  "001764": {
     "context": "001770",
     "code": "0x45",
     "developer_comment": "",
     "string": "发生火灾、地震等事故的时候，电梯会自动上升到地面以上并停止不动。"
   },
-  "001773": {
+  "001767": {
     "context": "001773",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "假如电梯正常运行，在遭遇无法预料的冲击时，存在乘客被困的风险。"
   },
-  "001776": {
+  "001770": {
     "context": "001776",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果需要逃生，请使用楼内的安全梯。"
   },
-  "001779": {
+  "001773": {
     "context": "001779",
     "code": "0x45",
     "developer_comment": "",
     "string": "不过，出于安全、建筑结构等因素的考量，第 6 区域的外环楼内并未配置安全梯。"
   },
-  "001782": {
+  "001776": {
     "context": "001782",
     "code": "0x45",
     "developer_comment": "",
     "string": "因此，第 6 区域外环楼内的人员应当通过内环楼逃生。如果该路线出现困难，请使用“货梯”逃生。"
   },
-  "001786": {
+  "001779": {
     "context": "001786",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "　%N"
   },
-  "001789": {
+  "001782": {
     "context": "001789",
     "code": "0x45",
     "developer_comment": "",
     "string": "＜逃生时货梯的使用＞"
   },
-  "001792": {
-    "context": "001792",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001795": {
+  "001786": {
     "context": "001795",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "与其他电梯不同，货梯的结构非常坚固。"
   },
-  "001798": {
+  "001789": {
     "context": "001798",
     "code": "0x45",
     "developer_comment": "",
     "string": "据推算，货梯可以承受 9 级地震，%N停止运行的风险很低。"
   },
-  "001801": {
+  "001792": {
     "context": "001801",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "因此，在发生事故时，可以临时%N充当逃生电梯使用。"
   },
-  "001804": {
+  "001795": {
     "context": "001804",
     "code": "0x45",
     "developer_comment": "",
     "string": "请通过货梯，迅速地向地面逃生。"
   },
-  "001807": {
+  "001798": {
     "context": "001807",
     "code": "0x45",
     "developer_comment": "",
     "string": "事态 N 发生时也一样。"
   },
-  "001810": {
+  "001801": {
     "context": "001810",
     "code": "0x45",
     "developer_comment": "",
     "string": "隔离墙闭锁时，大部分逃生途径也将一并封闭，但货梯仍可正常运作，可以借此前往地面以上的安全区域。"
   },
-  "001842": {
+  "001804": {
     "context": "001842",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「“货梯”……！？」"
   },
-  "001847": {
+  "001807": {
     "context": "001847",
     "code": "0x45",
     "developer_comment": "",
     "string": "册子里的文字让两人微微颤抖。"
   },
-  "001876": {
+  "001810": {
     "context": "001876",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「“可以借此前往地面以上的安全区域”，难道是说……！」"
   },
-  "001887": {
+  "001842": {
     "context": "001887",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「即使在这种情况下——也可以逃到地面以上去！？」"
   },
-  "001892": {
+  "001847": {
     "context": "001892",
     "code": "0x45",
     "developer_comment": "",
     "string": "两人相互看着对方，脸上一下子绽开了笑容："
   },
-  "001897": {
+  "001876": {
     "context": "001897",
     "code": "0x45",
     "developer_comment": "",
     "string": "在完全封闭的地下空间里，存在着一个唯一的逃生口——找到了这样一条线索！"
   },
-  "001926": {
+  "001887": {
     "context": "001926",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「太好了！这是非常重要的信息啊！」"
   },
-  "001937": {
+  "001892": {
     "context": "001937",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「终于找到了啊，老师，多亏了你！」"
   },
-  "001966": {
+  "001897": {
     "context": "001966",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「我说，队长，我也是能派上用场的对吧？」"
   },
-  "001977": {
+  "001926": {
     "context": "001977",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「是啊！那这个货梯到底在哪里呢？」"
   },
-  "002006": {
+  "001937": {
     "context": "002006",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「我之前也没有注意到……应该就在那个烧毁了的 Factory 里吧？」"
   },
-  "002017": {
+  "001966": {
     "context": "002017",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「好——的！那我们在过去之前，先搜索被困人员吧！」"
   },
-  "002046": {
+  "001977": {
     "context": "002046",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「说得对！即使找到了逃生口，如果没法确保被困人员的安全，就没有意义了！」"
   },
-  "002051": {
+  "002006": {
     "context": "002051",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑把手册塞进口袋里，从房间中飞奔而出。"
   },
-  "002094": {
+  "002017": {
     "context": "002094",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是——他们找遍了所有房间，也依然没有发现被困人员与 AD。"
   },
-  "002160": {
+  "002046": {
     "context": "002160",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「连接通道也找一找吧。不能遗漏任何一个角落」"
   },
-  "002203": {
+  "002051": {
     "context": "002203",
     "code": "0x45",
     "developer_comment": "",
     "string": "两人进入了通往 Factory 的连接通道。"
   },
-  "002248": {
+  "002094": {
     "context": "002248",
     "code": "0x45",
     "developer_comment": "",
     "string": "但通道深处崩塌了，过不去。"
   },
-  "002253": {
+  "002160": {
     "context": "002253",
     "code": "0x45",
     "developer_comment": "",
     "string": "再前面只有 Factory 了。他们已经搜遍了内环楼。"
   },
-  "002312": {
+  "002203": {
     "context": "002312",
     "code": "0x45",
     "developer_comment": "",
     "string": "在往回走的路上，惠那微倾着头："
   },
-  "002323": {
+  "002248": {
     "context": "002323",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「奇怪了……哪里都没看到天川他们」"
   },
-  "002334": {
+  "002253": {
     "context": "002334",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「确实很奇怪。但是，他们也有可能在 Factory 里」"
   },
-  "002363": {
+  "002312": {
     "context": "002363",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「那我们也回去，帮他们一起搜索吧」"
   },
-  "002374": {
+  "002323": {
     "context": "002374",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「说的对。不过也有可能，他们——」"
   },
-  "002379": {
+  "002334": {
     "context": "002379",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑正说着一半，"
   },
-  "002406": {
+  "002363": {
     "context": "002406",
     "code": "0x45",
     "developer_comment": "",
     "string": "脚下突然出现了几声异响。"
   },
-  "002412": {
+  "002374": {
     "context": "002412",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（怎么回事！？）"
   },
-  "002452": {
+  "002379": {
     "context": "002452",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑惊讶地低头看去，惠那脚下的地板正在微微颤动。"
   },
-  "002458": {
+  "002406": {
     "context": "002458",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（地板要……！）"
   },
-  "002483": {
+  "002412": {
     "context": "002483",
     "code": "0x45",
     "developer_comment": "",
     "string": "就在这一刻——渡濑感觉时间变慢了。"
   },
-  "002508": {
+  "002452": {
     "context": "002508",
     "code": "0x45",
     "developer_comment": "",
     "string": "一切事物都成了慢动作。"
   },
-  "002541": {
+  "002458": {
     "context": "002541",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「诶？」"
   },
-  "002546": {
+  "002483": {
     "context": "002546",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那还没有理解到底发生了什么。"
   },
-  "002551": {
+  "002508": {
     "context": "002551",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑朝惠那跑去的时候，"
   },
-  "002556": {
+  "002541": {
     "context": "002556",
     "code": "0x45",
     "developer_comment": "",
     "string": "她脚下的地板崩塌了。"
   },
-  "002680": {
+  "002546": {
     "context": "002680",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「啊啊啊！」"
   },
-  "002703": {
+  "002551": {
     "context": "002703",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「老师！」"
   },
-  "002708": {
+  "002556": {
     "context": "002708",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑迅速伸出手去，一把抓住了惠那的手臂。"
   },
-  "002720": {
+  "002680": {
     "context": "002720",
     "code": "0x45",
     "developer_comment": "",
     "string": "紧接着，他断裂的肋骨处一阵剧痛。"
   },
-  "002726": {
+  "002703": {
     "context": "002726",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（咳！！）"
   },
-  "002731": {
+  "002708": {
     "context": "002731",
     "code": "0x45",
     "developer_comment": "",
     "string": "他忍着剧痛，紧紧地握着惠那的手臂。"
   },
-  "002736": {
+  "002720": {
     "context": "002736",
     "code": "0x45",
     "developer_comment": "",
     "string": "崩塌的地板卷起了大量的烟尘，不久烟尘散去——"
   },
-  "002810": {
+  "002726": {
     "context": "002810",
     "code": "0x45",
     "developer_comment": "",
     "string": "惠那的脸出现在另一头。"
   },
-  "002821": {
+  "002731": {
     "context": "002821",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「呼……」"
   },
-  "002832": {
+  "002736": {
     "context": "002832",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「真是危险啊，老师？」"
   },
-  "002837": {
+  "002810": {
     "context": "002837",
     "code": "0x45",
     "developer_comment": "",
     "string": "而惠那只是呆呆地念叨着："
   },
-  "002848": {
+  "002821": {
     "context": "002848",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「我说……你的反应真快啊……！」"
   },
-  "002859": {
+  "002832": {
     "context": "002859",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「从感觉到震动到地板崩塌，也就大概 1 秒钟吧？」"
   },
-  "002870": {
+  "002837": {
     "context": "002870",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「没有……总觉得不太对劲」"
   },
-  "002881": {
+  "002848": {
     "context": "002881",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「这，这也是救援队的直觉吗？」"
   },
-  "002892": {
+  "002859": {
     "context": "002892",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「嗯，大概……」"
   },
-  "002903": {
+  "002870": {
     "context": "002903",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我说，感叹的话可以留到后面。我要拉你上来了，另一只手也给我」"
   },
-  "002914": {
+  "002881": {
     "context": "002914",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「好」"
   },
-  "002919": {
+  "002892": {
     "context": "002919",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑抓着惠那的双手，一鼓作气地把她拉了上来。"
   },
-  "002984": {
+  "002903": {
     "context": "002984",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……呼。谢谢队长救我」"
   },
-  "002995": {
+  "002914": {
     "context": "002995",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「没受伤比什么都好」"
   },
-  "003006": {
+  "002919": {
     "context": "003006",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「不过，话说回来地板也崩塌了……第 6 区域里，火灾造成了非常严重的损害啊」"
   },
-  "003035": {
+  "002984": {
     "context": "003035",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「是啊……希望其他人没事」"
   },
-  "003046": {
+  "002995": {
     "context": "003046",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「早点回去吧，确认一下大家的安全」"
   },
-  "003051": {
+  "003006": {
     "context": "003051",
     "code": "0x45",
     "developer_comment": "",
     "string": "说完，他们再度动身，向 Factory 走去。"
+  },
+  "003035": {
+    "context": "003035",
+    "code": "0x45",
+    "developer_comment": "恵那",
+    "string": "53985f9189e730fc559c84b90c5a067a_tr"
+  },
+  "003046": {
+    "context": "003046",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "bd9d8784d0f66c6846c40afa0434a582_tr"
+  },
+  "003051": {
+    "context": "003051",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "370994a640d8187dcbbf459932d32278_tr"
   }
 }

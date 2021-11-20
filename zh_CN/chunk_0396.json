@@ -952,15 +952,15 @@
     "string": "√D Bad End 4【恶意根植的挑战者】"
   },
   "003735": {
-    "context": "003735",
+    "context": "003738",
     "code": "0x85",
-    "string": "　"
+    "string": "洵的恶意排除不完全时的结果。"
   },
   "003738": {
-    "context": "003738",
+    "context": "003744",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵的恶意排除不完全时的结果。"
+    "string": "RAM 系统中，对洵的记忆进行充分的修复的话，或许就能避开这个结局了。 # review：RAM SYSTEM x"
   },
   "003741": {
     "context": "003741",
@@ -971,6 +971,6 @@
     "context": "003744",
     "code": "0x45",
     "developer_comment": "",
-    "string": "RAM 系统中，对洵的记忆进行充分的修复的话，或许就能避开这个结局了。 # review：RAM SYSTEM x"
+    "string": "48dfb83cc5a3e46eead347ce17d017f6_tr"
   }
 }

@@ -293,1202 +293,1207 @@
     "string": "@auto-import 0028 002446"
   },
   "000962": {
-    "context": "000962",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000965": {
     "context": "000965",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜前言＞"
   },
-  "000968": {
-    "context": "000968",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000971": {
+  "000965": {
     "context": "000971",
     "code": "0x45",
     "developer_comment": "",
     "string": "本手册为 WX 粒子增幅器的使用手册。"
   },
-  "000974": {
+  "000968": {
     "context": "000974",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "鉴于使用中伴随着极其巨大的危险，请务必首先熟读本手册，%N然后再进行作业。"
   },
-  "000977": {
-    "context": "000977",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000980": {
+  "000971": {
     "context": "000980",
     "code": "0x45",
     "developer_comment": "",
     "string": "此外，WX 粒子在性质上，对人体有很大的负面影响。"
   },
-  "000983": {
+  "000974": {
     "context": "000983",
     "code": "0x45",
     "developer_comment": "",
     "string": "例如感觉异常、脑功能受损、基因受损等。"
   },
-  "000986": {
+  "000977": {
     "context": "000986",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "而粒子的能量，与症状有如下关系："
   },
-  "000990": {
+  "000980": {
     "context": "000990",
     "code": "0x45",
     "developer_comment": "",
     "string": "＜未注射 AD＞"
   },
-  "000993": {
-    "context": "000993",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000996": {
+  "000983": {
     "context": "000996",
     "code": "0x45",
     "developer_comment": "",
     "string": "　　　0 mSv～ 2000 mSv ：对身体没有影响"
   },
-  "000999": {
-    "context": "000999",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001002": {
+  "000986": {
     "context": "001002",
     "code": "0x45",
     "developer_comment": "",
     "string": "2000 mSv～ 4000 mSv ：感觉异常、呕吐感、头痛、基因受损"
   },
-  "001005": {
-    "context": "001005",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001008": {
+  "000990": {
     "context": "001008",
     "code": "0x45",
     "developer_comment": "",
     "string": "4000 mSv～ 8000 mSv ：脑功能受损，意识等级降低"
   },
-  "001011": {
-    "context": "001011",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001014": {
+  "000993": {
     "context": "001014",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "8000 mSv～ ：失去意识"
   },
-  "001017": {
-    "context": "001017",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001020": {
+  "000996": {
     "context": "001020",
     "code": "0x45",
     "developer_comment": "",
     "string": "（如上所述，随着能量的上升，症状的强度与发生概率也会成比例上升）"
   },
-  "001024": {
+  "000999": {
     "context": "001024",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜注射 AD 后＞"
   },
-  "001027": {
-    "context": "001027",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001030": {
+  "001002": {
     "context": "001030",
     "code": "0x45",
     "developer_comment": "",
     "string": "　　　0 mSv～ 6000 mSv ：对身体没有影响"
   },
-  "001033": {
-    "context": "001033",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001036": {
+  "001005": {
     "context": "001036",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "6000 mSv～ 8000 mSv ：感觉异常、呕吐感、头痛、基因受损"
   },
-  "001039": {
-    "context": "001039",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001042": {
+  "001008": {
     "context": "001042",
     "code": "0x45",
     "developer_comment": "",
     "string": "8000 mSv～ 12000 mSv ：脑功能受损，意识等级降低"
   },
-  "001045": {
-    "context": "001045",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001048": {
+  "001011": {
     "context": "001048",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "12000 mSv～ ：失去意识"
   },
-  "001051": {
-    "context": "001051",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001054": {
+  "001014": {
     "context": "001054",
     "code": "0x45",
     "developer_comment": "",
     "string": "（※注射 AD 后，相比于未注射时，有大约 4000 mSv 的额外防护）"
   },
-  "001058": {
+  "001017": {
     "context": "001058",
     "code": "0x85",
     "string": "　%N　%N　%N　%N"
   },
-  "001061": {
+  "001020": {
     "context": "001061",
     "code": "0x45",
     "developer_comment": "",
     "string": "常规使用时，不应使粒子的能量超过 2000 mSv。"
   },
-  "001064": {
-    "context": "001064",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001067": {
+  "001024": {
     "context": "001067",
     "code": "0x45",
     "developer_comment": "",
     "string": "而在进行各种高等实验的时候，不应使粒子的能量超过 4000 mSv。"
   },
-  "001099": {
+  "001027": {
     "context": "001099",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「橘，这两段话我没看懂，你呢？」"
+    "code": "0x85",
+    "string": "「橘，这两段话我没看懂，你呢？」",
+    "developer_comment": "渡瀬"
   },
-  "001131": {
+  "001030": {
     "context": "001131",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不行……我没听说过什么 WX 粒子」"
   },
-  "001142": {
+  "001033": {
     "context": "001142",
-    "code": "0x45",
-    "developer_comment": "風見",
-    "string": "「从它对人体的负面影响来看，我推测它应该是一种类似辐射的东西……」"
+    "code": "0x85",
+    "string": "「从它对人体的负面影响来看，我推测它应该是一种类似辐射的东西……」",
+    "developer_comment": "風見"
   },
-  "001147": {
+  "001036": {
     "context": "001147",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑也有同感。不过眼下别的事情更重要："
   },
-  "001158": {
+  "001039": {
     "context": "001158",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「没有关于冷却水的描述啊……」"
+    "code": "0x85",
+    "string": "「没有关于冷却水的描述啊……」",
+    "developer_comment": "渡瀬"
   },
-  "001163": {
+  "001042": {
     "context": "001163",
     "code": "0x45",
     "developer_comment": "",
     "string": "两人向后翻着。终于，一行字映入了眼帘："
   },
-  "001240": {
+  "001045": {
     "context": "001240",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜关于水冷式冷却系统＞"
   },
-  "001243": {
-    "context": "001243",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001246": {
+  "001048": {
     "context": "001246",
     "code": "0x45",
     "developer_comment": "",
     "string": "增幅器在运行时，会产生大量废热。"
   },
-  "001249": {
+  "001051": {
     "context": "001249",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "为了将其冷却，引擎室中配备了利用鹿鸣湖湖水的水冷系统。"
   },
-  "001252": {
+  "001054": {
     "context": "001252",
     "code": "0x45",
     "developer_comment": "",
     "string": "冷却水通过“取水管道”流入，%N通过“排水管道”流出。"
   },
-  "001255": {
+  "001058": {
     "context": "001255",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "两个管道的直径均为 1 米，厚度均为 2.4 厘米，%N 流量均为大约每分钟 1200 升。"
   },
-  "001258": {
+  "001061": {
     "context": "001258",
     "code": "0x45",
     "developer_comment": "",
     "string": "通过取水管道获取的冷却水，在升温大约 25 ℃ 之后，通过排水管流回湖中。"
   },
-  "001261": {
-    "context": "001261",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001264": {
+  "001064": {
     "context": "001264",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "（在 8 月鹿鸣湖水温为 28 ℃ 的情况下，排出时的水温为 53 ℃）"
   },
-  "001269": {
-    "context": "001269",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001272": {
+  "001067": {
     "context": "001272",
     "code": "0x45",
     "developer_comment": "",
     "string": "排水管内装有“强制循环泵”以控制水流。"
   },
-  "001275": {
+  "001099": {
     "context": "001275",
     "code": "0x45",
     "developer_comment": "",
     "string": "而取水管道内则装有防止异物进入的“过滤装置”。# review：这个术语是什么情况来着…"
   },
-  "001278": {
+  "001131": {
     "context": "001278",
     "code": "0x45",
     "developer_comment": "",
     "string": "湖水在经由过滤装置快速蒸馏、过滤之后，%N方可用作冷却水。"
   },
-  "001281": {
+  "001142": {
     "context": "001281",
     "code": "0x45",
     "developer_comment": "",
     "string": "而水藻等异物，%N则会经由过滤装置的异物排出口自动排出。"
   },
-  "001284": {
+  "001147": {
     "context": "001284",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果过滤装置发生了故障，异物随着水流进入了增幅器，有可能会导致增幅器出现严重故障。"
   },
-  "001287": {
+  "001158": {
     "context": "001287",
     "code": "0x45",
     "developer_comment": "",
     "string": "因此，一旦过滤装置发生了故障，取水管道内的“水门”就会自动关闭，以免异物流入。"
   },
-  "001290": {
+  "001163": {
     "context": "001290",
     "code": "0x45",
     "developer_comment": "",
     "string": "同时，强制循环泵与增幅器均会停止运转，水流也将随之停止。"
   },
-  "001293": {
+  "001240": {
     "context": "001293",
     "code": "0x45",
     "developer_comment": "",
     "string": "各个设备的位置关系如下图所示。"
   },
-  "001325": {
+  "001243": {
     "context": "001325",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「……就是它……！」"
+    "code": "0x85",
+    "string": "「……就是它……！」",
+    "developer_comment": "渡瀬"
   },
-  "001330": {
+  "001246": {
     "context": "001330",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑眼前一亮，# review：魔改大法好"
   },
-  "001341": {
+  "001249": {
     "context": "001341",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「果然逃生出口只有这里了！」# chunk 388 有引用"
   },
-  "001350": {
+  "001252": {
     "context": "001350",
     "code": "0x45",
     "developer_comment": "",
     "string": "仰头望去，“取水管道”与“排水管道”排布在天花板下方。"
   },
-  "001355": {
+  "001255": {
     "context": "001355",
     "code": "0x45",
     "developer_comment": "",
     "string": "管道旁边有一个梯子，可以爬上去。"
   },
-  "001360": {
+  "001258": {
     "context": "001360",
     "code": "0x45",
     "developer_comment": "",
     "string": "仔细一听，管道里确实有水流的声音。"
   },
-  "001365": {
+  "001261": {
     "context": "001365",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "取水管道连着一个硕大的机器，看起来应该是那个“过滤装置”。"
   },
-  "001376": {
+  "001264": {
     "context": "001376",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「只要那个“过滤装置”出了故障——不， 把它破坏掉的话，水流就会停止了」"
   },
-  "001387": {
+  "001269": {
     "context": "001387",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「然后我们就可以通过这根管道，从鹿鸣湖逃出去了！」"
+    "code": "0x85",
+    "string": "「然后我们就可以通过这根管道，从鹿鸣湖逃出去了！」",
+    "developer_comment": "渡瀬"
   },
-  "001416": {
+  "001272": {
     "context": "001416",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「你说的对……！」"
   },
-  "001445": {
+  "001275": {
     "context": "001445",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但问题是，水流停止之后我们具体该怎么做？」"
   },
-  "001456": {
+  "001278": {
     "context": "001456",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「诶？」"
   },
-  "001506": {
+  "001281": {
     "context": "001506",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「从这张图来看，“取水管道”整体位于鹿鸣湖湖面以下」"
   },
-  "001517": {
+  "001284": {
     "context": "001517",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「如果在取水管道上凿开一个口子，就算循环水流停止了，这间 LABO 也会被淹没」"
   },
-  "001528": {
+  "001287": {
     "context": "001528",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「看来，我们只能在排水管道上开洞了吧……」"
   },
-  "001539": {
+  "001290": {
     "context": "001539",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「水流停止之后，如果在管道的上表面开洞的话，应该不会有很多水溢出来」"
   },
-  "001550": {
+  "001293": {
     "context": "001550",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但排水管道内充满了流经增幅器的热水」"
   },
-  "001561": {
+  "001325": {
     "context": "001561",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「如果说水温有 53 度的话，我们没法承受的」"
   },
-  "001572": {
+  "001330": {
     "context": "001572",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……！」"
   },
-  "001583": {
+  "001341": {
     "context": "001583",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「从排水管道下表面开洞的话，或许能把管道内的水全都放干净……」"
   },
-  "001594": {
+  "001350": {
     "context": "001594",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……但这很危险。不好说会有多少热水漏出来」"
   },
-  "001605": {
+  "001355": {
     "context": "001605",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「万一水量很大……仍在这间设施里的人可能会溺死」"
   },
-  "001616": {
+  "001360": {
     "context": "001616",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「悠里，守部，大叔……还有其他被困人员，都有这个危险」"
   },
-  "001627": {
+  "001365": {
     "context": "001627",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……也对，这个方法不能轻易尝试」"
   },
-  "001638": {
+  "001376": {
     "context": "001638",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「那么，我们还是在管道上表面开洞吧」"
   },
-  "001649": {
+  "001387": {
     "context": "001649",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「这样一来，有三个问题必须解决：」"
   },
-  "001660": {
+  "001416": {
     "context": "001660",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「1、用什么方法开洞」"
   },
-  "001671": {
+  "001445": {
     "context": "001671",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「2、如何在充满水的管道内，确保正常呼吸」"
   },
-  "001682": {
+  "001456": {
     "context": "001682",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「3、怎样才能承受着 53 度的热水，到达 500 米外的鹿鸣湖……！」"
   },
-  "001712": {
+  "001506": {
     "context": "001712",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘，我们一起想想有什么办法吧。只要这三个问题都解决了，我们就能从这里逃出去了！」"
   },
-  "001723": {
+  "001517": {
     "context": "001723",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「嗯！」"
   },
-  "001728": {
+  "001528": {
     "context": "001728",
     "code": "0x45",
     "developer_comment": "",
     "string": "两人相互面对着对方，开始思考。"
   },
-  "001757": {
+  "001539": {
     "context": "001757",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「首先是“1、如何在管子上开洞”」"
   },
-  "001768": {
+  "001550": {
     "context": "001768",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「如果有什么办法，能从守部那里抢来动力切割机的话……」"
   },
-  "001779": {
+  "001561": {
     "context": "001779",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「不行，太危险了。我有别的方法」"
   },
-  "001808": {
+  "001572": {
     "context": "001808",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「诶？」"
   },
-  "001819": {
+  "001583": {
     "context": "001819",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「桧山的斧头。那把斧头目前在 N 区域里」"
   },
-  "001830": {
+  "001594": {
     "context": "001830",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「2.4 厘米厚的管道，肯定能凭蛮力凿开」"
   },
-  "001859": {
+  "001605": {
     "context": "001859",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……可能吗？」"
   },
-  "001870": {
+  "001616": {
     "context": "001870",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「你当我是谁？」"
   },
-  "001893": {
+  "001627": {
     "context": "001893",
     "code": "0x45",
     "developer_comment": "",
     "string": "要强的语气把风见逗笑了。"
   },
-  "001904": {
+  "001638": {
     "context": "001904",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……我相信你！」"
   },
-  "001915": {
+  "001649": {
     "context": "001915",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「好，那么下一个！“如何在充满水的管道内，确保正常呼吸”！」"
   },
-  "001944": {
+  "001660": {
     "context": "001944",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「关于这个问题，我有一个想法」"
   },
-  "001955": {
+  "001671": {
     "context": "001955",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「什么想法？」"
   },
-  "001966": {
+  "001682": {
     "context": "001966",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「简易基地里留有一个气瓶，其容量大概够 20 分钟的呼吸」"
   },
-  "001995": {
+  "001712": {
     "context": "001995",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「考虑到要在水中行走 500 米，很难断言这个容量一定够用……但也没别的办法了」"
   },
-  "002006": {
+  "001723": {
     "context": "002006",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「但是面罩坏了，气瓶也没法用了吧？」"
   },
-  "002035": {
+  "001728": {
     "context": "002035",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「没关系。气瓶的水带用手端着，出气口直接用嘴含住就行」"
   },
-  "002046": {
+  "001757": {
     "context": "002046",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「这个用法会占用一只手，而且也没办法对话了，灭火时肯定不能用」"
   },
-  "002075": {
+  "001768": {
     "context": "002075",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「因此我之前没提——」"
   },
-  "002086": {
+  "001779": {
     "context": "002086",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「但对于水中行走来说，应该还是可以的……」"
   },
-  "002091": {
+  "001808": {
     "context": "002091",
     "code": "0x45",
     "developer_comment": "",
     "string": "感觉不怎么稳妥，但也只能赌一把了。"
   },
-  "002096": {
+  "001819": {
     "context": "002096",
     "code": "0x45",
     "developer_comment": "",
     "string": "一个又一个问题得到了解决，计划的可行性越来越高。"
   },
-  "002101": {
+  "001830": {
     "context": "002101",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而，还有一个棘手的问题。"
   },
-  "002112": {
+  "001859": {
     "context": "002112",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……那么最后一个问题」"
   },
-  "002123": {
+  "001870": {
     "context": "002123",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「“3、如何承受 53 度的水温”……！」"
   },
-  "002128": {
+  "001893": {
     "context": "002128",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见点了点头，继续思索道："
   },
-  "002157": {
+  "001904": {
     "context": "002157",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「首先，“气温 53 度”和“水温 53 度”完全不是同一种东西」"
   },
-  "002168": {
+  "001915": {
     "context": "002168",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「与气体不同，当液体与皮肤接触时，蒸发冷却效应不复存在，这就使得热水对人体的伤害远高于热气」"
   },
-  "002197": {
+  "001944": {
     "context": "002197",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「没人泡 53 度的澡吧？人体是不能耐受温度那么高的热水的」"
   },
-  "002208": {
+  "001955": {
     "context": "002208",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「唔……」"
   },
-  "002237": {
+  "001966": {
     "context": "002237",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「所以……要不这样：水流停止之后，等温度逐渐降下来？」"
   },
-  "002248": {
+  "001995": {
     "context": "002248",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「听起来不错，但太花时间了……」"
   },
-  "002259": {
+  "002006": {
     "context": "002259",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「2.4 厘米厚的管道，不就跟保温瓶一样吗？」"
   },
-  "002288": {
+  "002035": {
     "context": "002288",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「确实……」"
   },
-  "002299": {
+  "002046": {
     "context": "002299",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……在确认了水温多少有所下降之后，冒着烧伤的风险尝试突入呢？」"
   },
-  "002310": {
+  "002075": {
     "context": "002310",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「就算我们能承受，被困人员——像天川受了这么重的伤，我觉得他恐怕承受不了」"
   },
-  "002321": {
+  "002086": {
     "context": "002321",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「也对……毕竟想带着夏彦一起逃出去，本来就很困难」"
   },
-  "002350": {
+  "002091": {
     "context": "002350",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不过，只要有一个人逃出去了，就可以把司令长他们都喊过来……」"
   },
-  "002361": {
+  "002096": {
     "context": "002361",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「警察也能叫过来了。那样一来就有办法控制住精神错乱的宇喜多和洵了」"
   },
-  "002372": {
+  "002101": {
     "context": "002372",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……那么，至少要让一个人……」"
   },
-  "002383": {
+  "002112": {
     "context": "002383",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「只要找到能让一个人承受五十几度水温的办法，我们不就都能逃出去了吗……？」"
   },
-  "002428": {
+  "002123": {
     "context": "002428",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑思索着。前所未有地认真地思索着。"
   },
-  "002433": {
+  "002128": {
     "context": "002433",
     "code": "0x45",
     "developer_comment": "",
     "string": "将这 5 个小时里获取到的信息，全部动员起来。"
   },
-  "002439": {
+  "002157": {
     "context": "002439",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（想想吧……这间设施里，现在就没有什么能够阻隔热量的东西吗？）"
   },
-  "002444": {
+  "002168": {
     "context": "002444",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑等人所穿的防火服。它们能够阻隔火焰的热量，但面对热水就无能为力了。"
   },
-  "002449": {
+  "002197": {
     "context": "002449",
     "code": "0x45",
     "developer_comment": "",
     "string": "袖子和衣襟的连接处有缝隙，热水可以从那里渗进来。"
   },
-  "002455": {
+  "002208": {
     "context": "002455",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（那么，把这些缝隙封上就行了吧……？）"
   },
-  "002460": {
+  "002237": {
     "context": "002460",
     "code": "0x45",
     "developer_comment": "",
     "string": "但面部还露在外面。况且，想把缝隙完全封上也是不可能的。"
   },
-  "002466": {
+  "002248": {
     "context": "002466",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（别放弃，再想想！肯定有办法的！）"
   },
-  "002471": {
+  "002259": {
     "context": "002471",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑逐一回想着看到的每一样东西："
   },
-  "002476": {
+  "002288": {
     "context": "002476",
     "code": "0x45",
     "developer_comment": "",
     "string": "简易基地里的装备：气瓶、充气千斤顶、AD、Procyon、动力切割机；"
   },
-  "002481": {
+  "002299": {
     "context": "002481",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑拿着的东西：PDA、门禁卡——哪个都不像能派上用场；"
   },
-  "002486": {
+  "002310": {
     "context": "002486",
     "code": "0x45",
     "developer_comment": "",
     "string": "设施里见到的东西：血袋，输血器具，氧气瓶，喀戎，蒸馏水，手枪——哪个都不像能派上用场！"
   },
-  "002492": {
+  "002321": {
     "context": "002492",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（还有什么别的东西吗！？肯定有答案的！）"
   },
-  "002497": {
+  "002350": {
     "context": "002497",
     "code": "0x45",
     "developer_comment": "",
     "string": "他回顾着自己走过的路。"
   },
-  "002502": {
+  "002361": {
     "context": "002502",
     "code": "0x45",
     "developer_comment": "",
     "string": "醒来以后，他遇到了风见与洵，救下了悠里。"
   },
-  "002507": {
+  "002372": {
     "context": "002507",
     "code": "0x45",
     "developer_comment": "",
     "string": "到简易基地整理装备，遇到了惠那和宇喜多，看到夏彦等人出现在监控里，然后开始搜索。"
   },
-  "002512": {
+  "002383": {
     "context": "002512",
     "code": "0x45",
     "developer_comment": "",
     "string": "发现了同事的遗体，但搜索仍然继续，启动了灭火系统，扑灭了设施内的火灾——"
   },
-  "002527": {
+  "002428": {
     "context": "002527",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「啊……」"
   },
-  "002532": {
+  "002433": {
     "context": "002532",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑漏出了声音。"
   },
-  "002537": {
+  "002439": {
     "context": "002537",
     "code": "0x45",
     "developer_comment": "",
     "string": "他想到，当时风见说过一段话："
   },
-  "002651": {
+  "002444": {
     "context": "002651",
     "code": "0x45",
     "developer_comment": "",
     "string": "——刚开始搜索，去简易基地的时候——"
   },
-  "002680": {
+  "002449": {
     "context": "002680",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "@auto-import 0006 003606"
   },
-  "002691": {
+  "002455": {
     "context": "002691",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "@auto-import 0006 003617"
   },
-  "002720": {
+  "002460": {
     "context": "002720",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "@auto-import 0006 003656"
   },
-  "002725": {
+  "002466": {
     "context": "002725",
     "code": "0x45",
     "developer_comment": "",
     "string": "那时，风见指着防护服的残骸说道。"
   },
-  "002730": {
+  "002471": {
     "context": "002730",
     "code": "0x45",
     "developer_comment": "",
     "string": "这两件防护服的面罩部分都损坏了。"
   },
-  "002785": {
+  "002476": {
     "context": "002785",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……！」"
   },
-  "002832": {
+  "002481": {
     "context": "002832",
     "code": "0x45",
     "developer_comment": "",
     "string": "另一方面，他又想到在那之后所看到的东西："
   },
-  "002837": {
+  "002486": {
     "context": "002837",
     "code": "0x45",
     "developer_comment": "",
     "string": "下半身烧得焦黑的尸体——！"
   },
-  "002923": {
+  "002492": {
     "context": "002923",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑的眼睛一下子睁了开来。"
   },
-  "002928": {
+  "002497": {
     "context": "002928",
     "code": "0x45",
     "developer_comment": "",
     "string": "这两段记忆，不就是他所寻找的答案吗。"
   },
-  "002939": {
+  "002502": {
     "context": "002939",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「有……有了」"
   },
-  "002968": {
+  "002507": {
     "context": "002968",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「诶？」"
   },
-  "002979": {
+  "002512": {
     "context": "002979",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我找到了！能够承受五十多度水温的办法！」"
   },
-  "003008": {
+  "002527": {
     "context": "003008",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「什，什么办法！？」"
   },
-  "003019": {
+  "002532": {
     "context": "003019",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「就是防护服，橘……最后时刻派上了用场啊」"
   },
-  "003024": {
+  "002537": {
     "context": "003024",
     "code": "0x45",
     "developer_comment": "",
     "string": "据风见所言，那些防护服的气密和防水性能都很好。"
   },
-  "003029": {
+  "002651": {
     "context": "003029",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果穿上它，就不会接触到热水了。"
   },
-  "003034": {
+  "002680": {
     "context": "003034",
     "code": "0x45",
     "developer_comment": "",
     "string": "“水温 53 ℃”，就变成“气温 53 ℃” 了——变得可以承受了！"
   },
-  "003063": {
+  "002691": {
     "context": "003063",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「但是，我们的防护服都损坏了……！」"
   },
-  "003074": {
+  "002720": {
     "context": "003074",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「没关系。我有妙计」"
   },
-  "003103": {
+  "002725": {
     "context": "003103",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「妙计，吗？」"
   },
-  "003114": {
+  "002730": {
     "context": "003114",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我现在去收集逃生所必需的东西」"
   },
-  "003125": {
+  "002785": {
     "context": "003125",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「橘你就和孩子们一起，在这里等着我吧？」"
   },
-  "003154": {
+  "002832": {
     "context": "003154",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「……！」"
   },
-  "003159": {
+  "002837": {
     "context": "003159",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见的脸上，浮现出犹豫之意。"
   },
-  "003164": {
+  "002923": {
     "context": "003164",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多和洵还都在这间设施里徘徊着，单独行动应该还是有危险的。不过——"
   },
-  "003175": {
+  "002928": {
     "context": "003175",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我明白你在担心我，但两人行动比一人行动更容易暴露。忍耐一下吧」"
   },
-  "003180": {
+  "002939": {
     "context": "003180",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑说完，便踩上了梯子。"
   },
-  "003191": {
+  "002968": {
     "context": "003191",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「拿到了装备，我马上就回来」"
   },
-  "003220": {
+  "002979": {
     "context": "003220",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「好……好的，注意安全！」"
   },
-  "003225": {
+  "003008": {
     "context": "003225",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑点头致意，然后沿着梯子爬了下去。"
   },
-  "003274": {
+  "003019": {
     "context": "003274",
     "code": "0x45",
     "developer_comment": "",
     "string": "——渡濑首先赶往第 2 区域的简易基地。"
   },
-  "003323": {
+  "003024": {
     "context": "003323",
     "code": "0x45",
     "developer_comment": "",
     "string": "他从那里拿到了气瓶，以及一件防护服的残骸。"
   },
-  "003329": {
+  "003029": {
     "context": "003329",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（光靠这件防护服，肯定是不行的……）"
   },
-  "003334": {
+  "003034": {
     "context": "003334",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑把破损的面罩拆下来扔到一旁，便从简易基地里跑了出去。"
   },
-  "003421": {
+  "003063": {
     "context": "003421",
     "code": "0x45",
     "developer_comment": "",
     "string": "——路过 N 区域的时候，顺便把斧头捡了起来。"
   },
-  "003508": {
+  "003074": {
     "context": "003508",
     "code": "0x45",
     "developer_comment": "",
     "string": "然后向第 4 区域赶去。"
   },
-  "003514": {
+  "003103": {
     "context": "003514",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（……迄今为止，我所见到的每一件防护服都有什么地方损坏了）"
   },
-  "003520": {
+  "003114": {
     "context": "003520",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（橘和守部的防护服是面罩坏了，堂岛的防护服是完全不成样子了，桧山的防护服则是下半身烧毁了……）"
   },
-  "003526": {
+  "003125": {
     "context": "003526",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（但是——只要把它们拼起来！）"
   },
-  "003531": {
+  "003154": {
     "context": "003531",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑想着这些，来到了电梯间。"
   },
-  "003577": {
+  "003159": {
     "context": "003577",
     "code": "0x45",
     "developer_comment": "",
     "string": "桧山的遗体，依然在这里。"
   },
-  "003588": {
+  "003164": {
     "context": "003588",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「抱歉，桧山……」"
   },
-  "003593": {
+  "003175": {
     "context": "003593",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑向桧山道了一句歉，然后从遗体上——"
   },
-  "003642": {
+  "003180": {
     "context": "003642",
     "code": "0x45",
     "developer_comment": "",
     "string": "把面罩摘了下来。"
   },
-  "003688": {
+  "003191": {
     "context": "003688",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（这样一来，需要的东西就都齐全了……！）"
   },
-  "003693": {
+  "003220": {
     "context": "003693",
     "code": "0x45",
     "developer_comment": "",
     "string": "斧头，气瓶，完好的面罩，还有除了面罩以外都完好的防护服。"
   },
-  "003747": {
+  "003225": {
     "context": "003747",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑把它们抱在手上，再度跑了起来。"
   },
-  "003752": {
+  "003274": {
     "context": "003752",
     "code": "0x45",
     "developer_comment": "",
     "string": "奔向风见等人所在的引擎室。"
   },
+  "003323": {
+    "context": "003767",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "003329": {
+    "context": "003329",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "a6b31fc0acc5a74b259f038ac1e8cd59_tr"
+  },
+  "003334": {
+    "context": "003334",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "da74a46cdf79d5c7dbe1ee0f3518325a_tr"
+  },
+  "003421": {
+    "context": "003421",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "0c3d35d412101cac0df4c0ec253be94a_tr"
+  },
+  "003508": {
+    "context": "003508",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "4db2a8294414c042f9c19cca17403815_tr"
+  },
+  "003514": {
+    "context": "003514",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "bbb41f49c0cb9f95f385116a02506ce3_tr"
+  },
+  "003520": {
+    "context": "003520",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "fec73a1e31ac6a57817398ca2cc5521f_tr"
+  },
+  "003526": {
+    "context": "003526",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "fd25347017e237aa4efd675163bf035e_tr"
+  },
+  "003531": {
+    "context": "003531",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "9d98d0a58eea1b4ced50be4089cd0a7b_tr"
+  },
+  "003577": {
+    "context": "003577",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "38ca2aedf554d28c3b085d00a58dbc7b_tr"
+  },
+  "003588": {
+    "context": "003588",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "0575519f65e3262b6bf9a4eaf940ed01_tr"
+  },
+  "003593": {
+    "context": "003593",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "54bf4d07e6f0ab849b09d39005313577_tr"
+  },
+  "003642": {
+    "context": "003642",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "5baf781971049b92028541ebb3feb25c_tr"
+  },
+  "003688": {
+    "context": "003688",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "2324e8e3287b9cfcc1872a25c3f6edd8_tr"
+  },
+  "003693": {
+    "context": "003693",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "82a08733d30a729022a6ddb93ef61f6c_tr"
+  },
+  "003747": {
+    "context": "003747",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "f7ac6edbcad7ade01f5fbf718af38b6d_tr"
+  },
+  "003752": {
+    "context": "003752",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "2c148d19feb3e4eed1be25806e1f5f8a_tr"
+  },
   "003767": {
     "context": "003767",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "f6070a702d9746f5bc187cd2d9d8efa3_tr"
   }
 }

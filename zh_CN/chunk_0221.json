@@ -1560,1664 +1560,1668 @@
     "string": "“核能研究设施发生火灾”  2021 年 7 月 7 日"
   },
   "009394": {
-    "context": "009394",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009397": {
     "context": "009397",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "今日 13 时许，鹿鸣市核能研究设施“核能与生物学机构第 6 研究所”发生火灾。"
   },
-  "009400": {
+  "009397": {
     "context": "009400",
     "code": "0x45",
     "developer_comment": "",
     "string": "火灾共造成 1 人死亡、15 人受伤。受伤者为工作人员及儿童，多有烧伤和一氧化碳中毒，现已送往医院救治。"
   },
-  "009403": {
+  "009400": {
     "context": "009403",
     "code": "0x45",
     "developer_comment": "",
     "string": "遇难者为上述设施的职员，隅田高贵，时年 36 岁。"
   },
-  "009406": {
+  "009403": {
     "context": "009406",
     "code": "0x45",
     "developer_comment": "",
     "string": "从设施中救出时，隅田已全身烧伤，并当场死亡。"
   },
-  "009409": {
+  "009406": {
     "context": "009409",
     "code": "0x45",
     "developer_comment": "",
     "string": "另有两名儿童陷入昏迷，情况严重。"
   },
-  "009412": {
+  "009409": {
     "context": "009412",
     "code": "0x45",
     "developer_comment": "",
     "string": "该设施配备有研究用小型核反应堆，并已发表声明，称火灾不会引发核泄漏等可能的危险。"
   },
-  "009415": {
+  "009412": {
     "context": "009415",
     "code": "0x45",
     "developer_comment": "",
     "string": "火灾原因仍不明朗，不排除人为纵火的可能，目前警方已介入调查。"
   },
-  "009471": {
+  "009415": {
     "context": "009471",
     "code": "0x45",
     "developer_comment": "",
     "string": "读完之后，夏彦心里一阵猛跳。"
   },
-  "009476": {
+  "009471": {
     "context": "009476",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦产生了非常不祥的预感，并继续翻阅文件。"
   },
-  "009481": {
+  "009476": {
     "context": "009481",
     "code": "0x45",
     "developer_comment": "",
     "string": "接下来出现的，似乎是设施内发布的有关这起事故的文件。"
   },
-  "009558": {
+  "009481": {
     "context": "009558",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002035"
   },
-  "009561": {
-    "context": "009561",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009564": {
+  "009558": {
     "context": "009564",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002041"
   },
-  "009567": {
+  "009561": {
     "context": "009567",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "虽然我们在最后关头避开了最坏的结果，但这件事暴露出警备系统中存在着一些不完善之处。"
   },
-  "009570": {
+  "009564": {
     "context": "009570",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002047"
   },
-  "009573": {
+  "009567": {
     "context": "009573",
     "code": "0x45",
     "developer_comment": "",
     "string": "火灾的原因为，本设施高级研究员 S 的疯狂举动。"
   },
-  "009576": {
+  "009570": {
     "context": "009576",
     "code": "0x45",
     "developer_comment": "",
     "string": "S 自 4 月 12 日起，出任 Zero 区域的管理员。"
   },
-  "009579": {
+  "009573": {
     "context": "009579",
     "code": "0x45",
     "developer_comment": "",
     "string": "因而有很多接触 Zero 区域内秘密研究成果的机会。"
   },
-  "009583": {
+  "009576": {
     "context": "009583",
     "code": "0x45",
     "developer_comment": "",
     "string": "大约 3 个月后，S 开始了他的暴行。"
   },
-  "009586": {
+  "009579": {
     "context": "009586",
     "code": "0x45",
     "developer_comment": "",
     "string": "他将存储于 Zero 区域的发电机用汽油带了出去，%N泼洒到设施中的 6 处地方，并且布设了自动点火装置。"
   },
-  "009589": {
+  "009583": {
     "context": "009589",
     "code": "0x45",
     "developer_comment": "",
     "string": "除此之外，他还故意使 WX 粒子增幅器在点火的同时失控。"
   },
-  "009592": {
+  "009586": {
     "context": "009592",
     "code": "0x45",
     "developer_comment": "",
     "string": "然后，他开启了 Zero 区域与 N 区域的门禁。"
   },
-  "009595": {
+  "009589": {
     "context": "009595",
     "code": "0x45",
     "developer_comment": "",
     "string": "据推测，其动机为：趁着火灾，带走设施中的研究成果。"
   },
-  "009598": {
+  "009592": {
     "context": "009598",
     "code": "0x45",
     "developer_comment": "",
     "string": "S 现已死亡，使得其中的详情已无从考证，但大略如此。"
   },
-  "009601": {
+  "009595": {
     "context": "009601",
     "code": "0x45",
     "developer_comment": "",
     "string": "（至于研究成果的具体内容，此处就不详述了，其为高级研究员之间以“N”代指之物。）"
   },
-  "009605": {
+  "009598": {
     "context": "009605",
     "code": "0x45",
     "developer_comment": "",
     "string": "此外，虽与前述暴行并无直接关系，不幸的是当日有两名儿童进入了设施之内。"
   },
-  "009608": {
+  "009601": {
     "context": "009608",
     "code": "0x45",
     "developer_comment": "",
     "string": "这两名儿童应该是乘着警备的间隙进入本设施的。"
   },
-  "009611": {
+  "009605": {
     "context": "009611",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002088"
   },
-  "009614": {
+  "009608": {
     "context": "009614",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002091"
   },
-  "009617": {
+  "009611": {
     "context": "009617",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002094"
   },
-  "009620": {
+  "009614": {
     "context": "009620",
     "code": "0x45",
     "developer_comment": "",
     "string": "仅提升 Zero 区域的安保措施，并不能确保安全。"
   },
-  "009623": {
+  "009617": {
     "context": "009623",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0032 002100"
   },
-  "009626": {
+  "009620": {
     "context": "009626",
     "code": "0x45",
     "developer_comment": "",
     "string": "否则，悲剧还会再度上演。"
   },
-  "009629": {
-    "context": "009629",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009632": {
+  "009623": {
     "context": "009632",
     "code": "0x45",
     "developer_comment": "",
     "string": "——核能与生物学机构第 6 研究所 警备主任 川田 勋——"
   },
-  "009662": {
+  "009626": {
     "context": "009662",
     "code": "0x45",
     "developer_comment": "",
     "string": "读着读着，夏彦的心脏如鼓点般聒噪起来。"
   },
-  "009673": {
+  "009629": {
     "context": "009673",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "「诶……啊……」"
+    "code": "0x85",
+    "string": "「诶……啊……」",
+    "developer_comment": "夏彦"
   },
-  "009678": {
+  "009632": {
     "context": "009678",
     "code": "0x45",
     "developer_comment": "",
     "string": "里面全是大字，也有不少看不懂的单词，但有些东西是能确实理解到的。"
   },
-  "009683": {
+  "009662": {
     "context": "009683",
     "code": "0x45",
     "developer_comment": "",
     "string": "也就是说，夏彦等人遭遇的事故——"
   },
-  "009688": {
+  "009673": {
     "context": "009688",
     "code": "0x45",
     "developer_comment": "",
     "string": "其原因在于设施工作人员纵火。"
   },
-  "009694": {
+  "009678": {
     "context": "009694",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（无论是九年前，还是这次的事故，都是人为导致的……！）"
   },
-  "009700": {
+  "009683": {
     "context": "009700",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（所以才会有这么多相似之处吗……？！）"
   },
-  "009705": {
+  "009688": {
     "context": "009705",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而，文中有一处描述要远远更加重要。"
   },
-  "009710": {
+  "009694": {
     "context": "009710",
     "code": "0x45",
     "developer_comment": "",
     "string": "“其结果，就是这起两人死亡的事件”# chunk 32"
   },
-  "009715": {
+  "009700": {
     "context": "009715",
     "code": "0x45",
     "developer_comment": "",
     "string": "这句话，给夏彦带来了巨大的不安。"
   },
-  "009720": {
+  "009705": {
     "context": "009720",
     "code": "0x45",
     "developer_comment": "",
     "string": "——九年前的死者，其一是在 LABO 纵火的“高级研究员 S”。"
   },
-  "009725": {
+  "009710": {
     "context": "009725",
     "code": "0x45",
     "developer_comment": "",
     "string": "那么另一条失去的生命呢——？"
   },
-  "009731": {
+  "009715": {
     "context": "009731",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……不会吧……）"
   },
-  "009737": {
+  "009720": {
     "context": "009737",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（不会吧！）"
   },
-  "009742": {
+  "009725": {
     "context": "009742",
     "code": "0x45",
     "developer_comment": "",
     "string": "脑海中响起声音：“停下”“不要读下去了”。"
   },
-  "009747": {
+  "009731": {
     "context": "009747",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦又开始头痛难忍。"
   },
-  "009752": {
+  "009737": {
     "context": "009752",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而他不顾这些——"
   },
-  "009757": {
+  "009742": {
     "context": "009757",
     "code": "0x45",
     "developer_comment": "",
     "string": "翻到了下一页。"
   },
-  "009834": {
+  "009747": {
     "context": "009834",
     "code": "0x45",
     "developer_comment": "",
     "string": "“核能研究设施火灾事故 新增牺牲者”  2021 年 7 月 9 日"
   },
-  "009837": {
-    "context": "009837",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009840": {
+  "009752": {
     "context": "009840",
     "code": "0x45",
     "developer_comment": "",
     "string": "2021 年 7 月 7 日，鹿鸣市核能研究设施“核能与生物学机构第 6 研究所”发生火灾。"
   },
-  "009843": {
+  "009757": {
     "context": "009843",
     "code": "0x45",
     "developer_comment": "",
     "string": "15 名送至医院的员工和儿童中新增了一位死者。"
   },
-  "009846": {
+  "009834": {
     "context": "009846",
     "code": "0x45",
     "developer_comment": "",
     "string": "该死者为儿童，琴乃悠里，年仅 8 岁。"
   },
-  "009849": {
+  "009837": {
     "context": "009849",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "事件发生时，悠里陷入重度昏迷，被送往市内医院。"
   },
-  "009852": {
+  "009840": {
     "context": "009852",
     "code": "0x45",
     "developer_comment": "",
     "string": "在集中治疗后，悠里仍未恢复意识，于今日凌晨宣告死亡。"
   },
-  "009855": {
+  "009843": {
     "context": "009855",
     "code": "0x45",
     "developer_comment": "",
     "string": "其死因为一氧化碳中毒引起的多重器官衰竭。"
   },
-  "009858": {
+  "009846": {
     "context": "009858",
     "code": "0x45",
     "developer_comment": "",
     "string": "设施及医院表示，该症状与辐射无关。"
   },
-  "009864": {
-    "context": "009864",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009867": {
-    "context": "009867",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009870": {
-    "context": "009870",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009873": {
-    "context": "009873",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009876": {
-    "context": "009876",
-    "code": "0x85",
-    "string": "　"
-  },
-  "009879": {
+  "009849": {
     "context": "009879",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0221 009846"
   },
-  "009926": {
+  "009852": {
     "context": "009926",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……啊……」"
   },
-  "009931": {
+  "009855": {
     "context": "009931",
     "code": "0x45",
     "developer_comment": "",
     "string": "喉咙中传出一道嘶哑的声音。# review"
   },
-  "009936": {
+  "009858": {
     "context": "009936",
     "code": "0x45",
     "developer_comment": "",
     "string": "记录中的一句话，奔着眼球直逼过来。"
   },
-  "009976": {
+  "009864": {
     "context": "009976",
     "code": "0x85",
     "string": "　%N　%N　%N　%N　%N　%N"
   },
-  "009977": {
+  "009867": {
     "context": "009977",
-    "code": "0x47",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "“该死者为儿童，琴乃悠里”"
   },
-  "010009": {
+  "009870": {
     "context": "010009",
     "code": "0x85",
     "string": "@auto-import 0221 009976"
   },
-  "010010": {
+  "009873": {
     "context": "010010",
     "code": "0x85",
     "string": "@auto-import 0221 009977"
   },
-  "010019": {
+  "009876": {
     "context": "010019",
     "code": "0x85",
     "string": "@auto-import 0221 009976"
   },
-  "010020": {
+  "009879": {
     "context": "010020",
-    "code": "0x47",
+    "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0221 009977"
   },
-  "010052": {
+  "009926": {
     "context": "010052",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0221 009976"
   },
-  "010053": {
+  "009931": {
     "context": "010053",
-    "code": "0x85",
-    "string": "@auto-import 0221 009977"
-  },
-  "010062": {
-    "context": "010062",
-    "code": "0x85",
-    "string": "@auto-import 0221 009976"
-  },
-  "010063": {
-    "context": "010063",
-    "code": "0x47",
+    "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0221 009977"
   },
-  "010095": {
-    "context": "010095",
-    "code": "0x85",
+  "009936": {
+    "context": "010062",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0221 009976"
   },
-  "010096": {
+  "009976": {
+    "context": "010063",
+    "code": "0x85",
+    "string": "@auto-import 0221 009977"
+  },
+  "009977": {
+    "context": "010095",
+    "code": "0x47",
+    "developer_comment": "",
+    "string": "@auto-import 0221 009976"
+  },
+  "010009": {
     "context": "010096",
     "code": "0x85",
     "string": "@auto-import 0221 009977"
   },
-  "010169": {
+  "010010": {
     "context": "010169",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "这句话，将夏彦的大脑涂成了一片空白。"
   },
-  "010180": {
+  "010019": {
     "context": "010180",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "「啊、啊、啊啊啊啊……！」"
+    "code": "0x85",
+    "string": "「啊、啊、啊啊啊啊……！」",
+    "developer_comment": "夏彦"
   },
-  "010185": {
+  "010020": {
     "context": "010185",
-    "code": "0x45",
+    "code": "0x47",
     "developer_comment": "",
     "string": "身体开始瑟瑟发抖。"
   },
-  "010190": {
+  "010052": {
     "context": "010190",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "无法思考。无法理解。"
   },
-  "010195": {
+  "010053": {
     "context": "010195",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "片刻之后，从白色黑暗的深处，# review: 白い闇 是什么鬼"
   },
-  "010200": {
+  "010062": {
     "context": "010200",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "九年前的记忆，"
   },
-  "010205": {
+  "010063": {
     "context": "010205",
-    "code": "0x45",
+    "code": "0x47",
     "developer_comment": "",
     "string": "——真实的记忆，开始复苏。"
   },
-  "010362": {
+  "010095": {
     "context": "010362",
-    "code": "0x45",
-    "developer_comment": "悠里",
-    "string": "「——咳咳！咳咳！」"
+    "code": "0x85",
+    "string": "「——咳咳！咳咳！」",
+    "developer_comment": "悠里"
   },
-  "010373": {
+  "010096": {
     "context": "010373",
-    "code": "0x45",
-    "developer_comment": "夏彦",
-    "string": "「悠、悠里，你没事吧！？」"
+    "code": "0x85",
+    "string": "「悠、悠里，你没事吧！？」",
+    "developer_comment": "夏彦"
   },
-  "010384": {
+  "010169": {
     "context": "010384",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「嗯、嗯……！」"
   },
-  "010389": {
+  "010180": {
     "context": "010389",
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里痛苦地喘着气，回答道。"
   },
-  "010394": {
+  "010185": {
     "context": "010394",
     "code": "0x45",
     "developer_comment": "",
     "string": "——那一天，夏彦一行人入侵到了 LABO 的地下第 5 区域。"
   },
-  "010399": {
+  "010190": {
     "context": "010399",
     "code": "0x45",
     "developer_comment": "",
     "string": "路上一片火海。"
   },
-  "010404": {
+  "010195": {
     "context": "010404",
     "code": "0x45",
     "developer_comment": "",
     "string": "设施内火灾遍地，烟雾迷蒙。"
   },
-  "010409": {
+  "010200": {
     "context": "010409",
     "code": "0x45",
     "developer_comment": "",
     "string": "这一带也着了火，他们坚持不了多长时间。"
   },
-  "010415": {
+  "010205": {
     "context": "010415",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（怎、怎么办……照这样下去，悠里就不妙了……！）"
   },
-  "010420": {
+  "010362": {
     "context": "010420",
     "code": "0x45",
     "developer_comment": "",
     "string": "找遍了第 5 区域，也没看到母亲在哪里。"
   },
-  "010425": {
+  "010373": {
     "context": "010425",
     "code": "0x45",
     "developer_comment": "",
     "string": "可能不用夏彦他们帮忙，妈妈就已经做好避难了。"
   },
-  "010431": {
+  "010384": {
     "context": "010431",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（那我们也得快点逃……！）"
   },
-  "010436": {
+  "010389": {
     "context": "010436",
     "code": "0x45",
     "developer_comment": "",
     "string": "想到这里——"
   },
-  "010452": {
+  "010394": {
     "context": "010452",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002213"
   },
-  "010481": {
+  "010399": {
     "context": "010481",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「咦？！」"
   },
-  "010492": {
+  "010404": {
     "context": "010492",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「怎、怎么回事？！这是什么声音——」"
   },
-  "010497": {
+  "010409": {
     "context": "010497",
     "code": "0x45",
     "developer_comment": "",
     "string": "警报并非火警，声音比火警更加响亮。"
   },
-  "010502": {
+  "010415": {
     "context": "010502",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002292"
   },
-  "010511": {
+  "010420": {
     "context": "010511",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "@auto-import 0201 002300"
   },
-  "010519": {
+  "010425": {
     "context": "010519",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "@auto-import 0201 002308"
   },
-  "010527": {
+  "010431": {
     "context": "010527",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "@auto-import 0201 002316"
   },
-  "010535": {
+  "010436": {
     "context": "010535",
     "code": "0x45",
     "developer_comment": "自動放送",
     "string": "@auto-import 0201 002324"
   },
-  "010540": {
+  "010452": {
     "context": "010540",
     "code": "0x45",
     "developer_comment": "",
     "string": "说了这些，播报就结束了。"
   },
-  "010545": {
+  "010481": {
     "context": "010545",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002329"
   },
-  "010676": {
+  "010492": {
     "context": "010676",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002446"
   },
-  "010687": {
+  "010497": {
     "context": "010687",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「啊！」# 这句和 chunk 201 不一致"
   },
-  "010692": {
+  "010502": {
     "context": "010692",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002561"
   },
-  "010697": {
+  "010511": {
     "context": "010697",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0201 002566"
   },
-  "010708": {
+  "010519": {
     "context": "010708",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「为、为什么……？！」"
   },
-  "010737": {
+  "010527": {
     "context": "010737",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「小、小彦……怎么了……？」"
   },
-  "010742": {
+  "010535": {
     "context": "010742",
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里握住了夏彦的手，表情有些害怕。"
   },
-  "010747": {
+  "010540": {
     "context": "010747",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦欲哭无泪地回答："
   },
-  "010758": {
+  "010545": {
     "context": "010758",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「不、不知道为什么……」"
   },
-  "010769": {
+  "010676": {
     "context": "010769",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「门又打不开了！」"
   },
-  "010798": {
+  "010687": {
     "context": "010798",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "@auto-import 0126 000745"
   },
-  "010809": {
+  "010692": {
     "context": "010809",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「意、意思是说，出不去了……？」"
   },
-  "010820": {
+  "010697": {
     "context": "010820",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「没、没事，我现在就给你打开！」"
   },
-  "010846": {
+  "010708": {
     "context": "010846",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦鞭策自己，用尽全力敲在门上。"
   },
-  "010851": {
+  "010737": {
     "context": "010851",
     "code": "0x45",
     "developer_comment": "",
     "string": "敲门的时候，也有不知哪里的烟飘进来，侵蚀周围的空气。"
   },
-  "010880": {
+  "010742": {
     "context": "010880",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「咳！咳咳！」"
   },
-  "010891": {
+  "010747": {
     "context": "010891",
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里的咳嗽声让夏彦越发着急。"
   },
-  "010896": {
+  "010758": {
     "context": "010896",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而无论怎么敲，门都没有打开的迹象。"
   },
-  "010908": {
+  "010769": {
     "context": "010908",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0210 002889"
   },
-  "010937": {
+  "010798": {
     "context": "010937",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "@auto-import 0210 002900"
   },
-  "010948": {
+  "010809": {
     "context": "010948",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "@auto-import 0210 002911"
   },
-  "010959": {
+  "010820": {
     "context": "010959",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0210 002922"
   },
-  "010970": {
+  "010846": {
     "context": "010970",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦一边嘶哑地叫喊，一边胡乱敲打门扉。"
   },
-  "010981": {
+  "010851": {
     "context": "010981",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「唔……唔……！」"
   },
-  "010987": {
+  "010880": {
     "context": "010987",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0210 002990"
   },
-  "011016": {
+  "010891": {
     "context": "011016",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "@auto-import 0210 003026"
   },
-  "011027": {
+  "010896": {
     "context": "011027",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「……」"
   },
-  "011032": {
+  "010908": {
     "context": "011032",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0210 003031"
   },
-  "011043": {
+  "010937": {
     "context": "011043",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0139 003135"
   },
-  "011087": {
+  "010948": {
     "context": "011087",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "@auto-import 0110 001715"
   },
-  "011092": {
+  "010959": {
     "context": "011092",
     "code": "0x45",
     "developer_comment": "",
     "string": "回头一看，悠里坐到了地上。"
   },
-  "011098": {
+  "010970": {
     "context": "011098",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0210 003052"
   },
-  "011103": {
+  "010981": {
     "context": "011103",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0210 003057"
   },
-  "011108": {
+  "010987": {
     "context": "011108",
     "code": "0x45",
     "developer_comment": "",
     "string": "也许是吸入太多烟的缘故，头疼得厉害。"
   },
-  "011113": {
+  "011016": {
     "context": "011113",
     "code": "0x45",
     "developer_comment": "",
     "string": "想要呕吐，皮肤也开始发麻。"
   },
-  "011118": {
+  "011027": {
     "context": "011118",
     "code": "0x45",
     "developer_comment": "",
     "string": "这样的状态下，夏彦仍然漫无目的地寻找逃生路线——"
   },
-  "011215": {
+  "011032": {
     "context": "011215",
     "code": "0x45",
     "developer_comment": "",
     "string": "只可惜出口并不存在。"
   },
-  "011220": {
+  "011043": {
     "context": "011220",
     "code": "0x45",
     "developer_comment": "",
     "string": "唯一的逃生通道——安全梯，也被火焰包围，接近不得。"
   },
-  "011265": {
+  "011087": {
     "context": "011265",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦等人被烟逼进了附近的一间房间。"
   },
-  "011270": {
+  "011092": {
     "context": "011270",
     "code": "0x45",
     "developer_comment": "",
     "string": "拼命关起门，烟还是从缝隙中不断钻进来。"
   },
-  "011338": {
+  "011098": {
     "context": "011338",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「……咳……」"
   },
-  "011343": {
+  "011103": {
     "context": "011343",
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里在夏彦的怀中轻轻咳嗽。"
   },
-  "011348": {
+  "011108": {
     "context": "011348",
     "code": "0x45",
     "developer_comment": "",
     "string": "她无力的声音让夏彦心如刀绞。"
   },
-  "011353": {
+  "011113": {
     "context": "011353",
     "code": "0x45",
     "developer_comment": "",
     "string": "——无处可逃。"
   },
-  "011358": {
+  "011118": {
     "context": "011358",
     "code": "0x45",
     "developer_comment": "",
     "string": "火势越来越旺，哪里都逃不过烟的追逐。"
   },
-  "011363": {
+  "011215": {
     "context": "011363",
     "code": "0x45",
     "developer_comment": "",
     "string": "现在这间小房间，不久也将被烈火吞噬。"
   },
-  "011368": {
+  "011220": {
     "context": "011368",
     "code": "0x45",
     "developer_comment": "",
     "string": "年纪尚小的夏彦也明白，死亡正在逐渐接近。"
   },
-  "011379": {
+  "011265": {
     "context": "011379",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「唔……唔……！」"
   },
-  "011384": {
+  "011270": {
     "context": "011384",
     "code": "0x45",
     "developer_comment": "",
     "string": "他发出的声音，既是呜咽，也是忏悔。"
   },
-  "011395": {
+  "011338": {
     "context": "011395",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「悠里，对不起……都怪我把你带了过来……」"
   },
-  "011419": {
+  "011343": {
     "context": "011419",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「……」"
   },
-  "011430": {
+  "011348": {
     "context": "011430",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「大言不惭地说什么要救妈妈……」"
   },
-  "011441": {
+  "011353": {
     "context": "011441",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「结果不仅没做成，反而害得悠里遇上这样的事情……」"
   },
-  "011452": {
+  "011358": {
     "context": "011452",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「对不起，真的对不起……！」"
   },
-  "011457": {
+  "011363": {
     "context": "011457",
     "code": "0x45",
     "developer_comment": "",
     "string": "不知不觉间，夏彦已经泪流满面。"
   },
-  "011462": {
+  "011368": {
     "context": "011462",
     "code": "0x45",
     "developer_comment": "",
     "string": "身体因无力感而发软，精神因后悔而痛苦不堪。"
   },
-  "011467": {
+  "011379": {
     "context": "011467",
     "code": "0x45",
     "developer_comment": "",
     "string": "这时——悠里的手摸上了夏彦的脸蛋。"
   },
-  "011496": {
+  "011384": {
     "context": "011496",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「……没事的，小彦……」"
   },
-  "011507": {
+  "011395": {
     "context": "011507",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「为了别人拼上老命，这才是小彦嘛……」"
   },
-  "011518": {
+  "011419": {
     "context": "011518",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「我最喜欢这样的小彦了……」"
   },
-  "011547": {
+  "011430": {
     "context": "011547",
     "code": "0x45",
     "developer_comment": "悠里",
     "string": "「到最后都在一起……我很开心的」"
   },
-  "011552": {
+  "011441": {
     "context": "011552",
     "code": "0x45",
     "developer_comment": "",
     "string": "说完，她笑了。"
   },
-  "011557": {
+  "011452": {
     "context": "011557",
     "code": "0x45",
     "developer_comment": "",
     "string": "——神情中的光明，不过六等星的几分之一。# review"
   },
-  "011568": {
+  "011457": {
     "context": "011568",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「悠里……！」"
   },
-  "011609": {
+  "011462": {
     "context": "011609",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦抱住了悠里。"
   },
-  "011614": {
+  "011467": {
     "context": "011614",
     "code": "0x45",
     "developer_comment": "",
     "string": "她的身体里已经没有了力量，一旦放开手，恐怕她就会瘫倒在地。"
   },
-  "011619": {
+  "011496": {
     "context": "011619",
     "code": "0x45",
     "developer_comment": "",
     "string": "烟也同时夺去了夏彦的体力，他越来越扶不住悠里了。"
   },
-  "011624": {
+  "011507": {
     "context": "011624",
     "code": "0x45",
     "developer_comment": "",
     "string": "断断续续的意识中，夏彦仍然——"
   },
-  "011630": {
+  "011518": {
     "context": "011630",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……不能放弃……）"
   },
-  "011636": {
+  "011547": {
     "context": "011636",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（再找找能救出悠里的办法……！）"
   },
-  "011641": {
+  "011552": {
     "context": "011641",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦拼命思考。"
   },
-  "011646": {
+  "011557": {
     "context": "011646",
     "code": "0x45",
     "developer_comment": "",
     "string": "他环顾房间，寻找逃生的手段。"
   },
-  "011651": {
+  "011568": {
     "context": "011651",
     "code": "0x45",
     "developer_comment": "",
     "string": "此时，他发现桌子上有一个数码相框。"
   },
-  "011657": {
+  "011609": {
     "context": "011657",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……）"
   },
-  "011662": {
+  "011614": {
     "context": "011662",
     "code": "0x45",
     "developer_comment": "",
     "string": "是母亲和夏彦在一起的照片。"
   },
-  "011668": {
+  "011619": {
     "context": "011668",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（这里原来是妈妈的房间吗……！）"
   },
-  "011673": {
+  "011624": {
     "context": "011673",
     "code": "0x45",
     "developer_comment": "",
     "string": "这一点点信息，给夏彦的心带去了光明。"
   },
-  "011678": {
+  "011630": {
     "context": "011678",
     "code": "0x45",
     "developer_comment": "",
     "string": "怀中的悠里闭着眼睛，脸色苍白。"
   },
-  "011683": {
+  "011636": {
     "context": "011683",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦想起了和她度过的每一天。"
   },
-  "011688": {
+  "011641": {
     "context": "011688",
     "code": "0x45",
     "developer_comment": "",
     "string": "一起在公园里奔跑、一起在家里玩、一起试胆、以及——"
   },
-  "011693": {
+  "011646": {
     "context": "011693",
     "code": "0x45",
     "developer_comment": "",
     "string": "一起练习传心。"
   },
-  "011699": {
+  "011651": {
     "context": "011699",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……对，传心……！）"
   },
-  "011705": {
+  "011657": {
     "context": "011705",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（发送传心，告诉别人——）"
   },
-  "011711": {
+  "011662": {
     "context": "011711",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（我们在这里！！）"
   },
-  "011761": {
+  "011668": {
     "context": "011761",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦集中起精神。"
   },
-  "011766": {
+  "011673": {
     "context": "011766",
     "code": "0x45",
     "developer_comment": "",
     "string": "他全神贯注，用上吃奶的劲，"
   },
-  "011771": {
+  "011678": {
     "context": "011771",
     "code": "0x45",
     "developer_comment": "",
     "string": "默念出求救的信息。"
   },
-  "011776": {
+  "011683": {
     "context": "011776",
     "code": "0x45",
     "developer_comment": "",
     "string": "是为了生存，也是为了救出悠里。"
   },
-  "011781": {
+  "011688": {
     "context": "011781",
     "code": "0x45",
     "developer_comment": "",
     "string": "周围的声音渐行渐远——"
   },
-  "011786": {
+  "011693": {
     "context": "011786",
     "code": "0x45",
     "developer_comment": "",
     "string": "心之声被释放出来。"
   },
-  "011797": {
+  "011699": {
     "context": "011797",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "『来个人，救救我们！』"
   },
-  "011808": {
+  "011705": {
     "context": "011808",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "『我们在天川博士的房间里！』"
   },
-  "011813": {
+  "011711": {
     "context": "011813",
     "code": "0x45",
     "developer_comment": "",
     "string": "——那是有生以来第一次的传心。"
   },
-  "011818": {
+  "011761": {
     "context": "011818",
     "code": "0x45",
     "developer_comment": "",
     "string": "尽管夏彦从来没用出来过，但这次他觉得，一定是成功了。"
   },
-  "011824": {
+  "011766": {
     "context": "011824",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（好……！继续下去，一直到有人听到为止……！）"
   },
-  "011829": {
+  "011771": {
     "context": "011829",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦继续使用传心。"
   },
-  "011834": {
+  "011776": {
     "context": "011834",
     "code": "0x45",
     "developer_comment": "",
     "string": "五感衰减，外界的情况也感知不到了。"
   },
-  "011839": {
+  "011781": {
     "context": "011839",
     "code": "0x45",
     "developer_comment": "",
     "string": "——片刻之后，夏彦的注意力正要迎来极限之时——"
   },
-  "011844": {
+  "011786": {
     "context": "011844",
     "code": "0x45",
     "developer_comment": "",
     "string": "他听到了一个人的声音。"
   },
-  "011855": {
+  "011797": {
     "context": "011855",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「——彦！夏彦！」"
   },
-  "011866": {
+  "011808": {
     "context": "011866",
     "code": "0x45",
     "developer_comment": "？？",
     "string": "「啊，还有小悠里……！」"
   },
-  "011871": {
+  "011813": {
     "context": "011871",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦一下子回过神，看向声音的主人。"
   },
-  "011946": {
+  "011818": {
     "context": "011946",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0200 004328"
   },
-  "011957": {
+  "011824": {
     "context": "011957",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「太好了，看上去没事！」"
   },
-  "011986": {
+  "011829": {
     "context": "011986",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「我来救你们了！带上悠里赶紧逃吧！」"
   },
-  "011997": {
+  "011834": {
     "context": "011997",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "@auto-import 0018 001476"
   },
-  "012002": {
+  "011839": {
     "context": "012002",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦鞭策自己颤颤巍巍的身体，站了起来。"
   },
-  "012007": {
+  "011844": {
     "context": "012007",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士抱起瘫倒的悠里，奔出房间。"
   },
-  "012155": {
+  "011855": {
     "context": "012155",
     "code": "0x45",
     "developer_comment": "",
     "string": "众人在烟雾中穿行。"
   },
-  "012166": {
+  "011866": {
     "context": "012166",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「有、有地方能逃吗……？」"
   },
-  "012269": {
+  "011871": {
     "context": "012269",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……没事的，第 6 区域有紧急逃生通道」"
   },
-  "012280": {
+  "011946": {
     "context": "012280",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「你们都一定能得救的……放心吧」"
   },
-  "012285": {
+  "011957": {
     "context": "012285",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士的声音中渗透出决心。"
   },
-  "012393": {
+  "011986": {
     "context": "012393",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士穿过一处起火的地方，看上去好像是个工厂。"
   },
-  "012398": {
+  "011997": {
     "context": "012398",
     "code": "0x45",
     "developer_comment": "",
     "string": "在工厂的最深处，有一个门禁——博士跑到那里，从怀中掏出门禁卡。"
   },
-  "012403": {
+  "012002": {
     "context": "012403",
     "code": "0x45",
     "developer_comment": "",
     "string": "在门旁边一刷卡，门就开了。"
   },
-  "012449": {
+  "012007": {
     "context": "012449",
     "code": "0x45",
     "developer_comment": "",
     "string": "门的另一侧是个小房间。似乎是电梯间。"
   },
-  "012514": {
+  "012155": {
     "context": "012514",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「这部电梯是货梯……」# referenced by chunk 237"
   },
-  "012525": {
+  "012166": {
     "context": "012525",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「不能从地上来到地下，但反过来的话，应该在事故时也能运行……！」"
   },
-  "012536": {
+  "012269": {
     "context": "012536",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士走向控制面板，开始操作。"
   },
-  "012565": {
+  "012280": {
     "context": "012565",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「一定要能用啊……！」"
   },
-  "012570": {
+  "012285": {
     "context": "012570",
     "code": "0x45",
     "developer_comment": "",
     "string": "她自言自语地祈祷之时，电梯门伴随着巨响打开了。"
   },
-  "012641": {
+  "012393": {
     "context": "012641",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「好……！得救了！」"
   },
-  "012674": {
+  "012398": {
     "context": "012674",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦等人钻进了电梯里。"
   },
-  "012679": {
+  "012403": {
     "context": "012679",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士把悠里平放在地上，然后操作控制面板，关上了货梯的门。"
   },
-  "012685": {
+  "012449": {
     "context": "012685",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "（……太好了……！）"
   },
-  "012718": {
+  "012514": {
     "context": "012718",
     "code": "0x45",
     "developer_comment": "",
     "string": "同时，夏彦心中紧绷的弦断开——"
   },
-  "012723": {
+  "012525": {
     "context": "012723",
     "code": "0x45",
     "developer_comment": "",
     "string": "他的意识，忽地远去了。"
   },
-  "012780": {
+  "012536": {
     "context": "012780",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……？」"
   },
-  "012791": {
+  "012565": {
     "context": "012791",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「夏彦？！你怎么了！」"
   },
-  "012796": {
+  "012570": {
     "context": "012796",
     "code": "0x45",
     "developer_comment": "",
     "string": "渐渐稀薄的意识中，夏彦感觉听到了母亲的声音。"
   },
-  "012801": {
+  "012641": {
     "context": "012801",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0002 005704"
   },
-  "012806": {
+  "012674": {
     "context": "012806",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0002 005709"
   },
-  "012811": {
+  "012679": {
     "context": "012811",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0002 005714"
   },
-  "012871": {
+  "012685": {
     "context": "012871",
     "code": "0x45",
     "developer_comment": "",
     "string": "——随后，等夏彦醒来——"
   },
-  "012882": {
+  "012718": {
     "context": "012882",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……唔……」"
   },
-  "012946": {
+  "012723": {
     "context": "012946",
     "code": "0x45",
     "developer_comment": "",
     "string": "他发现自己躺在医院的床上。"
   },
-  "013012": {
+  "012780": {
     "context": "013012",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「太好了，你终于醒了！」"
   },
-  "013023": {
+  "012791": {
     "context": "013023",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「啊……妈、妈妈」"
   },
-  "013028": {
+  "012796": {
     "context": "013028",
     "code": "0x45",
     "developer_comment": "",
     "string": "平时冷静的妈妈，到了这时也喜笑颜开。"
   },
-  "013057": {
+  "012801": {
     "context": "013057",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「你可是睡了整整两天呢……真的担心死你了」"
   },
-  "013068": {
+  "012806": {
     "context": "013068",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「不过，只要你没事就好……」"
   },
-  "013073": {
+  "012811": {
     "context": "013073",
     "code": "0x45",
     "developer_comment": "",
     "string": "然而——夏彦用空洞的声音向母亲问道："
   },
-  "013084": {
+  "012871": {
     "context": "013084",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「妈妈……」"
   },
-  "013095": {
+  "012882": {
     "context": "013095",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……悠里呢？」"
   },
-  "013118": {
+  "012946": {
     "context": "013118",
     "code": "0x45",
     "developer_comment": "",
     "string": "他看不到悠里的身影。"
   },
-  "013123": {
+  "013012": {
     "context": "013123",
     "code": "0x45",
     "developer_comment": "",
     "string": "这一问，让博士的笑容凝固了。"
   },
-  "013152": {
+  "013023": {
     "context": "013152",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「夏彦，静下来听我说……」"
   },
-  "013157": {
+  "013028": {
     "context": "013157",
     "code": "0x45",
     "developer_comment": "",
     "string": "博士带着阴沉的表情回答。"
   },
-  "013168": {
+  "013057": {
     "context": "013168",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「小悠里她……」"
   },
-  "013179": {
+  "013068": {
     "context": "013179",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……就在凌晨，断气了……」# 昨夜翻成凌晨，见前面的报纸摘录"
   },
-  "013190": {
+  "013073": {
     "context": "013190",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……嗯？」"
   },
-  "013195": {
+  "013084": {
     "context": "013195",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦没有理解博士在说什么。"
   },
-  "013206": {
+  "013095": {
     "context": "013206",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「…………这」"
   },
-  "013217": {
+  "013118": {
     "context": "013217",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「为什么悠里她……！」"
   },
-  "013246": {
+  "013123": {
     "context": "013246",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「小悠里她身体不好……」"
   },
-  "013257": {
+  "013152": {
     "context": "013257",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「吸进了太多烟，到最后也没有恢复意识……」"
   },
-  "013268": {
+  "013157": {
     "context": "013268",
     "code": "0x45",
     "developer_comment": "美夜子",
     "string": "「……等到今天凌晨……」"
   },
-  "013273": {
+  "013168": {
     "context": "013273",
     "code": "0x45",
     "developer_comment": "",
     "string": "接下来的话也没有进到夏彦的脑子里。他理不清思绪。"
   },
-  "013278": {
+  "013179": {
     "context": "013278",
     "code": "0x45",
     "developer_comment": "",
     "string": "但没过多久，这一事实就渐渐深入夏彦的心中。"
   },
-  "013289": {
+  "013190": {
     "context": "013289",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「这…………」"
   },
-  "013300": {
+  "013195": {
     "context": "013300",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……啊、啊……」"
   },
-  "013311": {
+  "013206": {
     "context": "013311",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……啊啊啊啊啊啊啊！」"
   },
-  "013355": {
+  "013217": {
     "context": "013355",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦稚嫩的哀嚎响遍了夜晚的病房。"
   },
+  "013246": {
+    "context": "013411",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "013257": {
+    "context": "013257",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "a704e06f3a2f78362e38a8fd520099f9_tr"
+  },
+  "013268": {
+    "context": "013268",
+    "code": "0x45",
+    "developer_comment": "美夜子",
+    "string": "769861de65af4145faaa751be38dd5e9_tr"
+  },
+  "013273": {
+    "context": "013273",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "fd8285b557bfd8cf2d4a828e9fbebb45_tr"
+  },
+  "013278": {
+    "context": "013278",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "31585094a34ecfe1b5ab420a6d953d9b_tr"
+  },
+  "013289": {
+    "context": "013289",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "ebf41a97fad0812cfa0c13eca0378add_tr"
+  },
+  "013300": {
+    "context": "013300",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "0457e8349619daf8ad6f4d4001ad5338_tr"
+  },
+  "013311": {
+    "context": "013311",
+    "code": "0x45",
+    "developer_comment": "夏彦",
+    "string": "edbb9d1b111f1c4f742fa15c06145196_tr"
+  },
+  "013355": {
+    "context": "013355",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "123704fda1d357db698b01c0cf5cefd7_tr"
+  },
   "013411": {
     "context": "013411",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "19aedc35d4fe8b3ce89a31dcbe63931e_tr"
   }
 }

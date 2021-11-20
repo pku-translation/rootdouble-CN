@@ -262,15 +262,15 @@
     "string": "√A Bad End 6【失足之人】"
   },
   "000756": {
-    "context": "000756",
+    "context": "000759",
     "code": "0x85",
-    "string": "　"
+    "string": "无视风见的警告，过于关心惠那的结果。"
   },
   "000759": {
-    "context": "000759",
+    "context": "000765",
     "code": "0x45",
     "developer_comment": "",
-    "string": "无视风见的警告，过于关心惠那的结果。"
+    "string": "@auto-import 0105 002396"
   },
   "000762": {
     "context": "000762",
@@ -281,6 +281,6 @@
     "context": "000765",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0105 002396"
+    "string": "b83b6a5ba5ea939d59dd5cdcd8385bfc_tr"
   }
 }

@@ -496,162 +496,162 @@
     "string": "标题：吓到我了……！"
   },
   "001114": {
-    "context": "001114",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001117": {
     "context": "001117",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "发件人：鸟羽真白"
   },
-  "001121": {
-    "context": "001121",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001124": {
+  "001117": {
     "context": "001124",
     "code": "0x45",
     "developer_comment": "",
     "string": "正文："
   },
-  "001128": {
+  "001121": {
     "context": "001128",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "刚刚的，是夏彦的传心吗？"
   },
-  "001132": {
+  "001124": {
     "context": "001132",
     "code": "0x45",
     "developer_comment": "",
     "string": "你果然可以使用传心了啊……恭喜！"
   },
-  "001136": {
+  "001128": {
     "context": "001136",
     "code": "0x45",
     "developer_comment": "",
     "string": "但是第一次使用传心，用来做事务性联络可不好喔。"
   },
-  "001140": {
+  "001132": {
     "context": "001140",
     "code": "0x45",
     "developer_comment": "",
     "string": "顺带一提我现在在“白虎门”。"
   },
-  "001144": {
+  "001136": {
     "context": "001144",
     "code": "0x45",
     "developer_comment": "",
     "string": "我办完事就会好好回到学校的，所以不用担心我哟。"
   },
-  "001181": {
+  "001140": {
     "context": "001181",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「“白虎门”……？她为什么会去那种地方？」"
   },
-  "001186": {
+  "001144": {
     "context": "001186",
     "code": "0x45",
     "developer_comment": "",
     "string": "读完邮件，夏彦摸不着头脑。"
   },
-  "001215": {
+  "001181": {
     "context": "001215",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「那是哪里？」"
   },
-  "001227": {
+  "001186": {
     "context": "001227",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「是城市西边的城门」"
   },
-  "001232": {
+  "001215": {
     "context": "001232",
     "code": "0x45",
     "developer_comment": "",
     "string": "为了维护鹿鸣市的治安，整个城市被围墙圈了起来。"
   },
-  "001237": {
+  "001227": {
     "context": "001237",
     "code": "0x45",
     "developer_comment": "",
     "string": "出入口当然是有的。"
   },
-  "001242": {
+  "001232": {
     "context": "001242",
     "code": "0x45",
     "developer_comment": "",
     "string": "这出入口就是城市里的六处“城门”，白虎门即其中之一。"
   },
-  "001553": {
+  "001237": {
     "context": "001553",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「……你的传心传到了那里吗？」"
   },
-  "001564": {
+  "001242": {
     "context": "001564",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「看起来似乎是这样的……」"
   },
-  "001569": {
+  "001553": {
     "context": "001569",
     "code": "0x45",
     "developer_comment": "",
     "string": "白虎门离这里有两公里。"
   },
-  "001574": {
+  "001564": {
     "context": "001574",
     "code": "0x45",
     "developer_comment": "",
     "string": "算下来，他的传心作用范围达到了两公里，比之前事故的时候还要远。"
   },
-  "001579": {
+  "001569": {
     "context": "001579",
     "code": "0x45",
     "developer_comment": "",
     "string": "虽然一时间没法相信，但既然真白都收到消息了，应该就是这样没错。"
   },
-  "001780": {
+  "001574": {
     "context": "001780",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「那么，该怎么办？真白说她“办完事就回学校”」#原文“行”为错字"
   },
-  "001791": {
+  "001579": {
     "context": "001791",
     "code": "0x45",
     "developer_comment": "夏彦",
     "string": "「……不行，我们去接她吧。毕竟我们不知道她想办的事情是什么」"
   },
-  "001820": {
+  "001780": {
     "context": "001820",
     "code": "0x45",
     "developer_comment": "サリュ",
     "string": "「明白。一起去吧」"
   },
-  "001825": {
+  "001791": {
     "context": "001825",
     "code": "0x45",
     "developer_comment": "",
     "string": "这个距离并不是无法跑到。"
   },
-  "001830": {
+  "001820": {
     "context": "001830",
     "code": "0x45",
     "developer_comment": "",
     "string": "夏彦二人朝着城门跑去。"
   },
+  "001825": {
+    "context": "001891",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "001830": {
+    "context": "001830",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "c7d70a3470a6dabc579d2e2bdf84c5be_tr"
+  },
   "001891": {
     "context": "001891",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "7c80fa5d7b2df96a2af65c982864cdeb_tr"
   }
 }

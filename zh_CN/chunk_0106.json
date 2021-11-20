@@ -1471,15 +1471,15 @@
     "string": "√A Bad End 5【无勇之人】"
   },
   "004835": {
-    "context": "004835",
+    "context": "004838",
     "code": "0x85",
-    "string": "　"
+    "string": "过于畏手畏脚，%N未能及时搜索 AD 的结果。"
   },
   "004838": {
-    "context": "004838",
+    "context": "004844",
     "code": "0x45",
     "developer_comment": "",
-    "string": "过于畏手畏脚，%N未能及时搜索 AD 的结果。"
+    "string": "在这个结局前一个 Senses 输入中，把其余五人设置的比渡濑高的话，或许就能避开这个结局了。"
   },
   "004841": {
     "context": "004841",
@@ -1490,6 +1490,6 @@
     "context": "004844",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，把其余五人设置的比渡濑高的话，或许就能避开这个结局了。"
+    "string": "8819b2402e85d25757cfdeea261ebb8d_tr"
   }
 }

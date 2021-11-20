@@ -1147,15 +1147,15 @@
     "string": "√D Bad End 3【恶意根植的批评家】"
   },
   "004560": {
-    "context": "004560",
+    "context": "004563",
     "code": "0x85",
-    "string": "　"
+    "string": "宇喜多的恶意排除不完全时的结果。"
   },
   "004563": {
-    "context": "004563",
+    "context": "004569",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多的恶意排除不完全时的结果。"
+    "string": "RAM 系统中，对宇喜多的记忆进行充分的修复的话，或许就能避开这个结局了。 # review：RAM SYSTEM x"
   },
   "004566": {
     "context": "004566",
@@ -1166,6 +1166,6 @@
     "context": "004569",
     "code": "0x45",
     "developer_comment": "",
-    "string": "RAM 系统中，对宇喜多的记忆进行充分的修复的话，或许就能避开这个结局了。 # review：RAM SYSTEM x"
+    "string": "337b39d9347fa2c905cee16443e978eb_tr"
   }
 }

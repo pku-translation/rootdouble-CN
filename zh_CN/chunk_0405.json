@@ -8,7 +8,7 @@
     "context": "000017",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0002 005704"
+    "string": "——————"
   },
   "000022": {
     "context": "000022",
@@ -32,19 +32,19 @@
     "context": "000037",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0119 001782"
+    "string": "………………"
   },
   "000042": {
     "context": "000042",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0049 001401"
+    "string": "…………"
   },
   "000047": {
     "context": "000047",
     "code": "0x45",
     "developer_comment": "",
-    "string": "……それからどれくらい、経ったのだろう……。"
+    "string": "……那之后，到底过去了多久呢……。"
   },
   "000053": {
     "context": "000053",
@@ -56,55 +56,55 @@
     "context": "000064",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0227 001238"
+    "string": "「…………」"
   },
   "000139": {
     "context": "000139",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「…………っ……？」"
+    "string": "「………………？」"
   },
   "000150": {
     "context": "000150",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0216 000154"
+    "string": "「……这……这里是……？」"
   },
   "000193": {
     "context": "000193",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は、病院の一室で、目を覚ました。"
+    "string": "夏彦在一间病房里醒来。"
   },
   "000198": {
     "context": "000198",
     "code": "0x45",
     "developer_comment": "",
-    "string": "全身がひどく痛む。"
+    "string": "他浑身剧痛。"
   },
   "000203": {
     "context": "000203",
     "code": "0x45",
     "developer_comment": "",
-    "string": "手足に包帯が巻かれているのがわかった。"
+    "string": "手上腿上都包裹着绷带。"
   },
   "000209": {
     "context": "000209",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ほ……他の２人は……？）"
+    "string": "（她……她们两个呢……？）"
   },
   "000297": {
     "context": "000297",
     "code": "0x45",
     "developer_comment": "",
-    "string": "隣のベッドを見ると、そこには悠里がいた。"
+    "string": "夏彦看向边上的病床，悠里正躺在那里。"
   },
   "000302": {
     "context": "000302",
     "code": "0x45",
     "developer_comment": "",
-    "string": "同じく全身に包帯を巻かれ、横たわっている。"
+    "string": "和他一样，浑身包裹着绷带。"
   },
   "000307": {
     "context": "000307",
@@ -322,26 +322,26 @@
     "string": "√D ノーマルエンド3【風鳥からの庇護】"
   },
   "001080": {
-    "context": "001080",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001083": {
     "context": "001083",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "タイプＳコミュニケーター３名がラボに残った場合の結末。"
   },
-  "001086": {
-    "context": "001086",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001089": {
+  "001083": {
     "context": "001089",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0402 000445"
+  },
+  "001086": {
+    "context": "001095",
+    "code": "0x85",
+    "string": "@auto-import 0402 000451"
+  },
+  "001089": {
+    "context": "001098",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@auto-import 0402 000454"
   },
   "001092": {
     "context": "001092",
@@ -352,12 +352,12 @@
     "context": "001095",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0402 000451"
+    "string": "69a72a2eab7048f2a4d6007cd409c4e4_tr"
   },
   "001098": {
     "context": "001098",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0402 000454"
+    "string": "5a957bf256bf2e374c6376eced39de53_tr"
   }
 }

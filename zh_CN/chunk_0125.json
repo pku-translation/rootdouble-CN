@@ -226,31 +226,31 @@
     "string": "√A Normal End 【绝望中的结局】"
   },
   "000561": {
-    "context": "000561",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000564": {
     "context": "000564",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "浪费了太多时间，来不及救夏彦，最后谁也没能救到的结果。"
   },
-  "000567": {
-    "context": "000567",
-    "code": "0x85",
-    "string": "　"
-  },
-  "000570": {
+  "000564": {
     "context": "000570",
     "code": "0x45",
     "developer_comment": "",
     "string": "在这个路线中，存在导致浪费过多时间的错误的 Senses 输入。"
   },
+  "000567": {
+    "context": "000573",
+    "code": "0x85",
+    "string": "如果尽量控制时间的浪费，或许就能避开这个结局了。"
+  },
+  "000570": {
+    "context": "000570",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "7846bfae8e5bd61dd65f46e01e9897c4_tr"
+  },
   "000573": {
     "context": "000573",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果尽量控制时间的浪费，或许就能避开这个结局了。"
+    "string": "4a49931dc6f114c327aa4b8ad2cf345a_tr"
   }
 }

@@ -508,15 +508,15 @@
     "string": "√A Bad End 4【迷失之人】"
   },
   "002387": {
-    "context": "002387",
+    "context": "002390",
     "code": "0x85",
-    "string": "　"
+    "string": "错误地判断了应该采用的意见的结果。"
   },
   "002390": {
-    "context": "002390",
+    "context": "002396",
     "code": "0x45",
     "developer_comment": "",
-    "string": "错误地判断了应该采用的意见的结果。"
+    "string": "在这个结局前一个 Senses 输入中，把风见设置得比惠那高的话，或许就能避开这个结局了。"
   },
   "002393": {
     "context": "002393",
@@ -527,6 +527,6 @@
     "context": "002396",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，把风见设置得比惠那高的话，或许就能避开这个结局了。"
+    "string": "d559f385940b69b869b91bc4f8ee0307_tr"
   }
 }

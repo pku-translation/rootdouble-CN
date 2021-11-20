@@ -181,13 +181,15 @@
   },
   "0030": {
     "context": "000C02A8",
-    "developer_comment": "bk CodeCount = %d\n",
+    "developer_comment": "bk CodeCount = %d
+",
     "character_limit": 9,
     "string": "@cp"
   },
   "0031": {
     "context": "000C0294",
-    "developer_comment": "sk CodeCount = %d\n",
+    "developer_comment": "sk CodeCount = %d
+",
     "character_limit": 9,
     "string": "@cp"
   },
@@ -415,7 +417,7 @@
   },
   "0069": {
     "context": "000BD6C0",
-    "developer_comment": "in [\"TITLE_NAME\"].",
+    "developer_comment": "in ["TITLE_NAME"].",
     "character_limit": 9,
     "string": "在「\"TITLE_NAME\"」"
   },

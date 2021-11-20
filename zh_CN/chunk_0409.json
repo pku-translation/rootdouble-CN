@@ -718,26 +718,26 @@
     "string": "――わたしは悟った。まだ何も終わっていないという事を。"
   },
   "002842": {
-    "context": "002842",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002847": {
     "context": "002847",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "だから今度はわたしたちが、彼を救わなければならない。"
   },
+  "002847": {
+    "context": "002856",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "彼が本当に自由になるまで……。"
+  },
   "002851": {
-    "context": "002851",
+    "context": "002865",
     "code": "0x85",
-    "string": "　"
+    "string": "何度でも。"
   },
   "002856": {
     "context": "002856",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼が本当に自由になるまで……。"
+    "string": "2f4cc6573f066b38d5e05e6b6b9828f8_tr"
   },
   "002860": {
     "context": "002860",
@@ -748,6 +748,6 @@
     "context": "002865",
     "code": "0x45",
     "developer_comment": "",
-    "string": "何度でも。"
+    "string": "db1c7eb6ec2b65e291618cbbb8b2fc33_tr"
   }
 }

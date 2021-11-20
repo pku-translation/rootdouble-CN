@@ -490,15 +490,15 @@
     "string": "√A Bad End 12【怀疑之人】"
   },
   "001975": {
-    "context": "001975",
+    "context": "001978",
     "code": "0x85",
-    "string": "　"
+    "string": "不相信 AD 的说明的结果。"
   },
   "001978": {
-    "context": "001978",
+    "context": "001984",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不相信 AD 的说明的结果。"
+    "string": "在这个结局前一个 Senses 输入中，给副队长设定得相当高的话，或许就能避开这个结局了。"
   },
   "001981": {
     "context": "001981",
@@ -509,6 +509,6 @@
     "context": "001984",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，给副队长设定得相当高的话，或许就能避开这个结局了。"
+    "string": "a037dac467bae2fd57677fc894fc27a5_tr"
   }
 }

@@ -448,15 +448,15 @@
     "string": "√D Bad End 2【犹豫不定的激情家】"
   },
   "001766": {
-    "context": "001766",
+    "context": "001769",
     "code": "0x85",
-    "string": "　"
+    "string": "没能下定重要的决定时的结果。"
   },
   "001769": {
-    "context": "001769",
+    "context": "001775",
     "code": "0x45",
     "developer_comment": "",
-    "string": "没能下定重要的决定时的结果。"
+    "string": "@auto-import 0393 002608"
   },
   "001772": {
     "context": "001772",
@@ -467,6 +467,6 @@
     "context": "001775",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0393 002608"
+    "string": "e1473323100f3fb71c25eda6cf857ff4_tr"
   }
 }

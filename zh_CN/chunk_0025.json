@@ -377,700 +377,703 @@
     "string": "“防灾手册（2030年版）”"
   },
   "001124": {
-    "context": "001124",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001127": {
     "context": "001127",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "＜事态 N 发生之前＞"
   },
-  "001130": {
-    "context": "001130",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001133": {
+  "001127": {
     "context": "001133",
     "code": "0x45",
     "developer_comment": "",
     "string": "设施内发生火灾，或者突发事件的时候%N请考虑到发生事态 N 的可能性。"
   },
-  "001136": {
+  "001130": {
     "context": "001136",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "请按照本手册的指示，获取设施内的 AD。"
   },
-  "001139": {
+  "001133": {
     "context": "001139",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果万一确实发生了事态 N，请遵照下文行动："
   },
-  "001143": {
+  "001136": {
     "context": "001143",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "　%N"
   },
-  "001146": {
+  "001139": {
     "context": "001146",
     "code": "0x45",
     "developer_comment": "",
     "string": "＜事态 N 发生时的应对＞"
   },
-  "001149": {
-    "context": "001149",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001152": {
+  "001143": {
     "context": "001152",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "事态 N 发生时，%N第一要务是尽快注射 AD。"
   },
-  "001155": {
+  "001146": {
     "context": "001155",
     "code": "0x45",
     "developer_comment": "",
     "string": "与地上部分相连的通道会由隔离墙所封闭，届时请您切勿慌张。"
   },
-  "001158": {
+  "001149": {
     "context": "001158",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "请保持冷静，进入您附近的房间里，然后等待救援。"
   },
-  "001208": {
+  "001152": {
     "context": "001208",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……哼，要我们等上 9 个小时——说的什么鬼话」"
   },
-  "001219": {
+  "001155": {
     "context": "001219",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「这倒不是…这是系统错误的缘故。正常的话，隔离墙应该很快就能打开的」"
   },
-  "001230": {
+  "001158": {
     "context": "001230",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「等一下，后面还有」"
   },
-  "001268": {
+  "001208": {
     "context": "001268",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "　%N"
   },
-  "001271": {
+  "001219": {
     "context": "001271",
     "code": "0x45",
     "developer_comment": "",
     "string": "＜AD 相关＞"
   },
-  "001274": {
-    "context": "001274",
-    "code": "0x85",
-    "string": "　"
-  },
-  "001277": {
+  "001230": {
     "context": "001277",
     "code": "0x45",
     "developer_comment": "",
     "string": "每个区域都备有 AD。"
   },
-  "001280": {
+  "001268": {
     "context": "001280",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "建议各位职员了解自身所处区域内的 AD 存放处，并定期清点与确认。"
   },
-  "001283": {
+  "001271": {
     "context": "001283",
     "code": "0x45",
     "developer_comment": "",
     "string": "如果在事故发生后，由于 AD 破损等原因，万一数量不够的话，我们在第 1、第 3、第 5 区域内备有更多的 AD。"
   },
-  "001286": {
+  "001274": {
     "context": "001286",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "请尽快获取并注射。"
   },
-  "001349": {
+  "001277": {
     "context": "001349",
-    "code": "0x87",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@ignore"
   },
-  "001358": {
+  "001280": {
     "context": "001358",
     "code": "0x45",
     "developer_comment": "",
     "string": "——手册里还有不少其他条目，不过看起来与现状关系不大。"
   },
-  "001363": {
+  "001283": {
     "context": "001363",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑读罢笑着说道："
   },
-  "001374": {
+  "001286": {
     "context": "001374",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「“配备了更多的 AD”啊……！」"
   },
-  "001393": {
+  "001349": {
     "context": "001393",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「发现了重要的信息啊。谢谢你悠里」"
+    "code": "0x87",
+    "string": "「发现了重要的信息啊。谢谢你悠里」",
+    "developer_comment": "渡瀬"
   },
-  "001422": {
+  "001358": {
     "context": "001422",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「哪、哪里……」"
   },
-  "001427": {
+  "001363": {
     "context": "001427",
     "code": "0x45",
     "developer_comment": "",
     "string": "悠里也笑了，大概稍微有些开心吧。"
   },
-  "001481": {
+  "001374": {
     "context": "001481",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「不过啊，上面说“第 1 、第 3 、第 5 区域里有 AD”……真的有吗？」"
   },
-  "001538": {
+  "001393": {
     "context": "001538",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「第 1 区域，第 3 区域，还有第 5 区域里，真的有预备的 AD 吗？」"
   },
-  "001567": {
+  "001422": {
     "context": "001567",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「这么说来的话，在第 1 区域我们找到了一个放着五支 AD 的医疗箱。说的是这个吧」"
   },
-  "001578": {
+  "001427": {
     "context": "001578",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「唔，比想的要少啊。应该本来是很充足的，但是……」"
   },
-  "001607": {
+  "001481": {
     "context": "001607",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「之前第 1 区域的火灾非常严重。可能大部分都被烧掉了」"
   },
-  "001636": {
+  "001538": {
     "context": "001636",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「那么，第 3 区域呢？」"
   },
-  "001647": {
+  "001567": {
     "context": "001647",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「我们找到了医疗箱，但是是空的。大概已经被谁拿走了」"
   },
-  "001676": {
+  "001578": {
     "context": "001676",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「……真可惜。那还有没搜索过的地方吗？」"
   },
-  "001705": {
+  "001607": {
     "context": "001705",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「有倒是还有……」"
   },
-  "001710": {
+  "001636": {
     "context": "001710",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见看着显示器，说道，"
   },
-  "001761": {
+  "001647": {
     "context": "001761",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「地下 1 层，第 3 区域的外环楼。因为这里的卡槽坏了，没有办法进去」"
   },
-  "001772": {
+  "001676": {
     "context": "001772",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这么说来的话是这样的」"
   },
-  "001777": {
+  "001705": {
     "context": "001777",
     "code": "0x45",
     "developer_comment": "",
     "string": "地图上显示有三条路可以去，有一条被火灾挡住了。"
   },
-  "001782": {
+  "001710": {
     "context": "001782",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见说过，还有一条路“门禁的卡槽烧毁了”。"
   },
-  "001787": {
+  "001761": {
     "context": "001787",
     "code": "0x45",
     "developer_comment": "",
     "string": "剩下的一条路渡濑确认过，卡槽也坏了。"
   },
-  "001816": {
+  "001772": {
     "context": "001816",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「如果灭掉挡路的火的话，应该就可以进去了。但是那样的火用人力去扑的话实在太难了……」"
   },
-  "001821": {
+  "001777": {
     "context": "001821",
     "code": "0x45",
     "developer_comment": "",
     "string": "洵正说着，宇喜多突然喊道："
   },
-  "001850": {
+  "001782": {
     "context": "001850",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「等一下……！？人力做不到的话……！」"
   },
-  "001879": {
+  "001787": {
     "context": "001879",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「好了！如果顺利的话，AD 与火灾这两个问题都可以一并解决了！」"
   },
-  "001890": {
+  "001816": {
     "context": "001890",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「什么！？宇喜多，你想到什么办法了？」"
   },
-  "001919": {
+  "001821": {
     "context": "001919",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「嗯，请看这张地图」"
   },
-  "001924": {
+  "001850": {
     "context": "001924",
     "code": "0x45",
     "developer_comment": "",
     "string": "说着，宇喜多再次操作控制面板。"
   },
-  "001968": {
+  "001879": {
     "context": "001968",
     "code": "0x45",
     "developer_comment": "",
     "string": "出现了一张奇怪的地图。既不像是地下 1 层的，也不像是地下 2 层的。"
   },
-  "001973": {
+  "001890": {
     "context": "001973",
     "code": "0x45",
     "developer_comment": "",
     "string": "说到底，除了第 3 区域以外，也没有关于设备的记载。"
   },
-  "001984": {
+  "001919": {
     "context": "001984",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「这是哪里的地图啊？」"
   },
-  "001995": {
+  "001924": {
     "context": "001995",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「在 1 层和地下 1 层之间，存放设备的区域」"
   },
-  "002006": {
+  "001968": {
     "context": "002006",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「就像是阁楼一样的地方」"
   },
-  "002018": {
+  "001973": {
     "context": "002018",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「然后，我想给你们看的是这里……」"
   },
-  "002068": {
+  "001984": {
     "context": "002068",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「“引擎室”」"
   },
-  "002073": {
+  "001995": {
     "context": "002073",
     "code": "0x45",
     "developer_comment": "",
     "string": "听到这句话，渡濑想起来之前在设施里找到的备忘录。"
   },
-  "002084": {
+  "002006": {
     "context": "002084",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「引擎室该不会是——」"
   },
-  "002095": {
+  "002018": {
     "context": "002095",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「灭火系统的所在地！？」"
   },
-  "002124": {
+  "002068": {
     "context": "002124",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「嗯。现在，洒水器和其他设备全都停止了对吧？」"
   },
-  "002153": {
+  "002073": {
     "context": "002153",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「虽然灭火系统本身因为某种理由停止工作了……」"
   },
-  "002164": {
+  "002084": {
     "context": "002164",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「但是，如果我们能进去，把系统给修复了的话，就可以用它来灭火了对吧」"
   },
-  "002175": {
+  "002095": {
     "context": "002175",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「真的吗！那个引擎室要怎么去呢！？」"
   },
-  "002187": {
+  "002124": {
     "context": "002187",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「是这样的，根据这张地图——」"
   },
-  "002237": {
+  "002153": {
     "context": "002237",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……在这里。刚才提到的“进不去的楼”」"
   },
-  "002248": {
+  "002164": {
     "context": "002248",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「也就是地下 1 层的第 3 区域外环楼里，这个房间有通往引擎室的梯子」"
   },
-  "002259": {
+  "002175": {
     "context": "002259",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「那么如果能设法进去的话——」"
   },
-  "002270": {
+  "002187": {
     "context": "002270",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「不仅可以灭火，还可以拿到 AD！」"
   },
-  "002324": {
+  "002237": {
     "context": "002324",
     "code": "0x45",
     "developer_comment": "",
     "string": "这让渡濑一行兴奋起来了。"
   },
-  "002335": {
+  "002248": {
     "context": "002335",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「队长……这是好消息啊！」"
   },
-  "002346": {
+  "002259": {
     "context": "002346",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「是啊！宇喜多好样的！」"
   },
-  "002375": {
+  "002270": {
     "context": "002375",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「也没有啦……」"
   },
-  "002380": {
+  "002324": {
     "context": "002380",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多似乎有些害羞，挠了挠头。"
   },
-  "002409": {
+  "002335": {
     "context": "002409",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「但问题是，要怎么进去呢……」"
   },
-  "002455": {
+  "002346": {
     "context": "002455",
-    "code": "0x87",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@ignore"
   },
-  "002484": {
+  "002375": {
     "context": "002484",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「是啊，我觉得——应该“灭掉挡路的火”」"
   },
-  "002513": {
+  "002380": {
     "context": "002513",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「不行，火势太强，这样做很危险」"
   },
-  "002524": {
+  "002409": {
     "context": "002524",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「我提议“修好坏掉的卡槽”」"
   },
-  "002530": {
+  "002455": {
     "context": "002530",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "（应该选哪个呢……）"
+    "code": "0x87",
+    "string": "（应该选哪个呢……）",
+    "developer_comment": "渡瀬"
   },
-  "002535": {
+  "002484": {
     "context": "002535",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑想了一下便作出了回答："
   },
-  "002554": {
+  "002513": {
     "context": "002554",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「喂，橘，不去趟通道那边吗？说不定努把力就能把火灭掉对吧？」"
   },
-  "002600": {
+  "002524": {
     "context": "002600",
-    "code": "0x87",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@ignore"
   },
-  "002629": {
+  "002530": {
     "context": "002629",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「话是这么说……」"
   },
-  "002634": {
+  "002535": {
     "context": "002634",
     "code": "0x45",
     "developer_comment": "",
     "string": "风见看起来很不安。"
   },
-  "002646": {
+  "002554": {
     "context": "002646",
     "code": "0x45",
     "developer_comment": "",
     "string": "尽管这样，渡濑还是坚持他的主张。"
   },
-  "002651": {
+  "002600": {
     "context": "002651",
-    "code": "0x02",
+    "code": "0x87",
     "string": "@ignore"
   },
-  "002657": {
+  "002629": {
     "context": "002657",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "（等等……橘这么犹豫的话，还是不去比较好吧……）"
   },
-  "002662": {
+  "002634": {
     "context": "002662",
     "code": "0x45",
     "developer_comment": "",
     "string": "这么想着，渡濑说道。"
   },
-  "002673": {
+  "002646": {
     "context": "002673",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「……不，对不起。还是按橘说的办」"
   },
-  "002684": {
+  "002651": {
     "context": "002684",
-    "code": "0x45",
-    "developer_comment": "渡瀬",
-    "string": "「不知道卡槽不能修理，大家一起挑战一下吧」"
+    "code": "0x02",
+    "string": "「不知道卡槽不能修理，大家一起挑战一下吧」",
+    "developer_comment": "渡瀬"
   },
-  "002699": {
+  "002657": {
     "context": "002699",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「按橘说的办。不知道卡槽不能修理，大家一起挑战一下吧」"
   },
-  "002728": {
+  "002662": {
     "context": "002728",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「是啊。常说“三个臭皮匠赛过诸葛亮”，有六个人的话肯定没问题的」"
   },
-  "002757": {
+  "002673": {
     "context": "002757",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「各位，能帮我这个忙吗？」 "
   },
-  "002786": {
+  "002684": {
     "context": "002786",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「当然」"
   },
-  "002815": {
+  "002699": {
     "context": "002815",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「嗯虽然救人方面我没有经验。机械方面我还是有所了解的，说不定能派上用场」"
   },
-  "002844": {
+  "002728": {
     "context": "002844",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「我……没有什么特别擅长的事……总之，一起去吧」"
   },
-  "002873": {
+  "002757": {
     "context": "002873",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「在就足够了。只要有悠里在，大叔们就会打起精神了」"
   },
-  "002884": {
+  "002786": {
     "context": "002884",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「大叔啊……」"
   },
-  "002907": {
+  "002815": {
     "context": "002907",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑和宇喜多对视了一眼，苦笑着。"
   },
-  "002930": {
+  "002844": {
     "context": "002930",
     "code": "0x45",
     "developer_comment": "",
     "string": "不过，宇喜多马上就恢复了严肃的表情，说道："
   },
-  "002941": {
+  "002873": {
     "context": "002941",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「……既然已经决定了，就快点准备吧」"
   },
-  "002952": {
+  "002884": {
     "context": "002952",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「首先是这张地图，都下载到各位的 PDA 里吧」"
   },
-  "002963": {
+  "002907": {
     "context": "002963",
     "code": "0x45",
     "developer_comment": "風見",
     "string": "「嗯，那就拜托了」"
   },
-  "002968": {
+  "002930": {
     "context": "002968",
     "code": "0x45",
     "developer_comment": "",
     "string": "在风见的应和声中，大家都取出了 PDA。——除了悠里。"
   },
-  "002979": {
+  "002941": {
     "context": "002979",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「嗯？悠里没有 PDA 吗？」"
   },
-  "003008": {
+  "002952": {
     "context": "003008",
     "code": "0x45",
     "developer_comment": "ユウリ",
     "string": "「是，是的……我妈妈不让我带」"
   },
-  "003037": {
+  "002963": {
     "context": "003037",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「看起来管教很严啊，就跟我爸妈一样」"
   },
-  "003066": {
+  "002968": {
     "context": "003066",
     "code": "0x45",
     "developer_comment": "恵那",
     "string": "「这种家庭偶尔也有啊」"
   },
-  "003072": {
+  "002979": {
     "context": "003072",
     "code": "0x45",
     "developer_comment": "",
     "string": "——总之除了悠里以外，其他人的 PDA 里都下载了地图。"
   },
-  "003101": {
+  "003008": {
     "context": "003101",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「然后就是修理卡槽所必需的螺丝刀了。各位救援队员，你们带了吗？」"
   },
-  "003130": {
+  "003037": {
     "context": "003130",
     "code": "0x45",
     "developer_comment": "洵",
     "string": "「随身带着军刀呢。虽然有点难用，但是姑且能当十字和一字螺丝刀用」"
   },
-  "003141": {
+  "003066": {
     "context": "003141",
     "code": "0x45",
     "developer_comment": "宇喜多",
     "string": "「足够了。剩下的就是试试看了」"
   },
-  "003146": {
+  "003072": {
     "context": "003146",
     "code": "0x45",
     "developer_comment": "",
     "string": "宇喜多接过军刀。渡濑敲了一下他的肩膀，说道。"
   },
-  "003157": {
+  "003101": {
     "context": "003157",
     "code": "0x45",
     "developer_comment": "渡瀬",
     "string": "「准备好啦……那么出发吧」"
   },
-  "003162": {
+  "003130": {
     "context": "003162",
     "code": "0x45",
     "developer_comment": "",
     "string": "渡濑一行离开了控制室。"
   },
+  "003141": {
+    "context": "003217",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "@ignore"
+  },
+  "003146": {
+    "context": "003146",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "36e3cb0d20bc8ba8c837faf3dfd0e0ff_tr"
+  },
+  "003157": {
+    "context": "003157",
+    "code": "0x45",
+    "developer_comment": "渡瀬",
+    "string": "801edfefca0f65537edd84664de6662a_tr"
+  },
+  "003162": {
+    "context": "003162",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "eafd48b8dd1b640475f66e4b0c803d6a_tr"
+  },
   "003217": {
     "context": "003217",
     "code": "0x02",
-    "string": "@ignore"
+    "string": "3dda7c51b6d168c0aa57e13c925dac96_tr"
   }
 }

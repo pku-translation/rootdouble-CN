@@ -718,26 +718,26 @@
     "string": "――そして女は語り始めた。"
   },
   "002068": {
-    "context": "002068",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002073": {
     "context": "002073",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "ある男の３２年間の人生と、%Nそして彼女たちと共に過ごした、９時間の物語を。"
   },
+  "002073": {
+    "context": "002082",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "それを聞き終え、俺は気づく……！%Nまだ何も終わっていないという事に。"
+  },
   "002077": {
-    "context": "002077",
+    "context": "002091",
     "code": "0x85",
-    "string": "　"
+    "string": "胸の奥で熱い火が、静かに燃え始めた気がした。"
   },
   "002082": {
     "context": "002082",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それを聞き終え、俺は気づく……！%Nまだ何も終わっていないという事に。"
+    "string": "5b9f4abfb5a0de74f5d97d77c4caa795_tr"
   },
   "002086": {
     "context": "002086",
@@ -748,6 +748,6 @@
     "context": "002091",
     "code": "0x45",
     "developer_comment": "",
-    "string": "胸の奥で熱い火が、静かに燃え始めた気がした。"
+    "string": "5d35e258539ec7fca16e84dfd47c4558_tr"
   }
 }

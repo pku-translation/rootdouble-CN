@@ -658,43 +658,43 @@
     "string": "√B Bad End 2【不识好歹之人的末路】"
   },
   "002177": {
-    "context": "002177",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002180": {
     "context": "002180",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "@auto-import 0232 002801"
   },
-  "002183": {
-    "context": "002183",
-    "code": "0x85",
-    "string": "　"
-  },
-  "002186": {
+  "002180": {
     "context": "002186",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0232 002807"
   },
-  "002189": {
+  "002183": {
     "context": "002189",
-    "code": "0x45",
-    "developer_comment": "",
+    "code": "0x85",
     "string": "同时在这个结局前一个 Senses 输入中，给纱瑠设定得较高的话，或许就能避开这个结局了。"
   },
-  "002241": {
+  "002186": {
     "context": "002241",
-    "code": "0x85",
+    "code": "0x45",
+    "developer_comment": "",
     "string": "@auto-import 0102 001086"
   },
-  "002244": {
+  "002189": {
     "context": "002244",
     "code": "0x45",
     "developer_comment": "",
     "string": "@auto-import 0233 002174"
+  },
+  "002241": {
+    "context": "002250",
+    "code": "0x85",
+    "string": "@auto-import 0232 002801"
+  },
+  "002244": {
+    "context": "002256",
+    "code": "0x45",
+    "developer_comment": "",
+    "string": "至今为止的过程中，提高纱瑠的好感度，或许就能避开这个结局了。"
   },
   "002247": {
     "context": "002247",
@@ -705,7 +705,7 @@
     "context": "002250",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0232 002801"
+    "string": "2467d4a0af8c679a261b035c777f2e1f_tr"
   },
   "002253": {
     "context": "002253",
@@ -716,6 +716,6 @@
     "context": "002256",
     "code": "0x45",
     "developer_comment": "",
-    "string": "至今为止的过程中，提高纱瑠的好感度，或许就能避开这个结局了。"
+    "string": "f510ab1a0078156afe16efcc7dd520ac_tr"
   }
 }
