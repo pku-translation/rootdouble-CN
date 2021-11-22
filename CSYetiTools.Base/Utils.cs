@@ -6,6 +6,9 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Threading.Tasks;
+using YamlDotNet.Core.Events;
+using YamlDotNet.Core;
+using YamlDotNet.RepresentationModel;
 
 namespace CSYetiTools.Base;
 
@@ -23,6 +26,11 @@ public static class Utils
         Console.ForegroundColor = color;
         Console.WriteLine(msg);
         Console.ForegroundColor = oldColor;
+    }
+
+    public static void PrintWarning(string error)
+    {
+        PrintColored(ConsoleColor.Yellow, error);
     }
 
     public static void PrintError(string error)
@@ -59,6 +67,54 @@ public static class Utils
 
     public static T DeserializeJsonFromFile<T>(FilePath path)
         => DeserializeJson<T>(File.ReadAllText(path, Utf8));
+
+    private class YamlDocEmitter : IEmitter
+    {
+        private readonly TextWriter _writer;
+        private readonly Emitter _inner;
+        private readonly string? _startComment;
+        private readonly bool _mappingEndNewLine;
+
+        public YamlDocEmitter(TextWriter writer, string? startComment = null, bool mappingEndNewLine = false)
+        {
+            _writer = writer;
+            _inner = new Emitter(writer);
+            _startComment = startComment;
+            _mappingEndNewLine = mappingEndNewLine;
+        }
+        public void Emit(ParsingEvent @event)
+        {
+            if (@event is DocumentStart) {
+                if (_startComment != null) {
+                    _inner.Emit(new Comment(_startComment, false));
+                    _writer.WriteLine();
+                }
+                _inner.Emit(new DocumentStart());
+            }
+            else if (@event is MappingEnd) {
+                _inner.Emit(@event);
+                if (_mappingEndNewLine) {
+                    _writer.WriteLine();
+                }
+            }
+            else if (@event is DocumentEnd) {
+                _inner.Emit(new DocumentEnd(true));
+            }
+            else {
+                _inner.Emit(@event);
+            }
+        }
+    }
+
+    public static void WriteYamlDocument(string path, YamlDocument doc, string? startComment, bool mappingEndNewLine)
+    {
+        using var writer = new StreamWriter(path, false, Utf8) { NewLine = "\n" };
+        var yamlStream = new YamlStream(doc);
+        yamlStream.Save(new YamlDocEmitter(writer, startComment, mappingEndNewLine), false);
+    }
+
+    public static T DeserializeYamlFromFile<T>(FilePath path)
+        => new YamlDotNet.Serialization.Deserializer().Deserialize<T>(File.ReadAllText(path, Utf8));
 
     public static T SafeCastEnum<T>(object value) where T : Enum
     {

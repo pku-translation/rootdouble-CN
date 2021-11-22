@@ -213,7 +213,7 @@ public class ExecutableStringPeeker
         return sexpReader.ReadAll().Select(exp => "\n".Join(exp.AsEnumerable<string>())).ToList();
     }
 
-    private void ApplyTranslations(string name, IList<string> references, IList<string> translations)
+    private void ApplyTranslations(string name, IList<string> references, IDictionary<int, string> translations)
     {
         var segs = Segments(name);
         if (segs.Count != references.Count) throw new ArgumentException($"{name}: references({references.Count}) doesnt match segs({segs.Count})");
@@ -233,11 +233,23 @@ public class ExecutableStringPeeker
     {
         foreach (var name in Names) {
             var references = LoadReferences(referenceStringPoolPath, name);
-            var path = translationDirPath / (name.Replace('-', '_') + ".json");
-            if (File.Exists(path)) {
+            var yamlPath = translationDirPath / (name.Replace('-', '_') + ".yaml");
+            var jsonPath = translationDirPath / (name.Replace('-', '_') + ".json");
+            if (File.Exists(yamlPath)) {
                 try {
-                    var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, TranslationInfo>>(path);
-                    var translations = dict.Values.Select(info => info.String).ToList();
+                    using var reader = new StreamReader(yamlPath);
+                    var translations = new YamlDotNet.Serialization.Deserializer().Deserialize<Dictionary<int, string>>(yamlPath);
+
+                    ApplyTranslations(name, references, translations);
+                }
+                catch (Exception exc) {
+                    throw new InvalidDataException($"Error loading {jsonPath}", exc);
+                }
+            }
+            else if (File.Exists(jsonPath)) {
+                try {
+                    var dict = Utils.DeserializeJsonFromFile<SortedDictionary<string, TranslationInfo>>(jsonPath);
+                    var translations = dict.ToDictionary(kv => int.Parse(kv.Key), kv => kv.Value.String);
                     // var offsets = new HashSet<int>(RangeGroups.SelectMany(g => g.Segments.Select(s => s.Offset)));
                     // var translations = dict.Where(kv=> offsets.Contains(Convert.ToInt32(kv.Value.Context, 16)))
                     //     .Select(kv => kv.Value.String).ToList();
@@ -245,7 +257,7 @@ public class ExecutableStringPeeker
                     ApplyTranslations(name, references, translations);
                 }
                 catch (Exception exc) {
-                    throw new InvalidDataException($"Error loading {path}", exc);
+                    throw new InvalidDataException($"Error loading {jsonPath}", exc);
                 }
             }
         }

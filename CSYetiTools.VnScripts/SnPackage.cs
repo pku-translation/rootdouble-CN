@@ -274,37 +274,81 @@ public sealed class SnPackage
     public void ApplyTranslations(FilePath sourceDir, FilePath translationDir,
         bool debugChunkNum = false, bool debugSource = false)
     {
-        var sourceNamesPath = sourceDir / "names.json";
-        var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
-        var transNamesPath = translationDir / "names.json";
-        var transNameDict = File.Exists(transNamesPath)
-            ? Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(transNamesPath)
-            : new SortedDictionary<string, JObject>();
-
-        var nameTable = new Dictionary<string, string>();
-        foreach (var (k, src) in sourceNameDict) {
-            var srcName = (string)src["string"]!;
-            if (transNameDict.TryGetValue(k, out var trans)) {
-                nameTable.Add(srcName, (string)trans["string"]!);
+        if (Directory.EnumerateFiles(translationDir, "*.yaml").Any()) {
+            var sourceNamesPath = sourceDir / "names.json";
+            var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
+            var transNamesPath = translationDir / "names.yaml";
+            var transNameDict = File.Exists(transNamesPath)
+                ? Utils.DeserializeYamlFromFile<SortedDictionary<string, string>>(transNamesPath)
+                : new SortedDictionary<string, string>();
+            var nameTable = new Dictionary<string, string>();
+            foreach (var (k, src) in sourceNameDict) {
+                var srcName = (string)src["string"]!;
+                if (transNameDict.TryGetValue(k, out var trans)) {
+                    nameTable.Add(srcName, trans);
+                }
+                else {
+                    nameTable.Add(srcName, srcName);
+                }
             }
-            else {
-                nameTable.Add(srcName, srcName);
+            var translationsCollection = new Dictionary<int, Dictionary<string, string>>();
+            foreach (var (i, script) in _scripts.WithIndex()) {
+                if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
+                var translationPath = translationDir / $"chunk_{i:0000}.yaml";
+                if (File.Exists(translationPath)) {
+                    var all = Utils.DeserializeYamlFromFile<Dictionary<string, string>>(translationPath);
+                    translationsCollection.Add(i, all);
+                }
             }
+            ApplyTranslations(translationsCollection, nameTable, debugChunkNum, debugSource);
         }
+        else if (Directory.EnumerateFiles(translationDir, "*.json").Any()) {
+            var sourceNamesPath = sourceDir / "names.json";
+            var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
+            var transNamesPath = translationDir / "names.json";
+            var transNameDict = File.Exists(transNamesPath)
+                ? Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(transNamesPath)
+                : new SortedDictionary<string, JObject>();
 
+            var nameTable = new Dictionary<string, string>();
+            foreach (var (k, src) in sourceNameDict) {
+                var srcName = (string)src["string"]!;
+                if (transNameDict.TryGetValue(k, out var trans)) {
+                    nameTable.Add(srcName, (string)trans["string"]!);
+                }
+                else {
+                    nameTable.Add(srcName, srcName);
+                }
+            }
+            var translationsCollection = new Dictionary<int, Dictionary<string, string>>();
+            foreach (var (i, script) in _scripts.WithIndex()) {
+                if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
+                var translationPath = translationDir / $"chunk_{i:0000}.json";
+                if (File.Exists(translationPath)) {
+                    var all = Utils.DeserializeJsonFromFile<Dictionary<string, TranslationInfo>>(translationPath);
+                    translationsCollection.Add(i, all.ToDictionary(kv => kv.Key, kv => kv.Value.String));
+                }
+            }
+
+            ApplyTranslations(translationsCollection, nameTable, debugChunkNum, debugSource);
+        }
+        else {
+            Utils.PrintWarning($"Cannot find any translated files in '{translationDir}'");
+        }
+    }
+
+    private void ApplyTranslations(Dictionary<int, Dictionary<string, string>> translationsCollection, IDictionary<string, string> nameTable, bool debugChunkNum, bool debugSource)
+    {
         var translationTables = Utils.Range(_scripts.Length).Select(i => new Dictionary<int, string>()).ToArray();
 
         foreach (var (i, script) in _scripts.WithIndex()) {
             if (script.Footer.ScriptIndex < 0) continue; // skip non-text scripts
 
-            var translationPath = translationDir / $"chunk_{i:0000}.json";
-            if (File.Exists(translationPath)) {
+            if (translationsCollection.TryGetValue(i, out var translations)) {
                 try {
                     var translationTable = translationTables[i];
-                    var translations = Utils.DeserializeJsonFromFile<SortedDictionary<string, TranslationInfo>>(translationPath);
-                    foreach (var (k, v) in translations) {
+                    foreach (var (k, translation) in translations) {
                         var index = int.Parse(k);
-                        var translation = v.String;
                         var trimmed = translation.Trim();
                         if (trimmed == "@ignore") continue;
                         if (trimmed.StartsWith("@import") || trimmed.StartsWith("@auto-import")) {
