@@ -328,6 +328,8 @@ public static class Program
         snPackage.WriteTo(releaseDir / "data/sn.bin", fontMapping);
         xtx.SaveBinaryTo(releaseDir / "data/font48.xtx");
         if (dumpFontTexture) texture.Save(releaseDir / "font.png");
+
+        Console.WriteLine($"Builded -> {Path.GetFullPath(releaseDir)}");
     }
 
     private static void PatchExe(byte[] bytes)

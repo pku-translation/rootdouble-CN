@@ -238,12 +238,12 @@ public class ExecutableStringPeeker
             if (File.Exists(yamlPath)) {
                 try {
                     using var reader = new StreamReader(yamlPath);
-                    var translations = new YamlDotNet.Serialization.Deserializer().Deserialize<Dictionary<int, string>>(yamlPath);
-
+                    var dict = new YamlDotNet.Serialization.Deserializer().Deserialize<Dictionary<string, string>>(reader);
+                    var translations = dict.ToDictionary(kv => int.Parse(kv.Key), kv => kv.Value);
                     ApplyTranslations(name, references, translations);
                 }
                 catch (Exception exc) {
-                    throw new InvalidDataException($"Error loading {jsonPath}", exc);
+                    throw new InvalidDataException($"Error loading {yamlPath}", exc);
                 }
             }
             else if (File.Exists(jsonPath)) {
