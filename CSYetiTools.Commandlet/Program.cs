@@ -14,6 +14,8 @@ using CSYetiTools.Base;
 using CSYetiTools.Commandlet.FileTypes;
 using CSYetiTools.VnScripts;
 using CSYetiTools.VnScripts.Transifex;
+using YamlDotNet.RepresentationModel;
+using YamlDotNet.Core;
 
 namespace CSYetiTools.Commandlet;
 
@@ -366,8 +368,15 @@ public static class Program
         bytes[offset] = patchValue;
     }
 
-    [UsedImplicitly]
-    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    private class RawTranslations
+    {
+        public string Raw { get; }
+        public FilePath Path { get; }
+        public RawTranslations(string raw, FilePath path)
+            => (Raw, Path) = (raw, path);
+    }
+
+    private static async IAsyncEnumerable<RawTranslations> EnumerateRawTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
     {
         var client = new TransifexClient(token);
         var project = client.Project(projectSlug);
@@ -385,10 +394,7 @@ public static class Program
                     Console.WriteLine($"chunk {chunkIndex:0000} timeout, retrying");
                 }
             }
-            await using (var writer = new StreamWriter(translationDir / $"chunk_{chunkIndex:0000}.json", false, Utils.Utf8)) {
-                writer.NewLine = "\n";
-                await writer.WriteAsync(raw);
-            }
+            yield return new RawTranslations(raw, $"chunk_{chunkIndex:0000}");
             Console.WriteLine($"chunk {chunkIndex:0000} downloaded");
         }
 
@@ -404,11 +410,46 @@ public static class Program
                     Console.WriteLine($"sys/{name} timeout, retrying");
                 }
             }
-            await using (var writer = new StreamWriter(translationDir / "sys" / $"{name.Replace('-', '_')}.json", false, Utils.Utf8)) {
-                writer.NewLine = "\n";
-                await writer.WriteAsync(raw);
-            }
+            yield return new RawTranslations(raw, new FilePath("sys") / $"{name.Replace('-', '_')}");
             Console.WriteLine($"sys/{name} downloaded");
+        }
+    }
+
+    [UsedImplicitly]
+    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    {
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, translationDir, projectSlug, chunkFormatter, sysFormatter, token)) {
+            await using (var writer = new StreamWriter(translationDir / translation.Path + ".json", false, Utils.Utf8) { NewLine = "\n" }) {
+                await writer.WriteAsync(translation.Raw);
+            }
+        }
+    }
+
+    [UsedImplicitly]
+    public static async Task DownloadTranslationsToYaml(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    {
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, translationDir, projectSlug, chunkFormatter, sysFormatter, token)) {
+            var all = Utils.DeserializeJson<Dictionary<string, TranslationInfo>>(translation.Raw);
+            var result = new SortedDictionary<string, string>();
+            foreach (var (key, tr) in all) {
+                if (tr.String.EndsWith("_tr")) {
+                    Utils.PrintWarning($" - Invalid translation in {translation.Path}: [{key}] (context = {tr.Context}) {tr.String}, replace with '@cp'");
+                }
+                else {
+                    result.Add(tr.Context, tr.String);
+                }
+            }
+            var root = new YamlMappingNode();
+            foreach (var (key, tr) in all) {
+                var keyNode = new YamlScalarNode(key) { Style = ScalarStyle.SingleQuoted };
+                if (!result.TryGetValue(key, out var value)) {
+                    value = "@cp";
+                }
+                var valueNode = new YamlScalarNode(value) { Style = value.Contains("\n") ? ScalarStyle.Literal : ScalarStyle.Plain };
+                root.Add(keyNode, valueNode);
+            }
+            var doc = new YamlDocument(root);
+            Utils.WriteYamlDocument(translationDir / translation.Path + ".yaml", doc, null, false);
         }
     }
 

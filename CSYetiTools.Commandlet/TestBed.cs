@@ -53,10 +53,8 @@ internal class TestBed
             var infoTable = JsonConvert.DeserializeObject<Dictionary<string, TranslationInfo>>(File.ReadAllText(file))!;
             var yaml = new YamlMappingNode();
             foreach (var (key, value) in infoTable) {
-                var keyNode = new YamlScalarNode(key);
-                keyNode.Style = ScalarStyle.SingleQuoted;
-                var node = new YamlScalarNode(value.String);
-                node.Style = value.String.Contains('\n') ? ScalarStyle.Literal : ScalarStyle.Plain;
+                var keyNode = new YamlScalarNode(key) { Style = ScalarStyle.SingleQuoted };
+                var node = new YamlScalarNode(value.String) { Style = value.String.Contains('\n') ? ScalarStyle.Literal : ScalarStyle.Plain };
                 yaml.Add(keyNode, node);
             }
             var yamlDoc = new YamlDocument(yaml);

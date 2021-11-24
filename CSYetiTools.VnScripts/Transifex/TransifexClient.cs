@@ -4,6 +4,7 @@ using JetBrains.Annotations;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace CSYetiTools.VnScripts.Transifex;
@@ -76,6 +77,17 @@ public class ResourceApi
 
 public class TransifexClient : IDisposable
 {
+    private static System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create();
+    public static string GetHash(string key, string context)
+    {
+        var data = md5.ComputeHash(Utils.Utf8.GetBytes(key + ":" + context));
+        var builder = new StringBuilder();
+        foreach (var b in data) {
+            builder.Append(b.ToString("x2"));
+        }
+        return builder.ToString();
+    }
+
     [UsedImplicitly]
     private class WrappedResponse
     {

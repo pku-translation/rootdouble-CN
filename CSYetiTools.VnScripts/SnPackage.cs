@@ -350,7 +350,7 @@ public sealed class SnPackage
                     foreach (var (k, translation) in translations) {
                         var index = int.Parse(k);
                         var trimmed = translation.Trim();
-                        if (trimmed == "@ignore") continue;
+                        if (trimmed is "@ignore" or "@cp") continue;
                         if (trimmed.StartsWith("@import") || trimmed.StartsWith("@auto-import")) {
                             var importingInfo = trimmed.StartsWith("@import") ? "importing" : "auto-importing";
                             var segs = trimmed.Split(' ', StringSplitOptions.RemoveEmptyEntries);
