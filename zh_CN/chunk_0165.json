@@ -26,7 +26,7 @@
     "context": "000333",
     "code": "0x45",
     "developer_comment": "",
-    "string": "两名救援队员，就倒在自己眼前。"
+    "string": "两名救援队员，正倒在自己眼前。"
   },
   "000386": {
     "context": "000386",
@@ -38,7 +38,7 @@
     "context": "000453",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这一幕，让夏彦、真白和悠里都愕然了。"
+    "string": "这一幕让夏彦、真白和悠里都愕然了。"
   },
   "000577": {
     "context": "000577",
@@ -50,7 +50,7 @@
     "context": "000583",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（为什么，纱瑠要放倒这两位救援队员啊？！）"
+    "string": "（为什么，纱瑠要把救援队员放倒啊？！）"
   },
   "000588": {
     "context": "000588",
@@ -62,7 +62,7 @@
     "context": "000593",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不过，这些问题的答案，就隐藏在他刚才所看到的事物之中。"
+    "string": "不过，问题的答案，就隐藏在他刚才所看到的事物之中。"
   },
   "000599": {
     "context": "000599",
@@ -80,7 +80,7 @@
     "context": "000611",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（纱瑠把他们放倒了，这也就意味着——）"
+    "string": "（那么，纱瑠把他们放倒了，这也就意味着——）"
   },
   "000730": {
     "context": "000730",
@@ -158,7 +158,7 @@
     "context": "001255",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而纱瑠一侧身，"
+    "string": "然而纱瑠一个箭步，"
   },
   "001302": {
     "context": "001302",
@@ -182,7 +182,7 @@
     "context": "001526",
     "code": "0x45",
     "developer_comment": "",
-    "string": "袭击者蜷成一团滚倒在地，但马上就站了起来，再次扑向纱瑠。# review：我不知道「受身」是什么姿势所以你不能这么翻（"
+    "string": "袭击者蜷成一团滚倒在地，马上又站了起来，再次扑向纱瑠。# review：我不知道「受身」是什么姿势所以你不能这么翻（"
   },
   "001546": {
     "context": "001546",
@@ -206,19 +206,19 @@
     "context": "001791",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「我要在这里打倒这家伙！有个人已经晕倒了，一对一的话应该没问题！」"
+    "string": "「我要在这里打倒这家伙！另一个人已经晕过去了，一对一的话应该没问题！」"
   },
   "001802": {
     "context": "001802",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「那样的话我也——！」"
+    "string": "「那我也——！」"
   },
   "001831": {
     "context": "001831",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「不行，夏彦你们在只会碍手碍脚！如果被抓作人质就麻烦了！」"
+    "string": "「不行，你们只会碍手碍脚！如果被抓作人质就麻烦了！」"
   },
   "001842": {
     "context": "001842",
@@ -242,19 +242,19 @@
     "context": "001933",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦的心中产生了迷惘。"
+    "string": "夏彦依然想留下来。# review：请 check 这样意译是否没问题。"
   },
   "001997": {
     "context": "001997",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但真白抓住夏彦的手腕说："
+    "string": "这时真白握住了夏彦的手臂，劝道："
   },
   "002011": {
     "context": "002011",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「夏彦！按照纱瑠说的做吧！我们在这里只会是累赘！」"
+    "string": "「夏彦，我们走吧！纱瑠说的没错，我们留下来反而碍事！」"
   },
   "002040": {
     "context": "002040",
@@ -266,79 +266,79 @@
     "context": "002045",
     "code": "0x45",
     "developer_comment": "",
-    "string": "真白和悠里说的是对的。"
+    "string": "虽然心里不甘，但她们两个说的确实在理。"
   },
   "002050": {
     "context": "002050",
     "code": "0x45",
     "developer_comment": "",
-    "string": "为了斩断挫败感，夏彦说道："
+    "string": "夏彦心一横，说道：# 前半句挪到上面去了。"
   },
   "002131": {
     "context": "002131",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「纱瑠，约好了啊！一定要一起逃出去！」"
+    "string": "「纱瑠，我们说好了！一定要一起逃出去！」"
   },
   "002160": {
     "context": "002160",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「我们找到出口，就在那儿等你！」"
+    "string": "「找到出口之后，我们就在那里等你！」"
   },
   "002204": {
     "context": "002204",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后转过身，与真白、悠里一起跑开。"
+    "string": "夏彦转过身去，和真白、悠里一道跑了起来。"
   },
   "002351": {
     "context": "002351",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「去“内环楼”吧！那里应该还有安全梯！」"
+    "string": "「去“内环楼”吧！那里也有安全梯！」"
   },
   "002451": {
     "context": "002451",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听从真白的提案，夏彦他们跑过连接通道。"
+    "string": "在真白的建议下，三人冲入了连接通道。"
   },
   "002463": {
     "context": "002463",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一边跑，夏彦一边思索。"
+    "string": "夏彦一边跑一边思索："
   },
   "002469": {
     "context": "002469",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（话虽如此，我为什么又想起了之前的事情……？！）"
+    "string": "（说起来，我怎么又想起前几天的事情了……！）"
   },
   "002474": {
     "context": "002474",
     "code": "0x45",
     "developer_comment": "",
-    "string": "刚才的一瞬间，夏彦清晰地想起了 9 月 12 日发生的事情。"
+    "string": "刚才有那么一瞬，夏彦清晰地想起了 9 月 12 日发生的事情。"
   },
   "002480": {
     "context": "002480",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（为什么像这样一次次地……？）"
+    "string": "（一而再再而三地，怎么回事啊……？）"
   },
   "002485": {
     "context": "002485",
     "code": "0x45",
     "developer_comment": "",
-    "string": "显然很奇怪。这真的只是回忆而已吗？"
+    "string": "明显不对劲。那些东西真的只是记忆吗？"
   },
   "002490": {
     "context": "002490",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不经意间，他想起了那天纱瑠说过的话："
+    "string": "突然间，夏彦想起了纱瑠那天说过的话："
   },
   "002597": {
     "context": "002597",
@@ -356,55 +356,55 @@
     "context": "002679",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——想起来这些的同时，夏彦大吃一惊。"
+    "string": "——想到这一点，夏彦心下一惊："
   },
   "002685": {
     "context": "002685",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（该不会我看见的这些，都是某种幻觉？）"
+    "string": "（难道说，我看到的那些东西，也都是某种幻觉？！）"
   },
   "002690": {
     "context": "002690",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不过几天前为止，夏彦等人都还处在平稳的日子里。"
+    "string": "仅仅几天之前，他们四个还在安稳地生活着。"
   },
   "002759": {
     "context": "002759",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而现在却像这样，生命受到威胁。"
+    "string": "但现在却身处险境，时刻都有性命之虞。"
   },
   "002764": {
     "context": "002764",
     "code": "0x45",
     "developer_comment": "",
-    "string": "要说夏彦对此不后悔那是不可能的。"
+    "string": "不后悔是不可能的。"
   },
   "002769": {
     "context": "002769",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦不知道，自己是不是想要回到那样平静的日子。"
+    "string": "夏彦自己也不清楚，自己之所以总是想起前几天的事情，究竟是因为想要回到那种平稳的生活里去呢，# review：加了一句让逻辑更通顺，请核实意思没错。"
   },
   "002774": {
     "context": "002774",
     "code": "0x45",
     "developer_comment": "",
-    "string": "又或许是在逃避现实，躲进回忆里？"
+    "string": "还是单纯因为想逃避现实，于是躲到回忆里去了呢。"
   },
   "002780": {
     "context": "002780",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（大脑还能擅自产生这种影响……？）"
+    "string": "（大脑居然还能擅自这么干吗……？）"
   },
   "002785": {
     "context": "002785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但就算是那样，也无法改变现实。"
+    "string": "但就算那样，现实总归是改变不了的。"
   },
   "002790": {
     "context": "002790",
@@ -416,19 +416,19 @@
     "context": "002960",
     "code": "0x45",
     "developer_comment": "",
-    "string": "它受到爆炸的冲击，停在了“9 月 16 日，6 时 19 分”。"
+    "string": "先前的爆炸把它震坏了，显示的时间停在了“9 月 16 日，6 时 19 分”。"
   },
   "002965": {
     "context": "002965",
     "code": "0x45",
     "developer_comment": "",
-    "string": "每当回忆结束的时候，这只表就会映入眼帘。"
+    "string": "说起来，回忆结束的时候，这只手表总会出现在视野里，"
   },
   "002970": {
     "context": "002970",
     "code": "0x45",
     "developer_comment": "",
-    "string": "将夏彦拉回到现实。"
+    "string": "就好像有意把自己拉回现实一样。# review：反正我不想翻成「就好像是它把自己拉回现实的一样」。"
   },
   "003056": {
     "context": "003056",
@@ -440,67 +440,67 @@
     "context": "003062",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（这个命令，是在和逃避现实的影响相互对抗吗？）"
+    "string": "（这道命令，是在对抗那股让自己逃避的力量吗？）# 我觉得这里不用提“相互”。"
   },
   "003136": {
     "context": "003136",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果是这样，那也就不奇怪了。"
+    "string": "如果确实如此，倒也正常："
   },
   "003141": {
     "context": "003141",
     "code": "0x45",
     "developer_comment": "",
-    "string": "如果不能面对现实的话，恐怕夏彦他们早就命丧黄泉了吧。"
+    "string": "倘若自己不能直面现实，恐怕他们四个现在都已经死了。"
   },
   "003147": {
     "context": "003147",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（不……总觉得不只是这个原因……）"
+    "string": "（不对……总觉得事情没这么单纯……）"
   },
   "003153": {
     "context": "003153",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（刚才开始，每次想起之前的记忆时，总是会——）"
+    "string": "（这几次触发回忆的时候，无一例外地——）"
   },
   "003361": {
     "context": "003361",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一边这样想一边朝悠里瞥过去时，真白大声喊道。"
+    "string": "想到这里，夏彦向悠里看了过去。这时真白的声音把他从思考中拉了回来："
   },
   "003509": {
     "context": "003509",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「找到了，安全梯！」"
+    "string": "「到啦，里面就是安全梯！」"
   },
   "003520": {
     "context": "003520",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「！等下，让我先去确认！」"
+    "string": "「！等一下，我先进去看看！」"
   },
   "003553": {
     "context": "003553",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦这样答道，然后走进楼梯间。"
+    "string": "夏彦开门走了进去。"
   },
   "003721": {
     "context": "003721",
     "code": "0x45",
     "developer_comment": "",
-    "string": "楼梯安然无恙。"
+    "string": "楼梯完好无损。"
   },
   "003726": {
     "context": "003726",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而走上楼梯的时候，听到从上方传来什么东西的声音。"
+    "string": "三人沿着楼梯向上爬去。突然间，他们注意到头顶有动静。"
   },
   "003953": {
     "context": "003953",
@@ -512,31 +512,31 @@
     "context": "003964",
     "code": "0x45",
     "developer_comment": "",
-    "string": "朝楼梯上看去，是穿着防护服的人的身影。"
+    "string": "探身一看，那里有个穿着防护服的人。"
   },
   "003975": {
     "context": "003975",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「刚才那些人的同伙？！」"
+    "string": "「那两个人的同伙？！」"
   },
   "003981": {
     "context": "003981",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（不妙，这家伙要是朝着纱瑠那边去了的话——！）"
+    "string": "（坏了，如果他也去了纱瑠那边——！）"
   },
   "004034": {
     "context": "004034",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦一下子喊起来："
+    "string": "夏彦立即喊道："
   },
   "004045": {
     "context": "004045",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「喂你这家伙！这里，过来这里！」"
+    "string": "「喂！那边的，我在这儿呢，你来吧！」# review：我也不知道该怎么魔改但总之初翻不大人话。"
   },
   "004086": {
     "context": "004086",
@@ -548,109 +548,109 @@
     "context": "004107",
     "code": "0x45",
     "developer_comment": "",
-    "string": "人影犹豫了一下之后，朝着夏彦他们的方向跑来。"
+    "string": "只见他犹豫了一下，便立刻冲了下来。"
   },
   "004235": {
     "context": "004235",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦他们转过身，顺着楼梯跑下去。"
+    "string": "三人转身就跑。"
   },
   "004524": {
     "context": "004524",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就这样下到地下 2 层，然后跑出楼梯间。"
+    "string": "他们一路冲到了地下二层，然后跑出了楼梯间。"
   },
   "004597": {
     "context": "004597",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（可恶，敌人究竟有多少啊？！）"
+    "string": "（可恶啊，到底有多少敌人啊？！）"
   },
   "004602": {
     "context": "004602",
     "code": "0x45",
     "developer_comment": "",
-    "string": "连通地面的楼梯已经被敌方控制了。"
+    "string": "连这处安全梯都被他们控制了。"
   },
   "004607": {
     "context": "004607",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦感到身后有气息正在逼近。"
+    "string": "跑着跑着，夏彦感觉背后的气息越来越近。"
   },
   "004712": {
     "context": "004712",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「怎么办啊夏彦，从哪里跑出去比较好呢？！」"
+    "string": "「夏彦怎么办啊，该从哪里跑出去啊？！」"
   },
   "004723": {
     "context": "004723",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「广播里说过“第 2 区域往后的楼梯仍然完好”！」"
+    "string": "「之前广播里说：“第 2 区域及以后的安全梯还都完好”！」# chunk 140 002159"
   },
   "004752": {
     "context": "004752",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「朝第 3 区域那边去吧！从那里应该能逃掉！」"
+    "string": "「我们去第 3 区域吧！那边肯定能逃出去的！」"
   },
   "004781": {
     "context": "004781",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「但、但是第 3 区域在哪边？！」"
+    "string": "「但，但是第 3 区域在哪里啊？！」"
   },
   "004810": {
     "context": "004810",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「我知道路，这边！」"
+    "string": "「我知道怎么走，这边！」"
   },
   "004842": {
     "context": "004842",
     "code": "0x45",
     "developer_comment": "",
-    "string": "跟着悠里，夏彦和真白跑向第 3 区域。"
+    "string": "悠里带着他们向第 3 区域跑去。"
   },
   "005075": {
     "context": "005075",
     "code": "0x45",
     "developer_comment": "",
-    "string": "跑过连接通道，"
+    "string": "他们经过了连接通道，"
   },
   "005219": {
     "context": "005219",
     "code": "0x45",
     "developer_comment": "",
-    "string": "朝着第 3 区域内环楼的安全梯跑去。"
+    "string": "来到了第 3 区域内环楼的楼梯间门口。"
   },
   "005389": {
     "context": "005389",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但看起来并不能从那里跑掉。"
+    "string": "然而进去一看，此路不通："
   },
   "005394": {
     "context": "005394",
     "code": "0x45",
     "developer_comment": "",
-    "string": "连接地下 2 层和地下 1 层的部分仍然完好，但再往上连通地面的部分被炸毁了。"
+    "string": "上到地下 1 层倒是没问题，但再往上的那一段崩塌了。"
   },
   "005405": {
     "context": "005405",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「可恶，连这里也不行吗！」"
+    "string": "「可恶，这里也不行！」"
   },
   "005510": {
     "context": "005510",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「夏彦，那边！那边的楼梯，还没有看过！」"
+    "string": "「夏彦，还有那边！那边的楼梯我们还没看呢！」"
   },
   "005521": {
     "context": "005521",
@@ -662,43 +662,43 @@
     "context": "005580",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到真白的叫唤，夏彦他们又跑了起来。"
+    "string": "于是三人回到了走廊里，"
   },
   "005732": {
     "context": "005732",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就这样跑向第 3 区域最后的楼梯间。"
+    "string": "向第 3 区域剩下的那处楼梯间跑去。"
   },
   "005876": {
     "context": "005876",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（一定要完好啊……！）"
+    "string": "（但愿它还完好……！）"
   },
   "005950": {
     "context": "005950",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一边祈祷着，一边打开楼梯间的门。"
+    "string": "夏彦一边祈祷着，一边把门打开了。"
   },
   "006203": {
     "context": "006203",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这条楼梯仍然完好。从地下 2 层到地上部分，全部都安然无恙。"
+    "string": "这道楼梯依旧完好。从地下 2 层一直到地面以上都没有损坏。"
   },
   "006214": {
     "context": "006214",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「太好了，这样就可以放心——」"
+    "string": "「太好啦，终于能放心——」"
   },
   "006219": {
     "context": "006219",
     "code": "0x45",
     "developer_comment": "",
-    "string": "真白刚说出口的瞬间，"
+    "string": "正说着，"
   },
   "006402": {
     "context": "006402",
@@ -710,7 +710,7 @@
     "context": "006407",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦他们的眼前发生了爆炸。"
+    "string": "他们眼前发生了爆炸。"
   },
   "006512": {
     "context": "006512",
@@ -722,37 +722,37 @@
     "context": "006523",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「你们俩、危险！」"
+    "string": "「两位、危险！」"
   },
   "006595": {
     "context": "006595",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦急忙护住女孩子们，趴到楼梯间的角落里。"
+    "string": "夏彦连忙护住她们，趴到楼梯间的墙角处。"
   },
   "006609": {
     "context": "006609",
     "code": "0x45",
     "developer_comment": "",
-    "string": "感觉到热浪从头上卷过。"
+    "string": "身后一道热浪卷过。"
   },
   "006701": {
     "context": "006701",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「呜……悠里、真白，没事吧？」"
+    "string": "「呃……悠里，真白，没事吧？」"
   },
   "006706": {
     "context": "006706",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到夏彦的询问，她们用发抖的声音回答。"
+    "string": "两人带着颤音回应道："
   },
   "006763": {
     "context": "006763",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「没、没问题，可是……」"
+    "string": "「没，没事，但……」"
   },
   "006838": {
     "context": "006838",
@@ -770,34 +770,34 @@
     "context": "007049",
     "code": "0x45",
     "developer_comment": "",
-    "string": "回头看去，楼梯在刚才的爆炸中垮塌了。"
+    "string": "仰头望去，楼梯已经彻底炸塌了。"
   },
   "007054": {
     "context": "007054",
     "code": "0x45",
     "developer_comment": "",
-    "string": "连回到地上一层都不可能了。"
+    "string": "连地下一层都上不去了。"
   },
   "007059": {
     "context": "007059",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——这时，不知第几次的广播响起。"
+    "string": "——这时，他们听到了响起过不知多少次的广播："
   },
   "007125": {
     "context": "007125",
     "code": "0x85",
-    "string": "「……区域为止的楼梯，已经全部垮塌！"
+    "string": "「……区域及以前的楼梯，已经全部垮塌了！"
   },
   "007127": {
     "context": "007127",
     "code": "0x85",
-    "string": "但第 5、第 6 区域的楼梯仍然完好！」"
+    "string": "　但第 5、第 6 区域的楼梯仍然完好！」"
   },
   "007131": {
     "context": "007131",
     "code": "0x86",
-    "string": "「……区域为止的楼梯，已经全部垮塌！但第 5、第 6 区域的楼梯仍然完好！」"
+    "string": "「……区域及以前的楼梯，已经全部垮塌！但第 5、第 6 区域的楼梯仍然完好！」"
   },
   "007140": {
     "context": "007140",
@@ -813,49 +813,49 @@
     "context": "007204",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「是说第 5 区域……？！」"
+    "string": "「第 5 区域……？！」"
   },
   "007209": {
     "context": "007209",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦喃喃道。"
+    "string": "夏彦自言自语道。"
   },
   "007214": {
     "context": "007214",
     "code": "0x45",
     "developer_comment": "",
-    "string": "和纱瑠分开，是在第 2 区域。"
+    "string": "他们是在第 2 区域和纱瑠分开的。"
   },
   "007219": {
     "context": "007219",
     "code": "0x45",
     "developer_comment": "",
-    "string": "要往第 5 区域方向逃，就会和她分开太远。"
+    "string": "如果去了第 5 区域，就跟她离得太远了。"
   },
   "007248": {
     "context": "007248",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「怎、怎么办？去第 5 区域那边吗？」"
+    "string": "「怎，怎么办？去第 5 区域吗？」"
   },
   "007259": {
     "context": "007259",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「不、那样的话不如——」"
+    "string": "「不，那样还不如——」"
   },
   "007264": {
     "context": "007264",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦刚要这么说，悠里就表态了："
+    "string": "但夏彦的话语，被悠里打断了："
   },
   "007359": {
     "context": "007359",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「不行！小彦，快想起你必须要做的事来！」"
+    "string": "「不行的！小彦，快想起自己该做的事情！」"
   },
   "007370": {
     "context": "007370",
@@ -867,73 +867,73 @@
     "context": "007381",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「小彦的任务是什么？！还有要先去完成的事情吧？！」"
+    "string": "「小彦的任务是什么？！必须先把它完成对吧？！」"
   },
   "007392": {
     "context": "007392",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那是与一直以来的她所不同的，严肃认真的声音。"
+    "string": "非比寻常的，认真的语气。"
   },
   "007403": {
     "context": "007403",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「那是……」"
+    "string": "「我……」"
   },
   "007432": {
     "context": "007432",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「那天我应该也说过的」"
+    "string": "「那天我肯定也说过的」"
   },
   "007468": {
     "context": "007468",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「小彦所应该担心的人是——……」"
+    "string": "「小彦应该在乎的——……」# review：check 动词"
   },
   "007473": {
     "context": "007473",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里的话语在这里戛然而止。"
+    "string": "悠里的话语，在这里戛然而止。"
   },
   "007484": {
     "context": "007484",
     "code": "0x45",
     "developer_comment": "",
-    "string": "突然到来的寂静中，响起了表针的声音。"
+    "string": "突如其来的寂静中，响起了表针的走动声。"
   },
   "007490": {
     "context": "007490",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……那一天、吗）"
+    "string": "（……那天，吗）"
   },
   "007496": {
     "context": "007496",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（我们之间的关系，开始变得僵硬的那天……）"
+    "string": "（就是从那天开始，我们几个的关系僵硬了起来……）"
   },
   "007501": {
     "context": "007501",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦已经知道了："
+    "string": "夏彦已经猜到了："
   },
   "007506": {
     "context": "007506",
     "code": "0x45",
     "developer_comment": "",
-    "string": "现在手表显示的是什么时间。"
+    "string": "表盘上所显示的，会是什么。"
   },
   "007722": {
     "context": "007722",
     "code": "0x45",
     "developer_comment": "",
-    "string": "看向手表，上面是“9 月 13 日”的“6 时 49 分”。"
+    "string": "低头看去，那是“9 月 13 日，6 时 49 分”。"
   },
   "007789": {
     "context": "007789",

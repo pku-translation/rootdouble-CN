@@ -2,1417 +2,1417 @@
   "000050": {
     "context": "000050",
     "code": "0x55",
-    "string": "@auto-import 0384 000140"
+    "string": "√Double Chapter6"
   },
   "000062": {
     "context": "000062",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちは渡瀬から、爆弾についての詳細を聞いた。"
+    "string": "夏彦众人从渡濑那里了解了炸弹的情况。"
   },
   "000067": {
     "context": "000067",
     "code": "0x45",
     "developer_comment": "",
-    "string": "解体が不可能な理由と、隔壁開放時刻がズレた理由。"
+    "string": "为什么不能拆掉，以及为什么隔离墙开放时间改变了。"
   },
   "000072": {
     "context": "000072",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして、このままでは全員爆死してしまうという事を――！"
+    "string": "还有，如果继续这样下去的话，所有人都会被炸死——！"
   },
   "000122": {
     "context": "000122",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ど……どうする！？」"
+    "string": "「怎……怎么办！？」"
   },
   "000151": {
     "context": "000151",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「それを考えたいんだ。生き残る術が、何かないか……」"
+    "string": "「这也是我想让大家想的。还有没有活下来的办法……」"
   },
   "000180": {
     "context": "000180",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「頼むみんな、知恵を貸してくれ！」"
+    "string": "「拜托了大家，把智慧借给我们吧！」#review"
   },
   "000185": {
     "context": "000185",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0368 000374"
+    "string": "听到这句话，所有人的表情紧张起来。"
   },
   "000190": {
     "context": "000190",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――爆発まで、あと約２０分しかない。"
+    "string": "——离炸弹爆炸大约只剩 20 分钟。"
   },
   "000195": {
     "context": "000195",
     "code": "0x45",
     "developer_comment": "",
-    "string": "９人は一致団結して、生き延びるための知恵を絞った。"
+    "string": "9 人团结在一起，为了活下去绞尽脑汁。"
   },
   "000206": {
     "context": "000206",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「動けるメンバーは、ぼくら９人全員……」"
+    "string": "「我们 9 个人都可以行动……」"
   },
   "000235": {
     "context": "000235",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だが現状の打破に役立ちそうな品は、もうほとんど残ってない」"
+    "string": "「但是能够打破现状的物品已经不剩什么了」"
   },
   "000264": {
     "context": "000264",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬は先ほど風見が落とした銃を拾う。"
+    "string": "渡濑捡起了刚刚风见丢下的手枪。#怎么掉的"
   },
   "000293": {
     "context": "000293",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「こんなものじゃ、殺し合いはできても……生き残るためには、なんの役にも立たんよ」"
+    "string": "「这个东西虽然能自相残杀……但是对于活下去却派不上什么用场」"
   },
   "000298": {
     "context": "000298",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬はそう言って、銃を懐にしまった。"
+    "string": "说完，渡濑把枪放进了怀里。"
   },
   "000327": {
     "context": "000327",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あと使えるのは、エンジンカッターとか……せいぜい、空気ジャッキとかでしょうか？」"
+    "string": "「还能使用的，就是动力切割机，还有……最多还有充气千斤顶了对吧？」"
   },
   "000356": {
     "context": "000356",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「どれもこれも、今さら役に立つとは思えんね……」"
+    "string": "「不管哪个感觉都派不上用场……」"
   },
   "000413": {
     "context": "000413",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「で、でも諦めちゃダメですよ！」"
+    "string": "「但，但是不能放弃啊！」"
   },
   "000424": {
     "context": "000424",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「爆弾がなんともできないなら、みんなで脱出口を探しましょう！」"
+    "string": "「既然炸弹没办法处理，那大家就来找逃生出口吧！」"
   },
   "000481": {
     "context": "000481",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「難しいと思うわ……６時間さんざん探して見つからなかったものを、あと２０分で探すなんて……」"
+    "string": "「我觉得很难……都找了 6 个小时了什么都没找到，再找 20 分钟也……」"
   },
   "000538": {
     "context": "000538",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「じゃあ、もう１度ＢｒａｉｎＣｅｌｌをハッキングして、隔壁を開放させられないかな！？」"
+    "string": "「那，再次骇入 BrainCell，然后打开隔离墙能行吗！？」"
   },
   "000549": {
     "context": "000549",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「さっき権限を奪い返された時、攻性防壁ってのを起動されて、アリス２号がダウンさせられました」"
+    "string": "「刚刚权限被抢回去的时候，BrainCell 启动了攻性防壁，把爱丽丝 2 号弄坏了」#review"
   },
   "000560": {
     "context": "000560",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「母さんが用意したハッキングソフトは、もう使えないでしょう」"
+    "string": "「也没有办法再使用妈妈准备的黑客攻击软件了吧」#ハッキングソフト 待统一"
   },
   "000617": {
     "context": "000617",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「でも念のため、試してみるのは……？」"
+    "string": "「但是万一能用呢，要不要试试……？」"
   },
   "000628": {
     "context": "000628",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……やってみようか」"
+    "string": "「……试试吧」"
   },
   "000682": {
     "context": "000682",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちはとりあえず、制御室に移動した。"
+    "string": "众人总之先来到了控制室。"
   },
   "000811": {
     "context": "000811",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこでアリス２号を、ＢｒａｉｎＣｅｌｌに繋いだ。"
+    "string": "在那里，他们把爱丽丝 2 号连接上 BrainCell。"
   },
   "000816": {
     "context": "000816",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが無論、ＢｒａｉｎＣｅｌｌにはなんの反応もない。"
+    "string": "但是毫无疑问，BrainCell 并没有任何反应。"
   },
   "000836": {
     "context": "000836",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「やっぱり、一回こっきりのチャンスだったんだ……！」"
+    "string": "「这果然是一次性的吗……！」"
   },
   "000841": {
     "context": "000841",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦がそう言った時、サリュがぽつりと呟いた。"
+    "string": "夏彦说着的时候，纱瑠低声说道。"
   },
   "000924": {
     "context": "000924",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「アリスが……」"
+    "string": "「爱丽丝……」"
   },
   "000935": {
     "context": "000935",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「まだ、アリス１号が、残ってる」"
+    "string": "「爱丽丝 1 号还在」"
   },
   "000946": {
     "context": "000946",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0005 001803"
+    "string": "「诶？」"
   },
   "000975": {
     "context": "000975",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「天川博士は、アリスに様々なソフトを入れてくれた」"
+    "string": "「天川博士在爱丽丝里装了各种各样的软件」"
   },
   "000986": {
     "context": "000986",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「その中には、用途不明のソフトも入っていた」"
+    "string": "「里面也有一些不知道做什么的软件」"
   },
   "001015": {
     "context": "001015",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「もしかしたら、それが……」"
+    "string": "「有没有可能，里面就有……」"
   },
   "001097": {
     "context": "001097",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュは夏彦たちの返答を待たず、アリス１号をＢｒａｉｎＣｅｌｌに繋いだ。"
+    "string": "纱瑠不等众人的回答，把爱丽丝 1 号连接上了 BrainCell。"
   },
   "001157": {
     "context": "001157",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すると、３つの制御用端末に――"
+    "string": "然后，三个控制终端——"
   },
   "001204": {
     "context": "001204",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あ……っ！」"
+    "string": "「啊……！」"
   },
   "001209": {
     "context": "001209",
     "code": "0x45",
     "developer_comment": "",
-    "string": "認証画面が表示された。"
+    "string": "出现了认证画面。"
   },
   "001220": {
     "context": "001220",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「い、行けそうだ！」"
+    "string": "「好，好像能行！」"
   },
   "001266": {
     "context": "001266",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「でもいいの、サリュ！？　ハッキングに使ったら、この子も壊れちゃうんだよ！？」"
+    "string": "「但是没关系吗，纱瑠！？如果用她来骇入的话，连她也会被弄坏的啊！？」"
   },
   "001295": {
     "context": "001295",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……もちろん、辛い」"
+    "string": "「……我当然，很痛苦」"
   },
   "001306": {
     "context": "001306",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「アリスは私の、心の一部だから……」"
+    "string": "「毕竟爱丽丝是我心灵的一部分……」"
   },
   "001335": {
     "context": "001335",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「だけど皆が死ぬのはもっと辛い」"
+    "string": "「但是大家死去的话我会更痛苦」"
   },
   "001364": {
     "context": "001364",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「ここを出たら、私が必ずアリスを治す。生きてさえいれば、それもできるはずだから」"
+    "string": "「只要从这里出去，我肯定能修好爱丽丝的。只要我们还活着，就总是能做到的」"
   },
   "001375": {
     "context": "001375",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「あぁ……だな」"
+    "string": "「嗯……是啊」"
   },
   "001433": {
     "context": "001433",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、皆が喜色を浮かべたが――"
+    "string": "听到这句话，大家都面露喜色，但——"
   },
   "001462": {
     "context": "001462",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「いや、待ってくれ！」"
+    "string": "「不，等一下！」"
   },
   "001473": {
     "context": "001473",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「権限を奪って隔壁を開放しても、３０秒が過ぎたら、ＢｒａｉｎＣｅｌｌが再びケースＮを発令するはずだ！」"
+    "string": "「即使我们夺取权限打开了隔离门，在 30 秒以后，BrainCell 也会再次发布事态 N 警报的！」"
   },
   "001484": {
     "context": "001484",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0002 003339"
+    "string": "「诶！？」"
   },
   "001513": {
     "context": "001513",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「皆、あれを見ろ！」"
+    "string": "「大家，看看那个！」"
   },
   "001548": {
     "context": "001548",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多がモニターに表示されている、『Ｎエリアのエネルギー量』を指差した。"
+    "string": "宇喜多指着显示器上显示的“N 区域能量”。"
   },
   "001553": {
     "context": "001553",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこには『１５３９ｍＳｖ』という数値が……。"
+    "string": "上面显示着“1539 mSv”……"
   },
   "001584": {
     "context": "001584",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「ケースＮの発令条件は、『ＮエリアのＷＸ粒子エネルギー量が、１ｍＳｖ以上になっている』という事」"
+    "string": "「发布事态 N 警报的条件是，“N 区域的 WX 粒子能量超过 1 mSv”」"
   },
   "001595": {
     "context": "001595",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「そして『被験体がＮエリアもしくは第５エリア外に出ている』という事だ」"
+    "string": "「以及“实验对象到 N 区域或者第 5 区域外”」"
   },
   "001624": {
     "context": "001624",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「皆で脱出するためには、この条件に必ず引っかかってしまう……！」"
+    "string": "「全员逃生一定会违反这两个条件……！」"
   },
   "001629": {
     "context": "001629",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多の悲痛な声に、夏彦たちは愕然とした。"
+    "string": "听到宇喜多悲伤的声音，众人愣住了。#其实愕然这个词本身也是汉语啊"
   },
   "001640": {
     "context": "001640",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「つまり、こういう事ですか……！？」"
+    "string": "「也就是说，是这样的吗……！？」"
   },
   "001651": {
     "context": "001651",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「隔壁を開放しても３０秒後には、隔壁はまた閉まってしまう」"
+    "string": "「隔离墙打开 30 秒以后，隔离墙又会再次关闭」"
   },
   "001680": {
     "context": "001680",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「そして隔壁を開放する作業には、３人必要――……」"
+    "string": "「然后为了让隔离墙打开，需要 3 个人——……」"
   },
   "001709": {
     "context": "001709",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「６人を外に逃がすために……３人、地下に残らなきゃならないって事だな」"
+    "string": "「为了 6 个人逃脱……3 个人必须要留在地下」"
   },
   "001770": {
     "context": "001770",
     "code": "0x45",
     "developer_comment": "全員",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "001775": {
     "context": "001775",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、皆が息を呑んだ。"
+    "string": "此言一出，大家都屏住了呼吸。"
   },
   "001780": {
     "context": "001780",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦たちにつきつけられた答え。"
+    "string": "这就是展现在众人面前的答案。#review"
   },
   "001785": {
     "context": "001785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『制御室に３人残り、ＢｒａｉｎＣｅｌｌの権限を奪い、隔壁を強制開放する』"
+    "string": "“控制室里留下 3 个人，夺取 BrainCell 的权限，强制打开隔离墙”"
   },
   "001791": {
     "context": "001791",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（すると少なくとも６人は、爆発前に脱出できる……！）"
+    "string": "（然后至少 6 个人可以在爆炸之前逃生……！）"
   },
   "001797": {
     "context": "001797",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（だけど、９人のうち……３人は死ななきゃならない！）"
+    "string": "（但是，9 个人里……有 3 个人必须要死！）"
   },
   "001802": {
     "context": "001802",
     "code": "0x45",
     "developer_comment": "",
-    "string": "かつて渡瀬に突きつけられた問いが、いま再び夏彦たちに突きつけられた。"
+    "string": "这个渡濑面临的问题，此时此刻再次摆在了所有人面前。"
   },
   "001937": {
     "context": "001937",
     "code": "0x45",
     "developer_comment": "",
-    "string": "天川美夜子研究室で３０本のＡＤを発見した時、渡瀬は思った。"
+    "string": "在天川美夜子的实验室里发现 30 支 AD 的时候，渡濑就在思索。"
   },
   "001942": {
     "context": "001942",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『９人のうち、生き残れるのは６人だけ』と。"
+    "string": "“9 个人里，能活下来的只有 6 个人”"
   },
   "001947": {
     "context": "001947",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『９－３＝６』というあの式――それがまたしても、夏彦たちを縛る。"
+    "string": "名为“9 - 3 = 6”这个算式——再次将众人束缚住了。"
   },
   "001997": {
     "context": "001997",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（じゃあ、その３人に選ばれるのは誰だ……！？）"
+    "string": "（那，我们应该选择哪 3 个人……！？）"
   },
   "002003": {
     "context": "002003",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（生き残る６人は、誰なんだ！？）"
+    "string": "（活下来的 6 个人又会是谁！？）"
   },
   "002008": {
     "context": "002008",
     "code": "0x45",
     "developer_comment": "",
-    "string": "この場にいる９人は、これまでの様々な出来事を通じて、心を通わせたはずだ。"
+    "string": "在场的 9 人经过迄今为止的这么多事情，已经心灵相通。"
   },
   "002013": {
     "context": "002013",
     "code": "0x45",
     "developer_comment": "",
-    "string": "主義主張の対立はあっても、この場の誰もが『誰かに死んでほしい』とは思っていないだろう。"
+    "string": "即使他们的想法各异，他们都不希望在场的任何一人死。#review "
   },
   "002018": {
     "context": "002018",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だがそれだけに、誰を残すとしても、それは悲しい選択になる。"
+    "string": "但正因如此，无论留下谁，这都会是一个悲伤的选择。"
   },
   "002024": {
     "context": "002024",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ぼくか渡瀬が、独り自己犠牲を払っても……解決しない）"
+    "string": "（即使是我和渡濑牺牲自己……也解决不了）"
   },
   "002029": {
     "context": "002029",
     "code": "0x45",
     "developer_comment": "",
-    "string": "かつて夏彦が搬出リフトの前で、ましろを逃がした時のように、"
+    "string": "就像之前在货梯前，夏彦让真白逃走，"
   },
   "002034": {
     "context": "002034",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして渡瀬が、Ｎエリアの火災を消しに行った時のように、"
+    "string": "还有渡濑为了灭掉 N 区域的火灾，"
   },
   "002039": {
     "context": "002039",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『自分の命を引き換えにしてでも、皆を助ける』という方法すら選べないのだ。"
+    "string": "就连“牺牲自己的生命来拯救大家”这个方法，也无法选择。"
   },
   "002045": {
     "context": "002045",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……それでも……）"
+    "string": "（……尽管如此……）"
   },
   "002051": {
     "context": "002051",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（それでも、ぼくらは、選ばなきゃならない……！）"
+    "string": "（尽管如此，我们必须要做出选择……！）"
   },
   "002056": {
     "context": "002056",
     "code": "0x45",
     "developer_comment": "",
-    "string": "全員が同じ想いだったろう。"
+    "string": "所有人大概都是一样的想法。"
   },
   "002061": {
     "context": "002061",
     "code": "0x45",
     "developer_comment": "",
-    "string": "絶望的な沈黙が、その場を包む。"
+    "string": "令人绝望的沉默笼罩着这里。"
   },
   "002066": {
     "context": "002066",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――やがて彼女が、ぽつりと答えを口にした。"
+    "string": "——过了一会，一个女声突然说道。"
   },
   "002097": {
     "context": "002097",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「そ……そんなの、答えは決まってるよ」"
+    "string": "「那……那么，答案很显然吧」"
   },
   "002108": {
     "context": "002108",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0038 003295"
+    "string": "「诶？」"
   },
   "002137": {
     "context": "002137",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「答えは、『誰も残さない』」"
+    "string": "「答案就是，“不留下任何人”」"
   },
   "002148": {
     "context": "002148",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「『全員で隔壁の前に行く』……！」"
+    "string": "「“所有人前往隔离墙前”……！」"
   },
   "002153": {
     "context": "002153",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里はそう言って、皆を見た。"
+    "string": "悠里看着大家，说道。"
   },
   "002182": {
     "context": "002182",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ね、そうですよね、みなさん！」"
+    "string": "「我说大家，是这样没错吧！」"
   },
   "002211": {
     "context": "002211",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「爆弾はＺｅｒｏエリアに仕掛けられてるんでしょう？　あんな地下深いところに」"
+    "string": "「炸弹被安装在 Zero 区域没错吧？那里是地下深处」"
   },
   "002240": {
     "context": "002240",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「だったら爆風は、隔壁の前までは達しないかもしれないんですよ？」"
+    "string": "「所以说爆炸的冲击，说不定无法影响到隔离墙前呢？」"
   },
   "002251": {
     "context": "002251",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「それを祈って、みんなで隔壁が自然と開放されるのを待ちましょう！」"
+    "string": "「我们可以寄希望于这一点，大家一起等待隔离墙自然开放！」"
   },
   "002281": {
     "context": "002281",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「そ、そうだよ……！　それがいいよ、悠里！」"
+    "string": "「说，说的没错……！这是个好办法，悠里！」"
   },
   "002315": {
     "context": "002315",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「誰かを犠牲にして、生き延びるなんて……」"
+    "string": "「怎么能牺牲其他人来保全自己的性命……」"
   },
   "002344": {
     "context": "002344",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ね！？」"
+    "string": "「是吧！？」#语气虽然对，但是好像有歧义"
   },
   "002349": {
     "context": "002349",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ましろも悠里の意見に賛同した。"
+    "string": "真白也同意悠里的看法。"
   },
   "002354": {
     "context": "002354",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２人はこの期に及んでも、優しさを忘れていないのだ。"
+    "string": "即使是在这样的环境下，她们也还是那么温柔。#温柔放在这里不对劲，但是我没找到更合理的词"
   },
   "002415": {
     "context": "002415",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（でも、その優しさは……今は、役に立たないんだ）"
+    "string": "（但是，这份温柔……现在派不上用场）"
   },
   "002420": {
     "context": "002420",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の考えを、渡瀬が代弁する。"
+    "string": "渡濑说出了夏彦的想法。"
   },
   "002449": {
     "context": "002449",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……お前たちは、本当に優しいんだな……」"
+    "string": "「……你们两个真的是很温柔啊……」"
   },
   "002478": {
     "context": "002478",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「でも、それはダメだ」"
+    "string": "「但是，这样不好」"
   },
   "002507": {
     "context": "002507",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@auto-import 0002 003339"
+    "string": "「诶！？」"
   },
   "002536": {
     "context": "002536",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「それなら誰か６人を脱出させたあと、残った３人が隔壁の前で待った方がいいだろ？」"
+    "string": "「如果这样的话，为什么不让 6 个人先逃走，剩下 3 个人在隔离墙前等呢？」"
   },
   "002565": {
     "context": "002565",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「で、でも！　残るって誰が――」"
+    "string": "「但，但是！要留下谁——」"
   },
   "002594": {
     "context": "002594",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「それこそ、決まってるさ」"
+    "string": "「那还用说」"
   },
   "002623": {
     "context": "002623",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「少なくとも、俺は残る」"
+    "string": "「至少，我会留下」"
   },
   "002661": {
     "context": "002661",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に、風見と洵が目を見開いた。"
+    "string": "听到这句话，风见和洵睁大了双眼。"
   },
   "002690": {
     "context": "002690",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「そんな、隊長！？」"
+    "string": "「这怎么行，队长！？」"
   },
   "002719": {
     "context": "002719",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「なんだよ、当然だろ？　何しろ爆弾を仕掛けたのは俺なんだからな」"
+    "string": "「怎么了，这不是当然吗？不管怎么说，炸弹是我装的啊」"
   },
   "002748": {
     "context": "002748",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「またそうやって、格好つけて……！」"
+    "string": "「你又这样，装什么帅……！」#我实在是翻不出来了"
   },
   "002777": {
     "context": "002777",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「他人を救うために、自分の命を捨てるのは、馬鹿者のすることでしょう！？」"
+    "string": "「为了救援其他人搭上自己性命的人不是蠢材吗！？」#一致性 0014"
   },
   "002806": {
     "context": "002806",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「その通りだ。俺はテロなんてしでかした大馬鹿野郎だ」"
+    "string": "「说的没错。我就是发动了恐怖袭击的大蠢货」"
   },
   "002835": {
     "context": "002835",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だから自分のした事の始末は、自分でつけたいんだよ」"
+    "string": "「所以说，我要打扫自己留下的烂摊子」"
   },
   "002899": {
     "context": "002899",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "@auto-import 0005 000751"
+    "string": "「……」"
   },
   "002928": {
     "context": "002928",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「だから、あと必要なのは２人だ。地下に残るのは、俺と誰か２人……」"
+    "string": "「所以说还需要两个人。两个人和我一起留在地下……」"
   },
   "002957": {
     "context": "002957",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「あと、２人……！？」"
+    "string": "「还需要两个人……！？」"
   },
   "002962": {
     "context": "002962",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵がそう呟き、黙り込む。"
+    "string": "洵低声重复了一遍，然后安静了下来。"
   },
   "002967": {
     "context": "002967",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そして短い沈黙の後――意を決したように、声を上げた。"
+    "string": "然后在短暂的沉默以后——仿佛下定决心一般说道。"
   },
   "002996": {
     "context": "002996",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「……あと２人か」"
+    "string": "「……还需要两个人」"
   },
   "003025": {
     "context": "003025",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「わかった、わかったよ……！」"
+    "string": "「知道了，我知道了……！」"
   },
   "003030": {
     "context": "003030",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵は透明な眼差しを、風見に向けた。"
+    "string": "洵用透明的视线看向风见。"
   },
   "003059": {
     "context": "003059",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「残ろう、お姉ちゃん」"
+    "string": "「我们留下吧，姐姐」"
   },
   "003070": {
     "context": "003070",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「あたしたち、シリウスの３人が……！」"
+    "string": "「我们 Sirius 的三个人……！」"
   },
   "003114": {
     "context": "003114",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「な……何！？」"
+    "string": "「什……什么！？」"
   },
   "003125": {
     "context": "003125",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「ちょ、ちょっと洵！？」"
+    "string": "「等，等一下洵！？」"
   },
   "003154": {
     "context": "003154",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「私が残るのはいいにしても、どうしてあなたまで！？」"
+    "string": "「我留下来没关系，为什么你也要留下来！？」"
   },
   "003183": {
     "context": "003183",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「隊長とお姉ちゃんだけ残っても、３人には満たないからだよ」"
+    "string": "「因为就算队长和姐姐留下来，也还不够三个人啊」"
   },
   "003194": {
     "context": "003194",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「あたしたちの職務は、人命救助だ」"
+    "string": "「我们的职责就是拯救生命」"
   },
   "003223": {
     "context": "003223",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「そのために、どうしても犠牲が必要なら……仕方ないよね？」"
+    "string": "「为了这一点，如果无论如何都需要牺牲的话……也没有办法对吧？」"
   },
   "003252": {
     "context": "003252",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「そ、それはそうかもしれませんが……！」"
+    "string": "「话，话虽然是这么说……！」"
   },
   "003257": {
     "context": "003257",
     "code": "0x45",
     "developer_comment": "",
-    "string": "風見が止む無く、その意見を認めた。"
+    "string": "风见无可奈何，接受了这个提议。#怪怪的？"
   },
   "003263": {
     "context": "003263",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（１つめの答えが出てしまった……！）"
+    "string": "（这是第一个选项……！）"
   },
   "003268": {
     "context": "003268",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『レスキュー隊である、渡瀬・風見・洵が残る』という答え。"
+    "string": "“救援队的渡濑、风见、洵留下”。"
   },
   "003351": {
     "context": "003351",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、そこに宇喜多が口を挟んだ。"
+    "string": "但是，这时宇喜多插嘴道。"
   },
   "003387": {
     "context": "003387",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「ま……待て！　残るなら、僕が残る！」"
+    "string": "「等……等一下！要留下的话，我留下吧！」"
   },
   "003416": {
     "context": "003416",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「宇喜多さん！？」"
+    "string": "「宇喜多！？」"
   },
   "003427": {
     "context": "003427",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「僕と隊長さんは当事者だ。隊長さんが残るなら、当然僕も残る！」"
+    "string": "「我和队长是当事人。队长留下来了的话，当然我也要留下来！」"
   },
   "003456": {
     "context": "003456",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「だ、駄目ですよ宇喜多さん！」"
+    "string": "「不，不行的宇喜多！」"
   },
   "003485": {
     "context": "003485",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「あなたはあくまで『要救助者』です！　そんな事は認められません！」"
+    "string": "「你再怎么说也是“被困人员”！我无法接受你留下来！」#review"
   },
   "003514": {
     "context": "003514",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「いや、おっさんの言う事は正論だ！　残るのは俺とおっさんと、あと１人だけだ！」"
+    "string": "「不，大叔说的是对的！除了我和大叔，只剩下一个人要留下来了！」"
   },
   "003647": {
     "context": "003647",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――『渡瀬と宇喜多と、あと１人』。"
+    "string": "——“宇喜多和渡濑，和另一个人”"
   },
   "003652": {
     "context": "003652",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉を聞いた瞬間、思わず夏彦は答えていた。"
+    "string": "听到这句话的瞬间，夏彦不假思索地回答道。"
   },
   "003663": {
     "context": "003663",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「だ……だったら、ぼくが残るべきだ！」"
+    "string": "「这……这样的话，我也应该留下！」"
   },
   "003707": {
     "context": "003707",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@auto-import 0054 001378"
+    "string": "「诶！？」"
   },
   "003712": {
     "context": "003712",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その言葉に悠里たちが、はっと振り返る。"
+    "string": "听到这句话，悠里她们立即回过头来。"
   },
   "003741": {
     "context": "003741",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「ど、どうして夏彦が！？」"
+    "string": "「为，为什么夏彦！？」"
   },
   "003752": {
     "context": "003752",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……当事者が残るべきというのなら、ぼくも当事者だからさ」"
+    "string": "「……如果当事人应该留下来的话，那我也是当事人」"
   },
   "003763": {
     "context": "003763",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「隔壁の開放時刻がずれたのは、ぼくのＢＣのせいなんだから……！」"
+    "string": "「毕竟隔离墙的开放时间推迟是因为我的 BC……！」"
   },
   "003786": {
     "context": "003786",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そうして夏彦は、自らの意思で２つ目の答えを出した。"
+    "string": "于是，夏彦按照自己的想法给出了第二个选项。"
   },
   "003791": {
     "context": "003791",
     "code": "0x45",
     "developer_comment": "",
-    "string": "それは『当事者である、夏彦・渡瀬・宇喜多が残る』という答え。"
+    "string": "也就是“作为当事人的，夏彦、渡濑、宇喜多留下”。"
   },
   "003797": {
     "context": "003797",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（できればそんなの、ぼくだって選びたくないし……悠里たちも納得してくれそうにないけど……）"
+    "string": "（当然，如果可以的话我不想选这个选项……悠里他们也不会接受的……）"
   },
   "003802": {
     "context": "003802",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の予測通り、ましろたちが口々に声を上げた。"
+    "string": "和夏彦想的一样，真白她们开口说道。"
   },
   "003831": {
     "context": "003831",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「夏彦、なに言ってんの！？　だからって残る事ないよ！」"
+    "string": "「夏彦，你瞎说什么！？你没有留下来的理由！」"
   },
   "003862": {
     "context": "003862",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「私もそう思う……その程度の事で夏彦を『当事者』と言うのなら、ここにいる全員が当事者のようなもの」"
+    "string": "「我也这么觉得……如果这样就能被称为“当事人”的话，那在场的所有人都是当事人了」"
   },
   "003891": {
     "context": "003891",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「そ、そうだよひこりん……ひこりんが残る事はないよ」"
+    "string": "「对，对啊小彦……小彦没有留下来的原因」"
   },
   "003902": {
     "context": "003902",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「でも……だったら誰が残るって言うんだ……？」"
+    "string": "「但是……这样的话谁留下来……？」"
   },
   "003931": {
     "context": "003931",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@auto-import 0005 000751"
+    "string": "「……」"
   },
   "003936": {
     "context": "003936",
     "code": "0x45",
     "developer_comment": "",
-    "string": "悠里はその問いに、一瞬口をつぐんだが――やがて意を決したように答えた。"
+    "string": "听到这句话，悠里一瞬间沉默了——但很快她仿佛下定决心一般说道。"
   },
   "003965": {
     "context": "003965",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……そうだよね……隊長さんと宇喜多さんが残っても、あと誰か１人は、残らなきゃならないんだから……」"
+    "string": "「……没错……即使队长和宇喜多留下，也必须还要有 1 个人留下来，所以说……」"
   },
   "003994": {
     "context": "003994",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「だ、だったら……やっぱり、わたしが……」"
+    "string": "「也就是……果然我应该……」"
   },
   "004038": {
     "context": "004038",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「だ、ダメだよ悠里！　それもおかしいよ！」"
+    "string": "「不，不行悠里！这样的话太奇怪了！」"
   },
   "004067": {
     "context": "004067",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「お、おかしいのはわかってるよ！」"
+    "string": "「我知道这很奇怪！」"
   },
   "004096": {
     "context": "004096",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「でも、ましろん！　だったらどうすればいいの！？」"
+    "string": "「但是，真白白！那你说怎么办才好！？」"
   },
   "004125": {
     "context": "004125",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「仮に隊長さんと宇喜多さんが残っても、あと１人は誰か残らなきゃならないんだよ！？」"
+    "string": "「假设队长和宇喜多留下来了，也还必须要有 1 个人留下来不是吗！？」"
   },
   "004154": {
     "context": "004154",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「そんな……そんなこと言わないでよ悠里！」"
+    "string": "「不……不要这么说悠里！」"
   },
   "004183": {
     "context": "004183",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「なんでいつもいつも悠里ばっかりが、そんな目に遭わなきゃいけないの！？」"
+    "string": "「为什么每一次每一次必须是悠里来承受不可呢！？」"
   },
   "004194": {
     "context": "004194",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「私はまた、罪悪感抱えて生きてくの！？　こんなのがいつまで続くの！？」"
+    "string": "「我还要继续带着罪恶感活下去吗！？这种事情要持续到什么时候！？」"
   },
   "004223": {
     "context": "004223",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「悠里を残すくらいなら、私が残った方がマシだよ！」"
+    "string": "「与其说悠里留下来，还不如我留下来！」"
   },
   "004252": {
     "context": "004252",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "@auto-import 0004 002426"
+    "string": "「……！」"
   },
   "004281": {
     "context": "004281",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「け、喧嘩は駄目。２人は親友のはず」"
+    "string": "「不，不要吵架。你们关系应该很好的」"
   },
   "004310": {
     "context": "004310",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「だけど、サリュ！　悠里を死なせるわけには――」"
+    "string": "「但是，纱瑠！我不能看着悠里去死——」"
   },
   "004339": {
     "context": "004339",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「そうは言うけど、だったらましろが地下に残るの？　私はましろに死んで欲しくはない。それでも？」"
+    "string": "「话虽这么说，那真白要留下来吗？我也不想真白死啊，就算这样你也要留下来吗？」"
   },
   "004368": {
     "context": "004368",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@auto-import 0004 003271"
+    "string": "「啊……」"
   },
   "004397": {
     "context": "004397",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「もっとも、『私があなたたちの代わりに、地下に残る』とも言えない」"
+    "string": "「不过，我也不能说“我来代替你们留下来吧”」"
   },
   "004426": {
     "context": "004426",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……私は、死にたくない」"
+    "string": "「……我不想死」"
   },
   "004455": {
     "context": "004455",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「皆に出会って、初めて人生が楽しいと思えた」"
+    "string": "「我和你们相遇，第一次感受到人生的快乐」"
   },
   "004466": {
     "context": "004466",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「ようやく、本当の人生が始まったばかりだと思っていた……」"
+    "string": "「我还以为，终于我真正的人生开始了……」"
   },
   "004495": {
     "context": "004495",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「だから、私は……もっと生きたい」"
+    "string": "「所以说，我……还想要活下去」"
   },
   "004524": {
     "context": "004524",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「さ、サリュ……！」"
+    "string": "「纱、纱瑠……！」"
   },
   "004529": {
     "context": "004529",
     "code": "0x45",
     "developer_comment": "",
-    "string": "サリュの心の底から搾り出されるような声に、誰もが黙り込んだ。"
+    "string": "听到纱瑠发自内心的声音，大家都沉默了。"
   },
   "004558": {
     "context": "004558",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……ごめんなさい。私はあなたたちのようにはなれない」"
+    "string": "「……对不起。我没有办法像你们一样」"
   },
   "004587": {
     "context": "004587",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「そ、それが普通だよ……なんにも謝る事なんかないよ」"
+    "string": "「这，这很正常……没有什么好道歉的」"
   },
   "004620": {
     "context": "004620",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう話すサリュたちに、恵那が割って入った。"
+    "string": "惠那加入了对话。"
   },
   "004656": {
     "context": "004656",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そうよ、三ノ宮さん」"
+    "string": "「没错，三之宫」"
   },
   "004685": {
     "context": "004685",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「大人がしでかした事のために、子供が死ぬなんて間違ってるわ」"
+    "string": "「小孩子为了大人做的事情而死是不对的」"
   },
   "004714": {
     "context": "004714",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……かといって、正直……私も死にたくないんだけどね」"
+    "string": "「……也就是说，其实……我也不想死」"
   },
   "004758": {
     "context": "004758",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "@auto-import 0048 001821"
+    "string": "「诶……」"
   },
   "004787": {
     "context": "004787",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「『こんなところで死んでたまるもんですか』――そう思って、肩肘張って、ここまで生き抜いてきたわ」"
+    "string": "「“怎么能死在这里呢”——我想着这一点，才勉强着活到现在的」"
   },
   "004816": {
     "context": "004816",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「『もう充分』なんて思えない。『誰かのために死にたい』とも思えない」"
+    "string": "「我不觉得“已经足够了”。我也不想要“为了他人而牺牲”」"
   },
   "004845": {
     "context": "004845",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「それが本来の人間の姿。動物としての本能……！」"
+    "string": "「这才是人类本来的样子。这是作为动物的本能……！」"
   },
   "004850": {
     "context": "004850",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那がそう言った時、その端正な顔立ちが泣きそうに歪んだ。"
+    "string": "说着，惠那端正的面孔因为哭泣而扭曲了。"
   },
   "004879": {
     "context": "004879",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「だけど……だけどね……」"
+    "string": "「但是……但是啊……」"
   },
   "004890": {
     "context": "004890",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「私、教師なのよね」"
+    "string": "「我，是老师」"
   },
   "004901": {
     "context": "004901",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「自分の生徒を犠牲にするくらいだったら……」"
+    "string": "「如果我的学生要牺牲的话……」"
   },
   "004930": {
     "context": "004930",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「私が、地下に残った方がまだマシ……！」"
+    "string": "「不如换我留下来……！」"
   },
   "004953": {
     "context": "004953",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その意外な言葉に、夏彦は愕然とした。"
+    "string": "听到这句意料之外的话，夏彦愣住了。"
   },
   "004964": {
     "context": "004964",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0037 001231"
+    "string": "「老，老师！？」"
   },
   "004993": {
     "context": "004993",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「何を言ってるの恵那！？　それじゃあなたも、悠里たちと一緒！」"
+    "string": "「你说什么呢惠那！？这样的话你和悠里他们不是一样了吗！」"
   },
   "005022": {
     "context": "005022",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「違うの、私はただ――」"
+    "string": "「不是的，我只是——」"
   },
   "005051": {
     "context": "005051",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「子供を犠牲に生き延びる大人なんて、そんなのは大人じゃないと思うだけよ」"
+    "string": "「觉得牺牲孩子而活下去的大人，就不是大人了」"
   },
   "005062": {
     "context": "005062",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0048 001821"
+    "string": "「诶……」"
   },
   "005091": {
     "context": "005091",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そういう大人たちが、こんな異常な世界を作り上げたんだわ」"
+    "string": "「这样的大人们，创造了这个异常的世界」#review 说的是 LABO 吗"
   },
   "005120": {
     "context": "005120",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「だから私は、あなたたちに知って欲しいの。『立派な大人もいるんだ』って」"
+    "string": "「所以说我，想要让你们知道，“也是存在优秀的大人的”」"
   },
   "005131": {
     "context": "005131",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「当事者じゃなくても、人命救助の任務を背負ってなくても、赤の他人の子供のために、命を張れる大人がいるんだって」"
+    "string": "「即使不是当事者，即使不背负拯救生命的任务，也有为了陌生人的孩子而拼命的大人」"
   },
   "005142": {
     "context": "005142",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「そういう姿を見せておけば、あなたたちはこの社会を呪わずに済むわよね？」"
+    "string": "「如果让你们看到这样的人，你们就不会诅咒这个社会了吧？」"
   },
   "005171": {
     "context": "005171",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「きっと次の世代には――もっとマシな社会になるはずよ」"
+    "string": "「下一代一定会——创造出更加正常的社会的」"
   },
   "005182": {
     "context": "005182",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0005 000751"
+    "string": "「……」"
   },
   "005187": {
     "context": "005187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恐らく恵那のその言葉は、ずっと閉ざしてきた心の奥底から、滲み出てきたものだろう。"
+    "string": "恐怕这是惠那一直深藏在心底想法的自然流露吧。"
   },
   "005192": {
     "context": "005192",
     "code": "0x45",
     "developer_comment": "",
-    "string": "恵那は、本気で『生きたい』と思っている。"
+    "string": "惠那，真的“想活下去”。"
   },
   "005197": {
     "context": "005197",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが一方で、『子供たちを助けたい』と思っている。"
+    "string": "但是另一方面，她“想要拯救孩子们”。"
   },
   "005202": {
     "context": "005202",
     "code": "0x45",
     "developer_comment": "",
-    "string": "生きたいと言う本能を、助けたいという理性がねじ伏せているのだ。"
+    "string": "想要救人的理性，压制住了想要活下去的本能。"
   },
   "005231": {
     "context": "005231",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「……もう、私にはわからない……」"
+    "string": "「……我也不知道了……」"
   },
   "005260": {
     "context": "005260",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「どうすればいいの……？」"
+    "string": "「到底该怎么办……？」"
   },
   "005265": {
     "context": "005265",
     "code": "0x45",
     "developer_comment": "",
-    "string": "その声を聞きながら、夏彦は考えていた。"
+    "string": "听到这句话，夏彦思考起来。"
   },
   "005349": {
     "context": "005349",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（ぼく以外の誰も死なせたくない、けど……ぼくが残る事も、悠里たちは認めないだろう）"
+    "string": "（我不希望自己以外的任何人死，但是……悠里她们不会接受我留下来）"
   },
   "005355": {
     "context": "005355",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（くそ、何か……別の答えはないのか……！？）"
+    "string": "（可恶，没有……没有别的选项了吗……！？）"
   },
   "005360": {
     "context": "005360",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そう思った時――不意に、風見が呟いた。"
+    "string": "就在这时——忽然风见说道。"
   },
   "005396": {
     "context": "005396",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「いや……もう１つだけ、道がある事に気付きました」"
+    "string": "「不……我觉得我们还有一个办法」"
   },
   "005407": {
     "context": "005407",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0038 003295"
+    "string": "「诶？」"
   },
   "005436": {
     "context": "005436",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「私はさきほど、センシズシンパシーに目覚めてしまいました」"
+    "string": "「我刚刚觉醒了感觉同调能力」"
   },
   "005447": {
     "context": "005447",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「これでこの場にいる９人の中に、３人センシズシンパシーの使い手がいる事になります」"
+    "string": "「也就是说，在场的 9 个人里，有 3 个人能够使用感觉同调」"
   },
   "005476": {
     "context": "005476",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「そして、センシズシンパシーの使い手は、仮に脱出できても幽閉対象になるでしょう」"
+    "string": "「然后，能使用感觉同调的人，即使是逃出去了也会被关起来」"
   },
   "005487": {
     "context": "005487",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「な……なにを言いたいんですか、橘さん？」"
+    "string": "「你……你想说什么，橘？」"
   },
   "005517": {
     "context": "005517",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「だったら、ねぇ天川くん、悠里さん」"
+    "string": "「所以，我说天川，悠里」"
   },
   "005528": {
     "context": "005528",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「どうせ幽閉されるのであれば、我々が地下に残るというのは？」"
+    "string": "「反正都要被关起来的话，我们留下来怎么样？」"
   },
   "005539": {
     "context": "005539",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0005 004245"
+    "string": "「这……！」"
   },
   "005544": {
     "context": "005544",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0190 000752"
+    "string": "夏彦说不出话。"
   },
   "005549": {
     "context": "005549",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一応３つ目の答えが出た。"
+    "string": "总之，现在有了第 3 个选项。"
   },
   "005554": {
     "context": "005554",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『センシズシンパシーの使い手が残る』という答え。"
+    "string": "“能使用感觉同调的人留下来”"
   },
   "005559": {
     "context": "005559",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが、それは――"
+    "string": "但是，这一点——"
   },
   "005570": {
     "context": "005570",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ほ……本気で言っているんですか、橘さん……！？」"
+    "string": "「你……你没开玩笑吧，橘……！？」"
   },
   "005600": {
     "context": "005600",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「あ、あなた私の話聞いてたの！？」"
+    "string": "「你，你有在听我说话吗！？」"
   },
   "005611": {
     "context": "005611",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「あなたが残るのは勝手だけど、子供を犠牲にするなって言ってんのよ！」"
+    "string": "「你要不要留下来随便你，但是你怎么能让孩子牺牲！」"
   },
   "005641": {
     "context": "005641",
@@ -1424,49 +1424,49 @@
     "context": "005646",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@auto-import 0127 002032"
+    "string": "风见没有回答。"
   },
   "005651": {
     "context": "005651",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦はなぜ風見がそんな事を言い出したのか、まるでわからなかった。"
+    "string": "夏彦不知道为什么风见会这么说。"
   },
   "005715": {
     "context": "005715",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「おい風見！　よせ、そんな話は！」"
+    "string": "「喂风见！别说这种话！」"
   },
   "005726": {
     "context": "005726",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「決定事項は、『俺が残る』って事だけだ！　それ以外は考えるな！」"
+    "string": "「我们已经决定了“让我留下来”！除此之外的不在考虑范围内！」"
   },
   "005731": {
     "context": "005731",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の言葉で、その議論は打ち切られた。"
+    "string": "渡濑的话终止了讨论。"
   },
   "005779": {
     "context": "005779",
     "code": "0x45",
     "developer_comment": "",
-    "string": "ともあれこれで、３つの答えが出揃った。"
+    "string": "那么现在摆在面前的是 3 个选项。"
   },
   "005832": {
     "context": "005832",
     "code": "0x45",
     "developer_comment": "",
-    "string": "１．『レスキュー隊員である、渡瀬・風見・洵が残る』"
+    "string": "1. “救援队的渡濑、风见、洵留下”#排版是啥"
   },
   "005881": {
     "context": "005881",
     "code": "0x45",
     "developer_comment": "",
-    "string": "２．『当事者である、夏彦・渡瀬・宇喜多が残る』"
+    "string": "2. “作为当事人的，夏彦、渡濑、宇喜多留下”"
   },
   "005935": {
     "context": "005935",
@@ -1482,37 +1482,37 @@
     "context": "006019",
     "code": "0x45",
     "developer_comment": "",
-    "string": "３．『センシズシンパシーの使い手である、夏彦・悠里・風見が残る』"
+    "string": "3. “能使用感觉同调的人，夏彦、悠里、风见留下”"
   },
   "006077": {
     "context": "006077",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――そのどれもが、選びがたい選択肢だった。"
+    "string": "——每一个都是很艰难的选择。"
   },
   "006092": {
     "context": "006092",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……他に、道はないのか……）"
+    "string": "（……还有其他的办法吗……）"
   },
   "006105": {
     "context": "006105",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（誰かが死ななきゃならないのか……！）"
+    "string": "（必须要有人死吗……！）"
   },
   "006117": {
     "context": "006117",
     "code": "0x45",
     "developer_comment": "",
-    "string": "決断の時が迫っている。"
+    "string": "下判断的时候越来越近。"
   },
   "006129": {
     "context": "006129",
     "code": "0x45",
     "developer_comment": "",
-    "string": "『切り捨てる者を誰にするのか』、選ぶ瞬間がすぐ傍まで来ている……！"
+    "string": "“要丢下谁”，做出这个选择的瞬间近在咫尺……！#review"
   },
   "006216": {
     "context": "006216",
@@ -1533,43 +1533,43 @@
     "context": "006242",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――だが、夏彦は――"
+    "string": "——但是，夏彦——"
   },
   "006291": {
     "context": "006291",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……誰かを切り捨てるなんて……）"
+    "string": "（……要丢下谁……）"
   },
   "006297": {
     "context": "006297",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（こんな選択、ぼくにはできない……！）"
+    "string": "（我没有办法做出选择……！）"
   },
   "006302": {
     "context": "006302",
     "code": "0x45",
     "developer_comment": "",
-    "string": "すぐには決断を、下せなかった。"
+    "string": "他没法快速做决定。"
   },
   "006308": {
     "context": "006308",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……ぼくはここまでの間に、全員の記憶を見てきた）"
+    "string": "（……我已经看过了所有人的记忆）"
   },
   "006314": {
     "context": "006314",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（みんなの人生を垣間見て、抱えてきた想いを知ってしまった……！）"
+    "string": "（我窥视了所有人的人生，了解了他们的所思所想……！）"
   },
   "006319": {
     "context": "006319",
     "code": "0x45",
     "developer_comment": "",
-    "string": "皆の記憶の中で聞いてきた言葉が、耳に蘇る。"
+    "string": "在大家的记忆中听过的话语在夏彦的耳边飘过。"
   },
   "006391": {
     "context": "006391",
@@ -1581,7 +1581,7 @@
     "context": "006420",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「ひこりんは、わたしをたすけてくれたから。だからこんどは、わたしのばんです」"
+    "string": "「因为，是小彦救了我。所以这次，轮到我来救他了」#一致性 0278 104"
   },
   "006449": {
     "context": "006449",
@@ -1605,7 +1605,7 @@
     "context": "006537",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「夏彦たちを、護るために……それが私の使命だから」"
+    "string": "「为了保护夏彦他们……因为这就是我的职责」#一致性 0361 92 使命和役目不一样"
   },
   "006567": {
     "context": "006567",
@@ -1617,7 +1617,7 @@
     "context": "006597",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「まぁ、もし何かあっても……私があなたを護りますから、安心しなさい」"
+    "string": "@import 0334 003103"
   },
   "006627": {
     "context": "006627",
@@ -1629,73 +1629,73 @@
     "context": "006657",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「俺はこの子たちを救いに来たんだ！」"
+    "string": "「我要带他们离开这里！」"
   },
   "006702": {
     "context": "006702",
     "code": "0x45",
     "developer_comment": "",
-    "string": "そこにはそれぞれの信念があった。"
+    "string": "每个人有每个人的信念。"
   },
   "006707": {
     "context": "006707",
     "code": "0x45",
     "developer_comment": "",
-    "string": "記憶を仔細に見る事で、夏彦はそれを理解してしまった。"
+    "string": "夏彦仔细观看记忆后明白了这一点。"
   },
   "006712": {
     "context": "006712",
     "code": "0x45",
     "developer_comment": "",
-    "string": "……だから、選べなくなったのだ。"
+    "string": "……正因如此，他才无法做出选择。"
   },
   "006717": {
     "context": "006717",
     "code": "0x45",
     "developer_comment": "",
-    "string": "何も知らなければ、誰かを切り捨てる事もできたかもしれないのに――"
+    "string": "如果什么都不知道的话，或许就可以丢下某个人不管——"
   },
   "006723": {
     "context": "006723",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0244 000986"
+    "string": "（……可是……）"
   },
   "006729": {
     "context": "006729",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（だったらぼくは、最後の瞬間まで探したい）"
+    "string": "（所以说，直到最后一刻我都要寻找）"
   },
   "006735": {
     "context": "006735",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（誰も切り捨てない道を！）"
+    "string": "（不丢下任何一人的道路！）"
   },
   "006780": {
     "context": "006780",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦の下した決断、それは――"
+    "string": "夏彦做出了选择——"
   },
   "006785": {
     "context": "006785",
     "code": "0x45",
     "developer_comment": "",
-    "string": "絶望に立ち向かうという事だった。"
+    "string": "与绝望相对抗。"
   },
   "006796": {
     "context": "006796",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「もう誰も、死なせない……」"
+    "string": "「不会再有人死了……」"
   },
   "006807": {
     "context": "006807",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「９人全員で、生き残る！！」"
+    "string": "「我们 9 个会一起活下来！！」"
   },
   "006858": {
     "context": "006858",
