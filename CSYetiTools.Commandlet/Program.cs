@@ -368,49 +368,50 @@ public static class Program
         bytes[offset] = patchValue;
     }
 
-    private class RawTranslations
+    private class DownloadedContent<T>
     {
-        public string Raw { get; }
+        public T Content { get; }
         public FilePath Path { get; }
-        public RawTranslations(string raw, FilePath path)
-            => (Raw, Path) = (raw, path);
+        public DownloadedContent(T content, FilePath path)
+            => (Content, Path) = (content, path);
     }
 
-    private static async IAsyncEnumerable<RawTranslations> EnumerateRawTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    private static async IAsyncEnumerable<DownloadedContent<T>> EnumerateRawTranslations<T>(SnPackage package, ExecutableStringPeeker peeker, string projectSlug, string chunkFormatter, string sysFormatter, string? token, Func<ResourceApi, Task<T>> getter)
     {
         var client = new TransifexClient(token);
         var project = client.Project(projectSlug);
 
         foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
             if (script.Footer.ScriptIndex < 0) continue;
+            if (chunkIndex < 400) continue;
             var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
-            string raw;
+            T content;
             while (true) {
                 try {
-                    raw = await resource.GetRawTranslations("zh_CN");
+                    content = await getter(resource);//await resource.GetRawTranslations("zh_CN");
                     break;
                 }
                 catch (Flurl.Http.FlurlHttpTimeoutException) {
                     Console.WriteLine($"chunk {chunkIndex:0000} timeout, retrying");
                 }
             }
-            yield return new RawTranslations(raw, $"chunk_{chunkIndex:0000}");
+            yield return new DownloadedContent<T>(content, $"chunk_{chunkIndex:0000}");
             Console.WriteLine($"chunk {chunkIndex:0000} downloaded");
         }
 
         foreach (var name in peeker.Names) {
             var resource = project.Resource(string.Format(sysFormatter, name.Replace('_', '-')));
-            string raw;
+            T content;
             while (true) {
                 try {
-                    raw = await resource.GetRawTranslations("zh_CN");
+                    content = await getter(resource);//await resource.GetRawTranslations("zh_CN");
                     break;
                 }
                 catch (Flurl.Http.FlurlHttpTimeoutException) {
                     Console.WriteLine($"sys/{name} timeout, retrying");
                 }
             }
-            yield return new RawTranslations(raw, new FilePath("sys") / $"{name.Replace('-', '_')}");
+            yield return new DownloadedContent<T>(content, new FilePath("sys") / $"{name.Replace('-', '_')}");
             Console.WriteLine($"sys/{name} downloaded");
         }
     }
@@ -418,9 +419,11 @@ public static class Program
     [UsedImplicitly]
     public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
     {
-        await foreach (var translation in EnumerateRawTranslations(package, peeker, translationDir, projectSlug, chunkFormatter, sysFormatter, token)) {
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, projectSlug, chunkFormatter, sysFormatter, token,
+            getter: res => res.GetRawTranslations("zh_CN")
+        )) {
             await using (var writer = new StreamWriter(translationDir / translation.Path + ".json", false, Utils.Utf8) { NewLine = "\n" }) {
-                await writer.WriteAsync(translation.Raw);
+                await writer.WriteAsync(translation.Content);
             }
         }
     }
@@ -428,23 +431,14 @@ public static class Program
     [UsedImplicitly]
     public static async Task DownloadTranslationsToYaml(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
     {
-        await foreach (var translation in EnumerateRawTranslations(package, peeker, translationDir, projectSlug, chunkFormatter, sysFormatter, token)) {
-            var all = Utils.DeserializeJson<Dictionary<string, TranslationInfo>>(translation.Raw);
-            var result = new SortedDictionary<string, string>();
-            foreach (var (key, tr) in all) {
-                if (tr.String.EndsWith("_tr")) {
-                    Utils.PrintWarning($" - Invalid translation in {translation.Path}: [{key}] (context = {tr.Context}) {tr.String}, replace with '@cp'");
-                }
-                else {
-                    result.Add(tr.Context, tr.String);
-                }
-            }
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, projectSlug, chunkFormatter, sysFormatter, token,
+            getter: res => res.GetTranslationStrings("zh_CN")
+        )) {
+            var all = translation.Content;
             var root = new YamlMappingNode();
-            foreach (var (key, tr) in all) {
-                var keyNode = new YamlScalarNode(key) { Style = ScalarStyle.SingleQuoted };
-                if (!result.TryGetValue(key, out var value)) {
-                    value = "@cp";
-                }
+            foreach (var stringInfo in all) {
+                var keyNode = new YamlScalarNode(stringInfo.Key) { Style = ScalarStyle.SingleQuoted };
+                var value = string.IsNullOrEmpty(stringInfo.Translation) ? stringInfo.SourceString : stringInfo.Translation;
                 var valueNode = new YamlScalarNode(value) { Style = value.Contains("\n") ? ScalarStyle.Literal : ScalarStyle.Plain };
                 root.Add(keyNode, valueNode);
             }
