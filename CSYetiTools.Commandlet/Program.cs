@@ -383,7 +383,6 @@ public static class Program
 
         foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
             if (script.Footer.ScriptIndex < 0) continue;
-            if (chunkIndex < 400) continue;
             var resource = project.Resource(string.Format(chunkFormatter, chunkIndex));
             T content;
             while (true) {
