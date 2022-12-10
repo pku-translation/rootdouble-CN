@@ -12,8 +12,8 @@ ReleaseTranslation(executable: "steam/executable"
                  , translationSourceDir: "../source_json/"
                  , translationDir: "../zh_CN/"
                  , releaseDir: "release/"
+                 , settings: TranslationSettings.Debug
                  //, dumpFontTexture: false
-                 , debugChunkNum: true
 );
 
 "@

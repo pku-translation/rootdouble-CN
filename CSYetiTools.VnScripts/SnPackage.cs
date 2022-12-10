@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using CSYetiTools.Base;
 using CSYetiTools.Base.IO;
@@ -271,8 +272,7 @@ public sealed class SnPackage
         }
     }
 
-    public void ApplyTranslations(FilePath sourceDir, FilePath translationDir,
-        bool debugChunkNum = false, bool debugSource = false)
+    public void ApplyTranslations(FilePath sourceDir, FilePath translationDir, TranslationSettings settings)
     {
         if (Directory.EnumerateFiles(translationDir, "*.yaml").Any()) {
             var sourceNamesPath = sourceDir / "names.json";
@@ -300,7 +300,7 @@ public sealed class SnPackage
                     translationsCollection.Add(i, all);
                 }
             }
-            ApplyTranslations(translationsCollection, nameTable, debugChunkNum, debugSource);
+            ApplyTranslations(translationsCollection, nameTable, settings);
         }
         else if (Directory.EnumerateFiles(translationDir, "*.json").Any()) {
             var sourceNamesPath = sourceDir / "names.json";
@@ -330,14 +330,16 @@ public sealed class SnPackage
                 }
             }
 
-            ApplyTranslations(translationsCollection, nameTable, debugChunkNum, debugSource);
+            ApplyTranslations(translationsCollection, nameTable, settings);
         }
         else {
             Utils.PrintWarning($"Cannot find any translated files in '{translationDir}'");
         }
     }
 
-    private void ApplyTranslations(Dictionary<int, Dictionary<string, string>> translationsCollection, IDictionary<string, string> nameTable, bool debugChunkNum, bool debugSource)
+    private static readonly Regex CommentRegex = new(@"(?<!\\)\#.*", RegexOptions.Singleline | RegexOptions.Compiled);
+
+    private void ApplyTranslations(Dictionary<int, Dictionary<string, string>> translationsCollection, IDictionary<string, string> nameTable, TranslationSettings settings)
     {
         var translationTables = Utils.Range(_scripts.Length).Select(i => new Dictionary<int, string>()).ToArray();
 
@@ -349,7 +351,8 @@ public sealed class SnPackage
                     var translationTable = translationTables[i];
                     foreach (var (k, translation) in translations) {
                         var index = int.Parse(k);
-                        var trimmed = translation.Trim();
+                        var translationWithoutComment = CommentRegex.Replace(translation, "");
+                        var trimmed = translationWithoutComment.Trim();
                         if (trimmed is "@ignore" or "@cp") continue;
                         if (trimmed.StartsWith("@import") || trimmed.StartsWith("@auto-import")) {
                             var importingInfo = trimmed.StartsWith("@import") ? "importing" : "auto-importing";
@@ -380,7 +383,7 @@ public sealed class SnPackage
                                 Utils.PrintError($"[{i:0000}:{k}] {importingInfo} unknown source {targetChunk:0000}:{targetIndex:000000}");
                             }
                         }
-                        translationTable.Add(index, translation);
+                        translationTable.Add(index, settings.KeepComment ? translation : translationWithoutComment);
                     }
                 }
                 catch (Exception exc) {
@@ -392,7 +395,7 @@ public sealed class SnPackage
         foreach (var (i, script) in _scripts.WithIndex()) {
             try {
                 script.ApplyTranslations(translationTables[i], nameTable,
-                    debugChunkNum ? $"[{i:0000}] " : null, debugSource);
+                    settings.DebugChunkNum ? $"[{i:0000}] " : null, settings.DebugSource);
             }
             catch (Exception exc) {
                 throw new InvalidDataException($"Error translating chunk_{i:0000}", exc);

@@ -116,16 +116,6 @@ namespace CSYetiTools.Base
             }
         }
 
-        public static Match? TryMatch(this Regex regex, string content)
-        {
-            try {
-                return regex.Match(content);
-            }
-            catch {
-                return null;
-            }
-        }
-
         public static IEnumerator<int> GetEnumerator(this Range range)
         {
             if (range.Start.IsFromEnd || range.End.IsFromEnd) {

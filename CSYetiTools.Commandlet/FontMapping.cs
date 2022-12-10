@@ -122,24 +122,26 @@ public class FontMapping : Encoding
         var img = new Image<Bgra32>(DbWidth, DbHeight);
         try {
             var fonts = new FontCollection();
-            var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
+            var fontFamily = fonts.Add("fonts/SourceHanSansSC-Regular.ttf");
             var font = new Font(fontFamily, 40);
 
             var drawingOptions = new DrawingOptions {
                 GraphicsOptions = { Antialias = true },
-                TextOptions = {
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    VerticalAlignment = VerticalAlignment.Center,
-                }
+            };
+
+            var textOptions = new TextOptions(font) {
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
             };
 
             var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 3.6f);
 
-            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, chr.ToString(), font, outlinePen, point + new PointF(22, 20)));
+            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = point + new PointF(22, 20) }, chr.ToString(), brush: null, pen: outlinePen));
 
             img.Mutate(ctx => ctx.GaussianBlur(0.5f));
 
-            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, chr.ToString(), font, Color.White, point + new PointF(22, 20)));
+            var whiteBrush = new SolidBrush(Color.White);
+            ForeachChars(img, _chars, (chr, point, ctx) => ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = point + new PointF(22, 20) }, chr.ToString(), brush: whiteBrush, pen: null));
 
             if (drawGlyphBorder) {
                 ForeachChars(img, _chars, (_, point, ctx) => {
@@ -165,18 +167,21 @@ public class FontMapping : Encoding
         var img = new Image<Bgra32>(DbWidth, DbHeight);
         try {
             var fonts = new FontCollection();
-            var fontFamily = fonts.Install("fonts/SourceHanSansSC-Regular.ttf");
+            var fontFamily = fonts.Add("fonts/SourceHanSansSC-Regular.ttf");
             var font = new Font(fontFamily, 25);
 
             var drawingOptions = new DrawingOptions {
-                GraphicsOptions = { Antialias = true },
-                TextOptions = {
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    VerticalAlignment = VerticalAlignment.Center,
-                }
+                GraphicsOptions = { Antialias = true },  
+            };
+
+            var textOptions = new TextOptions(font) {
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
             };
 
             var outlinePen = new Pen(Color.FromRgba(255, 255, 255, 115), 1f);
+
+            var whiteBrush = new SolidBrush(Color.White);
 
             ForeachChars(img, _chars, (chr, point, ctx) => {
                 ctx.DrawPolygon(drawingOptions, outlinePen
@@ -189,10 +194,10 @@ public class FontMapping : Encoding
 
                 var mid = point + new PointF(23, 23);
 
-                ctx.DrawText(drawingOptions, s[0].ToString(), font, Color.White, mid + new PointF(-10, -10));
-                ctx.DrawText(drawingOptions, s[1].ToString(), font, Color.White, mid + new PointF(8, -10));
-                ctx.DrawText(drawingOptions, s[2].ToString(), font, Color.White, mid + new PointF(-10, 10));
-                ctx.DrawText(drawingOptions, s[3].ToString(), font, Color.White, mid + new PointF(8, 10));
+                ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = mid + new PointF(-10, -10) }, s[0].ToString(), brush: whiteBrush, pen: null);
+                ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = mid + new PointF(8, -10) }, s[1].ToString(), brush: whiteBrush, pen: null);
+                ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = mid + new PointF(-10, 10) }, s[2].ToString(), brush: whiteBrush, pen: null);
+                ctx.DrawText(drawingOptions, new TextOptions(textOptions) { Origin = mid + new PointF(8, 10) }, s[3].ToString(), brush: whiteBrush, pen: null);
             });
 
             return img;

@@ -219,10 +219,10 @@ public sealed class Xtx : IDisposable
     private byte[] EncodeFont()
     {
         var data = new byte[_alignedWidth * _alignedHeight * 2];
-        var img = (Image<Bgra4444>)Content;
-        if (!img.TryGetSinglePixelSpan(out var pixels)) {
-            throw new InvalidOperationException("Cannot get image pixels as a single span");
-        }
+
+        var pixels = new Bgra4444[Width * Height];
+        ((Image<Bgra4444>)Content).CopyPixelDataTo(pixels);
+
         var encodedWidth = Width / 4;
         var encodedHeight = Height;
 

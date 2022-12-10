@@ -288,10 +288,11 @@ public static class Program
         FilePath translationSourceDir,
         FilePath translationDir,
         FilePath releaseDir,
-        bool dumpFontTexture = false,
-        bool debugChunkNum = false,
-        bool debugSource = false)
+        TranslationSettings? settings = null,
+        bool dumpFontTexture = false)
     {
+        settings ??= TranslationSettings.Default;
+
         Console.Write("Translating executable... "); Console.Out.Flush();
         var exePeeker = Utils.Time(() => {
             var peeker = ExecutableStringPeeker.FromFile(executable, Utils.Cp932);
@@ -301,7 +302,7 @@ public static class Program
 
         Console.Write("Translating sn-package... "); Console.Out.Flush();
         Utils.Time(() => {
-            snPackage.ApplyTranslations(translationSourceDir, translationDir, debugChunkNum, debugSource);
+            snPackage.ApplyTranslations(translationSourceDir, translationDir, settings);
             return snPackage;
         });
 

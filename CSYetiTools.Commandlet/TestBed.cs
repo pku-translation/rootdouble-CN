@@ -48,22 +48,24 @@ internal class TestBed
         // var sceneTitles = await File.ReadAllLinesAsync("scene_titles");
         // RawGraph.LoadPackage(cnPackage, package, sceneTitles).WithIndex().ForEach(p => p.element?.Save($"graphs/{p.index:0000}.yaml"));
 
-        foreach (var file in Directory.GetFiles("../zh_CN", "*.json", new EnumerationOptions { RecurseSubdirectories = true })) {
-            var filename = file[("../zh_CN".Length + 1)..^(".json".Length)];
-            var infoTable = JsonConvert.DeserializeObject<Dictionary<string, TranslationInfo>>(File.ReadAllText(file))!;
-            var yaml = new YamlMappingNode();
-            foreach (var (key, value) in infoTable) {
-                var keyNode = new YamlScalarNode(key) { Style = ScalarStyle.SingleQuoted };
-                var node = new YamlScalarNode(value.String) { Style = value.String.Contains('\n') ? ScalarStyle.Literal : ScalarStyle.Plain };
-                yaml.Add(keyNode, node);
-            }
-            var yamlDoc = new YamlDocument(yaml);
-            var destFile = "../translated/" + filename + ".yaml";
-            var dir = Path.GetDirectoryName(destFile)!;
-            if (!Directory.Exists(dir)) {
-                Directory.CreateDirectory(dir);
-            }
-            Utils.WriteYamlDocument(destFile, yamlDoc, null, false);
-        }
+        // foreach (var file in Directory.GetFiles("../zh_CN", "*.json", new EnumerationOptions { RecurseSubdirectories = true })) {
+        //     var filename = file[("../zh_CN".Length + 1)..^(".json".Length)];
+        //     var infoTable = JsonConvert.DeserializeObject<Dictionary<string, TranslationInfo>>(File.ReadAllText(file))!;
+        //     var yaml = new YamlMappingNode();
+        //     foreach (var (key, value) in infoTable) {
+        //         var keyNode = new YamlScalarNode(key) { Style = ScalarStyle.SingleQuoted };
+        //         var node = new YamlScalarNode(value.String) { Style = value.String.Contains('\n') ? ScalarStyle.Literal : ScalarStyle.Plain };
+        //         yaml.Add(keyNode, node);
+        //     }
+        //     var yamlDoc = new YamlDocument(yaml);
+        //     var destFile = "../translated/" + filename + ".yaml";
+        //     var dir = Path.GetDirectoryName(destFile)!;
+        //     if (!Directory.Exists(dir)) {
+        //         Directory.CreateDirectory(dir);
+        //     }
+        //     Utils.WriteYamlDocument(destFile, yamlDoc, null, false);
+        // }
+
+        Console.WriteLine("TestBed");
     }
 }
