@@ -20,37 +20,37 @@
     "context": "000118",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦が念じさえすれば、その瞬間渡瀬の記憶は消える。"
+    "string": "@import 0391 002391"
   },
   "000123": {
     "context": "000123",
     "code": "0x45",
     "developer_comment": "",
-    "string": "なのに彼が不意打ちしなかったという事は――"
+    "string": "@import 0391 002396"
   },
   "000129": {
     "context": "000129",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（渡瀬は本当に、『ぼくに選ばせたい』と思ってるんだ……！）"
+    "string": "@import 0391 002448"
   },
   "000224": {
     "context": "000224",
     "code": "0x45",
     "developer_comment": "",
-    "string": "これは夏彦と渡瀬の対決ではない。あくまで夏彦による『選択』だ。"
+    "string": "这不是夏彦和渡濑的对决。这完全是夏彦的“选择”。"
   },
   "000229": {
     "context": "000229",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬の記憶を抹消し、その信念を打ち砕くべきなのか。"
+    "string": "应该抹除掉渡濑的记忆，把这个信念击碎吗。"
   },
   "000235": {
     "context": "000235",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（そんな事はしたくないけど、でも……！）"
+    "string": "（虽然不愿意这么做，但是……！）"
   },
   "000313": {
     "context": "000313",
@@ -74,7 +74,7 @@
     "context": "000329",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（この手を、手放すわけにはいかない……！）"
+    "string": "（我怎么能放开她的手……！）"
   },
   "000334": {
     "context": "000334",
@@ -86,49 +86,49 @@
     "context": "000384",
     "code": "0x45",
     "developer_comment": "",
-    "string": "だが渡瀬と心を通わせてしまった今は違う。"
+    "string": "但是和渡濑心灵相通以后的现在，已经不一样了。"
   },
   "000389": {
     "context": "000389",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼の過去も想いも、全てを知ってしまった今は――"
+    "string": "知道了他的过去的想法以后，现在——"
   },
   "000438": {
     "context": "000438",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……消したくないよ、渡瀬……！」"
+    "string": "「……我不想消除你的记忆啊，渡濑……！」"
   },
   "000449": {
     "context": "000449",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「今のお前の信念が、ぼくの意志と相反していても……」"
+    "string": "「即使你的信念和我的是相反的……」"
   },
   "000460": {
     "context": "000460",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「記憶を消せば、お前がまた、あの正義のレスキュー隊員に戻るとしても――」"
+    "string": "「即使消除掉记忆以后，你也还是会变回那个正义的救援队员——」"
   },
   "000471": {
     "context": "000471",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくはお前を、消したくない……！」"
+    "string": "「我还是不愿意消除掉你……！」"
   },
   "000482": {
     "context": "000482",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "@auto-import 0230 001121"
+    "string": "「夏彦……」"
   },
   "000487": {
     "context": "000487",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦が呟き、奥歯を噛んだ時――"
+    "string": "夏彦咬紧牙关说道，就在这时——"
   },
   "000492": {
     "context": "000492",
@@ -146,25 +146,25 @@
     "context": "000552",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0005 003761"
+    "string": "「诶……？」"
   },
   "000582": {
     "context": "000582",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「隊長さんの記憶を消したくない気持ち、わかるよ……うぅん、消す必要なんか無いんだよ」"
+    "string": "「我明白你不想要消除掉队长记忆……但是，没有必要消除他的记忆」#review"
   },
   "000612": {
     "context": "000612",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「だってこれは初めから、約束してた事なんだから」"
+    "string": "「因为这是最开始我们约定好的事情」"
   },
   "000642": {
     "context": "000642",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「そうですよね、隊長さん……わたし、約束守りますから」"
+    "string": "@import 0406 000484"
   },
   "000655": {
     "context": "000655",
@@ -188,7 +188,7 @@
     "context": "000742",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「……あのとき隊長さんと取引してよかったです。だって全員無事に、ラボから脱出できたから」"
+    "string": "@import 0406 000586"
   },
   "000753": {
     "context": "000753",
@@ -224,7 +224,7 @@
     "context": "000855",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「言っただろ、絶対に君を自由にしてやるって！」"
+    "string": "「我说过的，一定会让你获得自由！」"
   },
   "000885": {
     "context": "000885",
@@ -254,7 +254,7 @@
     "context": "000952",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「悠里を自由にしたいなら、お前にはしなきゃいけないことがあるだろう？」"
+    "string": "「如果你想要让悠里获得自由的话，现在的你有一些必须要做的事情对吧？」"
   },
   "000957": {
     "context": "000957",
@@ -284,37 +284,37 @@
     "context": "001137",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡瀬が夏彦の心を読んだように呟く。"
+    "string": "@import 0406 000984"
   },
   "001142": {
     "context": "001142",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦は奥歯を噛み、それから彼を見つめて答えた。"
+    "string": "夏彦咬紧牙关，然后看向他，说道："
   },
   "001153": {
     "context": "001153",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……ごめん、渡瀬……」"
+    "string": "「……对不起，渡濑……」"
   },
   "001164": {
     "context": "001164",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくは、約束を破る……」"
+    "string": "「我，打破了约定……」"
   },
   "001175": {
     "context": "001175",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「ぼくは……自分の都合のために、お前の記憶を……！」"
+    "string": "「我……为了自己的想法，要把你的记忆……！」"
   },
   "001182": {
     "context": "001182",
     "code": "0x45",
     "developer_comment": "",
-    "string": "――そう告げて、夏彦は――"
+    "string": "——伴随着这个宣告——"
   },
   "001240": {
     "context": "001240",
@@ -326,7 +326,7 @@
     "context": "001359",
     "code": "0x45",
     "developer_comment": "",
-    "string": "目の前が、眩しい光に満ちる。"
+    "string": "@import 0406 001185"
   },
   "001364": {
     "context": "001364",
@@ -344,19 +344,19 @@
     "context": "001482",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《お前がそれを選んだのは、お前が怪物だからじゃない。大切な者を護りたいと願う、人間だからこその選択だ》"
+    "string": "『你做出了这个选择，并不是因为你是怪物。这只是一个为了保护重要的人的，人类的选择』"
   },
   "001493": {
     "context": "001493",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《それにお前は俺の気持ちも考えて、こうする事を選んだんだろう？》"
+    "string": "『而且，你也是考虑到了我的想法，才做出这个选择的对吧？』"
   },
   "001512": {
     "context": "001512",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "《だから、俺は……お前の選択を受け入れる》"
+    "string": "@import 0406 001336"
   },
   "001525": {
     "context": "001525",
@@ -368,7 +368,7 @@
     "context": "001639",
     "code": "0x45",
     "developer_comment": "",
-    "string": "彼の記憶を、消した。"
+    "string": "消除了他的记忆。"
   },
   "001697": {
     "context": "001697",

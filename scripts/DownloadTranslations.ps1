@@ -7,6 +7,7 @@ var peeker = ExecutableStringPeeker.FromFile("$DataRoot/steam/executable", Utils
 
 await DownloadTranslations(package, peeker
                  , translationDir: "../zh_CN/"
+                 , transifexOrganization: "pku_translation"
                  , projectSlug: "rootdouble_steam_cn"
                  , chunkFormatter: "source-json-chunk-{0:0000}-json--master"
                  , sysFormatter: "source-json-sys-{0}-json--master"

@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using CSYetiTools.Base;
 using CSYetiTools.VnScripts;
@@ -8,6 +9,10 @@ using Newtonsoft.Json;
 using CSYetiTools.VnScripts.Transifex;
 using YamlDotNet.RepresentationModel;
 using YamlDotNet.Core;
+using Flurl.Http;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Net.Http.Headers;
 
 namespace CSYetiTools.Commandlet;
 
@@ -66,6 +71,34 @@ internal class TestBed
         //     Utils.WriteYamlDocument(destFile, yamlDoc, null, false);
         // }
 
-        Console.WriteLine("TestBed");
+        var apiToken = Environment.GetEnvironmentVariable("TX_TOKEN");
+
+        var flurlClient = new FlurlClient()
+            //.WithBasicAuth("Bearer", apiToken)
+            .WithOAuthBearerToken(apiToken)
+            .WithTimeout(30);
+
+            // var baseUrl = "https://rest.api.transifex.com";
+            // var response = await flurlClient.Request(baseUrl, "resources")
+            //     .SetQueryParam("filter[project]", "o:pku_translation:p:rootdouble_steam_cn")
+            //     .SetQueryParam("filter[slug]", "source-json-chunk-0005-json--master")
+            //     .GetStringAsync();
+            // File.WriteAllText("D:\\test_proj.json", response);
+
+            // var url = "https://rest.api.transifex.com/resources/o:pku_translation:p:rootdouble_steam_cn:r:source-json-chunk-0005-json--master";
+            // var response = await flurlClient.Request(url).GetStringAsync();
+            // File.WriteAllText("D:\\test_proj.json", response);
+
+            // var url = "https://rest.api.transifex.com/resource_translations?filter[resource]=o:pku_translation:p:rootdouble_steam_cn:r:source-json-chunk-0005-json--master&filter[language]=l:zh_CN"
+            // var response = await flurlClient.Request(url).GetStringAsync();
+            // File.WriteAllText("D:\\test_proj.json", response);
+
+            // var baseUrl = "https://rest.api.transifex.com";
+            // var response = await flurlClient.Request(baseUrl, "resource_translations")
+            //     .SetQueryParam("filter[resource]", "o:pku_translation:p:rootdouble_steam_cn:r:source-json-chunk-0005-json--master")
+            //     .SetQueryParam("filter[language]", "l:zh_CN")
+            //     .GetStringAsync();
+            // File.WriteAllText("D:\\test_proj.json", response);
+
     }
 }

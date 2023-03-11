@@ -169,10 +169,10 @@ public static class Program
 
     [UsedImplicitly]
     private static async Task FillTransifexDuplicatedStrings(
-        SnPackage package, string filterPattern,
+        SnPackage package, string filterPattern, string transifexOrganization,
         string projectSlug, string chunkFormatter, string? token = null)
     {
-        var client = new TransifexClient(token);
+        var client = new TransifexClient(transifexOrganization, token);
         var project = client.Project(projectSlug);
 
         var filterReg = new Regex(filterPattern, RegexOptions.Compiled | RegexOptions.Singleline);
@@ -239,10 +239,10 @@ public static class Program
 
     [UsedImplicitly]
     public static async Task FillTransifexIgnores(
-        SnPackage package,
+        SnPackage package, string transifexOrganization,
         string projectSlug, string chunkFormatter, string? token = null)
     {
-        var client = new TransifexClient(token);
+        var client = new TransifexClient(transifexOrganization, token);
         var project = client.Project(projectSlug);
 
         foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
@@ -377,9 +377,9 @@ public static class Program
             => (Content, Path) = (content, path);
     }
 
-    private static async IAsyncEnumerable<DownloadedContent<T>> EnumerateRawTranslations<T>(SnPackage package, ExecutableStringPeeker peeker, string projectSlug, string chunkFormatter, string sysFormatter, string? token, Func<ResourceApi, Task<T>> getter)
+    private static async IAsyncEnumerable<DownloadedContent<T>> EnumerateRawTranslations<T>(SnPackage package, ExecutableStringPeeker peeker, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string? token, Func<ResourceApi, Task<T>> getter)
     {
-        var client = new TransifexClient(token);
+        var client = new TransifexClient(transifexOrganization, token);
         var project = client.Project(projectSlug);
 
         foreach (var (chunkIndex, script) in package.Scripts.WithIndex()) {
@@ -417,9 +417,9 @@ public static class Program
     }
 
     [UsedImplicitly]
-    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
     {
-        await foreach (var translation in EnumerateRawTranslations(package, peeker, projectSlug, chunkFormatter, sysFormatter, token,
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, transifexOrganization, projectSlug, chunkFormatter, sysFormatter, token,
             getter: res => res.GetRawTranslations("zh_CN")
         )) {
             await using (var writer = new StreamWriter(translationDir / translation.Path + ".json", false, Utils.Utf8) { NewLine = "\n" }) {
@@ -428,24 +428,24 @@ public static class Program
         }
     }
 
-    [UsedImplicitly]
-    public static async Task DownloadTranslationsToYaml(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
-    {
-        await foreach (var translation in EnumerateRawTranslations(package, peeker, projectSlug, chunkFormatter, sysFormatter, token,
-            getter: res => res.GetTranslationStrings("zh_CN")
-        )) {
-            var all = translation.Content;
-            var root = new YamlMappingNode();
-            foreach (var stringInfo in all) {
-                var keyNode = new YamlScalarNode(stringInfo.Key) { Style = ScalarStyle.SingleQuoted };
-                var value = string.IsNullOrEmpty(stringInfo.Translation) ? stringInfo.SourceString : stringInfo.Translation;
-                var valueNode = new YamlScalarNode(value) { Style = value.Contains("\n") ? ScalarStyle.Literal : ScalarStyle.Plain };
-                root.Add(keyNode, valueNode);
-            }
-            var doc = new YamlDocument(root);
-            Utils.WriteYamlDocument(translationDir / translation.Path + ".yaml", doc, null, false);
-        }
-    }
+    // [UsedImplicitly]
+    // public static async Task DownloadTranslationsToYaml(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    // {
+    //     await foreach (var translation in EnumerateRawTranslations(package, peeker, projectSlug, chunkFormatter, sysFormatter, token,
+    //         getter: res => res.GetTranslationStrings("zh_CN")
+    //     )) {
+    //         var all = translation.Content;
+    //         var root = new YamlMappingNode();
+    //         foreach (var stringInfo in all) {
+    //             var keyNode = new YamlScalarNode(stringInfo.Key) { Style = ScalarStyle.SingleQuoted };
+    //             var value = string.IsNullOrEmpty(stringInfo.Translation) ? stringInfo.SourceString : stringInfo.Translation;
+    //             var valueNode = new YamlScalarNode(value) { Style = value.Contains("\n") ? ScalarStyle.Literal : ScalarStyle.Plain };
+    //             root.Add(keyNode, valueNode);
+    //         }
+    //         var doc = new YamlDocument(root);
+    //         Utils.WriteYamlDocument(translationDir / translation.Path + ".yaml", doc, null, false);
+    //     }
+    // }
 
     private static void WritePoSeg(TextWriter writer, string key, string value)
     {
@@ -493,9 +493,9 @@ public static class Program
     }
 
     [UsedImplicitly]
-    public static async Task GeneratePOs(FilePath outputDir, SnPackage jpPackage, SnPackage enPackage, string projectSlug, string chunkFormatter)
+    public static async Task GeneratePOs(string transifixOranization, FilePath outputDir, SnPackage jpPackage, SnPackage enPackage, string transifexOrganization, string projectSlug, string chunkFormatter)
     {
-        var client = new TransifexClient();
+        var client = new TransifexClient(transifixOranization, null);
         var project = client.Project(projectSlug);
 
         Utils.CreateOrClearDirectory(outputDir / "ja/chunk");
@@ -531,9 +531,9 @@ public static class Program
     }
 
     [UsedImplicitly]
-    public static async Task GenerateSysPOs(FilePath outputDir, ExecutableStringPeeker peeker, string projectSlug, string sysFormatter)
+    public static async Task GenerateSysPOs(string transifixOranization, FilePath outputDir, ExecutableStringPeeker peeker, string projectSlug, string sysFormatter)
     {
-        var client = new TransifexClient();
+        var client = new TransifexClient(transifixOranization, null);
         var project = client.Project(projectSlug);
 
         Utils.CreateOrClearDirectory(outputDir / "ja/sys");

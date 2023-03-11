@@ -44,7 +44,7 @@
     "context": "000214",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦听到了悠里的声音，但他的视野还是很模糊。#review"
+    "string": "夏彦听到了悠里的声音。他的视野糊成了一片。# 演出似乎就是普通的高斯模糊"
   },
   "000219": {
     "context": "000219",
@@ -92,13 +92,13 @@
     "context": "000342",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（可恶，我到底是怎么回事……！）#review "
+    "string": "（可恶，我到底是怎么回事……！）"
   },
   "000348": {
     "context": "000348",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（被重要的女生们保护了这么多年……）#review"
+    "string": "（被重要的女生们保护了这么多年……）"
   },
   "000354": {
     "context": "000354",
@@ -344,7 +344,7 @@
     "context": "000889",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「拜托了，至少请让我帮你做这些吧……」#review"
+    "string": "「拜托了，至少让我为你做这些吧……」"
   },
   "000900": {
     "context": "000900",
@@ -404,7 +404,7 @@
     "context": "001028",
     "code": "0x45",
     "developer_comment": "",
-    "string": "她的眼中马上浮现出了安心和喜悦之情。"
+    "string": "她的眼中马上浮现出安心和喜悦之情。# 演出在下一句上"
   },
   "001057": {
     "context": "001057",
@@ -422,7 +422,7 @@
     "context": "001069",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦用力地点点头，然后说道。"
+    "string": "夏彦用力地点点头，然后说道："
   },
   "001086": {
     "context": "001086",

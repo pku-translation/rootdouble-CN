@@ -8,13 +8,13 @@
     "context": "000106",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——开始上课的铃声响起的同时，夏彦和纱瑠赶进了教室。"
+    "string": "——夏彦和纱瑠踩着上课铃走进了教室。"
   },
   "000117": {
     "context": "000117",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「呼，赶上了吗……」"
+    "string": "「呼……差点迟到了……」"
   },
   "000146": {
     "context": "000146",
@@ -32,31 +32,31 @@
     "context": "000162",
     "code": "0x45",
     "developer_comment": "",
-    "string": "只见她的座位上空无一人，也不见书包什么的。"
+    "string": "真白没在座位上，也没见到她的书包。"
   },
   "000173": {
     "context": "000173",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「……请假吗。她是不是感冒了……」"
+    "string": "「……请假了么。可能是感冒了吧……」"
   },
   "000206": {
     "context": "000206",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦一边说着，一边坐到自己的座位上。"
+    "string": "夏彦一边自言自语，一边坐到了自己的座位上。"
   },
   "000211": {
     "context": "000211",
     "code": "0x45",
     "developer_comment": "",
-    "string": "过了一会儿，惠那进入了教室。"
+    "string": "不一会儿，惠那走了进来。"
   },
   "000295": {
     "context": "000295",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「好——同学们早上好。那我们接下来开始点名——」"
+    "string": "「好啦——同学们早上好，现在开始点名——」"
   },
   "000324": {
     "context": "000324",
@@ -92,13 +92,13 @@
     "context": "000367",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就这样，叫了一个个同学的名字。"
+    "string": "惠那按照名册的顺序点着名。"
   },
   "000500": {
     "context": "000500",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而过了一会儿，点到夏彦他们的名字时——"
+    "string": "不一会儿轮到了夏彦——"
   },
   "000511": {
     "context": "000511",
@@ -122,13 +122,13 @@
     "context": "000562",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……鸟羽同学？嗯？鸟羽同学是请假了吗？」"
+    "string": "「……鸟羽同学？咦，鸟羽同学今天没来？」"
   },
   "000591": {
     "context": "000591",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「奇怪了……我明明没有收到她请假的消息……」"
+    "string": "「奇怪了啊……她没跟我请假啊」"
   },
   "000602": {
     "context": "000602",
@@ -140,19 +140,19 @@
     "context": "000607",
     "code": "0x45",
     "developer_comment": "",
-    "string": "也就是说，真白突然自说自话没来上学。"
+    "string": "也就是说，真白旷课了。# 人话要紧。"
   },
   "000612": {
     "context": "000612",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而她可不是个会翘课的人。"
+    "string": "她可不是那种随便旷课的人。"
   },
   "000618": {
     "context": "000618",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……难道说……？）"
+    "string": "（……难道她——）"
   },
   "000748": {
     "context": "000748",
@@ -170,49 +170,49 @@
     "context": "000884",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（那个笨蛋，不会真的想要阻止恐怖袭击吧……！）"
+    "string": "（真白这家伙……不会真的去找恐怖分子了吧……！）"
   },
   "000889": {
     "context": "000889",
     "code": "0x45",
     "developer_comment": "",
-    "string": "可看昨天真白那模样，这事还真说不准。"
+    "string": "从昨天晚上她的态度来看，搞不好她确实这么干了。"
   },
   "000895": {
     "context": "000895",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（……虽然不知道有什么根据让她相信恐怖活动确有其事，但这肯定不是高中生可以掺和的吧）"
+    "string": "（……也不知道到底是什么让她这么相信有恐怖分子，而且退一步来讲这根本不是高中生能掺和的事情吧）"
   },
   "000900": {
     "context": "000900",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不如说真白的行动，会招致一些严重的问题。夏彦隐约有这样的预感。"
+    "string": "“说不定反而会搞出大麻烦来”——夏彦甚至有这样的预感。# 弱化词语挪到引号里"
   },
   "000906": {
     "context": "000906",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（放学了以后去找一下她吧……）"
+    "string": "（放学以后找找她吧……）"
   },
   "000951": {
     "context": "000951",
     "code": "0x45",
     "developer_comment": "",
-    "string": "之后，夏彦一直有点心不在焉的，就这样上着课。"
+    "string": "整个上午，夏彦都心不在焉的。"
   },
   "000956": {
     "context": "000956",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而真白也一直没来，最后——"
+    "string": "而真白也一直没有出现。"
   },
   "000961": {
     "context": "000961",
     "code": "0x45",
     "developer_comment": "",
-    "string": "午休的时间到了。"
+    "string": "午休到了。"
   },
   "001015": {
     "context": "001015",

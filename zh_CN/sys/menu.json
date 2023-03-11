@@ -9,7 +9,7 @@
     "context": "000C056C",
     "developer_comment": "悪意に汚染された記憶が浄化されました。",
     "character_limit": 19,
-    "string": "被恶意污染的记忆已净化。"
+    "string": "被恶意污染的记忆已得到净化。"
   },
   "0002": {
     "context": "000C0550",
@@ -21,19 +21,19 @@
     "context": "000C0514",
     "developer_comment": "Cancel altered values and close the Senses input screen?",
     "character_limit": 29,
-    "string": "放弃已设定的值，退出 Senses 设定界面吗？"
+    "string": "是否放弃已设定的值，退出 Senses 设定界面？"
   },
   "0004": {
     "context": "000C04D8",
     "developer_comment": "Are you sure you want to set your Senses at these values?",
     "character_limit": 29,
-    "string": "确定设定为该 Senses 值吗？"
+    "string": "是否确定设定为该 Senses 值？"
   },
   "0005": {
     "context": "000C0480",
     "developer_comment": "Once you set your values, you will not be able to change them until the next branch.",
     "character_limit": 43,
-    "string": "确定的话，直到下次分歧为止将无法再变更 Senses 值。"
+    "string": "若确定选择，直到下次分歧为止将无法再次变更 Senses 值。"
   },
   "0006": {
     "context": "000C0470",
@@ -129,7 +129,7 @@
     "context": "000C031C",
     "developer_comment": "you will be returned to the line you have selected. Proceed?",
     "character_limit": 31,
-    "string": "再开，是否确定？"
+    "string": "继续游戏，是否确定？"
   },
   "0022": {
     "context": "000C0310",
@@ -237,7 +237,7 @@
     "context": "000C0260",
     "developer_comment": "Senses input active",
     "character_limit": 9,
-    "string": "Senses 接受开始"
+    "string": "开始接受 Senses "
   },
   "0040": {
     "context": "000C01D0",

@@ -4,6 +4,9 @@ using JetBrains.Annotations;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -69,10 +72,6 @@ public class ResourceApi
         => translations.Length != 0
             ? _client.PutTranslationStrings(_projectSlug, _resourceSlug, language, translations)
             : throw new ArgumentException("Empty translations");
-
-    public Task<string> Test(string url, object args)
-        => _client.ResourceTest(_projectSlug, _resourceSlug, url, args);
-
 }
 
 public class TransifexClient : IDisposable
@@ -95,13 +94,15 @@ public class TransifexClient : IDisposable
         public string Content { get; set; } = "";
     }
 
-    private const string BaseUrl = "https://www.transifex.com/api/2/";
+    private const string BaseUrl = "https://rest.api.transifex.com/";
 
     private const int Timeout = 30;
 
     private readonly FlurlClient _flurlClient;
 
-    public TransifexClient(string? apiToken = null)
+    private readonly string _organization;
+
+    public TransifexClient(string organization, string? apiToken)
     {
         if (string.IsNullOrWhiteSpace(apiToken)) {
             apiToken = Environment.GetEnvironmentVariable("TX_TOKEN");
@@ -110,7 +111,8 @@ public class TransifexClient : IDisposable
             throw new ArgumentException("No API token found, please use env TX_TOKEN to specify API token.");
         }
 
-        _flurlClient = new FlurlClient(BaseUrl).WithBasicAuth("api", apiToken).WithTimeout(Timeout);
+        _organization = organization;
+        _flurlClient = new FlurlClient().WithOAuthBearerToken(apiToken).WithTimeout(Timeout);
     }
 
     public ProjectApi Project(string projectSlug)
@@ -151,24 +153,66 @@ public class TransifexClient : IDisposable
         => Put(request, JsonConvert.SerializeObject(data, Utils.JsonSettings), "application/json");
 
     public Task<ProjectInfo[]> GetProjects(int start = 1, int? end = 500)
-        => Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start, end }));
+        => throw new NotImplementedException("API V2 deprecated.");
+    //=> Get<ProjectInfo[]>(_flurlClient.Request(BaseUrl, "projects/").SetQueryParams(new { start, end }));
 
     public Task<ProjectInfo> GetProject(string slug)
-        => Get<ProjectInfo>(_flurlClient.Request(BaseUrl, "project", slug).SetQueryParam("details"));
+        => throw new NotImplementedException("API V2 deprecated.");
+    //=> Get<ProjectInfo>(_flurlClient.Request(BaseUrl, "project", slug).SetQueryParam("details"));
 
     public Task<ResourceInfo[]> GetResources(string projectSlug)
-        => Get<ResourceInfo[]>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resources"));
+        => throw new NotImplementedException("API V2 deprecated.");
+    //=> Get<ResourceInfo[]>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resources"));
 
     public Task<ResourceInfo> GetResource(string projectSlug, string resourceSlug)
-        => Get<ResourceInfo>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug));
+        => throw new NotImplementedException("API V2 deprecated.");
+    //=> Get<ResourceInfo>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug));
 
     public async Task<string> GetRawTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
     {
-        var response = await Get<WrappedResponse>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "/")
-            .SetQueryParam("mode", mode.ToString().ToLower()));
-        if (response.Mimetype != "application/json")
-            throw new FormatException("Response is not json");
-        return response.Content;
+        var requestBody = new {
+            data = new {
+                relationships = new {
+                    language = new {
+                        data = new {
+                            id = $"l:{language}",
+                            type = "languages"
+                        }
+                    },
+                    resource = new {
+                        data = new {
+                            id = $"o:{_organization}:p:{projectSlug}:r:{resourceSlug}",
+                            type = "resources"
+                        }
+                    },
+                },
+
+                type = "resource_translations_async_downloads"
+            }
+        };
+
+        var response = await _flurlClient
+            .Request(BaseUrl, "resource_translations_async_downloads")
+            .PostAsync(JsonContent.Create(requestBody, new MediaTypeHeaderValue("application/vnd.api+json")));
+        var responseBody = await response.GetJsonAsync();
+        string downloadId = responseBody.data.id;
+        while (true) {
+            var queryResponse = await _flurlClient.Request(BaseUrl, "resource_translations_async_downloads", downloadId).WithAutoRedirect(false).GetAsync();
+            if (queryResponse.StatusCode == 200) {
+                await Task.Delay(TimeSpan.FromMilliseconds(500));
+            }
+            else if (queryResponse.StatusCode == 303) {
+                var location = queryResponse.Headers.First(kv => kv.Name == "Location").Value;
+                var result = await _flurlClient.Request(location).GetStringAsync();
+                return result;
+            }
+        }
+
+        // var response = await Get<WrappedResponse>(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "/")
+        //     .SetQueryParam("mode", mode.ToString().ToLower()));
+        // if (response.Mimetype != "application/json")
+        //     throw new FormatException("Response is not json");
+        // return response.Content;
     }
 
     public async Task<SortedDictionary<string, TranslationInfo>> GetTranslations(string projectSlug, string resourceSlug, string language, TranslationMode mode = TranslationMode.Default)
@@ -183,15 +227,15 @@ public class TransifexClient : IDisposable
 
     public async Task<TranslationStringInfo[]> GetTranslationStrings(string projectSlug, string resourceSlug, string language, string? key = null, string? context = null)
     {
-        var request = _flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/").SetQueryParam("details");
-        if (key != null) request.SetQueryParam("key", key);
-        if (context != null) request.SetQueryParam("context", true);
-        return JsonConvert.DeserializeObject<TranslationStringInfo[]>(await Get(request), Utils.JsonSettings)!;
+        await Task.FromResult(0);
+        throw new NotImplementedException("API V2 deprecated.");
+        // var request = _flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/").SetQueryParam("details");
+        // if (key != null) request.SetQueryParam("key", key);
+        // if (context != null) request.SetQueryParam("context", true);
+        // return JsonConvert.DeserializeObject<TranslationStringInfo[]>(await Get(request), Utils.JsonSettings)!;
     }
 
     public Task<string> PutTranslationStrings(string projectSlug, string resourceSlug, string language, TranslationStringsPutInfo[] translations)
-        => PutJson(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/"), translations);
-
-    public Task<string> ResourceTest(string projectSlug, string resourceSlug, string url, object args)
-        => Get(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, url).SetQueryParams(args));
+        => throw new NotImplementedException("API V2 deprecated.");
+    //=> PutJson(_flurlClient.Request(BaseUrl, "project", projectSlug, "resource", resourceSlug, "translation", language, "strings/"), translations);
 }
