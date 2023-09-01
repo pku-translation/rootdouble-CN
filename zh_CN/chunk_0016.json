@@ -38,13 +38,13 @@
     "context": "000176",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「时间宝贵，别浪费在决定如何分组上。快点开始搜索吧」"
+    "string": "「一个一个重新分组也太浪费时间了。快点开始搜索吧」"
   },
   "000207": {
     "context": "000207",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「是啊，我们现在还没找到 AD 呢」"
+    "string": "「是啊，我们现在连AD都没找到 呢」"
   },
   "000324": {
     "context": "000324",
@@ -74,7 +74,7 @@
     "context": "000388",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——渡濑和风见、悠里一起，朝外环楼进发。"
+    "string": "——渡濑和风见还有悠里一起，朝外环楼进发。"
   },
   "000432": {
     "context": "000432",
@@ -128,7 +128,7 @@
     "context": "000522",
     "code": "0x45",
     "developer_comment": "",
-    "string": "说着，风见从怀里取出了手绘地图。"
+    "string": "说着，风见从怀里取出了之前的手绘地图。"
   },
   "000643": {
     "context": "000643",
@@ -152,13 +152,13 @@
     "context": "000749",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「那么只能迂回了，从第 4 区域那边或许能绕过去」"
+    "string": "「那么只能绕道了，从第 4 区域那边或许能绕过去」"
   },
   "000771": {
     "context": "000771",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「留给我们的时间不多了……毕竟 AD 不够用」"
+    "string": "「留给我们的时间不多了…… AD 快不够用了」"
   },
   "000776": {
     "context": "000776",
@@ -260,7 +260,7 @@
     "context": "001065",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（好像有点奇怪啊……？）"
+    "string": "（好像有点奇怪啊？）"
   },
   "001070": {
     "context": "001070",
@@ -296,7 +296,7 @@
     "context": "001163",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（有没有可能，即使是现在，她还是很怕我？为什么呢……？）"
+    "string": "（有没有可能，即使是现在，她还是很怕我？这又是为什么呢？）"
   },
   "001198": {
     "context": "001198",
@@ -320,7 +320,7 @@
     "context": "001261",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「怎么了！？」"
+    "string": "「刚才那是！？」"
   },
   "001272": {
     "context": "001272",
@@ -338,7 +338,7 @@
     "context": "001306",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「——快点过去！」"
+    "string": "「——快过去吧！」"
   },
   "001326": {
     "context": "001326",
@@ -380,7 +380,7 @@
     "context": "001517",
     "code": "0x45",
     "developer_comment": "",
-    "string": "宇喜多都很是慌乱，看到渡濑一行也说不出完整的句子来。"
+    "string": "宇喜多很是慌乱，看到渡濑一行也说不出完整的句子来。"
   },
   "001547": {
     "context": "001547",
@@ -398,7 +398,7 @@
     "context": "001581",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……尸体……」"
+    "string": "「尸体……」"
   },
   "001592": {
     "context": "001592",
@@ -410,7 +410,7 @@
     "context": "001621",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「好几个，尸体……！」"
+    "string": "「有很多，尸体！」"
   },
   "001626": {
     "context": "001626",
@@ -422,13 +422,13 @@
     "context": "001637",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「老，老师……你是说尸体……？」"
+    "string": "「老，老师……尸体是？」"
   },
   "001666": {
     "context": "001666",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「在这间屋子里……」"
+    "string": "「在那个房间里……」"
   },
   "001695": {
     "context": "001695",
@@ -458,19 +458,19 @@
     "context": "001745",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「不是的……真是这样的话倒还可以理解……！」"
+    "string": "「不是的……真是这样的话倒还可以理解！但是……」"
   },
   "001756": {
     "context": "001756",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这，这是什么意思……？」"
+    "string": "「这，这是什么意思？」"
   },
   "001785": {
     "context": "001785",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「……你进房间看看就知道了……」"
+    "string": "「你进房间看看就知道了……」"
   },
   "001790": {
     "context": "001790",
@@ -494,7 +494,7 @@
     "context": "001861",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（这什么味道……？）"
+    "string": "（这什么味道？）"
   },
   "001866": {
     "context": "001866",
@@ -518,7 +518,7 @@
     "context": "001918",
     "code": "0x45",
     "developer_comment": "ユウリ",
-    "string": "「好，好的……！」"
+    "string": "「好，好的！」"
   },
   "001932": {
     "context": "001932",
@@ -530,7 +530,7 @@
     "context": "001992",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「队长，副队长，准备好了吗……？」"
+    "string": "「队长，副队长，准备好了吗？」"
   },
   "002003": {
     "context": "002003",
@@ -548,7 +548,7 @@
     "context": "002019",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洵走向了房间——"
+    "string": "洵靠近了那个房间——"
   },
   "002024": {
     "context": "002024",
@@ -590,7 +590,7 @@
     "context": "002245",
     "code": "0x45",
     "developer_comment": "",
-    "string": "是跟风见他们一样，穿着防辐射服的尸体。"
+    "string": "身上的辐射防护服跟风见他们一样。"
   },
   "002250": {
     "context": "002250",
@@ -602,13 +602,13 @@
     "context": "002261",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「怎，怎么会……！？」"
+    "string": "「怎，怎么会！？」"
   },
   "002272": {
     "context": "002272",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「那是，那具尸体是……！！」"
+    "string": "「那是，那具尸体是！！」"
   },
   "002277": {
     "context": "002277",
@@ -638,13 +638,13 @@
     "context": "002309",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「难道，那个人是，我们的……！？」"
+    "string": "「难道，那个人是，我们的……」"
   },
   "002320": {
     "context": "002320",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「嗯……他是跟我们同属 A 队的队员……！」"
+    "string": "「嗯……他是跟我们同属 A 队的队员！」"
   },
   "002331": {
     "context": "002331",
@@ -656,13 +656,13 @@
     "context": "002336",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见和洵跪坐到了地上。"
+    "string": "风见和洵当场跪坐到了地上。"
   },
   "002342": {
     "context": "002342",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（为，为什么会这样……！）"
+    "string": "（为，为什么会这样！）"
   },
   "002347": {
     "context": "002347",
@@ -680,7 +680,7 @@
     "context": "002357",
     "code": "0x45",
     "developer_comment": "",
-    "string": "是不知道被谁，夺去了生命的尸体——"
+    "string": "这里的是不知道被谁，夺去了生命的尸体——"
   },
   "002362": {
     "context": "002362",
@@ -698,7 +698,7 @@
     "context": "002384",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「这里，发生了……！？」"
+    "string": "「这里，发生了什……」"
   },
   "002389": {
     "context": "002389",
@@ -716,7 +716,7 @@
     "context": "002440",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——被困在发生了堆芯熔毁的设施里——"
+    "string": "被困在发生了堆芯熔毁的设施里——"
   },
   "002445": {
     "context": "002445",
@@ -728,7 +728,7 @@
     "context": "002450",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那是稍有不慎就会丢失生命的地狱……"
+    "string": "稍有不慎就会丢失生命的地狱……"
   },
   "002495": {
     "context": "002495",

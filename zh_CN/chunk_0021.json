@@ -62,7 +62,7 @@
     "context": "000430",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「好——的，看来这边可以下去！」"
+    "string": "「好——的，看来从这边可以下去！」"
   },
   "000441": {
     "context": "000441",
@@ -116,19 +116,19 @@
     "context": "000547",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「这么说来……！」"
+    "string": "「这么说来……」"
   },
   "000576": {
     "context": "000576",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「这里，下面，有火情……！」"
+    "string": "「这里，下面，有火情！」"
   },
   "000633": {
     "context": "000633",
     "code": "0x45",
     "developer_comment": "",
-    "string": "就在洵如此断言的时候，三人下到了地下 2 层。"
+    "string": "就在洵如此说着的时候，三人下到了地下 2 层。"
   },
   "000638": {
     "context": "000638",
@@ -170,7 +170,7 @@
     "context": "000992",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「咳……比预想更糟啊」"
+    "string": "「咳……比预想中的更糟啊」"
   },
   "001097": {
     "context": "001097",
@@ -218,7 +218,7 @@
     "context": "001175",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「为什么数值一下子就……！？这里的污染很严重吗！？」# referenced by chunk 245"
+    "string": "「为什么数值一下子就！？这里的污染很严重吗！？」# referenced by chunk 245"
   },
   "001213": {
     "context": "001213",
@@ -266,7 +266,7 @@
     "context": "001376",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「诶……！？」"
+    "string": "「诶！？」"
   },
   "001420": {
     "context": "001420",
@@ -308,7 +308,7 @@
     "context": "001615",
     "code": "0x45",
     "developer_comment": "",
-    "string": "“三之宫·路易斯·优衣”——她就是可能正被关在这间 LABO 里的三名高中生之一。"
+    "string": "“三之宫·路易斯·优衣”——她就是可能正被关在这个 LABO 里的三名高中生之一。"
   },
   "001621": {
     "context": "001621",
@@ -326,7 +326,7 @@
     "context": "001637",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然而，路易斯听罢什么也没说。"
+    "string": "然而，路易斯听后什么也没说。"
   },
   "001681": {
     "context": "001681",
@@ -373,7 +373,7 @@
     "context": "001903",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「为，为什么啊！？为什么要跑掉哇！？」"
+    "string": "「为、为什么啊！？为什么要逃离我们！？」"
   },
   "001923": {
     "context": "001923",
@@ -397,7 +397,7 @@
     "context": "002010",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「不可能的，她日语很好的啊！」"
+    "string": "「不可能的，她日语说的很流畅啊！」"
   },
   "002054": {
     "context": "002054",
@@ -481,7 +481,7 @@
     "context": "002703",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑和洵急忙冲入连接通道。"
+    "string": "渡濑和洵急忙冲向连接通道。"
   },
   "002818": {
     "context": "002818",
@@ -511,7 +511,7 @@
     "context": "002904",
     "code": "0x45",
     "developer_comment": "",
-    "string": "Procyon 就突然警铃大作。"
+    "string": "Procyon 突然警铃大作。"
   },
   "002933": {
     "context": "002933",
@@ -732,7 +732,7 @@
     "context": "003492",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（烧伤……！？）"
+    "string": "（烧伤！？）"
   },
   "003503": {
     "context": "003503",
@@ -744,7 +744,7 @@
     "context": "003509",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（对了，橘曾经说过，“辐射会对皮肤有影响”——！）"
+    "string": "（对了，橘曾经说过，“辐射会对皮肤有影响”！）"
   },
   "003514": {
     "context": "003514",
@@ -780,7 +780,7 @@
     "context": "003647",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「等一下！请等一下！」"
+    "string": "「等一下！拜托了，请等一下！」"
   },
   "003696": {
     "context": "003696",
@@ -882,13 +882,13 @@
     "context": "003937",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑甩掉那个声音，继续追了上去。"
+    "string": "渡濑摆脱掉那个声音，继续追了上去。"
   },
   "003948": {
     "context": "003948",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是就在下个瞬间，"
+    "string": "但是就在下个瞬间。"
   },
   "004028": {
     "context": "004028",
@@ -906,7 +906,7 @@
     "context": "004113",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「可恶……！」"
+    "string": "「咕啊！」"
   },
   "004155": {
     "context": "004155",
@@ -918,7 +918,7 @@
     "context": "004162",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（怎，怎么回事……！？）"
+    "string": "（怎，怎么回事！？）"
   },
   "004213": {
     "context": "004213",

@@ -122,7 +122,7 @@
     "context": "000802",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑听罢焦急起来。"
+    "string": "渡濑听罢开始焦躁起来。"
   },
   "000807": {
     "context": "000807",
@@ -134,7 +134,7 @@
     "context": "000813",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（橘的累积照射大概有多少了……？）"
+    "string": "（橘的累积照射大概有多少了？）"
   },
   "000819": {
     "context": "000819",
@@ -146,7 +146,7 @@
     "context": "000825",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（而且情况还是没变，一支 AD 都没拿到。这样下去的话，大家都会……！）"
+    "string": "（而且情况还是没变，一支 AD 都没拿到。这样下去的话，大家都会……）"
   },
   "000893": {
     "context": "000893",
@@ -158,13 +158,13 @@
     "context": "000922",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「守部，别催。宇喜多，你就按照自己的节奏——」"
+    "string": "「守部，不可以着急。宇喜多，你就按照自己的节奏——」"
   },
   "000927": {
     "context": "000927",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见正说着一半，"
+    "string": "风见话正说一半，"
   },
   "000932": {
     "context": "000932",
@@ -182,7 +182,7 @@
     "context": "001012",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「诶……？」"
+    "string": "「诶？」"
   },
   "001017": {
     "context": "001017",
@@ -278,7 +278,7 @@
     "context": "001844",
     "code": "0x45",
     "developer_comment": "",
-    "string": "又有一处地板掀飞了。"
+    "string": "又有一处地板被掀飞了。"
   },
   "001849": {
     "context": "001849",
@@ -290,7 +290,7 @@
     "context": "001919",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「咳，退路……！」"
+    "string": "「咳，退路被……」"
   },
   "001924": {
     "context": "001924",
@@ -338,13 +338,13 @@
     "context": "002209",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「对，对不起！我真的不知道能不能行……！」"
+    "string": "「对，对不起！我真的不知道能不能行！」"
   },
   "002238": {
     "context": "002238",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「怎么会……！」"
+    "string": "「怎么会！」"
   },
   "002243": {
     "context": "002243",
@@ -356,7 +356,7 @@
     "context": "002272",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「肏！如果没有这道门的话！」"
+    "string": "「FUCK！如果没有这道门的话！」"
   },
   "002283": {
     "context": "002283",
@@ -445,7 +445,7 @@
     "context": "002649",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「宇喜多，把刀还给我！」"
+    "string": "「宇喜多，把军刀还给我！」"
   },
   "002678": {
     "context": "002678",
@@ -469,7 +469,7 @@
     "context": "002723",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「相对于高大的队长，我的体型更适合这项任务！」"
+    "string": "「相比于高大的队长，我的体型更适合这项任务！」"
   },
   "002742": {
     "context": "002742",
@@ -517,13 +517,13 @@
     "context": "003000",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——用时 30 秒。"
+    "string": "——只用时 30 秒。"
   },
   "003011": {
     "context": "003011",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「真快啊，喂！」"
+    "string": "「真快啊！」"
   },
   "003027": {
     "context": "003027",
@@ -541,7 +541,7 @@
     "context": "003094",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「全靠你了，守部…！」"
+    "string": "「全靠你了，守部！」"
   },
   "003168": {
     "context": "003168",
@@ -553,7 +553,7 @@
     "context": "003197",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「咳……！」"
+    "string": "「咳！」"
   },
   "003202": {
     "context": "003202",
@@ -565,7 +565,7 @@
     "context": "003231",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「守部……！拜托你，快一点！」"
+    "string": "「守部……拜托你，快一点！」"
   },
   "003236": {
     "context": "003236",
@@ -589,7 +589,7 @@
     "context": "003365",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「开了！」"
+    "string": "「成功了！」"
   },
   "003370": {
     "context": "003370",
@@ -613,7 +613,7 @@
     "context": "003493",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……！？」"
+    "string": "「！？」"
   },
   "003498": {
     "context": "003498",
