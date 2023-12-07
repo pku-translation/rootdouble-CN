@@ -164,7 +164,7 @@
     "context": "000669",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「别……说了……！后面的话，我可，不想听了……！」"
+    "string": "「别……说了……！后面的话，我，不想听……！」"
   },
   "000680": {
     "context": "000680",
@@ -176,7 +176,7 @@
     "context": "000691",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「那你就仔细看看，他怀里的东西吧」# referenced by chunk 267"
+    "string": "「那你就仔细看看，他怀里的东西吧」"
   },
   "000788": {
     "context": "000788",
@@ -206,7 +206,7 @@
     "context": "000836",
     "code": "0x45",
     "developer_comment": "",
-    "string": "纱瑠正说着一半，"
+    "string": "纱瑠说到一半……"
   },
   "000898": {
     "context": "000898",
@@ -218,7 +218,7 @@
     "context": "000903",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见声嘶力竭地叫喊道，粗暴地甩开了纱瑠。"
+    "string": "风见歇斯底里地叫喊道，粗暴地甩开了纱瑠。"
   },
   "000984": {
     "context": "000984",
@@ -308,7 +308,7 @@
     "context": "001234",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「这，这样啊……」"
+    "string": "「这、这样啊……」"
   },
   "001239": {
     "context": "001239",
@@ -344,7 +344,7 @@
     "context": "001270",
     "code": "0x45",
     "developer_comment": "",
-    "string": "她好像在紧紧地抱着自己，自己抱着自己——# review：总之我没看懂"
+    "string": "她就像是要阻拦自己一样，自己抱住了自己的身体——"
   },
   "001299": {
     "context": "001299",
@@ -398,7 +398,7 @@
     "context": "001358",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「难道，纱瑠说的你信了吗？」"
+    "string": "「难道，你相信了纱瑠说的话吗？」"
   },
   "001369": {
     "context": "001369",
@@ -524,7 +524,7 @@
     "context": "001614",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「难道有什么理由……让你故意地，不接我的无线……？」"
+    "string": "「难道有什么理由……让你故意不接我的无线电……？」"
   },
   "001643": {
     "context": "001643",
@@ -536,7 +536,7 @@
     "context": "001654",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「你，你——什么时候开始这么想的？」"
+    "string": "「你、你——什么时候开始这么想的？」"
   },
   "001665": {
     "context": "001665",
@@ -608,7 +608,7 @@
     "context": "001874",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「橘，橘……？」"
+    "string": "「橘、橘……？」"
   },
   "001879": {
     "context": "001879",
@@ -692,7 +692,7 @@
     "context": "002082",
     "code": "0x45",
     "developer_comment": "",
-    "string": "下一瞬间，"
+    "string": "下一瞬间……"
   },
   "002094": {
     "context": "002094",
@@ -728,7 +728,7 @@
     "context": "002345",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「等，等一下橘！你为什么要！？」"
+    "string": "「住、住手，橘！为什么要这样！？」"
   },
   "002374": {
     "context": "002374",
@@ -746,7 +746,7 @@
     "context": "002470",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见道着歉，眼睛里满是杀意——！# review：人话好难。"
+    "string": "风见道着歉，眼睛里满是杀意——！"
   },
   "002510": {
     "context": "002510",
@@ -800,7 +800,7 @@
     "context": "002739",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「可恶啊！怎么变成这样了啊！」# review：看不懂，瞎写的。"
+    "string": "「可恶啊！到底发生了什么！」"
   },
   "002744": {
     "context": "002744",
@@ -812,7 +812,7 @@
     "context": "002749",
     "code": "0x45",
     "developer_comment": "",
-    "string": "觉得肯定是在相互信赖着的——！"
+    "string": "我们之间确实是相互信赖着的——！"
   },
   "002755": {
     "context": "002755",
@@ -836,13 +836,13 @@
     "context": "002770",
     "code": "0x45",
     "developer_comment": "",
-    "string": "犹如告诫着残酷的现实。"
+    "string": "仿佛在告诉自己残酷的现实。"
   },
   "002819": {
     "context": "002819",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑像无头苍蝇一般地，扎进了连接通道里。"
+    "string": "渡濑像无头苍蝇一般离开了连接通道。"
   },
   "002824": {
     "context": "002824",
@@ -902,13 +902,13 @@
     "context": "003043",
     "code": "0x45",
     "developer_comment": "",
-    "string": "已经跑不动了吧——他正这样想着，"
+    "string": "已经跑不动了——他正这样想着时……"
   },
   "003058": {
     "context": "003058",
     "code": "0x45",
     "developer_comment": "",
-    "string": "响起了一个干瘪的声音。"
+    "string": "响起了冷冰冰的声音。"
   },
   "003100": {
     "context": "003100",
@@ -926,7 +926,7 @@
     "context": "003110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "腹部很热。这份热度很快就变成了剧痛。"
+    "string": "腹部很热。这种热感很快就变成了剧痛。"
   },
   "003115": {
     "context": "003115",
@@ -974,13 +974,13 @@
     "context": "003194",
     "code": "0x45",
     "developer_comment": "",
-    "string": "不等宇喜多说完，渡濑站了起来，"
+    "string": "不等宇喜多说完，渡濑站了起来。"
   },
   "003248": {
     "context": "003248",
     "code": "0x45",
     "developer_comment": "",
-    "string": "抱着夏彦，又一次跑了出去，"
+    "string": "抱着夏彦，又一次跑了出去。"
   },
   "003253": {
     "context": "003253",
@@ -1040,7 +1040,7 @@
     "context": "003360",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑咆哮着，给自己鼓了鼓劲，"
+    "string": "渡濑咆哮着，给自己鼓了鼓劲。"
   },
   "003365": {
     "context": "003365",
@@ -1082,13 +1082,13 @@
     "context": "003549",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但就在此时，"
+    "string": "但就在这么想的时候……"
   },
   "003554": {
     "context": "003554",
     "code": "0x45",
     "developer_comment": "",
-    "string": "洞开的门禁的另一侧，"
+    "string": "洞开的门禁的另一侧……"
   },
   "003715": {
     "context": "003715",
@@ -1124,7 +1124,7 @@
     "context": "003827",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「赶紧，关上啊！」"
+    "string": "「快关上啊！快点！」"
   },
   "003832": {
     "context": "003832",
@@ -1136,7 +1136,7 @@
     "context": "003839",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见穿过门禁，"
+    "string": "风见穿过门禁……"
   },
   "003898": {
     "context": "003898",
@@ -1166,7 +1166,7 @@
     "context": "004005",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（这，这样下去我会被杀掉的……！）"
+    "string": "（这、这样下去我会被杀的……！）"
   },
   "004011": {
     "context": "004011",
@@ -1280,7 +1280,7 @@
     "context": "004374",
     "code": "0x45",
     "developer_comment": "",
-    "string": "地板压了过来。"
+    "string": "地板越来越近。"
   },
   "004379": {
     "context": "004379",

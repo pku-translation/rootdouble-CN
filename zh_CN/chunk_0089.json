@@ -8,7 +8,7 @@
     "context": "000124",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「可恶，追丢了……！」"
+    "string": "「可恶，追丢了么……！」"
   },
   "000196": {
     "context": "000196",
@@ -224,7 +224,7 @@
     "context": "000733",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「那你为什么对我……」# referenced by chunk 261"
+    "string": "「那你为什么对我……」"
   },
   "000738": {
     "context": "000738",
@@ -242,7 +242,7 @@
     "context": "000772",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「……因为，我也想了解你的真实想法啊」# referenced by chunk 261"
+    "string": "「……因为，我也想了解你的真实想法啊」"
   },
   "000783": {
     "context": "000783",
@@ -284,7 +284,7 @@
     "context": "000861",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见以前说过，"
+    "string": "风见以前说过："
   },
   "000866": {
     "context": "000866",
@@ -338,7 +338,7 @@
     "context": "000978",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「没，没错……」"
+    "string": "「没、没错……」"
   },
   "000989": {
     "context": "000989",
@@ -368,7 +368,7 @@
     "context": "001016",
     "code": "0x45",
     "developer_comment": "",
-    "string": "感觉像之前进入污染区域的时候——# chunk 87"
+    "string": "感觉像之前进入污染区域的时候——"
   },
   "001027": {
     "context": "001027",
@@ -440,7 +440,7 @@
     "context": "001129",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「来了来了，终于变成了如果再找不到 AD 就没法活下去的状况了……！」"
+    "string": "「终于变成了如果再找不到 AD 就没法活下去的状况了……！」"
   },
   "001134": {
     "context": "001134",
@@ -571,7 +571,7 @@
     "context": "001373",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「想到什么了吗？」"
+    "string": "「有想到什么线索吗？」"
   },
   "001384": {
     "context": "001384",
@@ -607,7 +607,7 @@
     "context": "001451",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「队长，来看看这个东西吧？」# referenced by chunk 261"
+    "string": "「队长，来看看这个东西吧？」"
   },
   "001456": {
     "context": "001456",
@@ -625,7 +625,7 @@
     "context": "001472",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「……这是什么？」# referenced by chunk 261"
+    "string": "「……这是什么？」"
   },
   "001501": {
     "context": "001501",
@@ -917,7 +917,7 @@
     "context": "002007",
     "code": "0x45",
     "developer_comment": "",
-    "string": "＜字符串＞　　　　　　　　　　　　　　　＜出现次数＞# review: 如果官方没谈成，注意排版"
+    "string": "＜字符串＞　　　　　　　　　　　　　　　＜出现次数＞"
   },
   "002010": {
     "context": "002010",
@@ -935,37 +935,37 @@
     "context": "002016",
     "code": "0x45",
     "developer_comment": "",
-    "string": "堆芯熔毁　　　　　　　　　　　　　：　20 次"
+    "string": "堆芯熔毁　　　　　　　　　　　　  　 ：　20 次"
   },
   "002019": {
     "context": "002019",
     "code": "0x45",
     "developer_comment": "",
-    "string": "实验对象　　　　　　　　　　　　　　　　：　19 次"
+    "string": "实验对象　　　　　　　　　　 　　 　 ：　19 次"
   },
   "002022": {
     "context": "002022",
     "code": "0x45",
     "developer_comment": "",
-    "string": "NBC　　　　　　　　　　　　　　　　：　15 次"
+    "string": "NBC　　　　　　　　　　 　       　 　 ：　15 次"
   },
   "002025": {
     "context": "002025",
     "code": "0x45",
     "developer_comment": "",
-    "string": "WX 粒子　　　　　　　　　　　　　　　：　13 次"
+    "string": "WX 粒子　　　　　   　　　　　    　　：　13 次"
   },
   "002028": {
     "context": "002028",
     "code": "0x45",
     "developer_comment": "",
-    "string": "粒子增幅器 　　　　　　　　　　　　　：　09 次"
+    "string": "粒子增幅器 　　　　　　 　　　　　　：　09 次"
   },
   "002031": {
     "context": "002031",
     "code": "0x45",
     "developer_comment": "",
-    "string": "实验对象 N　　　　　　　　　　　　　　　：　08 次"
+    "string": "实验对象 N　　　　　　　　  　　　　：　08 次"
   },
   "002035": {
     "context": "002035",
@@ -977,49 +977,49 @@
     "context": "002038",
     "code": "0x45",
     "developer_comment": "",
-    "string": "脑功能受损　　　　　　　　　　　　　　：　06 次"
+    "string": "脑功能受损　　　　　　　　　 　　　：　06 次"
   },
   "002041": {
     "context": "002041",
     "code": "0x45",
     "developer_comment": "",
-    "string": "基因受损　　　　　　　　　　　　　　：　05 次"
+    "string": "基因受损　　　　　　 　　 　　  　　：　05 次"
   },
   "002044": {
     "context": "002044",
     "code": "0x45",
     "developer_comment": "",
-    "string": "Zero 区域　　　　　　　　　　　　：　05 次"
+    "string": "Zero 区域　　　　　　　　　   　　　：　05 次"
   },
   "002047": {
     "context": "002047",
     "code": "0x45",
     "developer_comment": "",
-    "string": "WX 粒子的蔓延　　　　　　　　　　　　：　04 次"
+    "string": "WX 粒子的蔓延　　　　　　　　 　　：　04 次"
   },
   "002050": {
     "context": "002050",
     "code": "0x45",
     "developer_comment": "",
-    "string": "实验对象 Ｙ　　　　　　　　　　　　　　　：　04 次"
+    "string": "实验对象 Ｙ　　　　　　　　 　  　　：　04 次"
   },
   "002053": {
     "context": "002053",
     "code": "0x45",
     "developer_comment": "",
-    "string": "实验对象 Y Ⅱ 　　　　　　　　　　　　　：　03 次"
+    "string": "实验对象 Y Ⅱ 　　　　　　　　　  　：　03 次"
   },
   "002056": {
     "context": "002056",
     "code": "0x45",
     "developer_comment": "",
-    "string": "IGF2R 基因异常 S 型　　　　　：　03 次"
+    "string": "IGF2R 基因异常 S 型　　　　           　：　03 次"
   },
   "002059": {
     "context": "002059",
     "code": "0x45",
     "developer_comment": "",
-    "string": "实验对象 A 　　　　　　　　　　　　　　　：　03 次"
+    "string": "实验对象 A 　　　　　　　　　　   　：　03 次"
   },
   "002091": {
     "context": "002091",
@@ -1037,7 +1037,7 @@
     "context": "002101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "列表里有好几个词猜不出意思来。但不知为何，它们感觉很不自然。"
+    "string": "列表里有好几个词猜不出意思来。但不知为何，给人感觉很不自然。"
   },
   "002106": {
     "context": "002106",
@@ -1061,7 +1061,7 @@
     "context": "002127",
     "code": "0x45",
     "developer_comment": "",
-    "string": "一股莫可名状的感情从心底涌了上来——那是混杂着恐怖、愤怒与憎恶的，无比黑暗的感情。"
+    "string": "从心底涌上的是——混杂着恐怖、愤怒与憎恶的，无比黑暗的感情。"
   },
   "002156": {
     "context": "002156",
@@ -1079,7 +1079,7 @@
     "context": "002172",
     "code": "0x45",
     "developer_comment": "",
-    "string": "自己应该确实见过这几个词。"
+    "string": "自己总觉得应该见过这几个词。"
   },
   "002177": {
     "context": "002177",
@@ -1163,7 +1163,7 @@
     "context": "002358",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我觉得，我的幻视与幻听，就是单纯地因为大脑出了问题吧」"
+    "string": "「我觉得，我的幻视与幻听，就是因为大脑出了问题吧」"
   },
   "002369": {
     "context": "002369",
@@ -1262,7 +1262,7 @@
     "context": "002606",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「毕竟，你为了帮助大家而竭尽全力，也是不会有错的事实」"
+    "string": "「毕竟，你为了帮助大家而竭尽全力，这件事情毫无疑问是真实的」"
   },
   "002617": {
     "context": "002617",
@@ -1310,7 +1310,7 @@
     "context": "002707",
     "code": "0x45",
     "developer_comment": "",
-    "string": "连他自己都对自己失去了信任的时候，能有人对他说出这样一席话来——"
+    "string": "连自己都对自己失去了信任的时候，能有人对他说出这样一席话来——"
   },
   "002712": {
     "context": "002712",
@@ -1322,7 +1322,7 @@
     "context": "002723",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「不过……现在该怎么办呢？守部还有宇喜多那个大叔，目前可都在打心底怀疑我吧？」# referenced by chunk 261，下同"
+    "string": "「不过……现在该怎么办呢？守部还有宇喜多那个大叔，目前可都在打心底怀疑我吧？」"
   },
   "002752": {
     "context": "002752",
@@ -1489,7 +1489,7 @@
     "context": "003101",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他不觉得能有。普通的办法是绝无可能的。"
+    "string": "他不觉得有这个可能。普通的办法是绝无可能的。"
   },
   "003106": {
     "context": "003106",
@@ -1567,13 +1567,13 @@
     "context": "003433",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「怎，怎么了？」"
+    "string": "「怎、怎么了？」"
   },
   "003438": {
     "context": "003438",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑压低了声音，回答道："
+    "string": "惠那惊讶地询问，渡濑压低声音回答道："
   },
   "003449": {
     "context": "003449",
@@ -1585,7 +1585,7 @@
     "context": "003460",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我想到了。有一个办法，能解决所有问题」# referenced by chunk 261"
+    "string": "「我想到了。有一个办法，能解决所有问题」"
   },
   "003489": {
     "context": "003489",
@@ -1723,7 +1723,7 @@
     "context": "003995",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「咳哈……！为，为什么……！？」"
+    "string": "「咳哈……！为、为什么……！？」"
   },
   "004006": {
     "context": "004006",
