@@ -33,7 +33,7 @@
     "context": "000174",
     "code": "0x45",
     "developer_comment": "",
-    "string": "面对突然抛出的问题，宇喜多略作思考后回答。"
+    "string": "面对突然抛出的问题，宇喜多略作思考后回答道："
   },
   "000186": {
     "context": "000186",
@@ -81,7 +81,7 @@
     "context": "000299",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「哎呀……宇喜多先生意外很浪漫呢」"
+    "string": "「哎呀……没想到宇喜多先生很浪漫呢」"
   },
   "000304": {
     "context": "000304",
@@ -93,7 +93,7 @@
     "context": "000315",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「……没有吧，这应该是典型的想法」"
+    "string": "「……没有吧，一般都会这么想」"
   },
   "000344": {
     "context": "000344",
@@ -105,7 +105,7 @@
     "context": "000355",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「请说」"
+    "string": "「请说？」"
   },
   "000366": {
     "context": "000366",
@@ -153,7 +153,7 @@
     "context": "000479",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「也就是说， Communicator 越使用 BC ，新的 Communicator 也就越多」"
+    "string": "「也就是说， Communicator 越是使用 BC ，新的 Communicator 也就越多」"
   },
   "000490": {
     "context": "000490",
@@ -165,7 +165,7 @@
     "context": "000501",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「哦……也就是说不是进化产生了 Communicator，而是自发产生的基因变异现象」"
+    "string": "「哦……也就是说，不是进化产生了 Communicator，而是自发产生的基因变异现象」"
   },
   "000530": {
     "context": "000530",
@@ -183,7 +183,7 @@
     "context": "000552",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「对照这两点也能得出这样的答案吧」 #review:理解不能"
+    "string": "「对照这两点也能得出这样的答案吧」 "
   },
   "000563": {
     "context": "000563",
@@ -213,7 +213,7 @@
     "context": "000625",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「“Communicator 不是进化后的人类，而是太古时代原本就存在的，或者说旧人类”」"
+    "string": "「“Communicator 不是进化后的人类，而是太古时代原本就存在的，或者说是，旧人类”」"
   },
   "000636": {
     "context": "000636",
@@ -291,7 +291,7 @@
     "context": "000829",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但博士马上微笑着说。"
+    "string": "但博士马上微笑着说道："
   },
   "000859": {
     "context": "000859",
@@ -303,7 +303,7 @@
     "context": "000870",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「是，是吧」"
+    "string": "「是、是吧」"
   },
   "000899": {
     "context": "000899",
@@ -315,7 +315,7 @@
     "context": "000928",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「这样想来，这份谁也不能告诉的朴素的工作……也有了价值吧？」"
+    "string": "「这样想来，这个谁也不能告知的枯燥工作也……没什么成就感吧？」"
   },
   "000939": {
     "context": "000939",
@@ -357,6 +357,6 @@
     "context": "000989",
     "code": "0x45",
     "developer_comment": "",
-    "string": "明明即使不会使用 BC ，至少多说几句话也或许能互相理解的——"
+    "string": "明明即使不会使用 BC ，至少多说几句话，也许就能明白的——"
   }
 }

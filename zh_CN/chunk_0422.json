@@ -67,13 +67,13 @@
     "context": "000244",
     "code": "0x45",
     "developer_comment": "",
-    "string": "真白、纱瑠和母亲回应道。"
+    "string": "真白、纱瑠和我母亲回应道。"
   },
   "000273": {
     "context": "000273",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「真和平啊，一年前的事情就像假的一样～」"
+    "string": "「真是平和啊，一年前的事情就像假的一样～」"
   },
   "000302": {
     "context": "000302",
@@ -115,19 +115,19 @@
     "context": "000458",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「我也会做饭～」"
+    "string": "「我也会帮忙做饭的～」"
   },
   "000487": {
     "context": "000487",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「我，我也要努力做点什么！」"
+    "string": "「我、我也要努力做点什么！」"
   },
   "000516": {
     "context": "000516",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「哎呀，开玩笑呢。孩子还是好好上学吧」"
+    "string": "「哎呀，开玩笑呢。作为孩子还是好好上学吧」"
   },
   "000545": {
     "context": "000545",
@@ -271,7 +271,7 @@
     "context": "001014",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「对，散步的话多少次都陪着」"
+    "string": "「对，散步的话随时都能一起来」"
   },
   "001025": {
     "context": "001025",
@@ -319,7 +319,7 @@
     "context": "001209",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但果然很幸福啊。"
+    "string": "真的是，很幸福啊。"
   },
   "001254": {
     "context": "001254",
@@ -379,13 +379,13 @@
     "context": "001415",
     "code": "0x45",
     "developer_comment": "",
-    "string": "是对我有恩的值得尊敬的伙伴——虽然从体型到思维方式各方面完全不一样，首先就无法相互理解。"
+    "string": "是对我有恩的值得尊敬的伙伴——虽然从体型到思维方式各方面完全不一样，这第一点就无法相互理解。"
   },
   "001420": {
     "context": "001420",
     "code": "0x45",
     "developer_comment": "",
-    "string": "正当我这么想着，悠里突然微笑着说。"
+    "string": "正当我这么想着，悠里突然微笑着说道："
   },
   "001449": {
     "context": "001449",
@@ -409,7 +409,7 @@
     "context": "001542",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听到这话，我们都愣住了。悠里望向远方，接着说道。"
+    "string": "听到这话，我们都愣住了。悠里望向远方，接着说道："
   },
   "001571": {
     "context": "001571",
@@ -433,13 +433,13 @@
     "context": "001604",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "「是的，不可能忘」"
+    "string": "「是的，不可能忘的」"
   },
   "001633": {
     "context": "001633",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「很神奇吧，到底是怎么回事呢」"
+    "string": "「那太不可思议了。到底是怎么回事呢」"
   },
   "001662": {
     "context": "001662",
@@ -469,13 +469,13 @@
     "context": "001736",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「过去使用的 BC 连续地返回」"
+    "string": "「过去使用的 BC 连续重现」"
   },
   "001747": {
     "context": "001747",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "@auto-import 0028 001735"
+    "string": "「嗯，嗯」"
   },
   "001776": {
     "context": "001776",
@@ -607,7 +607,7 @@
     "context": "002224",
     "code": "0x45",
     "developer_comment": "悠里",
-    "string": "「对。你看，灵魂没有向我们传达想法的手段吧？」"
+    "string": "「对。你看，这个灵魂没有向我们传达想法的手段吧？」"
   },
   "002253": {
     "context": "002253",
@@ -625,7 +625,7 @@
     "context": "002311",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「我果然还是认为只是单纯的偶然」"
+    "string": "「我还是认为只是单纯的偶然」"
   },
   "002340": {
     "context": "002340",
@@ -685,19 +685,19 @@
     "context": "002493",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「哎呀呀，只要是悠里的想法，夏彦就完全同意啊」"
+    "string": "「受不了呀，只要是悠里的想法，夏彦就完全同意啊」"
   },
   "002522": {
     "context": "002522",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「哎呀呀」"
+    "string": "「受不了呢」"
   },
   "002551": {
     "context": "002551",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「哎呀呀啊」"
+    "string": "「受不了啊」"
   },
   "002562": {
     "context": "002562",
@@ -727,7 +727,7 @@
     "context": "002677",
     "code": "0x45",
     "developer_comment": "",
-    "string": "我也笑着，同时暗自想。"
+    "string": "我也笑着，同时暗自想道。"
   },
   "002682": {
     "context": "002682",
@@ -841,13 +841,13 @@
     "context": "003332",
     "code": "0x45",
     "developer_comment": "",
-    "string": "所以即使 BC 粒子的能量衰减也不会消失。"
+    "string": "所以即使 BC 粒子的能量就算衰减了，也不会消失。"
   },
   "003380": {
     "context": "003380",
     "code": "0x45",
     "developer_comment": "",
-    "string": "或许已经从昏暗的 LABO 中解放出来，扩散到世界的各个角落。"
+    "string": "或许已经从昏暗的 LABO 中解放出来，扩散到了世界的各个角落。"
   },
   "003385": {
     "context": "003385",
@@ -907,13 +907,13 @@
     "context": "003566",
     "code": "0x45",
     "developer_comment": "",
-    "string": "愿望是绝对不会丢失的——"
+    "string": "思念，是绝对不会消逝的——"
   },
   "003571": {
     "context": "003571",
     "code": "0x45",
     "developer_comment": "",
-    "string": "永远留在那里。"
+    "string": "永远，都会留在那里。"
   },
   "003734": {
     "context": "003734",

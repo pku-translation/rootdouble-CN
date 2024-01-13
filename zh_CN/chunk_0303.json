@@ -15,19 +15,19 @@
     "context": "000114",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——名叫宇喜多的男人对渡濑解释说。 # 后面也反复用男人指宇喜多 于是想这里加上一个“名叫宇喜多的”"
+    "string": "——名叫宇喜多的男人对渡濑解释说。 "
   },
   "000119": {
     "context": "000119",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那件空前的事件，是由称作“Communicator A”的女孩子独自引起的。"
+    "string": "那件空前的事件，是由称作“Communicator A”的女性独自引起的。"
   },
   "000124": {
     "context": "000124",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后 A 被鹿鸣市招揽，作为实验对象加入了超心研——"
+    "string": "然后 A 被鹿鸣市诱导，作为实验对象加入了超心研——"
   },
   "000132": {
     "context": "000132",
@@ -51,7 +51,7 @@
     "context": "000197",
     "code": "0x45",
     "developer_comment": "",
-    "string": "“由此，她充满恶意的思考随处散播，导致了连环火灾的发生”之类的。"
+    "string": "“由此，她充满恶意的思考随处散播，导致了连环火灾的发生”等等。"
   },
   "000239": {
     "context": "000239",
@@ -75,7 +75,7 @@
     "context": "000273",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——男人继续对着愕然的渡濑说："
+    "string": "——男人继续对着愕然的渡濑说道："
   },
   "000284": {
     "context": "000284",
@@ -128,7 +128,7 @@
     "context": "000562",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦这样想着，朝着渡濑的心中，送进了亲近 Communicator 的感情。"
+    "string": "夏彦这样想着，朝着渡濑的心中，传递了亲近 Communicator 的感情。"
   },
   "000704": {
     "context": "000704",
@@ -212,7 +212,7 @@
     "context": "001082",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「当时她的国家对于 Communicator 的歧视相当强烈，特别拥有强大能力的 A 似乎更是被周围的人所激烈地疏远」"
+    "string": "「当时她的国家对于 Communicator 的歧视相当强烈，特别是拥有强大能力的 A ，周围的人唯恐避之不及」"
   },
   "001093": {
     "context": "001093",
@@ -272,7 +272,7 @@
     "context": "001194",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「逃避迫害好不容易来到日本，然而才出狼窝，又入虎穴……A 心中的恶意，更加地放大了」"
+    "string": "「逃避迫害好不容易来到日本，然而才出狼窝，又入虎穴……A 心中的恶意，被进一步放大了」"
   },
   "001205": {
     "context": "001205",
@@ -350,7 +350,7 @@
     "context": "001340",
     "code": "0x45",
     "developer_comment": "宇喜多",
-    "string": "「……但是，可恨的并不是 A。毫无考虑就开发了她的能力的超心研犯下了巨大的罪过」"
+    "string": "「……但是，可恨的并不是 A。毫无考虑就开发了她的能力的超心研，才是罪行罄竹难书」"
   },
   "001351": {
     "context": "001351",
@@ -428,7 +428,7 @@
     "context": "001773",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——看完这段记忆的夏彦，倒吸一口凉气。"
+    "string": "——看完这段记忆的夏彦，倒吸了一口凉气。"
   },
   "001829": {
     "context": "001829",
@@ -446,7 +446,7 @@
     "context": "001888",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（A 之所以成为恶意的集合，是人们的迫害和超心研的原因？！）"
+    "string": "（A 之所以成为恶意的集合，是因为人们的迫害和超心研？！）"
   },
   "001941": {
     "context": "001941",
@@ -458,7 +458,7 @@
     "context": "001958",
     "code": "0x45",
     "developer_comment": "",
-    "string": "那样的话渡濑的憎恶，比起对 Communicator A，更应该是对超心研和鹿鸣市而言才对。"
+    "string": "如果是这样的话，渡濑的憎恶应该指向超心研和鹿鸣市，而不是 Communicator A。"
   },
   "001964": {
     "context": "001964",
@@ -704,19 +704,19 @@
     "context": "002789",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（不更加强力地注入对 Communicator 的好感的话就不行吗？）"
+    "string": "（难道必须对 Communicator 给予更强烈的善意吗？）"
   },
   "002795": {
     "context": "002795",
     "code": "0x45",
     "developer_comment": "夏彦",
-    "string": "（把渡濑对于他认为是 Communicator 的人们的，最大限度的好感……）"
+    "string": "（对渡濑认为是 Communicator 的人，给予最大限度的善意……）"
   },
   "002800": {
     "context": "002800",
     "code": "0x45",
     "developer_comment": "",
-    "string": "夏彦这样想着，姑且离开了这段记忆……"
+    "string": "夏彦这样想着，暂且离开了这段记忆……"
   },
   "002859": {
     "context": "002859",

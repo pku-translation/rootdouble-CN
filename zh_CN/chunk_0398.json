@@ -8,7 +8,7 @@
     "context": "000055",
     "code": "0x45",
     "developer_comment": "",
-    "string": "@import 0387 000062 #主动被动有差别，但是意思完全相同"
+    "string": "@import 0387 000062 "
   },
   "000060": {
     "context": "000060",
@@ -32,7 +32,7 @@
     "context": "000142",
     "code": "0x45",
     "developer_comment": "",
-    "string": "听完了这些话，夏彦众人声音都有些发颤地低声说道："
+    "string": "听完了这些话，夏彦等人声音都有些发颤地低声说道。"
   },
   "000171": {
     "context": "000171",
@@ -44,13 +44,13 @@
     "context": "000200",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「那，那，必须要思考逃生方法！」"
+    "string": "「那、那必须要想想逃生的方法！」"
   },
   "000229": {
     "context": "000229",
     "code": "0x45",
     "developer_comment": "恵那",
-    "string": "「开，开什么玩笑……我们都找了 6 个小时了，什么都没有找到……！」"
+    "string": "「开、开什么玩笑……我们都找了 6 个小时了，什么都没有找到……！」"
   },
   "000235": {
     "context": "000235",
@@ -62,13 +62,13 @@
     "context": "000240",
     "code": "0x45",
     "developer_comment": "",
-    "string": "渡濑沉默了。"
+    "string": "渡濑面对这个问题陷入了沉默。"
   },
   "000246": {
     "context": "000246",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（的确很离谱……！）"
+    "string": "（的确很乱来……！）"
   },
   "000251": {
     "context": "000251",
@@ -158,7 +158,7 @@
     "context": "000467",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「至少去安全的地方避难吧」#review 安全一点的地方？"
+    "string": "「至少去安全的地方避难吧」"
   },
   "000496": {
     "context": "000496",
@@ -200,7 +200,7 @@
     "context": "000574",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「我不知道，但是……试试看吧」#review"
+    "string": "「我不知道，但是……值得一试吧」"
   },
   "000638": {
     "context": "000638",
@@ -242,7 +242,7 @@
     "context": "000722",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「啊……好，好的……」"
+    "string": "「啊……好、好的……」"
   },
   "000735": {
     "context": "000735",
@@ -284,13 +284,13 @@
     "context": "000867",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这仿佛要压碎人内心的沉默之中，忽然风见开口了。"
+    "string": "在几乎令人心碎的沉默中，忽然听到了风见的声音。"
   },
   "000896": {
     "context": "000896",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「那，那个……」"
+    "string": "「那、那个……」"
   },
   "000907": {
     "context": "000907",
@@ -302,7 +302,7 @@
     "context": "000936",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「我……稍微想起来了一点……」#review"
+    "string": "「我……稍微想起来了一点，你，还有你……」"
   },
   "000941": {
     "context": "000941",
@@ -452,7 +452,7 @@
     "context": "001411",
     "code": "0x45",
     "developer_comment": "",
-    "string": "其他人也，什么都说不出来。"
+    "string": "其他人也什么都说不出来。"
   },
   "001417": {
     "context": "001417",
@@ -476,13 +476,13 @@
     "context": "001483",
     "code": "0x45",
     "developer_comment": "",
-    "string": "从他知道了亘的死背后的真相以后——"
+    "string": "从他知道了亘死亡的真相以后——"
   },
   "001535": {
     "context": "001535",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他就对今天此时此刻之前发生的一切事情感到后悔。"
+    "string": "直到今天，对这一瞬间前的一切感到后悔。"
   },
   "001551": {
     "context": "001551",
@@ -494,7 +494,7 @@
     "context": "001557",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "（能不让大家陷入这样不幸的正确的道路——）"
+    "string": "（能不让所有人变得不幸的，正确的道路——）"
   },
   "001562": {
     "context": "001562",
@@ -584,7 +584,7 @@
     "context": "001718",
     "code": "0x45",
     "developer_comment": "洵",
-    "string": "「等，等一下队长！？」"
+    "string": "「等、等一下队长！？」"
   },
   "001747": {
     "context": "001747",
@@ -698,7 +698,7 @@
     "context": "002022",
     "code": "0x45",
     "developer_comment": "",
-    "string": "他觉得，只要能够拯救其他人，自己的生命并不算什么。"
+    "string": "他觉得，只要能够拯救其他人，自己的生命不值一提。"
   },
   "002027": {
     "context": "002027",
@@ -836,7 +836,7 @@
     "context": "002388",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见仿佛恳求一般地向渡濑说："
+    "string": "风见仿佛在恳求一般向渡濑说道："
   },
   "002417": {
     "context": "002417",
@@ -872,7 +872,7 @@
     "context": "002511",
     "code": "0x45",
     "developer_comment": "",
-    "string": "离爆炸已经没有时间了。"
+    "string": "离爆炸已经没有多少时间了。"
   },
   "002522": {
     "context": "002522",
@@ -920,7 +920,7 @@
     "context": "002826",
     "code": "0x45",
     "developer_comment": "",
-    "string": "死亡正从地底深处朝他们爬来。#review"
+    "string": "死神正从地底深处朝他们爬来。"
   },
   "002831": {
     "context": "002831",
@@ -949,7 +949,7 @@
     "context": "003098",
     "code": "0x45",
     "developer_comment": "",
-    "string": "√D Bad End 5【被抹杀的忠实家】"
+    "string": "√D Bad End 5【被抹杀的忠实者】"
   },
   "003101": {
     "context": "003101",
@@ -971,6 +971,6 @@
     "context": "003110",
     "code": "0x45",
     "developer_comment": "",
-    "string": "在这个结局前一个 Senses 输入中，设定成关心渡濑和风见的身体的话，或许就能避开这个结局了。#review"
+    "string": "在这个结局前一个 Senses 输入中，设定成关心渡濑和风见的身体的话，或许就能避开这个结局了。"
   }
 }

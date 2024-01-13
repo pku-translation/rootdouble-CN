@@ -15,7 +15,7 @@
     "context": "000079",
     "code": "0x45",
     "developer_comment": "",
-    "string": "博士买来的书已经全部读完了，但是还是没有实验的安排。"
+    "string": "博士买来的书已经全部读完了，但还是没有实验的安排。"
   },
   "000084": {
     "context": "000084",
@@ -183,7 +183,7 @@
     "context": "000394",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「新的 Communicator 呢？不是有实验对象 YⅡ吗？」#2是复制吗"
+    "string": "「新的 Communicator 呢？不是有实验对象 YⅡ吗？」"
   },
   "000405": {
     "context": "000405",
@@ -219,13 +219,13 @@
     "context": "000481",
     "code": "0x45",
     "developer_comment": "",
-    "string": "纱瑠抱住博士，用颤抖的声音说道。#review"
+    "string": "纱瑠抱住博士，用颤抖的声音说道。"
   },
   "000489": {
     "context": "000489",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「让我做实验吧，博士。没有实验的话，我——没有办法忍耐自己变得毫无价值」#review"
+    "string": "「让我做实验吧，博士。没有实验的话，我——没有办法忍耐自己变得毫无价值」"
   },
   "000497": {
     "context": "000497",
@@ -237,7 +237,7 @@
     "context": "000505",
     "code": "0x45",
     "developer_comment": "サリュ",
-    "string": "「不要夺走我的位置」"
+    "string": "「不要夺走我的任务」"
   },
   "000534": {
     "context": "000534",
@@ -363,7 +363,7 @@
     "context": "000792",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「我也会竭尽我的所能……但是……」"
+    "string": "「这之后我也会竭尽所能……所以……」"
   },
   "000797": {
     "context": "000797",
@@ -387,12 +387,12 @@
     "context": "000812",
     "code": "0x45",
     "developer_comment": "",
-    "string": "纱瑠意识到，她已经被剥离了这个世界——"
+    "string": "纱瑠意识到自己已经与这个世界断绝了联系——"
   },
   "000817": {
     "context": "000817",
     "code": "0x45",
     "developer_comment": "",
-    "string": "孤独感让她不住颤抖。#review"
+    "string": "与之而来的孤独感，让她浑身颤抖。"
   }
 }

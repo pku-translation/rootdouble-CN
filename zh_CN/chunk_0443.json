@@ -87,7 +87,7 @@
     "context": "000408",
     "code": "0x45",
     "developer_comment": "？？",
-    "string": "「真白」# review: 确认称呼，下同"
+    "string": "「真白」"
   },
   "000416": {
     "context": "000416",
@@ -117,7 +117,7 @@
     "context": "000614",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「博，博士！？怎么了？你不是去 LABO 了吗？」"
+    "string": "「博、博士！？怎么了？你不是去 LABO 了吗？」"
   },
   "000625": {
     "context": "000625",
@@ -147,25 +147,25 @@
     "context": "000739",
     "code": "0x45",
     "developer_comment": "",
-    "string": "她是怎么被严厉的双亲养大，没怎么出过家门的。"
+    "string": "她在严格的父母的养育下，几乎足不出户。"
   },
   "000744": {
     "context": "000744",
     "code": "0x45",
     "developer_comment": "",
-    "string": "然后博士怎么看不下去了，暂时把她带回了家的……"
+    "string": "然后博士看不下去了，暂时把她带回了家……"
   },
   "000831": {
     "context": "000831",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「……虽然让优衣和夏彦住在一起有点赌的成分……」"
+    "string": "「……虽然让优衣和夏彦住在一起有赌的成分……」"
   },
   "000842": {
     "context": "000842",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「比起说是为了优衣，我觉得更多是为了夏彦」"
+    "string": "「但比起说是为了优衣，我觉得更多是为了夏彦」"
   },
   "000850": {
     "context": "000850",
@@ -255,7 +255,7 @@
     "context": "001061",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「但是为什么你不夏彦直说呢？他现在非常疑惑呢？」"
+    "string": "「但是为什么不和夏彦直说呢？他现在非常疑惑呢？」"
   },
   "001090": {
     "context": "001090",
@@ -393,25 +393,25 @@
     "context": "001369",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「那，那个……」"
+    "string": "「那、那个……」"
   },
   "001398": {
     "context": "001398",
     "code": "0x45",
     "developer_comment": "美夜子",
-    "string": "「是，作为男性的喜欢吗？」"
+    "string": "「是，当作男性的喜欢吗？」"
   },
   "001406": {
     "context": "001406",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「嗯——怎么样？」"
+    "string": "「嗯——怎么说呢？」"
   },
   "001414": {
     "context": "001414",
     "code": "0x45",
     "developer_comment": "ましろ",
-    "string": "「啊，不过现在还只是“作为好朋友”」"
+    "string": "「啊，不过现在还只是“好朋友”」"
   },
   "001443": {
     "context": "001443",
@@ -429,7 +429,7 @@
     "context": "001545",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——真白对博士说的话，博士应该是不会对夏彦说的吧。"
+    "string": "——真白对博士说的话，应该是不会对夏彦说的吧。"
   },
   "001550": {
     "context": "001550",
@@ -441,6 +441,6 @@
     "context": "001556",
     "code": "0x45",
     "developer_comment": "",
-    "string": "直到到了时候的那一天……"
+    "string": "总有一天结局临近，直到那一天……"
   }
 }

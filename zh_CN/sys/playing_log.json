@@ -63,7 +63,7 @@
     "context": "000B8448",
     "developer_comment": "√A Bad Ending #3 [The Overeager Martyr]",
     "character_limit": 21,
-    "string": "√A Bad End 3【奉献之人】"
+    "string": "√A Bad End 3【过度自我牺牲之人】"
   },
   "0011": {
     "context": "000B8424",
@@ -81,13 +81,13 @@
     "context": "000B83E4",
     "developer_comment": "√A Bad Ending #6 [The Fallen]",
     "character_limit": 15,
-    "string": "√A Bad End 6【失足之人】"
+    "string": "√A Bad End 6【坠亡之人】"
   },
   "0014": {
     "context": "000B83C4",
     "developer_comment": "√A Bad Ending #7 [The Egoless]",
     "character_limit": 15,
-    "string": "√A Bad End 7【无我之人】"
+    "string": "√A Bad End 7【傀儡之人】"
   },
   "0015": {
     "context": "000B83A0",
@@ -111,7 +111,7 @@
     "context": "000B8338",
     "developer_comment": "√A Bad Ending #11 [The Despised]",
     "character_limit": 17,
-    "string": "√A Bad End 11【可恨之人】"
+    "string": "√A Bad End 11【被怨恨之人】"
   },
   "0019": {
     "context": "000B8314",
@@ -123,7 +123,7 @@
     "context": "000B82F0",
     "developer_comment": "√A Bad Ending #13 [The Conceited]",
     "character_limit": 17,
-    "string": "√A Bad End 13【骄傲之人】"
+    "string": "√A Bad End 13【傲慢之人】"
   },
   "0021": {
     "context": "000B82CC",
@@ -141,7 +141,7 @@
     "context": "000B8280",
     "developer_comment": "√A Bad Ending #16 [The Terrified]",
     "character_limit": 17,
-    "string": "√A Bad End 16【恐惧之人】"
+    "string": "√A Bad End 16【惊惧之人】"
   },
   "0024": {
     "context": "000B825C",
@@ -159,127 +159,127 @@
     "context": "000B8208",
     "developer_comment": "√A Good Ending [Awakening from Chaos]",
     "character_limit": 19,
-    "string": "√A Good End 【混沌中的觉醒】"
+    "string": "√A Good End 【从混沌中觉醒】"
   },
   "0027": {
     "context": "000B81DC",
     "developer_comment": "√B Bad Ending #1 [The Nonbeliever's Fate]",
     "character_limit": 21,
-    "string": "√B バッドエンド1【信じぬ者の末路】"
+    "string": "√B Bad End 1【不信者的末路】"
   },
   "0028": {
     "context": "000B81B0",
     "developer_comment": "√B Bad Ending #2 [The Unreceptive's Fate]",
     "character_limit": 21,
-    "string": "√B バッドエンド2【受け入れぬ者の末路】"
+    "string": "√B Bad End 2【拒绝者的末路】"
   },
   "0029": {
     "context": "000B8184",
     "developer_comment": "√B Bad Ending #3 [The Apathetic's Fate]",
     "character_limit": 21,
-    "string": "√B バッドエンド3【気遣わぬ者の末路】"
+    "string": "√B Bad End 3【冷漠之人的末路】"
   },
   "0030": {
     "context": "000B8158",
     "developer_comment": "√B Bad Ending #4 [The Scapegoater's Fate]",
     "character_limit": 21,
-    "string": "√B バッドエンド4【他者を責めし者の末路】"
+    "string": "√B Bad End 4 【责备他人者的末路】"
   },
   "0031": {
     "context": "000B812C",
     "developer_comment": "√B Good Ending [Demise by Annihilation]",
     "character_limit": 21,
-    "string": "√B グッドエンド【消滅からの終焉】"
+    "string": "√B Good End 【从消亡中开始终结】"
   },
   "0032": {
     "context": "000B80F8",
     "developer_comment": "√C Good Ending [Investigation through Recurrence]",
     "character_limit": 25,
-    "string": "√C グッドエンド【反復からの究明】"
+    "string": "√C Good End 【从反复中得出的真相】"
   },
   "0033": {
     "context": "000B80CC",
     "developer_comment": "√D Bad Ending #1 [The Erased Investigator]",
     "character_limit": 21,
-    "string": "√D バッドエンド1【抹消されし観察者】"
+    "string": "√D Bad End 1 【被抹杀的观察员】 "
   },
   "0034": {
     "context": "000B80A0",
     "developer_comment": "√D Bad Ending #2 [The Hesitant Enthusiast]",
     "character_limit": 21,
-    "string": "√D バッドエンド2【逡巡せし情熱家】"
+    "string": "√D Bad End 2【犹豫不定的热情之人】"
   },
   "0035": {
     "context": "000B8074",
     "developer_comment": "√D Bad Ending #3 [The Malicious Reformer]",
     "character_limit": 21,
-    "string": "√D バッドエンド3【悪意根深き批評家】"
+    "string": "√D Bad End 3【恶意深根的评论家】"
   },
   "0036": {
     "context": "000B8044",
     "developer_comment": "√D Bad Ending #4 [The Malicious Challenger]",
     "character_limit": 23,
-    "string": "√D バッドエンド4【悪意根深き挑戦者】"
+    "string": "√D Bad End 4【恶意深根的挑战者】"
   },
   "0037": {
     "context": "000B8018",
     "developer_comment": "√D Bad Ending #5 [The Vanquished Loyalist]",
     "character_limit": 21,
-    "string": "√D バッドエンド5【抹消されし忠実家】"
+    "string": "√D Bad End 5【被抹杀的忠实者】"
   },
   "0038": {
     "context": "000B7FEC",
     "developer_comment": "√D Bad Ending #6 [The Wavering Enthusiast]",
     "character_limit": 21,
-    "string": "√D バッドエンド6【断念せし情熱家】"
+    "string": "√D Bad End 6【放弃希望的热情之人】"
   },
   "0039": {
     "context": "000B7FC0",
     "developer_comment": "√D Normal Ending #1 [Guidance of Sirius]",
     "character_limit": 21,
-    "string": "√D ノーマルエンド1【天狼からの導き】"
+    "string": "√D Normal End 1 【天狼的指引】"
   },
   "0040": {
     "context": "000B7F90",
     "developer_comment": "√D Normal Ending #2 [Salvation from the Root]",
     "character_limit": 23,
-    "string": "√D ノーマルエンド2【根源からの救済】"
+    "string": "√D Normal End 2 【来自根源的救赎】"
   },
   "0041": {
     "context": "000B7F54",
     "developer_comment": "√D Normal Ending #3 [Protected by the Bird-of-Paradise]",
     "character_limit": 29,
-    "string": "√D ノーマルエンド3【風鳥からの庇護】"
+    "string": "√D Normal End 3 【极乐鸟的庇护】"
   },
   "0042": {
     "context": "000B7F20",
     "developer_comment": "√D Good Ending Before [Resurrection from Oblivion]",
     "character_limit": 25,
-    "string": "√D グッドエンドBefore【忘却からの蘇生】"
+    "string": "√D Good End Before【从遗忘中苏生】"
   },
   "0043": {
     "context": "000B7EEC",
     "developer_comment": "√D Good Ending AFTER [Replay from Forgetfulness]",
     "character_limit": 25,
-    "string": "√D グッドエンドアフター【忘失からの再生】"
+    "string": "√D Good End AFTER【从忘却中重生】"
   },
   "0044": {
     "context": "000B7EB8",
     "developer_comment": "√D Good Ending BEFORE [Alliance from Compromise]",
     "character_limit": 25,
-    "string": "√D グッドエンドビフォー【和解からの盟約】"
+    "string": "√D Good End BEFORE【从和解中诞生的盟约】"
   },
   "0045": {
     "context": "000B7E88",
     "developer_comment": "√D Good Ending After [Successor from Regret]",
     "character_limit": 23,
-    "string": "√D グッドエンドAfter【失意からの継承】"
+    "string": "√D Good End After【从失意中继承】"
   },
   "0046": {
     "context": "000B7E60",
     "developer_comment": "√D True Ending [Ideals from Eternity]",
     "character_limit": 19,
-    "string": "√D トゥルーエンド【久遠からの想念】"
+    "string": "√D True End【久远的思念】"
   },
   "0047": {
     "context": "000B7E3C",

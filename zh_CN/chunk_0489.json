@@ -15,13 +15,13 @@
     "context": "000075",
     "code": "0x45",
     "developer_comment": "",
-    "string": "这地方也不需要救援队出动，安稳的日子一天天过去。#chunk 297"
+    "string": "这地方也不需要救援队出动，安稳的日子一天天过去。"
   },
   "000080": {
     "context": "000080",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是在工作间的闲暇时间，风见计划着提升自己。"
+    "string": "但是在工作的闲暇时间，风见决定提高自己的技能。"
   },
   "000085": {
     "context": "000085",
@@ -57,7 +57,7 @@
     "context": "000141",
     "code": "0x45",
     "developer_comment": "",
-    "string": "有一个是她后辈的火灾调查员给她送来了资料，风见在训练的间隙里阅读着。"
+    "string": "有一个后辈火灾调查员给她送来了资料，风见在训练的间隙里阅读着。"
   },
   "000147": {
     "context": "000147",
@@ -150,7 +150,7 @@
     "context": "000306",
     "code": "0x45",
     "developer_comment": "",
-    "string": "橘风见敬启：#邮件格式是啥"
+    "string": "橘风见敬启："
   },
   "000310": {
     "context": "000310",
@@ -167,7 +167,7 @@
     "context": "000317",
     "code": "0x45",
     "developer_comment": "",
-    "string": "我继续之前的任务，向你报告之前的事故调查报告。#review"
+    "string": "我继续之前的委托，向你告知之前的事故调查报告。"
   },
   "000321": {
     "context": "000321",
@@ -211,7 +211,7 @@
     "context": "000345",
     "code": "0x45",
     "developer_comment": "",
-    "string": "首先可能原因是建筑物自身的老化，建筑强度不足。"
+    "string": "首先可能的原因是建筑物自身的老化，建筑强度不足。"
   },
   "000349": {
     "context": "000349",
@@ -245,7 +245,7 @@
     "context": "000367",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而且，他们使用了缺少钢筋的加水混凝土。"
+    "string": "而且，他们使用了缺少钢筋的水含量超标的混凝土。"
   },
   "000371": {
     "context": "000371",
@@ -279,7 +279,7 @@
     "context": "000388",
     "code": "0x45",
     "developer_comment": "",
-    "string": "②有关冲击了整个公寓东座的瓦斯爆炸发生的原因"
+    "string": "②对整个公寓东栋造成冲击的瓦斯爆炸的原因"
   },
   "000392": {
     "context": "000392",
@@ -318,7 +318,7 @@
     "context": "000412",
     "code": "0x45",
     "developer_comment": "",
-    "string": "最初发生爆炸的地点恐怕是东座一层的住户家里。"
+    "string": "最初发生爆炸的地点恐怕是东栋一层的住户家里。"
   },
   "000416": {
     "context": "000416",
@@ -375,7 +375,7 @@
     "context": "000447",
     "code": "0x45",
     "developer_comment": "",
-    "string": "（当时住在公寓附近的人也作证说，“听到了多次爆炸声”）"
+    "string": "（当时住在公寓附近的人也可佐证：“听到了多次爆炸声”）"
   },
   "000451": {
     "context": "000451",
@@ -459,7 +459,7 @@
     "context": "000501",
     "code": "0x45",
     "developer_comment": "",
-    "string": "我即将被调职到救援组。#review"
+    "string": "我即将被调职到救援组。"
   },
   "000505": {
     "context": "000505",
@@ -504,7 +504,7 @@
     "context": "000529",
     "code": "0x45",
     "developer_comment": "",
-    "string": "也就是说，后面的事情就交给你了。#review"
+    "string": "也就是说，日后就拜托前辈了。"
   },
   "000608": {
     "context": "000608",
@@ -546,13 +546,13 @@
     "context": "000639",
     "code": "0x45",
     "developer_comment": "",
-    "string": "但是对于这次事件，全国的消防组织几乎都没有给予关注。"
+    "string": "但是这次事件，全国的消防组织几乎都没有给予关注。"
   },
   "000644": {
     "context": "000644",
     "code": "0x45",
     "developer_comment": "",
-    "string": "仿佛是在处理烫手山芋一般——#review"
+    "string": "仿佛是在处理烫手山芋一般——"
   },
   "000650": {
     "context": "000650",
@@ -612,7 +612,7 @@
     "context": "000820",
     "code": "0x45",
     "developer_comment": "凪沙",
-    "string": "「“家里有 Communicator 的，会被优先挑选”」"
+    "string": "「“家里有 Communicator 的，会被优先选入”」"
   },
   "000828": {
     "context": "000828",
@@ -654,13 +654,13 @@
     "context": "000858",
     "code": "0x45",
     "developer_comment": "",
-    "string": "因为在鹿鸣市才会有这种事。#review"
+    "string": "因为在鹿鸣市才会有这种事。"
   },
   "000949": {
     "context": "000949",
     "code": "0x45",
     "developer_comment": "",
-    "string": "——也就是说，很有可能这个公寓里住着很多的 Communicator。"
+    "string": "——也就是说，很有可能这个公寓里住着很多 Communicator。"
   },
   "000954": {
     "context": "000954",
@@ -690,13 +690,13 @@
     "context": "000978",
     "code": "0x45",
     "developer_comment": "",
-    "string": "她正喃喃自语，忽然听到有人喊她。"
+    "string": "她正喃喃自语时，忽然听到有人喊她。"
   },
   "001007": {
     "context": "001007",
     "code": "0x45",
     "developer_comment": "渡瀬",
-    "string": "「喂橘，你在做什么呢」"
+    "string": "「喂，橘，你在做什么呢」"
   },
   "001036": {
     "context": "001036",
@@ -708,7 +708,7 @@
     "context": "001044",
     "code": "0x45",
     "developer_comment": "風見",
-    "string": "「啊……是，是的。写完了」"
+    "string": "「啊……是、是的。写完了」"
   },
   "001073": {
     "context": "001073",
@@ -750,7 +750,7 @@
     "context": "001177",
     "code": "0x45",
     "developer_comment": "",
-    "string": "风见带着阴沉的心情看着他的背影。#review"
+    "string": "风见阴沉地注视着他的背影。"
   },
   "001182": {
     "context": "001182",
@@ -762,7 +762,7 @@
     "context": "001187",
     "code": "0x45",
     "developer_comment": "",
-    "string": "而且，最近几天，他身上都是一副紧张的氛围。"
+    "string": "而且，最近几天，他带着一种剑拔弩张的气场。"
   },
   "001192": {
     "context": "001192",
