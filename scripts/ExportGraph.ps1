@@ -9,7 +9,7 @@ package.ReplaceStringTable(jpPackage, StringListModifier.LoadFile("string_list_m
 var mem = new MemoryStream();
 package.WriteTo(mem);
 var cnPackage = new SnPackage(mem.ToArray(), true);
-cnPackage.ApplyTranslations("../source_json/", "../zh_CN/", true);
+cnPackage.ApplyTranslations("../source_json/", "../zh_CN/", new TranslationSettings{ DebugChunkNum = true });
 var sceneTitles = await File.ReadAllLinesAsync("scene_titles");
 RawGraph.LoadPackage(cnPackage, package, sceneTitles).WithIndex().ForEach(p => p.element?.Save($"BranchViewer/data/{p.index:0000}.yaml"));
 
