@@ -426,24 +426,25 @@ public sealed class Script
 
         foreach (var code in Codes) {
             var index = $"{code.Index:000000}";
-            if (code is ScriptJumpCode scriptJumpCode && scriptJumpCode.TargetScript > 1) {
-
-                var prefix = code.Code switch {
-                    0x02 => @"jump-script ",
-                    0x04 => @"call-script ",
-                    _ => throw new InvalidDataException($"Is [{code.Code:X02}] script-jump-code???"),
-                };
+            if (code is ScriptJumpCode { TargetScript: > 1 } scriptJumpCode) {
                 dict.Add(index, new TranslationInfo {
                     Context = index,
                     Code = $"0x{code.Code:X2}",
-                    String = prefix + scriptJumpCode.TargetScript,
+                    String = @"jump-script " + scriptJumpCode.TargetScript,
+                });
+            }
+            else if (code is ScriptCallCode { TargetScript: > 1 } scriptCallCode) {
+                dict.Add(index, new TranslationInfo {
+                    Context = index,
+                    Code = $"0x{code.Code:X2}",
+                    String = @"call-script " + scriptCallCode.TargetScript,
                 });
             }
             else if (code is StringCode strCode) {
-                if (strCode is ExtraDialogCode dialogCode && dialogCode.IsCharacter) {
+                if (strCode is ExtraDialogCode { IsCharacter: true } dialogCode) {
                     currentName = strCode.Content;
                 }
-                else if (strCode is DialogCode || strCode is ExtraDialogCode) {
+                else if (strCode is DialogCode or ExtraDialogCode) {
                     dict.Add(index, new TranslationInfo {
                         Context = index,
                         Code = $"0x{strCode.Code:X2}",
@@ -477,11 +478,11 @@ public sealed class Script
     {
         foreach (var (index, translation) in translations) {
             var code = GetCodeAt(index);
-            if (!(code is StringCode strCode)) {
+            if (code is not StringCode strCode) {
                 throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
             }
 
-            if (strCode is ExtraDialogCode exDialog && exDialog.IsCharacter) {
+            if (strCode is ExtraDialogCode { IsCharacter: true } exDialog) {
                 throw new InvalidOperationException($"Corrupt translation: attempt to apply [{code}] at index {index} to {translation}");
             }
 

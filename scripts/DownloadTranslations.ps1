@@ -11,6 +11,7 @@ await DownloadTranslations(package, peeker
                  , projectSlug: "rootdouble_steam_cn"
                  , chunkFormatter: "source-json-chunk-{0:0000}-json--master"
                  , sysFormatter: "source-json-sys-{0}-json--master"
+                 , nameTable: "source-json-names-json--master"
 );
 
 "@

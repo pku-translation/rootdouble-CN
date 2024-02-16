@@ -250,7 +250,7 @@ public abstract class OpCode
 
 #if DEBUG
             // check parse result
-            if (!(opCode is TitleCode)) {
+            if (opCode is not TitleCode) {
                 reader.Seek(-opCode.GetTotalLength(reader));
                 var opBytes = reader.ReadBytesMax(opCode.GetTotalLength(reader));
                 System.Diagnostics.Debug.Assert(opBytes.SequenceEqual(opCode.ToBytes()), $"OpCode 0x{op:X02} parsing is invalid, raw=[{Utils.BytesToHex(opBytes)}, parsed=[{Utils.BytesToHex(opCode.ToBytes())}]");

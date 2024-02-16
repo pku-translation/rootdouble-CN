@@ -275,6 +275,7 @@ public sealed class SnPackage
     public void ApplyTranslations(FilePath sourceDir, FilePath translationDir, TranslationSettings settings)
     {
         if (Directory.EnumerateFiles(translationDir, "*.yaml").Any()) {
+            Utils.PrintColored(ConsoleColor.Blue, "Generate name table");
             var sourceNamesPath = sourceDir / "names.json";
             var sourceNameDict = Utils.DeserializeJsonFromFile<SortedDictionary<string, JObject>>(sourceNamesPath);
             var transNamesPath = translationDir / "names.yaml";
@@ -285,9 +286,11 @@ public sealed class SnPackage
             foreach (var (k, src) in sourceNameDict) {
                 var srcName = (string)src["string"]!;
                 if (transNameDict.TryGetValue(k, out var trans)) {
+                    Utils.PrintColored(ConsoleColor.Blue, $"{srcName} -> {trans}");
                     nameTable.Add(srcName, trans);
                 }
                 else {
+                    Utils.PrintWarning($"Name not translated: {srcName}");
                     nameTable.Add(srcName, srcName);
                 }
             }

@@ -377,7 +377,7 @@ public static class Program
             => (Content, Path) = (content, path);
     }
 
-    private static async IAsyncEnumerable<DownloadedContent<T>> EnumerateRawTranslations<T>(SnPackage package, ExecutableStringPeeker peeker, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string? token, Func<ResourceApi, Task<T>> getter)
+    private static async IAsyncEnumerable<DownloadedContent<T>> EnumerateRawTranslations<T>(SnPackage package, ExecutableStringPeeker peeker, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string nameTable, string? token, Func<ResourceApi, Task<T>> getter)
     {
         var client = new TransifexClient(transifexOrganization, token);
         var project = client.Project(projectSlug);
@@ -414,12 +414,28 @@ public static class Program
             yield return new DownloadedContent<T>(content, new FilePath("sys") / $"{name.Replace('-', '_')}");
             Console.WriteLine($"sys/{name} downloaded");
         }
+
+        {
+            var resource = project.Resource(nameTable);
+            T content;
+            while (true) {
+                try {
+                    content = await getter(resource);//await resource.GetRawTranslations("zh_CN");
+                    break;
+                }
+                catch (Flurl.Http.FlurlHttpTimeoutException) {
+                    Console.WriteLine($"name-table timeout, retrying");
+                }
+            }
+            yield return new DownloadedContent<T>(content, new FilePath("names"));
+            Console.WriteLine($"name-table downloaded");
+        }
     }
 
     [UsedImplicitly]
-    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string? token = null)
+    public static async Task DownloadTranslations(SnPackage package, ExecutableStringPeeker peeker, FilePath translationDir, string transifexOrganization, string projectSlug, string chunkFormatter, string sysFormatter, string nameTable, string? token = null)
     {
-        await foreach (var translation in EnumerateRawTranslations(package, peeker, transifexOrganization, projectSlug, chunkFormatter, sysFormatter, token,
+        await foreach (var translation in EnumerateRawTranslations(package, peeker, transifexOrganization, projectSlug, chunkFormatter, sysFormatter, nameTable, token,
             getter: res => res.GetRawTranslations("zh_CN")
         )) {
             await using (var writer = new StreamWriter(translationDir / translation.Path + ".json", false, Utils.Utf8) { NewLine = "\n" }) {
